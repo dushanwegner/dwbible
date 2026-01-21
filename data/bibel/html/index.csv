@@ -7,71 +7,68 @@ order,short_name,display_name,filename,byte_start,byte_end
 6,Josua,Josua,06-Josua.html,0,0
 7,Richter,Richter,07-Richter.html,0,0
 8,Rut,Rut,08-Rut.html,0,0
-9,1_Samuel,1. Samuel,09-1_Samuel.html,0,0
-10,2_Samuel,2. Samuel,10-2_Samuel.html,0,0
-11,1_Koenige,1. Könige,11-1_Koenige.html,0,0
-12,2_Koenige,2. Könige,12-2_Koenige.html,0,0
-13,1_Chronik,1. Chronik,13-1_Chronik.html,0,0
-14,2_Chronik,2. Chronik,14-2_Chronik.html,0,0
-15,Esra,Esra,15-Esra.html,0,0
-16,Nehemia,Nehemia,16-Nehemia.html,0,0
-17,Ester,Ester,17-Ester.html,0,0
-18,Hiob,Hiob,18-Hiob.html,0,0
-19,Psalmen,Psalmen,19-Psalmen.html,0,0
-20,Sprueche,Sprüche,20-Sprueche.html,0,0
-21,Prediger,Prediger,21-Prediger.html,0,0
-22,Hoheslied,Hoheslied,22-Hoheslied.html,0,0
-23,Jesaja,Jesaja,23-Jesaja.html,0,0
-24,Jeremia,Jeremia,24-Jeremia.html,0,0
-25,Klagelieder,Klagelieder,25-Klagelieder.html,0,0
-26,Hesekiel,Hesekiel,26-Hesekiel.html,0,0
-27,Daniel,Daniel,27-Daniel.html,0,0
-28,Hosea,Hosea,28-Hosea.html,0,0
-29,Joel,Joel,29-Joel.html,0,0
-30,Amos,Amos,30-Amos.html,0,0
-31,Obadja,Obadja,31-Obadja.html,0,0
-32,Jona,Jona,32-Jona.html,0,0
-33,Micha,Micha,33-Micha.html,0,0
-34,Nahum,Nahum,34-Nahum.html,0,0
-35,Habakuk,Habakuk,35-Habakuk.html,0,0
-36,Zefanja,Zefanja,36-Zefanja.html,0,0
-37,Haggai,Haggai,37-Haggai.html,0,0
-38,Sacharja,Sacharja,38-Sacharja.html,0,0
-39,Maleachi,Maleachi,39-Maleachi.html,0,0
-40,Judit,Judit,40-Judit.html,0,0
-41,Weisheit,Weisheit,41-Weisheit.html,0,0
-42,Tobit,Tobit,42-Tobit.html,0,0
-43,Sirach,Sirach,43-Sirach.html,0,0
-44,Baruch,Baruch,44-Baruch.html,0,0
-45,1_Makkabaeer,1. Makkabäer,45-1_Makkabaeer.html,0,0
-46,2_Makkabaeer,2. Makkabäer,46-2_Makkabaeer.html,0,0
-47,Zusaetze_Ester,Zusätze Ester,47-Zusaetze_Ester.html,0,0
-48,Zusaetze_Daniel,Zusätze Daniel,48-Zusaetze_Daniel.html,0,0
-49,Gebet_Manasses,Gebet Manasses,49-Gebet_Manasses.html,0,0
-50,Matthaeus,Matthäus,50-Matthaeus.html,0,0
-51,Markus,Markus,51-Markus.html,0,0
-52,Lukas,Lukas,52-Lukas.html,0,0
-53,Johannes,Johannes,53-Johannes.html,0,0
-54,Apostelgeschichte,Apostelgeschichte,54-Apostelgeschichte.html,0,0
-55,Roemer,Römer,55-Roemer.html,0,0
-56,1_Korinther,1. Korinther,56-1_Korinther.html,0,0
-57,2_Korinther,2. Korinther,57-2_Korinther.html,0,0
-58,Galater,Galater,58-Galater.html,0,0
-59,Epheser,Epheser,59-Epheser.html,0,0
-60,Philipper,Philipper,60-Philipper.html,0,0
-61,Kolosser,Kolosser,61-Kolosser.html,0,0
-62,1_Thessalonicher,1. Thessalonicher,62-1_Thessalonicher.html,0,0
-63,2_Thessalonicher,2. Thessalonicher,63-2_Thessalonicher.html,0,0
-64,1_Timotheus,1. Timotheus,64-1_Timotheus.html,0,0
-65,2_Timotheus,2. Timotheus,65-2_Timotheus.html,0,0
-66,Titus,Titus,66-Titus.html,0,0
-67,Philemon,Philemon,67-Philemon.html,0,0
-68,Hebraeer,Hebräer,68-Hebraeer.html,0,0
-69,Jakobus,Jakobus,69-Jakobus.html,0,0
-70,1_Petrus,1. Petrus,70-1_Petrus.html,0,0
-71,2_Petrus,2. Petrus,71-2_Petrus.html,0,0
-72,1_Johannes,1. Johannes,72-1_Johannes.html,0,0
-73,2_Johannes,2. Johannes,73-2_Johannes.html,0,0
-74,3_Johannes,3. Johannes,74-3_Johannes.html,0,0
-75,Judas,Judas,75-Judas.html,0,0
-76,Offenbarung,Offenbarung,76-Offenbarung.html,0,0
+9,1_Samuel,1 Samuel,09-1_Samuel.html,0,0
+10,2_Samuel,2 Samuel,10-2_Samuel.html,0,0
+11,1_Koenige,1 Könige,11-1_Koenige.html,0,0
+12,2_Koenige,2 Könige,12-2_Koenige.html,0,0
+13,1_Chronik,1 Chronik,13-1_Chronik.html,0,0
+14,2_Chronik,2 Chronik,14-2_Chronik.html,0,0
+15,1_Esra,1 Esra,15-1_Esra.html,0,0
+16,2_Esra_Nehemia,2 Esra Nehemia,16-2_Esra_Nehemia.html,0,0
+17,Tobit,Tobit,17-Tobit.html,0,0
+18,Judith,Judith,18-Judith.html,0,0
+19,Esther,Esther,19-Esther.html,0,0
+20,Hiob,Hiob,20-Hiob.html,0,0
+21,Psalmen,Psalmen,21-Psalmen.html,0,0
+22,Sprueche,Sprüche,22-Sprueche.html,0,0
+23,Prediger,Prediger,23-Prediger.html,0,0
+24,Hoheslied,Hoheslied,24-Hoheslied.html,0,0
+25,Weisheit,Weisheit,25-Weisheit.html,0,0
+26,Jesus_Sirach,Jesus Sirach,26-Jesus_Sirach.html,0,0
+27,Jesaja,Jesaja,27-Jesaja.html,0,0
+28,Jeremia,Jeremia,28-Jeremia.html,0,0
+29,Klagelieder,Klagelieder,29-Klagelieder.html,0,0
+30,Baruch,Baruch,30-Baruch.html,0,0
+31,Hesekiel,Hesekiel,31-Hesekiel.html,0,0
+32,Daniel,Daniel,32-Daniel.html,0,0
+33,Hosea,Hosea,33-Hosea.html,0,0
+34,Joel,Joel,34-Joel.html,0,0
+35,Amos,Amos,35-Amos.html,0,0
+36,Obadja,Obadja,36-Obadja.html,0,0
+37,Jona,Jona,37-Jona.html,0,0
+38,Micha,Micha,38-Micha.html,0,0
+39,Nahum,Nahum,39-Nahum.html,0,0
+40,Habakuk,Habakuk,40-Habakuk.html,0,0
+41,Zefanja,Zefanja,41-Zefanja.html,0,0
+42,Haggai,Haggai,42-Haggai.html,0,0
+43,Sacharja,Sacharja,43-Sacharja.html,0,0
+44,Maleachi,Maleachi,44-Maleachi.html,0,0
+45,1_Makkabaeer,1 Makkabäer,45-1_Makkabaeer.html,0,0
+46,2_Makkabaeer,2 Makkabäer,46-2_Makkabaeer.html,0,0
+47,Matthaeus,Matthäus,47-Matthaeus.html,0,0
+48,Markus,Markus,48-Markus.html,0,0
+49,Lukas,Lukas,49-Lukas.html,0,0
+50,Johannes,Johannes,50-Johannes.html,0,0
+51,Apostelgeschichte,Apostelgeschichte,51-Apostelgeschichte.html,0,0
+52,Roemer,Römer,52-Roemer.html,0,0
+53,1_Korinther,1 Korinther,53-1_Korinther.html,0,0
+54,2_Korinther,2 Korinther,54-2_Korinther.html,0,0
+55,Galater,Galater,55-Galater.html,0,0
+56,Epheser,Epheser,56-Epheser.html,0,0
+57,Philipper,Philipper,57-Philipper.html,0,0
+58,Kolosser,Kolosser,58-Kolosser.html,0,0
+59,1_Thessalonicher,1 Thessalonicher,59-1_Thessalonicher.html,0,0
+60,2_Thessalonicher,2 Thessalonicher,60-2_Thessalonicher.html,0,0
+61,1_Timotheus,1 Timotheus,61-1_Timotheus.html,0,0
+62,2_Timotheus,2 Timotheus,62-2_Timotheus.html,0,0
+63,Titus,Titus,63-Titus.html,0,0
+64,Philemon,Philemon,64-Philemon.html,0,0
+65,Hebraeer,Hebräer,65-Hebraeer.html,0,0
+66,Jakobus,Jakobus,66-Jakobus.html,0,0
+67,1_Petrus,1 Petrus,67-1_Petrus.html,0,0
+68,2_Petrus,2 Petrus,68-2_Petrus.html,0,0
+69,1_Johannes,1 Johannes,69-1_Johannes.html,0,0
+70,2_Johannes,2 Johannes,70-2_Johannes.html,0,0
+71,3_Johannes,3 Johannes,71-3_Johannes.html,0,0
+72,Judas,Judas,72-Judas.html,0,0
+73,Offenbarung,Offenbarung,73-Offenbarung.html,0,0
