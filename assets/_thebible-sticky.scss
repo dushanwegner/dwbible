@@ -5,6 +5,7 @@
   .thebible-sticky {
     position: -webkit-sticky;
     position: sticky;
+    top: 0;
     top: env(safe-area-inset-top, 0);
     z-index: 1000;
     background: #fff;
@@ -67,6 +68,7 @@
 .thebible-sticky {
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
   top: env(safe-area-inset-top, 0);
   z-index: 1000;
   background: #fff;

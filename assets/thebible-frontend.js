@@ -53,7 +53,15 @@
         // Approximate control/combining removal: strip general C0/C1 controls except tab/newline, and some combining marks
         s = s.replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F-\u009F]/g, '');
         // Drop characters that are not "word-ish" or punctuation/symbol/space; this is a conservative approximation
-        s = s.replace(/[^\p{L}\p{N}\p{P}\p{S}\s]/gu, '');
+        var reDisallowed = null;
+        try {
+            reDisallowed = new RegExp('[^\\p{L}\\p{N}\\p{P}\\p{S}\\s]', 'gu');
+        } catch (e) {
+            reDisallowed = null;
+        }
+        if (reDisallowed) {
+            s = s.replace(reDisallowed, '');
+        }
 
         var hasLeft = s.indexOf(qR) !== -1;  // «
         var hasRight = s.indexOf(qL) !== -1; // »
@@ -213,6 +221,16 @@
             el.classList.remove('is-disabled');
             el.removeAttribute('aria-disabled');
             el.removeAttribute('tabindex');
+        }
+    }
+
+    function setChText(el, text) {
+        if (!el) return;
+        var numEl = el.querySelector('[data-ch-num]');
+        if (numEl) {
+            numEl.textContent = text;
+        } else {
+            el.textContent = text;
         }
     }
 
@@ -441,14 +459,14 @@
         var info = selectionInfo();
         var elCh = bar.querySelector('[data-ch]');
         if (info && elCh) {
-            // Remember when we last had a non-empty selection so we can
-            // keep the share controls visible briefly after deselection.
             lastSelectionTime = Date.now();
-            elCh.textContent = buildRef(info).replace(/^.*?\s(.*)$/, '$1');
+            setChText(elCh, buildRef(info).replace(/^.*?\s(.*)$/, '$1'));
+            if (elCh.classList) elCh.classList.add('has-selection');
+            if (typeof closeChapterPicker === 'function') closeChapterPicker();
             if (controls) renderSelectionControls(info);
         } else {
-            // Selection cleared: restore the standard arrow controls immediately.
             ensureStandardControls();
+            if (elCh && elCh.classList) elCh.classList.remove('has-selection');
             lastSelectionTime = 0;
         }
         var topCut = window.innerHeight * 0.2;
@@ -505,9 +523,7 @@
             if (!ch) { ch = 1; }
 
             if (elCh) {
-                // When no verse is selected, show only the chapter number.
-                // The book name is already rendered in the separate [data-label] span.
-                elCh.textContent = String(ch);
+                setChText(elCh, String(ch));
             }
         }
         var off = currentOffset();
@@ -583,6 +599,73 @@
                 smoothToEl(topEl, off);
             });
         }
+    }
+
+    // --- Chapter picker grid ---
+    var maxCh = parseInt(bar.getAttribute('data-max-ch') || '0', 10);
+    var bookUrl = bar.getAttribute('data-book-url') || '';
+    var pickerBtn = bar.querySelector('.thebible-ch-picker');
+    var pickerGrid = null;
+
+    function buildChapterGrid() {
+        var grid = document.createElement('div');
+        grid.className = 'thebible-ch-grid';
+        for (var i = 1; i <= maxCh; i++) {
+            var a = document.createElement('a');
+            a.href = bookUrl + i;
+            a.textContent = i;
+            a.className = 'thebible-ch-grid__cell';
+            grid.appendChild(a);
+        }
+        bar.appendChild(grid);
+        return grid;
+    }
+
+    function highlightCurrentChapter() {
+        if (!pickerGrid) return;
+        var elCh = bar.querySelector('[data-ch]');
+        var numEl = elCh ? elCh.querySelector('[data-ch-num]') : null;
+        var ch = numEl ? parseInt((numEl.textContent || '').trim(), 10)
+                       : (elCh ? parseInt((elCh.textContent || '').trim(), 10) : 0);
+        var cells = pickerGrid.querySelectorAll('.thebible-ch-grid__cell');
+        for (var i = 0; i < cells.length; i++) {
+            cells[i].classList.toggle('is-current', parseInt(cells[i].textContent, 10) === ch);
+        }
+    }
+
+    function toggleChapterPicker() {
+        if (!pickerGrid) {
+            pickerGrid = buildChapterGrid();
+        }
+        var isOpen = pickerGrid.classList.toggle('is-open');
+        if (pickerBtn) pickerBtn.classList.toggle('is-open', isOpen);
+        if (isOpen) highlightCurrentChapter();
+    }
+
+    function closeChapterPicker() {
+        if (pickerGrid && pickerGrid.classList.contains('is-open')) {
+            pickerGrid.classList.remove('is-open');
+            if (pickerBtn) pickerBtn.classList.remove('is-open');
+        }
+    }
+
+    if (pickerBtn && maxCh > 1 && bookUrl) {
+        pickerBtn.addEventListener('click', function(e) {
+            if (this.classList.contains('has-selection')) return;
+            e.preventDefault();
+            e.stopPropagation();
+            toggleChapterPicker();
+        });
+        document.addEventListener('click', function(e) {
+            if (pickerGrid && pickerGrid.classList.contains('is-open')) {
+                if (!pickerBtn.contains(e.target) && !pickerGrid.contains(e.target)) {
+                    closeChapterPicker();
+                }
+            }
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeChapterPicker();
+        });
     }
 
     window.addEventListener('scroll', update, { passive: true });

@@ -287,6 +287,8 @@ class TheBible_Plugin {
         $prev_href = '#';
         $next_href = '#';
         $top_href = $bible_index;
+        $max_ch_val = 0;
+        $book_base_url = '';
         if (is_array($nav)) {
             $nav_book = $nav['book'] ?? '';
             $nav_ch = isset($nav['chapter']) ? absint($nav['chapter']) : 0;
@@ -341,6 +343,16 @@ class TheBible_Plugin {
 
                     $prev_href = esc_url(trailingslashit(home_url('/' . trim($slug_for_urls, '/') . '/' . $prev_book_url . '/' . $prev_ch)));
                     $next_href = esc_url(trailingslashit(home_url('/' . trim($slug_for_urls, '/') . '/' . $next_book_url . '/' . $next_ch)));
+
+                    $max_ch_val = $max_ch;
+                    $current_book_url = $nav_book_for_order;
+                    if ($is_combo && is_string($url_dataset) && $url_dataset !== '') {
+                        $cmapped = self::url_book_slug_for_dataset($nav_book_for_order, $url_dataset);
+                        if (is_string($cmapped) && $cmapped !== '') {
+                            $current_book_url = $cmapped;
+                        }
+                    }
+                    $book_base_url = esc_url(trailingslashit(home_url('/' . trim($slug_for_urls, '/') . '/' . $current_book_url)));
                 }
             }
         }
@@ -358,10 +370,19 @@ class TheBible_Plugin {
         // to avoid visual duplication like "Job Job 31".
         $sticky_ch_text = (string)$initial_ch;
 
-        $sticky = '<div class="thebible-sticky" data-slug="' . $book_slug_js . '"' . $data_attrs . '>'
+        $ch_picker_attrs = '';
+        if ($max_ch_val > 1 && $book_base_url !== '') {
+            $ch_picker_attrs = ' data-max-ch="' . intval($max_ch_val) . '" data-book-url="' . esc_attr($book_base_url) . '"';
+        }
+
+        $ch_el = ($max_ch_val > 1)
+            ? '<button type="button" class="thebible-ch-picker" data-ch aria-label="Select chapter"><span data-ch-num>' . esc_html($sticky_ch_text) . '</span> <span class="thebible-ch-picker__caret">&#9662;</span></button>'
+            : '<span class="thebible-sticky__chapter" data-ch>' . esc_html($sticky_ch_text) . '</span>';
+
+        $sticky = '<div class="thebible-sticky" data-slug="' . $book_slug_js . '"' . $data_attrs . $ch_picker_attrs . '>'
                 . '<div class="thebible-sticky__left">'
                 . '<span class="thebible-sticky__label" data-label>' . $book_label_html . '</span> '
-                . '<span class="thebible-sticky__chapter" data-ch>' . esc_html($sticky_ch_text) . '</span>'
+                . $ch_el
                 . '</div>'
                 . '<div class="thebible-sticky__controls">'
                 . '<a href="' . $prev_href . '" class="thebible-ctl thebible-ctl-prev" data-prev aria-label="Previous chapter">&#8592;</a>'
@@ -414,16 +435,36 @@ class TheBible_Plugin {
             || ! empty( get_query_var( self::QV_BOOK ) )
             || ! empty( get_query_var( self::QV_SLUG ) );
         if ( $is_bible ) {
-            $css_url = plugins_url( 'assets/thebible.css', __FILE__ );
-            wp_enqueue_style( 'thebible-styles', $css_url, [], '0.1.3' );
+            $base_ver = defined( 'THEBIBLE_VERSION' ) ? (string) THEBIBLE_VERSION : '';
+
+            $css_rel  = 'assets/thebible.css';
+            $css_url  = plugins_url( $css_rel, __FILE__ );
+            $css_path = plugin_dir_path( __FILE__ ) . $css_rel;
+            $css_ver  = $base_ver;
+            if ( is_string( $css_path ) && $css_path !== '' && file_exists( $css_path ) ) {
+                $css_ver .= '.' . (string) filemtime( $css_path );
+            }
+            wp_enqueue_style( 'thebible-styles', $css_url, [], $css_ver );
 
             // Enqueue theme script first (in the head) to prevent flash of unstyled content
-            $theme_js_url = plugins_url( 'assets/thebible-theme.js', __FILE__ );
-            wp_enqueue_script( 'thebible-theme', $theme_js_url, [], '0.1.0', false );
+            $theme_rel  = 'assets/thebible-theme.js';
+            $theme_js_url = plugins_url( $theme_rel, __FILE__ );
+            $theme_js_path = plugin_dir_path( __FILE__ ) . $theme_rel;
+            $theme_ver = $base_ver;
+            if ( is_string( $theme_js_path ) && $theme_js_path !== '' && file_exists( $theme_js_path ) ) {
+                $theme_ver .= '.' . (string) filemtime( $theme_js_path );
+            }
+            wp_enqueue_script( 'thebible-theme', $theme_js_url, [], $theme_ver, false );
             
             // Main frontend script in the footer
-            $js_url = plugins_url( 'assets/thebible-frontend.js', __FILE__ );
-            wp_enqueue_script( 'thebible-frontend', $js_url, [], '0.1.0', true );
+            $js_rel  = 'assets/thebible-frontend.js';
+            $js_url  = plugins_url( $js_rel, __FILE__ );
+            $js_path = plugin_dir_path( __FILE__ ) . $js_rel;
+            $js_ver  = $base_ver;
+            if ( is_string( $js_path ) && $js_path !== '' && file_exists( $js_path ) ) {
+                $js_ver .= '.' . (string) filemtime( $js_path );
+            }
+            wp_enqueue_script( 'thebible-frontend', $js_url, [], $js_ver, true );
         }
     }
 
@@ -1399,11 +1440,13 @@ class TheBible_Plugin {
         register_setting('thebible_options', 'thebible_autolink_base_url', [
             'type'              => 'string',
             'sanitize_callback' => function ($v) {
-                if (!isset($v) || $v === '') {
-                    $c = (string) get_option('thebible_autolink_base_url', '');
-                    return $c;
+                if (!isset($v)) {
+                    return (string) get_option('thebible_autolink_base_url', '');
                 }
-                return is_string($v) ? esc_url_raw($v) : '';
+                if (!is_string($v) || $v === '') {
+                    return '';
+                }
+                return esc_url_raw($v);
             },
             'default'           => '',
         ]);
