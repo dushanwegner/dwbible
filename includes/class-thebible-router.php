@@ -26,6 +26,7 @@ trait TheBible_Router_Trait {
         }
         $book = get_query_var(self::QV_BOOK);
         if ($book) {
+            if (self::maybe_redirect_external()) return;
             self::render_bible_page();
             return;
         }
@@ -36,9 +37,48 @@ trait TheBible_Router_Trait {
         }
         $flag = get_query_var(self::QV_FLAG);
         if ($flag) {
+            if (self::maybe_redirect_external()) return;
             self::render_index();
             return;
         }
+    }
+
+    /**
+     * Redirect user-facing bible pages to an external domain if configured.
+     *
+     * @return bool True if a redirect was issued, false otherwise.
+     */
+    private static function maybe_redirect_external() {
+        $base_url = get_option('thebible_autolink_base_url', '');
+        if (!is_string($base_url) || $base_url === '') {
+            return false;
+        }
+        $base_url = rtrim($base_url, '/');
+
+        $slug = get_query_var(self::QV_SLUG);
+        if (!is_string($slug) || $slug === '') { $slug = 'bible'; }
+        $book = get_query_var(self::QV_BOOK);
+        $ch   = get_query_var(self::QV_CHAPTER);
+        $vf   = get_query_var(self::QV_VFROM);
+        $vt   = get_query_var(self::QV_VTO);
+
+        $path = '/' . trim($slug, '/') . '/';
+        if (is_string($book) && $book !== '') {
+            $path .= trim($book, '/') . '/';
+            if ($ch) {
+                $path .= $ch;
+                if ($vf) {
+                    $path .= ':' . $vf;
+                    if ($vt && (int)$vt > (int)$vf) {
+                        $path .= '-' . $vt;
+                    }
+                }
+            }
+        }
+
+        $external_url = $base_url . $path;
+        wp_redirect($external_url, 301);
+        exit;
     }
 
     public static function render_bible_page() {

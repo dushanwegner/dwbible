@@ -1396,6 +1396,18 @@ class TheBible_Plugin {
             ]
         );
 
+        register_setting('thebible_options', 'thebible_autolink_base_url', [
+            'type'              => 'string',
+            'sanitize_callback' => function ($v) {
+                if (!isset($v) || $v === '') {
+                    $c = (string) get_option('thebible_autolink_base_url', '');
+                    return $c;
+                }
+                return is_string($v) ? esc_url_raw($v) : '';
+            },
+            'default'           => '',
+        ]);
+
         register_setting('thebible_options', 'thebible_votd_rss_title', [ 'type' => 'string', 'sanitize_callback' => function($v){ if (!isset($v)) return (string) get_option('thebible_votd_rss_title', 'Verse of the Day'); return is_string($v) ? sanitize_text_field($v) : 'Verse of the Day'; }, 'default' => 'Verse of the Day' ]);
         register_setting('thebible_options', 'thebible_votd_rss_lang_first', [ 'type' => 'string', 'sanitize_callback' => function($v){ if (!isset($v) || $v === '') { $c = (string) get_option('thebible_votd_rss_lang_first', 'bible'); return $c !== '' ? sanitize_key($c) : 'bible'; } return sanitize_key($v); }, 'default' => 'bible' ]);
         register_setting('thebible_options', 'thebible_votd_rss_lang_last', [ 'type' => 'string', 'sanitize_callback' => function($v){ if (!isset($v)) return (string) get_option('thebible_votd_rss_lang_last', ''); return is_string($v) ? sanitize_key($v) : ''; }, 'default' => '' ]);
@@ -1569,6 +1581,3 @@ class TheBible_Plugin {
 }
 
 TheBible_Plugin::init();
-
-require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-votd-widget.php';
-

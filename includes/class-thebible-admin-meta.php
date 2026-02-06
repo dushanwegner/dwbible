@@ -43,7 +43,7 @@ class TheBible_Admin_Meta {
             'bibel' => __('Deutsch (Menge)', 'thebible'),
             'latin' => __('Latin (Vulgata)', 'thebible'),
         ];
-        echo '<p><label for="thebible_slug_field">' . esc_html__('Use this Bible when auto-linking references in this content.', 'thebible') . '</label></p>';
+        echo '<p><label for="thebible_slug_field">' . esc_html__('Default Bible for ambiguous references (e.g. Gen, Dan, Mt). Language-specific names like Matthäus or Matthew are auto-detected.', 'thebible') . '</label></p>';
         echo '<select name="thebible_slug_field" id="thebible_slug_field" class="widefat">';
         foreach ($options as $slug => $label) {
             echo '<option value="' . esc_attr($slug) . '"' . selected($current, $slug, false) . '>' . esc_html($label) . '</option>';

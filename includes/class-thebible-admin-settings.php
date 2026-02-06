@@ -43,6 +43,8 @@ class TheBible_Admin_Settings {
         $og_refpos = (string) get_option('thebible_og_ref_position','bottom');
         $og_refalign = (string) get_option('thebible_og_ref_align','left');
 
+        $autolink_base_url = (string) get_option('thebible_autolink_base_url', '');
+
         $votd_rss_title = (string) get_option('thebible_votd_rss_title', 'Verse of the Day');
         $votd_rss_lang_first = (string) get_option('thebible_votd_rss_lang_first', 'bible');
         $votd_rss_lang_last = (string) get_option('thebible_votd_rss_lang_last', '');
@@ -252,6 +254,14 @@ class TheBible_Admin_Settings {
                                 <input type="hidden" name="thebible_slugs" id="thebible_slugs" value="<?php echo esc_attr( implode(',', $active ) ); ?>">
                                 <script>(function(){function sync(){var boxes=document.querySelectorAll('input[name="thebible_slugs_list[]"]');var out=[];boxes.forEach(function(b){if(b.checked) out.push(b.value);});document.getElementById('thebible_slugs').value=out.join(',');}document.addEventListener('change',function(e){if(e.target && e.target.name==='thebible_slugs_list[]'){sync();}});document.addEventListener('DOMContentLoaded',sync);})();</script>
                                 <p class="description">Select which bibles are publicly accessible. Others remain installed but routed pages are disabled.</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row"><label for="thebible_autolink_base_url">Autolink base URL</label></th>
+                            <td>
+                                <input type="url" class="regular-text" name="thebible_autolink_base_url" id="thebible_autolink_base_url" value="<?php echo esc_attr($autolink_base_url); ?>" placeholder="https://bible.example.com">
+                                <p class="description">Leave empty to link to this site. Set to a full URL (e.g. <code>https://bible.example.com</code>) to redirect bible pages and point autolinks to an external site.</p>
                             </td>
                         </tr>
 
