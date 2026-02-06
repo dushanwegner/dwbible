@@ -2,14 +2,14 @@
 /*
 * Plugin Name: The Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.02.06.02
+* Version: 1.26.02.06.03
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('THEBIBLE_VERSION')) {
-    define('THEBIBLE_VERSION', '1.26.02.06.02');
+    define('THEBIBLE_VERSION', '1.26.02.06.03');
 }
 
 // Load include classes before hooks are registered
