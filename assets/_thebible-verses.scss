@@ -27,7 +27,23 @@
 
       p {
         margin: 0 0 0.25em 0;
-        padding: 0.25em 0;
+        padding: 0.25em .2em;
+      }
+
+      .thebible-interlinear-entry.verse-highlight {
+        margin: 0;
+        padding: 0.25em .2em;
+        border-radius: 0;
+      }
+
+      .thebible-interlinear-entry.verse-highlight:first-child {
+        border-top-left-radius: .15rem;
+        border-top-right-radius: .15rem;
+      }
+
+      .thebible-interlinear-entry.verse-highlight:last-child {
+        border-bottom-left-radius: .15rem;
+        border-bottom-right-radius: .15rem;
       }
     }
 

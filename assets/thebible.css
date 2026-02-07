@@ -211,7 +211,20 @@
 }
 .thebible.thebible-interlinear .thebible-interlinear-verse p {
   margin: 0 0 0.25em 0;
-  padding: 0.25em 0;
+  padding: 0.25em 0.2em;
+}
+.thebible.thebible-interlinear .thebible-interlinear-verse .thebible-interlinear-entry.verse-highlight {
+  margin: 0;
+  padding: 0.25em 0.2em;
+  border-radius: 0;
+}
+.thebible.thebible-interlinear .thebible-interlinear-verse .thebible-interlinear-entry.verse-highlight:first-child {
+  border-top-left-radius: 0.15rem;
+  border-top-right-radius: 0.15rem;
+}
+.thebible.thebible-interlinear .thebible-interlinear-verse .thebible-interlinear-entry.verse-highlight:last-child {
+  border-bottom-left-radius: 0.15rem;
+  border-bottom-right-radius: 0.15rem;
 }
 .thebible.thebible-interlinear .thebible-interlinear-a {
   font-weight: 600;

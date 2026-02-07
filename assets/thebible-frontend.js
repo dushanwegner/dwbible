@@ -158,8 +158,17 @@
         ids.forEach(function(id){
             var el = document.getElementById(id);
             if (el) {
-                el.classList.add('verse-highlight');
-                if (!first) first = el;
+                var group = el.closest && el.closest('.thebible-interlinear-verse');
+                if (group) {
+                    var lines = group.querySelectorAll('.thebible-interlinear-entry');
+                    for (var i = 0; i < lines.length; i++) {
+                        lines[i].classList.add('verse-highlight');
+                    }
+                    if (!first) first = group;
+                } else {
+                    el.classList.add('verse-highlight');
+                    if (!first) first = el;
+                }
             }
         });
         if (first) {
@@ -252,20 +261,37 @@
         if (!id) return;
         var tgt = document.getElementById(id);
         if (!tgt) return;
-        var verse = null;
-        if (tgt.matches && tgt.matches('p')) {
-            verse = tgt;
-        } else if (tgt.closest) {
-            var p = tgt.closest('p');
-            if (p) verse = p;
+        var verses = [];
+        var group = tgt.closest && tgt.closest('.thebible-interlinear-verse');
+        if (group) {
+            verses = Array.prototype.slice.call(group.querySelectorAll('.thebible-interlinear-entry'));
+        } else {
+            var verse = null;
+            if (tgt.matches && tgt.matches('p')) {
+                verse = tgt;
+            } else if (tgt.closest) {
+                var p = tgt.closest('p');
+                if (p) verse = p;
+            }
+            if (verse) {
+                verses = [verse];
+            }
         }
-        if (!verse) return;
-        verse.classList.add('verse');
+        if (!verses || !verses.length) return;
+        for (var i = 0; i < verses.length; i++) {
+            verses[i].classList.add('verse');
+        }
         setTimeout(function(){
-            verse.classList.remove('verse-flash');
-            void verse.offsetWidth;
-            verse.classList.add('verse-flash');
-            setTimeout(function(){ verse.classList.remove('verse-flash'); }, 2000);
+            for (var j = 0; j < verses.length; j++) {
+                verses[j].classList.remove('verse-flash');
+                void verses[j].offsetWidth;
+                verses[j].classList.add('verse-flash');
+            }
+            setTimeout(function(){
+                for (var k = 0; k < verses.length; k++) {
+                    verses[k].classList.remove('verse-flash');
+                }
+            }, 2000);
         }, 0);
     }, true);
 
