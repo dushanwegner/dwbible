@@ -461,6 +461,7 @@ trait TheBible_Interlinear_Trait {
         }
 
         foreach ($verses as $v) {
+            $primary_id_set = false;
             $out .= '<div class="thebible-interlinear-verse thebible-interlinear-verse--v' . esc_attr((string)$v) . '"'
                 . ' data-verse="' . esc_attr((string)$v) . '"'
                 . ' data-book="' . esc_attr($canonical_key) . '"'
@@ -493,9 +494,10 @@ trait TheBible_Interlinear_Trait {
                 $node->setAttribute('data-dataset', (string) $dataset);
                 $node->setAttribute('data-line', (string) $class_suffix);
                 $node->setAttribute('data-line-index', (string) $idx);
-                if ($idx === 0) {
+                if (!$primary_id_set) {
                     $id = $canonical_key . '-' . $ch . '-' . $v;
                     $node->setAttribute('id', $id);
+                    $primary_id_set = true;
                 } else {
                     if ($node->hasAttribute('id')) { $node->removeAttribute('id'); }
                 }
