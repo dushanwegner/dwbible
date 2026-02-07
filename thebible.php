@@ -1451,6 +1451,14 @@ class TheBible_Plugin {
             'default'           => '',
         ]);
 
+        register_setting('thebible_options', 'thebible_autolink_latin_first', [
+            'type'              => 'string',
+            'sanitize_callback' => function ($v) {
+                return ($v === '1') ? '1' : '0';
+            },
+            'default'           => '0',
+        ]);
+
         register_setting('thebible_options', 'thebible_votd_rss_title', [ 'type' => 'string', 'sanitize_callback' => function($v){ if (!isset($v)) return (string) get_option('thebible_votd_rss_title', 'Verse of the Day'); return is_string($v) ? sanitize_text_field($v) : 'Verse of the Day'; }, 'default' => 'Verse of the Day' ]);
         register_setting('thebible_options', 'thebible_votd_rss_lang_first', [ 'type' => 'string', 'sanitize_callback' => function($v){ if (!isset($v) || $v === '') { $c = (string) get_option('thebible_votd_rss_lang_first', 'bible'); return $c !== '' ? sanitize_key($c) : 'bible'; } return sanitize_key($v); }, 'default' => 'bible' ]);
         register_setting('thebible_options', 'thebible_votd_rss_lang_last', [ 'type' => 'string', 'sanitize_callback' => function($v){ if (!isset($v)) return (string) get_option('thebible_votd_rss_lang_last', ''); return is_string($v) ? sanitize_key($v) : ''; }, 'default' => '' ]);

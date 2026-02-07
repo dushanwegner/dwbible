@@ -142,9 +142,19 @@ trait TheBible_Router_Trait {
 
     private static function canonical_book_slug_from_url($raw_book, $slug) {
         if (!is_string($raw_book) || $raw_book === '') return null;
-        if ($slug === 'latin-bible') {
-            $slug = 'bible';
+
+        // Combo slugs (e.g. latin-bible, latin-bibel): try each dataset in order.
+        if (strpos($slug, '-') !== false) {
+            $parts = array_values(array_filter(array_map('trim', explode('-', $slug))));
+            foreach ($parts as $part) {
+                $result = self::canonical_book_slug_from_url($raw_book, $part);
+                if ($result !== null) {
+                    return $result;
+                }
+            }
+            return null;
         }
+
         if ($slug !== 'bible' && $slug !== 'bibel' && $slug !== 'latin') {
             $slug = 'bible';
         }

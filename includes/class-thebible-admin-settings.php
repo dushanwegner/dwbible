@@ -44,6 +44,7 @@ class TheBible_Admin_Settings {
         $og_refalign = (string) get_option('thebible_og_ref_align','left');
 
         $autolink_base_url = (string) get_option('thebible_autolink_base_url', '');
+        $autolink_latin_first = get_option('thebible_autolink_latin_first', '0');
 
         $votd_rss_title = (string) get_option('thebible_votd_rss_title', 'Verse of the Day');
         $votd_rss_lang_first = (string) get_option('thebible_votd_rss_lang_first', 'bible');
@@ -262,6 +263,17 @@ class TheBible_Admin_Settings {
                             <td>
                                 <input type="url" class="regular-text" name="thebible_autolink_base_url" id="thebible_autolink_base_url" value="<?php echo esc_attr($autolink_base_url); ?>" placeholder="https://bible.example.com">
                                 <p class="description">Leave empty to link to this site. Set to a full URL (e.g. <code>https://bible.example.com</code>) to redirect bible pages and point autolinks to an external site.</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row"><label for="thebible_autolink_latin_first">Latin interlinear</label></th>
+                            <td>
+                                <label>
+                                    <input type="checkbox" name="thebible_autolink_latin_first" id="thebible_autolink_latin_first" value="1" <?php checked($autolink_latin_first === '1'); ?>>
+                                    Link to Latin-first interlinear pages
+                                </label>
+                                <p class="description">When enabled, autolinks point to interlinear pages with Latin as the primary text (e.g. <code>/latin-bible/genesis/1:1</code>). The second language is auto-detected from the reference. Books without a Latin version link normally.</p>
                             </td>
                         </tr>
 
@@ -627,13 +639,13 @@ johannes,3,16,18
                     <li><code>.verse</code> each verse paragraph (added at render time)</li>
                     <li><code>.verse-num</code> the verse number span within a verse paragraph</li>
                     <li><code>.verse-body</code> the verse text span within a verse paragraph</li>
-                    <li><code>.verse-num</code> the verse number span within a verse paragraph</li>
-                    <li><code>.verse-body</code> the verse text span within a verse paragraph</li>
                     <li><code>.verse-highlight</code> added when a verse is highlighted from a URL fragment</li>
                     <li><code>.thebible-sticky</code> top status bar with chapter info and controls
                         <ul style="list-style:circle;margin-left:1.2em;">
                             <li><code>.thebible-sticky__left</code>, <code>[data-label]</code>, <code>[data-ch]</code></li>
                             <li><code>.thebible-sticky__controls</code> with <code>.thebible-ctl</code> buttons (<code>[data-prev]</code>, <code>[data-top]</code>, <code>[data-next]</code>)</li>
+                            <li><code>.thebible-ch-picker</code> chapter number button (opens chapter grid)</li>
+                            <li><code>.thebible-ch-grid</code> chapter selection grid overlay</li>
                         </ul>
                     </li>
                     <li><code>.thebible-up</code> small up-arrow links inserted before chapters/verses</li>

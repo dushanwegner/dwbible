@@ -271,6 +271,18 @@ trait TheBible_AutoLink_Trait {
         $book_slug = self::slugify($short);
         if ($book_slug === '') return $m[0];
 
+        // Latin-first: rewrite to interlinear URL with Latin as primary text.
+        if (get_option('thebible_autolink_latin_first', '0') === '1' && $effective_slug !== 'latin') {
+            $canon = self::canonicalize_key_from_dataset_book_slug($effective_slug, $short);
+            if ($canon !== null) {
+                $latin_short = self::resolve_book_for_dataset($canon, 'latin');
+                if (is_string($latin_short) && $latin_short !== '') {
+                    $effective_slug = 'latin-' . $effective_slug;
+                    $book_slug = $canon; // canonical key resolves in all dataset combos
+                }
+            }
+        }
+
         $base_url = get_option('thebible_autolink_base_url', '');
         $origin = (is_string($base_url) && $base_url !== '') ? rtrim($base_url, '/') : home_url();
         $base = $origin . '/' . trim($effective_slug, '/') . '/' . $book_slug . '/';
