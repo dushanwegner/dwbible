@@ -354,6 +354,7 @@ trait TheBible_Interlinear_Trait {
         }
 
         $nav_blocks = '';
+        $first_dataset_book_slug = null;
         foreach ($datasets as $dataset_idx => $dataset) {
             if (!isset($entries[$dataset_idx]) || !is_array($entries[$dataset_idx]) || !isset($entries[$dataset_idx]['_raw_html'])) {
                 continue;
@@ -377,6 +378,7 @@ trait TheBible_Interlinear_Trait {
             // Keep chapters/verses navigation blocks from the first dataset
             if ($dataset_idx === 0) {
                 $nav_blocks = self::extract_nav_blocks_from_chapter_html($chapter_html);
+                $first_dataset_book_slug = self::slugify($entries[$dataset_idx]['short_name'] ?? '');
             }
 
             // Remove the chapter heading node to avoid duplicate/unstyled chapter titles
@@ -407,6 +409,16 @@ trait TheBible_Interlinear_Trait {
         }
         $verses = array_values(array_unique($verses));
         sort($verses);
+
+        if (is_string($nav_blocks) && $nav_blocks !== ''
+            && is_string($first_dataset_book_slug) && $first_dataset_book_slug !== ''
+            && $first_dataset_book_slug !== $canonical_key
+        ) {
+            $from = $first_dataset_book_slug . '-' . $ch . '-';
+            $to = $canonical_key . '-' . $ch . '-';
+            $nav_blocks = str_replace('#' . $from, '#' . $to, $nav_blocks);
+            $nav_blocks = str_replace('#' . rawurlencode($from), '#' . rawurlencode($to), $nav_blocks);
+        }
 
         if (empty($active_dataset_indices)) {
             // No dataset could provide the requested chapter; render a page with notices only.
