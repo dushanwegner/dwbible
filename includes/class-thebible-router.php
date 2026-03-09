@@ -28,18 +28,18 @@ trait TheBible_Router_Trait {
         if ($book) {
             if (self::maybe_redirect_external()) return;
             self::render_bible_page();
-            return;
+            exit; // prevent WP from continuing (e.g. home.php rendering after </body>)
         }
         $sitemap = get_query_var(self::QV_SITEMAP);
         if ($sitemap) {
             self::handle_sitemap();
-            return;
+            exit; // handle_sitemap() exits internally, but be safe
         }
         $flag = get_query_var(self::QV_FLAG);
         if ($flag) {
             if (self::maybe_redirect_external()) return;
             self::render_index();
-            return;
+            exit; // prevent WP from continuing (e.g. home.php rendering widgets after </body>)
         }
     }
 
