@@ -15,7 +15,15 @@ class TheBible_Abbreviations_Loader {
         $file = plugin_dir_path(__FILE__) . '../data/' . $slug . '/abbreviations.' . $lang . '.json';
         if (file_exists($file)) {
             $raw = file_get_contents($file);
+            if ($raw === false) {
+                error_log("TheBible: could not read abbreviation file: $file");
+                return $map;
+            }
             $data = json_decode($raw, true);
+            if (json_last_error() !== JSON_ERROR_NONE) {
+                error_log('TheBible: JSON parse error in ' . $file . ': ' . json_last_error_msg());
+                return $map;
+            }
             if (is_array($data) && !empty($data['books']) && is_array($data['books'])) {
                 foreach ($data['books'] as $short => $variants) {
                     if (!is_array($variants)) {

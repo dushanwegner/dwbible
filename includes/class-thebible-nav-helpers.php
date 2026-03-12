@@ -231,7 +231,8 @@ class TheBible_Nav_Helpers {
         if ($q_ch > 0 && $initial_ch <= 1) {
             $initial_ch = $q_ch;
         }
-        $book_slug_js = esc_js($book_slug_for_data);
+        // esc_attr(), not esc_js() — this value goes into an HTML data-attribute, not a JS string literal
+        $book_slug_js = esc_attr($book_slug_for_data);
 
         // Data attributes for highlight/scroll targets
         $data_attrs = '';

@@ -58,9 +58,28 @@ trait TheBible_AutoLink_Trait {
      * Each key maps to an array of entries: [ ['short' => ..., 'slug' => ...], ... ]
      * Entries with count > 1 are ambiguous (abbreviation exists in multiple languages).
      */
+    /**
+     * Invalidate the cached unified abbreviation map.
+     *
+     * Called automatically when the thebible_slugs option is saved so that
+     * any dataset changes take effect without requiring a process restart.
+     * Also available for manual cache-busting in tests or admin tools.
+     */
+    public static function reset_abbreviation_cache(): void {
+        self::$unified_abbr = null;
+    }
+
     private static function get_unified_abbreviation_map() {
         if (self::$unified_abbr !== null) {
             return self::$unified_abbr;
+        }
+
+        // Register cache-busting hook the first time the map is built.
+        // Fires whenever the slugs setting changes (new dataset added/removed).
+        static $hook_registered = false;
+        if (!$hook_registered) {
+            add_action('update_option_thebible_slugs', [__CLASS__, 'reset_abbreviation_cache']);
+            $hook_registered = true;
         }
 
         $list = get_option('thebible_slugs', 'bible,bibel');
