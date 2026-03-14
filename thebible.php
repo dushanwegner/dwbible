@@ -2,14 +2,14 @@
 /*
 * Plugin Name: The Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.03.12.01
+* Version: 1.26.03.14.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('THEBIBLE_VERSION')) {
-    define('THEBIBLE_VERSION', '1.26.03.12.01');
+    define('THEBIBLE_VERSION', '1.26.03.14.01');
 }
 
 // Load include classes before hooks are registered
@@ -729,13 +729,10 @@ class TheBible_Plugin {
         self::load_index();
         status_header(200);
         nocache_headers();
-        $slug = get_query_var(self::QV_SLUG);
-        if (!is_string($slug) || $slug === '') { $slug = 'bible'; }
-        $title = ($slug === 'bibel') ? 'Die Bibel' : (($slug === 'latin') ? 'Biblia Sacra' : 'The Bible');
         $content = self::build_index_html();
         $footer = self::render_footer_html();
         if ($footer !== '') { $content .= $footer; }
-        self::output_with_theme($title, $content, 'index');
+        self::output_with_theme('The Bible', $content, 'index');
     }
 
     private static function extract_chapter_from_html($html, $ch) {
@@ -857,6 +854,16 @@ class TheBible_Plugin {
         } elseif ($ch) {
             $title = $base_title . ' ' . $ch;
         }
+        // Insert bottom prev/next nav just before the language switcher (if present)
+        if (TheBible_Nav_Helpers::$last_nav_ctx) {
+            $bottom_nav = TheBible_Nav_Helpers::build_bottom_nav(TheBible_Nav_Helpers::$last_nav_ctx);
+            $switcher_pos = strpos($html, '<div class="thebible-language-switcher"');
+            if ($switcher_pos !== false) {
+                $html = substr_replace($html, $bottom_nav, $switcher_pos, 0);
+            } else {
+                $html .= $bottom_nav;
+            }
+        }
         $content = '<div class="thebible thebible-book">' . $html . '</div>';
         $footer = self::render_footer_html();
         if ($footer !== '') { $content .= $footer; }
@@ -874,32 +881,86 @@ class TheBible_Plugin {
         if (function_exists('get_footer')) get_footer();
     }
 
+    /**
+     * Book category definitions — order ranges and English labels.
+     */
+    private static function book_categories() {
+        return [
+            ['range' => [1, 5],   'testament' => 'ot', 'label' => 'Pentateuch'],
+            ['range' => [6, 19],  'testament' => 'ot', 'label' => 'Historical Books'],
+            ['range' => [20, 26], 'testament' => 'ot', 'label' => 'Wisdom Books'],
+            ['range' => [27, 46], 'testament' => 'ot', 'label' => 'Prophets'],
+            ['range' => [47, 50], 'testament' => 'nt', 'label' => 'Gospels'],
+            ['range' => [51, 65], 'testament' => 'nt', 'label' => 'Acts & Letters'],
+            ['range' => [66, 73], 'testament' => 'nt', 'label' => 'Catholic Epistles & Apocalypse'],
+        ];
+    }
+
+    /**
+     * Load index.csv for a specific dataset (bible, bibel, latin).
+     */
+    private static function load_dataset_index($dataset) {
+        $csv = plugin_dir_path(__FILE__) . 'data/' . $dataset . '/html/index.csv';
+        $parsed = TheBible_Index_Loader::load_index($csv);
+        return is_array($parsed) && isset($parsed['books']) ? $parsed['books'] : [];
+    }
+
+    /**
+     * Build the Bible homepage — categorized tile grid, bilingual (Douay-Rheims + modern).
+     *
+     * Shows the Douay-Rheims (bible) name as primary and the modern (latin dataset)
+     * name as a subtitle when the two differ. Links go to /bible/<slug>/.
+     */
     private static function build_index_html() {
-        list($ot, $nt) = self::book_groups();
-        $base = get_query_var(self::QV_SLUG);
-        if (!is_string($base) || $base === '') { $base = 'bible'; }
-        $home = home_url('/' . $base . '/');
+        $categories = self::book_categories();
+        $dr_books   = self::load_dataset_index('bible');  // Douay-Rheims names
+        $mod_books  = self::load_dataset_index('latin');  // Modern English names
+
+        // Build order→display_name lookup for the modern dataset
+        $modern_names = [];
+        foreach ($mod_books as $b) {
+            $display = !empty($b['display_name']) ? $b['display_name'] : $b['short_name'];
+            $modern_names[intval($b['order'])] = $display;
+        }
+
+        $base_url = home_url('/latin-bible/');
         $out = '<div class="thebible thebible-index">';
-        $out .= '<div class="thebible-groups">';
-        $ot_label = ($base === 'bibel') ? 'Altes Testament' : 'Old Testament';
-        $nt_label = ($base === 'bibel') ? 'Neues Testament' : 'New Testament';
-        $out .= '<section class="thebible-group thebible-ot"><h2>' . esc_html($ot_label) . '</h2><ul>';
-        foreach ($ot as $b) {
-            $slug = self::slugify($b['short_name']);
-            $url = trailingslashit($home) . $slug . '/';
-            $label = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
-            $out .= '<li><a href="' . esc_url($url) . '">' . esc_html($label) . '</a></li>';
+
+        $prev_testament = '';
+        foreach ($categories as $cat) {
+            // OT/NT divider
+            if ($cat['testament'] !== $prev_testament && $prev_testament !== '') {
+                $out .= '<hr class="thebible-testament-divider">';
+            }
+            $prev_testament = $cat['testament'];
+
+            $out .= '<section class="thebible-category">';
+            $out .= '<h3 class="thebible-category-label">' . esc_html($cat['label']) . '</h3>';
+            $out .= '<div class="thebible-tiles">';
+
+            foreach ($dr_books as $b) {
+                $order = intval($b['order']);
+                if ($order < $cat['range'][0] || $order > $cat['range'][1]) {
+                    continue;
+                }
+                $slug    = self::slugify($b['short_name']);
+                $dr_name = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
+                $mod_name = isset($modern_names[$order]) ? $modern_names[$order] : '';
+                $url     = trailingslashit($base_url) . $slug . '/';
+
+                $out .= '<a href="' . esc_url($url) . '" class="thebible-tile">';
+                $out .= '<span class="thebible-tile-name">' . esc_html($dr_name) . '</span>';
+                // Show modern name as subtitle only when it differs
+                if ($mod_name !== '' && $mod_name !== $dr_name) {
+                    $out .= '<span class="thebible-tile-alt">' . esc_html($mod_name) . '</span>';
+                }
+                $out .= '</a>';
+            }
+
+            $out .= '</div>';
+            $out .= '</section>';
         }
-        $out .= '</ul></section>';
-        $out .= '<section class="thebible-group thebible-nt"><h2>' . esc_html($nt_label) . '</h2><ul>';
-        foreach ($nt as $b) {
-            $slug = self::slugify($b['short_name']);
-            $url = trailingslashit($home) . $slug . '/';
-            $label = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
-            $out .= '<li><a href="' . esc_url($url) . '">' . esc_html($label) . '</a></li>';
-        }
-        $out .= '</ul></section>';
-        $out .= '</div>';
+
         $out .= '</div>';
         return $out;
     }

@@ -567,6 +567,16 @@ trait TheBible_Interlinear_Trait {
             $title = trim($base_title . ' ' . $ch . ':' . ($vf === $vt ? $vf : ($vf . '-' . $vt)));
         }
 
+        // Insert bottom prev/next nav just before the language switcher
+        if (TheBible_Nav_Helpers::$last_nav_ctx) {
+            $bottom_nav = TheBible_Nav_Helpers::build_bottom_nav(TheBible_Nav_Helpers::$last_nav_ctx);
+            $switcher_pos = strpos($out, '<div class="thebible-language-switcher"');
+            if ($switcher_pos !== false) {
+                $out = substr_replace($out, $bottom_nav, $switcher_pos, 0);
+            } else {
+                $out .= $bottom_nav;
+            }
+        }
         $footer = self::render_footer_html();
         if ($footer !== '') { $out .= $footer; }
         self::output_with_theme($title, $out, 'book');

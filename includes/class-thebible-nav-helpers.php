@@ -14,6 +14,9 @@ if (!defined('ABSPATH')) exit;
 
 class TheBible_Nav_Helpers {
 
+    /** Last computed nav context — available after inject() for bottom nav placement. */
+    public static $last_nav_ctx = null;
+
     /**
      * Inject navigation helpers into rendered book HTML.
      *
@@ -43,6 +46,7 @@ class TheBible_Nav_Helpers {
         $book_label = is_string($book_label) ? TheBible_Plugin::pretty_label($book_label) : '';
         $nav_ctx = self::compute_nav_urls($nav, $slug, $bible_index);
         $sticky = self::build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index);
+        self::$last_nav_ctx = $nav_ctx;
 
         return $sticky . $html;
     }
@@ -268,6 +272,22 @@ class TheBible_Nav_Helpers {
             . '<a href="' . $nav_ctx['top_href'] . '" class="thebible-ctl thebible-ctl-top" data-top aria-label="Bible index">&#8593;</a>'
             . '<a href="' . $nav_ctx['next_href'] . '" class="thebible-ctl thebible-ctl-next" data-next aria-label="Next chapter">&#8594;</a>'
             . '</div>'
+            . '</div>';
+    }
+
+    /**
+     * Build bottom prev/next navigation bar — mirrors the sticky header arrows.
+     * Public so render_book() can place it after the language switcher footer.
+     */
+    public static function build_bottom_nav($nav_ctx) {
+        $prev = $nav_ctx['prev_href'] ?? '#';
+        $next = $nav_ctx['next_href'] ?? '#';
+        $prev_disabled = ($prev === '#') ? ' is-disabled' : '';
+        $next_disabled = ($next === '#') ? ' is-disabled' : '';
+
+        return '<div class="thebible-bottom-nav">'
+            . '<a href="' . $prev . '" class="thebible-ctl thebible-ctl-prev' . $prev_disabled . '" aria-label="Previous chapter">&#8592;</a>'
+            . '<a href="' . $next . '" class="thebible-ctl thebible-ctl-next' . $next_disabled . '" aria-label="Next chapter">&#8594;</a>'
             . '</div>';
     }
 
