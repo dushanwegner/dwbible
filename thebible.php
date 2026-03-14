@@ -925,6 +925,7 @@ class TheBible_Plugin {
 
         $base_url = home_url('/latin-bible/');
         $out = '<div class="thebible thebible-index">';
+        $out .= '<h1 class="thebible-index-title">The Bible</h1>';
 
         $prev_testament = '';
         foreach ($categories as $cat) {

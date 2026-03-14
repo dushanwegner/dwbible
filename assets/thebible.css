@@ -424,6 +424,11 @@
    Index page — categorized book tile grid
    ----------------------------------------------------------------------- */
 
+/* Index page title */
+.thebible-index-title {
+  margin: 1.5rem 0;
+}
+
 /* Testament divider */
 .thebible-testament-divider {
   border: none;
