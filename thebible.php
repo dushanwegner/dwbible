@@ -2,14 +2,14 @@
 /*
 * Plugin Name: The Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.03.14.01
+* Version: 1.26.03.16.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('THEBIBLE_VERSION')) {
-    define('THEBIBLE_VERSION', '1.26.03.14.01');
+    define('THEBIBLE_VERSION', '1.26.03.16.01');
 }
 
 // Load include classes before hooks are registered
@@ -1266,13 +1266,13 @@ class TheBible_Plugin {
     public static function admin_menu() {
         // Top-level menu
         add_menu_page(
-            'The Bible',
-            'The Bible',
+            'LP Bible',
+            'LP Bible',
             'manage_options',
             'thebible',
             [ __CLASS__, 'render_settings_page' ],
             'dashicons-book-alt',
-            58
+            77
         );
 
         // Sub-pages: main settings (default), OG image/layout, and per-Bible footers
