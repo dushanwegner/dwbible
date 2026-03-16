@@ -1272,7 +1272,7 @@ class TheBible_Plugin {
             'thebible',
             [ __CLASS__, 'render_settings_page' ],
             'dashicons-book-alt',
-            77
+            36
         );
 
         // Sub-pages: main settings (default), OG image/layout, and per-Bible footers
