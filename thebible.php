@@ -2,19 +2,17 @@
 /*
 * Plugin Name: The Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.03.16.01
+* Version: 1.26.03.18.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('THEBIBLE_VERSION')) {
-    define('THEBIBLE_VERSION', '1.26.03.16.01');
+    define('THEBIBLE_VERSION', '1.26.03.18.01');
 }
 
 // Load include classes before hooks are registered
-require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-votd-admin.php';
-require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-votd-widget.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-admin-meta.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-og-image.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-reference.php';
@@ -37,8 +35,6 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-router.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-selftest.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-autolink.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-nav-helpers.php';
-require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-votd-rss.php';
-
 class TheBible_Plugin {
     use TheBible_Interlinear_Trait;
     use TheBible_Router_Trait;
@@ -53,7 +49,6 @@ class TheBible_Plugin {
     const QV_OG   = 'thebible_og';
     const QV_SITEMAP = 'thebible_sitemap';
     const QV_SELFTEST = 'thebible_selftest';
-    const QV_VOTD_RSS = 'thebible_votd_rss';
 
     private static $books = null; // array of [order, short_name, filename]
     private static $slug_map = null; // slug => array entry
@@ -70,7 +65,6 @@ class TheBible_Plugin {
     public static function init() {
         add_action('init', [__CLASS__, 'add_rewrite_rules']);
         add_action('init', [__CLASS__, 'maybe_flush_rewrite_rules'], 20);
-        add_action('init', ['TheBible_VOTD_Admin', 'register_votd_cpt']);
         add_filter('query_vars', [__CLASS__, 'add_query_vars']);
         add_action('template_redirect', [__CLASS__, 'handle_request']);
 
@@ -78,6 +72,9 @@ class TheBible_Plugin {
         add_action('admin_enqueue_scripts', [__CLASS__, 'admin_enqueue']);
         add_action('admin_menu', [__CLASS__, 'admin_menu']);
         add_action('admin_init', [__CLASS__, 'register_settings']);
+
+        // TODO: Delete this one-time VOTD cleanup block after it has run on production
+        add_action('admin_init', [__CLASS__, 'one_time_delete_votd_data']);
 
         add_filter('upload_mimes', [__CLASS__, 'allow_font_uploads']);
         add_filter('wp_check_filetype_and_ext', [__CLASS__, 'allow_font_filetype'], 10, 5);
@@ -87,22 +84,6 @@ class TheBible_Plugin {
 
         add_filter('manage_posts_columns', ['TheBible_Admin_Meta', 'add_bible_column']);
         add_action('manage_posts_custom_column', ['TheBible_Admin_Meta', 'render_bible_column'], 10, 2);
-
-        add_action('widgets_init', [__CLASS__, 'register_widgets']);
-        // Admin list enhancements for Verse of the Day CPT
-        add_filter('manage_edit-thebible_votd_columns', ['TheBible_VOTD_Admin', 'votd_columns']);
-        add_filter('manage_edit-thebible_votd_sortable_columns', ['TheBible_VOTD_Admin', 'votd_sortable_columns']);
-        add_action('manage_thebible_votd_posts_custom_column', ['TheBible_VOTD_Admin', 'render_votd_column'], 10, 2);
-        add_action('restrict_manage_posts', ['TheBible_VOTD_Admin', 'votd_date_filter']);
-        add_action('pre_get_posts', ['TheBible_VOTD_Admin', 'apply_votd_date_filter']);
-        add_action('admin_notices', ['TheBible_VOTD_Admin', 'votd_condense_notice']);
-        add_action('load-edit.php', ['TheBible_VOTD_Admin', 'handle_votd_condense_request']);
-        add_filter('bulk_actions-edit-thebible_votd', ['TheBible_VOTD_Admin', 'votd_register_bulk_actions']);
-        add_filter('handle_bulk_actions-edit-thebible_votd', ['TheBible_VOTD_Admin', 'votd_handle_bulk_actions'], 10, 3);
-
-        add_action('add_meta_boxes', ['TheBible_VOTD_Admin', 'add_votd_meta_box']);
-        add_action('save_post', ['TheBible_VOTD_Admin', 'save_votd_meta'], 10, 2);
-        add_action('save_post', ['TheBible_VOTD_Admin', 'flush_on_votd_save'], 10, 3);
 
         add_filter('the_content', [__CLASS__, 'filter_content_auto_link_bible_refs'], 20);
 
@@ -127,6 +108,51 @@ class TheBible_Plugin {
         self::add_rewrite_rules();
         flush_rewrite_rules(false);
         update_option('thebible_rewrite_version', THEBIBLE_VERSION);
+    }
+
+    /**
+     * One-time cleanup: delete all thebible_votd posts, post meta, and related options.
+     * TODO: Remove this method (and its hook in init()) after it has run on production.
+     */
+    public static function one_time_delete_votd_data() {
+        if (get_option('thebible_votd_cleanup_done')) {
+            return;
+        }
+
+        global $wpdb;
+
+        // Delete all VOTD post meta and posts in one sweep
+        $post_ids = $wpdb->get_col(
+            $wpdb->prepare("SELECT ID FROM {$wpdb->posts} WHERE post_type = %s", 'thebible_votd')
+        );
+
+        $deleted = 0;
+        foreach ($post_ids as $pid) {
+            if (wp_delete_post((int) $pid, true)) {
+                $deleted++;
+            }
+        }
+
+        // Clean up VOTD-related options
+        delete_option('thebible_votd_by_date');
+        delete_option('thebible_votd_all');
+        delete_option('thebible_votd_rss_title');
+        delete_option('thebible_votd_rss_lang_first');
+        delete_option('thebible_votd_rss_lang_last');
+        delete_option('thebible_votd_rss_date_format');
+        delete_option('thebible_votd_rss_description_tpl');
+        delete_option('thebible_votd_rss_days');
+
+        // Mark as done so this never runs again
+        update_option('thebible_votd_cleanup_done', '1', false);
+
+        if ($deleted > 0) {
+            add_action('admin_notices', function () use ($deleted) {
+                echo '<div class="notice notice-success is-dismissible"><p>'
+                    . 'VOTD cleanup: deleted ' . intval($deleted) . ' verse-of-the-day posts and related options.'
+                    . '</p></div>';
+            });
+        }
     }
 
     public static function add_settings_page() {
@@ -241,8 +267,6 @@ class TheBible_Plugin {
             // /{slug}/{book}/{chapter}
             add_rewrite_rule('^' . preg_quote($slug, '/') . '/([^/]+)/([0-9]+)/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug, 'top');
         }
-        // Verse of the Day RSS feed
-        add_rewrite_rule('^bible-votd\.rss$', 'index.php?' . self::QV_VOTD_RSS . '=1', 'top');
         // Sitemaps: English, German, and Latin (use unique endpoints to avoid conflicts with other sitemap plugins)
         add_rewrite_rule('^bible-sitemap-bible\.xml$', 'index.php?' . self::QV_SITEMAP . '=bible&' . self::QV_SLUG . '=bible', 'top');
         add_rewrite_rule('^bible-sitemap-bibel\.xml$', 'index.php?' . self::QV_SITEMAP . '=bibel&' . self::QV_SLUG . '=bibel', 'top');
@@ -298,12 +322,7 @@ class TheBible_Plugin {
         $vars[] = self::QV_OG;
         $vars[] = self::QV_SITEMAP;
         $vars[] = self::QV_SELFTEST;
-        $vars[] = self::QV_VOTD_RSS;
         return $vars;
-    }
-
-    public static function render_votd_rss() {
-        TheBible_VOTD_RSS::render();
     }
 
     private static function data_root_dir() {
@@ -468,46 +487,6 @@ class TheBible_Plugin {
         return trim($label);
     }
 
-    public static function register_votd_cpt() {
-        $labels = [
-            'name'                  => __('Verses of the Day', 'thebible'),
-            'singular_name'         => __('Verse of the Day', 'thebible'),
-            'add_new'               => __('Add New', 'thebible'),
-            'add_new_item'          => __('Add New Verse of the Day', 'thebible'),
-            'edit_item'             => __('Edit Verse of the Day', 'thebible'),
-            'new_item'              => __('New Verse of the Day', 'thebible'),
-            'view_item'             => __('View Verse of the Day', 'thebible'),
-            'search_items'          => __('Search Verses of the Day', 'thebible'),
-            'not_found'             => __('No verses of the day found.', 'thebible'),
-            'not_found_in_trash'    => __('No verses of the day found in Trash.', 'thebible'),
-            'all_items'             => __('Verses of the Day', 'thebible'),
-            'menu_name'             => __('Verse of the Day', 'thebible'),
-        ];
-
-        $args = [
-            'labels'             => $labels,
-            'public'             => false,
-            'show_ui'            => true,
-            'show_in_menu'       => true,
-            'show_in_nav_menus'  => false,
-            'show_in_admin_bar'  => false,
-            'exclude_from_search'=> true,
-            'publicly_queryable' => false,
-            'has_archive'        => false,
-            'hierarchical'       => false,
-            'supports'           => [],
-            'menu_position'      => null,
-        ];
-
-        register_post_type('thebible_votd', $args);
-    }
-
-    public static function register_widgets() {
-        if (class_exists('WP_Widget')) {
-            register_widget('TheBible_VOTD_Widget');
-        }
-    }
-
     private static function book_groups() {
         self::load_index();
         $ot = [];
@@ -667,51 +646,6 @@ class TheBible_Plugin {
         }
         if ($book_slug === '') return '';
         return self::extract_verse_text_from_html($html, $book_slug, $ch, $vf, $vt);
-    }
-
-    private static function extract_votd_texts_for_entry($entry) {
-        if (!is_array($entry)) return [];
-        $out = [];
-        $datasets = ['bible', 'bibel'];
-        foreach ($datasets as $dataset) {
-            $short = self::resolve_book_for_dataset($entry['book_slug'], $dataset);
-            if (!is_string($short) || $short === '') {
-                continue;
-            }
-            $index_file = plugin_dir_path(__FILE__) . 'data/' . $dataset . '/html/index.csv';
-            if (!file_exists($index_file)) {
-                continue;
-            }
-            $filename = '';
-            if (($fh = fopen($index_file, 'r')) !== false) {
-                $header = fgetcsv($fh);
-                while (($row = fgetcsv($fh)) !== false) {
-                    if (!is_array($row) || count($row) < 4) continue;
-                    if ((string) $row[1] === (string) $short) {
-                        $filename = (string) $row[3];
-                        break;
-                    }
-                }
-                fclose($fh);
-            }
-            if ($filename === '') {
-                continue;
-            }
-            $html_path = plugin_dir_path(__FILE__) . 'data/' . $dataset . '/html/' . $filename;
-            if (!file_exists($html_path)) {
-                continue;
-            }
-            $html = (string) file_get_contents($html_path);
-            if ($html === '') {
-                continue;
-            }
-            $book_slug = self::slugify($short);
-            $txt = self::extract_verse_text_from_html($html, $book_slug, (int) $entry['chapter'], (int) $entry['vfrom'], (int) $entry['vto']);
-            if (is_string($txt) && $txt !== '') {
-                $out[$dataset] = $txt;
-            }
-        }
-        return $out;
     }
 
     private static function normalize_whitespace($s) {
@@ -1125,7 +1059,7 @@ class TheBible_Plugin {
             'default'           => '0',
         ]);
 
-        // --- Data-driven settings (VOTD RSS + OG Image) ---
+        // --- Data-driven settings (OG Image) ---
         // Each: [option, wp_type, san_type, default, extra, null_only]
         //   san_type: string|text|key|url|toggle|enum|int|int_min|int_range|int_signed
         //   extra:    enum→[allowed], int_min→minimum, int_range→[min,max]
@@ -1154,13 +1088,6 @@ class TheBible_Plugin {
      */
     private static function setting_field_definitions() {
         return [
-            // VOTD RSS
-            ['thebible_votd_rss_title',           'string',  'text',       'Verse of the Day', null, true],
-            ['thebible_votd_rss_lang_first',      'string',  'key',        'bible'],
-            ['thebible_votd_rss_lang_last',       'string',  'key',        '',                 null, true],
-            ['thebible_votd_rss_date_format',     'string',  'enum',       'site',             ['site', 'de_numeric', 'ymd']],
-            ['thebible_votd_rss_description_tpl', 'string',  'string',     '{date} — {verse}'],
-            ['thebible_votd_rss_days',            'integer', 'int_range',  7,                  [1, 31]],
             // OG: general
             ['thebible_og_enabled',               'string',  'toggle',     '1'],
             ['thebible_og_width',                 'integer', 'int_min',    1200,               100],
@@ -1300,15 +1227,6 @@ class TheBible_Plugin {
             'Footers',
             'manage_options',
             'thebible_footers',
-            [ __CLASS__, 'render_settings_page' ]
-        );
-
-        add_submenu_page(
-            'thebible',
-            'Verse Importer',
-            'Verse Importer',
-            'manage_options',
-            'thebible_import',
             [ __CLASS__, 'render_settings_page' ]
         );
 

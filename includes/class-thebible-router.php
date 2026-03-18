@@ -19,11 +19,6 @@ trait TheBible_Router_Trait {
             exit;
         }
 
-        $votd_rss = get_query_var(self::QV_VOTD_RSS);
-        if (!empty($votd_rss)) {
-            self::render_votd_rss();
-            exit;
-        }
         $book = get_query_var(self::QV_BOOK);
         if ($book) {
             if (self::maybe_redirect_external()) return;

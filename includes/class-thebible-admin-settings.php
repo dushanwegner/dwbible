@@ -46,13 +46,6 @@ class TheBible_Admin_Settings {
         $autolink_base_url = (string) get_option('thebible_autolink_base_url', '');
         $autolink_latin_first = get_option('thebible_autolink_latin_first', '0');
 
-        $votd_rss_title = (string) get_option('thebible_votd_rss_title', 'Verse of the Day');
-        $votd_rss_lang_first = (string) get_option('thebible_votd_rss_lang_first', 'bible');
-        $votd_rss_lang_last = (string) get_option('thebible_votd_rss_lang_last', '');
-        $votd_rss_date_format = (string) get_option('thebible_votd_rss_date_format', 'site');
-        $votd_rss_desc_tpl = (string) get_option('thebible_votd_rss_description_tpl', '{date} — {verse}');
-        $votd_rss_days = (int) get_option('thebible_votd_rss_days', 7);
-
         // Handle footer save (all-at-once)
         if ( isset($_POST['thebible_footer_nonce_all']) && wp_verify_nonce( $_POST['thebible_footer_nonce_all'], 'thebible_footer_save_all' ) && current_user_can('manage_options') ) {
             foreach ($known as $fs => $label) {
@@ -119,121 +112,6 @@ class TheBible_Admin_Settings {
             echo '<div class="updated notice"><p>Bible sitemaps refreshed. If generation is heavy, it may take a moment for all URLs to be crawled.</p></div>';
         }
 
-        // Handle Verse Importer CSV (fills free dates from today onwards)
-        if ( isset($_POST['thebible_import_nonce']) && wp_verify_nonce($_POST['thebible_import_nonce'],'thebible_import') && current_user_can('manage_options') ) {
-            $raw_csv = isset($_POST['thebible_import_csv']) ? (string) wp_unslash($_POST['thebible_import_csv']) : '';
-            $today_str = current_time('Y-m-d');
-            if ($raw_csv !== '') {
-                $lines = preg_split("/\r\n|\r|\n/", $raw_csv);
-                $header = null;
-                $rows = [];
-                foreach ($lines as $line) {
-                    $line = trim((string) $line);
-                    if ($line === '') continue;
-                    if ($header === null) {
-                        $header = str_getcsv($line);
-                    } else {
-                        $rows[] = str_getcsv($line);
-                    }
-                }
-                $created = 0;
-                if (is_array($header) && !empty($rows)) {
-                    $index = [];
-                    foreach ($header as $i => $name) {
-                        $name = strtolower(trim((string)$name));
-                        if ($name !== '') { $index[$name] = $i; }
-                    }
-                    // Only citation fields are required; dataset_slug/date/text/note columns are ignored by the importer
-                    $required = ['canonical_book_key','chapter','verse_from','verse_to'];
-                    $has_all = true;
-                    foreach ($required as $key) {
-                        if (!isset($index[$key])) { $has_all = false; break; }
-                    }
-                    if ($has_all) {
-                        $cursor = new DateTime($today_str);
-                        $by_date = get_option('thebible_votd_by_date', []);
-                        $used = [];
-                        if (is_array($by_date)) {
-                            foreach ($by_date as $d => $_entry) {
-                                if (is_string($d) && $d !== '' && $d >= $today_str) {
-                                    $used[$d] = true;
-                                }
-                            }
-                        }
-                        foreach ($rows as $cols) {
-                            // Extract core fields
-                            $book_key = isset($cols[$index['canonical_book_key']]) ? trim((string)$cols[$index['canonical_book_key']]) : '';
-                            $chapter  = isset($cols[$index['chapter']]) ? (int)$cols[$index['chapter']] : 0;
-                            $vfrom    = isset($cols[$index['verse_from']]) ? (int)$cols[$index['verse_from']] : 0;
-                            $vto      = isset($cols[$index['verse_to']]) ? (int)$cols[$index['verse_to']] : 0;
-                            if ($book_key === '' || $chapter <= 0 || $vfrom <= 0) {
-                                continue;
-                            }
-                            if ($vto <= 0 || $vto < $vfrom) {
-                                $vto = $vfrom;
-                            }
-
-                            // Find next free date from cursor onwards
-                            while (true) {
-                                $d = $cursor->format('Y-m-d');
-                                if (!isset($used[$d])) {
-                                    break;
-                                }
-                                $cursor = $cursor->modify('+1 day');
-                            }
-                            $assigned_date = $cursor->format('Y-m-d');
-                            $used[$assigned_date] = true;
-                            // Advance cursor for next verse
-                            $cursor = $cursor->modify('+1 day');
-
-                            // Create VOTD post
-                            $post_id = wp_insert_post([
-                                'post_type'   => 'thebible_votd',
-                                'post_status' => 'publish',
-                                'post_title'  => '',
-                                'post_content'=> '',
-                            ], true);
-                            if (is_wp_error($post_id) || !$post_id) {
-                                continue;
-                            }
-
-                            update_post_meta($post_id, '_thebible_votd_book', $book_key);
-                            update_post_meta($post_id, '_thebible_votd_chapter', $chapter);
-                            update_post_meta($post_id, '_thebible_votd_vfrom', $vfrom);
-                            update_post_meta($post_id, '_thebible_votd_vto', $vto);
-                            update_post_meta($post_id, '_thebible_votd_date', $assigned_date);
-
-                            // Generate a title like save_votd_meta() does
-                            $entry = TheBible_Plugin::normalize_votd_entry(get_post($post_id));
-                            if (is_array($entry)) {
-                                $book_key_norm = $entry['book_slug'];
-                                $short = TheBible_Plugin::resolve_book_for_dataset($book_key_norm, 'bible');
-                                if (!is_string($short) || $short === '') {
-                                    $label = ucwords(str_replace('-', ' ', (string) $book_key_norm));
-                                } else {
-                                    $label = TheBible_Plugin::pretty_label($short);
-                                }
-                                $ref = $label . ' ' . $entry['chapter'] . ':' . ($entry['vfrom'] === $entry['vto'] ? $entry['vfrom'] : ($entry['vfrom'] . '-' . $entry['vto']));
-                                $title = $ref . ' (' . $entry['date'] . ')';
-                                wp_update_post([
-                                    'ID'         => $post_id,
-                                    'post_title' => $title,
-                                    'post_name'  => sanitize_title($title),
-                                ]);
-                            }
-
-                            $created++;
-                        }
-                        // Rebuild VOTD cache once after import
-                        if ($created > 0) {
-                            TheBible_VOTD_Admin::rebuild_votd_cache();
-                        }
-                    }
-                }
-
-                echo '<div class="updated notice"><p>Verse importer created ' . intval($created) . ' new Verse-of-the-Day entries, filling free dates from ' . esc_html($today_str) . ' onward.</p></div>';
-            }
-        }
         ?>
         <div class="wrap">
             <h1>The Bible</h1>
@@ -277,47 +155,6 @@ class TheBible_Admin_Settings {
                             </td>
                         </tr>
 
-                        <tr>
-                            <th scope="row"><label>Verse of the Day RSS</label></th>
-                            <td>
-                                <p><strong>Feed URL:</strong> <code><?php echo esc_html( home_url('/bible-votd.rss') ); ?></code></p>
-
-                                <p style="margin:.5em 0 .2em;"><label for="thebible_votd_rss_title">Feed title</label></p>
-                                <input type="text" class="regular-text" name="thebible_votd_rss_title" id="thebible_votd_rss_title" value="<?php echo esc_attr($votd_rss_title); ?>" />
-
-                                <p style="margin:.8em 0 .2em;"><label>Languages</label></p>
-                                <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap;">
-                                    <label for="thebible_votd_rss_lang_first">First</label>
-                                    <select name="thebible_votd_rss_lang_first" id="thebible_votd_rss_lang_first">
-                                        <?php foreach ( $active as $slug ): $slug = sanitize_key($slug); if ($slug==='') continue; ?>
-                                            <option value="<?php echo esc_attr($slug); ?>" <?php selected($votd_rss_lang_first === $slug); ?>><?php echo esc_html($slug); ?></option>
-                                        <?php endforeach; ?>
-                                    </select>
-                                    <label for="thebible_votd_rss_lang_last">Second (optional)</label>
-                                    <select name="thebible_votd_rss_lang_last" id="thebible_votd_rss_lang_last">
-                                        <option value="" <?php selected($votd_rss_lang_last === ''); ?>>— none —</option>
-                                        <?php foreach ( $active as $slug ): $slug = sanitize_key($slug); if ($slug==='') continue; ?>
-                                            <option value="<?php echo esc_attr($slug); ?>" <?php selected($votd_rss_lang_last === $slug); ?>><?php echo esc_html($slug); ?></option>
-                                        <?php endforeach; ?>
-                                    </select>
-                                </div>
-                                <p class="description">If a second language is selected, the feed item link will point to the interlinear URL (<code>first-second</code>).</p>
-
-                                <p style="margin:.8em 0 .2em;"><label for="thebible_votd_rss_date_format">Date format</label></p>
-                                <select name="thebible_votd_rss_date_format" id="thebible_votd_rss_date_format">
-                                    <option value="site" <?php selected($votd_rss_date_format === 'site'); ?>>Site default</option>
-                                    <option value="de_numeric" <?php selected($votd_rss_date_format === 'de_numeric'); ?>>German numeric (e.g. 1.4.2025)</option>
-                                    <option value="ymd" <?php selected($votd_rss_date_format === 'ymd'); ?>>ISO (YYYY-MM-DD)</option>
-                                </select>
-
-                                <p style="margin:.8em 0 .2em;"><label for="thebible_votd_rss_days">Number of days</label></p>
-                                <input type="number" min="1" max="31" name="thebible_votd_rss_days" id="thebible_votd_rss_days" value="<?php echo esc_attr($votd_rss_days); ?>" style="width:6em;"> <span class="description">Default: 7</span>
-
-                                <p style="margin:.8em 0 .2em;"><label for="thebible_votd_rss_description_tpl">Description template</label></p>
-                                <textarea name="thebible_votd_rss_description_tpl" id="thebible_votd_rss_description_tpl" class="large-text" rows="4"><?php echo esc_textarea($votd_rss_desc_tpl); ?></textarea>
-                                <p class="description">Available placeholders: <code>{date}</code>, <code>{verse}</code>, <code>{text1}</code>, <code>{text2}</code>, <code>{url}</code></p>
-                            </td>
-                        </tr>
                         <tr>
                             <th scope="row"><label>Sitemaps</label></th>
                             <td>
@@ -496,103 +333,7 @@ class TheBible_Admin_Settings {
                 <?php submit_button(); ?>
             </form>
 
-            <?php elseif ( $page === 'thebible_import' ) : ?>
-
-            <h2>Verse Importer (CSV)</h2>
-
-            <form method="post">
-                <?php wp_nonce_field('thebible_import','thebible_import_nonce'); ?>
-
-            <p class="description">
-                This page documents a machine-friendly CSV format for importing verses into The Bible plugin.
-                Paste CSV data into the textarea below to be consumed by an external importer or future automation.
-                No data is imported yet; this UI is documentation and a staging area only.
-            </p>
-
-            <h3>CSV format overview</h3>
-            <p>
-                The importer expects a UTF-8 CSV with a header row and one verse (or verse range) per line.
-                Columns are designed to be unambiguous for an AI or script:
-            </p>
-
-            <table class="widefat striped" style="max-width:960px;margin-top:1em;">
-                <thead>
-                    <tr>
-                        <th scope="col">Column</th>
-                        <th scope="col">Required?</th>
-                        <th scope="col">Example</th>
-                        <th scope="col">Meaning</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><code>canonical_book_key</code></td>
-                        <td>Yes</td>
-                        <td><code>john</code>, <code>psalms</code></td>
-                        <td>
-                            Canonical book key as used by <code>book_map.json</code> and VOTD (see <code>list_canonical_books()</code>).
-                            The mapping in <code>book_map.json</code> determines the correct title for each language, so no separate bible/bibel column is needed.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><code>chapter</code></td>
-                        <td>Yes</td>
-                        <td><code>3</code></td>
-                        <td>Positive integer chapter number within the book.</td>
-                    </tr>
-                    <tr>
-                        <td><code>verse_from</code></td>
-                        <td>Yes</td>
-                        <td><code>16</code></td>
-                        <td>First verse number in the range (inclusive).</td>
-                    </tr>
-                    <tr>
-                        <td><code>verse_to</code></td>
-                        <td>Optional</td>
-                        <td><code>18</code> or empty</td>
-                        <td>Last verse number in the range (inclusive). If empty or &lt; <code>verse_from</code>, treat as a single verse.</td>
-                    </tr>
-                    <tr>
-                        <td><code>date</code></td>
-                        <td>Ignored</td>
-                        <td>(leave empty)</td>
-                        <td>
-                            The importer always assigns dates automatically from today forward, filling free days.
-                            You may omit this column entirely or leave it empty; it is not read.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <h3>Header and example rows</h3>
-            <p>Recommended header line (only citation fields):</p>
-            <pre class="code">canonical_book_key,chapter,verse_from,verse_to</pre>
-
-            <p>Example lines (one single verse and one range):</p>
-            <pre class="code" style="white-space:pre-wrap;">
-john,3,16,
-johannes,3,16,18
-            </pre>
-
-            <h3>Staging textarea</h3>
-            <p>
-                Use this textarea as a scratchpad when preparing CSV data (for example, when collaborating with an AI that generates verses).
-                The prefilled text below is written as direct instructions that an AI can follow to emit valid CSV for this importer.
-            </p>
-
-            <?php
-                $instructions_file = plugin_dir_path( __FILE__ ) . '../assets/verse-csv-instructions.txt';
-                $instructions      = '';
-                if ( file_exists( $instructions_file ) ) {
-                    $instructions = (string) file_get_contents( $instructions_file );
-                }
-            ?>
-            <textarea class="large-text code" rows="16" style="max-width:960px;" name="thebible_import_csv"><?php echo esc_textarea( $instructions ); ?></textarea>
-
-                <?php submit_button( __( 'Import verses (fill free dates from today)', 'thebible' ) ); ?>
-            </form>
-
-            <?php endif; // $page === 'thebible' / 'thebible_og' / 'thebible_import' ?>
+            <?php endif; // $page === 'thebible' / 'thebible_og' ?>
 
             <?php if ( $page === 'thebible_footers' ) : ?>
 

@@ -10,14 +10,6 @@ trait TheBible_SelfTest_Trait {
             return function_exists('get_option');
         });
 
-        $results[] = self::selftest_check('votd_post_type_exists', function() {
-            return function_exists('post_type_exists') && post_type_exists('thebible_votd');
-        });
-
-        $results[] = self::selftest_check('votd_widget_class_exists', function() {
-            return class_exists('TheBible_VOTD_Widget');
-        });
-
         $results[] = self::selftest_check('og_renderer_class_exists', function() {
             return class_exists('TheBible_OG_Image') && method_exists('TheBible_OG_Image', 'render');
         });
