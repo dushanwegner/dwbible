@@ -47,13 +47,13 @@
       }
     }
 
-    /* First language / primary line */
-    .thebible-interlinear-a {
+    /* First language / primary line — only bold when multiple languages shown */
+    &[data-datasets*=","] .thebible-interlinear-a {
       font-weight: 600;
       padding-bottom: 0.5em;
-      .verse-num {
-        opacity: 0.5;
-      }
+    }
+    .thebible-interlinear-a .verse-num {
+      opacity: 0.5;
     }
 
     /* Second / third language lines */

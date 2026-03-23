@@ -110,6 +110,13 @@
   }
 }
 
+// Bottom prev/next navigation
+.thebible-bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
 // Chapter picker button
 .thebible-ch-picker {
   background: none;

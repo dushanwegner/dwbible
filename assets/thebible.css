@@ -103,6 +103,13 @@
   pointer-events: none;
 }
 
+/* Bottom prev/next navigation */
+.thebible-bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
 /* Chapter picker button */
 .thebible-ch-picker {
   background: none;
@@ -214,9 +221,9 @@
   border-bottom-right-radius: 0.15rem;
 }
 .thebible.thebible-interlinear {
-  /* First language / primary line */
+  /* First language / primary line — only bold when multiple languages shown */
 }
-.thebible.thebible-interlinear .thebible-interlinear-a {
+.thebible.thebible-interlinear[data-datasets*=","] .thebible-interlinear-a {
   font-weight: 600;
   padding-bottom: 0.5em;
 }
