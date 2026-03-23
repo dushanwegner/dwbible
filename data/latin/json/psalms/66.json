@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 66 — 42 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 66 — 21 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 66,
-    "verseCount": 42,
+    "verseCount": 21,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 66:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "victori canticum psalmi iubilate Deo omnis terra",
-      "citation": "Psalms 66:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori in psalmis canticum carminis",
-      "citation": "Psalms 66:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "psalmum dicite nomini eius date gloriam laudi eius",
-      "citation": "Psalms 66:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "cantate gloriam nomini eius date gloriam laudi eius",
       "citation": "Psalms 66:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 66:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "dicite Deo quam terribile opus tuum in multitudine fortitudinis tuae mentientur tibi inimici tui",
-      "citation": "Psalms 66:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "omnis terra adorent te et psallant tibi psalmum dicant nomini tuo diapsalma",
-      "citation": "Psalms 66:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "omnis terra adoret te et cantet tibi cantet nomini tuo semper",
       "citation": "Psalms 66:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 66:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "venite et videte opera Dei terribilia consilia super filiis hominum",
-      "citation": "Psalms 66:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "qui convertit mare in aridam in flumine pertransibunt pede ibi laetabimur in ipso",
-      "citation": "Psalms 66:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "convertit mare in aridam in flumine pertransibunt pede ibi laetabimur in eo",
       "citation": "Psalms 66:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 66:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "qui dominatur in fortitudine sua saeculo oculi eius gentes aspiciunt qui increduli sunt non exaltentur in semet ipsis semper",
-      "citation": "Psalms 66:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "benedicite gentes Deum nostrum et auditam facite vocem laudis eius",
-      "citation": "Psalms 66:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "benedicite populi Deo nostro et auditam facite vocem laudis eius",
       "citation": "Psalms 66:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 66:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "qui posuit animam nostram in vitam et non dedit in commotione pedes nostros",
-      "citation": "Psalms 66:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "quoniam probasti nos Deus igne nos examinasti sicut examinatur argentum",
-      "citation": "Psalms 66:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "probasti enim nos Deus igne nos conflasti sicut conflatur argentum",
       "citation": "Psalms 66:10 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 66:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "introduxisti nos in obsidione posuisti stridorem in dorso nostro",
-      "citation": "Psalms 66:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "inposuisti homines super capita nostra transivimus per ignem et aquam et eduxisti nos in refrigerium",
-      "citation": "Psalms 66:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "inposuisti homines super caput nostrum transivimus per ignem et aquam et eduxisti nos in refrigerium",
       "citation": "Psalms 66:12 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 66:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "ingrediar domum tuam in holocaustis reddam tibi vota mea",
-      "citation": "Psalms 66:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "quae distinxerunt labia mea et locutum est os meum in tribulatione mea",
-      "citation": "Psalms 66:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "quae promiserunt tibi labia mea et locutum est os meum cum tribularer",
       "citation": "Psalms 66:14 (Clementine Vulgate)"
     },
     {
@@ -188,18 +113,8 @@
       "citation": "Psalms 66:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "holocausta medullata offeram tibi cum incensu arietum faciam boves cum hircis semper",
-      "citation": "Psalms 66:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "venite audite et narrabo omnes qui timetis Deum quanta fecit animae meae",
-      "citation": "Psalms 66:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "venite audite et narrabo omnes qui timetis Deum quanta fecerit animae meae",
       "citation": "Psalms 66:16 (Clementine Vulgate)"
     },
     {
@@ -208,18 +123,8 @@
       "citation": "Psalms 66:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "ipsum ore meo invocavi et exaltavi in lingua mea",
-      "citation": "Psalms 66:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "iniquitatem si aspexi in corde meo non exaudiat Dominus",
-      "citation": "Psalms 66:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "iniquitatem si vidi in corde meo non exaudiat Dominus",
       "citation": "Psalms 66:18 (Clementine Vulgate)"
     },
     {
@@ -228,18 +133,8 @@
       "citation": "Psalms 66:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "ideo exaudivit Deus et adtendit vocem deprecationis meae",
-      "citation": "Psalms 66:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "benedictus Deus qui non amovit orationem meam et misericordiam suam a me",
-      "citation": "Psalms 66:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "benedictus Deus qui non abstulit orationem meam et misericordiam suam a me",
       "citation": "Psalms 66:20 (Clementine Vulgate)"
     }
   ]

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Baruch, Chapter 1 — 19 verses (Clementine Vulgate)",
+    "content": "Baruch, Chapter 1 — 93 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "baruch",
       "testament": "OT",
       "order": 30,
-      "totalChapters": 10
+      "totalChapters": 5
     },
     "chapter": 1,
-    "verseCount": 19,
+    "verseCount": 93,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/baruch/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,98 +34,468 @@
   "verses": [
     {
       "verse": 1,
-      "text": "factum est autem cum audisset Sanaballat et Tobia et Gosem Arabs et ceteri inimici nostri quod aedificassem ego murum et non esset in ipso residua interruptio usque ad tempus autem illud valvas non posueram in portis",
+      "text": "et haec verba libri quae scripsit Baruch filius Neeri filius Maasei filii Sedechiae filii Sedei filii Helchiae in Babylonia",
+      "citation": "Baruch 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "exemplum epistulae quam misit Hieremias ad abductos captivos in Babyloniam a rege Babyloniorum ut nuntiaret illis secundum quod praeceptum est illi a Deo propter peccata quae peccastis ante Deum abducemini in Babyloniam captivi a Nabuchodonosor rege Babylonum",
       "citation": "Baruch 1:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "miserunt Sanaballat et Gosem ad me dicentes veni et percutiamus foedus pariter in viculis in campo Ono ipsi autem cogitabant ut facerent mihi malum",
+      "text": "in anno quinto in septima die mensis in tempore quo ceperunt Chaldei Hierusalem et succenderunt eam igni",
+      "citation": "Baruch 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ingressi itaque in Babyloniam eritis illic annis plurimis et tempus longum usque ad generationes septem post hoc autem educam vos inde cum pace",
       "citation": "Baruch 1:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "misi ergo ad eos nuntios dicens opus grande ego facio et non possum descendere ne forte neglegatur cum venero et descendero ad vos",
+      "text": "et legit Baruch verba libri huius ad aures Iechoniae filii Ioachim regis Iuda et ad aures universi populi venientis ad librum",
+      "citation": "Baruch 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "nunc autem videbitis in Babylonia deos aureos et argenteos et lapideos et ligneos in umeros portari ostentantes metum gentibus",
       "citation": "Baruch 1:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "miserunt autem ad me secundum verbum hoc per quattuor vices et respondi eis iuxta sermonem priorem",
+      "text": "et ad aures potentium filiorum regum et ad aures presbyterorum et ad aures populi a minimo usque ad magnum eorum omnium habitantium in Babylonia ad flumen Sudi",
+      "citation": "Baruch 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "videte ergo ne et vos similes efficiamini factis alienis et metuatis et metus vos capiat in ipsis",
       "citation": "Baruch 1:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "et misit ad me Sanaballat iuxta verbum prius quinta vice puerum suum et epistulam habebat in manu scriptam hoc modo",
+      "text": "qui audientes plorabant et ieiunabant et orabant in conspectu Domini",
+      "citation": "Baruch 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "visa itaque turba de retro et ab ante adorantes dicite in cordibus vestris tibi oportet adorari Domine",
       "citation": "Baruch 1:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "in gentibus auditum est et Gosem dixit quod tu et Iudaei cogitetis rebellare et propterea aedifices murum et levare te velis super eos regem propter quam causam",
+      "text": "et collegerunt pecuniam secundum quod potuit uniuscuiusque manus",
+      "citation": "Baruch 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "angelus autem meus vobiscum est ipse autem exquiram animas vestras",
       "citation": "Baruch 1:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "et prophetas posueris qui praedicent de te in Hierusalem dicentes rex in Iudaea est auditurus est rex verba haec idcirco nunc veni ut ineamus consilium pariter",
+      "text": "et miserunt in Hierusalem ad Ioachim filium Helchiae filii Salom sacerdotem et ad sacerdotes et ad omnem populum qui inventi sunt cum eo in Hierusalem",
+      "citation": "Baruch 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "nam lingua ipsorum polita a fabro ipsa etiam inaurata et inargentata falsa sunt et non possunt loqui",
       "citation": "Baruch 1:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "et misi ad eos dicens non est factum secundum verba haec quae tu loqueris de corde enim tuo tu conponis haec",
+      "text": "cum acciperet vasa templi Domini quae ablata fuerant de templo revocare in terram Iuda decima die illius sivan vasa argentea quae fecit Sedechias filius Iosiae rex Iuda",
+      "citation": "Baruch 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et sicut virgini amanti ornamenti ita accepto auro fabricati sunt",
       "citation": "Baruch 1:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "omnes autem hii terrebant nos cogitantes quod cessarent manus nostrae ab opere et quiesceremus quam ob causam magis confortavi manus meas",
+      "text": "posteaquam cepisset Nabuchodonosor rex Babylonum Iechoniam et principes et vinctos et potentes et populum terrae ab Hierusalem et duxit eos in Babyloniam",
+      "citation": "Baruch 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "coronas certe habent aureas super capita sua dii illorum unde subtrahent sacerdotes ab eis aurum et argentum et erogant illud in semet ipsis",
       "citation": "Baruch 1:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "et ingressus sum domum Samaiae filii Dalaiae filii Metabehel secreto qui ait tractemus nobiscum in domo Dei in medio templi et claudamus portas aedis quia venturi sunt ut interficiant te et nocte venturi sunt ad occidendum te",
+      "text": "et dixerunt ecce misimus ad vos pecunias de quibus emite holocaustomata et tus et facite manna et offerte pro peccato ad aram Domini Dei nostri",
+      "citation": "Baruch 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "dant autem et ex ipso prostitutis et meretrices ornant et iterum cum receperint illud a meretricibus ornant deos suos",
       "citation": "Baruch 1:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "et dixi num quisquam similis mei fugit et quis ut ego ingredietur templum et vivet non ingrediar",
+      "text": "et orate pro vita Nabuchodonosor regis Babyloniae et pro vita Balthasar filii eius ut sint dies ipsorum sicut dies caeli super terram",
+      "citation": "Baruch 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "hii autem non liberantur ab erugine et tinea",
       "citation": "Baruch 1:11 (Clementine Vulgate)"
     },
     {
       "verse": 12,
-      "text": "et intellexi quod Deus non misisset eum sed quasi vaticinans locutus esset ad me et Tobia et Sanaballat conduxissent eum",
+      "text": "et det Dominus virtutem nobis et inluminet oculos nostros ut vivamus sub umbra Nabuchodonosor regis Babyloniae et sub umbra Balthasar filii eius et serviamus eis multis diebus et inveniamus gratiam in conspectu eorum",
+      "citation": "Baruch 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "opertis autem illis veste purpurea extergent faciem ipsorum propter pulverem domus qui est plurimus inter eos",
       "citation": "Baruch 1:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
-      "text": "acceperat enim pretium ut territus facerem et peccarem et haberent malum quod exprobrarent mihi",
+      "text": "et pro nobis ipsis orate ad Dominum Deum nostrum quia peccavimus Domino Deo nostro et non est aversus furor eius a nobis usque in hunc diem",
+      "citation": "Baruch 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sceptrum autem habet ut homo sicut iudex regionis qui in se peccantem non interficit",
       "citation": "Baruch 1:13 (Clementine Vulgate)"
     },
     {
       "verse": 14,
-      "text": "memento Domine mei pro Tobia et Sanaballat iuxta opera eorum talia sed et Noadiae prophetae et ceterorum prophetarum qui terrebant me",
+      "text": "et legite librum istum quem misimus ad vos recitari in templo Domini in die sollemni et in die oportuno",
+      "citation": "Baruch 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "habet etiam gladium in manu et securem se autem de bello et a latronibus non liberat unde vobis notum sit quia non sunt dii",
       "citation": "Baruch 1:14 (Clementine Vulgate)"
     },
     {
       "verse": 15,
-      "text": "conpletus est autem murus vicesimo quinto die mensis elul quinquaginta duobus diebus",
+      "text": "et dicetis Domino Deo nostro iustitia nobis autem confusio faciei nostrae sicut dies haec omni Iuda et habitantibus in Hierusalem",
+      "citation": "Baruch 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ne ergo timueritis eos sicut enim vas hominis confractum inutile efficitur tales sunt et dii illorum",
       "citation": "Baruch 1:15 (Clementine Vulgate)"
     },
     {
       "verse": 16,
-      "text": "factum est ergo cum audissent omnes inimici nostri ut timerent universae gentes quae erant in circuitu nostro et conciderent intra semet ipsos et scirent quod a Deo factum esset opus hoc",
+      "text": "regibus nostris et principibus nostris sacerdotibus nostris et prophetis nostris et patribus nostris",
+      "citation": "Baruch 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "constitutis illis in domo oculi eorum pleni sunt pulvere a pedibus introeuntium",
       "citation": "Baruch 1:16 (Clementine Vulgate)"
     },
     {
       "verse": 17,
-      "text": "sed et in diebus illis multae optimatium Iudaeorum epistulae mittebantur ad Tobiam et a Tobia veniebant ad eos",
+      "text": "peccavimus ante Dominum nostrum et non credidimus diffidentes in eum",
+      "citation": "Baruch 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et sicut alicui qui regem offendit circumseptae sunt ianuae aut sicut ad sepulchrum adductum mortuum ita tutant sacerdotes ostia clusuris et seris ne a latronibus expolientur",
       "citation": "Baruch 1:17 (Clementine Vulgate)"
     },
     {
       "verse": 18,
-      "text": "multi enim erant in Iudaea habentes iuramentum eius quia gener erat Secheniae filii Orei et Iohanan filius eius acceperat filiam Mosollam filii Barachiae",
+      "text": "et non fuimus subiectibiles illi et non obaudivimus vocem Domini Dei nostri ut ambularemus in mandatis eius quibus dedit nobis",
+      "citation": "Baruch 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "lucernas accendunt illis et quidem multas ex quibus nullam videre possunt sunt autem sicut trabes in domo",
       "citation": "Baruch 1:18 (Clementine Vulgate)"
     },
     {
       "verse": 19,
-      "text": "sed et laudabant eum coram me et verba mea nuntiabant ei et Tobias mittebat epistulas ut terreret me",
+      "text": "a die qua eduxit patres nostros de terra Aegypti usque in hunc diem eramus incredibiles ad Dominum Deum nostrum et dissipati recessimus ne audiremus vocem ipsius",
       "citation": "Baruch 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "corda vero eorum dicunt elingere serpentes qui de terra sunt dum comedent eos et vestimentum ipsorum et non sentiunt",
+      "citation": "Baruch 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et adheserunt nobis mala multa et maledictiones quae constituit Dominus Moysi servo suo qui eduxit patres nostros de terra Aegypti dare nobis terram fluentem lac et mel sicut hodierna die",
+      "citation": "Baruch 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "nigrae fiunt facies eorum a fumo qui in domo fit",
+      "citation": "Baruch 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et non audivimus vocem Domini Dei nostri secundum omnia verba prophetarum quos misit ad nos",
+      "citation": "Baruch 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "supra corpus eorum et supra caput volant noctuae et hirundines et aves etiam similiter et cattae",
+      "citation": "Baruch 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et abivimus unusquisque in sensum cordis nostri maligni operari diis alienis facientes mala ante oculos Domini Dei nostri",
+      "citation": "Baruch 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "unde scietis quia non sunt dii ne ergo timueritis eos",
+      "citation": "Baruch 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "aurum etiam quod habent ad speciem est nisi aliquis exterserit eruginem non fulgebunt neque enim dum conflarentur sentiebant",
+      "citation": "Baruch 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "ex omni pretio empta sunt in quibus spiritus non est in ipsis",
+      "citation": "Baruch 1:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "sine pedibus in umeris portantur ostentantes ignobilitatem suam hominibus confundantur etiam qui colunt ea",
+      "citation": "Baruch 1:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "propterea si ceciderint in terram a semet ipsis non surgent neque si quis eum statuerit rectum per semet ipsum stabit sed sicut mortuis munera eorum illis adponentur",
+      "citation": "Baruch 1:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "hostias illorum sacerdotes ipsorum vendunt et abutuntur similiter et mulieres eorum decerpentes neque infirmo neque mendicanti aliquid inpertiunt",
+      "citation": "Baruch 1:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "de sacrificiis eorum fetae et menstruatae contingunt scientes itaque ex his quia non sunt dii ne timeatis eos",
+      "citation": "Baruch 1:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "unde enim vocantur dii quia mulieres adponunt diis argenteis et aureis et ligneis",
+      "citation": "Baruch 1:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et in domibus eorum sacerdotes sedent habentes tunicas scissas et capita et barbas rasa quorum capita nuda sunt",
+      "citation": "Baruch 1:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "rugiunt autem clamantes contra deos suos sicut in cena mortui",
+      "citation": "Baruch 1:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "a vestimento eorum auferent sacerdotes et vestiunt uxores suas et filios suos",
+      "citation": "Baruch 1:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "neque si quid mali patiantur ab aliquo neque si quid bonum poterunt retribuere neque regem constituere possunt neque auferre",
+      "citation": "Baruch 1:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "similiter neque divitias dare possunt neque malum retribuere si quis illis votum voverit et non reddiderit nec hoc requirent",
+      "citation": "Baruch 1:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "hominem a morte non liberant neque infimum a potentiore eripient",
+      "citation": "Baruch 1:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "hominem caecum ad visum non restituent de necessitate hominem non liberabunt",
+      "citation": "Baruch 1:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "viduae non miserebuntur neque orfanis benefacient",
+      "citation": "Baruch 1:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "lapidibus de monte similes sunt dii illorum lignei et lapidei aurei et argentei qui autem colunt illa confundentur",
+      "citation": "Baruch 1:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "quomodo ergo aestimandum est aut dicendum illos esse deos",
+      "citation": "Baruch 1:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "adhuc enim ipsis Chaldeis non honorantibus ea qui cum audierint mutum non posse loqui offerent illum ad Bel postulantes ab eo loqui",
+      "citation": "Baruch 1:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "quasi possint sentire qui non habent motum et ipsi cum intellexerint relinquent ea sensum enim non habent ipsi dii illorum",
+      "citation": "Baruch 1:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "mulieres autem circumdatis funibus in viis sedent succendentes ossa olivarum",
+      "citation": "Baruch 1:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "cum autem aliqua ex ipsis adtracta ab aliquo transeunte dormierit proximae suae exprobrat quod ea non sit digna habita sicut ipsa neque funis eius disruptus sit",
+      "citation": "Baruch 1:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "omnia autem quae illis fiunt falsa sunt quomodo ergo aestimandum aut dicendum est esse illos deos",
+      "citation": "Baruch 1:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "a fabris autem et ab aurificibus facta sunt nihil aliud erint nisi id quod volunt esse sacerdotes",
+      "citation": "Baruch 1:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "aurifices ipsi etiam qui ea faciunt non sunt multi temporis numquid ergo possunt quae ab ipsis fabricata sunt esse dii",
+      "citation": "Baruch 1:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "reliquerunt autem falsa et obprobrium postea futuris",
+      "citation": "Baruch 1:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "nam cum supervenerit illis proelium et mala cogitant post se sacerdotes ubi se abscondant cum illis",
+      "citation": "Baruch 1:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "quomodo ergo sentiri debeant quoniam dii sunt qui nec de bello se liberant neque de malis se eripiunt",
+      "citation": "Baruch 1:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "nam cum sint lignea et inaurata et inargentata scietur postea quia falsa sunt gentibus universis et regibus quae manifestata sunt quia non sunt dii sed opera manuum hominum et nullum opus Dei in illis",
+      "citation": "Baruch 1:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "unde ergo notum est quia non sunt dii sed opera manuum hominum et nullum Dei opus in ipsis est",
+      "citation": "Baruch 1:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "regem regioni non suscitant neque pluviam hominibus dabunt",
+      "citation": "Baruch 1:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "iudicium quoque non discernent neque regionem liberabunt ab iniuria quia nihil possunt sicut corniculae inter medium caeli et terrae",
+      "citation": "Baruch 1:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "etenim cum inciderit ignis in domum deorum ligneorum aureorum et argenteorum sacerdotes quidem ipsorum fugient et liberabuntur ipsi vero sicut trabes in medio conburentur",
+      "citation": "Baruch 1:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "regi autem et bello non resistent quomodo ergo aestimandum est aut recipiendum quia dii sunt",
+      "citation": "Baruch 1:55 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "non a furibus neque a latronibus se liberabunt dii lignei et lapidei et inaurati et argentati quibus hii qui fortiores sunt",
+      "citation": "Baruch 1:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "aurum et argentum et vestimentum quod operti sunt auferent illis et abibunt nec sibi auxilium ferunt",
+      "citation": "Baruch 1:57 (Clementine Vulgate)"
+    },
+    {
+      "verse": 58,
+      "text": "itaque melius est esse regem ostentantem virtutem suam aut vas in domo utile in quo gloriabitur qui possidet illud quam falsi dii vel ostium in domo quod custodit quae in ipsa sunt quam falsi dii",
+      "citation": "Baruch 1:58 (Clementine Vulgate)"
+    },
+    {
+      "verse": 59,
+      "text": "sol quidem et luna sidera cum sint splendida et emissa ad utilitates obaudiunt",
+      "citation": "Baruch 1:59 (Clementine Vulgate)"
+    },
+    {
+      "verse": 60,
+      "text": "similiter et fulgur cum apparuerit perspicuum est id ipsum autem et spiritus in omni regione spirat",
+      "citation": "Baruch 1:60 (Clementine Vulgate)"
+    },
+    {
+      "verse": 61,
+      "text": "et nubes quibus cum imperatum fuerit a Deo perambulare universum orbem perficiunt quod imperatum est eis",
+      "citation": "Baruch 1:61 (Clementine Vulgate)"
+    },
+    {
+      "verse": 62,
+      "text": "ignis etiam missus desuper ut consumat montes et silvas facit quod praeceptum est ei haec autem neque speciebus neque virtutibus uni eorum similia sunt",
+      "citation": "Baruch 1:62 (Clementine Vulgate)"
+    },
+    {
+      "verse": 63,
+      "text": "unde neque aestimandum est neque dicendum esse illos deos quando non possint neque iudicium iudicare neque benefacere hominibus",
+      "citation": "Baruch 1:63 (Clementine Vulgate)"
+    },
+    {
+      "verse": 64,
+      "text": "scientes itaque quia non sunt dii ne ergo timueritis eos",
+      "citation": "Baruch 1:64 (Clementine Vulgate)"
+    },
+    {
+      "verse": 65,
+      "text": "neque enim regibus maledicent neque benedicent",
+      "citation": "Baruch 1:65 (Clementine Vulgate)"
+    },
+    {
+      "verse": 66,
+      "text": "signa etiam in caelo gentibus non ostendunt neque ut sol lucebunt neque inluminabunt ut luna",
+      "citation": "Baruch 1:66 (Clementine Vulgate)"
+    },
+    {
+      "verse": 67,
+      "text": "bestiae meliores sunt illis quae possunt fugere sub tectum ac prodesse sibi",
+      "citation": "Baruch 1:67 (Clementine Vulgate)"
+    },
+    {
+      "verse": 68,
+      "text": "nullo itaque modo nobis est manifestum quia sunt dii propter quod ne timeatis eos",
+      "citation": "Baruch 1:68 (Clementine Vulgate)"
+    },
+    {
+      "verse": 69,
+      "text": "nam sicut in cucumeraria formido nihil custodit ita sunt dii illorum lignei et argentei et inaurati",
+      "citation": "Baruch 1:69 (Clementine Vulgate)"
+    },
+    {
+      "verse": 70,
+      "text": "eodem modo et in horto spina alba supra quam omnis avis sedet similiter et mortuo proiecto in tenebris similes sunt dii illorum lignei et inaurati et inargentati",
+      "citation": "Baruch 1:70 (Clementine Vulgate)"
+    },
+    {
+      "verse": 71,
+      "text": "a purpura quoque et marmore quae supra illos tineant scietis itaque quia non sunt dii ipsi etiam postremo comeduntur et erit obprobrium in regione",
+      "citation": "Baruch 1:71 (Clementine Vulgate)"
     }
   ]
 }

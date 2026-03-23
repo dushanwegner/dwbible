@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 86 — 34 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 86 — 17 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 86,
-    "verseCount": 34,
+    "verseCount": 17,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,28 +34,13 @@
   "verses": [
     {
       "verse": 1,
-      "text": "oratio ipsi David inclina Domine aurem tuam %et; exaudi me quoniam inops et pauper sum ego",
-      "citation": "Psalms 86:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "oratio David inclina Domine aurem tuam exaudi me quia egenus et pauper ego sum",
+      "text": "oratio ipsi David inclina Domine aurem tuam exaudi me quoniam inops et pauper sum ego",
       "citation": "Psalms 86:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
       "text": "custodi animam meam quoniam sanctus sum salvum fac servum tuum Deus meus sperantem in te",
       "citation": "Psalms 86:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "custodi animam meam quia sanctus sum salva servum tuum tu Deus meus qui confidit in te",
-      "citation": "Psalms 86:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "miserere mei Domine quoniam ad te clamabo tota die",
-      "citation": "Psalms 86:3 (Clementine Vulgate)"
     },
     {
       "verse": 3,
@@ -68,18 +53,8 @@
       "citation": "Psalms 86:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "laetifica animam servi tui quia ad te animam meam levo",
-      "citation": "Psalms 86:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "quoniam tu Domine suavis et mitis et multae misericordiae omnibus invocantibus te",
-      "citation": "Psalms 86:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "tu enim es Domine bonus et propitiabilis et multus misericordia omnibus qui invocant te",
       "citation": "Psalms 86:5 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 86:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "exaudi Domine orationem meam et ausculta vocem deprecationum mearum",
-      "citation": "Psalms 86:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "in die tribulationis meae clamavi ad te quia exaudisti me",
-      "citation": "Psalms 86:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "in die tribulationis meae invocabo te quia exaudies me",
       "citation": "Psalms 86:7 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 86:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "non est similis tui in diis Domine non est iuxta opera tua",
-      "citation": "Psalms 86:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "omnes gentes quascumque fecisti venient et adorabunt coram te Domine et glorificabunt nomen tuum",
-      "citation": "Psalms 86:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "omnes gentes quas fecisti venient et adorabunt coram te Domine et glorificabunt nomen tuum",
       "citation": "Psalms 86:9 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 86:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "quia magnus tu et faciens mirabilia tu Deus solus",
-      "citation": "Psalms 86:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "deduc me Domine in via tua et ingrediar in veritate tua laetetur cor meum ut timeat nomen tuum",
-      "citation": "Psalms 86:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "doce me Domine viam tuam ut ambulem in veritate tua unicum fac cor meum ut timeat nomen tuum",
       "citation": "Psalms 86:11 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 86:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "confitebor tibi Domine Deus meus in toto corde meo et glorificabo nomen tuum in sempiternum",
-      "citation": "Psalms 86:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "quia misericordia tua magna est super me et eruisti animam meam ex inferno inferiori",
-      "citation": "Psalms 86:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "quia misericordia tua magna super me et eruisti animam meam de inferno extremo",
       "citation": "Psalms 86:13 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 86:14 (Clementine Vulgate)"
     },
     {
-      "verse": 14,
-      "text": "Deus superbi surrexerunt adversus me et coetus robustorum quaesivit animam meam et non posuerunt te in conspectu suo",
-      "citation": "Psalms 86:14 (Clementine Vulgate)"
-    },
-    {
       "verse": 15,
       "text": "et tu Domine Deus miserator et misericors patiens et multae misericordiae et verax",
-      "citation": "Psalms 86:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "tu autem Domine Deus misericors et clemens patiens et multae misericordiae et verus",
       "citation": "Psalms 86:15 (Clementine Vulgate)"
     },
     {
@@ -188,18 +113,8 @@
       "citation": "Psalms 86:16 (Clementine Vulgate)"
     },
     {
-      "verse": 16,
-      "text": "respice ad me et miserere mei da fortitudinem tuam servo tuo et salva filium ancillae tuae",
-      "citation": "Psalms 86:16 (Clementine Vulgate)"
-    },
-    {
       "verse": 17,
       "text": "fac mecum signum in bono et videant qui oderunt me et confundantur quoniam tu Domine adiuvasti me et consolatus es me",
-      "citation": "Psalms 86:17 (Clementine Vulgate)"
-    },
-    {
-      "verse": 17,
-      "text": "fac mecum signum in bonitate et videant qui oderunt me et confundantur quia tu Domine auxiliatus es mihi et consolatus es me",
       "citation": "Psalms 86:17 (Clementine Vulgate)"
     }
   ]

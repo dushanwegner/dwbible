@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 40 — 36 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 40 — 18 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 40,
-    "verseCount": 36,
+    "verseCount": 18,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 40:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "expectans expectavi Dominum et inclinatus est ad me",
-      "citation": "Psalms 40:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "pro victoria canticum David",
-      "citation": "Psalms 40:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "et exaudivit preces meas et eduxit me de lacu miseriae et de luto fecis et statuit super petram pedes meos et direxit gressus meos",
-      "citation": "Psalms 40:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "et audivit clamorem meum et eduxit me de lacu famoso de luto caeni et statuit super petram pedes meos stabilivit gressus meos",
       "citation": "Psalms 40:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 40:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "et dedit in ore meo canticum novum laudem Deo nostro videbunt multi et timebunt et sperabunt in Domino",
-      "citation": "Psalms 40:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "beatus vir cuius est nomen Domini spes ipsius et non respexit in vanitates et insanias falsas",
-      "citation": "Psalms 40:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "beatus vir qui posuit Dominum confidentiam suam et non est aversus ad superbias pompasque mendacii",
       "citation": "Psalms 40:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 40:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "multa fecisti tu Domine Deus meus mirabilia tua et cogitationes tuas pro nobis non invenio ordinem coram te si narrare voluero et numerare plura sunt quam ut narrari queant",
-      "citation": "Psalms 40:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "sacrificium et oblationem noluisti aures autem perfecisti mihi holocaustum et pro peccato non postulasti",
-      "citation": "Psalms 40:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "victima et oblatione non indiges aures fodisti mihi holocaustum et pro peccato non petisti",
       "citation": "Psalms 40:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 40:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "tunc dixi ecce venio in volumine libri scriptum est de me",
-      "citation": "Psalms 40:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "ut facerem voluntatem tuam Deus meus volui et legem tuam in medio cordis mei",
-      "citation": "Psalms 40:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "ut facerem placitum tibi Deus meus volui et legem tuam in medio ventris mei",
       "citation": "Psalms 40:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 40:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "adnuntiavi iustum in ecclesia multa ecce labia mea non prohibebo Domine tu nosti",
-      "citation": "Psalms 40:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "iustitiam tuam non abscondi in corde meo veritatem tuam et salutare tuum dixi non abscondi misericordiam tuam et veritatem tuam a concilio multo",
-      "citation": "Psalms 40:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "iustitiam tuam non abscondi in medio cordis mei fidem tuam et salutare tuum dixi non abscondi misericordiam tuam et veritatem tuam in ecclesia multa",
       "citation": "Psalms 40:10 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 40:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "tu Domine non prohibebis misericordias tuas a me misericordia tua et veritas iugiter servabunt me",
-      "citation": "Psalms 40:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "quoniam circumdederunt me mala quorum non est numerus conprehenderunt me iniquitates meae et non potui ut viderem multiplicatae sunt super capillos capitis mei et cor meum dereliquit me",
-      "citation": "Psalms 40:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "circumdederunt enim me mala quorum non est numerus conprehenderunt me iniquitates meae et non potui videre plures factae sunt quam capilli capitis mei et cor meum dereliquit me",
       "citation": "Psalms 40:12 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 40:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "placeat tibi Domine ut liberes me Domine ad adiuvandum me festina",
-      "citation": "Psalms 40:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "confundantur et revereantur simul qui quaerunt animam meam ut auferant eam convertantur retrorsum et revereantur qui volunt mihi mala",
-      "citation": "Psalms 40:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "confundantur et revereantur simul quaerentes animam meam ut auferant eam convertantur retrorsum et confundantur qui volunt mala mihi",
       "citation": "Psalms 40:14 (Clementine Vulgate)"
     },
     {
@@ -188,28 +113,13 @@
       "citation": "Psalms 40:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "pereant post confusionem suam qui dicunt mihi va va",
-      "citation": "Psalms 40:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "exultent et laetentur super te omnes quaerentes te et dicant semper magnificetur Dominus qui diligunt salutare tuum",
       "citation": "Psalms 40:16 (Clementine Vulgate)"
     },
     {
-      "verse": 16,
-      "text": "gaudeant et laetentur in te qui quaerunt te dicant iugiter magnificetur Dominus qui diligunt salutare tuum",
-      "citation": "Psalms 40:16 (Clementine Vulgate)"
-    },
-    {
       "verse": 17,
       "text": "ego autem mendicus sum et pauper Dominus sollicitus est mei adiutor meus et protector meus tu es Deus meus ne tardaveris",
-      "citation": "Psalms 40:17 (Clementine Vulgate)"
-    },
-    {
-      "verse": 17,
-      "text": "ego autem sum egens et pauper Dominus sollicitus erit pro me auxilium meum et salutare meum tu Deus meus ne moreris",
       "citation": "Psalms 40:17 (Clementine Vulgate)"
     }
   ]

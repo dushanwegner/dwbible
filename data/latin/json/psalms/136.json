@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 136 — 52 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 136 — 26 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 136,
-    "verseCount": 52,
+    "verseCount": 26,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,16 +38,6 @@
       "citation": "Psalms 136:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "confitemini Domino quoniam bonus quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "confitemini Deo deorum quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:2 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "confitemini Deo deorum quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:2 (Clementine Vulgate)"
@@ -56,16 +46,6 @@
       "verse": 3,
       "text": "confitemini Domino dominorum quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "confitemini Domino dominorum quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "qui facit mirabilia magna solus quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:4 (Clementine Vulgate)"
     },
     {
       "verse": 4,
@@ -78,16 +58,6 @@
       "citation": "Psalms 136:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "qui fecit caelos in sapientia quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "qui firmavit terram super aquas quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "qui firmavit terram super aquas quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:6 (Clementine Vulgate)"
@@ -98,24 +68,9 @@
       "citation": "Psalms 136:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "qui fecit luminaria magna quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "solem in potestatem diei quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "solem in potestatem diei quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "lunam et stellas in potestatem noctis quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:9 (Clementine Vulgate)"
     },
     {
       "verse": 9,
@@ -128,18 +83,8 @@
       "citation": "Psalms 136:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "qui percussit Aegyptum cum primitivis suis quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "qui eduxit Israhel de medio eorum quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "et eduxit Israhel de medio eorum quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:11 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 136:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "in manu valida et in brachio extento quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "qui divisit Rubrum mare in divisiones quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "qui divisit mare Rubrum in divisiones quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:13 (Clementine Vulgate)"
     },
     {
@@ -168,34 +103,14 @@
       "citation": "Psalms 136:14 (Clementine Vulgate)"
     },
     {
-      "verse": 14,
-      "text": "et eduxit Israhel in medio eius quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:14 (Clementine Vulgate)"
-    },
-    {
       "verse": 15,
       "text": "et excussit Pharaonem et virtutem eius in mari Rubro quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "et convolvit Pharao et exercitum eius in mari Rubro quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:15 (Clementine Vulgate)"
     },
     {
       "verse": 16,
       "text": "qui transduxit populum suum in deserto quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "qui duxit populum suum per desertum quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 17,
-      "text": "qui percussit reges magnos quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:17 (Clementine Vulgate)"
     },
     {
       "verse": 17,
@@ -208,24 +123,9 @@
       "citation": "Psalms 136:18 (Clementine Vulgate)"
     },
     {
-      "verse": 18,
-      "text": "et occidit reges magnificos quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:18 (Clementine Vulgate)"
-    },
-    {
       "verse": 19,
       "text": "Seon regem Amorreorum quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:19 (Clementine Vulgate)"
-    },
-    {
-      "verse": 19,
-      "text": "Seon regem Amorreorum quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:19 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "et Og regem Basan quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:20 (Clementine Vulgate)"
     },
     {
       "verse": 20,
@@ -238,24 +138,9 @@
       "citation": "Psalms 136:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "et dedit terram eorum in hereditatem quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "hereditatem Israhel servo suo quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "hereditatem Israhel servo suo quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "quia in humilitate nostra memor fuit nostri quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:23 (Clementine Vulgate)"
     },
     {
       "verse": 23,
@@ -268,28 +153,13 @@
       "citation": "Psalms 136:24 (Clementine Vulgate)"
     },
     {
-      "verse": 24,
-      "text": "et redemit nos de hostibus nostris quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:24 (Clementine Vulgate)"
-    },
-    {
       "verse": 25,
       "text": "qui dat escam omni carni quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:25 (Clementine Vulgate)"
     },
     {
-      "verse": 25,
-      "text": "qui dat panem omni carni quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:25 (Clementine Vulgate)"
-    },
-    {
       "verse": 26,
       "text": "confitemini Deo caeli quoniam in aeternum misericordia eius confitemini Domino dominorum quoniam in aeternum misericordia eius",
-      "citation": "Psalms 136:26 (Clementine Vulgate)"
-    },
-    {
-      "verse": 26,
-      "text": "confitemini Deo caeli quoniam in aeternum misericordia eius",
       "citation": "Psalms 136:26 (Clementine Vulgate)"
     }
   ]

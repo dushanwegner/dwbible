@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 3 — 18 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 3 — 9 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 3,
-    "verseCount": 18,
+    "verseCount": 9,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,28 +38,13 @@
       "citation": "Psalms 3:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum David cum fugeret a facie Abessalon filii sui",
-      "citation": "Psalms 3:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "Domine quid multiplicati sunt qui tribulant me multi insurgunt adversum me",
       "citation": "Psalms 3:2 (Clementine Vulgate)"
     },
     {
-      "verse": 2,
-      "text": "Domine quare multiplicati sunt hostes mei multi consurgunt adversus me",
-      "citation": "Psalms 3:2 (Clementine Vulgate)"
-    },
-    {
       "verse": 3,
-      "text": "multi dicunt animae meae non est salus ipsi in Deo %eius; diapsalma",
-      "citation": "Psalms 3:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "multi dicunt animae meae non est salus huic in Deo semper",
+      "text": "multi dicunt animae meae non est salus ipsi in Deo diapsalma",
       "citation": "Psalms 3:3 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 3:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "tu autem Domine clipeus circa me gloria mea et exaltans caput meum",
-      "citation": "Psalms 3:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "voce mea ad Dominum clamavi et exaudivit me de monte sancto suo diapsalma",
-      "citation": "Psalms 3:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "voce mea ad Dominum clamabo et exaudiet me de monte sancto suo semper",
       "citation": "Psalms 3:5 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 3:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "ego dormivi et soporatus sum evigilavi quia Dominus sustentavit me",
-      "citation": "Psalms 3:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "non timebo milia populi circumdantis me exsurge Domine salvum me fac Deus meus",
-      "citation": "Psalms 3:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "non timebo milia populi quae circumdederunt me surge Domine salvum me fac Deus meus",
       "citation": "Psalms 3:7 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 3:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "quia percussisti omnium inimicorum meorum maxillam dentes impiorum confregisti",
-      "citation": "Psalms 3:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "Domini est salus et super populum tuum benedictio tua",
-      "citation": "Psalms 3:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "Domini est salus super populum tuum benedictio tua semper",
       "citation": "Psalms 3:9 (Clementine Vulgate)"
     }
   ]

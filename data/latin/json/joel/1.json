@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Joel, Chapter 1 — 35 verses (Clementine Vulgate)",
+    "content": "Joel, Chapter 1 — 20 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "joel",
       "testament": "OT",
       "order": 34,
-      "totalChapters": 9
+      "totalChapters": 4
     },
     "chapter": 1,
-    "verseCount": 35,
+    "verseCount": 20,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/joel/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Joel 1:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "verba Amos qui fuit in pastoralibus de Thecuae quae vidit super Israhel in diebus Oziae regis Iuda et in diebus Hieroboam filii Ioas regis Israhel ante duos annos terraemotus",
-      "citation": "Joel 1:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "audite hoc senes et auribus percipite omnes habitatores terrae si factum est istud in diebus vestris aut in diebus patrum vestrorum",
-      "citation": "Joel 1:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "et dixit Dominus de Sion rugiet et de Hierusalem dabit vocem suam et luxerunt speciosa pastorum et exsiccatus est vertex Carmeli",
       "citation": "Joel 1:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Joel 1:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "haec dicit Dominus super tribus sceleribus Damasci et super quattuor non convertam eum eo quod trituraverint in plaustris ferreis Galaad",
-      "citation": "Joel 1:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "residuum erucae comedit lucusta et residuum lucustae comedit bruchus et residuum bruchi comedit rubigo",
-      "citation": "Joel 1:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "et mittam ignem in domum Azahel et devorabit domos Benadad",
       "citation": "Joel 1:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Joel 1:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "et conteram vectem Damasci et disperdam habitatorem de campo Idoli et tenentem sceptrum de domo Voluptatis et transferetur populus Syriae Cyrenen dicit Dominus",
-      "citation": "Joel 1:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "gens enim ascendit super terram meam fortis et innumerabilis dentes eius ut dentes leonis et molares eius ut catuli leonis",
-      "citation": "Joel 1:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "haec dicit Dominus super tribus sceleribus Gazae et super quattuor non convertam eum eo quod transtulerit captivitatem perfectam ut concluderet eam in Idumea",
       "citation": "Joel 1:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Joel 1:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "et mittam ignem in murum Gazae et devorabit aedes eius",
-      "citation": "Joel 1:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "plange quasi virgo accincta sacco super virum pubertatis suae",
-      "citation": "Joel 1:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "et disperdam habitatorem de Azoto et tenentem sceptrum de Ascalone et convertam manum meam super Accaron et peribunt reliqui Philisthinorum dicit Dominus Deus",
       "citation": "Joel 1:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Joel 1:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "haec dicit Dominus super tribus sceleribus Tyri et super quattuor non convertam eum eo quod concluserint captivitatem perfectam in Idumea et non sint recordati foederis fratrum",
-      "citation": "Joel 1:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "depopulata est regio luxit humus quoniam devastatum est triticum confusum est vinum elanguit oleum",
-      "citation": "Joel 1:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "et emittam ignem in murum Tyri et devorabit aedes eius",
       "citation": "Joel 1:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Joel 1:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "haec dicit Dominus super tribus sceleribus Edom et super quattuor non convertam eum eo quod persecutus sit in gladio fratrem suum et violaverit misericordiam eius et tenuerit ultra furorem suum et indignationem suam servaverit usque in finem",
-      "citation": "Joel 1:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "vinea confusa est et ficus elanguit malogranatum et palma et malum et omnia ligna agri aruerunt quia confusum est gaudium a filiis hominum",
-      "citation": "Joel 1:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "mittam ignem in Theman et devorabit aedes Bosrae",
       "citation": "Joel 1:12 (Clementine Vulgate)"
     },
     {
@@ -158,28 +98,13 @@
       "citation": "Joel 1:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "haec dicit Dominus super tribus sceleribus filiorum Ammon et super quattuor non convertam eum eo quod dissecuerit praegnantes Galaad ad dilatandum terminum suum",
-      "citation": "Joel 1:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "sanctificate ieiunium vocate coetum congregate senes omnes habitatores terrae in domum Dei vestri et clamate ad Dominum",
       "citation": "Joel 1:14 (Clementine Vulgate)"
     },
     {
-      "verse": 14,
-      "text": "et succendam ignem in muro Rabbae et devorabit aedes eius in ululatu in die belli et in turbine in die commotionis",
-      "citation": "Joel 1:14 (Clementine Vulgate)"
-    },
-    {
       "verse": 15,
       "text": "a a a diei quia prope est dies Domini et quasi vastitas a potente veniet",
-      "citation": "Joel 1:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "et ibit Melchom in captivitatem ipse et principes eius simul dicit Dominus",
       "citation": "Joel 1:15 (Clementine Vulgate)"
     },
     {

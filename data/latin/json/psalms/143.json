@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 143 — 24 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 143 — 12 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 143,
-    "verseCount": 24,
+    "verseCount": 12,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 143:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum David Domine exaudi orationem meam ausculta deprecationem meam in veritate tua exaudi me in iustitia tua",
-      "citation": "Psalms 143:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "et non intres in iudicio cum servo tuo quia non iustificabitur in conspectu tuo omnis vivens",
-      "citation": "Psalms 143:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "et non venias ad iudicandum cum servo tuo quia non iustificabitur in conspectu tuo omnis vivens",
       "citation": "Psalms 143:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 143:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "persecutus est enim inimicus animam meam confregit in terra vitam meam posuit me in tenebris quasi mortuos antiquos",
-      "citation": "Psalms 143:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "et anxiatus est super me spiritus meus in me turbatum est cor meum",
-      "citation": "Psalms 143:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "et anxius fuit in me spiritus meus in medio mei sollicitum fuit cor meum",
       "citation": "Psalms 143:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 143:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "recordabar dierum antiquorum meditabar omnia opera tua facta manuum tuarum loquebar",
-      "citation": "Psalms 143:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "expandi manus meas ad te anima mea sicut terra sine aqua tibi diapsalma",
-      "citation": "Psalms 143:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "expandi manus meas ad te anima mea quasi terra sitiens ad te semper",
       "citation": "Psalms 143:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 143:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "cito exaudi me Domine defecit spiritus meus ne abscondas faciem tuam a me et conparabor descendentibus in lacum",
-      "citation": "Psalms 143:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "auditam mihi fac mane misericordiam tuam quia in te speravi notam fac mihi viam in qua ambulem quia ad te levavi animam meam",
-      "citation": "Psalms 143:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "fac me audire mane misericordiam tuam quoniam in te confido notam fac mihi viam in qua ambulo quoniam ad te levavi animam meam",
       "citation": "Psalms 143:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 143:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "libera me de inimicis meis Domine a te protectus sum",
-      "citation": "Psalms 143:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "doce me facere voluntatem tuam quia Deus meus es tu spiritus tuus bonus deducet me in terra recta",
-      "citation": "Psalms 143:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "doce me ut faciam voluntatem tuam quia tu Deus meus spiritus tuus bonus deducet me in terra recta",
       "citation": "Psalms 143:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 143:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "propter nomen tuum Domine vivificabis me in iustitia tua educes de angustia animam meam",
-      "citation": "Psalms 143:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "et in misericordia tua disperdes inimicos meos et perdes omnes qui tribulant animam meam quoniam ego servus tuus sum",
-      "citation": "Psalms 143:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "et in misericordia tua dissipabis inimicos meos et perdes omnes ligantes animam meam ego enim sum servus tuus",
       "citation": "Psalms 143:12 (Clementine Vulgate)"
     }
   ]

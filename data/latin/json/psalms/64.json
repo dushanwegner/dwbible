@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 64 — 22 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 64 — 11 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 64,
-    "verseCount": 22,
+    "verseCount": 11,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 64:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "audi Deus vocem meam loquentis a timore inimici serva vitam meam",
-      "citation": "Psalms 64:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori carmen David cantici",
-      "citation": "Psalms 64:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "protexisti me a conventu malignantium a multitudine operantium iniquitatem",
-      "citation": "Psalms 64:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "absconde me a consilio malignorum a tumultu operantium iniquitatem",
       "citation": "Psalms 64:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 64:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "qui exacuerunt quasi gladium linguam suam tetenderunt sagittam suam verbum amarissimum",
-      "citation": "Psalms 64:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "ut sagittent in occultis inmaculatum",
-      "citation": "Psalms 64:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "ut sagittarent in absconditis simplicem",
       "citation": "Psalms 64:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 64:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "subito sagittabunt eum et non timebunt confortaverunt sibi sermonem pessimum narraverunt ut absconderent laqueos dixerunt quis videbit nos",
-      "citation": "Psalms 64:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "scrutati sunt iniquitates defecerunt scrutantes scrutinio accedet homo et cor altum",
-      "citation": "Psalms 64:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "scrutati sunt iniquitates defecerunt scrutantes scrutinio cogitationibus singulorum et corde profundo",
       "citation": "Psalms 64:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 64:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "sagittabit ergo eos Deus iaculo repentino inferentur plagae eorum",
-      "citation": "Psalms 64:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "et infirmatae sunt contra eos linguae eorum conturbati sunt omnes qui videbant eos",
-      "citation": "Psalms 64:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "et corruent in semet ipsos linguis suis fugient omnes qui viderint eos",
       "citation": "Psalms 64:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 64:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "et timebunt omnes homines et adnuntiabunt opus Dei et opera eius intellegent",
-      "citation": "Psalms 64:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "laetabitur iustus in Domino et sperabit in eo et laudabuntur omnes recti corde",
-      "citation": "Psalms 64:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "laetabitur iustus in Domino et sperabit in eo et exultabunt omnes recti corde",
       "citation": "Psalms 64:10 (Clementine Vulgate)"
     }
   ]

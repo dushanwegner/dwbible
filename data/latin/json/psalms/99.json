@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 99 — 18 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 99 — 9 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 99,
-    "verseCount": 18,
+    "verseCount": 9,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,16 +38,6 @@
       "citation": "Psalms 99:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "Dominus regnavit commoveantur populi sessor cherubin concutiatur terra",
-      "citation": "Psalms 99:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "Dominus in Sion magnus et excelsus est super omnes populos",
-      "citation": "Psalms 99:2 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "Dominus in Sion magnus et excelsus est super omnes populos",
       "citation": "Psalms 99:2 (Clementine Vulgate)"
@@ -58,18 +48,8 @@
       "citation": "Psalms 99:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "confiteantur nomini tuo magno et terribili sanctoque",
-      "citation": "Psalms 99:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "et honor regis iudicium diligit tu parasti directiones iudicium et iustitiam in Iacob tu fecisti",
-      "citation": "Psalms 99:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "imperium regis iudicium diligit tu fundasti aequitates iudicium et iustitiam in Iacob tu fecisti",
       "citation": "Psalms 99:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 99:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "exaltate Dominum Deum nostrum et adorate scabillum pedum eius quia sanctus est",
-      "citation": "Psalms 99:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "Moses et Aaron in sacerdotibus eius et Samuhel inter eos qui invocant nomen eius invocabant Dominum et ipse exaudiebat illos",
-      "citation": "Psalms 99:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "Moses et Aaron in sacerdotibus eius et Samuhel in his qui invocant nomen eius invocabant Dominum et ipse exaudivit eos",
       "citation": "Psalms 99:6 (Clementine Vulgate)"
     },
     {
@@ -98,28 +68,13 @@
       "citation": "Psalms 99:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "in columna nubis loquebatur ad eos custodierunt testimonia eius et praeceptum dedit eis",
-      "citation": "Psalms 99:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "Domine Deus noster tu exaudiebas illos Deus tu propitius fuisti eis et ulciscens in omnes adinventiones eorum",
       "citation": "Psalms 99:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "Domine Deus noster tu exaudisti eos Domine propitius fuisti eis et ultor super commutationibus eorum",
-      "citation": "Psalms 99:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "exaltate Dominum Deum nostrum et adorate in monte sancto eius quoniam sanctus Dominus Deus noster",
-      "citation": "Psalms 99:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "exaltate Dominum Deum nostrum et adorate in monte sancto eius quia sanctus Dominus Deus noster",
       "citation": "Psalms 99:9 (Clementine Vulgate)"
     }
   ]

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 32 — 22 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 32 — 11 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 32,
-    "verseCount": 22,
+    "verseCount": 11,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 32:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "David eruditi beatus cui dimissa est iniquitas et absconditum est peccatum",
-      "citation": "Psalms 32:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "beatus vir cui non inputabit Dominus peccatum nec est in spiritu eius dolus",
-      "citation": "Psalms 32:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "beatus homo cui non inputabit Dominus iniquitatem nec est in spiritu eius dolus",
       "citation": "Psalms 32:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 32:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "quia tacui adtrita sunt ossa mea in rugitu meo tota die",
-      "citation": "Psalms 32:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
-      "text": "quoniam die ac nocte gravata est super me manus tua conversus sum in aerumna *mea; dum configitur %mihi; spina diapsalma",
-      "citation": "Psalms 32:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "die enim et nocte gravatur super me manus tua versatus sum in miseria mea cum exardesceret messis iugiter",
+      "text": "quoniam die ac nocte gravata est super me manus tua conversus sum in aerumna *mea; dum configitur spina diapsalma",
       "citation": "Psalms 32:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 32:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "peccatum meum notum facio tibi et iniquitatem meam non abscondo dixi confitebor scelus meum Domino et tu dimisisti iniquitatem peccati mei semper",
-      "citation": "Psalms 32:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "pro hac orabit ad te omnis sanctus in tempore oportuno verumtamen in diluvio aquarum multarum ad eum non adproximabunt",
-      "citation": "Psalms 32:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "pro hoc orat omnis sanctus ad te tempus inveniens ut cum inundaverint aquae multae ad illum non accedant",
       "citation": "Psalms 32:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 32:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "tu es protectio mea ab hoste custodies me laus mea salvans circumdabis me semper",
-      "citation": "Psalms 32:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "intellectum tibi dabo et instruam te in via hac qua gradieris firmabo super te oculos meos",
-      "citation": "Psalms 32:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "doceam te et monstrabo tibi viam per quam ambules cogitabo de te oculo meo",
       "citation": "Psalms 32:8 (Clementine Vulgate)"
     },
     {
@@ -118,28 +78,13 @@
       "citation": "Psalms 32:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "nolite fieri sicut equus et mulus quibus non est intellegentia in camo et freno maxillas eorum constringe qui non accedunt ad te",
-      "citation": "Psalms 32:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "multa flagella peccatoris sperantem autem in Domino misericordia circumdabit",
       "citation": "Psalms 32:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "multi dolores impii confidentem autem in Domino misericordia circumdabit",
-      "citation": "Psalms 32:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "laetamini in Domino et exultate iusti et gloriamini omnes recti corde",
-      "citation": "Psalms 32:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "laetamini in Domino et exultate iusti et laudate omnes recti corde",
       "citation": "Psalms 32:11 (Clementine Vulgate)"
     }
   ]

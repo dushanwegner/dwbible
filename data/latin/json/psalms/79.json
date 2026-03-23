@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 79 — 28 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 79 — 14 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 79,
-    "verseCount": 28,
+    "verseCount": 14,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 79:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum Asaph Deus venerunt gentes in hereditatem tuam polluerunt templum sanctum tuum posuerunt Hierusalem in acervis lapidum",
-      "citation": "Psalms 79:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori pro liliis testimonii Asaph canticum",
-      "citation": "Psalms 79:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "posuerunt morticina servorum tuorum escas volatilibus caeli carnes sanctorum tuorum bestiis terrae",
-      "citation": "Psalms 79:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "dederunt cadavera servorum tuorum escam volatilibus caeli carnes sanctorum tuorum bestiis terrae",
       "citation": "Psalms 79:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 79:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "effuderunt sanguinem eorum quasi aquam in circuitu Hierusalem et non erat qui sepeliret",
-      "citation": "Psalms 79:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "facti sumus obprobrium vicinis nostris subsannatio et inlusio his qui circum nos sunt",
-      "citation": "Psalms 79:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "facti sumus obprobrium vicinis nostris subsannatio et derisio his qui in circuitu nostro sunt",
       "citation": "Psalms 79:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 79:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "usquequo Domine irasceris in finem ardebit quasi ignis zelus tuus",
-      "citation": "Psalms 79:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "effunde iram tuam in gentes quae te non noverunt et in regna quae nomen tuum non invocaverunt",
-      "citation": "Psalms 79:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "effunde furorem tuum super gentes quae non cognoverunt te et super regna quae nomen tuum non invocaverunt",
       "citation": "Psalms 79:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 79:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "quia comederunt Iacob et decorem eius desolaverunt",
-      "citation": "Psalms 79:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "ne memineris iniquitatum nostrarum antiquarum cito anticipent nos misericordiae tuae quia pauperes facti sumus nimis",
-      "citation": "Psalms 79:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "ne recorderis iniquitatum nostrarum veterum cito occupent nos misericordiae tuae quia adtenuati sumus nimis",
       "citation": "Psalms 79:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 79:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "auxiliare nobis Deus Iesus noster propter gloriam nominis tui et libera nos et propitiare peccatis nostris propter nomen tuum",
-      "citation": "Psalms 79:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "ne forte dicant in gentibus ubi est Deus eorum et innotescat in nationibus coram oculis nostris ultio sanguinis servorum tuorum qui effusus est",
-      "citation": "Psalms 79:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "quare dicunt gentes ubi est Deus eorum nota fiat in gentibus ante oculos nostros ultio sanguinis servorum tuorum qui effusus est",
       "citation": "Psalms 79:10 (Clementine Vulgate)"
     },
     {
@@ -148,28 +93,13 @@
       "citation": "Psalms 79:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "ingrediatur coram te gemitus vinctorum in magnitudine brachii tui relinque filios interitus",
-      "citation": "Psalms 79:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "et redde vicinis nostris septuplum in sinu eorum inproperium ipsorum quod exprobraverunt tibi Domine",
       "citation": "Psalms 79:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "et redde vicinis nostris septuplum in sinu eorum obprobrium suum quo exprobraverunt tibi Domine",
-      "citation": "Psalms 79:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "nos autem populus tuus et oves pascuae tuae confitebimur tibi in saeculum in generationem et generationem adnuntiabimus laudem tuam",
-      "citation": "Psalms 79:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "nos enim populus tuus et grex pascuae tuae confitebimur tibi in sempiternum in generatione et generatione narrabimus laudes tuas",
       "citation": "Psalms 79:13 (Clementine Vulgate)"
     }
   ]

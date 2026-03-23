@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Nehemiah, Chapter 10 — 40 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Nehemiah",
+      "slug": "2-esdras-nehemias",
+      "testament": "OT",
+      "order": 16,
+      "totalChapters": 13
+    },
+    "chapter": 10,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-esdras-nehemias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-esdras-nehemias/9.json",
+      "nextChapter": "https://latinprayer.org/latin/2-esdras-nehemias/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-esdras-nehemias/10.json",
+      "german": "https://latinprayer.org/bibel/2-esdras-nehemias/10.json"
+    }
+  },
+  "citation": "Nehemiah 10 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "super omnibus ergo his nos ipsi percutimus foedus et scribimus et signant principes nostri Levitae nostri et sacerdotes nostri",
+      "citation": "Nehemiah 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "signatores autem fuerunt Neemias Athersatha filius Achelai et Sedecias",
+      "citation": "Nehemiah 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "Saraias Azarias Hieremias",
+      "citation": "Nehemiah 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Phessur Amaria Melchia",
+      "citation": "Nehemiah 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Attus Sebenia Melluc",
+      "citation": "Nehemiah 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "Arem Mermuth Obdias",
+      "citation": "Nehemiah 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Danihel Genton Baruch",
+      "citation": "Nehemiah 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Mosollam Abia Miamin",
+      "citation": "Nehemiah 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "Mazia Belga Semaia hii sacerdotes",
+      "citation": "Nehemiah 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "porro Levitae Iosue filius Azaniae Bennui de filiis Enadad Cedmihel",
+      "citation": "Nehemiah 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et fratres eorum Sechenia Odevia Celita Phalaia Anan",
+      "citation": "Nehemiah 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Micha Roob Asebia",
+      "citation": "Nehemiah 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "Zacchur Serebia Sabania",
+      "citation": "Nehemiah 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "Odia Bani Baninu",
+      "citation": "Nehemiah 10:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "capita populi Pheros Phaethmoab Helam Zethu Bani",
+      "citation": "Nehemiah 10:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "Bonni Azgad Bebai",
+      "citation": "Nehemiah 10:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Adonia Beggoai Adin",
+      "citation": "Nehemiah 10:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "Ater Ezechia Azur",
+      "citation": "Nehemiah 10:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Odevia Asum Besai",
+      "citation": "Nehemiah 10:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "Ares Anathoth Nebai",
+      "citation": "Nehemiah 10:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "Mecphia Mosollam Azir",
+      "citation": "Nehemiah 10:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "Mesizabel Sadoc Ieddua",
+      "citation": "Nehemiah 10:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "Felthia Anan Ania",
+      "citation": "Nehemiah 10:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "Osee Anania Asub",
+      "citation": "Nehemiah 10:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "Aloes Phaleam Sobec",
+      "citation": "Nehemiah 10:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "Reum Asebna Madsia",
+      "citation": "Nehemiah 10:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et Haia Hanam Anan",
+      "citation": "Nehemiah 10:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "Melluc Arem Baana",
+      "citation": "Nehemiah 10:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et reliqui de populo sacerdotes Levitae ianitores et cantores Nathinnei et omnes qui se separaverunt de populis terrarum ad legem Dei uxores eorum filii eorum et filiae eorum",
+      "citation": "Nehemiah 10:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "omnis qui poterat sapere spondentes pro fratribus suis optimates eorum et qui veniebant ad pollicendum et iurandum ut ambularent in lege Dei quam dederat in manu Mosi servi Dei ut facerent et custodirent universa mandata Domini Dei nostri et iudicia eius et caerimonias eius",
+      "citation": "Nehemiah 10:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "et ut non daremus filias nostras populo terrae et filias eorum non acciperemus filiis nostris",
+      "citation": "Nehemiah 10:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "populi quoque terrae qui inportant venalia et omnia ad usum per diem sabbati ut vendant non accipiemus ab eis in sabbato et in die sanctificata et dimittemus annum septimum et exactionem universae manus",
+      "citation": "Nehemiah 10:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "et statuemus super nos praecepta ut demus tertiam partem sicli per annum ad opus domus Dei nostri",
+      "citation": "Nehemiah 10:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "ad panes propositionis et ad sacrificium sempiternum et in holocaustum sempiternum in sabbatis in kalendis in sollemnitatibus et in sanctificatis et pro peccato ut exoretur pro Israhel et in omnem usum domus Dei nostri",
+      "citation": "Nehemiah 10:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "sortes ergo misimus super oblatione lignorum inter sacerdotes et Levitas et populos ut inferrentur in domum Dei nostri per domos patrum nostrorum per tempora a temporibus anni usque ad annum ut arderent super altare Domini Dei nostri sicut scriptum est in lege Mosi",
+      "citation": "Nehemiah 10:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "et ut adferremus primogenita terrae nostrae et primitiva universi fructus omnis ligni ab anno in annum in domo Domini",
+      "citation": "Nehemiah 10:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et primitiva filiorum nostrorum et pecorum nostrorum sicut scriptum est in lege et primitiva boum nostrorum et ovium nostrarum ut offerrentur in domo Dei nostri sacerdotibus qui ministrant in domo Dei nostri",
+      "citation": "Nehemiah 10:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "et primitias ciborum nostrorum et libaminum nostrorum et poma omnis ligni vindemiae quoque et olei adferemus sacerdotibus ad gazofilacium Dei nostri et decimam partem terrae nostrae Levitis ipsi Levitae decimas accipient ex omnibus civitatibus operum nostrorum",
+      "citation": "Nehemiah 10:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "erit autem sacerdos filius Aaron cum Levitis in decimis Levitarum et Levitae offerent decimam partem decimae suae in domum Dei nostri ad gazofilacium in domo thesauri",
+      "citation": "Nehemiah 10:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "ad gazofilacium enim deportabunt filii Israhel et filii Levi primitias frumenti vini et olei et ibi erunt vasa sanctificata et sacerdotes et cantores et ianitores et ministri et non dimittemus domum Dei nostri",
+      "citation": "Nehemiah 10:40 (Clementine Vulgate)"
+    }
+  ]
+}

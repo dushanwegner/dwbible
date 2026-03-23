@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 46 — 34 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 46,
+    "verseCount": 34,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/genesis/45.json",
+      "nextChapter": "https://latinprayer.org/latin/genesis/47.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/46.json",
+      "german": "https://latinprayer.org/bibel/genesis/46.json"
+    }
+  },
+  "citation": "Genesis 46 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "profectusque Israhel cum omnibus quae habebat venit ad puteum Iuramenti et mactatis ibi victimis Deo patris sui Isaac",
+      "citation": "Genesis 46:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "audivit eum per visionem nocte vocantem se et dicentem sibi Iacob Iacob cui respondit ecce adsum",
+      "citation": "Genesis 46:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ait illi Deus ego sum Fortissimus Deus patris tui noli timere et descende in Aegyptum quia in gentem magnam faciam te ibi",
+      "citation": "Genesis 46:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ego descendam tecum illuc et ego inde adducam te revertentem Ioseph quoque ponet manum suam super oculos tuos",
+      "citation": "Genesis 46:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "surrexit Iacob a puteo Iuramenti tuleruntque eum filii cum parvulis et uxoribus suis in plaustris quae miserat Pharao ad portandum senem",
+      "citation": "Genesis 46:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et omnia quae possederat in terra Chanaan venitque in Aegyptum cum omni semine suo",
+      "citation": "Genesis 46:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "filii eius et nepotes filiae et cuncta simul progenies",
+      "citation": "Genesis 46:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "haec sunt autem nomina filiorum Israhel qui ingressi sunt in Aegyptum ipse cum liberis suis primogenitus Ruben",
+      "citation": "Genesis 46:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "filii Ruben Enoch et Phallu et Esrom et Charmi",
+      "citation": "Genesis 46:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "filii Symeon Iemuhel et Iamin et Ahod et Iachin et Saher et Saul filius Chananitidis",
+      "citation": "Genesis 46:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "filii Levi Gerson Caath et Merari",
+      "citation": "Genesis 46:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "filii Iuda Her et Onan et Sela et Phares et Zara mortui sunt autem Her et Onan in terra Chanaan natique sunt filii Phares Esrom et Amul",
+      "citation": "Genesis 46:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "filii Isachar Thola et Phua et Iob et Semron",
+      "citation": "Genesis 46:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "filii Zabulon Sared et Helon et Iahelel",
+      "citation": "Genesis 46:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "hii filii Liae quos genuit in Mesopotamiam Syriae cum Dina filia sua omnes animae filiorum eius et filiarum triginta tres",
+      "citation": "Genesis 46:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "filii Gad Sephion et Haggi Suni et Esebon Heri et Arodi et Areli",
+      "citation": "Genesis 46:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "filii Aser Iamne et Iesua et Iesui et Beria Sara quoque soror eorum filii Beria Heber et Melchihel",
+      "citation": "Genesis 46:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "hii filii Zelphae quam dedit Laban Liae filiae suae et hos genuit Iacob sedecim animas",
+      "citation": "Genesis 46:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "filii Rahel uxoris Iacob Ioseph et Beniamin",
+      "citation": "Genesis 46:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "natique sunt Ioseph filii in terra Aegypti quos genuit ei Aseneth filia Putiphare sacerdotis Heliopoleos Manasses et Ephraim",
+      "citation": "Genesis 46:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "filii Beniamin Bela et Bechor et Asbel Gera et Naaman et Ehi et Ros Mophim et Opphim et Ared",
+      "citation": "Genesis 46:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "hii filii Rahel quos genuit Iacob omnes animae quattuordecim",
+      "citation": "Genesis 46:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "filii Dan Usim",
+      "citation": "Genesis 46:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "filii Nepthalim Iasihel et Guni et Hieser et Sallem",
+      "citation": "Genesis 46:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "hii filii Balae quam dedit Laban Raheli filiae suae et hos genuit Iacob omnes animae septem",
+      "citation": "Genesis 46:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "cunctae animae quae ingressae sunt cum Iacob in Aegyptum et egressae de femore illius absque uxoribus filiorum sexaginta sex",
+      "citation": "Genesis 46:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "filii autem Ioseph qui nati sunt ei in terra Aegypti animae duae omnis anima domus Iacob quae ingressa est Aegyptum fuere septuaginta",
+      "citation": "Genesis 46:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "misit autem Iudam ante se ad Ioseph ut nuntiaret ei et ille occurreret in Gessen",
+      "citation": "Genesis 46:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "quo cum pervenisset iuncto Ioseph curru suo ascendit obviam patri ad eundem locum vidensque eum inruit super collum eius et inter amplexus flevit",
+      "citation": "Genesis 46:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "dixitque pater ad Ioseph iam laetus moriar quia vidi faciem tuam et superstitem te relinquo",
+      "citation": "Genesis 46:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "et ille locutus est ad fratres et ad omnem domum patris sui ascendam et nuntiabo Pharaoni dicamque ei fratres mei et domus patris mei qui erant in terra Chanaan venerunt ad me",
+      "citation": "Genesis 46:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et sunt viri pastores ovium curamque habent alendorum gregum pecora sua et armenta et omnia quae habere potuerunt adduxerunt secum",
+      "citation": "Genesis 46:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "cumque vocaverit vos et dixerit quod est opus vestrum",
+      "citation": "Genesis 46:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "respondebitis viri pastores sumus servi tui ab infantia nostra usque in praesens et nos et patres nostri haec autem dicetis ut habitare possitis in terra Gessen quia detestantur Aegyptii omnes pastores ovium",
+      "citation": "Genesis 46:34 (Clementine Vulgate)"
+    }
+  ]
+}

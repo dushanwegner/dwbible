@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 78 — 144 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 78 — 72 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 78,
-    "verseCount": 144,
+    "verseCount": 72,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 78:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "eruditionis Asaph ausculta populus meus legem meam inclinate aurem vestram ad verba oris mei",
-      "citation": "Psalms 78:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "aperiam in parabola os meum eloquar propositiones ab initio",
-      "citation": "Psalms 78:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "aperiam in parabula os meum loquar enigmata antiqua",
       "citation": "Psalms 78:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 78:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "quae audivimus et cognovimus et patres nostri narraverunt nobis",
-      "citation": "Psalms 78:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "non sunt occultata a filiis eorum in generationem alteram narrantes laudes Domini et virtutes eius et mirabilia eius quae fecit",
-      "citation": "Psalms 78:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "non sunt abscondita a filiis eorum a generatione sequenti narrante laudes Domini et potentiam eius et mirabilia eius quae fecit",
       "citation": "Psalms 78:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 78:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "statuit contestationem Iacob et legem posuit in Israhel quae mandavit patribus nostris ut docerent filios suos",
-      "citation": "Psalms 78:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "ut cognoscat generatio altera filii qui nascentur et exsurgent et narrabunt filiis suis",
-      "citation": "Psalms 78:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "ut cognosceret generatio subsequens filii nascituri surgent et narrabunt filiis suis",
       "citation": "Psalms 78:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 78:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "ut ponant in Deo spem suam et non obliviscantur cogitationum eius et mandata eius custodiant",
-      "citation": "Psalms 78:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "ne fiant sicut patres eorum generatio prava et exasperans generatio quae non direxit cor suum et non est creditus cum Deo spiritus eius",
-      "citation": "Psalms 78:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "ut non sint sicut patres eorum generatio declinans et provocans generatio quae non praeparavit cor suum et non credidit Deo spiritus eius",
       "citation": "Psalms 78:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 78:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "filii Efraim intendentes et mittentes arcum terga verterunt in die belli",
-      "citation": "Psalms 78:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "non custodierunt testamentum Dei et in lege eius noluerunt ambulare",
-      "citation": "Psalms 78:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "non custodierunt pactum Dei sui et in lege eius noluerunt ingredi",
       "citation": "Psalms 78:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 78:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "et obliti sunt commutationum eius et mirabilium eius quae ostendit eis",
-      "citation": "Psalms 78:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "coram patribus eorum quae fecit mirabilia in terra Aegypti in campo Taneos",
-      "citation": "Psalms 78:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "coram patribus eorum fecit mirabilia in terra Aegypto in regione Taneos",
       "citation": "Psalms 78:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 78:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "divisit mare et transduxit eos et stare fecit aquas quasi acervum",
-      "citation": "Psalms 78:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "et deduxit eos in nube diei et tota nocte in inluminatione ignis",
-      "citation": "Psalms 78:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "et duxit eos in nube per diem et tota nocte in lumine ignis",
       "citation": "Psalms 78:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Psalms 78:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "scidit petram in deserto et potum dedit quasi de abyssis magnis",
-      "citation": "Psalms 78:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "et eduxit aquam de petra et deduxit tamquam flumina aquas",
-      "citation": "Psalms 78:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "et eduxit rivos de petra et elicuit quasi flumina aquas",
       "citation": "Psalms 78:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "Psalms 78:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "et addiderunt ultra peccare ei ut provocarent Excelsum in invio",
-      "citation": "Psalms 78:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "et temptaverunt Deum in cordibus suis ut peterent escas animabus suis",
-      "citation": "Psalms 78:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "et temptaverunt Deum in cordibus suis petentes cibum animae suae",
       "citation": "Psalms 78:18 (Clementine Vulgate)"
     },
     {
@@ -218,18 +128,8 @@
       "citation": "Psalms 78:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "et loquentes contra Deum dicebant numquid poterit Deus ponere mensam in solitudine",
-      "citation": "Psalms 78:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "quoniam percussit petram et fluxerunt aquae et torrentes inundaverunt numquid et panem potest dare aut parare mensam populo suo",
-      "citation": "Psalms 78:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "ecce percussit petram et fluxerunt aquae et torrentes inundaverunt numquid et panem poterit dare aut praeparare carnem populo suo",
       "citation": "Psalms 78:20 (Clementine Vulgate)"
     },
     {
@@ -238,18 +138,8 @@
       "citation": "Psalms 78:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "ideo audivit Dominus et non distulit et ignis accensus est in Iacob et furor ascendit in Israhel",
-      "citation": "Psalms 78:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "quia non crediderunt in Deo nec speraverunt in salutare eius",
-      "citation": "Psalms 78:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "quia non crediderunt Deo nec habuerunt fiduciam in salutari eius",
       "citation": "Psalms 78:22 (Clementine Vulgate)"
     },
     {
@@ -258,18 +148,8 @@
       "citation": "Psalms 78:23 (Clementine Vulgate)"
     },
     {
-      "verse": 23,
-      "text": "et praecepit nubibus desuper et portas caeli aperuit",
-      "citation": "Psalms 78:23 (Clementine Vulgate)"
-    },
-    {
       "verse": 24,
       "text": "et pluit illis manna ad manducandum et panem caeli dedit eis",
-      "citation": "Psalms 78:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "et pluit super eos man ut comederent et triticum caeli dedit eis",
       "citation": "Psalms 78:24 (Clementine Vulgate)"
     },
     {
@@ -278,18 +158,8 @@
       "citation": "Psalms 78:25 (Clementine Vulgate)"
     },
     {
-      "verse": 25,
-      "text": "panem fortium comedit vir cibaria misit eis in saturitatem",
-      "citation": "Psalms 78:25 (Clementine Vulgate)"
-    },
-    {
       "verse": 26,
       "text": "transtulit austrum de caelo et induxit in virtute sua africum",
-      "citation": "Psalms 78:26 (Clementine Vulgate)"
-    },
-    {
-      "verse": 26,
-      "text": "abstulit eurum de caelo et induxit in fortitudine sua africum",
       "citation": "Psalms 78:26 (Clementine Vulgate)"
     },
     {
@@ -298,18 +168,8 @@
       "citation": "Psalms 78:27 (Clementine Vulgate)"
     },
     {
-      "verse": 27,
-      "text": "et pluit super eos quasi pulverem carnes et quasi harenam maris volatilia pinnata",
-      "citation": "Psalms 78:27 (Clementine Vulgate)"
-    },
-    {
       "verse": 28,
       "text": "et ceciderunt in medio castrorum eorum circa tabernacula eorum",
-      "citation": "Psalms 78:28 (Clementine Vulgate)"
-    },
-    {
-      "verse": 28,
-      "text": "et ceciderunt in medio castrorum eius in circuitu tabernaculorum eius",
       "citation": "Psalms 78:28 (Clementine Vulgate)"
     },
     {
@@ -318,18 +178,8 @@
       "citation": "Psalms 78:29 (Clementine Vulgate)"
     },
     {
-      "verse": 29,
-      "text": "et comederunt et saturati sunt nimis et desiderium eorum adtulit eis",
-      "citation": "Psalms 78:29 (Clementine Vulgate)"
-    },
-    {
       "verse": 30,
       "text": "non sunt fraudati a desiderio suo adhuc escae eorum erant in ore ipsorum",
-      "citation": "Psalms 78:30 (Clementine Vulgate)"
-    },
-    {
-      "verse": 30,
-      "text": "non indiguerunt de cupiditate sua cum adhuc cibus esset in ore eorum",
       "citation": "Psalms 78:30 (Clementine Vulgate)"
     },
     {
@@ -338,18 +188,8 @@
       "citation": "Psalms 78:31 (Clementine Vulgate)"
     },
     {
-      "verse": 31,
-      "text": "furor ergo Dei ascendit super eos et occidit pingues eorum et electos Israhel incurvavit",
-      "citation": "Psalms 78:31 (Clementine Vulgate)"
-    },
-    {
       "verse": 32,
       "text": "in omnibus his peccaverunt adhuc et non crediderunt mirabilibus eius",
-      "citation": "Psalms 78:32 (Clementine Vulgate)"
-    },
-    {
-      "verse": 32,
-      "text": "in omnibus his peccaverunt ultra et non crediderunt mirabilibus eius",
       "citation": "Psalms 78:32 (Clementine Vulgate)"
     },
     {
@@ -358,18 +198,8 @@
       "citation": "Psalms 78:33 (Clementine Vulgate)"
     },
     {
-      "verse": 33,
-      "text": "et consumpsit in vanitate dies eorum et annos eorum velociter",
-      "citation": "Psalms 78:33 (Clementine Vulgate)"
-    },
-    {
       "verse": 34,
       "text": "cum occideret eos quaerebant eum et revertebantur et diluculo veniebant ad Deum",
-      "citation": "Psalms 78:34 (Clementine Vulgate)"
-    },
-    {
-      "verse": 34,
-      "text": "si occidebat eos tunc requirebant eum et convertebantur et diluculo consurgebant ad Deum",
       "citation": "Psalms 78:34 (Clementine Vulgate)"
     },
     {
@@ -378,18 +208,8 @@
       "citation": "Psalms 78:35 (Clementine Vulgate)"
     },
     {
-      "verse": 35,
-      "text": "et recordabantur quia Deus fortitudo eorum et Deus excelsus redemptor eorum",
-      "citation": "Psalms 78:35 (Clementine Vulgate)"
-    },
-    {
       "verse": 36,
       "text": "et dilexerunt eum in ore suo et lingua sua mentiti sunt ei",
-      "citation": "Psalms 78:36 (Clementine Vulgate)"
-    },
-    {
-      "verse": 36,
-      "text": "et lactaverunt eum in ore suo et lingua sua mentiti sunt ei",
       "citation": "Psalms 78:36 (Clementine Vulgate)"
     },
     {
@@ -398,18 +218,8 @@
       "citation": "Psalms 78:37 (Clementine Vulgate)"
     },
     {
-      "verse": 37,
-      "text": "cor autem eorum non erat firmum cum eo nec permanserunt in pacto eius",
-      "citation": "Psalms 78:37 (Clementine Vulgate)"
-    },
-    {
       "verse": 38,
       "text": "ipse autem est misericors et propitius fiet peccatis eorum et non perdet eos et abundabit ut avertat iram suam et non accendet omnem iram suam",
-      "citation": "Psalms 78:38 (Clementine Vulgate)"
-    },
-    {
-      "verse": 38,
-      "text": "ipse vero misericors propitiabitur iniquitati et non disperdet multumque avertit iram suam et non suscitavit totum furorem suum",
       "citation": "Psalms 78:38 (Clementine Vulgate)"
     },
     {
@@ -418,18 +228,8 @@
       "citation": "Psalms 78:39 (Clementine Vulgate)"
     },
     {
-      "verse": 39,
-      "text": "sed recordatus est quia caro essent spiritus vadens et non revertens",
-      "citation": "Psalms 78:39 (Clementine Vulgate)"
-    },
-    {
       "verse": 40,
       "text": "quotiens exacerbaverunt eum in deserto in ira concitaverunt eum in inaquoso",
-      "citation": "Psalms 78:40 (Clementine Vulgate)"
-    },
-    {
-      "verse": 40,
-      "text": "quotiens provocaverunt eum in deserto adflixerunt eum in solitudine",
       "citation": "Psalms 78:40 (Clementine Vulgate)"
     },
     {
@@ -438,18 +238,8 @@
       "citation": "Psalms 78:41 (Clementine Vulgate)"
     },
     {
-      "verse": 41,
-      "text": "et conversi sunt et temptaverunt Deum et Sanctum Israhel concitaverunt",
-      "citation": "Psalms 78:41 (Clementine Vulgate)"
-    },
-    {
       "verse": 42,
       "text": "non sunt recordati manus eius die qua redemit eos de manu tribulantis",
-      "citation": "Psalms 78:42 (Clementine Vulgate)"
-    },
-    {
-      "verse": 42,
-      "text": "non sunt recordati manus eius diei qua redemit eos a tribulante",
       "citation": "Psalms 78:42 (Clementine Vulgate)"
     },
     {
@@ -458,18 +248,8 @@
       "citation": "Psalms 78:43 (Clementine Vulgate)"
     },
     {
-      "verse": 43,
-      "text": "qui fecit in Aegypto signa sua et ostenta sua in regione Taneos",
-      "citation": "Psalms 78:43 (Clementine Vulgate)"
-    },
-    {
       "verse": 44,
       "text": "et convertit in sanguine flumina eorum et imbres eorum ne biberent",
-      "citation": "Psalms 78:44 (Clementine Vulgate)"
-    },
-    {
-      "verse": 44,
-      "text": "qui convertit in sanguine fluvios eorum et rivos eorum ut non biberent",
       "citation": "Psalms 78:44 (Clementine Vulgate)"
     },
     {
@@ -478,18 +258,8 @@
       "citation": "Psalms 78:45 (Clementine Vulgate)"
     },
     {
-      "verse": 45,
-      "text": "qui inmisit eis genus omne muscarum ut comederent eos et ranas ut disperderent eos",
-      "citation": "Psalms 78:45 (Clementine Vulgate)"
-    },
-    {
       "verse": 46,
       "text": "et dedit erugini fructus eorum et labores eorum lucustae",
-      "citation": "Psalms 78:46 (Clementine Vulgate)"
-    },
-    {
-      "verse": 46,
-      "text": "qui dedit brucho germen eorum et laborem eorum lucustae",
       "citation": "Psalms 78:46 (Clementine Vulgate)"
     },
     {
@@ -498,18 +268,8 @@
       "citation": "Psalms 78:47 (Clementine Vulgate)"
     },
     {
-      "verse": 47,
-      "text": "qui occidit in grandine vineas eorum et sycomoros eorum in frigore",
-      "citation": "Psalms 78:47 (Clementine Vulgate)"
-    },
-    {
       "verse": 48,
       "text": "et tradidit grandini iumenta eorum et possessionem eorum igni",
-      "citation": "Psalms 78:48 (Clementine Vulgate)"
-    },
-    {
-      "verse": 48,
-      "text": "qui tradidit grandini pascua eorum et iumenta eorum volucribus",
       "citation": "Psalms 78:48 (Clementine Vulgate)"
     },
     {
@@ -518,18 +278,8 @@
       "citation": "Psalms 78:49 (Clementine Vulgate)"
     },
     {
-      "verse": 49,
-      "text": "qui misit in eos iram furoris sui indignationem et comminationem et angustiam inmissionem angelorum malorum",
-      "citation": "Psalms 78:49 (Clementine Vulgate)"
-    },
-    {
       "verse": 50,
       "text": "viam fecit semitae irae suae non pepercit a morte animarum eorum et iumenta eorum in morte conclusit",
-      "citation": "Psalms 78:50 (Clementine Vulgate)"
-    },
-    {
-      "verse": 50,
-      "text": "munivit semitam furori suo non pepercit morti animae eorum et animantia eorum pesti tradidit",
       "citation": "Psalms 78:50 (Clementine Vulgate)"
     },
     {
@@ -538,18 +288,8 @@
       "citation": "Psalms 78:51 (Clementine Vulgate)"
     },
     {
-      "verse": 51,
-      "text": "et percussit omne primogenitum in Aegypto principium partus in tabernaculis Cham",
-      "citation": "Psalms 78:51 (Clementine Vulgate)"
-    },
-    {
       "verse": 52,
       "text": "et abstulit sicut oves populum suum et perduxit eos tamquam gregem in deserto",
-      "citation": "Psalms 78:52 (Clementine Vulgate)"
-    },
-    {
-      "verse": 52,
-      "text": "et tulit veluti oves populum suum et minavit eos sicut gregem in deserto",
       "citation": "Psalms 78:52 (Clementine Vulgate)"
     },
     {
@@ -558,18 +298,8 @@
       "citation": "Psalms 78:53 (Clementine Vulgate)"
     },
     {
-      "verse": 53,
-      "text": "et duxit eos cum fiducia et absque timore inimicos autem eorum operuit mare",
-      "citation": "Psalms 78:53 (Clementine Vulgate)"
-    },
-    {
       "verse": 54,
       "text": "et induxit eos in montem sanctificationis suae montem quem adquisivit dextera eius et eiecit a facie eorum gentes et sorte divisit eis terram in funiculo distributionis",
-      "citation": "Psalms 78:54 (Clementine Vulgate)"
-    },
-    {
-      "verse": 54,
-      "text": "et adduxit eos ad terminum sanctificatum suum montem istum quem possedit dextera eius et eiecit a facie eorum gentes et possidere eos fecit in funiculo hereditatem",
       "citation": "Psalms 78:54 (Clementine Vulgate)"
     },
     {
@@ -578,18 +308,8 @@
       "citation": "Psalms 78:55 (Clementine Vulgate)"
     },
     {
-      "verse": 55,
-      "text": "et conlocavit in tabernaculis eorum tribus Israhel",
-      "citation": "Psalms 78:55 (Clementine Vulgate)"
-    },
-    {
       "verse": 56,
       "text": "et temptaverunt et exacerbaverunt Deum excelsum et testimonia eius non custodierunt",
-      "citation": "Psalms 78:56 (Clementine Vulgate)"
-    },
-    {
-      "verse": 56,
-      "text": "et temptaverunt et provocaverunt Deum excelsum et testimonia eius non custodierunt",
       "citation": "Psalms 78:56 (Clementine Vulgate)"
     },
     {
@@ -598,18 +318,8 @@
       "citation": "Psalms 78:57 (Clementine Vulgate)"
     },
     {
-      "verse": 57,
-      "text": "et aversi sunt et praevaricati sunt ut patres eorum incurvati sunt quasi arcus inutilis",
-      "citation": "Psalms 78:57 (Clementine Vulgate)"
-    },
-    {
       "verse": 58,
       "text": "et in ira concitaverunt eum in collibus suis et in sculptilibus suis ad aemulationem eum provocaverunt",
-      "citation": "Psalms 78:58 (Clementine Vulgate)"
-    },
-    {
-      "verse": 58,
-      "text": "et provocaverunt eum in excelsis suis et in sculptilibus suis ad aemulandum concitaverunt",
       "citation": "Psalms 78:58 (Clementine Vulgate)"
     },
     {
@@ -618,18 +328,8 @@
       "citation": "Psalms 78:59 (Clementine Vulgate)"
     },
     {
-      "verse": 59,
-      "text": "audivit Deus et non distulit et proiecit vehementer Israhel",
-      "citation": "Psalms 78:59 (Clementine Vulgate)"
-    },
-    {
       "verse": 60,
       "text": "et reppulit tabernaculum Selo tabernaculum suum ubi habitavit in hominibus",
-      "citation": "Psalms 78:60 (Clementine Vulgate)"
-    },
-    {
-      "verse": 60,
-      "text": "et reliquit tabernaculum Selo tentorium quod conlocavit inter homines",
       "citation": "Psalms 78:60 (Clementine Vulgate)"
     },
     {
@@ -638,18 +338,8 @@
       "citation": "Psalms 78:61 (Clementine Vulgate)"
     },
     {
-      "verse": 61,
-      "text": "tradidit in captivitatem gloriam suam et decorem suum in manu hostis",
-      "citation": "Psalms 78:61 (Clementine Vulgate)"
-    },
-    {
       "verse": 62,
       "text": "et conclusit in gladio populum suum et hereditatem suam sprevit",
-      "citation": "Psalms 78:62 (Clementine Vulgate)"
-    },
-    {
-      "verse": 62,
-      "text": "et conclusit in gladio populum suum et in hereditate sua non distulit",
       "citation": "Psalms 78:62 (Clementine Vulgate)"
     },
     {
@@ -658,18 +348,8 @@
       "citation": "Psalms 78:63 (Clementine Vulgate)"
     },
     {
-      "verse": 63,
-      "text": "iuvenes eius devoravit ignis et virgines eius nemo luxit",
-      "citation": "Psalms 78:63 (Clementine Vulgate)"
-    },
-    {
       "verse": 64,
       "text": "sacerdotes eorum in gladio ceciderunt et viduae eorum non plorabuntur",
-      "citation": "Psalms 78:64 (Clementine Vulgate)"
-    },
-    {
-      "verse": 64,
-      "text": "sacerdotes eius gladio ceciderunt et viduae eius non sunt fletae",
       "citation": "Psalms 78:64 (Clementine Vulgate)"
     },
     {
@@ -678,18 +358,8 @@
       "citation": "Psalms 78:65 (Clementine Vulgate)"
     },
     {
-      "verse": 65,
-      "text": "et evigilavit quasi dormiens Dominus quasi fortis post crapulam vini",
-      "citation": "Psalms 78:65 (Clementine Vulgate)"
-    },
-    {
       "verse": 66,
       "text": "et percussit inimicos suos in posteriora obprobrium sempiternum dedit illis",
-      "citation": "Psalms 78:66 (Clementine Vulgate)"
-    },
-    {
-      "verse": 66,
-      "text": "et percussit hostes suos retrorsum obprobrium sempiternum dedit eos",
       "citation": "Psalms 78:66 (Clementine Vulgate)"
     },
     {
@@ -698,18 +368,8 @@
       "citation": "Psalms 78:67 (Clementine Vulgate)"
     },
     {
-      "verse": 67,
-      "text": "et proiecit tabernaculum Ioseph et tribum Efraim non elegit",
-      "citation": "Psalms 78:67 (Clementine Vulgate)"
-    },
-    {
       "verse": 68,
       "text": "et elegit tribum Iuda montem Sion quem dilexit",
-      "citation": "Psalms 78:68 (Clementine Vulgate)"
-    },
-    {
-      "verse": 68,
-      "text": "sed elegit tribum Iuda montem Sion quem dilexit",
       "citation": "Psalms 78:68 (Clementine Vulgate)"
     },
     {
@@ -718,18 +378,8 @@
       "citation": "Psalms 78:69 (Clementine Vulgate)"
     },
     {
-      "verse": 69,
-      "text": "et aedificavit in similitudinem monoceroton sanctuarium suum quasi terram fundavit illud in saeculum",
-      "citation": "Psalms 78:69 (Clementine Vulgate)"
-    },
-    {
       "verse": 70,
       "text": "et elegit David servum suum et sustulit eum de gregibus ovium de post fetantes accepit eum",
-      "citation": "Psalms 78:70 (Clementine Vulgate)"
-    },
-    {
-      "verse": 70,
-      "text": "et elegit David servum suum et tulit eum de gregibus ovium sequentem fetas adduxit eum",
       "citation": "Psalms 78:70 (Clementine Vulgate)"
     },
     {
@@ -738,18 +388,8 @@
       "citation": "Psalms 78:71 (Clementine Vulgate)"
     },
     {
-      "verse": 71,
-      "text": "ut pasceret Iacob populum eius et Israhel hereditatem eius",
-      "citation": "Psalms 78:71 (Clementine Vulgate)"
-    },
-    {
       "verse": 72,
       "text": "et pavit eos in innocentia cordis sui et in intellectibus manuum suarum deduxit eos",
-      "citation": "Psalms 78:72 (Clementine Vulgate)"
-    },
-    {
-      "verse": 72,
-      "text": "qui pavit eos in simplicitate cordis sui et in prudentia manuum suarum dux eorum fuit",
       "citation": "Psalms 78:72 (Clementine Vulgate)"
     }
   ]

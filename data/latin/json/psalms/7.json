@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 7 — 36 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 7 — 18 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 7,
-    "verseCount": 36,
+    "verseCount": 18,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,34 +38,14 @@
       "citation": "Psalms 7:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "pro ignoratione David quod cecinit Domino super verbis Aethiopis filii Iemini",
-      "citation": "Psalms 7:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "Domine Deus meus in te speravi salvum me fac ex omnibus persequentibus me et libera me",
-      "citation": "Psalms 7:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "Domine Deus meus in te speravi salva me ab omnibus persequentibus me et libera me",
       "citation": "Psalms 7:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
       "text": "nequando rapiat ut leo animam meam dum non est qui redimat neque qui salvum faciat",
       "citation": "Psalms 7:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "ne forte capiat ut leo animam meam laceret et non sit qui eruat",
-      "citation": "Psalms 7:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "Domine Deus meus si feci istud si est iniquitas in manibus meis",
-      "citation": "Psalms 7:4 (Clementine Vulgate)"
     },
     {
       "verse": 4,
@@ -78,18 +58,8 @@
       "citation": "Psalms 7:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "si reddidi retribuentibus mihi malum et dimisi hostes meos vacuos",
-      "citation": "Psalms 7:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "persequatur inimicus animam meam et conprehendat et conculcet in terra vitam meam et gloriam meam in pulverem deducat diapsalma",
-      "citation": "Psalms 7:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "persequatur inimicus animam meam et adprehendat et conculcet in terra vitam meam et gloriam meam in pulverem conlocet semper",
       "citation": "Psalms 7:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 7:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "surge Domine in furore tuo elevare indignans super hostes meos et consurge ad me iudicio quod mandasti",
-      "citation": "Psalms 7:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "et synagoga populorum circumdabit te et propter hanc in altum regredere",
-      "citation": "Psalms 7:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "et congregatio tribuum circumdet te et pro hac in altum revertere",
       "citation": "Psalms 7:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 7:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "Dominus iudicabit populos iudica me Domine secundum iustitiam meam et secundum simplicitatem meam quae est in me",
-      "citation": "Psalms 7:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "consummetur nequitia peccatorum et diriges iustum et scrutans corda et renes Deus",
-      "citation": "Psalms 7:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "consumatur malum iniquorum et confirmetur iustitia probator cordis et renum Deus iustus",
       "citation": "Psalms 7:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 7:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "clipeus meus in Deo qui salvat rectos corde",
-      "citation": "Psalms 7:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "Deus iudex iustus et fortis et patiens numquid irascitur per singulos dies",
-      "citation": "Psalms 7:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "Deus iudex iustus et fortis comminans tota die",
       "citation": "Psalms 7:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 7:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "non convertenti gladium suum acuet arcum suum tetendit et paravit illum",
-      "citation": "Psalms 7:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "et in eo paravit vasa mortis sagittas suas ardentibus effecit",
-      "citation": "Psalms 7:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "et in ipso praeparavit vasa mortis sagittas suas ad conburendum operatus est",
       "citation": "Psalms 7:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Psalms 7:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "ecce parturit iniquitatem et concepto dolore peperit mendacium",
-      "citation": "Psalms 7:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "lacum aperuit et effodit eum et incidet in foveam quam fecit",
-      "citation": "Psalms 7:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "lacum aperuit et effodit eum et incidet in interitum quem operatus est",
       "citation": "Psalms 7:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "Psalms 7:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "revertetur dolor suus in caput eius et super verticem eius iniquitas sua descendet",
-      "citation": "Psalms 7:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "confitebor Domino secundum iustitiam eius et psallam nomini Domini altissimi",
-      "citation": "Psalms 7:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "confitebor Domino secundum iustitiam eius et cantabo nomini Domini altissimi",
       "citation": "Psalms 7:18 (Clementine Vulgate)"
     }
   ]

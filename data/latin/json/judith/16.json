@@ -15,7 +15,7 @@
       "slug": "judith",
       "testament": "OT",
       "order": 18,
-      "totalChapters": 17
+      "totalChapters": 16
     },
     "chapter": 16,
     "verseCount": 30,
@@ -23,7 +23,7 @@
       "bookIndex": "https://latinprayer.org/latin/judith/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
       "previousChapter": "https://latinprayer.org/latin/judith/15.json",
-      "nextChapter": "https://latinprayer.org/latin/judith/17.json"
+      "nextChapter": null
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/judith/16.json",
@@ -179,7 +179,7 @@
     },
     {
       "verse": 30,
-      "text": "in omni autem spatio vitae eius non fuit qui perturbaret Israhel et post mortem eius annis multis Laodiceans",
+      "text": "in omni autem spatio vitae eius non fuit qui perturbaret Israhel et post mortem eius annis multis",
       "citation": "Judith 16:30 (Clementine Vulgate)"
     }
   ]

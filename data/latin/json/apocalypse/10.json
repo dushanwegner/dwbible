@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Revelation, Chapter 10 — 60 verses (Clementine Vulgate)",
+    "content": "Revelation, Chapter 10 — 11 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "apocalypse",
       "testament": "NT",
       "order": 73,
-      "totalChapters": 35
+      "totalChapters": 22
     },
     "chapter": 10,
-    "verseCount": 60,
+    "verseCount": 11,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/apocalypse/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,303 +34,58 @@
   "verses": [
     {
       "verse": 1,
-      "text": "et factum est cum introisset filius meus in thalamo suo, cecidit et mortuus est.",
+      "text": "et vidi alium angelum fortem descendentem de caelo amictum nube et iris in capite eius et facies eius erat ut sol et pedes eius tamquam columna ignis",
       "citation": "Revelation 10:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "et evertimus omnes lumina, et surrexerunt omnes cives mei ad consolandam me, et quievi usque in alium diem usque noctem.",
+      "text": "et habebat in manu sua libellum apertum et posuit pedem suum dextrum supra mare sinistrum autem super terram",
       "citation": "Revelation 10:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "et factum est cum omnes quievissent ut me consolarentur ut quiescerem, et surrexi nocte et fugi et veni, sicut vides, in hoc campo.",
+      "text": "et clamavit voce magna quemadmodum cum leo rugit et cum clamasset locuta sunt septem tonitrua voces suas",
       "citation": "Revelation 10:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "et cogito iam non reverti in civitatem sed hic consistere, et neque manducabo neque bibam, sed sine intermissione lugere et ieiunare usque dum moriar.",
+      "text": "et cum locuta fuissent septem tonitrua scripturus eram et audivi vocem de caelo dicentem signa quae locuta sunt septem tonitrua et noli ea scribere",
       "citation": "Revelation 10:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "et dereliqui adhuc sermones in quibus eram et respondi cum iracundia ad eam et dixi:",
+      "text": "et angelum quem vidi stantem supra mare et supra terram levavit manum suam ad caelum",
       "citation": "Revelation 10:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "stulta super omnes mulieres, non vides luctum nostrum et quae nobis contigerunt.",
+      "text": "et iuravit per viventem in saecula saeculorum qui creavit caelum et ea quae in illo sunt et terram et ea quae in ea sunt et mare et quae in eo sunt quia tempus amplius non erit",
       "citation": "Revelation 10:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "quoniam Sion mater nostra omnium in tristitia contristatur et humilitate humiliata est. lugete validissime",
+      "text": "sed in diebus vocis septimi angeli cum coeperit tuba canere et consummabitur mysterium Dei sicut evangelizavit per servos suos prophetas",
       "citation": "Revelation 10:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "et nunc quoniam omnes lugemus, et tristes este quoniam omnes contristati sumus. tu autem contristaris in uno filio.",
+      "text": "et vox quam audivi de caelo iterum loquentem mecum et dicentem vade accipe librum apertum de manu angeli stantis supra mare et supra terram",
       "citation": "Revelation 10:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "interroga enim terram et dicet tibi, quoniam haec est quae debeat lugere tantorum superstes germinantium.",
+      "text": "et abii ad angelum dicens ei ut daret mihi librum et dicit mihi accipe et devora illum et faciet amaricare ventrem tuum sed in ore tuo erit dulce tamquam mel",
       "citation": "Revelation 10:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "et ex ipsa initio omnes nati et alii venient, et ecce paene omnes in perditionem ambulant et in exterminium fit multitudo eorum.",
+      "text": "et accepi librum de manu angeli et devoravi eum et erat in ore meo tamquam mel dulce et cum devorassem eum amaricatus est venter meus",
       "citation": "Revelation 10:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "et quis ergo debet lugere magis nisi haec quae tam magnam multitudinem perdidit, quam tu quae pro uno doles? si autem dices mihi",
+      "text": "et dicunt mihi oportet te iterum prophetare populis et gentibus et linguis et regibus multis",
       "citation": "Revelation 10:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "quoniam non est similis planctus meus terrae, quoniam fructum ventris mei perdidi, quem cum maeroribus peperi et cum doloribus genui,",
-      "citation": "Revelation 10:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "terra autem secundum viam terrae, abiit quae in ea multitudo praesens quomodo et venit et ego tibi dico:",
-      "citation": "Revelation 10:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "sicut tu cum dolore peperisti, sic et terra dedit fructum suum hominem ab initio ei qui fecit eam.",
-      "citation": "Revelation 10:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "nunc ergo retine apud temet ipsam dolorem tuum et fortiter fer quae tibi contigerunt casus.",
-      "citation": "Revelation 10:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "si enim iustificaveris terminum Dei, et filium tuum recipies in tempore et in mulieribus conlaudaberis.",
-      "citation": "Revelation 10:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 17,
-      "text": "ingredere ergo in civitatem ad virum tuum. et dixit ad me:",
-      "citation": "Revelation 10:17 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "non faciam neque ingrediar civitatem, sed hic moriar.",
-      "citation": "Revelation 10:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 19,
-      "text": "et adposui adhuc loqui ad eam et dixi:",
-      "citation": "Revelation 10:19 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "noli facere sermonem hunc, sed consenti persuaderi -- quid enim casus Sion -- et consolare propter dolorem Hierusalem.",
-      "citation": "Revelation 10:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 21,
-      "text": "vides enim, quoniam sanctificatio nostra deserta effecta est et altare nostrum demolitum est et templum nostrum destructum est,",
-      "citation": "Revelation 10:21 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "et psalterium nostrum humiliatum est et hymnus noster conticuit et exultatio nostra dissoluta est, et lumen candelabri nostri extinctum est et arca testamenti nostri direpta est et sancta nostra contaminata sunt, et nomen quod nominatum est super nos paene profanatum est, et liberi nostri contumeliam passi sunt, et sacerdotes nostri succensi sunt et Levitae nostri in captivitate abierunt, et virgines nostrae coinquinatae sunt et mulieres nostrae vim passae sunt, et iusti nostri rapti sunt et parvuli nostri proditi sunt, et iuvenes nostri servierunt et fortes nostri invalidi facti sunt.",
-      "citation": "Revelation 10:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "et quod omnium maius, signaculum Sion, quoniam resignata est de gloria sua nunc et tradita est in manibus eorum qui nos oderunt.",
-      "citation": "Revelation 10:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "tu ergo excute tuam multam tristitiam et depone abs te multitudinem dolorum, ut tibi repropitietur Fortis et requiem faciat tibi Altissimus, requietionem laborum.",
-      "citation": "Revelation 10:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 25,
-      "text": "et factum est cum loquebar ad eam, et ecce facies eius fulgebat valde subito, et species coruscus fiebat visus eius, ut etiam paverem valde ad eam, et cogitarem quid esset hoc.",
-      "citation": "Revelation 10:25 (Clementine Vulgate)"
-    },
-    {
-      "verse": 26,
-      "text": "et ecce subito emisit sonum vocis magnum timore plenum, ut commoveretur terra a sono. et vidi,",
-      "citation": "Revelation 10:26 (Clementine Vulgate)"
-    },
-    {
-      "verse": 27,
-      "text": "et ecce amplius mulier non conparebat mihi, sed civitas aedificabatur et locus demonstrabatur de fundamentis magnis. et timui et clamavi voce magna et dixi:",
-      "citation": "Revelation 10:27 (Clementine Vulgate)"
-    },
-    {
-      "verse": 28,
-      "text": "ubi est Urihel angelus, qui a principio venit ad me? quoniam ipse me fecit venire in multitudinem excessus mentis huius, et factus est finis meus in corruptionem et oratio mea in inproperium.",
-      "citation": "Revelation 10:28 (Clementine Vulgate)"
-    },
-    {
-      "verse": 29,
-      "text": "et cum essem loquens ego haec, et ecce venit ad me angelus qui in principio venerat ad me et vidit me,",
-      "citation": "Revelation 10:29 (Clementine Vulgate)"
-    },
-    {
-      "verse": 30,
-      "text": "et ecce eram positus ut mortuus et intellectus meus alienatus erat, et tenuit dexteram meam et confortavit me et statuit me super pedes meos et dixit mihi:",
-      "citation": "Revelation 10:30 (Clementine Vulgate)"
-    },
-    {
-      "verse": 31,
-      "text": "quid tibi est et quare conturbaris et quid conturbatum est intellectum tuum et sensus cordis tui? et dixi:",
-      "citation": "Revelation 10:31 (Clementine Vulgate)"
-    },
-    {
-      "verse": 32,
-      "text": "quoniam derelinquens dereliquisti me. ego quidem feci secundum sermones tuos et exivi in campum, et ecce vidi et video quod non possum enarrare. et dixit ad me:",
-      "citation": "Revelation 10:32 (Clementine Vulgate)"
-    },
-    {
-      "verse": 33,
-      "text": "sta ut vir, et commonebo te. et dixi:",
-      "citation": "Revelation 10:33 (Clementine Vulgate)"
-    },
-    {
-      "verse": 34,
-      "text": "loquere, dominus meus, tantum me noli derelinquere, ut non frustra moriar,",
-      "citation": "Revelation 10:34 (Clementine Vulgate)"
-    },
-    {
-      "verse": 35,
-      "text": "quoniam vidi quae non sciebam, et audio quae non scio.",
-      "citation": "Revelation 10:35 (Clementine Vulgate)"
-    },
-    {
-      "verse": 36,
-      "text": "aut numquid sensus meus fallitur et anima mea somniat?",
-      "citation": "Revelation 10:36 (Clementine Vulgate)"
-    },
-    {
-      "verse": 37,
-      "text": "nunc ergo deprecor te, ut demonstres servo tuo de excessu hoc. et respondit ad me et dixit:",
-      "citation": "Revelation 10:37 (Clementine Vulgate)"
-    },
-    {
-      "verse": 38,
-      "text": "audi me, et doceam te et dicam tibi de quibus times, quoniam Altissimus revelavit tibi mysteria multa.",
-      "citation": "Revelation 10:38 (Clementine Vulgate)"
-    },
-    {
-      "verse": 39,
-      "text": "vidit rectam viam tuam quoniam sine intermissione contristabaris pro populo tuo et valde lugebas propter Sion.",
-      "citation": "Revelation 10:39 (Clementine Vulgate)"
-    },
-    {
-      "verse": 40,
-      "text": "hic ergo intellectus visionis: mulier quae tibi apparuit ante paululum,",
-      "citation": "Revelation 10:40 (Clementine Vulgate)"
-    },
-    {
-      "verse": 41,
-      "text": "quam vidisti lugentem et inchoasti consolare eam,",
-      "citation": "Revelation 10:41 (Clementine Vulgate)"
-    },
-    {
-      "verse": 42,
-      "text": "nunc autem iam non speciem mulieris vides, sed apparuit tibi civitas aedificari.",
-      "citation": "Revelation 10:42 (Clementine Vulgate)"
-    },
-    {
-      "verse": 43,
-      "text": "et quoniam enarrabat tibi de casu filii sui, haec absolutio est:",
-      "citation": "Revelation 10:43 (Clementine Vulgate)"
-    },
-    {
-      "verse": 44,
-      "text": "haec mulier quam vidisti haec est Sion, quam nunc conspicis ut civitatem aedificatam.",
-      "citation": "Revelation 10:44 (Clementine Vulgate)"
-    },
-    {
-      "verse": 45,
-      "text": "et quoniam dixit tibi, quia sterilis fuit annis triginta, propter quod erant anni saeculo tria milia, quando non erat in ea adhuc oblatio oblata.",
-      "citation": "Revelation 10:45 (Clementine Vulgate)"
-    },
-    {
-      "verse": 46,
-      "text": "et factum est post annos tres, et aedificavit Salomon civitatem et obtulit oblationes. tunc fuit quando peperit sterilis filium.",
-      "citation": "Revelation 10:46 (Clementine Vulgate)"
-    },
-    {
-      "verse": 47,
-      "text": "et quod tibi dixit quoniam nutrivi eum cum labore, haec erat habitatio Hierusalem.",
-      "citation": "Revelation 10:47 (Clementine Vulgate)"
-    },
-    {
-      "verse": 48,
-      "text": "et quoniam dixit tibi quod filius meus veniens in suo thalamo mortuus esset et contigisset ei casus, haec erat quae facta est ruina Hierusalem.",
-      "citation": "Revelation 10:48 (Clementine Vulgate)"
-    },
-    {
-      "verse": 49,
-      "text": "et ecce vidisti similitudinem eius, quomodo filium luget, et tu inchoasti consolare eam de his quae contigerunt. haec erant tibi aperienda.",
-      "citation": "Revelation 10:49 (Clementine Vulgate)"
-    },
-    {
-      "verse": 50,
-      "text": "et nunc videns Altissimus, quoniam ex animo contristatus es et quoniam ex toto corde pateris pro ea, ostendit tibi claritatem gloriae eius et pulchritudinem decoris eius.",
-      "citation": "Revelation 10:50 (Clementine Vulgate)"
-    },
-    {
-      "verse": 51,
-      "text": "propterea enim dixi tibi, ut maneres in campo, ubi domus non est aedificata.",
-      "citation": "Revelation 10:51 (Clementine Vulgate)"
-    },
-    {
-      "verse": 52,
-      "text": "sciebam enim ego, quoniam Altissimus incipiebat tibi ostendere haec.",
-      "citation": "Revelation 10:52 (Clementine Vulgate)"
-    },
-    {
-      "verse": 53,
-      "text": "propterea dixi tibi, ut venires in agrum, ubi non est fundamentum aedificii.",
-      "citation": "Revelation 10:53 (Clementine Vulgate)"
-    },
-    {
-      "verse": 54,
-      "text": "nec enim poterat opus aedificii hominis sustinere in loco, ubi incipiebat Altissimi civitas ostendi.",
-      "citation": "Revelation 10:54 (Clementine Vulgate)"
-    },
-    {
-      "verse": 55,
-      "text": "tu ergo noli timere neque expavescat cor tuum, sed ingredere et vide splendorem vel magnitudinem aedificii, quantum capax est tibi visu oculorum videre.",
-      "citation": "Revelation 10:55 (Clementine Vulgate)"
-    },
-    {
-      "verse": 56,
-      "text": "et post haec audies, quantum capit auditus aurium tuarum audire.",
-      "citation": "Revelation 10:56 (Clementine Vulgate)"
-    },
-    {
-      "verse": 57,
-      "text": "tu enim beatus es prae multis et vocatus es apud Altissimum sicut et pauci.",
-      "citation": "Revelation 10:57 (Clementine Vulgate)"
-    },
-    {
-      "verse": 58,
-      "text": "nocte autem quae in crastinum futura est manebis hic,",
-      "citation": "Revelation 10:58 (Clementine Vulgate)"
-    },
-    {
-      "verse": 59,
-      "text": "et ostendet tibi Altissimus eas visiones somniorum, quae faciet Altissimus his qui inhabitant super terram a novissimis diebus.",
-      "citation": "Revelation 10:59 (Clementine Vulgate)"
-    },
-    {
-      "verse": 60,
-      "text": "et dormivi illam noctem et aliam sicut dixerat mihi.",
-      "citation": "Revelation 10:60 (Clementine Vulgate)"
     }
   ]
 }

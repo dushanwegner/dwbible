@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Nehemiah — 3 chapters (Clementine Vulgate)",
+    "content": "Nehemiah — 13 chapters (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,7 +15,7 @@
       "slug": "2-esdras-nehemias",
       "testament": "OT",
       "order": 16,
-      "totalChapters": 3
+      "totalChapters": 13
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/2-esdras-nehemias/index.json",
@@ -37,9 +37,69 @@
     },
     {
       "chapter": 3,
-      "verseCount": 19,
+      "verseCount": 37,
       "url": "https://latinprayer.org/latin/2-esdras-nehemias/3",
       "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/4",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/5",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/6",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 73,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/7",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/8",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/9",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 40,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/10",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/11",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/12",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/13",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/13.json"
     }
   ]
 }

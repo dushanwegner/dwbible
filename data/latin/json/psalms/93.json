@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 93 — 10 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 93 — 5 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 93,
-    "verseCount": 10,
+    "verseCount": 5,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 93:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "Dominus regnavit gloria indutus est indutus est Dominus fortitudine et accinctus est insuper adpendit orbem qui non commovebitur",
-      "citation": "Psalms 93:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "parata sedis tua ex tunc a saeculo tu es",
-      "citation": "Psalms 93:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "firmum solium tuum ex tunc ab aeterno tu es",
       "citation": "Psalms 93:2 (Clementine Vulgate)"
     },
     {
@@ -58,28 +48,13 @@
       "citation": "Psalms 93:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "levaverunt flumina Domine levaverunt flumina voces suas levaverunt flumina gurgites suos",
-      "citation": "Psalms 93:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "a vocibus aquarum multarum mirabiles elationes maris mirabilis in altis Dominus",
       "citation": "Psalms 93:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "a vocibus aquarum multarum grandes fluctus maris grandis in excelso Dominus",
-      "citation": "Psalms 93:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "testimonia tua credibilia facta sunt nimis domum tuam decet sanctitudo Domine in longitudine dierum",
-      "citation": "Psalms 93:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "testimonia tua fidelia facta sunt nimis domum tuam decet sanctitas Domine in longitudine dierum",
       "citation": "Psalms 93:5 (Clementine Vulgate)"
     }
   ]

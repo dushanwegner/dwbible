@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "2 Chronicles, Chapter 6 — 64 verses (Clementine Vulgate)",
+    "content": "2 Chronicles, Chapter 6 — 42 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 36
     },
     "chapter": 6,
-    "verseCount": 64,
+    "verseCount": 42,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/2-paralipomenon/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "2 Chronicles 6:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "tunc Darius rex praecepit et recensuerunt in bibliotheca librorum qui erant repositi in Babylone",
-      "citation": "2 Chronicles 6:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "ego autem aedificavi domum nomini eius ut habitaret ibi in perpetuum",
-      "citation": "2 Chronicles 6:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "et inventum est in Ecbathanis quod est castrum in Madena provincia volumen unum talisque scriptus erat in eo commentarius",
       "citation": "2 Chronicles 6:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "2 Chronicles 6:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "anno primo Cyri regis Cyrus rex decrevit ut domus Dei quae est in Hierusalem aedificaretur in loco ubi immolent hostias et ut ponant fundamenta subportantia altitudinem cubitorum sexaginta et latitudinem cubitorum sexaginta",
-      "citation": "2 Chronicles 6:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "benedictus Dominus Deus Israhel qui quod locutus est David patri meo opere conplevit dicens",
-      "citation": "2 Chronicles 6:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "ordines de lapidibus inpolitis tres et sic ordines de lignis novis sumptus autem de domo regis dabuntur",
       "citation": "2 Chronicles 6:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "2 Chronicles 6:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "sed et vasa templi Dei aurea et argentea quae Nabuchodonosor tulerat de templo Hierusalem et adtulerat ea in Babylonem reddantur et referantur in templo Hierusalem in locum suum quae et posita sunt in templo Dei",
-      "citation": "2 Chronicles 6:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "sed elegi Hierusalem ut sit nomen meum in ea et elegi David ut constituerem eum super populum meum Israhel",
-      "citation": "2 Chronicles 6:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "nunc ergo Tatannai dux regionis quae est trans Flumen Starbuzannai et consiliarii vestri Apharsacei qui estis trans Flumen procul recedite ab illis",
       "citation": "2 Chronicles 6:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "2 Chronicles 6:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "et dimittite fieri templum Dei illud a duce Iudaeorum et a senioribus eorum domum Dei illam aedificent in loco suo",
-      "citation": "2 Chronicles 6:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "dixit Dominus ad eum quia haec fuit voluntas tua ut aedificares domum nomini meo bene quidem fecisti habere huiuscemodi voluntatem",
-      "citation": "2 Chronicles 6:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "sed et a me praeceptum est quid oporteat fieri a presbyteris Iudaeorum illis ut aedificetur domus Dei scilicet ut de arca regis id est de tributis quae dantur de regione trans Flumen studiose sumptus dentur viris illis ne inpediatur opus",
       "citation": "2 Chronicles 6:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "2 Chronicles 6:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "quod si necesse fuerit et vitulos et agnos et hedos in holocaustum Deo caeli frumentum sal vinum et oleum secundum ritum sacerdotum qui sunt in Hierusalem detur eis per dies singulos ne sit in aliquo querimonia",
-      "citation": "2 Chronicles 6:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "conplevit ergo Dominus sermonem suum quem locutus fuerat et ego surrexi pro David patre meo et sedi super thronum Israhel sicut locutus est Dominus et aedificavi domum nomini Domini Dei Israhel",
-      "citation": "2 Chronicles 6:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "et offerant oblationes Deo caeli orentque pro vita regis et filiorum eius",
       "citation": "2 Chronicles 6:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "2 Chronicles 6:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "a me ergo positum est decretum ut omnis homo qui hanc mutaverit iussionem tollatur lignum de domo ipsius et erigatur et configatur in eo domus autem eius publicetur",
-      "citation": "2 Chronicles 6:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "stetit ergo coram altare Domini ex adverso universae multitudinis Israhel et extendit manus suas",
-      "citation": "2 Chronicles 6:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "Deus autem qui habitare fecit nomen suum ibi dissipet omnia regna et populum qui extenderit manum suam ut repugnet et dissipet domum Dei illam quae est in Hierusalem ego Darius statui decretum quod studiose impleri volo",
       "citation": "2 Chronicles 6:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "2 Chronicles 6:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "igitur Tatannai dux regionis trans Flumen et Starbuzannai et consiliarii eius secundum quod praeceperat Darius rex sic diligenter exsecuti sunt",
-      "citation": "2 Chronicles 6:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "ait Domine Deus Israhel non est similis tui Deus in caelo et in terra qui custodis pactum et misericordiam cum servis tuis qui ambulant coram te in toto corde suo",
-      "citation": "2 Chronicles 6:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "seniores autem Iudaeorum aedificabant et prosperabantur iuxta prophetiam Aggei prophetae et Zacchariae filii Addo et aedificaverunt et construxerunt iubente Deo Israhel et iubente Cyro et Dario et Artarxerse regibus Persarum",
       "citation": "2 Chronicles 6:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "2 Chronicles 6:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "et conpleverunt domum Dei istam usque ad diem tertium mensis adar qui est annus sextus regni Darii regis",
-      "citation": "2 Chronicles 6:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "nunc ergo Domine Deus Israhel imple servo tuo patri meo David quaecumque locutus es dicens non deficiet ex te vir coram me qui sedeat super thronum Israhel ita tamen si custodierint filii tui vias suas et ambulaverint in lege mea sicut et tu ambulasti coram me",
-      "citation": "2 Chronicles 6:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "fecerunt autem filii Israhel sacerdotes et Levitae et reliqui filiorum transmigrationis dedicationem domus Dei in gaudio",
       "citation": "2 Chronicles 6:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "2 Chronicles 6:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "et obtulerunt in dedicationem domus Dei vitulos centum arietes ducentos agnos quadringentos hircos caprarum pro peccato totius Israhel duodecim iuxta numerum tribuum Israhel",
-      "citation": "2 Chronicles 6:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "ergone credibile est ut habitet Deus cum hominibus super terram si caelum et caeli caelorum non te capiunt quanto magis domus ista quam aedificavi",
-      "citation": "2 Chronicles 6:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "et statuerunt sacerdotes in ordinibus suis et Levitas in vicibus suis super opera Dei in Hierusalem sicut scriptum est in libro Mosi",
       "citation": "2 Chronicles 6:18 (Clementine Vulgate)"
     },
     {
@@ -218,18 +128,8 @@
       "citation": "2 Chronicles 6:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "fecerunt autem filii transmigrationis pascha quartadecima die mensis primi",
-      "citation": "2 Chronicles 6:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "ut aperias oculos tuos super domum istam diebus et noctibus super locum in quo pollicitus es ut invocaretur nomen tuum",
-      "citation": "2 Chronicles 6:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "purificati enim fuerant sacerdotes et Levitae quasi unus omnes mundi ad immolandum pascha universis filiis transmigrationis et fratribus suis sacerdotibus et sibi",
       "citation": "2 Chronicles 6:20 (Clementine Vulgate)"
     },
     {
@@ -238,18 +138,8 @@
       "citation": "2 Chronicles 6:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "et comederunt filii Israhel qui reversi fuerant de transmigratione et omnis qui se separaverat a coinquinatione gentium terrae ad eos ut quaererent Dominum Deum Israhel",
-      "citation": "2 Chronicles 6:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "si peccaverit quispiam in proximum suum et iurare contra eum paratus venerit seque maledicto constrinxerit coram altari in domo ista",
-      "citation": "2 Chronicles 6:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "et fecerunt sollemnitatem azymorum septem diebus in laetitia quoniam laetificaverat eos Dominus et converterat cor regis Assur ad eos ut adiuvaret manus eorum in opere domus Domini Dei Israhel",
       "citation": "2 Chronicles 6:22 (Clementine Vulgate)"
     },
     {

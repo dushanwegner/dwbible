@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 71 — 48 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 71 — 24 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 71,
-    "verseCount": 48,
+    "verseCount": 24,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 71:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "in te Domine speravi ne confundar in aeternum",
-      "citation": "Psalms 71:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "in iustitia tua libera me et eripe me inclina ad me aurem tuam et salva me",
-      "citation": "Psalms 71:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "iustitia tua erue me et libera inclina ad me aurem tuam et salva me",
       "citation": "Psalms 71:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 71:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "esto mihi robustum habitaculum ut ingrediar iugiter praecepisti ut salvares me quia petra mea et fortitudo mea es tu",
-      "citation": "Psalms 71:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "Deus meus eripe me de manu peccatoris de manu contra legem agentis et iniqui",
-      "citation": "Psalms 71:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "Deus meus salva me de manu impii de manu iniqui et nocentis",
       "citation": "Psalms 71:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 71:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "quia tu es expectatio mea Deus Domine fiducia mea ab adulescentia mea",
-      "citation": "Psalms 71:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "in te confirmatus sum ex utero de ventre matris meae tu es protector meus in te cantatio mea semper",
-      "citation": "Psalms 71:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "a te sustentatus sum ex utero de ventre matris meae tu es protector meus in te laus mea semper",
       "citation": "Psalms 71:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 71:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "quasi portentum factus sum multis et tu spes mea fortissima",
-      "citation": "Psalms 71:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "repleatur os meum laude ut cantem gloriam tuam tota die magnitudinem tuam",
-      "citation": "Psalms 71:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "impleatur os meum laude tua tota die magnitudine tua",
       "citation": "Psalms 71:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 71:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "ne proicias me in tempore senectutis cum defecerit fortitudo mea ne derelinquas me",
-      "citation": "Psalms 71:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "quia dixerunt inimici mei mihi et qui custodiebant animam meam consilium fecerunt in unum",
-      "citation": "Psalms 71:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "quia dixerunt inimici mei mihi et qui observabant animam meam inierunt consilium pariter",
       "citation": "Psalms 71:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 71:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "dicentes Deus dereliquit eum persequimini et conprehendite eum quia non est qui eruat",
-      "citation": "Psalms 71:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "Deus ne elongeris a me Deus meus in adiutorium meum respice",
-      "citation": "Psalms 71:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "Deus ne elongeris a me Deus meus ad auxiliandum mihi festina",
       "citation": "Psalms 71:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 71:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "confundantur et consumantur adversarii animae meae operiantur obprobrio et confusione qui quaerunt malum mihi",
-      "citation": "Psalms 71:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "ego autem semper sperabo et adiciam super omnem laudem tuam",
-      "citation": "Psalms 71:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "ego autem iugiter expectabo et adiciam super omnes laudationes tuas",
       "citation": "Psalms 71:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Psalms 71:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "os meum narrabit iustitiam tuam tota die salutare tuum quia non cognovi litteraturas",
-      "citation": "Psalms 71:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "introibo in potentiam Domini Domine memorabor iustitiae tuae solius",
-      "citation": "Psalms 71:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "ingrediar in fortitudine Domini Dei recordabor iustitiae tuae solius",
       "citation": "Psalms 71:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "Psalms 71:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "Deus docuisti me ab adulescentia mea et usque nunc adnuntiabo mirabilia tua",
-      "citation": "Psalms 71:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "et usque in senectam et senium Deus ne derelinquas me donec adnuntiem brachium tuum generationi omni quae ventura est potentiam tuam",
-      "citation": "Psalms 71:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "insuper et usque ad senectutem et canos Deus ne derelinquas me donec adnuntiem brachium tuum generationi cunctisque qui venturi sunt fortitudines tuas",
       "citation": "Psalms 71:18 (Clementine Vulgate)"
     },
     {
@@ -218,18 +128,8 @@
       "citation": "Psalms 71:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "et iustitiam tuam Deus usque in excelsum quanta fecisti magnalia Deus quis similis tibi",
-      "citation": "Psalms 71:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "quantas ostendisti mihi tribulationes multas et malas et conversus vivificasti me et de abyssis terrae iterum reduxisti me",
-      "citation": "Psalms 71:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "qui ostendisti mihi tribulationes plurimas et adflictiones conversus vivificabis nos et de abyssis terrae rursum educes nos",
       "citation": "Psalms 71:20 (Clementine Vulgate)"
     },
     {
@@ -238,18 +138,8 @@
       "citation": "Psalms 71:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "multiplicabis magnitudinem meam et conversus consolaberis me",
-      "citation": "Psalms 71:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "nam et ego confitebor tibi in vasis psalmi veritatem tuam Deus psallam tibi in cithara Sanctus Israhel",
-      "citation": "Psalms 71:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "ego autem confitebor tibi in vasis psalterii veritatem tuam Deus meus cantabo tibi in cithara Sancte Israhel",
       "citation": "Psalms 71:22 (Clementine Vulgate)"
     },
     {
@@ -258,18 +148,8 @@
       "citation": "Psalms 71:23 (Clementine Vulgate)"
     },
     {
-      "verse": 23,
-      "text": "laudabunt labia mea cum cantavero tibi et anima mea quam redemisti",
-      "citation": "Psalms 71:23 (Clementine Vulgate)"
-    },
-    {
       "verse": 24,
       "text": "sed et lingua mea tota die meditabitur iustitiam tuam cum confusi et reveriti fuerint qui quaerunt mala mihi",
-      "citation": "Psalms 71:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "insuper et lingua mea tota die meditabitur iustitiam tuam quia confusi sunt et dehonestati quaerentes malum mihi",
       "citation": "Psalms 71:24 (Clementine Vulgate)"
     }
   ]

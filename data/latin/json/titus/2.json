@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Titus, Chapter 2 — 15 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Titus",
+      "slug": "titus",
+      "testament": "NT",
+      "order": 63,
+      "totalChapters": 3
+    },
+    "chapter": 2,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/titus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/titus/1.json",
+      "nextChapter": "https://latinprayer.org/latin/titus/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/titus/2.json",
+      "german": "https://latinprayer.org/bibel/titus/2.json"
+    }
+  },
+  "citation": "Titus 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tu autem loquere quae decet sanam doctrinam",
+      "citation": "Titus 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "senes ut sobrii sint pudici prudentes sani fide dilectione patientia",
+      "citation": "Titus 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "anus similiter in habitu sancto non criminatrices non vino multo servientes bene docentes",
+      "citation": "Titus 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ut prudentiam doceant adulescentulas ut viros suos ament filios diligant",
+      "citation": "Titus 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "prudentes castas domus curam habentes benignas subditas suis viris ut non blasphemetur verbum Dei",
+      "citation": "Titus 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "iuvenes similiter hortare ut sobrii sint",
+      "citation": "Titus 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in omnibus te ipsum praebe exemplum bonorum operum in doctrina integritatem gravitatem",
+      "citation": "Titus 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "verbum sanum inreprehensibilem ut is qui ex adverso est vereatur nihil habens malum dicere de nobis",
+      "citation": "Titus 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "servos dominis suis subditos esse in omnibus placentes non contradicentes",
+      "citation": "Titus 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "non fraudantes, sed in omnibus fidem bonam ostendentes ut doctrinam salutaris nostri Dei ornent in omnibus",
+      "citation": "Titus 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "apparuit enim gratia Dei salutaris omnibus hominibus",
+      "citation": "Titus 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "erudiens nos ut abnegantes impietatem et saecularia desideria sobrie et iuste et pie vivamus in hoc saeculo",
+      "citation": "Titus 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "expectantes beatam spem et adventum gloriae magni Dei et salvatoris nostri Iesu Christi",
+      "citation": "Titus 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "qui dedit semet ipsum pro nobis ut nos redimeret ab omni iniquitate et mundaret sibi populum acceptabilem sectatorem bonorum operum",
+      "citation": "Titus 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "haec loquere et exhortare et argue cum omni imperio nemo te contemnat",
+      "citation": "Titus 2:15 (Clementine Vulgate)"
+    }
+  ]
+}

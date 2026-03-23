@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 54 — 18 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 54 — 9 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 54,
-    "verseCount": 18,
+    "verseCount": 9,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -48,26 +48,6 @@
       "citation": "Psalms 54:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "victori in psalmis eruditi David",
-      "citation": "Psalms 54:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "Deus in nomine tuo salva me et in fortitudine tua ulciscere me",
-      "citation": "Psalms 54:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori in psalmis eruditi David",
-      "citation": "Psalms 54:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "Deus exaudi orationem meam auribus percipe verba oris mei",
-      "citation": "Psalms 54:2 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "Deus exaudi orationem meam auribus percipe verba oris mei",
       "citation": "Psalms 54:2 (Clementine Vulgate)"
@@ -78,18 +58,8 @@
       "citation": "Psalms 54:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "quia alieni insurrexerunt adversus me et fortes quaesierunt animam meam et non posuerunt Deum in conspectu suo semper",
-      "citation": "Psalms 54:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "ecce enim Deus adiuvat me Dominus susceptor animae meae",
-      "citation": "Psalms 54:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "ecce Deus auxiliatur mihi Dominus sustentans animam meam",
       "citation": "Psalms 54:4 (Clementine Vulgate)"
     },
     {
@@ -98,28 +68,13 @@
       "citation": "Psalms 54:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "reddet malum insidiatoribus meis in veritate tua disperde eos",
-      "citation": "Psalms 54:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "voluntarie sacrificabo tibi confitebor nomini tuo Domine quoniam bonum",
       "citation": "Psalms 54:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "voluntarie sacrificabo tibi confitebor nomini tuo Domine quoniam bonum est",
-      "citation": "Psalms 54:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "quoniam ex omni tribulatione eripuisti me et super inimicos meos despexit oculus meus",
-      "citation": "Psalms 54:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "quoniam ex omni tribulatione liberavit me et inimicos meos dispexit oculus meus",
       "citation": "Psalms 54:7 (Clementine Vulgate)"
     }
   ]

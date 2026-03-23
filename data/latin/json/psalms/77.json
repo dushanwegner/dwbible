@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 77 — 40 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 77 — 20 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 77,
-    "verseCount": 40,
+    "verseCount": 20,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 77:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "voce mea ad Dominum clamavi voce mea ad Dominum et exaudivit me",
-      "citation": "Psalms 77:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "in die tribulationis meae Deum exquisivi manibus meis nocte contra eum et non sum deceptus rennuit consolari anima mea",
-      "citation": "Psalms 77:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "in die tribulationis meae Dominum requisivi manus mea nocte extenditur et non quiescit noluit consolari anima mea",
       "citation": "Psalms 77:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 77:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "recordans Dei conturbabar loquebar in memet ipso et deficiebat spiritus meus semper",
-      "citation": "Psalms 77:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "anticipaverunt vigilias oculi mei turbatus sum et non sum locutus",
-      "citation": "Psalms 77:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "prohibebam suspectum oculorum meorum stupebam et non loquebar",
       "citation": "Psalms 77:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 77:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "recogitabam dies antiquos annos pristinos",
-      "citation": "Psalms 77:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "et meditatus sum nocte cum corde meo exercitabar et scobebam spiritum meum",
-      "citation": "Psalms 77:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "recordabar psalmorum meorum in nocte cum corde meo loquebar et scobebam spiritum meum",
       "citation": "Psalms 77:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 77:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "ergone in aeternum proiciet Dominus et non repropitiabitur ultra",
-      "citation": "Psalms 77:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "aut in finem misericordiam suam abscidet a generatione in generationem",
-      "citation": "Psalms 77:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "ergone conplebit usque in finem misericordiam suam consummabit verbum de generatione et generatione",
       "citation": "Psalms 77:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 77:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "numquid oblitus est misereri Deus aut conplebit in furore misericordias suas semper",
-      "citation": "Psalms 77:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "et dixi nunc coepi haec mutatio dexterae Excelsi",
-      "citation": "Psalms 77:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "et dixi inbecillitas mea est haec commutatio dexterae Excelsi",
       "citation": "Psalms 77:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 77:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "recordabor cogitationum Domini reminiscens antiqua mirabilia tua",
-      "citation": "Psalms 77:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "et meditabor in omnibus operibus tuis et in adinventionibus tuis exercebor",
-      "citation": "Psalms 77:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "et meditabor in omni opere tuo et adinventiones tuas loquar",
       "citation": "Psalms 77:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 77:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "Deus in sanctuario via tua quis deus magnus ut Deus",
-      "citation": "Psalms 77:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "tu es Deus qui facis mirabilia notam fecisti in populis virtutem tuam",
-      "citation": "Psalms 77:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "tu es Deus faciens mirabilia ostendens in populis potentiam tuam",
       "citation": "Psalms 77:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Psalms 77:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "redemisti in brachio populum tuum filios Iacob et Ioseph semper",
-      "citation": "Psalms 77:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "viderunt te aquae Deus viderunt te aquae et timuerunt et turbatae sunt abyssi",
-      "citation": "Psalms 77:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "videntes te aquae Deus videntes te aquae parturierunt et commotae sunt abyssi",
       "citation": "Psalms 77:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "Psalms 77:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "excusserunt aquas nubila vocem dederunt nubes et sagittae tuae discurrebant",
-      "citation": "Psalms 77:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "vox tonitrui tui in rota inluxerunt coruscationes tuae orbi terrae commota est et contremuit terra",
-      "citation": "Psalms 77:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "vox tonitrui tui in rota apparuerunt fulgora tua orbi concussa est et commota est terra",
       "citation": "Psalms 77:18 (Clementine Vulgate)"
     },
     {
@@ -218,18 +128,8 @@
       "citation": "Psalms 77:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "in mari via tua et semitae tuae in aquis multis et vestigia tua non sunt agnita",
-      "citation": "Psalms 77:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "deduxisti sicut oves populum tuum in manu Mosi et Aaron",
-      "citation": "Psalms 77:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "deduxisti quasi gregem populum tuum in manu Mosi et Aaron",
       "citation": "Psalms 77:20 (Clementine Vulgate)"
     }
   ]

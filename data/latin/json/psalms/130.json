@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 130 — 16 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 130 — 8 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 130,
-    "verseCount": 16,
+    "verseCount": 8,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,24 +38,9 @@
       "citation": "Psalms 130:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum de profundis clamavi ad te Domine",
-      "citation": "Psalms 130:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "Domine exaudi vocem meam fiant aures tuae intendentes in vocem deprecationis meae",
       "citation": "Psalms 130:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "Domine exaudi vocem meam fiant aures tuae intendentes ad vocem deprecationis meae",
-      "citation": "Psalms 130:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "si iniquitates observabis Domine Domine quis sustinebit",
-      "citation": "Psalms 130:3 (Clementine Vulgate)"
     },
     {
       "verse": 3,
@@ -68,18 +53,8 @@
       "citation": "Psalms 130:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "quia tecum est propitiatio cum terribilis sis sustinui Dominum sustinuit anima mea et verbum eius expectavi",
-      "citation": "Psalms 130:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "speravit anima mea in Domino",
-      "citation": "Psalms 130:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "anima mea ad Dominum",
       "citation": "Psalms 130:5 (Clementine Vulgate)"
     },
     {
@@ -88,24 +63,9 @@
       "citation": "Psalms 130:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "a vigilia matutina usque ad vigiliam matutinam expectet Israhel Dominum",
-      "citation": "Psalms 130:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "quia apud Dominum misericordia et copiosa apud eum redemptio",
       "citation": "Psalms 130:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "quia apud Dominum misericordia et multa apud eum redemptio",
-      "citation": "Psalms 130:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "et ipse redimet Israhel ex omnibus iniquitatibus eius",
-      "citation": "Psalms 130:8 (Clementine Vulgate)"
     },
     {
       "verse": 8,

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Exodus, Chapter 25 — 32 verses (Clementine Vulgate)",
+    "content": "Exodus, Chapter 25 — 40 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,15 +15,15 @@
       "slug": "exodus",
       "testament": "OT",
       "order": 2,
-      "totalChapters": 25
+      "totalChapters": 40
     },
     "chapter": 25,
-    "verseCount": 32,
+    "verseCount": 40,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
       "previousChapter": "https://latinprayer.org/latin/exodus/24.json",
-      "nextChapter": null
+      "nextChapter": "https://latinprayer.org/latin/exodus/26.json"
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/exodus/25.json",
@@ -191,6 +191,46 @@
       "verse": 32,
       "text": "sex calami egredientur de lateribus tres ex uno latere et tres ex altero",
       "citation": "Exodus 25:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "tres scyphi quasi in nucis modum per calamos singulos spherulaque simul et lilium et tres similiter scyphi instar nucis in calamo altero spherulaque et lilium hoc erit opus sex calamorum qui producendi sunt de hastili",
+      "citation": "Exodus 25:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "in ipso autem candelabro erunt quattuor scyphi in nucis modum spherulaeque per singulos et lilia",
+      "citation": "Exodus 25:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "spherula sub duobus calamis per tria loca qui simul sex fiunt procedentes de hastili uno",
+      "citation": "Exodus 25:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "et spherae igitur et calami ex ipso erunt universa ductilia de auro purissimo",
+      "citation": "Exodus 25:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "facies et lucernas septem et pones eas super candelabrum ut luceant ex adverso",
+      "citation": "Exodus 25:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "emunctoria quoque et ubi quae emuncta sunt extinguantur fient de auro purissimo",
+      "citation": "Exodus 25:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "omne pondus candelabri cum universis vasis suis habebit talentum auri mundissimi",
+      "citation": "Exodus 25:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "inspice et fac secundum exemplar quod tibi in monte monstratum est",
+      "citation": "Exodus 25:40 (Clementine Vulgate)"
     }
   ]
 }

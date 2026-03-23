@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 150 — 10 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 150 — 5 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 150,
-    "verseCount": 10,
+    "verseCount": 5,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 150:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "alleluia laudate Deum in sancto eius laudate eum in fortitudine potentiae eius",
-      "citation": "Psalms 150:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "laudate eum in virtutibus eius laudate eum secundum multitudinem magnitudinis eius",
-      "citation": "Psalms 150:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "laudate eum in fortitudinibus eius laudate eum iuxta multitudinem magnificentiae suae",
       "citation": "Psalms 150:2 (Clementine Vulgate)"
     },
     {
@@ -58,28 +48,13 @@
       "citation": "Psalms 150:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "laudate eum in clangore bucinae laudate eum in psalterio et cithara",
-      "citation": "Psalms 150:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "laudate eum in tympano et choro laudate eum in cordis et organo",
-      "citation": "Psalms 150:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "laudate eum in tympano et choro laudate eum in cordis et organo",
       "citation": "Psalms 150:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "laudate eum in cymbalis bene sonantibus laudate eum in cymbalis iubilationis Psalms (Second Version)",
-      "citation": "Psalms 150:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "laudate eum in cymbalis sonantibus laudate eum in cymbalis tinnientibus",
+      "text": "laudate eum in cymbalis bene sonantibus laudate eum in cymbalis iubilationis",
       "citation": "Psalms 150:5 (Clementine Vulgate)"
     }
   ]

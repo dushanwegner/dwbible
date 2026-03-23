@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 126 — 12 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 126 — 6 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 126,
-    "verseCount": 12,
+    "verseCount": 6,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,24 +38,9 @@
       "citation": "Psalms 126:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum cum converteret Dominus captivitatem Sion facti sumus quasi somniantes",
-      "citation": "Psalms 126:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "tunc repletum est gaudio os nostrum et lingua nostra exultatione tunc dicent inter gentes magnificavit Dominus facere cum eis",
       "citation": "Psalms 126:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "tunc implebitur risu os nostrum et lingua nostra laude tunc dicent in gentibus magnificavit Dominus facere cum istis",
-      "citation": "Psalms 126:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "magnificavit Dominus facere nobiscum facti sumus laetantes",
-      "citation": "Psalms 126:3 (Clementine Vulgate)"
     },
     {
       "verse": 3,
@@ -68,16 +53,6 @@
       "citation": "Psalms 126:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "converte Domine captivitatem nostram sicut rivum in austro",
-      "citation": "Psalms 126:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "qui seminant in lacrimis in exultatione metent",
-      "citation": "Psalms 126:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "qui seminant in lacrimis in exultatione metent",
       "citation": "Psalms 126:5 (Clementine Vulgate)"
@@ -85,11 +60,6 @@
     {
       "verse": 6,
       "text": "euntes ibant et flebant portantes semina sua venientes autem venient in exultatione portantes manipulos suos",
-      "citation": "Psalms 126:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "qui ambulans ibat et flebat portans ad seminandum sementem veniens veniet in exultatione portans manipulos suos",
       "citation": "Psalms 126:6 (Clementine Vulgate)"
     }
   ]

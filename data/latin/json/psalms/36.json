@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 36 — 24 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 36 — 12 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 36,
-    "verseCount": 24,
+    "verseCount": 12,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 36:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "dixit scelus impii in medio cordis eius non esse timorem Dei ante oculos eius",
-      "citation": "Psalms 36:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "quoniam dolose egit in conspectu eius ut inveniatur iniquitas eius ad odium",
-      "citation": "Psalms 36:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "quia dolose egit adversum eum in oculis suis ut inveniret iniquitatem eius ad odiendum",
       "citation": "Psalms 36:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 36:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "verba oris eius iniquitas et dolus cessavit cogitare benefacere",
-      "citation": "Psalms 36:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "iniquitatem meditatus est in cubili suo adstetit omni viae non bonae malitiam autem non odivit",
-      "citation": "Psalms 36:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "iniquitatem cogitat in cubili suo stabit in via non bona malum non abiciet",
       "citation": "Psalms 36:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 36:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "Domine in caelo misericordia tua fides tua usque ad nubes",
-      "citation": "Psalms 36:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "iustitia tua sicut montes Dei iudicia tua abyssus multa homines et iumenta salvabis Domine",
-      "citation": "Psalms 36:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "iustitia tua quasi montes Domine iudicium tuum abyssus multa homines et iumenta salvos facies Domine",
       "citation": "Psalms 36:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 36:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "quam pretiosa est misericordia tua Domine et filii Adam in umbra alarum tuarum sperabunt",
-      "citation": "Psalms 36:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "inebriabuntur ab ubertate domus tuae et torrente voluntatis tuae potabis eos",
-      "citation": "Psalms 36:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "inebriabuntur de pinguidine domus tuae et torrente deliciarum tuarum potabis eos",
       "citation": "Psalms 36:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 36:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "quoniam tecum est fons vitae in lumine tuo videbimus lumen",
-      "citation": "Psalms 36:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "praetende misericordiam tuam scientibus te et iustitiam tuam his qui recto sunt corde",
-      "citation": "Psalms 36:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "adtrahe misericordiam tuam scientibus te et iustitiam tuam rectis corde",
       "citation": "Psalms 36:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 36:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "ne veniat mihi pes superbiae et manus impiorum non me commoveat",
-      "citation": "Psalms 36:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "ibi ceciderunt qui operantur iniquitatem expulsi sunt nec potuerunt stare",
-      "citation": "Psalms 36:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "ibi ceciderunt operantes iniquitatem expulsi sunt et non potuerunt surgere",
       "citation": "Psalms 36:12 (Clementine Vulgate)"
     }
   ]

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 97 — 24 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 97 — 12 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 97,
-    "verseCount": 24,
+    "verseCount": 12,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 97:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "Dominus regnavit exultabit terra laetabuntur insulae multae",
-      "citation": "Psalms 97:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "nubes et caligo in circuitu eius iustitia et iudicium correctio sedis eius",
-      "citation": "Psalms 97:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "nubes et caligo in circuitu eius iustitia et iudicium firmamentum solii eius",
       "citation": "Psalms 97:2 (Clementine Vulgate)"
     },
     {
@@ -58,34 +48,14 @@
       "citation": "Psalms 97:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "ignis ante faciem eius ibit et exuret per circuitum hostes eius",
-      "citation": "Psalms 97:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "adluxerunt fulgora eius orbi terrae vidit et commota est terra",
-      "citation": "Psalms 97:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "apparuerunt fulgora eius orbi vidit et contremuit terra",
       "citation": "Psalms 97:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
       "text": "montes sicut cera fluxerunt *a facie Domini; a facie Domini omnis terrae",
       "citation": "Psalms 97:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "montes sicut cera tabefacti sunt a facie Domini a facie dominatoris omnis terrae",
-      "citation": "Psalms 97:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "adnuntiaverunt caeli iustitiam eius et viderunt omnes populi gloriam eius",
-      "citation": "Psalms 97:6 (Clementine Vulgate)"
     },
     {
       "verse": 6,
@@ -98,18 +68,8 @@
       "citation": "Psalms 97:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "confundantur universi qui serviunt sculptili qui gloriantur in idolis adorate eum omnes dii",
-      "citation": "Psalms 97:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "audivit et laetata est Sion et exultaverunt filiae Iudaeae propter iudicia tua Domine",
-      "citation": "Psalms 97:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "audivit et laetata est Sion et exultaverunt filiae Iudae propter iudicia tua Domine",
       "citation": "Psalms 97:8 (Clementine Vulgate)"
     },
     {
@@ -118,24 +78,9 @@
       "citation": "Psalms 97:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "tu enim Dominus Excelsus super omnem terram vehementer elevatus es super universos deos",
-      "citation": "Psalms 97:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "qui diligitis Dominum odite malum custodit animas sanctorum suorum de manu peccatoris liberabit eos",
       "citation": "Psalms 97:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "qui diligitis Dominum odite malum custodit animas sanctorum suorum de manu impiorum eruet eos",
-      "citation": "Psalms 97:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "lux orta est iusto et rectis corde laetitia",
-      "citation": "Psalms 97:11 (Clementine Vulgate)"
     },
     {
       "verse": 11,
@@ -145,11 +90,6 @@
     {
       "verse": 12,
       "text": "laetamini iusti in Domino et confitemini memoriae sanctificationis eius",
-      "citation": "Psalms 97:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "laetamini iusti in Domino et confitemini memoriae sanctae eius",
       "citation": "Psalms 97:12 (Clementine Vulgate)"
     }
   ]

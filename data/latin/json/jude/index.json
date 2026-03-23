@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Jude — 23 chapters (Clementine Vulgate)",
+    "content": "Jude — 1 chapters (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,7 +15,7 @@
       "slug": "jude",
       "testament": "NT",
       "order": 72,
-      "totalChapters": 23
+      "totalChapters": 1
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/jude/index.json",
@@ -28,138 +28,6 @@
       "verseCount": 24,
       "url": "https://latinprayer.org/latin/jude/1",
       "jsonUrl": "https://latinprayer.org/latin/jude/1.json"
-    },
-    {
-      "chapter": 1,
-      "verseCount": 20,
-      "url": "https://latinprayer.org/latin/jude/1",
-      "jsonUrl": "https://latinprayer.org/latin/jude/1.json"
-    },
-    {
-      "chapter": 2,
-      "verseCount": 29,
-      "url": "https://latinprayer.org/latin/jude/2",
-      "jsonUrl": "https://latinprayer.org/latin/jude/2.json"
-    },
-    {
-      "chapter": 3,
-      "verseCount": 22,
-      "url": "https://latinprayer.org/latin/jude/3",
-      "jsonUrl": "https://latinprayer.org/latin/jude/3.json"
-    },
-    {
-      "chapter": 4,
-      "verseCount": 11,
-      "url": "https://latinprayer.org/latin/jude/4",
-      "jsonUrl": "https://latinprayer.org/latin/jude/4.json"
-    },
-    {
-      "chapter": 5,
-      "verseCount": 14,
-      "url": "https://latinprayer.org/latin/jude/5",
-      "jsonUrl": "https://latinprayer.org/latin/jude/5.json"
-    },
-    {
-      "chapter": 6,
-      "verseCount": 17,
-      "url": "https://latinprayer.org/latin/jude/6",
-      "jsonUrl": "https://latinprayer.org/latin/jude/6.json"
-    },
-    {
-      "chapter": 7,
-      "verseCount": 17,
-      "url": "https://latinprayer.org/latin/jude/7",
-      "jsonUrl": "https://latinprayer.org/latin/jude/7.json"
-    },
-    {
-      "chapter": 8,
-      "verseCount": 13,
-      "url": "https://latinprayer.org/latin/jude/8",
-      "jsonUrl": "https://latinprayer.org/latin/jude/8.json"
-    },
-    {
-      "chapter": 9,
-      "verseCount": 21,
-      "url": "https://latinprayer.org/latin/jude/9",
-      "jsonUrl": "https://latinprayer.org/latin/jude/9.json"
-    },
-    {
-      "chapter": 10,
-      "verseCount": 11,
-      "url": "https://latinprayer.org/latin/jude/10",
-      "jsonUrl": "https://latinprayer.org/latin/jude/10.json"
-    },
-    {
-      "chapter": 11,
-      "verseCount": 19,
-      "url": "https://latinprayer.org/latin/jude/11",
-      "jsonUrl": "https://latinprayer.org/latin/jude/11.json"
-    },
-    {
-      "chapter": 12,
-      "verseCount": 18,
-      "url": "https://latinprayer.org/latin/jude/12",
-      "jsonUrl": "https://latinprayer.org/latin/jude/12.json"
-    },
-    {
-      "chapter": 13,
-      "verseCount": 18,
-      "url": "https://latinprayer.org/latin/jude/13",
-      "jsonUrl": "https://latinprayer.org/latin/jude/13.json"
-    },
-    {
-      "chapter": 14,
-      "verseCount": 20,
-      "url": "https://latinprayer.org/latin/jude/14",
-      "jsonUrl": "https://latinprayer.org/latin/jude/14.json"
-    },
-    {
-      "chapter": 15,
-      "verseCount": 8,
-      "url": "https://latinprayer.org/latin/jude/15",
-      "jsonUrl": "https://latinprayer.org/latin/jude/15.json"
-    },
-    {
-      "chapter": 16,
-      "verseCount": 21,
-      "url": "https://latinprayer.org/latin/jude/16",
-      "jsonUrl": "https://latinprayer.org/latin/jude/16.json"
-    },
-    {
-      "chapter": 17,
-      "verseCount": 18,
-      "url": "https://latinprayer.org/latin/jude/17",
-      "jsonUrl": "https://latinprayer.org/latin/jude/17.json"
-    },
-    {
-      "chapter": 18,
-      "verseCount": 24,
-      "url": "https://latinprayer.org/latin/jude/18",
-      "jsonUrl": "https://latinprayer.org/latin/jude/18.json"
-    },
-    {
-      "chapter": 19,
-      "verseCount": 21,
-      "url": "https://latinprayer.org/latin/jude/19",
-      "jsonUrl": "https://latinprayer.org/latin/jude/19.json"
-    },
-    {
-      "chapter": 20,
-      "verseCount": 15,
-      "url": "https://latinprayer.org/latin/jude/20",
-      "jsonUrl": "https://latinprayer.org/latin/jude/20.json"
-    },
-    {
-      "chapter": 21,
-      "verseCount": 27,
-      "url": "https://latinprayer.org/latin/jude/21",
-      "jsonUrl": "https://latinprayer.org/latin/jude/21.json"
-    },
-    {
-      "chapter": 22,
-      "verseCount": 20,
-      "url": "https://latinprayer.org/latin/jude/22",
-      "jsonUrl": "https://latinprayer.org/latin/jude/22.json"
     }
   ]
 }

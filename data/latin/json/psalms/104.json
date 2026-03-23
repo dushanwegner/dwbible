@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 104 — 70 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 104 — 35 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 104,
-    "verseCount": 70,
+    "verseCount": 35,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 104:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "benedic anima mea Domino Domine Deus meus magnificatus es nimis gloria et decore indutus es",
-      "citation": "Psalms 104:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "amictus lumine sicut vestimento extendens caelum sicut pellem",
-      "citation": "Psalms 104:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "amictus luce quasi vestimento extendens caelos ut pellem",
       "citation": "Psalms 104:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 104:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "qui tegis aquis cenacula eius qui ponis nubes currum tuum qui ambulas super pinnas venti",
-      "citation": "Psalms 104:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "qui facis angelos tuos spiritus et ministros tuos ignem urentem",
-      "citation": "Psalms 104:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "qui facis angelos tuos spiritus ministros tuos ignem urentem",
       "citation": "Psalms 104:4 (Clementine Vulgate)"
     },
     {
@@ -78,24 +58,9 @@
       "citation": "Psalms 104:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "qui fundasti terram super basem suam non commovebitur in saeculum et in saeculum",
-      "citation": "Psalms 104:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "abyssus sicut vestimentum amictus eius super montes stabunt aquae",
       "citation": "Psalms 104:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "abysso quasi vestimento operuisti eam super montes stabunt aquae",
-      "citation": "Psalms 104:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "ab increpatione tua fugient a voce tonitrui tui formidabunt",
-      "citation": "Psalms 104:7 (Clementine Vulgate)"
     },
     {
       "verse": 7,
@@ -108,18 +73,8 @@
       "citation": "Psalms 104:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "ascendent montes et descendent campi ad locum quem fundasti eis",
-      "citation": "Psalms 104:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "terminum posuisti quem non transgredientur neque convertentur operire terram",
-      "citation": "Psalms 104:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "terminum posuisti quem non pertransibunt nec revertentur ut operiant terram",
       "citation": "Psalms 104:9 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 104:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "qui emittis fontes in convallibus ut inter medios montes fluant",
-      "citation": "Psalms 104:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "potabunt omnes bestiae agri expectabunt onagri in siti sua",
-      "citation": "Psalms 104:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "ut bibant omnia animalia regionum et reficiat onager sitim suam",
       "citation": "Psalms 104:11 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 104:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "super ea volucres caeli morabuntur de medio nemorum dabunt vocem",
-      "citation": "Psalms 104:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "rigans montes de superioribus suis de fructu operum tuorum satiabitur terra",
-      "citation": "Psalms 104:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "qui inrigas montes de cenaculis tuis de fructu operum tuorum implebitur terra",
       "citation": "Psalms 104:13 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 104:14 (Clementine Vulgate)"
     },
     {
-      "verse": 14,
-      "text": "germinans herbam iumentis et faenum servituti hominum ut educat panem de terra",
-      "citation": "Psalms 104:14 (Clementine Vulgate)"
-    },
-    {
       "verse": 15,
       "text": "et vinum laetificat cor hominis ut exhilaret faciem in oleo et panis cor hominis confirmat",
-      "citation": "Psalms 104:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "et vinum laetificat cor hominis ad exhilarandam faciem oleo panis autem cor hominis roborat",
       "citation": "Psalms 104:15 (Clementine Vulgate)"
     },
     {
@@ -188,18 +113,8 @@
       "citation": "Psalms 104:16 (Clementine Vulgate)"
     },
     {
-      "verse": 16,
-      "text": "saturabuntur ligna Domini cedri Libani quas plantasti",
-      "citation": "Psalms 104:16 (Clementine Vulgate)"
-    },
-    {
       "verse": 17,
       "text": "illic passeres nidificabunt erodii domus dux est eorum",
-      "citation": "Psalms 104:17 (Clementine Vulgate)"
-    },
-    {
-      "verse": 17,
-      "text": "ibi aves nidificabunt milvo abies domus eius",
       "citation": "Psalms 104:17 (Clementine Vulgate)"
     },
     {
@@ -208,18 +123,8 @@
       "citation": "Psalms 104:18 (Clementine Vulgate)"
     },
     {
-      "verse": 18,
-      "text": "montes excelsi cervis petra refugium ericiis",
-      "citation": "Psalms 104:18 (Clementine Vulgate)"
-    },
-    {
       "verse": 19,
       "text": "fecit lunam in tempora sol cognovit occasum suum",
-      "citation": "Psalms 104:19 (Clementine Vulgate)"
-    },
-    {
-      "verse": 19,
-      "text": "fecit lunam per tempora sol cognovit occubitum suum",
       "citation": "Psalms 104:19 (Clementine Vulgate)"
     },
     {
@@ -228,18 +133,8 @@
       "citation": "Psalms 104:20 (Clementine Vulgate)"
     },
     {
-      "verse": 20,
-      "text": "posuisti tenebras et facta est nox in ipsa moventur omnes bestiae silvae",
-      "citation": "Psalms 104:20 (Clementine Vulgate)"
-    },
-    {
       "verse": 21,
       "text": "catuli leonum rugientes ut rapiant et quaerant a Deo escam sibi",
-      "citation": "Psalms 104:21 (Clementine Vulgate)"
-    },
-    {
-      "verse": 21,
-      "text": "leones rugientes ad praedam et quaerentes a Deo escam sibi",
       "citation": "Psalms 104:21 (Clementine Vulgate)"
     },
     {
@@ -248,18 +143,8 @@
       "citation": "Psalms 104:22 (Clementine Vulgate)"
     },
     {
-      "verse": 22,
-      "text": "oriente sole recedent et in speluncis suis cubabunt",
-      "citation": "Psalms 104:22 (Clementine Vulgate)"
-    },
-    {
       "verse": 23,
       "text": "exibit homo ad opus suum et ad operationem suam usque ad vesperum",
-      "citation": "Psalms 104:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "egreditur homo ad opus suum et ad servitutem suam usque ad vesperam",
       "citation": "Psalms 104:23 (Clementine Vulgate)"
     },
     {
@@ -268,18 +153,8 @@
       "citation": "Psalms 104:24 (Clementine Vulgate)"
     },
     {
-      "verse": 24,
-      "text": "quam multa sunt opera tua Domine omnia in sapientia fecisti impleta est terra possessione tua",
-      "citation": "Psalms 104:24 (Clementine Vulgate)"
-    },
-    {
       "verse": 25,
       "text": "hoc mare magnum et spatiosum *manibus; illic reptilia quorum non est numerus animalia pusilla cum magnis",
-      "citation": "Psalms 104:25 (Clementine Vulgate)"
-    },
-    {
-      "verse": 25,
-      "text": "hoc mare magnum et latum manibus ibi reptilia innumerabilia animalia parva cum grandibus",
       "citation": "Psalms 104:25 (Clementine Vulgate)"
     },
     {
@@ -288,18 +163,8 @@
       "citation": "Psalms 104:26 (Clementine Vulgate)"
     },
     {
-      "verse": 26,
-      "text": "ibi naves pertranseunt Leviathan istum plasmasti ut inluderet ei",
-      "citation": "Psalms 104:26 (Clementine Vulgate)"
-    },
-    {
       "verse": 27,
       "text": "omnia a te expectant ut des illis escam in tempore",
-      "citation": "Psalms 104:27 (Clementine Vulgate)"
-    },
-    {
-      "verse": 27,
-      "text": "omnia in te sperant ut des cibum eis in tempore suo",
       "citation": "Psalms 104:27 (Clementine Vulgate)"
     },
     {
@@ -308,18 +173,8 @@
       "citation": "Psalms 104:28 (Clementine Vulgate)"
     },
     {
-      "verse": 28,
-      "text": "dante te illis colligent aperiente manum tuam replebuntur bono",
-      "citation": "Psalms 104:28 (Clementine Vulgate)"
-    },
-    {
       "verse": 29,
       "text": "avertente autem te faciem turbabuntur auferes spiritum eorum et deficient et in pulverem suum revertentur",
-      "citation": "Psalms 104:29 (Clementine Vulgate)"
-    },
-    {
-      "verse": 29,
-      "text": "abscondes vultum tuum et turbabuntur auferes spiritum eorum et deficient et in pulverem suum revertentur",
       "citation": "Psalms 104:29 (Clementine Vulgate)"
     },
     {
@@ -328,18 +183,8 @@
       "citation": "Psalms 104:30 (Clementine Vulgate)"
     },
     {
-      "verse": 30,
-      "text": "emittes spiritum tuum et creabuntur et instaurabis faciem terrae",
-      "citation": "Psalms 104:30 (Clementine Vulgate)"
-    },
-    {
       "verse": 31,
       "text": "sit gloria Domini in saeculum laetabitur Dominus in operibus suis",
-      "citation": "Psalms 104:31 (Clementine Vulgate)"
-    },
-    {
-      "verse": 31,
-      "text": "sit gloria Domini in sempiternum laetabitur Dominus in operibus suis",
       "citation": "Psalms 104:31 (Clementine Vulgate)"
     },
     {
@@ -348,18 +193,8 @@
       "citation": "Psalms 104:32 (Clementine Vulgate)"
     },
     {
-      "verse": 32,
-      "text": "qui respicit terram et tremet tangit montes et fumabunt",
-      "citation": "Psalms 104:32 (Clementine Vulgate)"
-    },
-    {
       "verse": 33,
       "text": "cantabo Domino in vita mea psallam Deo meo quamdiu sum",
-      "citation": "Psalms 104:33 (Clementine Vulgate)"
-    },
-    {
-      "verse": 33,
-      "text": "cantabo Domino in vita mea psallam Deo quamdiu sum",
       "citation": "Psalms 104:33 (Clementine Vulgate)"
     },
     {
@@ -368,18 +203,8 @@
       "citation": "Psalms 104:34 (Clementine Vulgate)"
     },
     {
-      "verse": 34,
-      "text": "placeat ei eloquium meum ego autem laetabor in Domino",
-      "citation": "Psalms 104:34 (Clementine Vulgate)"
-    },
-    {
       "verse": 35,
       "text": "deficiant peccatores a terra et iniqui ita ut non sint benedic anima mea Domino",
-      "citation": "Psalms 104:35 (Clementine Vulgate)"
-    },
-    {
-      "verse": 35,
-      "text": "deficiant peccatores de terra et impii ultra non sint benedic anima mea Domino",
       "citation": "Psalms 104:35 (Clementine Vulgate)"
     }
   ]

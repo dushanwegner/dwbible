@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 103 — 44 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 103 — 22 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 103,
-    "verseCount": 44,
+    "verseCount": 22,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 103:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "David benedic anima mea Domino et omnia viscera mea nomini sancto eius",
-      "citation": "Psalms 103:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "benedic anima mea Domino et noli oblivisci omnes retributiones eius",
-      "citation": "Psalms 103:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "benedic anima mea Domino et noli oblivisci omnium retributionum eius",
       "citation": "Psalms 103:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 103:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "qui propitiatur cunctis iniquitatibus tuis et sanat omnes infirmitates tuas",
-      "citation": "Psalms 103:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "qui redimit de interitu vitam tuam qui coronat te in misericordia et miserationibus",
-      "citation": "Psalms 103:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "qui redimit de corruptione vitam tuam et coronat te misericordia et miserationibus",
       "citation": "Psalms 103:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 103:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "qui replet bonis ornamentum tuum innovabitur sicut aquilae iuventus tua",
-      "citation": "Psalms 103:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "faciens misericordias Dominus et iudicium omnibus iniuriam patientibus",
-      "citation": "Psalms 103:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "faciens iustitias Dominus et iudicia cunctis qui calumniam sustinent",
       "citation": "Psalms 103:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 103:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "notas fecit vias suas Mosi filiis Israhel cogitationes suas",
-      "citation": "Psalms 103:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "miserator et misericors Dominus longanimis et multum misericors",
-      "citation": "Psalms 103:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "misericors et clemens Dominus patiens et multae miserationis",
       "citation": "Psalms 103:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 103:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "non in sempiternum iudicabit neque in aeternum irascetur",
-      "citation": "Psalms 103:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "non secundum peccata nostra fecit nobis nec secundum iniustitias nostras retribuit nobis",
-      "citation": "Psalms 103:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "non secundum peccata nostra fecit nobis neque secundum iniquitates nostras retribuit nobis",
       "citation": "Psalms 103:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 103:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "quantum enim excelsius est caelum terra tantum confortata est misericordia eius super timentes eum",
-      "citation": "Psalms 103:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "quantum distat ortus ab occidente longe fecit a nobis iniquitates nostras",
-      "citation": "Psalms 103:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "quantum longe est oriens ab occidente tantum longe fecit a nobis scelera nostra",
       "citation": "Psalms 103:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 103:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "sicut miseretur pater filiorum misertus est Dominus timentibus se",
-      "citation": "Psalms 103:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "quoniam ipse cognovit figmentum nostrum recordatus est quoniam pulvis sumus",
-      "citation": "Psalms 103:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "ipse enim novit plasmationem nostram recordatus est quia pulvis sumus",
       "citation": "Psalms 103:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Psalms 103:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "homo quasi herba dies eius sicut flos agri sic florebit",
-      "citation": "Psalms 103:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "quoniam spiritus pertransivit in illo et non subsistet et non cognoscet amplius locum suum",
-      "citation": "Psalms 103:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "quia spiritus pertransiit eum et non subsistet et non cognoscet eum ultra locus eius",
       "citation": "Psalms 103:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "Psalms 103:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "misericordia autem Domini ab aeterno et usque in aeternum super timentes eum et iustitia eius in filios filiorum",
-      "citation": "Psalms 103:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "his qui servant testamentum eius et memores sunt mandatorum ipsius ad faciendum ea",
-      "citation": "Psalms 103:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "his qui custodiunt pactum eius et recordantur praeceptorum eius ad facienda ea",
       "citation": "Psalms 103:18 (Clementine Vulgate)"
     },
     {
@@ -218,18 +128,8 @@
       "citation": "Psalms 103:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "Dominus in caelo stabilivit thronum suum et regnum illius omnium dominatur",
-      "citation": "Psalms 103:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "benedicite Domino angeli eius potentes virtute facientes verbum illius ad audiendam vocem sermonum eius",
-      "citation": "Psalms 103:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "benedicite Domino angeli eius fortes robore facientes verbum eius oboedientes voci sermonis eius",
       "citation": "Psalms 103:20 (Clementine Vulgate)"
     },
     {
@@ -238,18 +138,8 @@
       "citation": "Psalms 103:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "benedicite Domino omnes exercitus eius ministri eius qui facitis placitum illius",
-      "citation": "Psalms 103:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "benedicite Domino omnia opera eius in omni loco dominationis ipsius benedic anima mea Domino",
-      "citation": "Psalms 103:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "benedicite Domino universa opera eius in omnibus locis potestatis eius benedic anima mea Domino",
       "citation": "Psalms 103:22 (Clementine Vulgate)"
     }
   ]

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Joel — 9 chapters (Clementine Vulgate)",
+    "content": "Joel — 4 chapters (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,7 +15,7 @@
       "slug": "joel",
       "testament": "OT",
       "order": 34,
-      "totalChapters": 9
+      "totalChapters": 4
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/joel/index.json",
@@ -25,13 +25,13 @@
   "chapters": [
     {
       "chapter": 1,
-      "verseCount": 35,
+      "verseCount": 20,
       "url": "https://latinprayer.org/latin/joel/1",
       "jsonUrl": "https://latinprayer.org/latin/joel/1.json"
     },
     {
       "chapter": 2,
-      "verseCount": 43,
+      "verseCount": 27,
       "url": "https://latinprayer.org/latin/joel/2",
       "jsonUrl": "https://latinprayer.org/latin/joel/2.json"
     },
@@ -43,39 +43,9 @@
     },
     {
       "chapter": 4,
-      "verseCount": 48,
+      "verseCount": 20,
       "url": "https://latinprayer.org/latin/joel/4",
       "jsonUrl": "https://latinprayer.org/latin/joel/4.json"
-    },
-    {
-      "chapter": 5,
-      "verseCount": 27,
-      "url": "https://latinprayer.org/latin/joel/5",
-      "jsonUrl": "https://latinprayer.org/latin/joel/5.json"
-    },
-    {
-      "chapter": 6,
-      "verseCount": 15,
-      "url": "https://latinprayer.org/latin/joel/6",
-      "jsonUrl": "https://latinprayer.org/latin/joel/6.json"
-    },
-    {
-      "chapter": 7,
-      "verseCount": 17,
-      "url": "https://latinprayer.org/latin/joel/7",
-      "jsonUrl": "https://latinprayer.org/latin/joel/7.json"
-    },
-    {
-      "chapter": 8,
-      "verseCount": 14,
-      "url": "https://latinprayer.org/latin/joel/8",
-      "jsonUrl": "https://latinprayer.org/latin/joel/8.json"
-    },
-    {
-      "chapter": 9,
-      "verseCount": 14,
-      "url": "https://latinprayer.org/latin/joel/9",
-      "jsonUrl": "https://latinprayer.org/latin/joel/9.json"
     }
   ]
 }

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 120 — 14 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 120 — 7 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 120,
-    "verseCount": 14,
+    "verseCount": 7,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 120:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum ad Dominum in tribulatione mea clamavi et exaudivit me",
-      "citation": "Psalms 120:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "Domine libera animam meam a labiis iniquis a lingua dolosa",
-      "citation": "Psalms 120:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "Domine libera animam meam a labio mendacii a lingua dolosa",
       "citation": "Psalms 120:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 120:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "quid detur tibi aut quid adponatur tibi ad linguam dolosam",
-      "citation": "Psalms 120:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "sagittae potentis acutae cum carbonibus desolatoriis",
-      "citation": "Psalms 120:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "sagittae potentis acutae cum carbonibus iuniperorum",
       "citation": "Psalms 120:4 (Clementine Vulgate)"
     },
     {
@@ -78,28 +58,13 @@
       "citation": "Psalms 120:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "heu mihi quia peregrinatio mea prolongata est habitavi cum tabernaculis Cedar",
-      "citation": "Psalms 120:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "multum incola fuit anima mea",
       "citation": "Psalms 120:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "multum peregrinata est anima mea",
-      "citation": "Psalms 120:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "cum his qui oderant pacem eram pacificus cum loquebar illis inpugnabant me gratis",
-      "citation": "Psalms 120:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "cum odientibus pacem ego pacifica loquebar et illi bellantia",
       "citation": "Psalms 120:7 (Clementine Vulgate)"
     }
   ]

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 12 — 18 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 12 — 9 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 12,
-    "verseCount": 18,
+    "verseCount": 9,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 12:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "salva Domine quoniam defecit sanctus quoniam inminuti sunt fideles a filiis hominum",
-      "citation": "Psalms 12:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori canticum David usquequo Domine oblivisceris mei penitus usquequo abscondes faciem tuam a me",
-      "citation": "Psalms 12:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "vana locuti sunt unusquisque ad proximum suum labia dolosa in corde et corde locuti sunt",
-      "citation": "Psalms 12:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "frustra loquuntur unusquisque proximo suo labium subdolum in corde et corde locuti sunt",
       "citation": "Psalms 12:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 12:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "disperdat Dominus omnia labia dolosa linguam magniloquam",
-      "citation": "Psalms 12:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "qui dixerunt linguam nostram magnificabimus labia nostra a nobis sunt quis noster dominus est",
-      "citation": "Psalms 12:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "qui dixerunt linguam nostram roboremus labia nostra nobiscum sunt quis dominus noster est",
       "citation": "Psalms 12:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 12:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "propter vastitatem inopum et gemitum pauperum nunc consurgam dicit Dominus ponam in salutari auxilium eorum",
-      "citation": "Psalms 12:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "eloquia Domini eloquia casta argentum igne examinatum probatum terrae purgatum septuplum",
-      "citation": "Psalms 12:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "eloquia Domini eloquia munda argentum igne probatum separatum a terra colatum septuplum",
       "citation": "Psalms 12:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 12:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "tu Domine custodies ea servabis nos a generatione hac in aeternum",
-      "citation": "Psalms 12:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "in circuitu impii ambulant secundum altitudinem tuam multiplicasti filios hominum",
-      "citation": "Psalms 12:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "in circuitu impii ambulabunt cum exaltati fuerint vilissimi filiorum hominum",
       "citation": "Psalms 12:8 (Clementine Vulgate)"
     }
   ]

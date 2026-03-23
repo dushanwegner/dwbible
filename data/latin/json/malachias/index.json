@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Malachi — 6 chapters (Clementine Vulgate)",
+    "content": "Malachi — 3 chapters (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,7 +15,7 @@
       "slug": "malachias",
       "testament": "OT",
       "order": 44,
-      "totalChapters": 6
+      "totalChapters": 3
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/malachias/index.json",
@@ -25,39 +25,21 @@
   "chapters": [
     {
       "chapter": 1,
-      "verseCount": 36,
+      "verseCount": 14,
       "url": "https://latinprayer.org/latin/malachias/1",
       "jsonUrl": "https://latinprayer.org/latin/malachias/1.json"
     },
     {
       "chapter": 2,
-      "verseCount": 52,
+      "verseCount": 17,
       "url": "https://latinprayer.org/latin/malachias/2",
       "jsonUrl": "https://latinprayer.org/latin/malachias/2.json"
     },
     {
       "chapter": 3,
-      "verseCount": 67,
+      "verseCount": 23,
       "url": "https://latinprayer.org/latin/malachias/3",
       "jsonUrl": "https://latinprayer.org/latin/malachias/3.json"
-    },
-    {
-      "chapter": 4,
-      "verseCount": 31,
-      "url": "https://latinprayer.org/latin/malachias/4",
-      "jsonUrl": "https://latinprayer.org/latin/malachias/4.json"
-    },
-    {
-      "chapter": 5,
-      "verseCount": 9,
-      "url": "https://latinprayer.org/latin/malachias/5",
-      "jsonUrl": "https://latinprayer.org/latin/malachias/5.json"
-    },
-    {
-      "chapter": 6,
-      "verseCount": 71,
-      "url": "https://latinprayer.org/latin/malachias/6",
-      "jsonUrl": "https://latinprayer.org/latin/malachias/6.json"
     }
   ]
 }

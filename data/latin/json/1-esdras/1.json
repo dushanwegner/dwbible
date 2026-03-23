@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezra, Chapter 1 — 11 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezra",
+      "slug": "1-esdras",
+      "testament": "OT",
+      "order": 15,
+      "totalChapters": 10
+    },
+    "chapter": 1,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-esdras/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/1-esdras/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-esdras/1.json",
+      "german": "https://latinprayer.org/bibel/1-esdras/1.json"
+    }
+  },
+  "citation": "Ezra 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in anno primo Cyri regis Persarum ut conpleretur verbum Domini ex ore Hieremiae suscitavit Dominus spiritum Cyri regis Persarum et transduxit vocem in universo regno suo etiam per scripturam dicens",
+      "citation": "Ezra 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "haec dicit Cyrus rex Persarum omnia regna terrae dedit mihi Dominus Deus caeli et ipse praecepit mihi ut aedificarem ei domum in Hierusalem quae est in Iudaea",
+      "citation": "Ezra 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quis est in vobis de universo populo eius sit Deus illius cum ipso ascendat Hierusalem quae est in Iudaea et aedificet domum Domini Dei Israhel ipse est Deus qui est in Hierusalem",
+      "citation": "Ezra 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et omnes reliqui in cunctis locis ubicumque habitant adiuvent eum viri de loco suo argento et auro et substantia et pecoribus excepto quod voluntarie offerunt templo Dei quod est in Hierusalem",
+      "citation": "Ezra 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et surrexerunt principes patrum de Iuda et Beniamin et sacerdotes et Levitae omnis cuius suscitavit Deus spiritum ut ascenderent ad aedificandum templum Domini quod erat in Hierusalem",
+      "citation": "Ezra 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "universique qui erant in circuitu adiuverunt manus eorum in vasis argenteis et aureis in substantia in iumentis in supellectili exceptis his quae sponte obtulerunt",
+      "citation": "Ezra 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "rex quoque Cyrus protulit vasa templi Domini quae tulerat Nabuchodonosor de Hierusalem et posuerat ea in templo dei sui",
+      "citation": "Ezra 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "protulit autem ea Cyrus rex Persarum per manum Mitridatis filii Gazabar et adnumeravit ea Sasabassar principi Iudae",
+      "citation": "Ezra 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et hic est numerus eorum fialae aureae triginta fialae argenteae mille cultri viginti novem scyphi aurei triginta",
+      "citation": "Ezra 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "scyphi argentei secundi quadringenti decem vasa alia mille",
+      "citation": "Ezra 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "omnia vasa aurea et argentea quinque milia quadringenta universa tulit Sasabassar cum his qui ascendebant de transmigratione Babylonis in Hierusalem",
+      "citation": "Ezra 1:11 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "2 Chronicles, Chapter 7 — 50 verses (Clementine Vulgate)",
+    "content": "2 Chronicles, Chapter 7 — 22 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 36
     },
     "chapter": 7,
-    "verseCount": 50,
+    "verseCount": 22,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/2-paralipomenon/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "2 Chronicles 7:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "post haec autem verba in regno Artarxersis regis Persarum Ezras filius Saraiae filii Azariae filii Helciae",
-      "citation": "2 Chronicles 7:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "nec poterant sacerdotes ingredi templum Domini eo quod implesset maiestas Domini templum Domini",
-      "citation": "2 Chronicles 7:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "filii Sellum filii Sadoc filii Achitob",
       "citation": "2 Chronicles 7:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "2 Chronicles 7:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "filii Amariae filii Azariae filii Maraioth",
-      "citation": "2 Chronicles 7:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "rex autem et omnis populus immolabant victimas coram Domino",
-      "citation": "2 Chronicles 7:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "filii Zaraiae filii Ozi filii Bocci",
       "citation": "2 Chronicles 7:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "2 Chronicles 7:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "filii Abisue filii Finees filii Eleazar filii Aaron sacerdotis ab initio",
-      "citation": "2 Chronicles 7:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "sacerdotes autem stabant in officiis suis et Levitae in organis carminum Domini quae fecit David rex ad laudandum Dominum quoniam in aeternum misericordia eius hymnos David canentes per manus suas porro sacerdotes canebant tubis ante eos cunctusque Israhel stabat",
-      "citation": "2 Chronicles 7:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "ipse Ezras ascendit de Babylone et ipse scriba velox in lege Mosi quam dedit Dominus Deus Israhel et dedit ei rex secundum manum Domini Dei eius super eum omnem petitionem eius",
       "citation": "2 Chronicles 7:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "2 Chronicles 7:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "et ascenderunt de filiis Israhel et de filiis sacerdotum et de filiis Levitarum et de cantoribus et de ianitoribus et de Nathinneis in Hierusalem anno septimo Artarxersis regis",
-      "citation": "2 Chronicles 7:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "fecit ergo Salomon sollemnitatem in tempore illo septem diebus et omnis Israhel cum eo ecclesia magna valde ab introitu Emath usque ad torrentem Aegypti",
-      "citation": "2 Chronicles 7:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "et venerunt in Hierusalem mense quinto ipse est annus septimus regis",
       "citation": "2 Chronicles 7:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "2 Chronicles 7:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "quia in primo die mensis primi coepit ascendere de Babylone et in primo mensis quinti venit in Hierusalem iuxta manum Dei sui bonam super se",
-      "citation": "2 Chronicles 7:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "igitur in die vicesimo tertio mensis septimi dimisit populos ad tabernacula sua laetantes atque gaudentes super bono quod fecerat Dominus David et Salomoni et Israhel populo suo",
-      "citation": "2 Chronicles 7:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "Ezras enim paravit cor suum ut investigaret legem Domini et faceret et doceret in Israhel praeceptum et iudicium",
       "citation": "2 Chronicles 7:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "2 Chronicles 7:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "hoc est autem exemplar epistulae edicti quod dedit rex Artarxersis Ezrae sacerdoti scribae erudito in sermonibus et praeceptis Domini et caerimoniis eius in Israhel",
-      "citation": "2 Chronicles 7:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "apparuit autem ei Dominus nocte et ait audivi orationem tuam et elegi locum istum mihi in domum sacrificii",
-      "citation": "2 Chronicles 7:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "Artarxersis rex regum Ezrae sacerdoti scribae legis Dei caeli doctissimo salutem",
       "citation": "2 Chronicles 7:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "2 Chronicles 7:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "a me decretum est ut cuicumque placuerit in regno meo de populo Israhel et de sacerdotibus eius et de Levitis ire in Hierusalem tecum vadat",
-      "citation": "2 Chronicles 7:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "conversus autem populus meus super quos invocatum est nomen meum deprecatus me fuerit et exquisierit faciem meam et egerit paenitentiam a viis suis pessimis et ego exaudiam de caelo et propitius ero peccatis eorum et sanabo terram eorum",
-      "citation": "2 Chronicles 7:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "a facie enim regis et septem consiliatorum eius missus es ut visites Iudaeam et Hierusalem in lege Dei tui quae est in manu tua",
       "citation": "2 Chronicles 7:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "2 Chronicles 7:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "et ut feras argentum et aurum quod rex et consiliatores eius sponte obtulerunt Deo Israhel cuius in Hierusalem tabernaculum est",
-      "citation": "2 Chronicles 7:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "elegi enim et sanctificavi locum istum ut sit nomen meum ibi in sempiternum et permaneant oculi mei et cor meum ibi cunctis diebus",
-      "citation": "2 Chronicles 7:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "et omne argentum et aurum quodcumque inveneris in universa provincia Babylonis et populus offerre voluerit et de sacerdotibus qui sponte obtulerint domui Dei sui quae est in Hierusalem",
       "citation": "2 Chronicles 7:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "2 Chronicles 7:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "libere accipe et studiose eme de hac pecunia vitulos arietes agnos et sacrificia et libamina eorum et offer ea super altare templi Dei vestri quod est in Hierusalem",
-      "citation": "2 Chronicles 7:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "suscitabo thronum regni tui sicut pollicitus sum David patri tuo dicens non auferetur de stirpe tua vir qui sit princeps in Israhel",
-      "citation": "2 Chronicles 7:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "sed et si quid tibi et fratribus tuis placuerit de reliquo argento et auro ut faciatis iuxta voluntatem Dei vestri facite",
       "citation": "2 Chronicles 7:18 (Clementine Vulgate)"
     },
     {
@@ -218,18 +128,8 @@
       "citation": "2 Chronicles 7:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "vasa quoque quae dantur tibi in ministerium domus Dei tui trade in conspectu Dei Hierusalem",
-      "citation": "2 Chronicles 7:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "evellam vos de terra mea quam dedi vobis et domum hanc quam sanctificavi nomini meo proiciam a facie mea et tradam eam in parabolam et in exemplum cunctis populis",
-      "citation": "2 Chronicles 7:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "sed et cetera quibus opus fuerit in domo Dei tui quantumcumque necesse est ut expendas dabis de thesauro et de fisco regis",
       "citation": "2 Chronicles 7:20 (Clementine Vulgate)"
     },
     {
@@ -238,49 +138,9 @@
       "citation": "2 Chronicles 7:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "et a me ego Artarxersis rex statui atque decrevi omnibus custodibus arcae publicae qui sunt trans Flumen ut quodcumque petierit a vobis Ezras sacerdos scriba legis Dei caeli absque mora detis",
-      "citation": "2 Chronicles 7:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "respondebuntque quia dereliquerunt Dominum Deum patrum suorum qui eduxit eos de terra Aegypti et adprehenderunt deos alienos et adoraverunt eos atque coluerunt idcirco venerunt super eos universa haec mala",
       "citation": "2 Chronicles 7:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "usque ad argenti talenta centum et usque ad frumenti choros centum et usque ad vini batos centum et usque ad batos olei centum sal vero absque mensura",
-      "citation": "2 Chronicles 7:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "omne quod ad ritum Dei caeli pertinet tribuatur diligenter in domo Dei caeli ne forte irascatur contra regnum regis et filiorum eius",
-      "citation": "2 Chronicles 7:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "vobisque notum facimus de universis sacerdotibus et Levitis cantoribus ianitoribus Nathinneis et ministris domus Dei huius ut vectigal et tributum et annonas non habeatis potestatem inponendi super eos",
-      "citation": "2 Chronicles 7:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 25,
-      "text": "tu autem Ezras secundum sapientiam Dei tui quae est in manu tua constitue iudices et praesides ut iudicent omni populo qui est trans Flumen his videlicet qui noverunt legem Dei tui sed et inperitos docete libere",
-      "citation": "2 Chronicles 7:25 (Clementine Vulgate)"
-    },
-    {
-      "verse": 26,
-      "text": "et omnis qui non fecerit legem Dei tui et legem regis diligenter iudicium erit de eo sive in mortem sive in exilium sive in condemnationem substantiae eius vel certe in carcerem",
-      "citation": "2 Chronicles 7:26 (Clementine Vulgate)"
-    },
-    {
-      "verse": 27,
-      "text": "benedictus Dominus Deus patrum nostrorum qui dedit hoc in corde regis ut glorificaret domum Domini quae est in Hierusalem",
-      "citation": "2 Chronicles 7:27 (Clementine Vulgate)"
-    },
-    {
-      "verse": 28,
-      "text": "et in me inclinavit misericordiam coram rege et consiliatoribus eius et universis principibus regis potentibus et ego confortatus manu Domini Dei mei quae erat in me congregavi de Israhel principes qui ascenderent mecum",
-      "citation": "2 Chronicles 7:28 (Clementine Vulgate)"
     }
   ]
 }

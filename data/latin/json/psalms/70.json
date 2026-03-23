@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 70 — 10 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 70 — 5 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 70,
-    "verseCount": 10,
+    "verseCount": 5,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,28 +38,13 @@
       "citation": "Psalms 70:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "Deus ut liberes me Domine ut auxilieris mihi festina",
-      "citation": "Psalms 70:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "confundantur et revereantur qui quaerunt animam meam",
       "citation": "Psalms 70:2 (Clementine Vulgate)"
     },
     {
-      "verse": 2,
-      "text": "confundantur et erubescant qui quaerunt animam meam",
-      "citation": "Psalms 70:2 (Clementine Vulgate)"
-    },
-    {
       "verse": 3,
-      "text": "avertantur retrorsum et erubescant qui volunt mihi mala avertantur statim erubescentes qui dicunt %mihi; euge euge",
-      "citation": "Psalms 70:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "convertantur retrorsum et erubescant qui volunt malum mihi revertantur ad vestigium confusionis suae qui dicunt va va",
+      "text": "avertantur retrorsum et erubescant qui volunt mihi mala avertantur statim erubescentes qui dicunt euge euge",
       "citation": "Psalms 70:3 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 70:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "gaudeant et laetentur in te omnes qui quaerunt te et dicant semper magnificetur Deus qui diligunt salutare tuum",
-      "citation": "Psalms 70:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "ego vero egenus et pauper Deus adiuva me adiutor meus et liberator meus es tu Domine ne moreris",
-      "citation": "Psalms 70:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "ego autem egenus et pauper Deus festina pro me auxilium meum et salvator meus tu Domine ne moreris",
       "citation": "Psalms 70:5 (Clementine Vulgate)"
     }
   ]

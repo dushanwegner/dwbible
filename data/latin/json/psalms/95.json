@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 95 — 22 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 95 — 11 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 95,
-    "verseCount": 22,
+    "verseCount": 11,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 95:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "venite laudemus Dominum iubilemus petrae Iesu nostro",
-      "citation": "Psalms 95:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "praeoccupemus faciem eius in confessione et in psalmis iubilemus ei",
-      "citation": "Psalms 95:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "praeoccupemus vultum eius in actione gratiarum in canticis iubilemus ei",
       "citation": "Psalms 95:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 95:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "quoniam fortis et magnus Dominus et rex magnus super omnes deos",
-      "citation": "Psalms 95:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "quia in manu eius fines terrae et altitudines montium ipsius sunt",
-      "citation": "Psalms 95:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "in cuius manu fundamenta terrae et excelsa montium ipsius sunt",
       "citation": "Psalms 95:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 95:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "cuius est mare ipse enim fecit illud et siccam manus eius plasmaverunt",
-      "citation": "Psalms 95:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "venite adoremus et procidamus et ploremus ante Dominum qui fecit nos",
-      "citation": "Psalms 95:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "venite adoremus et curvemur flectamus genua ante faciem Domini factoris nostri",
       "citation": "Psalms 95:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 95:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "quia ipse est Deus noster et nos populus pascuae eius et grex manus eius",
-      "citation": "Psalms 95:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "hodie si vocem eius audieritis nolite obdurare corda vestra",
-      "citation": "Psalms 95:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "hodie si vocem eius audieritis nolite indurare corda vestra",
       "citation": "Psalms 95:8 (Clementine Vulgate)"
     },
     {
@@ -118,28 +78,13 @@
       "citation": "Psalms 95:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "sicut in contradictione sicut in die temptationis in deserto ubi temptaverunt me patres vestri probaverunt me et viderunt opus meum",
-      "citation": "Psalms 95:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "quadraginta annis offensus fui generationi illi et dixi semper errant corde",
       "citation": "Psalms 95:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "quadraginta annis displicuit mihi generatio illa et dixi populus errans corde est",
-      "citation": "Psalms 95:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "et isti non cognoverunt vias meas ut iuravi in ira mea si intrabunt in requiem meam",
-      "citation": "Psalms 95:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "et non cognoscens vias meas et iuravi in furore meo ut non introirent in requiem meam",
       "citation": "Psalms 95:11 (Clementine Vulgate)"
     }
   ]

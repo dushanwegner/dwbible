@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 67 — 16 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 67 — 8 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 67,
-    "verseCount": 16,
+    "verseCount": 8,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,29 +43,9 @@
       "citation": "Psalms 67:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "Deus misereatur nostri et benedicat nobis inlustret faciem suam super nos semper",
-      "citation": "Psalms 67:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori David psalmus cantici",
-      "citation": "Psalms 67:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "ut cognoscamus in terra viam tuam in omnibus gentibus salutare tuum",
       "citation": "Psalms 67:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "ut nota fiat in terra via tua in universis gentibus salus tua",
-      "citation": "Psalms 67:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "confiteantur tibi populi Deus confiteantur tibi populi omnes",
-      "citation": "Psalms 67:3 (Clementine Vulgate)"
     },
     {
       "verse": 3,
@@ -78,16 +58,6 @@
       "citation": "Psalms 67:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "laetentur et laudent gentes quoniam iudicas populos in aequitate et gentium quae in terra sunt ductor es sempiternus",
-      "citation": "Psalms 67:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "confiteantur tibi populi Deus confiteantur tibi populi omnes",
-      "citation": "Psalms 67:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "confiteantur tibi populi Deus confiteantur tibi populi omnes",
       "citation": "Psalms 67:5 (Clementine Vulgate)"
@@ -98,18 +68,8 @@
       "citation": "Psalms 67:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "terra dedit germen suum benedicat nobis Deus Deus noster",
-      "citation": "Psalms 67:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "benedicat nos Deus et metuant eum omnes fines terrae",
-      "citation": "Psalms 67:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "benedicat nobis Deus et timeant eum omnes fines terrae",
       "citation": "Psalms 67:7 (Clementine Vulgate)"
     }
   ]

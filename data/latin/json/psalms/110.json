@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 110 — 14 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 110 — 7 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 110,
-    "verseCount": 14,
+    "verseCount": 7,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,34 +38,14 @@
       "citation": "Psalms 110:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "David canticum dixit Dominus Domino meo sede a dextris meis donec ponam inimicos tuos scabillum pedum tuorum",
-      "citation": "Psalms 110:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "virgam virtutis tuae emittet Dominus ex Sion dominare in medio inimicorum tuorum",
-      "citation": "Psalms 110:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "virgam fortitudinis tuae emittet Dominus ex Sion dominare in medio inimicorum tuorum",
       "citation": "Psalms 110:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
       "text": "tecum principium in die virtutis tuae in splendoribus sanctorum ex utero ante luciferum genui te",
       "citation": "Psalms 110:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "populi tui spontanei erunt in die fortitudinis tuae in montibus sanctis quasi de vulva orietur tibi ros adulescentiae tuae",
-      "citation": "Psalms 110:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "iuravit Dominus et non paenitebit eum tu es sacerdos in aeternum secundum ordinem Melchisedech",
-      "citation": "Psalms 110:4 (Clementine Vulgate)"
     },
     {
       "verse": 4,
@@ -78,24 +58,9 @@
       "citation": "Psalms 110:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "Dominus ad dexteram tuam percussit in die furoris sui reges",
-      "citation": "Psalms 110:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "iudicabit in nationibus implebit cadavera conquassabit capita in terra multorum",
       "citation": "Psalms 110:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "iudicabit in gentibus implebit valles percutiet caput in terra multa",
-      "citation": "Psalms 110:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "de torrente in via bibet propterea exaltabit caput",
-      "citation": "Psalms 110:7 (Clementine Vulgate)"
     },
     {
       "verse": 7,

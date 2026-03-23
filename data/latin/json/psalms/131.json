@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 131 — 6 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 131 — 3 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 131,
-    "verseCount": 6,
+    "verseCount": 3,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,28 +38,13 @@
       "citation": "Psalms 131:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum Domine non est exaltatum cor meum neque elati sunt oculi mei et non ambulavi in magnis et in mirabilibus super me",
-      "citation": "Psalms 131:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "si non humiliter sentiebam sed exaltavi animam meam sicut ablactatum super matrem suam ita retributio in anima mea",
       "citation": "Psalms 131:2 (Clementine Vulgate)"
     },
     {
-      "verse": 2,
-      "text": "si non proposui et silere feci animam meam sicut ablactatus ad matrem suam ita ablactata ad me anima mea",
-      "citation": "Psalms 131:2 (Clementine Vulgate)"
-    },
-    {
       "verse": 3,
       "text": "speret Israhel in Domino ex hoc nunc et usque in saeculum",
-      "citation": "Psalms 131:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "expecta Israhel Dominum amodo et usque in aeternum",
       "citation": "Psalms 131:3 (Clementine Vulgate)"
     }
   ]

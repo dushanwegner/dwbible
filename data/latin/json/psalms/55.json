@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 55 — 48 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 55 — 24 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 55,
-    "verseCount": 48,
+    "verseCount": 24,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 55:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "exaudi Deus orationem meam et ne dispicias deprecationem meam",
-      "citation": "Psalms 55:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori pro columba muta eo quod procul abierit David humilis et simplex quando tenuerunt eum Palestini in Geth",
-      "citation": "Psalms 55:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "intende mihi et exaudi me contristatus sum in exercitatione mea et conturbatus sum",
-      "citation": "Psalms 55:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "adtende mihi et exaudi me humiliatus sum in meditatione mea et conturbatus",
       "citation": "Psalms 55:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 55:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "a voce inimici a facie persequentis impii quoniam proiecerunt super me iniquitatem et in furore adversabantur mihi",
-      "citation": "Psalms 55:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "cor meum conturbatum est in me et formido mortis cecidit super me",
-      "citation": "Psalms 55:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "cor meum doluit in vitalibus meis et terrores mortis ceciderunt super me",
       "citation": "Psalms 55:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 55:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "timor et tremor venit super me et operuit me caligo",
-      "citation": "Psalms 55:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "et dixi quis dabit mihi pinnas sicut columbae et volabo et requiescam",
-      "citation": "Psalms 55:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "et dixi quis dabit mihi pinnas columbae ut volem et requiescam",
       "citation": "Psalms 55:6 (Clementine Vulgate)"
     },
     {
@@ -108,24 +73,9 @@
       "citation": "Psalms 55:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "ut procul abeam et commorer in deserto semper",
-      "citation": "Psalms 55:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "expectabam eum qui salvum me fecit a pusillanimitate spiritus et a tempestate",
       "citation": "Psalms 55:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "festinabo ut salver ab spiritu tempestatis et turbinis",
-      "citation": "Psalms 55:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "praecipita Domine divide linguas eorum quoniam vidi iniquitatem et contradictionem in civitate",
-      "citation": "Psalms 55:9 (Clementine Vulgate)"
     },
     {
       "verse": 9,
@@ -138,18 +88,8 @@
       "citation": "Psalms 55:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "die et nocte circumeuntes muros eius scelus et dolorem in medio eius",
-      "citation": "Psalms 55:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "et iniustitia et non defecit de plateis eius usura et dolus",
-      "citation": "Psalms 55:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "insidiae in vitalibus eius et non recedet de plateis eius damnum et fraudulentia",
       "citation": "Psalms 55:11 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 55:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "non enim inimicus exprobravit mihi ut sustineam neque is qui me oderat super me magnificatus est ut abscondar ab eo",
-      "citation": "Psalms 55:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "tu vero homo unianimis dux meus et notus meus",
-      "citation": "Psalms 55:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "sed tu homo unianimis meus dux meus et notus meus",
       "citation": "Psalms 55:13 (Clementine Vulgate)"
     },
     {
@@ -178,28 +108,13 @@
       "citation": "Psalms 55:14 (Clementine Vulgate)"
     },
     {
-      "verse": 14,
-      "text": "qui simul habuimus dulce secretum in domo Dei ambulavimus in terrore",
-      "citation": "Psalms 55:14 (Clementine Vulgate)"
-    },
-    {
       "verse": 15,
       "text": "veniat mors super illos et descendant in infernum viventes quoniam nequitiae in habitaculis eorum in medio eorum",
       "citation": "Psalms 55:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "veniat mors super eos descendant in infernum viventes quia nequitiae in congregatione eorum et in medio eorum",
-      "citation": "Psalms 55:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
-      "text": "ego %autem; ad Deum clamavi et Dominus salvabit me",
-      "citation": "Psalms 55:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "ego ad Deum clamabo et Dominus salvabit me",
+      "text": "ego ad Deum clamavi et Dominus salvabit me",
       "citation": "Psalms 55:16 (Clementine Vulgate)"
     },
     {
@@ -208,18 +123,8 @@
       "citation": "Psalms 55:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "vespere et mane et meridie eloquar et resonabo et exaudiet vocem meam",
-      "citation": "Psalms 55:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "redimet in pace animam meam ab his qui adpropinquant mihi quoniam inter multos erant mecum",
-      "citation": "Psalms 55:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "redimet in pace animam meam ab adpropinquantibus mihi multi enim fuerunt adversum me",
       "citation": "Psalms 55:18 (Clementine Vulgate)"
     },
     {
@@ -228,18 +133,8 @@
       "citation": "Psalms 55:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "exaudiet Deus et humiliabit eos qui iudex est ab initio semper non enim mutantur neque timent Deum",
-      "citation": "Psalms 55:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "extendit manum suam in retribuendo contaminaverunt testamentum eius",
-      "citation": "Psalms 55:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "extendit manum suam ad pacifica sua contaminabit pactum suum",
       "citation": "Psalms 55:20 (Clementine Vulgate)"
     },
     {
@@ -248,28 +143,13 @@
       "citation": "Psalms 55:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "nitidius butyro os eius pugnat autem cor illius molliores sermones eius oleo cum sint lanceae",
-      "citation": "Psalms 55:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "iacta super Dominum curam tuam et ipse te enutriet non dabit in aeternum fluctuationem iusto",
       "citation": "Psalms 55:22 (Clementine Vulgate)"
     },
     {
-      "verse": 22,
-      "text": "proice super Dominum caritatem tuam et ipse enutriet te non dabit in aeternum fluctuationem iusto",
-      "citation": "Psalms 55:22 (Clementine Vulgate)"
-    },
-    {
       "verse": 23,
       "text": "tu vero Deus deduces eos in puteum interitus viri sanguinum et doli non dimidiabunt dies suos ego autem sperabo in te Domine",
-      "citation": "Psalms 55:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "tu autem Deus deduces eos in puteum interitus viri sanguinum et dolosi non dimidiabunt dies suos ego autem fiduciam habeo tui",
       "citation": "Psalms 55:23 (Clementine Vulgate)"
     }
   ]

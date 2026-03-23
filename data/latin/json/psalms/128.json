@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 128 — 12 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 128 — 6 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 128,
-    "verseCount": 12,
+    "verseCount": 6,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 128:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum beatus omnis qui timet Dominum qui ambulat in viis eius",
-      "citation": "Psalms 128:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "labores manuum tuarum *quia; manducabis beatus es et bene tibi erit",
-      "citation": "Psalms 128:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "laborem manuum tuarum cum comederis beatus tu et bene tibi erit",
       "citation": "Psalms 128:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 128:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "uxor tua sicut vitis fructifera in penetrabilibus domus tuae filii tui sicut germina olivarum in circuitu mensae tuae",
-      "citation": "Psalms 128:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "ecce sic benedicetur homo qui timet Dominum",
-      "citation": "Psalms 128:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "ecce sic benedicetur viro qui timet Dominum",
       "citation": "Psalms 128:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 128:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "benedicat tibi Dominus ex Sion et videas bona Hierusalem omnibus diebus vitae tuae",
-      "citation": "Psalms 128:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "et videas filios filiorum tuorum pax super Israhel",
-      "citation": "Psalms 128:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "et videas filios filiorum tuorum pacem super Israhel",
       "citation": "Psalms 128:6 (Clementine Vulgate)"
     }
   ]

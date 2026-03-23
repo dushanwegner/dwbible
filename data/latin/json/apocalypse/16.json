@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Revelation, Chapter 16 — 77 verses (Clementine Vulgate)",
+    "content": "Revelation, Chapter 16 — 21 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "apocalypse",
       "testament": "NT",
       "order": 73,
-      "totalChapters": 35
+      "totalChapters": 22
     },
     "chapter": 16,
-    "verseCount": 77,
+    "verseCount": 21,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/apocalypse/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,388 +34,108 @@
   "verses": [
     {
       "verse": 1,
-      "text": "vae tibi, Babylon et Asia, vae tibi, Aegypte et Syria.",
+      "text": "et audivi vocem magnam de templo dicentem septem angelis ite et effundite septem fialas irae Dei in terram",
       "citation": "Revelation 16:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "praecingite vos saccos, plangite filios vestros et dolete de his, quia adpropinquavit contritio vestra.",
+      "text": "et abiit primus et effudit fialam suam in terram et factum est vulnus saevum ac pessimum in homines qui habent caracterem bestiae et eos qui adoraverunt imaginem eius",
       "citation": "Revelation 16:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "inmissus est gladius vobis, et quis est qui avertat eum.",
+      "text": "et secundus effudit fialam suam in mare et factus est sanguis tamquam mortui et omnis anima vivens mortua est in mari",
       "citation": "Revelation 16:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "inmissus est vobis ignis, et quis est qui extinguat eum.",
+      "text": "et tertius effudit fialam suam super flumina et super fontes aquarum et factus est sanguis",
       "citation": "Revelation 16:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "inmissa sunt vobis mala, et quis est qui recutiet ea?",
+      "text": "et audivi angelum aquarum dicentem iustus es qui es et qui eras sanctus quia haec iudicasti",
       "citation": "Revelation 16:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "numquid recutiet aliquis leonem esurientem in silva aut numquid extinguet ignem, cum stramen incensum fuerit?",
+      "text": "quia sanguinem sanctorum et prophetarum fuderunt et sanguinem eis dedisti bibere digni sunt",
       "citation": "Revelation 16:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "aut numquid recutiet sagittam inmissam a sagittario forte?",
+      "text": "et audivi altare dicens etiam Domine Deus omnipotens vera et iusta iudicia tua",
       "citation": "Revelation 16:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "Dominus Deus mittit mala, et quis recutiet ea?",
+      "text": "et quartus effudit fialam suam in solem et datum est illi aestu adficere homines et igni",
       "citation": "Revelation 16:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "et exiet ignis ex iracundia eius, et quis est qui extinguat eum?",
+      "text": "et aestuaverunt homines aestu magno et blasphemaverunt nomen Dei habentis potestatem super has plagas neque egerunt paenitentiam ut darent illi gloriam",
       "citation": "Revelation 16:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "coruscabit, et quis non timebit? tonabit, et quis non horrebit?",
+      "text": "et quintus effudit fialam suam super sedem bestiae et factum est regnum eius tenebrosum et conmanducaverunt linguas suas prae dolore",
       "citation": "Revelation 16:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "Dominus comminatur, quis non conterretur a facie eius?",
+      "text": "et blasphemaverunt Deum caeli prae doloribus et vulneribus suis et non egerunt paenitentiam ex operibus suis",
       "citation": "Revelation 16:11 (Clementine Vulgate)"
     },
     {
       "verse": 12,
-      "text": "tremet terra a fundamento eius, mare fluctuatur de profundo, et fluctus eius turbabuntur et pisces eius a facie Domini et a gloria virtutis eius,",
+      "text": "et sextus effudit fialam suam in flumen illud magnum Eufraten et siccavit aquam eius ut praepararetur via regibus ab ortu solis",
       "citation": "Revelation 16:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
-      "text": "quoniam fortis gloriae qui tendit sagittam, et acumen eius acutum, quae dimissa est ab eo, non deficiet missa super fines terrae.",
+      "text": "et vidi de ore draconis et de ore bestiae et de ore pseudoprophetae spiritus tres inmundos in modum ranarum",
       "citation": "Revelation 16:13 (Clementine Vulgate)"
     },
     {
       "verse": 14,
-      "text": "ecce mittuntur mala et non revertentur, donec venient super terram.",
+      "text": "sunt enim spiritus daemoniorum facientes signa et procedunt ad reges totius terrae congregare illos in proelium ad diem magnum Dei omnipotentis",
       "citation": "Revelation 16:14 (Clementine Vulgate)"
     },
     {
       "verse": 15,
-      "text": "et ignis incendetur et non extinguetur, donec excomedat frumenta terrae.",
+      "text": "ecce venio sicut fur beatus qui vigilat et custodit vestimenta sua ne nudus ambulet et videant turpitudinem eius",
       "citation": "Revelation 16:15 (Clementine Vulgate)"
     },
     {
       "verse": 16,
-      "text": "quomodo non revertitur sagitta missa a sagittario valido, sic non revertentur mala quae fuerint emissa in terram.",
+      "text": "et congregavit illos in locum qui vocatur hebraice Hermagedon",
       "citation": "Revelation 16:16 (Clementine Vulgate)"
     },
     {
       "verse": 17,
-      "text": "vae mihi, vae mihi, quis me liberabit in diebus illis?",
+      "text": "et septimus effudit fialam suam in aerem et exivit vox magna de templo a throno dicens factum est",
       "citation": "Revelation 16:17 (Clementine Vulgate)"
     },
     {
       "verse": 18,
-      "text": "initium gemitus et copiosi suspirantium, initium famis et multi disperient, initium belli et timebunt potestates, initium malor",
+      "text": "et facta sunt fulgora et voces et tonitrua et terraemotus factus est magnus qualis numquam fuit ex quo homines fuerunt super terram talis terraemotus sic magnus",
       "citation": "Revelation 16:18 (Clementine Vulgate)"
     },
     {
       "verse": 19,
-      "text": "ab eis; quid facient, cum venerint mala?",
+      "text": "et facta est civitas magna in tres partes et civitates gentium ceciderunt et Babylon magna venit in memoriam ante Deum dare ei calicem vini indignationis irae eius",
       "citation": "Revelation 16:19 (Clementine Vulgate)"
     },
     {
       "verse": 20,
-      "text": "ecce famis plaga dimissa est, et tribulatio eius tamquam mastix, castigatio in disciplina.",
+      "text": "et omnis insula fugit et montes non sunt inventi",
       "citation": "Revelation 16:20 (Clementine Vulgate)"
     },
     {
       "verse": 21,
-      "text": "et super his omnibus non se avertent ab iniquitatibus suis nec super has plagas memorantur sempiterna.",
+      "text": "et grando magna sicut talentum descendit de caelo in homines et blasphemaverunt homines Deum propter plagam grandinis quoniam magna facta est vehementer",
       "citation": "Revelation 16:21 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "ecce erit annonae vilitas in brevi super terram, ut putent sibi esse directam pacem. tunc superflorescent mala super terram, gladius et famis.",
-      "citation": "Revelation 16:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "et aporiant vitam super terram, et gladius dispersit quae superaverint a fame.",
-      "citation": "Revelation 16:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "et mortui quasi stercora proicientur, et non habent qui consolentur eos. et derelinquetur deserta terra, et civitates eius demolientur.",
-      "citation": "Revelation 16:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 25,
-      "text": "non derelinquetur agricola, qui colit terram et qui seminat eam.",
-      "citation": "Revelation 16:25 (Clementine Vulgate)"
-    },
-    {
-      "verse": 26,
-      "text": "ligna fructiferabunt, et quis vindemiet illa?",
-      "citation": "Revelation 16:26 (Clementine Vulgate)"
-    },
-    {
-      "verse": 27,
-      "text": "et uva tradet se ad vindemiam, et quis adligabit eam? erit enim et locis desertio multa.",
-      "citation": "Revelation 16:27 (Clementine Vulgate)"
-    },
-    {
-      "verse": 28,
-      "text": "concupiscet enim homo hominem videre vel certe vocem eius audire.",
-      "citation": "Revelation 16:28 (Clementine Vulgate)"
-    },
-    {
-      "verse": 29,
-      "text": "relinquentur enim decem de civitate et duo ex agro, qui absconderint se in silva et in fissuras petrarum.",
-      "citation": "Revelation 16:29 (Clementine Vulgate)"
-    },
-    {
-      "verse": 30,
-      "text": "quemadmodum relinquentur in oliveto tres vel quattuor olivae,",
-      "citation": "Revelation 16:30 (Clementine Vulgate)"
-    },
-    {
-      "verse": 31,
-      "text": "aut sicut in vinea vindemiata et subremanet racemus patens ab scrutantibus vindemiam diligenter,",
-      "citation": "Revelation 16:31 (Clementine Vulgate)"
-    },
-    {
-      "verse": 32,
-      "text": "sic remanebunt in diebus illis tres vel quattuor ab scrutantibus domos eorum in romphea.",
-      "citation": "Revelation 16:32 (Clementine Vulgate)"
-    },
-    {
-      "verse": 33,
-      "text": "et relinquetur deserta terra, et agri eius inveteraverunt, et viae eius et omnes semitae germinabunt spinas, eo quod non transient oves per eam.",
-      "citation": "Revelation 16:33 (Clementine Vulgate)"
-    },
-    {
-      "verse": 34,
-      "text": "lugebunt virgines non habentes sponsos, lugebunt mulieres non habentes viros, lugebunt filiae earum non habentes adiutorium.",
-      "citation": "Revelation 16:34 (Clementine Vulgate)"
-    },
-    {
-      "verse": 35,
-      "text": "sponsi earum in bello consumentur, et viri earum in fame exterentur.",
-      "citation": "Revelation 16:35 (Clementine Vulgate)"
-    },
-    {
-      "verse": 36,
-      "text": "audite vero ista et cognoscite, ea servi Domini.",
-      "citation": "Revelation 16:36 (Clementine Vulgate)"
-    },
-    {
-      "verse": 37,
-      "text": "ecce verbum Domini, excipite eum, ne discredatis de quibus dicit Dominus:",
-      "citation": "Revelation 16:37 (Clementine Vulgate)"
-    },
-    {
-      "verse": 38,
-      "text": "ecce adpropinquant mala et non tardantur.",
-      "citation": "Revelation 16:38 (Clementine Vulgate)"
-    },
-    {
-      "verse": 39,
-      "text": "quemadmodum praegnans in nono mense filium suum in adpropinquante hora partus eius, ante horas duas vel tres gementes dolores circum ventrem eius, et prodiente infante de ventre non tardabit uno puncto,",
-      "citation": "Revelation 16:39 (Clementine Vulgate)"
-    },
-    {
-      "verse": 40,
-      "text": "sic non morabuntur mala ad prodiendum super terram, et saeculum gemet et dolores circumtenent illum.",
-      "citation": "Revelation 16:40 (Clementine Vulgate)"
-    },
-    {
-      "verse": 41,
-      "text": "audite verbum, plebs mea, parate vos ad pugnam in malis. sic estote quasi advenae terrae:",
-      "citation": "Revelation 16:41 (Clementine Vulgate)"
-    },
-    {
-      "verse": 42,
-      "text": "qui vendit, quasi qui fugiet; et qui emit, quasi qui perditurus;",
-      "citation": "Revelation 16:42 (Clementine Vulgate)"
-    },
-    {
-      "verse": 43,
-      "text": "qui mercatur, quasi qui fructum non capiat; et qui aedificat, quasi non habitaturus;",
-      "citation": "Revelation 16:43 (Clementine Vulgate)"
-    },
-    {
-      "verse": 44,
-      "text": "qui seminat, quasi non messem facturus; et qui putat, quasi non vindemiaturus;",
-      "citation": "Revelation 16:44 (Clementine Vulgate)"
-    },
-    {
-      "verse": 45,
-      "text": "qui nubunt, sic quasi filios non facturi; et qui non nubunt, sic quasi vidui.",
-      "citation": "Revelation 16:45 (Clementine Vulgate)"
-    },
-    {
-      "verse": 46,
-      "text": "propter quod qui laborant sine causa laborant,",
-      "citation": "Revelation 16:46 (Clementine Vulgate)"
-    },
-    {
-      "verse": 47,
-      "text": "fructus enim illorum alienigenae metent et substantiam illorum rapient et domos evertent et filios eorum captivabunt, quia in captivitate et fame generant natos suos",
-      "citation": "Revelation 16:47 (Clementine Vulgate)"
-    },
-    {
-      "verse": 48,
-      "text": "et qui negotiantur negotiantur in rapina. quamdiu exornant civitates et domos suas et possessiones et personas suas,",
-      "citation": "Revelation 16:48 (Clementine Vulgate)"
-    },
-    {
-      "verse": 49,
-      "text": "tanto magis adzelabor eos super peccata dicit Dominus.",
-      "citation": "Revelation 16:49 (Clementine Vulgate)"
-    },
-    {
-      "verse": 50,
-      "text": "quomodo zelatur fornicaria mulierem idoneam et bonam valde,",
-      "citation": "Revelation 16:50 (Clementine Vulgate)"
-    },
-    {
-      "verse": 51,
-      "text": "sic zelabitur iustitia iniquitatem cum exornat se, et accusat eam in faciem, cum venerit qui defendat exquirentem omnem peccatum super terram.",
-      "citation": "Revelation 16:51 (Clementine Vulgate)"
-    },
-    {
-      "verse": 52,
-      "text": "propterea nolite similari eam nec operibus eius,",
-      "citation": "Revelation 16:52 (Clementine Vulgate)"
-    },
-    {
-      "verse": 53,
-      "text": "quoniam ecce adhuc pusillum, et tolletur iniquitas a terra et iustitia regnabit in nos.",
-      "citation": "Revelation 16:53 (Clementine Vulgate)"
-    },
-    {
-      "verse": 54,
-      "text": "non dicat peccator non se peccasse quoniam carbones ignis conburet super caput eius qui dicit: non peccavi coram Deo et gloria ipsius.",
-      "citation": "Revelation 16:54 (Clementine Vulgate)"
-    },
-    {
-      "verse": 55,
-      "text": "ecce Dominus cognoscit omnia opera hominis et adinventiones illorum et cogitatum illorum et corda illorum.",
-      "citation": "Revelation 16:55 (Clementine Vulgate)"
-    },
-    {
-      "verse": 56,
-      "text": "qui dixit: fiat terra, et facta est, fiat caelum, et factum est,",
-      "citation": "Revelation 16:56 (Clementine Vulgate)"
-    },
-    {
-      "verse": 57,
-      "text": "et in verbo illius stellae fundatae sunt, et novit numerum stellarum,",
-      "citation": "Revelation 16:57 (Clementine Vulgate)"
-    },
-    {
-      "verse": 58,
-      "text": "qui scrutat abyssum et thesauros illorum, qui metitus est mare et conceptum eius,",
-      "citation": "Revelation 16:58 (Clementine Vulgate)"
-    },
-    {
-      "verse": 59,
-      "text": "qui conclusit mare in medio aquarum et suspendit terram super aquam verbo suo,",
-      "citation": "Revelation 16:59 (Clementine Vulgate)"
-    },
-    {
-      "verse": 60,
-      "text": "qui extendit caelum quasi cameram et super aquas fundavit eum,",
-      "citation": "Revelation 16:60 (Clementine Vulgate)"
-    },
-    {
-      "verse": 61,
-      "text": "qui posuit in deserto fontes aquarum et super vertices montium lacus ad emittendum flumina ab eminenti ut potaret terra,",
-      "citation": "Revelation 16:61 (Clementine Vulgate)"
-    },
-    {
-      "verse": 62,
-      "text": "qui finxit hominem et posuit cor in medio corporis et misit ei spiritum et vitam et intellectum",
-      "citation": "Revelation 16:62 (Clementine Vulgate)"
-    },
-    {
-      "verse": 63,
-      "text": "et spiramentum Dei omnipotentis, qui fecit omnia et scrutinat absconsa in absconsis; certe",
-      "citation": "Revelation 16:63 (Clementine Vulgate)"
-    },
-    {
-      "verse": 64,
-      "text": "hic novit adinventionem vestram et quae cogitatis in cordibus vestris. vae peccantibus et volentibus occultare peccata sua.",
-      "citation": "Revelation 16:64 (Clementine Vulgate)"
-    },
-    {
-      "verse": 65,
-      "text": "propter quod Dominus scrutinando scrutinabit omnia opera eorum et traducet vos omnes.",
-      "citation": "Revelation 16:65 (Clementine Vulgate)"
-    },
-    {
-      "verse": 66,
-      "text": "et vos confusi eritis, cum processerint peccata vestra coram hominibus, et iniquitates erint quae accusatores stabunt in die illo.",
-      "citation": "Revelation 16:66 (Clementine Vulgate)"
-    },
-    {
-      "verse": 67,
-      "text": "quid facietis aut quomodo abscondetis peccata vestra coram Domino et gloria eius?",
-      "citation": "Revelation 16:67 (Clementine Vulgate)"
-    },
-    {
-      "verse": 68,
-      "text": "ecce iudex Deus, timete eum, et desinite a peccatis vestris et obliviscimini iniquitates vestras iam agere eas sempiterno, et Deus educabit vos et liberabit de omni tribulatione.",
-      "citation": "Revelation 16:68 (Clementine Vulgate)"
-    },
-    {
-      "verse": 69,
-      "text": "ecce enim incenditur ardor super vos turbae copiosae, et rapient quosdam ex vobis et cibabunt idolis occisam.",
-      "citation": "Revelation 16:69 (Clementine Vulgate)"
-    },
-    {
-      "verse": 70,
-      "text": "et qui consenserint eis, erunt illis in derisum et in inproperium et in conculcationem.",
-      "citation": "Revelation 16:70 (Clementine Vulgate)"
-    },
-    {
-      "verse": 71,
-      "text": "erit enim Lociis et in vicinas civitates exsurrectio multa super timentes Dominum.",
-      "citation": "Revelation 16:71 (Clementine Vulgate)"
-    },
-    {
-      "verse": 72,
-      "text": "erunt quasi insani neminem parcentes ad diripiendum et devastandum adhuc timentes Dominum,",
-      "citation": "Revelation 16:72 (Clementine Vulgate)"
-    },
-    {
-      "verse": 73,
-      "text": "quia devastabunt et diripient substantias eorum et de domo sua eos eicient,",
-      "citation": "Revelation 16:73 (Clementine Vulgate)"
-    },
-    {
-      "verse": 74,
-      "text": "tunc parebit probatio electorum meorum, ut aurum quod probatur ab igne.",
-      "citation": "Revelation 16:74 (Clementine Vulgate)"
-    },
-    {
-      "verse": 75,
-      "text": "audite, electi mei, dicit Dominus, ecce adsunt dies tribulationis, et de his liberabo vos.",
-      "citation": "Revelation 16:75 (Clementine Vulgate)"
-    },
-    {
-      "verse": 76,
-      "text": "ne timeatis nec haesitemini, quoniam Deus dux vester est.",
-      "citation": "Revelation 16:76 (Clementine Vulgate)"
-    },
-    {
-      "verse": 77,
-      "text": "et qui servatis mandata et praecepta mea, dicit Dominus Deus, ne praeponderent vos peccata vestra nec superelevent se iniquitates vestrae.",
-      "citation": "Revelation 16:77 (Clementine Vulgate)"
     }
   ]
 }

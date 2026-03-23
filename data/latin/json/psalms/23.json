@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 23 — 12 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 23 — 6 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 23,
-    "verseCount": 12,
+    "verseCount": 6,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 23:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum David Dominus pascit me nihil mihi deerit",
-      "citation": "Psalms 23:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
-      "text": "in loco pascuae %ibi; me conlocavit super aquam refectionis educavit me",
-      "citation": "Psalms 23:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "in pascuis herbarum adclinavit me super aquas refectionis enutrivit me",
+      "text": "in loco pascuae me conlocavit super aquam refectionis educavit me",
       "citation": "Psalms 23:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 23:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "animam meam refecit duxit me per semitas iustitiae propter nomen suum",
-      "citation": "Psalms 23:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "nam et si ambulavero in medio umbrae mortis non timebo mala quoniam tu mecum es virga tua et baculus tuus ipsa me consolata sunt",
-      "citation": "Psalms 23:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "sed et si ambulavero in valle mortis non timebo malum quoniam tu mecum es virga tua et baculus tuus ipsa consolabuntur me",
       "citation": "Psalms 23:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 23:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "pones coram me mensam ex adverso hostium meorum inpinguasti oleo caput meum calix meus inebrians",
-      "citation": "Psalms 23:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "et misericordia tua subsequitur me omnibus diebus vitae meae et ut inhabitem in domo Domini in longitudinem dierum",
-      "citation": "Psalms 23:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "sed et benignitas et misericordia subsequetur me omnibus diebus vitae meae et habitabo in domo Domini in longitudine dierum",
       "citation": "Psalms 23:6 (Clementine Vulgate)"
     }
   ]

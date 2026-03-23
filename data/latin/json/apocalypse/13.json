@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Revelation, Chapter 13 — 58 verses (Clementine Vulgate)",
+    "content": "Revelation, Chapter 13 — 18 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "apocalypse",
       "testament": "NT",
       "order": 73,
-      "totalChapters": 35
+      "totalChapters": 22
     },
     "chapter": 13,
-    "verseCount": 58,
+    "verseCount": 18,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/apocalypse/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,293 +34,93 @@
   "verses": [
     {
       "verse": 1,
-      "text": "et factum est post dies septem, et somniavi somnium nocte.",
+      "text": "et vidi de mare bestiam ascendentem habentem capita septem et cornua decem et super cornua eius decem diademata et super capita eius nomina blasphemiae",
       "citation": "Revelation 13:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "et ecce de mari ventus exsurgebat, ut conturbaret omnes fluctus eius.",
+      "text": "et bestiam quam vidi similis erat pardo et pedes eius sicut ursi et os eius sicut os leonis et dedit illi draco virtutem suam et potestatem magnam",
       "citation": "Revelation 13:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "et vidi, et ecce convolabat ipse homo cum nubibus caeli. et ubi vultum suum convertebat ut consideraret, tremebant omnia quae sub eo videbantur.",
+      "text": "et unum de capitibus suis quasi occisum in mortem et plaga mortis eius curata est et admirata est universa terra post bestiam",
       "citation": "Revelation 13:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "et ubicumque exiebat vox de ore eius, ardescebant omnes qui audiebant voces eius. sicut liquescit cera quando senserit ignem.",
+      "text": "et adoraverunt draconem quia dedit potestatem bestiae et adoraverunt bestiam dicentes quis similis bestiae et quis poterit pugnare cum ea",
       "citation": "Revelation 13:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "et vidi post haec, et ecce congregabatur multitudo hominum, quorum non erat numerus, de quattuor ventis caeli, ut debellarent hominem qui ascenderat de mari.",
+      "text": "et datum est ei os loquens magna et blasphemiae et data est illi potestas facere menses quadraginta duo",
       "citation": "Revelation 13:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "et vidi, et ecce sibimet ipso sculpsit montem magnum et volavit super eum.",
+      "text": "et aperuit os suum in blasphemias ad Deum blasphemare nomen eius et tabernaculum eius et eos qui in caelo habitant",
       "citation": "Revelation 13:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "ego autem quaesivi videre regionem vel locum, unde sculptus esset mons, et non potui.",
+      "text": "et datum est illi bellum facere cum sanctis et vincere illos et data est ei potestas in omnem tribum et populum et linguam et gentem",
       "citation": "Revelation 13:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "et post haec vidi, et ecce omnes, qui congregati sunt ad eum ut expugnarent eum, timebant valde, tamen audebant pugnare.",
+      "text": "et adorabunt eum omnes qui inhabitant terram quorum non sunt scripta nomina in libro vitae agni qui occisus est ab origine mundi",
       "citation": "Revelation 13:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "et ecce ut vidit impetum multitudinis venientis, non levavit manum suam neque frameam tenebat neque aliquod vas bellicosum, nisi solummodo vidi,",
+      "text": "si quis habet aurem audiat",
       "citation": "Revelation 13:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "quomodo emittit de ore suo sicut fluctum ignis, et de labiis eius spiritum flammae, et de lingua eius emittebat scintillas tempestatis. et commixta sunt simul omnia haec, fluctus et multitudo tempestat",
+      "text": "qui in captivitatem in captivitatem vadit qui in gladio occiderit oportet eum gladio occidi hic est patientia et fides sanctorum",
       "citation": "Revelation 13:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "et concidit super multitudinis impetum quod paratum erat pugnare, et succendit omnes, ut subito nihil videretur de innumerabili multitudine nisi solummodo pulvis cineris et fumi odor. et vidi et extiti.",
+      "text": "et vidi aliam bestiam ascendentem de terra et habebat cornua duo similia agni et loquebatur sicut draco",
       "citation": "Revelation 13:11 (Clementine Vulgate)"
     },
     {
       "verse": 12,
-      "text": "et post haec vidi ipsum hominem descendentem de monte et advocantem ad se multitudinem aliam pacificam.",
+      "text": "et potestatem prioris bestiae omnem faciebat in conspectu eius et facit terram et inhabitantes in eam adorare bestiam primam cuius curata est plaga mortis",
       "citation": "Revelation 13:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
-      "text": "et accedebant ad eum vultus hominum multorum, quorumdam gaudentium, quorumdam tristantium, aliqui vero alligati, aliqui adducentes ex eis qui offerebantur. et ego a multitudine pavoris expergefactus sum et deprecatus sum Altissimum et dixi:",
+      "text": "et fecit signa magna ut etiam ignem faceret de caelo descendere in terram in conspectu hominum",
       "citation": "Revelation 13:13 (Clementine Vulgate)"
     },
     {
       "verse": 14,
-      "text": "tu ab initio demonstrasti servo tuo mirabilia haec et dignum me habuisti, ut susciperes deprecationem meam.",
+      "text": "et seducit habitantes terram propter signa quae data sunt illi facere in conspectu bestiae dicens habitantibus in terra ut faciant imaginem bestiae quae habet plagam gladii et vixit",
       "citation": "Revelation 13:14 (Clementine Vulgate)"
     },
     {
       "verse": 15,
-      "text": "et nunc demonstra mihi adhuc et interpretationem somnii huius.",
+      "text": "et datum est illi ut daret spiritum imagini bestiae ut et loquatur imago bestiae et faciat quicumque non adoraverint imaginem bestiae occidantur",
       "citation": "Revelation 13:15 (Clementine Vulgate)"
     },
     {
       "verse": 16,
-      "text": "sicut enim existimo in sensu meo, vae qui derelicti fuerint in diebus illis, et multo plus vae his qui non sunt derelicti.",
+      "text": "et faciet omnes pusillos et magnos et divites et pauperes et liberos et servos habere caracter in dextera manu aut in frontibus suis",
       "citation": "Revelation 13:16 (Clementine Vulgate)"
     },
     {
       "verse": 17,
-      "text": "qui enim non sunt derelicti, tristes erunt",
+      "text": "et ne quis possit emere aut vendere nisi qui habet caracter nomen bestiae aut numerum nominis eius",
       "citation": "Revelation 13:17 (Clementine Vulgate)"
     },
     {
       "verse": 18,
-      "text": "intellegentes quae sunt reposita in novissimis diebus, et non occurrentes eis. sed et qui derelicti sunt",
+      "text": "hic sapientia est qui habet intellectum conputet numerum bestiae numerus enim hominis est et numerus eius est sescenti sexaginta sex",
       "citation": "Revelation 13:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 19,
-      "text": "propter hoc vae, viderunt enim pericula magna et necessitates multas, sicut ostendunt somnia haec.",
-      "citation": "Revelation 13:19 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "attamen facilius est periclitantem venire in haec, quam pertransire sicut nubem a saeculo et non videre quae contigerunt in novissimo. et respondit ad me et dixit:",
-      "citation": "Revelation 13:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 21,
-      "text": "et visionis interpretationem dicam tibi, sed et de quibus locutus es adaperiam tibi.",
-      "citation": "Revelation 13:21 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "quoniam dixisti de his qui derelicti sunt, et de his qui non derelicti sunt haec interpretatio:",
-      "citation": "Revelation 13:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "qui adferet periculum in illo tempore, ipse custodibit qui in periculo inciderint, qui habent operas et fidem ad Fortissimum.",
-      "citation": "Revelation 13:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "scito ergo, quoniam magis beatificati sunt qui derelicti super eos qui mortui sunt.",
-      "citation": "Revelation 13:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 25,
-      "text": "interpretatio enim visionis haec: quia vidisti virum ascendentem de corde maris,",
-      "citation": "Revelation 13:25 (Clementine Vulgate)"
-    },
-    {
-      "verse": 26,
-      "text": "ipse est quem conservat Altissimus multis temporibus, qui per semet ipsum liberabit creaturam suam, et ipse disponet qui derelicti sunt.",
-      "citation": "Revelation 13:26 (Clementine Vulgate)"
-    },
-    {
-      "verse": 27,
-      "text": "et quoniam vidisti de ore eius exire ut spiritum et ignem et tempestatem,",
-      "citation": "Revelation 13:27 (Clementine Vulgate)"
-    },
-    {
-      "verse": 28,
-      "text": "et quoniam non tenebat frameam neque vas bellicosum, corrumpit enim impetum eius multitudinis quae venerat ad expugnare eum, haec interpretatio:",
-      "citation": "Revelation 13:28 (Clementine Vulgate)"
-    },
-    {
-      "verse": 29,
-      "text": "ecce dies veniunt, quando incipiet Altissimus liberare eos qui super terram sunt.",
-      "citation": "Revelation 13:29 (Clementine Vulgate)"
-    },
-    {
-      "verse": 30,
-      "text": "et veniet excessus mentis super eos qui inhabitant terram.",
-      "citation": "Revelation 13:30 (Clementine Vulgate)"
-    },
-    {
-      "verse": 31,
-      "text": "et in alisalio cogitabunt bellare, civitates civitatem et locus locum et gens ad gentem et regnum adversus regnum.",
-      "citation": "Revelation 13:31 (Clementine Vulgate)"
-    },
-    {
-      "verse": 32,
-      "text": "et erit cum fient haec et contingent signa quae ante ostendi tibi, et tunc revelabitur Filius meus quem vidisti virum ascendentem.",
-      "citation": "Revelation 13:32 (Clementine Vulgate)"
-    },
-    {
-      "verse": 33,
-      "text": "et erit quando audierint omnes gentes vocem eius, et derelinquet unusquisque regionem suam et bellum quod habent in alterutro,",
-      "citation": "Revelation 13:33 (Clementine Vulgate)"
-    },
-    {
-      "verse": 34,
-      "text": "et colligetur in unum multitudo innumerabilis, sicut vidisti volentes venire et expugnare eum.",
-      "citation": "Revelation 13:34 (Clementine Vulgate)"
-    },
-    {
-      "verse": 35,
-      "text": "ipse autem stabit super cacumen montis Sion.",
-      "citation": "Revelation 13:35 (Clementine Vulgate)"
-    },
-    {
-      "verse": 36,
-      "text": "Sion autem veniet et ostendetur omnibus parata et aedificata, sicut vidisti montem sculpi sine manibus.",
-      "citation": "Revelation 13:36 (Clementine Vulgate)"
-    },
-    {
-      "verse": 37,
-      "text": "ipse autem Filius meus arguet quae advenerunt gentes impietates eorum, has quae tempestati adpropiaverunt, et inproperabit coram eis mala cogitamenta eorum et cruciamenta quibus incipient cruciari,",
-      "citation": "Revelation 13:37 (Clementine Vulgate)"
-    },
-    {
-      "verse": 38,
-      "text": "quae adsimilatae sunt flammae, et perdet eos sine labore et legem quae igni adsimilata est.",
-      "citation": "Revelation 13:38 (Clementine Vulgate)"
-    },
-    {
-      "verse": 39,
-      "text": "et quoniam vidisti eum colligentem ad se aliam multitudinem pacificam,",
-      "citation": "Revelation 13:39 (Clementine Vulgate)"
-    },
-    {
-      "verse": 40,
-      "text": "haec sunt novem tribus, quae captivae factae sunt de terra sua in diebus Iosiae regis, quem captivum duxit Salmanassar rex Assyriorum, et transtulit eos trans Flumen, et translati sunt in terram aliam.",
-      "citation": "Revelation 13:40 (Clementine Vulgate)"
-    },
-    {
-      "verse": 41,
-      "text": "ipsi autem sibi dederunt consilium hoc, ut derelinquerent multitudinem gentium, et proficiscerentur in ulteriorem regionem, ubi numquam quisquam inhabitavit ibi genus humanum.",
-      "citation": "Revelation 13:41 (Clementine Vulgate)"
-    },
-    {
-      "verse": 42,
-      "text": "ut vel ibi observarent legitima sua, quae non fuerant servantes in regione sua.",
-      "citation": "Revelation 13:42 (Clementine Vulgate)"
-    },
-    {
-      "verse": 43,
-      "text": "per introitus autem angustos fluminis Eufraten introierunt.",
-      "citation": "Revelation 13:43 (Clementine Vulgate)"
-    },
-    {
-      "verse": 44,
-      "text": "fecit enim eis tunc Altissimus signa, et statuit venas Fluminis usquequo transirent.",
-      "citation": "Revelation 13:44 (Clementine Vulgate)"
-    },
-    {
-      "verse": 45,
-      "text": "per eam enim regionem erat via multa itineris anni unius et dimidii, nam regio illa vocatur Arzar et,",
-      "citation": "Revelation 13:45 (Clementine Vulgate)"
-    },
-    {
-      "verse": 46,
-      "text": "tunc inhabitaverunt ibi usque in novissimo tempore. et nunc iterum coeperunt venire,",
-      "citation": "Revelation 13:46 (Clementine Vulgate)"
-    },
-    {
-      "verse": 47,
-      "text": "iterum Altissimus statuit venas Fluminis, ut possint transire, propter hoc vidisti multitudinem collectam cum pace,",
-      "citation": "Revelation 13:47 (Clementine Vulgate)"
-    },
-    {
-      "verse": 48,
-      "text": "sed et qui derelicti sunt de populo tuo, qui invenientur intra terminum meum",
-      "citation": "Revelation 13:48 (Clementine Vulgate)"
-    },
-    {
-      "verse": 49,
-      "text": "sanctum. erit ergo quando incipiet perdere multitudinem earum quae collectae sunt gentes, proteget qui superaverit populum.",
-      "citation": "Revelation 13:49 (Clementine Vulgate)"
-    },
-    {
-      "verse": 50,
-      "text": "et tunc ostendet eis multa plurima portenta.",
-      "citation": "Revelation 13:50 (Clementine Vulgate)"
-    },
-    {
-      "verse": 51,
-      "text": "et dixi ego: Dominator Domine, hoc mihi ostende, propter quod vidi virum ascendentem de corde maris. et dixit mihi:",
-      "citation": "Revelation 13:51 (Clementine Vulgate)"
-    },
-    {
-      "verse": 52,
-      "text": "sicut non potest hoc vel scrutinare vel scire quis, quid sit in profundo maris, sic non poterit quisquam super terram videre Filium meum vel eos qui cum eo sunt nisi in tempore diei.",
-      "citation": "Revelation 13:52 (Clementine Vulgate)"
-    },
-    {
-      "verse": 53,
-      "text": "haec est interpretatio somnii quem vidisti, et propter quod inluminatus es haec solus.",
-      "citation": "Revelation 13:53 (Clementine Vulgate)"
-    },
-    {
-      "verse": 54,
-      "text": "dereliquisti enim tua et circa mea vacasti et legem meam exquisisti.",
-      "citation": "Revelation 13:54 (Clementine Vulgate)"
-    },
-    {
-      "verse": 55,
-      "text": "vitam enim tuam disposuisti in sapientiam, et sensum tuum vocasti matrem.",
-      "citation": "Revelation 13:55 (Clementine Vulgate)"
-    },
-    {
-      "verse": 56,
-      "text": "et propter hoc ostendi tibi haec, merces apud Altissimum. erit enim post alios tres dies, ad te alia loquar et exponam tibi gravia et mirabilia.",
-      "citation": "Revelation 13:56 (Clementine Vulgate)"
-    },
-    {
-      "verse": 57,
-      "text": "et profectus sum et transii in campum, multum glorificans et laudans Altissimum de mirabilibus, quae per tempus faciebat,",
-      "citation": "Revelation 13:57 (Clementine Vulgate)"
-    },
-    {
-      "verse": 58,
-      "text": "et quoniam gubernat tempora et quae sunt in temporibus inlata. et sedi ibi tribus diebus.",
-      "citation": "Revelation 13:58 (Clementine Vulgate)"
     }
   ]
 }

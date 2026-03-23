@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Joshua — 19 chapters (Clementine Vulgate)",
+    "content": "Joshua — 24 chapters (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,7 +15,7 @@
       "slug": "josue",
       "testament": "OT",
       "order": 6,
-      "totalChapters": 19
+      "totalChapters": 24
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/josue/index.json",
@@ -133,9 +133,39 @@
     },
     {
       "chapter": 19,
-      "verseCount": 17,
+      "verseCount": 51,
       "url": "https://latinprayer.org/latin/josue/19",
       "jsonUrl": "https://latinprayer.org/latin/josue/19.json"
+    },
+    {
+      "chapter": 20,
+      "verseCount": 9,
+      "url": "https://latinprayer.org/latin/josue/20",
+      "jsonUrl": "https://latinprayer.org/latin/josue/20.json"
+    },
+    {
+      "chapter": 21,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/latin/josue/21",
+      "jsonUrl": "https://latinprayer.org/latin/josue/21.json"
+    },
+    {
+      "chapter": 22,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/josue/22",
+      "jsonUrl": "https://latinprayer.org/latin/josue/22.json"
+    },
+    {
+      "chapter": 23,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/latin/josue/23",
+      "jsonUrl": "https://latinprayer.org/latin/josue/23.json"
+    },
+    {
+      "chapter": 24,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/latin/josue/24",
+      "jsonUrl": "https://latinprayer.org/latin/josue/24.json"
     }
   ]
 }

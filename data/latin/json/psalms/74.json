@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 74 — 48 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 74 — 24 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 74,
-    "verseCount": 48,
+    "verseCount": 24,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 74:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "eruditionis Asaph ut quid Deus reppulisti in finem fumavit furor tuus in gregem pascuae tuae",
-      "citation": "Psalms 74:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori ut non disperdas psalmus Asaph cantici",
-      "citation": "Psalms 74:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "memor esto congregationis tuae quam possedisti ab initio redemisti virgam hereditatis tuae mons Sion in quo habitasti in eo",
-      "citation": "Psalms 74:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "recordare congregationis tuae quam possedisti ab initio et redemisti virgam hereditatis tuae montis Sion in quo habitasti",
       "citation": "Psalms 74:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 74:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "sublimitas pedum tuorum dissipata est usque ad finem omnia mala egit inimicus in sanctuario",
-      "citation": "Psalms 74:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "et gloriati sunt qui oderunt te in medio sollemnitatis tuae posuerunt signa sua signa",
-      "citation": "Psalms 74:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "fremuerunt hostes tui in medio pacti tui posuerunt signa sua in tropeum",
       "citation": "Psalms 74:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 74:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "manifesta in introitu desuper in saltu lignorum secures",
-      "citation": "Psalms 74:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
-      "text": "exciderunt ianuas eius in id ipsum in securi et ascia deiecerunt %eam;",
-      "citation": "Psalms 74:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "et nunc scalpturas eius pariter bipinne et dolatoriis deraserunt",
+      "text": "exciderunt ianuas eius in id ipsum in securi et ascia deiecerunt",
       "citation": "Psalms 74:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 74:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "miserunt ignem in sanctuarium tuum in terram contaminaverunt habitaculum nominis tui",
-      "citation": "Psalms 74:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "dixerunt in corde suo cognatio eorum simul quiescere faciamus omnes dies festos Dei a terra",
-      "citation": "Psalms 74:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "dixerunt in cordibus suis posteri eorum simul incenderunt omnes sollemnitates Dei in terra",
       "citation": "Psalms 74:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 74:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "signa nostra non vidimus non est ultra propheta et non est nobiscum qui sciat usquequo",
-      "citation": "Psalms 74:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "usquequo Deus inproperabit inimicus inritat adversarius nomen tuum in finem",
-      "citation": "Psalms 74:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "usquequo Deus exprobrabit adversarius blasphemabit inimicus nomen tuum in finem",
       "citation": "Psalms 74:10 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 74:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "quare convertis manum tuam et dexteram tuam ad medium sinum tuum consume",
-      "citation": "Psalms 74:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "Deus autem rex noster ante saeculum operatus est salutes in medio terrae",
-      "citation": "Psalms 74:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "Deus autem rex meus ab initio operatur salutes in medio terrae",
       "citation": "Psalms 74:12 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 74:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "tu dissipasti in fortitudine tua mare contrivisti capita draconum in aquis",
-      "citation": "Psalms 74:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "tu confregisti capita draconis dedisti eum escam populis Aethiopum",
-      "citation": "Psalms 74:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "tu confregisti capita Leviathan dedisti eum in escam populo Aethiopum",
       "citation": "Psalms 74:14 (Clementine Vulgate)"
     },
     {
@@ -188,18 +113,8 @@
       "citation": "Psalms 74:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "tu disrupisti fontem et torrentem tu exsiccasti flumina fortia",
-      "citation": "Psalms 74:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "tuus est dies et tua est nox tu fabricatus es auroram et solem",
-      "citation": "Psalms 74:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "tua est dies et tua est nox tu ordinasti luminaria et solem",
       "citation": "Psalms 74:16 (Clementine Vulgate)"
     },
     {
@@ -208,18 +123,8 @@
       "citation": "Psalms 74:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "tu statuisti omnes terminos terrae aestatem et hiemem tu plasmasti",
-      "citation": "Psalms 74:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "memor esto huius inimicus inproperavit Dominum et populus insipiens incitavit nomen tuum",
-      "citation": "Psalms 74:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "memento huius inimicus exprobravit Domino et populus insipiens blasphemavit nomen tuum",
       "citation": "Psalms 74:18 (Clementine Vulgate)"
     },
     {
@@ -228,18 +133,8 @@
       "citation": "Psalms 74:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "ne tradas bestiis animam eruditam lege tua vitae pauperum tuorum ne obliviscaris in perpetuum",
-      "citation": "Psalms 74:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "respice in testamentum tuum quia repleti sunt qui obscurati sunt terrae domibus iniquitatum",
-      "citation": "Psalms 74:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "respice ad pactum quia repletae sunt tenebris terrae habitationes iniquae subrutae",
       "citation": "Psalms 74:20 (Clementine Vulgate)"
     },
     {
@@ -248,28 +143,13 @@
       "citation": "Psalms 74:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "ne revertatur confractus et confusus egenus et pauper laudabunt nomen tuum",
-      "citation": "Psalms 74:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "exsurge Deus iudica causam tuam memor esto inproperiorum tuorum eorum qui ab insipiente sunt tota die",
       "citation": "Psalms 74:22 (Clementine Vulgate)"
     },
     {
-      "verse": 22,
-      "text": "surge Deus iudica causam tuam memento obprobrii tui ab insipiente tota die",
-      "citation": "Psalms 74:22 (Clementine Vulgate)"
-    },
-    {
       "verse": 23,
       "text": "ne obliviscaris voces inimicorum tuorum superbia eorum qui te oderunt ascendit semper",
-      "citation": "Psalms 74:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "ne obliviscaris vocis hostium tuorum sonitus adversariorum tuorum ascendit iugiter",
       "citation": "Psalms 74:23 (Clementine Vulgate)"
     }
   ]

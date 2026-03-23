@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 43 — 12 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 43 — 6 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 43,
-    "verseCount": 12,
+    "verseCount": 6,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 43:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "iudica me Deus et discerne causam meam a gente non sancta a viro doloso et iniquo salva me",
-      "citation": "Psalms 43:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "pro victoria filiorum Core eruditionis",
-      "citation": "Psalms 43:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "quia tu es Deus fortitudo mea quare me reppulisti quare tristis incedo dum adfligit me inimicus",
-      "citation": "Psalms 43:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "tu enim Deus fortitudo mea quare proiecisti me quare tristis incedo adfligente inimico",
       "citation": "Psalms 43:2 (Clementine Vulgate)"
     },
     {
@@ -68,28 +53,13 @@
       "citation": "Psalms 43:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "mitte lucem tuam et veritatem tuam ipsae ducent me et introducent ad montem sanctum tuum et ad tabernaculum tuum",
-      "citation": "Psalms 43:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "et introibo ad altare Dei ad Deum qui laetificat iuventutem meam confitebor tibi in cithara Deus Deus meus",
       "citation": "Psalms 43:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "et introibo ad altare tuum ad Deum laetitiae et exultationis meae et confitebor tibi in cithara Deus Deus meus",
-      "citation": "Psalms 43:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "quare tristis es anima mea et quare conturbas me spera in Deum quoniam *adhuc; confitebor illi salutare vultus mei *et; Deus meus",
-      "citation": "Psalms 43:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "quare incurvaris anima mea et quare conturbas me expecta Dominum quoniam adhuc confitebor ei salutibus vultus mei et Deo meo",
       "citation": "Psalms 43:5 (Clementine Vulgate)"
     }
   ]

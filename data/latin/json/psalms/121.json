@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 121 — 16 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 121 — 8 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 121,
-    "verseCount": 16,
+    "verseCount": 8,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 121:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum levavi oculos meos in montes unde veniet auxilium meum",
-      "citation": "Psalms 121:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "auxilium meum a Domino qui fecit caelum et terram",
-      "citation": "Psalms 121:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "auxilium meum a Domino factore caeli et terrae",
       "citation": "Psalms 121:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 121:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "non det in commotionem pedem tuum nec dormitet qui custodit te",
-      "citation": "Psalms 121:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "ecce non dormitabit neque dormiet qui custodit Israhel",
-      "citation": "Psalms 121:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "ecce non dormitabit neque dormiet qui custodiet Israhel",
       "citation": "Psalms 121:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 121:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "Dominus custodiet te Dominus protectio tua super manum dexteram tuam",
-      "citation": "Psalms 121:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "per diem sol non uret te neque luna per noctem",
-      "citation": "Psalms 121:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "per diem sol non percutiet te neque luna per noctem",
       "citation": "Psalms 121:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 121:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "Dominus custodiet te ab omni malo custodiat animam tuam",
-      "citation": "Psalms 121:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "Dominus custodiat introitum tuum et exitum tuum ex hoc nunc et usque in saeculum",
-      "citation": "Psalms 121:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "Dominus custodiat exitum tuum et introitum tuum amodo et usque in aeternum",
       "citation": "Psalms 121:8 (Clementine Vulgate)"
     }
   ]

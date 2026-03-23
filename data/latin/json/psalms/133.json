@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 133 — 6 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 133 — 3 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 133,
-    "verseCount": 6,
+    "verseCount": 3,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,28 +38,13 @@
       "citation": "Psalms 133:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum David ecce quam bonum et quam decorum habitare fratres in uno",
-      "citation": "Psalms 133:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "sicut unguentum in capite quod descendit in barbam barbam Aaron quod descendit in ora vestimenti eius",
       "citation": "Psalms 133:2 (Clementine Vulgate)"
     },
     {
-      "verse": 2,
-      "text": "sicut unguentum optimum in capite quod descendit in barbam barbam Aaron quod descendit super oram vestimentorum eius",
-      "citation": "Psalms 133:2 (Clementine Vulgate)"
-    },
-    {
       "verse": 3,
       "text": "sicut ros Hermon qui descendit in montes Sion quoniam illic mandavit Dominus benedictionem et vitam usque in saeculum",
-      "citation": "Psalms 133:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "sicut ros Hermon qui descendit super montana Sion quoniam ibi mandavit Dominus benedictionem vitam usque in aeternum",
       "citation": "Psalms 133:3 (Clementine Vulgate)"
     }
   ]

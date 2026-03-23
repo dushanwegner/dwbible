@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 80 — 40 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 80 — 20 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 80,
-    "verseCount": 40,
+    "verseCount": 20,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,29 +43,9 @@
       "citation": "Psalms 80:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "qui pascis Israhel ausculta qui ducis quasi gregem Ioseph qui sedes super cherubin ostendere",
-      "citation": "Psalms 80:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori in torcularibus Asaph",
-      "citation": "Psalms 80:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "coram Effraim et Beniamin et Manasse excita potentiam tuam et veni ut salvos facias nos",
       "citation": "Psalms 80:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "ante Efraim et Beniamin et Manasse suscita fortitudinem tuam et veni ut salvos facias nos",
-      "citation": "Psalms 80:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "Deus converte nos et ostende faciem tuam et salvi erimus",
-      "citation": "Psalms 80:3 (Clementine Vulgate)"
     },
     {
       "verse": 3,
@@ -78,18 +58,8 @@
       "citation": "Psalms 80:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "Domine Deus exercituum usquequo fumabis ad orationem populi tui",
-      "citation": "Psalms 80:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "cibabis nos pane lacrimarum et potum dabis nobis in lacrimis in mensura",
-      "citation": "Psalms 80:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "cibasti nos pane flebili et potasti nos in lacrimis tripliciter",
       "citation": "Psalms 80:5 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 80:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "posuisti nos contentionem vicinis nostris et inimici nostri subsannaverunt nos",
-      "citation": "Psalms 80:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "Deus virtutum converte nos et ostende faciem tuam et salvi erimus",
-      "citation": "Psalms 80:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "Deus exercituum converte nos et ostende faciem tuam et salvi erimus",
       "citation": "Psalms 80:7 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 80:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "vineam de Aegypto tulisti eiecisti gentes et plantasti eam",
-      "citation": "Psalms 80:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "dux itineris fuisti in conspectu eius et plantasti radices eius et implevit terram",
-      "citation": "Psalms 80:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "praeparasti ante faciem eius et stabilisti radices eius et implevit terram",
       "citation": "Psalms 80:9 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 80:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "operti sunt montes umbra eius et ramis illius cedri Dei",
-      "citation": "Psalms 80:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "extendit palmites suos usque ad mare et usque ad Flumen propagines eius",
-      "citation": "Psalms 80:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "expandit comas suas usque ad mare et usque ad Flumen germina sua",
       "citation": "Psalms 80:11 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 80:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "quare dissipasti maceriam eius et vindemiaverunt eam omnes qui transeunt per viam",
-      "citation": "Psalms 80:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "exterminavit eam aper de silva et singularis ferus depastus est eam",
-      "citation": "Psalms 80:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "vastavit eam aper de silva et omnes bestiae agri depastae sunt eam",
       "citation": "Psalms 80:13 (Clementine Vulgate)"
     },
     {
@@ -178,34 +108,14 @@
       "citation": "Psalms 80:14 (Clementine Vulgate)"
     },
     {
-      "verse": 14,
-      "text": "Deus exercituum revertere obsecro respice de caelo et vide et visita vineam hanc",
-      "citation": "Psalms 80:14 (Clementine Vulgate)"
-    },
-    {
       "verse": 15,
       "text": "et perfice eam quam plantavit dextera tua et super filium quem confirmasti tibi",
-      "citation": "Psalms 80:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "et radicem quam plantavit dextera tua et filium quem confirmasti tibi",
       "citation": "Psalms 80:15 (Clementine Vulgate)"
     },
     {
       "verse": 16,
       "text": "incensa igni et suffossa ab increpatione vultus tui peribunt",
       "citation": "Psalms 80:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "succensam igni et deramatam ab increpatione faciei tuae pereant",
-      "citation": "Psalms 80:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 17,
-      "text": "fiat manus tua super virum dexterae tuae et super filium hominis quem confirmasti tibi",
-      "citation": "Psalms 80:17 (Clementine Vulgate)"
     },
     {
       "verse": 17,
@@ -218,18 +128,8 @@
       "citation": "Psalms 80:18 (Clementine Vulgate)"
     },
     {
-      "verse": 18,
-      "text": "et non recedemus a te vivificabis nos et nomine tuo vocabimur",
-      "citation": "Psalms 80:18 (Clementine Vulgate)"
-    },
-    {
       "verse": 19,
       "text": "Domine Deus virtutum converte nos et ostende faciem tuam et salvi erimus",
-      "citation": "Psalms 80:19 (Clementine Vulgate)"
-    },
-    {
-      "verse": 19,
-      "text": "Domine Deus exercituum converte nos et ostende faciem tuam et salvi erimus",
       "citation": "Psalms 80:19 (Clementine Vulgate)"
     }
   ]

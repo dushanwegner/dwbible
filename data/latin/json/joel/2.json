@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Joel, Chapter 2 — 43 verses (Clementine Vulgate)",
+    "content": "Joel, Chapter 2 — 27 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "joel",
       "testament": "OT",
       "order": 34,
-      "totalChapters": 9
+      "totalChapters": 4
     },
     "chapter": 2,
-    "verseCount": 43,
+    "verseCount": 27,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/joel/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Joel 2:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "haec dicit Dominus super tribus sceleribus Moab et super quattuor non convertam eum eo quod incenderit ossa regis Idumeae usque ad cinerem",
-      "citation": "Joel 2:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "dies tenebrarum et caliginis dies nubis et turbinis quasi mane expansum super montes populus multus et fortis similis ei non fuit a principio et post eum non erit usque in annos generationis et generationis",
-      "citation": "Joel 2:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "et mittam ignem in Moab et devorabit aedes Carioth et morietur in sonitu Moab in clangore tubae",
       "citation": "Joel 2:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Joel 2:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "et disperdam iudicem de medio eius et omnes principes eius interficiam cum eo dicit Dominus",
-      "citation": "Joel 2:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "quasi aspectus equorum aspectus eorum et quasi equites sic current",
-      "citation": "Joel 2:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "haec dicit Dominus super tribus sceleribus Iuda et super quattuor non convertam eum eo quod abiecerint legem Domini et mandata eius non custodierint deceperunt enim eos idola sua post quae abierant patres eorum",
       "citation": "Joel 2:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Joel 2:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "et mittam ignem in Iuda et devorabit aedes Hierusalem",
-      "citation": "Joel 2:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "a facie eius cruciabuntur populi omnes vultus redigentur in ollam",
-      "citation": "Joel 2:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "haec dicit Dominus super tribus sceleribus Israhel et super quattuor non convertam eum pro eo quod vendiderit argento iustum et pauperem pro calciamentis",
       "citation": "Joel 2:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Joel 2:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "qui conterunt super pulverem terrae capita pauperum et viam humilium declinant et filius ac pater eius ierunt ad puellam ut violarent nomen sanctum meum",
-      "citation": "Joel 2:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "unusquisque fratrem suum non coartabit singuli in calle suo ambulabunt sed et per fenestras cadent et non demolientur",
-      "citation": "Joel 2:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "et super vestimentis pigneratis accubuerunt iuxta omne altare et vinum damnatorum bibebant in domo Dei sui",
       "citation": "Joel 2:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Joel 2:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "ego autem exterminavi Amorreum a facie eorum cuius altitudo cedrorum altitudo eius et fortis ipse quasi quercus et contrivi fructum eius desuper et radices eius subter",
-      "citation": "Joel 2:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "a facie eius contremuit terra moti sunt caeli sol et luna obtenebrati sunt et stellae retraxerunt splendorem suum",
-      "citation": "Joel 2:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "ego sum qui ascendere vos feci de terra Aegypti et eduxi vos in deserto quadraginta annis ut possideretis terram Amorrei",
       "citation": "Joel 2:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Joel 2:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "et suscitavi de filiis vestris in prophetas et de iuvenibus vestris nazarenos numquid non ita est filii Israhel dicit Dominus",
-      "citation": "Joel 2:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "nunc ergo dicit Dominus convertimini ad me in toto corde vestro in ieiunio et in fletu et in planctu",
-      "citation": "Joel 2:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "et propinabatis nazarenis vino et prophetis mandabatis dicentes ne prophetetis",
       "citation": "Joel 2:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Joel 2:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "ecce ego stridebo super vos sicut stridet plaustrum onustum faeno",
-      "citation": "Joel 2:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "quis scit si convertatur et ignoscat et relinquat post se benedictionem sacrificium et libamen Domino Deo nostro",
-      "citation": "Joel 2:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "et peribit fuga a veloce et fortis non obtinebit virtutem suam et robustus non salvabit animam suam",
       "citation": "Joel 2:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Joel 2:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "et tenens arcum non stabit et velox pedibus suis non salvabitur et ascensor equi non salvabit animam suam",
-      "citation": "Joel 2:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "congregate populum sanctificate ecclesiam coadunate senes congregate parvulos et sugentes ubera egrediatur sponsus de cubili suo et sponsa de thalamo suo",
-      "citation": "Joel 2:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "et robustus corde inter fortes nudus fugiet in die illa dicit Dominus",
       "citation": "Joel 2:16 (Clementine Vulgate)"
     },
     {

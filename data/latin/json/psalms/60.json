@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 60 — 28 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 60 — 14 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 60,
-    "verseCount": 28,
+    "verseCount": 14,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -48,28 +48,8 @@
       "citation": "Psalms 60:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "victori pro liliis testimonium humilis et perfecti David ad docendum",
-      "citation": "Psalms 60:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "Deus proiecisti nos et scidisti iratus convertisti nos",
-      "citation": "Psalms 60:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori in psalmis David",
-      "citation": "Psalms 60:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "commovisti terram et turbasti eam sana contritiones eius quia commota est",
-      "citation": "Psalms 60:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "commovisti terram et disrupisti eam sana contritiones eius quoniam commota est",
       "citation": "Psalms 60:2 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 60:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "ostendisti populo tuo duritiam potasti nos vino consopiente",
-      "citation": "Psalms 60:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "dedisti metuentibus te significationem ut fugiant a facie arcus diapsalma ut liberentur dilecti tui",
-      "citation": "Psalms 60:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "dedisti timentibus te signum ut fugerent a facie arcus semper ut liberentur amici tui",
       "citation": "Psalms 60:4 (Clementine Vulgate)"
     },
     {
@@ -98,28 +68,13 @@
       "citation": "Psalms 60:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "salva dextera tua et exaudi me",
-      "citation": "Psalms 60:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "Deus locutus est in sancto suo laetabor et partibor Sicima et convallem tabernaculorum metibor",
       "citation": "Psalms 60:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "Deus locutus est in sanctuario suo laetabor dividam Sicimam et vallem Soccoth dimetiar",
-      "citation": "Psalms 60:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
-      "text": "meus est Galaad et meus %est; Manasses et Effraim fortitudo capitis mei Iuda rex meus",
-      "citation": "Psalms 60:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "meus est Galaad et meus Manasse et Efraim fortitudo capitis mei Iudas legifer meus",
+      "text": "meus est Galaad et meus Manasses et Effraim fortitudo capitis mei Iuda rex meus",
       "citation": "Psalms 60:7 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 60:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "Moab olla lavacri mei super Idumeam incedam calciamento meo mihi Palestina foederata est",
-      "citation": "Psalms 60:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "quis deducet me in civitatem munitam quis deducet me usque in Idumeam",
-      "citation": "Psalms 60:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "quis deducet me ad civitatem munitam quis deducet me usque ad Idumeam",
       "citation": "Psalms 60:9 (Clementine Vulgate)"
     },
     {
@@ -148,28 +93,13 @@
       "citation": "Psalms 60:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "nonne tu Deus qui proiecisti nos et non egredieris Deus in exercitibus nostris",
-      "citation": "Psalms 60:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "da nobis auxilium de tribulatione et vana salus hominis",
       "citation": "Psalms 60:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "da nobis auxilium in tribulatione vana est enim salus ab homine",
-      "citation": "Psalms 60:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "in Deo faciemus virtutem et ipse ad nihilum deducet tribulantes nos",
-      "citation": "Psalms 60:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "in Deo faciemus virtutem et ipse conculcabit tribulantes nos",
       "citation": "Psalms 60:12 (Clementine Vulgate)"
     }
   ]

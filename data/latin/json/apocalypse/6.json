@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Revelation, Chapter 6 — 59 verses (Clementine Vulgate)",
+    "content": "Revelation, Chapter 6 — 17 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "apocalypse",
       "testament": "NT",
       "order": 73,
-      "totalChapters": 35
+      "totalChapters": 22
     },
     "chapter": 6,
-    "verseCount": 59,
+    "verseCount": 17,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/apocalypse/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,298 +34,88 @@
   "verses": [
     {
       "verse": 1,
-      "text": "et dixit ad me: initium terreni orbis, et antequam starent exitus saeculi, et antequam spirarent conventiones ventorum,",
+      "text": "et vidi quod aperuisset agnus unum de septem signaculis et audivi unum de quattuor animalibus dicentem tamquam vocem tonitrui veni",
       "citation": "Revelation 6:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "et antequam sonarent voces tonitruum, et antequam splenderent nitores coruscuum, et antequam confirmarentur fundamenta paradisi,",
+      "text": "et vidi et ecce equus albus et qui sedebat super illum habebat arcum et data est ei corona et exivit vincens ut vinceret",
       "citation": "Revelation 6:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "et antequam viderentur decores flores, et antequam confirmarentur motuum virtutes, et antequam colligerentur innumerabiles militiae angelorum,",
+      "text": "et cum aperuisset sigillum secundum audivi secundum animal dicens veni",
       "citation": "Revelation 6:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "et antequam extollerentur altitudines aerum, et antequam nominarentur mensurae firmamentorum, et antequam aestimaretur scabillum Sion,",
+      "text": "et exivit alius equus rufus et qui sedebat super illum datum est ei ut sumeret pacem de terra et ut invicem se interficiant et datus est illi gladius magnus",
       "citation": "Revelation 6:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "et antequam investigarentur praesentes anni, et antequam abalienarentur eorum qui nunc peccant adinventiones et consignarentur qui fidem thesaurizaverunt,",
+      "text": "et cum aperuisset sigillum tertium audivi tertium animal dicens veni et vidi et ecce equus niger et qui sedebat super eum habebat stateram in manu sua",
       "citation": "Revelation 6:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "tunc cogitavi, et facta sunt haec per me solum et non per alium, ut et finis per me et non per alium.",
+      "text": "et audivi tamquam vocem in medio quattuor animalium dicentem bilibris tritici denario et tres bilibres hordei denario et vinum et oleum ne laeseris",
       "citation": "Revelation 6:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "et respondi et dixi: quae erit separatio temporum, aut quando prioris finis aut sequentis initium?",
+      "text": "et cum aperuisset sigillum quartum audivi vocem quarti animalis dicentis veni et vidi",
       "citation": "Revelation 6:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "et dixit ad me: ab Abraham usque ad Abraham, quoniam ab eo natus est Iacob et Esau, manus enim Iacob tenebat ab initio calcaneum Esau.",
+      "text": "et ecce equus pallidus et qui sedebat desuper nomen illi Mors et inferus sequebatur eum et data est illi potestas super quattuor partes terrae interficere gladio fame et morte et bestiis terrae",
       "citation": "Revelation 6:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "finis enim huius saeculi Esau, et principium sequentis Iacob.",
+      "text": "et cum aperuisset quintum sigillum vidi subtus altare animas interfectorum propter verbum Dei et propter testimonium quod habebant",
       "citation": "Revelation 6:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "finis enim hominis calcaneum et principium hominis manus, inter calcaneum et manum aliud noli quaerere, Ezra.",
+      "text": "et clamabant voce magna dicentes usquequo Domine sanctus et verus non iudicas et vindicas sanguinem nostrum de his qui habitant in terra",
       "citation": "Revelation 6:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "et respondi et dixi: o dominator domine, si inveni gratiam ante oculos tuos,",
+      "text": "et datae sunt illis singulae stolae albae et dictum est illis ut requiescerent tempus adhuc modicum donec impleantur conservi eorum et fratres eorum qui interficiendi sunt sicut et illi",
       "citation": "Revelation 6:11 (Clementine Vulgate)"
     },
     {
       "verse": 12,
-      "text": "ut demonstres servo tuo finem signorum tuorum, quorum ex parte mihi demonstrasti nocte praecedente.",
+      "text": "et vidi cum aperuisset sigillum sextum et terraemotus factus est magnus et sol factus est niger tamquam saccus cilicinus et luna tota facta est sicut sanguis",
       "citation": "Revelation 6:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
-      "text": "et respondit et dixit ad me: surge super pedes tuos et audies vocem plenissimam sonus.",
+      "text": "et stellae caeli ceciderunt super terram sicut ficus mittit grossos suos cum vento magno movetur",
       "citation": "Revelation 6:13 (Clementine Vulgate)"
     },
     {
       "verse": 14,
-      "text": "et erit, si commotione commovebitur locus, in quo stas super eum,",
+      "text": "et caelum recessit sicut liber involutus et omnis mons et insulae de locis suis motae sunt",
       "citation": "Revelation 6:14 (Clementine Vulgate)"
     },
     {
       "verse": 15,
-      "text": "in eo cum loqueretur, tu non expaveas, quoniam de fine verbum. et fundamenta terrae intellegetur,",
+      "text": "et reges terrae et principes et tribuni et divites et fortes et omnis servus et liber absconderunt se in speluncis et petris montium",
       "citation": "Revelation 6:15 (Clementine Vulgate)"
     },
     {
       "verse": 16,
-      "text": "quoniam de ipsis sermo, tremescet et commovebitur; scit enim, quoniam finem eorum oportet commutari.",
+      "text": "et dicunt montibus et petris cadite super nos et abscondite nos a facie sedentis super thronum et ab ira agni",
       "citation": "Revelation 6:16 (Clementine Vulgate)"
     },
     {
       "verse": 17,
-      "text": "et factum est cum audissem, et surrexi super pedes meos et audivi, et ecce vox loquens, et sonus eius sicut sonus aquarum multarum.",
+      "text": "quoniam venit dies magnus irae ipsorum et quis poterit stare",
       "citation": "Revelation 6:17 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "et dixit: ecce dies veniunt, et erit quando adpropinquare incipio, ut visitem habitantes in terram,",
-      "citation": "Revelation 6:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 19,
-      "text": "et quando inquirere incipiam ab eis qui iniuste nocuerunt iniustitia sua, et quando suppleta fuerit humilitas Sion,",
-      "citation": "Revelation 6:19 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "et cum supersignabitur saeculum quod incipiet pertransire, haec signa faciam: libri aperientur ante faciem firmamenti et omnes videbunt simul,",
-      "citation": "Revelation 6:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 21,
-      "text": "et anniculi infantes loquentur vocibus suis, et praegnantes inmaturos parient infantes trium et quattuor mensuum et vivent et scirtabuntur,",
-      "citation": "Revelation 6:21 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "et subito apparebunt seminata loca non seminata, et plena promptuaria subito invenientur vacua,",
-      "citation": "Revelation 6:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "et tuba canet cum sono, quam cum omnes audierint subito expavescent.",
-      "citation": "Revelation 6:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "et erit in illo tempore, debellabunt amici amicos ut inimici, et expavescet terra cum his qui inhabitant in eam, et venae fontium stabunt ut non decurrant in horis tribus.",
-      "citation": "Revelation 6:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 25,
-      "text": "et erit, omnis qui derelictus fuerit ex omnibus istis quibus praedixi tibi, ipse salvabitur et videbit salutare meum et finem saeculi mei,",
-      "citation": "Revelation 6:25 (Clementine Vulgate)"
-    },
-    {
-      "verse": 26,
-      "text": "et videbunt qui recepti sunt homines, qui mortem non gustaverunt a nativitate sua, et mutabitur cor inhabitantium et convertetur in sensum alium.",
-      "citation": "Revelation 6:26 (Clementine Vulgate)"
-    },
-    {
-      "verse": 27,
-      "text": "delebitur enim malum et extinguetur dolus.",
-      "citation": "Revelation 6:27 (Clementine Vulgate)"
-    },
-    {
-      "verse": 28,
-      "text": "florebit autem fides et vincetur corruptela, et ostendebitur veritas quae sine fructu fuit tantis temporibus.",
-      "citation": "Revelation 6:28 (Clementine Vulgate)"
-    },
-    {
-      "verse": 29,
-      "text": "et factum est cum loqueretur mihi, et ecce paulatim movebatur locus super quem stabam super eum.",
-      "citation": "Revelation 6:29 (Clementine Vulgate)"
-    },
-    {
-      "verse": 30,
-      "text": "et dixit ad me: haec veni tibi ostendere et venturae nocti.",
-      "citation": "Revelation 6:30 (Clementine Vulgate)"
-    },
-    {
-      "verse": 31,
-      "text": "si ergo iterum rogaveris et iterum ieiunaveris septem diebus, iterum tibi renuntiabo horum maiora per diem,",
-      "citation": "Revelation 6:31 (Clementine Vulgate)"
-    },
-    {
-      "verse": 32,
-      "text": "quoniam auditu audita est vox tua apud Altissimum. vidit enim Fortis directionem tuam et providit pudicitiam quam a iuventute tua habuisti.",
-      "citation": "Revelation 6:32 (Clementine Vulgate)"
-    },
-    {
-      "verse": 33,
-      "text": "et propter hoc misit me demonstrare tibi: haec omnia et dicere tibi confide et noli timere,",
-      "citation": "Revelation 6:33 (Clementine Vulgate)"
-    },
-    {
-      "verse": 34,
-      "text": "et noli festinare in prioribus temporibus cogitare vana, ut non properes a novissimis temporibus.",
-      "citation": "Revelation 6:34 (Clementine Vulgate)"
-    },
-    {
-      "verse": 35,
-      "text": "et factum est post haec, et flevi iterum et similiter ieiunavi septem diebus, ut suppleam tres ebdomadas quae dictae sunt mihi.",
-      "citation": "Revelation 6:35 (Clementine Vulgate)"
-    },
-    {
-      "verse": 36,
-      "text": "et factum est in octava nocte, et cor meum iterato turbabatur in me et coepi loqui coram Altissimo.",
-      "citation": "Revelation 6:36 (Clementine Vulgate)"
-    },
-    {
-      "verse": 37,
-      "text": "inflammabatur enim spiritus meus valde et anima mea anxiabatur.",
-      "citation": "Revelation 6:37 (Clementine Vulgate)"
-    },
-    {
-      "verse": 38,
-      "text": "et dixi: o Domine, loquens locutus es ab initio creaturae in primo die dicens: fiat caelum et terra, et tuum verbum opus perfecit.",
-      "citation": "Revelation 6:38 (Clementine Vulgate)"
-    },
-    {
-      "verse": 39,
-      "text": "et erat tunc spiritus volans, et tenebrae circumferebantur et silentium, sonus vocis hominis nondum erat abs te.",
-      "citation": "Revelation 6:39 (Clementine Vulgate)"
-    },
-    {
-      "verse": 40,
-      "text": "tunc dixisti de thesauris tuis proferri lumen quod luminis, ut apparerent tunc opera tua.",
-      "citation": "Revelation 6:40 (Clementine Vulgate)"
-    },
-    {
-      "verse": 41,
-      "text": "et in die secundo iterum creasti spiritum firmamenti et imperasti ei, ut divideret et divisionem faceret inter aquas, ut pars quidem sursum recederet, pars vero deorsum maneret.",
-      "citation": "Revelation 6:41 (Clementine Vulgate)"
-    },
-    {
-      "verse": 42,
-      "text": "et tertio die imperasti aquis congregari in septima parte terrae, sex vero partes siccasti et conservasti, ut ex his sint coram te ministrantia seminata adeo et culta.",
-      "citation": "Revelation 6:42 (Clementine Vulgate)"
-    },
-    {
-      "verse": 43,
-      "text": "verbum enim tuum processit, et opus statim fiebat.",
-      "citation": "Revelation 6:43 (Clementine Vulgate)"
-    },
-    {
-      "verse": 44,
-      "text": "processit enim subito fructus multitudinis inmensus et concupiscentia gustus multiformis et flores colore inimitabili et odores odoramentis investigabiles. et die tertio haec facta sunt.",
-      "citation": "Revelation 6:44 (Clementine Vulgate)"
-    },
-    {
-      "verse": 45,
-      "text": "quarta autem die imperasti fieri solis splendorem, lunae lumen stellarum dispositionem,",
-      "citation": "Revelation 6:45 (Clementine Vulgate)"
-    },
-    {
-      "verse": 46,
-      "text": "et imperasti eis, ut deservirent futuro plasmato homini.",
-      "citation": "Revelation 6:46 (Clementine Vulgate)"
-    },
-    {
-      "verse": 47,
-      "text": "quinto autem die dixisti septimae parti ubi erat aqua congregata, ut procrearet animalia, volatilia et pisces, et ita fiebat",
-      "citation": "Revelation 6:47 (Clementine Vulgate)"
-    },
-    {
-      "verse": 48,
-      "text": "aqua muta et sine anima, quod ei iubebatur, animalia faciens, ut ex hoc mirabilia tua nationes enarrent.",
-      "citation": "Revelation 6:48 (Clementine Vulgate)"
-    },
-    {
-      "verse": 49,
-      "text": "et tunc conservasti duas animas, nomen uni vocasti Enoch et nomen secundi vocasti Leviathan.",
-      "citation": "Revelation 6:49 (Clementine Vulgate)"
-    },
-    {
-      "verse": 50,
-      "text": "et separasti ea ab alterutro; non enim poterat septima pars ubi erat aqua congregata capere ea.",
-      "citation": "Revelation 6:50 (Clementine Vulgate)"
-    },
-    {
-      "verse": 51,
-      "text": "et dedisti Enoch unam partem quae siccata est tertio die, ut inhabitet in ea, ubi sunt montes mille.",
-      "citation": "Revelation 6:51 (Clementine Vulgate)"
-    },
-    {
-      "verse": 52,
-      "text": "Leviathae autem dedisti septimam partem humidam. et servasti ea, ut fiant in devorationem quibus vis et quando vis.",
-      "citation": "Revelation 6:52 (Clementine Vulgate)"
-    },
-    {
-      "verse": 53,
-      "text": "sexto autem die imperasti terrae, ut crearet coram te iumenta et bestias et reptilia,",
-      "citation": "Revelation 6:53 (Clementine Vulgate)"
-    },
-    {
-      "verse": 54,
-      "text": "et super his Adam, quem constituisti ducem super omnibus factis quae fecisti, et ex eo educimur nos omnes quem elegisti populum.",
-      "citation": "Revelation 6:54 (Clementine Vulgate)"
-    },
-    {
-      "verse": 55,
-      "text": "haec autem omnia dixi coram te, Domine, quoniam dixisti quia propter nos creasti primogenitum saeculum.",
-      "citation": "Revelation 6:55 (Clementine Vulgate)"
-    },
-    {
-      "verse": 56,
-      "text": "residuas autem gentes ab Adam natas dixisti eas nihil esse, et quoniam salivae adsimilatae sunt, et sicut stillicidium de vaso similasti abundantiam eorum.",
-      "citation": "Revelation 6:56 (Clementine Vulgate)"
-    },
-    {
-      "verse": 57,
-      "text": "et nunc, Domine, ecce istae gentes quae in nihilum deputatae sunt dominari nostri et devorare nos.",
-      "citation": "Revelation 6:57 (Clementine Vulgate)"
-    },
-    {
-      "verse": 58,
-      "text": "nos autem populus tuus quem vocasti primogenitum, unigenitum, aemulatorem, carissimum, traditi sumus in manibus eorum.",
-      "citation": "Revelation 6:58 (Clementine Vulgate)"
-    },
-    {
-      "verse": 59,
-      "text": "et si propter nos creatum est saeculum, quare non hereditatem possidemus nostrum saeculum? usquequo haec?",
-      "citation": "Revelation 6:59 (Clementine Vulgate)"
     }
   ]
 }

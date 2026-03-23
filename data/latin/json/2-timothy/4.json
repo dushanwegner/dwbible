@@ -15,7 +15,7 @@
       "slug": "2-timothy",
       "testament": "NT",
       "order": 62,
-      "totalChapters": 7
+      "totalChapters": 4
     },
     "chapter": 4,
     "verseCount": 21,
@@ -23,7 +23,7 @@
       "bookIndex": "https://latinprayer.org/latin/2-timothy/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
       "previousChapter": "https://latinprayer.org/latin/2-timothy/3.json",
-      "nextChapter": "https://latinprayer.org/latin/2-timothy/5.json"
+      "nextChapter": null
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/2-timothy/4.json",
@@ -134,7 +134,7 @@
     },
     {
       "verse": 21,
-      "text": "festina ante hiemem venire salutat te Eubulus et Pudens et Linus et Claudia et fratres omnes Titus",
+      "text": "festina ante hiemem venire salutat te Eubulus et Pudens et Linus et Claudia et fratres omnes",
       "citation": "2 Timothy 4:21 (Clementine Vulgate)"
     }
   ]

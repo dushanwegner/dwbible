@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 144 — 30 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 144 — 15 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 144,
-    "verseCount": 30,
+    "verseCount": 15,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 144:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "David benedictus Dominus fortis meus qui docet manus meas ad proelium digitos meos ad bellum",
-      "citation": "Psalms 144:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "misericordia mea et refugium meum susceptor meus et liberator meus protector meus et in eo speravi qui subdis populum meum sub me",
-      "citation": "Psalms 144:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "misericordia mea et fortitudo mea auxiliator meus et salvator meus scutum meum et in ipso speravi qui subiecit populos mihi",
       "citation": "Psalms 144:2 (Clementine Vulgate)"
     },
     {
@@ -58,24 +48,9 @@
       "citation": "Psalms 144:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "Domine quid est homo quia cognoscis eum filius hominis quia conputas eum",
-      "citation": "Psalms 144:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "homo vanitati similis factus est dies eius sicut umbra praetereunt",
       "citation": "Psalms 144:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "homo vanitati adsimilatus est dies eius quasi umbra pertransiens",
-      "citation": "Psalms 144:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "Domine inclina caelos tuos et descende tange montes et fumigabunt",
-      "citation": "Psalms 144:5 (Clementine Vulgate)"
     },
     {
       "verse": 5,
@@ -88,34 +63,14 @@
       "citation": "Psalms 144:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "mica fulmine et dissipa eos mitte sagittam tuam et interfice illos",
-      "citation": "Psalms 144:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "emitte manum tuam de alto eripe me et libera me de aquis multis de manu filiorum alienorum",
-      "citation": "Psalms 144:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "extende manum tuam de excelso libera me et erue me de aquis multis de manu filiorum alienorum",
       "citation": "Psalms 144:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
       "text": "quorum os locutum est vanitatem et dextera eorum dextera iniquitatis",
       "citation": "Psalms 144:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "quorum os locutum est vanitatem et dextera eorum dextera mendacii",
-      "citation": "Psalms 144:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "Deus canticum novum cantabo tibi in psalterio decacordo psallam tibi",
-      "citation": "Psalms 144:9 (Clementine Vulgate)"
     },
     {
       "verse": 9,
@@ -128,18 +83,8 @@
       "citation": "Psalms 144:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "qui dat salutem regibus qui eruit David servum suum de gladio pessimo",
-      "citation": "Psalms 144:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "eripe me et eripe me de manu filiorum alienigenarum quorum os locutum est vanitatem et dextera eorum dextera iniquitatis",
-      "citation": "Psalms 144:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "libera me et erue me de manu filiorum alienorum quorum os locutum est vanitatem et dextera eorum dextera mendacii",
       "citation": "Psalms 144:11 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 144:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "ut sint filii nostri quasi plantatio crescens in adulescentia sua filiae nostrae quasi anguli ornati ad similitudinem templi",
-      "citation": "Psalms 144:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "promptuaria eorum plena eructantia ex hoc in illud oves eorum fetosae abundantes in egressibus suis",
-      "citation": "Psalms 144:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "promptuaria nostra plena et supereffundentia ex hoc in illud pecora nostra in milibus et innumerabilia in conpitis nostris",
       "citation": "Psalms 144:13 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 144:14 (Clementine Vulgate)"
     },
     {
-      "verse": 14,
-      "text": "tauri nostri pingues non est interruptio et non est egressus et non est ululatus in plateis nostris",
-      "citation": "Psalms 144:14 (Clementine Vulgate)"
-    },
-    {
       "verse": 15,
       "text": "beatum dixerunt populum cui haec sunt beatus populus cuius Dominus Deus eius",
-      "citation": "Psalms 144:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "beatus populus cuius talia sunt beatus populus cuius Dominus Deus suus",
       "citation": "Psalms 144:15 (Clementine Vulgate)"
     }
   ]

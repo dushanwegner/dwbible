@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 82 — 18 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 82 — 9 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 82,
-    "verseCount": 18,
+    "verseCount": 9,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 82:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum Asaph Deus stetit in coetu Dei in medio Deus iudicat",
-      "citation": "Psalms 82:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "canticum psalmi Asaph",
-      "citation": "Psalms 82:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "usquequo iudicatis iniquitatem et facies peccatorum sumitis diapsalma",
-      "citation": "Psalms 82:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "usquequo iudicatis iniquitatem et facies impiorum suscipitis semper",
       "citation": "Psalms 82:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 82:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "iudicate pauperi et pupillo egeno et inopi iuste facite",
-      "citation": "Psalms 82:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "eripite pauperem et egenum de manu peccatoris liberate",
-      "citation": "Psalms 82:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "salvate inopem et pauperem de manu impiorum liberate",
       "citation": "Psalms 82:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 82:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "non cognoscunt nec intellegunt in tenebris ambulant movebuntur omnia fundamenta terrae",
-      "citation": "Psalms 82:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "ego dixi dii estis et filii Excelsi omnes",
-      "citation": "Psalms 82:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "ego dixi dii estis et filii Excelsi omnes vos",
       "citation": "Psalms 82:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 82:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "ergo quasi Adam moriemini et quasi unus de principibus cadetis",
-      "citation": "Psalms 82:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "surge Deus iudica terram quoniam tu hereditabis in omnibus gentibus",
-      "citation": "Psalms 82:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "surge Domine iudica terram quoniam hereditabis omnes gentes",
       "citation": "Psalms 82:8 (Clementine Vulgate)"
     }
   ]

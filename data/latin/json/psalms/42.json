@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 42 — 22 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 42 — 11 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 42,
-    "verseCount": 22,
+    "verseCount": 11,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 42:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "sicut areola praeparata ad inrigationes aquarum sic anima mea praeparata est ad te Deus",
-      "citation": "Psalms 42:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "sitivit anima mea ad Deum *fortem; vivum quando veniam et parebo ante faciem Dei",
-      "citation": "Psalms 42:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "sitivit anima mea Deum fortem viventem quando veniam et parebo ante faciem tuam",
       "citation": "Psalms 42:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 42:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "fuerunt mihi lacrimae meae panis per diem ac noctem cum diceretur mihi tota die ubi est Deus tuus",
-      "citation": "Psalms 42:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "haec recordatus sum et effudi in me animam meam quoniam transibo in loco tabernaculi admirabilis usque ad domum Dei in voce exultationis et confessionis sonus epulantis",
-      "citation": "Psalms 42:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "horum recordatus sum et effudi in me animam meam quia veniam ad umbraculum tacebo usque ad domum Dei in voce laudis et confessionis multitudinis festa celebrantis",
       "citation": "Psalms 42:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 42:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "quare incurvaris anima mea et conturbas me expecta Dominum quia adhuc confitebor ei salutaribus vultus eius",
-      "citation": "Psalms 42:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "Deus meus ad me ipsum anima mea conturbata est propterea memor ero tui de terra Iordanis et Hermoniim a monte modico",
-      "citation": "Psalms 42:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "Deus meus in memet ipso anima mea incurvatur propterea recordabor tui de terra Iordanis et Hermoniim de monte minimo",
       "citation": "Psalms 42:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 42:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "abyssus abyssum vocat in voce cataractarum tuarum omnes gurgites tui et fluctus tui super me transierunt",
-      "citation": "Psalms 42:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "in die mandavit Dominus misericordiam suam et nocte canticum eius apud me oratio Deo vitae meae",
-      "citation": "Psalms 42:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "per diem mandavit Dominus misericordiam suam et in nocte canticum eius mecum oratio Deo vitae meae",
       "citation": "Psalms 42:8 (Clementine Vulgate)"
     },
     {
@@ -118,28 +78,13 @@
       "citation": "Psalms 42:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "dicam Deo petra mea quare oblitus es mei quare tristis incedo adfligente inimico",
-      "citation": "Psalms 42:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "dum confringuntur ossa mea exprobraverunt mihi qui tribulant me dum dicunt mihi per singulos dies ubi est Deus tuus",
       "citation": "Psalms 42:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "cum me interficerent in ossibus meis exprobraverunt mihi hostes mei dicentes tota die ubi est Deus tuus",
-      "citation": "Psalms 42:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "quare tristis es anima mea et quare conturbas me spera in Deum quoniam *adhuc; confitebor illi salutare vultus mei *et; Deus meus",
-      "citation": "Psalms 42:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "quare incurvaris anima mea et conturbas me expecta Dominum quoniam adhuc confitebor ei salutibus vultus mei et Deo meo",
       "citation": "Psalms 42:11 (Clementine Vulgate)"
     }
   ]

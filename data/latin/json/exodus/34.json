@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 34 — 35 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 34,
+    "verseCount": 35,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/33.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/35.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/34.json",
+      "german": "https://latinprayer.org/bibel/exodus/34.json"
+    }
+  },
+  "citation": "Exodus 34 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ac deinceps praecide ait tibi duas tabulas lapideas instar priorum et scribam super eas verba quae habuerunt tabulae quas fregisti",
+      "citation": "Exodus 34:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "esto paratus mane ut ascendas statim in montem Sinai stabisque mecum super verticem montis",
+      "citation": "Exodus 34:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "nullus ascendat tecum nec videatur quispiam per totum montem boves quoque et oves non pascantur e contra",
+      "citation": "Exodus 34:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "excidit ergo duas tabulas lapideas quales ante fuerant et de nocte consurgens ascendit in montem Sinai sicut ei praeceperat Dominus portans secum tabulas",
+      "citation": "Exodus 34:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "cumque descendisset Dominus per nubem stetit Moses cum eo invocans nomen Domini",
+      "citation": "Exodus 34:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quo transeunte coram eo ait Dominator Domine Deus misericors et clemens patiens et multae miserationis ac verus",
+      "citation": "Exodus 34:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui custodis misericordiam in milia qui aufers iniquitatem et scelera atque peccata nullusque apud te per se innocens est qui reddis iniquitatem patrum in filiis ac nepotibus in tertiam et quartam progeniem",
+      "citation": "Exodus 34:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "festinusque Moses curvatus est pronus in terram et adorans",
+      "citation": "Exodus 34:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ait si inveni gratiam in conspectu tuo Domine obsecro ut gradiaris nobiscum populus enim durae cervicis est et auferas iniquitates nostras atque peccata nosque possideas",
+      "citation": "Exodus 34:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "respondit Dominus ego inibo pactum videntibus cunctis signa faciam quae numquam sunt visa super terram nec in ullis gentibus ut cernat populus in cuius es medio opus Domini terribile quod facturus sum",
+      "citation": "Exodus 34:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "observa cuncta quae hodie mando tibi ego ipse eiciam ante faciem tuam Amorreum et Chananeum et Hettheum Ferezeum quoque et Eveum et Iebuseum",
+      "citation": "Exodus 34:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cave ne umquam cum habitatoribus terrae illius iungas amicitias quae tibi sint in ruinam",
+      "citation": "Exodus 34:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sed aras eorum destrue confringe statuas lucosque succide",
+      "citation": "Exodus 34:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "noli adorare deum alienum Dominus Zelotes nomen eius Deus est aemulator",
+      "citation": "Exodus 34:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ne ineas pactum cum hominibus illarum regionum ne cum fornicati fuerint cum diis suis et adoraverint simulacra eorum vocet te quispiam ut comedas de immolatis",
+      "citation": "Exodus 34:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "nec uxorem de filiabus eorum accipies filiis tuis ne postquam ipsae fuerint fornicatae fornicari faciant et filios tuos in deos suos",
+      "citation": "Exodus 34:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "deos conflatiles non facies tibi",
+      "citation": "Exodus 34:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "sollemnitatem azymorum custodies septem diebus vesceris azymis sicut praecepi tibi in tempore mensis novorum mense enim verni temporis egressus es de Aegypto",
+      "citation": "Exodus 34:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "omne quod aperit vulvam generis masculini meum erit de cunctis animantibus tam de bubus quam de ovibus meum erit",
+      "citation": "Exodus 34:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "primogenitum asini redimes ove sin autem nec pretium pro eo dederis occidetur primogenitum filiorum tuorum redimes nec apparebis in conspectu meo vacuus",
+      "citation": "Exodus 34:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "sex diebus operaberis die septimo cessabis arare et metere",
+      "citation": "Exodus 34:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "sollemnitatem ebdomadarum facies tibi in primitiis frugum messis tuae triticeae et sollemnitatem quando redeunte anni tempore cuncta conduntur",
+      "citation": "Exodus 34:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "tribus temporibus anni apparebit omne masculinum tuum in conspectu omnipotentis Domini Dei Israhel",
+      "citation": "Exodus 34:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "cum enim tulero gentes a facie tua et dilatavero terminos tuos nullus insidiabitur terrae tuae ascendente te et apparente in conspectu Domini Dei tui ter in anno",
+      "citation": "Exodus 34:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "non immolabis super fermento sanguinem hostiae meae neque residebit mane de victima sollemnitatis phase",
+      "citation": "Exodus 34:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "primitias frugum terrae tuae offeres in domum Domini Dei tui non coques hedum in lacte matris suae",
+      "citation": "Exodus 34:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "dixitque Dominus ad Mosen scribe tibi verba haec quibus et tecum et cum Israhel pepigi foedus",
+      "citation": "Exodus 34:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "fecit ergo ibi cum Domino quadraginta dies et quadraginta noctes panem non comedit et aquam non bibit et scripsit in tabulis verba foederis decem",
+      "citation": "Exodus 34:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "cumque descenderet Moses de monte Sinai tenebat duas tabulas testimonii et ignorabat quod cornuta esset facies sua ex consortio sermonis Dei",
+      "citation": "Exodus 34:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "videntes autem Aaron et filii Israhel cornutam Mosi faciem timuerunt prope accedere",
+      "citation": "Exodus 34:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "vocatique ab eo reversi sunt tam Aaron quam principes synagogae et postquam locutus est",
+      "citation": "Exodus 34:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "venerunt ad eum etiam omnes filii Israhel quibus praecepit cuncta quae audierat a Domino in monte Sinai",
+      "citation": "Exodus 34:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "impletisque sermonibus posuit velamen super faciem suam",
+      "citation": "Exodus 34:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "quod ingressus ad Dominum et loquens cum eo auferebat donec exiret et tunc loquebatur ad filios Israhel omnia quae sibi fuerant imperata",
+      "citation": "Exodus 34:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "qui videbant faciem egredientis Mosi esse cornutam sed operiebat rursus ille faciem suam si quando loquebatur ad eos",
+      "citation": "Exodus 34:35 (Clementine Vulgate)"
+    }
+  ]
+}

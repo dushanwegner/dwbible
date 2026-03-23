@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 124 — 16 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 124 — 8 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 124,
-    "verseCount": 16,
+    "verseCount": 8,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 124:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum David nisi Dominus fuisset in nobis dicat nunc Israhel",
-      "citation": "Psalms 124:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "nisi quia Dominus erat in nobis cum exsurgerent in nos homines",
-      "citation": "Psalms 124:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "nisi Dominus fuisset in nobis cum exsurgerent super nos homines",
       "citation": "Psalms 124:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 124:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "forsitan vivos absorbuissent nos cum irasceretur furor eorum super nos",
-      "citation": "Psalms 124:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "forsitan aqua absorbuisset nos",
-      "citation": "Psalms 124:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "forsitan aquae circumdedissent nos",
       "citation": "Psalms 124:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 124:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "torrens transisset super animam nostram forsitan transissent super animam nostram aquae superbae",
-      "citation": "Psalms 124:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "benedictus Dominus qui non dedit nos in captionem dentibus eorum",
-      "citation": "Psalms 124:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "benedictus Dominus qui non dedit nos in praedam dentibus eorum",
       "citation": "Psalms 124:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 124:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "anima nostra quasi avis erepta est de laqueo venantium laqueus contritus est et nos liberati sumus",
-      "citation": "Psalms 124:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "adiutorium nostrum in nomine Domini qui fecit caelum et terram",
-      "citation": "Psalms 124:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "auxilium nostrum in nomine Domini qui fecit caelum et terram",
       "citation": "Psalms 124:8 (Clementine Vulgate)"
     }
   ]

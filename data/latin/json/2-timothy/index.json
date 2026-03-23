@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "2 Timothy — 7 chapters (Clementine Vulgate)",
+    "content": "2 Timothy — 4 chapters (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,7 +15,7 @@
       "slug": "2-timothy",
       "testament": "NT",
       "order": 62,
-      "totalChapters": 7
+      "totalChapters": 4
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/2-timothy/index.json",
@@ -46,24 +46,6 @@
       "verseCount": 21,
       "url": "https://latinprayer.org/latin/2-timothy/4",
       "jsonUrl": "https://latinprayer.org/latin/2-timothy/4.json"
-    },
-    {
-      "chapter": 1,
-      "verseCount": 16,
-      "url": "https://latinprayer.org/latin/2-timothy/1",
-      "jsonUrl": "https://latinprayer.org/latin/2-timothy/1.json"
-    },
-    {
-      "chapter": 2,
-      "verseCount": 15,
-      "url": "https://latinprayer.org/latin/2-timothy/2",
-      "jsonUrl": "https://latinprayer.org/latin/2-timothy/2.json"
-    },
-    {
-      "chapter": 3,
-      "verseCount": 14,
-      "url": "https://latinprayer.org/latin/2-timothy/3",
-      "jsonUrl": "https://latinprayer.org/latin/2-timothy/3.json"
     }
   ]
 }

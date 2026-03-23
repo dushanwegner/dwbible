@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 96 — 26 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 96 — 13 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 96,
-    "verseCount": 26,
+    "verseCount": 13,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 96:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canite Domino canticum novum canite Domino omnis terra",
-      "citation": "Psalms 96:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "cantate Domino benedicite nomini eius adnuntiate diem de die salutare eius",
-      "citation": "Psalms 96:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "canite Domino benedicite nomini eius adnuntiate de die in diem salutare eius",
       "citation": "Psalms 96:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 96:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "narrate in gentibus gloriam eius in universis populis mirabilia eius",
-      "citation": "Psalms 96:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "quoniam magnus Dominus et laudabilis valde terribilis est super omnes deos",
-      "citation": "Psalms 96:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "quia magnus Dominus et laudabilis nimis terribilis est super omnes deos",
       "citation": "Psalms 96:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 96:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "omnes enim dii populorum sculptilia Dominus autem caelos fecit",
-      "citation": "Psalms 96:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "confessio et pulchritudo in conspectu eius sanctimonia et magnificentia in sanctificatione eius",
-      "citation": "Psalms 96:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "gloria et decor ante vultum eius fortitudo et exultatio in sanctuario eius",
       "citation": "Psalms 96:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 96:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "adferte Domino familiae populorum adferte Domino gloriam et fortitudinem",
-      "citation": "Psalms 96:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "adferte Domino gloriam nomini eius tollite hostias et introite in atria eius",
-      "citation": "Psalms 96:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "adferte Domino gloriam nomini eius levate munera et introite in atria eius",
       "citation": "Psalms 96:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 96:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "adorate Dominum in decore sanctuarii paveat a facie eius omnis terra",
-      "citation": "Psalms 96:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "dicite in gentibus quia Dominus regnavit etenim correxit orbem qui non movebitur iudicabit populos in aequitate",
-      "citation": "Psalms 96:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "dicite in gentibus Dominus regnavit siquidem adpendit orbem inmobilem iudicabit populos in aequitate",
       "citation": "Psalms 96:10 (Clementine Vulgate)"
     },
     {
@@ -138,28 +88,13 @@
       "citation": "Psalms 96:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "laetamini caeli et exultet terra tonet mare et plenitudo eius",
-      "citation": "Psalms 96:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "gaudebunt campi et omnia quae in eis sunt tunc exultabunt omnia ligna silvarum",
       "citation": "Psalms 96:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "gaudeat ager et omnia quae in eo sunt tunc laudabunt universa ligna saltus",
-      "citation": "Psalms 96:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "a facie Domini quia venit quoniam venit iudicare terram iudicabit orbem terrae in aequitate et populos in veritate sua",
-      "citation": "Psalms 96:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "ante faciem Domini quoniam venit quoniam venit iudicare terram iudicabit orbem in iusto et populos in fide sua",
       "citation": "Psalms 96:13 (Clementine Vulgate)"
     }
   ]

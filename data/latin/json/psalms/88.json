@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 88 — 38 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 88 — 19 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 88,
-    "verseCount": 38,
+    "verseCount": 19,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 88:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "Domine Deus salutis meae per diem clamavi in nocte coram te",
-      "citation": "Psalms 88:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "eruditionis Aethan Ezraitae",
-      "citation": "Psalms 88:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "intret in conspectu tuo oratio mea inclina aurem tuam ad precem meam",
-      "citation": "Psalms 88:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "ingrediatur ante te oratio mea inclina aurem tuam ad laudationem meam",
       "citation": "Psalms 88:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 88:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "quia repleta est malis anima mea et vita mea ad infernum descendit",
-      "citation": "Psalms 88:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "aestimatus sum cum descendentibus in lacum factus sum sicut homo sine adiutorio",
-      "citation": "Psalms 88:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "reputatus sum cum descendentibus lacum factus sum quasi homo invalidus",
       "citation": "Psalms 88:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 88:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "inter mortuos liber sicut interfecti et dormientes in sepulchro quorum non recordaris amplius et qui a manu tua abscisi sunt",
-      "citation": "Psalms 88:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "posuerunt me in lacu inferiori in tenebrosis et in umbra mortis",
-      "citation": "Psalms 88:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "posuisti me in lacu novissimo in tenebris in profundis",
       "citation": "Psalms 88:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 88:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "super me confirmatus est furor tuus et cunctis fluctibus tuis adflixisti me semper",
-      "citation": "Psalms 88:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "longe fecisti notos meos a me posuerunt me abominationem sibi traditus sum et non egrediebar",
-      "citation": "Psalms 88:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "longe fecisti notos meos a me posuisti me abominationem eis clausum et non prodeuntem",
       "citation": "Psalms 88:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 88:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "oculus meus infirmatus est ab adflictione invocavi te Domine tota die expandi ad te palmas meas",
-      "citation": "Psalms 88:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "numquid mortuis facies mirabilia aut medici suscitabunt et confitebuntur tibi diapsalma",
-      "citation": "Psalms 88:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "numquid mortuis facies mirabilia aut gigantes surgent et confitebuntur tibi semper",
       "citation": "Psalms 88:10 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 88:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "numquid narrabitur in sepulchro misericordia tua et veritas tua in perditione",
-      "citation": "Psalms 88:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "numquid cognoscentur in tenebris mirabilia tua et iustitia tua in terra oblivionis",
-      "citation": "Psalms 88:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "numquid noscentur in tenebris mirabilia tua et iustitia tua in terra quae oblivioni tradita est",
       "citation": "Psalms 88:12 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 88:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "ego autem ad te Domine clamavi et mane oratio mea praeveniet te",
-      "citation": "Psalms 88:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "ut quid Domine repellis orationem meam avertis faciem tuam a me",
-      "citation": "Psalms 88:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "quare Domine abicis animam meam abscondis faciem tuam a me",
       "citation": "Psalms 88:14 (Clementine Vulgate)"
     },
     {
@@ -188,18 +113,8 @@
       "citation": "Psalms 88:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "pauper ego et aerumnosus ab adulescentia portavi furorem tuum et conturbatus sum",
-      "citation": "Psalms 88:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "in me transierunt irae tuae et terrores tui conturbaverunt me",
-      "citation": "Psalms 88:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "per me transierunt irae tuae terrores tui oppresserunt me",
       "citation": "Psalms 88:16 (Clementine Vulgate)"
     },
     {
@@ -208,18 +123,8 @@
       "citation": "Psalms 88:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "circumdederunt me quasi aquae tota die vallaverunt me pariter",
-      "citation": "Psalms 88:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "elongasti a me amicum et proximum et notos meos a miseria",
-      "citation": "Psalms 88:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "longe fecisti a me amicum et sodalem notos meos abstulisti",
       "citation": "Psalms 88:18 (Clementine Vulgate)"
     }
   ]

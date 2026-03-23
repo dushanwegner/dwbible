@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Jude, Chapter 1 — 20 verses (Clementine Vulgate)",
+    "content": "Jude, Chapter 1 — 24 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,15 +15,15 @@
       "slug": "jude",
       "testament": "NT",
       "order": 72,
-      "totalChapters": 23
+      "totalChapters": 1
     },
     "chapter": 1,
-    "verseCount": 20,
+    "verseCount": 24,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/jude/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
       "previousChapter": null,
-      "nextChapter": "https://latinprayer.org/latin/jude/2.json"
+      "nextChapter": null
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/jude/1.json",
@@ -34,103 +34,123 @@
   "verses": [
     {
       "verse": 1,
-      "text": "apocalypsis Iesu Christi quam dedit illi Deus palam facere servis suis quae oportet fieri cito et significavit mittens per angelum suum servo suo Iohanni",
+      "text": "Iudas Iesu Christi servus frater autem Iacobi his qui in Deo Patre dilectis et Iesu Christo conservatis vocatis",
       "citation": "Jude 1:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "qui testimonium perhibuit verbo Dei et testimonium Iesu Christi quaecumque vidit",
+      "text": "misericordia vobis et pax et caritas adimpleatur",
       "citation": "Jude 1:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "beatus qui legit et qui audiunt verba prophetiae et servant ea quae in ea scripta sunt tempus enim prope est",
+      "text": "carissimi omnem sollicitudinem faciens scribendi vobis de communi vestra salute necesse habui scribere vobis deprecans supercertari semel traditae sanctis fidei",
       "citation": "Jude 1:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "Iohannes septem ecclesiis quae sunt in Asia gratia vobis et pax ab eo qui est et qui erat et qui venturus est et a septem spiritibus qui in conspectu throni eius sunt",
+      "text": "subintroierunt enim quidam homines qui olim praescripti sunt in hoc iudicium impii Dei nostri gratiam transferentes in luxuriam et solum Dominatorem et Dominum nostrum Iesum Christum negantes",
       "citation": "Jude 1:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "et ab Iesu Christo qui est testis fidelis primogenitus mortuorum et princeps regum terrae qui dilexit nos et lavit nos a peccatis nostris in sanguine suo",
+      "text": "commonere autem vos volo scientes semel omnia quoniam Iesus populum de terra Aegypti salvans secundo eos qui non crediderunt perdidit",
       "citation": "Jude 1:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "et fecit nostrum regnum sacerdotes Deo et Patri suo ipsi gloria et imperium in saecula saeculorum amen",
+      "text": "angelos vero qui non servaverunt suum principatum sed dereliquerunt suum domicilium in iudicium magni diei vinculis aeternis sub caligine reservavit",
       "citation": "Jude 1:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "ecce venit cum nubibus et videbit eum omnis oculus et qui eum pupugerunt et plangent se super eum omnes tribus terrae etiam amen",
+      "text": "sicut Sodoma et Gomorra et finitimae civitates simili modo exfornicatae et abeuntes post carnem alteram factae sunt exemplum ignis aeterni poenam sustinentes",
       "citation": "Jude 1:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "ego sum Alpha et Omega principium et finis dicit Dominus Deus qui est et qui erat et qui venturus est Omnipotens",
+      "text": "similiter et hii carnem quidem maculant dominationem autem spernunt maiestates autem blasphemant",
       "citation": "Jude 1:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "ego Iohannes frater vester et particeps in tribulatione et regno et patientia in Iesu fui in insula quae appellatur Patmos propter verbum Dei et testimonium Iesu",
+      "text": "cum Michahel archangelus cum diabolo disputans altercaretur de Mosi corpore non est ausus iudicium inferre blasphemiae sed dixit imperet tibi Dominus",
       "citation": "Jude 1:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "fui in spiritu in dominica die et audivi post me vocem magnam tamquam tubae",
+      "text": "hii autem quaecumque quidem ignorant blasphemant quaecumque autem naturaliter tamquam muta animalia norunt in his corrumpuntur",
       "citation": "Jude 1:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "dicentis quod vides scribe in libro et mitte septem ecclesiis Ephesum et Zmyrnam et Pergamum et Thyatiram et Sardis et Philadelphiam et Laodiciam",
+      "text": "vae illis quia via Cain abierunt et errore Balaam mercede effusi sunt et contradictione Core perierunt",
       "citation": "Jude 1:11 (Clementine Vulgate)"
     },
     {
       "verse": 12,
-      "text": "et conversus sum ut viderem vocem quae loquebatur mecum et conversus vidi septem candelabra aurea",
+      "text": "hii sunt in epulis suis maculae convivantes sine timore semet ipsos pascentes nubes sine aqua quae a ventis circumferuntur arbores autumnales infructuosae bis mortuae eradicatae",
       "citation": "Jude 1:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
-      "text": "et in medio septem candelabrorum similem Filio hominis vestitum podere et praecinctum ad mamillas zonam auream",
+      "text": "fluctus feri maris despumantes suas confusiones sidera errantia quibus procella tenebrarum in aeternum servata est",
       "citation": "Jude 1:13 (Clementine Vulgate)"
     },
     {
       "verse": 14,
-      "text": "caput autem eius et capilli erant candidi tamquam lana alba tamquam nix et oculi eius velut flamma ignis",
+      "text": "prophetavit autem et his septimus ab Adam Enoc dicens ecce venit Dominus in sanctis milibus suis",
       "citation": "Jude 1:14 (Clementine Vulgate)"
     },
     {
       "verse": 15,
-      "text": "et pedes eius similes orichalco sicut in camino ardenti et vox illius tamquam vox aquarum multarum",
+      "text": "facere iudicium contra omnes et arguere omnes impios de omnibus operibus impietatis eorum quibus impie egerunt et de omnibus duris quae locuti sunt contra eum peccatores impii",
       "citation": "Jude 1:15 (Clementine Vulgate)"
     },
     {
       "verse": 16,
-      "text": "et habebat in dextera sua stellas septem et de ore eius gladius utraque parte acutus exiebat et facies eius sicut sol lucet in virtute sua",
+      "text": "hii sunt murmuratores querellosi secundum desideria sua ambulantes et os illorum loquitur superba mirantes personas quaestus causa",
       "citation": "Jude 1:16 (Clementine Vulgate)"
     },
     {
       "verse": 17,
-      "text": "et cum vidissem eum cecidi ad pedes eius tamquam mortuus et posuit dexteram suam super me dicens noli timere ego sum primus et novissimus",
+      "text": "vos autem carissimi memores estote verborum quae praedicta sunt ab apostolis Domini nostri Iesu Christi",
       "citation": "Jude 1:17 (Clementine Vulgate)"
     },
     {
       "verse": 18,
-      "text": "et vivus et fui mortuus et ecce sum vivens in saecula saeculorum et habeo claves mortis et inferni",
+      "text": "quia dicebant vobis quoniam in novissimo tempore venient inlusores secundum sua desideria ambulantes impietatum",
       "citation": "Jude 1:18 (Clementine Vulgate)"
     },
     {
       "verse": 19,
-      "text": "scribe ergo quae vidisti et quae sunt et quae oportet fieri post haec",
+      "text": "hii sunt qui segregant animales Spiritum non habentes",
       "citation": "Jude 1:19 (Clementine Vulgate)"
     },
     {
       "verse": 20,
-      "text": "sacramentum septem stellarum quas vidisti in dextera mea et septem candelabra aurea septem stellae angeli sunt septem ecclesiarum et candelabra septem septem ecclesiae sunt",
+      "text": "vos autem carissimi superaedificantes vosmet ipsos sanctissimae vestrae fidei in Spiritu Sancto orantes",
       "citation": "Jude 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "ipsos vos in dilectione Dei servate",
+      "citation": "Jude 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et hos quidem arguite iudicatos",
+      "citation": "Jude 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "illos vero salvate de igne rapientes aliis autem miseremini in timore odientes et eam quae carnalis est maculatam tunicam",
+      "citation": "Jude 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "ei autem qui potest vos conservare sine peccato et constituere ante conspectum gloriae suae inmaculatos in exultatione",
+      "citation": "Jude 1:24 (Clementine Vulgate)"
     }
   ]
 }

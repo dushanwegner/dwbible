@@ -22,7 +22,7 @@
       "name": "Genesis",
       "slug": "genesis",
       "testament": "OT",
-      "totalChapters": 26,
+      "totalChapters": 50,
       "url": "https://latinprayer.org/latin/genesis/",
       "jsonUrl": "https://latinprayer.org/latin/genesis/index.json"
     },
@@ -31,7 +31,7 @@
       "name": "Exodus",
       "slug": "exodus",
       "testament": "OT",
-      "totalChapters": 25,
+      "totalChapters": 40,
       "url": "https://latinprayer.org/latin/exodus/",
       "jsonUrl": "https://latinprayer.org/latin/exodus/index.json"
     },
@@ -67,7 +67,7 @@
       "name": "Joshua",
       "slug": "josue",
       "testament": "OT",
-      "totalChapters": 19,
+      "totalChapters": 24,
       "url": "https://latinprayer.org/latin/josue/",
       "jsonUrl": "https://latinprayer.org/latin/josue/index.json"
     },
@@ -148,7 +148,7 @@
       "name": "Ezra",
       "slug": "1-esdras",
       "testament": "OT",
-      "totalChapters": 5,
+      "totalChapters": 10,
       "url": "https://latinprayer.org/latin/1-esdras/",
       "jsonUrl": "https://latinprayer.org/latin/1-esdras/index.json"
     },
@@ -157,7 +157,7 @@
       "name": "Nehemiah",
       "slug": "2-esdras-nehemias",
       "testament": "OT",
-      "totalChapters": 3,
+      "totalChapters": 13,
       "url": "https://latinprayer.org/latin/2-esdras-nehemias/",
       "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/index.json"
     },
@@ -175,7 +175,7 @@
       "name": "Judith",
       "slug": "judith",
       "testament": "OT",
-      "totalChapters": 17,
+      "totalChapters": 16,
       "url": "https://latinprayer.org/latin/judith/",
       "jsonUrl": "https://latinprayer.org/latin/judith/index.json"
     },
@@ -247,7 +247,7 @@
       "name": "Sirach",
       "slug": "ecclesiasticus",
       "testament": "OT",
-      "totalChapters": 42,
+      "totalChapters": 52,
       "url": "https://latinprayer.org/latin/ecclesiasticus/",
       "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/index.json"
     },
@@ -283,7 +283,7 @@
       "name": "Baruch",
       "slug": "baruch",
       "testament": "OT",
-      "totalChapters": 10,
+      "totalChapters": 5,
       "url": "https://latinprayer.org/latin/baruch/",
       "jsonUrl": "https://latinprayer.org/latin/baruch/index.json"
     },
@@ -319,7 +319,7 @@
       "name": "Joel",
       "slug": "joel",
       "testament": "OT",
-      "totalChapters": 9,
+      "totalChapters": 4,
       "url": "https://latinprayer.org/latin/joel/",
       "jsonUrl": "https://latinprayer.org/latin/joel/index.json"
     },
@@ -328,7 +328,7 @@
       "name": "Amos",
       "slug": "amos",
       "testament": "OT",
-      "totalChapters": 15,
+      "totalChapters": 9,
       "url": "https://latinprayer.org/latin/amos/",
       "jsonUrl": "https://latinprayer.org/latin/amos/index.json"
     },
@@ -409,7 +409,7 @@
       "name": "Malachi",
       "slug": "malachias",
       "testament": "OT",
-      "totalChapters": 6,
+      "totalChapters": 3,
       "url": "https://latinprayer.org/latin/malachias/",
       "jsonUrl": "https://latinprayer.org/latin/malachias/index.json"
     },
@@ -571,7 +571,7 @@
       "name": "2 Timothy",
       "slug": "2-timothy",
       "testament": "NT",
-      "totalChapters": 7,
+      "totalChapters": 4,
       "url": "https://latinprayer.org/latin/2-timothy/",
       "jsonUrl": "https://latinprayer.org/latin/2-timothy/index.json"
     },
@@ -580,7 +580,7 @@
       "name": "Titus",
       "slug": "titus",
       "testament": "NT",
-      "totalChapters": 24,
+      "totalChapters": 3,
       "url": "https://latinprayer.org/latin/titus/",
       "jsonUrl": "https://latinprayer.org/latin/titus/index.json"
     },
@@ -661,7 +661,7 @@
       "name": "Jude",
       "slug": "jude",
       "testament": "NT",
-      "totalChapters": 23,
+      "totalChapters": 1,
       "url": "https://latinprayer.org/latin/jude/",
       "jsonUrl": "https://latinprayer.org/latin/jude/index.json"
     },
@@ -670,7 +670,7 @@
       "name": "Revelation",
       "slug": "apocalypse",
       "testament": "NT",
-      "totalChapters": 35,
+      "totalChapters": 22,
       "url": "https://latinprayer.org/latin/apocalypse/",
       "jsonUrl": "https://latinprayer.org/latin/apocalypse/index.json"
     }

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Malachi, Chapter 3 — 67 verses (Clementine Vulgate)",
+    "content": "Malachi, Chapter 3 — 23 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,15 +15,15 @@
       "slug": "malachias",
       "testament": "OT",
       "order": 44,
-      "totalChapters": 6
+      "totalChapters": 3
     },
     "chapter": 3,
-    "verseCount": 67,
+    "verseCount": 23,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/malachias/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
       "previousChapter": "https://latinprayer.org/latin/malachias/2.json",
-      "nextChapter": "https://latinprayer.org/latin/malachias/4.json"
+      "nextChapter": null
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/malachias/3.json",
@@ -38,18 +38,8 @@
       "citation": "Malachi 3:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "et nunc Domine omnipotens Deus Israhel anima in angustiis et spiritus anxius clamat ad te",
-      "citation": "Malachi 3:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "et quis poterit cogitare diem adventus eius et quis stabit ad videndum eum ipse enim quasi ignis conflans et quasi herba fullonum",
-      "citation": "Malachi 3:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "audi Domine et miserere quia Deus es misericors et miserere nostri quia peccavimus ante te",
       "citation": "Malachi 3:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Malachi 3:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "quia tu sedes in sempiternum et nos peribimus in aevum",
-      "citation": "Malachi 3:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "et placebit Domino sacrificium Iuda et Hierusalem sicut dies saeculi et sicut anni antiqui",
-      "citation": "Malachi 3:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "Domine omnipotens Deus Israhel audi nunc orationem mortuorum Israhel et filiorum ipsorum qui peccaverunt ante te et non audierunt vocem Domini Dei sui et adglutinata sunt nobis mala",
       "citation": "Malachi 3:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Malachi 3:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "noli meminisse iniquitates patrum nostrorum sed memento manus tuae et nominis tui in tempore isto",
-      "citation": "Malachi 3:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "ego enim Dominus et non mutor et vos filii Iacob non estis consumpti",
-      "citation": "Malachi 3:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "quia tu es Dominus Deus noster et laudabimus te Domine",
       "citation": "Malachi 3:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Malachi 3:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "quia propter hoc dedisti timorem tuum in cordibus nostris et ut invocemus nomen tuum et laudemus te in captivitate nostra quia convertemus iniquitatem patrum nostrorum qui peccaverunt ante te",
-      "citation": "Malachi 3:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "si adfiget homo Deum quia vos configitis me et dixistis in quo confiximus te in decimis et in primitivis",
-      "citation": "Malachi 3:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "et ecce nos hodie in captivitate nostra sumus quo nos dispersisti in inproperium et in maledictum et in peccatum secundum omnes iniquitates patrum nostrorum qui discesserunt a te Domine Deus noster",
       "citation": "Malachi 3:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Malachi 3:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "audi Israhel mandata vitae auribus percipite ut scias prudentiam",
-      "citation": "Malachi 3:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "inferte omnem decimam in horreum et sit cibus in domo mea et probate me super hoc dicit Dominus si non aperuero vobis cataractas caeli et effudero vobis benedictionem usque ad abundantiam",
-      "citation": "Malachi 3:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "quid est Israhel quid est quod in terra es inimicorum",
       "citation": "Malachi 3:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Malachi 3:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "inveterasti in terra aliena coinquinatus es cum mortuis deputatus es cum descendentibus in infernum",
-      "citation": "Malachi 3:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "et beatos vos dicent omnes gentes eritis enim vos terra desiderabilis dicit Dominus exercituum",
-      "citation": "Malachi 3:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "dereliquisti fontem sapientiae",
       "citation": "Malachi 3:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Malachi 3:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "si in via Dei ambulasses habitasses in pace sempiterna",
-      "citation": "Malachi 3:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "et dixistis quid locuti sumus contra te dixistis vanus est qui servit Deo et quod emolumentum quia custodivimus praecepta eius et quia ambulavimus tristes coram Domino exercituum",
-      "citation": "Malachi 3:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "disce ubi sit prudentia ubi sit virtus ubi sit intellectus ut scias simul ubi sit longiturnitas vitae et victus ubi sit lumen oculorum et pax",
       "citation": "Malachi 3:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Malachi 3:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "quis invenit locum eius et quis intravit in thesauros eius",
-      "citation": "Malachi 3:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "tunc locuti sunt timentes Deum unusquisque cum proximo suo et adtendit Dominus et audivit et scriptus est liber monumenti coram eo timentibus Dominum et cogitantibus nomen eius",
-      "citation": "Malachi 3:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "ubi sunt principes gentium et qui dominantur super bestias quae sunt super terram",
       "citation": "Malachi 3:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "Malachi 3:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "qui in avibus caeli inludunt",
-      "citation": "Malachi 3:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "et convertemini et videbitis quid sit inter iustum et impium et inter servientem Deo et non servientem ei",
-      "citation": "Malachi 3:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "qui argentum thesaurizant et aurum in quo confidebant homines et non est finis adquisitionis eorum qui argentum fabricant et solliciti sunt nec est inventio operum illorum",
       "citation": "Malachi 3:18 (Clementine Vulgate)"
     },
     {
@@ -218,28 +128,8 @@
       "citation": "Malachi 3:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "exterminati sunt et ad inferos descenderunt et alii loco eorum exsurrexerunt",
-      "citation": "Malachi 3:19 (Clementine Vulgate)"
-    },
-    {
-      "verse": 19,
-      "text": "hic liber mandatorum Dei et lex quae est in aeternum omnes qui tenent eam ad vitam qui autem dereliquerint eam in mortem",
-      "citation": "Malachi 3:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "et orietur vobis timentibus nomen meum sol iustitiae et sanitas in pinnis eius et egrediemini et salietis sicut vituli de armento",
-      "citation": "Malachi 3:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "iuvenes viderunt lumen et habitaverunt super terram viam autem disciplinae ignoraverunt",
-      "citation": "Malachi 3:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "convertere Iacob et adprehende eam ambula per viam ad splendorem eius contra lumen eius",
       "citation": "Malachi 3:20 (Clementine Vulgate)"
     },
     {
@@ -248,124 +138,14 @@
       "citation": "Malachi 3:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "neque intellexerunt semitas eius neque filii eorum susceperunt eam a facie ipsorum longe facta est",
-      "citation": "Malachi 3:21 (Clementine Vulgate)"
-    },
-    {
-      "verse": 21,
-      "text": "ne tradas altero gloriam tuam et dignitatem tuam genti alienae",
-      "citation": "Malachi 3:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "mementote legis Mosi servi mei quam mandavi ei in Choreb ad omnem Israhel praecepta et iudicia",
       "citation": "Malachi 3:22 (Clementine Vulgate)"
     },
     {
-      "verse": 22,
-      "text": "non est audita in terra Chanaan neque visa est in Theman",
-      "citation": "Malachi 3:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "beati sumus Israhel quoniam quae Deo placent nobis manifesta sunt",
-      "citation": "Malachi 3:22 (Clementine Vulgate)"
-    },
-    {
       "verse": 23,
-      "text": "ecce ego mittam vobis Heliam prophetam antequam veniat dies Domini magnus et horribilis Baruch",
+      "text": "ecce ego mittam vobis Heliam prophetam antequam veniat dies Domini magnus et horribilis",
       "citation": "Malachi 3:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "filii quoque Agar qui exquirunt prudentiam quae de terra est negotiatores Merrae et Theman et fabulatores et exquisitores intellegentiae viam autem sapientiae nescierunt neque commemorati sunt semitas eius",
-      "citation": "Malachi 3:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "animaequior esto populus Dei memorabilis Israhel",
-      "citation": "Malachi 3:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "o Israhel quam magna est domus Dei et ingens locus possessionis eius",
-      "citation": "Malachi 3:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "venundati estis gentibus non in perditionem sed propter quod in ira ad iracundiam provocastis Deum traditi estis adversariis",
-      "citation": "Malachi 3:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 25,
-      "text": "magnus et non habet finem excelsus et inmensus",
-      "citation": "Malachi 3:25 (Clementine Vulgate)"
-    },
-    {
-      "verse": 26,
-      "text": "ibi fuerunt gigantes nominati illi qui ab initio fuerunt statura magna scientes bellum",
-      "citation": "Malachi 3:26 (Clementine Vulgate)"
-    },
-    {
-      "verse": 27,
-      "text": "non hos elegit Deus neque viam disciplinae dedit illis et perierunt",
-      "citation": "Malachi 3:27 (Clementine Vulgate)"
-    },
-    {
-      "verse": 28,
-      "text": "eo quod non haberent sapientiam et perierunt propter insipientiam suam",
-      "citation": "Malachi 3:28 (Clementine Vulgate)"
-    },
-    {
-      "verse": 29,
-      "text": "quis ascendit in caelum et accepit eam et deduxit eam de nubibus",
-      "citation": "Malachi 3:29 (Clementine Vulgate)"
-    },
-    {
-      "verse": 30,
-      "text": "quis transfretavit mare et invenit illam et adtulit illam super aurum electum",
-      "citation": "Malachi 3:30 (Clementine Vulgate)"
-    },
-    {
-      "verse": 31,
-      "text": "non est qui possit scire viam eius neque qui exquirat semitas eius",
-      "citation": "Malachi 3:31 (Clementine Vulgate)"
-    },
-    {
-      "verse": 32,
-      "text": "sed qui scit universa novit eam et invenit eam prudentia sua qui praeparavit terram in aeterno tempore et replevit eam pecudibus et quadrupedibus",
-      "citation": "Malachi 3:32 (Clementine Vulgate)"
-    },
-    {
-      "verse": 33,
-      "text": "qui emittit lumen et vadit et vocavit illud et obaudit illi in tremore",
-      "citation": "Malachi 3:33 (Clementine Vulgate)"
-    },
-    {
-      "verse": 34,
-      "text": "stellae autem lumen dederunt in custodiis suis et laetatae sunt",
-      "citation": "Malachi 3:34 (Clementine Vulgate)"
-    },
-    {
-      "verse": 35,
-      "text": "vocatae sunt et dixerunt adsumus et luxerunt ei cum iucunditate qui fecit illas",
-      "citation": "Malachi 3:35 (Clementine Vulgate)"
-    },
-    {
-      "verse": 36,
-      "text": "hic Deus noster non aestimabitur alius adversus eum",
-      "citation": "Malachi 3:36 (Clementine Vulgate)"
-    },
-    {
-      "verse": 37,
-      "text": "hic adinvenit omnem viam disciplinae et tradidit illam Iacob puero suo et Israhel dilecto suo",
-      "citation": "Malachi 3:37 (Clementine Vulgate)"
-    },
-    {
-      "verse": 38,
-      "text": "post haec in terris visus est et cum hominibus conversatus est",
-      "citation": "Malachi 3:38 (Clementine Vulgate)"
     }
   ]
 }

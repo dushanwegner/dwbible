@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Nehemiah, Chapter 6 — 19 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Nehemiah",
+      "slug": "2-esdras-nehemias",
+      "testament": "OT",
+      "order": 16,
+      "totalChapters": 13
+    },
+    "chapter": 6,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-esdras-nehemias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-esdras-nehemias/5.json",
+      "nextChapter": "https://latinprayer.org/latin/2-esdras-nehemias/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-esdras-nehemias/6.json",
+      "german": "https://latinprayer.org/bibel/2-esdras-nehemias/6.json"
+    }
+  },
+  "citation": "Nehemiah 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "factum est autem cum audisset Sanaballat et Tobia et Gosem Arabs et ceteri inimici nostri quod aedificassem ego murum et non esset in ipso residua interruptio usque ad tempus autem illud valvas non posueram in portis",
+      "citation": "Nehemiah 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "miserunt Sanaballat et Gosem ad me dicentes veni et percutiamus foedus pariter in viculis in campo Ono ipsi autem cogitabant ut facerent mihi malum",
+      "citation": "Nehemiah 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "misi ergo ad eos nuntios dicens opus grande ego facio et non possum descendere ne forte neglegatur cum venero et descendero ad vos",
+      "citation": "Nehemiah 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "miserunt autem ad me secundum verbum hoc per quattuor vices et respondi eis iuxta sermonem priorem",
+      "citation": "Nehemiah 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et misit ad me Sanaballat iuxta verbum prius quinta vice puerum suum et epistulam habebat in manu scriptam hoc modo",
+      "citation": "Nehemiah 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "in gentibus auditum est et Gosem dixit quod tu et Iudaei cogitetis rebellare et propterea aedifices murum et levare te velis super eos regem propter quam causam",
+      "citation": "Nehemiah 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et prophetas posueris qui praedicent de te in Hierusalem dicentes rex in Iudaea est auditurus est rex verba haec idcirco nunc veni ut ineamus consilium pariter",
+      "citation": "Nehemiah 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et misi ad eos dicens non est factum secundum verba haec quae tu loqueris de corde enim tuo tu conponis haec",
+      "citation": "Nehemiah 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "omnes autem hii terrebant nos cogitantes quod cessarent manus nostrae ab opere et quiesceremus quam ob causam magis confortavi manus meas",
+      "citation": "Nehemiah 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ingressus sum domum Samaiae filii Dalaiae filii Metabehel secreto qui ait tractemus nobiscum in domo Dei in medio templi et claudamus portas aedis quia venturi sunt ut interficiant te et nocte venturi sunt ad occidendum te",
+      "citation": "Nehemiah 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dixi num quisquam similis mei fugit et quis ut ego ingredietur templum et vivet non ingrediar",
+      "citation": "Nehemiah 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et intellexi quod Deus non misisset eum sed quasi vaticinans locutus esset ad me et Tobia et Sanaballat conduxissent eum",
+      "citation": "Nehemiah 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "acceperat enim pretium ut territus facerem et peccarem et haberent malum quod exprobrarent mihi",
+      "citation": "Nehemiah 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "memento Domine mei pro Tobia et Sanaballat iuxta opera eorum talia sed et Noadiae prophetae et ceterorum prophetarum qui terrebant me",
+      "citation": "Nehemiah 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "conpletus est autem murus vicesimo quinto die mensis elul quinquaginta duobus diebus",
+      "citation": "Nehemiah 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "factum est ergo cum audissent omnes inimici nostri ut timerent universae gentes quae erant in circuitu nostro et conciderent intra semet ipsos et scirent quod a Deo factum esset opus hoc",
+      "citation": "Nehemiah 6:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sed et in diebus illis multae optimatium Iudaeorum epistulae mittebantur ad Tobiam et a Tobia veniebant ad eos",
+      "citation": "Nehemiah 6:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "multi enim erant in Iudaea habentes iuramentum eius quia gener erat Secheniae filii Orei et Iohanan filius eius acceperat filiam Mosollam filii Barachiae",
+      "citation": "Nehemiah 6:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "sed et laudabant eum coram me et verba mea nuntiabant ei et Tobias mittebat epistulas ut terreret me",
+      "citation": "Nehemiah 6:19 (Clementine Vulgate)"
+    }
+  ]
+}

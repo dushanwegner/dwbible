@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 94 — 46 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 94 — 23 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 94,
-    "verseCount": 46,
+    "verseCount": 23,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 94:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "Deus ultionum Domine Deus ultionum ostendere",
-      "citation": "Psalms 94:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "exaltare qui iudicas terram redde retributionem superbis",
-      "citation": "Psalms 94:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "elevare qui iudicas terram redde vicissitudinem superbis",
       "citation": "Psalms 94:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 94:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "usquequo impii Domine usquequo impii exultabunt",
-      "citation": "Psalms 94:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "effabuntur et loquentur iniquitatem loquentur omnes qui operantur iniustitiam",
-      "citation": "Psalms 94:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "fluent loquentes antiquum garrient omnes qui operantur iniquitatem",
       "citation": "Psalms 94:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 94:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "populum tuum Domine conterent et hereditatem tuam adfligent",
-      "citation": "Psalms 94:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "viduam et advenam interfecerunt et pupillos occiderunt",
-      "citation": "Psalms 94:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "viduam et advenam interficient et pupillos occident",
       "citation": "Psalms 94:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 94:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "et dixerunt non videbit Dominus et non intelleget Deus Iacob",
-      "citation": "Psalms 94:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "intellegite qui insipientes estis in populo et stulti aliquando sapite",
-      "citation": "Psalms 94:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "intellegite stulti in populo et insipientes aliquando discite",
       "citation": "Psalms 94:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 94:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "qui plantavit aurem non audiet aut qui finxit oculum non videbit",
-      "citation": "Psalms 94:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "qui corripit gentes non arguet qui docet hominem scientiam",
-      "citation": "Psalms 94:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "qui erudit gentes non arguet qui docet hominem scientiam",
       "citation": "Psalms 94:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 94:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "Dominus novit cogitationes hominum quia vanae sunt",
-      "citation": "Psalms 94:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "beatus homo quem tu erudieris Domine et de lege tua docueris eum",
-      "citation": "Psalms 94:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "beatus vir quem erudieris Domine et de lege tua docueris eum",
       "citation": "Psalms 94:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 94:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "ut quiescat a diebus adflictionis donec fodiatur impio interitus",
-      "citation": "Psalms 94:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "quia non repellet Dominus plebem suam et hereditatem suam non derelinquet",
-      "citation": "Psalms 94:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "non enim derelinquet Dominus populum suum et hereditatem suam non deseret",
       "citation": "Psalms 94:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Psalms 94:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "quoniam ad iustitiam revertetur iudicium et sequentur illud omnes recti corde",
-      "citation": "Psalms 94:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "quis consurget mihi adversus malignantes aut quis stabit mecum adversus operantes iniquitatem",
-      "citation": "Psalms 94:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "quis stabit pro me adversum malos quis stabit pro me adversum operarios iniquitatis",
       "citation": "Psalms 94:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "Psalms 94:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "nisi quia Dominus auxiliator meus paulo minus habitasset in inferno anima mea",
-      "citation": "Psalms 94:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "si dicebam motus est pes meus misericordia tua Domine adiuvabat me",
-      "citation": "Psalms 94:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "si dicebam commotus est pes meus misericordia tua Domine sustentabat me",
       "citation": "Psalms 94:18 (Clementine Vulgate)"
     },
     {
@@ -218,18 +128,8 @@
       "citation": "Psalms 94:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "in multitudine cogitationum mearum quae sunt in me intrinsecus consolationes tuae delectabunt animam meam",
-      "citation": "Psalms 94:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "numquid aderit tibi sedis iniquitatis qui fingis dolorem in praecepto",
-      "citation": "Psalms 94:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "numquid particeps erit tui thronus insidiarum fingens laborem in praecepto",
       "citation": "Psalms 94:20 (Clementine Vulgate)"
     },
     {
@@ -238,28 +138,13 @@
       "citation": "Psalms 94:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "copulabuntur adversus animam iusti et sanguinem innocentem condemnabunt",
-      "citation": "Psalms 94:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "et factus est Dominus mihi in refugium et Deus meus in adiutorem spei meae",
       "citation": "Psalms 94:22 (Clementine Vulgate)"
     },
     {
-      "verse": 22,
-      "text": "erit autem Dominus mihi in refugium et Deus meus quasi petra spei meae",
-      "citation": "Psalms 94:22 (Clementine Vulgate)"
-    },
-    {
       "verse": 23,
       "text": "et reddet illis iniquitatem ipsorum et in malitia eorum disperdet eos disperdet illos Dominus Deus noster",
-      "citation": "Psalms 94:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "et restitues super eos iniquitatem suam et in malitia sua perdes eos perdet eos Dominus Deus noster",
       "citation": "Psalms 94:23 (Clementine Vulgate)"
     }
   ]

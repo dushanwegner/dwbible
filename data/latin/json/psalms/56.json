@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 56 — 26 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 56 — 13 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 56,
-    "verseCount": 26,
+    "verseCount": 13,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 56:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "miserere mei Deus quoniam conculcavit me homo tota die pugnans tribulavit me",
-      "citation": "Psalms 56:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "pro victoria ut non disperdas David humilem et simplicem quando fugit a facie Saul in spelunca",
-      "citation": "Psalms 56:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "conculcaverunt me inimici mei tota die quoniam multi bellantes adversum me",
-      "citation": "Psalms 56:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "conculcaverunt me insidiatores mei tota die multi enim qui pugnant contra me Altissime",
       "citation": "Psalms 56:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 56:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "quacumque die territus fuero ego in te confidam",
-      "citation": "Psalms 56:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "in Deo laudabo sermones meos in Deo speravi non timebo quid faciat mihi caro",
-      "citation": "Psalms 56:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "in Deo laudavi verbum in Deo speravi non timebo quid faciat caro mihi",
       "citation": "Psalms 56:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 56:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "tota die sermonibus me adfligebant contra me omnes cogitationes eorum in malum",
-      "citation": "Psalms 56:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "inhabitabunt et abscondent ipsi calcaneum meum observabunt sicut sustinuerunt animam meam",
-      "citation": "Psalms 56:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "congregabuntur abscondite plantas meas observabunt expectantes animam meam",
       "citation": "Psalms 56:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 56:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "quia nullus est salvus in eis in furore populos detrahet Deus",
-      "citation": "Psalms 56:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "vitam meam adnuntiavi tibi posuisti lacrimas meas in conspectu tuo sicut et in promissione tua",
-      "citation": "Psalms 56:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "secretiora mea numerasti pone lacrimam meam in conspectu tuo sed non in narratione tua",
       "citation": "Psalms 56:8 (Clementine Vulgate)"
     },
     {
@@ -128,38 +83,18 @@
       "citation": "Psalms 56:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "tunc convertentur inimici mei retrorsum in quacumque die invocavero hoc scio quia Deus meus es",
-      "citation": "Psalms 56:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "in Deo laudabo verbum in Domino laudabo sermonem in Deo speravi non timebo quid faciat mihi homo",
       "citation": "Psalms 56:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "in Deo laudabo verbum in Domino praedicabo sermonem in Deo speravi non timebo quid faciat homo mihi",
-      "citation": "Psalms 56:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
-      "text": "in me sunt Deus vota *tua; % quae; reddam laudationes tibi",
-      "citation": "Psalms 56:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "in me sunt Deus vota tua reddam gratiarum actiones tibi",
+      "text": "in me sunt Deus vota *tua; reddam laudationes tibi",
       "citation": "Psalms 56:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
       "text": "quoniam eripuisti animam meam de morte et pedes meos de lapsu ut placeam coram Deo in lumine viventium",
-      "citation": "Psalms 56:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "quia liberasti animam meam de morte et pedes meos de lapsu ut ambulem coram Deo in luce viventium",
       "citation": "Psalms 56:13 (Clementine Vulgate)"
     }
   ]

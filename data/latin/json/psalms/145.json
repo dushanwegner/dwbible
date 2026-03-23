@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 145 — 42 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 145 — 21 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 145,
-    "verseCount": 42,
+    "verseCount": 21,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 145:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "hymnus David aleph exaltabo te Deus meus rex et benedicam nomini tuo in aeternum et ultra",
-      "citation": "Psalms 145:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "per singulos dies benedicam tibi et laudabo nomen tuum in saeculum et in saeculum saeculi",
-      "citation": "Psalms 145:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "beth in omni die benedicam tibi et laudabo nomen tuum in sempiternum iugiter",
       "citation": "Psalms 145:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 145:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "gimel magnus Deus et laudabilis nimis et magnificentiae eius non est inventio",
-      "citation": "Psalms 145:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "generatio et generatio laudabit opera tua et potentiam tuam pronuntiabunt",
-      "citation": "Psalms 145:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "deleth generatio ad generationem laudabit opera tua et fortitudines tuas adnuntiabunt",
       "citation": "Psalms 145:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 145:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "he decorem gloriae magnitudinis tuae et verba mirabilium tuorum loquar",
-      "citation": "Psalms 145:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "et virtutem terribilium tuorum dicent et magnitudinem tuam narrabunt",
-      "citation": "Psalms 145:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "vav et fortitudinem horribilium tuorum loquentur et magnitudines tuas narrabo",
       "citation": "Psalms 145:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 145:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "zai memoriam multae bonitatis tuae loquentur et iustitias tuas laudabunt",
-      "citation": "Psalms 145:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "miserator et misericors Dominus patiens et multum misericors",
-      "citation": "Psalms 145:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "heth clemens et misericors Dominus patiens et multae miserationis",
       "citation": "Psalms 145:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 145:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "teth bonus Dominus omnibus et misericordiae eius in universa opera eius",
-      "citation": "Psalms 145:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "confiteantur tibi Domine omnia opera tua et sancti tui confiteantur tibi",
-      "citation": "Psalms 145:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "ioth confiteantur tibi Domine omnia opera tua et sancti tui benedicant tibi",
       "citation": "Psalms 145:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 145:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "caph gloriam regni tui dicent et fortitudines tuas loquentur",
-      "citation": "Psalms 145:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "ut notam faciant filiis hominum potentiam tuam et gloriam magnificentiae regni tui",
-      "citation": "Psalms 145:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "lameth ut ostendant filiis hominum fortitudines eius et gloriam decoris regni eius",
       "citation": "Psalms 145:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 145:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "mem regnum tuum regnum omnium saeculorum et potestas tua in omni generatione et generatione",
-      "citation": "Psalms 145:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "adlevat Dominus omnes qui corruunt et erigit omnes elisos",
-      "citation": "Psalms 145:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "samech sustentat Dominus omnes corruentes et erigit universos iacentes",
       "citation": "Psalms 145:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Psalms 145:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "ain oculi eorum in te sperant et tu das eis escam suam in tempore suo",
-      "citation": "Psalms 145:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "aperis tu manum tuam et imples omne animal benedictione",
-      "citation": "Psalms 145:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "fe aperis manus tuas et imples omne animal refectione",
       "citation": "Psalms 145:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "Psalms 145:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "sade iustus Dominus in omnibus viis suis et sanctus in omnibus operibus suis",
-      "citation": "Psalms 145:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "prope est Dominus omnibus invocantibus eum omnibus invocantibus eum in veritate",
-      "citation": "Psalms 145:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "coph iuxta est Dominus omnibus qui invocant eum omnibus qui invocant eum in veritate",
       "citation": "Psalms 145:18 (Clementine Vulgate)"
     },
     {
@@ -218,28 +128,13 @@
       "citation": "Psalms 145:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "res placitum timentium se faciet et clamorem eorum audiet et salvabit eos",
-      "citation": "Psalms 145:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "custodit Dominus omnes diligentes se et omnes peccatores disperdet",
       "citation": "Psalms 145:20 (Clementine Vulgate)"
     },
     {
-      "verse": 20,
-      "text": "sen custodit Dominus omnes diligentes se et universos impios conteret",
-      "citation": "Psalms 145:20 (Clementine Vulgate)"
-    },
-    {
       "verse": 21,
       "text": "laudationem Domini loquetur os meum et benedicat omnis caro nomini sancto eius in saeculum et in saeculum saeculi",
-      "citation": "Psalms 145:21 (Clementine Vulgate)"
-    },
-    {
-      "verse": 21,
-      "text": "thau laudem Domini loquetur os meum et benedicet omnis caro nomini sancto eius in aeternum et iugiter",
       "citation": "Psalms 145:21 (Clementine Vulgate)"
     }
   ]

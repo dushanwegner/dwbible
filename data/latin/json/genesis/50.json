@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 50 — 24 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 50,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/genesis/49.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/50.json",
+      "german": "https://latinprayer.org/bibel/genesis/50.json"
+    }
+  },
+  "citation": "Genesis 50 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quod cernens Ioseph ruit super faciem patris flens et deosculans eum",
+      "citation": "Genesis 50:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "praecepitque servis suis medicis ut aromatibus condirent patrem",
+      "citation": "Genesis 50:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quibus iussa explentibus transierunt quadraginta dies iste quippe mos erat cadaverum conditorum flevitque eum Aegyptus septuaginta diebus",
+      "citation": "Genesis 50:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et expleto planctus tempore locutus est Ioseph ad familiam Pharaonis si inveni gratiam in conspectu vestro loquimini in auribus Pharaonis",
+      "citation": "Genesis 50:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "eo quod pater meus adiuraverit me dicens en morior in sepulchro meo quod fodi mihi in terra Chanaan sepelies me ascendam igitur et sepeliam patrem meum ac revertar",
+      "citation": "Genesis 50:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dixitque ei Pharao ascende et sepeli patrem tuum sicut adiuratus es",
+      "citation": "Genesis 50:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quo ascendente ierunt cum eo omnes senes domus Pharaonis cunctique maiores natu terrae Aegypti",
+      "citation": "Genesis 50:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "domus Ioseph cum fratribus suis absque parvulis et gregibus atque armentis quae dereliquerant in terra Gessen",
+      "citation": "Genesis 50:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "habuit quoque in comitatu currus et equites et facta est turba non modica",
+      "citation": "Genesis 50:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "veneruntque ad aream Atad quae sita est trans Iordanem ubi celebrantes exequias planctu magno atque vehementi impleverunt septem dies",
+      "citation": "Genesis 50:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quod cum vidissent habitatores terrae Chanaan dixerunt planctus magnus est iste Aegyptiis et idcirco appellaverunt nomen loci illius Planctus Aegypti",
+      "citation": "Genesis 50:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "fecerunt ergo filii Iacob sicut praeceperat eis",
+      "citation": "Genesis 50:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et portantes eum in terram Chanaan sepelierunt in spelunca duplici quam emerat Abraham cum agro in possessionem sepulchri ab Ephron Hettheo contra faciem Mambre",
+      "citation": "Genesis 50:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "reversusque est Ioseph in Aegyptum cum fratribus suis et omni comitatu sepulto patre",
+      "citation": "Genesis 50:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quo mortuo timentes fratres eius et mutuo conloquentes ne forte memor sit iniuriae quam passus est et reddat nobis malum omne quod fecimus",
+      "citation": "Genesis 50:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "mandaverunt ei pater tuus praecepit nobis antequam moreretur",
+      "citation": "Genesis 50:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "ut haec tibi verbis illius diceremus obsecro ut obliviscaris sceleris fratrum tuorum et peccati atque malitiae quam exercuerunt in te nos quoque oramus ut servis Dei patris tui dimittas iniquitatem hanc quibus auditis flevit Ioseph",
+      "citation": "Genesis 50:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "veneruntque ad eum fratres sui et proni in terram dixerunt servi tui sumus",
+      "citation": "Genesis 50:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quibus ille respondit nolite timere num Dei possumus rennuere voluntatem",
+      "citation": "Genesis 50:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "vos cogitastis de me malum et Deus vertit illud in bonum ut exaltaret me sicut inpraesentiarum cernitis et salvos faceret multos populos",
+      "citation": "Genesis 50:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "nolite metuere ego pascam vos et parvulos vestros consolatusque est eos et blande ac leniter est locutus",
+      "citation": "Genesis 50:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et habitavit in Aegypto cum omni domo patris sui vixitque centum decem annis et vidit Ephraim filios usque ad tertiam generationem filii quoque Machir filii Manasse nati sunt in genibus Ioseph",
+      "citation": "Genesis 50:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "quibus transactis locutus est fratribus suis post mortem meam Deus visitabit vos et ascendere faciet de terra ista ad terram quam iuravit Abraham Isaac et Iacob",
+      "citation": "Genesis 50:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "cumque adiurasset eos atque dixisset Deus visitabit vos asportate vobiscum ossa mea de loco isto",
+      "citation": "Genesis 50:25 (Clementine Vulgate)"
+    }
+  ]
+}

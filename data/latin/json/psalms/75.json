@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 75 — 22 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 75 — 11 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 75,
-    "verseCount": 22,
+    "verseCount": 11,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,21 +43,6 @@
       "citation": "Psalms 75:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "confitebimur tibi Deus confitebimur et iuxta nomen tuum narrabunt mirabilia tua",
-      "citation": "Psalms 75:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori in psalmis canticum Asaph carminis",
-      "citation": "Psalms 75:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "cum accepero tempus ego iustitias iudicabo",
-      "citation": "Psalms 75:2 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "cum accepero tempus ego iustitias iudicabo",
       "citation": "Psalms 75:2 (Clementine Vulgate)"
@@ -68,18 +53,8 @@
       "citation": "Psalms 75:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "dissolvetur terra cum omnibus habitatoribus suis ego adpendi columnas eius semper",
-      "citation": "Psalms 75:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "dixi iniquis nolite inique facere et delinquentibus nolite exaltare cornu",
-      "citation": "Psalms 75:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "dixi inique agentibus nolite inique agere et impiis nolite exaltare cornu",
       "citation": "Psalms 75:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 75:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "nolite exaltare in excelsum cornu vestrum loquentes in cervice veteri",
-      "citation": "Psalms 75:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "quia neque ab oriente neque ab occidente neque a desertis montibus",
-      "citation": "Psalms 75:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "quia nec ab oriente neque ab occidente neque a solitudine montium",
       "citation": "Psalms 75:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 75:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "sed Deus iudex hunc humiliabit et hunc exaltabit",
-      "citation": "Psalms 75:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "quia calix in manu Domini vini meri plenus mixto et inclinavit ex hoc in hoc verum fex eius non est exinanita bibent omnes peccatores terrae",
-      "citation": "Psalms 75:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "quia calix in manu Domini est et vino meraco usque ad plenum mixtus et propinabit ex eo verumtamen feces eius epotabunt bibentes omnes impii terrae",
       "citation": "Psalms 75:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 75:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "ego autem adnuntiabo in sempiternum cantabo Deo Iacob",
-      "citation": "Psalms 75:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "et omnia cornua peccatorum confringam et exaltabuntur cornua iusti",
-      "citation": "Psalms 75:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "et omnia cornua impiorum confringam exaltabuntur cornua iusti",
       "citation": "Psalms 75:10 (Clementine Vulgate)"
     }
   ]

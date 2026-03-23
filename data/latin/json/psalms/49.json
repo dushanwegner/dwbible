@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 49 — 40 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 49 — 20 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 49,
-    "verseCount": 40,
+    "verseCount": 20,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 49:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "audite hoc omnes populi auribus percipite universi habitatores occidentis",
-      "citation": "Psalms 49:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "quique terriginae et filii hominum in unum dives et pauper",
-      "citation": "Psalms 49:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "tam filii Adam quam filii singulorum simul dives et pauper",
       "citation": "Psalms 49:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 49:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "os meum loquitur sapientias et meditatio cordis mei prudentias",
-      "citation": "Psalms 49:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "inclinabo in parabolam aurem meam aperiam in psalterio propositionem meam",
-      "citation": "Psalms 49:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "inclino ad parabulam aurem meam aperiam in cithara enigma meum",
       "citation": "Psalms 49:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 49:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "quare timebo in diebus mali iniquitas calcanei mei circumdabit me",
-      "citation": "Psalms 49:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "qui confidunt in virtute sua et in multitudine divitiarum suarum gloriantur",
-      "citation": "Psalms 49:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "qui fiduciam habent in fortitudine sua et in multitudine divitiarum suarum superbiunt",
       "citation": "Psalms 49:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 49:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "fratrem redimens non redimet vir nec dabit Deo propitiationem pro eo",
-      "citation": "Psalms 49:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "et pretium redemptionis animae suae et laboravit in aeternum",
-      "citation": "Psalms 49:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "neque pretium redemptionis animae eorum sed quiescet in saeculo",
       "citation": "Psalms 49:8 (Clementine Vulgate)"
     },
     {
@@ -118,28 +78,13 @@
       "citation": "Psalms 49:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "et vivet ultra in sempiternum",
-      "citation": "Psalms 49:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "non videbit interitum cum viderit sapientes morientes simul insipiens et stultus peribunt et relinquent alienis divitias suas",
       "citation": "Psalms 49:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "et non videbit interitum cum viderit sapientes morientes simul insipiens et indoctus peribunt et derelinquent alienis divitias suas",
-      "citation": "Psalms 49:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
-      "text": "%et; sepulchra eorum domus illorum in aeternum tabernacula eorum in progeniem et progeniem vocaverunt nomina sua in terris suis",
-      "citation": "Psalms 49:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "interiora sua domus suas in saeculo tabernacula sua in generatione et generatione vocaverunt nominibus suis terras suas",
+      "text": "sepulchra eorum domus illorum in aeternum tabernacula eorum in progeniem et progeniem vocaverunt nomina sua in terris suis",
       "citation": "Psalms 49:11 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 49:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "et homo in honore non commorabitur adsimilatus est iumentis et exaequatus est",
-      "citation": "Psalms 49:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "haec via illorum scandalum ipsis et postea in ore suo conplacebunt diapsalma",
-      "citation": "Psalms 49:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "haec est via insipientiae eorum et post eos iuxta os eorum current semper",
       "citation": "Psalms 49:13 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 49:14 (Clementine Vulgate)"
     },
     {
-      "verse": 14,
-      "text": "quasi grex in inferno positi sunt mors pascet eos et subicient eos recti in matutino et figura eorum conteretur in inferno post habitaculum suum",
-      "citation": "Psalms 49:14 (Clementine Vulgate)"
-    },
-    {
       "verse": 15,
       "text": "verumtamen Deus redimet animam meam de manu inferi cum acceperit me diapsalma",
-      "citation": "Psalms 49:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "verumtamen Deus redimet animam meam de manu inferi cum adsumpserit me semper",
       "citation": "Psalms 49:15 (Clementine Vulgate)"
     },
     {
@@ -188,18 +113,8 @@
       "citation": "Psalms 49:16 (Clementine Vulgate)"
     },
     {
-      "verse": 16,
-      "text": "noli timere cum ditatus fuerit vir cum multiplicata fuerit gloria domus eius",
-      "citation": "Psalms 49:16 (Clementine Vulgate)"
-    },
-    {
       "verse": 17,
       "text": "quoniam cum interierit non sumet omnia neque descendet cum eo *pone; gloria eius",
-      "citation": "Psalms 49:17 (Clementine Vulgate)"
-    },
-    {
-      "verse": 17,
-      "text": "neque enim moriens tollet omnia nec descendet post eum gloria eius",
       "citation": "Psalms 49:17 (Clementine Vulgate)"
     },
     {
@@ -208,28 +123,13 @@
       "citation": "Psalms 49:18 (Clementine Vulgate)"
     },
     {
-      "verse": 18,
-      "text": "quia animae suae in vita sua benedicet laudabunt inquient te cum benefeceris tibi",
-      "citation": "Psalms 49:18 (Clementine Vulgate)"
-    },
-    {
       "verse": 19,
       "text": "introibit usque in progenies patrum suorum usque in aeternum non videbit lumen",
       "citation": "Psalms 49:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "intrabit usque ad generationes patrum suorum usque ad finem non videbunt lucem",
-      "citation": "Psalms 49:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
-      "text": "homo in honore cum esset non intellexit conparatus est iumentis %insipientibus; et similis factus est illis",
-      "citation": "Psalms 49:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "homo cum in honore esset non intellexit conparavit se iumentis et silebitur",
+      "text": "homo in honore cum esset non intellexit conparatus est iumentis et similis factus est illis",
       "citation": "Psalms 49:20 (Clementine Vulgate)"
     }
   ]

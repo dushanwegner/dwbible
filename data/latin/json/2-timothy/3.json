@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "2 Timothy, Chapter 3 — 14 verses (Clementine Vulgate)",
+    "content": "2 Timothy, Chapter 3 — 17 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "2-timothy",
       "testament": "NT",
       "order": 62,
-      "totalChapters": 7
+      "totalChapters": 4
     },
     "chapter": 3,
-    "verseCount": 14,
+    "verseCount": 17,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/2-timothy/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,73 +34,88 @@
   "verses": [
     {
       "verse": 1,
-      "text": "admone illos principibus et potestatibus subditos esse dicto oboedire ad omne opus bonum paratos esse",
+      "text": "hoc autem scito quod in novissimis diebus instabunt tempora periculosa",
       "citation": "2 Timothy 3:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "neminem blasphemare non litigiosos esse modestos omnem ostendentes mansuetudinem ad omnes homines",
+      "text": "et erunt homines se ipsos amantes cupidi elati superbi blasphemi parentibus inoboedientes ingrati scelesti",
       "citation": "2 Timothy 3:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "eramus enim et nos aliquando insipientes increduli errantes servientes desideriis et voluptatibus variis in malitia et invidia agentes odibiles odientes invicem",
+      "text": "sine affectione sine pace criminatores incontinentes inmites sine benignitate",
       "citation": "2 Timothy 3:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "cum autem benignitas et humanitas apparuit salvatoris nostri Dei",
+      "text": "proditores protervi tumidi voluptatium amatores magis quam Dei",
       "citation": "2 Timothy 3:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "non ex operibus iustitiae quae fecimus nos sed secundum suam misericordiam salvos nos fecit per lavacrum regenerationis et renovationis Spiritus Sancti",
+      "text": "habentes speciem quidem pietatis virtutem autem eius abnegantes et hos devita",
       "citation": "2 Timothy 3:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "quem effudit in nos abunde per Iesum Christum salvatorem nostrum",
+      "text": "ex his enim sunt qui penetrant domos et captivas ducunt mulierculas oneratas peccatis quae ducuntur variis desideriis",
       "citation": "2 Timothy 3:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "ut iustificati gratia ipsius heredes simus secundum spem vitae aeternae",
+      "text": "semper discentes et numquam ad scientiam veritatis pervenientes",
       "citation": "2 Timothy 3:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "fidelis sermo est et de his volo te confirmare ut curent bonis operibus praeesse qui credunt Deo haec sunt bona et utilia hominibus",
+      "text": "quemadmodum autem Iannes et Mambres restiterunt Mosi ita et hii resistunt veritati homines corrupti mente reprobi circa fidem",
       "citation": "2 Timothy 3:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "stultas autem quaestiones et genealogias et contentiones et pugnas legis devita sunt enim inutiles et vanae",
+      "text": "sed ultra non proficient insipientia enim eorum manifesta erit omnibus sicut et illorum fuit",
       "citation": "2 Timothy 3:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "hereticum hominem post unam et secundam correptionem devita",
+      "text": "tu autem adsecutus es meam doctrinam institutionem propositum fidem longanimitatem dilectionem patientiam",
       "citation": "2 Timothy 3:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "sciens quia subversus est qui eiusmodi est et delinquit proprio iudicio condemnatus",
+      "text": "persecutiones passiones qualia mihi facta sunt Antiochiae Iconii Lystris quales persecutiones sustinui et ex omnibus me eripuit Dominus",
       "citation": "2 Timothy 3:11 (Clementine Vulgate)"
     },
     {
       "verse": 12,
-      "text": "cum misero ad te Arteman aut Tychicum festina ad me venire Nicopolim ibi enim statui hiemare",
+      "text": "et omnes qui volunt pie vivere in Christo Iesu persecutionem patientur",
       "citation": "2 Timothy 3:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
-      "text": "Zenan legis peritum et Apollo sollicite praemitte ut nihil illis desit",
+      "text": "mali autem homines et seductores proficient in peius errantes et in errorem mittentes",
       "citation": "2 Timothy 3:13 (Clementine Vulgate)"
     },
     {
       "verse": 14,
-      "text": "discant autem et nostri bonis operibus praeesse ad usus necessarios ut non sint infructuosi",
+      "text": "tu vero permane in his quae didicisti et credita sunt tibi sciens a quo didiceris",
       "citation": "2 Timothy 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et quia ab infantia sacras litteras nosti quae te possint instruere ad salutem per fidem quae est in Christo Iesu",
+      "citation": "2 Timothy 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "omnis scriptura divinitus inspirata et utilis ad docendum ad arguendum ad corrigendum ad erudiendum in iustitia",
+      "citation": "2 Timothy 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "ut perfectus sit homo Dei ad omne opus bonum instructus",
+      "citation": "2 Timothy 3:17 (Clementine Vulgate)"
     }
   ]
 }

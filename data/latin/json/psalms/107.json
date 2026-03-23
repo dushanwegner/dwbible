@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 107 — 88 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 107 — 44 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 107,
-    "verseCount": 88,
+    "verseCount": 44,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 107:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "confitemini Domino quoniam bonus quoniam in aeternum misericordia eius",
-      "citation": "Psalms 107:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "canticum psalmi David",
-      "citation": "Psalms 107:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "dicant qui redempti sunt a Domino quos redemit de manu inimici de regionibus congregavit eos",
-      "citation": "Psalms 107:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "dicant qui redempti sunt a Domino quos redemit de manu hostis et de terris congregavit eos",
       "citation": "Psalms 107:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 107:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "ab oriente et ab occidente ab aquilone et mari",
-      "citation": "Psalms 107:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "erraverunt in solitudine in inaquoso viam civitatis habitaculi non invenerunt",
-      "citation": "Psalms 107:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "erraverunt in solitudine in deserta via civitatem quae habitaretur non reppererunt",
       "citation": "Psalms 107:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 107:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "esurientes et sitientes anima eorum in ipsis deficiebat",
-      "citation": "Psalms 107:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "et clamaverunt ad Dominum cum tribularentur et de necessitatibus eorum eripuit eos",
-      "citation": "Psalms 107:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "et clamaverunt ad Dominum in tribulatione sua de adflictione eorum eripuit eos",
       "citation": "Psalms 107:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 107:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "et duxit illos per viam rectam ut venirent in civitatem habitabilem",
-      "citation": "Psalms 107:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "confiteantur Domino misericordiae eius et mirabilia eius filiis hominum",
-      "citation": "Psalms 107:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "confiteantur Domino misericordiam eius et mirabilia eius in filios hominum",
       "citation": "Psalms 107:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 107:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "quia saturavit animam vacuam et animam esurientem implevit bonis",
-      "citation": "Psalms 107:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "sedentes in tenebris et umbra mortis vinctos in mendicitate et ferro",
-      "citation": "Psalms 107:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "habitantes in tenebris et umbra mortis alligatos inopia et ferro",
       "citation": "Psalms 107:10 (Clementine Vulgate)"
     },
     {
@@ -148,34 +93,14 @@
       "citation": "Psalms 107:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "quia provocaverunt sermones Dei et consilium Excelsi blasphemaverunt",
-      "citation": "Psalms 107:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "et humiliatum est in laboribus cor eorum infirmati sunt nec fuit qui adiuvaret",
-      "citation": "Psalms 107:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "et humiliavit in labore cor eorum ceciderunt et non erat qui adiuvaret",
       "citation": "Psalms 107:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
       "text": "et clamaverunt ad Dominum cum tribularentur et de necessitatibus eorum liberavit eos",
       "citation": "Psalms 107:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "et clamaverunt ad Dominum in tribulatione sua et de angustiis eorum salvavit eos",
-      "citation": "Psalms 107:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "et eduxit eos de tenebris et umbra mortis et vincula eorum disrupit",
-      "citation": "Psalms 107:14 (Clementine Vulgate)"
     },
     {
       "verse": 14,
@@ -186,16 +111,6 @@
       "verse": 15,
       "text": "confiteantur Domino misericordiae eius et mirabilia eius filiis hominum",
       "citation": "Psalms 107:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "confiteantur Domino misericordiam eius et mirabilia eius in filios hominum",
-      "citation": "Psalms 107:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "quia contrivit portas aereas et vectes ferreos confregit",
-      "citation": "Psalms 107:16 (Clementine Vulgate)"
     },
     {
       "verse": 16,
@@ -208,18 +123,8 @@
       "citation": "Psalms 107:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "stultos propter viam sceleris eorum et propter iniquitates adflictos",
-      "citation": "Psalms 107:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "omnem escam abominata est anima eorum et adpropinquaverunt usque ad portas mortis",
-      "citation": "Psalms 107:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "omnem cibum abominata est anima eorum et accesserunt ad portas mortis",
       "citation": "Psalms 107:18 (Clementine Vulgate)"
     },
     {
@@ -228,18 +133,8 @@
       "citation": "Psalms 107:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "et clamaverunt ad Dominum in tribulatione sua de angustiis eorum salvavit eos",
-      "citation": "Psalms 107:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "misit verbum suum et sanavit eos et eripuit eos de interitionibus eorum",
-      "citation": "Psalms 107:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "misit verbum suum et sanavit eos et salvavit de interitu",
       "citation": "Psalms 107:20 (Clementine Vulgate)"
     },
     {
@@ -248,34 +143,14 @@
       "citation": "Psalms 107:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "confiteantur Domino misericordiam eius et mirabilia eius in filios hominum",
-      "citation": "Psalms 107:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "et sacrificent sacrificium laudis et adnuntient opera eius in exultatione",
-      "citation": "Psalms 107:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "et immolent hostias gratiarum et narrent opera eius in laude",
       "citation": "Psalms 107:22 (Clementine Vulgate)"
     },
     {
       "verse": 23,
       "text": "qui descendunt mare in navibus facientes operationem in aquis multis",
       "citation": "Psalms 107:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "qui descendunt in mare navibus facientes opus in aquis multis",
-      "citation": "Psalms 107:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "ipsi viderunt opera Domini et mirabilia eius in profundo",
-      "citation": "Psalms 107:24 (Clementine Vulgate)"
     },
     {
       "verse": 24,
@@ -288,18 +163,8 @@
       "citation": "Psalms 107:25 (Clementine Vulgate)"
     },
     {
-      "verse": 25,
-      "text": "dixit et surrexit ventus tempestatis et elevavit gurgites eius",
-      "citation": "Psalms 107:25 (Clementine Vulgate)"
-    },
-    {
       "verse": 26,
       "text": "ascendunt usque ad caelos et descendunt usque ad abyssos anima eorum in malis tabescebat",
-      "citation": "Psalms 107:26 (Clementine Vulgate)"
-    },
-    {
-      "verse": 26,
-      "text": "ascendunt in caelum et descendunt in abyssos anima eorum in adflictione consumitur",
       "citation": "Psalms 107:26 (Clementine Vulgate)"
     },
     {
@@ -308,28 +173,13 @@
       "citation": "Psalms 107:27 (Clementine Vulgate)"
     },
     {
-      "verse": 27,
-      "text": "obstipuerunt et intremuerunt quasi ebrius et universa sapientia eorum absorta est",
-      "citation": "Psalms 107:27 (Clementine Vulgate)"
-    },
-    {
       "verse": 28,
       "text": "et clamaverunt ad Dominum cum tribularentur et de necessitatibus eorum eduxit eos",
       "citation": "Psalms 107:28 (Clementine Vulgate)"
     },
     {
-      "verse": 28,
-      "text": "clamabunt autem ad Dominum in tribulatione sua et de angustia educet eos",
-      "citation": "Psalms 107:28 (Clementine Vulgate)"
-    },
-    {
       "verse": 29,
-      "text": "et statuit procellam %eius; in auram et siluerunt fluctus eius",
-      "citation": "Psalms 107:29 (Clementine Vulgate)"
-    },
-    {
-      "verse": 29,
-      "text": "statuet turbinem in tranquillitatem et silebunt fluctus eius",
+      "text": "et statuit procellam in auram et siluerunt fluctus eius",
       "citation": "Psalms 107:29 (Clementine Vulgate)"
     },
     {
@@ -338,18 +188,8 @@
       "citation": "Psalms 107:30 (Clementine Vulgate)"
     },
     {
-      "verse": 30,
-      "text": "laetabuntur quoniam quieverunt et deducet eos ad portum quem voluerunt",
-      "citation": "Psalms 107:30 (Clementine Vulgate)"
-    },
-    {
       "verse": 31,
       "text": "confiteantur Domino misericordiae eius et mirabilia eius filiis hominum",
-      "citation": "Psalms 107:31 (Clementine Vulgate)"
-    },
-    {
-      "verse": 31,
-      "text": "confiteantur Domino misericordiam eius et mirabilia eius in filios hominum",
       "citation": "Psalms 107:31 (Clementine Vulgate)"
     },
     {
@@ -358,18 +198,8 @@
       "citation": "Psalms 107:32 (Clementine Vulgate)"
     },
     {
-      "verse": 32,
-      "text": "et exaltent eum in ecclesia populi et in cathedra seniorum laudent eum",
-      "citation": "Psalms 107:32 (Clementine Vulgate)"
-    },
-    {
       "verse": 33,
       "text": "posuit flumina in desertum et exitus aquarum in sitim",
-      "citation": "Psalms 107:33 (Clementine Vulgate)"
-    },
-    {
-      "verse": 33,
-      "text": "ponet flumina in desertum et fontes aquarum in sitim",
       "citation": "Psalms 107:33 (Clementine Vulgate)"
     },
     {
@@ -378,18 +208,8 @@
       "citation": "Psalms 107:34 (Clementine Vulgate)"
     },
     {
-      "verse": 34,
-      "text": "terram fructiferam in salsuginem prae malitia habitatorum eius",
-      "citation": "Psalms 107:34 (Clementine Vulgate)"
-    },
-    {
       "verse": 35,
       "text": "posuit desertum in stagna aquarum et terram sine aqua in exitus aquarum",
-      "citation": "Psalms 107:35 (Clementine Vulgate)"
-    },
-    {
-      "verse": 35,
-      "text": "ponet desertum in paludes aquarum et terram inviam in fontes aquarum",
       "citation": "Psalms 107:35 (Clementine Vulgate)"
     },
     {
@@ -398,18 +218,8 @@
       "citation": "Psalms 107:36 (Clementine Vulgate)"
     },
     {
-      "verse": 36,
-      "text": "et conlocabit ibi esurientes et fundabunt urbem ad habitandum",
-      "citation": "Psalms 107:36 (Clementine Vulgate)"
-    },
-    {
       "verse": 37,
       "text": "et seminaverunt agros et plantaverunt vineas et fecerunt fructum nativitatis",
-      "citation": "Psalms 107:37 (Clementine Vulgate)"
-    },
-    {
-      "verse": 37,
-      "text": "et serent agros et plantabunt vineas et facient fruges genimina",
       "citation": "Psalms 107:37 (Clementine Vulgate)"
     },
     {
@@ -418,18 +228,8 @@
       "citation": "Psalms 107:38 (Clementine Vulgate)"
     },
     {
-      "verse": 38,
-      "text": "et benedicet eis et multiplicabuntur nimis et pecora eorum non inminuet",
-      "citation": "Psalms 107:38 (Clementine Vulgate)"
-    },
-    {
       "verse": 39,
       "text": "et pauci facti sunt et vexati sunt a tribulatione malorum et dolore",
-      "citation": "Psalms 107:39 (Clementine Vulgate)"
-    },
-    {
-      "verse": 39,
-      "text": "inminuta sunt autem et adflicta propter angustiam mali et doloris",
       "citation": "Psalms 107:39 (Clementine Vulgate)"
     },
     {
@@ -438,34 +238,14 @@
       "citation": "Psalms 107:40 (Clementine Vulgate)"
     },
     {
-      "verse": 40,
-      "text": "et effundet despectionem super principes et errare eos faciet in solitudine devia",
-      "citation": "Psalms 107:40 (Clementine Vulgate)"
-    },
-    {
       "verse": 41,
       "text": "et adiuvit pauperem de inopia et posuit sicut oves familias",
-      "citation": "Psalms 107:41 (Clementine Vulgate)"
-    },
-    {
-      "verse": 41,
-      "text": "et sublevabit pauperem de inopia et ponet quasi gregem familias",
       "citation": "Psalms 107:41 (Clementine Vulgate)"
     },
     {
       "verse": 42,
       "text": "videbunt recti et laetabuntur et omnis iniquitas oppilabit os suum",
       "citation": "Psalms 107:42 (Clementine Vulgate)"
-    },
-    {
-      "verse": 42,
-      "text": "videbunt recti et laetabuntur et omnis iniquitas contrahet os suum",
-      "citation": "Psalms 107:42 (Clementine Vulgate)"
-    },
-    {
-      "verse": 43,
-      "text": "quis sapiens et custodiet haec et intellegent misericordias Domini",
-      "citation": "Psalms 107:43 (Clementine Vulgate)"
     },
     {
       "verse": 43,

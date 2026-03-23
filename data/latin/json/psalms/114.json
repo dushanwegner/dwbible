@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 114 — 16 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 114 — 8 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 114,
-    "verseCount": 16,
+    "verseCount": 8,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,24 +38,9 @@
       "citation": "Psalms 114:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "cum egrederetur Israhel de Aegypto domus Iacob de populo barbaro",
-      "citation": "Psalms 114:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "facta est Iudaea sanctificatio eius Israhel potestas eius",
       "citation": "Psalms 114:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "factus est Iudas in sanctificatione eius Israhel potestas eius",
-      "citation": "Psalms 114:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "mare vidit et fugit Iordanis conversus est retrorsum",
-      "citation": "Psalms 114:3 (Clementine Vulgate)"
     },
     {
       "verse": 3,
@@ -68,18 +53,8 @@
       "citation": "Psalms 114:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "montes subsilierunt quasi arietes colles quasi filii gregis",
-      "citation": "Psalms 114:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "quid est tibi mare quod fugisti et tu Iordanis quia conversus es retrorsum",
-      "citation": "Psalms 114:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "quid tibi est mare quia fugisti Iordanis quia conversus es retrorsum",
       "citation": "Psalms 114:5 (Clementine Vulgate)"
     },
     {
@@ -88,28 +63,13 @@
       "citation": "Psalms 114:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "montes sussultastis quasi arietes colles quasi filii gregis",
-      "citation": "Psalms 114:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "a facie Domini mota est terra a facie Dei Iacob",
       "citation": "Psalms 114:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "a facie Domini contremesce terra a facie Dei Iacob",
-      "citation": "Psalms 114:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "qui convertit petram in stagna aquarum et rupem in fontes aquarum",
-      "citation": "Psalms 114:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "qui convertit petram in paludes aquarum silicem in fontes aquarum",
       "citation": "Psalms 114:8 (Clementine Vulgate)"
     }
   ]

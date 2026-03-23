@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 83 — 38 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 83 — 19 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 83,
-    "verseCount": 38,
+    "verseCount": 19,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 83:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "Deus ne taceas ne sileas et non quiescas Deus",
-      "citation": "Psalms 83:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori pro torculari filiorum Core canticum",
-      "citation": "Psalms 83:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "quoniam ecce inimici tui sonaverunt et qui oderunt te extulerunt caput",
-      "citation": "Psalms 83:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "quia ecce inimici tui tumultuati sunt et qui oderunt te levaverunt caput",
       "citation": "Psalms 83:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 83:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "contra populum tuum nequiter tractaverunt et inierunt consilium adversum arcanum tuum",
-      "citation": "Psalms 83:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "dixerunt venite et disperdamus eos de gente et non memoretur nomen Israhel ultra",
-      "citation": "Psalms 83:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "dixerunt venite et conteramus eos de gente et non sit memoria nominis Israhel ultra",
       "citation": "Psalms 83:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 83:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "quoniam tractaverunt pariter contra te foedus pepigerunt",
-      "citation": "Psalms 83:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "tabernacula Idumeorum et Ismahelitae Moab et Aggareni",
-      "citation": "Psalms 83:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "tabernacula Idumeae et Ismahelitarum Moab et Aggareni",
       "citation": "Psalms 83:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 83:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "Gebal et Ammon et Amalech Palestina cum habitatoribus Tyri",
-      "citation": "Psalms 83:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "etenim Assur venit cum illis facti sunt in adiutorium filiis Loth diapsalma",
-      "citation": "Psalms 83:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "sed et Assur venit cum eis facti sunt brachium filiorum Loth semper",
       "citation": "Psalms 83:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 83:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "fac illis sicut Madian et Sisarae sicut Iabin in torrente Cison",
-      "citation": "Psalms 83:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "disperierunt in Endor facti sunt ut stercus terrae",
-      "citation": "Psalms 83:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "contriti sunt in Aendor fuerunt quasi sterquilinium terrae",
       "citation": "Psalms 83:10 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 83:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "pone duces eorum sicut Oreb et Zeb et Zebee et Salmana omnes principes eorum",
-      "citation": "Psalms 83:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "qui dixerunt hereditate possideamus sanctuarium Dei",
-      "citation": "Psalms 83:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "qui dixerunt possideamus nobis pulchritudinem Dei",
       "citation": "Psalms 83:12 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 83:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "Deus meus pone eos ut rotam quasi stipulam ante faciem venti",
-      "citation": "Psalms 83:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "sicut ignis qui conburit silvam sicut flamma conburens montes",
-      "citation": "Psalms 83:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "quomodo ignis conburit silvam et sicut flamma devorat montes",
       "citation": "Psalms 83:14 (Clementine Vulgate)"
     },
     {
@@ -188,18 +113,8 @@
       "citation": "Psalms 83:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "sic persequere eos in tempestate tua et in turbine tuo conturba eos",
-      "citation": "Psalms 83:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "imple facies illorum ignominia et quaerent nomen tuum Domine",
-      "citation": "Psalms 83:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "imple facies eorum ignominia et quaerent nomen tuum Domine",
       "citation": "Psalms 83:16 (Clementine Vulgate)"
     },
     {
@@ -208,18 +123,8 @@
       "citation": "Psalms 83:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "confundantur et conturbentur usque in saeculum et erubescant et pereant",
-      "citation": "Psalms 83:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "et cognoscant quia nomen tibi Dominus tu solus Altissimus in omni terra",
-      "citation": "Psalms 83:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "et sciant quia nomen tuum est Dominus solus tu Excelsus super omnem terram",
       "citation": "Psalms 83:18 (Clementine Vulgate)"
     }
   ]

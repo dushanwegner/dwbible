@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 58 — 24 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 58 — 12 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 58,
-    "verseCount": 24,
+    "verseCount": 12,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 58:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "si vere utique iustitiam loquimini recta iudicate filii hominum",
-      "citation": "Psalms 58:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori ut non disperdas David humilem et simplicem quando misit Saul et custodierunt domum ut occiderent eum",
-      "citation": "Psalms 58:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "etenim in corde iniquitates operamini in terra iniustitiam manus vestrae concinnant",
-      "citation": "Psalms 58:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "etenim in corde iniquitates operamini in terra iniquitatis manus vestras adpendite",
       "citation": "Psalms 58:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 58:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "alienati sunt peccatores a vulva erraverunt ab utero loquentes mendacium",
-      "citation": "Psalms 58:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "furor illis secundum similitudinem serpentis sicut aspidis surdae et obturantis aures suas",
-      "citation": "Psalms 58:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "furor eorum sicut furor serpentis sicut reguli surdi obturantis aurem suam",
       "citation": "Psalms 58:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 58:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "ut non audiat vocem murmurantium nec incantatoris incantationes callidas",
-      "citation": "Psalms 58:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "Deus conteret dentes eorum in ore ipsorum molas leonum confringet Dominus",
-      "citation": "Psalms 58:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "Deus excute dentes eorum ex ore eorum molares leonum confringe Domine",
       "citation": "Psalms 58:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 58:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "dissolvantur quasi aquae quae defluent intendet arcum suum donec conterantur",
-      "citation": "Psalms 58:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "sicut cera quae fluit auferentur supercecidit ignis et non viderunt solem",
-      "citation": "Psalms 58:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "quasi vermis tabefactus pertranseant quasi abortivum mulieris quod non vidit solem",
       "citation": "Psalms 58:8 (Clementine Vulgate)"
     },
     {
@@ -128,28 +83,13 @@
       "citation": "Psalms 58:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "antequam crescant spinae vestrae in ramnum quasi viventes quasi in ira tempestas rapiet eas",
-      "citation": "Psalms 58:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "laetabitur iustus cum viderit vindictam manus suas lavabit in sanguine peccatoris",
       "citation": "Psalms 58:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "laetabitur iustus cum viderit ultionem pedes suos lavabit in sanguinem impii",
-      "citation": "Psalms 58:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "et dicet homo si utique est fructus iusto utique est Deus iudicans eos in terra",
-      "citation": "Psalms 58:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "et dicet homo vere fructus est iusto vere est Deus iudicans in terra",
       "citation": "Psalms 58:11 (Clementine Vulgate)"
     }
   ]

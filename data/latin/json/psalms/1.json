@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 1 — 12 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 1 — 6 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 1,
-    "verseCount": 12,
+    "verseCount": 6,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,16 +38,6 @@
       "citation": "Psalms 1:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "beatus vir qui non abiit in consilio impiorum et in via peccatorum non stetit in cathedra derisorum non sedit",
-      "citation": "Psalms 1:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "sed in lege Domini voluntas eius et in lege eius meditabitur die ac nocte",
-      "citation": "Psalms 1:2 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "sed in lege Domini voluntas eius et in lege eius meditabitur die ac nocte",
       "citation": "Psalms 1:2 (Clementine Vulgate)"
@@ -58,16 +48,6 @@
       "citation": "Psalms 1:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "et erit tamquam lignum transplantatum iuxta rivulos aquarum quod fructum suum dabit in tempore suo et folium eius non defluet et omne quod fecerit prosperabitur",
-      "citation": "Psalms 1:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "non sic impii %non sic; sed tamquam pulvis quem proicit ventus %a facie terrae;",
-      "citation": "Psalms 1:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "non sic impii sed tamquam pulvis quem proicit ventus",
       "citation": "Psalms 1:4 (Clementine Vulgate)"
@@ -76,16 +56,6 @@
       "verse": 5,
       "text": "ideo non resurgent impii in iudicio neque peccatores in consilio iustorum",
       "citation": "Psalms 1:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "propterea non resurgent impii in iudicio neque peccatores in congregatione iustorum",
-      "citation": "Psalms 1:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "quoniam novit Dominus viam iustorum et iter impiorum peribit",
-      "citation": "Psalms 1:6 (Clementine Vulgate)"
     },
     {
       "verse": 6,

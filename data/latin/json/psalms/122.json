@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 122 — 18 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 122 — 9 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 122,
-    "verseCount": 18,
+    "verseCount": 9,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 122:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum David laetatus sum eo quod dixerint mihi in domum Domini ibimus",
-      "citation": "Psalms 122:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "stantes erant pedes nostri in atriis tuis Hierusalem",
-      "citation": "Psalms 122:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "stantes erant pedes nostri in portis tuis Hierusalem",
       "citation": "Psalms 122:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 122:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "Hierusalem quae aedificaris ut civitas cuius participatio eius simul",
-      "citation": "Psalms 122:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "illic enim ascenderunt tribus tribus Domini testimonium Israhel ad confitendum nomini Domini",
-      "citation": "Psalms 122:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "quia ibi ascenderunt tribus tribus Domini testimonium Israhel ad confitendum nomini Domini",
       "citation": "Psalms 122:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 122:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "quia ibi sederunt sedes in iudicio sedes domui David",
-      "citation": "Psalms 122:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "rogate quae ad pacem sunt Hierusalem et abundantia diligentibus te",
-      "citation": "Psalms 122:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "rogate pacem Hierusalem sit bene his qui diligunt te",
       "citation": "Psalms 122:6 (Clementine Vulgate)"
     },
     {
@@ -98,28 +68,13 @@
       "citation": "Psalms 122:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "sit pax in muris tuis abundantia in domibus tuis",
-      "citation": "Psalms 122:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "propter fratres meos et proximos meos loquebar pacem de te",
       "citation": "Psalms 122:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "propter fratres meos et amicos meos loquar pacem tibi",
-      "citation": "Psalms 122:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "propter domum Domini Dei nostri quaesivi bona tibi",
-      "citation": "Psalms 122:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "propter domum Domini Dei nostri quaeram bona tibi",
       "citation": "Psalms 122:9 (Clementine Vulgate)"
     }
   ]

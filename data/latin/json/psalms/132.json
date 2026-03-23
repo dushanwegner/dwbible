@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 132 — 36 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 132 — 18 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 132,
-    "verseCount": 36,
+    "verseCount": 18,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 132:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum memento Domine David et omnis adflictionis eius",
-      "citation": "Psalms 132:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "sicut iuravit Domino votum vovit Deo Iacob",
-      "citation": "Psalms 132:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "qui iuravit Domino votum vovit Deo Iacob",
       "citation": "Psalms 132:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 132:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "si intravero in tabernaculum domus meae si adsedero super lectum straminis mei",
-      "citation": "Psalms 132:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "si dedero somnum oculis meis et palpebris meis dormitationem",
-      "citation": "Psalms 132:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "si dedero somnum oculis meis et palpebris dormitationem",
       "citation": "Psalms 132:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 132:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "donec inveniam locum Domino tabernacula Deo Iacob",
-      "citation": "Psalms 132:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "ecce audivimus eam in Efrata invenimus eam in campis silvae",
-      "citation": "Psalms 132:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "ecce audivimus illum in Ephrata invenimus illum in regione saltus",
       "citation": "Psalms 132:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 132:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "intremus in tabernacula eius adoremus scabillum pedum eius",
-      "citation": "Psalms 132:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "surge Domine in requiem tuam tu et arca sanctificationis tuae",
-      "citation": "Psalms 132:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "surge Domine in requiem tuam tu et arca fortitudinis tuae",
       "citation": "Psalms 132:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 132:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "sacerdotes tui induantur iustitia et sancti tui laudent",
-      "citation": "Psalms 132:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "propter David servum tuum non avertas faciem christi tui",
-      "citation": "Psalms 132:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "propter David servum tuum ne avertas faciem christi tui",
       "citation": "Psalms 132:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 132:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "iuravit Dominus David veritatem non avertetur ab ea de fructu ventris tui ponam super sedem tuam",
-      "citation": "Psalms 132:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "si custodierint filii tui testamentum meum et testimonia mea haec quae docebo eos et filii eorum usque in saeculum sedebunt super sedem tuam",
-      "citation": "Psalms 132:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "si custodierint filii tui pactum meum et testificationem meam quam docuero eos et filii eorum usque in aeternum sedebunt super thronum tuum",
       "citation": "Psalms 132:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 132:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "quia elegit Dominus Sion desideravit eam in habitaculum suum",
-      "citation": "Psalms 132:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "haec requies mea in saeculum saeculi hic habitabo quoniam elegi eam",
-      "citation": "Psalms 132:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "haec est requies mea in sempiternum hic habitabo quia desideravi eam",
       "citation": "Psalms 132:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Psalms 132:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "venationem eius benedicens benedicam pauperes eius saturabo pane",
-      "citation": "Psalms 132:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "sacerdotes eius induam salutari et sancti eius exultatione exultabunt",
-      "citation": "Psalms 132:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "sacerdotes eius induam salutari et sancti eius laude laudabunt",
       "citation": "Psalms 132:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "Psalms 132:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "ibi oriri faciam cornu David paravi lucernam christo meo",
-      "citation": "Psalms 132:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "inimicos eius induam confusione super ipsum autem efflorebit sanctificatio mea",
-      "citation": "Psalms 132:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "inimicos eius induam confusione super ipsum autem florebit sanctificatio eius",
       "citation": "Psalms 132:18 (Clementine Vulgate)"
     }
   ]

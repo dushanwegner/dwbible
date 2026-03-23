@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 146 — 20 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 146 — 10 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 146,
-    "verseCount": 20,
+    "verseCount": 10,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 146:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "alleluia",
-      "citation": "Psalms 146:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "lauda anima mea Dominum laudabo Dominum in vita mea psallam Deo meo quamdiu fuero nolite confidere in principibus",
-      "citation": "Psalms 146:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "lauda anima mea Dominum laudabo Dominum in vita mea cantabo Deo meo quamdiu sum nolite confidere in principibus",
       "citation": "Psalms 146:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 146:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "in filio hominis cui non est salus",
-      "citation": "Psalms 146:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "exibit spiritus eius et revertetur in terram suam in illa die peribunt omnes cogitationes eorum",
-      "citation": "Psalms 146:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "egredietur spiritus eius et revertetur in humum suam in die illa peribunt cogitationes eius",
       "citation": "Psalms 146:4 (Clementine Vulgate)"
     },
     {
@@ -78,34 +58,14 @@
       "citation": "Psalms 146:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "beatus cuius Deus Iacob auxiliator eius spes eius in Domino Deo suo",
-      "citation": "Psalms 146:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "qui fecit caelum et terram mare et omnia quae in eis",
-      "citation": "Psalms 146:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "qui fecit caelos et terram mare et omnia quae in eis sunt",
       "citation": "Psalms 146:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
       "text": "qui custodit veritatem in saeculum facit iudicium iniuriam patientibus dat escam esurientibus Dominus solvit conpeditos",
       "citation": "Psalms 146:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "et custodit veritatem in sempiternum qui facit iudicium calumniam sustinentibus et dat panem esurientibus Dominus solvit vinctos",
-      "citation": "Psalms 146:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "Dominus inluminat caecos Dominus erigit adlisos Dominus diligit iustos",
-      "citation": "Psalms 146:8 (Clementine Vulgate)"
     },
     {
       "verse": 8,
@@ -118,18 +78,8 @@
       "citation": "Psalms 146:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "Dominus custodit advenas pupillum et viduam suscipiet et viam impiorum conteret",
-      "citation": "Psalms 146:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "regnabit Dominus in saecula Deus tuus Sion in generationem et generationem",
-      "citation": "Psalms 146:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "regnabit Dominus in aeternum Deus tuus Sion in generationem et generationem",
       "citation": "Psalms 146:10 (Clementine Vulgate)"
     }
   ]

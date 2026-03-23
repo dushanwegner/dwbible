@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "2 Chronicles, Chapter 1 — 30 verses (Clementine Vulgate)",
+    "content": "2 Chronicles, Chapter 1 — 18 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 36
     },
     "chapter": 1,
-    "verseCount": 30,
+    "verseCount": 18,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/2-paralipomenon/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "2 Chronicles 1:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "in anno primo Cyri regis Persarum ut conpleretur verbum Domini ex ore Hieremiae suscitavit Dominus spiritum Cyri regis Persarum et transduxit vocem in universo regno suo etiam per scripturam dicens",
-      "citation": "2 Chronicles 1:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "praecepitque Salomon universo Israheli tribunis et centurionibus et ducibus et iudicibus omnis Israhel et principibus familiarum",
-      "citation": "2 Chronicles 1:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "haec dicit Cyrus rex Persarum omnia regna terrae dedit mihi Dominus Deus caeli et ipse praecepit mihi ut aedificarem ei domum in Hierusalem quae est in Iudaea",
       "citation": "2 Chronicles 1:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "2 Chronicles 1:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "quis est in vobis de universo populo eius sit Deus illius cum ipso ascendat Hierusalem quae est in Iudaea et aedificet domum Domini Dei Israhel ipse est Deus qui est in Hierusalem",
-      "citation": "2 Chronicles 1:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "arcam autem Dei adduxerat David de Cariathiarim in locum quem paraverat ei et ubi fixerat illi tabernaculum hoc est in Hierusalem",
-      "citation": "2 Chronicles 1:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "et omnes reliqui in cunctis locis ubicumque habitant adiuvent eum viri de loco suo argento et auro et substantia et pecoribus excepto quod voluntarie offerunt templo Dei quod est in Hierusalem",
       "citation": "2 Chronicles 1:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "2 Chronicles 1:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "et surrexerunt principes patrum de Iuda et Beniamin et sacerdotes et Levitae omnis cuius suscitavit Deus spiritum ut ascenderent ad aedificandum templum Domini quod erat in Hierusalem",
-      "citation": "2 Chronicles 1:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "ascenditque Salomon ad altare aeneum coram tabernaculo foederis Domini et obtulit in eo mille hostias",
-      "citation": "2 Chronicles 1:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "universique qui erant in circuitu adiuverunt manus eorum in vasis argenteis et aureis in substantia in iumentis in supellectili exceptis his quae sponte obtulerunt",
       "citation": "2 Chronicles 1:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "2 Chronicles 1:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "rex quoque Cyrus protulit vasa templi Domini quae tulerat Nabuchodonosor de Hierusalem et posuerat ea in templo dei sui",
-      "citation": "2 Chronicles 1:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "dixitque Salomon Deo tu fecisti cum David patre meo misericordiam magnam et constituisti me regem pro eo",
-      "citation": "2 Chronicles 1:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "protulit autem ea Cyrus rex Persarum per manum Mitridatis filii Gazabar et adnumeravit ea Sasabassar principi Iudae",
       "citation": "2 Chronicles 1:8 (Clementine Vulgate)"
     },
     {
@@ -118,28 +78,13 @@
       "citation": "2 Chronicles 1:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "et hic est numerus eorum fialae aureae triginta fialae argenteae mille cultri viginti novem scyphi aurei triginta",
-      "citation": "2 Chronicles 1:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "da mihi sapientiam et intellegentiam ut egrediar coram populo tuo et ingrediar quis enim potest hunc populum tuum digne qui tam grandis est iudicare",
       "citation": "2 Chronicles 1:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "scyphi argentei secundi quadringenti decem vasa alia mille",
-      "citation": "2 Chronicles 1:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "dixit autem Deus ad Salomonem quia hoc magis placuit cordi tuo et non postulasti divitias et substantiam et gloriam neque animas eorum qui te oderunt sed nec dies vitae plurimos petisti autem sapientiam et scientiam ut iudicare possis populum meum super quem constitui te regem",
-      "citation": "2 Chronicles 1:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "omnia vasa aurea et argentea quinque milia quadringenta universa tulit Sasabassar cum his qui ascendebant de transmigratione Babylonis in Hierusalem",
       "citation": "2 Chronicles 1:11 (Clementine Vulgate)"
     },
     {
@@ -175,11 +120,6 @@
     {
       "verse": 18,
       "text": "decrevit autem Salomon aedificare domum nomini Domini et palatium sibi",
-      "citation": "2 Chronicles 1:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "hii sunt autem filii provinciae qui ascenderunt de captivitate quam transtulerat Nabuchodonosor rex Babylonis in Babylonem et reversi sunt in Hierusalem et Iudam unusquisque in civitatem suam",
       "citation": "2 Chronicles 1:18 (Clementine Vulgate)"
     }
   ]

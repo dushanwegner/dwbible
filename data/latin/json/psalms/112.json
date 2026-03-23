@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 112 — 20 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 112 — 10 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 112,
-    "verseCount": 20,
+    "verseCount": 10,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 112:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "aleph beatus vir qui timet Dominum beth in mandatis eius volet nimis",
-      "citation": "Psalms 112:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "potens in terra erit semen eius generatio rectorum benedicetur",
-      "citation": "Psalms 112:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "gimel potens in terra erit semen eius deleth generatio iustorum benedicetur",
       "citation": "Psalms 112:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 112:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "he substantia et divitiae in domo eius vav et iustitia eius perseverans semper",
-      "citation": "Psalms 112:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "exortum est in tenebris lumen rectis misericors et miserator et iustus",
-      "citation": "Psalms 112:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "zai ortum est in tenebris lumen iustis heth clemens et misericors et iustus",
       "citation": "Psalms 112:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 112:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "teth bonus vir clemens et fenerans ioth dispensabit verba sua in iudicio",
-      "citation": "Psalms 112:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "quia in aeternum non commovebitur",
-      "citation": "Psalms 112:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "caph quia in aeternum non commovebitur",
       "citation": "Psalms 112:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 112:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "lameth in memoria sempiterna erit iustus mem ab auditu malo non timebit nun paratum cor eius confidens in Domino",
-      "citation": "Psalms 112:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "confirmatum est cor eius non commovebitur donec dispiciat inimicos suos",
-      "citation": "Psalms 112:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "samech firmum cor eius non timebit ain donec aspiciat hostibus suis",
       "citation": "Psalms 112:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 112:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "phe dispersit dedit pauperibus sade iustitia eius permanet in aeternum coph cornu eius exaltabitur in gloria",
-      "citation": "Psalms 112:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "peccator videbit et irascetur dentibus suis fremet et tabescet desiderium peccatorum peribit",
-      "citation": "Psalms 112:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "res impius videbit et irascetur sen dentibus suis frendet et tabescet thau desiderium impiorum peribit",
       "citation": "Psalms 112:10 (Clementine Vulgate)"
     }
   ]

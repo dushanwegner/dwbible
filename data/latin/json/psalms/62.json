@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 62 — 26 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 62 — 13 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 62,
-    "verseCount": 26,
+    "verseCount": 13,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 62:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "attamen apud Deum silebit anima mea ex eo salus mea",
-      "citation": "Psalms 62:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "canticum David cum esset in deserto Iuda",
-      "citation": "Psalms 62:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "nam et ipse Deus meus et salutaris meus susceptor meus non movebor amplius",
-      "citation": "Psalms 62:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "attamen ipse est scutum meum et salus mea fortitudo mea non commovebor amplius",
       "citation": "Psalms 62:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 62:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "usquequo insidiamini contra virum interficitis omnes quasi murus inclinus et maceria corruens",
-      "citation": "Psalms 62:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "verumtamen pretium meum cogitaverunt repellere cucurri in siti ore suo benedicebant et corde suo maledicebant diapsalma",
-      "citation": "Psalms 62:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "partem enim eius cogitaverunt expellere placuerunt sibi in mendacio ore suo singuli benedicunt et corde suo maledicunt semper",
       "citation": "Psalms 62:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 62:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "verumtamen Deo retice anima mea ab ipso enim praestolatio mea",
-      "citation": "Psalms 62:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "quia ipse Deus meus et salvator meus adiutor meus non emigrabo",
-      "citation": "Psalms 62:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "ipse est fortitudo mea et salus mea susceptor meus non timebo",
       "citation": "Psalms 62:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 62:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "in Deo salutare meum et gloria mea robur fortitudinis meae salus mea in Deo",
-      "citation": "Psalms 62:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "sperate in eo omnis congregatio populi effundite coram illo corda vestra Deus adiutor noster in aeternum",
-      "citation": "Psalms 62:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "sperate in eo omni tempore populi effundite coram eo cor vestrum Deus spes nostra est semper",
       "citation": "Psalms 62:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 62:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "verumtamen vanitas filii Adam mendacium filii viri in stateris dolosis fraudulenter agunt simul",
-      "citation": "Psalms 62:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "nolite sperare in iniquitate et rapinas nolite concupiscere divitiae si affluant nolite cor adponere",
-      "citation": "Psalms 62:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "nolite confidere in calumnia et in rapina ne frustremini divitiae si fluxerint ne adponatis cor",
       "citation": "Psalms 62:10 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 62:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "unum locutus est Deus duo haec audivi quia imperium Dei est",
-      "citation": "Psalms 62:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "et tibi Domine misericordia quia tu reddes unicuique iuxta opera sua",
-      "citation": "Psalms 62:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "et tibi Domine misericordia quia tu reddes unicuique secundum opus suum",
       "citation": "Psalms 62:12 (Clementine Vulgate)"
     }
   ]

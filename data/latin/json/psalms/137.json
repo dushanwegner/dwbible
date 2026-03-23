@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 137 — 18 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 137 — 9 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 137,
-    "verseCount": 18,
+    "verseCount": 9,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,34 +38,14 @@
       "citation": "Psalms 137:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "super flumina Babylonis ibi sedimus et flevimus cum recordaremur Sion",
-      "citation": "Psalms 137:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "in salicibus in medio eius suspendimus organa nostra",
-      "citation": "Psalms 137:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "super salices in medio eius suspendimus citharas nostras",
       "citation": "Psalms 137:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
       "text": "quia illic interrogaverunt nos qui captivos duxerunt nos verba cantionum et qui abduxerunt nos hymnum cantate nobis de canticis Sion",
       "citation": "Psalms 137:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 3,
-      "text": "quoniam ibi interrogaverunt nos qui captivos duxerunt nos verba carminis et qui adfligebant nos laeti canite nobis de canticis Sion",
-      "citation": "Psalms 137:3 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "quomodo cantabimus canticum Domini in terra aliena",
-      "citation": "Psalms 137:4 (Clementine Vulgate)"
     },
     {
       "verse": 4,
@@ -78,18 +58,8 @@
       "citation": "Psalms 137:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "si oblitus fuero tui Hierusalem in oblivione sit dextera mea",
-      "citation": "Psalms 137:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "adhereat lingua mea faucibus meis si non meminero tui si non praeposuero Hierusalem in principio laetitiae meae",
-      "citation": "Psalms 137:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "adhereat lingua mea gutturi meo si non recordatus fuero tui si non praeposuero Hierusalem in principio laetitiae meae",
       "citation": "Psalms 137:6 (Clementine Vulgate)"
     },
     {
@@ -98,24 +68,9 @@
       "citation": "Psalms 137:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "memento Domine filiorum Edom in diem Hierusalem dicentium evacuate evacuate usque ad fundamentum eius",
-      "citation": "Psalms 137:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "filia Babylonis misera beatus qui retribuet tibi retributionem tuam quam retribuisti nobis",
       "citation": "Psalms 137:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "filia Babylon vastata beatus qui retribuet tibi vicissitudinem tuam quam retribuisti nobis",
-      "citation": "Psalms 137:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "beatus qui tenebit et adlidet parvulos tuos ad petram",
-      "citation": "Psalms 137:9 (Clementine Vulgate)"
     },
     {
       "verse": 9,

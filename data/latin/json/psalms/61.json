@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 61 — 18 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 61 — 9 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 61,
-    "verseCount": 18,
+    "verseCount": 9,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 61:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "exaudi Deus laudationem meam intende orationi meae",
-      "citation": "Psalms 61:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "victori per Idithun canticum David",
-      "citation": "Psalms 61:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "a finibus terrae ad te clamavi dum anxiaretur cor meum in petra exaltasti me deduxisti me",
-      "citation": "Psalms 61:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "de novissimo terrae ad te clamabo cum triste fuerit cor meum cum fortis elevabitur adversum me tu eris ductor meus",
       "citation": "Psalms 61:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 61:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "fuisti spes mea turris munitissima a facie inimici",
-      "citation": "Psalms 61:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "inhabitabo in tabernaculo tuo in saecula protegar in velamento alarum tuarum diapsalma",
-      "citation": "Psalms 61:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "habitabo in tabernaculo tuo iugiter sperabo in protectione alarum tuarum semper",
       "citation": "Psalms 61:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 61:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "tu enim Deus exaudisti orationem meam dedisti hereditatem timentibus nomen tuum",
-      "citation": "Psalms 61:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "dies super dies regis adicies annos eius usque in diem generationis et generationis",
-      "citation": "Psalms 61:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "dies super dies regis adicies annos eius donec est generatio et generatio",
       "citation": "Psalms 61:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 61:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "sedebit semper ante faciem Dei misericordia et veritas servabunt eum",
-      "citation": "Psalms 61:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "sic psalmum dicam nomini tuo in saeculum saeculi ut reddam vota mea de die in diem",
-      "citation": "Psalms 61:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "sic canam nomini tuo iugiter reddens vota mea per singulos dies",
       "citation": "Psalms 61:8 (Clementine Vulgate)"
     }
   ]

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 139 — 50 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 139 — 25 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 139,
-    "verseCount": 50,
+    "verseCount": 25,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 139:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "pro victoria David canticum Domine investigasti me et cognovisti",
-      "citation": "Psalms 139:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "pro victoria canticum David",
-      "citation": "Psalms 139:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "Domine probasti me et cognovisti me tu cognovisti sessionem meam et surrectionem meam",
-      "citation": "Psalms 139:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "tu cognovisti sessionem meam et surrectionem meam",
       "citation": "Psalms 139:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 139:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "intellexisti malum meum de longe semitam meam et accubitionem meam eventilasti",
-      "citation": "Psalms 139:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "et omnes vias meas praevidisti quia non est sermo in lingua mea",
-      "citation": "Psalms 139:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "et omnes vias meas intellexisti quia non est eloquium in lingua mea",
       "citation": "Psalms 139:4 (Clementine Vulgate)"
     },
     {
@@ -88,24 +63,9 @@
       "citation": "Psalms 139:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "ecce Domine nosti omnia retrorsum et ante formasti me et posuisti super me manum tuam",
-      "citation": "Psalms 139:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "mirabilis facta est scientia tua ex me confortata est non potero ad eam",
       "citation": "Psalms 139:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "super me est scientia et excelsior est non potero ad eam",
-      "citation": "Psalms 139:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "quo ibo ab spiritu tuo et quo a facie tua fugiam",
-      "citation": "Psalms 139:7 (Clementine Vulgate)"
     },
     {
       "verse": 7,
@@ -118,18 +78,8 @@
       "citation": "Psalms 139:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "si ascendero in caelum ibi es tu si iacuero in inferno ades",
-      "citation": "Psalms 139:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "si sumpsero pinnas meas diluculo et habitavero in extremis maris",
-      "citation": "Psalms 139:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "si sumpsero pinnas diluculo habitavero in novissimo maris",
       "citation": "Psalms 139:9 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 139:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "etiam ibi manus tua deducet me et tenebit me dextera tua",
-      "citation": "Psalms 139:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "et dixi forsitan tenebrae conculcabunt me et nox inluminatio in deliciis meis",
-      "citation": "Psalms 139:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "si dixero forte tenebrae operient me nox quoque lux erit circa me",
       "citation": "Psalms 139:11 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "Psalms 139:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "nec tenebrae habent tenebras apud te et nox quasi dies lucet similes sunt tenebrae et lux",
-      "citation": "Psalms 139:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "quia tu possedisti renes meos suscepisti me de utero matris meae",
-      "citation": "Psalms 139:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "quoniam tu possedisti renes meos orsusque es me in utero matris meae",
       "citation": "Psalms 139:13 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "Psalms 139:14 (Clementine Vulgate)"
     },
     {
-      "verse": 14,
-      "text": "confitebor tibi quoniam terribiliter magnificasti me mirabilia opera tua et anima mea novit nimis",
-      "citation": "Psalms 139:14 (Clementine Vulgate)"
-    },
-    {
       "verse": 15,
       "text": "non est occultatum os meum a te quod fecisti in occulto et substantia mea in inferioribus terrae",
-      "citation": "Psalms 139:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "non sunt operta ossa mea a te quibus factus sum in abscondito imaginatus sum in novissimis terrae",
       "citation": "Psalms 139:15 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "Psalms 139:16 (Clementine Vulgate)"
     },
     {
-      "verse": 16,
-      "text": "informem adhuc me viderunt oculi tui et in libro tuo omnes scribentur dies formatae sunt et non est una in eis",
-      "citation": "Psalms 139:16 (Clementine Vulgate)"
-    },
-    {
       "verse": 17,
       "text": "mihi autem nimis honorificati sunt amici tui Deus nimis confirmati sunt principatus eorum",
-      "citation": "Psalms 139:17 (Clementine Vulgate)"
-    },
-    {
-      "verse": 17,
-      "text": "mihi autem quam honorabiles facti sunt amici tui Deus quam fortes pauperes eorum",
       "citation": "Psalms 139:17 (Clementine Vulgate)"
     },
     {
@@ -218,18 +128,8 @@
       "citation": "Psalms 139:18 (Clementine Vulgate)"
     },
     {
-      "verse": 18,
-      "text": "dinumerabo eos et harena plures erunt evigilavi et adhuc sum tecum",
-      "citation": "Psalms 139:18 (Clementine Vulgate)"
-    },
-    {
       "verse": 19,
       "text": "si occideris Deus peccatores et viri sanguinum declinate a me",
-      "citation": "Psalms 139:19 (Clementine Vulgate)"
-    },
-    {
-      "verse": 19,
-      "text": "si occideris Deus impium viri sanguinum declinate a me",
       "citation": "Psalms 139:19 (Clementine Vulgate)"
     },
     {
@@ -238,24 +138,9 @@
       "citation": "Psalms 139:20 (Clementine Vulgate)"
     },
     {
-      "verse": 20,
-      "text": "qui contradicent tibi scelerate elati sunt frustra adversarii tui",
-      "citation": "Psalms 139:20 (Clementine Vulgate)"
-    },
-    {
       "verse": 21,
       "text": "nonne qui oderunt te Domine oderam et super inimicos tuos tabescebam",
       "citation": "Psalms 139:21 (Clementine Vulgate)"
-    },
-    {
-      "verse": 21,
-      "text": "nonne odientes te Domine odivi et contra adversarios tuos distabui",
-      "citation": "Psalms 139:21 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "perfecto odio oderam illos inimici facti sunt mihi",
-      "citation": "Psalms 139:22 (Clementine Vulgate)"
     },
     {
       "verse": 22,
@@ -268,18 +153,8 @@
       "citation": "Psalms 139:23 (Clementine Vulgate)"
     },
     {
-      "verse": 23,
-      "text": "scrutare me Deus et cognosce cor meum proba me et scito cogitationes meas",
-      "citation": "Psalms 139:23 (Clementine Vulgate)"
-    },
-    {
       "verse": 24,
       "text": "et vide si via iniquitatis in me est et deduc me in via aeterna",
-      "citation": "Psalms 139:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "et vide si via idoli in me est et deduc me in via aeterna",
       "citation": "Psalms 139:24 (Clementine Vulgate)"
     }
   ]

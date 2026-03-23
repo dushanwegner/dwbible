@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Revelation, Chapter 15 — 63 verses (Clementine Vulgate)",
+    "content": "Revelation, Chapter 15 — 8 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "apocalypse",
       "testament": "NT",
       "order": 73,
-      "totalChapters": 35
+      "totalChapters": 22
     },
     "chapter": 15,
-    "verseCount": 63,
+    "verseCount": 8,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/apocalypse/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,318 +34,43 @@
   "verses": [
     {
       "verse": 1,
-      "text": "ecce loquere in aures plebi meae sermones prophetiae quos inmisero in os tuum, dicit Dominus,",
+      "text": "et vidi aliud signum in caelo magnum et mirabile angelos septem habentes plagas septem novissimas quoniam in illis consummata est ira Dei",
       "citation": "Revelation 15:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "et fac in carta scribi eos, quoniam fideles et veri sunt.",
+      "text": "et vidi tamquam mare vitreum mixtum igne et eos qui vicerunt bestiam et imaginem illius et numerum nominis eius stantes supra mare vitreum habentes citharas Dei",
       "citation": "Revelation 15:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "ne timeas a cogitationibus adversum te, nec conturbent te incredulitates dicentium,",
+      "text": "et cantant canticum Mosi servi Dei et canticum agni dicentes magna et mirabilia opera tua Domine Deus omnipotens iustae et verae viae tuae rex saeculorum",
       "citation": "Revelation 15:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "quoniam omnis incredulus in incredulitate sua morietur.",
+      "text": "quis non timebit Domine et magnificabit nomen tuum quia solus pius quoniam omnes gentes venient et adorabunt in conspectu tuo quoniam iudicia tua manifestata sunt",
       "citation": "Revelation 15:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "ecce ego induco, dicit Dominus, super orbem terrarum mala, gladium et famem et mortem et interitum,",
+      "text": "et post haec vidi et ecce apertum est templum tabernaculi testimonii in caelo",
       "citation": "Revelation 15:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "propter quod superposuit iniquitas omnem terram et adimpletae sunt operationes eorum.",
+      "text": "et exierunt septem angeli habentes septem plagas de templo vestiti lapide mundo candido et praecincti circa pectora zonis aureis",
       "citation": "Revelation 15:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "propterea dicit Dominus:",
+      "text": "et unus ex quattuor animalibus dedit septem angelis septem fialas aureas plenas iracundiae Dei viventis in saecula saeculorum",
       "citation": "Revelation 15:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "iam non silebo impietates eorum quae inreligiose agunt, nec sustinebo in his quae inique exercent. ecce sanguis innoxius et iustus clamat ad me, et animae iustorum clamant perseveranter.",
+      "text": "et impletum est templum fumo a maiestate Dei et de virtute eius et nemo poterat introire in templum donec consummarentur septem plagae septem angelorum",
       "citation": "Revelation 15:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "vindicans vindicabo illos, dicit Dominus, et accipiam omnem sanguinem innocuum ex illis ad me.",
-      "citation": "Revelation 15:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "ecce populus meus quasi grex ad occisionem ducitur. iam non patiar illum habitare in terra Aegypti,",
-      "citation": "Revelation 15:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "sed educam eum in manu potenti et brachio excelso, et percutiam Aegyptum plaga sicut prius, et corrumpam terram omnem eius.",
-      "citation": "Revelation 15:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "lugeat Aegyptus et fundamenta eius a plaga verberati et mastigati quam inducet Dominus.",
-      "citation": "Revelation 15:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "lugeant cultores operantes terram, quoniam deficient semina eorum et vastabuntur ligna eorum ab uredine et grandine et a sidus terribile.",
-      "citation": "Revelation 15:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "vae saeculo et qui habitant in eum.",
-      "citation": "Revelation 15:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "quia adpropinquavit gladius et extritio illorum, et exsurget gens contra gentem ad pugnam, et romphea in manibus eorum.",
-      "citation": "Revelation 15:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "erit enim constabilitio hominibus, alisalios supervalescentes non curabunt regem suum et principem megestanorum suorum in potentia sua.",
-      "citation": "Revelation 15:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 17,
-      "text": "concupiscet enim homo in civitatem ire et non poterit.",
-      "citation": "Revelation 15:17 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "propter superbiam enim eorum civitates turbabuntur, domus exterentur, homines metuent.",
-      "citation": "Revelation 15:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 19,
-      "text": "non miserebitur homo proximo suo ad irritum faciendum in domos eorum in gladium, ad diripiendas substantias eorum propter famem panis et tribulationem multam.",
-      "citation": "Revelation 15:19 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "ecce ego convoco, dicit Deus, omnes reges terrae ad movendum, qui sunt a borea et a noto et ab euro et a libano, ad convertendos in se et reddere quae dederunt illis.",
-      "citation": "Revelation 15:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 21,
-      "text": "sicut faciunt usque hodie electis meis, sic faciam et reddam in sinum ipsorum. haec dicit Dominus Deus:",
-      "citation": "Revelation 15:21 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "non parcet dextera mea super peccantes nec cessabit romphea super effundentes sanguinem innocuum super terram.",
-      "citation": "Revelation 15:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "et exiit ignis ab ira eius et devoravit fundamenta terrae et peccatores quasi stramen incensum.",
-      "citation": "Revelation 15:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "vae eis qui peccant et non observant mandata mea, dicit Dominus,",
-      "citation": "Revelation 15:24 (Clementine Vulgate)"
-    },
-    {
-      "verse": 25,
-      "text": "non parcam illis, discedite, filii apostatae, nolite contaminare sanctificationem meam.",
-      "citation": "Revelation 15:25 (Clementine Vulgate)"
-    },
-    {
-      "verse": 26,
-      "text": "novit Deus qui peccant in eum, propterea tradet eos in mortem et in occisionem.",
-      "citation": "Revelation 15:26 (Clementine Vulgate)"
-    },
-    {
-      "verse": 27,
-      "text": "iam enim venerunt super orbem terrarum mala, et manebitis in illis; non enim liberabit vos Deus, propter quod peccastis in eum.",
-      "citation": "Revelation 15:27 (Clementine Vulgate)"
-    },
-    {
-      "verse": 28,
-      "text": "ecce visio horribilis, et facies illius ab oriente.",
-      "citation": "Revelation 15:28 (Clementine Vulgate)"
-    },
-    {
-      "verse": 29,
-      "text": "et exient nationes draconum Arabum in curris multis, et sibilatus eorum a die itineris fertur super terram, ut etiam timeant et trepidentur omnes qui illos audient.",
-      "citation": "Revelation 15:29 (Clementine Vulgate)"
-    },
-    {
-      "verse": 30,
-      "text": "Carmonii insanientes in ira exient de silva et advenient in virtute magna et constabunt in pugnam cum illis et vastabunt portionem terrae Assyriorum in dentibus suis.",
-      "citation": "Revelation 15:30 (Clementine Vulgate)"
-    },
-    {
-      "verse": 31,
-      "text": "et post haec supervalescet draco nativitatis memoria suae, et si converterint se conspirantes in virtute magna ad persequendos eos,",
-      "citation": "Revelation 15:31 (Clementine Vulgate)"
-    },
-    {
-      "verse": 32,
-      "text": "et isti turbabuntur et silebunt in virtute illorum et convertent pedes suos in fugam,",
-      "citation": "Revelation 15:32 (Clementine Vulgate)"
-    },
-    {
-      "verse": 33,
-      "text": "et a territorio Assyriorum subsessor subsedebit eos et consumet unum ex illis, et erit timor et tremor in exercitum illorum et inconstabilitio in regno illorum.",
-      "citation": "Revelation 15:33 (Clementine Vulgate)"
-    },
-    {
-      "verse": 34,
-      "text": "ecce nubs ab oriente et a septentrione usque ad meridianum, et facies illorum horrida valde, plena irae et procellae.",
-      "citation": "Revelation 15:34 (Clementine Vulgate)"
-    },
-    {
-      "verse": 35,
-      "text": "et conlident se invicem et effundent sidus copiosum super terram et sidus illorum, et erit sanguis a gladio usque ad ventrem equi",
-      "citation": "Revelation 15:35 (Clementine Vulgate)"
-    },
-    {
-      "verse": 36,
-      "text": "et femur hominis et suffraginem cameli. et erit timor et tremor multus super terram,",
-      "citation": "Revelation 15:36 (Clementine Vulgate)"
-    },
-    {
-      "verse": 37,
-      "text": "et horrebunt qui videbunt iram illam, et tremor adprehendet illos. et post haec movebuntur nimbi copiosi",
-      "citation": "Revelation 15:37 (Clementine Vulgate)"
-    },
-    {
-      "verse": 38,
-      "text": "a meridiano et septentrione, et portio alia ab occidente.",
-      "citation": "Revelation 15:38 (Clementine Vulgate)"
-    },
-    {
-      "verse": 39,
-      "text": "et superinvalescent venti ab oriente et recludent eum et nubem quam suscitavit in ira, et sidus ad faciendam exteritionem ab orientalem notum et occidentem violabitur.",
-      "citation": "Revelation 15:39 (Clementine Vulgate)"
-    },
-    {
-      "verse": 40,
-      "text": "et exaltabuntur nubes magnae et validae plenae irae et sidus, ut exterant omnem terram et inhabitantes eam, et fundent super omnem altum et eminentem sidus terribile.",
-      "citation": "Revelation 15:40 (Clementine Vulgate)"
-    },
-    {
-      "verse": 41,
-      "text": "ignem et grandinem et rompheas volantes et aquas multas, ut etiam impleantur omnes campi et omnes rivi a plenitudine aquarum illarum.",
-      "citation": "Revelation 15:41 (Clementine Vulgate)"
-    },
-    {
-      "verse": 42,
-      "text": "et demolient civitates et muros et montes et colles et ligna silvarum et faena pratorum et frumenta eorum.",
-      "citation": "Revelation 15:42 (Clementine Vulgate)"
-    },
-    {
-      "verse": 43,
-      "text": "et transibunt constanter usque Babylonem et exterent eam.",
-      "citation": "Revelation 15:43 (Clementine Vulgate)"
-    },
-    {
-      "verse": 44,
-      "text": "convenient ad ipsam et circuibunt eam et effundent sidus et omnem iram super eam, et subibit pulvis et fumus usque ad caelum, et omnes in circuitu lugebunt eam,",
-      "citation": "Revelation 15:44 (Clementine Vulgate)"
-    },
-    {
-      "verse": 45,
-      "text": "et qui subremanserint servientes his qui eam exteruerunt.",
-      "citation": "Revelation 15:45 (Clementine Vulgate)"
-    },
-    {
-      "verse": 46,
-      "text": "et tu Asia consors in specie Babylonis et gloria personae eius,",
-      "citation": "Revelation 15:46 (Clementine Vulgate)"
-    },
-    {
-      "verse": 47,
-      "text": "vae tibi, misera, propter quod adsimilasti ei, ornasti filias tuas in fornicatione ad placendum et gloriandum in amatoribus tuis, qui te cupierunt semper fornicari.",
-      "citation": "Revelation 15:47 (Clementine Vulgate)"
-    },
-    {
-      "verse": 48,
-      "text": "odibilem imitata es in omnibus operibus eius et adinventionibus eius. propterea dicit Deus:",
-      "citation": "Revelation 15:48 (Clementine Vulgate)"
-    },
-    {
-      "verse": 49,
-      "text": "inmittam tibi mala, viduitatem, paupertatem et famem et gladium et pestem ad devastandas domos tuas, ad violationem et mortem. et gloria virtutis tuae",
-      "citation": "Revelation 15:49 (Clementine Vulgate)"
-    },
-    {
-      "verse": 50,
-      "text": "sicut flos siccabitur, cum exsurget ardor qui emissus est super te.",
-      "citation": "Revelation 15:50 (Clementine Vulgate)"
-    },
-    {
-      "verse": 51,
-      "text": "et infirmaberis et paupera a plaga et mastigata a vulneribus, ut non possis tuos suscipere potentes et amatores.",
-      "citation": "Revelation 15:51 (Clementine Vulgate)"
-    },
-    {
-      "verse": 52,
-      "text": "numquid ego sic zelabo te, dicit Dominus,",
-      "citation": "Revelation 15:52 (Clementine Vulgate)"
-    },
-    {
-      "verse": 53,
-      "text": "nisi occidisses electos meos in omni tempore, exultans percussione manuum et dicens, super mortem eorum cum inebriata es:",
-      "citation": "Revelation 15:53 (Clementine Vulgate)"
-    },
-    {
-      "verse": 54,
-      "text": "exorna speciem vultus tui?",
-      "citation": "Revelation 15:54 (Clementine Vulgate)"
-    },
-    {
-      "verse": 55,
-      "text": "merces fornicariae in sinus tuos, propterea redditionem percipies.",
-      "citation": "Revelation 15:55 (Clementine Vulgate)"
-    },
-    {
-      "verse": 56,
-      "text": "sicut facies electis meis, dicit Dominus, sic faciet tibi Deus et tradet te in malis.",
-      "citation": "Revelation 15:56 (Clementine Vulgate)"
-    },
-    {
-      "verse": 57,
-      "text": "et nati tui fame interient, et tu romphea cades, et civitates tuae conterentur, et omnes tui in campo gladio cadent.",
-      "citation": "Revelation 15:57 (Clementine Vulgate)"
-    },
-    {
-      "verse": 58,
-      "text": "et qui sunt in montibus fame peribunt, et manducabunt carnes suas et sanguinem bibent a fame panis et siti aquae.",
-      "citation": "Revelation 15:58 (Clementine Vulgate)"
-    },
-    {
-      "verse": 59,
-      "text": "propter priora misera es et iterum excipies mala.",
-      "citation": "Revelation 15:59 (Clementine Vulgate)"
-    },
-    {
-      "verse": 60,
-      "text": "et in transitum adlident civitatem oditam et exterent eam, portionem aliquam gloriae tuae et territorii tui, dum revertuntur a Babylonia.",
-      "citation": "Revelation 15:60 (Clementine Vulgate)"
-    },
-    {
-      "verse": 61,
-      "text": "extrita illis eris in stramine, et ipsi tibi erunt ignis.",
-      "citation": "Revelation 15:61 (Clementine Vulgate)"
-    },
-    {
-      "verse": 62,
-      "text": "omnes hii comedunt te et civitates tuas et territoria tua et montes, et omnem silvam tuam et ligna pomifera igne consument.",
-      "citation": "Revelation 15:62 (Clementine Vulgate)"
-    },
-    {
-      "verse": 63,
-      "text": "et natos tuos captivabunt et honestatem tuam spoliabunt et gloriam faciei tuae exterminabunt.",
-      "citation": "Revelation 15:63 (Clementine Vulgate)"
     }
   ]
 }

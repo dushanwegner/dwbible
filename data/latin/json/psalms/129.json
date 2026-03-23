@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 129 — 16 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 129 — 8 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 129,
-    "verseCount": 16,
+    "verseCount": 8,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 129:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum graduum saepe expugnaverunt me ab adulescentia mea dicat nunc Israhel",
-      "citation": "Psalms 129:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "saepe expugnaverunt me a iuventute mea etenim non potuerunt mihi",
-      "citation": "Psalms 129:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "saepe expugnaverunt me ab adulescentia mea sed non potuerunt mihi",
       "citation": "Psalms 129:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 129:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "super cervicem meam arabant arantes prolongaverunt sulcum suum",
-      "citation": "Psalms 129:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "Dominus iustus concidet cervices peccatorum",
-      "citation": "Psalms 129:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "Dominus iustus concidet laqueos impiorum",
       "citation": "Psalms 129:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 129:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "confundantur et revertantur retrorsum omnes qui oderunt Sion",
-      "citation": "Psalms 129:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "fiant sicut faenum tectorum quod priusquam evellatur exaruit",
-      "citation": "Psalms 129:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "fiant sicut faenum tectorum quod statim ut viruerit arescet",
       "citation": "Psalms 129:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "Psalms 129:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "de quo non implebit manum suam messor et sinum suum manipulos faciens",
-      "citation": "Psalms 129:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "et non dixerunt qui praeteribant benedictio Domini super vos benediximus vobis in nomine Domini",
-      "citation": "Psalms 129:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "de quo non dixerunt transeuntes benedictio Domini super vos benediximus vobis in nomine Domini",
       "citation": "Psalms 129:8 (Clementine Vulgate)"
     }
   ]

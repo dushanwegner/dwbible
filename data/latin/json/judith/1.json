@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Judith, Chapter 1 — 19 verses (Clementine Vulgate)",
+    "content": "Judith, Chapter 1 — 12 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "judith",
       "testament": "OT",
       "order": 18,
-      "totalChapters": 17
+      "totalChapters": 16
     },
     "chapter": 1,
-    "verseCount": 19,
+    "verseCount": 12,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/judith/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,98 +34,63 @@
   "verses": [
     {
       "verse": 1,
-      "text": "Paulus apostolus non ab hominibus neque per hominem sed per Iesum Christum, fratribus qui sunt Laodiciae.",
+      "text": "Arfaxat itaque rex Medorum subiugaverat multas gentes imperio suo et ipse aedificavit civitatem potentissimam quam appellavit Igbathanis",
       "citation": "Judith 1:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "gratia vobis et pax a Deo Patre et Domino Iesu Christo.",
+      "text": "ex lapidibus quadratis et sectis fecit muros eius in altitudine cubitorum septuaginta et in latitudine cubitorum triginta turres vero eius posuit in altitudinem cubitorum centum",
       "citation": "Judith 1:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "gratias ago Christo per omnem orationem meam, quod permanentes estis in eo et perseverantes in operibus eius, promissum expectantes in diem iudicii.",
+      "text": "per quadrum vero earum latus utrumque vicenorum pedum spatio tendebatur posuitque portas eius in altitudine turrium",
       "citation": "Judith 1:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "neque destituant vos quorundam vaniloquia insinuantium, ut vos evertant a veritate evangelii quod a me praedicatur.",
+      "text": "et gloriabatur quasi potens in potentia exercitus sui et in gloria quadrigarum suarum",
       "citation": "Judith 1:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "et nunc faciet Deus, ut qui sunt ex me ad profectum veritatis evangelii deservientes et facientes benignitatem operum quae salutis vitae aeternae",
+      "text": "anno igitur duodecimo regni sui Nabuchodonosor rex Assyriorum qui regnabat in Nineven civitatem magnam pugnavit contra Arfaxat et obtinuit eum",
       "citation": "Judith 1:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "et nunc palam sunt vincula mea quae patior in Christo; quibus laetor et gaudeo.",
+      "text": "in campo magno qui appellatur Ragau circa Eufraten et Tigrin et Hyadas in campo Erioch regis Elicorum",
       "citation": "Judith 1:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "et hoc mihi est ad salutem perpetuam; quod ipsum factum orationibus vestris et administrantem Spiritum Sanctum, sive per vitam sive per mortem.",
+      "text": "tunc exaltatum est regnum Nabuchodonosor et cor eius elatum est et misit ad omnes qui habitabant in Cilicia et Damasco et Libano",
       "citation": "Judith 1:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "est enim mihi vere vita in Christo et mori gaudium.",
+      "text": "et ad gentes quae sunt in Carmelo et Cedar et inhabitantes Galileam in campo magno Hesdraelon",
       "citation": "Judith 1:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "et in ipsum in vobis faciet misericordiam suam, ut eandem dilectionem habeatis et sitis unianimes.",
+      "text": "et ad omnes qui erant in Samaria et trans flumen Iordanem usque Hierusalem et omnem terram Iesse quousque perveniatur ad montes Aethiopiae",
       "citation": "Judith 1:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "ergo, dilectissimi, ut audistis praesentia mei, ita retinete et facite in timore Dei, et erit vobis vita in aeternum;",
+      "text": "ad hos omnes misit nuntios Nabuchodonosor rex Assyriorum",
       "citation": "Judith 1:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "est enim Deus qui operatur in vos.",
+      "text": "qui omnes uno animo contradixerunt et remiserunt eos vacuos ac sine honore abiecerunt",
       "citation": "Judith 1:11 (Clementine Vulgate)"
     },
     {
       "verse": 12,
-      "text": "et facite sine retractu quaecumque facitis.",
+      "text": "tunc indignatus est Nabuchodonosor rex ad omnem terram illam et iuravit per regnum et thronum suum quod defenderet se de omnibus regionibus his",
       "citation": "Judith 1:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "et quod est, dilectissimi, gaudete in Christo. et praecavete sordidos in lucro.",
-      "citation": "Judith 1:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "omnes sint petitiones vestrae palam apud Deum. et estote firmi in sensu Christi.",
-      "citation": "Judith 1:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "et quae integra et vera et pudica et iusta et amabilia facite.",
-      "citation": "Judith 1:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "et quae audistis et accepistis, in corde retinete, et erit vobis pax.",
-      "citation": "Judith 1:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 17,
-      "text": "salutate omnes fratres in osculo sancto.",
-      "citation": "Judith 1:17 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "salutant vos sancti.",
-      "citation": "Judith 1:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 19,
-      "text": "gratia Domini Iesu cum spiritu vestro.",
-      "citation": "Judith 1:19 (Clementine Vulgate)"
     }
   ]
 }

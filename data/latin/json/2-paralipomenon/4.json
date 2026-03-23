@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "2 Chronicles, Chapter 4 — 46 verses (Clementine Vulgate)",
+    "content": "2 Chronicles, Chapter 4 — 22 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 36
     },
     "chapter": 4,
-    "verseCount": 46,
+    "verseCount": 22,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/2-paralipomenon/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "2 Chronicles 4:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "audierunt autem hostes Iudae et Beniamin quia filii captivitatis aedificarent templum Domino Deo Israhel",
-      "citation": "2 Chronicles 4:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "mare etiam fusile decem cubitis a labio usque ad labium rotundum per circuitum quinque cubitos habebat altitudinis et funiculus triginta cubitorum ambiebat gyrum eius",
-      "citation": "2 Chronicles 4:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "et accedentes ad Zorobabel et ad principes patrum dixerunt eis aedificemus vobiscum quia ita ut vos quaerimus Deum vestrum ecce nos immolamus victimas ex diebus Asoraddan regis Assur qui adduxit nos huc",
       "citation": "2 Chronicles 4:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "2 Chronicles 4:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "et dixit eis Zorobabel et Iosue et reliqui principes patrum Israhel non est vobis et nobis ut aedificemus domum Deo nostro sed nos ipsi soli aedificabimus Domino Deo nostro sicut praecepit nobis rex Cyrus rex Persarum",
-      "citation": "2 Chronicles 4:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "et ipsum mare super duodecim boves inpositum erat quorum tres respiciebant aquilonem et alii tres occidentem porro tres alii meridiem et tres qui reliqui erant orientem mare habentes superpositum posteriora autem boum erant intrinsecus sub mari",
-      "citation": "2 Chronicles 4:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "factum est igitur ut populus terrae inpediret manus populi Iudae et turbaret eos in aedificando",
       "citation": "2 Chronicles 4:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "2 Chronicles 4:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "conduxerunt quoque adversum eos consiliatores ut destruerent consilium eorum omnibus diebus Cyri regis Persarum et usque ad regnum Darii regis Persarum",
-      "citation": "2 Chronicles 4:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "fecit quoque concas decem et posuit quinque a dextris et quinque a sinistris ut lavarent in eis omnia quae in holocaustum oblaturi erant porro in mari sacerdotes lavabantur",
-      "citation": "2 Chronicles 4:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "in regno autem Asueri principio regni eius scripserunt accusationem adversum habitatores Iudae et Hierusalem",
       "citation": "2 Chronicles 4:6 (Clementine Vulgate)"
     },
     {
@@ -98,18 +68,8 @@
       "citation": "2 Chronicles 4:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "et in diebus Artarxersis scripsit Beselam Mitridatis et Tabel et reliqui qui erant in consilio eorum ad Artarxersen regem Persarum epistula autem accusationis scripta erat syriace et legebatur sermone syro",
-      "citation": "2 Chronicles 4:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "necnon et mensas decem posuitque eas in templo quinque a dextris et quinque a sinistris fialas quoque aureas centum",
-      "citation": "2 Chronicles 4:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "Reum Beelteem et Samsai scriba scripserunt epistulam unam de Hierusalem Artarxersi regi huiuscemodi",
       "citation": "2 Chronicles 4:8 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "2 Chronicles 4:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "Reum Beelteem et Samsai scriba et reliqui consiliatores eorum Dinei et Apharsathei Terphalei Apharsei Erchuei Babylonii Susannechei Deaei Aelamitae",
-      "citation": "2 Chronicles 4:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "porro mare posuit in latere dextro contra orientem ad meridiem",
-      "citation": "2 Chronicles 4:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "et ceteri de gentibus quas transtulit Asennaphar magnus et gloriosus et habitare eas fecit in civitatibus Samariae et in reliquis regionibus trans Flumen in pace",
       "citation": "2 Chronicles 4:10 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "2 Chronicles 4:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "hoc est exemplar epistulae quam miserunt ad eum Artarxersi regi servi tui viri qui sunt trans Fluvium salutem dicunt",
-      "citation": "2 Chronicles 4:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "hoc est columnas duas et epistylia et capita et quasi quaedam retiacula quae capita tegerent super epistylia",
-      "citation": "2 Chronicles 4:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "notum sit regi quia Iudaei qui ascenderunt a te ad nos venerunt in Hierusalem civitatem rebellem et pessimam quam aedificant extruentes muros eius et parietes conponentes",
       "citation": "2 Chronicles 4:12 (Clementine Vulgate)"
     },
     {
@@ -158,18 +98,8 @@
       "citation": "2 Chronicles 4:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "nunc igitur notum sit regi quia si civitas illa aedificata fuerit et muri eius instaurati tributum et vectigal et annuos reditus non dabunt et usque ad reges haec noxa perveniet",
-      "citation": "2 Chronicles 4:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "bases etiam fecit et concas quas superposuit basibus",
-      "citation": "2 Chronicles 4:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "nos ergo memores salis quod in palatio comedimus et quia laesiones regis videre nefas ducimus idcirco misimus et nuntiavimus regi",
       "citation": "2 Chronicles 4:14 (Clementine Vulgate)"
     },
     {
@@ -178,18 +108,8 @@
       "citation": "2 Chronicles 4:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "ut recenseas in libris historiarum patrum tuorum et invenies scriptum in commentariis et scies quoniam urbs illa urbs rebellis est et nocens regibus et provinciis et bella concitant in ea ex diebus antiquis quam ob rem et civitas ipsa destructa est",
-      "citation": "2 Chronicles 4:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "et lebetas et creagras et fialas omnia vasa fecit Salomoni Hiram pater eius in domo Domini ex aere mundissimo",
-      "citation": "2 Chronicles 4:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "nuntiamus nos regi quoniam si civitas illa aedificata fuerit et muri ipsius instaurati possessionem trans Fluvium non habebis",
       "citation": "2 Chronicles 4:16 (Clementine Vulgate)"
     },
     {
@@ -198,18 +118,8 @@
       "citation": "2 Chronicles 4:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "verbum misit rex ad Reum Beelteem et Samsai scribam et ad reliquos qui erant in consilio eorum habitatores Samariae et ceteris trans Fluvium salutem dicens et pacem",
-      "citation": "2 Chronicles 4:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "erat autem multitudo vasorum innumerabilis ita ut ignoraretur pondus aeris",
-      "citation": "2 Chronicles 4:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "accusationem quam misistis ad nos manifeste lecta est coram me",
       "citation": "2 Chronicles 4:18 (Clementine Vulgate)"
     },
     {
@@ -218,18 +128,8 @@
       "citation": "2 Chronicles 4:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "et a me praeceptum est et recensuerunt inveneruntque quoniam civitas illa a diebus antiquis adversum reges rebellat et seditiones et proelia concitantur in ea",
-      "citation": "2 Chronicles 4:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "candelabra quoque cum lucernis suis ut lucerent ante oraculum iuxta ritum ex auro purissimo",
-      "citation": "2 Chronicles 4:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "nam et reges fortissimi fuerunt in Hierusalem qui et dominati sunt omni regioni quae trans Fluvium est tributum quoque et vectigal et reditus accipiebant",
       "citation": "2 Chronicles 4:20 (Clementine Vulgate)"
     },
     {
@@ -238,29 +138,9 @@
       "citation": "2 Chronicles 4:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "nunc ergo audite sententiam ut prohibeatis viros illos et urbs illa non aedificetur donec si forte a me iussum fuerit",
-      "citation": "2 Chronicles 4:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "thymiamateria quoque et turibula et fialas et mortariola ex auro purissimo et ostia celavit templi interioris id est in sancto sanctorum et ostia templi forinsecus aurea sicque conpletum est omne opus quod fecit Salomon in domo Domini",
       "citation": "2 Chronicles 4:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "videte ne neglegenter hoc impleatis et paulatim crescat malum contra reges",
-      "citation": "2 Chronicles 4:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 23,
-      "text": "itaque exemplum edicti Artarxersis regis lectum est coram Reum et Samsai scriba et consiliariis eorum et abierunt festini in Hierusalem ad Iudaeos et prohibuerunt eos in brachio et robore",
-      "citation": "2 Chronicles 4:23 (Clementine Vulgate)"
-    },
-    {
-      "verse": 24,
-      "text": "tunc intermissum est opus domus Dei in Hierusalem et non fiebat usque ad annum secundum regni Darii regis Persarum",
-      "citation": "2 Chronicles 4:24 (Clementine Vulgate)"
     }
   ]
 }

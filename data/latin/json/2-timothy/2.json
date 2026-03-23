@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "2 Timothy, Chapter 2 — 15 verses (Clementine Vulgate)",
+    "content": "2 Timothy, Chapter 2 — 26 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "2-timothy",
       "testament": "NT",
       "order": 62,
-      "totalChapters": 7
+      "totalChapters": 4
     },
     "chapter": 2,
-    "verseCount": 15,
+    "verseCount": 26,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/2-timothy/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,78 +34,133 @@
   "verses": [
     {
       "verse": 1,
-      "text": "tu autem loquere quae decet sanam doctrinam",
+      "text": "tu ergo fili mi confortare in gratia quae est in Christo Iesu",
       "citation": "2 Timothy 2:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "senes ut sobrii sint pudici prudentes sani fide dilectione patientia",
+      "text": "et quae audisti a me per multos testes haec commenda fidelibus hominibus qui idonei erunt et alios docere",
       "citation": "2 Timothy 2:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "anus similiter in habitu sancto non criminatrices non vino multo servientes bene docentes",
+      "text": "labora sicut bonus miles Christi Iesu",
       "citation": "2 Timothy 2:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "ut prudentiam doceant adulescentulas ut viros suos ament filios diligant",
+      "text": "nemo militans inplicat se negotiis saecularibus ut ei placeat cui se probavit",
       "citation": "2 Timothy 2:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "prudentes castas domus curam habentes benignas subditas suis viris ut non blasphemetur verbum Dei",
+      "text": "nam et qui certat in agone non coronatur nisi legitime certaverit",
       "citation": "2 Timothy 2:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "iuvenes similiter hortare ut sobrii sint",
+      "text": "laborantem agricolam oportet primum de fructibus accipere",
       "citation": "2 Timothy 2:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "in omnibus te ipsum praebe exemplum bonorum operum in doctrina integritatem gravitatem",
+      "text": "intellege quae dico dabit enim tibi Dominus in omnibus intellectum",
       "citation": "2 Timothy 2:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "verbum sanum inreprehensibilem ut is qui ex adverso est vereatur nihil habens malum dicere de nobis",
+      "text": "memor esto Iesum Christum resurrexisse a mortuis ex semine David secundum evangelium meum",
       "citation": "2 Timothy 2:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "servos dominis suis subditos esse in omnibus placentes non contradicentes",
+      "text": "in quo laboro usque ad vincula quasi male operans sed verbum Dei non est alligatum",
       "citation": "2 Timothy 2:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "non fraudantes, sed in omnibus fidem bonam ostendentes ut doctrinam salutaris nostri Dei ornent in omnibus",
+      "text": "ideo omnia sustineo propter electos ut et ipsi salutem consequantur quae est in Christo Iesu cum gloria caelesti",
       "citation": "2 Timothy 2:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "apparuit enim gratia Dei salutaris omnibus hominibus",
+      "text": "fidelis sermo nam si conmortui sumus et convivemus",
       "citation": "2 Timothy 2:11 (Clementine Vulgate)"
     },
     {
       "verse": 12,
-      "text": "erudiens nos ut abnegantes impietatem et saecularia desideria sobrie et iuste et pie vivamus in hoc saeculo",
+      "text": "si sustinemus et conregnabimus si negabimus et ille negabit nos",
       "citation": "2 Timothy 2:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
-      "text": "expectantes beatam spem et adventum gloriae magni Dei et salvatoris nostri Iesu Christi",
+      "text": "si non credimus ille fidelis manet negare se ipsum non potest",
       "citation": "2 Timothy 2:13 (Clementine Vulgate)"
     },
     {
       "verse": 14,
-      "text": "qui dedit semet ipsum pro nobis ut nos redimeret ab omni iniquitate et mundaret sibi populum acceptabilem sectatorem bonorum operum",
+      "text": "haec commone testificans coram Domino noli verbis contendere in nihil utile ad subversionem audientium",
       "citation": "2 Timothy 2:14 (Clementine Vulgate)"
     },
     {
       "verse": 15,
-      "text": "haec loquere et exhortare et argue cum omni imperio nemo te contemnat",
+      "text": "sollicite cura te ipsum probabilem exhibere Deo operarium inconfusibilem recte tractantem verbum veritatis",
       "citation": "2 Timothy 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "profana autem inaniloquia devita multum enim proficient ad impietatem",
+      "citation": "2 Timothy 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et sermo eorum ut cancer serpit ex quibus est Hymeneus et Philetus",
+      "citation": "2 Timothy 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "qui a veritate exciderunt dicentes resurrectionem iam factam et subvertunt quorundam fidem",
+      "citation": "2 Timothy 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "sed firmum fundamentum Dei stetit habens signaculum hoc cognovit Dominus qui sunt eius et discedat ab iniquitate omnis qui nominat nomen Domini",
+      "citation": "2 Timothy 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in magna autem domo non solum sunt vasa aurea et argentea sed et lignea et fictilia et quaedam quidem in honorem quaedam autem in contumeliam",
+      "citation": "2 Timothy 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "si quis ergo emundaverit se ab istis erit vas in honorem sanctificatum et utile Domino ad omne opus bonum paratum",
+      "citation": "2 Timothy 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "iuvenilia autem desideria fuge sectare vero iustitiam fidem caritatem pacem cum his qui invocant Dominum de corde puro",
+      "citation": "2 Timothy 2:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "stultas autem et sine disciplina quaestiones devita sciens quia generant lites",
+      "citation": "2 Timothy 2:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "servum autem Domini non oportet litigare sed mansuetum esse ad omnes docibilem patientem",
+      "citation": "2 Timothy 2:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "cum modestia corripientem eos qui resistunt nequando det illis Deus paenitentiam ad cognoscendam veritatem",
+      "citation": "2 Timothy 2:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et resipiscant a diaboli laqueis a quo capti tenentur ad ipsius voluntatem",
+      "citation": "2 Timothy 2:26 (Clementine Vulgate)"
     }
   ]
 }

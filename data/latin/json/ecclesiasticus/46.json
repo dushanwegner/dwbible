@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 46 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 46,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/45.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/47.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/46.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/46.json"
+    }
+  },
+  "citation": "Sirach 46 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "fortis in bello Iesus Nave successor Mosi in prophetis qui fuit magnus secundum nomen suum",
+      "citation": "Sirach 46:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "maximus in salutem electorum Dei expugnare insurgentes hostes ut consequeretur hereditatem Israhel",
+      "citation": "Sirach 46:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quam gloriam adeptus est in tollendo manus suas et iactando contra civitatem rompheas",
+      "citation": "Sirach 46:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quis ante illum sic restitit nam hostes ipse Dominus perduxit",
+      "citation": "Sirach 46:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "aut non in iracundia eius inpeditus est sol et una dies facta est quasi duo",
+      "citation": "Sirach 46:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "invocavit Altissimum potentem in obpugnando inimicos undique et audivit illum magnus et sanctus Deus in saxis grandinis virtutis valde fortis",
+      "citation": "Sirach 46:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "impetum fecit contra gentem hostilem et in descensu perdidit contrarios",
+      "citation": "Sirach 46:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ut cognoscant gentes potentiam eius quia contra Dominum pugnare non est facile et secutus est a tergo potentes",
+      "citation": "Sirach 46:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et in diebus Mosi misericordiam fecit ipse et Chaleb filius Iepphonne stare contra hostem prohibere gentem a peccatis et perfringere murmur malitiae",
+      "citation": "Sirach 46:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ipsi duo constituti a periculo liberati sunt a numero sescentorum milium peditum inducere illos in hereditatem in terram quae manat lac et mel",
+      "citation": "Sirach 46:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dedit Dominus ipsi Chaleb fortitudinem et usque ad senectutem permansit illi virtus ut ascenderet in excelsum terrae locum et semen ipsius obtinuit hereditatem",
+      "citation": "Sirach 46:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ut viderent omnes filii Israhel quod bonum est obsequi sancto Deo",
+      "citation": "Sirach 46:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et iudices singuli suo nomine quorum non est corruptum cor qui non aversi sunt a Domino",
+      "citation": "Sirach 46:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ut sit memoria illorum in benedictione et ossa eorum pullulent de loco suo",
+      "citation": "Sirach 46:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et nomen eorum permanet in aeternum permanens ad filios illorum sanctorum virorum gloria",
+      "citation": "Sirach 46:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "dilectus a Domino suo Samuhel propheta Domini renovavit imperium et unxit principes in gente sua",
+      "citation": "Sirach 46:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "in lege Domini iudicavit congregationem et vidit Dominus Iacob et in fide sua probatus est propheta",
+      "citation": "Sirach 46:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et cognitus est in verbis suis fidelis quia vidit Deum lucis",
+      "citation": "Sirach 46:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et invocavit Deum potentem in obpugnando hostes circumstantes undique in oblatione viri inviolati",
+      "citation": "Sirach 46:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et intonuit e caelo Dominus et in sonitu magno auditam fecit vocem suam",
+      "citation": "Sirach 46:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et conteruit principes Tyriorum et omnes duces Philisthim",
+      "citation": "Sirach 46:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et ante tempus finis vitae suae et saeculi testimonium praebuit in conspectu Domini et christi pecunias et usque ad calciamenta ab omni carne non accepit et non accusavit illum homo",
+      "citation": "Sirach 46:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et post hoc dormivit et notum fecit regi et ostendit illi finem vitae suae et exaltavit vocem eius de terra in prophetia delere impietatem gentis",
+      "citation": "Sirach 46:23 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Genesis — 26 chapters (Clementine Vulgate)",
+    "content": "Genesis — 50 chapters (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,7 +15,7 @@
       "slug": "genesis",
       "testament": "OT",
       "order": 1,
-      "totalChapters": 26
+      "totalChapters": 50
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/genesis/index.json",
@@ -175,9 +175,153 @@
     },
     {
       "chapter": 26,
-      "verseCount": 8,
+      "verseCount": 35,
       "url": "https://latinprayer.org/latin/genesis/26",
       "jsonUrl": "https://latinprayer.org/latin/genesis/26.json"
+    },
+    {
+      "chapter": 27,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/latin/genesis/27",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/27.json"
+    },
+    {
+      "chapter": 28,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/latin/genesis/28",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/28.json"
+    },
+    {
+      "chapter": 29,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/genesis/29",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/29.json"
+    },
+    {
+      "chapter": 30,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/latin/genesis/30",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/30.json"
+    },
+    {
+      "chapter": 31,
+      "verseCount": 54,
+      "url": "https://latinprayer.org/latin/genesis/31",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/31.json"
+    },
+    {
+      "chapter": 32,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/latin/genesis/32",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/32.json"
+    },
+    {
+      "chapter": 33,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/latin/genesis/33",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/33.json"
+    },
+    {
+      "chapter": 34,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/genesis/34",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/34.json"
+    },
+    {
+      "chapter": 35,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/latin/genesis/35",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/35.json"
+    },
+    {
+      "chapter": 36,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/latin/genesis/36",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/36.json"
+    },
+    {
+      "chapter": 37,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/latin/genesis/37",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/37.json"
+    },
+    {
+      "chapter": 38,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/latin/genesis/38",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/38.json"
+    },
+    {
+      "chapter": 39,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/genesis/39",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/39.json"
+    },
+    {
+      "chapter": 40,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/genesis/40",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/40.json"
+    },
+    {
+      "chapter": 41,
+      "verseCount": 57,
+      "url": "https://latinprayer.org/latin/genesis/41",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/41.json"
+    },
+    {
+      "chapter": 42,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/latin/genesis/42",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/42.json"
+    },
+    {
+      "chapter": 43,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/genesis/43",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/43.json"
+    },
+    {
+      "chapter": 44,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/genesis/44",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/44.json"
+    },
+    {
+      "chapter": 45,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/latin/genesis/45",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/45.json"
+    },
+    {
+      "chapter": 46,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/genesis/46",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/46.json"
+    },
+    {
+      "chapter": 47,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/genesis/47",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/47.json"
+    },
+    {
+      "chapter": 48,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/latin/genesis/48",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/48.json"
+    },
+    {
+      "chapter": 49,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/latin/genesis/49",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/49.json"
+    },
+    {
+      "chapter": 50,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/latin/genesis/50",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/50.json"
     }
   ]
 }

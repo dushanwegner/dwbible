@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 2 — 26 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 2 — 13 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 2,
-    "verseCount": 26,
+    "verseCount": 13,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 2:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "quare turbabuntur gentes et tribus meditabuntur inania",
-      "citation": "Psalms 2:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "adstiterunt reges terrae et principes convenerunt in unum adversus Dominum et adversus christum eius diapsalma",
-      "citation": "Psalms 2:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "consurgent reges terrae et principes tractabunt pariter adversum Dominum et adversum christum eius",
       "citation": "Psalms 2:2 (Clementine Vulgate)"
     },
     {
@@ -58,24 +48,9 @@
       "citation": "Psalms 2:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "disrumpamus vincula eorum et proiciamus a nobis laqueos eorum",
-      "citation": "Psalms 2:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "qui habitat in caelis inridebit eos et Dominus subsannabit eos",
       "citation": "Psalms 2:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "habitator caeli ridebit Dominus subsannabit eos",
-      "citation": "Psalms 2:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "tunc loquetur ad eos in ira sua et in furore suo conturbabit eos",
-      "citation": "Psalms 2:5 (Clementine Vulgate)"
     },
     {
       "verse": 5,
@@ -88,24 +63,9 @@
       "citation": "Psalms 2:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "ego autem orditus sum regem meum super Sion montem sanctum suum adnuntiabo Dei praeceptum",
-      "citation": "Psalms 2:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "Dominus dixit ad me filius meus es tu ego hodie genui te",
       "citation": "Psalms 2:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "Dominus dixit ad me filius meus es tu ego hodie genui te",
-      "citation": "Psalms 2:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "postula a me et dabo tibi gentes hereditatem tuam et possessionem tuam terminos terrae",
-      "citation": "Psalms 2:8 (Clementine Vulgate)"
     },
     {
       "verse": 8,
@@ -118,28 +78,13 @@
       "citation": "Psalms 2:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "pasces eos in virga ferrea ut vas figuli conteres eos",
-      "citation": "Psalms 2:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "et nunc reges intellegite erudimini qui iudicatis terram",
       "citation": "Psalms 2:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "nunc ergo reges intellegite erudimini iudices terrae",
-      "citation": "Psalms 2:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "servite Domino in timore et exultate ei in tremore",
-      "citation": "Psalms 2:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "servite Domino in timore et exultate in tremore",
       "citation": "Psalms 2:11 (Clementine Vulgate)"
     },
     {
@@ -150,16 +95,6 @@
     {
       "verse": 12,
       "text": "cum exarserit in brevi ira eius beati omnes qui confidunt in eo",
-      "citation": "Psalms 2:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "adorate pure ne forte irascatur et pereatis de via",
-      "citation": "Psalms 2:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "cum exarserit post paululum furor eius beati omnes qui sperant in eum",
       "citation": "Psalms 2:12 (Clementine Vulgate)"
     }
   ]

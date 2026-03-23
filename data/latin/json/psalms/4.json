@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 4 — 20 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 4 — 10 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 4,
-    "verseCount": 20,
+    "verseCount": 10,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 4:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "victori in psalmis canticum David",
-      "citation": "Psalms 4:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "cum invocarem exaudivit me Deus iustitiae meae in tribulatione dilatasti mihi miserere mei et exaudi orationem meam",
-      "citation": "Psalms 4:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "invocante me exaudi me Deus iustitiae meae in tribulatione dilatasti mihi miserere mei et exaudi orationem meam",
       "citation": "Psalms 4:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 4:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "filii viri usquequo incliti mei ignominiose diligitis vanitatem quaerentes mendacium semper",
-      "citation": "Psalms 4:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "et scitote quoniam mirificavit Dominus sanctum suum Dominus exaudiet me cum clamavero ad eum",
-      "citation": "Psalms 4:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "et cognoscite quoniam mirabilem reddidit Dominus sanctum suum Dominus exaudiet cum clamavero ad eum",
       "citation": "Psalms 4:4 (Clementine Vulgate)"
     },
     {
@@ -78,28 +58,13 @@
       "citation": "Psalms 4:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "irascimini et nolite peccare loquimini in cordibus vestris super cubilia vestra et tacete semper",
-      "citation": "Psalms 4:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "sacrificate sacrificium iustitiae et sperate in Domino multi dicunt quis ostendet nobis bona",
       "citation": "Psalms 4:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "sacrificate sacrificium iustitiae et fidite in Domino multi dicunt quis ostendit nobis bonum",
-      "citation": "Psalms 4:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "signatum est super nos lumen vultus tui Domine dedisti laetitiam in corde meo",
-      "citation": "Psalms 4:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "leva super nos lucem vultus tui Domine dedisti laetitiam in corde meo",
       "citation": "Psalms 4:7 (Clementine Vulgate)"
     },
     {
@@ -113,23 +78,8 @@
       "citation": "Psalms 4:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "in tempore frumentum et vinum eorum multiplicata sunt",
-      "citation": "Psalms 4:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "quia tu Domine specialiter securum habitare fecisti me",
-      "citation": "Psalms 4:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "in pace in id ipsum dormiam et requiescam",
-      "citation": "Psalms 4:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "in pace simul requiescam et dormiam",
       "citation": "Psalms 4:9 (Clementine Vulgate)"
     }
   ]

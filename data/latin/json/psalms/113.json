@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 113 — 18 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 113 — 9 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 113,
-    "verseCount": 18,
+    "verseCount": 9,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 113:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "alleluia laudate servi Dominum laudate nomen Domini",
-      "citation": "Psalms 113:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "sit nomen Domini benedictum ex hoc nunc et usque in saeculum",
-      "citation": "Psalms 113:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "sit nomen Domini benedictum amodo et usque in aeternum",
       "citation": "Psalms 113:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 113:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "ab ortu solis usque ad occasum eius laudabile nomen Domini",
-      "citation": "Psalms 113:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "excelsus super omnes gentes Dominus super caelos gloria eius",
-      "citation": "Psalms 113:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "excelsus super omnes gentes Dominus super caelum gloria eius",
       "citation": "Psalms 113:4 (Clementine Vulgate)"
     },
     {
@@ -78,18 +58,8 @@
       "citation": "Psalms 113:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "quis ut Dominus Deus noster qui in excelsis habitans",
-      "citation": "Psalms 113:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "et humilia respicit in caelo et in terra",
-      "citation": "Psalms 113:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "humilia respicit in caelo et in terra",
       "citation": "Psalms 113:6 (Clementine Vulgate)"
     },
     {
@@ -98,28 +68,13 @@
       "citation": "Psalms 113:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "suscitans de terra inopem et de stercore elevat pauperem",
-      "citation": "Psalms 113:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "ut conlocet eum cum principibus cum principibus populi sui",
       "citation": "Psalms 113:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "ut eum sedere faciat cum principibus cum principibus populi sui",
-      "citation": "Psalms 113:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "qui habitare facit sterilem in domo matrem filiorum laetantem",
-      "citation": "Psalms 113:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "qui conlocat sterilem in domo matrem filiorum laetantem alleluia",
       "citation": "Psalms 113:9 (Clementine Vulgate)"
     }
   ]

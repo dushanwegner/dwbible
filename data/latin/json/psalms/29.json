@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 29 — 24 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 29 — 12 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 29,
-    "verseCount": 24,
+    "verseCount": 12,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 29:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum David adferte Domino filios arietum",
-      "citation": "Psalms 29:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "psalmus cantici pro dedicatione domus David",
-      "citation": "Psalms 29:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "adferte Domino gloriam et honorem adferte Domino gloriam nomini eius adorate Dominum in atrio sancto eius",
-      "citation": "Psalms 29:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "adferte Domino gloriam et imperium adferte Domino gloriam nomini eius adorate Dominum in decore sancto",
       "citation": "Psalms 29:2 (Clementine Vulgate)"
     },
     {
@@ -68,24 +53,9 @@
       "citation": "Psalms 29:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "vox Domini super aquas Deus gloriae intonuit Dominus super aquas multas",
-      "citation": "Psalms 29:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "vox Domini in virtute vox Domini in magnificentia",
       "citation": "Psalms 29:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "vox Domini in fortitudine vox Domini in decore",
-      "citation": "Psalms 29:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "vox Domini confringentis cedros et confringet Dominus cedros Libani",
-      "citation": "Psalms 29:5 (Clementine Vulgate)"
     },
     {
       "verse": 5,
@@ -98,18 +68,8 @@
       "citation": "Psalms 29:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "et disperget eas quasi vitulus Libani et Sarion quasi filius rinocerotis",
-      "citation": "Psalms 29:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "vox Domini intercidentis flammam ignis",
-      "citation": "Psalms 29:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "vox Domini dividens flammas ignis",
       "citation": "Psalms 29:7 (Clementine Vulgate)"
     },
     {
@@ -118,18 +78,8 @@
       "citation": "Psalms 29:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "vox Domini parturire faciens desertum Cades",
-      "citation": "Psalms 29:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "vox Domini praeparantis cervos et revelabit condensa et in templo eius omnis dicet gloriam",
-      "citation": "Psalms 29:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "vox Domini obsetricans cervis et revelans saltus et in templo eius omnis loquetur gloriam",
       "citation": "Psalms 29:9 (Clementine Vulgate)"
     },
     {
@@ -138,18 +88,8 @@
       "citation": "Psalms 29:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "Dominus diluvium inhabitat et sedebit Dominus rex in aeternum",
-      "citation": "Psalms 29:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "Dominus virtutem populo suo dabit Dominus benedicet populo suo in pace",
-      "citation": "Psalms 29:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "Dominus fortitudinem populo suo dabit Dominus benedicet populo suo in pace",
       "citation": "Psalms 29:11 (Clementine Vulgate)"
     }
   ]

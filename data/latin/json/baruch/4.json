@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Baruch, Chapter 4 — 23 verses (Clementine Vulgate)",
+    "content": "Baruch, Chapter 4 — 37 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "baruch",
       "testament": "OT",
       "order": 30,
-      "totalChapters": 10
+      "totalChapters": 5
     },
     "chapter": 4,
-    "verseCount": 23,
+    "verseCount": 37,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/baruch/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,118 +34,188 @@
   "verses": [
     {
       "verse": 1,
-      "text": "factum est autem cum audisset Sanaballat quod aedificaremus murum iratus est valde et motus nimis subsannavit Iudaeos",
+      "text": "hic liber mandatorum Dei et lex quae est in aeternum omnes qui tenent eam ad vitam qui autem dereliquerint eam in mortem",
       "citation": "Baruch 4:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "et dixit coram fratribus suis et frequentia Samaritanorum quid Iudaei inbecilli faciunt num dimittent eos gentes num sacrificabunt et conplebunt in una die numquid aedificare poterunt lapides de acervis pulveris qui conbusti sunt",
+      "text": "convertere Iacob et adprehende eam ambula per viam ad splendorem eius contra lumen eius",
       "citation": "Baruch 4:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "sed et Tobias Ammanites proximus eius ait aedificent si ascenderit vulpis transiliet murum eorum lapideum",
+      "text": "ne tradas altero gloriam tuam et dignitatem tuam genti alienae",
       "citation": "Baruch 4:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "audi Deus noster quia facti sumus despectio converte obprobrium super caput eorum et da eos in despectionem in terra captivitatis",
+      "text": "beati sumus Israhel quoniam quae Deo placent nobis manifesta sunt",
       "citation": "Baruch 4:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "ne operias iniquitatem eorum et peccatum eorum coram facie tua non deleatur quia inriserunt aedificantes",
+      "text": "animaequior esto populus Dei memorabilis Israhel",
       "citation": "Baruch 4:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "itaque aedificavimus murum et coniunximus totum usque ad partem dimidiam et provocatum est cor populi ad operandum",
+      "text": "venundati estis gentibus non in perditionem sed propter quod in ira ad iracundiam provocastis Deum traditi estis adversariis",
       "citation": "Baruch 4:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "factum est autem cum audisset Sanaballat et Tobias et Arabes et Ammanitae et Azotii quod obducta esset cicatrix muri Hierusalem et quod coepissent interrupta concludi irati sunt nimis",
+      "text": "exacerbastis enim eum qui fecit vos Deum aeternum immolantes daemoniis et non Deo",
       "citation": "Baruch 4:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "et congregati omnes pariter ut venirent et pugnarent contra Hierusalem et molirentur insidias",
+      "text": "obliti autem estis eum qui nutrivit vos et contristastis nutricem vestram Hierusalem",
       "citation": "Baruch 4:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "et oravimus Deum nostrum et posuimus custodes super murum die et nocte contra eos",
+      "text": "vidit enim iracundiam a Deo venientem vobis et dixit audite confines Sion adduxit enim mihi Deus luctum magnum",
       "citation": "Baruch 4:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "dixit autem Iudas debilitata est fortitudo portantis et humus nimia est et nos non poterimus aedificare murum",
+      "text": "vidi enim captivitatem populi mei filiorum meorum et filiarum quam superduxit illis Aeternus",
       "citation": "Baruch 4:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "et dixerunt hostes nostri nesciant et ignorent donec veniamus in medio eorum et interficiamus eos et cessare faciamus opus",
+      "text": "nutrivi enim illos cum iucunditate dimisi autem illos cum fletu et luctu",
       "citation": "Baruch 4:11 (Clementine Vulgate)"
     },
     {
       "verse": 12,
-      "text": "factum est autem venientibus Iudaeis qui habitabant iuxta eos et dicentibus nobis per decem vices ex omnibus locis quibus venerant ad nos",
+      "text": "nemo gaudeat super me viduam et desolatam a multis derelicta sum propter peccata filiorum meorum quia declinaverunt a lege Dei",
       "citation": "Baruch 4:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
-      "text": "statui in loco post murum per circuitum populum in ordine cum gladiis suis et lanceis et arcis",
+      "text": "iustitias autem ipsius nescierunt nec ambulaverunt per vias mandatorum Dei neque per semitas veritatis eius cum iustitia ingressi sunt",
       "citation": "Baruch 4:13 (Clementine Vulgate)"
     },
     {
       "verse": 14,
-      "text": "perspexi atque surrexi et aio ad optimates et ad magistratus et ad reliquam partem vulgi nolite timere a facie eorum Domini magni et terribilis mementote et pugnate pro fratribus vestris filiis vestris et filiabus vestris uxoribus vestris et domibus",
+      "text": "veniant confines Sion et memorentur captivitatem filiorum et filiarum mearum quam superduxit illis Aeternus",
       "citation": "Baruch 4:14 (Clementine Vulgate)"
     },
     {
       "verse": 15,
-      "text": "factum est autem cum audissent inimici nostri nuntiatum esse nobis dissipavit Deus consilium eorum et reversi sumus omnes ad muros unusquisque ad opus suum",
+      "text": "adduxit enim super illos gentem de longinquo gentem inprobam et alterius linguae",
       "citation": "Baruch 4:15 (Clementine Vulgate)"
     },
     {
       "verse": 16,
-      "text": "et factum est a die illa media pars iuvenum eorum faciebant opus et media parata erat ad bellum et lanceae et scuta et arcus et loricae et principes post eos in omni domo Iuda",
+      "text": "qui non sunt reveriti senem neque puerorum miserti sunt et abduxerunt dilectos viduae et a filiis unicam desolaverunt",
       "citation": "Baruch 4:16 (Clementine Vulgate)"
     },
     {
       "verse": 17,
-      "text": "aedificantium in muro et portantium onera et inponentium una manu sua faciebat opus et altera tenebat gladium",
+      "text": "ego autem quid possum adiuvare vos",
       "citation": "Baruch 4:17 (Clementine Vulgate)"
     },
     {
       "verse": 18,
-      "text": "aedificantium enim unusquisque gladio erat accinctus renes et aedificabant et clangebant bucina iuxta me",
+      "text": "qui enim adduxit super vos mala ipse vos eripiet de manibus inimicorum vestrorum",
       "citation": "Baruch 4:18 (Clementine Vulgate)"
     },
     {
       "verse": 19,
-      "text": "et dixi ad optimates et ad magistratus et ad reliquam partem vulgi opus grande est et latum et nos separati sumus in muro procul alter ab altero",
+      "text": "ambulate filii ambulate ego enim derelicta sum sola",
       "citation": "Baruch 4:19 (Clementine Vulgate)"
     },
     {
       "verse": 20,
-      "text": "in loco quocumque audieritis clangorem tubae illuc concurrite ad nos Deus noster pugnabit pro nobis",
+      "text": "exui me stola pacis indui autem me sacco obsecrationis et clamabo ad Altissimum in diebus meis",
       "citation": "Baruch 4:20 (Clementine Vulgate)"
     },
     {
       "verse": 21,
-      "text": "et nos ipsi faciamus opus et media pars nostrum teneat lanceas ab ascensu aurorae donec egrediantur astra",
+      "text": "animaequiores estote filii clamate ad Dominum et eripiet vos de manu principum inimicorum",
       "citation": "Baruch 4:21 (Clementine Vulgate)"
     },
     {
       "verse": 22,
-      "text": "in tempore quoque illo dixi populo unusquisque cum puero suo maneat in medio Hierusalem et sint vobis vices per noctem et diem ad operandum",
+      "text": "ego enim speravi in Aeternum salutem vestram et venit mihi gaudium a Sancto super misericordia quae veniet vobis ab Aeterno salutari nostro",
       "citation": "Baruch 4:22 (Clementine Vulgate)"
     },
     {
       "verse": 23,
-      "text": "ego autem et fratres mei et pueri mei et custodes qui erant post me non deponebamus vestimenta nostra unusquisque tantum nudabatur ad baptismum",
+      "text": "emisi enim vos cum luctu et ploratu reducet autem vos mihi Deus cum gaudio et iucunditate in sempiternum",
       "citation": "Baruch 4:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "sicut enim viderunt vicinae Sion captivitatem vestram sic videbunt et in celeritate salutem vestram a Deo quae superveniet vobis cum honore magno et splendore aeterno",
+      "citation": "Baruch 4:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "filii patienter sustinete iram quae supervenit vobis persecutus est enim te inimicus tuus sed cito videbis perditionem ipsius et super cervices ipsius ascendes",
+      "citation": "Baruch 4:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "delicati mei ambulaverunt vias asperas ducti sunt enim ut grex direptus ab inimicis",
+      "citation": "Baruch 4:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "animaequiores estote filii et proclamate ad Deum erit enim memoria vestra ab eo qui ducit vos",
+      "citation": "Baruch 4:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "sicut enim fuit sensus vester ut erraretis a Deo decies tantum iterum convertentes requiretis eum",
+      "citation": "Baruch 4:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "qui enim induxit vobis mala ipse rursum adducet vobis sempiternam iucunditatem cum salute vestra",
+      "citation": "Baruch 4:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "animaequior esto Hierusalem exhortatur enim te qui te nominavit",
+      "citation": "Baruch 4:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "nocentes parebunt qui te vexaverunt et qui gratulati sunt in tua ruina punientur",
+      "citation": "Baruch 4:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "civitates quibus servierunt filii tui punietur quae accepit filios tuos",
+      "citation": "Baruch 4:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "sicut enim gavisa est in tua ruina et laetata est in tuo casu sic contristabitur in sua desolatione",
+      "citation": "Baruch 4:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et amputabitur exultatio multitudinis eius et gaudimonium eius erit in luctum",
+      "citation": "Baruch 4:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "ignis enim superveniet ei ab Aeterno in longiturnis diebus et habitabitur a daemoniis in multitudinem temporis",
+      "citation": "Baruch 4:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "circumspice Hierusalem ad orientem et vide iucunditatem a Deo tibi venientem",
+      "citation": "Baruch 4:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "ecce enim veniunt filii tui quos dimisisti dispersos veniunt collecti ab oriente usque ad occidentem in verbo Sancti gaudentes in honorem Dei",
+      "citation": "Baruch 4:37 (Clementine Vulgate)"
     }
   ]
 }

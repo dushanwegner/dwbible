@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 115 — 36 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 115 — 18 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 115,
-    "verseCount": 36,
+    "verseCount": 18,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 115:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "non nobis Domine non nobis sed nomini tuo da gloriam",
-      "citation": "Psalms 115:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "super misericordia tua et veritate tua nequando dicant gentes ubi est Deus eorum",
-      "citation": "Psalms 115:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "propter misericordiam tuam et veritatem tuam ne dicant gentes ubi est Deus eorum",
       "citation": "Psalms 115:2 (Clementine Vulgate)"
     },
     {
@@ -58,24 +48,9 @@
       "citation": "Psalms 115:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "Deus autem noster in caelo universa quae voluit fecit",
-      "citation": "Psalms 115:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "simulacra gentium argentum et aurum opera manuum hominum",
       "citation": "Psalms 115:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "idola gentium argentum et aurum opus manuum hominum",
-      "citation": "Psalms 115:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "os habent et non loquentur oculos habent et non videbunt",
-      "citation": "Psalms 115:5 (Clementine Vulgate)"
     },
     {
       "verse": 5,
@@ -88,18 +63,8 @@
       "citation": "Psalms 115:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "aures habent et non audient nasum habent et non odorabuntur",
-      "citation": "Psalms 115:6 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "manus habent et non palpabunt pedes habent et non ambulabunt non clamabunt in gutture suo",
-      "citation": "Psalms 115:7 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "manus habent et non palpabunt pedes habent et non ambulabunt nec sonabunt in gutture suo",
       "citation": "Psalms 115:7 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 115:8 (Clementine Vulgate)"
     },
     {
-      "verse": 8,
-      "text": "similes illis fiant qui faciunt ea omnis qui confidit in eis",
-      "citation": "Psalms 115:8 (Clementine Vulgate)"
-    },
-    {
       "verse": 9,
       "text": "domus Israhel speravit in Domino adiutor eorum et protector eorum est",
-      "citation": "Psalms 115:9 (Clementine Vulgate)"
-    },
-    {
-      "verse": 9,
-      "text": "Israhel confidet in Domino auxiliator et protector eorum est",
       "citation": "Psalms 115:9 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 115:10 (Clementine Vulgate)"
     },
     {
-      "verse": 10,
-      "text": "domus Aaron confidet in Domino auxiliator et protector eorum est",
-      "citation": "Psalms 115:10 (Clementine Vulgate)"
-    },
-    {
       "verse": 11,
       "text": "qui timent Dominum speraverunt in Domino adiutor eorum et protector eorum est",
-      "citation": "Psalms 115:11 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "timentes Dominum confident in Domino auxiliator et protector eorum est",
       "citation": "Psalms 115:11 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 115:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "Dominus recordatus nostri benedicet benedicet domui Israhel benedicet domui Aaron",
-      "citation": "Psalms 115:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "benedixit omnibus qui timent Dominum pusillis cum maioribus",
-      "citation": "Psalms 115:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "benedicet timentibus Dominum parvis et magnis",
       "citation": "Psalms 115:13 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 115:14 (Clementine Vulgate)"
     },
     {
-      "verse": 14,
-      "text": "addat Dominus super vos super vos et super filios vestros",
-      "citation": "Psalms 115:14 (Clementine Vulgate)"
-    },
-    {
       "verse": 15,
       "text": "benedicti vos Domino qui fecit caelum et terram",
-      "citation": "Psalms 115:15 (Clementine Vulgate)"
-    },
-    {
-      "verse": 15,
-      "text": "benedicti vos Domino qui fecit caelos et terram",
       "citation": "Psalms 115:15 (Clementine Vulgate)"
     },
     {
@@ -188,28 +113,13 @@
       "citation": "Psalms 115:16 (Clementine Vulgate)"
     },
     {
-      "verse": 16,
-      "text": "caelum caelorum Domino terram autem dedit filiis hominum",
-      "citation": "Psalms 115:16 (Clementine Vulgate)"
-    },
-    {
       "verse": 17,
       "text": "non mortui laudabunt te Domine neque omnes qui descendunt in infernum",
       "citation": "Psalms 115:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "non mortui laudabunt Dominum nec omnes qui descendunt in silentium",
-      "citation": "Psalms 115:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
       "text": "sed nos qui vivimus benedicimus Domino ex hoc nunc et usque in saeculum",
-      "citation": "Psalms 115:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "sed nos benedicimus Domino amodo et usque in aeternum alleluia",
       "citation": "Psalms 115:18 (Clementine Vulgate)"
     }
   ]

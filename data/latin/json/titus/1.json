@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Titus, Chapter 1 — 16 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Titus",
+      "slug": "titus",
+      "testament": "NT",
+      "order": 63,
+      "totalChapters": 3
+    },
+    "chapter": 1,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/titus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/titus/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/titus/1.json",
+      "german": "https://latinprayer.org/bibel/titus/1.json"
+    }
+  },
+  "citation": "Titus 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Paulus servus Dei apostolus autem Iesu Christi secundum fidem electorum Dei et agnitionem veritatis quae secundum pietatem est",
+      "citation": "Titus 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in spem vitae aeternae quam promisit qui non mentitur Deus ante tempora saecularia",
+      "citation": "Titus 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "manifestavit autem temporibus suis verbum suum in praedicatione quae credita est mihi secundum praeceptum salvatoris nostri Dei",
+      "citation": "Titus 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Tito dilecto filio secundum communem fidem gratia et pax a Deo Patre et Christo Iesu salvatore nostro",
+      "citation": "Titus 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "huius rei gratia reliqui te Cretae ut ea quae desunt corrigas et constituas per civitates presbyteros sicut ego tibi disposui",
+      "citation": "Titus 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "si quis sine crimine est unius uxoris vir filios habens fideles non in accusatione luxuriae aut non subditos",
+      "citation": "Titus 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "oportet enim episcopum sine crimine esse sicut Dei dispensatorem non superbum non iracundum non vinolentum non percussorem non turpilucri cupidum",
+      "citation": "Titus 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sed hospitalem benignum sobrium iustum sanctum continentem",
+      "citation": "Titus 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "amplectentem eum qui secundum doctrinam est fidelem sermonem ut potens sit et exhortari in doctrina sana et eos qui contradicunt arguere",
+      "citation": "Titus 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "sunt enim multi et inoboedientes vaniloqui et seductores maxime qui de circumcisione sunt",
+      "citation": "Titus 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quos oportet redargui qui universas domos subvertunt docentes quae non oportet turpis lucri gratia",
+      "citation": "Titus 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "dixit quidam ex illis proprius ipsorum propheta Cretenses semper mendaces malae bestiae ventres pigri",
+      "citation": "Titus 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "testimonium hoc verum est quam ob causam increpa illos dure ut sani sint in fide",
+      "citation": "Titus 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "non intendentes iudaicis fabulis et mandatis hominum aversantium se a veritate",
+      "citation": "Titus 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "omnia munda mundis coinquinatis autem et infidelibus nihil mundum sed inquinatae sunt eorum et mens et conscientia",
+      "citation": "Titus 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "confitentur se nosse Deum factis autem negant cum sunt abominati et incredibiles et ad omne opus bonum reprobi",
+      "citation": "Titus 1:16 (Clementine Vulgate)"
+    }
+  ]
+}

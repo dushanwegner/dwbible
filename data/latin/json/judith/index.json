@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Judith — 17 chapters (Clementine Vulgate)",
+    "content": "Judith — 16 chapters (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,7 +15,7 @@
       "slug": "judith",
       "testament": "OT",
       "order": 18,
-      "totalChapters": 17
+      "totalChapters": 16
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/judith/index.json",
@@ -118,12 +118,6 @@
       "verseCount": 30,
       "url": "https://latinprayer.org/latin/judith/16",
       "jsonUrl": "https://latinprayer.org/latin/judith/16.json"
-    },
-    {
-      "chapter": 1,
-      "verseCount": 19,
-      "url": "https://latinprayer.org/latin/judith/1",
-      "jsonUrl": "https://latinprayer.org/latin/judith/1.json"
     }
   ]
 }

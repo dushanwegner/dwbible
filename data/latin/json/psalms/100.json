@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 100 — 10 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 100 — 5 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 100,
-    "verseCount": 10,
+    "verseCount": 5,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 100:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "canticum in gratiarum actione",
-      "citation": "Psalms 100:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "iubilate Domino omnis terra servite Domino in laetitia introite in conspectu eius in exultatione",
-      "citation": "Psalms 100:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "iubilate Domino omnis terra servite Domino in laetitia ingredimini coram eo in laude",
       "citation": "Psalms 100:2 (Clementine Vulgate)"
     },
     {
@@ -58,28 +48,13 @@
       "citation": "Psalms 100:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "scitote quoniam Dominus ipse est Deus ipse fecit nos et ipsius sumus populus eius et grex pascuae eius",
-      "citation": "Psalms 100:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "introite portas eius in confessione atria eius in hymnis confitemini illi laudate nomen eius",
       "citation": "Psalms 100:4 (Clementine Vulgate)"
     },
     {
-      "verse": 4,
-      "text": "ingredimini portas eius in gratiarum actione atria eius in laude confitemini ei benedicite nomini eius",
-      "citation": "Psalms 100:4 (Clementine Vulgate)"
-    },
-    {
       "verse": 5,
       "text": "quoniam suavis Dominus in aeternum misericordia eius et usque in generationem et generationem veritas eius",
-      "citation": "Psalms 100:5 (Clementine Vulgate)"
-    },
-    {
-      "verse": 5,
-      "text": "quia bonus Dominus in sempiternum misericordia eius et usque ad generationem et generationem fides eius",
       "citation": "Psalms 100:5 (Clementine Vulgate)"
     }
   ]

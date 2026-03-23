@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 85 — 26 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 85 — 13 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 85,
-    "verseCount": 26,
+    "verseCount": 13,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 85:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "placatus es Domine terrae tuae reduxisti captivitatem Iacob",
-      "citation": "Psalms 85:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "remisisti iniquitates plebis tuae operuisti omnia peccata eorum diapsalma",
-      "citation": "Psalms 85:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "dimisisti iniquitatem populo tuo operuisti omnes iniquitates eorum semper",
       "citation": "Psalms 85:2 (Clementine Vulgate)"
     },
     {
@@ -58,18 +48,8 @@
       "citation": "Psalms 85:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "continuisti omnem indignationem tuam conversus es ab ira furoris tui",
-      "citation": "Psalms 85:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "converte nos Deus salutum nostrarum et averte iram tuam a nobis",
-      "citation": "Psalms 85:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "converte nos Deus Iesus noster et solve iram tuam adversum nos",
       "citation": "Psalms 85:4 (Clementine Vulgate)"
     },
     {
@@ -78,38 +58,18 @@
       "citation": "Psalms 85:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "noli in aeternum irasci nobis extendens iram tuam in generationem et generationem",
-      "citation": "Psalms 85:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "Deus tu conversus vivificabis nos et plebs tua laetabitur in te",
       "citation": "Psalms 85:6 (Clementine Vulgate)"
     },
     {
-      "verse": 6,
-      "text": "nonne tu revertens vivificabis nos et populus tuus laetabitur in te",
-      "citation": "Psalms 85:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 7,
-      "text": "ostende nobis Domine misericordiam tuam et salutare tuum da nobis",
-      "citation": "Psalms 85:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 7,
       "text": "ostende nobis Domine misericordiam tuam et salutare tuum da nobis",
       "citation": "Psalms 85:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "audiam quid loquatur % in me; Dominus Deus quoniam loquetur pacem in plebem suam et super sanctos suos et in eos qui convertuntur ad cor",
-      "citation": "Psalms 85:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "audiam quid loquatur Dominus Deus loquetur enim pacem ad populum suum et ad sanctos suos ut non convertantur ad stultitiam",
+      "text": "audiam quid loquatur Dominus Deus quoniam loquetur pacem in plebem suam et super sanctos suos et in eos qui convertuntur ad cor",
       "citation": "Psalms 85:8 (Clementine Vulgate)"
     },
     {
@@ -118,24 +78,9 @@
       "citation": "Psalms 85:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "verumtamen prope est his qui timent eum salutare eius ut habitet gloria in terra nostra",
-      "citation": "Psalms 85:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
-      "text": "misericordia et veritas obviaverunt % sibi; iustitia et pax osculatae sunt",
+      "text": "misericordia et veritas obviaverunt iustitia et pax osculatae sunt",
       "citation": "Psalms 85:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "misericordia et veritas occurrerunt iustitia et pax deosculatae sunt",
-      "citation": "Psalms 85:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 11,
-      "text": "veritas de terra orta est et iustitia de caelo prospexit",
-      "citation": "Psalms 85:11 (Clementine Vulgate)"
     },
     {
       "verse": 11,
@@ -148,18 +93,8 @@
       "citation": "Psalms 85:12 (Clementine Vulgate)"
     },
     {
-      "verse": 12,
-      "text": "sed et Dominus dabit bonum et terra nostra dabit germen suum",
-      "citation": "Psalms 85:12 (Clementine Vulgate)"
-    },
-    {
       "verse": 13,
       "text": "iustitia ante eum ambulabit et ponet in via gressus suos",
-      "citation": "Psalms 85:13 (Clementine Vulgate)"
-    },
-    {
-      "verse": 13,
-      "text": "iustitia ante eum ibit et ponet in via gressus suos",
       "citation": "Psalms 85:13 (Clementine Vulgate)"
     }
   ]

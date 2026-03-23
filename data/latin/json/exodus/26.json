@@ -1,0 +1,221 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 26 — 37 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 26,
+    "verseCount": 37,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/25.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/27.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/26.json",
+      "german": "https://latinprayer.org/bibel/exodus/26.json"
+    }
+  },
+  "citation": "Exodus 26 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tabernaculum vero ita fiet decem cortinas de bysso retorta et hyacintho ac purpura coccoque bis tincto variatas opere plumario facies",
+      "citation": "Exodus 26:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "longitudo cortinae unius habebit viginti octo cubitos latitudo quattuor cubitorum erit unius mensurae fient universa tentoria",
+      "citation": "Exodus 26:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quinque cortinae sibi iungentur mutuo et aliae quinque nexu simili coherebunt",
+      "citation": "Exodus 26:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ansulas hyacinthinas in lateribus ac summitatibus facies cortinarum ut possint invicem copulari",
+      "citation": "Exodus 26:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quinquagenas ansulas cortina habebit in utraque parte ita insertas ut ansa contra ansam veniat et altera alteri possit aptari",
+      "citation": "Exodus 26:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "facies et quinquaginta circulos aureos quibus cortinarum vela iungenda sunt ut unum tabernaculum fiat",
+      "citation": "Exodus 26:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "facies et saga cilicina undecim ad operiendum tectum tabernaculi",
+      "citation": "Exodus 26:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "longitudo sagi unius habebit triginta cubitos et latitudo quattuor aequa erit mensura sagorum omnium",
+      "citation": "Exodus 26:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "e quibus quinque iunges seorsum et sex sibi mutuo copulabis ita ut sextum sagum in fronte tecti duplices",
+      "citation": "Exodus 26:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "facies et quinquaginta ansas in ora sagi unius ut coniungi cum altero queat et quinquaginta ansas in ora sagi alterius ut cum altero copuletur",
+      "citation": "Exodus 26:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quinquaginta fibulas aeneas quibus iungantur ansae et unum ex omnibus operimentum fiat",
+      "citation": "Exodus 26:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quod autem superfuerit in sagis quae parantur tecto id est unum sagum quod amplius est ex medietate eius operies posteriora tabernaculi",
+      "citation": "Exodus 26:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et cubitus ex una parte pendebit et alter ex altera qui plus est in sagorum longitudine utrumque latus tabernaculi protegens",
+      "citation": "Exodus 26:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "facies et operimentum aliud tecto de pellibus arietum rubricatis et super hoc rursum aliud operimentum de ianthinis pellibus",
+      "citation": "Exodus 26:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "facies et tabulas stantes tabernaculi de lignis setthim",
+      "citation": "Exodus 26:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quae singulae denos cubitos in longitudine habeant et in latitudine singulos ac semissem",
+      "citation": "Exodus 26:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "in lateribus tabulae duae incastraturae fient quibus tabula alteri tabulae conectatur atque in hunc modum cunctae tabulae parabuntur",
+      "citation": "Exodus 26:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quarum viginti erunt in latere meridiano quod vergit ad austrum",
+      "citation": "Exodus 26:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quibus quadraginta bases argenteas fundes ut binae bases singulis tabulis per duos angulos subiciantur",
+      "citation": "Exodus 26:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in latere quoque secundo tabernaculi quod vergit ad aquilonem viginti tabulae erunt",
+      "citation": "Exodus 26:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quadraginta habentes bases argenteas binae bases singulis tabulis subponentur",
+      "citation": "Exodus 26:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "ad occidentalem vero plagam tabernaculi facies sex tabulas",
+      "citation": "Exodus 26:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et rursum alias duas quae in angulis erigantur post tergum tabernaculi",
+      "citation": "Exodus 26:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "eruntque coniunctae a deorsum usque sursum et una omnes conpago retinebit duabus quoque tabulis quae in angulis ponendae sunt similis iunctura servabitur",
+      "citation": "Exodus 26:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et erunt simul tabulae octo bases earum argenteae sedecim duabus basibus per unam tabulam supputatis",
+      "citation": "Exodus 26:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "facies et vectes de lignis setthim quinque ad continendas tabulas in uno latere tabernaculi",
+      "citation": "Exodus 26:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et quinque alios in altero et eiusdem numeri ad occidentalem plagam",
+      "citation": "Exodus 26:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "qui mittentur per medias tabulas a summo usque ad summum",
+      "citation": "Exodus 26:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "ipsasque tabulas deaurabis et fundes eis anulos aureos per quos vectes tabulata contineant quos operies lamminis aureis",
+      "citation": "Exodus 26:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et eriges tabernaculum iuxta exemplum quod tibi in monte monstratum est",
+      "citation": "Exodus 26:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "facies et velum de hyacintho et purpura coccoque bis tincto et bysso retorta opere plumario et pulchra varietate contextum",
+      "citation": "Exodus 26:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "quod adpendes ante quattuor columnas de lignis setthim quae ipsae quidem deauratae erunt et habebunt capita aurea sed bases argenteas",
+      "citation": "Exodus 26:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "inseretur autem velum per circulos intra quod pones arcam testimonii et quo sanctuarium et sanctuarii sanctuaria dividentur",
+      "citation": "Exodus 26:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "pones et propitiatorium super arcam testimonii in sancta sanctorum",
+      "citation": "Exodus 26:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "mensamque extra velum et contra mensam candelabrum in latere tabernaculi meridiano mensa enim stabit in parte aquilonis",
+      "citation": "Exodus 26:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "facies et tentorium in introitu tabernaculi de hyacintho et purpura coccoque bis tincto et bysso retorta opere plumarii",
+      "citation": "Exodus 26:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et quinque columnas deaurabis lignorum setthim ante quas ducetur tentorium quarum erunt capita aurea et bases aeneae",
+      "citation": "Exodus 26:37 (Clementine Vulgate)"
+    }
+  ]
+}

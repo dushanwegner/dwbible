@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Ezra — 5 chapters (Clementine Vulgate)",
+    "content": "Ezra — 10 chapters (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,7 +15,7 @@
       "slug": "1-esdras",
       "testament": "OT",
       "order": 15,
-      "totalChapters": 5
+      "totalChapters": 10
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/1-esdras/index.json",
@@ -24,34 +24,64 @@
   },
   "chapters": [
     {
-      "chapter": 20,
-      "verseCount": 9,
-      "url": "https://latinprayer.org/latin/1-esdras/20",
-      "jsonUrl": "https://latinprayer.org/latin/1-esdras/20.json"
+      "chapter": 1,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/latin/1-esdras/1",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/1.json"
     },
     {
-      "chapter": 21,
+      "chapter": 2,
+      "verseCount": 70,
+      "url": "https://latinprayer.org/latin/1-esdras/2",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 13,
+      "url": "https://latinprayer.org/latin/1-esdras/3",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/latin/1-esdras/4",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/latin/1-esdras/5",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/latin/1-esdras/6",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/latin/1-esdras/7",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/latin/1-esdras/8",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/1-esdras/9",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/9.json"
+    },
+    {
+      "chapter": 10,
       "verseCount": 43,
-      "url": "https://latinprayer.org/latin/1-esdras/21",
-      "jsonUrl": "https://latinprayer.org/latin/1-esdras/21.json"
-    },
-    {
-      "chapter": 22,
-      "verseCount": 34,
-      "url": "https://latinprayer.org/latin/1-esdras/22",
-      "jsonUrl": "https://latinprayer.org/latin/1-esdras/22.json"
-    },
-    {
-      "chapter": 23,
-      "verseCount": 16,
-      "url": "https://latinprayer.org/latin/1-esdras/23",
-      "jsonUrl": "https://latinprayer.org/latin/1-esdras/23.json"
-    },
-    {
-      "chapter": 24,
-      "verseCount": 32,
-      "url": "https://latinprayer.org/latin/1-esdras/24",
-      "jsonUrl": "https://latinprayer.org/latin/1-esdras/24.json"
+      "url": "https://latinprayer.org/latin/1-esdras/10",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/10.json"
     }
   ]
 }

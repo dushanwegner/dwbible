@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "2 Timothy, Chapter 1 — 16 verses (Clementine Vulgate)",
+    "content": "2 Timothy, Chapter 1 — 18 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,10 +15,10 @@
       "slug": "2-timothy",
       "testament": "NT",
       "order": 62,
-      "totalChapters": 7
+      "totalChapters": 4
     },
     "chapter": 1,
-    "verseCount": 16,
+    "verseCount": 18,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/2-timothy/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -34,83 +34,93 @@
   "verses": [
     {
       "verse": 1,
-      "text": "Paulus servus Dei apostolus autem Iesu Christi secundum fidem electorum Dei et agnitionem veritatis quae secundum pietatem est",
+      "text": "Paulus apostolus Christi Iesu per voluntatem Dei secundum promissionem vitae quae est in Christo Iesu",
       "citation": "2 Timothy 1:1 (Clementine Vulgate)"
     },
     {
       "verse": 2,
-      "text": "in spem vitae aeternae quam promisit qui non mentitur Deus ante tempora saecularia",
+      "text": "Timotheo carissimo filio gratia misericordia pax a Deo Patre et Christo Iesu Domino nostro",
       "citation": "2 Timothy 1:2 (Clementine Vulgate)"
     },
     {
       "verse": 3,
-      "text": "manifestavit autem temporibus suis verbum suum in praedicatione quae credita est mihi secundum praeceptum salvatoris nostri Dei",
+      "text": "gratias ago Deo cui servio a progenitoribus in conscientia pura quam sine intermissione habeam tui memoriam in orationibus meis nocte ac die",
       "citation": "2 Timothy 1:3 (Clementine Vulgate)"
     },
     {
       "verse": 4,
-      "text": "Tito dilecto filio secundum communem fidem gratia et pax a Deo Patre et Christo Iesu salvatore nostro",
+      "text": "desiderans te videre memor lacrimarum tuarum ut gaudio implear",
       "citation": "2 Timothy 1:4 (Clementine Vulgate)"
     },
     {
       "verse": 5,
-      "text": "huius rei gratia reliqui te Cretae ut ea quae desunt corrigas et constituas per civitates presbyteros sicut ego tibi disposui",
+      "text": "recordationem accipiens eius fidei quae est in te non ficta quae et habitavit primum in avia tua Loide et matre tua Eunice certus sum autem quod et in te",
       "citation": "2 Timothy 1:5 (Clementine Vulgate)"
     },
     {
       "verse": 6,
-      "text": "si quis sine crimine est unius uxoris vir filios habens fideles non in accusatione luxuriae aut non subditos",
+      "text": "propter quam causam admoneo te ut resuscites gratiam Dei quae est in te per inpositionem manuum mearum",
       "citation": "2 Timothy 1:6 (Clementine Vulgate)"
     },
     {
       "verse": 7,
-      "text": "oportet enim episcopum sine crimine esse sicut Dei dispensatorem non superbum non iracundum non vinolentum non percussorem non turpilucri cupidum",
+      "text": "non enim dedit nobis Deus spiritum timoris sed virtutis et dilectionis et sobrietatis",
       "citation": "2 Timothy 1:7 (Clementine Vulgate)"
     },
     {
       "verse": 8,
-      "text": "sed hospitalem benignum sobrium iustum sanctum continentem",
+      "text": "noli itaque erubescere testimonium Domini nostri neque me vinctum eius sed conlabora evangelio secundum virtutem Dei",
       "citation": "2 Timothy 1:8 (Clementine Vulgate)"
     },
     {
       "verse": 9,
-      "text": "amplectentem eum qui secundum doctrinam est fidelem sermonem ut potens sit et exhortari in doctrina sana et eos qui contradicunt arguere",
+      "text": "qui nos liberavit et vocavit vocatione sancta non secundum opera nostra sed secundum propositum suum et gratiam quae data est nobis in Christo Iesu ante tempora saecularia",
       "citation": "2 Timothy 1:9 (Clementine Vulgate)"
     },
     {
       "verse": 10,
-      "text": "sunt enim multi et inoboedientes vaniloqui et seductores maxime qui de circumcisione sunt",
+      "text": "manifestata est autem nunc per inluminationem salvatoris nostri Iesu Christi qui destruxit quidem mortem inluminavit autem vitam et incorruptionem per evangelium",
       "citation": "2 Timothy 1:10 (Clementine Vulgate)"
     },
     {
       "verse": 11,
-      "text": "quos oportet redargui qui universas domos subvertunt docentes quae non oportet turpis lucri gratia",
+      "text": "in quo positus sum ego praedicator et apostolus et magister gentium",
       "citation": "2 Timothy 1:11 (Clementine Vulgate)"
     },
     {
       "verse": 12,
-      "text": "dixit quidam ex illis proprius ipsorum propheta Cretenses semper mendaces malae bestiae ventres pigri",
+      "text": "ob quam causam etiam haec patior sed non confundor scio enim cui credidi et certus sum quia potens est depositum meum servare in illum diem",
       "citation": "2 Timothy 1:12 (Clementine Vulgate)"
     },
     {
       "verse": 13,
-      "text": "testimonium hoc verum est quam ob causam increpa illos dure ut sani sint in fide",
+      "text": "formam habe sanorum verborum quae a me audisti in fide et dilectione in Christo Iesu",
       "citation": "2 Timothy 1:13 (Clementine Vulgate)"
     },
     {
       "verse": 14,
-      "text": "non intendentes iudaicis fabulis et mandatis hominum aversantium se a veritate",
+      "text": "bonum depositum custodi per Spiritum Sanctum qui habitat in nobis",
       "citation": "2 Timothy 1:14 (Clementine Vulgate)"
     },
     {
       "verse": 15,
-      "text": "omnia munda mundis coinquinatis autem et infidelibus nihil mundum sed inquinatae sunt eorum et mens et conscientia",
+      "text": "scis hoc quod aversi sunt a me omnes qui in Asia sunt ex quibus est Phygelus et Hermogenes",
       "citation": "2 Timothy 1:15 (Clementine Vulgate)"
     },
     {
       "verse": 16,
-      "text": "confitentur se nosse Deum factis autem negant cum sunt abominati et incredibiles et ad omne opus bonum reprobi",
+      "text": "det misericordiam Dominus Onesifori domui quia saepe me refrigeravit et catenam meam non erubuit",
       "citation": "2 Timothy 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sed cum Romam venisset sollicite me quaesivit et invenit",
+      "citation": "2 Timothy 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "det illi Dominus invenire misericordiam a Domino in illa die et quanta Ephesi ministravit melius tu nosti",
+      "citation": "2 Timothy 1:18 (Clementine Vulgate)"
     }
   ]
 }

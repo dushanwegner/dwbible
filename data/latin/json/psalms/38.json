@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 38 — 46 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 38 — 23 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 38,
-    "verseCount": 46,
+    "verseCount": 23,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -43,23 +43,8 @@
       "citation": "Psalms 38:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "Domine ne in ira tua arguas me neque in furore tuo corripias me",
-      "citation": "Psalms 38:1 (Clementine Vulgate)"
-    },
-    {
-      "verse": 1,
-      "text": "pro victoria Idithun canticum David",
-      "citation": "Psalms 38:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "quoniam sagittae tuae infixae sunt mihi et confirmasti super me manum tuam",
-      "citation": "Psalms 38:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "quia sagittae tuae infixae sunt mihi et tetigit me manus tua",
       "citation": "Psalms 38:2 (Clementine Vulgate)"
     },
     {
@@ -68,18 +53,8 @@
       "citation": "Psalms 38:3 (Clementine Vulgate)"
     },
     {
-      "verse": 3,
-      "text": "non est sanitas in carne mea a facie indignationis tuae non est pax ossibus meis a facie peccati mei",
-      "citation": "Psalms 38:3 (Clementine Vulgate)"
-    },
-    {
       "verse": 4,
       "text": "quoniam iniquitates meae supergressae sunt caput meum sicut onus grave gravatae sunt super me",
-      "citation": "Psalms 38:4 (Clementine Vulgate)"
-    },
-    {
-      "verse": 4,
-      "text": "quia iniquitates meae transierunt caput meum quasi onus grave adgravatae sunt super me",
       "citation": "Psalms 38:4 (Clementine Vulgate)"
     },
     {
@@ -88,18 +63,8 @@
       "citation": "Psalms 38:5 (Clementine Vulgate)"
     },
     {
-      "verse": 5,
-      "text": "conputruerunt et tabuerunt cicatrices meae a facie insipientiae meae",
-      "citation": "Psalms 38:5 (Clementine Vulgate)"
-    },
-    {
       "verse": 6,
       "text": "miser factus sum et curvatus sum usque ad finem tota die contristatus ingrediebar",
-      "citation": "Psalms 38:6 (Clementine Vulgate)"
-    },
-    {
-      "verse": 6,
-      "text": "adflictus sum et incurvatus nimis tota die maerens ambulabam",
       "citation": "Psalms 38:6 (Clementine Vulgate)"
     },
     {
@@ -108,18 +73,8 @@
       "citation": "Psalms 38:7 (Clementine Vulgate)"
     },
     {
-      "verse": 7,
-      "text": "quia lumbi mei repleti sunt ignominia et non est sanitas in carne mea",
-      "citation": "Psalms 38:7 (Clementine Vulgate)"
-    },
-    {
       "verse": 8,
       "text": "adflictus sum et humiliatus sum nimis rugiebam a gemitu cordis mei",
-      "citation": "Psalms 38:8 (Clementine Vulgate)"
-    },
-    {
-      "verse": 8,
-      "text": "evigilavi et adflictus sum nimis rugiebam a gemitu cordis mei",
       "citation": "Psalms 38:8 (Clementine Vulgate)"
     },
     {
@@ -128,18 +83,8 @@
       "citation": "Psalms 38:9 (Clementine Vulgate)"
     },
     {
-      "verse": 9,
-      "text": "Domine in conspectu tuo omne desiderium meum et gemitus meus a te non est absconditus",
-      "citation": "Psalms 38:9 (Clementine Vulgate)"
-    },
-    {
       "verse": 10,
       "text": "cor meum conturbatum est dereliquit me virtus mea et lumen oculorum meorum et ipsum non est mecum",
-      "citation": "Psalms 38:10 (Clementine Vulgate)"
-    },
-    {
-      "verse": 10,
-      "text": "cor meum fluctuabat dereliquit me fortitudo mea et lux oculorum meorum etiam ipsa non est mecum",
       "citation": "Psalms 38:10 (Clementine Vulgate)"
     },
     {
@@ -148,18 +93,8 @@
       "citation": "Psalms 38:11 (Clementine Vulgate)"
     },
     {
-      "verse": 11,
-      "text": "cari mei et amici mei quasi contra lepram meam steterunt et vicini mei longe steterunt",
-      "citation": "Psalms 38:11 (Clementine Vulgate)"
-    },
-    {
       "verse": 12,
       "text": "et vim faciebant qui quaerebant animam meam et qui inquirebant mala mihi locuti sunt vanitates et dolos tota die meditabantur",
-      "citation": "Psalms 38:12 (Clementine Vulgate)"
-    },
-    {
-      "verse": 12,
-      "text": "et inruebant quaerentes animam meam et investigantes mala mihi loquebantur insidias et dolos tota die meditabantur",
       "citation": "Psalms 38:12 (Clementine Vulgate)"
     },
     {
@@ -168,18 +103,8 @@
       "citation": "Psalms 38:13 (Clementine Vulgate)"
     },
     {
-      "verse": 13,
-      "text": "ego autem quasi surdus non audiebam et quasi mutus non aperiebam os meum",
-      "citation": "Psalms 38:13 (Clementine Vulgate)"
-    },
-    {
       "verse": 14,
       "text": "et factus sum sicut homo non audiens et non habens in ore suo redargutiones",
-      "citation": "Psalms 38:14 (Clementine Vulgate)"
-    },
-    {
-      "verse": 14,
-      "text": "et eram quasi homo non audiens nec habens in ore suo redargutiones",
       "citation": "Psalms 38:14 (Clementine Vulgate)"
     },
     {
@@ -188,18 +113,8 @@
       "citation": "Psalms 38:15 (Clementine Vulgate)"
     },
     {
-      "verse": 15,
-      "text": "te enim Domine expectabam tu exaudies Domine Deus meus",
-      "citation": "Psalms 38:15 (Clementine Vulgate)"
-    },
-    {
       "verse": 16,
       "text": "quia dixi nequando supergaudeant mihi inimici mei et dum commoventur pedes mei super me magna locuti sunt",
-      "citation": "Psalms 38:16 (Clementine Vulgate)"
-    },
-    {
-      "verse": 16,
-      "text": "quia dixi ne forte insultent mihi et cum vacillaverint pedes mei super me magnificentur",
       "citation": "Psalms 38:16 (Clementine Vulgate)"
     },
     {
@@ -208,18 +123,8 @@
       "citation": "Psalms 38:17 (Clementine Vulgate)"
     },
     {
-      "verse": 17,
-      "text": "quia ego ad plagas paratus et dolor meus contra me est semper",
-      "citation": "Psalms 38:17 (Clementine Vulgate)"
-    },
-    {
       "verse": 18,
-      "text": "quoniam iniquitatem meam adnuntiabo %et; cogitabo pro peccato meo",
-      "citation": "Psalms 38:18 (Clementine Vulgate)"
-    },
-    {
-      "verse": 18,
-      "text": "quia iniquitatem meam adnuntio sollicitus ero pro peccato meo",
+      "text": "quoniam iniquitatem meam adnuntiabo cogitabo pro peccato meo",
       "citation": "Psalms 38:18 (Clementine Vulgate)"
     },
     {
@@ -228,18 +133,8 @@
       "citation": "Psalms 38:19 (Clementine Vulgate)"
     },
     {
-      "verse": 19,
-      "text": "inimici autem mei viventes confortati sunt et multiplicati sunt odientes me mendaciter",
-      "citation": "Psalms 38:19 (Clementine Vulgate)"
-    },
-    {
       "verse": 20,
       "text": "qui retribuunt mala pro bonis detrahebant mihi quoniam sequebar bonitatem",
-      "citation": "Psalms 38:20 (Clementine Vulgate)"
-    },
-    {
-      "verse": 20,
-      "text": "et qui reddunt malum pro bono adversabantur mihi quia sequebar bonum",
       "citation": "Psalms 38:20 (Clementine Vulgate)"
     },
     {
@@ -248,18 +143,8 @@
       "citation": "Psalms 38:21 (Clementine Vulgate)"
     },
     {
-      "verse": 21,
-      "text": "ne derelinquas me Domine Deus meus ne elongeris a me",
-      "citation": "Psalms 38:21 (Clementine Vulgate)"
-    },
-    {
       "verse": 22,
       "text": "intende in adiutorium meum Domine salutis meae",
-      "citation": "Psalms 38:22 (Clementine Vulgate)"
-    },
-    {
-      "verse": 22,
-      "text": "festina in auxilium meum Domine salutis meae",
       "citation": "Psalms 38:22 (Clementine Vulgate)"
     }
   ]

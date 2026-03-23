@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Psalms, Chapter 117 — 4 verses (Clementine Vulgate)",
+    "content": "Psalms, Chapter 117 — 2 verses (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -18,7 +18,7 @@
       "totalChapters": 150
     },
     "chapter": 117,
-    "verseCount": 4,
+    "verseCount": 2,
     "navigation": {
       "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
       "translationIndex": "https://latinprayer.org/latin/index.json",
@@ -38,18 +38,8 @@
       "citation": "Psalms 117:1 (Clementine Vulgate)"
     },
     {
-      "verse": 1,
-      "text": "laudate Dominum omnes gentes conlaudate eum universi populi",
-      "citation": "Psalms 117:1 (Clementine Vulgate)"
-    },
-    {
       "verse": 2,
       "text": "quoniam confirmata est super nos misericordia eius et veritas Domini manet in saeculum",
-      "citation": "Psalms 117:2 (Clementine Vulgate)"
-    },
-    {
-      "verse": 2,
-      "text": "quia confortata est super nos misericordia eius et veritas Domini in aeternum alleluia",
       "citation": "Psalms 117:2 (Clementine Vulgate)"
     }
   ]

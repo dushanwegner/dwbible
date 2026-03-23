@@ -3,7 +3,7 @@
     "project": "Latin Prayer",
     "projectUrl": "https://latinprayer.org",
     "apiDocs": "https://latinprayer.org/llms.txt",
-    "content": "Exodus — 25 chapters (Clementine Vulgate)",
+    "content": "Exodus — 40 chapters (Clementine Vulgate)",
     "translation": {
       "name": "Clementine Vulgate",
       "language": "la",
@@ -15,7 +15,7 @@
       "slug": "exodus",
       "testament": "OT",
       "order": 2,
-      "totalChapters": 25
+      "totalChapters": 40
     },
     "crossReferences": {
       "english": "https://latinprayer.org/bible/exodus/index.json",
@@ -169,9 +169,99 @@
     },
     {
       "chapter": 25,
-      "verseCount": 32,
+      "verseCount": 40,
       "url": "https://latinprayer.org/latin/exodus/25",
       "jsonUrl": "https://latinprayer.org/latin/exodus/25.json"
+    },
+    {
+      "chapter": 26,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/latin/exodus/26",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/26.json"
+    },
+    {
+      "chapter": 27,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/latin/exodus/27",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/27.json"
+    },
+    {
+      "chapter": 28,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/latin/exodus/28",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/28.json"
+    },
+    {
+      "chapter": 29,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/latin/exodus/29",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/29.json"
+    },
+    {
+      "chapter": 30,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/latin/exodus/30",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/30.json"
+    },
+    {
+      "chapter": 31,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/exodus/31",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/31.json"
+    },
+    {
+      "chapter": 32,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/exodus/32",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/32.json"
+    },
+    {
+      "chapter": 33,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/exodus/33",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/33.json"
+    },
+    {
+      "chapter": 34,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/exodus/34",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/34.json"
+    },
+    {
+      "chapter": 35,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/exodus/35",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/35.json"
+    },
+    {
+      "chapter": 36,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/latin/exodus/36",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/36.json"
+    },
+    {
+      "chapter": 37,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/latin/exodus/37",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/37.json"
+    },
+    {
+      "chapter": 38,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/exodus/38",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/38.json"
+    },
+    {
+      "chapter": 39,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/latin/exodus/39",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/39.json"
+    },
+    {
+      "chapter": 40,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/exodus/40",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/40.json"
     }
   ]
 }

@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 48 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 48,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/47.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/49.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/48.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/48.json"
+    }
+  },
+  "citation": "Sirach 48 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et surrexit Helias propheta quasi ignis et verbum ipsius quasi fax ardebat",
+      "citation": "Sirach 48:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui induxit in illos famem et imitantes illum invidia sua pauci facti sunt non poterant enim sustinere praecepta Domini",
+      "citation": "Sirach 48:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "verbo Domini exaltavit caelum et deiecit a se ignem terrae",
+      "citation": "Sirach 48:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sic amplificatus est Helias in mirabilibus suis et quis potest similiter gloriari tibi",
+      "citation": "Sirach 48:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "qui sustulisti mortuum ab inferis de sorte mortis in verbo Domini Dei",
+      "citation": "Sirach 48:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "qui deiecisti reges ad perniciem et confregisti facile potentiam ipsorum et gloriosos de lecto suo",
+      "citation": "Sirach 48:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui audis in Sina iudicium et in Coreb iudicia defensionis",
+      "citation": "Sirach 48:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "qui ungues reges ad paenitentiam et prophetas facis successores post te",
+      "citation": "Sirach 48:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "qui receptus es in turbine ignis in curru equorum igneorum",
+      "citation": "Sirach 48:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui inscriptus es indiciis temporum et lenis iracundiam Domini conciliare cor patris ad filium et restituere tribus Iacob",
+      "citation": "Sirach 48:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "beati sunt qui te viderunt et in amicitia tua decorati sunt",
+      "citation": "Sirach 48:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nam nos vita vivimus tantum post mortem autem non erit tale nomen nostrum",
+      "citation": "Sirach 48:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "Helias qui in turbine tectus est et in Heliseo conpletus est spiritus eius in diebus suis non pertimuit principem et potentia nemo vicit illum",
+      "citation": "Sirach 48:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "nec superavit illum verbum aliquod et mortuum prophetavit corpus eius",
+      "citation": "Sirach 48:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "in vita sua fecit monstra et in morte mirabilia opera ipsius",
+      "citation": "Sirach 48:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "in omnibus istis non paenituit populum et non recesserunt a peccatis suis usque dum deiecti sunt de terra sua et dispersi sunt in omnem terram",
+      "citation": "Sirach 48:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et relicta est gens perpauca et princeps in domo David",
+      "citation": "Sirach 48:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quidam ipsorum fecerunt quod placeret Deo alii autem multa commiserunt peccata",
+      "citation": "Sirach 48:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Ezechias munivit civitatem suam et induxit in medium ipsius aquam et fodit ferro rupem et aedificavit ad aquam puteum",
+      "citation": "Sirach 48:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in diebus ipsius ascendit Sennacherim et misit Rapsacen et sustulit manum suam contra illos et extulit manum suam in Sion et superbus factus est potentia sua",
+      "citation": "Sirach 48:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "tunc mota sunt corda et manus ipsorum et doluerunt quasi parturientes mulieres",
+      "citation": "Sirach 48:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et invocaverunt Dominum misericordem et patentes manus extulerunt ad caelum et sanctus Dominus Deus audivit cito vocem ipsorum",
+      "citation": "Sirach 48:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "non est commemoratus peccatorum illorum neque dedit illos inimicis suis sed purgavit illos in manu Esaiae sancti prophetae",
+      "citation": "Sirach 48:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "subiecit castra Assyriorum et conteruit illos angelus Dei",
+      "citation": "Sirach 48:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "nam fecit Ezechias quod placuit Deo et fortiter ivit in via David patris sui quam mandavit illi Esaias propheta magnus et fidelis in conspectu Dei",
+      "citation": "Sirach 48:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "in diebus ipsius retro rediit sol et addidit regi vitam",
+      "citation": "Sirach 48:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "spiritu magno vidit ultima et obsecratus est lugentes in Sion usque in sempiternum",
+      "citation": "Sirach 48:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "ostendit futura et abscondita antequam evenirent",
+      "citation": "Sirach 48:28 (Clementine Vulgate)"
+    }
+  ]
+}
