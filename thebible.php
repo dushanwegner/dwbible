@@ -891,21 +891,31 @@ class TheBible_Plugin {
      */
     private static function build_index_html() {
         $categories = self::book_categories();
-        $dr_books   = self::load_dataset_index('bible');  // Douay-Rheims names
-        $mod_books  = self::load_dataset_index('latin');  // Modern English names
 
-        // Build order→display_name lookup for the modern dataset
-        $modern_names = [];
-        foreach ($mod_books as $b) {
-            $display = !empty($b['display_name']) ? $b['display_name'] : $b['short_name'];
-            $modern_names[intval($b['order'])] = $display;
-        }
-
-        // Use the current URL slug (bible, bibel, latin, or interlinear combo)
+        // Determine which dataset we're on
         $current_slug = get_query_var(self::QV_SLUG);
         if ( ! is_string($current_slug) || $current_slug === '' ) {
             $current_slug = 'bible';
         }
+        // For interlinear combos (e.g. bible-bibel), use the first dataset
+        $primary_dataset = $current_slug;
+        if ( strpos($primary_dataset, '-') !== false ) {
+            $parts = explode('-', $primary_dataset);
+            $primary_dataset = $parts[0];
+        }
+
+        // Load the primary dataset for this index page (determines slugs + display names)
+        $primary_books = self::load_dataset_index($primary_dataset);
+
+        // Load a secondary dataset for subtitle names (only when different)
+        $secondary_dataset = ($primary_dataset === 'bible') ? 'latin' : 'bible';
+        $secondary_books   = self::load_dataset_index($secondary_dataset);
+        $secondary_names   = [];
+        foreach ($secondary_books as $b) {
+            $display = !empty($b['display_name']) ? $b['display_name'] : $b['short_name'];
+            $secondary_names[intval($b['order'])] = $display;
+        }
+
         $base_url = home_url('/' . $current_slug . '/');
         $out = '<div class="thebible thebible-index">';
         $out .= '<h1 class="thebible-index-title">The Bible</h1>';
@@ -922,21 +932,22 @@ class TheBible_Plugin {
             $out .= '<h3 class="thebible-category-label">' . esc_html($cat['label']) . '</h3>';
             $out .= '<div class="thebible-tiles">';
 
-            foreach ($dr_books as $b) {
+            foreach ($primary_books as $b) {
                 $order = intval($b['order']);
                 if ($order < $cat['range'][0] || $order > $cat['range'][1]) {
                     continue;
                 }
-                $slug    = self::slugify($b['short_name']);
-                $dr_name = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
-                $mod_name = isset($modern_names[$order]) ? $modern_names[$order] : '';
-                $url     = trailingslashit($base_url) . $slug . '/';
+                // Slug and display name from the primary dataset
+                $book_slug = self::slugify($b['short_name']);
+                $name      = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
+                $alt_name  = isset($secondary_names[$order]) ? $secondary_names[$order] : '';
+                $url       = trailingslashit($base_url) . $book_slug . '/';
 
                 $out .= '<a href="' . esc_url($url) . '" class="thebible-tile">';
-                $out .= '<span class="thebible-tile-name">' . esc_html($dr_name) . '</span>';
-                // Show modern name as subtitle only when it differs
-                if ($mod_name !== '' && $mod_name !== $dr_name) {
-                    $out .= '<span class="thebible-tile-alt">' . esc_html($mod_name) . '</span>';
+                $out .= '<span class="thebible-tile-name">' . esc_html($name) . '</span>';
+                // Show secondary name as subtitle only when it differs
+                if ($alt_name !== '' && $alt_name !== $name) {
+                    $out .= '<span class="thebible-tile-alt">' . esc_html($alt_name) . '</span>';
                 }
                 $out .= '</a>';
             }
