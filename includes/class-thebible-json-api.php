@@ -75,6 +75,100 @@ trait TheBible_JSON_API_Trait {
     }
 
     /**
+     * Serve a unified index: all 73 books with URLs for all three translations.
+     *
+     * One fetch resolves every book path across latin, bible, and bibel —
+     * including the divergent German slugs (e.g. sprueche, matthaeus).
+     */
+    private static function serve_unified_index() {
+        $datasets = [
+            'latin' => [ 'name' => 'Clementine Vulgate', 'language' => 'la', 'languageName' => 'Latin' ],
+            'bible' => [ 'name' => 'Douay-Rheims',       'language' => 'en', 'languageName' => 'English' ],
+            'bibel' => [ 'name' => 'Menge',              'language' => 'de', 'languageName' => 'German' ],
+        ];
+
+        // Load each translation's index.json (canonical slugs, JSON API URLs)
+        $data_dir = plugin_dir_path( __FILE__ ) . '../data/';
+        $indexes  = [];
+        foreach ( array_keys( $datasets ) as $ds ) {
+            $file = $data_dir . $ds . '/json/index.json';
+            if ( ! file_exists( $file ) ) { continue; }
+            $parsed = json_decode( file_get_contents( $file ), true );
+            if ( is_array( $parsed ) && ! empty( $parsed['books'] ) ) {
+                $indexes[ $ds ] = $parsed['books'];
+            }
+        }
+
+        // Load dataset-specific display names → HTML slugs (may differ from canonical)
+        $html_slugs = [];
+        foreach ( array_keys( $datasets ) as $ds ) {
+            $csv_books = self::load_dataset_index( $ds );
+            foreach ( $csv_books as $b ) {
+                $order = intval( $b['order'] );
+                $html_slugs[ $ds ][ $order ] = self::slugify( $b['short_name'] );
+            }
+        }
+
+        // Build per-book lookup keyed by order number for each dataset
+        $by_order = [];
+        foreach ( $indexes as $ds => $books ) {
+            foreach ( $books as $b ) {
+                $order = intval( $b['order'] );
+                $by_order[ $order ][ $ds ] = $b;
+            }
+        }
+
+        // Merge into unified book list
+        $site_url = site_url();
+        $books = [];
+        ksort( $by_order );
+        foreach ( $by_order as $order => $ds_books ) {
+            $first = reset( $ds_books );
+            $entry = [
+                'order'         => $order,
+                'canonicalSlug' => $first['slug'],
+                'testament'     => $first['testament'],
+                'totalChapters' => $first['totalChapters'],
+                'translations'  => [],
+            ];
+            foreach ( $datasets as $ds => $meta ) {
+                if ( ! isset( $ds_books[ $ds ] ) ) { continue; }
+                $b = $ds_books[ $ds ];
+                $ds_slug = isset( $html_slugs[ $ds ][ $order ] ) ? $html_slugs[ $ds ][ $order ] : $b['slug'];
+                $entry['translations'][ $ds ] = [
+                    'name'    => $b['name'],
+                    'slug'    => $ds_slug,
+                    'url'     => $site_url . '/' . $ds . '/' . $ds_slug . '/',
+                    'jsonUrl' => $b['jsonUrl'],
+                ];
+            }
+            $books[] = $entry;
+        }
+
+        $response = [
+            '_meta' => [
+                'project'    => 'Latin Prayer',
+                'projectUrl' => $site_url,
+                'apiDocs'    => $site_url . '/llms.txt',
+                'content'    => 'Unified Bible index — 73 books × 3 translations',
+                'translations' => $datasets,
+                'bookCount'  => count( $books ),
+            ],
+            'books' => $books,
+        ];
+
+        status_header( 200 );
+        header( 'Content-Type: application/json; charset=UTF-8' );
+        header( 'Access-Control-Allow-Origin: *' );
+        header( 'Access-Control-Allow-Methods: GET, OPTIONS' );
+        header( 'Cache-Control: public, max-age=86400' );
+        header( 'X-Content-Type-Options: nosniff' );
+        header( 'X-Powered-By: Latin Prayer (latinprayer.org)' );
+        echo json_encode( $response, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
+        exit;
+    }
+
+    /**
      * Serve the llms.txt or llms-full.txt AI documentation file.
      *
      * @param string $variant 'llms' or 'llms-full'

@@ -11,11 +11,16 @@
 Three complete Catholic Bible translations (73 books each, including
 deuterocanonical books) in structured JSON:
 
-- [English (Douay-Rheims) Index](https://latinprayer.org/bible/index.json): Public domain
-- [Latin (Clementine Vulgate) Index](https://latinprayer.org/latin/index.json): Public domain
-- [German (Menge) Index](https://latinprayer.org/bibel/index.json): Public domain
+### Unified Index (recommended — one fetch, all translations)
+- [All books × all translations](https://latinprayer.org/bible-index.json): Every book with URLs for all 3 languages
+
+### Per-Translation Indexes
+- [English (Douay-Rheims)](https://latinprayer.org/bible/index.json): Public domain
+- [Latin (Clementine Vulgate)](https://latinprayer.org/latin/index.json): Public domain
+- [German (Menge)](https://latinprayer.org/bibel/index.json): Public domain
 
 ### URL Patterns
+- Unified index: /bible-index.json
 - Translation index: /{slug}/index.json
 - Book index: /{slug}/{book}/index.json
 - Chapter (all verses): /{slug}/{book}/{chapter}.json
@@ -59,10 +64,22 @@ Catholic prayers in 5 parallel languages (Latin, English, German, Spanish, Frenc
 ### Example
 - Our Father: https://latinprayer.org/prayers/pater-noster.json
 
+## Saints API
+
+Catholic saints with feast days, patronage, bios, and multilingual content:
+- [Saint Index](https://latinprayer.org/saints/index.json): All saints with feast days and patronage
+- Individual saint: /saints/{slug}.json
+
+Saints are frequently updated. Responses include Last-Modified headers;
+use If-Modified-Since for conditional requests (1-hour cache).
+
+### Example
+- Saint Agatha: https://latinprayer.org/saints/saint-agatha.json
+
 ## Technical Details
 - Format: JSON with self-documenting _meta objects
 - CORS: Access-Control-Allow-Origin: *
-- Cache: public, max-age=86400
+- Cache: Bible & prayers max-age=86400 (1 day); saints max-age=3600 (1 hour)
 - No authentication required
 - No rate limiting
 - All content is public domain

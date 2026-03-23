@@ -16,6 +16,10 @@ trait TheBible_Router_Trait {
             self::serve_llms_txt( $format );
             exit;
         }
+        if ( $format === 'bible-index' ) {
+            self::serve_unified_index();
+            exit;
+        }
 
         $selftest = get_query_var(self::QV_SELFTEST);
         if (!empty($selftest)) {

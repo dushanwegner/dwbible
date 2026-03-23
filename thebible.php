@@ -2,14 +2,14 @@
 /*
 * Plugin Name: The Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.03.23.01
+* Version: 1.26.03.23.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('THEBIBLE_VERSION')) {
-    define('THEBIBLE_VERSION', '1.26.03.23.01');
+    define('THEBIBLE_VERSION', '1.26.03.23.02');
 }
 
 // Load include classes before hooks are registered
@@ -296,6 +296,8 @@ class TheBible_Plugin {
         // /llms.txt and /llms-full.txt — AI entry-point documents
         add_rewrite_rule( '^llms\.txt$', 'index.php?' . self::QV_FORMAT . '=llms&' . self::QV_FLAG . '=1', 'top' );
         add_rewrite_rule( '^llms-full\.txt$', 'index.php?' . self::QV_FORMAT . '=llms-full&' . self::QV_FLAG . '=1', 'top' );
+        // /bible-index.json — unified index: all books × all translations in one fetch
+        add_rewrite_rule( '^bible-index\.json$', 'index.php?' . self::QV_FORMAT . '=bible-index&' . self::QV_FLAG . '=1', 'top' );
 
         // ── HTML routes ─────────────────────────────────────────────────
         foreach ($slugs as $slug) {
@@ -920,6 +922,24 @@ class TheBible_Plugin {
         $out = '<div class="thebible thebible-index">';
         $out .= '<h1 class="thebible-index-title">The Bible</h1>';
 
+        // Cross-links to all three translation indexes (HTML + JSON)
+        $all_datasets = [
+            'latin' => 'Latin (Clementine Vulgate)',
+            'bible' => 'English (Douay-Rheims)',
+            'bibel' => 'German (Menge)',
+        ];
+        $cross_links = [];
+        foreach ($all_datasets as $ds => $label) {
+            if ($ds === $primary_dataset) {
+                $cross_links[] = '<strong>' . esc_html($label) . '</strong>';
+            } else {
+                $cross_links[] = '<a href="' . esc_url(home_url('/' . $ds . '/')) . '">' . esc_html($label) . '</a>';
+            }
+        }
+        $out .= '<nav class="thebible-translation-nav" aria-label="Bible translations">';
+        $out .= implode(' · ', $cross_links);
+        $out .= '</nav>';
+
         $prev_testament = '';
         foreach ($categories as $cat) {
             // OT/NT divider
@@ -943,10 +963,15 @@ class TheBible_Plugin {
                 $alt_name  = isset($secondary_names[$order]) ? $secondary_names[$order] : '';
                 $url       = trailingslashit($base_url) . $book_slug . '/';
 
-                $out .= '<a href="' . esc_url($url) . '" class="thebible-tile">';
-                $out .= '<span class="thebible-tile-name">' . esc_html($name) . '</span>';
-                // Show secondary name as subtitle only when it differs
+                // Build tile with both names separated for AI text extraction
+                $label = $name;
                 if ($alt_name !== '' && $alt_name !== $name) {
+                    $label .= ' / ' . $alt_name;
+                }
+                $out .= '<a href="' . esc_url($url) . '" class="thebible-tile" aria-label="' . esc_attr($label) . '">';
+                $out .= '<span class="thebible-tile-name">' . esc_html($name) . '</span>';
+                if ($alt_name !== '' && $alt_name !== $name) {
+                    $out .= '<span class="thebible-tile-sep" aria-hidden="true"> / </span>';
                     $out .= '<span class="thebible-tile-alt">' . esc_html($alt_name) . '</span>';
                 }
                 $out .= '</a>';
@@ -1080,6 +1105,9 @@ class TheBible_Plugin {
      * current Bible page, so AI agents know structured data is available.
      */
     public static function print_json_alternate_link() {
+        // Point AI agents to the machine-readable site documentation (all pages)
+        echo '<link rel="help" type="text/plain" href="' . esc_url( home_url( '/llms.txt' ) ) . '" title="LLM documentation" />' . "\n";
+
         if ( ! self::is_bible_request() ) {
             return;
         }

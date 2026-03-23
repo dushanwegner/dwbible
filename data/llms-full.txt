@@ -21,6 +21,7 @@ deuterocanonical books) in structured JSON.
 
 ### URL Patterns
 
+0. Unified index: GET /bible-index.json (all books × all translations in one fetch)
 1. Translation index: GET /{slug}/index.json
 2. Book index: GET /{slug}/{book}/index.json
 3. Chapter data: GET /{slug}/{book}/{chapter}.json
@@ -232,10 +233,47 @@ GET https://latinprayer.org/prayers/pater-noster.json
 }
 ```
 
+## Saints API
+
+Catholic saints with feast days, patronage, bios, and multilingual content.
+Saints are frequently added and edited — responses use 1-hour cache and
+Last-Modified headers for conditional requests (If-Modified-Since → 304).
+
+### URL Patterns
+- Saint index: GET /saints/index.json
+- Individual saint: GET /saints/{slug}.json
+
+### Sample: Individual Saint
+
+GET https://latinprayer.org/saints/saint-agatha.json
+
+```json
+{
+  "_meta": {
+    "content": "Agatha — Catholic saint",
+    "navigation": { "saintIndex": "https://latinprayer.org/saints/index.json" }
+  },
+  "slug": "saint-agatha",
+  "name": "Agatha",
+  "feastMonth": 2,
+  "feastDay": 5,
+  "feastDate": "February 5",
+  "bio": "Saint Agatha was a noble Christian woman from Sicily...",
+  "patronageOf": ["Breast Cancer Patients", "Nurses", "Sicily"],
+  "situations": ["Breast Cancer", "Fire", "Natural Disasters"],
+  "professions": ["Bakers", "Bell Founders", "Nurses"],
+  "prayer": null,
+  "i18n": {
+    "de": { "name": "Agatha", "bio": "Die heilige Agatha...", "patronageOf": [...] },
+    "es": { "name": "Águeda", "bio": "Santa Águeda...", "patronageOf": [...] }
+  }
+}
+```
+
 ## Technical Details
 - Format: JSON with self-documenting _meta objects in every file
 - CORS: Access-Control-Allow-Origin: * on all JSON responses
-- Cache: public, max-age=86400
+- Cache: Bible & prayers max-age=86400 (1 day); saints max-age=3600 (1 hour)
 - No authentication required
 - No rate limiting
 - All content is public domain
