@@ -981,6 +981,18 @@ class TheBible_Plugin {
             $out .= '</section>';
         }
 
+        // Hidden AI discovery hints — invisible visually but readable by AI agents
+        // that strip <head> tags (e.g. ChatGPT, Perplexity) during page fetches.
+        $site_url = home_url();
+        $out .= '<div class="thebible-ai-hints" style="display:none" aria-hidden="true">';
+        $out .= 'Machine-readable data available: ';
+        $out .= 'API documentation: ' . $site_url . '/llms.txt — ';
+        $out .= 'This page as JSON: ' . $site_url . '/' . $current_slug . '/index.json — ';
+        $out .= 'All books in all 3 translations (one fetch): ' . $site_url . '/bible-index.json — ';
+        $out .= 'Prayers: ' . $site_url . '/prayers/index.json — ';
+        $out .= 'Saints: ' . $site_url . '/saints/index.json';
+        $out .= '</div>';
+
         $out .= '</div>';
         return $out;
     }

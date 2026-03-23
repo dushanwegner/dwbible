@@ -585,6 +585,24 @@ trait TheBible_Interlinear_Trait {
                 $out .= $bottom_nav;
             }
         }
+        // Hidden AI discovery hints — readable by AI agents that strip <head> tags
+        $site_url   = home_url();
+        $book_qv    = get_query_var( self::QV_BOOK );
+        $chapter_qv = get_query_var( self::QV_CHAPTER );
+        $slug_qv    = get_query_var( self::QV_SLUG );
+        if ( ! is_string( $slug_qv ) || $slug_qv === '' ) { $slug_qv = 'bible'; }
+        $ai_hints = '<div class="thebible-ai-hints" style="display:none" aria-hidden="true">';
+        $ai_hints .= 'Machine-readable data available: ';
+        $ai_hints .= 'API documentation: ' . esc_url( $site_url . '/llms.txt' ) . ' — ';
+        if ( $book_qv && $chapter_qv ) {
+            $ai_hints .= 'This chapter as JSON: ' . esc_url( $site_url . '/' . $slug_qv . '/' . $book_qv . '/' . $chapter_qv . '.json' ) . ' — ';
+        } elseif ( $book_qv ) {
+            $ai_hints .= 'This book as JSON: ' . esc_url( $site_url . '/' . $slug_qv . '/' . $book_qv . '/index.json' ) . ' — ';
+        }
+        $ai_hints .= 'All books in all 3 translations: ' . esc_url( $site_url . '/bible-index.json' );
+        $ai_hints .= '</div>';
+        $out .= $ai_hints;
+
         $footer = self::render_footer_html();
         if ($footer !== '') { $out .= $footer; }
         self::output_with_theme($title, $out, 'book');
