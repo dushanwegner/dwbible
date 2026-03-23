@@ -421,34 +421,42 @@ trait TheBible_Interlinear_Trait {
         }
 
         if (empty($active_dataset_indices)) {
-            // No dataset could provide the requested chapter; render a page with notices only.
-            $datasets_attr = esc_attr(implode(',', $active_datasets));
-            $out = '<div class="thebible thebible-book thebible-interlinear"'
-                . ' data-interlinear="1"'
-                . ' data-book="' . esc_attr($canonical_key) . '"'
-                . ' data-ch="' . esc_attr((string)$ch) . '"'
-                . ' data-datasets="' . $datasets_attr . '"'
-                . ' data-first-dataset="' . esc_attr((string)$datasets[0]) . '"'
-                . '>';
-            if (!empty($notices)) {
-                $out .= '<div class="thebible-interlinear-notices" data-interlinear-notices="1">';
-                foreach ($notices as $msg) {
-                    $out .= '<p class="thebible-interlinear-notice">' . $msg . '</p>';
+            // No dataset could provide the requested chapter.
+            // Show a user-friendly error with book title, message, and back link.
+            $slug = get_query_var(self::QV_SLUG);
+            if ( ! is_string($slug) || $slug === '' ) { $slug = 'bible'; }
+            $index_url = home_url('/' . $slug . '/');
+            $book_url  = home_url('/' . $slug . '/' . $canonical_key . '/');
+
+            // Try to get the book's display name from the first dataset
+            $book_display = ucwords(str_replace('-', ' ', $canonical_key));
+            if (!empty($entries) && is_array($entries)) {
+                foreach ($entries as $entry) {
+                    if (is_array($entry) && !empty($entry['display_name'])) {
+                        $book_display = $entry['display_name'];
+                        break;
+                    }
                 }
-                $out .= '</div>';
             }
+
+            $page_title = esc_html($book_display) . ' ' . esc_html((string)$ch);
+            $out = '<div class="thebible thebible-book">';
+            $out .= '<h1>' . $page_title . '</h1>';
+            $out .= '<p>This chapter is not available.</p>';
+            if (!empty($notices)) {
+                $out .= '<ul style="color:#888;font-size:.85rem;margin:1rem 0">';
+                foreach ($notices as $msg) {
+                    $out .= '<li>' . $msg . '</li>';
+                }
+                $out .= '</ul>';
+            }
+            $out .= '<p><a href="' . esc_url($book_url) . '">&larr; ' . esc_html($book_display) . '</a>';
+            $out .= ' &middot; <a href="' . esc_url($index_url) . '">Bible Index</a></p>';
             $out .= '</div>';
 
-            $vf = absint(get_query_var(self::QV_VFROM));
-            $vt = absint(get_query_var(self::QV_VTO));
-            $switcher = self::render_interlinear_language_switcher($canonical_key, $datasets, $ch, $vf, $vt);
-            if (is_string($switcher) && $switcher !== '') {
-                $out .= $switcher;
-            }
-
-            status_header(200);
+            status_header(404);
             nocache_headers();
-            self::output_with_theme('Bible', $out, 'book');
+            self::output_with_theme($page_title, $out, 'book');
             return;
         }
 
