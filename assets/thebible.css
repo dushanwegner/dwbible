@@ -103,6 +103,75 @@
   pointer-events: none;
 }
 
+/* Chapter picker button */
+.thebible-ch-picker {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15em;
+}
+.thebible-ch-picker:hover {
+  opacity: 0.7;
+}
+.thebible-ch-picker.has-selection {
+  cursor: default;
+}
+.thebible-ch-picker.has-selection .thebible-ch-picker__caret {
+  display: none;
+}
+.thebible-ch-picker__caret {
+  font-size: 0.9em;
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+.thebible-ch-picker.is-open .thebible-ch-picker__caret {
+  transform: rotate(180deg);
+}
+
+/* Chapter picker grid overlay */
+.thebible-ch-grid {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  z-index: 999;
+  grid-template-columns: repeat(auto-fill, minmax(2.2rem, 1fr));
+  gap: 0.25rem;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+.thebible-ch-grid.is-open {
+  display: grid;
+}
+.thebible-ch-grid__cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.85rem;
+}
+.thebible-ch-grid__cell:hover {
+  background: #f1f3f5;
+}
+.thebible-ch-grid__cell.is-current {
+  background: #e9ecef;
+  font-weight: 600;
+}
+
 /* Verse styling + interlinear layout */
 .thebible {
   /* Used for JS-driven verse highlighting */
