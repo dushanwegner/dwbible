@@ -1,0 +1,241 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Chronik, Chapter 12 — 41 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Chronik",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 12,
+    "verseCount": 41,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-paralipomenon/11.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-paralipomenon/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-paralipomenon/12.json",
+      "latin": "https://latinprayer.org/latin/1-paralipomenon/12.json"
+    }
+  },
+  "citation": "1 Chronik 12 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Und dies sind die Männer, die zu David nach Ziklag kamen, als er noch von Saul, dem Sohne des Kis, verbannt war; auch sie gehörten zu den Helden, die ihm im Kampf halfen,",
+      "citation": "1 Chronik 12:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "ausgerüstet mit Bogen und geübt, mit der Rechten und mit der Linken Steine zu schleudern und Pfeile mit dem Bogen zu schießen. Von den Stammesgenossen Sauls aus (dem Stamme) Benjamin waren da:",
+      "citation": "1 Chronik 12:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "der Oberste Ahieser und Joas, der Sohn Semaas aus Gibea; ferner Jesiel und Pelet, die Söhne Asmaweths, Beracha und Jehu aus Anathoth,",
+      "citation": "1 Chronik 12:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Jismaja aus Gibeon, ein Held unter den Dreißig und der Anführer der Dreißig;",
+      "citation": "1 Chronik 12:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "ferner Jeremia, Jahasiel und Johanan; Josabad aus Gedera;",
+      "citation": "1 Chronik 12:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Elusai, Jerimoth, Bealja und Semarja; Sephatja aus Hariph;",
+      "citation": "1 Chronik 12:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Elkana, Jissija, Asarel, Joeser und Jasobam, die Korhiter;",
+      "citation": "1 Chronik 12:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Joela und Sebadja, die Söhne Jerohams, aus Gedor.",
+      "citation": "1 Chronik 12:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Von den Gaditen aber gingen tapfere Helden zu David nach der Bergfeste in der Wüste über, kampfgeübte Krieger, die Schild und Lanze zu führen wußten, die anzusehen waren wie Löwen und schnellfüßig wie Gazellen auf den Bergen:",
+      "citation": "1 Chronik 12:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "der Oberste war Eser, der zweite Obadja, der dritte Eliab,",
+      "citation": "1 Chronik 12:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "der vierte Mismanna, der fünfte Jeremia,",
+      "citation": "1 Chronik 12:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "der sechste Atthai, der siebte Eliel,",
+      "citation": "1 Chronik 12:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "der achte Johanan, der neunte Elsabad,",
+      "citation": "1 Chronik 12:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "der zehnte Jeremia, der elfte Machbannai.",
+      "citation": "1 Chronik 12:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Diese, von den Gaditen, waren Heerführer, deren unbedeutendster es mit hundert, deren tüchtigster es mit tausend Mann aufnehmen konnte.",
+      "citation": "1 Chronik 12:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Diese waren es, die (einst) im ersten Monat über den Jordan setzten, als er alle seine Ufer überflutet hatte, und alle Bewohner der Niederungen, im Osten wie im Westen, in die Flucht jagten.",
+      "citation": "1 Chronik 12:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Als aber einmal auch von den Benjaminiten und Judäern Leute zu David nach der Bergfeste kamen,",
+      "citation": "1 Chronik 12:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "trat David draußen vor sie hin und redete sie mit folgenden Worten an: »Kommt ihr als Freunde zu mir, um mir zu helfen, so will ich mich zu herzlicher Gemeinschaft mit euch vereinigen; wollt ihr mich aber an meine Feinde verraten, wiewohl kein Unrecht an meinen Händen klebt, so möge der Gott unserer Väter dareinsehen und es strafen!«",
+      "citation": "1 Chronik 12:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Da rief Abisai, der (spätere) Hauptmann der Dreißig, von Begeisterung ergriffen, aus: »Dein sind wir, David, und mit dir halten wir es, Sohn Isais! Heil, Heil dir und Heil denen, die es mit dir halten! Denn dir hilft dein Gott!« Darauf nahm David sie an und machte sie zu Anführern von Kriegerscharen.",
+      "citation": "1 Chronik 12:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Auch von den Manassiten traten einige zu David über, als er mit den Philistern gegen Saul zu Felde zog – ohne ihnen jedoch Hilfe zu leisten; denn die Fürsten der Philister hatten ihn aus ihrem Heere entlassen, nachdem sie eine Beratung gehalten hatten, weil sie sich sagten: »Um den Preis unserer Köpfe könnte er zu Saul, seinem Herrn, übergehen« –;",
+      "citation": "1 Chronik 12:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "während er dann also (wieder) nach Ziklag zog, fielen ihm folgende Manassiten zu: Adnah, Josabad, Jediael, Michael, Josabad, Elihu und Zillethai, Häupter der Tausendschaften von Manasse.",
+      "citation": "1 Chronik 12:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Diese leisteten dem David Beistand gegen die Streifschar; denn sie waren sämtlich tapfere Krieger und wurden Anführer im Heere.",
+      "citation": "1 Chronik 12:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Denn Tag für Tag kamen Leute zu David, um Kriegsdienste bei ihm zu tun, bis es ein großes Heer geworden war wie ein Heer Gottes.",
+      "citation": "1 Chronik 12:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Folgendes sind nun die Zahlen der zum Heeresdienst Gerüsteten, die sich bei David in Hebron einfanden, um ihm nach dem Befehl des HERRN das Königtum Sauls zu übertragen:",
+      "citation": "1 Chronik 12:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Von den Judäern, die Schild und Lanze führten, waren es 6800 zum Kriegsdienst Gerüstete; –",
+      "citation": "1 Chronik 12:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "von den Simeoniten 7100 tapfere Krieger; –",
+      "citation": "1 Chronik 12:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "von den Leviten 4600;",
+      "citation": "1 Chronik 12:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "dazu Jojada, der Fürst über die zum Hause Aarons gehörigen Krieger, und mit ihm 3700 Mann;",
+      "citation": "1 Chronik 12:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "sodann Zadok, ein tapferer junger Held, dessen Familie 22 Hauptleute stellte; –",
+      "citation": "1 Chronik 12:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "von den Benjaminiten, Sauls Stammesgenossen, 3000 Mann; denn bis dahin hielt der größte Teil von ihnen noch treu zum Hause Sauls; –",
+      "citation": "1 Chronik 12:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "von den Ephraimiten 20800 tapfere, in ihren Familien hochangesehene Männer; –",
+      "citation": "1 Chronik 12:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "vom halben Stamm Manasse 18000, die mit Namen aufgeführt worden waren, daß sie hinziehen sollten, um David zum König zu machen; –",
+      "citation": "1 Chronik 12:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "von den Issaschariten, die sich auf die Zeitverhältnisse verstanden, um zu wissen, was Israel tun müsse: ihre 200 Häupter und unter deren Befehl ihre sämtlichen Stammesgenossen; –",
+      "citation": "1 Chronik 12:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "von Sebulon 50000 Mann, die zum Heeresdienst auszogen, in voller Kriegsrüstung und einmütig (zum Kampfe) sich ordnend; –",
+      "citation": "1 Chronik 12:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "von Naphthali 1000 Anführer und mit ihnen 37000 Mann mit Schild und Speer; –",
+      "citation": "1 Chronik 12:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "von den Daniten 28600 kampfgerüstete Leute; –",
+      "citation": "1 Chronik 12:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "von Asser 40000 Mann, die zum Heeresdienst auszogen, zum Kampfe bereit; –",
+      "citation": "1 Chronik 12:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "von jenseits des Jordans: von den Rubeniten, Gaditen und dem halben Stamm Manasse: 120000 Mann in voller feldmäßiger Kriegsrüstung.",
+      "citation": "1 Chronik 12:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Alle diese Kriegsleute, zum Kampf in Schlachtreihen geordnet, kamen einmütigen Sinnes nach Hebron, um David zum König über ganz Israel zu machen; aber auch das ganze übrige Israel war einmütig in dem Entschluß, David zum König zu machen.",
+      "citation": "1 Chronik 12:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "Drei Tage lang blieben sie dort bei David, aßen und tranken; denn ihre Volksgenossen hatten für ihren Unterhalt gesorgt;",
+      "citation": "1 Chronik 12:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "außerdem brachten die in ihrer Nähe bis nach Issaschar, Sebulon und Naphthali hin Wohnenden Lebensmittel auf Eseln, Kamelen, Maultieren und Rindern herbei: Mundvorrat von Mehl, Feigenkuchen und Rosinenkuchen, Wein und Öl, auch Rinder und Kleinvieh in Menge; denn es herrschte eine freudige Stimmung in Israel.",
+      "citation": "1 Chronik 12:41 (Menge)"
+    }
+  ]
+}

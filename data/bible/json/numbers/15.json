@@ -1,0 +1,241 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 15 — 41 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 15,
+    "verseCount": 41,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/numbers/14.json",
+      "nextChapter": "https://latinprayer.org/bible/numbers/16.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/numbers/15.json",
+      "german": "https://latinprayer.org/bibel/numbers/15.json"
+    }
+  },
+  "citation": "Numbers 15 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 15:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Speak to the children of Israel and thou shalt say to them: When you shall be come unto the land of your habitation, which I will give you,",
+      "citation": "Numbers 15:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And shall make an offering to the Lord, for a holocaust, or a victim, paying your vows, or voluntarily offering gifts, or in your solemnities burning a sweet savour unto the Lord, of oxen or of sheep:",
+      "citation": "Numbers 15:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Whosoever immolateth the victim, shall offer a sacrifice of fine flour, the tenth part of an ephi, tempered with the fourth part of a hin of oil:",
+      "citation": "Numbers 15:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And he shall give the same measure of wine to pour out in libations for the holocaust or for the victim. For every lamb,",
+      "citation": "Numbers 15:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And for every ram there shall be a sacrifice of flour of two tenths, which shall be tempered with the third part of a hin of oil:",
+      "citation": "Numbers 15:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And he shall offer the third part the same measure of wine for the libation, for a sweet savour to the Lord.",
+      "citation": "Numbers 15:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But when thou offerest a holocaust or sacrifice of oxen, to fulfil thy vow or for victims of peace offerings,",
+      "citation": "Numbers 15:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thou shalt give for every ox three tenths of flour tempered with half a hin of oil,",
+      "citation": "Numbers 15:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And wine for libations of the same measure, for an offering of most sweet savour to the Lord.",
+      "citation": "Numbers 15:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Thus shalt thou do",
+      "citation": "Numbers 15:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For every ox and ram and lamb and kid.",
+      "citation": "Numbers 15:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Both they that are born in the land, and the strangers",
+      "citation": "Numbers 15:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Shall offer sacrifices after the same rite.",
+      "citation": "Numbers 15:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "There shall be all one law and judgment both for you and for them who are strangers in the land.",
+      "citation": "Numbers 15:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 15:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Speak to the children of Israel, and thou shalt say to them:",
+      "citation": "Numbers 15:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "When you are come into the land which I will give you,",
+      "citation": "Numbers 15:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And shall eat of the bread of that country, you shall separate firstfruits to the Lord,",
+      "citation": "Numbers 15:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Of the things you eat. As you separate firstfruits of your barnfloors:",
+      "citation": "Numbers 15:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "So also shall you give firstfruits of your dough to the Lord.",
+      "citation": "Numbers 15:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And if through ignorance you omit any of these things, which the Lord hath spoken to Moses,",
+      "citation": "Numbers 15:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And by him hath commanded you from the day that he began to command and thenceforward,",
+      "citation": "Numbers 15:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And the multitude have forgotten to do it: they shall offer a calf out of the herd, a holocaust for a most sweet savour to the Lord, and the sacrifice and libations thereof, as the ceremonies require, and a buck goat for sin:",
+      "citation": "Numbers 15:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And the priest shall pray for all the multitude of the children of Israel: and it shall be forgiven them, because they sinned ignorantly, offering notwithstanding a burnt offering to the Lord for themselves and for their sin and their Ignorance:",
+      "citation": "Numbers 15:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And it shall be forgiven all the people of the children of Israel: and the strangers that sojourn among them: because it is the fault of all the people through ignorance.",
+      "citation": "Numbers 15:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "But if one soul shall sin ignorantly, he shall offer a she-goat of a year old for his sin.",
+      "citation": "Numbers 15:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And the priest shall pray for him, because he sinned ignorantly before the Lord: and he shall obtain his pardon, and it shall be forgiven him.",
+      "citation": "Numbers 15:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "The same law shall be for all that sin by ignorance, whether they be natives or strangers.",
+      "citation": "Numbers 15:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "But the soul that committeth any thing through pride, whether he be born in the land or a stranger (because he hath been rebellious against the Lord) shall be cut off from among his people:",
+      "citation": "Numbers 15:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "For he hath contemned the word of the Lord, and made void his precept: therefore shall he be destroyed, and shall bear his iniquity.",
+      "citation": "Numbers 15:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And it came to pass, when the children of Israel were in the wilderness, and had found a man gathering sticks on the sabbath day,",
+      "citation": "Numbers 15:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "That they brought him to Moses and Aaron and the whole multitude.",
+      "citation": "Numbers 15:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And they put him into prison, not knowing what they should do with him.",
+      "citation": "Numbers 15:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And the Lord said to Moses: Let that man die, let all the multitude stone him without the camp.",
+      "citation": "Numbers 15:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And when they had brought him out, they stoned him, and he died as the Lord had commanded.",
+      "citation": "Numbers 15:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "The Lord also said to Moses:",
+      "citation": "Numbers 15:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Speak to the children of Israel, and thou shalt tell them to make to themselves fringes in the corners of their garments, putting in them ribands of blue:",
+      "citation": "Numbers 15:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "That when they shall see them, they may remember all the commandments of the Lord, and not follow their own thoughts and eyes going astray after divers things,",
+      "citation": "Numbers 15:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "But rather being mindful of the precepts of the Lord, may do them and be holy to their God.",
+      "citation": "Numbers 15:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "I am the Lord your God, who brought you out of the land of Egypt, that I might be your God.",
+      "citation": "Numbers 15:41 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Titus, Chapter 48 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Titus",
+      "slug": "titus",
+      "testament": "NT",
+      "order": 63,
+      "totalChapters": 24
+    },
+    "chapter": 48,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/titus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/titus/47.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/titus/48.json",
+      "german": "https://latinprayer.org/bibel/titus/48.json"
+    }
+  },
+  "citation": "Titus 48 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "his ita transactis nuntiatum est Ioseph quod aegrotaret pater eius qui adsumptis duobus filiis Manasse et Ephraim ire perrexit",
+      "citation": "Titus 48:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dictumque est seni ecce filius tuus Ioseph venit ad te qui confortatus sedit in lectulo",
+      "citation": "Titus 48:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et ingresso ad se ait Deus omnipotens apparuit mihi in Luza quae est in terra Chanaan benedixitque mihi",
+      "citation": "Titus 48:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et ait ego te augebo et multiplicabo et faciam in turbas populorum daboque tibi terram hanc et semini tuo post te in possessionem sempiternam",
+      "citation": "Titus 48:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "duo igitur filii tui qui nati sunt tibi in terra Aegypti antequam huc venirem ad te mei erunt Ephraim et Manasses sicut Ruben et Symeon reputabuntur mihi",
+      "citation": "Titus 48:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "reliquos autem quos genueris post eos tui erunt et nomine fratrum suorum vocabuntur in possessionibus suis",
+      "citation": "Titus 48:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "mihi enim quando veniebam de Mesopotamiam mortua est Rahel in terra Chanaan in ipso itinere eratque vernum tempus et ingrediebar Ephratam et sepelivi eam iuxta viam Ephratae quae alio nomine appellatur Bethleem",
+      "citation": "Titus 48:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "videns autem filios eius dixit ad eum qui sunt isti",
+      "citation": "Titus 48:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "respondit filii mei sunt quos dedit mihi Deus in hoc loco adduc inquit eos ad me ut benedicam illis",
+      "citation": "Titus 48:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "oculi enim Israhel caligabant prae nimia senectute et clare videre non poterat adplicitosque ad se deosculatus et circumplexus",
+      "citation": "Titus 48:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dixit ad filium non sum fraudatus aspectu tuo insuper ostendit mihi Deus semen tuum",
+      "citation": "Titus 48:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cumque tulisset eos Ioseph de gremio patris adoravit pronus in terram",
+      "citation": "Titus 48:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et posuit Ephraim ad dexteram suam id est ad sinistram Israhel Manassen vero in sinistra sua ad dexteram scilicet patris adplicuitque ambos ad eum",
+      "citation": "Titus 48:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "qui extendens manum dextram posuit super caput Ephraim iunioris fratris sinistram autem super caput Manasse qui maior natu erat commutans manus",
+      "citation": "Titus 48:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "benedixitque Ioseph filio suo et ait Deus in cuius conspectu ambulaverunt patres mei Abraham et Isaac Deus qui pascit me ab adulescentia mea usque in praesentem diem",
+      "citation": "Titus 48:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "angelus qui eruit me de cunctis malis benedicat pueris et invocetur super eos nomen meum nomina quoque patrum meorum Abraham et Isaac et crescant in multitudinem super terram",
+      "citation": "Titus 48:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "videns autem Ioseph quod posuisset pater suus dexteram manum super caput Ephraim graviter accepit et adprehensam patris manum levare conatus est de capite Ephraim et transferre super caput Manasse",
+      "citation": "Titus 48:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "dixitque ad patrem non ita convenit pater quia hic est primogenitus pone dexteram tuam super caput eius",
+      "citation": "Titus 48:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "qui rennuens ait scio fili mi scio et iste quidem erit in populos et multiplicabitur sed frater eius iunior maior illo erit et semen illius crescet in gentes",
+      "citation": "Titus 48:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "benedixitque eis in ipso tempore dicens in te benedicetur Israhel atque dicetur faciat tibi Deus sicut Ephraim et sicut Manasse constituitque Ephraim ante Manassen",
+      "citation": "Titus 48:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et ait ad Ioseph filium suum en ego morior et erit Deus vobiscum reducetque vos ad terram patrum vestrorum",
+      "citation": "Titus 48:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "do tibi partem unam extra fratres tuos quam tuli de manu Amorrei in gladio et arcu meo",
+      "citation": "Titus 48:22 (Clementine Vulgate)"
+    }
+  ]
+}

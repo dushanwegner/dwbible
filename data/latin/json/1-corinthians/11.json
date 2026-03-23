@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Corinthians, Chapter 11 — 34 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Corinthians",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 53,
+      "totalChapters": 16
+    },
+    "chapter": 11,
+    "verseCount": 34,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-corinthians/10.json",
+      "nextChapter": "https://latinprayer.org/latin/1-corinthians/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-corinthians/11.json",
+      "german": "https://latinprayer.org/bibel/1-corinthians/11.json"
+    }
+  },
+  "citation": "1 Corinthians 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "imitatores mei estote sicut et ego Christi",
+      "citation": "1 Corinthians 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "laudo autem vos fratres quod omnia mei memores estis et sicut tradidi vobis praecepta mea tenetis",
+      "citation": "1 Corinthians 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "volo autem vos scire quod omnis viri caput Christus est caput autem mulieris vir caput vero Christi Deus",
+      "citation": "1 Corinthians 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "omnis vir orans aut prophetans velato capite deturpat caput suum",
+      "citation": "1 Corinthians 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "omnis autem mulier orans aut prophetans non velato capite deturpat caput suum unum est enim atque si decalvetur",
+      "citation": "1 Corinthians 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nam si non velatur mulier et tondeatur si vero turpe est mulieri tonderi aut decalvari velet caput suum",
+      "citation": "1 Corinthians 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "vir quidem non debet velare caput quoniam imago et gloria est Dei mulier autem gloria viri est",
+      "citation": "1 Corinthians 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "non enim vir ex muliere est sed mulier ex viro",
+      "citation": "1 Corinthians 11:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "etenim non est creatus vir propter mulierem sed mulier propter virum",
+      "citation": "1 Corinthians 11:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ideo debet mulier potestatem habere supra caput propter angelos",
+      "citation": "1 Corinthians 11:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "verumtamen neque vir sine muliere neque mulier sine viro in Domino",
+      "citation": "1 Corinthians 11:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nam sicut mulier de viro ita et vir per mulierem omnia autem ex Deo",
+      "citation": "1 Corinthians 11:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "vos ipsi iudicate decet mulierem non velatam orare Deum",
+      "citation": "1 Corinthians 11:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "nec ipsa natura docet vos quod vir quidem si comam nutriat ignominia est illi",
+      "citation": "1 Corinthians 11:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "mulier vero si comam nutriat gloria est illi quoniam capilli pro velamine ei dati sunt",
+      "citation": "1 Corinthians 11:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "si quis autem videtur contentiosus esse nos talem consuetudinem non habemus neque ecclesiae Dei",
+      "citation": "1 Corinthians 11:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "hoc autem praecipio non laudans quod non in melius sed in deterius convenitis",
+      "citation": "1 Corinthians 11:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "primum quidem convenientibus vobis in ecclesia audio scissuras esse et ex parte credo",
+      "citation": "1 Corinthians 11:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "nam oportet et hereses esse ut et qui probati sunt manifesti fiant in vobis",
+      "citation": "1 Corinthians 11:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "convenientibus ergo vobis in unum iam non est dominicam cenam manducare",
+      "citation": "1 Corinthians 11:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "unusquisque enim suam cenam praesumit ad manducandum et alius quidem esurit alius autem ebrius est",
+      "citation": "1 Corinthians 11:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "numquid domos non habetis ad manducandum et bibendum aut ecclesiam Dei contemnitis et confunditis eos qui non habent quid dicam vobis laudo vos in hoc non laudo",
+      "citation": "1 Corinthians 11:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ego enim accepi a Domino quod et tradidi vobis quoniam Dominus Iesus in qua nocte tradebatur accepit panem",
+      "citation": "1 Corinthians 11:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et gratias agens fregit et dixit hoc est corpus meum pro vobis hoc facite in meam commemorationem",
+      "citation": "1 Corinthians 11:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "similiter et calicem postquam cenavit dicens hic calix novum testamentum est in meo sanguine hoc facite quotienscumque bibetis in meam commemorationem",
+      "citation": "1 Corinthians 11:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "quotienscumque enim manducabitis panem hunc et calicem bibetis mortem Domini adnuntiatis donec veniat",
+      "citation": "1 Corinthians 11:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "itaque quicumque manducaverit panem vel biberit calicem Domini indigne reus erit corporis et sanguinis Domini",
+      "citation": "1 Corinthians 11:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "probet autem se ipsum homo et sic de pane illo edat et de calice bibat",
+      "citation": "1 Corinthians 11:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "qui enim manducat et bibit indigne iudicium sibi manducat et bibit non diiudicans corpus",
+      "citation": "1 Corinthians 11:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "ideo inter vos multi infirmes et inbecilles et dormiunt multi",
+      "citation": "1 Corinthians 11:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "quod si nosmet ipsos diiudicaremus non utique iudicaremur",
+      "citation": "1 Corinthians 11:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "dum iudicamur autem a Domino corripimur ut non cum hoc mundo damnemur",
+      "citation": "1 Corinthians 11:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "itaque fratres mei cum convenitis ad manducandum invicem expectate",
+      "citation": "1 Corinthians 11:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "si quis esurit domi manducet ut non in iudicium conveniatis cetera autem cum venero disponam",
+      "citation": "1 Corinthians 11:34 (Clementine Vulgate)"
+    }
+  ]
+}

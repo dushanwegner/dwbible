@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Galatians — 6 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Galatians",
+      "slug": "galatians",
+      "testament": "NT",
+      "order": 55,
+      "totalChapters": 6
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/galatians/index.json",
+      "german": "https://latinprayer.org/bibel/galatians/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/latin/galatians/1",
+      "jsonUrl": "https://latinprayer.org/latin/galatians/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/latin/galatians/2",
+      "jsonUrl": "https://latinprayer.org/latin/galatians/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/latin/galatians/3",
+      "jsonUrl": "https://latinprayer.org/latin/galatians/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/galatians/4",
+      "jsonUrl": "https://latinprayer.org/latin/galatians/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/latin/galatians/5",
+      "jsonUrl": "https://latinprayer.org/latin/galatians/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/latin/galatians/6",
+      "jsonUrl": "https://latinprayer.org/latin/galatians/6.json"
+    }
+  ]
+}

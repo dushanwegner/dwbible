@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 2 — 34 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 2,
+    "verseCount": 34,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/numbers/1.json",
+      "nextChapter": "https://latinprayer.org/bible/numbers/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/numbers/2.json",
+      "german": "https://latinprayer.org/bibel/numbers/2.json"
+    }
+  },
+  "citation": "Numbers 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke to Moses and Aaron, saying:",
+      "citation": "Numbers 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "All the children of Israel shall camp by their troops, ensigns, and standards, and the houses of their kindreds, round about the tabernacle of the covenant.",
+      "citation": "Numbers 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "On the east Juda shall pitch his tents by the bands of his army: and the prince of his sons; shall be Nahasson the son of Aminadab.",
+      "citation": "Numbers 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And the whole sum of the fighting men of his stock, were seventy- four thousand six hundred.",
+      "citation": "Numbers 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Next unto him they of the tribe of Issachar encamped, whose prince was Nathanael, the son of Suar.",
+      "citation": "Numbers 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the whole number of his fighting men were fifty-four thousand four hundred.",
+      "citation": "Numbers 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "In the tribe of Zabulon the prince was Eliab the son of Helon.",
+      "citation": "Numbers 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And all the army of fighting men of his stock, were fifty-seven thousand four hundred.",
+      "citation": "Numbers 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "All that were numbered in the camp of Juda, were a hundred and eighty-six thousand four hundred: and they by their troops shall march first.",
+      "citation": "Numbers 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "In the camp of the sons of Ruben, on the south side, the prince shall be Elisur the son of Sedeur:",
+      "citation": "Numbers 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the whole army of his fighting men, that were numbered, were forty-six thousand five hundred.",
+      "citation": "Numbers 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Beside him camped they of the tribe of Simeon: whose prince was Salamiel the son of Surisaddai.",
+      "citation": "Numbers 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the whole army of his fighting men, that were numbered, were fifty-nine thousand three hundred.",
+      "citation": "Numbers 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "In the tribe of Gad the prince was Eliasaph the son of Duel.",
+      "citation": "Numbers 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And the whole army of his fighting men that were numbered, were forty-five thousand six hundred and fifty.",
+      "citation": "Numbers 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "All that were reckoned up in the camp of Ruben, were a hundred and fifty-one thousand four hundred and fifty, by their troops: they shall march in the second place.",
+      "citation": "Numbers 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And the tabernacle of the testimony shall be carried by the officers of the Levites and their troops. As it shall be set up, so shall it be taken down. Every one shall march according to their places, and ranks.",
+      "citation": "Numbers 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "On the west side shall be the camp of the sons of Ephraim, whose prince was Elisama the son of Ammiud.",
+      "citation": "Numbers 2:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The whole army of his fighting men, that were numbered, were forty thousand five hundred.",
+      "citation": "Numbers 2:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And with them the tribe of the sons of Manasses, whose prince was Gamaliel the son of Phadassur.",
+      "citation": "Numbers 2:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And the whole army of his fighting men, that were numbered, were thirty-two thousand two hundred.",
+      "citation": "Numbers 2:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "In the tribe of the sons of Benjamin the prince was Abidan the son of Gedeon.",
+      "citation": "Numbers 2:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And the whole army of fighting men, that were reckoned up, were thirty-five thousand four hundred.",
+      "citation": "Numbers 2:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "All that were numbered in the camp of Ephraim, were a hundred and eight-thousand one hundred by their troops: they shall march in the third place.",
+      "citation": "Numbers 2:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "On the north side camped the sons of Dan: whose prince was Ahiezar the son of Ammisaddai.",
+      "citation": "Numbers 2:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "The whole army of his fighting men, that were numbered, were sixty-two thousand seven hundred.",
+      "citation": "Numbers 2:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Beside him they of the tribe of Aser pitched their tents: whose prince was Phegiel the son of Ochran.",
+      "citation": "Numbers 2:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "The whole army of his fighting men, that were numbered, were forty-one thousand five hundred.",
+      "citation": "Numbers 2:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Of the tribe of the sons of Nephtali the prince was Ahira the son of Enan.",
+      "citation": "Numbers 2:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "The whole army of his fighting men, were fifty-three thousand four hundred.",
+      "citation": "Numbers 2:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "All that were numbered in the camp of Dan, were a hundred and fifty-seven thousand six hundred: and they shall march last.",
+      "citation": "Numbers 2:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "This is the number of the children of Israel, of their army divided according to the houses of their kindreds and their troops, six hundred and three thousand five hundred and fifty.",
+      "citation": "Numbers 2:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And the Levites were not numbered among the children of Israel: for so the Lord had commanded Moses.",
+      "citation": "Numbers 2:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And the children of Israel did according to all things that the Lord had commanded. They camped by their troops, and marched by the families and houses of their fathers.",
+      "citation": "Numbers 2:34 (Douay-Rheims)"
+    }
+  ]
+}

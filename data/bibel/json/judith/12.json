@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judith, Chapter 12 — 20 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "order": 18,
+      "totalChapters": 16
+    },
+    "chapter": 12,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/judith/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/judith/11.json",
+      "nextChapter": "https://latinprayer.org/bibel/judith/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judith/12.json",
+      "latin": "https://latinprayer.org/latin/judith/12.json"
+    }
+  },
+  "citation": "Judith 12 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Darauf ließ er sie in den Raum führen, wo sein Silbergeschirr aufgestellt war, und ließ ihr von seinen eigenen Speisen eine Mahlzeit auftragen und von seinem eigenen Wein zu trinken reichen.",
+      "citation": "Judith 12:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Doch Judith sagte: »Ich werde nichts davon genießen, damit ich mich nicht versündige; vielmehr soll mir von den Vorräten gereicht werden, die ich habe mitbringen lassen«.",
+      "citation": "Judith 12:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Da sagte Holofernes zu ihr: »Wenn aber deine mitgebrachten Vorräte aufgezehrt sind, woher sollen wir dir Gleiches beschaffen? Von deinem Volke ist ja niemand bei uns«.",
+      "citation": "Judith 12:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Da gab Judith ihm zur Antwort: »So wahr du lebst, mein Herr! deine Magd wird ihre Vorräte nicht aufgezehrt haben, bis der Herr seinen Beschluß durch mich zur Ausführung gebracht hat«.",
+      "citation": "Judith 12:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Hierauf führten die Diener des Holofernes sie in das für sie bestimmte Zelt, und sie schlief bis Mitternacht. Um die Zeit der Morgenwache aber stand sie auf,",
+      "citation": "Judith 12:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "sandte zu Holofernes und ließ ihm sagen: »Mein Herr wolle Befehl geben, daß man mich, seine Magd, hinausgehen lasse, damit ich mein Gebet verrichte«.",
+      "citation": "Judith 12:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da gebot Holofernes seinen Leibwächtern, sie nicht zu hindern. So blieb sie drei Tage lang im Lager und ging jede Nacht in das Tal von Betylua und nahm ihre Abwaschungen im Lager an der Wasserquelle vor.",
+      "citation": "Judith 12:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wenn sie dann (aus dem Wasser) hinausgestiegen war, bat sie den Herrn, den Gott Israels, er möge ihr den Weg zur Rettung ihrer Volksgenossen bahnen.",
+      "citation": "Judith 12:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "So kehrte sie rein zurück und blieb in ihrem Zelte, bis sie gegen Abend ihre Speise zu sich nahm.",
+      "citation": "Judith 12:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Am vierten Tage aber gab Holofernes seinen Dienern allein ein Gastmahl und lud keinen von den diensttuenden Beamten zur Teilnahme ein.",
+      "citation": "Judith 12:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Dabei sagte er zu Bagoas, dem Verschnittenen, der sein ganzes Hauswesen zu verwalten hatte: »Geh doch hin und berede die Hebräerin, die bei dir ist, daß sie zu uns kommt und mit uns ißt und trinkt.",
+      "citation": "Judith 12:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Es würde ja doch schimpflich für uns sein, wenn wir ein solches Weib gehen ließen, ohne uns mit ihr eingelassen zu haben; sie würde uns geradezu auslachen, wenn wir sie nicht umarmten«.",
+      "citation": "Judith 12:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Da ging Bagoas aus dem Zelte des Holofernes zu ihr und sagte: »Es verschmähe das schöne Mädchen hier doch nicht, zu meinem Herrn zu kommen und sich von ihm Ehre antun zu lassen und mit uns in Fröhlichkeit ein Glas Wein zu trinken und es heute so zu machen wie alle anderen assyrischen Mädchen, die im Palast Nabuchodonosors anwesend sind«.",
+      "citation": "Judith 12:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Da antwortete ihm Judith: »Wie könnte ich die Aufforderung meines Herrn zurückweisen? Ja, alles, was meinem Herrn wohlgefällig ist, werde ich mich beeilen, zu tun; das soll mir eine Freude sein bis zu meinem Todestage«.",
+      "citation": "Judith 12:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Hierauf stand sie auf, legte ihre schönsten Gewänder an und schmückte sich mit allem Schmuck, den die Frauenwelt anwendet. Ihre Dienerin ging hin und breitete für sie dem Holofernes gegenüber auf dem Boden die Teppiche aus, die sie von Bagoas für ihren täglichen Gebrauch erhalten hatte, um auf ihnen liegend die Mahlzeit einzunehmen.",
+      "citation": "Judith 12:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Als nun Judith hereinkam und sich zum Essen gelagert hatte, da geriet Holofernes bei ihrem Anblick in Entzücken, und seine Gefühle wurden stürmisch erregt; es hatte ihn auch früher schon leidenschaftlich gelüstet, mit ihr zusammen zu sein, und von dem Tage an, wo er sie zuerst gesehen, hatte er auf eine günstige Gelegenheit gelauert, sie zu verführen.",
+      "citation": "Judith 12:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Nun sagte Holofernes zu ihr: »Trinke nun und sei lustig mit uns!«",
+      "citation": "Judith 12:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Judith antwortete ihm: »Gewiß, trinken will ich, o Herr; denn heute hat mein Leben eine so hohe Ehrung erfahren wie noch nie zuvor seit dem Tage meiner Geburt«.",
+      "citation": "Judith 12:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Sie nahm dann die Speisen, die ihre Dienerin zubereitet hatte, und aß und trank vor seinen Augen.",
+      "citation": "Judith 12:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Da wurde Holofernes durch ihr Verhalten hocherfreut und trank sehr vielen Wein, mehr als er jemals an einem Tage seit seiner Geburt getrunken hatte.",
+      "citation": "Judith 12:20 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 12 — 19 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 12,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/11.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/13.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/12.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/12.json"
+    }
+  },
+  "citation": "Ecclesiasticus 12 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "If thou do good, know to whom thou dost it, and there shall be much thanks for thy good deeds.",
+      "citation": "Ecclesiasticus 12:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Do good to the just, and thou shalt find great recompense: and if not of him, assuredly of the Lord.",
+      "citation": "Ecclesiasticus 12:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For there is no good for him that is always occupied in evil, and that giveth no alms: for the Highest hateth sinners, and hath mercy on the penitent.",
+      "citation": "Ecclesiasticus 12:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Give to the merciful and uphold not the sinner: God will repay vengeance to the ungodly and to sinners, and keep them against the day of vengeance.",
+      "citation": "Ecclesiasticus 12:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Give to the good, and receive not a sinner.",
+      "citation": "Ecclesiasticus 12:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Do good to the humble, and give not to the ungodly: hold back thy bread, and give it not to him, lest thereby he overmaster thee.",
+      "citation": "Ecclesiasticus 12:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For thou shalt receive twice as much evil for all the good thou shalt have done to him: for the Highest also hateth sinners, and will repay vengeance to the ungodly.",
+      "citation": "Ecclesiasticus 12:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "A friend shall not be known in prosperity, and an enemy shall not be hidden in adversity.",
+      "citation": "Ecclesiasticus 12:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "In the prosperity of a man, his enemies are grieved: and a friend is known in his adversity.",
+      "citation": "Ecclesiasticus 12:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Never trust thy enemy for as a brass pot his wickedness rusteth:",
+      "citation": "Ecclesiasticus 12:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Though he humble himself and go crouching, yet take good heed and beware of him.",
+      "citation": "Ecclesiasticus 12:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Set him not by thee, neither let him sit on thy right hand, lest he turn into thy place, and seek to take thy seat and at the last thou acknowledge my words, and be pricked with my sayings.",
+      "citation": "Ecclesiasticus 12:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Who will pity an enchanter struck by a serpent, or any that come near wild beasts? so is it with him that keepeth company with a wicked man, and is involved in his sins.",
+      "citation": "Ecclesiasticus 12:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For an hour he will abide with thee: but if thou begin to decline, he will not endure it.",
+      "citation": "Ecclesiasticus 12:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "An enemy speaketh sweetly with his lips, but in his heart he lieth in wait, to throw thee into a pit.",
+      "citation": "Ecclesiasticus 12:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "An enemy weepeth with his eyes: but if he find an opportunity he will not be satisfied with blood:",
+      "citation": "Ecclesiasticus 12:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And if evils come upon thee, thou shalt find him there first.",
+      "citation": "Ecclesiasticus 12:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "An enemy hath tears in his eyes, and while he pretendeth to help thee, will undermine thy feet.",
+      "citation": "Ecclesiasticus 12:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "He will shake his head, and clap his hands, and whisper much, and change his countenance.",
+      "citation": "Ecclesiasticus 12:19 (Douay-Rheims)"
+    }
+  ]
+}

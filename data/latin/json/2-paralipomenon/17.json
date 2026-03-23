@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Chronicles, Chapter 17 — 19 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Chronicles",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "order": 14,
+      "totalChapters": 36
+    },
+    "chapter": 17,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-paralipomenon/16.json",
+      "nextChapter": "https://latinprayer.org/latin/2-paralipomenon/18.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-paralipomenon/17.json",
+      "german": "https://latinprayer.org/bibel/2-paralipomenon/17.json"
+    }
+  },
+  "citation": "2 Chronicles 17 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "regnavit autem Iosaphat filius eius pro eo et invaluit contra Israhel",
+      "citation": "2 Chronicles 17:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "constituitque militum numeros in cunctis urbibus Iudae quae erant vallatae muris praesidiaque disposuit in terra Iuda et in civitatibus Ephraim quas ceperat Asa pater eius",
+      "citation": "2 Chronicles 17:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et fuit Dominus cum Iosaphat quia ambulavit in viis David patris sui primis et non speravit in Baalim",
+      "citation": "2 Chronicles 17:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sed in Deo patris sui et perrexit in praeceptis illius et non iuxta peccata Israhel",
+      "citation": "2 Chronicles 17:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "confirmavitque Dominus regnum in manu eius et dedit omnis Iuda munera Iosaphat factaeque sunt ei infinitae divitiae et multa gloria",
+      "citation": "2 Chronicles 17:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "cumque sumpsisset cor eius audaciam propter vias Domini etiam excelsa et lucos de Iuda abstulit",
+      "citation": "2 Chronicles 17:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "tertio autem anno regni sui misit de principibus suis Benail et Obdiam et Zacchariam et Nathanahel et Micheam ut docerent in civitatibus Iuda",
+      "citation": "2 Chronicles 17:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et cum eis Levitas Semeiam et Nathaniam et Zabadiam Asahel quoque et Semiramoth et Ionathan Adoniam et Tobiam et Tobadoniam Levitas et cum eis Elisama et Ioram sacerdotes",
+      "citation": "2 Chronicles 17:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "docebantque in Iuda habentes librum legis Domini et circuibant cunctas urbes Iuda atque erudiebant populum",
+      "citation": "2 Chronicles 17:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "itaque factus est pavor Domini super omnia regna terrarum quae erant per gyrum Iuda nec audebant bellare contra Iosaphat",
+      "citation": "2 Chronicles 17:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sed et Philisthei Iosaphat munera deferebant et vectigal argenti Arabes quoque adducebant pecora arietum septem milia septingentos et hircos totidem",
+      "citation": "2 Chronicles 17:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "crevit ergo Iosaphat et magnificatus est usque in sublime atque aedificavit in Iuda domos ad instar turrium urbesque muratas",
+      "citation": "2 Chronicles 17:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et multa opera patravit in urbibus Iuda viri quoque bellatores et robusti erant in Hierusalem",
+      "citation": "2 Chronicles 17:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quorum iste numerus per domos atque familias singulorum in Iuda principes exercitus Ednas dux et cum eo robustissimorum trecenta milia",
+      "citation": "2 Chronicles 17:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "post hunc Iohanan princeps et cum eo ducenta octoginta milia",
+      "citation": "2 Chronicles 17:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "post istum quoque Amasias filius Zechri consecratus Domino et cum eo ducenta milia virorum fortium",
+      "citation": "2 Chronicles 17:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "hunc sequebatur robustus ad proelia Heliada et cum eo tenentium arcum et clypeum ducenta milia",
+      "citation": "2 Chronicles 17:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "post istum etiam Iozabath et cum eo centum octoginta milia expeditorum militum",
+      "citation": "2 Chronicles 17:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "hii omnes erant ad manum regis exceptis aliis quos posuerat in urbibus muratis et in universo Iuda",
+      "citation": "2 Chronicles 17:19 (Clementine Vulgate)"
+    }
+  ]
+}

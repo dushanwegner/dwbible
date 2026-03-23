@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 116 — 19 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 116,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/115.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/117.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/116.json",
+      "latin": "https://latinprayer.org/latin/psalms/116.json"
+    }
+  },
+  "citation": "Psalmen 116 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Ich liebe den HERRN, denn er hat erhört mein flehentlich Rufen;",
+      "citation": "Psalmen 116:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "ja, er hat sein Ohr mir zugeneigt: ich will zu ihm rufen mein Leben lang!",
+      "citation": "Psalmen 116:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Umschlungen hatten mich des Todes Netze und die Ängste der Unterwelt mich befallen, in Drangsal und Kummer war ich geraten.",
+      "citation": "Psalmen 116:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Da rief ich den Namen des HERRN an: »Ach, HERR, errette meine Seele!«",
+      "citation": "Psalmen 116:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Gnädig ist der HERR und gerecht, und unser Gott ist voll Erbarmens;",
+      "citation": "Psalmen 116:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "der HERR schützt den, der unbeirrt ihm traut: ich war schwach geworden, aber er half mir.",
+      "citation": "Psalmen 116:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Kehre zurück, meine Seele, zu deiner Ruhe, denn der HERR hat Gutes an dir getan!",
+      "citation": "Psalmen 116:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Ja, du hast mein Leben vom Tode errettet, meine Augen vom Weinen, meinen Fuß vom Anstoß;",
+      "citation": "Psalmen 116:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "ich werde noch wandeln vor dem HERRN in den Landen des Lebens.",
+      "citation": "Psalmen 116:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Ich habe Glauben gehalten, wenn ich auch sagte: »Ich bin gar tief gebeugt«;",
+      "citation": "Psalmen 116:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "in meiner Verzagtheit hab’ ich gesagt: »Die Menschen sind Lügner allesamt.«",
+      "citation": "Psalmen 116:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wie soll ich dem HERRN vergelten alles, was er mir Gutes getan?",
+      "citation": "Psalmen 116:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Den Becher des Heils will ich erheben und den Namen des HERRN anrufen;",
+      "citation": "Psalmen 116:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "meine Gelübde will ich bezahlen dem HERRN, ja angesichts seines ganzen Volkes.",
+      "citation": "Psalmen 116:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Kostbar ist in den Augen des HERRN der Tod seiner Frommen.",
+      "citation": "Psalmen 116:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Ach, HERR, ich bin ja dein Knecht, ich bin dein Knecht, der Sohn deiner Magd; meine Bande hast du gelöst:",
+      "citation": "Psalmen 116:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "dir will ich Dankopfer bringen und den Namen des HERRN anrufen;",
+      "citation": "Psalmen 116:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "meine Gelübde will ich bezahlen dem HERRN, ja angesichts seines ganzen Volkes,",
+      "citation": "Psalmen 116:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "in den Vorhöfen am Hause des HERRN, in deiner Mitte, Jerusalem! Halleluja!",
+      "citation": "Psalmen 116:19 (Menge)"
+    }
+  ]
+}

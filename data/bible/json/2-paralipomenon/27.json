@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Paralipomenon, Chapter 27 — 9 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Paralipomenon",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "order": 14,
+      "totalChapters": 36
+    },
+    "chapter": 27,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-paralipomenon/26.json",
+      "nextChapter": "https://latinprayer.org/bible/2-paralipomenon/28.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-paralipomenon/27.json",
+      "german": "https://latinprayer.org/bibel/2-paralipomenon/27.json"
+    }
+  },
+  "citation": "2. Paralipomenon 27 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Joatham was five and twenty years old when he began to reign, and he reigned sixteen years in Jerusalem: the name of his mother was Jerusa the daughter of Sadoc.",
+      "citation": "2. Paralipomenon 27:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he did that which was right before the Lord, according to all that Ozias his father had done, only that he entered not into the temple of the Lord, and the people still transgressed.",
+      "citation": "2. Paralipomenon 27:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He built the high gate of the house of the Lord, and on the wall of Ophel he built much.",
+      "citation": "2. Paralipomenon 27:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Moreover he built cities in the mountains of Juda, and castles and towers in the forests.",
+      "citation": "2. Paralipomenon 27:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "He fought against the king of the children of Ammon, and overcame them, and the children of Ammon gave him at that time a hundred talents of silver, and ten thousand measures of wheat, and as many measures of barley: so much did the children of Ammon give him in the second and third year.",
+      "citation": "2. Paralipomenon 27:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Joatham was strengthened, because he had his way directed before the Lord his God.",
+      "citation": "2. Paralipomenon 27:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Now the rest of the acts of Joatham, and all his wars, and his works, are written in the book of the kings of Israel and Juda.",
+      "citation": "2. Paralipomenon 27:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He was five and twenty years old when he began to reign, and he reigned sixteen years in Jerusalem.",
+      "citation": "2. Paralipomenon 27:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And Joatham slept with his fathers, and they buried him in the city of David: and Achaz his son reigned in his stead.",
+      "citation": "2. Paralipomenon 27:9 (Douay-Rheims)"
+    }
+  ]
+}

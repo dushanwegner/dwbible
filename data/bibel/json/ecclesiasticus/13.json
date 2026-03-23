@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 13 — 26 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 13,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/12.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/13.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/13.json"
+    }
+  },
+  "citation": "Jesus Sirach 13 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wer Pech angreift, besudelt sich, und wer mit dem Hochmütigen umgeht, wird ihm ähnlich.",
+      "citation": "Jesus Sirach 13:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Eine Last, die über deine Kräfte geht, hebe nicht auf, und mit einem, der (mächtiger und) reicher ist als du, gehe nicht um; was hat der (irdene) Kochtopf mit dem (eisernen) Kessel zu tun? Dieser stößt an ihn und jener zerbricht.",
+      "citation": "Jesus Sirach 13:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Der Reiche tut Unrecht und schilt noch dazu, der Arme erleidet Unrecht und muß obendrein noch um Verzeihung bitten.",
+      "citation": "Jesus Sirach 13:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wenn du für ihn brauchbar bist, bemüht er sich um dich, wenn du aber Mangel leidest, so läßt er dich im Stich;",
+      "citation": "Jesus Sirach 13:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "wenn du etwas hast, so lebt er mit dir zusammen und leert dich aus, ohne selbst sich zu mühen;",
+      "citation": "Jesus Sirach 13:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "hat er dich nötig, so täuscht er dich; er lächelt dir zu und macht dir Hoffnungen, [redet schöne Worte zu dir und fragt: »Womit kann ich dir dienen?«]",
+      "citation": "Jesus Sirach 13:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "und beschämt dich durch seine Bewirtungen, bis er dich drei- oder viermal ausgebeutet hat, und schließlich verlacht er dich noch. Sieht er dich später einmal, so läßt er dich unbeachtet und schüttelt den Kopf über dich.",
+      "citation": "Jesus Sirach 13:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Nimm dich in acht, daß du nicht betrogen werdest und nicht gedemütigt in deiner Freude.",
+      "citation": "Jesus Sirach 13:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Lädt ein Mächtiger dich zu sich ein, so halte dich zurück: er wird dich um so dringender zu sich einladen.",
+      "citation": "Jesus Sirach 13:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Dränge dich nicht herzu, damit du nicht zurückgewiesen werdest, halte dich aber auch nicht fern, damit du nicht vergessen werdest.",
+      "citation": "Jesus Sirach 13:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Trachte nicht danach, mit ihm wie mit deinesgleichen zu reden, und traue nicht seinem vielen Gerede; denn mit seinem vielen Geplauder will er dich in Versuchung führen und durch sein Anlächeln dich ausforschen.",
+      "citation": "Jesus Sirach 13:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Ohne Erbarmen ist der, welcher die Worte nicht bei sich behält, und wird sicherlich mit Mißhandlung und Banden nicht sparsam verfahren (? h).",
+      "citation": "Jesus Sirach 13:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Gib wohl acht und sei sorgsam auf der Hut, denn du wandelst in Begleitung deines Sturzes.",
+      "citation": "Jesus Sirach 13:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Jedes Tier liebt seinesgleichen und jeder Mensch den, der ihm ähnlich ist (oder den ihm Gleichgestellten).",
+      "citation": "Jesus Sirach 13:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Jedes Geschöpf gesellt sich zu seiner Art, und so schließe sich auch der Mensch an seinesgleichen an.",
+      "citation": "Jesus Sirach 13:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Welche Gemeinschaft hat der Wolf mit dem Lamm? Ebenso steht es mit dem Gottlosen gegenüber dem Frommen.",
+      "citation": "Jesus Sirach 13:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Wie kann Friede bestehen zwischen der Hyäne und dem Hunde? und welcher Friede herrscht zwischen dem Reichen und dem Armen?",
+      "citation": "Jesus Sirach 13:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Die Jagdbeute der Löwen sind die Wildesel der Steppe; ebenso bilden die Armen die Weide der Reichen.",
+      "citation": "Jesus Sirach 13:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Ein Greuel für den Hochmütigen ist die Demut; ebenso ist der Arme ein Greuel für den Reichen.",
+      "citation": "Jesus Sirach 13:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Gerät der Reiche ins Wanken, so wird er von Freunden gestützt; ist aber der Arme zu Fall gekommen, so wird er von Freunden vollends zur Seite gestoßen.",
+      "citation": "Jesus Sirach 13:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Hat ein Reicher sich verfehlt (h), so sind viele Verteidiger da; hat er Häßliches geredet, so rechtfertigt man es; hat aber ein Niedriger sich verfehlt (h), so macht man ihm obendrein Vorwürfe; auch wenn er Verständiges redet, schenkt man ihm keine Beachtung.",
+      "citation": "Jesus Sirach 13:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Redet ein Reicher, so schweigen alle und erheben seine Worte bis an die Wolken; doch redet der Arme, so heißt’s:",
+      "citation": "Jesus Sirach 13:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "»Wer ist der?« und stößt er an, so bringt man ihn vollends zu Fall.",
+      "citation": "Jesus Sirach 13:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Gut ist der Reichtum, an dem keine Sünde klebt, und schlimm ist die Armut nach der Aussage des Gottlosen.",
+      "citation": "Jesus Sirach 13:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Das Herz des Menschen verändert sein Angesicht, bald zum Guten, bald zum Schlimmen;",
+      "citation": "Jesus Sirach 13:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "das Zeichen eines Herzens im Glück ist ein heiteres Angesicht, aber das Ersinnen von Denksprüchen erfordert mühsames Nachdenken.",
+      "citation": "Jesus Sirach 13:26 (Menge)"
+    }
+  ]
+}

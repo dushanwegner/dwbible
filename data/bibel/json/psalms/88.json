@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 88 — 19 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 88,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/87.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/89.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/88.json",
+      "latin": "https://latinprayer.org/latin/psalms/88.json"
+    }
+  },
+  "citation": "Psalmen 88 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Lied, ein Psalm von den Korahiten; dem Musikmeister, nach (der Singweise = Melodie) »die Krankheit«; ein Lehrgedicht</em> <em>von Heman, dem Esrahiten.</em>",
+      "citation": "Psalmen 88:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "O HERR, du Gott meines Heils, ich rufe bei Tage und schreie nachts vor dir:",
+      "citation": "Psalmen 88:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "o laß mein Gebet vor dich kommen, neige dein Ohr meinem Flehen zu!",
+      "citation": "Psalmen 88:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denn meine Seele ist mit Leiden gesättigt, und mein Leben naht sich dem Totenreich.",
+      "citation": "Psalmen 88:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Schon zählt man mich zu den ins Grab Gesunknen, ich bin wie ein Mann ohne Lebenskraft.",
+      "citation": "Psalmen 88:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Unter den Toten hab’ ich mein Lager gleichwie Erschlagne, die im Grabe liegen, deren du nicht mehr gedenkst: sie sind ja deiner Hand entrückt.",
+      "citation": "Psalmen 88:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Du hast mich in die Grube der Unterwelt versetzt, in finstre Nacht, in die Tiefe;",
+      "citation": "Psalmen 88:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "auf mir lastet schwer dein Grimm, und mit all deinen Wogen drückst du mich nieder. SELA.",
+      "citation": "Psalmen 88:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Meine Bekannten hast du mir entfremdet, hast mich ihnen zum Abscheu gemacht; eingeschlossen bin ich und kann nicht hinaus:",
+      "citation": "Psalmen 88:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "mein Auge erlischt vor Elend. Ich rufe zu dir, o HERR, jeden Tag, ich breite zu dir meine Hände aus:",
+      "citation": "Psalmen 88:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "»Kannst an den Toten du Wunder tun, oder werden Schatten aufstehn, um dich zu preisen? SELA.",
+      "citation": "Psalmen 88:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wird man im Grabe von deiner Gnade erzählen, von deiner Treue im Abgrund?",
+      "citation": "Psalmen 88:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Verkündet man dein Wunderwalten in der Finsternis und deine Gerechtigkeit im Lande des Vergessens?«",
+      "citation": "Psalmen 88:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ich dagegen rufe laut zu dir, o HERR, schon am Morgen tritt mein Gebet vor dich:",
+      "citation": "Psalmen 88:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "»Warum, o HERR, verwirfst du mich, verbirgst du dein Antlitz vor mir?«",
+      "citation": "Psalmen 88:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Elend bin ich und siech von Jugend auf, ich trage deine Schrecken und verzweifle.",
+      "citation": "Psalmen 88:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Deine Zornesgluten sind über mich hingegangen, deine Schrecknisse haben mich vernichtet;",
+      "citation": "Psalmen 88:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "sie umgeben mich immerdar wie Wasserfluten, umringen mich allzumal.",
+      "citation": "Psalmen 88:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Freunde und Gefährten hast du mir entfremdet: nur die Finsternis ist mir vertraut (geblieben).",
+      "citation": "Psalmen 88:19 (Menge)"
+    }
+  ]
+}

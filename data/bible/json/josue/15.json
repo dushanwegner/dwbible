@@ -1,0 +1,351 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Josue, Chapter 15 — 63 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Josue",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 24
+    },
+    "chapter": 15,
+    "verseCount": 63,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/josue/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/josue/14.json",
+      "nextChapter": "https://latinprayer.org/bible/josue/16.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/josue/15.json",
+      "german": "https://latinprayer.org/bibel/josue/15.json"
+    }
+  },
+  "citation": "Josue 15 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now the lot of the children of Juda by their kindreds was this: From the frontier of Edom, to the desert of Sin southward, and to the uttermost part of the south coast.",
+      "citation": "Josue 15:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Its beginning was from the top of the most salt sea, and from the bay thereof, that looketh to the south.",
+      "citation": "Josue 15:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And it goeth out towards the ascent of the Scorpion, and passeth on to Sina: and ascendeth into Cadesbarne, and reacheth into Esron, going up to Addar, and compassing Carcaa.",
+      "citation": "Josue 15:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And from thence passing along into Asemona, and reaching the torrent of Egypt: and the bounds thereof shall be the great sea, this shall be the limit of the south coast.",
+      "citation": "Josue 15:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But on the east side the beginning shall be the most salt sea even to the end of the Jordan: and towards the north from the bay of the sea unto the same river Jordan.",
+      "citation": "Josue 15:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the border goeth up into Beth-Hagla, and passeth by the north into Beth-Araba: going up to the stone of Boen the son of Ruben.",
+      "citation": "Josue 15:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And reaching as far as the borders of Debara from the valley of Achor, and so northward looking towards Galgal, which is opposite to the ascent of Adommin, on the south side of the torrent, and the border passeth the waters that are called the fountain of the sun: and the goings out thereof shall be at the fountain Rogel.",
+      "citation": "Josue 15:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And it goeth up by the valley of the son of Ennom on the side of the Jebusite towards the south, the same is Jerusalem: and thence ascending to the top of the mountain, which is over against Geennom to the west in the end of the valley of Raphaim, northward.",
+      "citation": "Josue 15:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And it passeth on from the top of the mountain to the fountain of the water of Nephtoa: and reacheth to the towns of mount Ephron: and it bendeth towards Baala, which is Cariathiarim, that is to say, the city of the woods.",
+      "citation": "Josue 15:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And it compasseth from Baala westward unto mount Seir: and passeth by the side of mount Jarim to the north into Cheslon: and goeth down into Bethsames, and passeth into Thamna.",
+      "citation": "Josue 15:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And reacheth northward to a part of Accaron at the side: and bendeth to Sechrona, and passeth mount Baala: and cometh into Jebneel, and is bounded westward with the great sea.",
+      "citation": "Josue 15:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "These are the borders round about of the children of Juda in their kindreds.",
+      "citation": "Josue 15:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But to Caleb the son of Jephone he gave a portion in the midst of the children of Juda, as the Lord had commanded him: Cariath-Arbe the father of Enac, which is Hebron.",
+      "citation": "Josue 15:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And Caleb destroyed out of it the three sons of Enac, Sesai and Ahiman, and Tholmai of the race of Enac.",
+      "citation": "Josue 15:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And going up from thence he came to the inhabitants of Dabir, which before was called Cariath-Sepher, that is to say, the city of letters.",
+      "citation": "Josue 15:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And Caleb said: He that shall smite Cariath-Sepher, and take it, I will give him Axa my daughter to wife.",
+      "citation": "Josue 15:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And Othoniel the son of Cenez, the younger brother of Caleb, took it: and he gave him Axa his daughter to wife.",
+      "citation": "Josue 15:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And as they were going together, she was moved by her husband to ask a field of her father, and she sighed as she sat on her ass. And Caleb said to her: What aileth thee?",
+      "citation": "Josue 15:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "But she answered: Give me a blessing: thou hast given me a southern and dry land, give me also a land that Is watered. And Caleb gave her the upper and the nether watery ground.",
+      "citation": "Josue 15:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "This is the possession of the tribe of the children of Juda by their kindreds.",
+      "citation": "Josue 15:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And the cities from the uttermost parts of the children of Juda by the borders of Edom to the south, were Cabseel and Eder and Jagur,",
+      "citation": "Josue 15:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And Cina and Dimona and Adada,",
+      "citation": "Josue 15:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And Cades and Asor and Jethnam,",
+      "citation": "Josue 15:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Ziph and Telem and Baloth,",
+      "citation": "Josue 15:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "New Asor and Carioth, Hesron, which is Asor.",
+      "citation": "Josue 15:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Amam, Sama and Molada,",
+      "citation": "Josue 15:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And Asergadda and Hassemon and Bethphelet,",
+      "citation": "Josue 15:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And Hasersual and Bersabee and Baziothia,",
+      "citation": "Josue 15:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And Baala and Jim and Esem,",
+      "citation": "Josue 15:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And Eltholad and Cesil and Harma,",
+      "citation": "Josue 15:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And Siceleg and Medemena and Sensenna,",
+      "citation": "Josue 15:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "Lebaoth and Selim and Aen and Remmon: all the cities twenty-nine, and their villages.",
+      "citation": "Josue 15:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "But in the plains: Estaol and Sarea and Asena,",
+      "citation": "Josue 15:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And Zanoe and Engannim and Taphua and Enaim,",
+      "citation": "Josue 15:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And Jerimoth and Adullam, Socho and Azeca,",
+      "citation": "Josue 15:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And Saraim and Adithaim and Gedera and Gederothaim: fourteen cities, and their villages.",
+      "citation": "Josue 15:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "Sanan and Hadassa and Magdalgad,",
+      "citation": "Josue 15:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Delean and Masepha and Jecthel,",
+      "citation": "Josue 15:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "Lachis and Bascath and Eglon,",
+      "citation": "Josue 15:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Chebbon and Leheman and Cethlis,",
+      "citation": "Josue 15:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And Gideroth and Bethdagon and Naama and Maceda: sixteen cities, and their villages.",
+      "citation": "Josue 15:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "Labana and Ether and Asan,",
+      "citation": "Josue 15:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "Jephtha and Esna and Nesib,",
+      "citation": "Josue 15:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "And Ceila and Achzib and Maresa: nine cities, and their villages.",
+      "citation": "Josue 15:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "Accaron with the towns and villages thereof.",
+      "citation": "Josue 15:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "From Accaron even to the sea: all places that lie towards Azotus and the villages thereof.",
+      "citation": "Josue 15:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "Azotus with its towns and villages. Gaza with its towns and villages, even to the torrent of Egypt, and the great sea that is the border thereof.",
+      "citation": "Josue 15:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "And in the mountain Samir and Jether and Socoth,",
+      "citation": "Josue 15:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "And Danna and Cariath-senna, this is Dabir:",
+      "citation": "Josue 15:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "Anab and Istemo and Anim,",
+      "citation": "Josue 15:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "Gosen and Olon and Gilo: eleven cities and their villages.",
+      "citation": "Josue 15:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "Arab and Ruma and Esaan,",
+      "citation": "Josue 15:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "And Janum and Beththaphua and Apheca,",
+      "citation": "Josue 15:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "Athmatha and Cariath-Arbe, this is Hebron and Sior: nine cities and their villages.",
+      "citation": "Josue 15:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "Maon and Carmel and Ziph and Jota,",
+      "citation": "Josue 15:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "Jezrael and Jucadam and Zanoe,",
+      "citation": "Josue 15:56 (Douay-Rheims)"
+    },
+    {
+      "verse": 57,
+      "text": "Accain, Gabaa and Thamna: ten cities and their villages.",
+      "citation": "Josue 15:57 (Douay-Rheims)"
+    },
+    {
+      "verse": 58,
+      "text": "Halhul, and Bessur, and Gedor,",
+      "citation": "Josue 15:58 (Douay-Rheims)"
+    },
+    {
+      "verse": 59,
+      "text": "Mareth, and Bethanoth, and Eltecon: six cities and their villages.",
+      "citation": "Josue 15:59 (Douay-Rheims)"
+    },
+    {
+      "verse": 60,
+      "text": "Cariathbaal, the same is Cariathiarim the city of woods, and Arebba: two cities and their villages.",
+      "citation": "Josue 15:60 (Douay-Rheims)"
+    },
+    {
+      "verse": 61,
+      "text": "In the desert Betharaba, Meddin and Sachacha,",
+      "citation": "Josue 15:61 (Douay-Rheims)"
+    },
+    {
+      "verse": 62,
+      "text": "And Nebsan, and the city of salt, and Engaddi: six cities and their villages.",
+      "citation": "Josue 15:62 (Douay-Rheims)"
+    },
+    {
+      "verse": 63,
+      "text": "But the children of Juda could not destroy the Jebusite that dwelt in Jerusalem: and the Jebusite dwelt with the children of Juda in Jerusalem until this present day.",
+      "citation": "Josue 15:63 (Douay-Rheims)"
+    }
+  ]
+}

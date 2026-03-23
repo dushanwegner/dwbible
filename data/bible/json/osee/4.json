@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Osee, Chapter 4 — 19 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Osee",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 4,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/osee/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/osee/3.json",
+      "nextChapter": "https://latinprayer.org/bible/osee/5.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/osee/4.json",
+      "german": "https://latinprayer.org/bibel/osee/4.json"
+    }
+  },
+  "citation": "Osee 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Hear the word of the Lord, ye children of Israel, for the Lord shall enter into judgment with the inhabitants of the land: for there is no truth, and there is no mercy, and there is no knowledge of God in the land.",
+      "citation": "Osee 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Cursing, and lying, and killing, and theft, and adultery, have overflowed, and blood hath touched blood.",
+      "citation": "Osee 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Therefore shall the land mourn, and every one that dwelleth in it shall languish with the heat of the field, and with the fowls of the air: yea, the fishes of the sea also shall be gathered together.",
+      "citation": "Osee 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But yet let not any man judge: and let not a man be rebuked: for thy people are as they that contradict the priest.",
+      "citation": "Osee 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And thou shalt fall today, and the prophet also shall fall with thee: in the night I have made thy mother to be silent.",
+      "citation": "Osee 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "My people have been silent, because they had no knowledge: because thou hast rejected knowledge, I will reject thee, that thou shalt not do the office of priesthood to me: and thou hast forgotten the law of thy God, I also will forget thy children.",
+      "citation": "Osee 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "According to the multitude of them, so have they sinned against me: I will change their glory into shame.",
+      "citation": "Osee 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "They shall eat the sins of my people, and shall lift up their souls to their iniquity.",
+      "citation": "Osee 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And there shall be like people like priest: and I will visit their ways upon them, and I will repay them their devices.",
+      "citation": "Osee 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And they shall eat and shall not be filled: they have committed fornication, and have not ceased: because they have forsaken the Lord in not observing the law.",
+      "citation": "Osee 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Fornication, and wine, and drunkenness, take away the understanding.",
+      "citation": "Osee 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "My people have consulted their stocks, and their staff hath declared unto them: for the spirit of fornication hath deceived them, and they have committed fornication against their God.",
+      "citation": "Osee 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "They offered sacrifice upon the tops of the mountains, and burnt incense upon the hills: under the oak, and the poplar, and the turpentine tree, because the shadow thereof was good: therefore shall your daughters commit fornication, and your spouses shall be adulteresses.",
+      "citation": "Osee 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "I will not visit upon your daughters, when they shall commit fornication, and upon your spouses when they shall commit adultery: because themselves conversed with harlots, and offered sacrifice with the effeminate, and the people that doth not understand shall be beaten.",
+      "citation": "Osee 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "If thou play the harlot, O Israel, at least let not Juda offend: and go ye not into Galgal, and come not up into Bethaven, and do not swear: The Lord liveth.",
+      "citation": "Osee 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "For Israel hath gone astray like a wanton heifer now will the Lord feed them, as a lamb in a spacious place.",
+      "citation": "Osee 4:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Ephraim is a partaker with idols, let him alone.",
+      "citation": "Osee 4:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Their banquet is separated, they have gone astray by fornication: they that should have protected them have loved to bring shame upon them.",
+      "citation": "Osee 4:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The wind hath bound them up in its wings, and they shall be confounded because of their sacrifices.",
+      "citation": "Osee 4:19 (Douay-Rheims)"
+    }
+  ]
+}

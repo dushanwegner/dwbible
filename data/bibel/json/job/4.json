@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hiob, Chapter 4 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hiob",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 4,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/job/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/job/3.json",
+      "nextChapter": "https://latinprayer.org/bibel/job/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/4.json",
+      "latin": "https://latinprayer.org/latin/job/4.json"
+    }
+  },
+  "citation": "Hiob 4 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da hob Eliphas von Theman an und sagte:",
+      "citation": "Hiob 4:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Wird es dich verdrießen, wenn man ein Wort an dich zu richten wagt? Doch wer vermöchte die Worte zurückzuhalten?",
+      "citation": "Hiob 4:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Hast du doch selbst vielen (Leidenden) Mut zugesprochen und erschlaffte Hände gestärkt;",
+      "citation": "Hiob 4:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "manchen Wankenden haben deine Worte aufrecht gehalten, und niedersinkenden Knien hast du neue Kraft verliehen.",
+      "citation": "Hiob 4:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Nun aber, da die Reihe an dich gekommen, bist du verzagt; nun es dich selbst trifft, verlierst du den Halt!«",
+      "citation": "Hiob 4:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "»Ist deine Gottesfurcht nicht deine Zuversicht und dein unsträflicher Wandel deine Hoffnung?",
+      "citation": "Hiob 4:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Bedenke doch: Wo ist je ein Unschuldiger zugrunde gegangen, und wo sind Rechtschaffene vernichtet worden?",
+      "citation": "Hiob 4:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Soweit meine Erfahrung reicht: die Unheil gepflügt und Frevel gesät hatten, die haben es auch geerntet.",
+      "citation": "Hiob 4:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Durch Gottes Odem kommen sie um, und durch den Hauch seines Zornes vergehen sie.",
+      "citation": "Hiob 4:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Des Löwen Gebrüll und die Stimme des Leuen (sind verstummt), und den jungen Löwen sind die Zähne ausgebrochen;",
+      "citation": "Hiob 4:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "da kommt auch ein Löwe um aus Mangel an Raub, und die Jungen der Löwin müssen sich zerstreuen.«",
+      "citation": "Hiob 4:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "»Zu mir ist aber ein Wort verstohlen gedrungen, und mein Ohr hat einen flüsternden Laut davon vernommen",
+      "citation": "Hiob 4:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "beim Spiel der durch Traumbilder erregten Gedanken, in der Zeit, wo tiefer Schlaf sich auf die Menschen senkt:",
+      "citation": "Hiob 4:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "ein Grauen überfiel mich und ein Zittern, durch alle meine Gebeine ging ein Schauder;",
+      "citation": "Hiob 4:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "ein Lufthauch strich leise an meinem Antlitz vorüber; es sträubte sich mir das Haar am Leibe empor!",
+      "citation": "Hiob 4:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Da stand – ihr Aussehen konnte ich nicht erkennen – eine Gestalt vor meinen Augen, und eine Stimme hörte ich flüstern:",
+      "citation": "Hiob 4:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "›Kann wohl ein Mensch gerecht vor Gott sein oder ein Sterblicher rein vor seinem Schöpfer?",
+      "citation": "Hiob 4:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Bedenke: seinen Dienern kann er nicht trauen, und seinen Engeln legt er Mängel zur Last:",
+      "citation": "Hiob 4:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "wieviel mehr denen, die Lehmhütten bewohnen, deren Grundbau im Staube liegt! Sie werden zerdrückt, als wären sie Motten;",
+      "citation": "Hiob 4:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "vom Morgen bis zum Abend werden sie zerschmettert; unbeachtet vergehen sie auf ewig.",
+      "citation": "Hiob 4:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Nicht wahr, so ist es: wird das Haltseil ihres Zeltes bei ihnen ausgerissen, so sterben sie und wissen nicht wie.‹«",
+      "citation": "Hiob 4:21 (Menge)"
+    }
+  ]
+}

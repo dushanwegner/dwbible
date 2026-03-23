@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 28 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 28,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/genesis/27.json",
+      "nextChapter": "https://latinprayer.org/bible/genesis/29.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/genesis/28.json",
+      "german": "https://latinprayer.org/bibel/genesis/28.json"
+    }
+  },
+  "citation": "Genesis 28 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And Isaac called Jacob, and blessed him, and charged him, saying: Take not a wife of the stock of Chanaan:",
+      "citation": "Genesis 28:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But go, and take a journey to Mesopotamia of Syria, to the house of Bathuel, thy mother's father, and take thee a wife thence of the daughters of Laban, thy uncle.",
+      "citation": "Genesis 28:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And God almighty bless thee, and make thee to increase and multiply thee: that thou mayst be a multitude of people.",
+      "citation": "Genesis 28:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And give the blessings of Araham to thee, and to thy seed after thee: that thou mayst possess the land of thy sojournment, which he promised to thy grandfather.",
+      "citation": "Genesis 28:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And when Isaac had sent him away, he took his journey and went to Mesopotamia of Syria, to Laban, the son of Bathuel, the Syrian, brother to Rebecca, his mother.",
+      "citation": "Genesis 28:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Esau seeing that his father had blessed Jacob, and had sent him into Mesopotamia of Syria, to marry a wife thence; and that after the blessing he had charged him, saying: Thou shalt not take a wife of the daughters of Chanaan:",
+      "citation": "Genesis 28:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And that Jacob obeying his parents, was gone into Syria:",
+      "citation": "Genesis 28:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Experiencing also, that his father was not well pleased with the daughters of Chanaan:",
+      "citation": "Genesis 28:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He went to Ismael, and took to wife, besides them he had before, Maheleth, the daughter of Ismael, Abraham's son, the sister of Nabajoth.",
+      "citation": "Genesis 28:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But Jacob being departed from Bersabee, went on to Haran.",
+      "citation": "Genesis 28:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And when he was come to a certain place, and would rest in it after sunset, he took of the stones that lay there, and putting under his head, slept in the same place.",
+      "citation": "Genesis 28:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And he saw in his sleep a ladder standing upon the earth, and the top thereof touching heaven: the angels also of God ascending and descending by it.",
+      "citation": "Genesis 28:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the Lord leaning upon the ladder saying to him: I am the Lord God of Abraham thy father, and the God of Isaac: The land, wherein thou sleepest, I will give to thee and to thy seed.",
+      "citation": "Genesis 28:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And thy seed shall be as the dust of the earth: thou shalt spread abroad to the west, and to the east, and to the north, and to the south: and IN THEE and thy seed, all the tribes of the earth SHALL BE BLESSED.",
+      "citation": "Genesis 28:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And I will be thy keeper whithersoever thou goest, and will bring thee back into this land: neither will I leave thee, till I shall have accomplished all that I have said.",
+      "citation": "Genesis 28:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And when Jacob awaked out of sleep, he said: Indeed the Lord is in this place, and I knew it not.",
+      "citation": "Genesis 28:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And trembling, he said: How terrible is this place? this is no other but the house of God, and the gate of heaven.",
+      "citation": "Genesis 28:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And Jacob arising in the morning, took the stone which he had laid under his head, and set it up for a title, pouring oil upon the top of it.",
+      "citation": "Genesis 28:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And he called the name of the city Bethel, which before was called Luza.",
+      "citation": "Genesis 28:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And he made a vow, saying: If God shall be with me, and shall keep me in the way, by which I walk, and shall give me bread to eat, and raiment to put on,",
+      "citation": "Genesis 28:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And I shall return prosperously to my father's house: the Lord shall be my God:",
+      "citation": "Genesis 28:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And this stone, which I have set up for a title, shall be called the house of God: and of all things that thou shalt give to me, I will offer tithes to thee.",
+      "citation": "Genesis 28:22 (Douay-Rheims)"
+    }
+  ]
+}

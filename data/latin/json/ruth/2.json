@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ruth, Chapter 2 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ruth",
+      "slug": "ruth",
+      "testament": "OT",
+      "order": 8,
+      "totalChapters": 4
+    },
+    "chapter": 2,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ruth/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ruth/1.json",
+      "nextChapter": "https://latinprayer.org/latin/ruth/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ruth/2.json",
+      "german": "https://latinprayer.org/bibel/ruth/2.json"
+    }
+  },
+  "citation": "Ruth 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "erat autem vir Helimelech consanguineus homo potens et magnarum opum nomine Booz",
+      "citation": "Ruth 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dixitque Ruth Moabitis ad socrum suam si iubes vadam in agrum et colligam spicas quae metentium fugerint manus ubicumque clementis in me patris familias repperero gratiam cui illa respondit vade filia mi",
+      "citation": "Ruth 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "abiit itaque et colligebat spicas post terga metentium accidit autem ut ager ille haberet dominum Booz qui erat de cognatione Helimelech",
+      "citation": "Ruth 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et ecce ipse veniebat de Bethleem dixitque messoribus Dominus vobiscum qui responderunt ei benedicat tibi Dominus",
+      "citation": "Ruth 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "dixitque Booz iuveni qui messoribus praeerat cuius est haec puella",
+      "citation": "Ruth 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "qui respondit haec est Moabitis quae venit cum Noemi de regione moabitide",
+      "citation": "Ruth 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et rogavit ut spicas colligeret remanentes sequens messorum vestigia et de mane usque nunc stat in agro et ne ad momentum quidem domum reversa est",
+      "citation": "Ruth 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et ait Booz ad Ruth audi filia ne vadas ad colligendum in alterum agrum nec recedas ab hoc loco sed iungere puellis meis",
+      "citation": "Ruth 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et ubi messuerint sequere mandavi enim pueris meis ut nemo tibi molestus sit sed etiam si sitieris vade ad sarcinulas et bibe aquas de quibus et pueri bibunt",
+      "citation": "Ruth 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quae cadens in faciem suam et adorans super terram dixit ad eum unde mihi hoc ut invenirem gratiam ante oculos tuos et nosse me dignareris peregrinam mulierem",
+      "citation": "Ruth 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "cui ille respondit nuntiata sunt mihi omnia quae feceris socrui tuae post mortem viri tui et quod dereliqueris parentes tuos et terram in qua nata es et veneris ad populum quem ante nesciebas",
+      "citation": "Ruth 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "reddat tibi Dominus pro opere tuo et plenam mercedem recipias a Domino Deo Israhel ad quem venisti et sub cuius confugisti alas",
+      "citation": "Ruth 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quae ait inveni gratiam ante oculos tuos domine mi qui consolatus es me et locutus es ad cor ancillae tuae quae non sum similis unius puellarum tuarum",
+      "citation": "Ruth 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dixitque ad eam Booz quando hora vescendi fuerit veni huc et comede panem et intingue buccellam tuam in aceto sedit itaque ad messorum latus et congessit pulentam sibi comeditque et saturata est et tulit reliquias",
+      "citation": "Ruth 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "atque inde surrexit ut spicas ex more colligeret praecepit autem Booz pueris suis dicens etiam si vobiscum metere voluerit ne prohibeatis eam",
+      "citation": "Ruth 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et de vestris quoque manipulis proicite de industria et remanere permittite ut absque rubore colligat et colligentem nemo corripiat",
+      "citation": "Ruth 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "collegit ergo in agro usque ad vesperam et quae collegerat virga caedens et excutiens invenit hordei quasi oephi mensuram id est tres modios",
+      "citation": "Ruth 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quos portans reversa est in civitatem et ostendit socrui suae insuper protulit et dedit ei de reliquiis cibi sui quo saturata fuerat",
+      "citation": "Ruth 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "dixitque ei socrus ubi hodie collegisti et ubi fecisti opus sit benedictus qui misertus est tui indicavitque ei apud quem esset operata et nomen dixit viri quod Booz vocaretur",
+      "citation": "Ruth 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "cui respondit Noemi benedictus sit a Domino quoniam eandem gratiam quam praebuerat vivis servavit et mortuis rursumque propinquus ait noster est homo",
+      "citation": "Ruth 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et Ruth hoc quoque inquit praecepit mihi ut tamdiu messoribus eius iungerer donec omnes segetes meterentur",
+      "citation": "Ruth 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "cui dixit socrus melius est filia mi ut cum puellis eius exeas ad metendum ne in alieno agro quispiam resistat tibi",
+      "citation": "Ruth 2:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "iuncta est itaque puellis Booz et tamdiu cum eis messuit donec hordea et triticum in horreis conderentur",
+      "citation": "Ruth 2:23 (Clementine Vulgate)"
+    }
+  ]
+}

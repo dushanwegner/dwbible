@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 147 — 20 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 147,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/146.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/148.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/147.json",
+      "german": "https://latinprayer.org/bibel/psalms/147.json"
+    }
+  },
+  "citation": "Psalms 147 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Alleluia. Praise ye the Lord, because psalm is good: to our God be joyful and comely praise.",
+      "citation": "Psalms 147:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The Lord buildeth up Jerusalem: he will gather together the dispersed of Israel.",
+      "citation": "Psalms 147:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Who healeth the broken of heart, and bindeth up their bruises.",
+      "citation": "Psalms 147:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Who telleth the number of the stars: and calleth them all by their names.",
+      "citation": "Psalms 147:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Great is our Lord, and great is his power: and of his wisdom there is no number.",
+      "citation": "Psalms 147:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The Lord lifteth up the meek, and bringeth the wicked down even to the ground.",
+      "citation": "Psalms 147:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Sing ye to the Lord with praise: sing to our God upon the harp.",
+      "citation": "Psalms 147:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Who covereth the heaven with clouds, and prepareth rain for the earth. Who maketh grass to grow on the mountains, and herbs for the service of men.",
+      "citation": "Psalms 147:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Who giveth to beasts their food: and to the young ravens that call upon him.",
+      "citation": "Psalms 147:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "He shall not delight in the strength of the horse: nor take pleasure in the legs of a man.",
+      "citation": "Psalms 147:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The Lord taketh pleasure in them that fear him: and in them that hope in his mercy.",
+      "citation": "Psalms 147:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Praise the Lord, O Jerusalem: praise thy God, O Sion.",
+      "citation": "Psalms 147:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Because he hath strengthened the bolts of thy gates, he hath blessed thy children within thee.",
+      "citation": "Psalms 147:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Who hath placed peace in thy borders: and filleth thee with the fat of corn.",
+      "citation": "Psalms 147:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Who sendeth forth his speech to the earth: his word runneth swiftly.",
+      "citation": "Psalms 147:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Who giveth snow like wool: scattereth mists like ashes.",
+      "citation": "Psalms 147:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "He sendeth his crystal like morsels: who shall stand before the face of his cold?",
+      "citation": "Psalms 147:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "He shall send out his word, and shall melt them: his wind shall blow, and the waters shall run.",
+      "citation": "Psalms 147:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Who declareth his word to Jacob: his justices and his judgments to Israel.",
+      "citation": "Psalms 147:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "He hath not done in like manner to every nation: and his judgments he hath not made manifest to them. Alleluia.",
+      "citation": "Psalms 147:20 (Douay-Rheims)"
+    }
+  ]
+}

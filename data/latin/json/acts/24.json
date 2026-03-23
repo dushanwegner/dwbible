@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Acts, Chapter 24 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 51,
+      "totalChapters": 28
+    },
+    "chapter": 24,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/acts/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/acts/23.json",
+      "nextChapter": "https://latinprayer.org/latin/acts/25.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/acts/24.json",
+      "german": "https://latinprayer.org/bibel/acts/24.json"
+    }
+  },
+  "citation": "Acts 24 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "post quinque autem dies descendit princeps sacerdotum Ananias cum senioribus quibusdam et Tertullo quodam oratore qui adierunt praesidem adversus Paulum",
+      "citation": "Acts 24:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et citato Paulo coepit accusare Tertullus dicens cum in multa pace agamus per te et multa corrigantur per tuam providentiam",
+      "citation": "Acts 24:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "semper et ubique suscipimus optime Felix cum omni gratiarum actione",
+      "citation": "Acts 24:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ne diutius autem te protraham oro breviter audias nos pro tua clementia",
+      "citation": "Acts 24:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "invenimus hunc hominem pestiferum et concitantem seditiones omnibus Iudaeis in universo orbe et auctorem seditionis sectae Nazarenorum",
+      "citation": "Acts 24:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "qui etiam templum violare conatus est quem et adprehendimus",
+      "citation": "Acts 24:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "[]",
+      "citation": "Acts 24:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "a quo poteris ipse iudicans de omnibus istis cognoscere de quibus nos accusamus eum",
+      "citation": "Acts 24:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "adiecerunt autem et Iudaei dicentes haec ita se habere",
+      "citation": "Acts 24:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "respondit autem Paulus annuente sibi praeside dicere ex multis annis esse te iudicem genti huic sciens bono animo pro me satisfaciam",
+      "citation": "Acts 24:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "potes enim cognoscere quia non plus sunt dies mihi quam duodecim ex quo ascendi adorare in Hierusalem",
+      "citation": "Acts 24:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et neque in templo invenerunt me cum aliquo disputantem aut concursum facientem turbae neque in synagogis neque in civitate",
+      "citation": "Acts 24:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "neque probare possunt tibi de quibus nunc accusant me",
+      "citation": "Acts 24:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "confiteor autem hoc tibi quod secundum sectam quam dicunt heresim sic deservio patrio Deo meo credens omnibus quae in lege et prophetis scripta sunt",
+      "citation": "Acts 24:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "spem habens in Deum quam et hii ipsi expectant resurrectionem futuram iustorum et iniquorum",
+      "citation": "Acts 24:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "in hoc et ipse studeo sine offendiculo conscientiam habere ad Deum et ad homines semper",
+      "citation": "Acts 24:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "post annos autem plures elemosynas facturus in gentem meam veni et oblationes et vota",
+      "citation": "Acts 24:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "in quibus invenerunt me purificatum in templo non cum turba neque cum tumultu",
+      "citation": "Acts 24:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quidam autem ex Asia Iudaei quos oportebat apud te praesto esse et accusare si quid haberent adversum me",
+      "citation": "Acts 24:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "aut hii ipsi dicant si quid invenerunt in me iniquitatis cum stem in concilio",
+      "citation": "Acts 24:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "nisi de una hac solummodo voce qua clamavi inter eos stans quoniam de resurrectione mortuorum ego iudicor hodie a vobis",
+      "citation": "Acts 24:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "distulit autem illos Felix certissime sciens de via dicens cum tribunus Lysias descenderit audiam vos",
+      "citation": "Acts 24:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "iussitque centurioni custodiri eum et habere requiem nec quemquam prohibere de suis ministrare ei",
+      "citation": "Acts 24:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "post aliquot autem dies veniens Felix cum Drusilla uxore sua quae erat Iudaea vocavit Paulum et audivit ab eo fidem quae est in Iesum Christum",
+      "citation": "Acts 24:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "disputante autem illo de iustitia et castitate et de iudicio futuro timefactus Felix respondit quod nunc adtinet vade tempore autem oportuno accersiam te",
+      "citation": "Acts 24:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "simul et sperans quia pecunia daretur a Paulo propter quod et frequenter accersiens eum loquebatur cum eo",
+      "citation": "Acts 24:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "biennio autem expleto accepit successorem Felix Porcium Festum volens autem gratiam praestare Iudaeis Felix reliquit Paulum vinctum",
+      "citation": "Acts 24:27 (Clementine Vulgate)"
+    }
+  ]
+}

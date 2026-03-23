@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 7 — 40 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 7,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/6.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/8.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/7.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/7.json"
+    }
+  },
+  "citation": "Ecclesiasticus 7 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Do no evils, and no evils shall lay hold of thee.",
+      "citation": "Ecclesiasticus 7:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Depart from the unjust, and evils shall depart from thee.",
+      "citation": "Ecclesiasticus 7:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "My son, sow not evils in the furrows of injustice, and thou shalt not reap them sevenfold.",
+      "citation": "Ecclesiasticus 7:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Seek not of the Lord a preeminence, nor of the king the seat of honour.",
+      "citation": "Ecclesiasticus 7:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Justify not thyself before God, for he knoweth the heart: and desire not to appear wise before the king.",
+      "citation": "Ecclesiasticus 7:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Seek not to be made a judge, unless thou have strength enough to extirpate iniquities: lest thou fear the person of the powerful, and lay a stumblingblock for thy integrity.",
+      "citation": "Ecclesiasticus 7:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Offend not against the multitude of a city, neither cast thyself in upon the people,",
+      "citation": "Ecclesiasticus 7:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Nor bind sin to sin: for even in one thou shalt not be unpunished.",
+      "citation": "Ecclesiasticus 7:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Be not fainthearted in thy mind:",
+      "citation": "Ecclesiasticus 7:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Neglect not to pray, and to give alms.",
+      "citation": "Ecclesiasticus 7:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Say not: God will have respect to the multitude of my gifts, and when I offer to the most high God, he will accept my offerings.",
+      "citation": "Ecclesiasticus 7:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Laugh no man to scorn in the bitterness of his soul: for there is one that humbleth and exalteth, God who seeth all.",
+      "citation": "Ecclesiasticus 7:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Devise not a lie against thy brother: neither do the like against thy friend.",
+      "citation": "Ecclesiasticus 7:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Be not willing to make any manner of lie: for the custom thereof is not good.",
+      "citation": "Ecclesiasticus 7:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Be not full of words in a multitude of ancients, and repeat not the word in thy prayer.",
+      "citation": "Ecclesiasticus 7:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Hate not laborious works, nor husbandry ordained by the most High.",
+      "citation": "Ecclesiasticus 7:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Number not thyself among the multitude of the disorderly.",
+      "citation": "Ecclesiasticus 7:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Remember wrath, for it will not tarry long.",
+      "citation": "Ecclesiasticus 7:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Humble thy spirit very much: for the vengeance on the flesh of the ungodly is fire and worms.",
+      "citation": "Ecclesiasticus 7:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Do not transgress against thy friend deferring money, nor despise thy dear brother for the sake of gold.",
+      "citation": "Ecclesiasticus 7:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Depart not from a wise and good wife, whom thou hast gotten in the fear of the Lord: for the grace of her modesty is above gold.",
+      "citation": "Ecclesiasticus 7:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Hurt not the servant that worketh faithfully, nor the hired man that giveth thee his life.",
+      "citation": "Ecclesiasticus 7:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Let a wise servant be dear to thee as thy own soul, defraud him not of liberty, nor leave him needy.",
+      "citation": "Ecclesiasticus 7:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Hast thou cattle? have an eye to them: and if they be for thy profit, keep them with thee.",
+      "citation": "Ecclesiasticus 7:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Hast thou children? instruct them, and bow down their neck from their childhood.",
+      "citation": "Ecclesiasticus 7:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Hast thou daughters? have a care of their body, and shew not thy countenance gay towards them.",
+      "citation": "Ecclesiasticus 7:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Marry thy daughter well, and thou shalt do a great work, and give her to a wise man.",
+      "citation": "Ecclesiasticus 7:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "If thou hast a wife according to thy soul, cast her not off: and to her that is hateful, trust not thyself. With thy whole heart,",
+      "citation": "Ecclesiasticus 7:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Honour thy father, and forget not the groanings of thy mother:",
+      "citation": "Ecclesiasticus 7:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Remember that thou hadst not been born but through them: and make a return to them as they have done for thee.",
+      "citation": "Ecclesiasticus 7:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "With all thy soul fear the Lord, and reverence his priests.",
+      "citation": "Ecclesiasticus 7:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "With all thy strength love him that made thee: and forsake not his ministers.",
+      "citation": "Ecclesiasticus 7:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Honour God with all thy soul and give honour to the priests, and purify thyself with thy arms.",
+      "citation": "Ecclesiasticus 7:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "Give them their portion, as it is commanded thee, of the firstfruits and of purifications: and for thy negligences purify thyself with a few.",
+      "citation": "Ecclesiasticus 7:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "Offer to the Lord the gift of thy shoulders, and the sacrifice of sanctification, and the firstfruits of the holy things:",
+      "citation": "Ecclesiasticus 7:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And stretch out thy hand to the poor, that thy expiation and thy blessing may be perfected.",
+      "citation": "Ecclesiasticus 7:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "A gift hath grace in the sight of all the living, and restrain not grace from the dead.",
+      "citation": "Ecclesiasticus 7:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Be not wanting in comforting them that weep, and walk with them that mourn.",
+      "citation": "Ecclesiasticus 7:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "Be not slow to visit the sick: for by these things thou shalt be confirmed in love.",
+      "citation": "Ecclesiasticus 7:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "In all thy works remember thy last end, and thou shalt never sin.",
+      "citation": "Ecclesiasticus 7:40 (Douay-Rheims)"
+    }
+  ]
+}

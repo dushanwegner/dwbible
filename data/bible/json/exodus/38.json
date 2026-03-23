@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 38 — 31 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 38,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/exodus/37.json",
+      "nextChapter": "https://latinprayer.org/bible/exodus/39.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/exodus/38.json",
+      "german": "https://latinprayer.org/bibel/exodus/38.json"
+    }
+  },
+  "citation": "Exodus 38 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "He made also the altar of holocaust of setim wood, five cubits square, and three in height:",
+      "citation": "Exodus 38:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The horns whereof went out from the corners, and he overlaid it with plates of brass.",
+      "citation": "Exodus 38:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And for the uses thereof, he prepared divers vessels of brass, cauldrons, tongs, fleshhooks, pothooks and firepans.",
+      "citation": "Exodus 38:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he made the grate thereof of brass, in manner of a net, and under it in the midst of the altar a hearth,",
+      "citation": "Exodus 38:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Casting four rings at the four ends of the net at the top, to put in bars to carry it:",
+      "citation": "Exodus 38:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And he made the bars of setim wood, and overlaid them with plates of brass:",
+      "citation": "Exodus 38:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And he drew them through the rings that stood out in the sides of the altar. And the altar itself was not solid, but hollow, of boards, and empty within.",
+      "citation": "Exodus 38:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He made also the laver of brass, with the foot thereof, of the mirrors of the women that watched at the door of the tabernacle.",
+      "citation": "Exodus 38:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He made also the court, in the south side whereof were hangings of fine twisted linen of a hundred cubits.",
+      "citation": "Exodus 38:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Twenty pillars of brass with their sockets, the beads of the pillars, and the whole graving of the work, of silver.",
+      "citation": "Exodus 38:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "In like manner at the north side the hangings, the pillars, and the sockets and heads of the pillars were of the same measure, and work and metal.",
+      "citation": "Exodus 38:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "But on that side that looketh to the west, there were hangings of fifty cubits, ten pillars of brass with their sockets, and the heads of the pillars, and all the graving of the work, of silver.",
+      "citation": "Exodus 38:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Moreover, towards the east he prepared hangings of fifty cubits:",
+      "citation": "Exodus 38:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Fifteen cubits of which, were on one side with three pillars, and their sockets:",
+      "citation": "Exodus 38:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And on the other side (for between the two he made the entry of the tabernacle) there were hangings equally of fifteen cubits, and three pillars, and as many sockets.",
+      "citation": "Exodus 38:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "All the hangings of the court were woven with twisted linen.",
+      "citation": "Exodus 38:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The sockets of the pillars were of brass, and their heads with all their gravings of silver: and he overlaid the pillars of the court also with silver.",
+      "citation": "Exodus 38:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And he made in the entry thereof an embroidered hanging of violet, purple, scarlet, and fine twisted linen, that was twenty cubits long, and five cubits high, according to the measure of all the hangings of the court.",
+      "citation": "Exodus 38:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And the pillars in the entry were four, with sockets of brass, and their heads and gravings of silver.",
+      "citation": "Exodus 38:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The pins also of the tabernacle and of the court round about he made of brass.",
+      "citation": "Exodus 38:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "These are the instruments of the tabernacle of the testimony, which were counted according to the commandment of Moses, in the ceremonies of the Levites, by the hand of Ithamar, son of Aaron the priest:",
+      "citation": "Exodus 38:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Which Beseleel, the son of Uri, the son of Hur of the tribe of Juda, had made, as the Lord commanded by Moses.",
+      "citation": "Exodus 38:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Having for his companion Ooliab, the son of Achisamech, of the tribe of Dan: who also was an excellent artificer in wood, and worker in tapestry and embroidery in violet, purple, scarlet, and fine linen.",
+      "citation": "Exodus 38:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "All the gold that was spent in the work of the sanctuary, and that was offered in gifts, was nine and twenty talents, and seven hundred and thirty sicles according to the standard of the sanctuary.",
+      "citation": "Exodus 38:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And it was offered by them that went to be numbered, from twenty years old and upwards, of six hundred and three thousand five hundred and fifty men able to bear arms.",
+      "citation": "Exodus 38:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "There were moreover a hundred talents of silver, whereof were cast the sockets of the sanctuary, and of the entry where the veil hangeth.",
+      "citation": "Exodus 38:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "A hundred sockets were made of a hundred talents, one talent being reckoned for every socket.",
+      "citation": "Exodus 38:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And of the thousand seven hundred and seventy-five he made the heads of the pillars, which also he overlaid with silver.",
+      "citation": "Exodus 38:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And there were offered of brass also seventy-two thousand talents, and four hundred sicles besides,",
+      "citation": "Exodus 38:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Of which were cast the sockets in the entry of the tabernacle of the testimony, and the altar of brass with the grate thereof, and also the vessels that belong to the use thereof.",
+      "citation": "Exodus 38:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And the sockets of the court as well round about as in the entry thereof, and the pins of the tabernacle, and of the court round about.",
+      "citation": "Exodus 38:31 (Douay-Rheims)"
+    }
+  ]
+}

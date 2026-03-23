@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 54 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 54,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/53.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/55.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/54.json",
+      "german": "https://latinprayer.org/bibel/isaias/54.json"
+    }
+  },
+  "citation": "Isaias 54 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Give praise, O thou barren, that bearest not: sing forth praise, and make a joyful noise, thou that didst not travail with child: for many are the children of the desolate, more than of her that hath a husband, saith the Lord.",
+      "citation": "Isaias 54:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Enlarge the place of thy tent, and stretch out the skins of thy tabernacles, spare not: lengthen thy cords, and strengthen thy stakes.",
+      "citation": "Isaias 54:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For thou shalt pass on to the right hand, and to the left: and thy seed shall inherit the Gentiles, and shall inhabit the desolate cities.",
+      "citation": "Isaias 54:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Fear not, for thou shalt not be confounded, nor blush: for thou shalt not be put to shame, because thou shalt forget the shame of thy youth, and shalt remember no more the reproach of thy widowhood.",
+      "citation": "Isaias 54:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For he that made thee shall rule over thee, the Lord of hosts is his name: and thy Redeemer, the Holy One of Israel, shall be called the God of all the earth.",
+      "citation": "Isaias 54:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For the Lord hath called thee as a woman forsaken and mourning in spirit, and as a wife cast off from her youth, said thy God.",
+      "citation": "Isaias 54:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For a small moment have I forsaken thee, but with great mercies will I gather thee.",
+      "citation": "Isaias 54:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "In a moment of indignation have I hid my face a little while from thee, but with everlasting kindness have I had mercy on thee, said the Lord thy Redeemer.",
+      "citation": "Isaias 54:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "This thing is to me as in the days of Noe, to whom I swore, that I would no more bring in the waters of Noe upon the earth: so have I sworn not to be angry with thee, and not to rebuke thee.",
+      "citation": "Isaias 54:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For the mountains shall be moved, and the hills shall tremble; but my mercy shall not depart from thee, and the covenant of my peace shall not be moved: said the Lord that hath mercy on thee.",
+      "citation": "Isaias 54:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "O poor little one, tossed with tempest, without all comfort, behold I will lay thy stones in order, and will lay thy foundations with sapphires,",
+      "citation": "Isaias 54:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And I will make thy bulwarks of jasper: and thy gates of graven stones, and all thy borders of desirable stones.",
+      "citation": "Isaias 54:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "All thy children shall be taught of the Lord: and great shall be the peace of thy children.",
+      "citation": "Isaias 54:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And thou shalt be founded in justice: depart far from oppression, for thou shalt not fear; and from terror, for it shall not come near thee.",
+      "citation": "Isaias 54:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Behold, an inhabitant shall come, who was not with me, he that was a stranger to thee before, shall be joined to thee.",
+      "citation": "Isaias 54:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Behold, I have created the smith that bloweth the coals in the fire, and bringeth forth an instrument for his work, and I have created the killer to destroy.",
+      "citation": "Isaias 54:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "No weapon that is formed against thee shall prosper: and every tongue that resisteth thee in judgment, thou shalt condemn. This is the inheritance of the servants of the Lord, and their justice with me, saith the Lord.",
+      "citation": "Isaias 54:17 (Douay-Rheims)"
+    }
+  ]
+}

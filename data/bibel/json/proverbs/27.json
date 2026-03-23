@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sprüche, Chapter 27 — 27 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sprüche",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 27,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/proverbs/26.json",
+      "nextChapter": "https://latinprayer.org/bibel/proverbs/28.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/27.json",
+      "latin": "https://latinprayer.org/latin/proverbs/27.json"
+    }
+  },
+  "citation": "Sprüche 27 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Rühme dich nicht des morgenden Tages, denn du weißt nicht, was ein Tag gebiert. –",
+      "citation": "Sprüche 27:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Ein anderer rühme dich, aber nicht dein eigener Mund; ein Fremder, aber nicht deine eigenen Lippen. –",
+      "citation": "Sprüche 27:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Schwer mag ein Stein sein und der Sand eine Last, aber Verdruß über einen Toren ist schwerer als beide. –",
+      "citation": "Sprüche 27:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Die Wut mag grimmig sein und der Zorn überwallen, aber wer kann der Eifersucht Widerstand leisten? –",
+      "citation": "Sprüche 27:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Besser ist ein offen ausgesprochener Tadel als eine Liebe, welche verschleiert. –",
+      "citation": "Sprüche 27:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Treuer gemeint sind die von Freundes Hand versetzten Schläge als die überreichlichen Küsse des Hassenden. –",
+      "citation": "Sprüche 27:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wessen Hunger gestillt ist, der tritt Honigseim mit Füßen; aber einem Hungrigen schmeckt alles Bittere süß. –",
+      "citation": "Sprüche 27:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wie ein Vogel, der aus seinem Neste verscheucht ist, so ein Mann, der fern von seiner Heimat schweift. –",
+      "citation": "Sprüche 27:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Salböl und Räucherwerk erfreuen das Herz, aber von Leiden wird die Seele zerrissen. –",
+      "citation": "Sprüche 27:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Deinen Freund und deines Vaters Freund verlaß nicht und begib dich nicht in das Haus deines Bruders am Tage deines Unglücks; besser ist ein Nachbar in der Nähe als ein Bruder in der Ferne, (wenn du in Not bist). –",
+      "citation": "Sprüche 27:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Sei weise, mein Sohn, und erfreue dadurch mein Herz, damit ich mich gegen den, der mich schmäht, verantworten kann. –",
+      "citation": "Sprüche 27:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Der Kluge sieht die Gefahr und birgt sich; die Einfältigen aber gehen weiter und erleiden Schaden. –",
+      "citation": "Sprüche 27:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Nimm ihm seinen Rock weg, denn er hat sich für einen andern verbürgt, und um fremder Leute willen pfände ihn aus! –",
+      "citation": "Sprüche 27:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Wenn jemand seinen Nächsten am Morgen ganz früh mit lautem Segenswunsch begrüßt, so wird ihm das als (versteckte) Verwünschung ausgelegt. –",
+      "citation": "Sprüche 27:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Eine bei Regenwetter stets rinnende Dachtraufe und ein zänkisches Weib gleichen sich;",
+      "citation": "Sprüche 27:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "wer dieses zur Ruhe bringt, kann auch den Wind zur Ruhe bringen und mit seiner Hand Öl festhalten. –",
+      "citation": "Sprüche 27:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Eisen wird durch Eisen geschärft, und ein Mensch schärft das Gesicht des andern. –",
+      "citation": "Sprüche 27:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Wer einen Feigenbaum pflegt, wird seine Früchte genießen; und wer seinem Herrn aufmerksam dient, wird geehrt werden. –",
+      "citation": "Sprüche 27:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Wie das eine Gesicht neben dem andern, ebenso sind die Herzen der Menschen verschieden. –",
+      "citation": "Sprüche 27:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Unterwelt und Abgrund sind unersättlich; ebenso werden auch die Augen des Menschen nicht satt. –",
+      "citation": "Sprüche 27:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Der Schmelztiegel ist für das Silber und der Ofen für das Gold; ein Mann aber wird beurteilt nach Maßgabe seines Rufes. –",
+      "citation": "Sprüche 27:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Wenn du auch den Toren im Mörser mitten unter der Grütze mit dem Stößel zerstießest, so würde doch seine Torheit nicht von ihm weichen.",
+      "citation": "Sprüche 27:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Gib auf das Aussehen deines Kleinviehs wohl acht und richte deine Aufmerksamkeit auf deine Herden;",
+      "citation": "Sprüche 27:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "denn Wohlstand dauert nicht ewig; und vererbt sich etwa eine Krone von Geschlecht auf Geschlecht?",
+      "citation": "Sprüche 27:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Ist das Gras geschwunden und das junge Grün abgeweidet und sind die Kräuter der Berge vernichtet,",
+      "citation": "Sprüche 27:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "so (liefern) die Lämmer dir Kleidung, und die Böcke (dienen dir als) Kaufgeld für einen Acker;",
+      "citation": "Sprüche 27:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "und Ziegenmilch ist reichlich da zu deiner Nahrung, zur Ernährung deiner Familie, und Lebensunterhalt für deine Mägde.",
+      "citation": "Sprüche 27:27 (Menge)"
+    }
+  ]
+}

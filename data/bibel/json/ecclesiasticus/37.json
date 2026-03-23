@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 37 — 31 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 37,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/36.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/38.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/37.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/37.json"
+    }
+  },
+  "citation": "Jesus Sirach 37 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Jeder Freund sagt: »Auch ich bin ein Freund!« aber mancher Freund ist nur dem Namen nach ein Freund.",
+      "citation": "Jesus Sirach 37:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Ist’s nicht ein Kummer, der dem Tode nahe bringt, wenn ein Genosse und Freund sich in einen Feind verwandelt?",
+      "citation": "Jesus Sirach 37:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Böse Gesinnung, von wo bist du hereingebrochen (h), die Erde mit Falschheit zu bedecken?",
+      "citation": "Jesus Sirach 37:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ein Genosse freut sich, solange das Glück seines Freundes dauert, aber zur Zeit der Trübsal ist er gegen ihn.",
+      "citation": "Jesus Sirach 37:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ein guter Freund kämpft mit dem Feinde und ergreift den Schild gegen den Widersacher (g).",
+      "citation": "Jesus Sirach 37:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Vergiß den Freund nicht im Kampfe (g) und sei seiner nicht uneingedenk, wenn du Vermögen besitzt.",
+      "citation": "Jesus Sirach 37:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Jeder Ratgeber hält seinen Rat hoch, aber mancher rät zu seinem eigenen Nutzen».",
+      "citation": "Jesus Sirach 37:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Vor einem Ratgeber nimm dich in acht und suche zunächst zu erfahren, in welcher äußeren Lage er sich befindet; denn er wird bei seinem Rate an sich selbst denken. Hüte dich, damit er dein Geschick nicht dem Zufall preisgibt",
+      "citation": "Jesus Sirach 37:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "und zu dir sagt: »Du bist auf dem rechten Wege«, dabei aber sich dir gegenüber hinstellt, um zu sehen, was dir zustoßen werde.",
+      "citation": "Jesus Sirach 37:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Berate dich nicht mit einem, der mißgünstig nach dir blickt, und verbirg deine Pläne vor deinen Neidern.",
+      "citation": "Jesus Sirach 37:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Berate dich nicht mit einer Frau über ihre Nebenbuhlerin, noch mit einem Feigling über den Krieg (h), nicht mit einem Kaufmann über den Umsatz, noch mit einem Verkäufer über die Ware, nicht mit einem Mißgünstigen über Dankbarkeit, noch mit einem Hartherzigen über Mildtätigkeit, nicht mit einem Faulen über seine Arbeit, noch mit einem ständigen Tagelöhner über den Feierabend (h), nicht mit einem faulen Knecht über viele Arbeit: auf diese Leute verlaß dich nicht bei irgend einem Ratschlag.",
+      "citation": "Jesus Sirach 37:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Vielmehr pflege beständig Verkehr mit einem frommen Mann, von dem du weißt, daß er die Gebote hält, der gleichen Sinnes ist wie du und um dich trauert, wenn du ins Unglück gerätst.",
+      "citation": "Jesus Sirach 37:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Aber auch auf den Rat des Gewissens gib acht, denn einen treueren Berater als dieses hast du nicht;",
+      "citation": "Jesus Sirach 37:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "denn das Gewissen des Menschen pflegt [manchmal] besser Bescheid zu geben als sieben Wächter, die auf einer Anhöhe zur Ausschau sitzen.",
+      "citation": "Jesus Sirach 37:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Bei alledem aber bete zum Höchsten, daß er nach seiner Treue deinen Weg ebnen (oder deine Schritte lenken) wolle.",
+      "citation": "Jesus Sirach 37:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Das Wort bilde den Anfang jedes Werkes, und Beratung gehe jedem Handeln voraus.",
+      "citation": "Jesus Sirach 37:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Als Spur veränderten Sinnes treten vier Stücke zu Tage:",
+      "citation": "Jesus Sirach 37:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Gutes und Böses, Leben und Tod, und ihre beständige Gebieterin ist die Zunge.",
+      "citation": "Jesus Sirach 37:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Mancher kluge Mann ist ein Lehrer für viele andere und weiß doch sich selbst nicht zu nützen (h).",
+      "citation": "Jesus Sirach 37:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Mancher, der sich in seinen Worten als weise hinstellt, ist verhaßt, ein solcher leidet schließlich Mangel an allem Lebensunterhalt;",
+      "citation": "Jesus Sirach 37:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "denn es ist ihm vom Herrn keine Liebenswürdigkeit verliehen, weil ihm die (wahre) Weisheit völlig abgeht.",
+      "citation": "Jesus Sirach 37:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Mancher ist nur für sich selbst weise, und die Früchte seiner Einsicht zeigen sich an seinem Leibe (g).",
+      "citation": "Jesus Sirach 37:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Ein weiser Mann belehrt sein Volk, und die Früchte seiner Einsicht sind zuverlässig (oder ewig (g)).",
+      "citation": "Jesus Sirach 37:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Ein weiser Mann trägt reichen Segen davon, und es preisen ihn glücklich alle, die ihn sehen.",
+      "citation": "Jesus Sirach 37:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Das Leben eines Mannes besteht in einer Zahl von Tagen, aber die Tage Israels sind unzählbar.",
+      "citation": "Jesus Sirach 37:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Der Weise erwirbt sich bei seinem Volke Vertrauen (h), und sein Name lebt in Ewigkeit fort.",
+      "citation": "Jesus Sirach 37:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Mein Sohn, hinsichtlich deiner Lebensweise prüfe deine Natur und sieh zu, was ihr schädlich ist, und gib es ihr nicht;",
+      "citation": "Jesus Sirach 37:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "denn nicht alles ist allen zuträglich, und nicht jeder Natur sagt alles zu.",
+      "citation": "Jesus Sirach 37:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Sei nicht unmäßig bei irgend einem Genuß und stürze dich nicht gierig auf leckere Speisen;",
+      "citation": "Jesus Sirach 37:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "denn in vielem Essen nistet Krankheit, und die Unmäßigkeit führt bis zum Erbrechen.",
+      "citation": "Jesus Sirach 37:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Infolge von Unmäßigkeit sind viele zu Tode gekommen; wer sich aber in acht nimmt, verlängert sein Leben.",
+      "citation": "Jesus Sirach 37:31 (Menge)"
+    }
+  ]
+}

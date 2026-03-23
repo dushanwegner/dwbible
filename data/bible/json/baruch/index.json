@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Baruch — 5 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Baruch",
+      "slug": "baruch",
+      "testament": "OT",
+      "order": 30,
+      "totalChapters": 5
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/baruch/index.json",
+      "german": "https://latinprayer.org/bibel/baruch/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 94,
+      "url": "https://latinprayer.org/bible/baruch/1",
+      "jsonUrl": "https://latinprayer.org/bible/baruch/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/bible/baruch/2",
+      "jsonUrl": "https://latinprayer.org/bible/baruch/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/bible/baruch/3",
+      "jsonUrl": "https://latinprayer.org/bible/baruch/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/bible/baruch/4",
+      "jsonUrl": "https://latinprayer.org/bible/baruch/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 9,
+      "url": "https://latinprayer.org/bible/baruch/5",
+      "jsonUrl": "https://latinprayer.org/bible/baruch/5.json"
+    }
+  ]
+}

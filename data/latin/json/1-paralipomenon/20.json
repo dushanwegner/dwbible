@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Chronicles, Chapter 20 — 7 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Chronicles",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 20,
+    "verseCount": 7,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-paralipomenon/19.json",
+      "nextChapter": "https://latinprayer.org/latin/1-paralipomenon/21.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-paralipomenon/20.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/20.json"
+    }
+  },
+  "citation": "1 Chronicles 20 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "factum est autem post anni circulum eo tempore quo solent reges ad bella procedere congregavit Ioab exercitum et robur militiae et vastavit terram filiorum Ammon perrexitque et obsedit Rabba porro David manebat in Hierusalem quando Ioab percussit Rabba et destruxit eam",
+      "citation": "1 Chronicles 20:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "tulit autem David coronam Melchom de capite eius et invenit in ea auri pondo talentum et pretiosissimas gemmas fecitque sibi inde diadema manubias quoque urbis plurimas tulit",
+      "citation": "1 Chronicles 20:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "populum autem qui erat in ea eduxit et fecit super eos tribulas et trahas et ferrata carpenta transire ita ut dissicarentur et contererentur sic fecit David cunctis urbibus filiorum Ammon et reversus est cum omni populo suo in Hierusalem",
+      "citation": "1 Chronicles 20:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "post haec initum est bellum in Gazer adversus Philistheos in quo percussit Sobbochai Usathites Saphai de genere Raphaim et humiliavit eos",
+      "citation": "1 Chronicles 20:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "aliud quoque bellum gestum est adversum Philistheos in quo percussit Adeodatus filius Saltus Lehemites fratrem Goliath Getthei cuius hastae lignum erat quasi liciatorium texentium",
+      "citation": "1 Chronicles 20:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "sed et aliud bellum accidit in Geth in quo fuit homo longissimus habens digitos senos id est simul viginti quattuor qui et ipse de Rapha fuerat stirpe generatus",
+      "citation": "1 Chronicles 20:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "hic blasphemavit Israhel et percussit eum Ionathan filius Sammaa fratris David hii sunt filii Rapha in Geth qui ceciderunt in manu David et servorum eius",
+      "citation": "1 Chronicles 20:8 (Clementine Vulgate)"
+    }
+  ]
+}

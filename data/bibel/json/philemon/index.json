@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Philemon — 1 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Philemon",
+      "slug": "philemon",
+      "testament": "NT",
+      "order": 64,
+      "totalChapters": 1
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/philemon/index.json",
+      "latin": "https://latinprayer.org/latin/philemon/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/bibel/philemon/1",
+      "jsonUrl": "https://latinprayer.org/bibel/philemon/1.json"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Samuel, Chapter 30 — 31 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Samuel",
+      "slug": "1-kings-samuel",
+      "testament": "OT",
+      "order": 9,
+      "totalChapters": 31
+    },
+    "chapter": 30,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-kings-samuel/29.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-kings-samuel/31.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-kings-samuel/30.json",
+      "latin": "https://latinprayer.org/latin/1-kings-samuel/30.json"
+    }
+  },
+  "citation": "1 Samuel 30 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als nun David mit seinen Leuten am dritten Tage in Ziklag ankam, hatten die Amalekiter einen Einfall in das Südland und in Ziklag gemacht und hatten Ziklag geplündert und niedergebrannt.",
+      "citation": "1 Samuel 30:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Die Frauen und alles, was im Orte anwesend war, klein und groß, hatten sie gefangengenommen, ohne jedoch jemand zu töten, hatten sie dann weggeführt und waren ihres Weges gezogen.",
+      "citation": "1 Samuel 30:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Als nun David und seine Leute zu der Stadt zurückkamen und sie niedergebrannt und ihre Frauen, Söhne und Töchter in Gefangenschaft weggeführt fanden,",
+      "citation": "1 Samuel 30:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "da erhoben David und seine Leute ein lautes Wehgeschrei und weinten, bis sie keine Kraft mehr zum Weinen hatten.",
+      "citation": "1 Samuel 30:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Auch die beiden Frauen Davids waren gefangen weggeführt worden, Ahinoam aus Jesreel und Abigail, die Witwe Nabals, aus Karmel.",
+      "citation": "1 Samuel 30:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "David aber geriet persönlich in große Gefahr, weil seine Leute schon daran dachten, ihn zu steinigen; denn sie waren alle über den Verlust ihrer Söhne und Töchter ganz verzweifelt. David aber gewann neue Kraft durch sein Vertrauen auf den HERRN, seinen Gott,",
+      "citation": "1 Samuel 30:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "und befahl dem Priester Abjathar, dem Sohne Ahimelechs: »Bringe mir das Priesterkleid her!« Als nun Abjathar das Priesterkleid zu David brachte,",
+      "citation": "1 Samuel 30:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "richtete David die Frage an den HERRN: »Soll ich dieser Räuberschar nachsetzen? Werde ich sie einholen?« Da erhielt er die Antwort: »Ja, verfolge sie! Du wirst sie sicher einholen und (die Gefangenen) befreien.«",
+      "citation": "1 Samuel 30:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Da machte sich David mit den sechshundert Mann, die er bei sich hatte, auf den Weg, und sie kamen an den Bach Besor (wo sie zweihundert Mann zurückließen).",
+      "citation": "1 Samuel 30:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "David aber setzte die Verfolgung mit vierhundert Mann fort, während zweihundert Mann, die zu ermüdet waren, um über den Bach Besor zu gehen, zurückbleiben mußten.",
+      "citation": "1 Samuel 30:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da fanden sie einen Ägypter auf freiem Felde, den brachten sie zu David; und als sie ihm Brot zu essen und Wasser zu trinken gegeben",
+      "citation": "1 Samuel 30:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "und ihm auch ein Stück Feigenkuchen und zwei Rosinentrauben zu essen gegeben hatten, kam er wieder zu sich; denn er hatte seit drei Tagen und drei Nächten nichts gegessen und nichts getrunken.",
+      "citation": "1 Samuel 30:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "David fragte ihn nun: »Wem gehörst du, und woher bist du?« Er antwortete: »Ich bin ein ägyptischer Bursche, der Sklave eines Amalekiters; mein Herr hat mich hier liegen lassen, weil ich heute vor drei Tagen krank geworden war.",
+      "citation": "1 Samuel 30:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Wir hatten einen Einfall gemacht ins Südland der Kreter und ins Gebiet von Juda und ins Südland von Kaleb und haben Ziklag niedergebrannt.«",
+      "citation": "1 Samuel 30:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Da fragte ihn David: »Willst du mich zu dieser Räuberschar hinabführen?« Er erwiderte: »Schwöre mir bei Gott, daß du mich nicht töten und mich nicht meinem Herrn ausliefern willst, so will ich dich zu dieser Horde hinabführen.«",
+      "citation": "1 Samuel 30:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Als er ihn nun hinabführte, hatten (die Amalekiter) sich weithin über die ganze Gegend zerstreut, aßen und tranken und feierten ein Freudenfest wegen all der großen Beute, die sie im Lande der Philister und im Lande Juda gewonnen hatten.",
+      "citation": "1 Samuel 30:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Da richtete David (am folgenden Tage) ein Blutbad unter ihnen an vom frühen Morgen bis zum Abend, und keiner von ihnen entkam außer vierhundert jungen Leuten, welche die Kamele bestiegen hatten und entflohen.",
+      "citation": "1 Samuel 30:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "So fiel dem David alles in die Hände, was die Amalekiter geraubt hatten; auch seine beiden Frauen gewann er wieder,",
+      "citation": "1 Samuel 30:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "so daß von ihnen nicht das Geringste vermißt wurde, weder Söhne noch Töchter, auch nichts von der Beute; überhaupt alles, was sie mit sich genommen hatten, brachte David zurück.",
+      "citation": "1 Samuel 30:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "David nahm dann alles Kleinvieh und die Rinder; die trieben sie vor der andern Herde her und riefen: »Das ist Davids Beute!«",
+      "citation": "1 Samuel 30:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Als David dann zu den zweihundert Mann zurückkam, die zu ermattet gewesen waren, um mit David weiterzuziehen, und die man deshalb am Bache Besor zurückgelassen hatte, kamen diese ihm und seinen Leuten entgegengezogen; David ging auf die Leute zu und begrüßte sie freundlich.",
+      "citation": "1 Samuel 30:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Da ließen alle bösen und nichtswürdigen Leute unter der Mannschaft, die mit David gezogen waren, sich dahin vernehmen: »Weil sie nicht mit uns gezogen sind, wollen wir ihnen auch von der Beute, die wir wiedergewonnen haben, nichts abgeben als nur einem jeden seine Frau und seine Kinder; die mögen sie hinnehmen und dann ihres Weges ziehen!«",
+      "citation": "1 Samuel 30:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Aber David sagte: »Verfahrt nicht so, meine Brüder, mit dem, was der HERR uns hat zuteil werden lassen! Er hat uns ja beschützt und die Räuberbande, die bei uns eingedrungen war, in unsere Hand fallen lassen:",
+      "citation": "1 Samuel 30:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "wer könnte da in dieser Sache eurer Ansicht beitreten? Nein, der Anteil dessen, der beim Gepäck Wache gehalten hat, soll ebenso groß sein wie der Anteil dessen, der in den Kampf gezogen ist: gleichen Anteil sollen sie erhalten!«",
+      "citation": "1 Samuel 30:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Und dabei ist es seit jenem Tage in der Folgezeit geblieben; man hat das zu einem feststehenden Grundsatz in Israel gemacht bis auf den heutigen Tag.",
+      "citation": "1 Samuel 30:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Als David dann nach Ziklag zurückkam, sandte er Teile der Beute an die ihm befreundeten Ältesten von Juda und ließ ihnen dabei sagen: »Hier habt ihr eine Begrüßungsgabe aus der Beute von den Feinden des HERRN!«",
+      "citation": "1 Samuel 30:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Solche Geschenke sandte er an die Ältesten von Bethel und von Ramath im Südland sowie an die von Jatthir,",
+      "citation": "1 Samuel 30:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "von Aroer, von Siphmoth, von Esthemoa,",
+      "citation": "1 Samuel 30:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "von Rachal und von den Ortschaften der Jerahmeeliter und der Keniter;",
+      "citation": "1 Samuel 30:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "ferner an die Ältesten von Horma, von Bor-Asan, von Athach,",
+      "citation": "1 Samuel 30:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "von Hebron und an alle Ortschaften, wo David mit seinen Leuten umhergezogen war.",
+      "citation": "1 Samuel 30:31 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 57 — 12 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 57,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/56.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/58.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/57.json",
+      "latin": "https://latinprayer.org/latin/psalms/57.json"
+    }
+  },
+  "citation": "Psalmen 57 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, nach (der Singweise = Melodie) »Vertilge nicht«; ein Lied</em> <em>Davids, als er vor Saul in die Höhle floh</em>.",
+      "citation": "Psalmen 57:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Erbarme dich meiner, o Gott, erbarme dich meiner! Denn bei dir sucht meine Seele Zuflucht, und im Schatten deiner Flügel will ich mich bergen, bis das Verderben vorübergezogen.",
+      "citation": "Psalmen 57:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ich rufe zu Gott, dem Höchsten, zum Allherrn, der meine Sache hinausführt.",
+      "citation": "Psalmen 57:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Er sendet vom Himmel und hilft mir, da der gierige Verfolger mich geschmäht hat! SELA. Es sendet Gott seine Gnade und Treue!",
+      "citation": "Psalmen 57:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Mit meinem Leben liege ich mitten unter Löwen, inmitten haßerfüllter Feinde, unter Menschen, deren Zähne Speere und Pfeile und deren Zunge ein scharfes Schwert ist.",
+      "citation": "Psalmen 57:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Erhebe dich über den Himmel hinaus, o Gott, über die ganze Erde (verbreite sich) deine Herrlichkeit!",
+      "citation": "Psalmen 57:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Sie haben meinen Füßen ein Netz gestellt: meine Seele ist gebeugt; eine Grube haben sie vor mir gegraben: sie selbst sind mitten hineingestürzt. SELA.",
+      "citation": "Psalmen 57:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Mein Herz ist getrost, o Gott, mein Herz ist getrost; singen will ich und spielen!",
+      "citation": "Psalmen 57:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Wach auf, meine Seele, wacht auf, Harfe und Zither: ich will das Morgenrot wecken!",
+      "citation": "Psalmen 57:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Ich will dich preisen unter den Völkern, Allherr, ich will dir lobsingen unter den Völkerschaften!",
+      "citation": "Psalmen 57:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Denn groß bis zum Himmel ist deine Gnade, und bis an die Wolken geht deine Treue.",
+      "citation": "Psalmen 57:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Erhebe dich über den Himmel hinaus, o Gott, über die ganze Erde (verbreite sich) deine Herrlichkeit!",
+      "citation": "Psalmen 57:12 (Menge)"
+    }
+  ]
+}

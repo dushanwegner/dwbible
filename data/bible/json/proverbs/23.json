@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 23 — 35 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 23,
+    "verseCount": 35,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/proverbs/22.json",
+      "nextChapter": "https://latinprayer.org/bible/proverbs/24.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/proverbs/23.json",
+      "german": "https://latinprayer.org/bibel/proverbs/23.json"
+    }
+  },
+  "citation": "Proverbs 23 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "When thou shalt sit to eat with a prince, consider diligently what is set before thy face:",
+      "citation": "Proverbs 23:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And put a knife to thy throat, if it be so that thou have thy soul in thy own power.",
+      "citation": "Proverbs 23:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Be not desirous of his meats, in which is the bread of deceit.",
+      "citation": "Proverbs 23:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Labour not to be rich: but set bounds to thy prudence.",
+      "citation": "Proverbs 23:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Lift not up thy eyes to riches which thou canst not have: because they shall make themselves wings like those of an eagle, and shall fly towards heaven.",
+      "citation": "Proverbs 23:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Eat not with an envious man, and desire not his meats:",
+      "citation": "Proverbs 23:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Because, like a soothsayer, and diviner, he thinketh that which he knoweth not. Eat and drink, will he say to thee: and his mind is not with thee.",
+      "citation": "Proverbs 23:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The meats which thou hadst eaten, thou shalt vomit up: and shalt loose thy beautiful words.",
+      "citation": "Proverbs 23:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Speak not in the ears of fools: because they will despise the instruction of thy speech.",
+      "citation": "Proverbs 23:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Touch not the bounds of little ones: and enter not into the field of the fatherless:",
+      "citation": "Proverbs 23:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For their near kinsman is strong: and he will judge their cause against thee.",
+      "citation": "Proverbs 23:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Let thy heart apply itself to instruction and thy ears to words of knowledge.",
+      "citation": "Proverbs 23:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Withhold not correction from a child: for if thou strike him with the rod, he shall not die.",
+      "citation": "Proverbs 23:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Thou shalt beat him with the rod, and deliver his soul from hell.",
+      "citation": "Proverbs 23:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "My son, if thy mind be wise, my heart shall rejoice with thee:",
+      "citation": "Proverbs 23:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And my reins shall rejoice, when thy lips shall speak what is right.",
+      "citation": "Proverbs 23:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Let not thy heart envy sinners: but be thou in the fear of the Lord all the day long:",
+      "citation": "Proverbs 23:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Because thou shalt have hope in the latter end, and thy expectation shall not be taken away.",
+      "citation": "Proverbs 23:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Hear thou, my son, and be wise: and guide thy mind in the way.",
+      "citation": "Proverbs 23:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Be not in the feasts of great drinkers, nor in their revellings, who contribute flesh to eat:",
+      "citation": "Proverbs 23:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Because they that give themselves to drinking, and that club together, shall be consumed: and drowsiness shall be clothed with rags.",
+      "citation": "Proverbs 23:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Hearken to thy father, that begot thee: and despise not thy mother when she is old.",
+      "citation": "Proverbs 23:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Buy truth, and do not sell wisdom, and instruction, and understanding.",
+      "citation": "Proverbs 23:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "The father of the just rejoiceth greatly: he that hath begotten a wise son, shall have joy in him.",
+      "citation": "Proverbs 23:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Let thy father and thy mother be joyful, and let her rejoice that bore thee.",
+      "citation": "Proverbs 23:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "My son, give me thy heart: and let thy eyes keep my ways.",
+      "citation": "Proverbs 23:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "For a harlot is a deep ditch: and a strange woman is a narrow pit.",
+      "citation": "Proverbs 23:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "She lieth in wait in the way as a robber, and him whom she shall see unwary, she will kill.",
+      "citation": "Proverbs 23:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Who hath woe? whose father hath woe? who hath contentions? who falls into pits? who hath wounds without cause? who hath redness of eyes?",
+      "citation": "Proverbs 23:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Surely they that pass their time in wine, and study to drink off their cups.",
+      "citation": "Proverbs 23:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Look not upon the wine when it is yellow, when the colour thereof shineth in the glass: it goeth in pleasantly,",
+      "citation": "Proverbs 23:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "But in the end, it will bite like a snake, and will spread abroad poison like a basilisk.",
+      "citation": "Proverbs 23:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Thy eyes shall behold strange women, and thy heart shall utter perverse things.",
+      "citation": "Proverbs 23:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And thou shalt be as one sleeping in the midst of the sea, and as a pilot fast asleep when the stern is lost.",
+      "citation": "Proverbs 23:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And thou shalt say: They have beaten me, but I was not sensible of pain: they drew me, and I felt not: when shall I awake and find wine again?",
+      "citation": "Proverbs 23:35 (Douay-Rheims)"
+    }
+  ]
+}

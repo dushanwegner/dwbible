@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Corinthians, Chapter 1 — 24 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "chapter": 1,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/2-corinthians/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-corinthians/1.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/1.json"
+    }
+  },
+  "citation": "2 Corinthians 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Paulus apostolus Iesu Christi per voluntatem Dei et Timotheus frater ecclesiae Dei quae est Corinthi cum sanctis omnibus qui sunt in universa Achaia",
+      "citation": "2 Corinthians 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "gratia vobis et pax a Deo Patre nostro et Domino Iesu Christo",
+      "citation": "2 Corinthians 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "benedictus Deus et Pater Domini nostri Iesu Christi Pater misericordiarum et Deus totius consolationis",
+      "citation": "2 Corinthians 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "qui consolatur nos in omni tribulatione nostra ut possimus et ipsi consolari eos qui in omni pressura sunt per exhortationem qua exhortamur et ipsi a Deo",
+      "citation": "2 Corinthians 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quoniam sicut abundant passiones Christi in nobis ita et per Christum abundat consolatio nostra",
+      "citation": "2 Corinthians 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "sive autem tribulamur pro vestra exhortatione et salute sive exhortamur pro vestra exhortatione quae operatur in tolerantia earundem passionum quas et nos patimur",
+      "citation": "2 Corinthians 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et spes nostra firma pro vobis scientes quoniam sicut socii passionum estis sic eritis et consolationis",
+      "citation": "2 Corinthians 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "non enim volumus ignorare vos fratres de tribulatione nostra quae facta est in Asia quoniam supra modum gravati sumus supra virtutem ita ut taederet nos etiam vivere",
+      "citation": "2 Corinthians 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sed ipsi in nobis ipsis responsum mortis habuimus ut non simus fidentes in nobis sed in Deo qui suscitat mortuos",
+      "citation": "2 Corinthians 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui de tantis periculis eripuit nos et eruet in quem speramus quoniam et adhuc eripiet",
+      "citation": "2 Corinthians 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "adiuvantibus et vobis in oratione pro nobis ut ex multis personis eius quae in nobis est donationis per multos gratiae agantur pro nobis",
+      "citation": "2 Corinthians 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nam gloria nostra haec est testimonium conscientiae nostrae quod in simplicitate et sinceritate Dei et non in sapientia carnali sed in gratia Dei conversati sumus in mundo abundantius autem ad vos",
+      "citation": "2 Corinthians 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "non enim alia scribimus vobis quam quae legistis et cognoscitis spero autem quod usque in finem cognoscetis",
+      "citation": "2 Corinthians 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sicut et cognovistis nos ex parte quia gloria vestra sumus sicut et vos nostra in die Domini nostri Iesu Christi",
+      "citation": "2 Corinthians 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et hac confidentia volui prius venire ad vos ut secundam gratiam haberetis",
+      "citation": "2 Corinthians 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et per vos transire in Macedoniam et iterum a Macedonia venire ad vos et a vobis deduci in Iudaeam",
+      "citation": "2 Corinthians 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "cum hoc ergo voluissem numquid levitate usus sum aut quae cogito secundum carnem cogito ut sit apud me est et non",
+      "citation": "2 Corinthians 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "fidelis autem Deus quia sermo noster qui fit apud vos non est in illo est et non",
+      "citation": "2 Corinthians 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Dei enim Filius Iesus Christus qui in vobis per nos praedicatus est per me et Silvanum et Timotheum non fuit est et non sed est in illo fuit",
+      "citation": "2 Corinthians 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quotquot enim promissiones Dei sunt in illo est ideo et per ipsum amen Deo ad gloriam nostram",
+      "citation": "2 Corinthians 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "qui autem confirmat nos vobiscum in Christum et qui unxit nos Deus",
+      "citation": "2 Corinthians 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et qui signavit nos et dedit pignus Spiritus in cordibus nostris",
+      "citation": "2 Corinthians 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ego autem testem Deum invoco in animam meam quod parcens vobis non veni ultra Corinthum",
+      "citation": "2 Corinthians 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "non quia dominamur fidei vestrae sed adiutores sumus gaudii vestri nam fide stetistis",
+      "citation": "2 Corinthians 1:24 (Clementine Vulgate)"
+    }
+  ]
+}

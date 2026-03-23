@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Deuteronomy, Chapter 16 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Deuteronomy",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "totalChapters": 34
+    },
+    "chapter": 16,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/deuteronomy/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/deuteronomy/15.json",
+      "nextChapter": "https://latinprayer.org/bible/deuteronomy/17.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/deuteronomy/16.json",
+      "german": "https://latinprayer.org/bibel/deuteronomy/16.json"
+    }
+  },
+  "citation": "Deuteronomy 16 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Observe the month of new corn, which is the first of the spring, that thou mayst celebrate the phase to the Lord thy God: because in this month the Lord thy God brought thee out of Egypt by night.",
+      "citation": "Deuteronomy 16:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And thou shalt sacrifice the phase to the Lord thy God, of sheep, and of oxen, in the place which the Lord thy God shall choose, that his name may dwell there.",
+      "citation": "Deuteronomy 16:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Thou shalt not eat with it leavened bread: seven days shalt thou eat without leaven, the bread of affliction, because thou camest out of Egypt in fear: that thou mayst remember the day of thy coming out of Egypt, all the days of thy life.",
+      "citation": "Deuteronomy 16:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "No leaven shall be seen in all thy coasts for seven days, neither shall any of the flesh of that which was sacrificed the first day in the evening remain until morning.",
+      "citation": "Deuteronomy 16:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Thou mayst not immolate the phase in any one of thy cities, which the Lord thy God will give thee:",
+      "citation": "Deuteronomy 16:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But in the place which the Lord thy God shall choose, that his name may dwell there: thou shalt immolate the phase in the evening, at the going down of the sun, at which time thou camest out of Egypt.",
+      "citation": "Deuteronomy 16:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And thou shalt dress, and eat it in the place which the Lord thy God shall choose, and in the morning rising up thou shalt go into thy dwellings.",
+      "citation": "Deuteronomy 16:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Six days shalt thou eat unleavened bread: and on the seventh day, because it is the assembly of the Lord thy God, thou shalt do no work.",
+      "citation": "Deuteronomy 16:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thou shalt number unto thee seven weeks from that day, wherein thou didst put the sickle to the corn.",
+      "citation": "Deuteronomy 16:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And thou shalt celebrate the festival of weeks to the Lord thy God, a voluntary oblation of thy hand, which thou shalt offer according to the blessing of the Lord thy God.",
+      "citation": "Deuteronomy 16:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And thou shalt feast before the Lord thy God, thou, and thy son, and thy daughter, and thy man-servant, and thy maid-servant, and the Levite that is within thy gates, and the stranger and the fatherless, and the widow, who abide with you: in the place which the Lord thy God shall choose, that his name may dwell there:",
+      "citation": "Deuteronomy 16:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And thou shalt remember that thou wast a servant in Egypt: and thou shalt keep and do the things that are commanded.",
+      "citation": "Deuteronomy 16:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thou shalt celebrate the solemnity also of tabernacles seven days, when thou hast gathered in thy fruit of the barnfloor and of the winepress.",
+      "citation": "Deuteronomy 16:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And thou shalt make merry in thy festival time, thou, thy son, and thy daughter, thy man-servant, and thy maid-servant, the Levite also and the stranger, and the fatherless and the widow that are within thy gates.",
+      "citation": "Deuteronomy 16:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Seven days shalt thou celebrate feasts to the Lord thy God in the place which the Lord shall choose: and the Lord thy God will bless thee in all thy fruits, and in every work of thy hands, and thou shalt be in joy.",
+      "citation": "Deuteronomy 16:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Three times in a year shall all thy males appear before the Lord thy God in the place which he shall choose: in the feast of unleavened bread, in the feast of weeks, and in the feast of tabernacles. No one shall appear with his hands empty before the Lord:",
+      "citation": "Deuteronomy 16:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But every one shall offer according to what he hath, according to the blessing of the Lord his God, which he shall give him.",
+      "citation": "Deuteronomy 16:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Thou shalt appoint judges and magistrates in all thy gates, which the Lord thy God shall give thee, in all thy tribes: that they may judge the people with just judgment,",
+      "citation": "Deuteronomy 16:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And not go aside to either part. Thou shalt not accept person nor gifts: for gifts blind the eyes of the wise, and change the words of the just.",
+      "citation": "Deuteronomy 16:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Thou shalt follow justly after that which is just: that thou mayst live and possess the land, which the Lord thy God shall give thee.",
+      "citation": "Deuteronomy 16:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Thou shalt plant no grove, nor any tree near the altar of the Lord thy God:",
+      "citation": "Deuteronomy 16:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Neither shalt thou make nor set up to thyself a statue: which things the Lord thy God hateth.",
+      "citation": "Deuteronomy 16:22 (Douay-Rheims)"
+    }
+  ]
+}

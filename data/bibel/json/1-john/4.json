@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Johannes, Chapter 4 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Johannes",
+      "slug": "1-john",
+      "testament": "NT",
+      "order": 69,
+      "totalChapters": 5
+    },
+    "chapter": 4,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-john/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-john/3.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-john/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-john/4.json",
+      "latin": "https://latinprayer.org/latin/1-john/4.json"
+    }
+  },
+  "citation": "1 Johannes 4 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Geliebte, schenkt nicht jedem Geiste Glauben, sondern prüfet die Geister, ob sie aus Gott sind; denn viele falsche Propheten sind in die Welt ausgezogen.",
+      "citation": "1 Johannes 4:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Daran könnt ihr den Geist Gottes erkennen: Jeder Geist, der da bekennt, daß Jesus der im Fleisch gekommene Christus ist, der ist aus Gott;",
+      "citation": "1 Johannes 4:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "und jeder Geist, der Jesus nicht so bekennt, ist nicht aus Gott; das ist vielmehr der Geist des Widerchrists, von dessen Kommen ihr gehört habt und der jetzt schon in der Welt ist.",
+      "citation": "1 Johannes 4:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ihr seid aus Gott, Kindlein, und habt sie überwunden, weil der, welcher in euch (wirksam) ist, stärker ist als der in der Welt.",
+      "citation": "1 Johannes 4:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Sie stammen aus der Welt; deshalb reden sie aus der Welt heraus, und die Welt hört auf sie.",
+      "citation": "1 Johannes 4:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Wir aber sind aus Gott; wer Gott (er)kennt, der hört auf uns; wer nicht aus Gott ist, hört nicht auf uns. Daran erkennen wir den Geist der Wahrheit und den Geist der Täuschung.",
+      "citation": "1 Johannes 4:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Geliebte, laßt uns einander lieben! Denn die Liebe stammt aus Gott, und jeder, der liebt, ist aus Gott erzeugt und erkennt Gott.",
+      "citation": "1 Johannes 4:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wer nicht liebt, hat Gott nicht erkannt; denn Gott ist Liebe.",
+      "citation": "1 Johannes 4:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Darin ist die Liebe Gottes an uns offenbar geworden, daß Gott seinen eingeborenen Sohn in die Welt gesandt hat, damit wir durch ihn leben.",
+      "citation": "1 Johannes 4:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Darin besteht die Liebe: nicht daß wir Gott geliebt haben, sondern daß er uns geliebt und seinen Sohn zur Sühnung für unsere Sünden gesandt hat.",
+      "citation": "1 Johannes 4:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Geliebte, wenn Gott uns so sehr geliebt hat, so sind auch wir verpflichtet, einander zu lieben.",
+      "citation": "1 Johannes 4:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Niemand hat Gott jemals (mit Augen) gesehen; doch wenn wir einander lieben, so bleibt Gott dauernd in uns, und seine Liebe ist in uns zur Vollendung gekommen.",
+      "citation": "1 Johannes 4:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Daß wir aber in ihm bleiben und er in uns, erkennen wir daran, daß er uns (eine Spende) von seinem Geist gegeben hat.",
+      "citation": "1 Johannes 4:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Und wir haben (mit Augen) gesehen und bezeugen es, daß der Vater den Sohn als Retter der Welt gesandt hat.",
+      "citation": "1 Johannes 4:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Wer nun bekennt, daß Jesus der Sohn Gottes ist, in dem wohnt Gott dauernd, und er wohnt dauernd in Gott.",
+      "citation": "1 Johannes 4:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Und wir haben die Liebe, die Gott zu uns hat, erkannt und geglaubt: Gott ist Liebe, und wer in der Liebe bleibt, der bleibt in Gott, und Gott bleibt in ihm.",
+      "citation": "1 Johannes 4:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Darin ist die Liebe bei uns zur Vollendung gekommen, daß wir eine freudige Zuversicht am Tage des Gerichts haben; denn wie er ist, so sind auch wir in dieser Welt.",
+      "citation": "1 Johannes 4:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Furcht ist nicht in der Liebe, sondern die vollkommene Liebe treibt die Furcht aus, weil die Furcht es mit Strafe zu tun hat; wer also Furcht empfindet, der ist in der Liebe noch nicht zur Vollendung gelangt.",
+      "citation": "1 Johannes 4:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Wir dagegen lieben, weil er uns zuerst geliebt hat.",
+      "citation": "1 Johannes 4:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Wenn jemand behauptet: »Ich liebe Gott« und doch seinen Bruder haßt, so ist er ein Lügner; denn wer seinen Bruder nicht liebt, der sichtbar bei ihm ist, kann ganz gewiß Gott nicht lieben, den er nicht gesehen hat.",
+      "citation": "1 Johannes 4:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Und dies Gebot haben wir von ihm, daß, wer Gott liebt, auch seinen Bruder liebe.",
+      "citation": "1 Johannes 4:21 (Menge)"
+    }
+  ]
+}

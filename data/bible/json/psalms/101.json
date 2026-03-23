@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 101 — 9 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 101,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/100.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/102.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/101.json",
+      "german": "https://latinprayer.org/bibel/psalms/101.json"
+    }
+  },
+  "citation": "Psalms 101 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A psalm for David himself. Mercy and judgment I will sing to thee, O Lord: I will sing,",
+      "citation": "Psalms 101:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "The prayer of the poor man, when he was anxious, and poured out his supplication before the Lord.",
+      "citation": "Psalms 101:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And I will understand in the unspotted way, when thou shalt come to me. I walked in the innocence of my heart, in the midst of my house.",
+      "citation": "Psalms 101:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "I will not set before my eyes any unjust thing: I hated the workers of iniquities.",
+      "citation": "Psalms 101:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The perverse heart did not cleave to me: and the malignant, that turned aside from me, I would not know.",
+      "citation": "Psalms 101:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The man that in private detracted his neighbour, him did I persecute. With him that had a proud eye, and an unsatiable heart, I would not eat.",
+      "citation": "Psalms 101:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "My eyes were upon the faithful of the earth, to sit with me: the man that walked in the perfect way, he served me.",
+      "citation": "Psalms 101:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "He that worketh pride shall not dwell in the midst of my house: he that speaketh unjust things did not prosper before my eyes.",
+      "citation": "Psalms 101:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "In the morning I put to death all the wicked of the land: that I might cut off all the workers of iniquity from the city of the Lord.",
+      "citation": "Psalms 101:8 (Douay-Rheims)"
+    }
+  ]
+}

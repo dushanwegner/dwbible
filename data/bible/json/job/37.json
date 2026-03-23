@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 37 — 24 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 37,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/36.json",
+      "nextChapter": "https://latinprayer.org/bible/job/38.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/37.json",
+      "german": "https://latinprayer.org/bibel/job/37.json"
+    }
+  },
+  "citation": "Job 37 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "At this my heart trembleth, and is moved out of its place.",
+      "citation": "Job 37:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Hear ye attentively the terror of his voice, and the sound that cometh out of his mouth.",
+      "citation": "Job 37:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He beholdeth under all the heavens, and his light is upon the ends of the earth.",
+      "citation": "Job 37:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "After it a noise shall roar, he shall thunder with the voice of his majesty, and shall not be found out, when his voice shall be heard.",
+      "citation": "Job 37:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "God shall thunder wonderfully with his voice, he that doth great and unsearchable things.",
+      "citation": "Job 37:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "He commandeth the snow to go down upon the earth, and the winter rain, and the shower of his strength.",
+      "citation": "Job 37:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "He sealeth up the hand of all men, that every one may know his works.",
+      "citation": "Job 37:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Then the beast shall go into his covert, and shall abide in his den.",
+      "citation": "Job 37:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Out of the inner parts shall a tempest come, and cold out of the north.",
+      "citation": "Job 37:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "When God bloweth there cometh frost, and again the waters are poured out abundantly.",
+      "citation": "Job 37:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Corn desireth clouds, and the clouds spread their light:",
+      "citation": "Job 37:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Which go round about, whithersoever the will of him that governeth them shall lead them, to whatsoever he shall command them upon the face of the whole earth:",
+      "citation": "Job 37:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Whether in one tribe, or in his own land, or in what place soever of his mercy he shall command them to be found.",
+      "citation": "Job 37:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Hearken to these things, Job: Stand, and consider the wondrous works of God.",
+      "citation": "Job 37:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Dost thou know when God commanded the rains, to shew his light of his clouds?",
+      "citation": "Job 37:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Knowest thou the great paths of the clouds, and the perfect knowledges?",
+      "citation": "Job 37:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Are not thy garments hot, when the south wind blows upon the earth?",
+      "citation": "Job 37:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Thou perhaps hast made the heavens with him, which are most strong, as if they were of molten brass.",
+      "citation": "Job 37:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Shew us what we may say to him: or we are wrapped up in darkness.",
+      "citation": "Job 37:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Who shall tell him the things I speak? even if a man shall speak, he shall be swallowed up.",
+      "citation": "Job 37:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "But now they see not the light: the air on a sudden shall be thickened into clouds, and the wind shall pass and drive them away.",
+      "citation": "Job 37:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Cold cometh out of the north, and to God praise with fear.",
+      "citation": "Job 37:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "We cannot find him worthily: he is great in strength, and in judgment, and in justice, and he is ineffable.",
+      "citation": "Job 37:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Therefore men shall fear him, and all that seem to themselves to be wise, shall not dare to behold him.",
+      "citation": "Job 37:24 (Douay-Rheims)"
+    }
+  ]
+}

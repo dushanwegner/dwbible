@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Thessalonicher, Chapter 5 — 28 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Thessalonicher",
+      "slug": "1-thessalonians",
+      "testament": "NT",
+      "order": 59,
+      "totalChapters": 5
+    },
+    "chapter": 5,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-thessalonians/4.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-thessalonians/5.json",
+      "latin": "https://latinprayer.org/latin/1-thessalonians/5.json"
+    }
+  },
+  "citation": "1 Thessalonicher 5 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Was aber die Zeit und die Stunde betrifft, so bedürft ihr, liebe Brüder, darüber keiner schriftlichen Belehrung;",
+      "citation": "1 Thessalonicher 5:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "ihr wißt ja selber genau, daß der Tag des Herrn so kommt wie ein Dieb in der Nacht.",
+      "citation": "1 Thessalonicher 5:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wenn sie sagen: »Jetzt herrscht Friede und Sicherheit«, (gerade) dann überfällt sie das Verderben plötzlich wie die Wehen eine schwangere Frau, und sie werden sicherlich nicht entrinnen.",
+      "citation": "1 Thessalonicher 5:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ihr aber, liebe Brüder, lebt nicht in Finsternis, daß der Tag (des Herrn) euch wie ein Dieb überraschen könnte;",
+      "citation": "1 Thessalonicher 5:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "denn ihr alle seid Söhne des Lichts und Söhne des Tages: wir haben mit der Nacht und der Finsternis nichts zu schaffen.",
+      "citation": "1 Thessalonicher 5:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Laßt uns also nicht schlafen wie die anderen, sondern wachsam und nüchtern sein!",
+      "citation": "1 Thessalonicher 5:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Denn die Schläfer schlafen bei Nacht, und die sich berauschen, sind bei Nacht trunken;",
+      "citation": "1 Thessalonicher 5:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "wir aber, die wir dem Tage angehören, wollen nüchtern bleiben, angetan mit dem Panzer des Glaubens und der Liebe und mit dem Helm der Hoffnung auf Rettung;",
+      "citation": "1 Thessalonicher 5:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "denn uns hat Gott nicht für das Zorngericht bestimmt, sondern dazu, daß wir die Rettung durch unsern Herrn Jesus Christus erlangen,",
+      "citation": "1 Thessalonicher 5:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "der für uns gestorben ist, damit wir, mögen wir (bei seinem Kommen noch) wachen oder (schon) entschlafen sein, vereint mit ihm leben.",
+      "citation": "1 Thessalonicher 5:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Darum ermahnt euch gegenseitig und erbauet euch einer den andern, wie ihr das ja auch tut!",
+      "citation": "1 Thessalonicher 5:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wir bitten euch aber, liebe Brüder, denen Anerkennung zu zollen, die bei euch die Arbeiten besorgen und eure Vorsteher und eure Seelsorger im Herrn sind;",
+      "citation": "1 Thessalonicher 5:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "haltet sie ganz besonders lieb und wert um ihrer Arbeit willen! Haltet Frieden untereinander!",
+      "citation": "1 Thessalonicher 5:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Sodann ermahnen wir euch, liebe Brüder: Weiset die Unordentlichen zurecht, ermutigt die Verzagten, nehmt euch der Schwachen an, verfahrt mit Geduld gegen alle!",
+      "citation": "1 Thessalonicher 5:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Achtet darauf, daß niemand einem andern Böses mit Bösem vergelte, befleißigt euch vielmehr allezeit des Guten gegeneinander und gegen alle (Menschen)!",
+      "citation": "1 Thessalonicher 5:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Seid allezeit fröhlich,",
+      "citation": "1 Thessalonicher 5:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "betet ohne Unterlaß,",
+      "citation": "1 Thessalonicher 5:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "sagt in jeder Lage Dank, denn so will es Gott von euch in Christus Jesus.",
+      "citation": "1 Thessalonicher 5:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Den (heiligen) Geist laßt in euch nicht erlöschen;",
+      "citation": "1 Thessalonicher 5:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "prophetische Reden verachtet nicht.",
+      "citation": "1 Thessalonicher 5:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Prüfet alles, behaltet das Gute;",
+      "citation": "1 Thessalonicher 5:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "meidet das Böse in jeder Gestalt!",
+      "citation": "1 Thessalonicher 5:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Er selbst aber, der Gott des Friedens, heilige euch durch und durch, und völlig tadellos möge euer Geist samt der Seele und dem Leibe bei der Wiederkunft unsers Herrn Jesus Christus bewahrt geblieben sein!",
+      "citation": "1 Thessalonicher 5:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Treu ist er, der euch beruft: er wird es auch vollführen.",
+      "citation": "1 Thessalonicher 5:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Liebe Brüder, betet für uns! Grüßet alle Brüder mit dem heiligen Kuß!",
+      "citation": "1 Thessalonicher 5:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Ich beschwöre euch beim Herrn:",
+      "citation": "1 Thessalonicher 5:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "laßt diesen Brief zur Vorlesung bei allen Brüdern kommen.",
+      "citation": "1 Thessalonicher 5:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Die Gnade unsers Herrn Jesus Christus sei mit euch!",
+      "citation": "1 Thessalonicher 5:28 (Menge)"
+    }
+  ]
+}

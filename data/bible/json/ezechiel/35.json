@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezechiel, Chapter 35 — 15 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezechiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 35,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ezechiel/34.json",
+      "nextChapter": "https://latinprayer.org/bible/ezechiel/36.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ezechiel/35.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/35.json"
+    }
+  },
+  "citation": "Ezechiel 35 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the word of the Lord came to me, saying:",
+      "citation": "Ezechiel 35:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Son of man, set thy face against mount Seir, and prophesy concerning it, and say to it:",
+      "citation": "Ezechiel 35:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Thus saith the Lord God: Behold I come against thee, mount Seir, and I will stretch forth my hand upon thee, and I will make thee desolate and waste.",
+      "citation": "Ezechiel 35:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "I will destroy thy cities, and thou shalt be desolate: and thou shalt know that I am the Lord.",
+      "citation": "Ezechiel 35:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Because thou hast been an everlasting enemy, and hast shut up the children of Israel in the hands of the sword in the time of their affliction, in the time of their last iniquity.",
+      "citation": "Ezechiel 35:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Therefore as I live, saith the Lord God, I will deliver thee up to blood, and blood shall pursue thee: and whereas thou hast hated blood, blood shall pursue thee.",
+      "citation": "Ezechiel 35:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And I will make mount Seir waste and desolate: and I will take away from it him that goeth and him that returneth.",
+      "citation": "Ezechiel 35:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And I will fill his mountains with his men that are slain: in thy hills, and in thy valleys, and in thy torrents they shall fall that are slain with the sword.",
+      "citation": "Ezechiel 35:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "I will make thee everlasting desolations, and thy cities shall not be inhabited: and thou shalt know that I am the Lord God.",
+      "citation": "Ezechiel 35:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Because thou hast said: The two nations, and the two lands shall be mine, and I will possess them by inheritance: whereas the Lord was there.",
+      "citation": "Ezechiel 35:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Therefore as I live, saith the Lord God, I will do according to thy wrath, and according to thy envy, which thou hast exercised in hatred to them: and I will be made known by them, when I shall have judged thee.",
+      "citation": "Ezechiel 35:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And thou shalt know that I the Lord have heard all thy reproaches, that thou hast spoken against the mountains of Israel, saying. They are desolate, they are given to us to consume.",
+      "citation": "Ezechiel 35:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And you rose up against me with your mouth, and have derogated from me by your words: I have heard them.",
+      "citation": "Ezechiel 35:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Thus saith the Lord God: When the whole earth shall rejoice, I will make thee a wilderness.",
+      "citation": "Ezechiel 35:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "As thou hast rejoiced over the inheritance of the house of Israel, because it was laid waste, so will I do to thee: thou shalt be laid waste, O mount Seir, and all Idumea: and they shall know that I am the Lord.",
+      "citation": "Ezechiel 35:15 (Douay-Rheims)"
+    }
+  ]
+}

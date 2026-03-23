@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 23 — 6 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 23,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/22.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/24.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/23.json",
+      "german": "https://latinprayer.org/bibel/psalms/23.json"
+    }
+  },
+  "citation": "Psalms 23 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A psalm for David. The Lord ruleth me: and I shall want nothing.",
+      "citation": "Psalms 23:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "He hath set me in a place of pasture. He hath brought me up, on the water of refreshment:",
+      "citation": "Psalms 23:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He hath converted my soul. He hath led me on the paths of justice, for his own name's sake.",
+      "citation": "Psalms 23:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For though I should walk in the midst of the shadow of death, I will fear no evils, for thou art with me. Thy rod and thy staff, they have comforted me.",
+      "citation": "Psalms 23:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Thou hast prepared a table before me against them that afflict me. Thou hast anointed my head with oil; and my chalice which inebreateth me, how goodly is it!",
+      "citation": "Psalms 23:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And thy mercy will follow me all the days of my life. And that I may dwell in the house of the Lord unto length of days.",
+      "citation": "Psalms 23:6 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hesekiel, Chapter 19 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hesekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 19,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ezechiel/18.json",
+      "nextChapter": "https://latinprayer.org/bibel/ezechiel/20.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ezechiel/19.json",
+      "latin": "https://latinprayer.org/latin/ezechiel/19.json"
+    }
+  },
+  "citation": "Hesekiel 19 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Du aber stimme ein Klagelied an über die Fürsten Israels",
+      "citation": "Hesekiel 19:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "und sprich: ›Wie war doch deine Mutter eine Löwin unter Löwen! Sie hatte ihr Lager inmitten von Jungleuen, zog ihre Jungen groß.",
+      "citation": "Hesekiel 19:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Eins von ihren Jungen brachte sie hoch, zum Jungleu wurde es; der lernte Raub erbeuten, Menschen fraß er.",
+      "citation": "Hesekiel 19:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Da erließen die Völker einen Aufruf gegen ihn: in ihrer Grube wurde er gefangen, und sie brachten ihn mit Ringen nach dem Lande Ägypten. –",
+      "citation": "Hesekiel 19:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Als nun seine Mutter sah, daß sie getäuscht, ihre Hoffnung vernichtet war, da nahm sie ein anderes von ihren Jungen und machte es zu einem Jungleu.",
+      "citation": "Hesekiel 19:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Der schritt stolz unter den Löwen einher, wurde ein Jungleu; er lernte Raub erbeuten, Menschen fraß er.",
+      "citation": "Hesekiel 19:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Er machte ihre Witwen zahlreich und entvölkerte ihre Städte, so daß das Land und alles, was darin war, sich vor seinem dröhnenden Gebrüll entsetzte.",
+      "citation": "Hesekiel 19:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Da stellten sich die Völker ringsum aus den Landschaften gegen ihn auf und breiteten ihr Netz über ihn aus: in ihrer Grube wurde er gefangen.",
+      "citation": "Hesekiel 19:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Dann taten sie ihn an Nasenringen in einen Käfig und brachten ihn zum König von Babylon, brachten ihn in eine der Burgen, damit man sein Gebrüll auf den Bergen Israels nicht mehr höre.‹«",
+      "citation": "Hesekiel 19:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "»›Deine Mutter war wie ein Weinstock, im Weingarten am Wasser gepflanzt, reich an Früchten und voller Ranken infolge des reichlichen Wassers;",
+      "citation": "Hesekiel 19:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "an ihm wuchs ein starker Schoß zum Herrscherstabe, und hoch ragte sein Wuchs empor zwischen dem dichten Laubwerk, und er war weithin sichtbar durch seine Höhe, durch die Fülle seiner Ranken.",
+      "citation": "Hesekiel 19:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Da wurde er im Grimm ausgerissen, auf die Erde geworfen, und der Ostwind dörrte seine Ranken aus; sein starker Schoß wurde abgerissen und verdorrte, Feuer hat ihn verzehrt.",
+      "citation": "Hesekiel 19:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Jetzt ist er in die Wüste verpflanzt, in dürres, lechzendes Land;",
+      "citation": "Hesekiel 19:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "und Feuer ist von seinem Schoß ausgegangen, hat seine Ranken verzehrt; und es ist an ihm kein starker Schoß mehr geblieben, kein Stab zum Herrschen.‹« Ein Klagelied ist dies, und es ist zum Klagelied geworden.",
+      "citation": "Hesekiel 19:14 (Menge)"
+    }
+  ]
+}

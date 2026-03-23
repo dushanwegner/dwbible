@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Romans, Chapter 14 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 52,
+      "totalChapters": 16
+    },
+    "chapter": 14,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/romans/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/romans/13.json",
+      "nextChapter": "https://latinprayer.org/latin/romans/15.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/romans/14.json",
+      "german": "https://latinprayer.org/bibel/romans/14.json"
+    }
+  },
+  "citation": "Romans 14 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "infirmum autem in fide adsumite non in disceptationibus cogitationum",
+      "citation": "Romans 14:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "alius enim credit manducare omnia qui autem infirmus est holus manducat",
+      "citation": "Romans 14:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "is qui manducat non manducantem non spernat et qui non manducat manducantem non iudicet Deus enim illum adsumpsit",
+      "citation": "Romans 14:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "tu quis es qui iudices alienum servum suo domino stat aut cadit stabit autem potens est enim Deus statuere illum",
+      "citation": "Romans 14:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "nam alius iudicat diem plus inter diem alius iudicat omnem diem unusquisque in suo sensu abundet",
+      "citation": "Romans 14:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "qui sapit diem Domino sapit et qui manducat Domino manducat gratias enim agit Deo et qui non manducat Domino non manducat et gratias agit Deo",
+      "citation": "Romans 14:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "nemo enim nostrum sibi vivit et nemo sibi moritur",
+      "citation": "Romans 14:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sive enim vivimus Domino vivimus sive morimur Domino morimur sive ergo vivimus sive morimur Domini sumus",
+      "citation": "Romans 14:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "in hoc enim Christus et mortuus est et revixit ut et mortuorum et vivorum dominetur",
+      "citation": "Romans 14:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "tu autem quid iudicas fratrem tuum aut tu quare spernis fratrem tuum omnes enim stabimus ante tribunal Dei",
+      "citation": "Romans 14:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "scriptum est enim vivo ego dicit Dominus quoniam mihi flectet omne genu et omnis lingua confitebitur Deo",
+      "citation": "Romans 14:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "itaque unusquisque nostrum pro se rationem reddet Deo",
+      "citation": "Romans 14:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "non ergo amplius invicem iudicemus sed hoc iudicate magis ne ponatis offendiculum fratri vel scandalum",
+      "citation": "Romans 14:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "scio et confido in Domino Iesu quia nihil commune per ipsum nisi ei qui existimat quid commune esse illi commune est",
+      "citation": "Romans 14:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "si enim propter cibum frater tuus contristatur iam non secundum caritatem ambulas noli cibo tuo illum perdere pro quo Christus mortuus est",
+      "citation": "Romans 14:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "non ergo blasphemetur bonum nostrum",
+      "citation": "Romans 14:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "non est regnum Dei esca et potus sed iustitia et pax et gaudium in Spiritu Sancto",
+      "citation": "Romans 14:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "qui enim in hoc servit Christo placet Deo et probatus est hominibus",
+      "citation": "Romans 14:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "itaque quae pacis sunt sectemur et quae aedificationis sunt in invicem",
+      "citation": "Romans 14:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "noli propter escam destruere opus Dei omnia quidem munda sunt sed malum est homini qui per offendiculum manducat",
+      "citation": "Romans 14:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "bonum est non manducare carnem et non bibere vinum neque in quo frater tuus offendit aut scandalizatur aut infirmatur",
+      "citation": "Romans 14:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "tu fidem habes penes temet ipsum habe coram Deo beatus qui non iudicat semet ipsum in eo quo probat",
+      "citation": "Romans 14:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "qui autem discernit si manducaverit damnatus est quia non ex fide omne autem quod non ex fide peccatum est",
+      "citation": "Romans 14:23 (Clementine Vulgate)"
+    }
+  ]
+}

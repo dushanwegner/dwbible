@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 50 — 24 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 50,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/49.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/51.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/50.json",
+      "german": "https://latinprayer.org/bibel/psalms/50.json"
+    }
+  },
+  "citation": "Psalms 50 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A psalm for Asaph. The God of gods, the Lord hath spoken: and he hath called the earth. From the rising of the sun, to the going down thereof:",
+      "citation": "Psalms 50:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Out of Sion the loveliness of his beauty.",
+      "citation": "Psalms 50:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "When Nathan the prophet came to him, after he had sinned with Bethsabee. [2 Kings 12.]",
+      "citation": "Psalms 50:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "God shall come manifestly: our God shall come, and shall not keep silence. A fire shall burn before him: and a mighty tempest shall be round about him.",
+      "citation": "Psalms 50:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "He shall call heaven from above, and the earth, to judge his people.",
+      "citation": "Psalms 50:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Gather ye together his saints to him: who set his covenant before sacrifices.",
+      "citation": "Psalms 50:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the heavens shall declare his justice: for God is judge.",
+      "citation": "Psalms 50:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Hear, O my people, and I will speak: O Israel, and I will testify to thee: I am God, thy God.",
+      "citation": "Psalms 50:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "I will not reprove thee for thy sacrifices: and thy burnt offerings are always in my sight.",
+      "citation": "Psalms 50:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "I will not take calves out of thy house: nor he-goats out of thy flocks.",
+      "citation": "Psalms 50:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For all the beasts of the woods are mine: the cattle on the hills, and the oxen.",
+      "citation": "Psalms 50:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "I know all the fowls of the air: and with me is the beauty of the field.",
+      "citation": "Psalms 50:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "If I should be hungry, I would not tell thee: for the world is mine, and the fulness thereof.",
+      "citation": "Psalms 50:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Shall I eat the flesh of bullocks? or shall I drink the blood of goats?",
+      "citation": "Psalms 50:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Offer to God the sacrifice of praise: and pay thy vows to the most High.",
+      "citation": "Psalms 50:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And call upon me in the day of trouble: I will deliver thee, and thou shalt glorify me.",
+      "citation": "Psalms 50:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "But to the sinner God hath said: Why dost thou declare my justices, and take my covenant in thy mouth?",
+      "citation": "Psalms 50:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Seeing thou hast hated discipline: and hast cast my words behind thee.",
+      "citation": "Psalms 50:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "If thou didst see a thief thou didst run with him: and with adulterers thou hast been a partaker.",
+      "citation": "Psalms 50:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Thy mouth hath abounded with evil, and thy tongue framed deceits.",
+      "citation": "Psalms 50:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Sitting thou didst speak against thy brother, and didst lay a scandal against thy mother's son:",
+      "citation": "Psalms 50:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "These things hast thou done, and I was silent. Thou thoughtest unjustly that I should be like to thee: but I will reprove thee, and set before thy face.",
+      "citation": "Psalms 50:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Understand these things, you that forget God; lest he snatch you away, and there be none to deliver you.",
+      "citation": "Psalms 50:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The sacrifice of praise shall glorify me: and there is the way by which I will shew him the salvation of God.",
+      "citation": "Psalms 50:23 (Douay-Rheims)"
+    }
+  ]
+}

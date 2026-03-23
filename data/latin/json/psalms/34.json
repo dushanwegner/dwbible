@@ -1,0 +1,256 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 34 — 44 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 34,
+    "verseCount": 44,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/33.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/35.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/34.json",
+      "german": "https://latinprayer.org/bibel/psalms/34.json"
+    }
+  },
+  "citation": "Psalms 34 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "benedicam Dominum in omni tempore semper laus eius in ore meo",
+      "citation": "Psalms 34:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "benedicam Domino in omni tempore semper laus eius in ore meo",
+      "citation": "Psalms 34:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in Domino laudabitur anima mea audiant mansueti et laetentur",
+      "citation": "Psalms 34:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in Domino laetabitur anima mea audiant mites et laetentur",
+      "citation": "Psalms 34:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "magnificate Dominum mecum et exaltemus nomen eius in id ipsum",
+      "citation": "Psalms 34:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "magnificate Dominum mecum et exaltemus nomen eius pariter",
+      "citation": "Psalms 34:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "exquisivi Dominum et exaudivit me et ex omnibus tribulationibus meis eripuit me",
+      "citation": "Psalms 34:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quaesivi Dominum et exaudivit me et de omnibus angustiis meis liberavit me",
+      "citation": "Psalms 34:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "accedite ad eum et inluminamini et facies vestrae non confundentur",
+      "citation": "Psalms 34:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "respicite ad eum et confluite et vultus vestri non confundentur",
+      "citation": "Psalms 34:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "iste pauper clamavit et Dominus exaudivit %eum; et de omnibus tribulationibus eius salvavit eum",
+      "citation": "Psalms 34:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "hic pauper clamavit et Dominus exaudivit de omnibus tribulationibus salvabit eum",
+      "citation": "Psalms 34:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "vallabit angelus Domini in circuitu timentium eum et eripiet eos",
+      "citation": "Psalms 34:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "circumdat angelus Domini in gyro timentes eum et eruet eos",
+      "citation": "Psalms 34:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "gustate et videte quoniam suavis est Dominus beatus vir qui sperat in eo",
+      "citation": "Psalms 34:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "gustate et videte quoniam bonus Dominus beatus vir qui sperat in eo",
+      "citation": "Psalms 34:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "timete Dominum %omnes; sancti eius quoniam non est inopia timentibus eum",
+      "citation": "Psalms 34:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "timete Dominum sancti eius quoniam non est inopia timentibus eum",
+      "citation": "Psalms 34:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "divites eguerunt et esurierunt inquirentes autem Dominum non minuentur omni bono diapsalma",
+      "citation": "Psalms 34:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "leones indiguerunt et esurierunt quaerentibus autem Dominum non deerit omne bonum",
+      "citation": "Psalms 34:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "venite filii audite me timorem Domini docebo vos",
+      "citation": "Psalms 34:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "venite filii audite me timorem Domini docebo vos",
+      "citation": "Psalms 34:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quis est homo qui vult vitam cupit videre dies bonos",
+      "citation": "Psalms 34:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quis est vir qui velit vitam diligens dies videre bonos",
+      "citation": "Psalms 34:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "prohibe linguam tuam a malo et labia tua ne loquantur dolum",
+      "citation": "Psalms 34:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "custodi linguam tuam a malo et labia tua ne loquantur dolum",
+      "citation": "Psalms 34:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "deverte a malo et fac bonum inquire pacem et persequere eam",
+      "citation": "Psalms 34:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "recede a malo et fac bonum quaere pacem et persequere eam",
+      "citation": "Psalms 34:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "oculi Domini super iustos et aures eius in precem eorum",
+      "citation": "Psalms 34:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "oculi Domini ad iustos et aures eius ad clamorem eorum",
+      "citation": "Psalms 34:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "facies Domini super facientes mala ut perdat de terra memoriam eorum",
+      "citation": "Psalms 34:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "vultus Domini super facientes malum ut perdat de terra memoriam eorum",
+      "citation": "Psalms 34:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "clamaverunt iusti et Dominus exaudivit et ex omnibus tribulationibus eorum liberavit eos",
+      "citation": "Psalms 34:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "clamaverunt et Dominus exaudivit et ex omnibus tribulationibus eorum liberavit eos",
+      "citation": "Psalms 34:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "iuxta est Dominus his qui tribulato sunt corde et humiles spiritu salvabit",
+      "citation": "Psalms 34:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "iuxta est Dominus contritis corde et confractos spiritu salvabit",
+      "citation": "Psalms 34:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "multae tribulationes iustorum et de omnibus his liberavit eos",
+      "citation": "Psalms 34:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "multae tribulationes iusti et ex omnibus illis liberabit eum Dominus",
+      "citation": "Psalms 34:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "Dominus custodit omnia ossa eorum unum ex his non conteretur",
+      "citation": "Psalms 34:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "custodit omnia ossa eius unum ex eis non confringetur",
+      "citation": "Psalms 34:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "mors peccatorum pessima et qui oderunt iustum delinquent",
+      "citation": "Psalms 34:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "interficiet impium malitia et odientes iustum superabuntur",
+      "citation": "Psalms 34:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "redimet Dominus animas servorum suorum et non delinquent omnes qui sperant in eum",
+      "citation": "Psalms 34:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "redimet Dominus animam servorum suorum et non peccabunt omnes sperantes in eo",
+      "citation": "Psalms 34:22 (Clementine Vulgate)"
+    }
+  ]
+}

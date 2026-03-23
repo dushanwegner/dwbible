@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judith, Chapter 12 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "order": 18,
+      "totalChapters": 17
+    },
+    "chapter": 12,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/judith/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/judith/11.json",
+      "nextChapter": "https://latinprayer.org/latin/judith/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judith/12.json",
+      "german": "https://latinprayer.org/bibel/judith/12.json"
+    }
+  },
+  "citation": "Judith 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tunc iussit eam introire ubi repositi erant thesauri eius et iussit illic manere eam et constituit quid daretur illi de convivio suo",
+      "citation": "Judith 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cui respondens Iudith dixit nunc non potero manducare ex his quae mihi praecipis tribui ne veniat super me offensio ex his autem quae mihi detuli manducabo",
+      "citation": "Judith 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cui Holofernis ait si defecerint tibi ista quae tecum detulisti quid faciemus tibi",
+      "citation": "Judith 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dixit Iudith vivit anima tua domine meus quoniam non expendet omnia haec ancilla tua donec faciat Deus in manu mea haec quae cogitavi et induxerunt illam servi eius in tabernaculo quo praeceperat",
+      "citation": "Judith 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et petiit dum introiret ut daretur ei copia nocte et ante lucem egrediendi foras ad orationem et deprecandi Dominum",
+      "citation": "Judith 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et praecepit cubiculariis suis ut sicut placeret illi exiret et introiret ad orandum Deum suum per triduum",
+      "citation": "Judith 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et exiebat noctibus in vallem Bethuliae et baptizabat se in fontem aquae",
+      "citation": "Judith 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et ut ascendebat orabat Dominum Deum Israhel ut dirigeret viam eius ad liberationem populi sui",
+      "citation": "Judith 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et introiens munda manebat in tabernaculum usque dum acciperet escam suam in vesperam",
+      "citation": "Judith 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et factum est quarto die Holofernis fecit cenam servis suis et dixit ad Bagao eunuchum vade et suade Hebraeam illam ut sponte consentiat habitare mecum",
+      "citation": "Judith 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "foedum est enim apud Assyrios si femina inrideat virum agendo ut inmunis transeat ab eo",
+      "citation": "Judith 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "tunc introivit Bagao ad Iudith et dixit non vereatur bona puella introire ad dominum meum ut honorificetur ante faciem eius et manducet cum eo et bibat vinum in iucunditate",
+      "citation": "Judith 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "cui Iudith respondit quae ego sum ut contradicam domino meo",
+      "citation": "Judith 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "omne quod erit ante oculos eius bonum et optimum faciam quicquid autem illi placuerit hoc mihi erit optimum omnibus diebus vitae meae",
+      "citation": "Judith 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et surrexit et ornavit se vestimento suo et ingressa stetit ante faciem eius",
+      "citation": "Judith 12:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "cor autem Holofernis concussum est erat enim ardens in concupiscentia eius",
+      "citation": "Judith 12:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et dixit ad eam Holofernis bibe nunc et accumbe in iucunditate quoniam gratiam invenisti coram me",
+      "citation": "Judith 12:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et dixit Iudith bibam domine quoniam magnificata est anima mea hodie prae omnibus diebus meis",
+      "citation": "Judith 12:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et accepit et manducavit et bibit coram ipso ea quae paraverat illi ancilla eius",
+      "citation": "Judith 12:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et iucundus factus est Holofernis ad illam bibitque vinum nimis multum quantum numquam biberat in vita sua",
+      "citation": "Judith 12:20 (Clementine Vulgate)"
+    }
+  ]
+}

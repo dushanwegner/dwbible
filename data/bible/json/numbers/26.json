@@ -1,0 +1,361 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 26 — 65 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 26,
+    "verseCount": 65,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/numbers/25.json",
+      "nextChapter": "https://latinprayer.org/bible/numbers/27.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/numbers/26.json",
+      "german": "https://latinprayer.org/bibel/numbers/26.json"
+    }
+  },
+  "citation": "Numbers 26 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "After the blood of the guilty was shed, the Lord said to Moses and to Eleazar the son of Aaron, the priest:",
+      "citation": "Numbers 26:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Number the whole sum of the children of Israel from twenty years old and upward, by their houses and kindreds, all that are able to go forth to war.",
+      "citation": "Numbers 26:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Moses therefore and Eleazar the priest, being in the plains of Moab upon the Jordan over against Jericho, spoke to them that were",
+      "citation": "Numbers 26:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "From twenty years old and upward, as the Lord had commanded: and this is the number of them:",
+      "citation": "Numbers 26:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Ruben the firstborn of Israel. His sons were Henoch, of whom is the family of the Henochites: and Phallu, of whom is the family of the Phalluites:",
+      "citation": "Numbers 26:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Hesron, of whom is the family of the Hesronites: and Charmi, of whom is the family of the Charmites.",
+      "citation": "Numbers 26:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "These are the families of the stock of Ruben: whose number was found to be forty-three thousand seven hundred and thirty.",
+      "citation": "Numbers 26:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The son of Phallu was Eliab.",
+      "citation": "Numbers 26:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "His sons, were Namuel and Dathan and Abiron. These are Dathan and Abiron the princes of the people, that rose against Moses and Aaron in the sedition of Core, when they rebelled against the Lord:",
+      "citation": "Numbers 26:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the earth opening her mouth swallowed up Core, many others dying, when the fire burned two hundred and fifty men. And there was a great miracle wrought,",
+      "citation": "Numbers 26:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "That when Core perished, his sons did not perish.",
+      "citation": "Numbers 26:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The sons of Simeon by their kindreds: Namuel, of him is the family of the Namuelites: Jamin, of him is the family of the Jaminites: Jachim, of him is the family of the Jachimites:",
+      "citation": "Numbers 26:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Zare, of him is the family of the Zarites: Saul, of him is the family of the Saulites.",
+      "citation": "Numbers 26:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "These are the families of the stock of Simeon, of which the whole number was twenty-two thousand two hundred.",
+      "citation": "Numbers 26:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The sons of Gad by their kindreds: Sephon, of him is the family of the Sephonites: Aggi, of him is the family of the Aggites: Suni, of him is the family of the Sunites:",
+      "citation": "Numbers 26:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Ozni, of him is the family of the Oznites: Her, of him is the family of the Herites:",
+      "citation": "Numbers 26:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Arod, of him is the family of the Arodites: Ariel, of him is the family of the Arielites.",
+      "citation": "Numbers 26:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "These are the families of Gad, of which the whole number was forty thousand five hundred.",
+      "citation": "Numbers 26:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The sons of Juda, Her and Onan, who both died in the land of Chanaan.",
+      "citation": "Numbers 26:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And the sons of Juda by their kindreds were: Sela, of whom is the family of the Selaites: Phares, of whom is the family of the Pharesites: Zare, of whom is the family of the Zarites.",
+      "citation": "Numbers 26:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Moreover the sons of Phares were: Hesron, of whom is the family of the Hesronites: and Hamul, of whom is the family of the Hamulites.",
+      "citation": "Numbers 26:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "These are the families of Juda, of which the whole number was seventy-six thousand five hundred.",
+      "citation": "Numbers 26:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The sons of Issachar, by their kindreds: Thola of whom is the family of the Tholaites: Phua, of whom is the family of the Phuaites:",
+      "citation": "Numbers 26:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Jasub, of whom is the family of the Jasubites: Semran, of whom is the family of the Semranites.",
+      "citation": "Numbers 26:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "These are the kindreds of Issachar, whose number was sixty-four thousand three hundred.",
+      "citation": "Numbers 26:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "The sons of Zabulon by their kindreds: Sared, of whom is the family of the Saredites: Elon, of whom is the family of the Elonites: Jalel, of whom is the family of the Jalelites.",
+      "citation": "Numbers 26:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "These are the kindreds of Zabulon, whose number was sixty thousand five hundred.",
+      "citation": "Numbers 26:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "The sons of Joseph by their kindred, Manasses and Ephraim.",
+      "citation": "Numbers 26:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Of Manasses was born Machir, of whom is the family of the Machirites. Machir begot Galaad, of whom is the family of the Galaadites.",
+      "citation": "Numbers 26:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Galaad had sons: Jezer, of whom is the family of the Jezerites: and Helec, of whom is the family of the Helecites:",
+      "citation": "Numbers 26:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And Asriel, of whom is the family of the Asrielites: and Sechem, of whom is the family of the Sechemites:",
+      "citation": "Numbers 26:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And Semida, of whom is the family of the Semidaites: and Hepher, of whom is the family of the Hepherites.",
+      "citation": "Numbers 26:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And Hepher was the father of Salphaad, who had no sons, but only daughters, whose names are these: Maala, and Noa, and Hegla, and Melcha, and Thersa.",
+      "citation": "Numbers 26:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "These are the families of Manasses, and the number of them fifty- two thousand seven hundred.",
+      "citation": "Numbers 26:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And the sons of Ephraim by their kindreds were these: Suthala, of whom is the family of the Suthalaites: Becher, of whom is the family of the Becherites: Thehen, of whom is the family of the Thehenites.",
+      "citation": "Numbers 26:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "Now the son of Suthala was Heran, of whom is the family of the Heranites.",
+      "citation": "Numbers 26:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "These are the kindreds of the sons of Ephraim: whose number was thirty-two thousand five hundred.",
+      "citation": "Numbers 26:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "These are the sons of Joseph by their families. The sons of Benjamin in their kindreds: Bela, of whom is the family of the Belaites: Asbel, of whom is the family of the Asbelites: Ahiram, of whom is the family of the Ahiramites:",
+      "citation": "Numbers 26:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "Supham, of whom is the family of the Suphamites: Hupham, of whom is the family of the Huphamites.",
+      "citation": "Numbers 26:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "The sons of Bela: Hered, and Noeman. Of Hered, is the family of the Heredites: of Noeman, the family of the Noemanites.",
+      "citation": "Numbers 26:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "These are the sons of Benjamin by their kindreds, whose number was forty-five thousand six hundred.",
+      "citation": "Numbers 26:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "The sons of Dan by their kindreds: Suham, of whom is the family of the Suhamites: These are the kindreds of Dan by their families.",
+      "citation": "Numbers 26:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "All were Suhamites, whose number was sixty-four thousand four hundred.",
+      "citation": "Numbers 26:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "The sons of Aser by their kindreds: Jemna, of whom is the family of the Jemnaites: Jessui, of whom is the family of the Jessuites: Brie, of whom is the family of the Brieites.",
+      "citation": "Numbers 26:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "The sons of Brie: Heber, of whom is the family of the Heberites: and Melchiel, of whom is the family of the Melchielites.",
+      "citation": "Numbers 26:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "And the name of the daughter of Aser, was Sara.",
+      "citation": "Numbers 26:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "These are the kindreds of the sons of Aser, and their number fifty-three thousand four hundred.",
+      "citation": "Numbers 26:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "The sons of Nephtali by their kindreds: Jesiel, of whom is the family of the Jesielites: Guni, of whom is the family of the Gunites:",
+      "citation": "Numbers 26:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "Jeser, of whom is the family of the Jeserites: Sellem, of whom is the family of the Sellemites.",
+      "citation": "Numbers 26:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "These are the kindreds of the sons of Nephtali by their families: whose number was forty-five thousand four hundred.",
+      "citation": "Numbers 26:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "This is the sum of the children of Israel, that were reckoned up, six hundred and one thousand seven hundred and thirty.",
+      "citation": "Numbers 26:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 26:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "To these shall the land be divided for their possessions according to the number of names.",
+      "citation": "Numbers 26:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "To the greater number thou shalt give a greater portion, and to the fewer a less: to every one, as they have now been reckoned up, shall a possession be delivered:",
+      "citation": "Numbers 26:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "Yet so that by lot the land be divided to the tribe and families.",
+      "citation": "Numbers 26:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "Whatsoever shall fall by lot, that shall be taken by the more, or the fewer.",
+      "citation": "Numbers 26:56 (Douay-Rheims)"
+    },
+    {
+      "verse": 57,
+      "text": "This also is the number of the sons of Levi by their families: Gerson, of whom is the family of the Gersonites: Caath, of whom is the family of the Caathites: Merari, of whom is the family of the Merarites.",
+      "citation": "Numbers 26:57 (Douay-Rheims)"
+    },
+    {
+      "verse": 58,
+      "text": "These are the families of Levi: The family of Lobni, the family of Hebroni, the family of Core. Now Caath begot Amram:",
+      "citation": "Numbers 26:58 (Douay-Rheims)"
+    },
+    {
+      "verse": 59,
+      "text": "Who had to wife Jochabed the daughter of Levi, who was born to him in Egypt. She bore to her husband Amram sons, Aaron and Moses, and Mary their sister.",
+      "citation": "Numbers 26:59 (Douay-Rheims)"
+    },
+    {
+      "verse": 60,
+      "text": "Of Aaron were born Nadab and Abiu, and Eleazar and Ithamar:",
+      "citation": "Numbers 26:60 (Douay-Rheims)"
+    },
+    {
+      "verse": 61,
+      "text": "Of whom Nadab and Abiu died, when they had offered the strange fire before the Lord.",
+      "citation": "Numbers 26:61 (Douay-Rheims)"
+    },
+    {
+      "verse": 62,
+      "text": "And all that were numbered, were twenty-three thousand males from one month old and upward: for they were not reckoned up among the children of Israel, neither was a possession given to them with the rest.",
+      "citation": "Numbers 26:62 (Douay-Rheims)"
+    },
+    {
+      "verse": 63,
+      "text": "This is the number of the children of Israel, that were enrolled by Moses and Eleazar the priest, in the plains of Moab upon the Jordan, over against Jericho.",
+      "citation": "Numbers 26:63 (Douay-Rheims)"
+    },
+    {
+      "verse": 64,
+      "text": "Among whom there was not one of them that were numbered before by Moses and Aaron in the desert of Sinai.",
+      "citation": "Numbers 26:64 (Douay-Rheims)"
+    },
+    {
+      "verse": 65,
+      "text": "For the Lord had foretold that they should die in the wilderness. And none remained of them, but Caleb the son of Jephone, and Josue the son of Nun.",
+      "citation": "Numbers 26:65 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Romans, Chapter 9 — 33 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 52,
+      "totalChapters": 16
+    },
+    "chapter": 9,
+    "verseCount": 33,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/romans/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/romans/8.json",
+      "nextChapter": "https://latinprayer.org/bible/romans/10.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/romans/9.json",
+      "german": "https://latinprayer.org/bibel/romans/9.json"
+    }
+  },
+  "citation": "Romans 9 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I speak the truth in Christ: I lie not, my conscience bearing me witness in the Holy Ghost:",
+      "citation": "Romans 9:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "That I have great sadness and continual sorrow in my heart.",
+      "citation": "Romans 9:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For I wished myself to be an anathema from Christ, for my brethren: who are my kinsmen according to the flesh:",
+      "citation": "Romans 9:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Who are Israelites: to whom belongeth the adoption as of children and the glory and the testament and the giving of the law and the service of God and the promises:",
+      "citation": "Romans 9:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Whose are the fathers and of whom is Christ, according to the flesh, who is over all things, God blessed for ever. Amen.",
+      "citation": "Romans 9:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Not as though the word of God hath miscarried. For all are not Israelites that are of Israel.",
+      "citation": "Romans 9:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Neither are all they that are the seed of Abraham, children: but in Isaac shall thy seed be called.",
+      "citation": "Romans 9:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "That is to say, not they that are the children of the flesh are the children of God: but they that are the children of the promise are accounted for the seed.",
+      "citation": "Romans 9:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For this is the word of promise: According to this time will I come. And Sara shall have a son.",
+      "citation": "Romans 9:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And not only she. But when Rebecca also had conceived at once of Isaac our father.",
+      "citation": "Romans 9:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For when the children were not yet born, nor had done any good or evil (that the purpose of God according to election might stand):",
+      "citation": "Romans 9:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Not of works, but of him that calleth, it was said to her: The elder shall serve the younger.",
+      "citation": "Romans 9:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "As it is written: Jacob I have loved: but Esau I have hated.",
+      "citation": "Romans 9:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "What shall we say then? Is there injustice with God? God forbid!",
+      "citation": "Romans 9:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For he saith to Moses: I will have mercy on whom I will have mercy. And I will shew mercy to whom I will shew mercy.",
+      "citation": "Romans 9:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "So then it is not of him that willeth, nor of him that runneth, but of God that sheweth mercy.",
+      "citation": "Romans 9:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "For the scripture saith to Pharao: To this purpose have I raised thee, that I may shew my power in thee and that my name may be declared throughout all the earth.",
+      "citation": "Romans 9:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Therefore he hath mercy on whom he will. And whom he will, he hardeneth.",
+      "citation": "Romans 9:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Thou wilt say therefore to me: Why doth he then find fault?  For who resisteth his will?",
+      "citation": "Romans 9:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "O man, who art thou that repliest against God? Shall the thing formed say to him that formed it: Why hast thou made me thus?",
+      "citation": "Romans 9:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Or hath not the potter power over the clay, of the same lump, to make one vessel unto honour and another unto dishonour?",
+      "citation": "Romans 9:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "What if God, willing to shew his wrath and to make his power known, endured with much patience vessels of wrath, fitted for destruction,",
+      "citation": "Romans 9:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "That he might shew the riches of his glory on the vessels of mercy which he hath prepared unto glory?",
+      "citation": "Romans 9:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Even us, whom also he hath called, not only of the Jews but also of the Gentiles.",
+      "citation": "Romans 9:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "As in Osee he saith: I will call that which was not my people, my people; and her that was not beloved, beloved; and her that had not obtained mercy; one that hath obtained mercy.",
+      "citation": "Romans 9:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And it shalt be in the place where it was said unto them: you are not my people; there they shall be called the sons of the living God.",
+      "citation": "Romans 9:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And Isaias cried out concerning Israel: If the number of the children of Israel be as the sand of the sea, a remnant shall be saved.",
+      "citation": "Romans 9:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "For he shall finish his word and cut it short in justice: because a short word shall the Lord make upon the earth.",
+      "citation": "Romans 9:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And Isaias foretold: Unless the Lord of Sabbath had left us a seed, we had been made as Sodom and we had been like unto Gomorrha.",
+      "citation": "Romans 9:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "What then shall we say? That the Gentiles who followed not after justice have attained to justice, even the justice that is of faith.",
+      "citation": "Romans 9:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "But Israel, by following after the law of justice, is not come unto the law of justice.",
+      "citation": "Romans 9:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "Why so? Because they sought it not by faith, but as it were of works. For they stumbled at the stumblingstone.",
+      "citation": "Romans 9:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "As it is written: Behold I lay in Sion a stumbling-stone and a rock of scandal. And whosoever believeth in him shall not be confounded.",
+      "citation": "Romans 9:33 (Douay-Rheims)"
+    }
+  ]
+}

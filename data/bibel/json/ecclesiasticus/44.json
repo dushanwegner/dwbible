@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 44 — 23 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 44,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/43.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/45.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/44.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/44.json"
+    }
+  },
+  "citation": "Jesus Sirach 44 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Preisen will ich nun die frommen Männer (g), unsere Väter nach ihren Geschlechtern.",
+      "citation": "Jesus Sirach 44:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Viel Ehre hat der Herr ihnen zugeteilt, nämlich seine Herrlichkeit von der Urzeit her:",
+      "citation": "Jesus Sirach 44:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "nämlich Beherrscher der Erde (g) in ihren Königreichen und Männer, berühmt durch ihre Macht, die Rat erteilten durch ihre Einsicht, die Auskunft gaben durch ihre Weissagungen,",
+      "citation": "Jesus Sirach 44:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Führer von Völkern (g) durch Ratschläge und Einsicht und Fürsten durch ihren Scharfblick,",
+      "citation": "Jesus Sirach 44:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "die Lieder ersannen nach den Regeln und Sprüche schriftlich bekannt machten,",
+      "citation": "Jesus Sirach 44:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "reiche Männer, ausgestattet mit Macht und ruhig in ihren Wohnstätten lebend:",
+      "citation": "Jesus Sirach 44:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "alle diese waren zu ihrer Zeit hochgeehrt, und solange sie lebten, bestand ihr Ruhm.",
+      "citation": "Jesus Sirach 44:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Manche von ihnen haben einen Namen hinterlassen, so daß man ihre Ruhmestaten erzählt;",
+      "citation": "Jesus Sirach 44:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "aber an manche von ihnen ist kein Andenken hinterblieben, sondern sie sind untergegangen, als wären sie nie gewesen; sie wurden, als wären sie nie geboren, und ebenso ihre Kinder nach ihnen.",
+      "citation": "Jesus Sirach 44:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Aber dieses sind die frommen Männer (g), deren gerechtes Tun nicht in Vergessenheit geraten ist;",
+      "citation": "Jesus Sirach 44:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "bei ihren Nachkommen verbleibt der Segen und ihr Erbe bei ihren Kindeskindern.",
+      "citation": "Jesus Sirach 44:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Im Bunde verharrt ihr Geschlecht und ihre Kinder um ihretwillen;",
+      "citation": "Jesus Sirach 44:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "auf ewig bleibt ihr Gedächtnis bestehen (g), und ihr Ruhm wird nie vergessen.",
+      "citation": "Jesus Sirach 44:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ihre Leiber wurden in Frieden bestattet, aber ihr Name lebt fort bis in die fernsten Geschlechter.",
+      "citation": "Jesus Sirach 44:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Von ihrer Weisheit erzählt die Volksgemeinde, und ihr Lob verkündet die Versammlung.",
+      "citation": "Jesus Sirach 44:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Henoch wandelte mit Gott (g) und ward entrückt, ein Vorbild der Sinnesänderung für seine Zeitgenossen (h).",
+      "citation": "Jesus Sirach 44:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Der gerechte Noah wurde als untadelig erfunden, zur Zeit des Zornes wurde er der Stammvater (g); um seinetwillen blieb ein Überrest, und infolge des Bundes mit ihm hörte die Flut auf (g).",
+      "citation": "Jesus Sirach 44:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Ein ewiger Bund wurde mit ihm geschlossen, daß nicht (nochmals) alles Fleisch durch eine Flut vertilgt werden sollte.",
+      "citation": "Jesus Sirach 44:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Abraham wurde zum großen Vater einer Menge von Völkern, und niemals ist jemand an Ehre ihm gleich erfunden worden;",
+      "citation": "Jesus Sirach 44:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "er war’s, der das Gebot des Höchsten hielt und in einen Bund mit ihm trat; an seinem Fleische bestätigte er den Bund, und in der Versuchung ward er treu erfunden.",
+      "citation": "Jesus Sirach 44:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Darum verhieß Gott ihm mit einem Eide, daß die Völker durch seine Nachkommenschaft gesegnet werden sollten, nämlich ihn zahlreich zu machen wie den Staub der Erde, und wie die Sterne seine Nachkommenschaft zu erhöhen und ihnen Landbesitz zu verleihen von einem Meer bis zum andern und vom Euphratstrom bis ans Ende der Erde.",
+      "citation": "Jesus Sirach 44:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Auch dem Isaak gab er dieselbe Verheißung um Abrahams, seines Vaters, willen, nämlich den Segen für alle Menschen und den Bund,",
+      "citation": "Jesus Sirach 44:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "und ließ endlich den Segen ruhen auf dem Haupte Jakobs. Er erkannte ihn als einen Erstgeborenen an (g) und gab ihm (das Land) zum Erbbesitz; er sonderte es in seine Gebiete, die er unter die zwölf Stämme verteilte.",
+      "citation": "Jesus Sirach 44:23 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Esther, Chapter 2 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Esther",
+      "slug": "esther",
+      "testament": "OT",
+      "order": 19,
+      "totalChapters": 10
+    },
+    "chapter": 2,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/esther/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/esther/1.json",
+      "nextChapter": "https://latinprayer.org/latin/esther/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/esther/2.json",
+      "german": "https://latinprayer.org/bibel/esther/2.json"
+    }
+  },
+  "citation": "Esther 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "his itaque gestis postquam regis Asueri deferbuerat indignatio recordatus est Vasthi et quae fecisset vel quae passa esset",
+      "citation": "Esther 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dixeruntque pueri regis ac ministri eius quaerantur regi puellae virgines ac speciosae",
+      "citation": "Esther 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et mittantur qui considerent per universas provincias puellas speciosas et virgines et adducant eas ad civitatem Susan et tradant in domum feminarum sub manu Aegaei eunuchi qui est praepositus et custos mulierum regiarum et accipiant mundum muliebrem et cetera ad usus necessaria",
+      "citation": "Esther 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et quaecumque inter omnes oculis regis placuerit ipsa regnet pro Vasthi placuit sermo regi et ita ut suggesserant iussit fieri",
+      "citation": "Esther 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "erat vir iudaeus in Susis civitate vocabulo Mardocheus filius Iair filii Semei filii Cis de stirpe Iemini",
+      "citation": "Esther 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "qui translatus fuerat de Hierusalem eo tempore quo Iechoniam regem Iuda Nabuchodonosor rex Babylonis transtulerat",
+      "citation": "Esther 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui fuit nutricius filiae fratris sui Edessae quae altero nomine Hester vocabatur et utrumque parentem amiserat pulchra nimis et decora facie mortuisque patre eius ac matre Mardocheus sibi eam adoptavit in filiam",
+      "citation": "Esther 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "cumque percrebuisset regis imperium et iuxta mandata illius multae virgines pulchrae adducerentur Susan et Aegaeo traderentur eunucho Hester quoque inter ceteras puellas ei tradita est ut servaretur in numero feminarum",
+      "citation": "Esther 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quae placuit ei et invenit gratiam in conspectu illius ut adceleraret mundum muliebrem et traderet ei partes suas et septem puellas speciosissimas de domo regis et tam ipsam quam pedisequas eius ornaret atque excoleret",
+      "citation": "Esther 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quae noluit indicare ei populum et patriam suam Mardocheus enim praeceperat ut de hac re omnino reticeret",
+      "citation": "Esther 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "qui deambulabat cotidie ante vestibulum domus in qua electae virgines servabantur curam agens salutis Hester et scire volens quid ei accideret",
+      "citation": "Esther 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cum autem venisset tempus singularum per ordinem puellarum ut intrarent ad regem expletis omnibus quae ad cultum muliebrem pertinebant mensis duodecimus vertebatur ita dumtaxat ut sex menses oleo unguerentur myrtino et aliis sex quibusdam pigmentis et aromatibus uterentur",
+      "citation": "Esther 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ingredientesque ad regem quicquid postulassent ad ornatum pertinens accipiebant et ut eis placuerat conpositae de triclinio feminarum ad regis cubiculum transiebant",
+      "citation": "Esther 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et quae intraverat vespere egrediebatur mane atque inde in secundas aedes deducebatur quae sub manu Sasagazi eunuchi erant qui concubinis regis praesidebat nec habebat potestatem ad regem ultra redeundi nisi voluisset rex et eam venire iussisset ex nomine",
+      "citation": "Esther 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "evoluto autem tempore per ordinem instabat dies quo Hester filia Abiahil fratris Mardochei quam sibi adoptaverat in filiam intrare deberet ad regem quae non quaesivit muliebrem cultum sed quaecumque voluit Aegaeus eunuchus custos virginum haec ei ad ornatum dedit erat enim formonsa valde et incredibili pulchritudine omnium oculis gratiosa et amabilis videbatur",
+      "citation": "Esther 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ducta est itaque ad cubiculum regis Asueri mense decimo qui vocatur tebeth septimo anno regni eius",
+      "citation": "Esther 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et amavit eam rex plus quam omnes mulieres habuitque gratiam et misericordiam coram eo super omnes mulieres et posuit diadema regni in capite eius fecitque eam regnare in loco Vasthi",
+      "citation": "Esther 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et iussit convivium praeparari permagnificum cunctis principibus et servis suis pro coniunctione et nuptiis Hester et dedit requiem in universis provinciis ac dona largitus est iuxta magnificentiam principalem",
+      "citation": "Esther 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "cumque et secundo quaererentur virgines et congregarentur Mardocheus manebat ad regis ianuam",
+      "citation": "Esther 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "necdumque prodiderat Hester patriam et populum suum iuxta mandatum eius quicquid enim ille praecipiebat observabat Hester et ita cuncta faciebat ut eo tempore solita erat quo eam parvulam nutriebat",
+      "citation": "Esther 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "eo igitur tempore quo Mardocheus ad regis ianuam morabatur irati sunt Bagathan et Thares duo eunuchi regis qui ianitores erant et in primo palatii limine praesidebant volueruntque insurgere in regem et occidere eum",
+      "citation": "Esther 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quod Mardocheum non latuit statimque nuntiavit reginae Hester et illa regi ex nomine Mardochei qui ad se rem detulerat",
+      "citation": "Esther 2:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "quaesitum est et inventum et adpensus uterque eorum in patibulo mandatumque historiis et annalibus traditum coram rege",
+      "citation": "Esther 2:23 (Clementine Vulgate)"
+    }
+  ]
+}

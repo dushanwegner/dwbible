@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezekiel, Chapter 4 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 4,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ezechiel/3.json",
+      "nextChapter": "https://latinprayer.org/latin/ezechiel/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ezechiel/4.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/4.json"
+    }
+  },
+  "citation": "Ezekiel 4 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et tu fili hominis sume tibi laterem et pones eum coram te et describes in eo civitatem Hierusalem",
+      "citation": "Ezekiel 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et ordinabis adversus eam obsidionem et aedificabis munitiones et conportabis aggerem et dabis contra eam castra et pones arietes in gyro",
+      "citation": "Ezekiel 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et tu sume tibi sartaginem ferream et pones eam murum ferreum inter te et inter civitatem et obfirmabis faciem tuam ad eam et erit in obsidionem et circumdabis eam signum est domui Israhel",
+      "citation": "Ezekiel 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et tu dormies super latus tuum sinistrum et pones iniquitates domus Israhel super eo numero dierum quibus dormies super illud et adsumes iniquitatem eorum",
+      "citation": "Ezekiel 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ego autem dedi tibi annos iniquitatis eorum numero dierum trecentos et nonaginta dies et portabis iniquitatem domus Israhel",
+      "citation": "Ezekiel 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et cum conpleveris haec dormies super latus tuum dextrum secundo et adsumes iniquitatem domus Iuda quadraginta diebus diem pro anno diem inquam pro anno dedi tibi",
+      "citation": "Ezekiel 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et ad obsidionem Hierusalem convertes faciem tuam et brachium tuum erit exertum et prophetabis adversus eam",
+      "citation": "Ezekiel 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ecce circumdedi te vinculis et non te convertes a latere tuo in latus aliud donec conpleas dies obsidionis tuae",
+      "citation": "Ezekiel 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et tu sume tibi frumentum et hordeum et fabam et lentem et milium et viciam et mittes ea in vas unum et facies tibi panes numero dierum quibus dormies super latus tuum trecentis et nonaginta diebus comedes illud",
+      "citation": "Ezekiel 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cibus autem tuus quo vesceris erit in pondere viginti stateres in die a tempore usque ad tempus comedes illud",
+      "citation": "Ezekiel 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et aquam in mensura bibes sextam partem hin a tempore usque ad tempus bibes illud",
+      "citation": "Ezekiel 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et quasi subcinericium hordiacium comedes illud et stercore quod egredietur de homine operies illud in oculis eorum",
+      "citation": "Ezekiel 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et dixit Dominus sic comedent filii Israhel panem suum pollutum inter gentes ad quas eiciam eos",
+      "citation": "Ezekiel 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et dixi ha ha ha Domine Deus ecce anima mea non est polluta et morticinum et laceratum a bestiis non comedi ab infantia mea usque nunc et non est ingressa os meum omnis caro inmunda",
+      "citation": "Ezekiel 4:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et dixit ad me ecce dedi tibi fimum boum pro stercoribus humanis et facies panem tuum in eo",
+      "citation": "Ezekiel 4:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et dixit ad me fili hominis ecce ego conteram baculum panis in Hierusalem et comedent panem in pondere et in sollicitudine et aquam in mensura et in angustia bibent",
+      "citation": "Ezekiel 4:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "ut deficientibus pane et aqua corruat unusquisque ad fratrem suum et contabescant in iniquitatibus suis",
+      "citation": "Ezekiel 4:17 (Clementine Vulgate)"
+    }
+  ]
+}

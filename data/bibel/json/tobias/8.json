@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Tobit, Chapter 8 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Tobit",
+      "slug": "tobias",
+      "testament": "OT",
+      "order": 17,
+      "totalChapters": 14
+    },
+    "chapter": 8,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/tobias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/tobias/7.json",
+      "nextChapter": "https://latinprayer.org/bibel/tobias/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/tobias/8.json",
+      "latin": "https://latinprayer.org/latin/tobias/8.json"
+    }
+  },
+  "citation": "Tobit 8 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als sie nun fertig gespeist hatten, führten sie Tobias zu ihr hinein.",
+      "citation": "Tobit 8:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Dieser war aber beim Eintreten der Mitteilungen Raphaels eingedenk, nahm Glutasche vom Räucherwerk, legte das Herz und die Leber des Fisches darauf und räucherte damit.",
+      "citation": "Tobit 8:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Sobald der Dämon den Dunst roch, floh er in die fernsten Gegenden Oberägyptens, wo der Engel ihn in Fesseln legte.",
+      "citation": "Tobit 8:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als nun die beiden in dem Zimmer eingeschlossen waren, stand Tobias von seinem Lager auf und sagte: »Steh auf, liebe Schwester! wir wollen beten, daß der Herr uns gnädig sei«.",
+      "citation": "Tobit 8:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Dann sprach Tobias folgendermaßen: »Gepriesen seist du, Gott unserer Väter, und gepriesen sei dein heiliger und ruhmvoller Name in alle Ewigkeit! Preisen müssen dich die Himmel und alle deine Geschöpfe!",
+      "citation": "Tobit 8:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Du hast Adam geschaffen und ihm als Gehilfin und Stütze sein Weib Eva gegeben, von denen das Menschengeschlecht ausgegangen ist. Du hast gesagt: ›Es ist nicht gut, daß der Mensch allein sei; wir wollen ihm eine Gehilfin schaffen, die zu ihm paßt‹.",
+      "citation": "Tobit 8:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Und nun, Herr, nehme ich diese meine Schwester hier nicht um der Fleischeslust willen, sondern aus wahrer Zuneigung. Laß mich Gnade finden und mit ihr alt werden!«",
+      "citation": "Tobit 8:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Darauf sprachen sie beide zusammen »Amen!«",
+      "citation": "Tobit 8:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "und schliefen die Nacht über beieinander. Raguel aber war aufgestanden und hingegangen und hatte ein Grab gegraben,",
+      "citation": "Tobit 8:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "indem er dachte: »Wenn nur dieser nicht auch ums Leben kommt!«",
+      "citation": "Tobit 8:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Als er dann in sein Haus zurückgekehrt war,",
+      "citation": "Tobit 8:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "sagte er zu seiner Frau Edna: »Schicke doch eine von den Mägden hin, um zuzusehen, ob er noch lebt; wenn nicht, so wollen wir ihn begraben, ohne daß jemand etwas erfährt«.",
+      "citation": "Tobit 8:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Als nun die Magd die Tür geöffnet hatte und hineingegangen war, fand sie beide schlafend;",
+      "citation": "Tobit 8:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "bei ihrer Rückkehr meldete sie ihnen also, daß er noch lebe.",
+      "citation": "Tobit 8:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Da pries Raguel Gott mit den Worten: »Gepriesen seist du, Gott, mit jeglichem reinen und heiligen Lobpreis! Preisen müssen dich alle deine Heiligen und alle deine Geschöpfe, alle deine Engel und deine Auserwählten in alle Ewigkeit!",
+      "citation": "Tobit 8:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Gepriesen seist du, daß du mich erfreut hast und daß mir das Unheil nicht widerfahren ist, das ich befürchtete, sondern daß du nach deiner großen Barmherzigkeit mit uns verfahren bist!",
+      "citation": "Tobit 8:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Gepriesen seist du, daß du dich dieser beiden einzigen Kinder erbarmt hast! Erweise ihnen Gnade, Herr, und laß sie ihr Leben vollenden in Gesundheit mit Freude und Erbarmen!«",
+      "citation": "Tobit 8:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Dann befahl er seinen Knechten, das Grab wieder zuzuwerfen,",
+      "citation": "Tobit 8:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "und richtete ihnen eine Hochzeitsfeier her vierzehn Tage lang;",
+      "citation": "Tobit 8:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "und ehe die Tage der Hochzeit zu Ende waren, beschwor Raguel den Tobias, er möge nicht abreisen, bevor die vierzehn Hochzeitstage abgelaufen wären;",
+      "citation": "Tobit 8:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "alsdann solle er die Hälfte seines Vermögens in Empfang nehmen und wohlbehalten zu seinem Vater zurückkehren; die andere Hälfte solle er nach dem Tode seiner Schwiegereltern erhalten.",
+      "citation": "Tobit 8:21 (Menge)"
+    }
+  ]
+}

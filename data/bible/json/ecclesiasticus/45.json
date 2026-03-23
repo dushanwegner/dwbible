@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 45 — 31 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 45,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/44.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/46.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/45.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/45.json"
+    }
+  },
+  "citation": "Ecclesiasticus 45 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Moses was beloved of God, and men: whose memory is in benediction.",
+      "citation": "Ecclesiasticus 45:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "He made him like the saints in glory, and magnified him in the fear of his enemies, and with his words he made prodigies to cease.",
+      "citation": "Ecclesiasticus 45:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He glorified him in the sight of kings, and gave him commandments in the sight of his people, and shewed him his glory.",
+      "citation": "Ecclesiasticus 45:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "He sanctified him in his faith, and meekness, and chose him out of all flesh.",
+      "citation": "Ecclesiasticus 45:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For he heard him, and his voice, and brought him into a cloud.",
+      "citation": "Ecclesiasticus 45:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And he gave him commandments before his face, and a law of life and instruction, that he might teach Jacob his covenant, and Israel his judgments.",
+      "citation": "Ecclesiasticus 45:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "He exalted Aaron his brother, and like to himself of the tribe of Levi:",
+      "citation": "Ecclesiasticus 45:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He made an everlasting covenant with him, and gave him the priesthood of the nation, and made him blessed in glory,",
+      "citation": "Ecclesiasticus 45:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And he girded him about with a glorious girdle, and clothed him with a robe of glory, and crowned him with majestic attire.",
+      "citation": "Ecclesiasticus 45:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "He put upon him a garment to the feet, and breeches, and an ephod, and he compassed him with many little bells of gold all round about,",
+      "citation": "Ecclesiasticus 45:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "That as he went there might be a sound, and a noise made that might be heard in the temple, for a memorial to the children of his people.",
+      "citation": "Ecclesiasticus 45:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "He gave him a holy robe of gold, and blue, and purple, a woven work of a wise man, endued with judgment and truth:",
+      "citation": "Ecclesiasticus 45:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Of twisted scarlet the work of an artist, with precious stones cut and set in gold, and graven by the work of a lapidary for a memorial, according to the number of the tribes of Israel.",
+      "citation": "Ecclesiasticus 45:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And a crown of gold upon his mitre wherein was engraved Holiness, an ornament of honour: a work of power, and delightful to the eyes for its beauty.",
+      "citation": "Ecclesiasticus 45:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Before him there were none so beautiful, even from the beginning.",
+      "citation": "Ecclesiasticus 45:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "No stranger was ever clothed with them, but only his children alone, and his grandchildren for ever.",
+      "citation": "Ecclesiasticus 45:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "His sacrifices were consumed with fire every day.",
+      "citation": "Ecclesiasticus 45:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Moses filled his hands and anointed him with holy oil.",
+      "citation": "Ecclesiasticus 45:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "This was made to him for an everlasting testament, and to his seed as the days of heaven, to execute the office of the priesthood, and to have praise, and to glorify his people in his name.",
+      "citation": "Ecclesiasticus 45:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "He chose him out of all men living, to offer sacrifice to God, incense, and a good savour, for a memorial to make reconciliation for his people:",
+      "citation": "Ecclesiasticus 45:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And he gave him power in his commandments, in the covenants of his judgments, that he should teach Jacob his testimonies, and give light to Israel in his law.",
+      "citation": "Ecclesiasticus 45:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And strangers stood up against him, and through envy the men that were with Dathan and Abiron, compassed him about in the wilderness, and the congregation of Core in their wrath.",
+      "citation": "Ecclesiasticus 45:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The Lord God saw and it pleased him not, and they were consumed in his wrathful indignation.",
+      "citation": "Ecclesiasticus 45:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "He wrought wonders upon them, and consumed them with a flame of fire.",
+      "citation": "Ecclesiasticus 45:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And he added glory to Aaron, and gave him an inheritance, and divided unto him the firstfruits of the increase of the earth.",
+      "citation": "Ecclesiasticus 45:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "He prepared them bread in the first place unto fulness: for the sacrifices also of the Lord they shall eat, which he gave to him, and to his seed.",
+      "citation": "Ecclesiasticus 45:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "But he shall not inherit among the people in the land, and he hath no portion among the people: for he himself is his portion and inheritance.",
+      "citation": "Ecclesiasticus 45:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Phinees the son of Eleazar is the third in glory, by imitating him in the fear of the Lord:",
+      "citation": "Ecclesiasticus 45:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And he stood up in the shameful fall of the people: in the goodness and readiness of his soul he appeased God for Israel.",
+      "citation": "Ecclesiasticus 45:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Therefore he made to him a covenant of peace, to be the prince of the sanctuary, and of his people, that the dignity of priesthood should be to him and to his seed for ever.",
+      "citation": "Ecclesiasticus 45:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And a covenant to David the king, the son of Jesse of the tribe of Juda, an inheritance to him and to his seed, that he might give wisdom into our heart to judge his people in justice, that their good things might not be abolished, and he made their glory in their nation everlasting.",
+      "citation": "Ecclesiasticus 45:31 (Douay-Rheims)"
+    }
+  ]
+}

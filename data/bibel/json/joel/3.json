@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joel, Chapter 3 — 5 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joel",
+      "slug": "joel",
+      "testament": "OT",
+      "order": 34,
+      "totalChapters": 4
+    },
+    "chapter": 3,
+    "verseCount": 5,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/joel/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/joel/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/joel/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/joel/3.json",
+      "latin": "https://latinprayer.org/latin/joel/3.json"
+    }
+  },
+  "citation": "Joel 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Und danach wird es geschehen, daß ich meinen Geist über alles Fleisch ausgieße, so daß eure Söhne und eure Töchter prophetisch reden, eure Greise Offenbarungen in Träumen empfangen, eure jungen Leute Gesichte schauen;",
+      "citation": "Joel 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "ja auch über die Knechte und Mägde will ich in jenen Tagen meinen Geist ausgießen;",
+      "citation": "Joel 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "und ich will Wunderzeichen am Himmel und auf der Erde erscheinen lassen; nämlich Blut, Feuer und Rauchsäulen:",
+      "citation": "Joel 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "die Sonne wird sich in Finsternis verwandeln und der Mond in Blut, ehe der Tag des HERRN kommt, der große und furchtbare.«",
+      "citation": "Joel 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ein jeder aber, der den Namen des HERRN anruft, wird gerettet; denn auf dem Berge Zion und in Jerusalem wird Rettung sein, wie der HERR es verheißen hat; und zu den Entronnenen wird jeder gehören, den der HERR beruft.",
+      "citation": "Joel 3:5 (Menge)"
+    }
+  ]
+}

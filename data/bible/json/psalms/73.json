@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 73 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 73,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/72.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/74.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/73.json",
+      "german": "https://latinprayer.org/bibel/psalms/73.json"
+    }
+  },
+  "citation": "Psalms 73 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A psalm for Asaph. How good is God to Israel, to them that are of a right heart!",
+      "citation": "Psalms 73:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But my feet were almost moved; my steps had well nigh slipped.",
+      "citation": "Psalms 73:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Because I had a zeal on occasion of the wicked, seeing the prosperity of sinners.",
+      "citation": "Psalms 73:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For there is no regard to their death, nor is there strength in their stripes.",
+      "citation": "Psalms 73:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "They are not in the labour of men: neither shall they be scourged like other men.",
+      "citation": "Psalms 73:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Therefore pride hath held them fast: they are covered with their iniquity and their wickedness.",
+      "citation": "Psalms 73:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Their iniquity hath come forth, as it were from fatness: they have passed into the affection of the heart.",
+      "citation": "Psalms 73:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "They have thought and spoken wickedness: they have spoken iniquity on high.",
+      "citation": "Psalms 73:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "They have set their mouth against heaven: and their tongue hath passed through the earth.",
+      "citation": "Psalms 73:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Therefore will my people return here and full days shall be found in them.",
+      "citation": "Psalms 73:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And they said: How doth God know? and is there knowledge in the most High?",
+      "citation": "Psalms 73:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Behold these are sinners; and yet, abounding in the world they have obtained riches.",
+      "citation": "Psalms 73:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And I said: Then have I in vain justified my heart, and washed my hands among the innocent.",
+      "citation": "Psalms 73:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And I have been scourged all the day; and my chastisement hath been in the mornings.",
+      "citation": "Psalms 73:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "If I said: I will speak thus; behold I should condemn the generation of thy children.",
+      "citation": "Psalms 73:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "I studied that I might know this thing, it is a labour in my sight:",
+      "citation": "Psalms 73:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Until I go into the sanctuary of God, and understand concerning their last ends.",
+      "citation": "Psalms 73:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "But indeed for deceits thou hast put it to them: when they were lifted up thou hast cast them down.",
+      "citation": "Psalms 73:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "How are they brought to desolation? they have suddenly ceased to be: they have perished by reason of their iniquity.",
+      "citation": "Psalms 73:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "As the dream of them that awake, O Lord; so in thy city thou shalt bring their image to nothing.",
+      "citation": "Psalms 73:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "For my heart hath been inflamed, and my reins have been changed:",
+      "citation": "Psalms 73:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And I am brought to nothing, and I knew not.",
+      "citation": "Psalms 73:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "I am become as a beast before thee: and I am always with thee.",
+      "citation": "Psalms 73:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Thou hast held me by my right hand; and by thy will thou hast conducted me, and with thy glory thou hast received me.",
+      "citation": "Psalms 73:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "For what have I in heaven? and besides thee what do I desire upon earth?",
+      "citation": "Psalms 73:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "For thee my flesh and my heart hath fainted away: thou art the God of my heart, and the God that is my portion for ever.",
+      "citation": "Psalms 73:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "For behold they that go far from thee shall perish: thou hast destroyed all them that are disloyal to thee.",
+      "citation": "Psalms 73:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "But it is good for me to adhere to my God, to put my hope in the Lord God: That I may declare all thy praises, in the gates of the daughter of Sion.",
+      "citation": "Psalms 73:28 (Douay-Rheims)"
+    }
+  ]
+}

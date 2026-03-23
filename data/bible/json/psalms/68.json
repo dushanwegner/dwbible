@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 68 — 36 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 68,
+    "verseCount": 36,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/67.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/69.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/68.json",
+      "german": "https://latinprayer.org/bibel/psalms/68.json"
+    }
+  },
+  "citation": "Psalms 68 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Let God arise, and let his enemies be scattered: and let them that hate him flee from before his face.",
+      "citation": "Psalms 68:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, for them that shall be changed; for David.",
+      "citation": "Psalms 68:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "As smoke vanisheth, so let them vanish away: as wax melteth before the fire, so let the wicked perish at the presence of God.",
+      "citation": "Psalms 68:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And let the just feast, and rejoice before God: and be delighted with gladness.",
+      "citation": "Psalms 68:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Sing ye to God, sing a psalm to his name, make a way for him who ascendeth upon the west: the Lord is his name. Rejoice ye before him: but the wicked shall be troubled at his presence,",
+      "citation": "Psalms 68:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Who is the father of orphans, and the judge of widows. God in his holy place:",
+      "citation": "Psalms 68:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "God who maketh men of one manner to dwell in a house: Who bringeth out them that were bound in strength; in like manner them that provoke, that dwell in sepulchres.",
+      "citation": "Psalms 68:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "O God, when thou didst go forth in the sight of thy people, when thou didst pass through the desert:",
+      "citation": "Psalms 68:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The earth was moved, and the heavens dropped at the presence of the God of Sina, at the presence of the God of Israel.",
+      "citation": "Psalms 68:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thou shalt set aside for thy inheritance a free rain, O God: and it was weakened, but thou hast made it perfect.",
+      "citation": "Psalms 68:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "In it shall thy animals dwell; in thy sweetness, O God, thou hast provided for the poor.",
+      "citation": "Psalms 68:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The Lord shall give the word to them that preach good tidings with great power.",
+      "citation": "Psalms 68:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The king of powers is of the beloved, of the beloved; and the beauty of the house shall divide spoils.",
+      "citation": "Psalms 68:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "If you sleep among the midst of lots, you shall be as the wings of a dove covered with silver, and the hinder parts of her back with the paleness of gold.",
+      "citation": "Psalms 68:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "When he that is in heaven appointeth kings over her, they shall be whited with snow in Selmon.",
+      "citation": "Psalms 68:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The mountain of God is a fat mountain. A curdled mountain, a fat mountain.",
+      "citation": "Psalms 68:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Why suspect, ye curdled mountains? A mountain in which God is well pleased to dwell: for there the Lord shall dwell unto the end.",
+      "citation": "Psalms 68:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The chariot of God is attended by ten thousands; thousands of them that rejoice: the Lord is among them in Sina, in the holy place.",
+      "citation": "Psalms 68:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Thou hast ascended on high, thou hast led captivity captive; thou hast received gifts in men. Yea for those also that do not believe, the dwelling of the Lord God.",
+      "citation": "Psalms 68:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Blessed be the Lord day by day: the God of our salvation will make our journey prosperous to us.",
+      "citation": "Psalms 68:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Our God is the God of salvation: and of the Lord, of the Lord are the issues from death.",
+      "citation": "Psalms 68:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "But God shall break the heads of his enemies: the hairy crown of them that walk on in their sins.",
+      "citation": "Psalms 68:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The Lord said: I will turn them from Basan, I will turn them into the depth of the sea:",
+      "citation": "Psalms 68:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "That thy foot may be dipped in the blood of thy enemies; the tongue of thy dogs be red with the same.",
+      "citation": "Psalms 68:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "They have seen thy goings, O God, the goings of my God: of my king who is in his sanctuary.",
+      "citation": "Psalms 68:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Princes went before joined with singers, in the midst of young damsels playing on timbrels.",
+      "citation": "Psalms 68:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "In the churches bless ye God the Lord, from the fountains of Israel.",
+      "citation": "Psalms 68:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "There is Benjamin a youth, in ecstasy of mind. The princes of Juda are their leaders: the princes of Zabulon, the princes of Nephthali.",
+      "citation": "Psalms 68:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Command thy strength, O God confirm, O God, what thou hast wrought in us.",
+      "citation": "Psalms 68:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "From thy temple in Jerusalem, kings shall offer presents to thee.",
+      "citation": "Psalms 68:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Rebuke the wild beasts of the reeds, the congregation of bulls with the kine of the people; who seek to exclude them who are tried with silver. Scatter thou the nations that delight in wars:",
+      "citation": "Psalms 68:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Ambassadors shall come out of Egypt: Ethiopia shall soon stretch out her hands to God.",
+      "citation": "Psalms 68:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "Sing to God, ye kingdoms of the earth: sing ye to the Lord: Sing ye to God,",
+      "citation": "Psalms 68:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Who mounteth above the heaven of heavens, to the east. Behold he will give to his voice the voice of power:",
+      "citation": "Psalms 68:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "Give ye glory to God for Israel, his magnificence, and his power is in the clouds.",
+      "citation": "Psalms 68:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "God is wonderful in his saints: the God of Israel is he who will give power and strength to his people. Blessed be God.",
+      "citation": "Psalms 68:35 (Douay-Rheims)"
+    }
+  ]
+}

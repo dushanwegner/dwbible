@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 1 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 1,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/exodus/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/1.json",
+      "german": "https://latinprayer.org/bibel/exodus/1.json"
+    }
+  },
+  "citation": "Exodus 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "haec sunt nomina filiorum Israhel qui ingressi sunt Aegyptum cum Iacob singuli cum domibus suis introierunt",
+      "citation": "Exodus 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Ruben Symeon Levi Iuda",
+      "citation": "Exodus 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "Isachar Zabulon et Beniamin",
+      "citation": "Exodus 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Dan et Nepthalim Gad et Aser",
+      "citation": "Exodus 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "erant igitur omnes animae eorum qui egressi sunt de femore Iacob septuaginta Ioseph autem in Aegypto erat",
+      "citation": "Exodus 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quo mortuo et universis fratribus eius omnique cognatione illa",
+      "citation": "Exodus 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "filii Israhel creverunt et quasi germinantes multiplicati sunt ac roborati nimis impleverunt terram",
+      "citation": "Exodus 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "surrexit interea rex novus super Aegyptum qui ignorabat Ioseph",
+      "citation": "Exodus 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et ait ad populum suum ecce populus filiorum Israhel multus et fortior nobis",
+      "citation": "Exodus 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "venite sapienter opprimamus eum ne forte multiplicetur et si ingruerit contra nos bellum addatur inimicis nostris expugnatisque nobis egrediatur e terra",
+      "citation": "Exodus 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "praeposuit itaque eis magistros operum ut adfligerent eos oneribus aedificaveruntque urbes tabernaculorum Pharaoni Phiton et Ramesses",
+      "citation": "Exodus 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quantoque opprimebant eos tanto magis multiplicabantur et crescebant",
+      "citation": "Exodus 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "oderantque filios Israhel Aegyptii et adfligebant inludentes eis",
+      "citation": "Exodus 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "atque ad amaritudinem perducebant vitam eorum operibus duris luti et lateris omnique famulatu quo in terrae operibus premebantur",
+      "citation": "Exodus 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "dixit autem rex Aegypti obsetricibus Hebraeorum quarum una vocabatur Sephra altera Phua",
+      "citation": "Exodus 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "praecipiens eis quando obsetricabitis Hebraeas et partus tempus advenerit si masculus fuerit interficite illum si femina reservate",
+      "citation": "Exodus 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "timuerunt autem obsetrices Deum et non fecerunt iuxta praeceptum regis Aegypti sed conservabant mares",
+      "citation": "Exodus 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quibus ad se accersitis rex ait quidnam est hoc quod facere voluistis ut pueros servaretis",
+      "citation": "Exodus 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quae responderunt non sunt hebraeae sicut aegyptiae mulieres ipsae enim obsetricandi habent scientiam et priusquam veniamus ad eas pariunt",
+      "citation": "Exodus 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "bene ergo fecit Deus obsetricibus et crevit populus confortatusque est nimis",
+      "citation": "Exodus 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et quia timuerant obsetrices Deum aedificavit illis domos",
+      "citation": "Exodus 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "praecepit autem Pharao omni populo suo dicens quicquid masculini sexus natum fuerit in flumen proicite quicquid feminei reservate",
+      "citation": "Exodus 1:22 (Clementine Vulgate)"
+    }
+  ]
+}

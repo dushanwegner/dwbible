@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Paralipomenon, Chapter 3 — 24 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Paralipomenon",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 3,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-paralipomenon/2.json",
+      "nextChapter": "https://latinprayer.org/bible/1-paralipomenon/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-paralipomenon/3.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/3.json"
+    }
+  },
+  "citation": "1. Paralipomenon 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now these were the sons of David that were born to him in Hebron: the firstborn Amnon of Achinoam the Jezrahelitess, the second Daniel of Abigail the Carmelitess.",
+      "citation": "1. Paralipomenon 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The third Absalom the son of Maacha the daughter of Tolmai king of Gessur, the fourth Adonias the son of Aggith,",
+      "citation": "1. Paralipomenon 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The fifth Saphatias of Abital, the sixth Jethrahem of Egla his wife.",
+      "citation": "1. Paralipomenon 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "So six sons were born to him in Hebron, where he reigned seven years and six months. And in Jerusalem he reigned three and thirty years.",
+      "citation": "1. Paralipomenon 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And these sons were born to him in Jerusalem: Simmaa, and Sobab, and Nathan, and Solomon, four of Bethsabee the daughter of Ammiel.",
+      "citation": "1. Paralipomenon 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Jebaar also and Elisama,",
+      "citation": "1. Paralipomenon 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And Eliphaleth, and Noge, and Nepheg, and Japhia,",
+      "citation": "1. Paralipomenon 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And Elisama, and Eliada, and Elipheleth, nine:",
+      "citation": "1. Paralipomenon 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "All these the sons of David, beside the sons of the concubines: and they had a sister Thamar.",
+      "citation": "1. Paralipomenon 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And Solomon's son was Roboam: whose son Abia begot Asa. And his son was Josaphat,",
+      "citation": "1. Paralipomenon 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The father of Joram: and Joram begot Ochozias, of whom was born Joas:",
+      "citation": "1. Paralipomenon 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And his son Amasias begot Azarias. And Joathan the son of Azarias",
+      "citation": "1. Paralipomenon 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Begot Achaz, the father of Ezechias, of whom was born Manasses.",
+      "citation": "1. Paralipomenon 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And Manasses begot Amon the father of Josias.",
+      "citation": "1. Paralipomenon 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And the sons of Josias were, the firstborn Johanan, the second Joakim, the third Sedecias, the fourth Sellum.",
+      "citation": "1. Paralipomenon 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Of Joakim was born Jechonias, and Sedecias.",
+      "citation": "1. Paralipomenon 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The sons of Jechonias were Asir, Salathiel,",
+      "citation": "1. Paralipomenon 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Melchiram, Phadaia, Senneser and Jecemia, Sama, and Nadabia.",
+      "citation": "1. Paralipomenon 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Of Phadaia were born Zorobabel and Semei. Zorobabel begot Mosollam, Hananias, and Salomith their sister:",
+      "citation": "1. Paralipomenon 3:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Hasaba also, and Ohol, and Barachias, and Hasadias, Josabhesed, five.",
+      "citation": "1. Paralipomenon 3:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And the son of Hananias was Phaltias the father of Jeseias, whose son was Raphaia. And his son was Arnan, of whom was born Obdia, whose son was Sechenias.",
+      "citation": "1. Paralipomenon 3:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The son of Sechenias was Semeia, whose sons were Hattus, and Jegaal, and Baria, and Naaria, and Saphat, six in number.",
+      "citation": "1. Paralipomenon 3:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The sons of Naaria, Elioenai, and Ezechias, and Ezricam, three.",
+      "citation": "1. Paralipomenon 3:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "The sons of Elioenai, Oduia, and Eliasub, and Pheleia, and Accub, and Johanan, and Dalaia, and Anani, seven.",
+      "citation": "1. Paralipomenon 3:24 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Samuel, Chapter 31 — 12 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Samuel",
+      "slug": "1-kings-samuel",
+      "testament": "OT",
+      "order": 9,
+      "totalChapters": 31
+    },
+    "chapter": 31,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-kings-samuel/30.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-kings-samuel/31.json",
+      "german": "https://latinprayer.org/bibel/1-kings-samuel/31.json"
+    }
+  },
+  "citation": "1 Samuel 31 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Philisthim autem pugnabant adversum Israhel et fugerunt viri Israhel ante faciem Philisthim et ceciderunt interfecti in monte Gelboe",
+      "citation": "1 Samuel 31:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "inrueruntque Philisthim in Saul et filios eius et percusserunt Ionathan et Abinadab et Melchisue filios Saul",
+      "citation": "1 Samuel 31:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "totumque pondus proelii versum est in Saul et consecuti sunt eum viri sagittarii et vulneratus est vehementer a sagittariis",
+      "citation": "1 Samuel 31:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "dixitque Saul ad armigerum suum evagina gladium tuum et percute me ne forte veniant incircumcisi isti et interficiant me inludentes mihi et noluit armiger eius fuerat enim nimio timore perterritus arripuit itaque Saul gladium et inruit super eum",
+      "citation": "1 Samuel 31:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quod cum vidisset armiger eius videlicet quod mortuus esset Saul inruit etiam ipse super gladium suum et mortuus est cum eo",
+      "citation": "1 Samuel 31:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "mortuus est ergo Saul et tres filii eius et armiger illius et universi viri eius in die illa pariter",
+      "citation": "1 Samuel 31:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "videntes autem viri Israhel qui erant trans vallem et trans Iordanem quod fugissent viri israhelitae et quod mortuus esset Saul et filii eius reliquerunt civitates suas et fugerunt veneruntque Philisthim et habitaverunt ibi",
+      "citation": "1 Samuel 31:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "facta autem die altera venerunt Philisthim ut spoliarent interfectos et invenerunt Saul et tres filios eius iacentes in monte Gelboe",
+      "citation": "1 Samuel 31:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et praeciderunt caput Saul et expoliaverunt eum armis et miserunt in terram Philisthinorum per circuitum ut adnuntiaretur in templo idolorum et in populis",
+      "citation": "1 Samuel 31:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et posuerunt arma eius in templo Astharoth corpus vero eius suspenderunt in muro Bethsan",
+      "citation": "1 Samuel 31:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quod cum audissent habitatores Iabesgalaad quaecumque fecerant Philisthim Saul",
+      "citation": "1 Samuel 31:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "surrexerunt omnes viri fortissimi et ambulaverunt tota nocte et tulerunt cadaver Saul et cadavera filiorum eius de muro Bethsan veneruntque Iabes et conbuserunt ea ibi",
+      "citation": "1 Samuel 31:12 (Clementine Vulgate)"
+    }
+  ]
+}

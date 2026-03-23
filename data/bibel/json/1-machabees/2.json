@@ -1,0 +1,386 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Makkabäer, Chapter 2 — 70 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Makkabäer",
+      "slug": "1-machabees",
+      "testament": "OT",
+      "order": 45,
+      "totalChapters": 16
+    },
+    "chapter": 2,
+    "verseCount": 70,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-machabees/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-machabees/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-machabees/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-machabees/2.json",
+      "latin": "https://latinprayer.org/latin/1-machabees/2.json"
+    }
+  },
+  "citation": "1 Makkabäer 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Zu jener Zeit trat Mattathias auf, ein Sohn des Johannes, des Sohnes Simeons, ein Priester aus der Familie Jojaribs von Jerusalem; er hatte seinen Wohnsicht in Modein genommen.",
+      "citation": "1 Makkabäer 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Er hatte fünf Söhne: Johannes mit dem Beinamen Gaddis,",
+      "citation": "1 Makkabäer 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Simeon, genannt Thassis,",
+      "citation": "1 Makkabäer 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Judas, genannt Makkabäus,",
+      "citation": "1 Makkabäer 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Eleasar, genannt Awaran, und Jonathan, genannt Apphus.",
+      "citation": "1 Makkabäer 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Als er nun alle die Abscheulichkeiten sah, die in Juda und Jerusalem verübt wurden,",
+      "citation": "1 Makkabäer 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "rief er aus: »Wehe mir! Warum bin ich dazu geboren worden, die Vernichtung meines Volks und die Vernichtung der heiligen Stadt zu sehen und müßig dazusitzen, während sie der Gewalt der Feinde und das Heiligtum der Gewalt von Ausländern preisgegeben ist!«",
+      "citation": "1 Makkabäer 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Ihr Haus ist geworden, wie das eines entehrten Mannes,",
+      "citation": "1 Makkabäer 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "ihre herrlichen Geräte sind als Raub hinweggeführt, ihre Kindlein liegen gemordet auf ihren Straßen, ihre jungen Männer sind durch das Schwert der Feinde gefallen!",
+      "citation": "1 Makkabäer 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Welches Volk hat sich nicht die Herrschaft in ihr angeeignet und sich nicht mit ihrer Beute bereichert?",
+      "citation": "1 Makkabäer 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "All ihr Schmuck ist weggenommen, aus einer Freien ist sie zur Magd geworden!",
+      "citation": "1 Makkabäer 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Ach ja, was uns heilig war, und unsere Schönheit und unsere Herrlichkeit ist verwüstet, und Heiden haben es entweiht!",
+      "citation": "1 Makkabäer 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wozu nützt uns noch das Leben?",
+      "citation": "1 Makkabäer 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Und Mattathias und seine Söhne zerrissen ihre Kleider, legten Trauergewänder an und trugen schweres Leid.",
+      "citation": "1 Makkabäer 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Da kamen die königlichen Beamten, die den Abfall erzwingen sollten, nach der Ortschaft Modein, um die Einwohner zum Opfern zu bringen,",
+      "citation": "1 Makkabäer 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "und viele von den Israeliten schlossen sich ihnen an; auch Mattathias und seine Söhne gingen in die Versammlung.",
+      "citation": "1 Makkabäer 2:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Da nahmen die Beamten des Königs das Wort und richteten an Mattathias folgende Ansprache: »Du bist ein Oberster, angesehen und hochstehend in diesem Orte und einflußreich durch Söhne und Brüder.",
+      "citation": "1 Makkabäer 2:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "So tritt du nun zuerst heran und komm der königlichen Verordnung nach, wie alle Völker es getan haben, auch die Männer von Juda und die in Jerusalem Zurückgebliebenen; so wirst du und dein ganzes Haus zu den Freunden des Königs gehören, und du und deine Söhne, ihr werdet mit Silber und Gold und vielen Geschenken geehrt werden«.",
+      "citation": "1 Makkabäer 2:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Mattathias aber gab mit lauter Stimme folgende Antwort: »Wenn auch alle Völker im ganzen Bereich der Herrschaft des Königs ihm Gehorsam leisten, so daß jeder vom Gottesglauben seiner Väter abfällt und sie sich willig seinen Geboten gefügt haben,",
+      "citation": "1 Makkabäer 2:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "so wollen doch ich und meine Söhne und meine Brüder weiterhin im Bunde unserer Väter wandeln!",
+      "citation": "1 Makkabäer 2:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Gott behüte uns davor, daß wir unser Gesetz und die Satzungen fahren lassen sollten!",
+      "citation": "1 Makkabäer 2:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Den Geboten des Königs werden wir nicht gehorchen, daß wir von unserer Gottesverehrung nach rechts oder nach links abweichen sollten!«",
+      "citation": "1 Makkabäer 2:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Kaum hatte er ausgeredet, da trat ein jüdischer Mann vor aller Augen herzu, um auf dem Altar in Modein nach dem Befehle des Königs zu opfern.",
+      "citation": "1 Makkabäer 2:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Als Mattathias das sah, geriet er in heiligen Eifer: er erbebte bis ins Innerste und ließ seinem Zorne freien Lauf, wie es recht war; er lief hin und erschlug den Mann am Altar.",
+      "citation": "1 Makkabäer 2:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Zugleich tötete er aber auch den königlichen Beamten, der das Opfer hatte erzwingen wollen, und riß den Altar nieder.",
+      "citation": "1 Makkabäer 2:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Er eiferte auf diese Weise für das Gesetz so, wie es einst Pinehas an Simbri, dem Sohne Saloms, getan hatte.",
+      "citation": "1 Makkabäer 2:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Hierauf ließ Mattathias in der Ortschaft den lauten Ruf erschallen: »Wer da für das Gesetz eifert und am Bunde festhalten will, der ziehe aus, mir nach!«",
+      "citation": "1 Makkabäer 2:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "So floh er denn mit seinen Söhnen ins Gebirge; all ihr Hab und Gut ließen sie im Orte zurück.",
+      "citation": "1 Makkabäer 2:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Damals zogen viele, denen Gerechtigkeit und Recht am Herzen lag, in die Wüste hinab, um dort ihren Wohnsitz zu nehmen,",
+      "citation": "1 Makkabäer 2:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "sie selbst mit Weib und Kind und ihrem Vieh, weil die Mißhandlungen übergroß für sie geworden waren.",
+      "citation": "1 Makkabäer 2:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Als nun die königlichen Beamten und die Truppen, die sich zu Jerusalem in der Davidsstadt befanden, die Kunde erhielten, es seien Leute, die sich dem Gebot des Königs widersetzt hätten, in die Schlupfwinkel in der Wüste hinabgezogen,",
+      "citation": "1 Makkabäer 2:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "eilten sie in einem starken Aufgebot hinter ihnen her, und als sie auf sie gestoßen waren, umlagerten sie sie und rüsteten sich zum Angriff gegen sie am Sabbattage.",
+      "citation": "1 Makkabäer 2:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Sie ließen ihnen dann sagen: »Nun ist’s genug! Kommt heraus und tut nach dem Gebot des Königs, so sollt ihr am Leben bleiben!«",
+      "citation": "1 Makkabäer 2:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Doch sie antworteten: »Wir werden nicht herauskommen und dem Gebot des Königs nicht Folge leisten, daß wir den Sabbat entheiligen sollten!«",
+      "citation": "1 Makkabäer 2:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Da gingen jene sofort zum Angriff gegen sie vor;",
+      "citation": "1 Makkabäer 2:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "sie aber antworteten ihnen nicht weiter, schleuderten auch keine Steine gegen sie, noch verrammelten sie ihre Schlupfwinkel,",
+      "citation": "1 Makkabäer 2:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "sondern sagten: »Wir wollen alle in unserer Einfalt sterben! Der Himmel und die Erde sind unsere Zeugen, daß ihr uns ungerechterweise ums Leben bringt!«",
+      "citation": "1 Makkabäer 2:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "So gingen jene also zum Angriff gegen sie am Sabbat vor, und so kamen diese ums Leben samt ihren Weibern und Kindern und ihrem Vieh, etwa tausend Menschenseelen.",
+      "citation": "1 Makkabäer 2:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Als Mattathias und seine Freunde dies erfuhren, trauerten sie schmerzerfüllt um sie;",
+      "citation": "1 Makkabäer 2:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "und sie sagten einer zum anderen: »Wenn wir alle es so machen, wie unsere Brüder getan haben, und nicht für unser Leben und unsere Satzungen gegen die Heiden kämpfen, so werden sie uns gar bald von der Erde vertilgen«.",
+      "citation": "1 Makkabäer 2:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "So faßten sie denn an jenem Tage folgenden Beschluß: »Wenn irgend jemand uns am Sabbattage angreift, so wollen wir uns mit den Waffen zur Wehr setzen, damit wir nicht alle zugrunde gehen, wie unsere Brüder in ihren Verstecken umgekommen sind«.",
+      "citation": "1 Makkabäer 2:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "Damals traf als Verstärkung eine Schar von Asidäern bei ihnen ein, tapfere Männer aus Israel, lauter solche, die sich willig in den Dienst des Gesetzes stellten;",
+      "citation": "1 Makkabäer 2:42 (Menge)"
+    },
+    {
+      "verse": 43,
+      "text": "und alle, die sich dem Unheil durch die Flucht zu entziehen suchten, schlossen sich an sie an und verstärkten sie.",
+      "citation": "1 Makkabäer 2:43 (Menge)"
+    },
+    {
+      "verse": 44,
+      "text": "So brachten sie ein Heer zusammen und schlugen die Sünder in ihrem Zorn und die gottlosen Männer in ihrem Grimm nieder; was von diesen übrig blieb, floh zu den Heiden, um sich in Sicherheit zu bringen.",
+      "citation": "1 Makkabäer 2:44 (Menge)"
+    },
+    {
+      "verse": 45,
+      "text": "Mattathias aber und seine Genossen zogen rings umher, zerstörten die Altäre im Lande",
+      "citation": "1 Makkabäer 2:45 (Menge)"
+    },
+    {
+      "verse": 46,
+      "text": "und beschnitten mit Gewalt die Kinder, die noch unbeschnitten waren, soviele sie deren im Gebiete Israels fanden;",
+      "citation": "1 Makkabäer 2:46 (Menge)"
+    },
+    {
+      "verse": 47,
+      "text": "sie setzten den übermütigen (Feinden) hart zu, und alles, was sie unternahmen, hatte guten Fortgang;",
+      "citation": "1 Makkabäer 2:47 (Menge)"
+    },
+    {
+      "verse": 48,
+      "text": "sie verteidigten das Gesetz erfolgreich gegen die Macht der Heiden und gegen die Macht des Königshauses und ließen die Sünder nicht hochkommen.",
+      "citation": "1 Makkabäer 2:48 (Menge)"
+    },
+    {
+      "verse": 49,
+      "text": "Als es nun mit den Lebenstagen des Mattathias zu Ende ging, sprach er zu seinen Söhnen: »Jetzt herrscht rücksichtsloser Übermut und schwere Prüfung; es ist eine Zeit der Zerstörung und eines grimmigen Strafgerichts eingetreten.",
+      "citation": "1 Makkabäer 2:49 (Menge)"
+    },
+    {
+      "verse": 50,
+      "text": "So seid denn Eiferer, meine Söhne, für das Gesetz und gebt euer Leben hin für den Bund unserer Väter!",
+      "citation": "1 Makkabäer 2:50 (Menge)"
+    },
+    {
+      "verse": 51,
+      "text": "Bleibt der Taten unserer Väter eingedenk, alles dessen, was sie zu ihrer Zeit vollführt haben, so werdet ihr hohen Ruhm und einen unsterblichen Namen erlangen.",
+      "citation": "1 Makkabäer 2:51 (Menge)"
+    },
+    {
+      "verse": 52,
+      "text": "Ist nicht Abraham in der Prüfung treu erfunden und dies ihm als Gerechtigkeit angerechnet worden?",
+      "citation": "1 Makkabäer 2:52 (Menge)"
+    },
+    {
+      "verse": 53,
+      "text": "Joseph hielt zur Zeit seiner Bedrängnis am Gebote Gottes fest und wurde so der Gebieter Ägyptens.",
+      "citation": "1 Makkabäer 2:53 (Menge)"
+    },
+    {
+      "verse": 54,
+      "text": "Unser Ahnherr Pinehas empfing, weil er großen Eifer für Gott bewies, die Zusicherung eines ewigen Priestertums;",
+      "citation": "1 Makkabäer 2:54 (Menge)"
+    },
+    {
+      "verse": 55,
+      "text": "Josua wurde Richter in Israel, weil er den Auftrag Gottes erfüllte;",
+      "citation": "1 Makkabäer 2:55 (Menge)"
+    },
+    {
+      "verse": 56,
+      "text": "Kaleb empfing Landbesitz als Erbteil, weil er vor der Gemeinde Zeugnis (für Gott) abgelegt hatte;",
+      "citation": "1 Makkabäer 2:56 (Menge)"
+    },
+    {
+      "verse": 57,
+      "text": "David gewann durch seine Frömmigkeit einen Königsthron für ewige Zeiten;",
+      "citation": "1 Makkabäer 2:57 (Menge)"
+    },
+    {
+      "verse": 58,
+      "text": "Elias wurde wegen seines Eiferns für das Gesetz in den Himmel emporgehoben;",
+      "citation": "1 Makkabäer 2:58 (Menge)"
+    },
+    {
+      "verse": 59,
+      "text": "Ananias, Asarja und Michael wurden wegen ihres Gottvertrauens aus der Flammenglut errettet;",
+      "citation": "1 Makkabäer 2:59 (Menge)"
+    },
+    {
+      "verse": 60,
+      "text": "Daniel wurde um seiner Unschuld willen vor dem Rachen der Löwen behütet.",
+      "citation": "1 Makkabäer 2:60 (Menge)"
+    },
+    {
+      "verse": 61,
+      "text": "Und so könnt ihr es von Geschlecht zu Geschlecht bestätigt finden, daß alle, die ihre Hoffnung auf Gott setzen, nicht unterliegen werden.",
+      "citation": "1 Makkabäer 2:61 (Menge)"
+    },
+    {
+      "verse": 62,
+      "text": "Fürchtet euch also nicht vor den Drohworten eines sündigen Menschen! denn seine Herrlichkeit wird zu Kot werden und den Würmern zum Fraß dienen.",
+      "citation": "1 Makkabäer 2:62 (Menge)"
+    },
+    {
+      "verse": 63,
+      "text": "Heute steigt er hoch empor, und morgen ist er nicht mehr zu finden; denn er ist wieder zu Staub geworden, und mit seinen Anschlägen ist’s vorbei.",
+      "citation": "1 Makkabäer 2:63 (Menge)"
+    },
+    {
+      "verse": 64,
+      "text": "Ihr aber, meine Söhne, seid stark und steht mannhaft für das Gesetz ein; denn dadurch werdet ihr Ruhm ernten.",
+      "citation": "1 Makkabäer 2:64 (Menge)"
+    },
+    {
+      "verse": 65,
+      "text": "Und seht: da ist euer Bruder Simeon; ich weiß, daß er ein kluger Mann ist; auf ihn hört allezeit: er soll Vaterstelle bei euch vertreten!",
+      "citation": "1 Makkabäer 2:65 (Menge)"
+    },
+    {
+      "verse": 66,
+      "text": "Judas der Makkabäer aber, der von Jugend auf ein tapferer Held gewesen ist, der soll euer Heerführer sein und den Krieg der Stämme (unseres Volkes) leiten.",
+      "citation": "1 Makkabäer 2:66 (Menge)"
+    },
+    {
+      "verse": 67,
+      "text": "Ihr aber, sammelt um euch alle, die dem Gesetz treu sind, und vollzieht die Rache für euer Volk!",
+      "citation": "1 Makkabäer 2:67 (Menge)"
+    },
+    {
+      "verse": 68,
+      "text": "Übt Vergeltung an den Heiden und haltet fest an den Geboten des Gesetzes!«",
+      "citation": "1 Makkabäer 2:68 (Menge)"
+    },
+    {
+      "verse": 69,
+      "text": "Hierauf segnete er sie und wurde zu seinen Vätern versammelt;",
+      "citation": "1 Makkabäer 2:69 (Menge)"
+    },
+    {
+      "verse": 70,
+      "text": "er starb im Jahre 146, und seine Söhne begruben ihn in der Grabstätte seiner Väter in Modein, und ganz Israel betrauerte ihn mit tiefem Leid.",
+      "citation": "1 Makkabäer 2:70 (Menge)"
+    }
+  ]
+}

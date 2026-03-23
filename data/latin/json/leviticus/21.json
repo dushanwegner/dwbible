@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Leviticus, Chapter 21 — 24 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Leviticus",
+      "slug": "leviticus",
+      "testament": "OT",
+      "order": 3,
+      "totalChapters": 27
+    },
+    "chapter": 21,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/leviticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/leviticus/20.json",
+      "nextChapter": "https://latinprayer.org/latin/leviticus/22.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/leviticus/21.json",
+      "german": "https://latinprayer.org/bibel/leviticus/21.json"
+    }
+  },
+  "citation": "Leviticus 21 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "dixit quoque Dominus ad Mosen loquere ad sacerdotes filios Aaron et dices eis ne contaminetur sacerdos in mortibus civium suorum",
+      "citation": "Leviticus 21:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "nisi tantum in consanguineis ac propinquis id est super matre et patre et filio ac filia fratre quoque",
+      "citation": "Leviticus 21:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et sorore virgine quae non est nupta viro",
+      "citation": "Leviticus 21:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sed nec in principe populi sui contaminabitur",
+      "citation": "Leviticus 21:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "non radent caput nec barbam neque in carnibus suis facient incisuras",
+      "citation": "Leviticus 21:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "sancti erunt Deo suo et non polluent nomen eius incensum enim Domini et panes Dei sui offerunt et ideo sancti erunt",
+      "citation": "Leviticus 21:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "scortum et vile prostibulum non ducet uxorem nec eam quae repudiata est a marito quia consecratus est Deo suo",
+      "citation": "Leviticus 21:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et panes propositionis offert sit ergo sanctus quia et ego sanctus sum Dominus qui sanctifico vos",
+      "citation": "Leviticus 21:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sacerdotis filia si deprehensa fuerit in stupro et violaverit nomen patris sui flammis exuretur",
+      "citation": "Leviticus 21:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "pontifex id est sacerdos maximus inter fratres suos super cuius caput fusum est unctionis oleum et cuius manus in sacerdotio consecratae sunt vestitusque est sanctis vestibus caput suum non discoperiet vestimenta non scindet",
+      "citation": "Leviticus 21:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et ad omnem mortuum non ingredietur omnino super patre quoque suo et matre non contaminabitur",
+      "citation": "Leviticus 21:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nec egredietur de sanctis ne polluat sanctuarium Domini quia oleum sanctae unctionis Dei sui super eum est ego Dominus",
+      "citation": "Leviticus 21:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "virginem ducet uxorem",
+      "citation": "Leviticus 21:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "viduam et repudiatam et sordidam atque meretricem non accipiet sed puellam de populo suo",
+      "citation": "Leviticus 21:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ne commisceat stirpem generis sui vulgo gentis suae quia ego Dominus qui sanctifico eum",
+      "citation": "Leviticus 21:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "locutusque est Dominus ad Mosen dicens",
+      "citation": "Leviticus 21:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "loquere ad Aaron homo de semine tuo per familias qui habuerit maculam non offeret panes Deo suo",
+      "citation": "Leviticus 21:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "nec accedet ad ministerium eius si caecus fuerit si claudus si vel parvo vel grandi et torto naso",
+      "citation": "Leviticus 21:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "si fracto pede si manu",
+      "citation": "Leviticus 21:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "si gibbus si lippus si albuginem habens in oculo si iugem scabiem si inpetiginem in corpore vel hirniosus",
+      "citation": "Leviticus 21:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "omnis qui habuerit maculam de semine Aaron sacerdotis non accedet offerre hostias Domino nec panes Deo suo",
+      "citation": "Leviticus 21:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "vescetur tamen panibus qui offeruntur in sanctuario",
+      "citation": "Leviticus 21:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ita dumtaxat ut intra velum non ingrediatur nec accedat ad altare quia maculam habet et contaminare non debet sanctuarium meum ego Dominus qui sanctifico eos",
+      "citation": "Leviticus 21:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "locutus est ergo Moses ad Aaron et filios eius et ad omnem Israhel cuncta quae sibi fuerant imperata",
+      "citation": "Leviticus 21:24 (Clementine Vulgate)"
+    }
+  ]
+}

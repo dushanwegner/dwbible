@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 4 — 19 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 4,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/osee/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/osee/3.json",
+      "nextChapter": "https://latinprayer.org/latin/osee/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/4.json",
+      "german": "https://latinprayer.org/bibel/osee/4.json"
+    }
+  },
+  "citation": "Hosea 4 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "audite verbum Domini filii Israhel quia iudicium Domino cum habitatoribus terrae non est enim veritas et non est misericordia et non est scientia Dei in terra",
+      "citation": "Hosea 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "maledictum et mendacium et homicidium et furtum et adulterium inundaverunt et sanguis sanguinem tetigit",
+      "citation": "Hosea 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "propter hoc lugebit terra et infirmabitur omnis qui habitat in ea in bestia agri et in volucre caeli sed et pisces maris congregabuntur",
+      "citation": "Hosea 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "verumtamen unusquisque non iudicet et non arguatur vir populus enim tuus sicut hii qui contradicunt sacerdoti",
+      "citation": "Hosea 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et corrues hodie et corruet etiam propheta tecum nocte tacere feci matrem tuam",
+      "citation": "Hosea 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "conticuit populus meus eo quod non habuerit scientiam quia tu scientiam reppulisti repellam te ne sacerdotio fungaris mihi et oblita es legis Dei tui obliviscar filiorum tuorum et ego",
+      "citation": "Hosea 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "secundum multitudinem eorum sic peccaverunt mihi gloriam eorum in ignominiam commutabo",
+      "citation": "Hosea 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "peccata populi mei comedent et ad iniquitatem eorum sublevabunt animas eorum",
+      "citation": "Hosea 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et erit sicut populus sic sacerdos et visitabo super eum vias eius et cogitationes eius reddam ei",
+      "citation": "Hosea 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et comedent et non saturabuntur fornicati sunt et non cessaverunt quoniam Dominum reliquerunt in non custodiendo",
+      "citation": "Hosea 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "fornicatio et vinum et ebrietas aufert cor",
+      "citation": "Hosea 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "populus meus in ligno suo interrogavit et baculus eius adnuntiavit ei spiritus enim fornicationum decepit eos et fornicati sunt a Deo suo",
+      "citation": "Hosea 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "super capita montium sacrificabant et super colles accendebant thymiama subtus quercum et populum et terebinthum quia bona erat umbra eius ideo fornicabuntur filiae vestrae et sponsae vestrae adulterae erunt",
+      "citation": "Hosea 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "non visitabo super filias vestras cum fuerint fornicatae et super sponsas vestras cum adulteraverint quoniam ipsi cum meretricibus versabantur et cum effeminatis sacrificabant et populus non intellegens vapulabit",
+      "citation": "Hosea 4:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "si fornicaris tu Israhel non delinquat saltim Iuda et nolite ingredi in Galgala et ne ascenderitis in Bethaven neque iuraveritis vivit Dominus",
+      "citation": "Hosea 4:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quoniam sicut vacca lasciviens declinavit Israhel nunc pascet eos Dominus quasi agnum in latitudine",
+      "citation": "Hosea 4:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "particeps idolorum Ephraim dimitte eum",
+      "citation": "Hosea 4:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "separatum est convivium eorum fornicatione fornicati sunt dilexerunt adferre ignominiam protectores eius",
+      "citation": "Hosea 4:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "ligavit spiritus eam in alis suis et confundentur a sacrificiis suis",
+      "citation": "Hosea 4:19 (Clementine Vulgate)"
+    }
+  ]
+}

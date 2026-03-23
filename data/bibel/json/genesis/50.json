@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 50 — 26 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 50,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/genesis/49.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/50.json",
+      "latin": "https://latinprayer.org/latin/genesis/50.json"
+    }
+  },
+  "citation": "Genesis 50 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da warf sich Joseph über seinen Vater hin, weinte über ihn gebeugt und küßte ihn.",
+      "citation": "Genesis 50:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Hierauf befahl Joseph den Ärzten, die in seinem Dienst standen, seinen Vater einzubalsamieren; da balsamierten die Ärzte Israel ein.",
+      "citation": "Genesis 50:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Darüber vergingen vierzig Tage; denn so lange Zeit ist zum Einbalsamieren erforderlich; und die Ägypter trauerten siebzig Tage lang um ihn.",
+      "citation": "Genesis 50:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als dann die Zeit der Trauer um ihn vorüber war, sagte Joseph zu den Hofbeamten des Pharaos: »Wenn ich Gnade bei euch gefunden habe, so bringt doch folgendes zur Kenntnis des Pharaos:",
+      "citation": "Genesis 50:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Mein Vater hat mir einen Eid abgenommen und mir geboten: ›Wenn ich tot bin, sollst du mich in meinem Grabe beisetzen, das ich mir im Lande Kanaan angelegt habe!‹ Deshalb möchte ich nun hinaufziehen, um meinen Vater zu begraben; dann kehre ich wieder zurück.«",
+      "citation": "Genesis 50:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Da ließ ihm der Pharao sagen: »Ziehe hinauf und begrabe deinen Vater, wie du ihm hast schwören müssen!«",
+      "citation": "Genesis 50:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "So zog denn Joseph hin, um seinen Vater zu begraben, und mit ihm zogen alle Diener des Pharaos, die höchsten Beamten seines Hofes und alle Würdenträger des Landes Ägypten,",
+      "citation": "Genesis 50:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "dazu die ganze Familie Josephs, seine Brüder und überhaupt die Angehörigen seines Vaters; nur ihre kleinen Kinder sowie ihr Kleinvieh und ihre Rinder ließen sie im Lande Gosen zurück.",
+      "citation": "Genesis 50:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ebenso zogen sowohl Wagen als auch Reiter mit ihm, so daß es ein gewaltiger Zug war.",
+      "citation": "Genesis 50:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Als sie nun nach Goren-Haatad, das jenseits des Jordans liegt, gekommen waren, veranstalteten sie dort eine große und sehr feierliche Totenklage, und (Joseph) stellte um seinen Vater eine siebentägige Leichenfeier an.",
+      "citation": "Genesis 50:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Als nun die dort wohnenden Kanaanäer die Trauerfeier bei Goren-Haatad sahen, sagten sie: »Da findet eine ernste Trauerfeier der Ägypter statt«; daher gab man dem Ort den Namen ›Trauerfeier der Ägypter‹; er liegt jenseits des Jordans.",
+      "citation": "Genesis 50:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Seine Söhne hielten es dann mit ihm so, wie er ihnen befohlen hatte:",
+      "citation": "Genesis 50:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "sie brachten ihn nämlich in das Land Kanaan und bestatteten ihn in der Höhle auf dem Felde Machpela, welche (Höhle) Abraham samt dem Felde zum Erbbegräbnis von dem Hethiter Ephron gekauft hatte, östlich von Mamre.",
+      "citation": "Genesis 50:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Hierauf kehrte Joseph, nachdem er seinen Vater bestattet hatte, nach Ägypten zurück, er und seine Brüder und alle, die mit ihm hinaufgezogen waren, um seinen Vater zu bestatten.",
+      "citation": "Genesis 50:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Als nun die Brüder Josephs sahen, daß ihr Vater tot war, sagten sie: »Wie nun, wenn Joseph feindselig gegen uns aufträte und uns all das Böse vergälte, das wir ihm zugefügt haben?«",
+      "citation": "Genesis 50:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Darum sandten sie zu Joseph und ließen ihm sagen: »Dein Vater hat uns vor seinem Tode folgende Weisung gegeben:",
+      "citation": "Genesis 50:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "›So sollt ihr zu Joseph sagen: Ach bitte, vergib doch deinen Brüdern ihr Vergehen und ihre Verschuldung, daß sie so übel an dir gehandelt haben!‹ So vergib uns nun doch unser Vergehen; wir sind ja doch auch Knechte des Gottes deines Vaters!« Da weinte Joseph, als sie ihm das sagen ließen.",
+      "citation": "Genesis 50:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Hierauf gingen seine Brüder selbst hin, warfen sich vor ihm nieder und sagten: »Hier sind wir als deine Knechte!«",
+      "citation": "Genesis 50:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Joseph aber antwortete ihnen: »Seid ohne Furcht! Denn stehe ich etwa an Gottes Statt?",
+      "citation": "Genesis 50:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Ihr freilich hattet Böses gegen mich im Sinn, aber Gott gedachte es zum Guten zu wenden, um das auszuführen, was jetzt klar zutage liegt, nämlich um ein zahlreiches Volk am Leben zu erhalten.",
+      "citation": "Genesis 50:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Fürchtet euch also nicht! Ich selbst werde euch und eure Kinder versorgen.« So tröstete er sie und redete ihnen freundlich zu.",
+      "citation": "Genesis 50:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "So wohnte denn Joseph in Ägypten samt der ganzen Familie seines Vaters, und Joseph wurde 110 Jahre alt.",
+      "citation": "Genesis 50:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Von Ephraim sah er Urenkel, und auch die Söhne Machirs, des Sohnes Manasses, wurden noch bei Lebzeiten Josephs geboren.",
+      "citation": "Genesis 50:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Da sagte Joseph zu seinen Brüdern: »Ich stehe nun nahe vor dem Tode; Gott aber wird sich euer sicherlich gnädig annehmen und euch aus diesem Lande in das Land zurückführen, das er Abraham, Isaak und Jakob zugeschworen hat.«",
+      "citation": "Genesis 50:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Hierauf ließ Joseph die Söhne Israels folgendes beschwören: »Wenn Gott sich (dereinst) euer gnädig annehmen wird, dann sollt ihr meine Gebeine von hier mitnehmen.«",
+      "citation": "Genesis 50:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Dann starb Joseph im Alter von 110 Jahren; man balsamierte ihn ein und legte ihn in Ägypten in einen Sarg.",
+      "citation": "Genesis 50:26 (Menge)"
+    }
+  ]
+}

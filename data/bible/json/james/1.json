@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "James, Chapter 1 — 27 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "James",
+      "slug": "james",
+      "testament": "NT",
+      "order": 66,
+      "totalChapters": 5
+    },
+    "chapter": 1,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/james/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bible/james/2.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/james/1.json",
+      "german": "https://latinprayer.org/bibel/james/1.json"
+    }
+  },
+  "citation": "James 1 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "James, the servant of God and of our Lord Jesus Christ, to the twelve tribes which are scattered abroad, greeting.",
+      "citation": "James 1:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "My brethren, count it all joy, when you shall fall into divers temptations:",
+      "citation": "James 1:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Knowing that the trying of your faith worketh patience",
+      "citation": "James 1:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And patience hath a perfect work: that you may be perfect and entire, failing in nothing.",
+      "citation": "James 1:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But if any of you want wisdom, let him ask of God who giveth to all men abundantly and upbraideth not. And it shall be given him.",
+      "citation": "James 1:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea, which is moved and carried about by the wind.",
+      "citation": "James 1:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Therefore let not that man think that he shall receive any thing of the Lord.",
+      "citation": "James 1:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "A double minded man is inconstant in all his ways.",
+      "citation": "James 1:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But let the brother of low condition glory in his exaltation:",
+      "citation": "James 1:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the rich, in his being low: because as the flower of the grass shall he pass away.",
+      "citation": "James 1:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For the sun rose with a burning heat and parched the grass: and the flower thereof fell off, and the beauty of the shape thereof perished. So also shall the rich man fade away in his ways.",
+      "citation": "James 1:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Blessed is the man that endureth temptation: for, when he hath been proved, he shall receive the crown of life which God hath promised to them that love him.",
+      "citation": "James 1:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Let no man, when he is tempted, say that he is tempted by God. For God is not a tempter of evils: and he tempteth no man.",
+      "citation": "James 1:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But every man is tempted by his own concupiscence, being drawn away and allured.",
+      "citation": "James 1:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Then, when concupiscence hath conceived, it bringeth forth sin. But sin, when it is completed, begetteth death.",
+      "citation": "James 1:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Do not err, therefore, my dearest brethren.",
+      "citation": "James 1:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Every best gift and every perfect gift is from above, coming down from the Father of lights, with whom there is no change nor shadow of alteration.",
+      "citation": "James 1:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "For of his own will hath he begotten us by the word of truth, that we might be some beginning of his creature.",
+      "citation": "James 1:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "You know, my dearest brethren. And let every man be swift to hear, but slow to speak and slow to anger.",
+      "citation": "James 1:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "For the anger of man worketh not the justice of God.",
+      "citation": "James 1:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Wherefore, casting away all uncleanness and abundance of naughtiness, with meekness receive the ingrafted word, which is able to save your souls.",
+      "citation": "James 1:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "But be ye doers of the word and not hearers only, deceiving your own selves.",
+      "citation": "James 1:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "For if a man be a hearer of the word and not a doer, he shall be compared to a man beholding his own countenance in a glass.",
+      "citation": "James 1:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "For he beheld himself and went his way and presently forgot what manner of man he was.",
+      "citation": "James 1:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "But he that hath looked into the perfect law of liberty and hath continued therein, not becoming a forgetful hearer but a doer of the work: this man shall be blessed in his deed.",
+      "citation": "James 1:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And if any man think himself to be religious, not bridling his tongue but deceiving his own heart, this man's religion is vain.",
+      "citation": "James 1:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Religion clean and undefiled before God and the Father is this: to visit the fatherless and widows in their tribulation and to keep one's self unspotted from this world.",
+      "citation": "James 1:27 (Douay-Rheims)"
+    }
+  ]
+}

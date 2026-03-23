@@ -1,0 +1,196 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 17 — 32 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 17,
+    "verseCount": 32,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/16.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/18.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/17.json",
+      "german": "https://latinprayer.org/bibel/psalms/17.json"
+    }
+  },
+  "citation": "Psalms 17 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "oratio David exaudi Domine iustitiam meam intende deprecationem meam auribus percipe orationem meam non in labiis dolosis",
+      "citation": "Psalms 17:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in finem puero Domini David quae locutus est Domino verba cantici huius in die qua eripuit eum Dominus de manu omnium inimicorum eius et de manu Saul et dixit",
+      "citation": "Psalms 17:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "oratio David audi Deus iustum intende deprecationem meam auribus percipe orationem meam absque labiis mendacii",
+      "citation": "Psalms 17:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori servo Domini David quae locutus est Domino verba cantici huius in die qua liberavit eum Dominus de manu omnium inimicorum suorum et de manu Saul et ait",
+      "citation": "Psalms 17:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "de vultu tuo iudicium meum prodeat oculi tui videant aequitates",
+      "citation": "Psalms 17:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "de vultu tuo iudicium meum prodeat oculi tui videant aequitates",
+      "citation": "Psalms 17:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "probasti cor meum visitasti nocte igne me examinasti et non est inventa in me iniquitas",
+      "citation": "Psalms 17:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "probasti cor meum visitasti nocte conflasti me et non invenisti",
+      "citation": "Psalms 17:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ut non loquatur os meum opera hominum propter verba labiorum tuorum ego custodivi vias duras",
+      "citation": "Psalms 17:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "cogitationes meas transire os meum in opere hominum propter verbum labiorum tuorum ego observavi vias latronis",
+      "citation": "Psalms 17:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "perfice gressus meos in semitis tuis ut non moveantur vestigia mea",
+      "citation": "Psalms 17:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "sustenta gressus meos in callibus tuis et non labentur vestigia mea",
+      "citation": "Psalms 17:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ego clamavi quoniam exaudisti me Deus inclina aurem tuam mihi et exaudi verba mea",
+      "citation": "Psalms 17:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ego invocavi te quia exaudies me Deus inclina aurem tuam mihi audi eloquium meum",
+      "citation": "Psalms 17:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "mirifica misericordias tuas qui salvos facis sperantes in te",
+      "citation": "Psalms 17:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "mirabilem fac misericordiam tuam salvator sperantium",
+      "citation": "Psalms 17:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "a resistentibus dexterae tuae custodi me ut pupillam oculi sub umbra alarum tuarum proteges me",
+      "citation": "Psalms 17:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "a resistentibus dexterae tuae custodi me quasi pupillam intus in oculo in umbra alarum tuarum protege me",
+      "citation": "Psalms 17:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "a facie impiorum qui me adflixerunt inimici mei animam meam circumdederunt *super me;",
+      "citation": "Psalms 17:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "a facie impiorum vastantium me inimici mei animam meam circumdederunt",
+      "citation": "Psalms 17:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "adipem suum concluserunt os eorum locutum est superbia",
+      "citation": "Psalms 17:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "adipe suo concluserunt et ore locuti sunt superbe",
+      "citation": "Psalms 17:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "proicientes me nunc circumdederunt me oculos suos statuerunt declinare in terram",
+      "citation": "Psalms 17:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "incedentes adversum me nunc circumdederunt me oculos suos posuerunt declinare in terram",
+      "citation": "Psalms 17:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "susceperunt me sicut leo paratus ad praedam et sicut catulus leonis habitans in abditis",
+      "citation": "Psalms 17:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "similitudo eius quasi leonis desiderantis praedam et quasi catuli leonis sedentis in absconditis",
+      "citation": "Psalms 17:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "exsurge Domine praeveni eum et subplanta eum eripe animam meam ab impio frameam tuam",
+      "citation": "Psalms 17:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "surge Domine praeveni faciem eius incurva eum salva animam meam ab impio qui est gladius tuus",
+      "citation": "Psalms 17:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ab inimicis manus tuae Domine a paucis de terra divide eos in vita eorum de absconditis tuis adimpletus est venter eorum saturati sunt filiis et dimiserunt reliquias suas parvulis suis",
+      "citation": "Psalms 17:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "a viris manus tuae Domine qui mortui sunt in profundo quorum pars in vita et quorum de absconditis tuis replesti ventrem qui satiabuntur filiis et dimittent reliquias suas parvulis eorum",
+      "citation": "Psalms 17:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ego autem in iustitia apparebo conspectui tuo satiabor cum apparuerit gloria tua",
+      "citation": "Psalms 17:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ego in iustitia videbo faciem tuam implebor cum evigilavero similitudine tua",
+      "citation": "Psalms 17:15 (Clementine Vulgate)"
+    }
+  ]
+}

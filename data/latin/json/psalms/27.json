@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 27 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 27,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/26.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/28.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/27.json",
+      "german": "https://latinprayer.org/bibel/psalms/27.json"
+    }
+  },
+  "citation": "Psalms 27 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "David priusquam liniretur Dominus inluminatio mea et salus mea quem timebo Dominus protector vitae meae a quo trepidabo",
+      "citation": "Psalms 27:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "David Dominus lux mea et salutare meum quem timebo Dominus fortitudo vitae meae quem formidabo",
+      "citation": "Psalms 27:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dum adpropiant super me nocentes ut edant carnes meas qui tribulant me et inimici mei ipsi infirmati sunt et ceciderunt",
+      "citation": "Psalms 27:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cum adpropinquarent mihi maligni ut comederent carnem meam hostes mei et inimici mei ipsi inpigerunt et ceciderunt",
+      "citation": "Psalms 27:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "si consistant adversus me castra non timebit cor meum si exsurgat adversus me proelium in hoc ego sperabo",
+      "citation": "Psalms 27:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "si steterint adversus me castra non timebit cor meum si surrexerit contra me bellum in hoc ego confidam",
+      "citation": "Psalms 27:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "unam petii a Domino hanc requiram ut inhabitem in domo Domini omnes dies vitae meae ut videam voluntatem Domini et visitem templum eius",
+      "citation": "Psalms 27:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "unum petivi a Domino hoc requiram ut habitem in domo Domini omnibus diebus vitae meae ut videam pulchritudinem Domini et adtendam templum eius",
+      "citation": "Psalms 27:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quoniam abscondit me in tabernaculo in die malorum protexit me in abscondito tabernaculi sui",
+      "citation": "Psalms 27:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "abscondet enim me in umbra sua in die pessima abscondet me in secreto tabernaculi sui",
+      "citation": "Psalms 27:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "in petra exaltavit me et nunc exaltavit caput meum super inimicos meos circuivi et immolavi in tabernaculo eius hostiam vociferationis cantabo et psalmum dicam Domino",
+      "citation": "Psalms 27:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "in petra exaltabit me nunc quoque exaltabit caput meum super inimicos meos qui sunt in circuitu meo et immolabo in tabernaculo eius hostias iubili cantabo et psallam Domino",
+      "citation": "Psalms 27:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "exaudi Domine vocem meam qua clamavi miserere mei et exaudi me",
+      "citation": "Psalms 27:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "audi Domine vocem meam invocantis miserere mei et exaudi me",
+      "citation": "Psalms 27:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "tibi dixit cor meum exquisivit facies mea faciem tuam Domine requiram",
+      "citation": "Psalms 27:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "tibi dixit cor meum quaesivit vultus meus faciem tuam Domine et requiram",
+      "citation": "Psalms 27:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ne avertas faciem tuam a me ne declines in ira a servo tuo adiutor meus esto ne derelinquas me neque dispicias me Deus salvator meus",
+      "citation": "Psalms 27:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ne abscondas faciem tuam a me ne declines in furore tuo a servo tuo auxilium meum fuisti ne derelinquas me et ne dimittas me Deus salvator meus",
+      "citation": "Psalms 27:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quoniam pater meus et mater mea dereliquerunt me Dominus autem adsumpsit me",
+      "citation": "Psalms 27:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "pater enim meus et mater mea dereliquerunt me Dominus autem collegit me",
+      "citation": "Psalms 27:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "legem pone mihi Domine in via tua et dirige me in semita recta propter inimicos meos",
+      "citation": "Psalms 27:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ostende mihi Domine viam tuam et deduc me in semita recta propter insidiatores meos",
+      "citation": "Psalms 27:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ne tradideris me in animas tribulantium me quoniam insurrexerunt in me testes iniqui et mentita est iniquitas sibi",
+      "citation": "Psalms 27:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ne tradas me Domine animae tribulantium me quoniam surrexerunt contra me testes falsi et apertum mendacium",
+      "citation": "Psalms 27:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "credo videre bona Domini in terra viventium",
+      "citation": "Psalms 27:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ego autem credo quod videam bona Domini in terra viventium",
+      "citation": "Psalms 27:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "expecta Dominum viriliter age et confortetur cor tuum et sustine Dominum",
+      "citation": "Psalms 27:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "expecta Dominum confortare et roboretur cor tuum et sustine Dominum",
+      "citation": "Psalms 27:14 (Clementine Vulgate)"
+    }
+  ]
+}

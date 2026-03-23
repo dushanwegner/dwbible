@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 46 — 12 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 46,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/45.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/47.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/46.json",
+      "german": "https://latinprayer.org/bibel/isaias/46.json"
+    }
+  },
+  "citation": "Isaias 46 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Bel is broken, Nebo is destroyed: their idols are put upon beasts and cattle, your burdens of heavy weight even unto weariness.",
+      "citation": "Isaias 46:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "They are consumed, and are broken together: they could not save him that carried them, and they themselves shall go into captivity.",
+      "citation": "Isaias 46:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Hearken unto me, O house of Jacob, all the remnant of the house of Israel who are carried by my bowels, are borne up by my womb.",
+      "citation": "Isaias 46:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Even to your old age I am the same, and to your grey hairs I will carry you: I have made you, and I will bear: I will carry and will save.",
+      "citation": "Isaias 46:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "To whom have you likened me, and made me equal, and compared me, and made me like?",
+      "citation": "Isaias 46:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "You that contribute gold out of the bag, and weigh out silver in the scales: and hire a goldsmith to make a god: and they fall down and worship.",
+      "citation": "Isaias 46:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "They bear him on their shoulders and carry him, and set him in his place, and he shall stand, and shall not stir out of his place. Yea, when they shall cry also unto him, he shall not hear: he shall not save them from tribulation.",
+      "citation": "Isaias 46:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Remember this, and be ashamed: return, ye transgressors, to the heart.",
+      "citation": "Isaias 46:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Remember the former age, for I am God, and there is no God beside, neither is there the like to me:",
+      "citation": "Isaias 46:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Who shew from the beginning the things that shall be at last, and from ancient times the things that as yet are not done, saying: My counsel shall stand, and all my will shall be done:",
+      "citation": "Isaias 46:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Who call a bird from the east, and from a far country the man of my own will, and I have spoken, and will bring it to pass: I have created, and I will do it. Hear me, O ye hardhearted, who are far from justice.",
+      "citation": "Isaias 46:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "I have brought my justice near, it shall not be afar off: and my salvation shall not tarry. I will give salvation in Sion, and my glory in Israel.",
+      "citation": "Isaias 46:12 (Douay-Rheims)"
+    }
+  ]
+}

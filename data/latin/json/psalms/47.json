@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 47 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 47,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/46.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/48.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/47.json",
+      "german": "https://latinprayer.org/bibel/psalms/47.json"
+    }
+  },
+  "citation": "Psalms 47 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "omnes gentes plaudite manibus iubilate Deo in voce exultationis",
+      "citation": "Psalms 47:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "canticum psalmi filiis Core secunda sabbati",
+      "citation": "Psalms 47:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "omnes populi plaudite manibus iubilate Deo in voce laudis",
+      "citation": "Psalms 47:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "canticum psalmi filiorum Core",
+      "citation": "Psalms 47:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quoniam Dominus excelsus terribilis rex magnus super omnem terram",
+      "citation": "Psalms 47:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quoniam Dominus altissimus terribilis rex magnus super omnem terram",
+      "citation": "Psalms 47:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "subiecit populos nobis et gentes sub pedibus nostris",
+      "citation": "Psalms 47:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "congregavit populos subter nos et tribus sub pedibus nostris",
+      "citation": "Psalms 47:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "elegit nobis hereditatem suam speciem Iacob quam dilexit diapsalma",
+      "citation": "Psalms 47:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "elegit nobis hereditatem nostram gloriam Iacob quam dilexit semper",
+      "citation": "Psalms 47:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ascendit Deus in iubilo Dominus in voce tubae",
+      "citation": "Psalms 47:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ascendit Deus in iubilo Deus in voce bucinae",
+      "citation": "Psalms 47:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "psallite Deo nostro psallite psallite regi nostro psallite",
+      "citation": "Psalms 47:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "canite Deo canite canite regi nostro canite",
+      "citation": "Psalms 47:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quoniam rex omnis terrae Deus psallite sapienter",
+      "citation": "Psalms 47:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quia rex universae terrae Deus canite erudite",
+      "citation": "Psalms 47:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "regnavit Deus super gentes Deus sedit super sedem sanctam suam",
+      "citation": "Psalms 47:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "regnavit Deus super gentes Deus sedet super thronum sanctum suum",
+      "citation": "Psalms 47:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "principes populorum congregati sunt cum Deo Abraham quoniam Dei fortes terrae vehementer elevati sunt",
+      "citation": "Psalms 47:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "principes populorum congregati sunt populus Dei Abraham quoniam Dei scuta terrae vehementer elevata sunt",
+      "citation": "Psalms 47:9 (Clementine Vulgate)"
+    }
+  ]
+}

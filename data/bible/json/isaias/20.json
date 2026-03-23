@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 20 — 6 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 20,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/19.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/21.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/20.json",
+      "german": "https://latinprayer.org/bibel/isaias/20.json"
+    }
+  },
+  "citation": "Isaias 20 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "In the year that Tharthan entered into Azotus, when Sargon the king of the Assyrians had sent him, and he had fought against Azotus, and had taken it:",
+      "citation": "Isaias 20:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "At that same time the Lord spoke by the hand of Isaias the son of Amos, saying Go, and loose the sackcloth from off thy loins, and take off thy shoes from thy feet. And he did so, and went naked, and barefoot.",
+      "citation": "Isaias 20:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And the Lord said: As my servant Isaias hath walked, naked and barefoot, it shall be a sign and a wonder of three years upon Egypt, and upon Ethiopia,",
+      "citation": "Isaias 20:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "So shall the king of the Assyrians lead away the prisoners of Egypt, and the captivity of Ethiopia, young and old, naked and barefoot, with their buttocks uncovered to the shame of Egypt.",
+      "citation": "Isaias 20:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And they shall be afraid, and ashamed of Ethiopia their hope, and of Egypt their glory.",
+      "citation": "Isaias 20:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the inhabitants of this isle shall say in that day: Lo this was our hope, to whom we fled for help, to deliver us from the face of the king of the Assyrians: and how shall we be able to escape?",
+      "citation": "Isaias 20:6 (Douay-Rheims)"
+    }
+  ]
+}

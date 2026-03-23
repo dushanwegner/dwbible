@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 150 — 10 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 150,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/149.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/150.json",
+      "german": "https://latinprayer.org/bibel/psalms/150.json"
+    }
+  },
+  "citation": "Psalms 150 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "alleluia laudate Dominum in sanctis eius laudate eum in firmamento virtutis eius",
+      "citation": "Psalms 150:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "alleluia laudate Deum in sancto eius laudate eum in fortitudine potentiae eius",
+      "citation": "Psalms 150:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "laudate eum in virtutibus eius laudate eum secundum multitudinem magnitudinis eius",
+      "citation": "Psalms 150:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "laudate eum in fortitudinibus eius laudate eum iuxta multitudinem magnificentiae suae",
+      "citation": "Psalms 150:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "laudate eum in sono tubae laudate eum in psalterio et cithara",
+      "citation": "Psalms 150:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "laudate eum in clangore bucinae laudate eum in psalterio et cithara",
+      "citation": "Psalms 150:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "laudate eum in tympano et choro laudate eum in cordis et organo",
+      "citation": "Psalms 150:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "laudate eum in tympano et choro laudate eum in cordis et organo",
+      "citation": "Psalms 150:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "laudate eum in cymbalis bene sonantibus laudate eum in cymbalis iubilationis Psalms (Second Version)",
+      "citation": "Psalms 150:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "laudate eum in cymbalis sonantibus laudate eum in cymbalis tinnientibus",
+      "citation": "Psalms 150:5 (Clementine Vulgate)"
+    }
+  ]
+}

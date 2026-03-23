@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 John — 1 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 John",
+      "slug": "2-john",
+      "testament": "NT",
+      "order": 70,
+      "totalChapters": 1
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-john/index.json",
+      "german": "https://latinprayer.org/bibel/2-john/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 12,
+      "url": "https://latinprayer.org/latin/2-john/1",
+      "jsonUrl": "https://latinprayer.org/latin/2-john/1.json"
+    }
+  ]
+}

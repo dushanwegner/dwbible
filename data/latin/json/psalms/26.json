@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 26 — 24 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 26,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/25.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/27.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/26.json",
+      "german": "https://latinprayer.org/bibel/psalms/26.json"
+    }
+  },
+  "citation": "Psalms 26 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "psalmus David iudica me Domine quoniam ego in innocentia mea ingressus sum et in Domino sperans non infirmabor",
+      "citation": "Psalms 26:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "David iudica me Deus quoniam ego in simplicitate mea ambulavi et in Domino confidens non deficiam",
+      "citation": "Psalms 26:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "proba me Domine et tempta me ure renes meos et cor meum",
+      "citation": "Psalms 26:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "proba me Domine et tempta me ure renes meos et cor meum",
+      "citation": "Psalms 26:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quoniam misericordia tua ante oculos meos est et conplacui in veritate tua",
+      "citation": "Psalms 26:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia misericordia tua in conspectu oculorum meorum est et ambulabo in veritate tua",
+      "citation": "Psalms 26:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "non sedi cum concilio vanitatis et cum iniqua gerentibus non introibo",
+      "citation": "Psalms 26:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "non sedi cum viris vanitatis et cum superbis non ingrediar",
+      "citation": "Psalms 26:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "odivi ecclesiam malignantium et cum impiis non sedebo",
+      "citation": "Psalms 26:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "odivi ecclesiam pessimorum et cum iniquis non sedebo",
+      "citation": "Psalms 26:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "lavabo inter innocentes manus meas et circumdabo altare tuum Domine",
+      "citation": "Psalms 26:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "lavabo in innocentia manus meas et circuibo altare tuum Domine",
+      "citation": "Psalms 26:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ut audiam vocem laudis et enarrem universa mirabilia tua",
+      "citation": "Psalms 26:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ut clara voce praedicem laudem et narrem omnia mirabilia tua",
+      "citation": "Psalms 26:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Domine dilexi decorem domus tuae et locum habitationis gloriae tuae",
+      "citation": "Psalms 26:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Domine dilexi habitaculum domus tuae et locum tabernaculi gloriae tuae",
+      "citation": "Psalms 26:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ne perdas cum impiis animam meam et cum viris sanguinum vitam meam",
+      "citation": "Psalms 26:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ne auferas cum peccatoribus animam meam cum viris sanguinum vitam meam",
+      "citation": "Psalms 26:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in quorum manibus iniquitates sunt dextera eorum repleta est muneribus",
+      "citation": "Psalms 26:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in quorum manibus scelus est et dextera eorum repleta est muneribus",
+      "citation": "Psalms 26:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ego autem in innocentia mea ingressus sum redime me et miserere mei",
+      "citation": "Psalms 26:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ego autem in simplicitate mea gradiar redime me et miserere mei",
+      "citation": "Psalms 26:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "pes meus stetit in directo in ecclesiis benedicam %te; Domine",
+      "citation": "Psalms 26:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "pes meus stetit in recto in ecclesiis benedicam Domino",
+      "citation": "Psalms 26:12 (Clementine Vulgate)"
+    }
+  ]
+}

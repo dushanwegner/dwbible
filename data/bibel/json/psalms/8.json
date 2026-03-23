@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 8 — 10 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 8,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/7.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/8.json",
+      "latin": "https://latinprayer.org/latin/psalms/8.json"
+    }
+  },
+  "citation": "Psalmen 8 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, nach der Keltertreterweise; ein Psalm von David.</em>",
+      "citation": "Psalmen 8:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "HERR, unser Herrscher, wie herrlich ist dein Name auf der ganzen Erde, du, dessen Hoheit am Himmel sich kundtut!",
+      "citation": "Psalmen 8:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Aus der Kinder und Säuglinge Mund hast du ein Bollwerk dir zugerichtet deinen Gegnern zum Trotz, um Feinde und Widersacher verstummen zu machen.",
+      "citation": "Psalmen 8:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wenn ich anschau’ deinen Himmel, das Werk deiner Finger, den Mond und die Sterne, die du hergerichtet:",
+      "citation": "Psalmen 8:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "was ist der Mensch, daß du seiner gedenkst, und der Menschensohn, daß du ihn beachtest?!",
+      "citation": "Psalmen 8:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Und doch hast du ihn nur wenig hinter die Gottheit gestellt, mit Herrlichkeit und Hoheit ihn gekrönt;",
+      "citation": "Psalmen 8:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "du hast ihm die Herrschaft verliehn über deiner Hände Werke, ja alles ihm unter die Füße gelegt:",
+      "citation": "Psalmen 8:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Kleinvieh und Rinder allzumal, dazu auch die wilden Tiere des Feldes,",
+      "citation": "Psalmen 8:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "die Vögel des Himmels, die Fische im Meer, alles, was die Pfade der Meere durchzieht.",
+      "citation": "Psalmen 8:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "HERR, unser Herrscher, wie herrlich ist dein Name auf der ganzen Erde!",
+      "citation": "Psalmen 8:10 (Menge)"
+    }
+  ]
+}

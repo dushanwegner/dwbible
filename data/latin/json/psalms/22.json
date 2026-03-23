@@ -1,0 +1,346 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 22 — 62 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 22,
+    "verseCount": 62,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/21.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/23.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/22.json",
+      "german": "https://latinprayer.org/bibel/psalms/22.json"
+    }
+  },
+  "citation": "Psalms 22 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Deus Deus meus %respice me; quare me dereliquisti longe a salute mea verba delictorum meorum",
+      "citation": "Psalms 22:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "Deus Deus meus quare dereliquisti me longe a salute mea verba rugitus mei",
+      "citation": "Psalms 22:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Deus meus clamabo per diem et non exaudies et nocte et non ad insipientiam mihi",
+      "citation": "Psalms 22:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Deus meus clamabo per diem et non exaudies et nocte nec est silentium mihi",
+      "citation": "Psalms 22:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "tu autem in sancto habitas Laus Israhel",
+      "citation": "Psalms 22:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et tu sancte habitator Laus Israhel",
+      "citation": "Psalms 22:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "in te speraverunt patres nostri speraverunt et liberasti eos",
+      "citation": "Psalms 22:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "in te confisi sunt patres nostri confisi sunt et salvasti eos",
+      "citation": "Psalms 22:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ad te clamaverunt et salvi facti sunt in te speraverunt et non sunt confusi",
+      "citation": "Psalms 22:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ad te clamaverunt et salvati sunt in te confisi sunt et non sunt confusi",
+      "citation": "Psalms 22:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ego autem sum vermis et non homo obprobrium hominum et abiectio plebis",
+      "citation": "Psalms 22:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ego autem sum vermis et non homo obprobrium hominum et dispectio plebis",
+      "citation": "Psalms 22:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "omnes videntes me deriserunt me locuti sunt labiis moverunt caput",
+      "citation": "Psalms 22:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "omnes videntes me subsannant me dimittunt labium movent caput",
+      "citation": "Psalms 22:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "speravit in Domino eripiat eum salvum faciat eum quoniam vult eum",
+      "citation": "Psalms 22:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "confugit ad Dominum salvet eum liberet eum quoniam vult eum",
+      "citation": "Psalms 22:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quoniam tu es qui extraxisti me de ventre spes mea ab uberibus matris meae",
+      "citation": "Psalms 22:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "tu autem propugnator meus ex utero fiducia mea ab uberibus matris meae",
+      "citation": "Psalms 22:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in te proiectus sum ex utero de ventre matris meae Deus meus es tu",
+      "citation": "Psalms 22:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in te proiectus sum ex vulva de ventre matris meae Deus meus es tu",
+      "citation": "Psalms 22:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ne discesseris a me quoniam tribulatio proxima est quoniam non est qui adiuvet",
+      "citation": "Psalms 22:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ne longe fias a me quoniam tribulatio proxima est quoniam non est adiutor",
+      "citation": "Psalms 22:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "circumdederunt me vituli multi tauri pingues obsederunt me",
+      "citation": "Psalms 22:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "circumdederunt me vituli multi tauri pingues vallaverunt me",
+      "citation": "Psalms 22:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "aperuerunt super me os suum sicut leo rapiens et rugiens",
+      "citation": "Psalms 22:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "aperuerunt super me os suum quasi leo capiens et rugiens",
+      "citation": "Psalms 22:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sicut aqua effusus sum et dispersa sunt universa ossa mea factum est cor meum tamquam cera liquescens in medio ventris mei",
+      "citation": "Psalms 22:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sicut aqua effusus sum et separata sunt omnia ossa mea factum est cor meum sicut cera liquefacta in medio ventris mei",
+      "citation": "Psalms 22:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "aruit tamquam testa virtus mea et lingua mea adhesit faucibus meis et in limum mortis deduxisti me",
+      "citation": "Psalms 22:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "aruit velut testa fortitudo mea et lingua mea adhesit palato meo et in pulverem mortis detraxisti me",
+      "citation": "Psalms 22:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quoniam circumdederunt me canes multi concilium malignantium obsedit me foderunt manus meas et pedes meos",
+      "citation": "Psalms 22:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "circumdederunt me venatores concilium pessimorum vallavit me vinxerunt manus meas et pedes meos",
+      "citation": "Psalms 22:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "dinumeraverunt omnia ossa mea ipsi vero consideraverunt et inspexerunt me",
+      "citation": "Psalms 22:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "numeravi omnia ossa mea quae ipsi respicientes viderunt in me",
+      "citation": "Psalms 22:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "diviserunt sibi vestimenta mea et super vestem meam miserunt sortem",
+      "citation": "Psalms 22:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "diviserunt vestimenta mea sibi et super vestimentum meum miserunt sortem",
+      "citation": "Psalms 22:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "tu autem Domine ne elongaveris auxilium tuum ad defensionem meam conspice",
+      "citation": "Psalms 22:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "tu autem Domine ne longe fias fortitudo mea in auxilium meum festina",
+      "citation": "Psalms 22:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "erue a framea animam meam et de manu canis unicam meam",
+      "citation": "Psalms 22:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "erue a gladio animam meam de manu canis solitariam meam",
+      "citation": "Psalms 22:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "salva me ex ore leonis et a cornibus unicornium humilitatem meam",
+      "citation": "Psalms 22:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "salva me ex ore leonis et de cornibus unicornium exaudi me",
+      "citation": "Psalms 22:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "narrabo nomen tuum fratribus meis in media ecclesia laudabo te",
+      "citation": "Psalms 22:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "narrabo nomen tuum fratribus meis in medio ecclesiae laudabo te",
+      "citation": "Psalms 22:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "qui timetis Dominum laudate eum universum semen Iacob magnificate eum",
+      "citation": "Psalms 22:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "qui timetis Dominum laudate eum omne semen Iacob glorificate eum",
+      "citation": "Psalms 22:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "timeat eum omne semen Israhel quoniam non sprevit neque dispexit deprecationem pauperis nec avertit faciem suam a me et cum clamarem ad eum exaudivit %me;",
+      "citation": "Psalms 22:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et metuite eum universum semen Israhel quoniam non dispexit neque contempsit modestiam pauperis et non abscondit faciem suam ab eo et cum clamaret ad eum audivit",
+      "citation": "Psalms 22:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "apud te laus mea in ecclesia magna vota mea reddam in conspectu timentium eum",
+      "citation": "Psalms 22:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "apud te laus mea in ecclesia multa vota mea reddam in conspectu timentium eum",
+      "citation": "Psalms 22:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "edent pauperes et saturabuntur et laudabunt Dominum qui requirunt eum vivent corda eorum in saeculum saeculi",
+      "citation": "Psalms 22:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "comedent mites et saturabuntur laudabunt Dominum quaerentes eum vivet cor vestrum in sempiternum",
+      "citation": "Psalms 22:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "reminiscentur et convertentur ad Dominum universi fines terrae et adorabunt in conspectu eius universae familiae gentium",
+      "citation": "Psalms 22:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "recordabuntur et convertentur ad Dominum omnes fines terrae et adorabunt coram eo universae cognationes gentium",
+      "citation": "Psalms 22:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "quoniam Dei est regnum et %ipse; dominabitur gentium",
+      "citation": "Psalms 22:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "quia Domini est regnum et dominabitur gentibus",
+      "citation": "Psalms 22:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "manducaverunt et adoraverunt omnes pingues terrae in conspectu eius cadent omnes qui descendunt in terram",
+      "citation": "Psalms 22:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "comederunt et adoraverunt omnes pingues terrae ante faciem eius curvabunt genu universi qui descendunt in pulverem",
+      "citation": "Psalms 22:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et anima mea illi vivet et semen meum serviet ipsi",
+      "citation": "Psalms 22:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et anima eius ipsi vivet semen serviet ei",
+      "citation": "Psalms 22:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "adnuntiabitur Domino generatio ventura et adnuntiabunt iustitiam eius populo qui nascetur quem fecit %Dominus;",
+      "citation": "Psalms 22:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "narrabitur Domino in generatione venient et adnuntiabunt iustitias eius populo qui nascetur quas fecit",
+      "citation": "Psalms 22:31 (Clementine Vulgate)"
+    }
+  ]
+}

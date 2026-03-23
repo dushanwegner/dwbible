@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 16 — 35 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 16,
+    "verseCount": 35,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/numbers/15.json",
+      "nextChapter": "https://latinprayer.org/latin/numbers/17.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/16.json",
+      "german": "https://latinprayer.org/bibel/numbers/16.json"
+    }
+  },
+  "citation": "Numbers 16 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ecce autem Core filius Isaar filii Caath filii Levi et Dathan atque Abiram filii Heliab Hon quoque filius Pheleth de filiis Ruben",
+      "citation": "Numbers 16:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "surrexerunt contra Mosen aliique filiorum Israhel ducenti quinquaginta viri proceres synagogae et qui tempore concilii per nomina vocabantur",
+      "citation": "Numbers 16:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cumque stetissent adversum Mosen et Aaron dixerunt sufficiat vobis quia omnis multitudo sanctorum est et in ipsis est Dominus cur elevamini super populum Domini",
+      "citation": "Numbers 16:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quod cum audisset Moses cecidit pronus in faciem",
+      "citation": "Numbers 16:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "locutusque ad Core et ad omnem multitudinem mane inquit notum faciet Dominus qui ad se pertineant et sanctos adplicabit sibi et quos elegerit adpropinquabunt ei",
+      "citation": "Numbers 16:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "hoc igitur facite tollat unusquisque turibula sua tu Core et omne concilium tuum",
+      "citation": "Numbers 16:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et hausto cras igne ponite desuper thymiama coram Domino et quemcumque elegerit ipse erit sanctus multum erigimini filii Levi",
+      "citation": "Numbers 16:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dixitque rursum ad Core audite filii Levi",
+      "citation": "Numbers 16:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "num parum vobis est quod separavit vos Deus Israhel ab omni populo et iunxit sibi ut serviretis ei in cultu tabernaculi et staretis coram frequentia populi et ministraretis ei",
+      "citation": "Numbers 16:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "idcirco ad se fecit accedere te et omnes fratres tuos filios Levi ut vobis etiam sacerdotium vindicetis",
+      "citation": "Numbers 16:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et omnis globus tuus stet contra Dominum quid est enim Aaron ut murmuretis contra eum",
+      "citation": "Numbers 16:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "misit ergo Moses ut vocaret Dathan et Abiram filios Heliab qui responderunt non venimus",
+      "citation": "Numbers 16:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "numquid parum est tibi quod eduxisti nos de terra quae lacte et melle manabat ut occideres in deserto nisi et dominatus fueris nostri",
+      "citation": "Numbers 16:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "re vera induxisti nos in terram quae fluit rivis lactis et mellis et dedisti nobis possessiones agrorum et vinearum an et oculos nostros vis eruere non venimus",
+      "citation": "Numbers 16:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "iratusque Moses valde ait ad Dominum ne respicias sacrificia eorum tu scis quod ne asellum quidem umquam acceperim ab eis nec adflixerim quempiam eorum",
+      "citation": "Numbers 16:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "dixitque ad Core tu et omnis congregatio tua state seorsum coram Domino et Aaron die crastino separatim",
+      "citation": "Numbers 16:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "tollite singuli turibula vestra et ponite super ea incensum offerentes Domino ducenta quinquaginta turibula Aaron quoque teneat turibulum suum",
+      "citation": "Numbers 16:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quod cum fecissent stantibus Mosen et Aaron",
+      "citation": "Numbers 16:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et coacervassent adversum eos omnem multitudinem ad ostium tabernaculi apparuit cunctis gloria Domini",
+      "citation": "Numbers 16:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "locutusque Dominus ad Mosen et Aaron ait",
+      "citation": "Numbers 16:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "separamini de medio congregationis huius ut eos repente disperdam",
+      "citation": "Numbers 16:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "qui ceciderunt proni in faciem atque dixerunt fortissime Deus spirituum universae carnis num uno peccante contra omnes tua ira desaeviet",
+      "citation": "Numbers 16:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et ait Dominus ad Mosen",
+      "citation": "Numbers 16:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "praecipe universo populo ut separetur a tabernaculis Core et Dathan et Abiram",
+      "citation": "Numbers 16:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "surrexitque Moses et abiit ad Dathan et Abiram et sequentibus eum senioribus Israhel",
+      "citation": "Numbers 16:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "dixit ad turbam recedite a tabernaculis hominum impiorum et nolite tangere quae ad eos pertinent ne involvamini in peccatis eorum",
+      "citation": "Numbers 16:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "cumque recessissent a tentoriis eorum per circuitum Dathan et Abiram egressi stabant in introitu papilionum suorum cum uxoribus et liberis omnique frequentia",
+      "citation": "Numbers 16:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et ait Moses in hoc scietis quod Dominus miserit me ut facerem universa quae cernitis et non ex proprio ea corde protulerim",
+      "citation": "Numbers 16:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "si consueta hominum morte interierint et visitaverit eos plaga qua et ceteri visitari solent non misit me Dominus",
+      "citation": "Numbers 16:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "sin autem novam rem fecerit Dominus ut aperiens terra os suum degluttiat eos et omnia quae ad illos pertinent descenderintque viventes in infernum scietis quod blasphemaverint Dominum",
+      "citation": "Numbers 16:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "confestim igitur ut cessavit loqui disrupta est terra sub pedibus eorum",
+      "citation": "Numbers 16:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et aperiens os suum devoravit illos cum tabernaculis suis et universa substantia",
+      "citation": "Numbers 16:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "descenderuntque vivi in infernum operti humo et perierunt de medio multitudinis",
+      "citation": "Numbers 16:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "at vero omnis Israhel qui stabat per gyrum fugit ad clamorem pereuntium dicens ne forte et nos terra degluttiat",
+      "citation": "Numbers 16:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "sed et ignis egressus a Domino interfecit ducentos quinquaginta viros qui offerebant incensum",
+      "citation": "Numbers 16:35 (Clementine Vulgate)"
+    }
+  ]
+}

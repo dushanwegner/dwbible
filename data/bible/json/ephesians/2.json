@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ephesians, Chapter 2 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ephesians",
+      "slug": "ephesians",
+      "testament": "NT",
+      "order": 56,
+      "totalChapters": 6
+    },
+    "chapter": 2,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ephesians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ephesians/1.json",
+      "nextChapter": "https://latinprayer.org/bible/ephesians/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ephesians/2.json",
+      "german": "https://latinprayer.org/bibel/ephesians/2.json"
+    }
+  },
+  "citation": "Ephesians 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And you, when you were dead in your offences and sins,",
+      "citation": "Ephesians 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Wherein in time past you walked according to the course of this world, according to the prince of the power of this air, of the spirit that now worketh on the children of unbelief:",
+      "citation": "Ephesians 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "In which also we all conversed in time past, in the desires of our flesh, fulfilling the will of the flesh and of our thoughts, and were by nature children of wrath, even as the rest:",
+      "citation": "Ephesians 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But God (who is rich in mercy) for his exceeding charity wherewith he loved us",
+      "citation": "Ephesians 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Even when we were dead in sins, hath quickened us together in Christ (by whose grace you are saved)",
+      "citation": "Ephesians 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And hath raised us up together and hath made us sit together in the heavenly places, through Christ Jesus.",
+      "citation": "Ephesians 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "That he might shew in the ages to come the abundant riches of his grace, in his bounty towards us in Christ Jesus.",
+      "citation": "Ephesians 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For by grace you are saved through faith: and that not of yourselves, for it is the gift of God.",
+      "citation": "Ephesians 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Not of works, that no man may glory.",
+      "citation": "Ephesians 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For we are his workmanship, created in Christ Jesus in good works, which God hath prepared that we should walk in them.",
+      "citation": "Ephesians 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For which cause be mindful that you, being heretofore gentiles is the flesh, who are called uncircumcision by that which is called circumcision in the flesh, made by hands:",
+      "citation": "Ephesians 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "That you were at that time without Christ, being aliens from the conversation of Israel and strangers to the testament, having no hope of the promise and without God in this world.",
+      "citation": "Ephesians 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But now in Christ Jesus, you, who some time were afar off, are made nigh by the blood of Christ.",
+      "citation": "Ephesians 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For he is our peace, who hath made both one, and breaking down the middle wall of partition, the enmities in his flesh:",
+      "citation": "Ephesians 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Making void the law of commandments contained in decrees: that he might make the two in himself into one new man, making peace.",
+      "citation": "Ephesians 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And might reconcile both to God in one body by the cross, killing the enmities in himself.",
+      "citation": "Ephesians 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And coming, he preached peace to you that were afar off: and peace to them that were nigh.",
+      "citation": "Ephesians 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "For by him we have access both in one Spirit to the Father.",
+      "citation": "Ephesians 2:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Now therefore you are no more strangers and foreigners: but you are fellow citizens with the saints and the domestics of God,",
+      "citation": "Ephesians 2:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone:",
+      "citation": "Ephesians 2:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "In whom all the building, being framed together, groweth up into an holy temple in the Lord.",
+      "citation": "Ephesians 2:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "In whom you also are built together into an habitation of God in the Spirit.",
+      "citation": "Ephesians 2:22 (Douay-Rheims)"
+    }
+  ]
+}

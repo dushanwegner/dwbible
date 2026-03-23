@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 35 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 35,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/34.json",
+      "nextChapter": "https://latinprayer.org/bible/job/36.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/35.json",
+      "german": "https://latinprayer.org/bibel/job/35.json"
+    }
+  },
+  "citation": "Job 35 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Moreover Eliu spoke these words:",
+      "citation": "Job 35:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Doth thy thought seem right to thee, that thou shouldst say: I am more just than God?",
+      "citation": "Job 35:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For thou saidst: That which is right doth not please thee: or what will it profit thee if I sin?",
+      "citation": "Job 35:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Therefore I will answer thy words, and thy friends with thee.",
+      "citation": "Job 35:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Look up to heaven and see, and behold the sky, that it is higher than thee.",
+      "citation": "Job 35:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "If thou sin, what shalt thou hurt him? and if thy iniquities be multiplied, what shalt thou do against him?",
+      "citation": "Job 35:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And if thou do justly, what shalt thou give him, or what shall he receive of thy hand?",
+      "citation": "Job 35:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Thy wickedness may hurt a man that is like thee: and thy justice may help the son of man.",
+      "citation": "Job 35:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "By reason of the multitude of oppressors they shall cry out: and shall wail for the violence of the arm of tyrants.",
+      "citation": "Job 35:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And he hath not said: Where is God, who made me, who hath given songs in the night?",
+      "citation": "Job 35:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Who teacheth us more than the beasts of the earth, and instructeth us more than the fowls of the air.",
+      "citation": "Job 35:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "There shall they cry, and he will not hear, because of the pride of evil men.",
+      "citation": "Job 35:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "God therefore will not hear in vain, and the Almighty will look into the causes of every one.",
+      "citation": "Job 35:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Yea, when thou shalt say: He considereth not: be judged before him, and expect him.",
+      "citation": "Job 35:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For he doth not now bring on his fury, neither doth he revenge wickedness exceedingly.",
+      "citation": "Job 35:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Therefore Job openeth his mouth in vain, and multiplieth words without knowledge.",
+      "citation": "Job 35:16 (Douay-Rheims)"
+    }
+  ]
+}

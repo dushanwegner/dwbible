@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joel, Chapter 2 — 26 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joel",
+      "slug": "joel",
+      "testament": "OT",
+      "order": 34,
+      "totalChapters": 4
+    },
+    "chapter": 2,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/joel/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/joel/1.json",
+      "nextChapter": "https://latinprayer.org/bible/joel/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/joel/2.json",
+      "german": "https://latinprayer.org/bibel/joel/2.json"
+    }
+  },
+  "citation": "Joel 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Blow ye the trumpet in Sion, sound an alarm in my holy mountain, let all the inhabitants of the land tremble: because the day of the Lord cometh, because it is nigh at hand.",
+      "citation": "Joel 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "A day of darkness, and of gloominess, a day of clouds and whirlwinds: a numerous and strong people as the morning spread upon the mountains: the like to it hath not been from the beginning, nor shall be after it, even to the years of generation and generation.",
+      "citation": "Joel 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Before the face thereof a devouring fire, and behind it a burning flame: the land is like a garden of pleasure before it, and behind it a desolate wilderness, neither is there any one that can escape it.",
+      "citation": "Joel 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The appearance of them is as the appearance of horses, and they shall run like horsemen.",
+      "citation": "Joel 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "They shall leap like the noise of chariots upon the tops of mountains, like the noise of a flame of fire devouring the stubble, as a strong people prepared to battle.",
+      "citation": "Joel 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "At their presence the people shall be in grievous pains: all faces shall be made like a kettle.",
+      "citation": "Joel 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "They shall run like valiant men: like men of war they shall scale the wall: the men shall march every one on his way, and they shall not turn aside from their ranks.",
+      "citation": "Joel 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "No one shall press upon his brother: they shall walk every one in his path: yea, and they shall fall through the windows, and shall take no harm.",
+      "citation": "Joel 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "They shall enter into the city: they shall run upon the wall, they shall climb up the houses, they shall come in at the windows, as a thief.",
+      "citation": "Joel 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "At their presence the earth hath trembled, the heavens are moved: the sun and moon are darkened, and the stars have withdrawn their shining.",
+      "citation": "Joel 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the Lord hath uttered his voice before the face of his army: for his armies are exceedingly great, for they are strong, and execute his word: for the day of the Lord is great and very terrible: and who can stand it?",
+      "citation": "Joel 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Now, therefore, saith the Lord. Be converted to me with all your heart, in fasting, and in weeping, and mourning.",
+      "citation": "Joel 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And rend your hearts, and not your garments and turn to the Lord your God: for he is gracious and merciful, patient and rich in mercy, and ready to repent of the evil.",
+      "citation": "Joel 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Who knoweth but he will return, and forgive, and leave a blessing behind him, sacrifice and libation to the Lord your God?",
+      "citation": "Joel 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Blow the trumpet in Sion, sanctify a fast, call a solemn assembly,",
+      "citation": "Joel 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Gather together the people, sanctify the church, assemble the ancients, gather together the little ones, and them that suck at the breasts: let the bridegroom go forth from his bed, and the bride out of her bridal chamber.",
+      "citation": "Joel 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Between the porch and the altar the priests, the Lord's ministers, shall weep, and shall say: Spare, O Lord, spare thy people: and give not thy inheritance to reproach, that the heathens should rule over them. Why should they say among the nations: Where is their God?",
+      "citation": "Joel 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The Lord hath been zealous for his land, and hath spared his people.",
+      "citation": "Joel 2:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And I will remove far off from you the northern enemy: and I will drive him into a land unpassable, and desert, with his face towards the east sea, and his hinder part towards the utmost sea: and his stench shall ascend, and his rottenness shall go up, because he hath done proudly.",
+      "citation": "Joel 2:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Fear not, O land, be glad, and rejoice: for the Lord hath done great things.",
+      "citation": "Joel 2:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Fear not, ye beasts of the fields: for the beautiful places of the wilderness are sprung, for the tree hath brought forth its fruit, the fig tree, and the vine have yielded their strength.",
+      "citation": "Joel 2:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And you, O children of Sion, rejoice, and be joyful in the Lord your God: because he hath given you a teacher of justice, and he will make the early and the latter rain to come down to you as in the beginning.",
+      "citation": "Joel 2:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And the floors shall be filled with wheat, and the presses shall overflow with wine, and oil.",
+      "citation": "Joel 2:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And I will restore to you the years which the locust, and the bruchus, and the mildew, and the palmerworm hath eaten; my great host which I sent upon you.",
+      "citation": "Joel 2:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And you shall eat in plenty, and shall be filled and you shall praise the name of the Lord your God; who hath done wonders with you, and my people shall not be confounded for ever.",
+      "citation": "Joel 2:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And you shall know that I am in the midst of Israel: and I am the Lord your God, and there is none besides: and my people shall not be confounded forever.",
+      "citation": "Joel 2:27 (Douay-Rheims)"
+    }
+  ]
+}

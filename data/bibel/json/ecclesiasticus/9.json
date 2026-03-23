@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 9 — 18 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 9,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/8.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/9.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/9.json"
+    }
+  },
+  "citation": "Jesus Sirach 9 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Sei nicht eifersüchtig auf die Ehefrau an deinem Busen und bringe ihr nicht eine schlimme Lehre bei zu deinem eigenen Schaden.",
+      "citation": "Jesus Sirach 9:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Gib deinen Willen nicht ganz und gar deiner Frau preis, so daß sie zu der dir gebührenden Herrschaft emporsteigt.",
+      "citation": "Jesus Sirach 9:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Nähere dich keinem buhlerischen Weibe, damit du nicht in ihre Schlingen fallest.",
+      "citation": "Jesus Sirach 9:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Bei einer Zitherspielerin verweile nicht lange, damit du nicht von ihren Künsten umstrickt werdest.",
+      "citation": "Jesus Sirach 9:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Eine Jungfrau betrachte nicht genau, damit du nicht durch das zu zahlende Strafgeld in Schande geratest.",
+      "citation": "Jesus Sirach 9:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Gib dein Herz nicht an Buhldirnen hin, damit du nicht um dein Hab und Gut kommest.",
+      "citation": "Jesus Sirach 9:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Gaffe nicht in den Straßen der Stadt umher und schweife nicht durch ihre einsamen Gassen.",
+      "citation": "Jesus Sirach 9:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wende deine Augen ab von einer schönen Frau und laß deine Blicke nicht ruhen auf einer fremden Schönheit; durch Weiberschönheit sind schon viele berückt worden, und an ihr entzündet die Liebe sich wie Feuer. b [Jede Frau, die der Unzucht sich preisgibt, wird wie Unrat auf der Erde zertreten. Viele sind durch eines fremden Weibes Schönheit auf Abwege geraten; denn die Unterhaltung mit ihnen brennt wie Feuer.]",
+      "citation": "Jesus Sirach 9:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Mit einer verheirateten Frau sitze überhaupt nicht zusammen (h) und schmause nicht mit ihr beim Wein, damit dein Herz sich ihr nicht zuneige und du durch deine Leidenschaft ins Verderben geratest (h).",
+      "citation": "Jesus Sirach 9:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Einen alten Freund laß nicht fahren, denn der neue kommt ihm nicht gleich; ein neuer Freund ist wie neuer Wein: erst wenn er alt geworden ist, trinkt man ihn mit Vergnügen.",
+      "citation": "Jesus Sirach 9:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Beneide keinen Sünder um seine Herrlichkeit, denn du weißt nicht, wie sein Ende sein wird.",
+      "citation": "Jesus Sirach 9:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Habe kein Wohlgefallen an dem Wohlergehen der Gottlosen; bedenke wohl, daß sie nicht bis zum Tode ungestraft bleiben.",
+      "citation": "Jesus Sirach 9:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Halte dich weit entfernt von einem Manne, der die Macht hat zu töten, damit du nicht in Todesfurcht zu schweben brauchst; wenn du aber mit ihm zu tun hast, so laß dir nichts zuschulden kommen, damit er dir nicht das Leben nehme. Bedenke wohl, daß du inmitten von Schlingen einhergehst und auf den Mauerzinnen einer Stadt wandelst.",
+      "citation": "Jesus Sirach 9:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Soviel du vermagst, berate deinen Nächsten und besprich dich mit weisen Leuten.",
+      "citation": "Jesus Sirach 9:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Mit den Einsichtsvollen halte deine Unterredungen ab, und den Gegenstand aller deiner Gespräche bilde das Gesetz des Höchsten.",
+      "citation": "Jesus Sirach 9:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Rechtschaffene Männer seien deine Tischgenossen, und in der Gottesfurcht bestehe dein Ruhm.",
+      "citation": "Jesus Sirach 9:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Durch die Hand kunstfertiger Meister erlangt ein Werk Lob, und der Führer eines Volkes ist der redefertige Weise.",
+      "citation": "Jesus Sirach 9:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Gefürchtet in seiner Stadt ist der Schwätzer (oder Schreier, Zungenheld), und wer sich in seiner Rede überstürzt, erntet Haß.",
+      "citation": "Jesus Sirach 9:18 (Menge)"
+    }
+  ]
+}

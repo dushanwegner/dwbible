@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Esther, Chapter 6 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Esther",
+      "slug": "esther",
+      "testament": "OT",
+      "order": 19,
+      "totalChapters": 10
+    },
+    "chapter": 6,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/esther/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/esther/5.json",
+      "nextChapter": "https://latinprayer.org/bibel/esther/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/esther/6.json",
+      "latin": "https://latinprayer.org/latin/esther/6.json"
+    }
+  },
+  "citation": "Esther 6 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als in der folgenden Nacht der König nicht schlafen konnte, ließ er sich das Buch der Denkwürdigkeiten, die Reichschronik, holen; aus dieser wurde ihm dann vorgelesen.",
+      "citation": "Esther 6:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da fand sich darin verzeichnet, daß Mardochai den Bigthana und Theres, die beiden königlichen Kammerherren aus der Zahl der Schwellenhüter, zur Anzeige gebracht hatte, weil sie mit dem Plan umgegangen waren, den König Ahasveros aus dem Wege zu räumen.",
+      "citation": "Esther 6:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Als nun der König fragte: »Welche Ehre und Auszeichnung ist dem Mardochai dafür zuteil geworden?« und die Leibdiener, die den Dienst beim Könige hatten, ihm die Antwort gaben, es sei ihm gar keine Belohnung zuteil geworden,",
+      "citation": "Esther 6:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "fragte der König weiter: »Wer ist im Vorhofe?« Nun war Haman gerade in den äußeren Vorhof des königlichen Palastes getreten, um beim König zu beantragen, man möge Mardochai an den Pfahl hängen, den er für ihn hatte aufrichten lassen.",
+      "citation": "Esther 6:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Als nun die Leibdiener dem König sagten, Haman sei es, der im Vorhof stehe, befahl der König, er solle eintreten.",
+      "citation": "Esther 6:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Als nun Haman eingetreten war, fragte ihn der König: »Was kann man einem Manne tun, den der König auszuzeichnen wünscht?« Da dachte Haman bei sich: »Wen anders sollte der König eher auszuzeichnen wünschen als mich?«",
+      "citation": "Esther 6:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Er antwortete also dem König: »Wenn der König jemanden auszuzeichnen wünscht,",
+      "citation": "Esther 6:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "so bringe man ein königliches Gewand herbei, das der König selbst bereits getragen, und ein Pferd, auf dem der König selbst schon geritten hat und auf dessen Kopfe die Königskrone angebracht ist;",
+      "citation": "Esther 6:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "man übergebe dann das Gewand und das Pferd einem der vornehmsten Fürsten des Königs, damit dieser den Mann, den der König auszuzeichnen wünscht, damit bekleide und ihn auf dem Pferde über den Hauptplatz der Stadt reiten lasse und dabei vor ihm her ausrufe: ›So tut man dem Manne, den der König auszuzeichnen wünscht!‹«",
+      "citation": "Esther 6:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Da sagte der König zu Haman: »Nimm sofort ein solches Gewand und das Pferd, so wie du gesagt hast, und mache es so mit dem Juden Mardochai, der im Tor des Königs(palastes) sitzt! Unterlaß nichts von allem, was du vorgeschlagen hast!«",
+      "citation": "Esther 6:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da holte Haman das erforderliche Kleid und das Pferd, bekleidete Mardochai (damit), ließ ihn auf dem Hauptplatz der Stadt umherreiten und rief vor ihm her aus: »So tut man dem Manne, den der König auszuzeichnen wünscht!«",
+      "citation": "Esther 6:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Hierauf kehrte Mardochai an das Tor des Königspalastes zurück; Haman aber eilte traurig und mit verhülltem Haupt nach Hause",
+      "citation": "Esther 6:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "und erzählte seiner Gattin Seres und seinen sämtlichen Freunden alles, was ihm widerfahren war. Da sagten seine klugen Freunde und seine Frau Seres zu ihm: »Wenn Mardochai, vor dem du jetzt zum erstenmal den kürzeren gezogen hast, ein geborener Jude ist, so wirst du nichts gegen ihn ausrichten, sondern ihm gegenüber ganz den kürzeren ziehen!«",
+      "citation": "Esther 6:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Während sie so noch mit ihm sprachen, erschienen die Kammerherren des Königs und geleiteten Haman eiligst zu dem Mahl, das Esther zugerichtet hatte.",
+      "citation": "Esther 6:14 (Menge)"
+    }
+  ]
+}

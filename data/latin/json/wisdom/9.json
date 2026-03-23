@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Wisdom, Chapter 9 — 19 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Wisdom",
+      "slug": "wisdom",
+      "testament": "OT",
+      "order": 25,
+      "totalChapters": 19
+    },
+    "chapter": 9,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/wisdom/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/wisdom/8.json",
+      "nextChapter": "https://latinprayer.org/latin/wisdom/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/wisdom/9.json",
+      "german": "https://latinprayer.org/bibel/wisdom/9.json"
+    }
+  },
+  "citation": "Wisdom 9 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Deus parentum et Domine misericordiae tuae qui fecisti omnia verbo tuo",
+      "citation": "Wisdom 9:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et sapientia tua constituisti hominem ut dominetur creaturae quae a te facta est",
+      "citation": "Wisdom 9:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ut disponat orbem terrarum in aequitate et iustitia et in directione cordis iudicium iudicet",
+      "citation": "Wisdom 9:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "da mihi sedium tuarum adsistricem sapientiam et noli me reprobare a pueris tuis",
+      "citation": "Wisdom 9:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quoniam ego servus tuus et filius ancillae tuae sum homo infirmus et exigui temporis et minor ad intellectum iudicii et legum",
+      "citation": "Wisdom 9:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et si quis erit consummatus inter filios hominum si afuerit ab illo sapientia tua in nihilum conputabitur",
+      "citation": "Wisdom 9:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "tu me elegisti regem populo tuo et iudicem filiorum tuorum et filiarum",
+      "citation": "Wisdom 9:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dixisti aedificare templum in monte sancto tuo et in civitate habitationis tuae aram similitudinem tabernaculi sancti tui quod praeparasti ab initio",
+      "citation": "Wisdom 9:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et tecum sapientia quae novit opera tua quae et adfuit tunc cum orbem terrarum faceres et sciebat quid placitum esset oculis tuis et quid directum in praeceptis tuis",
+      "citation": "Wisdom 9:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "mitte illam de sanctis caelis tuis et mitte illam a sede magnitudinis tuae ut mecum sit et mecum laboret et sciam quid acceptum sit apud te",
+      "citation": "Wisdom 9:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "scit enim illa omnia et intellegit et deducet me in operibus meis sobrie et custodiet me in sua potentia",
+      "citation": "Wisdom 9:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et erunt accepta opera mea et disponam populum tuum iuste et ero dignus sedium patris mei",
+      "citation": "Wisdom 9:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quis enim hominum poterit scire consilium Dei aut quis poterit cogitare quid velit Dominus",
+      "citation": "Wisdom 9:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "cogitationes enim mortalium timidae et incertae providentiae nostrae",
+      "citation": "Wisdom 9:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "corpus enim quod corrumpitur adgravat animam et deprimit terrena inhabitatio sensum multa cogitantem",
+      "citation": "Wisdom 9:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et difficile aestimamus quae in terra sunt et quae in prospectu sunt invenimus cum labore quae in caelis sunt autem quis investigavit",
+      "citation": "Wisdom 9:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sensum autem tuum quis scivit nisi tu dederis sapientiam et miseris sanctum spiritum tuum de altissimis",
+      "citation": "Wisdom 9:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et sic correctae sunt semitae eorum qui in terris sunt et quae tibi placent didicerunt homines",
+      "citation": "Wisdom 9:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et per sapientiam sanati sunt",
+      "citation": "Wisdom 9:18 (Clementine Vulgate)"
+    }
+  ]
+}

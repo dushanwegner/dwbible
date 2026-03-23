@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 9 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 9,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/8.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/9.json",
+      "german": "https://latinprayer.org/bibel/isaias/9.json"
+    }
+  },
+  "citation": "Isaiah 9 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "populus qui ambulabat in tenebris vidit lucem magnam habitantibus in regione umbrae mortis lux orta est eis",
+      "citation": "Isaiah 9:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "multiplicasti gentem non magnificasti laetitiam laetabuntur coram te sicut laetantur in messe sicut exultant quando dividunt spolia",
+      "citation": "Isaiah 9:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "iugum enim oneris eius et virgam umeri eius et sceptrum exactoris eius superasti sicut in die Madian",
+      "citation": "Isaiah 9:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia omnis violenta praedatio cum tumultu et vestimentum mixtum sanguine erit in conbustionem et cibus ignis",
+      "citation": "Isaiah 9:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "parvulus enim natus est nobis filius datus est nobis et factus est principatus super umerum eius et vocabitur nomen eius Admirabilis consiliarius Deus fortis Pater futuri saeculi Princeps pacis",
+      "citation": "Isaiah 9:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "multiplicabitur eius imperium et pacis non erit finis super solium David et super regnum eius ut confirmet illud et corroboret in iudicio et iustitia amodo et usque in sempiternum zelus Domini exercituum faciet hoc",
+      "citation": "Isaiah 9:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "verbum misit Dominus in Iacob et cecidit in Israhel",
+      "citation": "Isaiah 9:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et sciet populus omnis Ephraim et habitantes Samariam in superbia et magnitudine cordis dicentes",
+      "citation": "Isaiah 9:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "lateres ceciderunt sed quadris lapidibus aedificabimus sycomoros succiderunt sed cedros inmutabimus",
+      "citation": "Isaiah 9:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et elevabit Dominus hostes Rasin super eum et inimicos eius in tumultum vertet",
+      "citation": "Isaiah 9:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Syriam ab oriente et Philisthim ab occidente et devorabunt Israhel toto ore in omnibus his non est aversus furor eius sed adhuc manus eius extenta",
+      "citation": "Isaiah 9:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et populus non est reversus ad percutientem se et Dominum exercituum non inquisierunt",
+      "citation": "Isaiah 9:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et disperdet Dominus ab Israhel caput et caudam incurvantem et refrenantem die una",
+      "citation": "Isaiah 9:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "longevus et honorabilis ipse est caput et propheta docens mendacium ipse cauda est",
+      "citation": "Isaiah 9:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et erunt qui beatificant populum istum seducentes et qui beatificantur praecipitati",
+      "citation": "Isaiah 9:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "propter hoc super adulescentulis eius non laetabitur Dominus et pupillorum eius et viduarum non miserebitur quia omnis hypocrita est et nequam et universum os locutum est stultitiam in omnibus his non est aversus furor eius sed adhuc manus eius extenta",
+      "citation": "Isaiah 9:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "succensa est enim quasi ignis impietas veprem et spinam vorabit et succendetur in densitate saltus et convolvetur superbia fumi",
+      "citation": "Isaiah 9:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "in ira Domini exercituum conturbata est terra et erit populus quasi esca ignis vir fratri suo non parcet",
+      "citation": "Isaiah 9:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et declinabit ad dexteram et esuriet et comedet ad sinistram et non saturabitur unusquisque carnem brachii sui vorabit Manasses Ephraim et Ephraim Manassen simul ipsi contra Iudam",
+      "citation": "Isaiah 9:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in omnibus his non est aversus furor eius sed adhuc manus eius extenta",
+      "citation": "Isaiah 9:20 (Clementine Vulgate)"
+    }
+  ]
+}

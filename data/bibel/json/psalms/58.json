@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 58 — 12 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 58,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/57.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/59.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/58.json",
+      "latin": "https://latinprayer.org/latin/psalms/58.json"
+    }
+  },
+  "citation": "Psalmen 58 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, nach (der Singweise = Melodie) »Vertilge nicht«; von David ein Lied</em>.",
+      "citation": "Psalmen 58:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Sprecht in Wahrheit ihr Recht, ihr Götter<span class=\"auslegung\"> (= ihr Gewaltigen, ihr Machthaber auf Erden; vgl. 82,1)</span>? Richtet ihr die Menschen gerecht?",
+      "citation": "Psalmen 58:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ach nein, im Herzen schmiedet ihr Frevel, im Lande wägen eure Hände Gewalttat dar.",
+      "citation": "Psalmen 58:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Abtrünnig sind die Gottlosen schon von Geburt an, schon vom Mutterleib an gehn die Lügenredner irre.",
+      "citation": "Psalmen 58:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Gift haben sie in sich wie Schlangengift, sie gleichen der tauben Otter, die ihr Ohr verstopft,",
+      "citation": "Psalmen 58:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "die nicht hört auf die Stimme der Beschwörer, (auf die Stimme) des kundigen Bannspruchredners.",
+      "citation": "Psalmen 58:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Zerschmettre ihnen, Gott, die Zähne im Munde, den jungen Löwen brich aus das Gebiß, o HERR!",
+      "citation": "Psalmen 58:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Laß sie vergehen wie Wasser, das sich verläuft! Schießt er seine Pfeile ab: sie seien wie ohne Spitze!",
+      "citation": "Psalmen 58:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Wie die Schnecke beim Kriechen zerfließt, so muß er zergehn, wie die Fehlgeburt eines Weibes, die das Licht nicht geschaut!",
+      "citation": "Psalmen 58:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Bevor noch eure Töpfe den (brennenden) Stechdorn spüren, wird ihn, noch unverbrannt, die Zornglut hinwegstürmen.",
+      "citation": "Psalmen 58:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Der Gerechte wird sich freun, daß er Rache erlebt, seine Füße wird er baden im Blute des Frevlers,",
+      "citation": "Psalmen 58:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "und die Menschen werden bekennen: »Fürwahr, der Gerechte erntet noch Lohn! Fürwahr, noch gibt’s einen Gott, der auf Erden richtet!«",
+      "citation": "Psalmen 58:12 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Thessalonians, Chapter 3 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Thessalonians",
+      "slug": "2-thessalonians",
+      "testament": "NT",
+      "order": 60,
+      "totalChapters": 3
+    },
+    "chapter": 3,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-thessalonians/2.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-thessalonians/3.json",
+      "german": "https://latinprayer.org/bibel/2-thessalonians/3.json"
+    }
+  },
+  "citation": "2. Thessalonians 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "For the rest, brethren, pray for us that the word of God may run and may be glorified, even as among you:",
+      "citation": "2. Thessalonians 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And that we may be delivered from importunate and evil men: for all men have not faith.",
+      "citation": "2. Thessalonians 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "But God is faithful, who will strengthen and keep you from evil.",
+      "citation": "2. Thessalonians 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And we have confidence concerning you in the Lord that the things which we command, you both do and will do.",
+      "citation": "2. Thessalonians 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the Lord direct your hearts, in the charity of God and the patience of Christ.",
+      "citation": "2. Thessalonians 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And we charge you, brethren, in the name of our Lord Jesus Christ, that you withdraw yourselves from every brother walking disorderly and not according to the tradition which they have received of us.",
+      "citation": "2. Thessalonians 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For yourselves know how you ought to imitate us. For we were not disorderly among you.",
+      "citation": "2. Thessalonians 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Neither did we eat any man's bread for nothing: but in labour and in toil we worked night and day, lest we should be chargeable to any of you.",
+      "citation": "2. Thessalonians 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Not as if we had not power: but that we might give ourselves a pattern unto you, to imitate us.",
+      "citation": "2. Thessalonians 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For also, when we were with you, this we declared to you: that, if any man will not work, neither let him eat.",
+      "citation": "2. Thessalonians 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For we have heard there are some among you who walk disorderly: working not at all, but curiously meddling.",
+      "citation": "2. Thessalonians 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Now we charge them that are such and beseech them by the Lord Jesus Christ that, working with silence, they would eat their own bread.",
+      "citation": "2. Thessalonians 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But you, brethren, be not weary in well doing.",
+      "citation": "2. Thessalonians 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And if any man obey not our word by this epistle, note that man and do not keep company with him, that he may be ashamed.",
+      "citation": "2. Thessalonians 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Yet do not esteem him as an enemy but admonish him as a brother.",
+      "citation": "2. Thessalonians 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Now the Lord of peace himself give you everlasting peace in every place. The Lord be with you all.",
+      "citation": "2. Thessalonians 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The salutation of Paul with my own hand: which is the sign in every epistle. So I write.",
+      "citation": "2. Thessalonians 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The grace of our Lord Jesus Christ be with you all. Amen.",
+      "citation": "2. Thessalonians 3:18 (Douay-Rheims)"
+    }
+  ]
+}

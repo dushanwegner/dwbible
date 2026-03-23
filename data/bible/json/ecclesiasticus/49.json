@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 49 — 19 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 49,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/48.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/50.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/49.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/49.json"
+    }
+  },
+  "citation": "Ecclesiasticus 49 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The memory of Josias is like the composition of a sweet smell made by the art of a perfumer:",
+      "citation": "Ecclesiasticus 49:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "His remembrance shall be sweet as honey in every mouth, and as music at a banquet of wine.",
+      "citation": "Ecclesiasticus 49:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He was directed by God unto the repentance of the nation, and he took away the abominations of wickedness.",
+      "citation": "Ecclesiasticus 49:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he directed his heart towards the Lord, and in the days of sinners he strengthened godliness.",
+      "citation": "Ecclesiasticus 49:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Except David, and Ezechias and Josias, all committed sin.",
+      "citation": "Ecclesiasticus 49:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For the kings of Juda forsook the law of the most High, and despised the fear of God.",
+      "citation": "Ecclesiasticus 49:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "So they gave their kingdom to others, and their glory to a strange nation,",
+      "citation": "Ecclesiasticus 49:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "They burnt the chosen city of holiness, and made the streets thereof desolate according to the prediction of Jeremias.",
+      "citation": "Ecclesiasticus 49:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For they treated him evil, who was consecrated a prophet from his mother's womb, to overthrow, and pluck up, and destroy, and to build again, and renew.",
+      "citation": "Ecclesiasticus 49:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "It was Ezechiel that saw the glorious vision, which was shewn him upon the chariot of cherubims.",
+      "citation": "Ecclesiasticus 49:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For he made mention of the enemies under the figure of rain, and of doing good to them that shewed right ways.",
+      "citation": "Ecclesiasticus 49:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And may the bones of the twelve prophets spring up out of their place: for they strengthened Jacob, and redeemed themselves by strong faith.",
+      "citation": "Ecclesiasticus 49:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "How shall we magnify Zorobabel? for he was as a signet on the right hand;",
+      "citation": "Ecclesiasticus 49:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "In like manner Jesus the son of Josedec who in their days built the house, and set up a holy temple to the Lord, prepared for everlasting glory.",
+      "citation": "Ecclesiasticus 49:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And let Nehemias be a long time remembered, who raised up for us our walls that were cast down, and set up the gates and the bars, who rebuilt our houses.",
+      "citation": "Ecclesiasticus 49:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "No man was born upon earth like Henoch: for he also was taken up from the earth.",
+      "citation": "Ecclesiasticus 49:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Nor as Joseph, who was a man born prince of his brethren, the support of his family, the ruler of his brethren, the stay of the people:",
+      "citation": "Ecclesiasticus 49:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And his bones were visited, and after death they prophesied.",
+      "citation": "Ecclesiasticus 49:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Seth and Sem obtained glory among men: and above every soul Adam in the beginning,",
+      "citation": "Ecclesiasticus 49:19 (Douay-Rheims)"
+    }
+  ]
+}

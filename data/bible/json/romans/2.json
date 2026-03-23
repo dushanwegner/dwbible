@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Romans, Chapter 2 — 29 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 52,
+      "totalChapters": 16
+    },
+    "chapter": 2,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/romans/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/romans/1.json",
+      "nextChapter": "https://latinprayer.org/bible/romans/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/romans/2.json",
+      "german": "https://latinprayer.org/bibel/romans/2.json"
+    }
+  },
+  "citation": "Romans 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wherefore thou art inexcusable, O man, whosoever thou art that judgest. For wherein thou judgest another, thou condemnest thyself. For thou dost the same things which thou judgest.",
+      "citation": "Romans 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For we know that the judgment of God is, according to truth, against them that do such things.",
+      "citation": "Romans 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And thinkest thou this, O man, that judgest them who do such things and dost the same, that thou shalt escape the judgment of God?",
+      "citation": "Romans 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Or despisest thou the riches of his goodness and patience and longsuffering? Knowest thou not that the benignity of God leadeth thee to penance?",
+      "citation": "Romans 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But according to thy hardness and impenitent heart, thou treasurest up to thyself wrath, against the day of wrath and revelation of the just judgment of God:",
+      "citation": "Romans 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Who will render to every man according to his works.",
+      "citation": "Romans 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "To them indeed who, according to patience in good work, seek glory and honour and incorruption, eternal life:",
+      "citation": "Romans 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But to them that are contentious and who obey not the truth but give credit to iniquity, wrath and indignation.",
+      "citation": "Romans 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Tribulation and anguish upon every soul of man that worketh evil: of the Jew first, and also of the Greek.",
+      "citation": "Romans 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But glory and honour and peace to every one that worketh good: to the Jew first, and also to the Greek.",
+      "citation": "Romans 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For there is no respect of persons with God.",
+      "citation": "Romans 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For whosoever have sinned without the law shall perish without the law: and whosoever have sinned in the law shall be judged by the law.",
+      "citation": "Romans 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For not the hearers of the law are just before God: but the doers of the law shall be justified.",
+      "citation": "Romans 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For when the Gentiles, who have not the law, do by nature those things that are of the law; these, having not the law, are a law to themselves.",
+      "citation": "Romans 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Who shew the work of the law written in their hearts, their conscience bearing witness to them: and their thoughts between themselves accusing or also defending one another,",
+      "citation": "Romans 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "In the day when God shall judge the secrets of men by Jesus Christ, according to my gospel.",
+      "citation": "Romans 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But if thou art called a Jew and restest in the law and makest thy boast of God,",
+      "citation": "Romans 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And knowest his will and approvest the more profitable things, being instructed by the law:",
+      "citation": "Romans 2:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Art confident that thou thyself art a guide of the blind, a light of them that are in darkness,",
+      "citation": "Romans 2:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "An instructor of the foolish, a teacher of infants, having the form of knowledge and of truth in the law.",
+      "citation": "Romans 2:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Thou therefore, that teachest another, teachest not thyself: thou, that preachest that men should not steal, stealest.",
+      "citation": "Romans 2:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Thou, that sayest men should not commit adultery, committest adultery: thou, that abhorrest idols, committest sacrilege:",
+      "citation": "Romans 2:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Thou, that makest thy boast of the law, by transgression of the law dishonourest God.",
+      "citation": "Romans 2:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "(For the name of God through you is blasphemed among the Gentiles, as it is written.)",
+      "citation": "Romans 2:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Circumcision profiteth indeed, if thou keep the law: but if thou be a transgressor of the law, thy circumcision is made uncircumcision.",
+      "citation": "Romans 2:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "If then, the uncircumcised keep the justices of the law, shall not this uncircumcision be counted for circumcision?",
+      "citation": "Romans 2:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And shall not that which by nature is uncircumcision, if it fulfil the law, judge thee, who by the letter and circumcision art a transgressor of the law?",
+      "citation": "Romans 2:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "For it is not he is a Jew, who is so outwardly: nor is that circumcision which is outwardly in the flesh.",
+      "citation": "Romans 2:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "But he is a Jew that is one inwardly and the circumcision is that of the heart, in the spirit not in the letter: whose praise is not of men, but of God.",
+      "citation": "Romans 2:29 (Douay-Rheims)"
+    }
+  ]
+}

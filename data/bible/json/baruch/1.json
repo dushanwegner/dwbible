@@ -1,0 +1,506 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Baruch, Chapter 1 — 94 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Baruch",
+      "slug": "baruch",
+      "testament": "OT",
+      "order": 30,
+      "totalChapters": 5
+    },
+    "chapter": 1,
+    "verseCount": 94,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/baruch/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bible/baruch/2.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/baruch/1.json",
+      "german": "https://latinprayer.org/bibel/baruch/1.json"
+    }
+  },
+  "citation": "Baruch 1 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And these are the words of the book, which Baruch the son of Nerias, the son of Maasias, the son of Sedecias, the son of Sedei, the son Helcias, wrote in Babylonia.",
+      "citation": "Baruch 1:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "For the sins that you have committed before God, you shall be carried away captives into Babylon by Nabuchodonosor the king of Babylon.",
+      "citation": "Baruch 1:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "In the fifth year, in the seventh day of the month, at the time that the Chaldeans took Jerusalem, and burnt it with fire.",
+      "citation": "Baruch 1:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And when you are come into Babylon, you shall be there many years, and for a long time, even to seven generations: and after that I will bring you away from thence with peace.",
+      "citation": "Baruch 1:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Baruch read the words of this book in the hearing of Jechonias the son of Joakim king of Juda, and in the hearing of all the people that came to hear the book.",
+      "citation": "Baruch 1:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "But now, you shall see in Babylon gods of gold, and of silver, and of stone, and of wood borne upon shoulders, causing fear to the Gentiles.",
+      "citation": "Baruch 1:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And in the hearing of the nobles, the sons of the kings, and in the hearing of the ancients, and in the hearing of the people, from the least even to the greatest of them that dwelt in Babylonia, by the river Sedi.",
+      "citation": "Baruch 1:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Beware therefore that you imitate not the doings of others, and be afraid, and the fear of them should seize upon you.",
+      "citation": "Baruch 1:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And when they heard it they wept, and fasted, and prayed before the Lord.",
+      "citation": "Baruch 1:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But when you see the multitude behind, and before, adoring them, say you in your hearts: Thou oughtest to be adored, O Lord.",
+      "citation": "Baruch 1:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And they made a collection of money according to every man's power.",
+      "citation": "Baruch 1:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For my angel is with you: And I myself will demand an account of your souls.",
+      "citation": "Baruch 1:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And they sent it to Jerusalem to Joakim the priest, the son of Helcias, the son of Salom, and to the priests, and to all the people, that were found with him in Jerusalem:",
+      "citation": "Baruch 1:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For their tongue that is polished by the craftsman, and themselves laid over with gold and silver, are false things, and they cannot speak.",
+      "citation": "Baruch 1:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "At the time when he received the vessels of the temple of the Lord, which had been taken away out of the temple, to return them into the land of Juda the tenth day of the month Sivan, the silver vessels, which Sedecias the son of Josias king of Juda had made,",
+      "citation": "Baruch 1:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And as if it were for a maiden that loveth to go gay: so do they take gold and make them up.",
+      "citation": "Baruch 1:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "After that Nabuchodonosor the king of Babylon had carried away Jechonias, and the princes, and all the powerful men, and the people of the land from Jerusalem, and brought them bound to Babylon.",
+      "citation": "Baruch 1:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Their gods have golden crowns upon their heads: whereof the priests secretly convey away from them gold, and silver, and bestow it on themselves.",
+      "citation": "Baruch 1:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And they said: Behold we have sent you money, buy with it holocausts, and frankincense, and make meat offerings, and offerings for sin at the altar of the Lord our God:",
+      "citation": "Baruch 1:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Yea and they give thereof to prostitutes, and they dress out harlots: and again when they receive it of the harlots, they adorn their gods.",
+      "citation": "Baruch 1:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And pray ye for the life of Nabuchodonosor the king of Babylon, and for the life of Balthasar his son, that their days may be upon earth as the days of heaven:",
+      "citation": "Baruch 1:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And these gods cannot defend themselves from the rust, and the moth.",
+      "citation": "Baruch 1:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And that the Lord may give us strength, and enlighten our eyes, that we may live under the shadow of Nabuchodonosor the king of Babylon, and under the shadow of Balthasar his son, and may serve them many days, and may find favour in their sight.",
+      "citation": "Baruch 1:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "But when they have covered them with a purple garment, they wipe their face because of the dust of the house, which is very much among them.",
+      "citation": "Baruch 1:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And pray ye for us to the Lord our God: for we have sinned against the Lord our God, and his wrath is not turned away from us even to this day.",
+      "citation": "Baruch 1:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "This holdeth a sceptre as a man, as a judge of the country, but cannot put to death one that offendeth him.",
+      "citation": "Baruch 1:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And read ye this book, which we have sent to you to be read in the temple of the Lord, on feasts, and proper days.",
+      "citation": "Baruch 1:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And this hath in his hand a sword, or an axe, but cannot save himself from war, or from robbers, whereby be it known to you, that they are not gods.",
+      "citation": "Baruch 1:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And you shall say: To the Lord our God belongeth justice, but to us confusion of our face: as it is come to pass at this day to all Juda, and to the inhabitants of Jerusalem,",
+      "citation": "Baruch 1:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Therefore fear them not. For as a vessel that a man uses when it is broken becometh useless, even so are their gods:",
+      "citation": "Baruch 1:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "To our kings, and to our princes, and to our priests, and to our prophets, and to our fathers.",
+      "citation": "Baruch 1:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "When they are placed in the house, their eyes are full of dust by the feet of them that go in.",
+      "citation": "Baruch 1:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "We have sinned before the Lord our God, and have not believed him, nor put our trust in him:",
+      "citation": "Baruch 1:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And as the gates are made sure on every side upon one that hath offended the king, or like a dead man carried to the grave, so do the priests secure the doors with bars and locks, lest they be stripped by thieves.",
+      "citation": "Baruch 1:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And we were not obedient to him, and we have not hearkened to the voice of the Lord our God, to walk in his commandments which he hath given us.",
+      "citation": "Baruch 1:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "They light candles to them, and in great number, of which they cannot see one: but they are like beams in the house.",
+      "citation": "Baruch 1:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "From the day that he brought our fathers out of the land of Egypt, even to this day, we were disobedient to the Lord our God: and going astray we turned away from hearing his voice.",
+      "citation": "Baruch 1:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And they say that the creeping things which are of the earth, gnaw their hearts, while they eat them and their garments, and they feel it not.",
+      "citation": "Baruch 1:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And many evils have cleaved to us, and the curses which the Lord foretold by Moses his servant: who brought our fathers out of the land of Egypt, to give us a land flowing with milk and honey, as at this day.",
+      "citation": "Baruch 1:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Their faces are black with the smoke that is made in the house.",
+      "citation": "Baruch 1:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And we have not hearkened to the voice of the Lord our God according to all the words of the prophets whom he sent to us:",
+      "citation": "Baruch 1:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Owls, and swallows, and other birds fly upon their bodies, and upon their heads, and cats in like manner.",
+      "citation": "Baruch 1:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And we have gone away every man after the inclinations of his own wicked heart, to serve strange gods, and to do evil in the sight of the Lord our God.",
+      "citation": "Baruch 1:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Whereby you may know that they are no gods. Therefore fear them not.",
+      "citation": "Baruch 1:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The gold also which they have, is for shew, but except a man wipe off the rust, they will not shine: for neither when they were molten, did they feel it.",
+      "citation": "Baruch 1:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Men buy them at a high price, whereas there is no breath in them.",
+      "citation": "Baruch 1:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And having not the use of feet they are carried upon shoulders, declaring to men how vile they are. Be they confounded also that worship them.",
+      "citation": "Baruch 1:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Therefore if they fall to the ground, they rise not up again of themselves, nor if a man set them upright, will they stand by themselves, but their gifts shall be set before them, as to the dead.",
+      "citation": "Baruch 1:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "The things that are sacrificed to them, their priests sell and abuse: in like manner also their wives take part of them, but give nothing of it either to the sick, or to the poor.",
+      "citation": "Baruch 1:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "The childbearing and menstruous women touch their sacrifices: knowing, therefore, by these things that they are not gods, fear them not.",
+      "citation": "Baruch 1:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "For how can they be called gods? because women set offerings before the gods of silver, and of gold, and of wood:",
+      "citation": "Baruch 1:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And priests sit in their temples, having their garments rent, and their heads and beards shaven, and nothing upon their heads.",
+      "citation": "Baruch 1:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And they roar and cry before their gods, as men do at the feast when one is dead.",
+      "citation": "Baruch 1:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "The priests take away their garments, and clothe their wives and their children.",
+      "citation": "Baruch 1:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And whether it be evil that one doth unto them, or good, they are not able to recompense it: neither can they set up a king, nor put him down:",
+      "citation": "Baruch 1:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "In like manner they can neither give riches, nor requite evil. If a man make a vow to them, and perform it not: they cannot require it.",
+      "citation": "Baruch 1:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "They cannot deliver a man from death, nor save the weak from the mighty.",
+      "citation": "Baruch 1:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "They cannot restore the blind man to his sight: nor deliver a man from distress.",
+      "citation": "Baruch 1:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "They shall not pity the widow, nor do good to the fatherless.",
+      "citation": "Baruch 1:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Their gods, of wood, and of stone, and of gold, and of silver, are like the stones that are hewn out of the mountains: and they that worship them shall be confounded.",
+      "citation": "Baruch 1:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "How then is it to be supposed, or to be said, that they are gods?",
+      "citation": "Baruch 1:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Even the Chaldeans themselves dishonor them: who when they here of one dumb that cannot speak, they present him to Bel, entreating him, that he may speak.",
+      "citation": "Baruch 1:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "As though they could be sensible that have no motion themselves: and they, when they shall perceive this, will leave them: for their gods themselves have no sense.",
+      "citation": "Baruch 1:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "The women also, with cords about them, sit in the ways, burning olive-stones.",
+      "citation": "Baruch 1:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And when any one of them, drawn away by some passenger, lieth with him, she upbraideth her neighbor, that she was not thought as worthy as herself, nor her cord broken.",
+      "citation": "Baruch 1:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "But all things that are done about them, are false: how is it then to be thought, or to be said, that they are gods?",
+      "citation": "Baruch 1:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "And they are made by workmen, and by goldsmiths. They shall be nothing else but what the priests will have them to be.",
+      "citation": "Baruch 1:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "For the artificers themselves that make them, are of no long continuance. Can those things then that are made by them, be gods?",
+      "citation": "Baruch 1:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "But they have left false things and reproach to them that come after.",
+      "citation": "Baruch 1:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "For when war cometh upon them, or evils: the priests consult with themselves, where they may hide themselves with them.",
+      "citation": "Baruch 1:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "How then can they be thought to be gods, that can neither deliver themselves from war, nor save themselves from evils?",
+      "citation": "Baruch 1:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "For seeing they are but of wood, and laid over with gold, and with silver, it shall be known hereafter that they are false things, by all nations, and kings: and it shall be manifest that they are no gods, but the work of men's hands, and that there is no work of God in them.",
+      "citation": "Baruch 1:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "Whence, therefore, is it known that they are not gods, but the work of men's hands, and no work of God is in them?",
+      "citation": "Baruch 1:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "They cannot set up a king over the land, nor give rain to men.",
+      "citation": "Baruch 1:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "They determine no causes, nor deliver countries from oppression: because they can do nothing, and are as daws between heaven and earth.",
+      "citation": "Baruch 1:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "For when fire shall fall upon the house of these gods of wood, and of silver, and of gold, their priests indeed will flee away, and be saved: but they themselves shall be burnt in the midst like beams.",
+      "citation": "Baruch 1:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "And they cannot withstand a king and war. How then can it be supposed, or admitted, that they are gods?",
+      "citation": "Baruch 1:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "Neither are these gods of wood, and of stone, and laid over with gold, and with silver, able to deliver themselves from thieves or robbers: they that are stronger than them,",
+      "citation": "Baruch 1:56 (Douay-Rheims)"
+    },
+    {
+      "verse": 57,
+      "text": "Shall take from them the gold, and silver, and the raiment wherewith they are clothed, and shall go their way, neither shall they help themselves.",
+      "citation": "Baruch 1:57 (Douay-Rheims)"
+    },
+    {
+      "verse": 58,
+      "text": "Therefore it is better to be a king that sheweth his power: or else a profitable vessel in the house, with which the owner thereof will be well satisfied: or a door in the house, to keep things safe that are therein, than such false gods.",
+      "citation": "Baruch 1:58 (Douay-Rheims)"
+    },
+    {
+      "verse": 59,
+      "text": "The sun, and the moon, and the stars being bright, and sent forth for profitable uses, are obedient.",
+      "citation": "Baruch 1:59 (Douay-Rheims)"
+    },
+    {
+      "verse": 60,
+      "text": "In like manner the lightning, when it breaketh forth, is easy to be seen: and after the same manner the wind bloweth in every country.",
+      "citation": "Baruch 1:60 (Douay-Rheims)"
+    },
+    {
+      "verse": 61,
+      "text": "And the clouds, when God commandeth them to go over the whole world, do that which is commanded them.",
+      "citation": "Baruch 1:61 (Douay-Rheims)"
+    },
+    {
+      "verse": 62,
+      "text": "The fire also being sent from above to consume mountains, and woods, doth as it is commanded. But these neither in shew, nor in power, are alike to any one of them.",
+      "citation": "Baruch 1:62 (Douay-Rheims)"
+    },
+    {
+      "verse": 63,
+      "text": "Wherefore it is neither to be thought, nor to be said, that they are gods: since they are neither able to judge causes, nor to do any good to men.",
+      "citation": "Baruch 1:63 (Douay-Rheims)"
+    },
+    {
+      "verse": 64,
+      "text": "Knowing, therefore, that they are not gods, fear them not.",
+      "citation": "Baruch 1:64 (Douay-Rheims)"
+    },
+    {
+      "verse": 65,
+      "text": "For neither can they curse kings, nor bless them.",
+      "citation": "Baruch 1:65 (Douay-Rheims)"
+    },
+    {
+      "verse": 66,
+      "text": "Neither do they shew signs in the heaven to the nations, nor shine as the sun, nor give light as the moon.",
+      "citation": "Baruch 1:66 (Douay-Rheims)"
+    },
+    {
+      "verse": 67,
+      "text": "Beasts are better than they, which can fly under a covert, and help themselves.",
+      "citation": "Baruch 1:67 (Douay-Rheims)"
+    },
+    {
+      "verse": 68,
+      "text": "Therefore there is no manner of appearance that they are gods: so fear them not.",
+      "citation": "Baruch 1:68 (Douay-Rheims)"
+    },
+    {
+      "verse": 69,
+      "text": "For as a scarecrow in a garden of cucumbers keepeth nothing, so are their gods of wood, and of silver, and laid over with gold.",
+      "citation": "Baruch 1:69 (Douay-Rheims)"
+    },
+    {
+      "verse": 70,
+      "text": "They are no better than a white thorn in a garden, upon which every bird sitteth. In like manner also their gods of wood, and laid over with gold, and with silver, are like to a dead body cast forth in the dark.",
+      "citation": "Baruch 1:70 (Douay-Rheims)"
+    },
+    {
+      "verse": 71,
+      "text": "By the purple also and the scarlet which are motheaten upon them, you shall know that they are not gods. And they themselves at last are consumed, and shall be a reproach in the country.",
+      "citation": "Baruch 1:71 (Douay-Rheims)"
+    },
+    {
+      "verse": 72,
+      "text": "Better, therefore, is the just man that hath no idols: for he shall be far from reproach.",
+      "citation": "Baruch 1:72 (Douay-Rheims)"
+    }
+  ]
+}

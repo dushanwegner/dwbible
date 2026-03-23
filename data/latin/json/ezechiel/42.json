@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezekiel, Chapter 42 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 42,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ezechiel/41.json",
+      "nextChapter": "https://latinprayer.org/latin/ezechiel/43.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ezechiel/42.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/42.json"
+    }
+  },
+  "citation": "Ezekiel 42 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et eduxit me in atrium exterius per viam ducentem ad aquilonem et eduxit me in gazofilacium quod erat contra separatum aedificium et contra aedem vergentem ad aquilonem",
+      "citation": "Ezekiel 42:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in facie longitudinis centum cubitos ostii aquilonis et latitudinis quinquaginta cubitos",
+      "citation": "Ezekiel 42:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "contra viginti cubitos atrii interioris et contra pavimentum stratum lapide atrii exterioris ubi erat porticus iuncta porticui triplici",
+      "citation": "Ezekiel 42:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et ante gazofilacia deambulatio decem cubitorum latitudinis ad interiora respiciens viae cubiti unius et ostia earum ad aquilonem",
+      "citation": "Ezekiel 42:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ubi erant gazofilacia in superioribus humiliora quia subportabant porticus quae ex illis eminebant de inferioribus et de mediis aedificii",
+      "citation": "Ezekiel 42:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "tristega enim erant et non habebant columnas sicut erant columnae atriorum propterea eminebant de inferioribus et de mediis a terra",
+      "citation": "Ezekiel 42:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et peribolus exterior secundum gazofilacia quae erant in via atrii exterioris ante gazofilacia longitudo eius quinquaginta cubitorum",
+      "citation": "Ezekiel 42:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quia longitudo erat gazofilaciorum atrii exterioris quinquaginta cubitorum et longitudo ante faciem templi centum cubitorum",
+      "citation": "Ezekiel 42:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et erat subter gazofilacia haec introitus ab oriente ingredientium in ea de atrio exteriori",
+      "citation": "Ezekiel 42:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in latitudine periboli atrii quod erat contra viam orientalem in facie aedificii separati et erant ante aedificium gazofilacia",
+      "citation": "Ezekiel 42:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et via ante faciem eorum iuxta similitudinem gazofilaciorum quae erant in via aquilonis secundum longitudinem eorum sic et latitudo eorum et omnis introitus eorum et similitudines et ostia eorum",
+      "citation": "Ezekiel 42:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "secundum ostia gazofilaciorum quae erant in via respiciente ad notum ostium in capite viae quae via erat ante vestibulum separatum per viam orientalem ingredientibus",
+      "citation": "Ezekiel 42:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et dixit ad me gazofilacia aquilonis et gazofilacia austri quae sunt ante aedificium separatum haec sunt gazofilacia sancta in quibus vescuntur sacerdotes qui adpropinquant ad Dominum in sancta sanctorum ibi ponent sancta sanctorum et oblationem pro peccato et pro delicto locus enim sanctus est",
+      "citation": "Ezekiel 42:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "cum autem ingressi fuerint sacerdotes non egredientur de sanctis in atrium exterius et ibi reponent vestimenta sua in quibus ministrant quia sancta sunt vestienturque vestimentis aliis et sic procedent ad populum",
+      "citation": "Ezekiel 42:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "cumque conplesset mensuras domus interioris eduxit me per viam portae quae respiciebat ad viam orientalem et mensus est eam undique per circuitum",
+      "citation": "Ezekiel 42:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "mensus autem est contra ventum orientalem calamo mensurae quingentos calamos in calamo mensurae per circuitum",
+      "citation": "Ezekiel 42:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et mensus est contra ventum aquilonem quingentos calamos in calamo mensurae per gyrum",
+      "citation": "Ezekiel 42:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et ad ventum australem mensus est quingentos calamos in calamo mensurae per circuitum",
+      "citation": "Ezekiel 42:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et ad ventum occidentalem mensus est quingentos calamos in calamo mensurae",
+      "citation": "Ezekiel 42:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "per quattuor ventos mensus est illud murum eius undique per circuitum longitudine quingentorum cubitorum et latitudine quingentorum cubitorum dividentem inter sanctuarium et vulgi locum",
+      "citation": "Ezekiel 42:20 (Clementine Vulgate)"
+    }
+  ]
+}

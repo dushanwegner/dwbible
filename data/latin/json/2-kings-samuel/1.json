@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Samuel, Chapter 1 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "order": 10,
+      "totalChapters": 24
+    },
+    "chapter": 1,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/2-kings-samuel/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-kings-samuel/1.json",
+      "german": "https://latinprayer.org/bibel/2-kings-samuel/1.json"
+    }
+  },
+  "citation": "2 Samuel 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "factum est autem postquam mortuus est Saul ut David reverteretur a caede Amalech et maneret in Siceleg dies duos",
+      "citation": "2 Samuel 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in die autem tertia apparuit homo veniens de castris Saul veste conscissa et pulvere aspersus caput et ut venit ad David cecidit super faciem suam et adoravit",
+      "citation": "2 Samuel 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "dixitque ad eum David unde venis qui ait ad eum de castris Israhel fugi",
+      "citation": "2 Samuel 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dixit ad eum David quod est verbum quod factum est indica mihi qui ait fugit populus e proelio et multi corruentes e populo mortui sunt sed et Saul et Ionathan filius eius interierunt",
+      "citation": "2 Samuel 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "dixitque David ad adulescentem qui nuntiabat unde scis quia mortuus est Saul et Ionathan filius eius",
+      "citation": "2 Samuel 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ait adulescens qui narrabat ei casu veni in montem Gelboe et Saul incumbebat super hastam suam porro currus et equites adpropinquabant ei",
+      "citation": "2 Samuel 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et conversus post tergum suum vidensque me vocavit cui cum respondissem adsum",
+      "citation": "2 Samuel 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dixit mihi quisnam es tu et aio ad eum Amalechites sum",
+      "citation": "2 Samuel 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et locutus est mihi sta super me et interfice me quoniam tenent me angustiae et adhuc tota anima in me est",
+      "citation": "2 Samuel 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "stansque super eum occidi illum sciebam enim quod vivere non poterat post ruinam et tuli diadema quod erat in capite eius et armillam de brachio illius et adtuli ad te dominum meum huc",
+      "citation": "2 Samuel 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "adprehendens autem David vestimenta sua scidit omnesque viri qui erant cum eo",
+      "citation": "2 Samuel 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et planxerunt et fleverunt et ieiunaverunt usque ad vesperam super Saul et super Ionathan filium eius et super populum Domini et super domum Israhel quod corruissent gladio",
+      "citation": "2 Samuel 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "dixitque David ad iuvenem qui nuntiaverat ei unde es qui respondit filius hominis advenae amalechitae ego sum",
+      "citation": "2 Samuel 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et ait ad eum David quare non timuisti mittere manum tuam ut occideres christum Domini",
+      "citation": "2 Samuel 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "vocansque David unum de pueris ait accedens inrue in eum qui percussit illum et mortuus est",
+      "citation": "2 Samuel 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et ait ad eum David sanguis tuus super caput tuum os enim tuum locutum est adversum te dicens ego interfeci christum Domini",
+      "citation": "2 Samuel 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "planxit autem David planctum huiuscemodi super Saul et super Ionathan filium eius",
+      "citation": "2 Samuel 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et praecepit ut docerent filios Iuda arcum sicut scriptum est in libro Iustorum",
+      "citation": "2 Samuel 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "incliti Israhel super montes tuos interfecti sunt quomodo ceciderunt fortes",
+      "citation": "2 Samuel 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "nolite adnuntiare in Geth neque adnuntietis in conpetis Ascalonis ne forte laetentur filiae Philisthim ne exultent filiae incircumcisorum",
+      "citation": "2 Samuel 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "montes Gelboe nec ros nec pluviae veniant super vos neque sint agri primitiarum quia ibi abiectus est clypeus fortium clypeus Saul quasi non esset unctus oleo",
+      "citation": "2 Samuel 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "a sanguine interfectorum ab adipe fortium sagitta Ionathan numquam rediit retrorsum et gladius Saul non est reversus inanis",
+      "citation": "2 Samuel 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "Saul et Ionathan amabiles et decori in vita sua in morte quoque non sunt divisi aquilis velociores leonibus fortiores",
+      "citation": "2 Samuel 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "filiae Israhel super Saul flete qui vestiebat vos coccino in deliciis qui praebebat ornamenta aurea cultui vestro",
+      "citation": "2 Samuel 1:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quomodo ceciderunt fortes in proelio Ionathan in excelsis tuis occisus est",
+      "citation": "2 Samuel 1:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "doleo super te frater mi Ionathan decore nimis et amabilis super amorem mulierum",
+      "citation": "2 Samuel 1:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "quomodo ceciderunt robusti et perierunt arma bellica",
+      "citation": "2 Samuel 1:27 (Clementine Vulgate)"
+    }
+  ]
+}

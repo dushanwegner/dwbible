@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Amos, Chapter 8 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Amos",
+      "slug": "amos",
+      "testament": "OT",
+      "order": 35,
+      "totalChapters": 9
+    },
+    "chapter": 8,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/amos/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/amos/7.json",
+      "nextChapter": "https://latinprayer.org/bible/amos/9.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/amos/8.json",
+      "german": "https://latinprayer.org/bibel/amos/8.json"
+    }
+  },
+  "citation": "Amos 8 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "These things the Lord shewed to me: and behold a hook to draw down the fruit.",
+      "citation": "Amos 8:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he said: What seest thou, Amos? And I said: A hook to draw down fruit. And the Lord said to me: The end is come upon my people Israel: I will not again pass by them any more.",
+      "citation": "Amos 8:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And the hinges of the temple shall screak in that day, saith the Lord God: many shall die: silence shall be cast in every place.",
+      "citation": "Amos 8:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Hear this, you that crush the poor, and make the needy of the land to fail,",
+      "citation": "Amos 8:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Saying: When will the month be over, and we shall sell our wares: and the sabbath, and we shall open the corn: that we may lessen the measure, and increase the sicle, and may convey in deceitful balances,",
+      "citation": "Amos 8:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "That we may possess the needy for money, and the poor for a pair of shoes, and may sell the refuse of the corn?",
+      "citation": "Amos 8:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The Lord hath sworn against the pride of Jacob: surely I will never forget all their works.",
+      "citation": "Amos 8:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Shall not the land tremble for this, and every one mourn that dwelleth therein: and rise up altogether as a river, and be cast out, and run down as the river of Egypt?",
+      "citation": "Amos 8:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And it shall come to pass in that day, saith the Lord God, that the sun shall go down at midday, and I will make the earth dark in the day of light:",
+      "citation": "Amos 8:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And I will turn your feasts into mourning, and all your songs into lamentation: and I will bring up sackcloth upon every back of yours, and baldness upon every head: and I will make it as the mourning of an only son, and the latter end thereof as a bitter day.",
+      "citation": "Amos 8:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Behold the days come, saith the Lord, and I will send forth a famine into the land: not a famine of bread, nor a thirst of water, but of hearing the word of the Lord.",
+      "citation": "Amos 8:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And they shall move from sea to sea, and from the north to the east: they shall go about seeking the word of the Lord, and shall not find it.",
+      "citation": "Amos 8:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "In that day the fair virgins, and the young men shall faint for thirst.",
+      "citation": "Amos 8:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "They that swear by the sin of Samaria, and say: Thy God, O Dan, liveth: and the way of Bersabee liveth: and they shall fall, and shall rise no more.",
+      "citation": "Amos 8:14 (Douay-Rheims)"
+    }
+  ]
+}

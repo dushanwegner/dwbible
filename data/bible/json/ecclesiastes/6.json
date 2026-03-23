@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiastes, Chapter 6 — 12 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiastes",
+      "slug": "ecclesiastes",
+      "testament": "OT",
+      "order": 23,
+      "totalChapters": 12
+    },
+    "chapter": 6,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiastes/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiastes/5.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiastes/7.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiastes/6.json",
+      "german": "https://latinprayer.org/bibel/ecclesiastes/6.json"
+    }
+  },
+  "citation": "Ecclesiastes 6 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "There is also another evil, which I have seen under the sun, and that frequent among men:",
+      "citation": "Ecclesiastes 6:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "A man to whom God hath given riches, and substance, and honour, and his soul wanteth nothing of all that he desireth: yet God doth not give him power to eat thereof, but a stranger shall eat it up. This is vanity and a great misery.",
+      "citation": "Ecclesiastes 6:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "If a man beget a hundred children, and live many years, and attain to a great age, and his soul make no use of the goods of his substance, and he be without burial: of this man I pronounce, that the untimely born is better than he.",
+      "citation": "Ecclesiastes 6:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For he came in vain, and goeth to darkness, and his name shall be wholly forgotten.",
+      "citation": "Ecclesiastes 6:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "He hath not seen the sun, nor known the distance of good and evil:",
+      "citation": "Ecclesiastes 6:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Although he lived two thousand years, and hath not enjoyed good things: do not all make haste to one place?",
+      "citation": "Ecclesiastes 6:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "All the labour of man is for his mouth, but his soul shall not be filled.",
+      "citation": "Ecclesiastes 6:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "What hath the wise man more than the fool? and what the poor man, but to go thither, where there is life?",
+      "citation": "Ecclesiastes 6:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Better it is to see what thou mayst desire, than to desire that which thou canst not know. But this also is vanity, and presumption of spirit.",
+      "citation": "Ecclesiastes 6:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "He that shall be, his name is already called: and it is known, that he is a man, and cannot contend in judgment with him that is stronger than himself.",
+      "citation": "Ecclesiastes 6:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "There are many words that have much vanity in disputing.",
+      "citation": "Ecclesiastes 6:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "What needeth a man to seek things that are above him, whereas he knoweth not what is profitable for him in his life, in all the days of his pilgrimage, and the time that passeth like a shadow? Or who can tell him what shall be after him under the sun?",
+      "citation": "Ecclesiastes 6:12 (Douay-Rheims)"
+    }
+  ]
+}

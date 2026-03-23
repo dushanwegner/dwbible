@@ -1,0 +1,436 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Luke, Chapter 1 — 80 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Luke",
+      "slug": "luke",
+      "testament": "NT",
+      "order": 49,
+      "totalChapters": 24
+    },
+    "chapter": 1,
+    "verseCount": 80,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/luke/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bible/luke/2.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/luke/1.json",
+      "german": "https://latinprayer.org/bibel/luke/1.json"
+    }
+  },
+  "citation": "Luke 1 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Forasmuch as many have taken in hand to set forth in order a narration of the things that have been accomplished among us,",
+      "citation": "Luke 1:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "According as they have delivered them unto us, who from the beginning were eyewitnesses and ministers of the word:",
+      "citation": "Luke 1:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "It seemed good to me also, having diligently attained to all things from the beginning, to write to thee in order, most excellent Theophilus,",
+      "citation": "Luke 1:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "That thou mayest know the verity of those words in which thou hast been instructed.",
+      "citation": "Luke 1:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "There was in the days of Herod, the king of Judea, a certain priest named Zachary, of the course of Abia: and his wife was of the daughters of Aaron, and her name Elizabeth.",
+      "citation": "Luke 1:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And they were both just before God, walking in all the commandments and justifications of the Lord without blame.",
+      "citation": "Luke 1:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And they had no son, for that Elizabeth was barren: and they both were well advanced in years.",
+      "citation": "Luke 1:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And it came to pass, when he executed the priestly function in the order of his course before God,",
+      "citation": "Luke 1:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "According to the custom of the priestly office, it was his lot to offer incense, going into the temple of the Lord.",
+      "citation": "Luke 1:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And all the multitude of the people was praying without, at the hour of incense.",
+      "citation": "Luke 1:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And there appeared to him an angel of the Lord, standing on the right side of the altar of incense.",
+      "citation": "Luke 1:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And Zachary seeing him, was troubled: and fear fell upon him.",
+      "citation": "Luke 1:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But the angel said to him: Fear not, Zachary, for thy prayer is heard: and thy wife Elizabeth shall bear thee a son.  And thou shalt call his name John.",
+      "citation": "Luke 1:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And thou shalt have joy and gladness: and many shall rejoice in his nativity.",
+      "citation": "Luke 1:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For he shall be great before the Lord and shall drink no wine nor strong drink: and he shall be filled with the Holy Ghost, even from his mother's womb.",
+      "citation": "Luke 1:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And he shall convert many of the children of Israel to the Lord their God.",
+      "citation": "Luke 1:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And he shall go before him in the spirit and power of Elias: that he may turn the hearts of the fathers unto the children and the incredulous to the wisdom of the just, to prepare unto the Lord a perfect people.",
+      "citation": "Luke 1:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And Zachary said to the angel: Whereby shall I know this?  For I am an old man, and my wife is advanced in years.",
+      "citation": "Luke 1:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And the angel answering, said to him: I am Gabriel, who stand before God and am sent to speak to thee and to bring thee these good tidings.",
+      "citation": "Luke 1:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And behold, thou shalt be dumb and shalt not be able to speak until the day wherein these things shall come to pass: because thou hast not believed my words, which shall be fulfilled in their time.",
+      "citation": "Luke 1:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And the people were waiting for Zachary: and they wondered that he tarried so long in the temple.",
+      "citation": "Luke 1:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And when he came out, he could not speak to them: and they understood that he had seen a vision in the temple. And he made signs to them and remained dumb.",
+      "citation": "Luke 1:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And it came to pass, after the days of his office were accomplished, he departed to his own house.",
+      "citation": "Luke 1:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And after those days, Elizabeth his wife conceived and hid herself five months, saying:",
+      "citation": "Luke 1:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Thus hath the Lord dealt with me in the days wherein he hath had regard to take away my reproach among men.",
+      "citation": "Luke 1:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And in the sixth month, the angel Gabriel was sent from God into a city of Galilee, called Nazareth,",
+      "citation": "Luke 1:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "To a virgin espoused to a man whose name was Joseph, of the house of David: and the virgin's name was Mary.",
+      "citation": "Luke 1:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And the angel being come in, said unto her: Hail, full of grace, the Lord is with thee: blessed art thou among women.",
+      "citation": "Luke 1:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Who having heard, was troubled at his saying and thought with herself what manner of salutation this should be.",
+      "citation": "Luke 1:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And the angel said to her: Fear not, Mary, for thou hast found grace with God.",
+      "citation": "Luke 1:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Behold thou shalt conceive in thy womb and shalt bring forth a son: and thou shalt call his name Jesus.",
+      "citation": "Luke 1:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "He shall be great and shall be called the Son of the Most High. And the Lord God shall give unto him the throne of David his father: and he shall reign in the house of Jacob for ever.",
+      "citation": "Luke 1:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And of his kingdom there shall be no end.",
+      "citation": "Luke 1:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And Mary said to the angel: How shall this be done, because I know not man?",
+      "citation": "Luke 1:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And the angel answering, said to her: The Holy Ghost shall come upon thee and the power of the Most High shall overshadow thee. And therefore also the Holy which shall be born of thee shall be called the Son of God.",
+      "citation": "Luke 1:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And behold thy cousin Elizabeth, she also hath conceived a son in her old age: and this is the sixth month with her that is called barren.",
+      "citation": "Luke 1:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "Because no word shall be impossible with God.",
+      "citation": "Luke 1:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And Mary said: Behold the handmaid of the Lord: be it done to me according to thy word. And the angel departed from her.",
+      "citation": "Luke 1:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And Mary rising up in those days, went into the hill country with haste into a city of Juda.",
+      "citation": "Luke 1:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And she entered into the house of Zachary and saluted Elizabeth.",
+      "citation": "Luke 1:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And it came to pass that when Elizabeth heard the salutation of Mary, the infant leaped in her womb. And Elizabeth was filled with the Holy Ghost.",
+      "citation": "Luke 1:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And she cried out with a loud voice and said: Blessed art thou among women and blessed is the fruit of thy womb.",
+      "citation": "Luke 1:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And whence is this to me that the mother of my Lord should come to me?",
+      "citation": "Luke 1:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "For behold as soon as the voice of thy salutation sounded in my ears, the infant in my womb leaped for joy.",
+      "citation": "Luke 1:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "And blessed art thou that hast believed, because those things shall be accomplished that were spoken to thee by the Lord.",
+      "citation": "Luke 1:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "And Mary said: My soul doth magnify the Lord.",
+      "citation": "Luke 1:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "And my spirit hath rejoiced in God my Saviour.",
+      "citation": "Luke 1:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "Because he hath regarded the humility of his handmaid: for behold from henceforth all generations shall call me blessed.",
+      "citation": "Luke 1:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "Because he that is mighty hath done great things to me: and holy is his name.",
+      "citation": "Luke 1:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "And his mercy is from generation unto generations, to them that fear him.",
+      "citation": "Luke 1:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "He hath shewed might in his arm: he hath scattered the proud in the conceit of their heart.",
+      "citation": "Luke 1:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "He hath put down the mighty from their seat and hath exalted the humble.",
+      "citation": "Luke 1:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "He hath filled the hungry with good things: and the rich he hath sent empty away.",
+      "citation": "Luke 1:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "He hath received Israel his servant, being mindful of his mercy.",
+      "citation": "Luke 1:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "As he spoke to our fathers: to Abraham and to his seed for ever.",
+      "citation": "Luke 1:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "And Mary abode with her about three months. And she returned to her own house.",
+      "citation": "Luke 1:56 (Douay-Rheims)"
+    },
+    {
+      "verse": 57,
+      "text": "Now Elizabeth's full time of being delivered was come: and she brought forth a son.",
+      "citation": "Luke 1:57 (Douay-Rheims)"
+    },
+    {
+      "verse": 58,
+      "text": "And her neighbors and kinsfolks heard that the Lord had shewed his great mercy towards her: and they congratulated with her.",
+      "citation": "Luke 1:58 (Douay-Rheims)"
+    },
+    {
+      "verse": 59,
+      "text": "And it came to pass that on the eighth day they came to circumcise the child: and they called him by his father's name Zachary.",
+      "citation": "Luke 1:59 (Douay-Rheims)"
+    },
+    {
+      "verse": 60,
+      "text": "And his mother answering, said: Not so. But he shall be called John.",
+      "citation": "Luke 1:60 (Douay-Rheims)"
+    },
+    {
+      "verse": 61,
+      "text": "And they said to her: There is none of thy kindred that is called by this name.",
+      "citation": "Luke 1:61 (Douay-Rheims)"
+    },
+    {
+      "verse": 62,
+      "text": "And they made signs to his father, how he would have him called.",
+      "citation": "Luke 1:62 (Douay-Rheims)"
+    },
+    {
+      "verse": 63,
+      "text": "And demanding a writing table, he wrote, saying: John is his name. And they all wondered.",
+      "citation": "Luke 1:63 (Douay-Rheims)"
+    },
+    {
+      "verse": 64,
+      "text": "And immediately his mouth was opened and his tongue loosed: and he spoke, blessing God.",
+      "citation": "Luke 1:64 (Douay-Rheims)"
+    },
+    {
+      "verse": 65,
+      "text": "And fear came upon all their neighbours: and all these things were noised abroad over all the hill country of Judea.",
+      "citation": "Luke 1:65 (Douay-Rheims)"
+    },
+    {
+      "verse": 66,
+      "text": "And all they that had heard them laid them up in their heart, saying: What an one, think ye, shall this child be? For the hand of the Lord was with him.",
+      "citation": "Luke 1:66 (Douay-Rheims)"
+    },
+    {
+      "verse": 67,
+      "text": "And Zachary his father was filled with the Holy Ghost. And he prophesied, saying:",
+      "citation": "Luke 1:67 (Douay-Rheims)"
+    },
+    {
+      "verse": 68,
+      "text": "Blessed be the Lord God of Israel: because he hath visited and wrought the redemption of his people.",
+      "citation": "Luke 1:68 (Douay-Rheims)"
+    },
+    {
+      "verse": 69,
+      "text": "And hath raised up an horn of salvation to us, in the house of David his servant.",
+      "citation": "Luke 1:69 (Douay-Rheims)"
+    },
+    {
+      "verse": 70,
+      "text": "As he spoke by the mouth of his holy prophets, who are from the beginning.",
+      "citation": "Luke 1:70 (Douay-Rheims)"
+    },
+    {
+      "verse": 71,
+      "text": "Salvation from our enemies and from the hand of all that hate us.",
+      "citation": "Luke 1:71 (Douay-Rheims)"
+    },
+    {
+      "verse": 72,
+      "text": "To perform mercy to our fathers and to remember his holy testament.",
+      "citation": "Luke 1:72 (Douay-Rheims)"
+    },
+    {
+      "verse": 73,
+      "text": "The oath, which he swore to Abraham our father, that he would grant to us.",
+      "citation": "Luke 1:73 (Douay-Rheims)"
+    },
+    {
+      "verse": 74,
+      "text": "That being delivered from the hand of our enemies, we may serve him without fear:",
+      "citation": "Luke 1:74 (Douay-Rheims)"
+    },
+    {
+      "verse": 75,
+      "text": "In holiness and justice before him, all our days.",
+      "citation": "Luke 1:75 (Douay-Rheims)"
+    },
+    {
+      "verse": 76,
+      "text": "And thou, child, shalt be called the prophet of the Highest: for thou shalt, go before the face of the Lord to prepare his ways:",
+      "citation": "Luke 1:76 (Douay-Rheims)"
+    },
+    {
+      "verse": 77,
+      "text": "To give knowledge of salvation to his people, unto the remission of their sins.",
+      "citation": "Luke 1:77 (Douay-Rheims)"
+    },
+    {
+      "verse": 78,
+      "text": "Through the bowels of the mercy of our God, in which the Orient from on high hath visited us:",
+      "citation": "Luke 1:78 (Douay-Rheims)"
+    },
+    {
+      "verse": 79,
+      "text": "To enlighten them that sit in darkness and in the shadow of death: to direct our feet into the way of peace.",
+      "citation": "Luke 1:79 (Douay-Rheims)"
+    },
+    {
+      "verse": 80,
+      "text": "And the child grew and was strengthened in spirit: and was in the deserts until the day of his manifestation to Israel.",
+      "citation": "Luke 1:80 (Douay-Rheims)"
+    }
+  ]
+}

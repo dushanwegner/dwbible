@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Canticle of Canticles, Chapter 1 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Canticle of Canticles",
+      "slug": "canticle-of-canticles",
+      "testament": "OT",
+      "order": 24,
+      "totalChapters": 8
+    },
+    "chapter": 1,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/canticle-of-canticles/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bible/canticle-of-canticles/2.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/canticle-of-canticles/1.json",
+      "german": "https://latinprayer.org/bibel/canticle-of-canticles/1.json"
+    }
+  },
+  "citation": "Canticle of Canticles 1 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 2,
+      "text": "Let him kiss me with the kiss of his mouth: for thy breasts are better than wine,",
+      "citation": "Canticle of Canticles 1:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Smelling sweet of the best ointments. Thy name is as oil poured out: therefore young maidens have loved thee.",
+      "citation": "Canticle of Canticles 1:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Draw me: we will run after thee to the odour of thy ointments. The king hath brought me into his storerooms: we will be glad and rejoice in thee, remembering thy breasts more than wine: the rightous love thee.",
+      "citation": "Canticle of Canticles 1:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "I am black but beautiful, O ye daughters of Jerusalem, as the tents of Cedar, as the curtains of Solomon.",
+      "citation": "Canticle of Canticles 1:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Do not consider me that I am brown, because the sun hath altered my colour: the sons of my mother have fought against me, they have made me the keeper in the vineyards: my vineyard I have not kept.",
+      "citation": "Canticle of Canticles 1:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Shew me, O thou whom my soul loveth, where thou feedest, where thou liest in the midday, lest I begin to wander after the flocks of thy companions.",
+      "citation": "Canticle of Canticles 1:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "If thou know not thyself, O fairest among women, go forth, and follow after the steps of the flocks, and feed thy kids beside the tents of the shepherds.",
+      "citation": "Canticle of Canticles 1:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "To my company of horsemen, in Pharao's chariots, have I likened thee, O my love.",
+      "citation": "Canticle of Canticles 1:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Thy cheeks are beautiful as the turtledove's, thy neck as jewels.",
+      "citation": "Canticle of Canticles 1:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "We will make thee chains of gold, inlaid with silver.",
+      "citation": "Canticle of Canticles 1:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "While the king was at his repose, my spikenard sent forth the odour thereof.",
+      "citation": "Canticle of Canticles 1:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "A bundle of myrrh is my beloved to me, he shall abide between my breasts.",
+      "citation": "Canticle of Canticles 1:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "A cluster of cypress my love is to me, in the vineyards of Engaddi.",
+      "citation": "Canticle of Canticles 1:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Behold thou are fair, O my love, behold thou are fair, thy eyes are as those of doves.",
+      "citation": "Canticle of Canticles 1:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Behold thou art fair, my beloved, and comely. Our bed is flourishing.",
+      "citation": "Canticle of Canticles 1:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The beams of our houses are of cedar, our rafters of cypress trees.",
+      "citation": "Canticle of Canticles 1:17 (Douay-Rheims)"
+    }
+  ]
+}

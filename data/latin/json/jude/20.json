@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jude, Chapter 20 — 15 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jude",
+      "slug": "jude",
+      "testament": "NT",
+      "order": 72,
+      "totalChapters": 23
+    },
+    "chapter": 20,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jude/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jude/19.json",
+      "nextChapter": "https://latinprayer.org/latin/jude/21.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jude/20.json",
+      "german": "https://latinprayer.org/bibel/jude/20.json"
+    }
+  },
+  "citation": "Jude 20 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et vidi angelum descendentem de caelo habentem clavem abyssi et catenam magnam in manu sua",
+      "citation": "Jude 20:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et adprehendit draconem serpentem antiquum qui est diabolus et Satanas et ligavit eum per annos mille",
+      "citation": "Jude 20:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et misit eum in abyssum et clusit et signavit super illum ut non seducat amplius gentes donec consummentur mille anni post haec oportet illum solvi modico tempore",
+      "citation": "Jude 20:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et vidi sedes et sederunt super eas et iudicium datum est illis et animas decollatorum propter testimonium Iesu et propter verbum Dei et qui non adoraverunt bestiam neque imaginem eius nec acceperunt caracterem in frontibus aut in manibus suis et vixerunt et regnaverunt cum Christo mille annis",
+      "citation": "Jude 20:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ceteri mortuorum non vixerunt donec consummentur mille anni haec est resurrectio prima",
+      "citation": "Jude 20:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "beatus et sanctus qui habet partem in resurrectione prima in his secunda mors non habet potestatem sed erunt sacerdotes Dei et Christi et regnabunt cum illo mille annis",
+      "citation": "Jude 20:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et cum consummati fuerint mille anni solvetur Satanas de carcere suo et exibit et seducet gentes quae sunt super quattuor angulos terrae Gog et Magog et congregabit eos in proelium quorum numerus est sicut harena maris",
+      "citation": "Jude 20:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et ascenderunt super latitudinem terrae et circumierunt castra sanctorum et civitatem dilectam",
+      "citation": "Jude 20:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et descendit ignis a Deo de caelo et devoravit eos et diabolus qui seducebat eos missus est in stagnum ignis et sulphuris ubi et bestia",
+      "citation": "Jude 20:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et pseudoprophetes et cruciabuntur die ac nocte in saecula saeculorum",
+      "citation": "Jude 20:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et vidi thronum magnum candidum et sedentem super eum a cuius aspectu fugit terra et caelum et locus non est inventus ab eis",
+      "citation": "Jude 20:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et vidi mortuos magnos et pusillos stantes in conspectu throni et libri aperti sunt et alius liber apertus est qui est vitae et iudicati sunt mortui ex his quae scripta erant in libris secundum opera ipsorum",
+      "citation": "Jude 20:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et dedit mare mortuos qui in eo erant et mors et inferus dederunt mortuos qui in ipsis erant et iudicatum est de singulis secundum opera ipsorum",
+      "citation": "Jude 20:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et inferus et mors missi sunt in stagnum ignis haec mors secunda est stagnum ignis",
+      "citation": "Jude 20:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et qui non est inventus in libro vitae scriptus missus est in stagnum ignis",
+      "citation": "Jude 20:15 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 35 — 29 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 35,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/34.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/36.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/35.json",
+      "german": "https://latinprayer.org/bibel/psalms/35.json"
+    }
+  },
+  "citation": "Psalms 35 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "For David himself. Judge thou, O Lord, them that wrong me: overthrow them that fight against me.",
+      "citation": "Psalms 35:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, for the servant of God, David himself.",
+      "citation": "Psalms 35:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Take hold of arms and shield: and rise up to help me.",
+      "citation": "Psalms 35:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Bring out the sword, and shut up the way against them that persecute me: say to my soul: I am thy salvation.",
+      "citation": "Psalms 35:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Let them be confounded and ashamed that seek after my soul. Let them be turned back and be confounded that devise evil against me.",
+      "citation": "Psalms 35:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Let them become as dust before the wind: and let the angel of the Lord straiten them.",
+      "citation": "Psalms 35:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Let their way become dark and slippery; and let the angel of the Lord pursue them.",
+      "citation": "Psalms 35:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For without cause they have hidden their net for me unto destruction: without cause they have upbraided my soul.",
+      "citation": "Psalms 35:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Let the snare which he knoweth not come upon him: and let the net which he hath hidden catch him: and into that very snare let them fall.",
+      "citation": "Psalms 35:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But my soul shall rejoice in the Lord; and shall be delighted in his salvation.",
+      "citation": "Psalms 35:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "All my bones shall say: Lord, who is like to thee? Who deliverest the poor from the hand of them that are stronger than he; the needy and the poor from them that strip him.",
+      "citation": "Psalms 35:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Unjust witnesses rising up have asked me things I knew not.",
+      "citation": "Psalms 35:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "They repaid me evil for good: to the depriving me of my soul.",
+      "citation": "Psalms 35:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But as for me, when they were troublesome to me, I was clothed with haircloth. I humbled my soul with fasting; and my prayer shall be turned into my bosom.",
+      "citation": "Psalms 35:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "As a neighbour and as an own brother, so did I please: as one mourning and sorrowful so was I humbled.",
+      "citation": "Psalms 35:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "But they rejoiced against me, and came together: scourges were gathered together upon me, and I knew not.",
+      "citation": "Psalms 35:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "They were separated, and repented not: they tempted me, they scoffed at me with scorn: they gnashed upon me with their teeth.",
+      "citation": "Psalms 35:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Lord, when wilt thou look upon me? rescue thou my soul from their malice: my only one from the lions.",
+      "citation": "Psalms 35:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "I will give thanks to thee in a great church; I will praise thee in a strong people.",
+      "citation": "Psalms 35:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Let not them that are my enemies wrongfully rejoice over me: who have hated me without cause, and wink with the eyes.",
+      "citation": "Psalms 35:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "For they spoke indeed peaceably to me; and speaking in the anger of the earth they devised guile.",
+      "citation": "Psalms 35:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And they opened their mouth wide against me; they said: Well done, well done, our eyes have seen it.",
+      "citation": "Psalms 35:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Thou hast seen, O Lord, be not thou silent: O Lord, depart not from me.",
+      "citation": "Psalms 35:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Arise, and be attentive to my judgment: to my cause, my God, and my Lord.",
+      "citation": "Psalms 35:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Judge me, O Lord my God according to thy justice, and let them not rejoice over me.",
+      "citation": "Psalms 35:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Let them not say in their hearts: It is well, it is well, to our mind: neither let them say: We have swallowed him up.",
+      "citation": "Psalms 35:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Let them blush: and be ashamed together, who rejoice at my evils. Let them be clothed with confusion and shame, who speak great things against me.",
+      "citation": "Psalms 35:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Let them rejoice and be glad, who are well pleased with my justice, and let them say always: The Lord be magnified, who delights in the peace of his servant.",
+      "citation": "Psalms 35:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And my tongue shall meditate thy justice, thy praise all the day long.",
+      "citation": "Psalms 35:28 (Douay-Rheims)"
+    }
+  ]
+}

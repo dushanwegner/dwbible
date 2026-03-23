@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Johannes, Chapter 2 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Johannes",
+      "slug": "1-john",
+      "testament": "NT",
+      "order": 69,
+      "totalChapters": 5
+    },
+    "chapter": 2,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-john/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-john/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-john/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-john/2.json",
+      "latin": "https://latinprayer.org/latin/1-john/2.json"
+    }
+  },
+  "citation": "1 Johannes 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Meine Kindlein, dieses schreibe ich euch, damit ihr nicht sündigt. Sollte aber jemand (trotzdem) sündigen, so haben wir einen Fürsprecher beim Vater, nämlich Jesus Christus, den Gerechten.",
+      "citation": "1 Johannes 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Und er ist die Versöhnung für unsere Sünden, aber nicht nur für die unsrigen, sondern auch für die der ganzen Welt.",
+      "citation": "1 Johannes 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Daran erkennen wir aber, daß wir ihn erkannt haben: wenn wir seine Gebote halten.",
+      "citation": "1 Johannes 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wer da behauptet: »Ich habe ihn erkannt« und (dabei) seine Gebote nicht hält, der ist ein Lügner, und in diesem wohnt die Wahrheit nicht.",
+      "citation": "1 Johannes 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Wer aber sein Wort hält, in dem ist die Liebe zu Gott zur Vollendung gekommen: daran erkennen wir, daß wir in ihm sind.",
+      "citation": "1 Johannes 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Wer da behauptet, er bleibe in ihm, der ist auch verpflichtet, selbst ebenso zu wandeln, wie er gewandelt ist.",
+      "citation": "1 Johannes 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Geliebte, nicht ein neues Gebot schreibe ich euch, sondern es ist ein altes Gebot, das ihr von Anfang an gehabt habt; das alte Gebot ist das Wort, das ihr gehört habt.",
+      "citation": "1 Johannes 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Andrerseits ist es auch ein neues Gebot, das ich euch schreibe, wie dies sich in ihm und in euch als wahr erweist; denn die Finsternis ist im Verschwinden, und das wahre Licht leuchtet bereits.",
+      "citation": "1 Johannes 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Wer nun im Licht zu sein behauptet und doch seinen Bruder haßt, befindet sich immer noch in der Finsternis.",
+      "citation": "1 Johannes 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Wer seinen Bruder liebt, der ist dauernd im Licht, und kein Anstoß ist in ihm vorhanden.",
+      "citation": "1 Johannes 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Wer dagegen seinen Bruder haßt, befindet sich in der Finsternis und wandelt in der Finsternis und weiß nicht, wohin er geht, weil die Finsternis seine Augen blind gemacht hat.",
+      "citation": "1 Johannes 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Ich schreibe euch, ihr Kindlein, weil euch die Sünden um seines Namens willen vergeben sind.",
+      "citation": "1 Johannes 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ich schreibe euch, ihr Väter, weil ihr den erkannt habt, der von Anfang an ist. Ich schreibe euch, ihr Jünglinge, weil ihr den Bösen überwunden habt. Ich habe euch, ihr Kindlein, geschrieben, weil ihr den Vater erkannt habt.",
+      "citation": "1 Johannes 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ich habe euch geschrieben, ihr Väter, weil ihr den erkannt habt, der von Anfang an ist. Ich habe euch, ihr Jünglinge, geschrieben, weil ihr stark seid, und das Wort Gottes dauernd in euch wohnt und ihr den Bösen überwunden habt.",
+      "citation": "1 Johannes 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Habt nicht lieb die Welt, auch nicht das, was in der Welt ist! Wenn jemand die Welt lieb hat, so wohnt die Liebe zum Vater nicht in ihm;",
+      "citation": "1 Johannes 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "denn alles weltliche Wesen, die Fleischeslust und die Augenlust und das hoffärtige Leben, kommt nicht vom Vater her, sondern stammt aus der Welt;",
+      "citation": "1 Johannes 2:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "und die Welt vergeht samt ihrer Lust; wer aber den Willen Gottes tut, der bleibt in Ewigkeit.",
+      "citation": "1 Johannes 2:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Ihr Kindlein, die letzte Stunde ist da, und wie ihr gehört habt, daß ein Widerchrist kommt, so sind jetzt schon Widerchristen in großer Anzahl aufgetreten; daran erkennen wir, daß die letzte Stunde da ist.",
+      "citation": "1 Johannes 2:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Sie sind aus unserer Mitte hervorgegangen, haben aber nicht (wirklich) zu uns gehört; denn wenn sie (in der Tat) zu uns gehörten, wären sie bei uns geblieben; so aber sollte (an ihnen) offenbar werden, daß sie nicht alle von uns sind.",
+      "citation": "1 Johannes 2:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Doch ihr habt die Salbung vom Heiligen (empfangen) und seid im vollen Besitz des Wissens.",
+      "citation": "1 Johannes 2:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Ich habe euch nicht geschrieben, weil euch die Wahrheit unbekannt ist, im Gegenteil: weil ihr sie kennt und auch (wißt), daß keine Lüge ihren Ursprung aus der Wahrheit hat.",
+      "citation": "1 Johannes 2:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Wer ist der Lügner? Doch wohl der, welcher leugnet, daß Jesus der Gottgesalbte ist. Der ist der Widerchrist, der den Vater und den Sohn leugnet.",
+      "citation": "1 Johannes 2:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Jeder, der den Sohn leugnet, hat auch den Vater nicht; wer (dagegen) den Sohn bekennt, der hat auch den Vater.",
+      "citation": "1 Johannes 2:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Was ihr von Anfang an gehört habt, das muß auch dauernd in euch bleiben. Wenn das, was ihr von Anfang an gehört habt, in euch bleibt, so werdet auch ihr im Sohn und im Vater bleiben,",
+      "citation": "1 Johannes 2:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "und das ist eben die Verheißung, die er uns gegeben hat: das ewige Leben.",
+      "citation": "1 Johannes 2:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Dies habe ich euch im Hinblick auf die geschrieben, welche euch irreführen (wollen).",
+      "citation": "1 Johannes 2:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Und was euch betrifft, so bleibt die (geistige) Salbung, die ihr von ihm empfangen habt, dauernd in euch, und ihr bedürft keiner anderweitigen Belehrung; nein, wie seine Salbung euch über alles belehrt, so ist sie auch wahr und ist keine Lüge; und wie sie euch gelehrt hat, so bleibt (nun auch) in ihm!",
+      "citation": "1 Johannes 2:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Und gerade jetzt, ihr Kindlein, bleibet in ihm, damit wir, wenn er sich offenbart, freudige Zuversicht haben dürfen und bei seiner Ankunft nicht beschämt vor ihm zurücktreten müssen.",
+      "citation": "1 Johannes 2:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Wenn ihr wißt, daß er gerecht ist, so erkennet auch zugleich, daß jeder, der die Gerechtigkeit übt, aus ihm erzeugt ist.",
+      "citation": "1 Johannes 2:29 (Menge)"
+    }
+  ]
+}

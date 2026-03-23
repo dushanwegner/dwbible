@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Micheas, Chapter 5 — 13 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Micheas",
+      "slug": "micheas",
+      "testament": "OT",
+      "order": 38,
+      "totalChapters": 7
+    },
+    "chapter": 5,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/micheas/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/micheas/4.json",
+      "nextChapter": "https://latinprayer.org/bible/micheas/6.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/micheas/5.json",
+      "german": "https://latinprayer.org/bibel/micheas/5.json"
+    }
+  },
+  "citation": "Micheas 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And thou Bethlehem Ephrata, art a little one among the thousands of Juda, out of thee shall he come forth unto me that is to be the ruler in Israel: and his going forth is from the beginning, from the days of eternity.",
+      "citation": "Micheas 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Therefore will he give them up even till the time wherein she that travaileth shall bring forth: and the remnant of his brethren shall be converted to the children of Israel.",
+      "citation": "Micheas 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he shall stand, and feed in the strength of the Lord, in the height of the name of the Lord, his God: and they shall be converted, for now shall he be magnified even to the ends of the earth.",
+      "citation": "Micheas 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And this man shall be our peace, when the Assyrian shall come into our land, and when he shall set his foot in our houses: and we shall raise against him seven shepherds, and eight principal men.",
+      "citation": "Micheas 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And they shall feed the land of Assyria with the sword, and the land of Nemrod with the spears thereof: and he shall deliver us from the Assyrian when he shall come into our land, and when he shall tread in our borders.",
+      "citation": "Micheas 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the remnant of Jacob shall be in the midst of many peoples, as a dew from the Lord, and as drops upon the grass, which waiteth not for man, nor tarrieth for the children of men.",
+      "citation": "Micheas 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the remnant of Jacob shall be among the Gentiles, in the midst of many peoples, as a lion among the beasts of the forests, and as a young lion among the flocks of sheep: who, when he shall go through, and tread down, and take there is none to deliver.",
+      "citation": "Micheas 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Thy hand shall be lifted up over thy enemies, and all thy enemies shall be cut off.",
+      "citation": "Micheas 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And it shall come to pass in that day, saith the Lord, that I will take away thy horses out of the midst of thee, and will destroy thy chariots.",
+      "citation": "Micheas 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And I will destroy the cities of thy land, and will throw down all thy strong holds, and I will take away sorceries out of thy hand, and there shall be no divinations in thee.",
+      "citation": "Micheas 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And I will destroy thy graven things, and thy statues, out of the midst of thee: and thou shalt no more adore the works of thy hands.",
+      "citation": "Micheas 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And I will pluck up thy groves out of the midst of thee: and will crush thy cities.",
+      "citation": "Micheas 5:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And I will execute vengeance in wrath, and in indignation, among all the nations that have not given ear.",
+      "citation": "Micheas 5:14 (Douay-Rheims)"
+    }
+  ]
+}

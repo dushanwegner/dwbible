@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 56 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 56,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/55.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/57.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/56.json",
+      "latin": "https://latinprayer.org/latin/psalms/56.json"
+    }
+  },
+  "citation": "Psalmen 56 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, nach (der Singweise = Melodie) »Die stumme Taube der Ferne«; ein Lied</em> <em>von David, als die Philister ihn in Gath festgenommen hatten</em>.",
+      "citation": "Psalmen 56:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Sei mir gnädig, o Gott, denn Menschen stellen mir nach! Immerfort bedrängen mich Krieger.",
+      "citation": "Psalmen 56:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Meine Feinde stellen mir immerfort nach, ja viele sind’s, die in Hochmut mich befehden.",
+      "citation": "Psalmen 56:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "In Zeiten, da mir angst ist, vertrau ich auf dich!",
+      "citation": "Psalmen 56:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Mit Gottes Hilfe werde sein Wort ich rühmen. Auf Gott vertrau’ ich, fürchte mich nicht; was können Menschen mir antun?",
+      "citation": "Psalmen 56:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Allzeit suchen sie meiner Sache zu schaden; gegen mich ist all ihr Sinnen gerichtet auf Böses.",
+      "citation": "Psalmen 56:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Sie rotten sich zusammen, lauern auf meine Schritte, dieweil sie nach dem Leben mir trachten.",
+      "citation": "Psalmen 56:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Ob der Bosheit zahle ihnen heim, im Zorn laß die Völker niedersinken, o Gott!",
+      "citation": "Psalmen 56:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Meines Elends Tage hast du gezählt, meine Tränen in deinem Krüglein gesammelt; ja gewiß, sie stehen in deinem Buche verzeichnet.",
+      "citation": "Psalmen 56:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "So werden denn meine Feinde weichen, sobald (zu Gott) ich rufe; dessen bin ich gewiß, daß Gott mir beisteht.",
+      "citation": "Psalmen 56:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Mit Gottes Hilfe werde sein Wort ich rühmen, mit Hilfe des HERRN werde sein Wort ich rühmen.",
+      "citation": "Psalmen 56:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Auf Gott vertrau’ ich, fürchte mich nicht: was können Menschen mir antun?",
+      "citation": "Psalmen 56:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Mir obliegt es, dir, Gott, zu erfüllen meine Gelübde: Dankopfer ich will dir entrichten;",
+      "citation": "Psalmen 56:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "denn du hast meine Seele vom Tode errettet, ja, meine Füße vom Straucheln, daß ich wandeln soll vor Gottes Angesicht im Lichte der Lebenden.",
+      "citation": "Psalmen 56:14 (Menge)"
+    }
+  ]
+}

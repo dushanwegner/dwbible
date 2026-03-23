@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 44 — 26 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 44,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/43.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/45.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/44.json",
+      "german": "https://latinprayer.org/bibel/psalms/44.json"
+    }
+  },
+  "citation": "Psalms 44 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "We have heard, O God, with our ears: our fathers have declared to us, The work thou hast wrought in their days, and in the days of old.",
+      "citation": "Psalms 44:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, for them that shall be changed, for the sons of Core, for understanding. A canticle for the Beloved.",
+      "citation": "Psalms 44:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Thy hand destroyed the Gentiles, and thou plantedst them: thou didst afflict the people and cast them out.",
+      "citation": "Psalms 44:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For they got not the possession of the land by their own sword: neither did their own arm save them. But thy right hand and thy arm, and the light of thy countenance: because thou wast pleased with them.",
+      "citation": "Psalms 44:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Thou art thyself my king and my God, who commandest the saving of Jacob.",
+      "citation": "Psalms 44:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Through thee we will push down our enemies with the horn: and through thy name we will despise them that rise up against us.",
+      "citation": "Psalms 44:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For I will not trust in my bow: neither shall my sword save me.",
+      "citation": "Psalms 44:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But thou hast saved us from them that afflict us: and hast put them to shame that hate us.",
+      "citation": "Psalms 44:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "In God shall we glory all the day long: and in thy name we will give praise for ever.",
+      "citation": "Psalms 44:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But now thou hast cast us off, and put us to shame: and thou, O God, wilt not go out with our armies.",
+      "citation": "Psalms 44:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Thou hast made us turn our back to our enemies: and they that hated us plundered for themselves.",
+      "citation": "Psalms 44:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Thou hast given us up like sheep to be eaten: thou hast scattered us among the nations.",
+      "citation": "Psalms 44:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Thou hast sold thy people for no price: and there was no reckoning in the exchange of them.",
+      "citation": "Psalms 44:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thou hast made us a reproach to our neighbours, a scoff and derision to them that are round about us.",
+      "citation": "Psalms 44:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Thou hast made us a byword among the Gentiles: a shaking of the head among the people.",
+      "citation": "Psalms 44:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "All the day long my shame is before me: and the confusion of my face hath covered me,",
+      "citation": "Psalms 44:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "At the voice of him that reproacheth and detracteth me: at the face of the enemy and persecutor.",
+      "citation": "Psalms 44:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "All these things have come upon us, yet we have not forgotten thee: and we have not done wickedly in thy covenant.",
+      "citation": "Psalms 44:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And our heart hath not turned back: neither hast thou turned aside our steps from thy way.",
+      "citation": "Psalms 44:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For thou hast humbled us in the place of affliction: and the shadow of death hath covered us.",
+      "citation": "Psalms 44:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "If we have forgotten the name of our God, and if we have spread forth our hands to a strange god:",
+      "citation": "Psalms 44:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Shall not God search out these things: for he knoweth the secrets of the heart. Because for thy sake we are killed all the day long: we are counted as sheep for the slaughter.",
+      "citation": "Psalms 44:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Arise, why sleepest thou, O Lord? arise, and cast us not off to the end.",
+      "citation": "Psalms 44:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Why turnest thou thy face away? and forgettest our want and our trouble?",
+      "citation": "Psalms 44:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "For our soul is humbled down to the dust: our belly cleaveth to the earth.",
+      "citation": "Psalms 44:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Arise, O Lord, help us and redeem us for thy name's sake.",
+      "citation": "Psalms 44:26 (Douay-Rheims)"
+    }
+  ]
+}

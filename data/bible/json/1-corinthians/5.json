@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Corinthians, Chapter 5 — 13 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Corinthians",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 53,
+      "totalChapters": 16
+    },
+    "chapter": 5,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-corinthians/4.json",
+      "nextChapter": "https://latinprayer.org/bible/1-corinthians/6.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-corinthians/5.json",
+      "german": "https://latinprayer.org/bibel/1-corinthians/5.json"
+    }
+  },
+  "citation": "1. Corinthians 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "It is absolutely heard that there is fornication among you and such fornication as the like is not among the heathens: that one should have his father's wife.",
+      "citation": "1. Corinthians 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And you are puffed up and have not rather mourned: that he might be taken away from among you that hath done this thing.",
+      "citation": "1. Corinthians 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "I indeed, absent in body but present in spirit, have already judged, as though I were present, him that hath so done,",
+      "citation": "1. Corinthians 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "In the name of our Lord Jesus Christ, you being gathered together and my spirit, with the power of our Lord Jesus:",
+      "citation": "1. Corinthians 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "To deliver such a one to Satan for the destruction of the flesh, that the spirit may be saved in the day of our Lord Jesus Christ.",
+      "citation": "1. Corinthians 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Your glorying is not good. Know you not that a little leaven corrupteth the whole lump?",
+      "citation": "1. Corinthians 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Purge out the old leaven, that you may be a new paste, as you are unleavened. For Christ our pasch is sacrificed.",
+      "citation": "1. Corinthians 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Therefore, let us feast, not with the old leaven, nor with the leaven of malice and wickedness: but with the unleavened bread of sincerity and truth.",
+      "citation": "1. Corinthians 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "I wrote to you in an epistle not to keep company with fornicators.",
+      "citation": "1. Corinthians 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "I mean not with the fornicators of this world or with the covetous or the extortioners or the servers of idols: otherwise you must needs go out of this world.",
+      "citation": "1. Corinthians 5:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "But now I have written to you, not to keep company, if any man that is named a brother be a fornicator or covetous or a server of idols or a railer or a drunkard or an extortioner: with such a one, not so much as to eat.",
+      "citation": "1. Corinthians 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For what have I to do to judge them that are without? Do not you judge them that are within?",
+      "citation": "1. Corinthians 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For them that are without, God will judge. Put away the evil one from among yourselves.",
+      "citation": "1. Corinthians 5:13 (Douay-Rheims)"
+    }
+  ]
+}

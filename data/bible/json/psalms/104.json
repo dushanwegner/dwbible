@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 104 — 35 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 104,
+    "verseCount": 35,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/103.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/105.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/104.json",
+      "german": "https://latinprayer.org/bibel/psalms/104.json"
+    }
+  },
+  "citation": "Psalms 104 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "For David himself. Bless the Lord, O my soul: O Lord my God, thou art exceedingly great. Thou hast put on praise and beauty:",
+      "citation": "Psalms 104:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And art clothed with light as with a garment. Who stretchest out the heaven like a pavilion:",
+      "citation": "Psalms 104:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Who coverest the higher rooms thereof with water. Who makest the clouds thy chariot: who walkest upon the wings of the winds.",
+      "citation": "Psalms 104:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Who makest thy angels spirits: and thy ministers a burning fire.",
+      "citation": "Psalms 104:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Who hast founded the earth upon its own bases: it shall not be moved for ever and ever.",
+      "citation": "Psalms 104:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The deep like a garment is its clothing: above the mountains shall the waters stand.",
+      "citation": "Psalms 104:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "At thy rebuke they shall flee: at the voice of thy thunder they shall fear.",
+      "citation": "Psalms 104:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The mountains ascend, and the plains descend into the place which thou hast founded for them.",
+      "citation": "Psalms 104:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thou hast set a bound which they shall not pass over; neither shall they return to cover the earth.",
+      "citation": "Psalms 104:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Thou sendest forth springs in the vales: between the midst of the hills the waters shall pass.",
+      "citation": "Psalms 104:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "All the beasts of the field shall drink: the wild asses shall expect in their thirst.",
+      "citation": "Psalms 104:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Over them the birds of the air shall dwell: from the midst of the rocks they shall give forth their voices.",
+      "citation": "Psalms 104:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thou waterest the hills from thy upper rooms: the earth shall be filled with the fruit of thy works:",
+      "citation": "Psalms 104:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Bringing forth grass for cattle, and herb for the service of men. That thou mayst bring bread out of the earth:",
+      "citation": "Psalms 104:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And that wine may cheer the heart of man. That he may make the face cheerful with oil: and that bread may strengthen man's heart.",
+      "citation": "Psalms 104:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The trees of the field shall be filled, and the cedars of Libanus which he hath planted:",
+      "citation": "Psalms 104:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "There the sparrows shall make their nests. The highest of them is the house of the heron.",
+      "citation": "Psalms 104:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The high hills are a refuge for the harts, the rock for the irchins.",
+      "citation": "Psalms 104:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "He hath made the moon for seasons: the sun knoweth his going down.",
+      "citation": "Psalms 104:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Thou hast appointed darkness, and it is night: in it shall all the beasts of the woods go about:",
+      "citation": "Psalms 104:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "The young lions roaring after their prey, and seeking their meat from God.",
+      "citation": "Psalms 104:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The sun ariseth, and they are gathered together: and they shall lie down in their dens.",
+      "citation": "Psalms 104:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Man shall go forth to his work, and to his labour until the evening.",
+      "citation": "Psalms 104:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "How great are thy works, O Lord? thou hast made all things in wisdom: the earth is filled with thy riches.",
+      "citation": "Psalms 104:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "So is this great sea, which stretcheth wide its arms: there are creeping things without number: Creatures little and great.",
+      "citation": "Psalms 104:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "There the ships shall go. This sea dragon which thou hast formed to play therein.",
+      "citation": "Psalms 104:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "All expect of thee that thou give them food in season.",
+      "citation": "Psalms 104:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "What thou givest to them they shall gather up: when thou openest thy hand, they shall all be filled with good.",
+      "citation": "Psalms 104:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "But if thou turnest away thy face, they shall be troubled: thou shalt take away their breath, and they shall fail, and shall return to their dust.",
+      "citation": "Psalms 104:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Thou shalt send forth thy spirit, and they shall be created: and thou shalt renew the face of the earth.",
+      "citation": "Psalms 104:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "May the glory of the Lord endure for ever: the Lord shall rejoice in his works.",
+      "citation": "Psalms 104:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "He looketh upon the earth, and maketh it tremble: he troubleth the mountains, and they smoke.",
+      "citation": "Psalms 104:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "I will sing to the Lord as long as I live: I will sing praise to my God while I have my being.",
+      "citation": "Psalms 104:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "Let my speech be acceptable to him: but I will take delight in the Lord.",
+      "citation": "Psalms 104:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "Let sinners be consumed out of the earth, and the unjust, so that they be no more: O my soul, bless thou the Lord.",
+      "citation": "Psalms 104:35 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 12 — 50 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 12,
+    "verseCount": 50,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/matthew/11.json",
+      "nextChapter": "https://latinprayer.org/latin/matthew/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/12.json",
+      "german": "https://latinprayer.org/bibel/matthew/12.json"
+    }
+  },
+  "citation": "Matthew 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in illo tempore abiit Iesus sabbato per sata discipuli autem eius esurientes coeperunt vellere spicas et manducare",
+      "citation": "Matthew 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Pharisaei autem videntes dixerunt ei ecce discipuli tui faciunt quod non licet eis facere sabbatis",
+      "citation": "Matthew 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "at ille dixit eis non legistis quid fecerit David quando esuriit et qui cum eo erant",
+      "citation": "Matthew 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quomodo intravit in domum Dei et panes propositionis comedit quos non licebat ei edere neque his qui cum eo erant nisi solis sacerdotibus",
+      "citation": "Matthew 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "aut non legistis in lege quia sabbatis sacerdotes in templo sabbatum violant et sine crimine sunt",
+      "citation": "Matthew 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dico autem vobis quia templo maior est hic",
+      "citation": "Matthew 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "si autem sciretis quid est misericordiam volo et non sacrificium numquam condemnassetis innocentes",
+      "citation": "Matthew 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dominus est enim Filius hominis etiam sabbati",
+      "citation": "Matthew 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et cum inde transisset venit in synagogam eorum",
+      "citation": "Matthew 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ecce homo manum habens aridam et interrogabant eum dicentes si licet sabbatis curare ut accusarent eum",
+      "citation": "Matthew 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ipse autem dixit illis quis erit ex vobis homo qui habeat ovem unam et si ceciderit haec sabbatis in foveam nonne tenebit et levabit eam",
+      "citation": "Matthew 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quanto magis melior est homo ove itaque licet sabbatis benefacere",
+      "citation": "Matthew 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "tunc ait homini extende manum tuam et extendit et restituta est sanitati sicut altera",
+      "citation": "Matthew 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "exeuntes autem Pharisaei consilium faciebant adversus eum quomodo eum perderent",
+      "citation": "Matthew 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "Iesus autem sciens recessit inde et secuti sunt eum multi et curavit eos omnes",
+      "citation": "Matthew 12:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et praecepit eis ne manifestum eum facerent",
+      "citation": "Matthew 12:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "ut adimpleretur quod dictum est per Esaiam prophetam dicentem",
+      "citation": "Matthew 12:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "ecce puer meus quem elegi dilectus meus in quo bene placuit animae meae ponam spiritum meum super eum et iudicium gentibus nuntiabit",
+      "citation": "Matthew 12:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "non contendet neque clamabit neque audiet aliquis in plateis vocem eius",
+      "citation": "Matthew 12:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "harundinem quassatam non confringet et linum fumigans non extinguet donec eiciat ad victoriam iudicium",
+      "citation": "Matthew 12:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et in nomine eius gentes sperabunt",
+      "citation": "Matthew 12:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "tunc oblatus est ei daemonium habens caecus et mutus et curavit eum ita ut loqueretur et videret",
+      "citation": "Matthew 12:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et stupebant omnes turbae et dicebant numquid hic est Filius David",
+      "citation": "Matthew 12:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "Pharisaei autem audientes dixerunt hic non eicit daemones nisi in Beelzebub principe daemoniorum",
+      "citation": "Matthew 12:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "Iesus autem sciens cogitationes eorum dixit eis omne regnum divisum contra se desolatur et omnis civitas vel domus divisa contra se non stabit",
+      "citation": "Matthew 12:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et si Satanas Satanan eicit adversus se divisus est quomodo ergo stabit regnum eius",
+      "citation": "Matthew 12:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et si ego in Beelzebub eicio daemones filii vestri in quo eiciunt ideo ipsi iudices erunt vestri",
+      "citation": "Matthew 12:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "si autem ego in Spiritu Dei eicio daemones igitur pervenit in vos regnum Dei",
+      "citation": "Matthew 12:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "aut quomodo potest quisquam intrare in domum fortis et vasa eius diripere nisi prius alligaverit fortem et tunc domum illius diripiat",
+      "citation": "Matthew 12:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "qui non est mecum contra me est et qui non congregat mecum spargit",
+      "citation": "Matthew 12:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "ideo dico vobis omne peccatum et blasphemia remittetur hominibus Spiritus autem blasphemia non remittetur",
+      "citation": "Matthew 12:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et quicumque dixerit verbum contra Filium hominis remittetur ei qui autem dixerit contra Spiritum Sanctum non remittetur ei neque in hoc saeculo neque in futuro",
+      "citation": "Matthew 12:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "aut facite arborem bonam et fructum eius bonum aut facite arborem malam et fructum eius malum siquidem ex fructu arbor agnoscitur",
+      "citation": "Matthew 12:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "progenies viperarum quomodo potestis bona loqui cum sitis mali ex abundantia enim cordis os loquitur",
+      "citation": "Matthew 12:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "bonus homo de bono thesauro profert bona et malus homo de malo thesauro profert mala",
+      "citation": "Matthew 12:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "dico autem vobis quoniam omne verbum otiosum quod locuti fuerint homines reddent rationem de eo in die iudicii",
+      "citation": "Matthew 12:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "ex verbis enim tuis iustificaberis et ex verbis tuis condemnaberis",
+      "citation": "Matthew 12:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "tunc responderunt ei quidam de scribis et Pharisaeis dicentes magister volumus a te signum videre",
+      "citation": "Matthew 12:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "qui respondens ait illis generatio mala et adultera signum quaerit et signum non dabitur ei nisi signum Ionae prophetae",
+      "citation": "Matthew 12:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "sicut enim fuit Ionas in ventre ceti tribus diebus et tribus noctibus sic erit Filius hominis in corde terrae tribus diebus et tribus noctibus",
+      "citation": "Matthew 12:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "viri ninevitae surgent in iudicio cum generatione ista et condemnabunt eam quia paenitentiam egerunt in praedicatione Ionae et ecce plus quam Iona hic",
+      "citation": "Matthew 12:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "regina austri surget in iudicio cum generatione ista et condemnabit eam quia venit a finibus terrae audire sapientiam Salomonis et ecce plus quam Salomon hic",
+      "citation": "Matthew 12:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "cum autem inmundus spiritus exierit ab homine ambulat per loca arida quaerens requiem et non invenit",
+      "citation": "Matthew 12:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "tunc dicit revertar in domum meam unde exivi et veniens invenit vacantem scopis mundatam et ornatam",
+      "citation": "Matthew 12:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "tunc vadit et adsumit septem alios spiritus secum nequiores se et intrantes habitant ibi et fiunt novissima hominis illius peiora prioribus sic erit et generationi huic pessimae",
+      "citation": "Matthew 12:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "adhuc eo loquente ad turbas ecce mater eius et fratres stabant foris quaerentes loqui ei",
+      "citation": "Matthew 12:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "dixit autem ei quidam ecce mater tua et fratres tui foris stant quaerentes te",
+      "citation": "Matthew 12:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "at ipse respondens dicenti sibi ait quae est mater mea et qui sunt fratres mei",
+      "citation": "Matthew 12:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "et extendens manum in discipulos suos dixit ecce mater mea et fratres mei",
+      "citation": "Matthew 12:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "quicumque enim fecerit voluntatem Patris mei qui in caelis est ipse meus et frater et soror et mater est",
+      "citation": "Matthew 12:50 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Galatians — 6 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Galatians",
+      "slug": "galatians",
+      "testament": "NT",
+      "order": 55,
+      "totalChapters": 6
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/galatians/index.json",
+      "german": "https://latinprayer.org/bibel/galatians/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/bible/galatians/1",
+      "jsonUrl": "https://latinprayer.org/bible/galatians/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bible/galatians/2",
+      "jsonUrl": "https://latinprayer.org/bible/galatians/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bible/galatians/3",
+      "jsonUrl": "https://latinprayer.org/bible/galatians/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/bible/galatians/4",
+      "jsonUrl": "https://latinprayer.org/bible/galatians/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/bible/galatians/5",
+      "jsonUrl": "https://latinprayer.org/bible/galatians/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/bible/galatians/6",
+      "jsonUrl": "https://latinprayer.org/bible/galatians/6.json"
+    }
+  ]
+}

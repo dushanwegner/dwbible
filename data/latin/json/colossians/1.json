@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Colossians, Chapter 1 — 29 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Colossians",
+      "slug": "colossians",
+      "testament": "NT",
+      "order": 58,
+      "totalChapters": 4
+    },
+    "chapter": 1,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/colossians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/colossians/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/colossians/1.json",
+      "german": "https://latinprayer.org/bibel/colossians/1.json"
+    }
+  },
+  "citation": "Colossians 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Paulus apostolus Christi Iesu per voluntatem Dei et Timotheus frater",
+      "citation": "Colossians 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "his qui sunt Colossis sanctis et fidelibus fratribus in Christo Iesu gratia vobis et pax a Deo Patre nostro",
+      "citation": "Colossians 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "gratias agimus Deo et Patri Domini nostri Iesu Christi semper pro vobis orantes",
+      "citation": "Colossians 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "audientes fidem vestram in Christo Iesu et dilectionem quam habetis in sanctos omnes",
+      "citation": "Colossians 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "propter spem quae reposita est vobis in caelis quam audistis in verbo veritatis evangelii",
+      "citation": "Colossians 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quod pervenit ad vos sicut et in universo mundo est et fructificat et crescit sicut in vobis ex ea die qua audistis et cognovistis gratiam Dei in veritate",
+      "citation": "Colossians 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "sicut didicistis ab Epaphra carissimo conservo nostro qui est fidelis pro vobis minister Christi Iesu",
+      "citation": "Colossians 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "qui etiam manifestavit nobis dilectionem vestram in Spiritu",
+      "citation": "Colossians 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ideo et nos ex qua die audivimus non cessamus pro vobis orantes et postulantes ut impleamini agnitione voluntatis eius in omni sapientia et intellectu spiritali",
+      "citation": "Colossians 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ut ambuletis digne Deo per omnia placentes in omni opere bono fructificantes et crescentes in scientia Dei",
+      "citation": "Colossians 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in omni virtute confortati secundum potentiam claritatis eius in omni patientia et longanimitate cum gaudio",
+      "citation": "Colossians 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "gratias agentes Patri qui dignos nos fecit in partem sortis sanctorum in lumine",
+      "citation": "Colossians 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "qui eripuit nos de potestate tenebrarum et transtulit in regnum Filii dilectionis suae",
+      "citation": "Colossians 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "in quo habemus redemptionem remissionem peccatorum",
+      "citation": "Colossians 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "qui est imago Dei invisibilis primogenitus omnis creaturae",
+      "citation": "Colossians 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quia in ipso condita sunt universa in caelis et in terra visibilia et invisibilia sive throni sive dominationes sive principatus sive potestates omnia per ipsum et in ipso creata sunt",
+      "citation": "Colossians 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et ipse est ante omnes et omnia in ipso constant",
+      "citation": "Colossians 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et ipse est caput corporis ecclesiae qui est principium primogenitus ex mortuis ut sit in omnibus ipse primatum tenens",
+      "citation": "Colossians 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quia in ipso conplacuit omnem plenitudinem habitare",
+      "citation": "Colossians 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et per eum reconciliare omnia in ipsum pacificans per sanguinem crucis eius sive quae in terris sive quae in caelis sunt",
+      "citation": "Colossians 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et vos cum essetis aliquando alienati et inimici sensu in operibus malis",
+      "citation": "Colossians 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "nunc autem reconciliavit in corpore carnis eius per mortem exhibere vos sanctos et inmaculatos et inreprehensibiles coram ipso",
+      "citation": "Colossians 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "si tamen permanetis in fide fundati et stabiles et inmobiles ab spe evangelii quod audistis quod praedicatum est in universa creatura quae sub caelo est cuius factus sum ego Paulus minister",
+      "citation": "Colossians 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "qui nunc gaudeo in passionibus pro vobis et adimpleo ea quae desunt passionum Christi in carne mea pro corpore eius quod est ecclesia",
+      "citation": "Colossians 1:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "cuius factus sum ego minister secundum dispensationem Dei quae data est mihi in vos ut impleam verbum Dei",
+      "citation": "Colossians 1:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "mysterium quod absconditum fuit a saeculis et generationibus nunc autem manifestatum est sanctis eius",
+      "citation": "Colossians 1:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "quibus voluit Deus notas facere divitias gloriae sacramenti huius in gentibus quod est Christus in vobis spes gloriae",
+      "citation": "Colossians 1:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "quem nos adnuntiamus corripientes omnem hominem et docentes omnem hominem in omni sapientia ut exhibeamus omnem hominem perfectum in Christo Iesu",
+      "citation": "Colossians 1:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "in quo et laboro certando secundum operationem eius quam operatur in me in virtute",
+      "citation": "Colossians 1:29 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John, Chapter 11 — 57 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 11,
+    "verseCount": 57,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/john/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/john/10.json",
+      "nextChapter": "https://latinprayer.org/latin/john/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/john/11.json",
+      "german": "https://latinprayer.org/bibel/john/11.json"
+    }
+  },
+  "citation": "John 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "erat autem quidam languens Lazarus a Bethania de castello Mariae et Marthae sororis eius",
+      "citation": "John 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Maria autem erat quae unxit Dominum unguento et extersit pedes eius capillis suis cuius frater Lazarus infirmabatur",
+      "citation": "John 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "miserunt ergo sorores ad eum dicentes Domine ecce quem amas infirmatur",
+      "citation": "John 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "audiens autem Iesus dixit eis infirmitas haec non est ad mortem sed pro gloria Dei ut glorificetur Filius Dei per eam",
+      "citation": "John 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "diligebat autem Iesus Martham et sororem eius Mariam et Lazarum",
+      "citation": "John 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ut ergo audivit quia infirmabatur tunc quidem mansit in eodem loco duobus diebus",
+      "citation": "John 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "deinde post haec dicit discipulis suis eamus in Iudaeam iterum",
+      "citation": "John 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dicunt ei discipuli rabbi nunc quaerebant te Iudaei lapidare et iterum vadis illuc",
+      "citation": "John 11:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "respondit Iesus nonne duodecim horae sunt diei si quis ambulaverit in die non offendit quia lucem huius mundi videt",
+      "citation": "John 11:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "si autem ambulaverit nocte offendit quia lux non est in eo",
+      "citation": "John 11:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "haec ait et post hoc dicit eis Lazarus amicus noster dormit sed vado ut a somno exsuscitem eum",
+      "citation": "John 11:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "dixerunt ergo discipuli eius Domine si dormit salvus erit",
+      "citation": "John 11:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "dixerat autem Iesus de morte eius illi autem putaverunt quia de dormitione somni diceret",
+      "citation": "John 11:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "tunc ergo dixit eis Iesus manifeste Lazarus mortuus est",
+      "citation": "John 11:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et gaudeo propter vos ut credatis quoniam non eram ibi sed eamus ad eum",
+      "citation": "John 11:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "dixit ergo Thomas qui dicitur Didymus ad condiscipulos eamus et nos ut moriamur cum eo",
+      "citation": "John 11:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "venit itaque Iesus et invenit eum quattuor dies iam in monumento habentem",
+      "citation": "John 11:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "erat autem Bethania iuxta Hierosolyma quasi stadiis quindecim",
+      "citation": "John 11:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "multi autem ex Iudaeis venerant ad Martham et Mariam ut consolarentur eas de fratre suo",
+      "citation": "John 11:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "Martha ergo ut audivit quia Iesus venit occurrit illi Maria autem domi sedebat",
+      "citation": "John 11:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "dixit ergo Martha ad Iesum Domine si fuisses hic frater meus non fuisset mortuus",
+      "citation": "John 11:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "sed et nunc scio quia quaecumque poposceris a Deo dabit tibi Deus",
+      "citation": "John 11:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "dicit illi Iesus resurget frater tuus",
+      "citation": "John 11:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "dicit ei Martha scio quia resurget in resurrectione in novissima die",
+      "citation": "John 11:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "dixit ei Iesus ego sum resurrectio et vita qui credit in me et si mortuus fuerit vivet",
+      "citation": "John 11:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et omnis qui vivit et credit in me non morietur in aeternum credis hoc",
+      "citation": "John 11:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "ait illi utique Domine ego credidi quia tu es Christus Filius Dei qui in mundum venisti",
+      "citation": "John 11:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et cum haec dixisset abiit et vocavit Mariam sororem suam silentio dicens magister adest et vocat te",
+      "citation": "John 11:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "illa ut audivit surgit cito et venit ad eum",
+      "citation": "John 11:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "nondum enim venerat Iesus in castellum sed erat adhuc in illo loco ubi occurrerat ei Martha",
+      "citation": "John 11:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "Iudaei igitur qui erant cum ea in domo et consolabantur eam cum vidissent Mariam quia cito surrexit et exiit secuti sunt eam dicentes quia vadit ad monumentum ut ploret ibi",
+      "citation": "John 11:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "Maria ergo cum venisset ubi erat Iesus videns eum cecidit ad pedes eius et dixit ei Domine si fuisses hic non esset mortuus frater meus",
+      "citation": "John 11:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "Iesus ergo ut vidit eam plorantem et Iudaeos qui venerant cum ea plorantes fremuit spiritu et turbavit se ipsum",
+      "citation": "John 11:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et dixit ubi posuistis eum dicunt ei Domine veni et vide",
+      "citation": "John 11:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et lacrimatus est Iesus",
+      "citation": "John 11:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "dixerunt ergo Iudaei ecce quomodo amabat eum",
+      "citation": "John 11:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "quidam autem dixerunt ex ipsis non poterat hic qui aperuit oculos caeci facere ut et hic non moreretur",
+      "citation": "John 11:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "Iesus ergo rursum fremens in semet ipso venit ad monumentum erat autem spelunca et lapis superpositus erat ei",
+      "citation": "John 11:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "ait Iesus tollite lapidem dicit ei Martha soror eius qui mortuus fuerat Domine iam fetet quadriduanus enim est",
+      "citation": "John 11:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "dicit ei Iesus nonne dixi tibi quoniam si credideris videbis gloriam Dei",
+      "citation": "John 11:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "tulerunt ergo lapidem Iesus autem elevatis sursum oculis dixit Pater gratias ago tibi quoniam audisti me",
+      "citation": "John 11:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "ego autem sciebam quia semper me audis sed propter populum qui circumstat dixi ut credant quia tu me misisti",
+      "citation": "John 11:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "haec cum dixisset voce magna clamavit Lazare veni foras",
+      "citation": "John 11:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et statim prodiit qui fuerat mortuus ligatus pedes et manus institis et facies illius sudario erat ligata dicit Iesus eis solvite eum et sinite abire",
+      "citation": "John 11:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "multi ergo ex Iudaeis qui venerant ad Mariam et viderant quae fecit crediderunt in eum",
+      "citation": "John 11:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "quidam autem ex ipsis abierunt ad Pharisaeos et dixerunt eis quae fecit Iesus",
+      "citation": "John 11:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "collegerunt ergo pontifices et Pharisaei concilium et dicebant quid facimus quia hic homo multa signa facit",
+      "citation": "John 11:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "si dimittimus eum sic omnes credent in eum et venient Romani et tollent nostrum et locum et gentem",
+      "citation": "John 11:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "unus autem ex ipsis Caiaphas cum esset pontifex anni illius dixit eis vos nescitis quicquam",
+      "citation": "John 11:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "nec cogitatis quia expedit nobis ut unus moriatur homo pro populo et non tota gens pereat",
+      "citation": "John 11:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "hoc autem a semet ipso non dixit sed cum esset pontifex anni illius prophetavit quia Iesus moriturus erat pro gente",
+      "citation": "John 11:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "et non tantum pro gente sed et ut filios Dei qui erant dispersi congregaret in unum",
+      "citation": "John 11:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "ab illo ergo die cogitaverunt ut interficerent eum",
+      "citation": "John 11:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "Iesus ergo iam non in palam ambulabat apud Iudaeos sed abiit in regionem iuxta desertum in civitatem quae dicitur Efrem et ibi morabatur cum discipulis",
+      "citation": "John 11:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "proximum autem erat pascha Iudaeorum et ascenderunt multi Hierosolyma de regione ante pascha ut sanctificarent se ipsos",
+      "citation": "John 11:55 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "quaerebant ergo Iesum et conloquebantur ad invicem in templo stantes quid putatis quia non veniat ad diem festum",
+      "citation": "John 11:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "dederant autem pontifices et Pharisaei mandatum ut si quis cognoverit ubi sit indicet ut adprehendant eum",
+      "citation": "John 11:57 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 39 — 8 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 39,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/isaias/38.json",
+      "nextChapter": "https://latinprayer.org/bibel/isaias/40.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/39.json",
+      "latin": "https://latinprayer.org/latin/isaias/39.json"
+    }
+  },
+  "citation": "Jesaja 39 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Zu jener Zeit sandte Merodach-Baladan, der Sohn Baladans, der König von Babylon, ein Schreiben und ein Geschenk an Hiskia; er hatte nämlich gehört, daß er krank gewesen und wieder gesund geworden sei.",
+      "citation": "Jesaja 39:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Hiskia freute sich darüber und zeigte ihnen (den Boten) sein Schatzhaus: das Silber und das Gold, die Spezereien und das kostbare Öl, sein ganzes Zeughaus und überhaupt alles, was sich in seinen Schatzhäusern vorfand; es gab in seinem Palast und in seinem ganzen Königreiche nichts, was Hiskia ihnen nicht gezeigt hätte.",
+      "citation": "Jesaja 39:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Da begab sich der Prophet Jesaja zum König Hiskia und fragte ihn: »Was haben diese Männer gewollt, und woher sind sie zu dir gekommen?« Hiskia antwortete: »Aus einem fernen Lande sind sie zu mir gekommen, aus Babylon.«",
+      "citation": "Jesaja 39:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Darauf fragte jener: »Was haben sie in deinem Palast zu sehen bekommen?« Hiskia erwiderte: »Alles, was in meinem Palast ist, haben sie zu sehen bekommen; es gibt in meinen Schatzhäusern nichts, was ich ihnen nicht gezeigt hätte.«",
+      "citation": "Jesaja 39:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da sagte Jesaja zu Hiskia: »Vernimm das Wort des HERRN der Heerscharen:",
+      "citation": "Jesaja 39:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "›Wisse wohl: es kommt die Zeit, da wird alles, was sich in deinem Palast vorfindet und was an Schätzen deine Väter bis zum heutigen Tage aufgehäuft haben, nach Babylon weggebracht werden: nichts wird zurückbleiben!‹ – so hat der HERR gesprochen –;",
+      "citation": "Jesaja 39:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "›und von deinen leiblichen Söhnen, die dir geboren werden, wird man einige nehmen, damit sie im Palast des Königs von Babylon als Kämmerer dienen.‹«",
+      "citation": "Jesaja 39:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Da antwortete Hiskia dem Jesaja: »Gut ist das Wort des HERRN, das du mir mitgeteilt hast!« Er dachte nämlich: »Es wird ja doch Friede und Sicherheit herrschen, solange ich lebe.«",
+      "citation": "Jesaja 39:8 (Menge)"
+    }
+  ]
+}

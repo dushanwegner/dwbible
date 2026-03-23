@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 18 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 18,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/job/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/job/17.json",
+      "nextChapter": "https://latinprayer.org/latin/job/19.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/18.json",
+      "german": "https://latinprayer.org/bibel/job/18.json"
+    }
+  },
+  "citation": "Job 18 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "respondens autem Baldad Suites dixit",
+      "citation": "Job 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "usque ad quem finem verba iactabitis intellegite prius et sic loquamur",
+      "citation": "Job 18:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quare reputati sumus ut iumenta et sorduimus coram vobis",
+      "citation": "Job 18:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "qui perdis animam tuam in furore tuo numquid propter te derelinquetur terra et transferentur rupes de loco suo",
+      "citation": "Job 18:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "nonne lux impii extinguetur nec splendebit flamma ignis eius",
+      "citation": "Job 18:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "lux obtenebrescet in tabernaculo illius et lucerna quae super eum est extinguetur",
+      "citation": "Job 18:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "artabuntur gressus virtutis eius et praecipitabit eum consilium suum",
+      "citation": "Job 18:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "inmisit enim in rete pedes suos et in maculis eius ambulat",
+      "citation": "Job 18:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "tenebitur planta illius laqueo et exardescet contra eum sitis",
+      "citation": "Job 18:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "abscondita est in terra pedica eius et decipula illius super semitam",
+      "citation": "Job 18:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "undique terrebunt eum formidines et involvent pedes eius",
+      "citation": "Job 18:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "adtenuetur fame robur eius et inedia invadat costas illius",
+      "citation": "Job 18:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "devoret pulchritudinem cutis eius consumat brachia illius primogenita mors",
+      "citation": "Job 18:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "avellatur de tabernaculo suo fiducia eius et calcet super eum quasi rex interitus",
+      "citation": "Job 18:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "habitent in tabernaculo illius socii eius qui non est aspergatur in tabernaculo eius sulphur",
+      "citation": "Job 18:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "deorsum radices eius siccentur sursum autem adteratur messis eius",
+      "citation": "Job 18:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "memoria illius pereat de terra et non celebretur nomen eius in plateis",
+      "citation": "Job 18:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "expellet eum de luce in tenebras et de orbe transferet eum",
+      "citation": "Job 18:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "non erit semen eius neque progenies in populo suo nec ullae reliquiae in regionibus eius",
+      "citation": "Job 18:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in die eius stupebunt novissimi et primos invadet horror",
+      "citation": "Job 18:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "haec sunt ergo tabernacula iniqui et iste locus eius qui ignorat Deum",
+      "citation": "Job 18:21 (Clementine Vulgate)"
+    }
+  ]
+}

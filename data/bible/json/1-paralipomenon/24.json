@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Paralipomenon, Chapter 24 — 31 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Paralipomenon",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 24,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-paralipomenon/23.json",
+      "nextChapter": "https://latinprayer.org/bible/1-paralipomenon/25.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-paralipomenon/24.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/24.json"
+    }
+  },
+  "citation": "1. Paralipomenon 24 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now these were the divisions of the sons of Aaron: The sons of Aaron: Nadab, and Abiu, and Eleazar, and Ithamar.",
+      "citation": "1. Paralipomenon 24:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But Nadab and Abiu died before their father, and had no children: so Eleazar, and Ithamar did the office of the priesthood.",
+      "citation": "1. Paralipomenon 24:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And David distributed them, that is, Sadoc of the sons of Eleazar, and Ahimelech of the sons of Ithamar, according to their courses and ministry.",
+      "citation": "1. Paralipomenon 24:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And there were found many more of the sons of Eleazar among the principal men, than of the sons of Ithamar. And he divided them so, that there were of the sons of Eleazar, sixteen chief men by their families: and of the sons of Ithamar eight by their families and houses.",
+      "citation": "1. Paralipomenon 24:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And he divided both the families one with the other by lot: for there were princes of the sanctuary, and princes of God, both of the sons of Eleazar, and of the sons of Ithamar.",
+      "citation": "1. Paralipomenon 24:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Semeias the son of Nathanael the scribe a Levite, wrote them down before the king and the princes, and Sadoc the priest, and Ahimelech the son of Abiathar, and the princes also of the priestly and Levitical families: one house, which was over the rest, of Eleazar: and another house, which had the rest under it, of Ithamar.",
+      "citation": "1. Paralipomenon 24:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Now the first lot came forth to Joiarib, the second to Jedei,",
+      "citation": "1. Paralipomenon 24:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The third to Harim, the fourth to Seorim,",
+      "citation": "1. Paralipomenon 24:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The fifth to Melchia, the sixth to Maiman,",
+      "citation": "1. Paralipomenon 24:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The seventh to Accos, the eighth to Abia,",
+      "citation": "1. Paralipomenon 24:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The ninth to Jesua, the tenth to Sechenia,",
+      "citation": "1. Paralipomenon 24:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The eleventh to Eliasib, the twelfth to Jacim,",
+      "citation": "1. Paralipomenon 24:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The thirteenth to Hoppha, the fourteenth to Isbaab,",
+      "citation": "1. Paralipomenon 24:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "The fifteenth to Belga, the sixteenth to Emmer,",
+      "citation": "1. Paralipomenon 24:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The seventeenth to Hezir, the eighteenth to Aphses,",
+      "citation": "1. Paralipomenon 24:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The nineteenth to Pheteia, the twentieth to Hezechiel,",
+      "citation": "1. Paralipomenon 24:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The one and twentieth to Jachin, the two and twentieth to Gamul,",
+      "citation": "1. Paralipomenon 24:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The three and twentieth to Dalaiau, the four and twentieth to Maaziau.",
+      "citation": "1. Paralipomenon 24:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "These are their courses according to their ministries, to come into the house of the Lord, and according to their manner under the hand of Aaron their father: as the Lord the God of Israel had commanded.",
+      "citation": "1. Paralipomenon 24:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Now of the rest of the sons of Levi, there was of the sons of Amram, Subael: and of the sons of Subael, Jehedeia.",
+      "citation": "1. Paralipomenon 24:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Also of the sons of Rohobia the chief Jesias.",
+      "citation": "1. Paralipomenon 24:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And the son of Isaar Salemoth, and the son of Salemoth Jahath:",
+      "citation": "1. Paralipomenon 24:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And his son Jeriau the first, Amarias the second, Jahaziel the third, Jecmaan the fourth.",
+      "citation": "1. Paralipomenon 24:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "The son of Oziel, Micha: the son of Micha, Samir.",
+      "citation": "1. Paralipomenon 24:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "The brother of Micha, Jesia: and the son of Jesia, Zacharias.",
+      "citation": "1. Paralipomenon 24:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "The sons of Merari: Moholi and Musi: the son of Oziau: Benno.",
+      "citation": "1. Paralipomenon 24:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "The son also of Merari Oziau, and Soam, and Zacchur, and Hebri.",
+      "citation": "1. Paralipomenon 24:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And the son of Moholi: Eleazar, who had no sons.",
+      "citation": "1. Paralipomenon 24:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And the son of Cis, Jeramael.",
+      "citation": "1. Paralipomenon 24:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "The sons of Musi: Moholi, Eder, and Jerimoth. These are the sons of Levi according to the houses of their families.",
+      "citation": "1. Paralipomenon 24:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And they also cast lots over against their brethren the sons of Aaron before David the king, and Sadoc, and Ahimelech, and the princes of the priestly and Levitical families, both the elder and the younger. The lot divided all equally.",
+      "citation": "1. Paralipomenon 24:31 (Douay-Rheims)"
+    }
+  ]
+}

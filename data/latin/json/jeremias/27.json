@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 27 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 27,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/26.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/28.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/27.json",
+      "german": "https://latinprayer.org/bibel/jeremias/27.json"
+    }
+  },
+  "citation": "Jeremiah 27 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in principio regni Ioachim filii Iosiae regis Iuda factum est verbum istud ad Hieremiam a Domino dicens",
+      "citation": "Jeremiah 27:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "haec dicit Dominus ad me fac tibi vincula et catenas et pones eas in collo tuo",
+      "citation": "Jeremiah 27:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et mittes eas ad regem Edom et ad regem Moab et ad regem filiorum Ammon et ad regem Tyri et ad regem Sidonis in manu nuntiorum qui venerunt Hierusalem ad Sedeciam regem Iuda",
+      "citation": "Jeremiah 27:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et praecipies eis ut ad dominos suos loquantur haec dicit Dominus exercituum Deus Israhel haec dicetis ad dominos vestros",
+      "citation": "Jeremiah 27:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ego feci terram et hominem et iumenta quae sunt super faciem terrae in fortitudine mea magna et in brachio meo extento et dedi eam ei qui placuit in oculis meis",
+      "citation": "Jeremiah 27:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et nunc itaque ego dedi omnes terras istas in manu Nabuchodonosor regis Babylonis servi mei insuper et bestias agri dedi ei ut serviant illi",
+      "citation": "Jeremiah 27:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et servient ei omnes gentes et filio eius et filio filii eius donec veniat tempus terrae eius et ipsius et servient ei gentes multae et reges magni",
+      "citation": "Jeremiah 27:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "gens autem et regnum quod non servierit Nabuchodonosor regi Babylonis et quicumque non curvaverit collum suum sub iugo regis Babylonis in gladio et in fame et in peste visitabo super gentem illam ait Dominus donec consumam eos in manu eius",
+      "citation": "Jeremiah 27:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "vos ergo nolite audire prophetas vestros et divinos et somniatores et augures et maleficos qui dicunt vobis non servietis regi Babylonis",
+      "citation": "Jeremiah 27:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quia mendacium prophetant vobis ut longe faciant vos de terra vestra et eiciant vos et pereatis",
+      "citation": "Jeremiah 27:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "porro gens quae subiecerit cervicem suam sub iugo regis Babylonis et servierit ei dimittam eam in terra sua dicit Dominus et colet eam et habitabit in ea",
+      "citation": "Jeremiah 27:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et ad Sedeciam regem Iuda locutus sum secundum omnia verba haec dicens subicite colla vestra sub iugo regis Babylonis et servite ei et populo eius et vivetis",
+      "citation": "Jeremiah 27:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quare moriemini tu et populus tuus gladio fame et peste sicut locutus est Dominus ad gentem quae servire noluerit regi Babylonis",
+      "citation": "Jeremiah 27:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "nolite audire verba prophetarum dicentium vobis non servietis regi Babylonis quia mendacium ipsi loquuntur vobis",
+      "citation": "Jeremiah 27:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quia non misi eos ait Dominus et ipsi prophetant in nomine meo mendaciter ut eiciant vos et pereatis tam vos quam prophetae qui vaticinantur vobis",
+      "citation": "Jeremiah 27:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et ad sacerdotes et ad populum istum locutus sum dicens haec dicit Dominus nolite audire verba prophetarum vestrorum qui prophetant vobis dicentes ecce vasa Domini revertentur de Babylone nunc cito mendacium enim prophetant vobis",
+      "citation": "Jeremiah 27:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "nolite ergo audire eos sed servite regi Babylonis ut vivatis quare datur haec civitas in solitudinem",
+      "citation": "Jeremiah 27:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et si prophetae sunt et est verbum Domini in eis occurrant Domino exercituum ut non veniant vasa quae derelicta fuerant in domum Domini et in domum regis Iuda et in Hierusalem in Babylonem",
+      "citation": "Jeremiah 27:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quia haec dicit Dominus exercituum ad columnas et ad mare et ad bases et ad reliqua vasorum quae remanserunt in civitate hac",
+      "citation": "Jeremiah 27:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quae non tulit Nabuchodonosor rex Babylonis cum transferret Iechoniam filium Ioachim regem Iuda de Hierusalem in Babylonem et omnes optimates Iuda et Hierusalem",
+      "citation": "Jeremiah 27:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quia haec dicit Dominus exercituum Deus Israhel ad vasa quae derelicta sunt in domum Domini et in domum regis Iuda et Hierusalem",
+      "citation": "Jeremiah 27:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "in Babylonem transferentur et ibi erunt usque ad diem visitationis suae dicit Dominus et adferri faciam ea et restitui in loco isto",
+      "citation": "Jeremiah 27:22 (Clementine Vulgate)"
+    }
+  ]
+}

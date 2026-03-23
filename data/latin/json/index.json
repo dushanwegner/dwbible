@@ -1,0 +1,678 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Catholic Bible — Clementine Vulgate (Latin) — 73 books",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "bookCount": 73,
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/index.json",
+      "german": "https://latinprayer.org/bibel/index.json"
+    }
+  },
+  "books": [
+    {
+      "order": 1,
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "totalChapters": 26,
+      "url": "https://latinprayer.org/latin/genesis/",
+      "jsonUrl": "https://latinprayer.org/latin/genesis/index.json"
+    },
+    {
+      "order": 2,
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "totalChapters": 25,
+      "url": "https://latinprayer.org/latin/exodus/",
+      "jsonUrl": "https://latinprayer.org/latin/exodus/index.json"
+    },
+    {
+      "order": 3,
+      "name": "Leviticus",
+      "slug": "leviticus",
+      "testament": "OT",
+      "totalChapters": 27,
+      "url": "https://latinprayer.org/latin/leviticus/",
+      "jsonUrl": "https://latinprayer.org/latin/leviticus/index.json"
+    },
+    {
+      "order": 4,
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "totalChapters": 36,
+      "url": "https://latinprayer.org/latin/numbers/",
+      "jsonUrl": "https://latinprayer.org/latin/numbers/index.json"
+    },
+    {
+      "order": 5,
+      "name": "Deuteronomy",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "totalChapters": 34,
+      "url": "https://latinprayer.org/latin/deuteronomy/",
+      "jsonUrl": "https://latinprayer.org/latin/deuteronomy/index.json"
+    },
+    {
+      "order": 6,
+      "name": "Joshua",
+      "slug": "josue",
+      "testament": "OT",
+      "totalChapters": 19,
+      "url": "https://latinprayer.org/latin/josue/",
+      "jsonUrl": "https://latinprayer.org/latin/josue/index.json"
+    },
+    {
+      "order": 7,
+      "name": "Judges",
+      "slug": "judges",
+      "testament": "OT",
+      "totalChapters": 21,
+      "url": "https://latinprayer.org/latin/judges/",
+      "jsonUrl": "https://latinprayer.org/latin/judges/index.json"
+    },
+    {
+      "order": 8,
+      "name": "Ruth",
+      "slug": "ruth",
+      "testament": "OT",
+      "totalChapters": 4,
+      "url": "https://latinprayer.org/latin/ruth/",
+      "jsonUrl": "https://latinprayer.org/latin/ruth/index.json"
+    },
+    {
+      "order": 9,
+      "name": "1 Samuel",
+      "slug": "1-kings-samuel",
+      "testament": "OT",
+      "totalChapters": 31,
+      "url": "https://latinprayer.org/latin/1-kings-samuel/",
+      "jsonUrl": "https://latinprayer.org/latin/1-kings-samuel/index.json"
+    },
+    {
+      "order": 10,
+      "name": "2 Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "totalChapters": 24,
+      "url": "https://latinprayer.org/latin/2-kings-samuel/",
+      "jsonUrl": "https://latinprayer.org/latin/2-kings-samuel/index.json"
+    },
+    {
+      "order": 11,
+      "name": "1 Kings",
+      "slug": "3-kings",
+      "testament": "OT",
+      "totalChapters": 22,
+      "url": "https://latinprayer.org/latin/3-kings/",
+      "jsonUrl": "https://latinprayer.org/latin/3-kings/index.json"
+    },
+    {
+      "order": 12,
+      "name": "2 Kings",
+      "slug": "4-kings",
+      "testament": "OT",
+      "totalChapters": 25,
+      "url": "https://latinprayer.org/latin/4-kings/",
+      "jsonUrl": "https://latinprayer.org/latin/4-kings/index.json"
+    },
+    {
+      "order": 13,
+      "name": "1 Chronicles",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "totalChapters": 29,
+      "url": "https://latinprayer.org/latin/1-paralipomenon/",
+      "jsonUrl": "https://latinprayer.org/latin/1-paralipomenon/index.json"
+    },
+    {
+      "order": 14,
+      "name": "2 Chronicles",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "totalChapters": 36,
+      "url": "https://latinprayer.org/latin/2-paralipomenon/",
+      "jsonUrl": "https://latinprayer.org/latin/2-paralipomenon/index.json"
+    },
+    {
+      "order": 15,
+      "name": "Ezra",
+      "slug": "1-esdras",
+      "testament": "OT",
+      "totalChapters": 5,
+      "url": "https://latinprayer.org/latin/1-esdras/",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/index.json"
+    },
+    {
+      "order": 16,
+      "name": "Nehemiah",
+      "slug": "2-esdras-nehemias",
+      "testament": "OT",
+      "totalChapters": 3,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/index.json"
+    },
+    {
+      "order": 17,
+      "name": "Tobit",
+      "slug": "tobias",
+      "testament": "OT",
+      "totalChapters": 14,
+      "url": "https://latinprayer.org/latin/tobias/",
+      "jsonUrl": "https://latinprayer.org/latin/tobias/index.json"
+    },
+    {
+      "order": 18,
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "totalChapters": 17,
+      "url": "https://latinprayer.org/latin/judith/",
+      "jsonUrl": "https://latinprayer.org/latin/judith/index.json"
+    },
+    {
+      "order": 19,
+      "name": "Esther",
+      "slug": "esther",
+      "testament": "OT",
+      "totalChapters": 10,
+      "url": "https://latinprayer.org/latin/esther/",
+      "jsonUrl": "https://latinprayer.org/latin/esther/index.json"
+    },
+    {
+      "order": 20,
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "totalChapters": 42,
+      "url": "https://latinprayer.org/latin/job/",
+      "jsonUrl": "https://latinprayer.org/latin/job/index.json"
+    },
+    {
+      "order": 21,
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "totalChapters": 150,
+      "url": "https://latinprayer.org/latin/psalms/",
+      "jsonUrl": "https://latinprayer.org/latin/psalms/index.json"
+    },
+    {
+      "order": 22,
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "totalChapters": 31,
+      "url": "https://latinprayer.org/latin/proverbs/",
+      "jsonUrl": "https://latinprayer.org/latin/proverbs/index.json"
+    },
+    {
+      "order": 23,
+      "name": "Ecclesiastes",
+      "slug": "ecclesiastes",
+      "testament": "OT",
+      "totalChapters": 12,
+      "url": "https://latinprayer.org/latin/ecclesiastes/",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiastes/index.json"
+    },
+    {
+      "order": 24,
+      "name": "Song of Solomon",
+      "slug": "canticle-of-canticles",
+      "testament": "OT",
+      "totalChapters": 8,
+      "url": "https://latinprayer.org/latin/canticle-of-canticles/",
+      "jsonUrl": "https://latinprayer.org/latin/canticle-of-canticles/index.json"
+    },
+    {
+      "order": 25,
+      "name": "Wisdom",
+      "slug": "wisdom",
+      "testament": "OT",
+      "totalChapters": 19,
+      "url": "https://latinprayer.org/latin/wisdom/",
+      "jsonUrl": "https://latinprayer.org/latin/wisdom/index.json"
+    },
+    {
+      "order": 26,
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "totalChapters": 42,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/index.json"
+    },
+    {
+      "order": 27,
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "totalChapters": 66,
+      "url": "https://latinprayer.org/latin/isaias/",
+      "jsonUrl": "https://latinprayer.org/latin/isaias/index.json"
+    },
+    {
+      "order": 28,
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "totalChapters": 52,
+      "url": "https://latinprayer.org/latin/jeremias/",
+      "jsonUrl": "https://latinprayer.org/latin/jeremias/index.json"
+    },
+    {
+      "order": 29,
+      "name": "Lamentations",
+      "slug": "lamentations",
+      "testament": "OT",
+      "totalChapters": 5,
+      "url": "https://latinprayer.org/latin/lamentations/",
+      "jsonUrl": "https://latinprayer.org/latin/lamentations/index.json"
+    },
+    {
+      "order": 30,
+      "name": "Baruch",
+      "slug": "baruch",
+      "testament": "OT",
+      "totalChapters": 10,
+      "url": "https://latinprayer.org/latin/baruch/",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/index.json"
+    },
+    {
+      "order": 31,
+      "name": "Ezekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "totalChapters": 48,
+      "url": "https://latinprayer.org/latin/ezechiel/",
+      "jsonUrl": "https://latinprayer.org/latin/ezechiel/index.json"
+    },
+    {
+      "order": 32,
+      "name": "Daniel",
+      "slug": "daniel",
+      "testament": "OT",
+      "totalChapters": 3,
+      "url": "https://latinprayer.org/latin/daniel/",
+      "jsonUrl": "https://latinprayer.org/latin/daniel/index.json"
+    },
+    {
+      "order": 33,
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "totalChapters": 14,
+      "url": "https://latinprayer.org/latin/osee/",
+      "jsonUrl": "https://latinprayer.org/latin/osee/index.json"
+    },
+    {
+      "order": 34,
+      "name": "Joel",
+      "slug": "joel",
+      "testament": "OT",
+      "totalChapters": 9,
+      "url": "https://latinprayer.org/latin/joel/",
+      "jsonUrl": "https://latinprayer.org/latin/joel/index.json"
+    },
+    {
+      "order": 35,
+      "name": "Amos",
+      "slug": "amos",
+      "testament": "OT",
+      "totalChapters": 15,
+      "url": "https://latinprayer.org/latin/amos/",
+      "jsonUrl": "https://latinprayer.org/latin/amos/index.json"
+    },
+    {
+      "order": 36,
+      "name": "Obadiah",
+      "slug": "abdias",
+      "testament": "OT",
+      "totalChapters": 1,
+      "url": "https://latinprayer.org/latin/abdias/",
+      "jsonUrl": "https://latinprayer.org/latin/abdias/index.json"
+    },
+    {
+      "order": 37,
+      "name": "Jonah",
+      "slug": "jonas",
+      "testament": "OT",
+      "totalChapters": 4,
+      "url": "https://latinprayer.org/latin/jonas/",
+      "jsonUrl": "https://latinprayer.org/latin/jonas/index.json"
+    },
+    {
+      "order": 38,
+      "name": "Micah",
+      "slug": "micheas",
+      "testament": "OT",
+      "totalChapters": 7,
+      "url": "https://latinprayer.org/latin/micheas/",
+      "jsonUrl": "https://latinprayer.org/latin/micheas/index.json"
+    },
+    {
+      "order": 39,
+      "name": "Nahum",
+      "slug": "nahum",
+      "testament": "OT",
+      "totalChapters": 3,
+      "url": "https://latinprayer.org/latin/nahum/",
+      "jsonUrl": "https://latinprayer.org/latin/nahum/index.json"
+    },
+    {
+      "order": 40,
+      "name": "Habakkuk",
+      "slug": "habacuc",
+      "testament": "OT",
+      "totalChapters": 3,
+      "url": "https://latinprayer.org/latin/habacuc/",
+      "jsonUrl": "https://latinprayer.org/latin/habacuc/index.json"
+    },
+    {
+      "order": 41,
+      "name": "Zephaniah",
+      "slug": "sophonias",
+      "testament": "OT",
+      "totalChapters": 3,
+      "url": "https://latinprayer.org/latin/sophonias/",
+      "jsonUrl": "https://latinprayer.org/latin/sophonias/index.json"
+    },
+    {
+      "order": 42,
+      "name": "Haggai",
+      "slug": "aggeus",
+      "testament": "OT",
+      "totalChapters": 2,
+      "url": "https://latinprayer.org/latin/aggeus/",
+      "jsonUrl": "https://latinprayer.org/latin/aggeus/index.json"
+    },
+    {
+      "order": 43,
+      "name": "Zechariah",
+      "slug": "zacharias",
+      "testament": "OT",
+      "totalChapters": 14,
+      "url": "https://latinprayer.org/latin/zacharias/",
+      "jsonUrl": "https://latinprayer.org/latin/zacharias/index.json"
+    },
+    {
+      "order": 44,
+      "name": "Malachi",
+      "slug": "malachias",
+      "testament": "OT",
+      "totalChapters": 6,
+      "url": "https://latinprayer.org/latin/malachias/",
+      "jsonUrl": "https://latinprayer.org/latin/malachias/index.json"
+    },
+    {
+      "order": 45,
+      "name": "1 Maccabees",
+      "slug": "1-machabees",
+      "testament": "OT",
+      "totalChapters": 16,
+      "url": "https://latinprayer.org/latin/1-machabees/",
+      "jsonUrl": "https://latinprayer.org/latin/1-machabees/index.json"
+    },
+    {
+      "order": 46,
+      "name": "2 Maccabees",
+      "slug": "2-machabees",
+      "testament": "OT",
+      "totalChapters": 15,
+      "url": "https://latinprayer.org/latin/2-machabees/",
+      "jsonUrl": "https://latinprayer.org/latin/2-machabees/index.json"
+    },
+    {
+      "order": 47,
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "totalChapters": 28,
+      "url": "https://latinprayer.org/latin/matthew/",
+      "jsonUrl": "https://latinprayer.org/latin/matthew/index.json"
+    },
+    {
+      "order": 48,
+      "name": "Mark",
+      "slug": "mark",
+      "testament": "NT",
+      "totalChapters": 16,
+      "url": "https://latinprayer.org/latin/mark/",
+      "jsonUrl": "https://latinprayer.org/latin/mark/index.json"
+    },
+    {
+      "order": 49,
+      "name": "Luke",
+      "slug": "luke",
+      "testament": "NT",
+      "totalChapters": 24,
+      "url": "https://latinprayer.org/latin/luke/",
+      "jsonUrl": "https://latinprayer.org/latin/luke/index.json"
+    },
+    {
+      "order": 50,
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "totalChapters": 21,
+      "url": "https://latinprayer.org/latin/john/",
+      "jsonUrl": "https://latinprayer.org/latin/john/index.json"
+    },
+    {
+      "order": 51,
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "totalChapters": 28,
+      "url": "https://latinprayer.org/latin/acts/",
+      "jsonUrl": "https://latinprayer.org/latin/acts/index.json"
+    },
+    {
+      "order": 52,
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "totalChapters": 16,
+      "url": "https://latinprayer.org/latin/romans/",
+      "jsonUrl": "https://latinprayer.org/latin/romans/index.json"
+    },
+    {
+      "order": 53,
+      "name": "1 Corinthians",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "totalChapters": 16,
+      "url": "https://latinprayer.org/latin/1-corinthians/",
+      "jsonUrl": "https://latinprayer.org/latin/1-corinthians/index.json"
+    },
+    {
+      "order": 54,
+      "name": "2 Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "totalChapters": 13,
+      "url": "https://latinprayer.org/latin/2-corinthians/",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/index.json"
+    },
+    {
+      "order": 55,
+      "name": "Galatians",
+      "slug": "galatians",
+      "testament": "NT",
+      "totalChapters": 6,
+      "url": "https://latinprayer.org/latin/galatians/",
+      "jsonUrl": "https://latinprayer.org/latin/galatians/index.json"
+    },
+    {
+      "order": 56,
+      "name": "Ephesians",
+      "slug": "ephesians",
+      "testament": "NT",
+      "totalChapters": 6,
+      "url": "https://latinprayer.org/latin/ephesians/",
+      "jsonUrl": "https://latinprayer.org/latin/ephesians/index.json"
+    },
+    {
+      "order": 57,
+      "name": "Philippians",
+      "slug": "philippians",
+      "testament": "NT",
+      "totalChapters": 4,
+      "url": "https://latinprayer.org/latin/philippians/",
+      "jsonUrl": "https://latinprayer.org/latin/philippians/index.json"
+    },
+    {
+      "order": 58,
+      "name": "Colossians",
+      "slug": "colossians",
+      "testament": "NT",
+      "totalChapters": 4,
+      "url": "https://latinprayer.org/latin/colossians/",
+      "jsonUrl": "https://latinprayer.org/latin/colossians/index.json"
+    },
+    {
+      "order": 59,
+      "name": "1 Thessalonians",
+      "slug": "1-thessalonians",
+      "testament": "NT",
+      "totalChapters": 5,
+      "url": "https://latinprayer.org/latin/1-thessalonians/",
+      "jsonUrl": "https://latinprayer.org/latin/1-thessalonians/index.json"
+    },
+    {
+      "order": 60,
+      "name": "2 Thessalonians",
+      "slug": "2-thessalonians",
+      "testament": "NT",
+      "totalChapters": 3,
+      "url": "https://latinprayer.org/latin/2-thessalonians/",
+      "jsonUrl": "https://latinprayer.org/latin/2-thessalonians/index.json"
+    },
+    {
+      "order": 61,
+      "name": "1 Timothy",
+      "slug": "1-timothy",
+      "testament": "NT",
+      "totalChapters": 6,
+      "url": "https://latinprayer.org/latin/1-timothy/",
+      "jsonUrl": "https://latinprayer.org/latin/1-timothy/index.json"
+    },
+    {
+      "order": 62,
+      "name": "2 Timothy",
+      "slug": "2-timothy",
+      "testament": "NT",
+      "totalChapters": 7,
+      "url": "https://latinprayer.org/latin/2-timothy/",
+      "jsonUrl": "https://latinprayer.org/latin/2-timothy/index.json"
+    },
+    {
+      "order": 63,
+      "name": "Titus",
+      "slug": "titus",
+      "testament": "NT",
+      "totalChapters": 24,
+      "url": "https://latinprayer.org/latin/titus/",
+      "jsonUrl": "https://latinprayer.org/latin/titus/index.json"
+    },
+    {
+      "order": 64,
+      "name": "Philemon",
+      "slug": "philemon",
+      "testament": "NT",
+      "totalChapters": 1,
+      "url": "https://latinprayer.org/latin/philemon/",
+      "jsonUrl": "https://latinprayer.org/latin/philemon/index.json"
+    },
+    {
+      "order": 65,
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "totalChapters": 13,
+      "url": "https://latinprayer.org/latin/hebrews/",
+      "jsonUrl": "https://latinprayer.org/latin/hebrews/index.json"
+    },
+    {
+      "order": 66,
+      "name": "James",
+      "slug": "james",
+      "testament": "NT",
+      "totalChapters": 5,
+      "url": "https://latinprayer.org/latin/james/",
+      "jsonUrl": "https://latinprayer.org/latin/james/index.json"
+    },
+    {
+      "order": 67,
+      "name": "1 Peter",
+      "slug": "1-peter",
+      "testament": "NT",
+      "totalChapters": 5,
+      "url": "https://latinprayer.org/latin/1-peter/",
+      "jsonUrl": "https://latinprayer.org/latin/1-peter/index.json"
+    },
+    {
+      "order": 68,
+      "name": "2 Peter",
+      "slug": "2-peter",
+      "testament": "NT",
+      "totalChapters": 3,
+      "url": "https://latinprayer.org/latin/2-peter/",
+      "jsonUrl": "https://latinprayer.org/latin/2-peter/index.json"
+    },
+    {
+      "order": 69,
+      "name": "1 John",
+      "slug": "1-john",
+      "testament": "NT",
+      "totalChapters": 5,
+      "url": "https://latinprayer.org/latin/1-john/",
+      "jsonUrl": "https://latinprayer.org/latin/1-john/index.json"
+    },
+    {
+      "order": 70,
+      "name": "2 John",
+      "slug": "2-john",
+      "testament": "NT",
+      "totalChapters": 1,
+      "url": "https://latinprayer.org/latin/2-john/",
+      "jsonUrl": "https://latinprayer.org/latin/2-john/index.json"
+    },
+    {
+      "order": 71,
+      "name": "3 John",
+      "slug": "3-john",
+      "testament": "NT",
+      "totalChapters": 1,
+      "url": "https://latinprayer.org/latin/3-john/",
+      "jsonUrl": "https://latinprayer.org/latin/3-john/index.json"
+    },
+    {
+      "order": 72,
+      "name": "Jude",
+      "slug": "jude",
+      "testament": "NT",
+      "totalChapters": 23,
+      "url": "https://latinprayer.org/latin/jude/",
+      "jsonUrl": "https://latinprayer.org/latin/jude/index.json"
+    },
+    {
+      "order": 73,
+      "name": "Revelation",
+      "slug": "apocalypse",
+      "testament": "NT",
+      "totalChapters": 35,
+      "url": "https://latinprayer.org/latin/apocalypse/",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/index.json"
+    }
+  ]
+}

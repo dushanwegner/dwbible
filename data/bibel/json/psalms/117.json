@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 117 — 2 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 117,
+    "verseCount": 2,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/116.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/118.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/117.json",
+      "latin": "https://latinprayer.org/latin/psalms/117.json"
+    }
+  },
+  "citation": "Psalmen 117 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Lobet den HERRN, ihr Heiden alle! Preiset ihn, ihr Völker alle!",
+      "citation": "Psalmen 117:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Denn machtvoll waltet über uns seine Gnade, und die Treue des HERRN währt ewiglich. Halleluja!",
+      "citation": "Psalmen 117:2 (Menge)"
+    }
+  ]
+}

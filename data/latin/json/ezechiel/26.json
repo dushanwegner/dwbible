@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezekiel, Chapter 26 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 26,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ezechiel/25.json",
+      "nextChapter": "https://latinprayer.org/latin/ezechiel/27.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ezechiel/26.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/26.json"
+    }
+  },
+  "citation": "Ezekiel 26 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et factum est in undecimo anno prima mensis factus est sermo Domini ad me dicens",
+      "citation": "Ezekiel 26:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "fili hominis pro eo quod dixit Tyrus de Hierusalem euge confractae sunt portae populorum conversa est ad me implebor deserta est",
+      "citation": "Ezekiel 26:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "propterea haec dicit Dominus Deus ecce ego super te Tyre et ascendere faciam ad te gentes multas sicut ascendit mare fluctuans",
+      "citation": "Ezekiel 26:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dissipabunt muros Tyri et destruent turres eius et radam pulverem eius de ea et dabo eam in limpidissimam petram",
+      "citation": "Ezekiel 26:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "siccatio sagenarum erit in medio maris quia ego locutus sum ait Dominus Deus et erit in direptionem gentibus",
+      "citation": "Ezekiel 26:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "filiae quoque eius quae sunt in agro gladio interficientur et scient quia ego Dominus",
+      "citation": "Ezekiel 26:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quia haec dicit Dominus Deus ecce ego adducam ad Tyrum Nabuchodonosor regem Babylonis ab aquilone regem regum cum equis et curribus et equitibus et coetu populoque magno",
+      "citation": "Ezekiel 26:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "filias tuas quae sunt in agro gladio interficiet et circumdabit te munitionibus et conportabit aggerem in gyro et levabit contra te clypeum",
+      "citation": "Ezekiel 26:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et vineas et arietes temperabit in muros tuos et turres tuas destruet in armatura sua",
+      "citation": "Ezekiel 26:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "inundatione equorum eius operiet te pulvis eorum a sonitu equitum et rotarum et curruum movebuntur muri tui dum ingressus fuerit portas tuas quasi per introitus urbis dissipatae",
+      "citation": "Ezekiel 26:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ungulis equorum suorum conculcabit omnes plateas tuas populum tuum gladio caedet et statuae tuae nobiles in terram corruent",
+      "citation": "Ezekiel 26:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "vastabunt opes tuas diripient negotiationes tuas et destruent muros tuos et domos tuas praeclaras subvertent et lapides tuos et ligna tua et pulverem tuum in medio aquarum ponent",
+      "citation": "Ezekiel 26:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et quiescere faciam multitudinem canticorum tuorum et sonitus cithararum tuarum non audietur amplius",
+      "citation": "Ezekiel 26:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et dabo te in limpidissimam petram siccatio sagenarum eris nec aedificaberis ultra quia ego locutus sum dicit Dominus Deus",
+      "citation": "Ezekiel 26:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "haec dicit Dominus Deus Tyro numquid non a sonitu ruinae tuae et gemitu interfectorum tuorum cum occisi fuerint in medio tui commovebuntur insulae",
+      "citation": "Ezekiel 26:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et descendent de sedibus suis omnes principes maris et auferent exuvias suas et vestimenta sua varia abicient et induentur stupore in terra sedebunt et adtoniti super repentino casu tuo admirabuntur",
+      "citation": "Ezekiel 26:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et adsumentes super te lamentum dicent tibi quomodo peristi quae habitas in mari urbs inclita quae fuisti fortis in mari cum habitatoribus tuis quos formidabant universi",
+      "citation": "Ezekiel 26:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "nunc stupebunt naves in die pavoris tui et turbabuntur insulae in mari eo quod nullus egrediatur ex te",
+      "citation": "Ezekiel 26:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quia haec dicit Dominus Deus cum dedero te urbem desolatam sicut civitates quae non habitantur et adduxero super te abyssum et operuerint te aquae multae",
+      "citation": "Ezekiel 26:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et detraxero te cum his qui descendunt in lacum ad populum sempiternum et conlocavero te in terra novissima sicut solitudines veteres cum his qui deducuntur in lacum ut non habiteris porro dedero gloriam in terra viventium",
+      "citation": "Ezekiel 26:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "in nihilum redigam te et non eris et requisita non invenieris ultra in sempiternum dicit Dominus Deus",
+      "citation": "Ezekiel 26:21 (Clementine Vulgate)"
+    }
+  ]
+}

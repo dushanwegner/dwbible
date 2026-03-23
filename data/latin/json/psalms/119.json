@@ -1,0 +1,1796 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 119 — 352 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 119,
+    "verseCount": 352,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/118.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/120.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/119.json",
+      "german": "https://latinprayer.org/bibel/psalms/119.json"
+    }
+  },
+  "citation": "Psalms 119 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "alleluia aleph beati inmaculati in via qui ambulant in lege Domini",
+      "citation": "Psalms 119:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "aleph beati inmaculati in via qui ambulant in lege Domini",
+      "citation": "Psalms 119:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "beati qui scrutantur testimonia eius in toto corde exquirent eum",
+      "citation": "Psalms 119:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "beati qui custodiunt testimonia eius in toto corde requirunt eum",
+      "citation": "Psalms 119:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "non enim qui operantur iniquitatem in viis eius ambulaverunt",
+      "citation": "Psalms 119:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "nec enim qui operantur iniquitatem in viis eius ambulaverunt",
+      "citation": "Psalms 119:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "tu mandasti mandata tua custodire nimis",
+      "citation": "Psalms 119:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "tu mandasti praecepta tua custodire nimis",
+      "citation": "Psalms 119:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "utinam dirigantur viae meae ad custodiendas iustificationes tuas",
+      "citation": "Psalms 119:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "utinam dirigantur viae meae ad custodienda praecepta tua",
+      "citation": "Psalms 119:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "tunc non confundar cum perspexero in omnibus mandatis tuis",
+      "citation": "Psalms 119:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "tunc non confundar cum respexero ad omnia mandata tua",
+      "citation": "Psalms 119:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "confitebor tibi in directione cordis in eo quod didici iudicia iustitiae tuae",
+      "citation": "Psalms 119:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "confitebor tibi in directione cordis cum didicero iudicia iustitiae tuae",
+      "citation": "Psalms 119:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "iustificationes tuas custodiam non me derelinquas usquequaque",
+      "citation": "Psalms 119:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "praecepta tua custodiam ne derelinquas me nimis",
+      "citation": "Psalms 119:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "beth in quo corriget adulescentior viam suam in custodiendo sermones tuos",
+      "citation": "Psalms 119:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "beth in quo corrigit iuvenis semitam suam cum custodierit verba tua",
+      "citation": "Psalms 119:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in toto corde meo exquisivi te non repellas me a mandatis tuis",
+      "citation": "Psalms 119:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in toto corde meo exquisivi te ne errare me facias a mandatis tuis",
+      "citation": "Psalms 119:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in corde meo abscondi eloquia tua ut non peccem tibi",
+      "citation": "Psalms 119:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in corde meo abscondi eloquium tuum ut non peccem tibi",
+      "citation": "Psalms 119:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "benedictus es Domine doce me iustificationes tuas",
+      "citation": "Psalms 119:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "benedictus tu Domine doce me praecepta tua",
+      "citation": "Psalms 119:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "in labiis meis pronuntiavi omnia iudicia oris tui",
+      "citation": "Psalms 119:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "in labiis meis narravi omnes iustitias oris tui",
+      "citation": "Psalms 119:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "in via testimoniorum tuorum delectatus sum sicut in omnibus divitiis",
+      "citation": "Psalms 119:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "in via testimoniorum tuorum laetatus sum quasi in omnibus divitiis",
+      "citation": "Psalms 119:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "in mandatis tuis exercebor et considerabo vias tuas",
+      "citation": "Psalms 119:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "in praeceptis tuis meditabor et contemplabor semitas tuas",
+      "citation": "Psalms 119:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "in iustificationibus tuis meditabor non obliviscar sermones tuos",
+      "citation": "Psalms 119:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "iustitiis tuis delectabor non obliviscar verba tua",
+      "citation": "Psalms 119:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "gimel retribue servo tuo vivifica me et custodiam sermones tuos",
+      "citation": "Psalms 119:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "gimel tribue servo tuo vivam et custodiam verba tua",
+      "citation": "Psalms 119:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "revela oculos meos et considerabo mirabilia de lege tua",
+      "citation": "Psalms 119:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "revela oculos meos et videbo mirabilia in lege tua",
+      "citation": "Psalms 119:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "incola ego sum in terra non abscondas a me mandata tua",
+      "citation": "Psalms 119:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "advena ego sum in terra ne abscondas a me mandata tua",
+      "citation": "Psalms 119:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "concupivit anima mea desiderare iustificationes tuas in omni tempore",
+      "citation": "Psalms 119:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "desideravit anima mea desiderare iudicia tua in omni tempore",
+      "citation": "Psalms 119:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "increpasti superbos maledicti qui declinant a mandatis tuis",
+      "citation": "Psalms 119:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "increpasti superbos maledicti qui recedunt a mandatis tuis",
+      "citation": "Psalms 119:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "aufer a me obprobrium et contemptum quia testimonia tua exquisivi",
+      "citation": "Psalms 119:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "aufer a me obprobrium et contemptum quoniam testimonia tua custodivi",
+      "citation": "Psalms 119:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "etenim sederunt principes et adversum me loquebantur servus autem tuus exercebatur in iustificationibus tuis",
+      "citation": "Psalms 119:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "etenim sedentes principes adversum me loquebantur servus autem tuus meditabatur praecepta tua",
+      "citation": "Psalms 119:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "nam et testimonia tua meditatio mea et consilium meum iustificationes tuae",
+      "citation": "Psalms 119:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "sed et testimonia tua voluntas mea quasi viri amicissimi mei",
+      "citation": "Psalms 119:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "deleth adhesit pavimento anima mea vivifica me secundum verbum tuum",
+      "citation": "Psalms 119:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "deleth adhesit pulveri anima mea vivifica me iuxta verbum tuum",
+      "citation": "Psalms 119:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "vias meas enuntiavi et exaudisti me doce me iustificationes tuas",
+      "citation": "Psalms 119:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "vias meas exposui et exaudisti doce me iustitiam tuam",
+      "citation": "Psalms 119:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "viam iustificationum tuarum instrue me et exercebor in mirabilibus tuis",
+      "citation": "Psalms 119:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "viam praeceptorum tuorum fac me intellegere et loquar in mirabilibus tuis",
+      "citation": "Psalms 119:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "dormitavit anima mea prae taedio confirma me in verbis tuis",
+      "citation": "Psalms 119:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "destillavit anima mea prae stultitia serva me iuxta eloquium tuum",
+      "citation": "Psalms 119:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "viam iniquitatis amove a me et lege tua miserere mei",
+      "citation": "Psalms 119:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "viam mendacii aufer a me et legem tuam dona mihi",
+      "citation": "Psalms 119:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "viam veritatis elegi iudicia tua non sum oblitus",
+      "citation": "Psalms 119:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "viam fidei elegi iudicia tua proponebam",
+      "citation": "Psalms 119:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "adhesi testimoniis tuis Domine noli me confundere",
+      "citation": "Psalms 119:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "adhesi testimoniis tuis Domine ne confundas me",
+      "citation": "Psalms 119:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "viam mandatorum tuorum cucurri cum dilatasti cor meum",
+      "citation": "Psalms 119:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "viam mandatorum tuorum curram quoniam dilatasti cor meum",
+      "citation": "Psalms 119:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "he legem pone mihi Domine viam iustificationum tuarum et exquiram eam semper",
+      "citation": "Psalms 119:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "he ostende mihi Domine viam praeceptorum tuorum et custodiam eam per vestigium",
+      "citation": "Psalms 119:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "da mihi intellectum et scrutabor legem tuam et custodiam illam in toto corde meo",
+      "citation": "Psalms 119:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "doce me et observabo legem tuam et custodiam eam in toto corde",
+      "citation": "Psalms 119:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "deduc me in semita mandatorum tuorum quia ipsam volui",
+      "citation": "Psalms 119:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "deduc me in semita mandatorum tuorum quia ipsam volui",
+      "citation": "Psalms 119:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "inclina cor meum in testimonia tua et non in avaritiam",
+      "citation": "Psalms 119:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "inclina cor meum ad testimonia tua et non ad avaritiam",
+      "citation": "Psalms 119:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "averte oculos meos ne videant vanitatem in via tua vivifica me",
+      "citation": "Psalms 119:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "averte oculos meos ne videant vanitatem in via tua vivifica me",
+      "citation": "Psalms 119:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "statue servo tuo eloquium tuum in timore tuo",
+      "citation": "Psalms 119:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "suscita servo tuo eloquium tuum in timorem tuum",
+      "citation": "Psalms 119:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "amputa obprobrium meum quod suspicatus sum quia iudicia tua iucunda",
+      "citation": "Psalms 119:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "averte obprobrium meum quod reveritus sum iudicia tua bona",
+      "citation": "Psalms 119:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "ecce concupivi mandata tua in aequitate tua vivifica me",
+      "citation": "Psalms 119:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "ecce desideravi praecepta tua iustitia tua vivifica me",
+      "citation": "Psalms 119:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "vav et veniat super me misericordia tua Domine salutare tuum secundum eloquium tuum",
+      "citation": "Psalms 119:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "vav et veniant mihi misericordiae tuae Domine et salus tua iuxta eloquium tuum",
+      "citation": "Psalms 119:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et respondebo exprobrantibus mihi verbum quia speravi in sermonibus tuis",
+      "citation": "Psalms 119:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et respondebo exprobranti mihi sermonem quia speravi in sermone tuo",
+      "citation": "Psalms 119:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "et ne auferas de ore meo verbum veritatis usquequaque quia in iudiciis tuis supersperavi",
+      "citation": "Psalms 119:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "et ne auferas de ore meo verbum veritatis usque nimis quoniam iudicia tua expectavi",
+      "citation": "Psalms 119:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et custodiam legem tuam semper in saeculum et in saeculum saeculi",
+      "citation": "Psalms 119:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et custodiam legem tuam iugiter in sempiternum et ultra",
+      "citation": "Psalms 119:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "et ambulabam in latitudine quia mandata tua exquisivi",
+      "citation": "Psalms 119:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "et ambulabo in spatioso quia praecepta tua quaesivi",
+      "citation": "Psalms 119:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "et loquebar in testimoniis tuis in conspectu regum et non confundebar",
+      "citation": "Psalms 119:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "et loquar in testimoniis tuis coram regibus et non confundar",
+      "citation": "Psalms 119:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "et meditabar in mandatis tuis quae dilexi",
+      "citation": "Psalms 119:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "et delectabor in mandatis tuis quae dilexi",
+      "citation": "Psalms 119:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "et levavi manus meas ad mandata quae dilexi et exercebar in iustificationibus tuis",
+      "citation": "Psalms 119:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "et levabo manus meas ad mandata tua quae dilexi et loquar in praeceptis tuis",
+      "citation": "Psalms 119:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "zai memor esto verbi tui servo tuo in quo mihi spem dedisti",
+      "citation": "Psalms 119:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "zai memento sermonis servo tuo quem me sperare fecisti",
+      "citation": "Psalms 119:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "haec me consolata est in humilitate mea quia eloquium tuum vivificavit me",
+      "citation": "Psalms 119:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "haec est consolatio mea in adflictione mea quia eloquium tuum vivificavit me",
+      "citation": "Psalms 119:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "superbi inique agebant usquequaque a lege autem tua non declinavi",
+      "citation": "Psalms 119:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "superbi deridebant me nimis a lege tua non declinavi",
+      "citation": "Psalms 119:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "memor fui iudiciorum tuorum a saeculo Domine et consolatus sum",
+      "citation": "Psalms 119:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "recordatus sum iudiciorum tuorum a saeculo Domine et consolatus sum",
+      "citation": "Psalms 119:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "defectio tenuit me prae peccatoribus derelinquentibus legem tuam",
+      "citation": "Psalms 119:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "horror obtinuit me ab impiis qui dereliquerunt legem tuam",
+      "citation": "Psalms 119:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "cantabiles mihi erant iustificationes tuae in loco peregrinationis meae",
+      "citation": "Psalms 119:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "carmina erant mihi praecepta tua in domo peregrinationis meae",
+      "citation": "Psalms 119:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "memor fui in nocte nominis tui Domine et custodivi legem tuam",
+      "citation": "Psalms 119:55 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "recordatus sum in nocte nominis tui Domine et custodivi legem tuam",
+      "citation": "Psalms 119:55 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "haec facta est mihi quia iustificationes tuas exquisivi",
+      "citation": "Psalms 119:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "hoc factum est mihi quia praecepta tua custodivi",
+      "citation": "Psalms 119:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "heth portio mea Dominus dixi custodire legem tuam",
+      "citation": "Psalms 119:57 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "heth pars mea Domine dixi ut custodiam verbum tuum",
+      "citation": "Psalms 119:57 (Clementine Vulgate)"
+    },
+    {
+      "verse": 58,
+      "text": "deprecatus sum faciem tuam in toto corde meo miserere mei secundum eloquium tuum",
+      "citation": "Psalms 119:58 (Clementine Vulgate)"
+    },
+    {
+      "verse": 58,
+      "text": "deprecatus sum vultum tuum in toto corde miserere mei secundum eloquium tuum",
+      "citation": "Psalms 119:58 (Clementine Vulgate)"
+    },
+    {
+      "verse": 59,
+      "text": "cogitavi vias meas et avertisti pedes meos in testimonia tua",
+      "citation": "Psalms 119:59 (Clementine Vulgate)"
+    },
+    {
+      "verse": 59,
+      "text": "recogitavi vias meas et converti pedes meos ad testimonia tua",
+      "citation": "Psalms 119:59 (Clementine Vulgate)"
+    },
+    {
+      "verse": 60,
+      "text": "paratus sum et non sum turbatus ut custodiam mandata tua",
+      "citation": "Psalms 119:60 (Clementine Vulgate)"
+    },
+    {
+      "verse": 60,
+      "text": "festinavi et non neglexi custodire mandata tua",
+      "citation": "Psalms 119:60 (Clementine Vulgate)"
+    },
+    {
+      "verse": 61,
+      "text": "funes peccatorum circumplexi sunt me et legem tuam non sum oblitus",
+      "citation": "Psalms 119:61 (Clementine Vulgate)"
+    },
+    {
+      "verse": 61,
+      "text": "funes impiorum inplicaverunt me legem tuam non sum oblitus",
+      "citation": "Psalms 119:61 (Clementine Vulgate)"
+    },
+    {
+      "verse": 62,
+      "text": "media nocte surgebam ad confitendum tibi super iudicia iustificationis tuae",
+      "citation": "Psalms 119:62 (Clementine Vulgate)"
+    },
+    {
+      "verse": 62,
+      "text": "medio noctis surgam ad confitendum tibi super iudicia iustificationis tuae",
+      "citation": "Psalms 119:62 (Clementine Vulgate)"
+    },
+    {
+      "verse": 63,
+      "text": "particeps ego sum omnium timentium te et custodientium mandata tua",
+      "citation": "Psalms 119:63 (Clementine Vulgate)"
+    },
+    {
+      "verse": 63,
+      "text": "particeps ego sum omnium timentium te et custodientium praecepta tua",
+      "citation": "Psalms 119:63 (Clementine Vulgate)"
+    },
+    {
+      "verse": 64,
+      "text": "misericordia Domini plena est terra iustificationes tuas doce me",
+      "citation": "Psalms 119:64 (Clementine Vulgate)"
+    },
+    {
+      "verse": 64,
+      "text": "misericordia tua conpleta est terra praecepta tua doce me",
+      "citation": "Psalms 119:64 (Clementine Vulgate)"
+    },
+    {
+      "verse": 65,
+      "text": "teth bonitatem fecisti cum servo tuo Domine secundum verbum tuum",
+      "citation": "Psalms 119:65 (Clementine Vulgate)"
+    },
+    {
+      "verse": 65,
+      "text": "teth benefecisti servo tuo Domine secundum verbum tuum",
+      "citation": "Psalms 119:65 (Clementine Vulgate)"
+    },
+    {
+      "verse": 66,
+      "text": "bonitatem et disciplinam et scientiam doce me quia mandatis tuis credidi",
+      "citation": "Psalms 119:66 (Clementine Vulgate)"
+    },
+    {
+      "verse": 66,
+      "text": "bonum sermonem et scientiam doce me quia mandatis tuis credidi",
+      "citation": "Psalms 119:66 (Clementine Vulgate)"
+    },
+    {
+      "verse": 67,
+      "text": "priusquam humiliarer ego deliqui propterea eloquium tuum custodivi",
+      "citation": "Psalms 119:67 (Clementine Vulgate)"
+    },
+    {
+      "verse": 67,
+      "text": "antequam audirem ego ignoravi nunc autem eloquium tuum custodivi",
+      "citation": "Psalms 119:67 (Clementine Vulgate)"
+    },
+    {
+      "verse": 68,
+      "text": "bonus es tu et in bonitate tua doce me iustificationes tuas",
+      "citation": "Psalms 119:68 (Clementine Vulgate)"
+    },
+    {
+      "verse": 68,
+      "text": "bonus tu et beneficus doce me praecepta tua",
+      "citation": "Psalms 119:68 (Clementine Vulgate)"
+    },
+    {
+      "verse": 69,
+      "text": "multiplicata est super me iniquitas superborum ego autem in toto corde scrutabor mandata tua",
+      "citation": "Psalms 119:69 (Clementine Vulgate)"
+    },
+    {
+      "verse": 69,
+      "text": "adplicabant mihi mendacium superbi ego autem in toto corde servabam praecepta tua",
+      "citation": "Psalms 119:69 (Clementine Vulgate)"
+    },
+    {
+      "verse": 70,
+      "text": "coagulatum est sicut lac cor eorum ego vero legem tuam meditatus sum",
+      "citation": "Psalms 119:70 (Clementine Vulgate)"
+    },
+    {
+      "verse": 70,
+      "text": "incrassatum est velut adeps cor eorum et ego in lege tua delectabar",
+      "citation": "Psalms 119:70 (Clementine Vulgate)"
+    },
+    {
+      "verse": 71,
+      "text": "bonum mihi quia humiliasti me ut discam iustificationes tuas",
+      "citation": "Psalms 119:71 (Clementine Vulgate)"
+    },
+    {
+      "verse": 71,
+      "text": "bonum mihi quia adflictus sum ut discerem praecepta tua",
+      "citation": "Psalms 119:71 (Clementine Vulgate)"
+    },
+    {
+      "verse": 72,
+      "text": "bonum mihi lex oris tui super milia auri et argenti",
+      "citation": "Psalms 119:72 (Clementine Vulgate)"
+    },
+    {
+      "verse": 72,
+      "text": "melior mihi est lex oris tui super milia auri et argenti",
+      "citation": "Psalms 119:72 (Clementine Vulgate)"
+    },
+    {
+      "verse": 73,
+      "text": "ioth manus tuae fecerunt me et plasmaverunt me da mihi intellectum et discam mandata tua",
+      "citation": "Psalms 119:73 (Clementine Vulgate)"
+    },
+    {
+      "verse": 73,
+      "text": "ioth manus tuae fecerunt me et firmaverunt me doce me et discam mandata tua",
+      "citation": "Psalms 119:73 (Clementine Vulgate)"
+    },
+    {
+      "verse": 74,
+      "text": "qui timent te videbunt me et laetabuntur quia in verba tua supersperavi",
+      "citation": "Psalms 119:74 (Clementine Vulgate)"
+    },
+    {
+      "verse": 74,
+      "text": "qui timent te videbunt me et laetabuntur quia sermonem tuum expectavi",
+      "citation": "Psalms 119:74 (Clementine Vulgate)"
+    },
+    {
+      "verse": 75,
+      "text": "cognovi Domine quia aequitas iudicia tua et veritate humiliasti me",
+      "citation": "Psalms 119:75 (Clementine Vulgate)"
+    },
+    {
+      "verse": 75,
+      "text": "scio Domine quia iustum iudicium tuum et vere adflixisti me",
+      "citation": "Psalms 119:75 (Clementine Vulgate)"
+    },
+    {
+      "verse": 76,
+      "text": "fiat misericordia tua ut consoletur me secundum eloquium tuum servo tuo",
+      "citation": "Psalms 119:76 (Clementine Vulgate)"
+    },
+    {
+      "verse": 76,
+      "text": "sit obsecro misericordia tua in consolatione mea sicut locutus es servo tuo",
+      "citation": "Psalms 119:76 (Clementine Vulgate)"
+    },
+    {
+      "verse": 77,
+      "text": "veniant mihi miserationes tuae et vivam quia lex tua meditatio mea est",
+      "citation": "Psalms 119:77 (Clementine Vulgate)"
+    },
+    {
+      "verse": 77,
+      "text": "veniant mihi misericordiae tuae et vivam quia lex tua delectatio mea",
+      "citation": "Psalms 119:77 (Clementine Vulgate)"
+    },
+    {
+      "verse": 78,
+      "text": "confundantur superbi quia iniuste iniquitatem fecerunt in me ego autem exercebor in mandatis tuis",
+      "citation": "Psalms 119:78 (Clementine Vulgate)"
+    },
+    {
+      "verse": 78,
+      "text": "confundantur superbi quoniam inique contriverunt me ego autem loquar in praeceptis tuis",
+      "citation": "Psalms 119:78 (Clementine Vulgate)"
+    },
+    {
+      "verse": 79,
+      "text": "convertantur mihi timentes te et qui noverunt testimonia tua",
+      "citation": "Psalms 119:79 (Clementine Vulgate)"
+    },
+    {
+      "verse": 79,
+      "text": "revertantur ad me qui timent te et qui sciunt testimonium tuum",
+      "citation": "Psalms 119:79 (Clementine Vulgate)"
+    },
+    {
+      "verse": 80,
+      "text": "fiat cor meum inmaculatum in iustificationibus tuis ut non confundar",
+      "citation": "Psalms 119:80 (Clementine Vulgate)"
+    },
+    {
+      "verse": 80,
+      "text": "fiat cor meum perfectum in praeceptis tuis ut non confundar",
+      "citation": "Psalms 119:80 (Clementine Vulgate)"
+    },
+    {
+      "verse": 81,
+      "text": "caf defecit in salutare tuum anima mea in verbum tuum supersperavi",
+      "citation": "Psalms 119:81 (Clementine Vulgate)"
+    },
+    {
+      "verse": 81,
+      "text": "caph defecit in salutare tuum anima mea verbum tuum expectavi",
+      "citation": "Psalms 119:81 (Clementine Vulgate)"
+    },
+    {
+      "verse": 82,
+      "text": "defecerunt oculi mei in eloquium tuum dicentes quando consolaberis me",
+      "citation": "Psalms 119:82 (Clementine Vulgate)"
+    },
+    {
+      "verse": 82,
+      "text": "consumpti sunt oculi mei in verbum tuum dicentes quando consolaberis me",
+      "citation": "Psalms 119:82 (Clementine Vulgate)"
+    },
+    {
+      "verse": 83,
+      "text": "quia factus sum sicut uter in pruina iustificationes tuas non sum oblitus",
+      "citation": "Psalms 119:83 (Clementine Vulgate)"
+    },
+    {
+      "verse": 83,
+      "text": "et cum essem quasi uter in pruinam praecepta tua non sum oblitus",
+      "citation": "Psalms 119:83 (Clementine Vulgate)"
+    },
+    {
+      "verse": 84,
+      "text": "quot sunt dies servo tuo quando facies de persequentibus me iudicium",
+      "citation": "Psalms 119:84 (Clementine Vulgate)"
+    },
+    {
+      "verse": 84,
+      "text": "quot sunt dies servi tui quando facies in persequentibus me iudicium",
+      "citation": "Psalms 119:84 (Clementine Vulgate)"
+    },
+    {
+      "verse": 85,
+      "text": "narraverunt mihi iniqui fabulationes sed non ut lex tua",
+      "citation": "Psalms 119:85 (Clementine Vulgate)"
+    },
+    {
+      "verse": 85,
+      "text": "foderunt mihi superbi foveas quae non erant iuxta legem tuam",
+      "citation": "Psalms 119:85 (Clementine Vulgate)"
+    },
+    {
+      "verse": 86,
+      "text": "omnia mandata tua veritas inique persecuti sunt me adiuva me",
+      "citation": "Psalms 119:86 (Clementine Vulgate)"
+    },
+    {
+      "verse": 86,
+      "text": "omnia mandata tua vera falso persecuti sunt me auxiliare mihi",
+      "citation": "Psalms 119:86 (Clementine Vulgate)"
+    },
+    {
+      "verse": 87,
+      "text": "paulo minus consummaverunt me in terra ego autem non dereliqui mandata tua",
+      "citation": "Psalms 119:87 (Clementine Vulgate)"
+    },
+    {
+      "verse": 87,
+      "text": "paulo minus consumpserunt me in terra ego autem non dimisi praecepta tua",
+      "citation": "Psalms 119:87 (Clementine Vulgate)"
+    },
+    {
+      "verse": 88,
+      "text": "secundum misericordiam tuam vivifica me et custodiam testimonia oris tui",
+      "citation": "Psalms 119:88 (Clementine Vulgate)"
+    },
+    {
+      "verse": 88,
+      "text": "secundum misericordiam tuam vivifica me et custodiam testimonium oris tui",
+      "citation": "Psalms 119:88 (Clementine Vulgate)"
+    },
+    {
+      "verse": 89,
+      "text": "lamed in aeternum Domine verbum tuum permanet in caelo",
+      "citation": "Psalms 119:89 (Clementine Vulgate)"
+    },
+    {
+      "verse": 89,
+      "text": "lameth in aeternum Domine verbum tuum perstat in caelo",
+      "citation": "Psalms 119:89 (Clementine Vulgate)"
+    },
+    {
+      "verse": 90,
+      "text": "in generationem et generationem veritas tua fundasti terram et permanet",
+      "citation": "Psalms 119:90 (Clementine Vulgate)"
+    },
+    {
+      "verse": 90,
+      "text": "in generatione et generatione fides tua fundasti terram et stat",
+      "citation": "Psalms 119:90 (Clementine Vulgate)"
+    },
+    {
+      "verse": 91,
+      "text": "ordinatione tua perseverat dies quoniam omnia serviunt tibi",
+      "citation": "Psalms 119:91 (Clementine Vulgate)"
+    },
+    {
+      "verse": 91,
+      "text": "iudicio tuo stant usque hodie quia omnia serviunt tibi",
+      "citation": "Psalms 119:91 (Clementine Vulgate)"
+    },
+    {
+      "verse": 92,
+      "text": "nisi quod lex tua meditatio mea est tunc forte perissem in humilitate mea",
+      "citation": "Psalms 119:92 (Clementine Vulgate)"
+    },
+    {
+      "verse": 92,
+      "text": "nisi quod lex tua delectatio mea forte perissem in pressura mea",
+      "citation": "Psalms 119:92 (Clementine Vulgate)"
+    },
+    {
+      "verse": 93,
+      "text": "in aeternum non obliviscar iustificationes tuas quia in ipsis vivificasti me",
+      "citation": "Psalms 119:93 (Clementine Vulgate)"
+    },
+    {
+      "verse": 93,
+      "text": "in sempiternum non obliviscar praeceptorum tuorum quia per ipsa vivificasti me",
+      "citation": "Psalms 119:93 (Clementine Vulgate)"
+    },
+    {
+      "verse": 94,
+      "text": "tuus sum ego salvum me fac quoniam iustificationes tuas exquisivi",
+      "citation": "Psalms 119:94 (Clementine Vulgate)"
+    },
+    {
+      "verse": 94,
+      "text": "tuus ego sum salva me quoniam praecepta tua quaesivi",
+      "citation": "Psalms 119:94 (Clementine Vulgate)"
+    },
+    {
+      "verse": 95,
+      "text": "me expectaverunt peccatores ut perderent me testimonia tua intellexi",
+      "citation": "Psalms 119:95 (Clementine Vulgate)"
+    },
+    {
+      "verse": 95,
+      "text": "me expectaverunt impii ut perderent me testimonium tuum considerabo",
+      "citation": "Psalms 119:95 (Clementine Vulgate)"
+    },
+    {
+      "verse": 96,
+      "text": "omni consummationi vidi finem latum mandatum tuum nimis",
+      "citation": "Psalms 119:96 (Clementine Vulgate)"
+    },
+    {
+      "verse": 96,
+      "text": "omni consummationi vidi finem latum mandatum tuum nimis",
+      "citation": "Psalms 119:96 (Clementine Vulgate)"
+    },
+    {
+      "verse": 97,
+      "text": "mem quomodo dilexi legem tuam tota die meditatio mea est",
+      "citation": "Psalms 119:97 (Clementine Vulgate)"
+    },
+    {
+      "verse": 97,
+      "text": "mem quam dilexi legem tuam tota die haec meditatio mea",
+      "citation": "Psalms 119:97 (Clementine Vulgate)"
+    },
+    {
+      "verse": 98,
+      "text": "super inimicos meos prudentem me fecisti mandato tuo quia in aeternum mihi est",
+      "citation": "Psalms 119:98 (Clementine Vulgate)"
+    },
+    {
+      "verse": 98,
+      "text": "super inimicos meos instruis me mandata tua quia in sempiternum hoc est mihi",
+      "citation": "Psalms 119:98 (Clementine Vulgate)"
+    },
+    {
+      "verse": 99,
+      "text": "super omnes docentes me intellexi quia testimonia tua meditatio mea est",
+      "citation": "Psalms 119:99 (Clementine Vulgate)"
+    },
+    {
+      "verse": 99,
+      "text": "super omnes qui docebant me eruditus sum quia testimonia tua meditatio mea",
+      "citation": "Psalms 119:99 (Clementine Vulgate)"
+    },
+    {
+      "verse": 100,
+      "text": "super senes intellexi quia mandata tua quaesivi",
+      "citation": "Psalms 119:100 (Clementine Vulgate)"
+    },
+    {
+      "verse": 100,
+      "text": "super senes intellexi quia praecepta tua servavi",
+      "citation": "Psalms 119:100 (Clementine Vulgate)"
+    },
+    {
+      "verse": 101,
+      "text": "ab omni via mala prohibui pedes meos ut custodiam verba tua",
+      "citation": "Psalms 119:101 (Clementine Vulgate)"
+    },
+    {
+      "verse": 101,
+      "text": "ab omni semita mala prohibui pedes meos ut custodirem verba tua",
+      "citation": "Psalms 119:101 (Clementine Vulgate)"
+    },
+    {
+      "verse": 102,
+      "text": "a iudiciis tuis non declinavi quia tu legem posuisti mihi",
+      "citation": "Psalms 119:102 (Clementine Vulgate)"
+    },
+    {
+      "verse": 102,
+      "text": "a iudiciis tuis non recessi quia tu inluminasti me",
+      "citation": "Psalms 119:102 (Clementine Vulgate)"
+    },
+    {
+      "verse": 103,
+      "text": "quam dulcia faucibus meis eloquia tua super mel ori meo",
+      "citation": "Psalms 119:103 (Clementine Vulgate)"
+    },
+    {
+      "verse": 103,
+      "text": "quam dulce gutturi meo eloquium tuum super mel ori meo",
+      "citation": "Psalms 119:103 (Clementine Vulgate)"
+    },
+    {
+      "verse": 104,
+      "text": "a mandatis tuis intellexi propterea odivi omnem viam iniquitatis",
+      "citation": "Psalms 119:104 (Clementine Vulgate)"
+    },
+    {
+      "verse": 104,
+      "text": "praecepta tua considerabam propterea odivi omnem semitam mendacii",
+      "citation": "Psalms 119:104 (Clementine Vulgate)"
+    },
+    {
+      "verse": 105,
+      "text": "nun lucerna pedibus meis verbum tuum et lumen semitis meis",
+      "citation": "Psalms 119:105 (Clementine Vulgate)"
+    },
+    {
+      "verse": 105,
+      "text": "nun lucerna pedi meo verbum tuum et lux semitae meae",
+      "citation": "Psalms 119:105 (Clementine Vulgate)"
+    },
+    {
+      "verse": 106,
+      "text": "iuravi et statui custodire iudicia iustitiae tuae",
+      "citation": "Psalms 119:106 (Clementine Vulgate)"
+    },
+    {
+      "verse": 106,
+      "text": "iuravi et perseverabo ut custodiam iudicia iustitiae tuae",
+      "citation": "Psalms 119:106 (Clementine Vulgate)"
+    },
+    {
+      "verse": 107,
+      "text": "humiliatus sum usquequaque Domine vivifica me secundum verbum tuum",
+      "citation": "Psalms 119:107 (Clementine Vulgate)"
+    },
+    {
+      "verse": 107,
+      "text": "adflictus sum usque nimis Domine vivifica me iuxta verbum tuum",
+      "citation": "Psalms 119:107 (Clementine Vulgate)"
+    },
+    {
+      "verse": 108,
+      "text": "voluntaria oris mei beneplacita fac Domine et iudicia tua doce me",
+      "citation": "Psalms 119:108 (Clementine Vulgate)"
+    },
+    {
+      "verse": 108,
+      "text": "voluntaria oris mei conplaceant tibi Domine et secundum iudicia tua doce me",
+      "citation": "Psalms 119:108 (Clementine Vulgate)"
+    },
+    {
+      "verse": 109,
+      "text": "anima mea in manibus meis semper et legem tuam non sum oblitus",
+      "citation": "Psalms 119:109 (Clementine Vulgate)"
+    },
+    {
+      "verse": 109,
+      "text": "anima mea in manu mea semper et legis tuae non sum oblitus",
+      "citation": "Psalms 119:109 (Clementine Vulgate)"
+    },
+    {
+      "verse": 110,
+      "text": "posuerunt peccatores laqueum mihi et de mandatis tuis non erravi",
+      "citation": "Psalms 119:110 (Clementine Vulgate)"
+    },
+    {
+      "verse": 110,
+      "text": "posuerunt impii laqueum mihi et a praeceptis tuis non aberravi",
+      "citation": "Psalms 119:110 (Clementine Vulgate)"
+    },
+    {
+      "verse": 111,
+      "text": "hereditate adquisivi testimonia tua in aeternum quia exultatio cordis mei sunt",
+      "citation": "Psalms 119:111 (Clementine Vulgate)"
+    },
+    {
+      "verse": 111,
+      "text": "hereditas mea testimonia tua in sempiternum quia gaudium cordis mei sunt",
+      "citation": "Psalms 119:111 (Clementine Vulgate)"
+    },
+    {
+      "verse": 112,
+      "text": "inclinavi cor meum ad faciendas iustificationes tuas in aeternum propter retributionem",
+      "citation": "Psalms 119:112 (Clementine Vulgate)"
+    },
+    {
+      "verse": 112,
+      "text": "inclinavi cor meum ut facerem iustitias tuas propter aeternam retributionem",
+      "citation": "Psalms 119:112 (Clementine Vulgate)"
+    },
+    {
+      "verse": 113,
+      "text": "samech iniquos odio habui et legem tuam dilexi",
+      "citation": "Psalms 119:113 (Clementine Vulgate)"
+    },
+    {
+      "verse": 113,
+      "text": "samech tumultuosos odivi et legem tuam dilexi",
+      "citation": "Psalms 119:113 (Clementine Vulgate)"
+    },
+    {
+      "verse": 114,
+      "text": "adiutor meus et susceptor meus es tu in verbum tuum supersperavi",
+      "citation": "Psalms 119:114 (Clementine Vulgate)"
+    },
+    {
+      "verse": 114,
+      "text": "protectio mea et scutum meum tu es verbum tuum expectavi",
+      "citation": "Psalms 119:114 (Clementine Vulgate)"
+    },
+    {
+      "verse": 115,
+      "text": "declinate a me maligni et scrutabor mandata Dei mei",
+      "citation": "Psalms 119:115 (Clementine Vulgate)"
+    },
+    {
+      "verse": 115,
+      "text": "recedite a me maligni et custodiam mandata Dei mei",
+      "citation": "Psalms 119:115 (Clementine Vulgate)"
+    },
+    {
+      "verse": 116,
+      "text": "suscipe me secundum eloquium tuum et vivam et non confundas me ab expectatione mea",
+      "citation": "Psalms 119:116 (Clementine Vulgate)"
+    },
+    {
+      "verse": 116,
+      "text": "confirma me secundum verbum tuum et vivam et noli me confundere ab expectatione mea",
+      "citation": "Psalms 119:116 (Clementine Vulgate)"
+    },
+    {
+      "verse": 117,
+      "text": "adiuva me et salvus ero et meditabor in iustificationibus tuis semper",
+      "citation": "Psalms 119:117 (Clementine Vulgate)"
+    },
+    {
+      "verse": 117,
+      "text": "auxiliare mihi et salvus ero et delectabor in praeceptis tuis iugiter",
+      "citation": "Psalms 119:117 (Clementine Vulgate)"
+    },
+    {
+      "verse": 118,
+      "text": "sprevisti omnes discedentes a iustitiis tuis quia iniusta cogitatio eorum",
+      "citation": "Psalms 119:118 (Clementine Vulgate)"
+    },
+    {
+      "verse": 118,
+      "text": "abiecisti omnes qui adversantur praecepta tua quia mendax cogitatio eorum",
+      "citation": "Psalms 119:118 (Clementine Vulgate)"
+    },
+    {
+      "verse": 119,
+      "text": "praevaricantes reputavi omnes peccatores terrae ideo dilexi testimonia tua",
+      "citation": "Psalms 119:119 (Clementine Vulgate)"
+    },
+    {
+      "verse": 119,
+      "text": "quasi scoriam conputasti omnes impios terrae propterea dilexi testimonia tua",
+      "citation": "Psalms 119:119 (Clementine Vulgate)"
+    },
+    {
+      "verse": 120,
+      "text": "confige timore tuo carnes meas a iudiciis %enim; tuis timui",
+      "citation": "Psalms 119:120 (Clementine Vulgate)"
+    },
+    {
+      "verse": 120,
+      "text": "horripilavit a timore tuo caro mea et iudicia tua timui",
+      "citation": "Psalms 119:120 (Clementine Vulgate)"
+    },
+    {
+      "verse": 121,
+      "text": "ain feci iudicium et iustitiam non tradas me calumniantibus me",
+      "citation": "Psalms 119:121 (Clementine Vulgate)"
+    },
+    {
+      "verse": 121,
+      "text": "ain feci iudicium et iustitiam ne derelinquas me his qui calumniantur me",
+      "citation": "Psalms 119:121 (Clementine Vulgate)"
+    },
+    {
+      "verse": 122,
+      "text": "suscipe servum tuum in bonum non calumnientur me superbi",
+      "citation": "Psalms 119:122 (Clementine Vulgate)"
+    },
+    {
+      "verse": 122,
+      "text": "sponde pro servo tuo in bonum ne calumnientur me superbi",
+      "citation": "Psalms 119:122 (Clementine Vulgate)"
+    },
+    {
+      "verse": 123,
+      "text": "oculi mei defecerunt in salutare tuum et in eloquium iustitiae tuae",
+      "citation": "Psalms 119:123 (Clementine Vulgate)"
+    },
+    {
+      "verse": 123,
+      "text": "oculi mei defecerunt in salutare tuum et in eloquium iustitiae tuae",
+      "citation": "Psalms 119:123 (Clementine Vulgate)"
+    },
+    {
+      "verse": 124,
+      "text": "fac cum servo tuo secundum misericordiam tuam et iustificationes tuas doce me",
+      "citation": "Psalms 119:124 (Clementine Vulgate)"
+    },
+    {
+      "verse": 124,
+      "text": "fac cum servo tuo iuxta misericordiam tuam et praecepta tua doce me",
+      "citation": "Psalms 119:124 (Clementine Vulgate)"
+    },
+    {
+      "verse": 125,
+      "text": "servus tuus sum ego da mihi intellectum et sciam testimonia tua",
+      "citation": "Psalms 119:125 (Clementine Vulgate)"
+    },
+    {
+      "verse": 125,
+      "text": "servus tuus ego instrue me et cognoscam testimonia tua",
+      "citation": "Psalms 119:125 (Clementine Vulgate)"
+    },
+    {
+      "verse": 126,
+      "text": "tempus faciendi Domino dissipaverunt legem tuam",
+      "citation": "Psalms 119:126 (Clementine Vulgate)"
+    },
+    {
+      "verse": 126,
+      "text": "tempus est ut facias Domine praevaricati sunt legem tuam",
+      "citation": "Psalms 119:126 (Clementine Vulgate)"
+    },
+    {
+      "verse": 127,
+      "text": "ideo dilexi mandata tua super aurum et topazion",
+      "citation": "Psalms 119:127 (Clementine Vulgate)"
+    },
+    {
+      "verse": 127,
+      "text": "propterea dilexi mandata tua super aurum et topazium",
+      "citation": "Psalms 119:127 (Clementine Vulgate)"
+    },
+    {
+      "verse": 128,
+      "text": "propterea ad omnia mandata tua dirigebar omnem viam iniquam odio habui",
+      "citation": "Psalms 119:128 (Clementine Vulgate)"
+    },
+    {
+      "verse": 128,
+      "text": "propterea in universa praecepta direxi omnem semitam mendacii odio habui",
+      "citation": "Psalms 119:128 (Clementine Vulgate)"
+    },
+    {
+      "verse": 129,
+      "text": "fe mirabilia testimonia tua ideo scrutata est ea anima mea",
+      "citation": "Psalms 119:129 (Clementine Vulgate)"
+    },
+    {
+      "verse": 129,
+      "text": "fe mirabilia testimonia tua idcirco custodivit ea anima mea",
+      "citation": "Psalms 119:129 (Clementine Vulgate)"
+    },
+    {
+      "verse": 130,
+      "text": "declaratio sermonum tuorum inluminat et intellectum dat parvulis",
+      "citation": "Psalms 119:130 (Clementine Vulgate)"
+    },
+    {
+      "verse": 130,
+      "text": "ostium sermonum tuorum lucidum doce parvulos",
+      "citation": "Psalms 119:130 (Clementine Vulgate)"
+    },
+    {
+      "verse": 131,
+      "text": "os meum aperui et adtraxi spiritum quia mandata tua desiderabam",
+      "citation": "Psalms 119:131 (Clementine Vulgate)"
+    },
+    {
+      "verse": 131,
+      "text": "os meum aperui et respiravi quia mandata tua desiderabam",
+      "citation": "Psalms 119:131 (Clementine Vulgate)"
+    },
+    {
+      "verse": 132,
+      "text": "aspice in me et miserere mei secundum iudicium diligentium nomen tuum",
+      "citation": "Psalms 119:132 (Clementine Vulgate)"
+    },
+    {
+      "verse": 132,
+      "text": "respice ad me et miserere mei iuxta iudicium diligentium nomen tuum",
+      "citation": "Psalms 119:132 (Clementine Vulgate)"
+    },
+    {
+      "verse": 133,
+      "text": "gressus meos dirige secundum eloquium tuum et non dominetur mei omnis iniustitia",
+      "citation": "Psalms 119:133 (Clementine Vulgate)"
+    },
+    {
+      "verse": 133,
+      "text": "gressus meos firma in sermone tuo et non des potestatem in me universae iniquitati",
+      "citation": "Psalms 119:133 (Clementine Vulgate)"
+    },
+    {
+      "verse": 134,
+      "text": "redime me a calumniis hominum et custodiam mandata tua",
+      "citation": "Psalms 119:134 (Clementine Vulgate)"
+    },
+    {
+      "verse": 134,
+      "text": "redime me a calumnia hominis et custodiam praecepta tua",
+      "citation": "Psalms 119:134 (Clementine Vulgate)"
+    },
+    {
+      "verse": 135,
+      "text": "faciem tuam inlumina super servum tuum et doce me iustificationes tuas",
+      "citation": "Psalms 119:135 (Clementine Vulgate)"
+    },
+    {
+      "verse": 135,
+      "text": "vultum tuum ostende servo tuo et doce me praecepta tua",
+      "citation": "Psalms 119:135 (Clementine Vulgate)"
+    },
+    {
+      "verse": 136,
+      "text": "exitus aquarum deduxerunt oculi mei quia non custodierunt legem tuam",
+      "citation": "Psalms 119:136 (Clementine Vulgate)"
+    },
+    {
+      "verse": 136,
+      "text": "rivi aquarum fluebant de oculis meis quia non custodierunt legem tuam",
+      "citation": "Psalms 119:136 (Clementine Vulgate)"
+    },
+    {
+      "verse": 137,
+      "text": "sade iustus es Domine et rectum iudicium tuum",
+      "citation": "Psalms 119:137 (Clementine Vulgate)"
+    },
+    {
+      "verse": 137,
+      "text": "sade iustus es Domine et rectum iudicium tuum",
+      "citation": "Psalms 119:137 (Clementine Vulgate)"
+    },
+    {
+      "verse": 138,
+      "text": "mandasti iustitiam testimonia tua et veritatem tuam nimis",
+      "citation": "Psalms 119:138 (Clementine Vulgate)"
+    },
+    {
+      "verse": 138,
+      "text": "praecepisti iustitiam testimonii tui et veritatem nimis",
+      "citation": "Psalms 119:138 (Clementine Vulgate)"
+    },
+    {
+      "verse": 139,
+      "text": "tabescere me fecit zelus meus quia obliti sunt verba tua inimici mei",
+      "citation": "Psalms 119:139 (Clementine Vulgate)"
+    },
+    {
+      "verse": 139,
+      "text": "consumpsit me zelus meus quia obliti sunt verborum tuorum hostes mei",
+      "citation": "Psalms 119:139 (Clementine Vulgate)"
+    },
+    {
+      "verse": 140,
+      "text": "ignitum eloquium tuum vehementer et servus tuus dilexit illud",
+      "citation": "Psalms 119:140 (Clementine Vulgate)"
+    },
+    {
+      "verse": 140,
+      "text": "probatus sermo tuus nimis et servus tuus dilexit illum",
+      "citation": "Psalms 119:140 (Clementine Vulgate)"
+    },
+    {
+      "verse": 141,
+      "text": "adulescentulus sum ego et contemptus iustificationes tuas non sum oblitus",
+      "citation": "Psalms 119:141 (Clementine Vulgate)"
+    },
+    {
+      "verse": 141,
+      "text": "parvulus ego sum et contemptibilis sed praecepta tua non sum oblitus",
+      "citation": "Psalms 119:141 (Clementine Vulgate)"
+    },
+    {
+      "verse": 142,
+      "text": "iustitia tua iustitia in aeternum et lex tua veritas",
+      "citation": "Psalms 119:142 (Clementine Vulgate)"
+    },
+    {
+      "verse": 142,
+      "text": "iustitia tua iustitia sempiterna et lex tua veritas",
+      "citation": "Psalms 119:142 (Clementine Vulgate)"
+    },
+    {
+      "verse": 143,
+      "text": "tribulatio et angustia invenerunt me mandata tua meditatio mea",
+      "citation": "Psalms 119:143 (Clementine Vulgate)"
+    },
+    {
+      "verse": 143,
+      "text": "tribulatio et angustia invenerunt me mandata tua voluntas mea",
+      "citation": "Psalms 119:143 (Clementine Vulgate)"
+    },
+    {
+      "verse": 144,
+      "text": "aequitas testimonia tua in aeternum intellectum da mihi et vivam",
+      "citation": "Psalms 119:144 (Clementine Vulgate)"
+    },
+    {
+      "verse": 144,
+      "text": "iusta testimonia tua semper doce me et vivam",
+      "citation": "Psalms 119:144 (Clementine Vulgate)"
+    },
+    {
+      "verse": 145,
+      "text": "cof clamavi in toto corde exaudi me Domine iustificationes tuas requiram",
+      "citation": "Psalms 119:145 (Clementine Vulgate)"
+    },
+    {
+      "verse": 145,
+      "text": "coph clamavi in toto corde exaudi me Domine praecepta tua custodiam",
+      "citation": "Psalms 119:145 (Clementine Vulgate)"
+    },
+    {
+      "verse": 146,
+      "text": "clamavi te salvum me fac et custodiam mandata tua",
+      "citation": "Psalms 119:146 (Clementine Vulgate)"
+    },
+    {
+      "verse": 146,
+      "text": "invocavi te salvum me fac et custodiam testimonia tua",
+      "citation": "Psalms 119:146 (Clementine Vulgate)"
+    },
+    {
+      "verse": 147,
+      "text": "praeveni in maturitate et clamavi in verba tua supersperavi",
+      "citation": "Psalms 119:147 (Clementine Vulgate)"
+    },
+    {
+      "verse": 147,
+      "text": "surgebam adhuc in tenebris et clamabam verbum tuum expectans",
+      "citation": "Psalms 119:147 (Clementine Vulgate)"
+    },
+    {
+      "verse": 148,
+      "text": "praevenerunt oculi mei ad diluculum ut meditarer eloquia tua",
+      "citation": "Psalms 119:148 (Clementine Vulgate)"
+    },
+    {
+      "verse": 148,
+      "text": "praeveniebant oculi mei vigilias ut meditarer in sermonibus tuis",
+      "citation": "Psalms 119:148 (Clementine Vulgate)"
+    },
+    {
+      "verse": 149,
+      "text": "vocem meam audi secundum misericordiam tuam Domine secundum iudicium tuum vivifica me",
+      "citation": "Psalms 119:149 (Clementine Vulgate)"
+    },
+    {
+      "verse": 149,
+      "text": "vocem meam audi iuxta misericordiam tuam Domine secundum iudicium tuum vivifica me",
+      "citation": "Psalms 119:149 (Clementine Vulgate)"
+    },
+    {
+      "verse": 150,
+      "text": "adpropinquaverunt persequentes me iniquitate a lege autem tua longe facti sunt",
+      "citation": "Psalms 119:150 (Clementine Vulgate)"
+    },
+    {
+      "verse": 150,
+      "text": "adpropinquaverunt persecutores mei sceleri et a lege tua procul facti sunt",
+      "citation": "Psalms 119:150 (Clementine Vulgate)"
+    },
+    {
+      "verse": 151,
+      "text": "prope es tu Domine et omnes viae tuae veritas",
+      "citation": "Psalms 119:151 (Clementine Vulgate)"
+    },
+    {
+      "verse": 151,
+      "text": "prope es tu Domine et omnia mandata tua veritas",
+      "citation": "Psalms 119:151 (Clementine Vulgate)"
+    },
+    {
+      "verse": 152,
+      "text": "initio cognovi de testimoniis tuis quia in aeternum fundasti ea",
+      "citation": "Psalms 119:152 (Clementine Vulgate)"
+    },
+    {
+      "verse": 152,
+      "text": "a principio novi de testimoniis tuis quod in aeternum fundaveris ea",
+      "citation": "Psalms 119:152 (Clementine Vulgate)"
+    },
+    {
+      "verse": 153,
+      "text": "res vide humilitatem meam et eripe me quia legem tuam non sum oblitus",
+      "citation": "Psalms 119:153 (Clementine Vulgate)"
+    },
+    {
+      "verse": 153,
+      "text": "res vide adflictionem meam et eripe me quia legis tuae non sum oblitus",
+      "citation": "Psalms 119:153 (Clementine Vulgate)"
+    },
+    {
+      "verse": 154,
+      "text": "iudica iudicium meum et redime me propter eloquium tuum vivifica me",
+      "citation": "Psalms 119:154 (Clementine Vulgate)"
+    },
+    {
+      "verse": 154,
+      "text": "iudica causam meam et redime me sermone tuo vivifica me",
+      "citation": "Psalms 119:154 (Clementine Vulgate)"
+    },
+    {
+      "verse": 155,
+      "text": "longe a peccatoribus salus quia iustificationes tuas non exquisierunt",
+      "citation": "Psalms 119:155 (Clementine Vulgate)"
+    },
+    {
+      "verse": 155,
+      "text": "longe ab impiis salus quia praecepta tua non quaesierunt",
+      "citation": "Psalms 119:155 (Clementine Vulgate)"
+    },
+    {
+      "verse": 156,
+      "text": "misericordiae tuae multae Domine secundum iudicia tua vivifica me",
+      "citation": "Psalms 119:156 (Clementine Vulgate)"
+    },
+    {
+      "verse": 156,
+      "text": "misericordiae tuae multae Domine iuxta iudicia tua vivifica me",
+      "citation": "Psalms 119:156 (Clementine Vulgate)"
+    },
+    {
+      "verse": 157,
+      "text": "multi qui persequuntur me et tribulant me a testimoniis tuis non declinavi",
+      "citation": "Psalms 119:157 (Clementine Vulgate)"
+    },
+    {
+      "verse": 157,
+      "text": "multi qui persequuntur me et adfligunt me a testimoniis tuis non declinavi",
+      "citation": "Psalms 119:157 (Clementine Vulgate)"
+    },
+    {
+      "verse": 158,
+      "text": "vidi praevaricantes et tabescebam quia eloquia tua non custodierunt",
+      "citation": "Psalms 119:158 (Clementine Vulgate)"
+    },
+    {
+      "verse": 158,
+      "text": "vidi praevaricatores tuos et maerebam qui verbum tuum non custodierunt",
+      "citation": "Psalms 119:158 (Clementine Vulgate)"
+    },
+    {
+      "verse": 159,
+      "text": "vide quoniam mandata tua dilexi Domine in misericordia tua vivifica me",
+      "citation": "Psalms 119:159 (Clementine Vulgate)"
+    },
+    {
+      "verse": 159,
+      "text": "vide quoniam praecepta tua dilexi Domine iuxta misericordiam tuam vivifica me",
+      "citation": "Psalms 119:159 (Clementine Vulgate)"
+    },
+    {
+      "verse": 160,
+      "text": "principium verborum tuorum veritas et in aeternum omnia iudicia iustitiae tuae",
+      "citation": "Psalms 119:160 (Clementine Vulgate)"
+    },
+    {
+      "verse": 160,
+      "text": "caput verborum tuorum veritas et sempiternum omne iudicium iustitiae tuae",
+      "citation": "Psalms 119:160 (Clementine Vulgate)"
+    },
+    {
+      "verse": 161,
+      "text": "sen principes persecuti sunt me gratis et a verbis tuis formidavit cor meum",
+      "citation": "Psalms 119:161 (Clementine Vulgate)"
+    },
+    {
+      "verse": 161,
+      "text": "sen principes persecuti sunt me sine causa verba autem tua timuit cor meum",
+      "citation": "Psalms 119:161 (Clementine Vulgate)"
+    },
+    {
+      "verse": 162,
+      "text": "laetabor ego super eloquia tua sicut qui invenit spolia multa",
+      "citation": "Psalms 119:162 (Clementine Vulgate)"
+    },
+    {
+      "verse": 162,
+      "text": "gaudens ego sum in eloquio tuo sicut qui invenit spolia multa",
+      "citation": "Psalms 119:162 (Clementine Vulgate)"
+    },
+    {
+      "verse": 163,
+      "text": "iniquitatem odio habui et abominatus sum legem autem tuam dilexi",
+      "citation": "Psalms 119:163 (Clementine Vulgate)"
+    },
+    {
+      "verse": 163,
+      "text": "mendacium odio habui et detestatus sum legem autem tuam dilexi",
+      "citation": "Psalms 119:163 (Clementine Vulgate)"
+    },
+    {
+      "verse": 164,
+      "text": "septies in die laudem dixi tibi super iudicia iustitiae tuae",
+      "citation": "Psalms 119:164 (Clementine Vulgate)"
+    },
+    {
+      "verse": 164,
+      "text": "septies in die laudavi te super iudiciis iustitiae tuae",
+      "citation": "Psalms 119:164 (Clementine Vulgate)"
+    },
+    {
+      "verse": 165,
+      "text": "pax multa diligentibus legem tuam et non est illis scandalum",
+      "citation": "Psalms 119:165 (Clementine Vulgate)"
+    },
+    {
+      "verse": 165,
+      "text": "pax multa diligentibus legem tuam et non est illis scandalum",
+      "citation": "Psalms 119:165 (Clementine Vulgate)"
+    },
+    {
+      "verse": 166,
+      "text": "expectabam salutare tuum Domine et mandata tua dilexi",
+      "citation": "Psalms 119:166 (Clementine Vulgate)"
+    },
+    {
+      "verse": 166,
+      "text": "expectavi salutare tuum Domine et mandata tua feci",
+      "citation": "Psalms 119:166 (Clementine Vulgate)"
+    },
+    {
+      "verse": 167,
+      "text": "custodivit anima mea testimonia tua et dilexi ea vehementer",
+      "citation": "Psalms 119:167 (Clementine Vulgate)"
+    },
+    {
+      "verse": 167,
+      "text": "custodivit anima mea testimonia tua et dilexi ea nimis",
+      "citation": "Psalms 119:167 (Clementine Vulgate)"
+    },
+    {
+      "verse": 168,
+      "text": "servavi mandata tua et testimonia tua quia omnes viae meae in conspectu tuo",
+      "citation": "Psalms 119:168 (Clementine Vulgate)"
+    },
+    {
+      "verse": 168,
+      "text": "custodivi praecepta tua et testimonia tua quia omnes viae meae in conspectu tuo",
+      "citation": "Psalms 119:168 (Clementine Vulgate)"
+    },
+    {
+      "verse": 169,
+      "text": "thau adpropinquet deprecatio mea in conspectu tuo Domine iuxta eloquium tuum da mihi intellectum",
+      "citation": "Psalms 119:169 (Clementine Vulgate)"
+    },
+    {
+      "verse": 169,
+      "text": "thau ingrediatur laus mea coram te Domine secundum verbum tuum doce me",
+      "citation": "Psalms 119:169 (Clementine Vulgate)"
+    },
+    {
+      "verse": 170,
+      "text": "intret postulatio mea in conspectu tuo secundum eloquium tuum eripe me",
+      "citation": "Psalms 119:170 (Clementine Vulgate)"
+    },
+    {
+      "verse": 170,
+      "text": "veniat deprecatio mea ante vultum tuum secundum eloquium tuum libera me",
+      "citation": "Psalms 119:170 (Clementine Vulgate)"
+    },
+    {
+      "verse": 171,
+      "text": "eructabunt labia mea hymnum cum docueris me iustificationes tuas",
+      "citation": "Psalms 119:171 (Clementine Vulgate)"
+    },
+    {
+      "verse": 171,
+      "text": "fundant labia mea hymnum docebis enim me praecepta tua",
+      "citation": "Psalms 119:171 (Clementine Vulgate)"
+    },
+    {
+      "verse": 172,
+      "text": "pronuntiabit lingua mea eloquium tuum quia omnia mandata tua aequitas",
+      "citation": "Psalms 119:172 (Clementine Vulgate)"
+    },
+    {
+      "verse": 172,
+      "text": "loquetur lingua mea sermonem tuum quia omnia mandata tua iusta",
+      "citation": "Psalms 119:172 (Clementine Vulgate)"
+    },
+    {
+      "verse": 173,
+      "text": "fiat manus tua ut salvet me quoniam mandata tua elegi",
+      "citation": "Psalms 119:173 (Clementine Vulgate)"
+    },
+    {
+      "verse": 173,
+      "text": "sit manus tua auxiliatrix mea quia praecepta tua elegi",
+      "citation": "Psalms 119:173 (Clementine Vulgate)"
+    },
+    {
+      "verse": 174,
+      "text": "concupivi salutare tuum Domine et lex tua meditatio mea",
+      "citation": "Psalms 119:174 (Clementine Vulgate)"
+    },
+    {
+      "verse": 174,
+      "text": "desideravi salutare tuum Domine et lex tua voluntas mea",
+      "citation": "Psalms 119:174 (Clementine Vulgate)"
+    },
+    {
+      "verse": 175,
+      "text": "vivet anima mea et laudabit te et iudicia tua adiuvabunt me",
+      "citation": "Psalms 119:175 (Clementine Vulgate)"
+    },
+    {
+      "verse": 175,
+      "text": "vivet anima mea et laudabit te et iudicia tua auxiliabuntur mihi",
+      "citation": "Psalms 119:175 (Clementine Vulgate)"
+    },
+    {
+      "verse": 176,
+      "text": "erravi sicut ovis quae periit quaere servum tuum quia mandata tua non sum oblitus",
+      "citation": "Psalms 119:176 (Clementine Vulgate)"
+    },
+    {
+      "verse": 176,
+      "text": "erravi quasi ovis perdita quaere servum tuum quia mandatorum tuorum non sum oblitus",
+      "citation": "Psalms 119:176 (Clementine Vulgate)"
+    }
+  ]
+}

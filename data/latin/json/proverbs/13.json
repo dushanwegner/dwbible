@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 13 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 13,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/proverbs/12.json",
+      "nextChapter": "https://latinprayer.org/latin/proverbs/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/13.json",
+      "german": "https://latinprayer.org/bibel/proverbs/13.json"
+    }
+  },
+  "citation": "Proverbs 13 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "filius sapiens doctrina patris qui autem inlusor est non audit cum arguitur",
+      "citation": "Proverbs 13:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "de fructu oris homo saturabitur bonis anima autem praevaricatorum iniqua",
+      "citation": "Proverbs 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "qui custodit os suum custodit animam suam qui autem inconsideratus est ad loquendum sentiet mala",
+      "citation": "Proverbs 13:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "vult et non vult piger anima autem operantium inpinguabitur",
+      "citation": "Proverbs 13:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "verbum mendax iustus detestabitur impius confundit et confundetur",
+      "citation": "Proverbs 13:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "iustitia custodit innocentis viam impietas vero peccato subplantat",
+      "citation": "Proverbs 13:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "est quasi dives cum nihil habeat et est quasi pauper cum in multis divitiis sit",
+      "citation": "Proverbs 13:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "redemptio animae viri divitiae suae qui autem pauper est increpationem non sustinet",
+      "citation": "Proverbs 13:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "lux iustorum laetificat lucerna autem impiorum extinguetur",
+      "citation": "Proverbs 13:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "inter superbos semper iurgia sunt qui autem agunt cuncta consilio reguntur sapientia",
+      "citation": "Proverbs 13:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "substantia festinata minuetur quae autem paulatim colligitur manu multiplicabitur",
+      "citation": "Proverbs 13:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "spes quae differtur adfligit animam lignum vitae desiderium veniens",
+      "citation": "Proverbs 13:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "qui detrahit alicui rei ipse se in futurum obligat qui autem timet praeceptum in pace versabitur",
+      "citation": "Proverbs 13:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "lex sapientis fons vitae ut declinet a ruina mortis",
+      "citation": "Proverbs 13:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "doctrina bona dabit gratiam in itinere contemptorum vorago",
+      "citation": "Proverbs 13:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "astutus omnia agit cum consilio qui autem fatuus est aperit stultitiam",
+      "citation": "Proverbs 13:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "nuntius impii cadet in malum legatus fidelis sanitas",
+      "citation": "Proverbs 13:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "egestas et ignominia ei qui deserit disciplinam qui autem adquiescit arguenti glorificabitur",
+      "citation": "Proverbs 13:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "desiderium si conpleatur delectat animam detestantur stulti eos qui fugiunt mala",
+      "citation": "Proverbs 13:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "qui cum sapientibus graditur sapiens erit amicus stultorum efficietur similis",
+      "citation": "Proverbs 13:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "peccatores persequetur malum et iustis retribuentur bona",
+      "citation": "Proverbs 13:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "bonus relinquet heredes filios et nepotes et custoditur iusto substantia peccatoris",
+      "citation": "Proverbs 13:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "multi cibi in novalibus patrum et alii congregantur absque iudicio",
+      "citation": "Proverbs 13:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "qui parcit virgae suae odit filium suum qui autem diligit illum instanter erudit",
+      "citation": "Proverbs 13:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "iustus comedit et replet animam suam venter autem impiorum insaturabilis",
+      "citation": "Proverbs 13:25 (Clementine Vulgate)"
+    }
+  ]
+}

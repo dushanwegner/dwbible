@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Peter, Chapter 3 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Peter",
+      "slug": "2-peter",
+      "testament": "NT",
+      "order": 68,
+      "totalChapters": 3
+    },
+    "chapter": 3,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-peter/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-peter/2.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-peter/3.json",
+      "german": "https://latinprayer.org/bibel/2-peter/3.json"
+    }
+  },
+  "citation": "2. Peter 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Behold this second epistle I write to you, my dearly beloved, in which, I stir up by way of admonition your sincere mind:",
+      "citation": "2. Peter 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "That you may be mindful of those words which I told you before from the holy prophet and of your apostles, of the precepts of the Lord and Saviour.",
+      "citation": "2. Peter 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Knowing this first: That in the last days there shall come deceitful scoffers, walking after their own lusts,",
+      "citation": "2. Peter 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Saying: Where is his promise or his coming? For since the time that the fathers slept, all things continue as they were from the beginning of the creation.",
+      "citation": "2. Peter 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For this they are wilfully ignorant of: That the heavens were before, and the earth out of water and through water, consisting by the word of God:",
+      "citation": "2. Peter 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Whereby the world that then was, being overflowed with water, perished.",
+      "citation": "2. Peter 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But the heavens and the earth which are now, by the same word are kept in store, reserved unto fire against the day of judgment and perdition of the ungodly men.",
+      "citation": "2. Peter 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But of this one thing be not ignorant, my beloved, that one day with the Lord is as a thousand years, and a thousand years as one day.",
+      "citation": "2. Peter 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The Lord delayeth not his promise, as some imagine, but dealeth patiently for your sake, not willing that any should perish, but that all should return to penance,",
+      "citation": "2. Peter 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But the day of the Lord shall come as a thief, in which the heavens shall pass away with great violence and the elements shall be melted with heat and the earth and the works which are in it shall be burnt up.",
+      "citation": "2. Peter 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Seeing then that all these things are to be dissolved, what manner of people ought you to be in holy conversation and godliness?",
+      "citation": "2. Peter 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Looking for and hasting unto the coming of the day of the Lord, by which the heavens being on fire shall be dissolved, and the elements shall melt with the burning heat?",
+      "citation": "2. Peter 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But we look for new heavens and a new earth according to his promises, in which justice dwelleth.",
+      "citation": "2. Peter 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Wherefore, dearly beloved, waiting for these things, be diligent that you may be found before him unspotted and blameless in peace.",
+      "citation": "2. Peter 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And account the longsuffering of our Lord, salvation: as also our most dear brother Paul, according to the wisdom given him, hath written to you:",
+      "citation": "2. Peter 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "As also in all his epistles, speaking in them of these things; in which are certain things hard to be understood, which the unlearned and unstable wrest, as they do also the other scriptures, to their own destruction.",
+      "citation": "2. Peter 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "You therefore, brethren, knowing these things before, take heed, lest being led aside by the error of the unwise, you fall from your own steadfastness.",
+      "citation": "2. Peter 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "But grow in grace and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now and unto the day of eternity, Amen.",
+      "citation": "2. Peter 3:18 (Douay-Rheims)"
+    }
+  ]
+}

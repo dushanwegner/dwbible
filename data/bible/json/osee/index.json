@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Osee — 14 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Osee",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/osee/index.json",
+      "german": "https://latinprayer.org/bibel/osee/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 9,
+      "url": "https://latinprayer.org/bible/osee/1",
+      "jsonUrl": "https://latinprayer.org/bible/osee/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/bible/osee/2",
+      "jsonUrl": "https://latinprayer.org/bible/osee/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 5,
+      "url": "https://latinprayer.org/bible/osee/3",
+      "jsonUrl": "https://latinprayer.org/bible/osee/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/bible/osee/4",
+      "jsonUrl": "https://latinprayer.org/bible/osee/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/bible/osee/5",
+      "jsonUrl": "https://latinprayer.org/bible/osee/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/bible/osee/6",
+      "jsonUrl": "https://latinprayer.org/bible/osee/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/bible/osee/7",
+      "jsonUrl": "https://latinprayer.org/bible/osee/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bible/osee/8",
+      "jsonUrl": "https://latinprayer.org/bible/osee/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bible/osee/9",
+      "jsonUrl": "https://latinprayer.org/bible/osee/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/bible/osee/10",
+      "jsonUrl": "https://latinprayer.org/bible/osee/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/bible/osee/11",
+      "jsonUrl": "https://latinprayer.org/bible/osee/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/bible/osee/12",
+      "jsonUrl": "https://latinprayer.org/bible/osee/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/bible/osee/13",
+      "jsonUrl": "https://latinprayer.org/bible/osee/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 10,
+      "url": "https://latinprayer.org/bible/osee/14",
+      "jsonUrl": "https://latinprayer.org/bible/osee/14.json"
+    }
+  ]
+}

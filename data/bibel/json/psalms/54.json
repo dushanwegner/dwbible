@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 54 — 9 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 54,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/53.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/55.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/54.json",
+      "latin": "https://latinprayer.org/latin/psalms/54.json"
+    }
+  },
+  "citation": "Psalmen 54 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, mit Saitenspiel; ein Lehrgedicht</em><em> Davids,</em>",
+      "citation": "Psalmen 54:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "<em>als die Siphiter kamen und zu Saul sagten: »Weißt du nicht, daß David sich bei uns verborgen hält?«</em>.",
+      "citation": "Psalmen 54:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Hilf mir, o Gott, durch deinen Namen und schaffe mir Recht durch deine Kraft!",
+      "citation": "Psalmen 54:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Höre, o Gott, mein Gebet, vernimm die Worte meines Mundes!",
+      "citation": "Psalmen 54:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn Freche haben sich gegen mich erhoben, und Gewalttätige trachten mir nach dem Leben: sie haben Gott sich nicht vor Augen gestellt. SELA.",
+      "citation": "Psalmen 54:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ich weiß: Gott ist mir ein Helfer, der Allherr ist meiner Seele Stütze.",
+      "citation": "Psalmen 54:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Das Böse wird auf meine Feinde zurückfallen: nach deiner Treue vernichte sie!",
+      "citation": "Psalmen 54:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Dann will ich mit Freuden dir Opfer bringen, will preisen deinen Namen, o HERR, daß er gütig ist;",
+      "citation": "Psalmen 54:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "denn er hat mich aus aller Bedrängnis errettet, und an meinen Feinden hat mein Auge sich geweidet.",
+      "citation": "Psalmen 54:9 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 75 — 11 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 75,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/74.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/76.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/75.json",
+      "german": "https://latinprayer.org/bibel/psalms/75.json"
+    }
+  },
+  "citation": "Psalms 75 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "We will praise thee, O God: we will praise, and we will call upon thy name. We will relate thy wondrous works:",
+      "citation": "Psalms 75:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, in praises, a psalm for Asaph: a canticle to the Assyrians.",
+      "citation": "Psalms 75:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "When I shall take a time, I will judge justices.",
+      "citation": "Psalms 75:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The earth is melted, and all that dwell therein: I have established the pillars thereof.",
+      "citation": "Psalms 75:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "I said to the wicked: Do not act wickedly: and to the sinners: Lift not up the horn.",
+      "citation": "Psalms 75:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Lift not up your horn on high: speak not iniquity against God.",
+      "citation": "Psalms 75:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For neither from the east, nor from the west, nor from the desert hills:",
+      "citation": "Psalms 75:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For God is the judge. One he putteth down, and another he lifteth up:",
+      "citation": "Psalms 75:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For in the hand of the Lord there is a cup of strong wine full of mixture. And he hath poured it out from this to that: but the dregs thereof are not emptied: all the sinners of the earth shall drink.",
+      "citation": "Psalms 75:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But I will declare for ever: I will sing to the God of Jacob.",
+      "citation": "Psalms 75:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And I will break all the horns of sinners: but the horns of the just shall be exalted.",
+      "citation": "Psalms 75:10 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 13 — 21 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 13,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/exodus/12.json",
+      "nextChapter": "https://latinprayer.org/bible/exodus/14.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/exodus/13.json",
+      "german": "https://latinprayer.org/bibel/exodus/13.json"
+    }
+  },
+  "citation": "Exodus 13 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Exodus 13:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Sanctify unto me every firstborn that openeth the womb among the children of Israel, as well of men as of beasts: for they are all mine.",
+      "citation": "Exodus 13:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Moses said to the people: Remember this day in which you came forth out of Egypt, and out of the house of bondage, for with a strong hand hath the Lord brought you forth out of this place: that you eat no leavened bread.",
+      "citation": "Exodus 13:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "This day you go forth in the month of new corn.",
+      "citation": "Exodus 13:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And when the Lord shall have brought thee into the land of the Chanaanite, and the Hethite, and the Amorrhite, and the Hevite, and the Jebusite, which he swore to thy fathers that he would give thee, a land that floweth with milk and honey, thou shalt celebrate this manner of sacred rites in this month.",
+      "citation": "Exodus 13:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Seven days shalt thou eat unleavened bread: and on the seventh day shall be the solemnity of the Lord.",
+      "citation": "Exodus 13:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Unleavened bread shall you eat seven days: there shall not be seen any thing leavened with thee, nor in all thy coasts.",
+      "citation": "Exodus 13:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And thou shalt tell thy son in that day, saying: This is what the Lord did to me when I came forth out of Egypt.",
+      "citation": "Exodus 13:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And it shall be as a sign in thy hand, and as a memorial before thy eyes; and that the law of the Lord be always in thy mouth, for with a strong hand the Lord hath brought thee out of the land of Egypt.",
+      "citation": "Exodus 13:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Thou shalt keep this observance at the set time from days to days.",
+      "citation": "Exodus 13:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And when the Lord shall have brought thee into the land of the Chanaanite, as he swore to thee and thy fathers, and shall give it thee:",
+      "citation": "Exodus 13:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Thou shalt set apart all that openeth the womb for the Lord, and all that is first brought forth of thy cattle: whatsoever thou shalt have of the male sex, thou shalt consecrate to the Lord.",
+      "citation": "Exodus 13:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The firstborn of an ass thou shalt change for a sheep: and if thou do not redeem it, thou shalt kill it. And every firstborn of men thou shalt redeem with a price.",
+      "citation": "Exodus 13:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And when thy son shall ask thee to morrow, saying: What is this? thou shalt answer him: With a strong hand did the Lord bring us forth out of the land of Egypt, out of the house of bondage.",
+      "citation": "Exodus 13:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For when Pharao was hardened, and would not let us go, the Lord slew every firstborn in the land of Egypt, from the firstborn of man to the firstborn of beasts: therefore I sacrifice to the Lord all that openeth the womb of the male sex, and all the firstborn of my sons I redeem.",
+      "citation": "Exodus 13:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And it shall be as a sign in thy hand, and as a thing hung between thy eyes, for a remembrance: because the Lord hath brought us forth out of Egypt by a strong hand.",
+      "citation": "Exodus 13:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And when Pharao had sent out the people, the Lord led them not by the way of the land of the Philistines, which is near; thinking lest perhaps they would repent, if they should see wars arise against them, and would return into Egypt.",
+      "citation": "Exodus 13:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And Moses took Joseph's bones with him: because he had adjured the children of Israel, saying: God shall visit you, carry out my bones from hence with you.",
+      "citation": "Exodus 13:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And marching from Socoth, they encamped in Etham, in the utmost coasts of the wilderness.",
+      "citation": "Exodus 13:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And the Lord went before them to shew the way, by day in a pillar of a cloud, and by night in a pillar of fire; that he might be the guide of their journey at both times.",
+      "citation": "Exodus 13:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "There never failed the pillar of the cloud by day, nor the pillar of fire by night, before the people.",
+      "citation": "Exodus 13:22 (Douay-Rheims)"
+    }
+  ]
+}

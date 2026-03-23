@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Esther, Chapter 6 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Esther",
+      "slug": "esther",
+      "testament": "OT",
+      "order": 19,
+      "totalChapters": 10
+    },
+    "chapter": 6,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/esther/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/esther/5.json",
+      "nextChapter": "https://latinprayer.org/latin/esther/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/esther/6.json",
+      "german": "https://latinprayer.org/bibel/esther/6.json"
+    }
+  },
+  "citation": "Esther 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "noctem illam rex duxit insomnem iussitque adferri sibi historias et annales priorum temporum qui cum illo praesente legerentur",
+      "citation": "Esther 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ventum est ad eum locum ubi scriptum erat quomodo nuntiasset Mardocheus insidias Bagathan et Thares eunuchorum regem Asuerum iugulare cupientium",
+      "citation": "Esther 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quod cum rex audisset ait quid pro hac fide honoris ac praemii Mardocheus consecutus est dixeruntque ei servi illius ac ministri nihil omnino mercedis accepit",
+      "citation": "Esther 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "statimque rex quis est inquit in atrio Aman quippe interius atrium domus regiae intraverat ut suggereret regi et iuberet Mardocheum adfigi patibulo quod ei fuerat praeparatum",
+      "citation": "Esther 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "responderunt pueri Aman stat in atrio dixitque rex ingrediatur",
+      "citation": "Esther 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "cumque esset ingressus ait illi quid debet fieri viro quem rex honorare desiderat cogitans Aman in corde suo et reputans quod nullum alium rex nisi se vellet honorare",
+      "citation": "Esther 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "respondit homo quem rex honorare cupit",
+      "citation": "Esther 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "debet indui vestibus regiis et inponi super equum qui de sella regis est et accipere regium diadema super caput suum",
+      "citation": "Esther 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et primus de regis principibus ac tyrannis teneat equum eius et per plateam civitatis incedens clamet ac dicat sic honorabitur quemcumque rex voluerit honorare",
+      "citation": "Esther 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "dixitque ei rex festina et sumpta stola et equo fac ita ut locutus es Mardocheo Iudaeo qui sedet ante fores palatii cave ne quicquam de his quae locutus es praetermittas",
+      "citation": "Esther 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "tulit itaque Aman stolam et equum indutumque Mardocheum in platea civitatis et inpositum equo praecedebat atque clamabat hoc honore condignus est quemcumque rex voluerit honorare",
+      "citation": "Esther 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "reversus est Mardocheus ad ianuam palatii et Aman festinavit ire in domum suam lugens et operto capite",
+      "citation": "Esther 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "narravitque Zares uxori suae et amicis omnia quae evenissent sibi cui responderunt sapientes quos habebat in consilio et uxor eius si de semine Iudaeorum est Mardocheus ante quem cadere coepisti non poteris ei resistere sed cades in conspectu eius",
+      "citation": "Esther 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "adhuc illis loquentibus venerunt eunuchi regis et cito eum ad convivium quod regina paraverat pergere conpulerunt",
+      "citation": "Esther 6:14 (Clementine Vulgate)"
+    }
+  ]
+}

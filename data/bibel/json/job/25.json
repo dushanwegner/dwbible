@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hiob, Chapter 25 — 6 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hiob",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 25,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/job/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/job/24.json",
+      "nextChapter": "https://latinprayer.org/bibel/job/26.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/25.json",
+      "latin": "https://latinprayer.org/latin/job/25.json"
+    }
+  },
+  "citation": "Hiob 25 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da nahm Bildad von Suah das Wort und sagte:",
+      "citation": "Hiob 25:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Herrschergewalt und Schrecken sind bei ihm, der da Frieden schafft in seinen Höhen.",
+      "citation": "Hiob 25:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Sind seine Heerscharen zu zählen? Und wo ist einer, über den sein Licht sich nicht erhöbe?",
+      "citation": "Hiob 25:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wie könnte da ein Mensch recht behalten Gott gegenüber und wie ein vom Weibe Geborener neben ihm rein erscheinen?",
+      "citation": "Hiob 25:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Bedenke nur: sogar der Mond ist nicht hell, und die Sterne sind nicht rein in seinen Augen –",
+      "citation": "Hiob 25:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "wieviel weniger der Sterbliche, die Made, und der Menschensohn, der Wurm!«",
+      "citation": "Hiob 25:6 (Menge)"
+    }
+  ]
+}

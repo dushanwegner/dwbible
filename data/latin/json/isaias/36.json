@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 36 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 36,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/35.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/37.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/36.json",
+      "german": "https://latinprayer.org/bibel/isaias/36.json"
+    }
+  },
+  "citation": "Isaiah 36 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et factum est in quartodecimo anno regis Ezechiae ascendit Sennacherib rex Assyriorum super omnes civitates Iuda munitas et cepit eas",
+      "citation": "Isaiah 36:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et misit rex Assyriorum Rabsacen de Lachis in Hierusalem ad regem Ezechiam in manu gravi et stetit in aquaeductu piscinae superioris in via agri Fullonis",
+      "citation": "Isaiah 36:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et egressus est ad eum Eliachim filius Helciae qui erat super domum et Sobna scriba et Ioae filius Asaph a commentariis",
+      "citation": "Isaiah 36:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dixit ad eos Rabsaces dicite Ezechiae haec dicit rex magnus rex Assyriorum quae est ista fiducia qua confidis",
+      "citation": "Isaiah 36:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "aut quo consilio vel fortitudine rebellare disponis super quem habes fiduciam quia recessisti a me",
+      "citation": "Isaiah 36:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ecce confidis super baculum harundineum confractum istum super Aegyptum cui si innisus fuerit homo intrabit in manu eius et perforabit eam sic Pharao rex Aegypti omnibus qui confidunt in eo",
+      "citation": "Isaiah 36:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quod si responderis mihi in Domino Deo nostro confidimus nonne ipse est cuius abstulit Ezechias excelsa et altaria et dixit Iudae et Hierusalem coram altari isto adorabitis",
+      "citation": "Isaiah 36:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et nunc trade te domino meo regi Assyriorum et dabo tibi duo milia equorum nec poteris ex te praebere ascensores eorum",
+      "citation": "Isaiah 36:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et quomodo sustinebis faciem iudicis unius loci ex servis domini mei minoribus quod si confidis in Aegypto in quadriga et in equitibus",
+      "citation": "Isaiah 36:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et nunc numquid sine Domino ascendi ad terram istam ut disperderem eam Dominus dixit ad me ascende super terram istam et disperde eam",
+      "citation": "Isaiah 36:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dixit Eliachim et Sobna et Ioae ad Rabsacen loquere ad servos tuos syra lingua intellegimus enim ne loquaris ad nos iudaice in auribus populi qui est super murum",
+      "citation": "Isaiah 36:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et dixit ad eos Rabsaces numquid ad dominum tuum et ad te misit me dominus meus ut loquerer omnia verba ista et non potius ad viros qui sedent in muro ut comedant stercora sua et bibant urinam pedum suorum vobiscum",
+      "citation": "Isaiah 36:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et stetit Rabsaces et clamavit voce magna iudaice et dixit audite verba regis magni regis Assyriorum",
+      "citation": "Isaiah 36:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "haec dicit rex non seducat vos Ezechias quia non poterit eruere vos",
+      "citation": "Isaiah 36:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et non vobis tribuat fiduciam Ezechias super Domino dicens eruens liberabit nos Dominus non dabitur civitas ista in manu regis Assyriorum",
+      "citation": "Isaiah 36:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "nolite audire Ezechiam haec enim dicit rex Assyriorum facite mecum benedictionem et egredimini ad me et comedite unusquisque vineam suam et unusquisque ficum suam et bibite unusquisque aquam cisternae suae",
+      "citation": "Isaiah 36:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "donec veniam et tollam vos ad terram quae est ut terra vestra terram frumenti et vini terram panum et vinearum",
+      "citation": "Isaiah 36:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "ne conturbet vos Ezechias dicens Dominus liberabit nos numquid liberaverunt dii gentium unusquisque terram suam de manu regis Assyriorum",
+      "citation": "Isaiah 36:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "ubi est deus Emath et Arfad ubi est deus Seffarvaim numquid liberaverunt Samariam de manu mea",
+      "citation": "Isaiah 36:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quis est ex omnibus diis terrarum istarum qui eruerit terram suam de manu mea ut eruat Dominus Hierusalem de manu mea",
+      "citation": "Isaiah 36:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et siluerunt et non responderunt ei verbum mandaverat enim rex dicens ne respondeatis ei",
+      "citation": "Isaiah 36:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et ingressus est Eliachim filius Helciae qui erat super domum et Sobna scriba et Ioae filius Asaph a commentariis ad Ezechiam scissis vestibus et nuntiaverunt ei verba Rabsacis",
+      "citation": "Isaiah 36:22 (Clementine Vulgate)"
+    }
+  ]
+}

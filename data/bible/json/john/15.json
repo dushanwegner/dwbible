@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John, Chapter 15 — 27 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 15,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/john/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/john/14.json",
+      "nextChapter": "https://latinprayer.org/bible/john/16.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/john/15.json",
+      "german": "https://latinprayer.org/bibel/john/15.json"
+    }
+  },
+  "citation": "John 15 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I am the true vine: and my Father is the husbandman.",
+      "citation": "John 15:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Every branch in me that beareth not fruit, he will take away: and every one that beareth fruit, he will purge it, that it may bring forth more fruit.",
+      "citation": "John 15:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Now you are clean, by reason of the word which I have spoken to you.",
+      "citation": "John 15:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Abide in me: and I in you. As the branch cannot bear fruit of itself, unless it abide in the vine, so neither can you, unless you abide in me.",
+      "citation": "John 15:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "I am the vine: you the branches. He that abideth in me, and I in him, the same beareth much fruit: for without me you can do nothing.",
+      "citation": "John 15:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "If any one abide not in me, he shall be cast forth as a branch and shall wither: and they shall gather him up and cast him into the fire: and he burneth.",
+      "citation": "John 15:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "If you abide in me and my words abide in you, you shall ask whatever you will: and it shall be done unto you.",
+      "citation": "John 15:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "In this is my Father glorified: that you bring forth very much fruit and become my disciples.",
+      "citation": "John 15:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "As the Father hath loved me, I also have loved you. Abide in my love.",
+      "citation": "John 15:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "If you keep my commandments, you shall abide in my love: as I also have kept my Father's commandments and do abide in his love.",
+      "citation": "John 15:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "These things I have spoken to you, that my joy may be in you, and your joy may be filled.",
+      "citation": "John 15:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "This is my commandment, that you love one another, as I have loved you.",
+      "citation": "John 15:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Greater love than this no man hath, that a man lay down his life for his friends.",
+      "citation": "John 15:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "You are my friends, if you do the things that I command you.",
+      "citation": "John 15:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "I will not now call you servants: for the servant knoweth not what his lord doth. But I have called you friends: because all things, whatsoever I have heard of my Father, I have made known to you.",
+      "citation": "John 15:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "You have not chosen me: but I have chosen you; and have appointed you, that you should go and should bring forth fruit; and your fruit should remain: that whatsoever you shall ask of the Father in my name, he may give it you.",
+      "citation": "John 15:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "These things I command you, that you love one another.",
+      "citation": "John 15:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "If the world hate you, know ye that it hath hated me before you.",
+      "citation": "John 15:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "If you had been of the world, the world would love its own: but because you are not of the world, but I have chosen you out of the world, therefore the world hateth you.",
+      "citation": "John 15:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Remember my word that I said to you: The servant is not greater than his master. If they have persecuted me, they will also persecute you. If they have kept my word, they will keep yours also.",
+      "citation": "John 15:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "But all these things they will do to you for my name's sake: because they know not him that sent me.",
+      "citation": "John 15:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "If I had not come and spoken to them, they would not have sin: but now they have no excuse for their sin.",
+      "citation": "John 15:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "He that hateth me hateth my Father also.",
+      "citation": "John 15:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "If I had not done among them the works that no other man hath done, they would not have sin: but now they have both seen and hated both me and my Father.",
+      "citation": "John 15:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "But that the word may be fulfilled which is written in their law: they hated me without cause.",
+      "citation": "John 15:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "But when the Paraclete cometh, whom I will send you from the Father, the Spirit of truth, who proceedeth from the Father, he shall give testimony of me.",
+      "citation": "John 15:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And you shall give testimony, because you are with me from the beginning.",
+      "citation": "John 15:27 (Douay-Rheims)"
+    }
+  ]
+}

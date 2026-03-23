@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 140 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 140,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/139.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/141.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/140.json",
+      "german": "https://latinprayer.org/bibel/psalms/140.json"
+    }
+  },
+  "citation": "Psalms 140 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "eripe me Domine ab homine malo a viro iniquo eripe me",
+      "citation": "Psalms 140:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "erue me Domine ab homine malo a viris iniquis serva me",
+      "citation": "Psalms 140:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui cogitaverunt iniquitates in corde tota die constituebant proelia",
+      "citation": "Psalms 140:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui cogitaverunt malitias in corde tota die versati sunt in proeliis",
+      "citation": "Psalms 140:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "acuerunt linguam suam sicut serpentis venenum aspidum sub labiis eorum diapsalma",
+      "citation": "Psalms 140:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "exacuerunt linguam suam quasi serpens venenum aspidis sub labiis eorum semper",
+      "citation": "Psalms 140:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "custodi me Domine de manu peccatoris ab hominibus iniquis eripe me qui cogitaverunt subplantare gressus meos",
+      "citation": "Psalms 140:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "custodi me Domine de manu impii a viro iniquitatum serva me qui cogitaverunt subplantare gressus meos",
+      "citation": "Psalms 140:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "absconderunt superbi laqueum mihi et funes extenderunt in laqueum iuxta iter scandalum posuerunt mihi diapsalma",
+      "citation": "Psalms 140:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "absconderunt superbi laqueum mihi et funibus extenderunt rete iuxta semitam offendiculum posuerunt mihi semper",
+      "citation": "Psalms 140:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dixi Domino Deus meus es tu exaudi Domine vocem deprecationis meae",
+      "citation": "Psalms 140:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dixi Domino Deus meus tu audi Domine vocem deprecationis meae",
+      "citation": "Psalms 140:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Domine Domine virtus salutis meae obumbrasti super caput meum in die belli",
+      "citation": "Psalms 140:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Domine Deus fortitudo salutis meae protexisti caput meum in die belli",
+      "citation": "Psalms 140:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "non tradas Domine desiderio meo peccatori cogitaverunt contra me ne derelinquas me ne forte exaltentur diapsalma",
+      "citation": "Psalms 140:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ne des Domine desideria impii scelera eius ne effundantur et eleventur semper",
+      "citation": "Psalms 140:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "caput circuitus eorum labor labiorum ipsorum operiet eos",
+      "citation": "Psalms 140:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "amaritudo convivarum meorum labor labiorum eorum operiat eos",
+      "citation": "Psalms 140:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cadent super eos carbones in igne deicies eos in miseriis non subsistent",
+      "citation": "Psalms 140:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cadent super eos carbones ignis deicies eos in foveas ut non consurgant",
+      "citation": "Psalms 140:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "vir linguosus non dirigetur in terra virum iniustum mala capient in interitu",
+      "citation": "Psalms 140:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "vir linguosus non dirigetur in terra virum iniquum mala capient in interitu",
+      "citation": "Psalms 140:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cognovi quia faciet Dominus iudicium inopis et vindictam pauperum",
+      "citation": "Psalms 140:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "scio quod faciet Dominus causam inopis iudicia pauperum",
+      "citation": "Psalms 140:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "verumtamen iusti confitebuntur nomini tuo habitabunt recti cum vultu tuo",
+      "citation": "Psalms 140:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "attamen iusti confitebuntur nomini tuo habitabunt recti cum vultu tuo",
+      "citation": "Psalms 140:13 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 63 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 63,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/62.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/64.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/63.json",
+      "german": "https://latinprayer.org/bibel/isaias/63.json"
+    }
+  },
+  "citation": "Isaiah 63 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quis est iste qui venit de Edom tinctis vestibus de Bosra iste formonsus in stola sua gradiens in multitudine fortitudinis suae ego qui loquor iustitiam et propugnator sum ad salvandum",
+      "citation": "Isaiah 63:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quare ergo rubrum est indumentum tuum et vestimenta tua sicut calcantium in torculari",
+      "citation": "Isaiah 63:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "torcular calcavi solus et de gentibus non est vir mecum calcavi eos in furore meo et conculcavi eos in ira mea et aspersus est sanguis eorum super vestimenta mea et omnia indumenta mea inquinavi",
+      "citation": "Isaiah 63:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "dies enim ultionis in corde meo annus redemptionis meae venit",
+      "citation": "Isaiah 63:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "circumspexi et non erat auxiliator quaesivi et non fuit qui adiuvaret et salvavit mihi brachium meum et indignatio mea ipsa auxiliata est mihi",
+      "citation": "Isaiah 63:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et conculcavi populos in furore meo et inebriavi eos in indignatione mea et detraxi in terra virtutem eorum",
+      "citation": "Isaiah 63:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "miserationum Domini recordabor laudem Domini super omnibus quae reddidit nobis Dominus et super multitudinem bonorum domui Israhel quae largitus est eis secundum indulgentiam suam et secundum multitudinem misericordiarum suarum",
+      "citation": "Isaiah 63:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et dixit verumtamen populus meus est filii non negantes et factus est eis salvator",
+      "citation": "Isaiah 63:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "in omni tribulatione eorum non est tribulatus et angelus faciei eius salvavit eos in dilectione sua et in indulgentia sua ipse redemit eos et portavit eos et levavit eos cunctis diebus saeculi",
+      "citation": "Isaiah 63:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ipsi autem ad iracundiam provocaverunt et adflixerunt spiritum Sancti eius et conversus est eis in inimicum et ipse debellavit eos",
+      "citation": "Isaiah 63:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et recordatus est dierum saeculi Mosi populi sui ubi est qui eduxit eos de mari cum pastoribus gregis sui ubi est qui posuit in medio eius spiritum Sancti sui",
+      "citation": "Isaiah 63:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "qui eduxit ad dexteram Mosen brachio maiestatis suae qui scidit aquas ante eos ut faceret sibi nomen sempiternum",
+      "citation": "Isaiah 63:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "qui duxit eos per abyssos quasi equum in deserto non inpingentem",
+      "citation": "Isaiah 63:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quasi animal in campo descendens spiritus Domini ductor eius fuit sic adduxisti populum tuum ut faceres tibi nomen gloriae",
+      "citation": "Isaiah 63:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "adtende de caelo et vide de habitaculo sancto tuo et gloriae tuae ubi est zelus tuus et fortitudo tua multitudo viscerum tuorum et miserationum tuarum super me continuerunt se",
+      "citation": "Isaiah 63:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "tu enim pater noster et Abraham nescivit nos et Israhel ignoravit nos tu Domine pater noster redemptor noster a saeculo nomen tuum",
+      "citation": "Isaiah 63:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quare errare nos fecisti Domine de viis tuis indurasti cor nostrum ne timeremus te convertere propter servos tuos tribus hereditatis tuae",
+      "citation": "Isaiah 63:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quasi nihilum possederunt populum sanctum tuum hostes nostri conculcaverunt sanctificationem tuam",
+      "citation": "Isaiah 63:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "facti sumus quasi in principio cum non dominareris nostri neque invocaretur nomen tuum super nos",
+      "citation": "Isaiah 63:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "utinam disrumperes caelos et descenderes a facie tua montes defluerent",
+      "citation": "Isaiah 63:19 (Clementine Vulgate)"
+    }
+  ]
+}

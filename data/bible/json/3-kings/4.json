@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "3. Kings, Chapter 4 — 20 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "3. Kings",
+      "slug": "3-kings",
+      "testament": "OT",
+      "order": 11,
+      "totalChapters": 22
+    },
+    "chapter": 4,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/3-kings/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/3-kings/3.json",
+      "nextChapter": "https://latinprayer.org/bible/3-kings/5.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/3-kings/4.json",
+      "german": "https://latinprayer.org/bibel/3-kings/4.json"
+    }
+  },
+  "citation": "3. Kings 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And king Solomon reigned over all Israel:",
+      "citation": "3. Kings 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And these were the princes which he had: Azarias, the son of Sadoc, the priest:",
+      "citation": "3. Kings 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Elihoreph, and Ahia, the sons of Sisa, scribes: Josaphat, the son of Ahilud, recorder:",
+      "citation": "3. Kings 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Banaias, the son of Joiada, over the army: and Sadoc, and Abiathar, priests.",
+      "citation": "3. Kings 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Azarias, the son of Nathan, over them that were about the king: Zabud, the son of Nathan, the priest, the king's friend:",
+      "citation": "3. Kings 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Ahisar, governor of the house: and Adoniram, the son of Abda, over the tribute.",
+      "citation": "3. Kings 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And Solomon had twelve governors over all Israel, who provided victuals for the king and for his house hold: for every one provided necessaries, each man his month in the year.",
+      "citation": "3. Kings 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And these are their names: Benhur, in mount Ephraim.",
+      "citation": "3. Kings 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Bendecar, in Macces, and in Salebim, and in Bethsames, and in Elon, and in Bethanan.",
+      "citation": "3. Kings 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Benhesed, in Aruboth: his was Socho, and all the land of Epher.",
+      "citation": "3. Kings 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Benabinadab, to whom belonged all Nephath-Dor: he had Tapheth, the daughter of Solomon, to wife.",
+      "citation": "3. Kings 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Bana, the son of Ahilud, who governed Thanac, and Mageddo, and all Bethsan, which is by Sarthana, beneath Jezrael, from Bethsan unto Abelmehula, over against Jecmaan.",
+      "citation": "3. Kings 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Bengaber, in Ramoth Galaad: he had the town of Jair, the son of Manasses, in Galaad: he was chief in all the country of Argob, which is in Basan, threescore great cities with walls, and brazen bolts.",
+      "citation": "3. Kings 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Ahinadab, the son of Addo, was chief in Manaim.",
+      "citation": "3. Kings 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Achimaas, in Nephthali: he also had Basemath, the daughter of Solomon, to wife.",
+      "citation": "3. Kings 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Baana, the son of Husi, in Aser, and in Baloth.",
+      "citation": "3. Kings 4:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Josaphat, the son of Pharue, in Issachar.",
+      "citation": "3. Kings 4:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Semei, the son of Ela, in Benjamin.",
+      "citation": "3. Kings 4:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Gaber, the son of Uri, in the land of Galaad, in the land of Sehon, the king of the Amorrhites, and of Og, the king of Basan, over all that were in that land.",
+      "citation": "3. Kings 4:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Juda and Israel were innumerable, as the sand of the sea in multitude; eating and drinking, and rejoicing.",
+      "citation": "3. Kings 4:20 (Douay-Rheims)"
+    }
+  ]
+}

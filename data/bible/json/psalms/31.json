@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 31 — 24 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 31,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/30.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/32.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/31.json",
+      "german": "https://latinprayer.org/bibel/psalms/31.json"
+    }
+  },
+  "citation": "Psalms 31 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "In thee, O Lord, have I hoped, let me never be confounded: deliver me in thy justice.",
+      "citation": "Psalms 31:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Bow down thy ear to me: make haste to deliver me. Be thou unto me a God, a protector, and a house of refuge, to save me.",
+      "citation": "Psalms 31:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For thou art my strength and my refuge; and for thy name's sake thou wilt lead me, and nourish me.",
+      "citation": "Psalms 31:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Thou wilt bring me out of this snare, which they have hidden for me: for thou art my protector.",
+      "citation": "Psalms 31:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Into thy hands I commend my spirit: thou hast redeemed me, O Lord, the God of truth.",
+      "citation": "Psalms 31:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Thou hast hated them that regard vanities, to no purpose. But I have hoped in the Lord:",
+      "citation": "Psalms 31:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "I will be glad and rejoice in thy mercy. For thou hast regarded my humility, thou hast saved my soul out of distresses.",
+      "citation": "Psalms 31:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And thou hast not shut me up in the hands of the enemy: thou hast set my feet in a spacious place.",
+      "citation": "Psalms 31:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Have mercy on me, O Lord, for I am afflicted: my eye is troubled with wrath, my soul, and my belly:",
+      "citation": "Psalms 31:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For my life is wasted with grief: and my years in sighs. My strength is weakened through poverty and my bones are disturbed.",
+      "citation": "Psalms 31:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "I am become a reproach among all my enemies, and very much to my neighbours; and a fear to my acquaintance. They that saw me without fled from me.",
+      "citation": "Psalms 31:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "I am forgotten as one dead from the heart. I am become as a vessel that is destroyed.",
+      "citation": "Psalms 31:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For I have heard the blame of many that dwell round about. While they assembled together against me, they consulted to take away my life.",
+      "citation": "Psalms 31:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But I have put my trust in thee, O Lord: I said: Thou art my God.",
+      "citation": "Psalms 31:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "My lots are in thy hands. Deliver me out of the hands of my enemies; and from them that persecute me.",
+      "citation": "Psalms 31:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Make thy face to shine upon thy servant; save me in thy mercy.",
+      "citation": "Psalms 31:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Let me not be confounded, O Lord, for I have called upon thee. Let the wicked be ashamed, and be brought down to hell.",
+      "citation": "Psalms 31:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Let deceitful lips be made dumb. Which speak iniquity against the just, with pride and abuse.",
+      "citation": "Psalms 31:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "O how great is the multitude of thy sweetness, O Lord, which thou hast hidden for them that fear thee! Which thou hast wrought for them that hope in thee, in the sight of the sons of men.",
+      "citation": "Psalms 31:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Thou shalt hide them in the secret of thy face, from the disturbance of men. Thou shalt protect them in thy tabernacle from the contradiction of tongues.",
+      "citation": "Psalms 31:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Blessed be the Lord, for he hath shewn his wonderful mercy to me in a fortified city.",
+      "citation": "Psalms 31:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "But I said in the excess of my mind: I am cast away from before thy eyes. Therefore thou hast heard the voice of my prayer, when I cried to thee.",
+      "citation": "Psalms 31:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "O love the Lord, all ye his saints: for the Lord will require truth, and will repay them abundantly that act proudly.",
+      "citation": "Psalms 31:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Do ye manfully, and let your heart be strengthened, all ye that hope in the Lord.",
+      "citation": "Psalms 31:24 (Douay-Rheims)"
+    }
+  ]
+}

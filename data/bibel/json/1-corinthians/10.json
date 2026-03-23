@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Korinther, Chapter 10 — 33 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Korinther",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 53,
+      "totalChapters": 16
+    },
+    "chapter": 10,
+    "verseCount": 33,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-corinthians/9.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-corinthians/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-corinthians/10.json",
+      "latin": "https://latinprayer.org/latin/1-corinthians/10.json"
+    }
+  },
+  "citation": "1 Korinther 10 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Ich will euch nämlich nicht in Unkenntnis darüber lassen, liebe Brüder, daß unsere Väter allesamt unter (dem Schutz) der Wolke gestanden haben und allesamt durch das Meer hindurchgezogen sind",
+      "citation": "1 Korinther 10:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "und sämtlich die Taufe auf Mose in der Wolke und im Meer empfangen,",
+      "citation": "1 Korinther 10:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "auch allesamt dieselbe geistliche Speise gegessen",
+      "citation": "1 Korinther 10:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "und sämtlich denselben geistlichen Trank getrunken haben: sie tranken nämlich aus einem geistlichen Felsen, der sie begleitete, und dieser Fels war Christus.",
+      "citation": "1 Korinther 10:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Doch an den meisten von ihnen hatte Gott kein Wohlgefallen, denn sie sind in der Wüste niedergestreckt worden.",
+      "citation": "1 Korinther 10:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Diese Dinge aber sind zum warnenden Vorbild für uns geschehen, damit wir unsre Gelüste nicht auf Böses richten, wie jene sich haben gelüsten lassen.",
+      "citation": "1 Korinther 10:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Werdet auch keine Götzendiener, wie manche von jenen; es steht ja geschrieben: »Das Volk setzte sich nieder, um zu essen und zu trinken, und stand wieder auf, um sich zu belustigen.«",
+      "citation": "1 Korinther 10:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wir wollen auch keine Unzucht treiben, wie manche von jenen es getan haben; sind doch (deshalb) von ihnen an einem einzigen Tage dreiundzwanzigtausend gefallen.",
+      "citation": "1 Korinther 10:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Wir wollen auch den Herrn nicht versuchen, wie manche von ihnen es getan haben und dafür von den Schlangen umgebracht worden sind.",
+      "citation": "1 Korinther 10:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Murret auch nicht, wie manche von ihnen getan und dafür den Tod durch den Verderber erlitten haben.",
+      "citation": "1 Korinther 10:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Dies alles ist jenen aber vorbildlicherweise widerfahren und ist niedergeschrieben worden zur Warnung für uns, denen das Ende der Weltzeiten nahe bevorsteht.",
+      "citation": "1 Korinther 10:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wer daher festzustehen meint, der sehe wohl zu, daß er nicht falle!",
+      "citation": "1 Korinther 10:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Es hat euch (bisher) noch keine andere als menschliche Versuchung betroffen; und Gott ist treu: er wird nicht zulassen, daß ihr über euer Vermögen hinaus versucht werdet, sondern wird zugleich mit der Versuchung auch einen solchen Ausgang schaffen, daß ihr sie bestehen könnt.",
+      "citation": "1 Korinther 10:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Darum, meine Geliebten, fliehet vor dem Götzendienst!",
+      "citation": "1 Korinther 10:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Ich rede ja doch zu euch als zu verständigen Leuten: urteilt selbst über das, was ich sage!",
+      "citation": "1 Korinther 10:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Der Kelch des Segens, den wir segnen: ist er nicht die Gemeinschaft mit dem Blute Christi? Das Brot, das wir brechen: ist es nicht die Gemeinschaft mit dem Leibe Christi?",
+      "citation": "1 Korinther 10:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Weil es ein einziges Brot ist, sind wir trotz unserer Vielheit doch ein einziger Leib, denn wir alle teilen uns in das eine Brot.",
+      "citation": "1 Korinther 10:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Sehet das irdische Israel an: stehen nicht die, welche die Opfer essen, in engster Gemeinschaft mit dem Opferaltar?",
+      "citation": "1 Korinther 10:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Was behaupte ich nun damit? Daß das Götzenopferfleisch etwas sei? Oder daß ein Götze etwas sei?",
+      "citation": "1 Korinther 10:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Nein, wohl aber (behaupte ich), daß die Heiden die Opfer, die sie darbringen, dämonischen Wesen und nicht Gott darbringen. Ich will aber nicht, daß ihr in Verbindung mit den Dämonen tretet.",
+      "citation": "1 Korinther 10:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Ihr könnt nicht (zugleich) den Kelch des Herrn und den Kelch der Dämonen trinken; ihr könnt nicht (zugleich) am Tisch des Herrn und am Tisch der Dämonen Gäste sein.",
+      "citation": "1 Korinther 10:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Oder wollen wir den Herrn zu Eifersucht reizen? Sind wir etwa stärker als er?",
+      "citation": "1 Korinther 10:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "»Alles ist (uns Christen) erlaubt!« – Ja, aber nicht alles ist zuträglich. »Alles ist erlaubt!« – Ja, aber nicht alles erbaut.",
+      "citation": "1 Korinther 10:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Niemand sei (nur) auf seinen eigenen Vorteil bedacht, sondern (jeder) auf die Förderung des anderen.",
+      "citation": "1 Korinther 10:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Alles, was auf dem Fleischmarkt zum Verkauf steht, das esset, ohne um des Gewissens willen Nachforschungen anzustellen;",
+      "citation": "1 Korinther 10:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "denn »dem Herrn gehört die (ganze) Erde und alle ihre Fülle«.",
+      "citation": "1 Korinther 10:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Wenn einer von den Ungläubigen euch zu Gast einlädt und ihr hingehen wollt, so esset alles, was man euch vorsetzt, ohne um des Gewissens willen Nachforschungen anzustellen.",
+      "citation": "1 Korinther 10:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Wenn aber jemand euch (ausdrücklich) sagt: »Dies ist Opferfleisch!«, so esset nicht davon mit Rücksicht auf den, der euch darauf hingewiesen hat, und um des Gewissens willen –",
+      "citation": "1 Korinther 10:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "ich meine damit jedoch nicht euer eigenes Gewissen, sondern das des anderen; denn warum soll ich meine Freiheit von dem Gewissen eines anderen richten lassen?",
+      "citation": "1 Korinther 10:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Wenn ich für meine Person etwas mit Danksagung (gegen Gott) genieße, warum soll ich mich da bezüglich dessen, wofür ich ein Dankgebet spreche, schmähen lassen?",
+      "citation": "1 Korinther 10:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Nun: mögt ihr essen oder trinken oder sonst etwas tun, tut alles zur Verherrlichung Gottes!",
+      "citation": "1 Korinther 10:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Gebt weder den Juden noch den Griechen noch der Gemeinde Gottes einen Anstoß,",
+      "citation": "1 Korinther 10:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "wie auch ich allen in jeder Hinsicht zu Gefallen lebe, indem ich nicht meinen Vorteil suche, sondern den der vielen, damit sie gerettet werden.",
+      "citation": "1 Korinther 10:33 (Menge)"
+    }
+  ]
+}

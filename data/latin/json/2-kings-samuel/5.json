@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Samuel, Chapter 5 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "order": 10,
+      "totalChapters": 24
+    },
+    "chapter": 5,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-kings-samuel/4.json",
+      "nextChapter": "https://latinprayer.org/latin/2-kings-samuel/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-kings-samuel/5.json",
+      "german": "https://latinprayer.org/bibel/2-kings-samuel/5.json"
+    }
+  },
+  "citation": "2 Samuel 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et venerunt universae tribus Israhel ad David in Hebron dicentes ecce nos os tuum et caro tua sumus",
+      "citation": "2 Samuel 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "sed et heri et nudius tertius cum esset Saul rex super nos tu eras educens et reducens Israhel dixit autem Dominus ad te tu pasces populum meum Israhel et tu eris dux super Israhel",
+      "citation": "2 Samuel 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "venerunt quoque et senes de Israhel ad regem in Hebron et percussit cum eis rex David foedus in Hebron coram Domino unxeruntque David in regem super Israhel",
+      "citation": "2 Samuel 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "filius triginta annorum erat David cum regnare coepisset et quadraginta annis regnavit",
+      "citation": "2 Samuel 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "in Hebron regnavit super Iudam septem annis et sex mensibus in Hierusalem autem regnavit triginta tribus annis super omnem Israhel et Iudam",
+      "citation": "2 Samuel 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et abiit rex et omnes viri qui erant cum eo in Hierusalem ad Iebuseum habitatorem terrae dictumque est ad David ab eis non ingredieris huc nisi abstuleris caecos et claudos dicentes non ingredietur David huc",
+      "citation": "2 Samuel 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "cepit autem David arcem Sion haec est civitas David",
+      "citation": "2 Samuel 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "proposuerat enim in die illa praemium qui percussisset Iebuseum et tetigisset domatum fistulas et claudos et caecos odientes animam David idcirco dicitur in proverbio caecus et claudus non intrabunt templum",
+      "citation": "2 Samuel 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "habitavit autem David in arce et vocavit eam civitatem David et aedificavit per gyrum a Mello et intrinsecus",
+      "citation": "2 Samuel 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ingrediebatur proficiens atque succrescens et Dominus Deus exercituum erat cum eo",
+      "citation": "2 Samuel 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "misit quoque Hiram rex Tyri nuntios ad David et ligna cedrina et artifices lignorum artificesque lapidum ad parietes et aedificaverunt domum David",
+      "citation": "2 Samuel 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et cognovit David quoniam confirmasset eum Dominus regem super Israhel et quoniam exaltasset regnum eius super populum suum Israhel",
+      "citation": "2 Samuel 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "accepit ergo adhuc concubinas et uxores de Hierusalem postquam venerat de Hebron natique sunt David et alii filii et filiae",
+      "citation": "2 Samuel 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et haec nomina eorum qui nati sunt ei in Hierusalem Samua et Sobab et Nathan et Salomon",
+      "citation": "2 Samuel 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et Ibaar et Helisua et Nepheg",
+      "citation": "2 Samuel 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et Iafia et Helisama et Helida et Helifeleth",
+      "citation": "2 Samuel 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "audierunt vero Philisthim quod unxissent David regem super Israhel et ascenderunt universi ut quaererent David quod cum audisset David descendit in praesidium",
+      "citation": "2 Samuel 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "Philisthim autem venientes diffusi sunt in valle Raphaim",
+      "citation": "2 Samuel 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et consuluit David Dominum dicens si ascendam ad Philisthim et si dabis eos in manu mea et dixit Dominus ad David ascende quia tradens dabo Philisthim in manu tua",
+      "citation": "2 Samuel 5:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "venit ergo David in Baalpharasim et percussit eos ibi et dixit divisit Dominus inimicos meos coram me sicut dividuntur aquae propterea vocatum est nomen loci illius Baalpharasim",
+      "citation": "2 Samuel 5:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et reliquerunt ibi sculptilia sua quae tulit David et viri eius",
+      "citation": "2 Samuel 5:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et addiderunt adhuc Philisthim ut ascenderent et diffusi sunt in valle Raphaim",
+      "citation": "2 Samuel 5:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "consuluit autem David Dominum qui respondit non ascendas sed gyra post tergum eorum et venies ad eos ex adverso pirorum",
+      "citation": "2 Samuel 5:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et cum audieris sonitum gradientis in cacumine pirorum tunc inibis proelium quia tunc egredietur Dominus ante faciem tuam ut percutiat castra Philisthim",
+      "citation": "2 Samuel 5:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "fecit itaque David sicut ei praeceperat Dominus et percussit Philisthim de Gabee usque dum venias Gezer",
+      "citation": "2 Samuel 5:25 (Clementine Vulgate)"
+    }
+  ]
+}

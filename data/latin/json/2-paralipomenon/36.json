@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Chronicles, Chapter 36 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Chronicles",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "order": 14,
+      "totalChapters": 36
+    },
+    "chapter": 36,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-paralipomenon/35.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-paralipomenon/36.json",
+      "german": "https://latinprayer.org/bibel/2-paralipomenon/36.json"
+    }
+  },
+  "citation": "2 Chronicles 36 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tulit ergo populus terrae Ioachaz filium Iosiae et constituit regem pro patre suo in Hierusalem",
+      "citation": "2 Chronicles 36:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "viginti trium annorum erat Ioachaz cum regnare coepisset et tribus mensibus regnavit in Hierusalem",
+      "citation": "2 Chronicles 36:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "amovit autem eum rex Aegypti cum venisset Hierusalem et condemnavit terram centum talentis argenti et talento auri",
+      "citation": "2 Chronicles 36:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "constituitque regem pro eo Eliacim fratrem eius super Iudam et Hierusalem et vertit nomen eius Ioacim ipsum vero Ioachaz tulit secum et adduxit in Aegyptum",
+      "citation": "2 Chronicles 36:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "viginti quinque annorum erat Ioacim cum regnare coepisset et undecim annis regnavit in Hierusalem fecitque malum coram Domino Deo suo",
+      "citation": "2 Chronicles 36:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "contra hunc ascendit Nabuchodonosor rex Chaldeorum et vinctum catenis duxit in Babylonem",
+      "citation": "2 Chronicles 36:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ad quam et vasa Domini transtulit et posuit ea in templo suo",
+      "citation": "2 Chronicles 36:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "reliqua autem verborum Ioacim et abominationum eius quas operatus est et quae inventa sunt in eo continentur in libro regum Israhel et Iuda regnavitque Ioachin filius eius pro eo",
+      "citation": "2 Chronicles 36:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "octo annorum erat Ioachin cum regnare coepisset et tribus mensibus ac decem diebus regnavit in Hierusalem fecitque malum in conspectu Domini",
+      "citation": "2 Chronicles 36:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cumque anni circulus volveretur misit Nabuchodonosor rex qui et adduxerunt eum in Babylonem asportatis simul pretiosissimis vasis domus Domini regem vero constituit Sedeciam fratrem eius super Iudam et Hierusalem",
+      "citation": "2 Chronicles 36:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "viginti et unius anni erat Sedecias cum regnare coepisset et undecim annis regnavit in Hierusalem",
+      "citation": "2 Chronicles 36:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "fecitque malum in oculis Domini Dei sui nec erubuit faciem Hieremiae prophetae loquentis ad se ex ore Domini",
+      "citation": "2 Chronicles 36:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "a rege quoque Nabuchodonosor recessit qui adiuraverat eum per Deum et induravit cervicem suam et cor ut non reverteretur ad Dominum Deum Israhel",
+      "citation": "2 Chronicles 36:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sed et universi principes sacerdotum et populus praevaricati sunt inique iuxta universas abominationes gentium et polluerunt domum Domini quam sanctificaverat sibi in Hierusalem",
+      "citation": "2 Chronicles 36:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "mittebat autem Dominus Deus patrum suorum ad illos per manum nuntiorum suorum de nocte consurgens et cotidie commonens eo quod parceret populo et habitaculo suo",
+      "citation": "2 Chronicles 36:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "at illi subsannabant nuntios Dei et parvipendebant sermones eius inludebantque prophetis donec ascenderet furor Domini in populum eius et esset nulla curatio",
+      "citation": "2 Chronicles 36:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "adduxit enim super eos regem Chaldeorum et interfecit iuvenes eorum gladio in domo sanctuarii sui non est misertus adulescentis et virginis et senis nec decrepiti quidem sed omnes tradidit manibus eius",
+      "citation": "2 Chronicles 36:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "universaque vasa domus Domini tam maiora quam minora et thesauros templi et regis et principum transtulit in Babylonem",
+      "citation": "2 Chronicles 36:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "incenderunt hostes domum Dei destruxerunt murum Hierusalem universas turres conbuserunt et quicquid pretiosum fuerat demoliti sunt",
+      "citation": "2 Chronicles 36:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "si quis evaserat gladium ductus in Babylonem servivit regi et filiis eius donec imperaret rex Persarum",
+      "citation": "2 Chronicles 36:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et conpleretur sermo Domini ex ore Hieremiae et celebraret terra sabbata sua cunctis enim diebus desolationis egit sabbatum usque dum conplerentur septuaginta anni",
+      "citation": "2 Chronicles 36:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "anno autem primo Cyri regis Persarum ad explendum sermonem Domini quem locutus fuerat per os Hieremiae suscitavit Dominus spiritum Cyri regis Persarum qui iussit praedicari in universo regno suo etiam per scripturam dicens Ezra",
+      "citation": "2 Chronicles 36:22 (Clementine Vulgate)"
+    }
+  ]
+}

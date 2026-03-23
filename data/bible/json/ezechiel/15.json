@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezechiel, Chapter 15 — 8 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezechiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 15,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ezechiel/14.json",
+      "nextChapter": "https://latinprayer.org/bible/ezechiel/16.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ezechiel/15.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/15.json"
+    }
+  },
+  "citation": "Ezechiel 15 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the word of the Lord came to me, saying:",
+      "citation": "Ezechiel 15:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Son of man, what shall be made of the wood of the vine, out of all the trees of the woods that are among the trees of the forests?",
+      "citation": "Ezechiel 15:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Shall wood be taken of it, to do any work, or shall a pin be made of it for any vessel to hang thereon?",
+      "citation": "Ezechiel 15:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Behold it is cast into the fire for fuel: the fire hath consumed both ends thereof, and the midst thereof is reduced to ashes: shall it be useful for any work?",
+      "citation": "Ezechiel 15:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Even when it was whole it was not fit for work: how much less, when the fire hath devoured and consumed it, shall any work be made of it?",
+      "citation": "Ezechiel 15:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Therefore thus saith the Lord God: As the vine tree among the trees of the forests which I have given to the fire to be consumed, so will I deliver up the inhabitants of Jerusalem.",
+      "citation": "Ezechiel 15:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And I will set my face against them: they shall go out from fire, and fire shall consume them: and you shall know that I am the Lord, when I shall have set my face against them.",
+      "citation": "Ezechiel 15:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And I shall have made their land a wilderness, and desolate, because they have been transgressors, saith the Lord God.",
+      "citation": "Ezechiel 15:8 (Douay-Rheims)"
+    }
+  ]
+}

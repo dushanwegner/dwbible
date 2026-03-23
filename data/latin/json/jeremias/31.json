@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 31 — 40 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 31,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/30.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/32.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/31.json",
+      "german": "https://latinprayer.org/bibel/jeremias/31.json"
+    }
+  },
+  "citation": "Jeremiah 31 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in tempore illo dicit Dominus ero Deus universis cognationibus Israhel et ipsi erunt mihi in populum",
+      "citation": "Jeremiah 31:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "haec dicit Dominus invenit gratiam in deserto populus qui remanserat gladio vadet ad requiem suam Israhel",
+      "citation": "Jeremiah 31:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "longe Dominus apparuit mihi et in caritate perpetua dilexi te ideo adtraxi te miserans",
+      "citation": "Jeremiah 31:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "rursumque aedificabo te et aedificaberis virgo Israhel adhuc ornaberis tympanis tuis et egredieris in choro ludentium",
+      "citation": "Jeremiah 31:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "adhuc plantabis vineas in montibus Samariae plantabunt plantantes et donec tempus veniat non vindemiabunt",
+      "citation": "Jeremiah 31:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quia erit dies in qua clamabunt custodes in monte Ephraim surgite et ascendamus in Sion ad Dominum Deum nostrum",
+      "citation": "Jeremiah 31:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quia haec dicit Dominus exultate in laetitia Iacob et hinnite contra caput gentium personate canite et dicite salva Domine populum tuum reliquias Israhel",
+      "citation": "Jeremiah 31:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ecce ego adducam eos de terra aquilonis et congregabo eos ab extremis terrae inter quos erunt caecus et claudus et praegnans et pariens simul coetus magnus revertentium huc",
+      "citation": "Jeremiah 31:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "in fletu venient et in precibus deducam eos et adducam eos per torrentes aquarum in via recta et non inpingent in ea quia factus sum Israheli pater et Ephraim primogenitus meus est",
+      "citation": "Jeremiah 31:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "audite verbum Domini gentes et adnuntiate insulis quae procul sunt et dicite qui dispersit Israhel congregabit eum et custodiet eum sicut pastor gregem suum",
+      "citation": "Jeremiah 31:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "redemit enim Dominus Iacob et liberavit eum de manu potentioris",
+      "citation": "Jeremiah 31:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et venient et laudabunt in monte Sion et confluent ad bona Domini super frumento et vino et oleo et fetu pecorum et armentorum eritque anima eorum quasi hortus inriguus et ultra non esurient",
+      "citation": "Jeremiah 31:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "tunc laetabitur virgo in choro iuvenes et senes simul et convertam luctum eorum in gaudium et consolabor eos et laetificabo a dolore suo",
+      "citation": "Jeremiah 31:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et inebriabo animam sacerdotum pinguedine et populus meus bonis meis adimplebitur ait Dominus",
+      "citation": "Jeremiah 31:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "haec dicit Dominus vox in excelso audita est lamentationis fletus et luctus Rachel plorantis filios suos et nolentis consolari super eis quia non sunt",
+      "citation": "Jeremiah 31:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "haec dicit Dominus quiescat vox tua a ploratu et oculi tui a lacrimis quia est merces operi tuo ait Dominus et revertentur de terra inimici",
+      "citation": "Jeremiah 31:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et est spes novissimis tuis ait Dominus et revertentur filii ad terminos suos",
+      "citation": "Jeremiah 31:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "audiens audivi Ephraim transmigrantem castigasti me et eruditus sum quasi iuvenculus indomitus converte me et revertar quia tu Dominus Deus meus",
+      "citation": "Jeremiah 31:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "postquam enim convertisti me egi paenitentiam et postquam ostendisti mihi percussi femur meum confusus sum et erubui quoniam sustinui obprobrium adulescentiae meae",
+      "citation": "Jeremiah 31:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "si filius honorabilis mihi Ephraim si puer delicatus quia ex quo locutus sum de eo adhuc recordabor eius idcirco conturbata sunt viscera mea super eum miserans miserebor eius ait Dominus",
+      "citation": "Jeremiah 31:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "statue tibi speculam pone tibi amaritudines dirige cor tuum in viam directam in qua ambulasti revertere virgo Israhel revertere ad civitates tuas istas",
+      "citation": "Jeremiah 31:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "usquequo deliciis dissolveris filia vaga quia creavit Dominus novum super terram femina circumdabit virum",
+      "citation": "Jeremiah 31:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "haec dicit Dominus exercituum Deus Israhel adhuc dicent verbum istud in terra Iuda et in urbibus eius cum convertero captivitatem eorum benedicat tibi Dominus pulchritudo iustitiae mons sanctus",
+      "citation": "Jeremiah 31:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et habitabunt in eo Iudas et omnes civitates eius simul agricolae et minantes greges",
+      "citation": "Jeremiah 31:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quia inebriavi animam lassam et omnem animam esurientem saturavi",
+      "citation": "Jeremiah 31:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "ideo quasi de somno suscitatus sum et vidi et somnus meus dulcis mihi",
+      "citation": "Jeremiah 31:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "ecce dies veniunt dicit Dominus et seminabo domum Israhel et domum Iuda semine hominis et semine iumentorum",
+      "citation": "Jeremiah 31:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et sicut vigilavi super eos ut evellerem et demolirer et dissiparem et disperderem et adfligerem sic vigilabo super eos ut aedificem et plantem ait Dominus",
+      "citation": "Jeremiah 31:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "in diebus illis non dicent ultra patres comederunt uvam acerbam et dentes filiorum obstipuerunt",
+      "citation": "Jeremiah 31:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "sed unusquisque in iniquitate sua morietur omnis homo qui comederit uvam acerbam obstupescent dentes eius",
+      "citation": "Jeremiah 31:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "ecce dies veniunt dicit Dominus et feriam domui Israhel et domui Iuda foedus novum",
+      "citation": "Jeremiah 31:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "non secundum pactum quod pepigi cum patribus vestris in die qua adprehendi manum eorum ut educerem eos de terra Aegypti pactum quod irritum fecerunt et ego dominatus sum eorum dicit Dominus",
+      "citation": "Jeremiah 31:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "sed hoc erit pactum quod feriam cum domo Israhel post dies illos dicit Dominus dabo legem meam in visceribus eorum et in corde eorum scribam eam et ero eis in Deum et ipsi erunt mihi in populum",
+      "citation": "Jeremiah 31:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et non docebunt ultra vir proximum suum et vir fratrem suum dicens cognoscite Dominum omnes enim cognoscent me a minimo eorum usque ad maximum ait Dominus quia propitiabor iniquitati eorum et peccati eorum non ero memor amplius",
+      "citation": "Jeremiah 31:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "haec dicit Dominus qui dat solem in lumine diei ordinem lunae et stellarum in lumine noctis qui turbat mare et sonant fluctus eius Dominus exercituum nomen illi",
+      "citation": "Jeremiah 31:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "si defecerint leges istae coram me dicit Dominus tunc et semen Israhel deficiet ut non sit gens coram me cunctis diebus",
+      "citation": "Jeremiah 31:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "haec dicit Dominus si mensurari potuerint caeli sursum et investigari fundamenta terrae deorsum et ego abiciam universum semen Israhel propter omnia quae fecerunt dicit Dominus",
+      "citation": "Jeremiah 31:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "ecce dies veniunt dicit Dominus et aedificabitur civitas Domino a turre Ananehel usque ad portam Anguli",
+      "citation": "Jeremiah 31:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et exibit ultra norma mensurae in conspectu eius super collem Gareb et circuibit Goatha",
+      "citation": "Jeremiah 31:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "et omnem vallem cadaverum et cineris et universam regionem mortis usque ad torrentem Cedron et usque ad angulum portae Equorum orientalis sanctum Domini non evelletur et non destruetur ultra in perpetuum",
+      "citation": "Jeremiah 31:40 (Clementine Vulgate)"
+    }
+  ]
+}

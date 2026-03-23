@@ -1,0 +1,281 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Lukas, Chapter 6 — 49 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Lukas",
+      "slug": "luke",
+      "testament": "NT",
+      "order": 49,
+      "totalChapters": 24
+    },
+    "chapter": 6,
+    "verseCount": 49,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/luke/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/luke/5.json",
+      "nextChapter": "https://latinprayer.org/bibel/luke/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/luke/6.json",
+      "latin": "https://latinprayer.org/latin/luke/6.json"
+    }
+  },
+  "citation": "Lukas 6 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Es begab sich aber an einem Sabbat, daß er durch die Kornfelder wanderte; dabei pflückten seine Jünger Ähren ab, zerrieben sie in den Händen und aßen sie.",
+      "citation": "Lukas 6:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da sagten einige von den Pharisäern zu ihnen: »Warum tut ihr da etwas, das man am Sabbat nicht tun darf?«",
+      "citation": "Lukas 6:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Jesus antwortete ihnen: »Habt ihr auch davon nichts gelesen, was David getan hat, als ihn samt seinen Begleitern hungerte?",
+      "citation": "Lukas 6:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wie er da ins Gotteshaus hineinging, dort die Schaubrote nahm und sie aß und auch seinen Begleitern davon gab, obgleich doch niemand außer den Priestern sie essen darf?«",
+      "citation": "Lukas 6:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Er schloß mit den Worten: »Der Menschensohn ist Herr (auch) über den Sabbat.«",
+      "citation": "Lukas 6:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "An einem anderen Sabbat aber ging er in die Synagoge und lehrte. Dort war ein Mann, dessen rechter Arm verdorrt war.",
+      "citation": "Lukas 6:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da lauerten die Schriftgelehrten und Pharisäer ihm auf, ob er wohl am Sabbat heilen würde, um dann einen Grund zu einer Anklage gegen ihn zu haben;",
+      "citation": "Lukas 6:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "er aber kannte ihre Gedanken wohl. Er sagte nun zu dem Manne mit dem gelähmten Arm: »Stehe auf und tritt vor in die Mitte!« Jener stand auf und trat hin.",
+      "citation": "Lukas 6:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Dann sagte Jesus zu ihnen: »Ich frage euch: Darf man am Sabbat Gutes tun, oder soll man Böses tun? Darf man ein Leben erhalten, oder soll man es zugrunde gehen lassen?«",
+      "citation": "Lukas 6:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Nachdem er sie dann alle ringsum (zornig) angeblickt hatte, sagte er zu ihm: »Strecke deinen Arm aus!« Jener tat es, und sein Arm wurde wieder hergestellt.",
+      "citation": "Lukas 6:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Jene aber wurden ganz sinnlos vor Wut und besprachen sich miteinander, was sie Jesus antun könnten.",
+      "citation": "Lukas 6:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Es begab sich aber in diesen Tagen, daß er hinausging auf den Berg, um zu beten, und er verbrachte dort die (ganze) Nacht im Gebet zu Gott.",
+      "citation": "Lukas 6:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Als es dann Tag geworden war, rief er seine Jünger zu sich und wählte zwölf aus ihnen aus, die er auch Apostel nannte:",
+      "citation": "Lukas 6:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Simon, den er auch Petrus nannte, und dessen Bruder Andreas; ferner Jakobus und Johannes, Philippus und Bartholomäus,",
+      "citation": "Lukas 6:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Matthäus und Thomas, Jakobus, den Sohn des Alphäus, und Simon mit dem Beinamen ›der Eiferer‹,",
+      "citation": "Lukas 6:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Judas, den Sohn des Jakobus, und Judas Iskarioth, der (später) zum Verräter an ihm wurde.",
+      "citation": "Lukas 6:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Als er dann mit ihnen (vom Berge) wieder hinabgestiegen war, blieb er auf einem ebenen Platz stehen samt einer großen Schar seiner Jünger und einer zahlreichen Volksmenge aus dem ganzen jüdischen Lande, besonders aus Jerusalem, auch aus dem Küstenlande von Tyrus und Sidon.",
+      "citation": "Lukas 6:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Alle diese waren gekommen, um ihn zu hören und sich von ihren Krankheiten heilen zu lassen; auch die von unreinen Geistern Geplagten fanden Heilung;",
+      "citation": "Lukas 6:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "und die ganze Volksmenge suchte ihn anzurühren, denn eine Kraft ging von ihm aus und heilte alle.",
+      "citation": "Lukas 6:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Da richtete er seine Augen auf seine Jünger und sagte: »Selig seid ihr Armen, denn euer Teil ist das Reich Gottes!",
+      "citation": "Lukas 6:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Selig seid ihr, die ihr jetzt hungert, denn ihr werdet gesättigt werden! Selig seid ihr, die ihr jetzt weint, denn ihr werdet lachen!",
+      "citation": "Lukas 6:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Selig seid ihr, wenn die Menschen euch hassen und wenn sie euch aus ihrer Gemeinschaft ausschließen und euch schmähen und euren Namen als ein Schimpfwort verwerfen um des Menschensohnes willen!",
+      "citation": "Lukas 6:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Freuet euch alsdann und jubelt! Denn wisset wohl: euer Lohn ist groß im Himmel. Ihre Väter haben ja an den Propheten ebenso gehandelt.",
+      "citation": "Lukas 6:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Doch wehe euch Reichen, denn ihr habt euren Trost dahin!",
+      "citation": "Lukas 6:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Wehe euch, die ihr jetzt satt seid, denn ihr werdet Hunger leiden! Wehe euch, die ihr jetzt lacht, denn ihr werdet trauern und weinen!",
+      "citation": "Lukas 6:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Wehe euch, wenn alle Welt mit Lobesworten von euch redet! Ihre Väter haben ja an den falschen Propheten ebenso gehandelt.«",
+      "citation": "Lukas 6:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "»Euch aber, meinen Hörern, sage ich: Liebet eure Feinde, tut denen Gutes, die euch hassen,",
+      "citation": "Lukas 6:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "segnet die, welche euch fluchen, betet für die, welche euch anfeinden!",
+      "citation": "Lukas 6:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Wer dich auf die Wange schlägt, dem halte auch die andere hin, und wer dir den Mantel wegnimmt, dem verweigere auch den Rock nicht!",
+      "citation": "Lukas 6:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Jedem, der dich (um etwas) bittet, dem gib, und wer dir das Deine nimmt, von dem fordere es nicht zurück!",
+      "citation": "Lukas 6:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Und wie ihr von den Leuten behandelt werden wollt, ebenso behandelt auch ihr sie!",
+      "citation": "Lukas 6:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Denn wenn ihr (nur) die liebt, die euch lieben: welchen (Anspruch auf) Dank habt ihr dann? Auch die Sünder lieben ja die, welche ihnen Liebe erweisen.",
+      "citation": "Lukas 6:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Und wenn ihr (nur) denen Gutes erweist, die euch Gutes tun: welchen (Anspruch auf) Dank habt ihr dann? Auch die Sünder tun dasselbe.",
+      "citation": "Lukas 6:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Und wenn ihr denen leiht, von denen ihr (das Geliehene) zurückzuerhalten hofft: welchen (Anspruch auf) Dank habt ihr dann? Auch die Sünder leihen den Sündern, um ebensoviel zurückzuerhalten.",
+      "citation": "Lukas 6:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Nein, liebet eure Feinde, tut Gutes und leihet aus, ohne etwas zurückzuerwarten! Dann wird euer Lohn groß sein, und ihr werdet Söhne des Höchsten sein; denn er ist gütig (auch) gegen die Undankbaren und Bösen.",
+      "citation": "Lukas 6:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Seid barmherzig, wie euer Vater barmherzig ist!«",
+      "citation": "Lukas 6:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "»Und richtet nicht, dann werdet ihr auch nicht gerichtet werden; und verurteilt nicht, dann werdet ihr auch nicht verurteilt werden; laßt (eure Schuldner) frei, dann werdet ihr auch freigelassen werden.",
+      "citation": "Lukas 6:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "Gebt, dann wird auch euch gegeben werden: ein reichliches, festgedrücktes, gerütteltes und übervolles Maß wird man euch in den Schoß schütten; denn mit demselben Maß, mit dem ihr zumeßt, wird euch wieder zugemessen werden.« –",
+      "citation": "Lukas 6:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Er legte ihnen dann auch ein Gleichnis vor: »Kann wohl ein Blinder einen Blinden führen? Werden sie nicht beide in die Grube fallen?",
+      "citation": "Lukas 6:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "Der Jünger steht nicht über seinem Meister: jeder (Jünger) wird, wenn er völlig ausgebildet ist, immer nur wie sein Meister sein.",
+      "citation": "Lukas 6:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "Was siehst du aber den Splitter im Auge deines Bruders, während du den Balken in deinem eignen Auge nicht wahrnimmst?",
+      "citation": "Lukas 6:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "Oder wie darfst du zu deinem Bruder sagen: ›Bruder, laß mich den Splitter, der in deinem Auge steckt, herausziehen‹, während du den Balken in deinem eignen Auge nicht gewahrst? Du Heuchler! Ziehe zuerst den Balken aus deinem Auge, dann magst du zusehen, daß du den Splitter herausziehst, der im Auge deines Bruders steckt.«",
+      "citation": "Lukas 6:42 (Menge)"
+    },
+    {
+      "verse": 43,
+      "text": "»Denn es gibt keinen guten Baum, der schlechte Früchte bringt, und umgekehrt keinen schlechten Baum, der gute Früchte bringt.",
+      "citation": "Lukas 6:43 (Menge)"
+    },
+    {
+      "verse": 44,
+      "text": "Jeden Baum erkennt man ja an seinen Früchten; denn von Dornen sammelt man keine Feigen, und von einem Dornbusch kann man keine Trauben lesen.",
+      "citation": "Lukas 6:44 (Menge)"
+    },
+    {
+      "verse": 45,
+      "text": "Ein guter Mensch bringt aus der guten Schatzkammer seines Herzens das Gute hervor, während ein böser Mensch aus der bösen (Schatzkammer seines Herzens) das Böse hervorbringt; denn wovon das Herz voll ist, davon redet sein Mund.«",
+      "citation": "Lukas 6:45 (Menge)"
+    },
+    {
+      "verse": 46,
+      "text": "»Was nennt ihr mich aber ›Herr, Herr!‹ und tut doch nicht, was ich (euch) sage?",
+      "citation": "Lukas 6:46 (Menge)"
+    },
+    {
+      "verse": 47,
+      "text": "Wer zu mir kommt und meine Worte hört und nach ihnen tut – ich will euch zeigen, wem der zu vergleichen ist:",
+      "citation": "Lukas 6:47 (Menge)"
+    },
+    {
+      "verse": 48,
+      "text": "Er gleicht einem Manne, der, als er ein Haus bauen wollte, bis in die Tiefe ausgraben ließ und die Grundmauer auf den Felsen legte. Als nun Hochwasser kam, stieß die Flut an jenes Haus, vermochte es aber wegen seiner festen Bauart nicht zu erschüttern.",
+      "citation": "Lukas 6:48 (Menge)"
+    },
+    {
+      "verse": 49,
+      "text": "Wer aber (meine Worte) hört und nicht nach ihnen tut, der gleicht einem Manne, der ein Haus ohne feste Grundmauer auf den (lockeren) Erdboden baute. Als dann die Flut dagegen stieß, stürzte es sogleich in sich zusammen, und der Einsturz dieses Hauses war gewaltig.«",
+      "citation": "Lukas 6:49 (Menge)"
+    }
+  ]
+}

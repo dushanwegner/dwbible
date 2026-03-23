@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea — 14 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/index.json",
+      "german": "https://latinprayer.org/bibel/osee/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 9,
+      "url": "https://latinprayer.org/latin/osee/1",
+      "jsonUrl": "https://latinprayer.org/latin/osee/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/latin/osee/2",
+      "jsonUrl": "https://latinprayer.org/latin/osee/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 5,
+      "url": "https://latinprayer.org/latin/osee/3",
+      "jsonUrl": "https://latinprayer.org/latin/osee/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/latin/osee/4",
+      "jsonUrl": "https://latinprayer.org/latin/osee/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/osee/5",
+      "jsonUrl": "https://latinprayer.org/latin/osee/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/latin/osee/6",
+      "jsonUrl": "https://latinprayer.org/latin/osee/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/latin/osee/7",
+      "jsonUrl": "https://latinprayer.org/latin/osee/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/latin/osee/8",
+      "jsonUrl": "https://latinprayer.org/latin/osee/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/latin/osee/9",
+      "jsonUrl": "https://latinprayer.org/latin/osee/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/osee/10",
+      "jsonUrl": "https://latinprayer.org/latin/osee/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/latin/osee/11",
+      "jsonUrl": "https://latinprayer.org/latin/osee/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/osee/12",
+      "jsonUrl": "https://latinprayer.org/latin/osee/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/osee/13",
+      "jsonUrl": "https://latinprayer.org/latin/osee/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 9,
+      "url": "https://latinprayer.org/latin/osee/14",
+      "jsonUrl": "https://latinprayer.org/latin/osee/14.json"
+    }
+  ]
+}

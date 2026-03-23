@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joshua, Chapter 4 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joshua",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 19
+    },
+    "chapter": 4,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/josue/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/josue/3.json",
+      "nextChapter": "https://latinprayer.org/latin/josue/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/josue/4.json",
+      "german": "https://latinprayer.org/bibel/josue/4.json"
+    }
+  },
+  "citation": "Joshua 4 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quibus transgressis dixit Dominus ad Iosue",
+      "citation": "Joshua 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "elige duodecim viros singulos per singulas tribus",
+      "citation": "Joshua 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et praecipe eis ut tollant de medio Iordanis alveo ubi steterunt sacerdotum pedes duodecim durissimos lapides quos ponetis in loco castrorum ubi fixeritis hac nocte tentoria",
+      "citation": "Joshua 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "vocavitque Iosue duodecim viros quos elegerat de filiis Israhel singulos de tribubus singulis",
+      "citation": "Joshua 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et ait ad eos ite ante arcam Domini Dei vestri ad Iordanis medium et portate singuli singulos lapides in umeris vestris iuxta numerum filiorum Israhel",
+      "citation": "Joshua 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ut sit signum inter vos et quando interrogaverint vos filii vestri cras dicentes quid sibi volunt isti lapides",
+      "citation": "Joshua 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "respondebitis eis defecerunt aquae Iordanis ante arcam foederis Domini cum transiret eum idcirco positi sunt lapides isti in monumentum filiorum Israhel usque in aeternum",
+      "citation": "Joshua 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "fecerunt ergo filii Israhel sicut eis praecepit Iosue portantes de medio Iordanis alveo duodecim lapides ut ei Dominus imperarat iuxta numerum filiorum Israhel usque ad locum in quo castrametati sunt ibique posuerunt eos",
+      "citation": "Joshua 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "alios quoque duodecim lapides posuit Iosue in medio Iordanis alveo ubi steterunt sacerdotes qui portabant arcam foederis et sunt ibi usque in praesentem diem",
+      "citation": "Joshua 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "sacerdotes autem qui portabant arcam stabant in Iordanis medio donec omnia conplerentur quae Iosue ut loqueretur ad populum praeceperat Dominus et dixerat ei Moses festinavitque populus et transiit",
+      "citation": "Joshua 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "cumque transissent omnes transivit et arca Domini sacerdotesque pergebant ante populum",
+      "citation": "Joshua 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "filii quoque Ruben et Gad et dimidiae tribus Manasse armati praecedebant filios Israhel sicut eis praeceperat Moses",
+      "citation": "Joshua 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et quadraginta pugnatorum milia per turmas et cuneos incedebant per plana atque campestria urbis Hiericho",
+      "citation": "Joshua 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "in illo die magnificavit Dominus Iosue coram omni Israhel ut timerent eum sicut timuerant Mosen dum adviveret",
+      "citation": "Joshua 4:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "dixitque ad eum",
+      "citation": "Joshua 4:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "praecipe sacerdotibus qui portant arcam foederis ut ascendant de Iordane",
+      "citation": "Joshua 4:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "qui praecepit eis dicens ascendite de Iordane",
+      "citation": "Joshua 4:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "cumque ascendissent portantes arcam foederis Domini et siccam humum calcare coepissent reversae sunt aquae in alveum suum et fluebant sicut ante consueverant",
+      "citation": "Joshua 4:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "populus autem ascendit de Iordane decimo mensis primi die et castrametati sunt in Galgalis contra orientalem plagam urbis Hiericho",
+      "citation": "Joshua 4:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "duodecim quoque lapides quos de Iordanis alveo sumpserant posuit Iosue in Galgalis",
+      "citation": "Joshua 4:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et dixit ad filios Israhel quando interrogaverint filii vestri cras patres suos et dixerint eis quid sibi volunt isti lapides",
+      "citation": "Joshua 4:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "docebitis eos atque dicetis per arentem alveum transivit Israhel Iordanem istum",
+      "citation": "Joshua 4:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "siccante Domino Deo vestro aquas eius in conspectu vestro donec transiretis",
+      "citation": "Joshua 4:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "sicut fecerat prius in mari Rubro quod siccavit donec transiremus",
+      "citation": "Joshua 4:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "ut discant omnes terrarum populi fortissimam Domini manum et ut vos timeatis Dominum Deum vestrum omni tempore",
+      "citation": "Joshua 4:24 (Clementine Vulgate)"
+    }
+  ]
+}

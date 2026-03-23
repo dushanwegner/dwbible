@@ -1,0 +1,256 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 25 — 44 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 25,
+    "verseCount": 44,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/24.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/26.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/25.json",
+      "german": "https://latinprayer.org/bibel/psalms/25.json"
+    }
+  },
+  "citation": "Psalms 25 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "psalmus David ad te Domine levavi animam meam",
+      "citation": "Psalms 25:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "David ad te Domine animam meam levabo",
+      "citation": "Psalms 25:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Deus meus in te confido non erubescam",
+      "citation": "Psalms 25:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Deus meus in te confisus sum ne confundar",
+      "citation": "Psalms 25:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "neque inrideant me inimici mei etenim universi qui sustinent te non confundentur",
+      "citation": "Psalms 25:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ne laetentur inimici mei sed et universi qui sperant in te non confundantur",
+      "citation": "Psalms 25:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "confundantur %omnes; iniqua agentes supervacue vias tuas Domine demonstra mihi %et; semitas tuas doce me",
+      "citation": "Psalms 25:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "confundantur qui iniqua gerunt frustra vias tuas Domine ostende mihi semitas tuas doce me",
+      "citation": "Psalms 25:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "dirige me in veritatem tuam et doce me quoniam tu es Deus salvator meus et te sustinui tota die",
+      "citation": "Psalms 25:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "deduc me in veritate tua et doce me quia tu Deus salvator meus te expectavi tota die",
+      "citation": "Psalms 25:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "reminiscere miserationum tuarum Domine et misericordiarum tuarum quia a saeculo sunt",
+      "citation": "Psalms 25:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "recordare miserationum tuarum Domine et misericordiarum tuarum quia ex sempiterno sunt",
+      "citation": "Psalms 25:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "delicta iuventutis meae et ignorantias meas ne memineris secundum misericordiam tuam memento mei * tu; propter bonitatem tuam Domine",
+      "citation": "Psalms 25:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "peccatorum adulescentiae meae et scelerum meorum ne memineris secundum misericordiam tuam recordare mei propter bonitatem tuam Domine",
+      "citation": "Psalms 25:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dulcis et rectus Dominus propter hoc legem dabit delinquentibus in via",
+      "citation": "Psalms 25:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "bonus et rectus Dominus propterea docebit peccatores in via",
+      "citation": "Psalms 25:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "diriget mansuetos in iudicio docebit mites vias suas",
+      "citation": "Psalms 25:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "deducet mansuetos in iudicio et docebit modestos viam suam",
+      "citation": "Psalms 25:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "universae viae Domini misericordia et veritas requirentibus testamentum eius et testimonia eius",
+      "citation": "Psalms 25:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "omnes semitae Domini misericordia et veritas his qui custodiunt pactum eius et testificationem eius",
+      "citation": "Psalms 25:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "propter nomen tuum Domine et propitiaberis peccato meo multum est enim",
+      "citation": "Psalms 25:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "propter nomen tuum propitiare iniquitati meae quoniam grandis est",
+      "citation": "Psalms 25:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quis est homo qui timet Dominum legem statuet ei in via quam elegit",
+      "citation": "Psalms 25:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quis est iste vir timens Dominum quem docebit in via quam elegerit",
+      "citation": "Psalms 25:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "anima eius in bonis demorabitur et semen ipsius hereditabit terram",
+      "citation": "Psalms 25:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "anima eius in bono commorabitur et semen eius hereditabit terram",
+      "citation": "Psalms 25:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "firmamentum est Dominus timentibus eum et testamentum ipsius ut manifestetur illis",
+      "citation": "Psalms 25:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "secretum Domini timentibus eum et pactum suum ostendet eis",
+      "citation": "Psalms 25:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "oculi mei semper ad Dominum quoniam ipse evellet de laqueo pedes meos",
+      "citation": "Psalms 25:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "oculi mei semper ad Dominum quia ipse educet de rete pedes meos",
+      "citation": "Psalms 25:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "respice in me et miserere mei quia unicus et pauper sum ego",
+      "citation": "Psalms 25:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "respice in me et miserere mei quoniam solus et pauper sum ego",
+      "citation": "Psalms 25:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "tribulationes cordis mei multiplicatae sunt de necessitatibus meis erue me",
+      "citation": "Psalms 25:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "tribulationes cordis mei multiplicatae sunt de angustiis meis educ me",
+      "citation": "Psalms 25:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "vide humilitatem meam et laborem meum et dimitte universa delicta mea",
+      "citation": "Psalms 25:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "vide adflictionem meam et laborem meum et porta omnia peccata mea",
+      "citation": "Psalms 25:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "respice inimicos meos quoniam multiplicati sunt et odio iniquo oderunt me",
+      "citation": "Psalms 25:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "vide inimicos meos quia multiplicati sunt et odio iniquo oderunt me",
+      "citation": "Psalms 25:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "custodi animam meam et erue me non erubescam quoniam speravi in te",
+      "citation": "Psalms 25:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "custodi animam meam et libera me non confundar quia speravi in te",
+      "citation": "Psalms 25:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "innocentes et recti adheserunt mihi quia sustinui te",
+      "citation": "Psalms 25:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "simplicitas et aequitas servabunt me quia expectavi te",
+      "citation": "Psalms 25:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "libera Deus Israhel ex omnibus tribulationibus suis",
+      "citation": "Psalms 25:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "redime Deus Israhelem ex omnibus angustiis suis",
+      "citation": "Psalms 25:22 (Clementine Vulgate)"
+    }
+  ]
+}

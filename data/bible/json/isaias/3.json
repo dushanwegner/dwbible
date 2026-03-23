@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 3 — 26 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 3,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/2.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/3.json",
+      "german": "https://latinprayer.org/bibel/isaias/3.json"
+    }
+  },
+  "citation": "Isaias 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "For behold the sovereign Lord of hosts shall take away from Jerusalem, and from Juda the valiant and the strong, the whole strength of bread, and the whole strength of water.",
+      "citation": "Isaias 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The strong man, and the man of war, the judge, and the prophet and the cunning man, and the ancient.",
+      "citation": "Isaias 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The captain over fifty, and the honourable in countenance, and the counsellor, and the architect, and the skilful in eloquent speech.",
+      "citation": "Isaias 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And I will give children to be their princes, and the effeminate shall rule over them.",
+      "citation": "Isaias 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the people shall rush one upon another, and every man against his neighbour: the child shall make a tumult against the ancient, and the base against the honourable.",
+      "citation": "Isaias 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For a man shall take hold of his brother, one of the house of his father, saying: Thou hast a garment, be thou our ruler, and let this ruin be under thy hand.",
+      "citation": "Isaias 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "In that day he shall answer, saying: I am no healer, and in my house there is no bread, nor clothing: make me not ruler of the people.",
+      "citation": "Isaias 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For Jerusalem is ruined, and Juda is fallen: because their tongue, and their devices are against the Lord, to provoke the eyes of his majesty.",
+      "citation": "Isaias 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The shew of their countenance hath answered them: and they have proclaimed abroad their sin as Sodom, and they have not hid it: woe to their souls, for evils are rendered to them.",
+      "citation": "Isaias 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Say to the just man that it is well, for he shall eat the fruit of his doings.",
+      "citation": "Isaias 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Woe to the wicked unto evil: for the reward of his hands shall be given him.",
+      "citation": "Isaias 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "As for my people, their oppressors have stripped them, and women have ruled over them. O my people, they that call thee blessed, the same deceive thee, and destroy the way of thy steps.",
+      "citation": "Isaias 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The Lord standeth up to judge, and he standeth to judge the people.",
+      "citation": "Isaias 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "The Lord will enter into judgment with the ancients of his people, and its princes: for you have devoured the vineyard, and the spoil of the poor is in your house.",
+      "citation": "Isaias 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Why do you consume my people, and grind the faces of the poor? saith the Lord the God of hosts.",
+      "citation": "Isaias 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And the Lord said: Because the daughters of Sion are haughty, and have walked with stretched out necks, and wanton glances of their eyes, and made a noise as they walked with their feet and moved in a set pace:",
+      "citation": "Isaias 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The Lord will make bald the crown of the head of the daughters of Sion, and the Lord will discover their hair.",
+      "citation": "Isaias 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "In that day the Lord will take away the ornaments of shoes, and little moons,",
+      "citation": "Isaias 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And chains and necklaces, and bracelets, and bonnets,",
+      "citation": "Isaias 3:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And bodkins, and ornaments of the legs, and tablets, and sweet balls, and earrings,",
+      "citation": "Isaias 3:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And rings, and jewels hanging on the forehead,",
+      "citation": "Isaias 3:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And changes of apparel, and short cloaks, and fine linen, and crisping pins,",
+      "citation": "Isaias 3:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And lookingglasses, and lawns, and headbands, and fine veils.",
+      "citation": "Isaias 3:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And instead of a sweet smell there shall be stench, and instead of a girdle, a cord, and instead of curled hair, baldness, and instead of a stomacher, haircloth.",
+      "citation": "Isaias 3:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Thy fairest men also shall fall by the sword, and thy valiant ones in battle.",
+      "citation": "Isaias 3:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And her gates shall lament and mourn, and she shall sit desolate on the ground.",
+      "citation": "Isaias 3:26 (Douay-Rheims)"
+    }
+  ]
+}

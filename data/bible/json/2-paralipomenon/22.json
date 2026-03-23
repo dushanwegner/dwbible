@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Paralipomenon, Chapter 22 — 12 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Paralipomenon",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "order": 14,
+      "totalChapters": 36
+    },
+    "chapter": 22,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-paralipomenon/21.json",
+      "nextChapter": "https://latinprayer.org/bible/2-paralipomenon/23.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-paralipomenon/22.json",
+      "german": "https://latinprayer.org/bibel/2-paralipomenon/22.json"
+    }
+  },
+  "citation": "2. Paralipomenon 22 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the inhabitants of Jerusalem made Ochozias his youngest son king in his place: for the rovers of the Arabians, who had broke in upon the camp, had killed all that were his elder brothers. So Ochozias the son of Joram king of Juda reigned.",
+      "citation": "2. Paralipomenon 22:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Ochozias was forty-two years old when he began to reign, and he reigned one year in Jerusalem, and the name of his mother was Athalia the daughter of Amri.",
+      "citation": "2. Paralipomenon 22:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He also walked in the ways of the house of Achab: for his mother pushed him on to do wickedly.",
+      "citation": "2. Paralipomenon 22:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "So he did evil in the sight of the Lord, as the house of Achab did: for they were his counsellors after the death of his father, to his destruction.",
+      "citation": "2. Paralipomenon 22:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And he walked after their counsels. And he went with Joram the son of Achab king of Israel, to fight against Hazael king of Syria, at Ramoth Galaad: and the Syrians wounded Joram.",
+      "citation": "2. Paralipomenon 22:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And he returned to be healed in Jezrahel: for he received many wounds in the foresaid battle. And Ochozias the son of Joram king of Juda, went down to visit Joram the son of Achab in Jezrahel where he lay sick.",
+      "citation": "2. Paralipomenon 22:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For it was the will of God against Ochozias that he should come to Joram: and when he was come should go out also against Jehu the son of Namsi, whom the Lord had anointed to destroy the house of Achab.",
+      "citation": "2. Paralipomenon 22:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "So when Jehu was rooting out the house of Achab, he found the princes of Juda, and the sons of the brethren of Ochozias, who served him, and he slew them.",
+      "citation": "2. Paralipomenon 22:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And he sought for Ochozias himself, and took him lying hid in Samaria: and when he was brought to him, he killed him, and they buried him: because he was the son of Josaphat, who had sought the Lord with all his heart. And there was no more hope that any one should reign of the race of Ochozias.",
+      "citation": "2. Paralipomenon 22:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For Athalia his mother, seeing that her son was dead, rose up, and killed all the royal family of the house of Joram.",
+      "citation": "2. Paralipomenon 22:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "But Josabeth the king's daughter took Joas the son of Ochozias, and stole him from among the king's sons that were slain. And she hid him with his nurse in a bedchamber: now Josabeth that hid him, was daughter of king Joram, wife of Joiada the high priest, and sister of Ochozias, and therefore Athalia did not kill him.",
+      "citation": "2. Paralipomenon 22:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And he was with them hid in the house of God six years, during which Athalia reigned over the land.",
+      "citation": "2. Paralipomenon 22:12 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Canticle of Canticles, Chapter 5 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Canticle of Canticles",
+      "slug": "canticle-of-canticles",
+      "testament": "OT",
+      "order": 24,
+      "totalChapters": 8
+    },
+    "chapter": 5,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/canticle-of-canticles/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/canticle-of-canticles/4.json",
+      "nextChapter": "https://latinprayer.org/bible/canticle-of-canticles/6.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/canticle-of-canticles/5.json",
+      "german": "https://latinprayer.org/bibel/canticle-of-canticles/5.json"
+    }
+  },
+  "citation": "Canticle of Canticles 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Let my beloved come into his garden, and eat the fruit of his apple trees. I am come into my garden, O my sister, my spouse, I have gathered my myrrh, with my aromatical spices: I have eaten the honeycomb with my honey, I have drunk my wine with my milk: eat, O friends, and drink, and be inebriated, my dearly beloved.",
+      "citation": "Canticle of Canticles 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "I sleep, and my heart watcheth: the voice of my beloved knocking: Open to me, my sister, my love, my dove, my undefiled: for my head is full of dew, and my locks of the drops of the nights.",
+      "citation": "Canticle of Canticles 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "I have put off my garment, how shall I put it on? I have washed my feet, how shall I defile them?",
+      "citation": "Canticle of Canticles 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "My beloved put his hand through the key hole, and my bowels were moved at his touch.",
+      "citation": "Canticle of Canticles 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "I arose up to open to my beloved: my hands dropped with myrrh, and my fingers were full of the choicest myrrh.",
+      "citation": "Canticle of Canticles 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "I opened the bolt of my door to my beloved: but he had turned aside, and was gone. My soul melted when he spoke: I sought him, and found him not: I called, and he did not answer me.",
+      "citation": "Canticle of Canticles 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The keepers that go about the city found me: they struck me: and wounded me: the keepers of the walls took away my veil from me.",
+      "citation": "Canticle of Canticles 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "I adjure you, O daughters of Jerusalem, if you find my beloved, that you tell him that I languish with love.",
+      "citation": "Canticle of Canticles 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "What manner of one is thy beloved of the beloved, O thou most beautiful among women? what manner of one is thy beloved of the beloved, that thou hast so adjured us?",
+      "citation": "Canticle of Canticles 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "My beloved is white and ruddy, chosen out of thousands.",
+      "citation": "Canticle of Canticles 5:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "His head is as the finest gold: his locks as branches of palm trees, black as a raven.",
+      "citation": "Canticle of Canticles 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "His eyes as doves upon brooks of waters, which are washed with milk, and sit beside the plentiful streams.",
+      "citation": "Canticle of Canticles 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "His cheeks are as beds of aromatical spices set by the perfumers. His lips are as lilies dropping choice myrrh.",
+      "citation": "Canticle of Canticles 5:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "His hands are turned and as of gold, full of hyacinths. His belly as of ivory, set with sapphires.",
+      "citation": "Canticle of Canticles 5:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "His legs as pillars of marble, that are set upon bases of gold. His form as of Libanus, excellent as the cedars.",
+      "citation": "Canticle of Canticles 5:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "His throat most sweet, and he is all lovely: such is my beloved, and he is my friend, O ye daughters of Jerusalem.",
+      "citation": "Canticle of Canticles 5:16 (Douay-Rheims)"
+    }
+  ]
+}

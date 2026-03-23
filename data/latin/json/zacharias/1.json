@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Zechariah, Chapter 1 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Zechariah",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 1,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/zacharias/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/zacharias/1.json",
+      "german": "https://latinprayer.org/bibel/zacharias/1.json"
+    }
+  },
+  "citation": "Zechariah 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in mense octavo in anno secundo Darii factum est verbum Domini ad Zacchariam filium Barachiae filium Addo prophetam dicens",
+      "citation": "Zechariah 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "iratus est Dominus super patres vestros iracundia",
+      "citation": "Zechariah 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dices ad eos haec dicit Dominus exercituum convertimini ad me ait Dominus exercituum et convertar ad vos dicit Dominus exercituum",
+      "citation": "Zechariah 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ne sitis sicut patres vestri ad quos clamabant prophetae priores dicentes haec dicit Dominus exercituum convertimini de viis vestris malis et cogitationibus vestris pessimis et non audierunt neque adtenderunt ad me dicit Dominus",
+      "citation": "Zechariah 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "patres vestri ubi sunt et prophetae numquid in sempiternum vivent",
+      "citation": "Zechariah 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "verumtamen verba mea et legitima mea quae mandavi servis meis prophetis numquid non conprehenderunt patres vestros et conversi sunt et dixerunt sicut cogitavit Dominus exercituum facere nobis secundum vias nostras et secundum adinventiones nostras fecit nobis",
+      "citation": "Zechariah 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in die vicesima et quarta undecimo mense sabath in anno secundo Darii factum est verbum Domini ad Zacchariam filium Barachiae filium Addo prophetam dicens",
+      "citation": "Zechariah 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "vidi per noctem et ecce vir ascendens super equum rufum et ipse stabat inter myrteta quae erant in profundo et post eum equi rufi varii et albi",
+      "citation": "Zechariah 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et dixi quid sunt isti domine mi et dixit ad me angelus qui loquebatur in me ego ostendam tibi quid sint haec",
+      "citation": "Zechariah 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et respondit vir qui stabat inter myrteta et dixit isti sunt quos misit Dominus ut perambularent terram",
+      "citation": "Zechariah 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et responderunt angelo Domini qui stabat inter myrteta et dixerunt perambulavimus terram et ecce omnis terra habitatur et quiescit",
+      "citation": "Zechariah 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et respondit angelus Domini et dixit Domine exercituum usquequo tu non misereberis Hierusalem et urbium Iuda quibus iratus es iste septuagesimus annus est",
+      "citation": "Zechariah 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et respondit Dominus angelo qui loquebatur in me verba bona verba consolatoria",
+      "citation": "Zechariah 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et dixit ad me angelus qui loquebatur in me clama dicens haec dicit Dominus exercituum zelatus sum Hierusalem et Sion zelo magno",
+      "citation": "Zechariah 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et ira magna ego irascor super gentes opulentas quia ego iratus sum parum ipsi vero adiuverunt in malum",
+      "citation": "Zechariah 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "propterea haec dicit Dominus revertar ad Hierusalem in misericordiis domus mea aedificabitur in ea ait Dominus exercituum et perpendiculum extendetur super Hierusalem",
+      "citation": "Zechariah 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "adhuc clama dicens haec dicit Dominus exercituum adhuc affluent civitates meae bonis et consolabitur Dominus adhuc Sion et eliget adhuc Hierusalem",
+      "citation": "Zechariah 1:17 (Clementine Vulgate)"
+    }
+  ]
+}

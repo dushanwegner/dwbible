@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezekiel, Chapter 41 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 41,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ezechiel/40.json",
+      "nextChapter": "https://latinprayer.org/latin/ezechiel/42.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ezechiel/41.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/41.json"
+    }
+  },
+  "citation": "Ezekiel 41 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et introduxit me in templum et mensus est frontes sex cubitos latitudinis hinc et sex cubitos latitudinis inde latitudinem tabernaculi",
+      "citation": "Ezekiel 41:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et latitudo portae decem cubitorum erat et latera portae quinque cubitis hinc et quinque cubitis inde et mensus est longitudinem eius quadraginta cubitorum et latitudinem viginti cubitorum",
+      "citation": "Ezekiel 41:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et introgressus intrinsecus mensus est in fronte portae duos cubitos et portam sex cubitorum et latitudinem portae septem cubitorum",
+      "citation": "Ezekiel 41:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et mensus est longitudinem eius viginti cubitorum et latitudinem viginti cubitorum ante faciem templi et dixit ad me hoc est sanctum sanctorum",
+      "citation": "Ezekiel 41:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et mensus est parietem domus sex cubitorum et latitudinem lateris quattuor cubitorum undique per circuitum domus",
+      "citation": "Ezekiel 41:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "latera autem latus ad latus bis triginta tria et erant eminentia quae ingrederentur per parietem domus in lateribus per circuitum ut continerent et non adtingerent parietem templi",
+      "citation": "Ezekiel 41:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et platea erat in rotundum ascendens sursum per cocleam et in cenaculum templi deferebat per gyrum idcirco latius erat templum in superioribus et sic de inferioribus ascendebatur ad superiora in medium",
+      "citation": "Ezekiel 41:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et vidi in domo altitudinem per circuitum fundata latera ad mensuram calami sex cubitorum spatio",
+      "citation": "Ezekiel 41:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et latitudinem per parietem lateris forinsecus quinque cubitorum et interior domus in lateribus domus",
+      "citation": "Ezekiel 41:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et inter gazofilacia latitudinem viginti cubitorum in circuitu domus undique",
+      "citation": "Ezekiel 41:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et ostium lateris ad orationem ostium unum ad viam aquilonis et ostium unum ad viam australem et latitudinem loci ad orationem quinque cubitorum in circuitu",
+      "citation": "Ezekiel 41:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et aedificium quod erat separatum versumque ad viam respicientem ad mare latitudinis septuaginta cubitorum paries autem aedificii quinque cubitorum latitudinis per circuitum et longitudo eius nonaginta cubitorum",
+      "citation": "Ezekiel 41:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et mensus est domus longitudinem centum cubitorum et quod separatum erat aedificium et parietes eius longitudinis centum cubitorum",
+      "citation": "Ezekiel 41:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "latitudo autem ante faciem domus et eius quod erat separatum contra orientem centum cubitorum",
+      "citation": "Ezekiel 41:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et mensus est longitudinem aedificii contra faciem eius quod erat separatum ad dorsum ekthetas ex utraque parte centum cubitorum et templum interius et vestibula atrii",
+      "citation": "Ezekiel 41:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "limina et fenestras obliquas et ekthetas in circuitu per tres partes contra uniuscuiusque limen stratumque ligno per gyrum in circuitu terra autem usque ad fenestras et fenestrae clausae super ostia",
+      "citation": "Ezekiel 41:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et usque ad domum interiorem et forinsecus per omnem parietem in circuitu intrinsecus et forinsecus ad mensuram",
+      "citation": "Ezekiel 41:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et fabrefacta cherubin et palmae et palma inter cherub et cherub duasque facies habebat cherub",
+      "citation": "Ezekiel 41:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "faciem hominis iuxta palmam ex hac parte et faciem leonis iuxta palmam ex alia parte expressam per omnem domum in circuitu",
+      "citation": "Ezekiel 41:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "de terra usque ad superiora portae cherubin et palmae celatae erant in pariete templi",
+      "citation": "Ezekiel 41:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "limen quadrangulum et facies sanctuarii aspectus contra aspectum",
+      "citation": "Ezekiel 41:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "altaris lignei trium cubitorum altitudo et longitudo eius duo cubitorum et anguli eius et longitudo eius et parietes eius lignei et locutus est ad me haec est mensa coram Domino",
+      "citation": "Ezekiel 41:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et duo ostia erant in templo et in sanctuario",
+      "citation": "Ezekiel 41:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et in duobus ostiis ex utraque parte bina erant ostiola quae in se invicem plicabantur bina enim ostia erant ex utraque parte ostiorum",
+      "citation": "Ezekiel 41:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et celata erant in ipsis ostiis templi cherubin et scalptura palmarum sicut in parietibus quoque expressa erat quam ob rem erant et grossiora ligna in vestibuli fronte forinsecus",
+      "citation": "Ezekiel 41:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "super quae fenestrae obliquae et similitudo palmarum hinc atque inde in umerulis vestibuli secundum latera domus latitudinemque parietum",
+      "citation": "Ezekiel 41:26 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 51 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 51,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/50.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/52.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/51.json",
+      "german": "https://latinprayer.org/bibel/isaias/51.json"
+    }
+  },
+  "citation": "Isaiah 51 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "audite me qui sequimini quod iustum est et quaeritis Dominum adtendite ad petram unde excisi estis et ad cavernam laci de qua praecisi estis",
+      "citation": "Isaiah 51:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "adtendite ad Abraham patrem vestrum et ad Sarram quae peperit vos quia unum vocavi eum et benedixi ei et multiplicavi eum",
+      "citation": "Isaiah 51:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "consolabitur ergo Dominus et Sion consolabitur omnes ruinas eius et ponet desertum eius quasi delicias et solitudinem eius quasi hortum Domini gaudium et laetitia invenietur in ea gratiarum actio et vox laudis",
+      "citation": "Isaiah 51:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "adtendite ad me populus meus et tribus mea me audite quia lex a me exiet et iudicium meum in lucem populorum requiescet",
+      "citation": "Isaiah 51:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "prope est iustus meus egressus est salvator meus et brachia mea populos iudicabunt me insulae expectabunt et brachium meum sustinebunt",
+      "citation": "Isaiah 51:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "levate in caelum oculos vestros et videte sub terra deorsum quia caeli sicut fumus liquescent et terra sicut vestimentum adteretur et habitatores eius sicut haec interibunt salus autem mea in sempiternum erit et iustitia mea non deficiet",
+      "citation": "Isaiah 51:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "audite me qui scitis iustum populus lex mea in corde eorum nolite timere obprobrium hominum et blasphemias eorum ne metuatis",
+      "citation": "Isaiah 51:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sicut enim vestimentum sic comedet eos vermis et sicut lanam sic devorabit eos tinea salus autem mea in sempiternum erit et iustitia mea in generationes generationum",
+      "citation": "Isaiah 51:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "consurge consurge induere fortitudinem brachium Domini consurge sicut in diebus antiquis in generationibus saeculorum numquid non tu percussisti superbum vulnerasti draconem",
+      "citation": "Isaiah 51:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "numquid non tu siccasti mare aquam abyssi vehementis qui posuisti profundum maris viam ut transirent liberati",
+      "citation": "Isaiah 51:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et nunc qui redempti sunt a Domino revertentur et venient in Sion laudantes et laetitia sempiterna super capita eorum gaudium et laetitiam tenebunt fugiet dolor et gemitus",
+      "citation": "Isaiah 51:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ego ego ipse consolabor vos quis tu ut timeres ab homine mortali et a filio hominis qui quasi faenum ita arescet",
+      "citation": "Isaiah 51:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et oblitus es Domini factoris tui qui tetendit caelos et fundavit terram et formidasti iugiter tota die a facie furoris eius qui te tribulabat et paraverat ad perdendum ubi nunc est furor tribulantis",
+      "citation": "Isaiah 51:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "cito veniet gradiens ad aperiendum et non interficiet usque ad internicionem nec deficiet panis eius",
+      "citation": "Isaiah 51:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ego autem sum Dominus Deus tuus qui conturbo mare et intumescunt fluctus eius Dominus exercituum nomen meum",
+      "citation": "Isaiah 51:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "posui verba mea in ore tuo et in umbra manus meae protexi te ut plantes caelos et fundes terram et dicas ad Sion populus meus es tu",
+      "citation": "Isaiah 51:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "elevare elevare consurge Hierusalem quae bibisti de manu Domini calicem irae eius usque ad fundum calicis soporis bibisti et epotasti usque ad feces",
+      "citation": "Isaiah 51:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "non est qui sustentet eam ex omnibus filiis quos genuit et non est qui adprehendat manum eius ex omnibus filiis quos enutrivit",
+      "citation": "Isaiah 51:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "duo sunt quae occurrerunt tibi quis contristabitur super te vastitas et contritio et fames et gladius quis consolabitur te",
+      "citation": "Isaiah 51:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "filii tui proiecti sunt dormierunt in capite omnium viarum sicut bestia inlaqueata pleni indignatione Domini increpatione Dei tui",
+      "citation": "Isaiah 51:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "idcirco audi hoc paupercula et ebria non a vino",
+      "citation": "Isaiah 51:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "haec dicit Dominator tuus Dominus et Deus tuus qui pugnavit pro populo suo ecce tuli de manu tua calicem soporis fundum calicis indignationis meae non adicies ut bibas illud ultra",
+      "citation": "Isaiah 51:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et ponam illud in manu eorum qui te humiliaverunt et dixerunt animae tuae incurvare ut transeamus et posuisti ut terram corpus tuum et quasi viam transeuntibus",
+      "citation": "Isaiah 51:23 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sacharja, Chapter 12 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sacharja",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 12,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/zacharias/11.json",
+      "nextChapter": "https://latinprayer.org/bibel/zacharias/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/zacharias/12.json",
+      "latin": "https://latinprayer.org/latin/zacharias/12.json"
+    }
+  },
+  "citation": "Sacharja 12 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "(Dies ist) der Ausspruch des Wortes des HERRN über Israel; so lautet der Ausspruch des HERRN, der den Himmel ausgespannt und die Erde gegründet und den Geist des Menschen in dessen Innern gebildet hat:",
+      "citation": "Sacharja 12:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Wisset wohl: ich mache Jerusalem zu einer Schale voll Taumeltranks für alle Völker ringsum; und auch an Juda wird die Reihe kommen bei der Belagerung Jerusalems.",
+      "citation": "Sacharja 12:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "An jenem Tage will ich Jerusalem zu einem Hebestein für alle Völker machen: alle, die ihn aufheben wollen, werden sich unfehlbar wund an ihm ritzen, wenn alle Völker der Erde sich gegen die Stadt versammeln.",
+      "citation": "Sacharja 12:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "An jenem Tage« – so lautet der Ausspruch des HERRN – »werde ich alle Rosse mit Scheuwerden schlagen und ihre Reiter mit Blindheit; aber über dem Hause Juda will ich meine Augen offenhalten, während ich alle Rosse der Völker mit Blindheit schlage.",
+      "citation": "Sacharja 12:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Alsdann werden die Gaufürsten Judas bei sich denken: ›Erfunden wird die Kraft der Bewohner Jerusalems im HERRN der Heerscharen, ihrem Gott.‹",
+      "citation": "Sacharja 12:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "An jenem Tage will ich die Fürsten Judas machen gleich einem Feuerbecken in einem Holzstoß und wie eine Feuerfackel in einem Garbenhaufen, so daß sie zur Rechten und zur Linken alle Völker ringsum verzehren; Jerusalem aber wird auch weiterhin an seiner Stätte in Jerusalem bestehen bleiben!«",
+      "citation": "Sacharja 12:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Zuerst aber wird der HERR den Zelten Judas Erfolge verleihen, damit der Stolz des Hauses Davids und der Stolz der Bewohner Jerusalems sich Juda gegenüber nicht überhebt.",
+      "citation": "Sacharja 12:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "An jenem Tage wird der HERR die Bewohner Jerusalems beschirmen, so daß der Kraftloseste unter ihnen an jenem Tage wie David sein wird und das Haus Davids wie das Haus Gottes, wie der Engel des HERRN an ihrer Spitze.",
+      "citation": "Sacharja 12:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "»Und geschehen wird es an jenem Tage, da werde ich darauf bedacht sein, alle Völker zu vernichten, die gegen Jerusalem zu Felde gezogen sind.",
+      "citation": "Sacharja 12:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Sodann will ich über das Haus Davids und über die Bewohner Jerusalems den Geist der Gnade und der Bitte um Gnade ausgießen, so daß sie auf den hinblicken werden, den sie durchbohrt haben, und um ihn wehklagen, wie man um den einzigen Sohn wehklagt, und bitterlich Leid um ihn tragen, wie man um den (Tod des) Erstgeborenen Leid trägt.«",
+      "citation": "Sacharja 12:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "An jenem Tage wird die Trauer in Jerusalem so groß sein wie einst die Trauer um Hadad-Rimmon in der Ebene von Megiddo.",
+      "citation": "Sacharja 12:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Da wird das Land wehklagen, jedes Geschlecht für sich besonders: das Geschlecht des Hauses Davids für sich, auch ihre Frauen für sich; das Geschlecht des Hauses Nathans für sich, auch ihre Frauen für sich;",
+      "citation": "Sacharja 12:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "das Geschlecht des Hauses Levis für sich, auch ihre Frauen für sich; das Geschlecht der Simeiten für sich, auch ihre Frauen für sich;",
+      "citation": "Sacharja 12:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "und ebenso alle übrigen Geschlechter, jedes Geschlecht für sich und auch ihre Frauen für sich.",
+      "citation": "Sacharja 12:14 (Menge)"
+    }
+  ]
+}

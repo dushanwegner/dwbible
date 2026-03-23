@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Canticle of Canticles, Chapter 2 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Canticle of Canticles",
+      "slug": "canticle-of-canticles",
+      "testament": "OT",
+      "order": 24,
+      "totalChapters": 8
+    },
+    "chapter": 2,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/canticle-of-canticles/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/canticle-of-canticles/1.json",
+      "nextChapter": "https://latinprayer.org/bible/canticle-of-canticles/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/canticle-of-canticles/2.json",
+      "german": "https://latinprayer.org/bibel/canticle-of-canticles/2.json"
+    }
+  },
+  "citation": "Canticle of Canticles 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I am the flower of the field, and the lily of the valleys.",
+      "citation": "Canticle of Canticles 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "As the lily among thorns, so is my love among the daughters.",
+      "citation": "Canticle of Canticles 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "As the apple tree among the trees of the woods, so is my beloved among the sons. I sat down under his shadow, whom I desired: and his fruit was sweet to my palate.",
+      "citation": "Canticle of Canticles 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "He brought me into the cellar of wine, he set in order charity in me.",
+      "citation": "Canticle of Canticles 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Stay me up with flowers, compass me about with apples: because I languish with love.",
+      "citation": "Canticle of Canticles 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "His left hand is under my head, and his right hand shall embrace me.",
+      "citation": "Canticle of Canticles 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "I adjure you, O ye daughters of Jerusalem, by the roes, and the harts of the field, that you stir not up, nor make the beloved to awake, till she please.",
+      "citation": "Canticle of Canticles 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The voice of my beloved, behold he cometh leaping upon the mountains, skipping over the hills.",
+      "citation": "Canticle of Canticles 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "My beloved is like a roe, or a young hart. Behold he standeth behind our wall, looking through the windows, looking through the lattices.",
+      "citation": "Canticle of Canticles 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Behold my beloved speaketh to me: Arise, make haste, my love, my dove, my beautiful one, and come.",
+      "citation": "Canticle of Canticles 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For winter is now past, the rain is over and gone.",
+      "citation": "Canticle of Canticles 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The flowers have appeared in our land, the time of pruning is come: the voice of the turtle is heard in our land:",
+      "citation": "Canticle of Canticles 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The fig tree hath put forth her green figs: the vines in flower yield their sweet smell. Arise, my love, my beautiful one, and come:",
+      "citation": "Canticle of Canticles 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "My dove in the clefts of the rock, in the hollow places of the wall, shew me thy face, let thy voice sound in my ears: for thy voice is sweet, and thy face comely.",
+      "citation": "Canticle of Canticles 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Catch us the little foxes that destroy the vines: for our vineyard hath flourished.",
+      "citation": "Canticle of Canticles 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "My beloved to me, and I to him who feedeth among the lilies,",
+      "citation": "Canticle of Canticles 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Till the day break, and the shadows retire. Return: be like, my beloved, to a roe, or to a young hart upon the mountains of Bether.",
+      "citation": "Canticle of Canticles 2:17 (Douay-Rheims)"
+    }
+  ]
+}

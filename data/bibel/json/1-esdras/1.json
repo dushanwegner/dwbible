@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Esra, Chapter 1 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Esra",
+      "slug": "1-esdras",
+      "testament": "OT",
+      "order": 15,
+      "totalChapters": 10
+    },
+    "chapter": 1,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-esdras/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bibel/1-esdras/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-esdras/1.json",
+      "latin": "https://latinprayer.org/latin/1-esdras/1.json"
+    }
+  },
+  "citation": "1 Esra 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Im ersten Regierungsjahre des Kores, des Königs von Persien – damit das durch den Mund Jeremias ergangene Wort des HERRN in Erfüllung ginge – regte der HERR den Geist des Perserkönigs Kores dazu an, folgende Verfügung in seinem ganzen Reiche ausrufen und auch durch schriftlichen Erlaß bekanntmachen zu lassen:",
+      "citation": "1 Esra 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»So spricht Kores, der König von Persien: Alle Reiche der Erde hat der HERR, der Gott des Himmels, mir übergeben, und er ist’s auch, der mir aufgetragen hat, ihm zu Jerusalem in Juda ein Haus zu erbauen.",
+      "citation": "1 Esra 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wer also unter euch allen zu seinem Volke gehört, mit dem sei sein Gott, und er ziehe hinauf nach Jerusalem in Juda und baue dort das Haus des HERRN, des Gottes Israels; das ist der Gott, der in Jerusalem wohnt.",
+      "citation": "1 Esra 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Und jeder, der noch übriggeblieben ist, den sollen an allen Orten, wo er sich als Fremdling aufhält, die betreffenden Ortsbewohner mit Silber und Gold, mit beweglicher Habe und Vieh sowie mit freiwilligen Gaben für das Gotteshaus in Jerusalem unterstützen.«",
+      "citation": "1 Esra 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da machten sich die Familienhäupter von Juda und Benjamin sowie die Priester und die Leviten auf den Weg, alle, denen Gott es in den Sinn gegeben hatte, hinaufzuziehen, um den Tempel des HERRN in Jerusalem wieder aufzubauen;",
+      "citation": "1 Esra 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "und alle, die um sie her wohnten, unterstützten sie auf jede Weise mit Gaben, mit Silber und Gold, mit beweglicher Habe und Vieh und mit Kostbarkeiten, außerdem mit freiwilligen Gaben aller Art.",
+      "citation": "1 Esra 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Auch gab der König Kores die Tempelgeräte wieder heraus, die Nebukadnezar einst aus Jerusalem weggeführt und im Tempel seines Gottes untergebracht hatte:",
+      "citation": "1 Esra 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "der König Kores von Persien ließ sie unter der Aufsicht des Schatzmeisters Mithredath hervorholen, und dieser zählte sie Sesbazzar, dem Fürsten von Juda, zu.",
+      "citation": "1 Esra 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ihre Zahl war folgende: 30 goldene und 1000 silberne Becken,",
+      "citation": "1 Esra 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "30 goldene Becher, 2410 silberne Becher, 1000 andere Geräte,",
+      "citation": "1 Esra 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "im ganzen 5400 goldene und silberne Geräte. Das alles nahm Sesbazzar mit hinauf, als die in die Verbannung Weggeführten von Babylon nach Jerusalem hinaufgeführt wurden.",
+      "citation": "1 Esra 1:11 (Menge)"
+    }
+  ]
+}

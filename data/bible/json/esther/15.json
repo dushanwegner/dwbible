@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Esther, Chapter 15 — 19 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Esther",
+      "slug": "esther",
+      "testament": "OT",
+      "order": 19,
+      "totalChapters": 16
+    },
+    "chapter": 15,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/esther/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/esther/14.json",
+      "nextChapter": "https://latinprayer.org/bible/esther/16.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/esther/15.json",
+      "german": "https://latinprayer.org/bibel/esther/15.json"
+    }
+  },
+  "citation": "Esther 15 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And he commanded her (no doubt but he was Mardochai) to go to the king, and petition for her people, and for her country.",
+      "citation": "Esther 15:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Remember, (said he,) the days of thy low estate, how thou wast brought up by my hand, because Aman the second after the king hath spoken against us unto death.",
+      "citation": "Esther 15:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And do thou call upon the Lord, and speak to the king for us, and deliver us from death.",
+      "citation": "Esther 15:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And on the third day she laid away the garments she wore, and put on her glorious apparel.",
+      "citation": "Esther 15:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And glittering in royal robes, after she had called upon God the ruler and Saviour of all, she took two maids with her,",
+      "citation": "Esther 15:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And upon one of them she leaned, as if for delicateness and overmuch tenderness she were not able to bear up her own body.",
+      "citation": "Esther 15:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the other maid followed her lady, bearing up her train flowing on the ground.",
+      "citation": "Esther 15:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But she with a rosy colour in her face, and with gracious and bright eyes hid a mind full of anguish, and exceeding great fear.",
+      "citation": "Esther 15:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "So going in she passed through all doors in order, and stood before the king, where he sat upon his royal throne, clothed with his royal robes, and glittering with gold, and precious stones, and he was terrible to behold.",
+      "citation": "Esther 15:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And when he had lifted up his countenance, and with burning eyes had shewn the wrath of his heart, the queen sunk down, and her colour turned pale, and she rested her weary head upon her handmaid.",
+      "citation": "Esther 15:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And God changed the king's spirit into mildness, and all in haste and in fear he leaped from his throne, and holding her up in his arms, till she came to herself, caressed her with these words:",
+      "citation": "Esther 15:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "What is the matter, Esther? I am thy brother, fear not.",
+      "citation": "Esther 15:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thou shalt not die: for this law is not made for thee, but for all others.",
+      "citation": "Esther 15:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Come near then, and touch the sceptre.",
+      "citation": "Esther 15:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And as she held her peace, he took the golden sceptre, and laid it upon her neck, and kissed her, and said: Why dost thou not speak to me?",
+      "citation": "Esther 15:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "She answered: I saw thee, my lord, as an angel of God, and my heart was troubled for fear of thy majesty.",
+      "citation": "Esther 15:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "For thou, my lord, art very admirable, and thy face is full of graces.",
+      "citation": "Esther 15:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And while she was speaking, she fell down again, and was almost in a swoon.",
+      "citation": "Esther 15:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "But the king was troubled, and all his servants comforted her.",
+      "citation": "Esther 15:19 (Douay-Rheims)"
+    }
+  ]
+}

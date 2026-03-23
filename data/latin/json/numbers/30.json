@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 30 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 30,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/numbers/29.json",
+      "nextChapter": "https://latinprayer.org/latin/numbers/31.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/30.json",
+      "german": "https://latinprayer.org/bibel/numbers/30.json"
+    }
+  },
+  "citation": "Numbers 30 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "narravitque Moses filiis Israhel omnia quae ei Dominus imperarat",
+      "citation": "Numbers 30:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et locutus est ad principes tribuum filiorum Israhel iste est sermo quem praecepit Dominus",
+      "citation": "Numbers 30:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "si quis virorum votum Domino voverit aut se constrinxerit iuramento non faciet irritum verbum suum sed omne quod promisit implebit",
+      "citation": "Numbers 30:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "mulier si quippiam voverit et se constrinxerit iuramento quae est in domo patris sui et in aetate adhuc puellari si cognoverit pater votum quod pollicita est et iuramentum quo obligavit animam suam et tacuerit voti rea erit",
+      "citation": "Numbers 30:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quicquid pollicita est et iuravit opere conplebit",
+      "citation": "Numbers 30:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "sin autem statim ut audierit contradixerit pater et vota et iuramenta eius irrita erunt nec obnoxia tenebitur sponsioni eo quod contradixerit pater",
+      "citation": "Numbers 30:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "si maritum habuerit et voverit aliquid et semel verbum de ore eius egrediens animam illius obligaverit iuramento",
+      "citation": "Numbers 30:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quo die audierit vir et non contradixerit voti rea erit reddet quodcumque promiserat",
+      "citation": "Numbers 30:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sin autem audiens statim contradixerit et irritas fecerit pollicitationes eius verbaque quibus obstrinxerat animam suam propitius ei erit Dominus",
+      "citation": "Numbers 30:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "vidua et repudiata quicquid voverint reddent",
+      "citation": "Numbers 30:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "uxor in domo viri cum se voto constrinxerit et iuramento",
+      "citation": "Numbers 30:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "si audierit vir et tacuerit nec contradixerit sponsioni reddet quodcumque promiserat",
+      "citation": "Numbers 30:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sin autem extemplo contradixerit non tenebitur promissionis rea quia maritus contradixit et Dominus ei propitius erit",
+      "citation": "Numbers 30:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "si voverit et iuramento se constrinxerit ut per ieiunium vel ceterarum rerum abstinentiam adfligat animam suam in arbitrio viri erit ut faciat sive non faciat",
+      "citation": "Numbers 30:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quod si audiens vir tacuerit et in alteram diem distulerit sententiam quicquid voverat atque promiserat reddet quia statim ut audivit tacuit",
+      "citation": "Numbers 30:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "sin autem contradixerit postquam rescivit portabit ipse iniquitatem eius",
+      "citation": "Numbers 30:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "istae sunt leges quas constituit Dominus Mosi inter virum et uxorem inter patrem et filiam quae in puellari adhuc aetate est vel quae manet in parentis domo",
+      "citation": "Numbers 30:17 (Clementine Vulgate)"
+    }
+  ]
+}

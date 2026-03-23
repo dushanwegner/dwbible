@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 17 — 27 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 17,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/16.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/18.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/17.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/17.json"
+    }
+  },
+  "citation": "Jesus Sirach 17 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Der Herr hat den Menschen aus Erde geschaffen und läßt ihn wieder zu ihr (oder in sie) zurückkehren.",
+      "citation": "Jesus Sirach 17:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Lebenstage von bestimmter Zahl und eine Frist teilte er ihnen zu und verlieh ihnen Gewalt über alles, was auf ihr ist;",
+      "citation": "Jesus Sirach 17:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "ihm selbst ähnlich, rüstete er sie mit Kraft aus und gestaltete sie nach seinem Bilde.",
+      "citation": "Jesus Sirach 17:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Die Furcht vor ihnen legte er auf alles Fleisch, auf daß sie die Herrschaft über die Tiere und Vögel besäßen.",
+      "citation": "Jesus Sirach 17:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Urteilskraft und Sprache und Augen, Ohren und ein Herz zum Denken gab er ihnen;",
+      "citation": "Jesus Sirach 17:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "verständige Einsicht verlieh er ihnen reichlich und lehrte sie Gutes und Böses unterscheiden;",
+      "citation": "Jesus Sirach 17:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "er richtete sein Auge auf ihre Herzen, um ihnen die Erhabenheit seiner Werke zu zeigen,",
+      "citation": "Jesus Sirach 17:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "damit sie seinen heiligen Namen priesen und die Erhabenheit seiner Werke (oder die Großtaten seines Waltens) verkündigten.",
+      "citation": "Jesus Sirach 17:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Er teilte ihnen Einsicht zu und gab ihnen das lebenwirkende Gesetz zum Besitz;",
+      "citation": "Jesus Sirach 17:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "einen ewigen Bund schloß er mit ihnen und tat ihnen seine Rechte kund;",
+      "citation": "Jesus Sirach 17:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "die Erhabenheit seiner Majestät schauten ihre Augen, und die Herrlichkeit seiner Stimme vernahm ihr Ohr;",
+      "citation": "Jesus Sirach 17:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "und er gebot ihnen; »Hütet euch vor jeglichem Unrecht!« und schrieb einem jeden von ihnen die Pflichten gegen den Nächsten vor.",
+      "citation": "Jesus Sirach 17:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ihr Wandel liegt immerdar offen vor ihm, nicht können sie sich vor seinen Augen verbergen.",
+      "citation": "Jesus Sirach 17:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Jedem Volk hat er einen Herrscher gesetzt, aber Israel ist der Anteil, den der Herr für sich genommen.",
+      "citation": "Jesus Sirach 17:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Alle ihre Werke stehen vor ihm wie die Sonne, und seine Augen blicken beständig auf ihren Wandel;",
+      "citation": "Jesus Sirach 17:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "nicht sind ihre Böstaten ihm verborgen, und alle ihre Sünden sind dem Herrn bekannt.",
+      "citation": "Jesus Sirach 17:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Die Mildtätigkeit eines Mannes ist bei ihm wie ein Siegelring, und die Liebestat eines Menschen hütet er wie den Augapfel.",
+      "citation": "Jesus Sirach 17:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Späterhin wird er sich erheben und ihnen vergelten und ihnen die Vergeltung auf ihr Haupt zurückzahlen;",
+      "citation": "Jesus Sirach 17:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "jedoch denen, die sich bekehren, gestattet er die Rückkehr, und die, welchen das Vertrauen geschwunden ist, ermutigt er wieder.",
+      "citation": "Jesus Sirach 17:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Bekehre dich zum Herrn und laß ab von den Sünden, bete im Aufblick zu ihm und mindere die Zahl deiner Fehltritte;",
+      "citation": "Jesus Sirach 17:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "kehre zum Höchsten zurück und wende dich ab vom Unrechttun und hasse aufrichtig den Sündengreuel.",
+      "citation": "Jesus Sirach 17:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Wer wird dem Höchsten in der Unterwelt lobsingen an Stelle derer, die da leben und ihm Lobpreis darbringen?",
+      "citation": "Jesus Sirach 17:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Für den Toten, der ja nicht mehr ist, hat der Lobpreis ein Ende; nur wer lebt und gesund ist, kann den Herrn preisen.",
+      "citation": "Jesus Sirach 17:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Wie groß ist die Barmherzigkeit des Herrn und seine Versöhnlichkeit für die, welche sich zu ihm bekehren!",
+      "citation": "Jesus Sirach 17:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Denn nicht kann die ganze Vollkommenheit in den Menschen vorhanden sein, weil ja die Menschenkinder nicht unsterblich sind.",
+      "citation": "Jesus Sirach 17:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Was ist heller als die Sonne? und sogar sie verfinstert sich; so richtet auch der Böse seinen Sinn auf Fleisch und Blut.",
+      "citation": "Jesus Sirach 17:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Die Heerscharen des Himmels droben mustert Gott, aber die Menschen allesamt sind Staub und Asche.",
+      "citation": "Jesus Sirach 17:27 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 21 — 34 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 21,
+    "verseCount": 34,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/20.json",
+      "nextChapter": "https://latinprayer.org/bible/job/22.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/21.json",
+      "german": "https://latinprayer.org/bibel/job/21.json"
+    }
+  },
+  "citation": "Job 21 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Then Job answered, and said:",
+      "citation": "Job 21:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Hear, I beseech you, my words, and do penance.",
+      "citation": "Job 21:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Suffer me, and I will speak, and after, if you please, laugh at my words.",
+      "citation": "Job 21:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Is my debate against man, that I should not have just reason to be troubled?",
+      "citation": "Job 21:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Hearken to me and be astonished, and lay your finger on your mouth.",
+      "citation": "Job 21:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "As for me, when I remember, I am afraid, and trembling taketh hold on my flesh.",
+      "citation": "Job 21:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Why then do the wicked live, are they advanced, and strengthened with riches?",
+      "citation": "Job 21:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Their seed continueth before them, a multitude of kinsmen, and of children's children in their sight.",
+      "citation": "Job 21:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Their houses are secure and peaceable, and the rod of God is not upon them.",
+      "citation": "Job 21:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Their cattle have conceived, and failed not: their cow has calved, and is not deprived of her fruit.",
+      "citation": "Job 21:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Their little ones go out like a flock, and their children dance and play.",
+      "citation": "Job 21:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "They take the timbrel, and the harp, and rejoice at the sound of the organ.",
+      "citation": "Job 21:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "They spend their days in wealth, and in a moment they go down to hell.",
+      "citation": "Job 21:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Who have said to God: Depart from us, we desire not the knowledge of thy ways.",
+      "citation": "Job 21:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Who is the Almighty, that we should serve him? and what doth it profit us if we pray to him?",
+      "citation": "Job 21:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Yet because their good things are not in their hand, may the counsel of the wicked be far from me.",
+      "citation": "Job 21:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "How often shall the lamp of the wicked be put out, and a deluge come upon them, and he shall distribute the sorrows of his wrath?",
+      "citation": "Job 21:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "They shall be as chaff before the face of the wind, and as ashes which the whirlwind scattereth.",
+      "citation": "Job 21:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "God shall lay up the sorrow of the father for his children: and when he shall repay, then shall he know.",
+      "citation": "Job 21:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "His eyes shall see his own destruction, and he shall drink of the wrath of the Almighty.",
+      "citation": "Job 21:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "For what is it to him what befalleth his house after him: and if the number of his months be diminished by one half?",
+      "citation": "Job 21:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Shall any one teach God knowledge, who judgeth those that are high?",
+      "citation": "Job 21:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "One man dieth strong, and hale, rich and happy.",
+      "citation": "Job 21:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "His bowels are full of fat, and his bones are moistened with marrow.",
+      "citation": "Job 21:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "But another dieth in bitterness of soul without any riches:",
+      "citation": "Job 21:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And yet they shall sleep together in the dust, and worms shall cover them.",
+      "citation": "Job 21:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Surely I know your thoughts, and your unjust judgments against me.",
+      "citation": "Job 21:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "For you say: Where is the house of the prince? and where are the dwelling places of the wicked?",
+      "citation": "Job 21:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Ask any one of them that go by the way, and you shall perceive that he knoweth these same things.",
+      "citation": "Job 21:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Because the wicked man is reserved to the day of destruction, and he shall be brought to the day of wrath.",
+      "citation": "Job 21:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Who shall reprove his way to his face? and who shall repay him what he hath done?",
+      "citation": "Job 21:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "He shall be brought to the graves, and shall watch in the heap of the dead.",
+      "citation": "Job 21:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "He hath been acceptable to the gravel of Cocytus, and he shall draw every man after him, and there are innumerable before him.",
+      "citation": "Job 21:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "How then do ye comfort me in vain, whereas your answer is shewn to be repugnant to truth?",
+      "citation": "Job 21:34 (Douay-Rheims)"
+    }
+  ]
+}

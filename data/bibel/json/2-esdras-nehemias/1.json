@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Esra Nehemia, Chapter 1 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Esra Nehemia",
+      "slug": "2-esdras-nehemias",
+      "testament": "OT",
+      "order": 16,
+      "totalChapters": 13
+    },
+    "chapter": 1,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-esdras-nehemias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bibel/2-esdras-nehemias/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-esdras-nehemias/1.json",
+      "latin": "https://latinprayer.org/latin/2-esdras-nehemias/1.json"
+    }
+  },
+  "citation": "2 Esra Nehemia 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Die Worte Nehemias, des Sohnes Hachaljas. Es begab sich im Monat Kislew im zwanzigsten Regierungsjahre des Königs Arthasastha, als ich mich in der Königsstadt Susa befand,",
+      "citation": "2 Esra Nehemia 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "daß Hanani, einer von meinen Brüdern, mit einigen Männern aus Juda (zu mir) kam. Als ich mich nun bei ihnen nach den Juden, die in der Heimat zurückgeblieben und der Wegführung entgangen waren, und nach (den Verhältnissen in) Jerusalem erkundigte,",
+      "citation": "2 Esra Nehemia 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "teilten sie mir mit: »Die Übriggebliebenen, die dort in der Provinz der (Wegführung in die) Gefangenschaft entgangen sind, befinden sich in großem Elend und in schmachvoller Lage; die Mauern Jerusalems sind niedergerissen und die Tore der Stadt mit Feuer verbrannt.«",
+      "citation": "2 Esra Nehemia 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als ich diese Mitteilungen vernahm, setzte ich mich (auf den Boden) hin und fing an zu weinen und trug tagelang Trauer unter beständigem Fasten und Flehen und richtete an den Gott des Himmels folgendes Gebet:",
+      "citation": "2 Esra Nehemia 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "»Ach HERR, du Gott des Himmels, du großer und furchtbarer Gott, der du denen, die dich lieben und deine Gebote halten, Bundestreue und Gnade bewahrst:",
+      "citation": "2 Esra Nehemia 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "laß doch deine Ohren aufmerken und deine Augen geöffnet sein, daß du das Gebet deines Knechtes vernimmst, welches ich jetzt Tag und Nacht für die Kinder Israel, deine Knechte, vor dir bete und in welchem ich die Sünden bekenne, die wir Israeliten gegen dich begangen haben! Denn auch ich und meines Vaters Haus haben gesündigt.",
+      "citation": "2 Esra Nehemia 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Gar verwerflich haben wir gegen dich gehandelt, daß wir die Gebote, Satzungen und Anordnungen, die du deinem Knechte Mose geboten hast, nicht befolgt haben.",
+      "citation": "2 Esra Nehemia 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Ach, gedenke doch der Verheißung, die du deinem Knechte Mose gegeben hast mit den Worten:: ›Wenn ihr treulos handelt, so werde ich euch unter die Völker zerstreuen;",
+      "citation": "2 Esra Nehemia 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "wenn ihr aber zu mir umkehrt und meine Gebote beobachtet und danach tut, so will ich, wenn sich auch Versprengte von euch am Ende des Himmels befinden sollten, sie doch von dort sammeln und sie an die Stätte zurückbringen, die ich erwählt habe, um meinen Namen dort wohnen zu lassen!‹",
+      "citation": "2 Esra Nehemia 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Sie sind ja doch deine Knechte und dein Volk, das du durch deine große Kraft und deinen starken Arm erlöst hast!",
+      "citation": "2 Esra Nehemia 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Ach, HERR, laß doch dein Ohr aufmerken auf das Gebet deines Knechtes und auf das Gebet deiner Knechte, die gewillt sind (ihre Freude daran haben), deinen Namen zu fürchten! Laß es doch heute deinem Knecht gelingen und laß ihn Erbarmen finden bei dem Manne hier!« Ich war nämlich Mundschenk beim König.",
+      "citation": "2 Esra Nehemia 1:11 (Menge)"
+    }
+  ]
+}

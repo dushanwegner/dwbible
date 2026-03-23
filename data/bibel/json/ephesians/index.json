@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Epheser — 6 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Epheser",
+      "slug": "ephesians",
+      "testament": "NT",
+      "order": 56,
+      "totalChapters": 6
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ephesians/index.json",
+      "latin": "https://latinprayer.org/latin/ephesians/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/bibel/ephesians/1",
+      "jsonUrl": "https://latinprayer.org/bibel/ephesians/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/bibel/ephesians/2",
+      "jsonUrl": "https://latinprayer.org/bibel/ephesians/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bibel/ephesians/3",
+      "jsonUrl": "https://latinprayer.org/bibel/ephesians/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/bibel/ephesians/4",
+      "jsonUrl": "https://latinprayer.org/bibel/ephesians/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/bibel/ephesians/5",
+      "jsonUrl": "https://latinprayer.org/bibel/ephesians/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/bibel/ephesians/6",
+      "jsonUrl": "https://latinprayer.org/bibel/ephesians/6.json"
+    }
+  ]
+}

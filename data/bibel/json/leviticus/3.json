@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Levitikus, Chapter 3 — 17 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Levitikus",
+      "slug": "leviticus",
+      "testament": "OT",
+      "order": 3,
+      "totalChapters": 27
+    },
+    "chapter": 3,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/leviticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/leviticus/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/leviticus/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/leviticus/3.json",
+      "latin": "https://latinprayer.org/latin/leviticus/3.json"
+    }
+  },
+  "citation": "Levitikus 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Soll aber seine Opfergabe ein Heilsopfer sein, so soll er, wenn er sie von den Rindern darbringen will, mag es ein männliches oder ein weibliches Tier sein, ein fehlerloses Tier vor den HERRN bringen.",
+      "citation": "Levitikus 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Dann lege er seine Hand fest auf den Kopf seines Opfertieres, und man schlachte es am Eingang des Offenbarungszeltes; die Söhne Aarons aber, die Priester, sollen das Blut ringsum an den Altar sprengen.",
+      "citation": "Levitikus 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Hierauf soll er von dem Heilsopfer dem HERRN ein Feueropfer darbringen, nämlich das Fett, das die Eingeweide bedeckt, und alles Fett, das an den Eingeweiden sitzt,",
+      "citation": "Levitikus 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "ferner die beiden Nieren samt dem Fett, das an ihnen, an den Lendenmuskeln sitzt, und den Lappen an der Leber – bei den Nieren soll er es ablösen.",
+      "citation": "Levitikus 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Wenn die Söhne Aarons es dann auf dem Altar über dem Brandopfer, das auf dem Holz über dem Feuer liegt, in Rauch aufgehen lassen, so ist es ein Feueropfer zu lieblichem Geruch für den HERRN.«",
+      "citation": "Levitikus 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "»Wenn aber seine Opfergabe, die er dem HERRN als Heilsopfer darbringen will, dem Kleinvieh entnommen ist, so muß es ein fehlerloses männliches oder weibliches Tier sein, das er opfert.",
+      "citation": "Levitikus 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Bringt er ein Schaf als seine Opfergabe dar, so bringe er es vor den HERRN,",
+      "citation": "Levitikus 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "lege seine Hand fest auf den Kopf seines Opfertieres, und man schlachte es dann vor dem Offenbarungszelt; die Söhne Aarons aber sollen sein Blut ringsum an den Altar sprengen.",
+      "citation": "Levitikus 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Hierauf soll er dem HERRN von dem Heilsopfer ein Feueropfer darbringen, nämlich das Fett des Tieres: den ganzen Fettschwanz, den man dicht am Steißbein ablösen muß, ferner das Fett, das die Eingeweide bedeckt, und alles Fett, das an den Eingeweiden sitzt,",
+      "citation": "Levitikus 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "ferner die beiden Nieren samt dem Fett, das an ihnen, an den Lendenmuskeln sitzt, und den Lappen an der Leber – bei den Nieren soll man es ablösen.",
+      "citation": "Levitikus 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Wenn der Priester es dann auf dem Altar in Rauch aufgehen läßt, so ist es eine Feueropferspeise für den HERRN.",
+      "citation": "Levitikus 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wenn aber seine Opfergabe in einer Ziege besteht, so soll er sie vor den HERRN bringen,",
+      "citation": "Levitikus 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "dann seine Hand fest auf ihren Kopf legen, und man schlachte sie dann vor dem Offenbarungszelt; die Söhne Aarons aber sollen ihr Blut ringsum an den Altar sprengen.",
+      "citation": "Levitikus 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Hierauf soll er dem HERRN von ihr seine Gabe als Feueropfer darbringen, nämlich das Fett, das die Eingeweide bedeckt, und alles Fett, das an den Eingeweiden sitzt,",
+      "citation": "Levitikus 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "ferner die beiden Nieren samt dem Fett, das an ihnen, an den Lendenmuskeln sitzt, und den Lappen an der Leber – bei den Nieren soll man es ablösen.",
+      "citation": "Levitikus 3:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Wenn der Priester es dann auf dem Altar in Rauch aufgehen läßt, so ist es eine Feueropferspeise zu lieblichem Geruch für den HERRN. Alles Fett gehört dem HERRN.",
+      "citation": "Levitikus 3:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Das ist eine ewiggültige Satzung für eure Geschlechter, wo ihr auch wohnen mögt: keinerlei Fett und keinerlei Blut dürft ihr genießen!«",
+      "citation": "Levitikus 3:17 (Menge)"
+    }
+  ]
+}

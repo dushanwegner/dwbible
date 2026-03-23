@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 3 — 5 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 3,
+    "verseCount": 5,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/osee/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/osee/2.json",
+      "nextChapter": "https://latinprayer.org/latin/osee/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/3.json",
+      "german": "https://latinprayer.org/bibel/osee/3.json"
+    }
+  },
+  "citation": "Hosea 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et dixit Dominus ad me adhuc vade dilige mulierem dilectam amico et adulteram sicut diligit Dominus filios Israhel et ipsi respectant ad deos alienos et diligunt vinacea uvarum",
+      "citation": "Hosea 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et fodi eam mihi quindecim argenteis et choro hordei et dimidio choro hordei",
+      "citation": "Hosea 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dixi ad eam dies multos expectabis me non fornicaberis et non eris viro sed et ego expectabo te",
+      "citation": "Hosea 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia dies multos sedebunt filii Israhel sine rege et sine principe et sine sacrificio et sine altari et sine ephod et sine therafin",
+      "citation": "Hosea 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et post haec revertentur filii Israhel et quaerent Dominum Deum suum et David regem suum et pavebunt ad Dominum et ad bonum eius in novissimo dierum",
+      "citation": "Hosea 3:5 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Corinthians, Chapter 15 — 58 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Corinthians",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 53,
+      "totalChapters": 16
+    },
+    "chapter": 15,
+    "verseCount": 58,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-corinthians/14.json",
+      "nextChapter": "https://latinprayer.org/bible/1-corinthians/16.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-corinthians/15.json",
+      "german": "https://latinprayer.org/bibel/1-corinthians/15.json"
+    }
+  },
+  "citation": "1. Corinthians 15 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now I make known unto you, brethren, the gospel which I preached to you, which also you have received and wherein you stand.",
+      "citation": "1. Corinthians 15:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "By which also you are saved, if you hold fast after what manner I preached unto you, unless you have believed in vain.",
+      "citation": "1. Corinthians 15:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For I delivered unto you first of all, which I also received: how that Christ died for our sins, according to the scriptures:",
+      "citation": "1. Corinthians 15:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And that he was buried: and that he rose again according to the scriptures:",
+      "citation": "1. Corinthians 15:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And that he was seen by Cephas, and after that by the eleven.",
+      "citation": "1. Corinthians 15:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Then was he seen by more than five hundred brethren at once: of whom many remain until this present, and some are fallen asleep.",
+      "citation": "1. Corinthians 15:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "After that, he was seen by James: then by all the apostles.",
+      "citation": "1. Corinthians 15:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And last of all, he was seen also by me, as by one born out of due tine.",
+      "citation": "1. Corinthians 15:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For I am the least of the apostles, who am not worthy to be called an apostle, because I persecuted the church of God.",
+      "citation": "1. Corinthians 15:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But by the grace of God, I am what I am. And his grace in me hath not been void: but I have laboured more abundantly than all they. Yet not I, but the grace of God with me:",
+      "citation": "1. Corinthians 15:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For whether I or they, so we preach: and so you have believed.",
+      "citation": "1. Corinthians 15:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Now if Christ be preached, that he arose again from the dead, how do some among you say that there is no resurrection of the dead?",
+      "citation": "1. Corinthians 15:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But if there be no resurrection of the dead, then Christ is not risen again.",
+      "citation": "1. Corinthians 15:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And if Christ be not risen again, then is our preaching vain: and your faith is also vain.",
+      "citation": "1. Corinthians 15:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Yea, and we are found false witnesses of God: because we have given testimony against God, that he hath raised up Christ, whom he hath not raised up, if the dead rise not again.",
+      "citation": "1. Corinthians 15:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "For if the dead rise not again, neither is Christ risen again.",
+      "citation": "1. Corinthians 15:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And if Christ be not risen again, your faith is vain: for you are yet in your sins.",
+      "citation": "1. Corinthians 15:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Then they also that are fallen asleep in Christ are perished.",
+      "citation": "1. Corinthians 15:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "If in this life only we have hope in Christ, we are of all men most miserable.",
+      "citation": "1. Corinthians 15:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "But now Christ is risen from the dead, the firstfruits of them that sleep:",
+      "citation": "1. Corinthians 15:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "For by a man came death: and by a man the resurrection of the dead.",
+      "citation": "1. Corinthians 15:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And as in Adam all die, so also in Christ all shall be made alive.",
+      "citation": "1. Corinthians 15:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "But every one in his own order: the firstfruits, Christ: then they that are of Christ, who have believed in his coming.",
+      "citation": "1. Corinthians 15:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Afterwards the end: when he shall have delivered up the kingdom to God and the Father: when he shall have brought to nought all principality and power and virtue.",
+      "citation": "1. Corinthians 15:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "For he must reign, until he hath put all his enemies under his feet.",
+      "citation": "1. Corinthians 15:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And the enemy, death, shall be destroyed last: For he hath put all things under his feet. And whereas he saith:",
+      "citation": "1. Corinthians 15:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "All things are put under him; undoubtedly, he is excepted, who put all things under him.",
+      "citation": "1. Corinthians 15:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And when all things shall be subdued unto him, then the Son also himself shall be subject unto him that put all things under him, that God may be all in all.",
+      "citation": "1. Corinthians 15:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Otherwise, what shall they do that are baptized for the dead, if the dead rise not again at all? Why are they then baptized for them?",
+      "citation": "1. Corinthians 15:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Why also are we in danger every hour?",
+      "citation": "1. Corinthians 15:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "I die daily, I protest by your glory, brethren, which I have in Christ Jesus our Lord.",
+      "citation": "1. Corinthians 15:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "If (according to man) I fought with beasts at Ephesus, what doth it profit me, if the dead rise not again? Let us eat and drink, for to morrow we shall die.",
+      "citation": "1. Corinthians 15:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Be not seduced: Evil communications corrupt good manners.",
+      "citation": "1. Corinthians 15:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "Awake, ye just, and sin not. For some have not the knowledge of God. I speak it to your shame.",
+      "citation": "1. Corinthians 15:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "But some man will say: How do the dead rise again? Or with what manner of body shall they come?",
+      "citation": "1. Corinthians 15:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "Senseless man, that which thou sowest is not quickened, except it die first.",
+      "citation": "1. Corinthians 15:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And that which thou sowest, thou sowest not the body that shall be: but bare grain, as of wheat, or of some of the rest.",
+      "citation": "1. Corinthians 15:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "But God giveth it a body as he will: and to every seed its proper body.",
+      "citation": "1. Corinthians 15:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "All flesh is not the same flesh: but one is the flesh of men, another of beasts, other of birds, another of fishes.",
+      "citation": "1. Corinthians 15:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And there are bodies celestial and bodies terrestrial: but, one is the glory of the celestial, and another of the terrestrial.",
+      "citation": "1. Corinthians 15:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "One is the glory of the sun, another the glory of the moon, and another the glory of the stars. For star differeth from star in glory.",
+      "citation": "1. Corinthians 15:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "So also is the resurrection of the dead. It is sown in corruption: it shall rise in incorruption.",
+      "citation": "1. Corinthians 15:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "It is sown in dishonour: it shall rise in glory. It is sown in weakness: it shall rise in power.",
+      "citation": "1. Corinthians 15:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "It is sown a natural body: it shall rise a spiritual body.  If there be a natural body, there is also a spiritual body, as it is written:",
+      "citation": "1. Corinthians 15:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "The first man Adam was made into a living soul; the last Adam into a quickening spirit.",
+      "citation": "1. Corinthians 15:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "Yet that was not first which is spiritual, but that which is natural: afterwards that which is spiritual.",
+      "citation": "1. Corinthians 15:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "The first man was of the earth, earthly: the second man, from heaven, heavenly.",
+      "citation": "1. Corinthians 15:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "Such as is the earthly, such also are the earthly: and such as is the heavenly, such also are they that are heavenly.",
+      "citation": "1. Corinthians 15:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "Therefore, as we have borne the image of the earthly, let us bear also the image of the heavenly.",
+      "citation": "1. Corinthians 15:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "Now this I say, brethren, that flesh and blood cannot possess the kingdom of God: neither shall corruption possess incorruption.",
+      "citation": "1. Corinthians 15:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "Behold, I tell you a mystery. We shall all indeed rise again: but we shall not all be changed.",
+      "citation": "1. Corinthians 15:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "In a moment, in the twinkling of an eye, at the last trumpet: for the trumpet shall sound and the dead shall rise again incorruptible. And we shall be changed.",
+      "citation": "1. Corinthians 15:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "For this corruptible must put on incorruption: and this mortal must put on immortality.",
+      "citation": "1. Corinthians 15:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "And when this mortal hath put on immortality, then shall come to pass the saying that is written: Death is swallowed up in victory.",
+      "citation": "1. Corinthians 15:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "O death, where is thy victory? O death, where is thy sting?",
+      "citation": "1. Corinthians 15:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "Now the sting of death is sin: and the power of sin is the law.",
+      "citation": "1. Corinthians 15:56 (Douay-Rheims)"
+    },
+    {
+      "verse": 57,
+      "text": "But thanks be to God, who hath given us the victory through our Lord Jesus Christ.",
+      "citation": "1. Corinthians 15:57 (Douay-Rheims)"
+    },
+    {
+      "verse": 58,
+      "text": "Therefore, my beloved brethren, be ye steadfast and unmoveable: always abounding in the work of the Lord, knowing that your labour is not in vain in the Lord.",
+      "citation": "1. Corinthians 15:58 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 145 — 21 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 145,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/144.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/146.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/145.json",
+      "german": "https://latinprayer.org/bibel/psalms/145.json"
+    }
+  },
+  "citation": "Psalms 145 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Praise, for David himself. I will extol thee, O God my king: and I will bless thy name for ever; yea, for ever and ever.",
+      "citation": "Psalms 145:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Every day will I bless thee: and I will praise thy name for ever; yea, for ever and ever.",
+      "citation": "Psalms 145:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Great is the Lord, and greatly to be praised: and of his greatness there is no end.",
+      "citation": "Psalms 145:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Generation and generation shall praise thy works: and they shall declare thy power.",
+      "citation": "Psalms 145:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "They shall speak of the magnificence of the glory of thy holiness: and shall tell thy wondrous works.",
+      "citation": "Psalms 145:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And they shall speak of the might of thy terrible acts: and shall declare thy greatness.",
+      "citation": "Psalms 145:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "They shall publish the memory of the abundance of thy sweetness: and shall rejoice in thy justice.",
+      "citation": "Psalms 145:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The Lord is gracious and merciful: patient and plenteous in mercy.",
+      "citation": "Psalms 145:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The Lord is sweet to all: and his tender mercies are over all his works.",
+      "citation": "Psalms 145:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Let all thy works, O lord, praise thee: and let thy saints bless thee.",
+      "citation": "Psalms 145:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "They shall speak of the glory of thy kingdom: and shall tell of thy power:",
+      "citation": "Psalms 145:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "To make thy might known to the sons of men: and the glory of the magnificence of thy kingdom.",
+      "citation": "Psalms 145:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thy kingdom is a kingdom of all ages: and thy dominion endureth throughout all generations. The Lord is faithful in all his words: and holy in all his works.",
+      "citation": "Psalms 145:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "The Lord lifteth up all that fall: and setteth up all that are cast down.",
+      "citation": "Psalms 145:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The eyes of all hope in thee, O Lord: and thou givest them meat in due season.",
+      "citation": "Psalms 145:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Thou openest thy hand, and fillest with blessing every living creature.",
+      "citation": "Psalms 145:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The Lord is just in all his ways: and holy in all his works.",
+      "citation": "Psalms 145:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The Lord is nigh unto all them that call upon him: to all that call upon him in truth.",
+      "citation": "Psalms 145:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "He will do the will of them that fear him: and he will hear their prayer, and save them.",
+      "citation": "Psalms 145:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The Lord keepeth all them that love him; but all the wicked he will destroy.",
+      "citation": "Psalms 145:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "My mouth shall speak the praise of the Lord: and let all flesh bless his holy name forever; yea, for ever and ever.",
+      "citation": "Psalms 145:21 (Douay-Rheims)"
+    }
+  ]
+}

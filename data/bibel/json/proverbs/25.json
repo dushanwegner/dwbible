@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sprüche, Chapter 25 — 28 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sprüche",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 25,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/proverbs/24.json",
+      "nextChapter": "https://latinprayer.org/bibel/proverbs/26.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/25.json",
+      "latin": "https://latinprayer.org/latin/proverbs/25.json"
+    }
+  },
+  "citation": "Sprüche 25 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Auch dies sind Sprüche von Salomo, welche die Männer Hiskias, des Königs von Juda, gesammelt haben.",
+      "citation": "Sprüche 25:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Gottes Ehre ist es, eine Sache zu verbergen, aber der Könige Ehre ist es, eine Sache ans Licht zu bringen. –",
+      "citation": "Sprüche 25:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wie des Himmels Höhe und der Erde Tiefe, so ist auch das Herz der Könige unerforschlich. –",
+      "citation": "Sprüche 25:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Nur wenn die Schlacken vom Silber geschieden werden, so kommt dem Goldschmied ein Gerät zustande.",
+      "citation": "Sprüche 25:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Nur wenn die Gottlosen aus der Nähe des Königs entfernt werden, so wird sein Thron durch Gerechtigkeit feststehen. –",
+      "citation": "Sprüche 25:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Brüste dich nicht vor dem König und stelle dich nicht an den Platz der Großen!",
+      "citation": "Sprüche 25:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Denn besser ist’s, daß man zu dir sagt: »Rücke herauf, hierher«, als daß man dich vor einem Vornehmen herunterrücken läßt. –",
+      "citation": "Sprüche 25:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Was du mit deinen Augen gesehen hast, mache nicht voreilig zum Gegenstand einer Anklage; denn was willst du hinterher anfangen, wenn dein Nächster dich schmählich widerlegt? –",
+      "citation": "Sprüche 25:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Bringe deinen Rechtshandel mit deinem Gegner zum Austrag, aber verrate dabei kein fremdes Geheimnis,",
+      "citation": "Sprüche 25:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "damit, wer es hört, dich nicht schmäht und dein übler Ruf nicht wieder schwindet. –",
+      "citation": "Sprüche 25:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Wie goldene Äpfel in silbernen Prunkschalen, so ist ein Wort, gesprochen zu rechter Zeit. –",
+      "citation": "Sprüche 25:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Ein goldener Ring und ein Geschmeide von feinem Gold: so ist ein weiser Tadler für ein aufmerksames Ohr. –",
+      "citation": "Sprüche 25:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wie Kühlung durch Schnee an einem Erntetage, so ist ein treuer Bote für seinen Auftraggeber: er erquickt das Herz seines Herrn. –",
+      "citation": "Sprüche 25:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Wie Gewölk und Wind und doch kein Regen: so ist ein Mann, der mit Geschenken prahlt, die er nie gibt. –",
+      "citation": "Sprüche 25:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Durch leidenschaftslose Ruhe wird der Fürst gewonnen, und eine sanfte Zunge zerbricht Knochen. –",
+      "citation": "Sprüche 25:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Hast du Honig gefunden, so genieße davon nur ein genügend Teil, damit du nicht übersatt wirst und ihn wieder ausspeien mußt. –",
+      "citation": "Sprüche 25:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Setze deinen Fuß nur selten in das Haus deines Nächsten, damit er deiner nicht überdrüssig wird und dich dann haßt. –",
+      "citation": "Sprüche 25:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Streithammer, Schwert und spitzer Pfeil: so ist ein Mann, der gegen einen andern als falscher Zeuge aussagt. –",
+      "citation": "Sprüche 25:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Ein brüchiger Zahn und ein wankender Fuß: so ist ein treuloser Mensch in der Zeit der Not. –",
+      "citation": "Sprüche 25:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Wie einer, der Essig auf eine Wunde gießt, so (verkehrt) ist jemand, der einem bekümmerten Herzen Lieder vorsingt. –",
+      "citation": "Sprüche 25:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Wenn deinen Feind hungert, so speise ihn mit Brot, und wenn ihn dürstet, so gib ihm Wasser zu trinken;",
+      "citation": "Sprüche 25:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "denn damit häufst du glühende Kohlen auf sein Haupt, und der HERR wird dir’s vergelten. –",
+      "citation": "Sprüche 25:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Nordwind bringt Regen herbei, und Ohrenbläserei verursacht verdrießliche Gesichter. –",
+      "citation": "Sprüche 25:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Besser ist es, auf dem Dach in einem Winkel zu wohnen, als mit einem zänkischen Weibe in gemeinsamem Hause. –",
+      "citation": "Sprüche 25:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Kühles Wasser für eine lechzende Seele: so ist eine gute Nachricht aus fernem Lande. –",
+      "citation": "Sprüche 25:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Eine getrübte Quelle und ein verschütteter Brunnen: so ist ein Gerechter, der vor dem Gottlosen wankt. –",
+      "citation": "Sprüche 25:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Zuviel Honig essen ist nicht heilsam, darum sei sparsam mit ehrenden Worten. –",
+      "citation": "Sprüche 25:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Wie eine Stadt, deren Mauern niedergerissen sind, so ist ein Mann, dessen Geiste Selbstbeherrschung mangelt.",
+      "citation": "Sprüche 25:28 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Acts, Chapter 22 — 30 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 51,
+      "totalChapters": 28
+    },
+    "chapter": 22,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/acts/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/acts/21.json",
+      "nextChapter": "https://latinprayer.org/bible/acts/23.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/acts/22.json",
+      "german": "https://latinprayer.org/bibel/acts/22.json"
+    }
+  },
+  "citation": "Acts 22 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Men, brethren and fathers, hear ye the account which I now give unto you.",
+      "citation": "Acts 22:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "(And when they heard that he spoke to them in the Hebrew tongue, they kept the more silence.)",
+      "citation": "Acts 22:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he saith: I am a Jew, born at Tarsus in Cilicia, but brought up in this city, at the feet of Gamaliel, taught according to the truth of the law of the fathers, zealous for the law, as also all you are this day:",
+      "citation": "Acts 22:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Who persecuted this way unto death, binding and delivering into prisons both men and women,",
+      "citation": "Acts 22:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "As the high priest doth bear me witness and all the ancients. From whom also receiving letters to the brethren, I went to Damascus, that I might bring them bound from thence to Jerusalem to be punished.",
+      "citation": "Acts 22:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And it came to pass, as I was going and drawing nigh to Damascus, at mid-day, that suddenly from heaven there shone round about me a great light:",
+      "citation": "Acts 22:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And falling on the ground, I heard a voice saying to me: Saul, Saul, why persecutest thou me?",
+      "citation": "Acts 22:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And I answered: Who art thou, Lord? And he said to me: I am Jesus of Nazareth, whom thou persecutest.",
+      "citation": "Acts 22:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And they that were with me saw indeed the light: but they heard not the voice of him that spoke with me.",
+      "citation": "Acts 22:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And I said: What shall I do, Lord? And the Lord said to me: Arise and go to Damascus; and there it shall be told thee of all things that thou must do.",
+      "citation": "Acts 22:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And whereas I did not see for the brightness of that light, being led by the hand by my companions, I came to Damascus,",
+      "citation": "Acts 22:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And one Ananias, a man according to the law, having testimony of all the Jews who dwelt there,",
+      "citation": "Acts 22:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Coming to me and standing by me, said to me: Brother Saul, look up. And I, the same hour, looked upon him.",
+      "citation": "Acts 22:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But he said: The God of our fathers hath preordained thee that thou shouldst know his will and see the Just One and shouldst hear the voice from his mouth.",
+      "citation": "Acts 22:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For thou shalt be his witness to all men of those things which thou hast seen and heard.",
+      "citation": "Acts 22:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And now why tarriest thou? Rise up and be baptized and wash away thy sins, invoking his name.",
+      "citation": "Acts 22:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And it came to pass, when I was come again to Jerusalem and was praying in the temple, that I was in a trance,",
+      "citation": "Acts 22:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And saw him saying unto me: Make haste and get thee quickly out of Jerusalem: because they will not receive thy testimony concerning me.",
+      "citation": "Acts 22:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And I said: Lord, they know that I cast into prison and beat in every synagogue them that believed in thee.",
+      "citation": "Acts 22:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And when the blood of Stephen thy witness was shed, I stood by and consented: and kept the garments of them that killed him.",
+      "citation": "Acts 22:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And he said to me: Go, for unto the Gentiles afar off will I send thee.",
+      "citation": "Acts 22:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And they heard him until this word and then lifted up their voice, saying: Away with such an one from the earth. For it is not fit that he should live.",
+      "citation": "Acts 22:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And as they cried out and threw off their garments and cast dust into the air,",
+      "citation": "Acts 22:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "The tribune commanded him to be brought into the castle, and that he should be scourged and tortured: to know for what cause they did so cry out against him.",
+      "citation": "Acts 22:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And when they had bound him with thongs, Paul saith to the centurion that stood by him: Is it lawful for you to scourge a man that is a Roman and uncondemned?",
+      "citation": "Acts 22:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Which the centurion hearing, went to the tribune and told him, saying: What art thou about to do? For this man is a Roman citizen.",
+      "citation": "Acts 22:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And the tribune coming, said to him: Tell me. Art thou a Roman? But he said: Yea.",
+      "citation": "Acts 22:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And the tribune answered: I obtained the being free of this city with a great sum. And Paul said: But I was born so.",
+      "citation": "Acts 22:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Immediately therefore they departed from him that were about to torture him. The tribune also was afraid after he understood that he was a Roman citizen and because he had bound him.",
+      "citation": "Acts 22:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "But on the next day, meaning to know more diligently for what cause he was accused by the Jews, he loosed him and commanded the priests to come together and all the council: and, bringing forth Paul, he set him before them.",
+      "citation": "Acts 22:30 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Nahum, Chapter 3 — 18 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Nahum",
+      "slug": "nahum",
+      "testament": "OT",
+      "order": 39,
+      "totalChapters": 3
+    },
+    "chapter": 3,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/nahum/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/nahum/2.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/nahum/3.json",
+      "german": "https://latinprayer.org/bibel/nahum/3.json"
+    }
+  },
+  "citation": "Nahum 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "vae civitas sanguinum universa mendacii dilaceratione plena non recedet a te rapina",
+      "citation": "Nahum 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "vox flagelli et vox impetus rotae et equi frementis et quadrigae ferventis equitis ascendentis",
+      "citation": "Nahum 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et micantis gladii et fulgurantis hastae et multitudinis interfectae et gravis ruinae nec est finis cadaverum et corruent in corporibus suis",
+      "citation": "Nahum 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "propter multitudinem fornicationum meretricis speciosae et gratae et habentis maleficia quae vendidit gentes in fornicationibus suis et familias in maleficiis suis",
+      "citation": "Nahum 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ecce ego ad te dicit Dominus exercituum et revelabo pudenda tua in facie tua et ostendam gentibus nuditatem tuam et regnis ignominiam tuam",
+      "citation": "Nahum 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et proiciam super te abominationes et contumeliis te adficiam et ponam te in exemplum",
+      "citation": "Nahum 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et erit omnis qui viderit te resiliet a te et dicet vastata est Nineve quis commovebit super te caput unde quaeram consolatorem tibi",
+      "citation": "Nahum 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "numquid melior es ab Alexandria populorum quae habitat in fluminibus aqua in circuitu eius cuius divitiae mare aquae muri eius",
+      "citation": "Nahum 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "Aethiopia fortitudo et Aegyptus et non est finis Africa et Lybies fuerunt in auxilio tuo",
+      "citation": "Nahum 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "sed et ipsa in transmigrationem ducta est in captivitatem parvuli eius elisi sunt in capite omnium viarum et super inclitos eius miserunt sortem et omnes optimates eius confixi sunt in conpedibus",
+      "citation": "Nahum 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et tu ergo inebriaberis eris despecta et tu quaeres auxilium ab inimico",
+      "citation": "Nahum 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "omnes munitiones tuae sicuti ficus cum grossis suis si concussae fuerint cadent in os comedentis",
+      "citation": "Nahum 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ecce populus tuus mulieres in medio tui inimicis tuis adapertione pandentur portae terrae tuae devorabit ignis vectes tuos",
+      "citation": "Nahum 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "aquam propter obsidionem hauri tibi extrue munitiones tuas intra in lutum et calca subigens tene laterem",
+      "citation": "Nahum 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ibi comedet te ignis peribis gladio devorabit te ut bruchus congregare ut bruchus multiplicare ut lucusta",
+      "citation": "Nahum 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "plures fecisti negotiationes tuas quam stellae sunt caeli bruchus expansus est et avolavit",
+      "citation": "Nahum 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "custodes tui quasi lucustae et parvuli tui quasi lucustae lucustarum quae considunt in sepibus in die frigoris sol ortus est et avolaverunt et non est cognitus locus earum ubi fuerint",
+      "citation": "Nahum 3:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "dormitaverunt pastores tui rex Assur sepelientur principes tui latitavit populus tuus in montibus et non est qui congreget",
+      "citation": "Nahum 3:18 (Clementine Vulgate)"
+    }
+  ]
+}

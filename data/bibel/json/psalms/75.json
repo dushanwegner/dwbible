@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 75 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 75,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/74.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/76.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/75.json",
+      "latin": "https://latinprayer.org/latin/psalms/75.json"
+    }
+  },
+  "citation": "Psalmen 75 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, nach (der Singweise = Melodie) »Vertilge nicht«; ein Psalm von Asaph</em>, <em>ein Lied.</em>",
+      "citation": "Psalmen 75:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wir preisen dich, Gott, wir preisen! Denn nahe ist uns dein Name: deine Wundertaten verkünden ihn.",
+      "citation": "Psalmen 75:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "»Wenn ich die Zeit gekommen erachte, dann halte ich gerechtes Gericht.",
+      "citation": "Psalmen 75:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Mag wanken die Erde mit allen ihren Bewohnern: ich bin’s, der ihre Säulen festgestellt. SELA.",
+      "citation": "Psalmen 75:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ich rufe den Stolzen zu: ›Seid nicht stolz!‹ und den Frevlern: ›Hebt den Kopf nicht hoch!",
+      "citation": "Psalmen 75:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Hebt euren Kopf nicht gar so hoch, redet nicht vermessen mit gerecktem Hals!‹« –",
+      "citation": "Psalmen 75:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Denn nicht vom Aufgang (der Sonne) noch vom Niedergang und nicht von der Wüste her kommt die Erhöhung;",
+      "citation": "Psalmen 75:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "nein, Gott ist’s, der da richtet: diesen erniedrigt und jenen erhöht er.",
+      "citation": "Psalmen 75:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Denn ein Becher ist in der Hand des HERRN mit schäumendem Wein, voll von berauschender Mischung; und er schenkt daraus ein: sogar die Hefen davon müssen schlürfen und trinken alle Frevler der Erde.",
+      "citation": "Psalmen 75:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Ich aber will das ewig verkünden, will lobsingen dem Gotte Jakobs;",
+      "citation": "Psalmen 75:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "und alle Hörner der Frevler will ich abhaun, doch die Hörner der Gerechten sollen erhöht sein.",
+      "citation": "Psalmen 75:11 (Menge)"
+    }
+  ]
+}

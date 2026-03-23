@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Tobit, Chapter 9 — 6 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Tobit",
+      "slug": "tobias",
+      "testament": "OT",
+      "order": 17,
+      "totalChapters": 14
+    },
+    "chapter": 9,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/tobias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/tobias/8.json",
+      "nextChapter": "https://latinprayer.org/bibel/tobias/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/tobias/9.json",
+      "latin": "https://latinprayer.org/latin/tobias/9.json"
+    }
+  },
+  "citation": "Tobit 9 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Darauf rief Tobias den Raphael und sagte zu ihm:",
+      "citation": "Tobit 9:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Bruder Asarja, nimm einen Knecht und zwei Kamele mit dir und ziehe nach Rages in Medien zu Gabael; hole mir das Geld und bringe ihn mir selbst zur Teilnahme an der Hochzeit her;",
+      "citation": "Tobit 9:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "denn Raguel hat mich beschworen, von hier nicht wegzugehen.",
+      "citation": "Tobit 9:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Mein Vater aber zählt die Tage, und wenn ich zu lange auf mich warten lasse, wird er sich sehr grämen«.",
+      "citation": "Tobit 9:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da reiste Raphael hin, kehrte bei Gabael ein und überreichte ihm den Schuldschein; der aber brachte die versiegelten Säckchen und übergab sie ihm.",
+      "citation": "Tobit 9:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Dann machten sie sich zusammen am andern Morgen früh auf den Weg und kamen zur Hochzeit; und Gabael segnete den Tobias und seine Frau.",
+      "citation": "Tobit 9:6 (Menge)"
+    }
+  ]
+}

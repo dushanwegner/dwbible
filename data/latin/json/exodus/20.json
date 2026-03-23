@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 20 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 20,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/19.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/21.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/20.json",
+      "german": "https://latinprayer.org/bibel/exodus/20.json"
+    }
+  },
+  "citation": "Exodus 20 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "locutus quoque est Dominus cunctos sermones hos",
+      "citation": "Exodus 20:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ego sum Dominus Deus tuus qui eduxi te de terra Aegypti de domo servitutis",
+      "citation": "Exodus 20:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "non habebis deos alienos coram me",
+      "citation": "Exodus 20:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "non facies tibi sculptile neque omnem similitudinem quae est in caelo desuper et quae in terra deorsum nec eorum quae sunt in aquis sub terra",
+      "citation": "Exodus 20:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "non adorabis ea neque coles ego sum Dominus Deus tuus fortis zelotes visitans iniquitatem patrum in filiis in tertiam et quartam generationem eorum qui oderunt me",
+      "citation": "Exodus 20:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et faciens misericordiam in milia his qui diligunt me et custodiunt praecepta mea",
+      "citation": "Exodus 20:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "non adsumes nomen Domini Dei tui in vanum nec enim habebit insontem Dominus eum qui adsumpserit nomen Domini Dei sui frustra",
+      "citation": "Exodus 20:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "memento ut diem sabbati sanctifices",
+      "citation": "Exodus 20:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sex diebus operaberis et facies omnia opera tua",
+      "citation": "Exodus 20:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "septimo autem die sabbati Domini Dei tui non facies omne opus tu et filius tuus et filia tua servus tuus et ancilla tua iumentum tuum et advena qui est intra portas tuas",
+      "citation": "Exodus 20:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sex enim diebus fecit Dominus caelum et terram et mare et omnia quae in eis sunt et requievit in die septimo idcirco benedixit Dominus diei sabbati et sanctificavit eum",
+      "citation": "Exodus 20:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "honora patrem tuum et matrem tuam ut sis longevus super terram quam Dominus Deus tuus dabit tibi",
+      "citation": "Exodus 20:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "non occides",
+      "citation": "Exodus 20:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "non moechaberis",
+      "citation": "Exodus 20:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "non furtum facies",
+      "citation": "Exodus 20:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "non loqueris contra proximum tuum falsum testimonium",
+      "citation": "Exodus 20:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "non concupisces domum proximi tui nec desiderabis uxorem eius non servum non ancillam non bovem non asinum nec omnia quae illius sunt",
+      "citation": "Exodus 20:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "cunctus autem populus videbat voces et lampadas et sonitum bucinae montemque fumantem et perterriti ac pavore concussi steterunt procul",
+      "citation": "Exodus 20:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "dicentes Mosi loquere tu nobis et audiemus non loquatur nobis Dominus ne forte moriamur",
+      "citation": "Exodus 20:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et ait Moses ad populum nolite timere ut enim probaret vos venit Deus et ut terror illius esset in vobis et non peccaretis",
+      "citation": "Exodus 20:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "stetitque populus de longe Moses autem accessit ad caliginem in qua erat Deus",
+      "citation": "Exodus 20:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "dixit praeterea Dominus ad Mosen haec dices filiis Israhel vos vidistis quod de caelo locutus sum vobis",
+      "citation": "Exodus 20:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "non facietis mecum deos argenteos nec deos aureos facietis vobis",
+      "citation": "Exodus 20:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "altare de terra facietis mihi et offeretis super eo holocausta et pacifica vestra oves vestras et boves in omni loco in quo memoria fuerit nominis mei veniam ad te et benedicam tibi",
+      "citation": "Exodus 20:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quod si altare lapideum feceris mihi non aedificabis illud de sectis lapidibus si enim levaveris cultrum tuum super eo polluetur",
+      "citation": "Exodus 20:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "non ascendes per gradus ad altare meum ne reveletur turpitudo tua",
+      "citation": "Exodus 20:26 (Clementine Vulgate)"
+    }
+  ]
+}

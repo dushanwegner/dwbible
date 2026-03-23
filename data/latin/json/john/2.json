@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John, Chapter 2 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 2,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/john/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/john/1.json",
+      "nextChapter": "https://latinprayer.org/latin/john/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/john/2.json",
+      "german": "https://latinprayer.org/bibel/john/2.json"
+    }
+  },
+  "citation": "John 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et die tertio nuptiae factae sunt in Cana Galilaeae et erat mater Iesu ibi",
+      "citation": "John 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "vocatus est autem ibi et Iesus et discipuli eius ad nuptias",
+      "citation": "John 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et deficiente vino dicit mater Iesu ad eum vinum non habent",
+      "citation": "John 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dicit ei Iesus quid mihi et tibi est mulier nondum venit hora mea",
+      "citation": "John 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "dicit mater eius ministris quodcumque dixerit vobis facite",
+      "citation": "John 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "erant autem ibi lapideae hydriae sex positae secundum purificationem Iudaeorum capientes singulae metretas binas vel ternas",
+      "citation": "John 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "dicit eis Iesus implete hydrias aqua et impleverunt eas usque ad summum",
+      "citation": "John 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et dicit eis Iesus haurite nunc et ferte architriclino et tulerunt",
+      "citation": "John 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ut autem gustavit architriclinus aquam vinum factam et non sciebat unde esset ministri autem sciebant qui haurierant aquam vocat sponsum architriclinus",
+      "citation": "John 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et dicit ei omnis homo primum bonum vinum ponit et cum inebriati fuerint tunc id quod deterius est tu servasti bonum vinum usque adhuc",
+      "citation": "John 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "hoc fecit initium signorum Iesus in Cana Galilaeae et manifestavit gloriam suam et crediderunt in eum discipuli eius",
+      "citation": "John 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "post hoc descendit Capharnaum ipse et mater eius et fratres eius et discipuli eius et ibi manserunt non multis diebus",
+      "citation": "John 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et prope erat pascha Iudaeorum et ascendit Hierosolyma Iesus",
+      "citation": "John 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et invenit in templo vendentes boves et oves et columbas et nummularios sedentes",
+      "citation": "John 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et cum fecisset quasi flagellum de funiculis omnes eiecit de templo oves quoque et boves et nummulariorum effudit aes et mensas subvertit",
+      "citation": "John 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et his qui columbas vendebant dixit auferte ista hinc nolite facere domum Patris mei domum negotiationis",
+      "citation": "John 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "recordati vero sunt discipuli eius quia scriptum est zelus domus tuae comedit me",
+      "citation": "John 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "responderunt ergo Iudaei et dixerunt ei quod signum ostendis nobis quia haec facis",
+      "citation": "John 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "respondit Iesus et dixit eis solvite templum hoc et in tribus diebus excitabo illud",
+      "citation": "John 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "dixerunt ergo Iudaei quadraginta et sex annis aedificatum est templum hoc et tu tribus diebus excitabis illud",
+      "citation": "John 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "ille autem dicebat de templo corporis sui",
+      "citation": "John 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "cum ergo resurrexisset a mortuis recordati sunt discipuli eius quia hoc dicebat et crediderunt scripturae et sermoni quem dixit Iesus",
+      "citation": "John 2:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "cum autem esset Hierosolymis in pascha in die festo multi crediderunt in nomine eius videntes signa eius quae faciebat",
+      "citation": "John 2:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "ipse autem Iesus non credebat semet ipsum eis eo quod ipse nosset omnes",
+      "citation": "John 2:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et quia opus ei non erat ut quis testimonium perhiberet de homine ipse enim sciebat quid esset in homine",
+      "citation": "John 2:25 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 31 — 42 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 31,
+    "verseCount": 42,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/30.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/32.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/31.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/31.json"
+    }
+  },
+  "citation": "Sirach 31 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "vigilia honestatis tabefacit carnes et cogitatus illius auferet somnum",
+      "citation": "Sirach 31:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cogitatus praesentiae avertit sensum et infirmitas gravis sobriam facit animam",
+      "citation": "Sirach 31:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "laboravit dives in congregatione substantiae et in requie sua replebitur bonorum suorum",
+      "citation": "Sirach 31:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "laboravit pauper in diminutione victus et in fine inops fit",
+      "citation": "Sirach 31:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "qui aurum diligit non iustificabitur et qui insequitur consumptionem replebitur ex ea",
+      "citation": "Sirach 31:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "multi dati sunt in auri casus et facta est in facie ipsius perditio illorum",
+      "citation": "Sirach 31:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "lignum offensionis est aurum sacrificantium vae illis qui sectantur illud et omnis inprudens deperiet in illo",
+      "citation": "Sirach 31:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "beatus dives qui inventus est sine macula et qui post aurum non abiit nec speravit in pecunia et thesauris",
+      "citation": "Sirach 31:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quis est hic et laudabimus eum fecit enim mirabilia in vita sua",
+      "citation": "Sirach 31:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quis probatus est in illo et perfectus est et erit illi in gloria aeterna qui potuit transgredi et non est transgressus et facere mala et non fecit",
+      "citation": "Sirach 31:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ideo stabilita sunt bona illius in Deo et elemosynas illius enarrabit ecclesia sanctorum",
+      "citation": "Sirach 31:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "de continentia supra mensam magnam sedisti non aperias super illam faucem tuam prior",
+      "citation": "Sirach 31:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "non dicas simulata sunt quae super illa sunt",
+      "citation": "Sirach 31:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "memento quoniam malum oculus nequa",
+      "citation": "Sirach 31:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "nequius oculo quid creatum est ideo ab omni facie sua lacrimabitur cum viderit",
+      "citation": "Sirach 31:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ne extendas manum tuam prior et invidia contaminatus obrubescas",
+      "citation": "Sirach 31:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "nec conprimaris in convivio",
+      "citation": "Sirach 31:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "intellege proximi tui ex te ipso",
+      "citation": "Sirach 31:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "utere quasi homo frugi quae tibi adponuntur et non cum manducas multum odio habearis",
+      "citation": "Sirach 31:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "cessa prior causa disciplinae et noli nimius esse ne forte offendas",
+      "citation": "Sirach 31:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et si in medio multorum sedisti prior illis non extendas manum tuam nec prior poscas bibere",
+      "citation": "Sirach 31:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quam sufficiens est homini erudito vinum exiguum et in dormiendo non laborabis ab illo et non senties dolorem",
+      "citation": "Sirach 31:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "vigilia et cholera et tortura viro infrunito",
+      "citation": "Sirach 31:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "somnus sanitatis in homine parco dormiet usque in mane et anima illius cum ipso delectabitur",
+      "citation": "Sirach 31:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et si coactus fueris in edendo multum surge e medio et vome et refrigerabit te et non adduces corpori tuo infirmitates",
+      "citation": "Sirach 31:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "audi me fili et ne spernas me et in novissimo invenies mea verba",
+      "citation": "Sirach 31:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "in omnibus operibus tuis esto velox et omnis infirmitas non occurret tibi",
+      "citation": "Sirach 31:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "splendidum in panibus benedicent labia multorum et testimonium veritatis illius fidele",
+      "citation": "Sirach 31:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "in nequissimo pane murmurabit civitas et testimonium nequitiae illius verum est",
+      "citation": "Sirach 31:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "diligentes in vino noli provocare multos enim exterminavit vinum",
+      "citation": "Sirach 31:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "ignis probat ferrum durum sic vinum corda superborum arguet in ebrietate potatum",
+      "citation": "Sirach 31:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "aequavit in vita vinum hominibus si bibas illud moderate eris sobrius",
+      "citation": "Sirach 31:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "quae est vita quae minuitur vino",
+      "citation": "Sirach 31:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "quid defraudat vitam mors",
+      "citation": "Sirach 31:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "vinum in iucunditate creatum est non in ebrietate ab initio",
+      "citation": "Sirach 31:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "exultatio animae et cordis vinum moderate potatum",
+      "citation": "Sirach 31:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "sanitas est et corpori et animae",
+      "citation": "Sirach 31:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "vinum multum potatum inritationem et iram et ruinas multas facit",
+      "citation": "Sirach 31:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "amaritudo animae vinum multum potatum",
+      "citation": "Sirach 31:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "ebrietatis animositas inprudentis offensio minorans virtutem et faciens vulnera",
+      "citation": "Sirach 31:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "in convivio vini non arguas proximum et non despicias eum in iucunditate illius",
+      "citation": "Sirach 31:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "verba inproperii non dicas illi et non premas illum in repetendo",
+      "citation": "Sirach 31:42 (Clementine Vulgate)"
+    }
+  ]
+}

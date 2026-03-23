@@ -1,0 +1,366 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Paralipomenon, Chapter 6 — 66 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Paralipomenon",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 6,
+    "verseCount": 66,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-paralipomenon/5.json",
+      "nextChapter": "https://latinprayer.org/bible/1-paralipomenon/7.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-paralipomenon/6.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/6.json"
+    }
+  },
+  "citation": "1. Paralipomenon 6 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "So the sons of Levi were Gerson, Caath, and Merari.",
+      "citation": "1. Paralipomenon 6:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And these are the names of the sons of Gerson: Lobni and Semei.",
+      "citation": "1. Paralipomenon 6:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The sons of Caath: Amram, and Isaar, and Hebron, and Oziel.",
+      "citation": "1. Paralipomenon 6:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The sons of Merari: Moholi and Musi. And these are the kindreds of Levi according to their families.",
+      "citation": "1. Paralipomenon 6:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Of Gerson: Lobni his son, Jahath his son, Zamma his son,",
+      "citation": "1. Paralipomenon 6:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Joah his son, Addo his son, Zara his son, Jethrai his son.",
+      "citation": "1. Paralipomenon 6:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The sons of Caath, Aminadab his son, Core his son, Asir his son,",
+      "citation": "1. Paralipomenon 6:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Elcana his son, Abiasaph his son, Asir his son,",
+      "citation": "1. Paralipomenon 6:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thahath his son, Uriel his son, Ozias his son, Saul his son.",
+      "citation": "1. Paralipomenon 6:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The sons of Elcana: Amasai, and Achimoth.",
+      "citation": "1. Paralipomenon 6:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Elcana. The sons of Elcana: Sophai his son, Nahath his son,",
+      "citation": "1. Paralipomenon 6:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Eliab his son, Jeroham his son, Elcana his son.",
+      "citation": "1. Paralipomenon 6:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The sons of Samuel: the firstborn Vasseni, and Abia.",
+      "citation": "1. Paralipomenon 6:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And the sons of Merari, Moholi: Lobni his son, Semei his son, Oza his son,",
+      "citation": "1. Paralipomenon 6:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Sammaa his son, Haggia his son, Asaia his son.",
+      "citation": "1. Paralipomenon 6:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "These are they, whom David set over the singing men of the house of the Lord, after that the ark was placed.",
+      "citation": "1. Paralipomenon 6:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And they ministered before the tabernacle of the testimony, with singing, until Solomon built the house of the Lord in Jerusalem, and they stood according to their order in the ministry.",
+      "citation": "1. Paralipomenon 6:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And these are they that stood with their sons, of the sons of Caath, Hemam a singer, the son of Joel, the son of Sammuel,",
+      "citation": "1. Paralipomenon 6:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The son of Elcana, the son of Jeroham, the son of Eliel, the son of Thohu,",
+      "citation": "1. Paralipomenon 6:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The son of Suph, the son of Elcana, the son of Mahath, the son of Amasai,",
+      "citation": "1. Paralipomenon 6:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "The son of Elcana, the son of Johel, the son of Azarias, the son of Sophonias,",
+      "citation": "1. Paralipomenon 6:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The son of Thahath, the son of Asir, the son of Abiasaph, the son of Core,",
+      "citation": "1. Paralipomenon 6:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The son of Isaar, the son of Caath, the son of Levi, the son of Israel.",
+      "citation": "1. Paralipomenon 6:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And his brother Asaph, who stood on his right hand, Asaph the son of Barachias, the son of Samaa.",
+      "citation": "1. Paralipomenon 6:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "The son of Michael, the son of Basaia, the, son of Melchia.",
+      "citation": "1. Paralipomenon 6:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "The son of Athanai, the son of Zara, the son of Adaia.",
+      "citation": "1. Paralipomenon 6:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "The son of Ethan, the son of Zamma, the son of Semei.",
+      "citation": "1. Paralipomenon 6:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "The son of Jeth, the son of Gerson, the son of Levi.",
+      "citation": "1. Paralipomenon 6:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And the sons of Merari their brethren, on the left hand, Ethan the son of Cusi, the son of Abdi, the son of Meloch,",
+      "citation": "1. Paralipomenon 6:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "The son of Hasabia, the son of Amasai, the son of Helcias,",
+      "citation": "1. Paralipomenon 6:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "The son of Amasai, the son of Boni, the son of Somer,",
+      "citation": "1. Paralipomenon 6:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "The son of Moholi, the son of Musi, the son of Merari, the son of Levi.",
+      "citation": "1. Paralipomenon 6:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Their brethren also the Levites, who were appointed for all the ministry of the tabernacle of the house of the Lord.",
+      "citation": "1. Paralipomenon 6:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "But Aaron and his sons offered burnt offerings upon the altar of holocausts, and upon the altar of incense, for every work of the holy of holies: and to pray for Israel according to all that Moses the servant of God had commanded.",
+      "citation": "1. Paralipomenon 6:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And these are the sons of Aaron: Eleazar his son, Phinees his son, Abisue his son,",
+      "citation": "1. Paralipomenon 6:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "Bocci his son, Ozi his son, Zarahia his son,",
+      "citation": "1. Paralipomenon 6:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "Meraioth his son, Amarias his son, Achitob his son,",
+      "citation": "1. Paralipomenon 6:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Sadoc his son, Achimaas his son.",
+      "citation": "1. Paralipomenon 6:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And these are their dwelling places by the towns and confines, to wit, of the sons of Aaron, of the families of the Caathites: for they fell to them by lot.",
+      "citation": "1. Paralipomenon 6:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And they gave them Hebron in the land of Juda, and the suburbs thereof round about:",
+      "citation": "1. Paralipomenon 6:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "But the fields of the city, and the villages to Caleb son of Jephone.",
+      "citation": "1. Paralipomenon 6:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And to the sons of Aaron they gave the cities for refuge Hebron, and Lobna, and the suburbs thereof,",
+      "citation": "1. Paralipomenon 6:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And Jether and Esthemo, with their suburbs, and Helon, and Dabir with their suburbs:",
+      "citation": "1. Paralipomenon 6:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "Asan also, and Bethsames, with their suburbs.",
+      "citation": "1. Paralipomenon 6:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "And out of the tribe of Benjamin: Gabee and its suburbs, Almath with its suburbs, Anathoth also with its suburbs: all their cities throughout their families were thirteen.",
+      "citation": "1. Paralipomenon 6:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "And to the sons of Caath that remained of their kindred they gave out of the half tribe of Manasses ten cities in possession.",
+      "citation": "1. Paralipomenon 6:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "And to the sons of Gerson by their families out of the tribe of Issachar, and out of the tribe of Aser, and out of the tribe of Nephtali, and out of the tribe Manasses in Basan, thirteen cities.",
+      "citation": "1. Paralipomenon 6:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "And to the sons of Merari by their families out of the tribe of Ruben, and out of the tribe of Gad, and out of the tribe of Zabulon, they gave by lot twelve cities.",
+      "citation": "1. Paralipomenon 6:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "And the children of Israel gave to the Levites the cities, and their suburbs.",
+      "citation": "1. Paralipomenon 6:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "And they gave them by lot, out of the tribe of the sons of Juda, and out of the tribe of the sons of Simeon, and out of the tribe of the sons of Benjamin, these cities which they called by their names.",
+      "citation": "1. Paralipomenon 6:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "And to them that were of the kindred of the sons of Caath, and the cities in their borders were of the tribe of Ephraim.",
+      "citation": "1. Paralipomenon 6:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "And they gave the cities of refuge Sichem with its suburbs in mount Ephraim, and Gazer with its suburbs,",
+      "citation": "1. Paralipomenon 6:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "Jecmaan also with its suburbs, and Beth-horon in like manner,",
+      "citation": "1. Paralipomenon 6:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "Helon also with its suburbs, and Gethremmon in like manner,",
+      "citation": "1. Paralipomenon 6:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "And out of the half tribe of Manasses, Aner and its suburbs, Baalam and its suburbs, to wit, to them that were left of the family of the sons of Caath.",
+      "citation": "1. Paralipomenon 6:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "And to the sons of Gersom, out the kindred of the half tribe of Manasses, Gaulon, in Basan, and its suburbs, and Astharoth with its suburbs.",
+      "citation": "1. Paralipomenon 6:56 (Douay-Rheims)"
+    },
+    {
+      "verse": 57,
+      "text": "Out of the tribe of Issachar, Cedes and its suburbs, and Dabereth with its suburbs;",
+      "citation": "1. Paralipomenon 6:57 (Douay-Rheims)"
+    },
+    {
+      "verse": 58,
+      "text": "Ramoth also and its suburbs, and Anem with its suburbs.",
+      "citation": "1. Paralipomenon 6:58 (Douay-Rheims)"
+    },
+    {
+      "verse": 59,
+      "text": "And out of the tribe of Aser: Masal with its suburbs, and Abdon in like manner;",
+      "citation": "1. Paralipomenon 6:59 (Douay-Rheims)"
+    },
+    {
+      "verse": 60,
+      "text": "Hucac also and its suburbs, and Rohol with its suburbs.",
+      "citation": "1. Paralipomenon 6:60 (Douay-Rheims)"
+    },
+    {
+      "verse": 61,
+      "text": "And out of the tribe of Nephtali, Cedes in Galilee and its suburbs, Hamon with its suburbs, and Cariathaim, and its suburbs.",
+      "citation": "1. Paralipomenon 6:61 (Douay-Rheims)"
+    },
+    {
+      "verse": 62,
+      "text": "And to the sons of Merari that remained: out of the tribe of Zabulon, Remmono and its suburbs, and Thabor with its suburbs.",
+      "citation": "1. Paralipomenon 6:62 (Douay-Rheims)"
+    },
+    {
+      "verse": 63,
+      "text": "Beyond the Jordan also over against Jericho, on the east side of the Jordan and out of the tribe of Ruben, Bosor in the wilderness with its suburbs, and Jassa with its suburbs;",
+      "citation": "1. Paralipomenon 6:63 (Douay-Rheims)"
+    },
+    {
+      "verse": 64,
+      "text": "Cademoth also and its suburbs, and Mephaath with its suburbs;",
+      "citation": "1. Paralipomenon 6:64 (Douay-Rheims)"
+    },
+    {
+      "verse": 65,
+      "text": "Moreover also out of the tribe of Gad, Ramoth in Galaad and its suburbs, and Manaim with its suburbs;",
+      "citation": "1. Paralipomenon 6:65 (Douay-Rheims)"
+    },
+    {
+      "verse": 66,
+      "text": "Hesebon also with its suburbs, and Jazer with its suburbs.",
+      "citation": "1. Paralipomenon 6:66 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 28 — 9 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 28,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/27.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/29.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/28.json",
+      "latin": "https://latinprayer.org/latin/psalms/28.json"
+    }
+  },
+  "citation": "Psalmen 28 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Von David.</em> Zu dir, HERR, rufe ich: mein Fels, o wende dich nicht schweigend von mir ab, auf daß nicht, wenn du mir stumm bleibst, ich den ins Grab Gesunknen gleiche.",
+      "citation": "Psalmen 28:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Höre mein lautes Flehen, wenn ich zu dir schreie, wenn ich meine Hände erhebe nach deinem Allerheiligsten!",
+      "citation": "Psalmen 28:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Raffe mich nicht weg mit den Frevlern und den Übeltätern, die freundlich reden mit ihren Nächsten und dabei Arges im Herzen sinnen!",
+      "citation": "Psalmen 28:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Vergilt du ihnen nach ihrem Tun, nach der Bosheit ihrer Handlungen, vergilt ihnen nach dem Werk ihrer Hände, zahl’ ihnen ihr Verhalten heim, wie sie’s verdienen!",
+      "citation": "Psalmen 28:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn sie achten nicht auf das Walten des HERRN und das Werk seiner Hände; drum wird er sie niederreißen und nicht wieder aufbaun.",
+      "citation": "Psalmen 28:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Gepriesen sei der HERR, denn er hat gehört meinen lauten Hilferuf!",
+      "citation": "Psalmen 28:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Der HERR ist meine Stärke und mein Schild; auf ihn hat mein Herz vertraut, da ist mir Hilfe geworden. So frohlockt denn mein Herz, und mit meinem Liede will ich ihm danken.",
+      "citation": "Psalmen 28:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Der HERR ist seines Volkes Stärke und seines Gesalbten rettende Zuflucht.",
+      "citation": "Psalmen 28:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "O hilf deinem Volk und segne dein Erbe, weide sie und trage sie ewiglich!",
+      "citation": "Psalmen 28:9 (Menge)"
+    }
+  ]
+}

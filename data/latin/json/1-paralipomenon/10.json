@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Chronicles, Chapter 10 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Chronicles",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 10,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-paralipomenon/9.json",
+      "nextChapter": "https://latinprayer.org/latin/1-paralipomenon/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-paralipomenon/10.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/10.json"
+    }
+  },
+  "citation": "1 Chronicles 10 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Philisthim autem pugnabant contra Israhel fugeruntque viri Israhel Palestinos et ceciderunt vulnerati in monte Gelboe",
+      "citation": "1 Chronicles 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cumque adpropinquassent Philisthei persequentes Saul et filios eius percusserunt Ionathan et Abinadab et Melchisuae filios Saul",
+      "citation": "1 Chronicles 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et adgravatum est proelium contra Saul inveneruntque eum sagittarii et vulneraverunt iaculis",
+      "citation": "1 Chronicles 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dixit Saul ad armigerum suum evagina gladium tuum et interfice me ne forte veniant incircumcisi isti et inludant mihi noluit autem armiger eius hoc facere timore perterritus arripuit igitur Saul ensem et inruit in eum",
+      "citation": "1 Chronicles 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quod cum vidisset armiger eius videlicet mortuum esse Saul inruit etiam ipse in gladium suum et mortuus est",
+      "citation": "1 Chronicles 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "interiit ergo Saul et tres filii eius et omnis domus illius pariter concidit",
+      "citation": "1 Chronicles 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quod cum vidissent viri Israhel qui habitabant in campestribus fugerunt et Saul ac filiis eius mortuis dereliquerunt urbes suas et huc illucque dispersi sunt veneruntque Philisthim et habitaverunt in eis",
+      "citation": "1 Chronicles 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "die igitur altero detrahentes Philisthim spolia caesorum invenerunt Saul et filios eius iacentes in monte Gelboe",
+      "citation": "1 Chronicles 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "cumque spoliassent eum et amputassent caput armisque nudassent miserunt in terram suam ut circumferretur et ostenderetur idolorum templis et populis",
+      "citation": "1 Chronicles 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "arma autem eius consecraverunt in fano dei sui et caput adfixerunt in templo Dagon",
+      "citation": "1 Chronicles 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "hoc cum audissent viri Iabesgalaad omnia scilicet quae Philisthim fecerunt super Saul",
+      "citation": "1 Chronicles 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "consurrexerunt singuli virorum fortium et tulerunt cadavera Saul et filiorum eius adtuleruntque ea in Iabes et sepelierunt ossa eorum subter quercum quae erat in Iabes et ieiunaverunt septem diebus",
+      "citation": "1 Chronicles 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "mortuus est ergo Saul propter iniquitates suas eo quod praevaricatus sit mandatum Domini quod praeceperat et non custodierit illud sed insuper etiam pythonissam consuluerit",
+      "citation": "1 Chronicles 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "nec speraverit in Domino propter quod et interfecit eum et transtulit regnum eius ad David filium Isai",
+      "citation": "1 Chronicles 10:14 (Clementine Vulgate)"
+    }
+  ]
+}

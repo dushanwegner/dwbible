@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 7 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 7,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/proverbs/6.json",
+      "nextChapter": "https://latinprayer.org/latin/proverbs/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/7.json",
+      "german": "https://latinprayer.org/bibel/proverbs/7.json"
+    }
+  },
+  "citation": "Proverbs 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "fili mi custodi sermones meos et praecepta mea reconde tibi",
+      "citation": "Proverbs 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "serva mandata mea et vives et legem meam quasi pupillam oculi tui",
+      "citation": "Proverbs 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "liga eam in digitis tuis scribe illam in tabulis cordis tui",
+      "citation": "Proverbs 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "dic sapientiae soror mea es et prudentiam voca amicam tuam",
+      "citation": "Proverbs 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ut custodiat te a muliere extranea et ab aliena quae verba sua dulcia facit",
+      "citation": "Proverbs 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "de fenestra enim domus meae per cancellos prospexi",
+      "citation": "Proverbs 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et video parvulos considero vecordem iuvenem",
+      "citation": "Proverbs 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "qui transit in platea iuxta angulum et propter viam domus illius graditur",
+      "citation": "Proverbs 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "in obscuro advesperascente die in noctis tenebris et caligine",
+      "citation": "Proverbs 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ecce mulier occurrit illi ornatu meretricio praeparata ad capiendas animas garrula et vaga",
+      "citation": "Proverbs 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quietis inpatiens nec valens in domo consistere pedibus suis",
+      "citation": "Proverbs 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nunc foris nunc in plateis nunc iuxta angulos insidians",
+      "citation": "Proverbs 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "adprehensumque deosculatur iuvenem et procaci vultu blanditur dicens",
+      "citation": "Proverbs 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "victimas pro salute debui hodie reddidi vota mea",
+      "citation": "Proverbs 7:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "idcirco egressa sum in occursum tuum desiderans te videre et repperi",
+      "citation": "Proverbs 7:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "intexui funibus lectum meum stravi tapetibus pictis ex Aegypto",
+      "citation": "Proverbs 7:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "aspersi cubile meum murra et aloe et cinnamomo",
+      "citation": "Proverbs 7:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "veni inebriemur uberibus donec inlucescat dies et fruamur cupitis amplexibus",
+      "citation": "Proverbs 7:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "non est enim vir in domo sua abiit via longissima",
+      "citation": "Proverbs 7:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "sacculum pecuniae secum tulit in die plenae lunae reversurus est domum suam",
+      "citation": "Proverbs 7:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "inretivit eum multis sermonibus et blanditiis labiorum protraxit illum",
+      "citation": "Proverbs 7:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "statim eam sequitur quasi bos ductus ad victimam et quasi agnus lasciviens et ignorans quod ad vincula stultus trahatur",
+      "citation": "Proverbs 7:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "donec transfigat sagitta iecur eius velut si avis festinet ad laqueum et nescit quia de periculo animae illius agitur",
+      "citation": "Proverbs 7:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "nunc ergo fili audi me et adtende verba oris mei",
+      "citation": "Proverbs 7:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "ne abstrahatur in viis illius mens tua neque decipiaris semitis eius",
+      "citation": "Proverbs 7:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "multos enim vulneratos deiecit et fortissimi quique interfecti sunt ab ea",
+      "citation": "Proverbs 7:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "viae inferi domus eius penetrantes interiora mortis",
+      "citation": "Proverbs 7:27 (Clementine Vulgate)"
+    }
+  ]
+}

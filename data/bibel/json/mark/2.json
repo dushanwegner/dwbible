@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Markus, Chapter 2 — 28 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Markus",
+      "slug": "mark",
+      "testament": "NT",
+      "order": 48,
+      "totalChapters": 16
+    },
+    "chapter": 2,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/mark/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/mark/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/mark/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/mark/2.json",
+      "latin": "https://latinprayer.org/latin/mark/2.json"
+    }
+  },
+  "citation": "Markus 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als er dann nach einiger Zeit wieder nach Kapernaum heimgekommen war und die Kunde sich verbreitet hatte, daß er im Hause sei,",
+      "citation": "Markus 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "da versammelten sich alsbald so viele Leute, daß selbst der Platz vor der Tür für sie nicht mehr ausreichte; und er verkündigte ihnen das Wort.",
+      "citation": "Markus 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Da kamen Leute zu ihm, die einen Gelähmten brachten, der von vier Männern getragen wurde.",
+      "citation": "Markus 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Weil sie nun mit ihm wegen der Volksmenge nicht an ihn herankommen konnten, deckten sie über der Stelle, wo Jesus sich befand, das Hausdach ab und ließen das Tragbett, auf dem der Gelähmte lag, durch eine Öffnung, die sie hindurchgebrochen hatten, hinab.",
+      "citation": "Markus 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Als Jesus nun ihren Glauben erkannte, sagte er zu dem Gelähmten: »Mein Sohn, deine Sünden sind (dir) vergeben!«",
+      "citation": "Markus 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Es saßen dort aber einige Schriftgelehrte, die machten sich in ihrem Herzen Gedanken:",
+      "citation": "Markus 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "»Wie kann dieser so reden? Er lästert ja Gott! Wer kann Sünden vergeben außer Gott allein?«",
+      "citation": "Markus 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Da nun Jesus in seinem Geiste sogleich erkannte, daß sie so bei sich dachten, sagte er zu ihnen: »Warum denkt ihr so in euren Herzen?",
+      "citation": "Markus 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Was ist leichter, zu dem Gelähmten zu sagen: ›Deine Sünden sind (dir) vergeben‹, oder zu sagen: ›Stehe auf, nimm dein Tragbett und gehe umher‹?",
+      "citation": "Markus 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Damit ihr aber wißt, daß der Menschensohn Vollmacht hat, Sünden auf Erden zu vergeben« – hierauf sagte er zu dem Gelähmten:",
+      "citation": "Markus 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "»Ich sage dir: Stehe auf, nimm dein Bett und gehe heim in dein Haus!«",
+      "citation": "Markus 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Da stand er auf, nahm sogleich das Tragbett und ging vor aller Augen hinaus, so daß alle vor Staunen außer sich gerieten und Gott priesen, indem sie erklärten: »So etwas haben wir noch nie gesehen!«",
+      "citation": "Markus 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Er ging hierauf wieder hinaus an den See, und die ganze Volksmenge kam zu ihm, und er lehrte sie.",
+      "citation": "Markus 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Im Vorübergehen sah er dann Levi, den Sohn des Alphäus, an der Zollstätte sitzen und sagte zu ihm: »Folge mir nach!« Da stand er auf und folgte ihm nach.",
+      "citation": "Markus 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Nun begab es sich, als Jesus in Levis Hause zu Tische saß, daß viele Zöllner und Sünder mit Jesus und seinen Jüngern am Mahl teilnahmen; denn es waren ihrer viele, die ihm (beständig) nachfolgten.",
+      "citation": "Markus 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Als nun die Schriftgelehrten, die zu den Pharisäern gehörten, ihn mit den Zöllnern und Sündern zusammen essen sahen, sagten sie zu seinen Jüngern: »Wie (ist’s nur möglich), daß er mit den Zöllnern und Sündern ißt und trinkt?«",
+      "citation": "Markus 2:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Als Jesus das hörte, sagte er zu ihnen: »Die Gesunden haben keinen Arzt nötig, wohl aber die Kranken. Ich bin nicht gekommen, Gerechte zu berufen, sondern Sünder.«",
+      "citation": "Markus 2:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Die Jünger des Johannes und die Pharisäer fasteten gerade. Da kamen Leute zu Jesus mit der Frage: »Warum fasten die Jünger des Johannes und die Schüler der Pharisäer, während deine Jünger es nicht tun?«",
+      "citation": "Markus 2:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Jesus antwortete ihnen: »Können etwa die Hochzeitsgäste fasten, solange der Bräutigam noch bei ihnen weilt? Nein, solange sie den Bräutigam noch bei sich haben, können sie nicht fasten.",
+      "citation": "Markus 2:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Es werden aber Tage kommen, wo der Bräutigam ihnen genommen sein wird; dann, an jenem Tage, werden sie fasten. –",
+      "citation": "Markus 2:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Niemand setzt ein Stück von ungewalktem Tuch auf ein altes Kleid; sonst reißt der eingesetzte neue Fleck von dem alten Kleide wieder ab, und es entsteht ein noch schlimmerer Riß.",
+      "citation": "Markus 2:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Auch füllt niemand neuen Wein in alte Schläuche; sonst sprengt der Wein die Schläuche, und der Wein geht samt den Schläuchen verloren. Nein, neuer Wein gehört in neue Schläuche.«",
+      "citation": "Markus 2:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "(Einst) begab es sich, daß Jesus am Sabbat durch die Kornfelder wanderte, und seine Jünger begannen im Dahingehen Ähren abzupflücken.",
+      "citation": "Markus 2:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Da sagten die Pharisäer zu ihm: »Sieh, was sie da am Sabbat Unerlaubtes tun!«",
+      "citation": "Markus 2:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Er antwortete ihnen: »Habt ihr noch niemals gelesen, was David getan hat, als er Mangel litt und ihn samt seinen Begleitern hungerte?",
+      "citation": "Markus 2:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Wie er da ins Gotteshaus ging zur Zeit des Hohenpriesters Abjathar und die Schaubrote aß, die doch niemand außer den Priestern essen darf, und wie er auch seinen Begleitern davon gab?«",
+      "citation": "Markus 2:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Dann fuhr er fort: »Der Sabbat ist um des Menschen willen da und nicht der Mensch um des Sabbats willen;",
+      "citation": "Markus 2:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "somit ist der Menschensohn Herr auch über den Sabbat.«",
+      "citation": "Markus 2:28 (Menge)"
+    }
+  ]
+}

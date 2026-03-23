@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Tobit, Chapter 5 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Tobit",
+      "slug": "tobias",
+      "testament": "OT",
+      "order": 17,
+      "totalChapters": 14
+    },
+    "chapter": 5,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/tobias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/tobias/4.json",
+      "nextChapter": "https://latinprayer.org/latin/tobias/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/tobias/5.json",
+      "german": "https://latinprayer.org/bibel/tobias/5.json"
+    }
+  },
+  "citation": "Tobit 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tunc Tobias respondit patri suo et dixit omnia quaecumque praecepisti mihi faciam pater",
+      "citation": "Tobit 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quomodo autem hanc pecuniam inquiram ignoro ille me nescit neque ego illum quod signum dabo illi sed neque viam qua pergatur illuc aliquando cognovi",
+      "citation": "Tobit 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "tunc pater suus respondit illi et dixit chirografum quidem eius penes me habeo quem dum illi ostenderis statim restituet",
+      "citation": "Tobit 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sed perge nunc et inquire tibi aliquem fidelem virum qui eat tecum salva mercede sua dum adhuc vivo ut recipias ea",
+      "citation": "Tobit 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "tunc egressus Tobias invenit iuvenem splendidum stantem praecinctum et quasi paratum ad ambulandum",
+      "citation": "Tobit 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et ignorans quod angelus Dei esset salutavit eum et dixit unde te habemus bone iuvenis",
+      "citation": "Tobit 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "at ille respondit ex filiis Israhel et Tobias dixit ei nosti viam quae ducit in regionem Medorum",
+      "citation": "Tobit 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "cui respondit novi et omnia itinera eius frequenter ambulavi et mansi apud Gabelum fratrem nostrum qui moratur in Rages civitate Medorum quae posita est in monte Exbathanis",
+      "citation": "Tobit 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "cui Tobias ait sustine me obsecro donec haec ipsa nuntiem patri meo",
+      "citation": "Tobit 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "tunc ingressus indicavit universa haec patri suo super quae admiratus pater rogat ut introiret ad eum",
+      "citation": "Tobit 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ingressus itaque salutavit eum et dixit gaudium tibi semper sit",
+      "citation": "Tobit 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et Tobias ait quale mihi gaudium erit qui in tenebris sedeo et lumen caeli non video",
+      "citation": "Tobit 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "cui ait iuvenis forti animo esto in proximo est ut a Deo cureris",
+      "citation": "Tobit 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dixit itaque illi Tobias numquid poteris perducere filium meum ad Gabelum in Rages Medorum et cum redieris restituam tibi mercedem tuam",
+      "citation": "Tobit 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et dixit ei angelus ego eum ducam et reducam ad te",
+      "citation": "Tobit 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "cui Tobias respondit rogo te indica mihi de qua domo aut de qua tribu es tu",
+      "citation": "Tobit 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "cui Rafahel angelus dixit genus quaeris mercennarii an ipsum mercennarium qui cum filio tuo eat",
+      "citation": "Tobit 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "sed ne forte sollicitum te reddam ego sum Azarias Ananiae magni filius",
+      "citation": "Tobit 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et Tobias respondit ex magno genere es tu sed peto ne irascaris quod voluerim cognoscere genus tuum",
+      "citation": "Tobit 5:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "dixit autem illi angelus ego sanum ducam et sanum tibi reducam filium tuum",
+      "citation": "Tobit 5:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "respondens autem Tobias dixit bene ambuletis et sit Deus in itinere vestro et angelus eius comitetur vobiscum",
+      "citation": "Tobit 5:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "tunc paratis omnibus quae erant in via portanda fecit Tobias vale patri et matri suae et ambulaverunt ambo simul",
+      "citation": "Tobit 5:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "cumque profecti essent coepit flere mater eius et dicere baculum senectutis nostrae tulisti et transmisisti a nobis",
+      "citation": "Tobit 5:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "numquam esset ipsa pecunia pro qua misisti eum",
+      "citation": "Tobit 5:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "sufficiebat enim nobis paupertas nostra ut divitias conputaremus hoc quod videbamus filium nostrum",
+      "citation": "Tobit 5:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "dixitque ei Tobias noli flere salvus perveniet filius noster et salvus revertetur ad nos et oculi tui videbunt eum",
+      "citation": "Tobit 5:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "credo enim quoniam angelus Dei bonus comitetur ei et bene disponat omnia quae circa ipsum geruntur ita ut cum gaudio revertatur ad nos",
+      "citation": "Tobit 5:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "ad hanc vocem cessavit mater eius flere et tacuit",
+      "citation": "Tobit 5:28 (Clementine Vulgate)"
+    }
+  ]
+}

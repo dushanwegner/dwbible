@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Samuel, Chapter 3 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Samuel",
+      "slug": "1-kings-samuel",
+      "testament": "OT",
+      "order": 9,
+      "totalChapters": 31
+    },
+    "chapter": 3,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-kings-samuel/2.json",
+      "nextChapter": "https://latinprayer.org/latin/1-kings-samuel/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-kings-samuel/3.json",
+      "german": "https://latinprayer.org/bibel/1-kings-samuel/3.json"
+    }
+  },
+  "citation": "1 Samuel 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "puer autem Samuhel ministrabat Domino coram Heli et sermo Domini erat pretiosus in diebus illis non erat visio manifesta",
+      "citation": "1 Samuel 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "factum est ergo in die quadam Heli iacebat in loco suo et oculi eius caligaverant nec poterat videre",
+      "citation": "1 Samuel 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "lucerna Dei antequam extingueretur Samuhel autem dormiebat in templo Domini ubi erat arca Dei",
+      "citation": "1 Samuel 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et vocavit Dominus Samuhel qui respondens ait ecce ego",
+      "citation": "1 Samuel 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et cucurrit ad Heli et dixit ecce ego vocasti enim me qui dixit non vocavi revertere dormi et abiit et dormivit",
+      "citation": "1 Samuel 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et adiecit Dominus vocare rursum Samuhel consurgensque Samuhel abiit ad Heli et dixit ecce ego quia vocasti me qui respondit non vocavi te fili mi revertere et dormi",
+      "citation": "1 Samuel 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "porro Samuhel necdum sciebat Dominum neque revelatus fuerat ei sermo Domini",
+      "citation": "1 Samuel 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et adiecit Dominus et vocavit adhuc Samuhel tertio qui consurgens abiit ad Heli",
+      "citation": "1 Samuel 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et ait ecce ego quia vocasti me intellexit igitur Heli quia Dominus vocaret puerum et ait ad Samuhel vade et dormi et si deinceps vocaverit te dices loquere Domine quia audit servus tuus abiit ergo Samuhel et dormivit in loco suo",
+      "citation": "1 Samuel 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et venit Dominus et stetit et vocavit sicut vocaverat secundo Samuhel Samuhel et ait Samuhel loquere quia audit servus tuus",
+      "citation": "1 Samuel 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dixit Dominus ad Samuhel ecce ego facio verbum in Israhel quod quicumque audierit tinnient ambae aures eius",
+      "citation": "1 Samuel 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "in die illo suscitabo adversum Heli omnia quae locutus sum super domum eius incipiam et conplebo",
+      "citation": "1 Samuel 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "praedixi enim ei quod iudicaturus essem domum eius in aeternum propter iniquitatem eo quod noverat indigne agere filios suos et non corripuit eos",
+      "citation": "1 Samuel 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "idcirco iuravi domui Heli quod non expietur iniquitas domus eius victimis et muneribus usque in aeternum",
+      "citation": "1 Samuel 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "dormivit autem Samuhel usque mane aperuitque ostia domus Domini et Samuhel timebat indicare visionem Heli",
+      "citation": "1 Samuel 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "vocavit ergo Heli Samuhelem et dixit Samuhel fili mi qui respondens ait praesto sum",
+      "citation": "1 Samuel 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et interrogavit eum quis est sermo quem locutus est ad te oro te ne celaveris me haec faciat tibi Deus et haec addat si absconderis a me sermonem ex omnibus verbis quae dicta sunt tibi",
+      "citation": "1 Samuel 3:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "indicavit itaque ei Samuhel universos sermones et non abscondit ab eo et ille respondit Dominus est quod bonum est in oculis suis faciat",
+      "citation": "1 Samuel 3:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "crevit autem Samuhel et Dominus erat cum eo et non cecidit ex omnibus verbis eius in terram",
+      "citation": "1 Samuel 3:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et cognovit universus Israhel a Dan usque Bersabee quod fidelis Samuhel propheta esset Domini",
+      "citation": "1 Samuel 3:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et addidit Dominus ut appareret in Silo quoniam revelatus fuerat Dominus Samuheli in Silo iuxta verbum Domini et evenit sermo Samuhelis universo Israheli",
+      "citation": "1 Samuel 3:21 (Clementine Vulgate)"
+    }
+  ]
+}

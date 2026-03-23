@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthäus, Chapter 2 — 23 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthäus",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 2,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/matthew/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/matthew/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/2.json",
+      "latin": "https://latinprayer.org/latin/matthew/2.json"
+    }
+  },
+  "citation": "Matthäus 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als nun Jesus zu Bethlehem in Judäa in den Tagen des Königs Herodes geboren war, da kamen Weise aus dem Osten nach Jerusalem",
+      "citation": "Matthäus 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "und fragten: »Wo ist der neugeborene König der Juden? Wir haben nämlich seinen Stern im Aufgehen gesehen und sind hergekommen, um ihm unsere Huldigung darzubringen.«",
+      "citation": "Matthäus 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Als der König Herodes das vernahm, erschrak er sehr und ganz Jerusalem mit ihm;",
+      "citation": "Matthäus 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "und er ließ alle Hohenpriester und Schriftgelehrten des Volks zusammenkommen und erkundigte sich bei ihnen, wo Christus geboren werden sollte.",
+      "citation": "Matthäus 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Sie antworteten ihm: »Zu Bethlehem in Judäa; denn so steht bei dem Propheten geschrieben:",
+      "citation": "Matthäus 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "›Du, Bethlehem im Lande Judas, du bist durchaus nicht die unbedeutendste unter den Fürstenstädten Judas; denn aus dir wird ein Führer hervorgehen, der mein Volk Israel weiden wird.‹«",
+      "citation": "Matthäus 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Daraufhin berief Herodes die Weisen heimlich zu sich und ließ sich von ihnen genau die Zeit angeben, wann der Stern erschienen wäre;",
+      "citation": "Matthäus 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "dann wies er sie nach Bethlehem und sagte: »Zieht hin und stellt genaue Nachforschungen nach dem Kindlein an; und wenn ihr es gefunden habt, so teilt es mir mit, damit auch ich hingehe und ihm meine Huldigung darbringe.«",
+      "citation": "Matthäus 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Als sie das vom Könige gehört hatten, machten sie sich auf den Weg; und siehe da, der Stern, den sie im Osten gesehen hatten, ging vor ihnen her, bis er endlich über dem Ort stehen blieb, wo das Kindlein sich befand.",
+      "citation": "Matthäus 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Als sie den Stern erblickten, wurden sie hoch erfreut.",
+      "citation": "Matthäus 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Sie traten in das Haus ein und sahen das Kindlein bei seiner Mutter Maria, warfen sich vor ihm nieder und huldigten ihm; alsdann taten sie ihre Schatzbeutel auf und brachten ihm Geschenke dar: Gold, Weihrauch und Myrrhe.",
+      "citation": "Matthäus 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Weil sie hierauf im Traume die göttliche Weisung erhielten, nicht wieder zu Herodes zurückzukehren, zogen sie auf einem anderen Wege in ihr Heimatland zurück.",
+      "citation": "Matthäus 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Als sie nun weggezogen waren, da erschien ein Engel des Herrn dem Joseph im Traume und gebot ihm: »Steh auf, nimm das Kindlein und seine Mutter mit dir und fliehe nach Ägypten und bleibe so lange dort, bis ich’s dir sage! Denn Herodes geht damit um, nach dem Kindlein suchen zu lassen, um es umzubringen.«",
+      "citation": "Matthäus 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Da stand Joseph auf, nahm in der Nacht das Kindlein und seine Mutter mit sich und entwich nach Ägypten;",
+      "citation": "Matthäus 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "dort blieb er bis zum Tode des Herodes. So sollte sich das Wort erfüllen, das der Herr durch den Propheten gesprochen hat, der da sagt: »Aus Ägypten habe ich meinen Sohn gerufen.«",
+      "citation": "Matthäus 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Als Herodes sich nun von den Weisen hintergangen sah, geriet er in heftigen Zorn; er sandte (Diener) hin und ließ in Bethlehem und dem ganzen Umkreis des Ortes sämtliche Knaben im Alter von zwei und weniger Jahren töten, entsprechend der Zeit, die er sich von den Weisen genau hatte angeben lassen.",
+      "citation": "Matthäus 2:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Damals erfüllte sich, was durch den Propheten Jeremia gesagt ist, der spricht:",
+      "citation": "Matthäus 2:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "»Ein Geschrei hat man in Rama vernommen, lautes Weinen und viel Wehklagen: Rahel weint um ihre Kinder und will sich nicht trösten lassen, daß sie nicht mehr da sind.«",
+      "citation": "Matthäus 2:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Als Herodes aber gestorben war, da erschien ein Engel des Herrn dem Joseph in Ägypten im Traum",
+      "citation": "Matthäus 2:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "und gebot ihm: »Steh auf, nimm das Kindlein und seine Mutter mit dir und ziehe heim ins Land Israel; denn die sind gestorben, die dem Kindlein nach dem Leben getrachtet haben.«",
+      "citation": "Matthäus 2:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Da stand Joseph auf, nahm das Kindlein und seine Mutter mit sich und kehrte in das Land Israel zurück.",
+      "citation": "Matthäus 2:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Als er aber vernahm, daß Archelaus an Stelle seines Vaters Herodes König über Judäa sei, trug er Bedenken, dorthin zu gehen. Vielmehr begab er sich infolge einer göttlichen Weisung, die er im Traum erhalten hatte, in die Landschaft Galiläa",
+      "citation": "Matthäus 2:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "und ließ sich dort in einer Stadt namens Nazareth nieder. So ging das Prophetenwort in Erfüllung, daß er den Namen ›Nazarener‹ führen werde.",
+      "citation": "Matthäus 2:23 (Menge)"
+    }
+  ]
+}

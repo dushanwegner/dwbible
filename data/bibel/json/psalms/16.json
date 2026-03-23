@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 16 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 16,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/15.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/17.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/16.json",
+      "latin": "https://latinprayer.org/latin/psalms/16.json"
+    }
+  },
+  "citation": "Psalmen 16 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Lied von David.</em> Behüte mich, Gott, denn bei dir such’ ich Zuflucht!",
+      "citation": "Psalmen 16:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Ich sage zu Gott: »Mein Allherr bist du, es gibt nichts Gutes für mich außer dir«;",
+      "citation": "Psalmen 16:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "und von den Heiligen im Lande (sag ich): »Dies sind die Edlen, an denen mein ganzes Herz hängt.«",
+      "citation": "Psalmen 16:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Vielfaches Leid erwächst den Verehrern anderer (Götter): ich mag ihre Bluttrankopfer nicht spenden und ihre Namen nicht auf meine Lippen nehmen.",
+      "citation": "Psalmen 16:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Der HERR ist mein Erbgut und Becherteil; du bist’s, der mein Los mir sichert.",
+      "citation": "Psalmen 16:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Die Meßschnur ist mir gefallen aufs lieblichste ja, mein Erbteil gefällt mir gar wohl.",
+      "citation": "Psalmen 16:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ich preise den HERRN, der mich freundlich beraten; auch nächtens mahnt mich mein Herz dazu.",
+      "citation": "Psalmen 16:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Ich habe den HERRN mir beständig vor Augen gestellt: steht er mir zur Rechten, so wanke ich nicht.",
+      "citation": "Psalmen 16:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Drum freut sich mein Herz, und meine Seele frohlockt: auch mein Leib wird sicher wohnen.",
+      "citation": "Psalmen 16:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Denn du gibst meine Seele dem Totenreich nicht preis, du läßt deinen Frommen nicht schaun die Vernichtung.",
+      "citation": "Psalmen 16:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Du weisest mir den Weg des Lebens: vor deinem Angesicht sind Freuden in Fülle und Segensgaben in deiner Rechten ewiglich.",
+      "citation": "Psalmen 16:11 (Menge)"
+    }
+  ]
+}

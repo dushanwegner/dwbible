@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 10 — 15 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 10,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/osee/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/osee/9.json",
+      "nextChapter": "https://latinprayer.org/bibel/osee/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/10.json",
+      "latin": "https://latinprayer.org/latin/osee/10.json"
+    }
+  },
+  "citation": "Hosea 10 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Ein üppig rankender Weinstock war Israel, (ein Weinstock,) der auch Früchte ansetzte; aber wie seine Früchte sich mehrten, so mehrten sich bei ihm auch die Altäre; je reicher sein Land trug, desto schönere Malsteine fertigten sie an.",
+      "citation": "Hosea 10:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Untreu war ihr Herz: jetzt sollen sie es büßen! Ihre Altäre wird er zertrümmern, ihre Malsteine zerschlagen.",
+      "citation": "Hosea 10:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Sie sagen jetzt ja bereits: »Wir haben keinen König mehr! Denn den HERRN haben wir nicht gefürchtet, und der König – was kann der für uns tun?«",
+      "citation": "Hosea 10:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Sie reden leere Worte, schwören trügliche Eide, schließen Bündnisse: so sproßt denn das Gericht auf wie Giftkraut in den Ackerfurchen.",
+      "citation": "Hosea 10:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Um ihren Stier von Beth-Awen sind die Bewohner Samarias in Angst; ja, sein Volk trauert um ihn, und seine Pfaffen zittern für ihn, für seine Herrlichkeit, weil diese von ihm weggewandert ist.",
+      "citation": "Hosea 10:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Auch ihn selbst wird man nach Assyrien schleppen als Geschenk für den Großkönig; Schmach wird Ephraim sich holen und Israel zuschanden werden ob seiner Staatskunst.",
+      "citation": "Hosea 10:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Vernichtet wird Samaria: sein König gleicht dem Gischt auf weiter Wasserflut;",
+      "citation": "Hosea 10:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "und verwüstet werden die Höhen von Awen, die Stätten der Versündigung Israels: Dornen und Disteln werden auf den Altären dort wuchern; da wird man denn den Bergen zurufen: »Bedeckt uns!« und den Hügeln: »Fallet über uns!«",
+      "citation": "Hosea 10:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "»Seit den Tagen von Gibea hast du gesündigt, Israel; dort sind sie auch stehengeblieben; sollte sie zu Gibea der Krieg gegen die (Rotte der) Frevler nicht erreichen?",
+      "citation": "Hosea 10:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Nach Herzenslust will ich sie züchtigen, und Völker werden gegen sie versammelt werden, wenn ich sie für ihre zwiefache Verschuldung büßen lasse.",
+      "citation": "Hosea 10:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Ephraim war ein angelerntes Rind, willig zum Dreschen; so habe denn ich selbst ihm das Joch auf den schönen Nacken gelegt und habe Ephraim eingespannt: Juda sollte pflügen, Jakob die Egge für sich ziehen.",
+      "citation": "Hosea 10:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Macht Gerechtigkeit zu eurer Aussaat und erntet nach Maßgabe der Liebe! Brecht euch einen Neubruch (der Erkenntnis), da es noch Zeit ist, den HERRN zu suchen, damit er endlich kommt und Gerechtigkeit über euch regnen läßt!",
+      "citation": "Hosea 10:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ihr aber habt Gottlosigkeit eingepflügt, Unheil geerntet, habt die Frucht der Treulosigkeit essen müssen. Weil du dein Vertrauen auf deine Kriegswagen, auf die Menge deiner Krieger gesetzt hast,",
+      "citation": "Hosea 10:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "darum wird sich Kriegslärm in deinen Städten erheben, und alle deine festen Plätze werden zerstört werden, so wie Salman (jüngst die Stadt) Beth-Arbel am Tage der Schlacht zerstört hat: die Mutter wurde samt den Kindern zerschmettert.",
+      "citation": "Hosea 10:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Solches Geschick bringt Bethel über euch infolge eurer grenzenlosen Bosheit; wie das Morgenrot (verschwindet), so wird Israels König dahingerafft.«",
+      "citation": "Hosea 10:15 (Menge)"
+    }
+  ]
+}

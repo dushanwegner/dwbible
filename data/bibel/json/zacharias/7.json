@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sacharja, Chapter 7 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sacharja",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 7,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/zacharias/6.json",
+      "nextChapter": "https://latinprayer.org/bibel/zacharias/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/zacharias/7.json",
+      "latin": "https://latinprayer.org/latin/zacharias/7.json"
+    }
+  },
+  "citation": "Sacharja 7 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Im vierten Regierungsjahre des Königs Darius erging das Wort des HERRN an Sacharja am vierten Tage des neunten Monats, im Monat Kislew.",
+      "citation": "Sacharja 7:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Es hatte nämlich Bethel den Sarezer und Regem-Melech samt seinen Leuten abgesandt, um den HERRN (durch Opfer) gnädig zu stimmen,",
+      "citation": "Sacharja 7:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "und zugleich, um an die Priester, die zum Tempel des HERRN der Heerscharen gehörten, und an die Propheten folgende Anfrage zu richten: »Sollen wir auch fernerhin im fünften Monat ein Trauerfest abhalten mit Fasten, wie wir es nun schon wer weiß wie viele Jahre getan haben?«",
+      "citation": "Sacharja 7:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Da erging das Wort des HERRN der Heerscharen an mich folgendermaßen:",
+      "citation": "Sacharja 7:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "»Verkünde dem gesamten Volke des Landes und den Priestern folgendes: ›Wenn ihr im fünften und siebten Monat, und zwar schon siebzig Jahre hindurch, gefastet und getrauert habt, bin ich es da, für den ihr gefastet habt?",
+      "citation": "Sacharja 7:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Und wenn ihr eßt und wenn ihr trinkt, seid dann nicht ihr die Essenden und ihr die Trinkenden?‹«",
+      "citation": "Sacharja 7:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "»Sind nicht dies die Gebote, die der HERR schon durch die früheren Propheten hat verkünden lassen, als Jerusalem noch bewohnt war und in sicherer Ruhe bestand samt den dazugehörigen Ortschaften ringsum, und als auch das Südland und die Niederung noch bevölkert waren?«",
+      "citation": "Sacharja 7:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Und weiter erging das Wort des HERRN an Sacharja folgendermaßen:",
+      "citation": "Sacharja 7:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "»So spricht der HERR der Heerscharen: Übet wahrhaftiges Gericht und erweiset einer dem andern Liebe und Barmherzigkeit!",
+      "citation": "Sacharja 7:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Witwen und Waisen, Fremdlinge und Arme bedrücket nicht, und sinnet nichts Böses gegeneinander in euren Herzen!«",
+      "citation": "Sacharja 7:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Aber sie weigerten sich, darauf zu achten, und wollten sich kein Joch auf den Nacken legen lassen; sie verstopften sich die Ohren, um nicht zu hören,",
+      "citation": "Sacharja 7:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "und machten ihre Herzen hart wie Kieselstein, um die Belehrung und die Weisungen nicht zu vernehmen, die der HERR der Heerscharen durch seinen Geist unter Vermittlung der früheren Propheten an sie richtete. Da erging denn ein gewaltiges Zorngericht über sie vom HERRN der Heerscharen;",
+      "citation": "Sacharja 7:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "und wie sie nicht hatten hören wollen, als er sie rief, »ebenso« – so hat der HERR der Heerscharen gesprochen – »mögen sie jetzt rufen, ohne daß ich auf sie höre!",
+      "citation": "Sacharja 7:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "So ließ ich sie denn unter alle Heidenvölker zerstieben, die sie vorher nicht gekannt hatten, und das Land verödete nach ihrem Weggang, so daß niemand mehr darin hin und her zog; und so haben sie das liebliche Land in eine Einöde verwandelt.«",
+      "citation": "Sacharja 7:14 (Menge)"
+    }
+  ]
+}

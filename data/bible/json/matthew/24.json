@@ -1,0 +1,291 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 24 — 51 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 24,
+    "verseCount": 51,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/matthew/23.json",
+      "nextChapter": "https://latinprayer.org/bible/matthew/25.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/matthew/24.json",
+      "german": "https://latinprayer.org/bibel/matthew/24.json"
+    }
+  },
+  "citation": "Matthew 24 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And Jesus being come out of the temple, went away. And his disciples came to shew him the buildings of the temple.",
+      "citation": "Matthew 24:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he answering, said to them: Do you see all these things?  Amen I say to you, there shall not be left here a stone upon a stone that shall not be destroyed.",
+      "citation": "Matthew 24:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And when he was sitting on mount Olivet, the disciples came to him privately, saying: Tell us when shall these things be?  And what shall be the sign of thy coming and of the consummation of the world?",
+      "citation": "Matthew 24:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And Jesus answering, said to them: Take heed that no man seduce you.",
+      "citation": "Matthew 24:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For many will come in my name saying, I am Christ. And they will seduce many.",
+      "citation": "Matthew 24:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And you shall hear of wars and rumours of wars. See that ye be not troubled. For these things must come to pass: but the end is not yet.",
+      "citation": "Matthew 24:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For nation shall rise against nation, and kingdom against kingdom: And there shall be pestilences and famines and earthquakes in places.",
+      "citation": "Matthew 24:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Now all these are the beginnings of sorrows.",
+      "citation": "Matthew 24:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Then shall they deliver you up to be afflicted and shall put you to death: and you shall be hated by all nations for my name's sake.",
+      "citation": "Matthew 24:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And then shall many be scandalized and shall betray one another and shall hate one another.",
+      "citation": "Matthew 24:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And many false prophets shall rise and shall seduce many.",
+      "citation": "Matthew 24:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And because iniquity hath abounded, the charity of many shall grow cold.",
+      "citation": "Matthew 24:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But he that shall persevere to the end, he shall be saved.",
+      "citation": "Matthew 24:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And this gospel of the kingdom shall be preached in the whole world, for a testimony to all nations: and then shall the consummation come.",
+      "citation": "Matthew 24:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "When therefore you shall see the abomination of desolation, which was spoken of by Daniel the prophet, standing in the holy place: he that readeth let him understand.",
+      "citation": "Matthew 24:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Then they that are in Judea, let them flee to the mountains:",
+      "citation": "Matthew 24:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And he that is on the housetop, let him not come down to take any thing out of his house:",
+      "citation": "Matthew 24:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And he that is in the field, let him not go back to take his coat.",
+      "citation": "Matthew 24:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And woe to them that are with child and that give suck in those days.",
+      "citation": "Matthew 24:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "But pray that your flight be not in the winter or on the sabbath.",
+      "citation": "Matthew 24:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "For there shall be then great tribulation, such as hath not been from the beginning of the world until now, neither shall be.",
+      "citation": "Matthew 24:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And unless those days had been shortened, no flesh should be saved: but for the sake of the elect those days shall be shortened.",
+      "citation": "Matthew 24:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Then if any man shall say to you, Lo here is Christ, or there: do not believe him.",
+      "citation": "Matthew 24:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "For there shall arise false Christs and false prophets and shall shew great signs and wonders, insomuch as to deceive (if possible) even the elect.",
+      "citation": "Matthew 24:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Behold I have told it to you, beforehand.",
+      "citation": "Matthew 24:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "If therefore they shall say to you, Behold he is in the desert: go ye not out. Behold he is in the closets: believe it not.",
+      "citation": "Matthew 24:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "For as lightning cometh out of the east and appeareth even into the west: so shall also the cowling of the Son of man be.",
+      "citation": "Matthew 24:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Wheresoever the body shall be, there shall the eagles also be gathered together.",
+      "citation": "Matthew 24:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And immediately after the tribulation of those days, the sun shall be darkened and the moon shall not give her light and the stars shall fall from heaven and the powers of heaven shall be moved.",
+      "citation": "Matthew 24:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And then shall appear the sign of the Son of man in heaven.  And then shall all tribes of the earth mourn: and they shall see the Son of man coming in the clouds of heaven with much power and majesty.",
+      "citation": "Matthew 24:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And he shall send his angels with a trumpet and a great voice: and they shall gather together his elect from the four winds, from the farthest parts of the heavens to the utmost bounds of them.",
+      "citation": "Matthew 24:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And from the fig tree learn a parable: When the branch thereof is now tender and the leaves come forth, you know that summer is nigh.",
+      "citation": "Matthew 24:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "So you also, when you shall see all these things, know ye that it is nigh, even at the doors.",
+      "citation": "Matthew 24:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "Amen I say to you that this generation shall not pass till all these things be done.",
+      "citation": "Matthew 24:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "Heaven and earth shall pass: but my words shall not pass.",
+      "citation": "Matthew 24:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "But of that day and hour no one knoweth: no, not the angels of heaven, but the Father alone.",
+      "citation": "Matthew 24:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And as in the days of Noe, so shall also the coming of the Son of man be.",
+      "citation": "Matthew 24:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "For, as in the days before the flood they were eating and drinking, marrying and giving in marriage, even till that day in which Noe entered into the ark:",
+      "citation": "Matthew 24:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And they knew not till the flood came and took them all away: so also shall the coming of the Son of man be.",
+      "citation": "Matthew 24:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Then two shall be in the field. One shall be taken and one shall be left.",
+      "citation": "Matthew 24:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "Two women shall be grinding at the mill. One shall be taken and one shall be left.",
+      "citation": "Matthew 24:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "Watch ye therefore, because you know not what hour your Lord will come.",
+      "citation": "Matthew 24:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "But this know ye, that, if the goodman of the house knew at what hour the thief would come, he would certainly watch and would not suffer his house to be broken open.",
+      "citation": "Matthew 24:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "Wherefore be you also ready, because at what hour you know not the Son of man will come.",
+      "citation": "Matthew 24:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "Who, thinkest thou, is a faithful and wise servant, whom his lord hath appointed over his family, to give them meat in season?",
+      "citation": "Matthew 24:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "Blessed is that servant, whom when his lord shall come he shall find so doing.",
+      "citation": "Matthew 24:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "Amen I say to you: he shall place him over all his goods.",
+      "citation": "Matthew 24:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "But if that evil servant shall say in his heart: My lord is long a coming:",
+      "citation": "Matthew 24:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "And shall begin to strike his fellow servants and shall eat and drink with drunkards:",
+      "citation": "Matthew 24:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "The lord of that servant shall come in a day that he hopeth not and at an hour that he knoweth not:",
+      "citation": "Matthew 24:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "And shall separate him and appoint his portion with the hypocrites. There shall be weeping and gnashing of teeth.",
+      "citation": "Matthew 24:51 (Douay-Rheims)"
+    }
+  ]
+}

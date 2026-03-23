@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 5 — 16 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 5,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/4.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/5.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/5.json"
+    }
+  },
+  "citation": "Jesus Sirach 5 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Verlaß dich nicht auf deinen Reichtum und sage nicht: »Ich habe genug.«",
+      "citation": "Jesus Sirach 5:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Folge nicht deinen Gelüsten und deiner Kraft, daß du nach den Begierden deines Herzens wandelst,",
+      "citation": "Jesus Sirach 5:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "und sage nicht: »Wer hat mir zu befehlen?«; denn der Herr, der Recht übt, wird dich büßen lassen (h).",
+      "citation": "Jesus Sirach 5:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Sage nicht: »Ich habe gesündigt, und was hat’s mir geschadet?« denn der Herr ist langmütig.",
+      "citation": "Jesus Sirach 5:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "In bezug auf Sühne sei nicht ohne Bangen, so daß du Sünde auf Sünden häufst.",
+      "citation": "Jesus Sirach 5:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Und sage nicht: »Sein Erbarmen ist groß, er wird mir schon meine vielen Sünden vergeben«; denn bei ihm ist wohl Erbarmen, aber auch Zorn, und auf den Sündern lastet sein Grimm.",
+      "citation": "Jesus Sirach 5:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Säume nicht, dich zum Herrn zu bekehren, und verschieb es nicht von einem Tag zum andern; den plötzlich kommt der Zorn des Herrn zum Ausbruch, und am Tage der Vergeltung würdest du umkommen.",
+      "citation": "Jesus Sirach 5:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Verlaß dich nicht auf unrechtes Gut, denn am Tage der Heimsuchung wird es dir nichts nützen. –",
+      "citation": "Jesus Sirach 5:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Worfle nicht bei jedem Winde, und gehe nicht auf jeglichem Pfade! (So macht es der doppelzüngige Sünder.)",
+      "citation": "Jesus Sirach 5:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Bleibe fest bei deiner Überzeugung und laß deine Rede immer eine und dieselbe sein.",
+      "citation": "Jesus Sirach 5:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Sei schnell bereit zum Hören, aber langsam laß die Antwort hören.",
+      "citation": "Jesus Sirach 5:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Hast du Einsicht, so antworte dem andern; wo nicht, so laß deine Hand auf deinem Munde liegen.",
+      "citation": "Jesus Sirach 5:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ehre und Schande liegen in der Rede und des Menschen Zunge kann ihn zu Fall bringen.",
+      "citation": "Jesus Sirach 5:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Laß dich nicht doppelzüngig nennen und gebrauche deine Zunge nicht zur Hinterlist; denn dem Diebe wird Schande zuteil und böser Schimpf dem Doppelzüngigen.",
+      "citation": "Jesus Sirach 5:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Verfehle dich nicht, weder im Großen noch im Kleinen, und statt eines Freundes beweise dich nicht als Feind;",
+      "citation": "Jesus Sirach 5:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "denn einen üblen Namen, Schimpf und Schande würdest du davontragen; so gebührt es dem doppelzüngigen Sünder.",
+      "citation": "Jesus Sirach 5:16 (Menge)"
+    }
+  ]
+}

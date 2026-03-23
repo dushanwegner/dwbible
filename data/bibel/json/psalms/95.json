@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 95 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 95,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/94.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/96.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/95.json",
+      "latin": "https://latinprayer.org/latin/psalms/95.json"
+    }
+  },
+  "citation": "Psalmen 95 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Kommt, laßt uns dem HERRN zujubeln, jauchzen dem Felsen unsers Heils!",
+      "citation": "Psalmen 95:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Laßt uns mit Dank vor sein Angesicht treten, mit Liedern ihm jauchzen!",
+      "citation": "Psalmen 95:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn ein großer Gott ist der HERR und ein großer König über alle Götter,",
+      "citation": "Psalmen 95:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "er, in dessen Hand die Tiefen der Erde sind und dem auch die Gipfel der Berge gehören;",
+      "citation": "Psalmen 95:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "er, dem das Meer gehört: er hat’s ja geschaffen, und das Festland: seine Hände haben’s gebildet.",
+      "citation": "Psalmen 95:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Kommt, laßt uns anbeten und niederfallen, die Knie beugen vor dem HERRN, unserm Schöpfer!",
+      "citation": "Psalmen 95:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Denn er ist unser Gott, und wir das Volk seiner Weide, die Herde seiner Hand. Möchtet ihr heute doch hören auf seine Stimme:",
+      "citation": "Psalmen 95:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "»Verstockt nicht euer Herz wie bei Meriba, wie am Tage von Massa in der Wüste,",
+      "citation": "Psalmen 95:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "woselbst eure Väter mich versuchten, mich prüften, obwohl sie doch sahen mein Tun.",
+      "citation": "Psalmen 95:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Vierzig Jahre hegte ich Abscheu gegen dieses Geschlecht, und sagte: ›Sie sind ein Volk mit irrendem Herzen‹; sie aber wollten von meinen Wegen nichts wissen.",
+      "citation": "Psalmen 95:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "So schwur ich denn in meinem Zorn: ›Sie sollen nicht eingehn in meine Ruhstatt!‹«",
+      "citation": "Psalmen 95:11 (Menge)"
+    }
+  ]
+}

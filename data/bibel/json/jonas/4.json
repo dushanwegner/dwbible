@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jona, Chapter 4 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jona",
+      "slug": "jonas",
+      "testament": "OT",
+      "order": 37,
+      "totalChapters": 4
+    },
+    "chapter": 4,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/jonas/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/jonas/3.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jonas/4.json",
+      "latin": "https://latinprayer.org/latin/jonas/4.json"
+    }
+  },
+  "citation": "Jona 4 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Das verursachte aber dem Jona großen Verdruß, und er geriet in Zorn,",
+      "citation": "Jona 4:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "so daß er folgendes Gebet an den HERRN richtete: »Ach, HERR, das ist es ja, was ich gedacht habe, als ich noch daheim war, und eben darum habe ich das vorige Mal die Flucht nach Tharsis ergriffen; denn ich wußte wohl, daß du ein gnädiger und barmherziger Gott bist, langsam zum Zorn und reich an Güte und geneigt, dich das Unheil gereuen zu lassen.",
+      "citation": "Jona 4:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Und nun, HERR, nimm doch mein Leben von mir! Denn es ist besser für mich, zu sterben als noch am Leben zu bleiben.«",
+      "citation": "Jona 4:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Aber der HERR erwiderte: »Ist es recht von dir, so zu zürnen?«",
+      "citation": "Jona 4:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Hierauf ging Jona aus der Stadt hinaus und ließ sich östlich von der Stadt nieder; er baute sich dort eine Hütte und setzte sich unter ihr in den Schatten, um abzuwarten, wie es der Stadt ergehen würde.",
+      "citation": "Jona 4:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Da ließ Gott der HERR eine Rizinusstaude aufschießen und über Jona emporwachsen, damit er seinem Haupte Schatten biete und ihn von seinem Unmut befreie; und Jona hatte große Freude an dem Rizinus.",
+      "citation": "Jona 4:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Am andern Tage aber, als die Morgenröte aufging, ließ Gott einen Wurm entstehen, der fraß die Rizinusstaude an, so daß sie verdorrte;",
+      "citation": "Jona 4:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "und als die Sonne aufging, ließ Gott einen schwülen Ostwind kommen; und die Sonne stach Jona auf das Haupt, so daß er ganz ohnmächtig wurde und sich den Tod wünschte mit den Worten: »Es ist besser für mich, zu sterben als noch am Leben zu bleiben!«",
+      "citation": "Jona 4:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Da sagte Gott zu Jona: »Ist es wohl recht von dir, wegen der Rizinusstaude so zornig zu sein?« Er antwortete: »Ja, mit Recht bin ich erzürnt bis zum Sterben!«",
+      "citation": "Jona 4:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Der HERR aber entgegnete: »Dir tut der Rizinus leid, um den du dich doch nicht gemüht und den du nicht großgezogen hast, der in einer Nacht entstanden und in einer Nacht vergangen ist.",
+      "citation": "Jona 4:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Und mir sollte die große Stadt Ninive nicht leid tun, in der mehr als hundertzwanzigtausend Menschen leben, die zwischen rechts und links noch nicht zu unterscheiden wissen, dazu auch eine Menge Tiere?«",
+      "citation": "Jona 4:11 (Menge)"
+    }
+  ]
+}

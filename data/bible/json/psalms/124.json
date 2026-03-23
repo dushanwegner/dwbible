@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 124 — 8 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 124,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/123.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/125.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/124.json",
+      "german": "https://latinprayer.org/bibel/psalms/124.json"
+    }
+  },
+  "citation": "Psalms 124 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A gradual canticle. If it had not been that the Lord was with us, let Israel now say:",
+      "citation": "Psalms 124:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "If it had not been that the Lord was with us, When men rose up against us,",
+      "citation": "Psalms 124:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Perhaps they had swallowed us up alive. When their fury was enkindled against us,",
+      "citation": "Psalms 124:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Perhaps the waters had swallowed us up.",
+      "citation": "Psalms 124:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Our soul hath passed through a torrent: perhaps our soul had passed through a water insupportable.",
+      "citation": "Psalms 124:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Blessed be the Lord, who hath not given us to be a prey to their teeth.",
+      "citation": "Psalms 124:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Our soul hath been delivered as a sparrow out of the snare of the fowlers. The snare is broken, and we are delivered.",
+      "citation": "Psalms 124:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Our help is in the name of the Lord, who made heaven and earth.",
+      "citation": "Psalms 124:8 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 26 — 8 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 26
+    },
+    "chapter": 26,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/genesis/25.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/26.json",
+      "german": "https://latinprayer.org/bibel/genesis/26.json"
+    }
+  },
+  "citation": "Genesis 26 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "orta autem fame super terram post eam sterilitatem quae acciderat in diebus Abraham abiit Isaac ad Abimelech regem Palestinorum in Gerara",
+      "citation": "Genesis 26:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "apparuitque ei Dominus et ait ne descendas in Aegyptum sed quiesce in terra quam dixero tibi",
+      "citation": "Genesis 26:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et peregrinare in ea eroque tecum et benedicam tibi tibi enim et semini tuo dabo universas regiones has conplens iuramentum quod spopondi Abraham patri tuo",
+      "citation": "Genesis 26:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et multiplicabo semen tuum sicut stellas caeli daboque posteris tuis universas regiones has et benedicentur in semine tuo omnes gentes terrae",
+      "citation": "Genesis 26:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "eo quod oboedierit Abraham voci meae et custodierit praecepta et mandata mea et caerimonias legesque servaverit",
+      "citation": "Genesis 26:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "mansit itaque Isaac in Geraris",
+      "citation": "Genesis 26:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui cum interrogaretur a viris loci illius super uxore sua respondit soror mea est timuerat enim confiteri quod sibi esset sociata coniugio reputans ne forte interficerent eum propter illius pulchritudinem",
+      "citation": "Genesis 26:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "cumque pertransissent dies plurimi et ibi demoraretur prospiciens Abimelech Palestinorum rex per fenestram vidit eum iocantem cum Rebecca uxore sua",
+      "citation": "Genesis 26:8 (Clementine Vulgate)"
+    }
+  ]
+}

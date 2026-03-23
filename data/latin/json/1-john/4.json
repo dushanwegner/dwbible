@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 John, Chapter 4 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 John",
+      "slug": "1-john",
+      "testament": "NT",
+      "order": 69,
+      "totalChapters": 5
+    },
+    "chapter": 4,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-john/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-john/3.json",
+      "nextChapter": "https://latinprayer.org/latin/1-john/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-john/4.json",
+      "german": "https://latinprayer.org/bibel/1-john/4.json"
+    }
+  },
+  "citation": "1 John 4 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "carissimi nolite omni spiritui credere sed probate spiritus si ex Deo sint quoniam multi pseudoprophetae exierunt in mundum",
+      "citation": "1 John 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in hoc cognoscitur Spiritus Dei omnis spiritus qui confitetur Iesum Christum in carne venisse ex Deo est",
+      "citation": "1 John 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et omnis spiritus qui solvit Iesum ex Deo non est et hoc est antichristi quod audistis quoniam venit et nunc iam in mundo est",
+      "citation": "1 John 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "vos ex Deo estis filioli et vicistis eos quoniam maior est qui in vobis est quam qui in mundo",
+      "citation": "1 John 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ipsi de mundo sunt ideo de mundo loquuntur et mundus eos audit",
+      "citation": "1 John 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nos ex Deo sumus qui novit Deum audit nos qui non est ex Deo non audit nos in hoc cognoscimus Spiritum veritatis et spiritum erroris",
+      "citation": "1 John 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "carissimi diligamus invicem quoniam caritas ex Deo est et omnis qui diligit ex Deo natus est et cognoscit Deum",
+      "citation": "1 John 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "qui non diligit non novit Deum quoniam Deus caritas est",
+      "citation": "1 John 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "in hoc apparuit caritas Dei in nobis quoniam Filium suum unigenitum misit Deus in mundum ut vivamus per eum",
+      "citation": "1 John 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in hoc est caritas non quasi nos dilexerimus Deum sed quoniam ipse dilexit nos et misit Filium suum propitiationem pro peccatis nostris",
+      "citation": "1 John 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "carissimi si sic Deus dilexit nos et nos debemus alterutrum diligere",
+      "citation": "1 John 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Deum nemo vidit umquam si diligamus invicem Deus in nobis manet et caritas eius in nobis perfecta est",
+      "citation": "1 John 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "in hoc intellegimus quoniam in eo manemus et ipse in nobis quoniam de Spiritu suo dedit nobis",
+      "citation": "1 John 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et nos vidimus et testificamur quoniam Pater misit Filium salvatorem mundi",
+      "citation": "1 John 4:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quisque confessus fuerit quoniam Iesus est Filius Dei Deus in eo manet et ipse in Deo",
+      "citation": "1 John 4:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et nos cognovimus et credidimus caritati quam habet Deus in nobis Deus caritas est et qui manet in caritate in Deo manet et Deus in eo",
+      "citation": "1 John 4:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "in hoc perfecta est caritas nobiscum ut fiduciam habeamus in die iudicii quia sicut ille est et nos sumus in hoc mundo",
+      "citation": "1 John 4:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "timor non est in caritate sed perfecta caritas foras mittit timorem quoniam timor poenam habet qui autem timet non est perfectus in caritate",
+      "citation": "1 John 4:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "nos ergo diligamus quoniam Deus prior dilexit nos",
+      "citation": "1 John 4:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "si quis dixerit quoniam diligo Deum et fratrem suum oderit mendax est qui enim non diligit fratrem suum quem vidit Deum quem non vidit quomodo potest diligere",
+      "citation": "1 John 4:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et hoc mandatum habemus ab eo ut qui diligit Deum diligat et fratrem suum",
+      "citation": "1 John 4:21 (Clementine Vulgate)"
+    }
+  ]
+}

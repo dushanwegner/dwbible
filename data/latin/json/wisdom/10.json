@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Wisdom, Chapter 10 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Wisdom",
+      "slug": "wisdom",
+      "testament": "OT",
+      "order": 25,
+      "totalChapters": 19
+    },
+    "chapter": 10,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/wisdom/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/wisdom/9.json",
+      "nextChapter": "https://latinprayer.org/latin/wisdom/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/wisdom/10.json",
+      "german": "https://latinprayer.org/bibel/wisdom/10.json"
+    }
+  },
+  "citation": "Wisdom 10 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "haec illum qui primus finctus est patrem orbis terrarum cum solus esset creatus custodivit",
+      "citation": "Wisdom 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et eduxit illum a delicto suo et dedit illi virtutem continendi omnia",
+      "citation": "Wisdom 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ab hac ut recessit iniustus in ira sua per iram homicidii fraternitatis deperiit",
+      "citation": "Wisdom 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "propter quem cum aqua deleret terram iterum sanavit sapientia per contemptibile lignum iustum gubernans",
+      "citation": "Wisdom 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "haec et in consensu nequitiae cum se nationes contulissent scivit iustum et servavit sine querella Deo et in filii misericordia fortem custodivit",
+      "citation": "Wisdom 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "haec iustum a pereuntibus impiis liberavit fugientem descendentem ignem in Pentapoli",
+      "citation": "Wisdom 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "cuius in testimonium nequitiae fumigabunda constat deserta terra et incerto tempore fructus habentes arbores et incredibilis animae memoria stans figmentum salis",
+      "citation": "Wisdom 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sapientiam enim praetereuntes non tantum in hoc lapsi sunt ut ignorarent bona sed et insipientiae suae reliquerunt hominibus memoriam ut in his quae peccaverunt nec latere potuissent",
+      "citation": "Wisdom 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sapientia autem hos qui se observant a doloribus liberavit",
+      "citation": "Wisdom 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "haec profugum irae fratris iustum deduxit per vias rectas et ostendit illi regnum Dei et dedit illi scientiam sanctorum honestavit illum in laboribus et conplevit labores illius",
+      "citation": "Wisdom 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in fraude circumvenientium illum adfuit et honestum illum fecit",
+      "citation": "Wisdom 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "custodivit illum ab inimicis et a seductoribus tutavit eum et certamen forte dedit illi ut vinceret ut sciret quoniam omnium potentior est sapientia",
+      "citation": "Wisdom 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "haec venditum iustum non dereliquit sed a peccatoribus liberavit illum descendit cum illo in foveam",
+      "citation": "Wisdom 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et in vinculis non dereliquit illum donec adferret illi sceptrum regni et potentiam adversus eos qui eum deprimebant et mendaces ostendit qui maculaverunt ipsum et dedit illi claritatem aeternam",
+      "citation": "Wisdom 10:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "haec populum iustum et semen sine querella liberavit a nationibus quae illum conprimebant",
+      "citation": "Wisdom 10:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "intravit in animam servi Domini et stetit contra reges horrendos in portentis et signis",
+      "citation": "Wisdom 10:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et reddidit iustis mercedem laborum suorum et deduxit illos in via mirabili et fuit illis in velamento diei et in luce stellarum nocte",
+      "citation": "Wisdom 10:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "transtulit illos mare Rubrum et transvexit illos per aquam nimiam",
+      "citation": "Wisdom 10:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "inimicos autem illorum demersit in mare et ab altitudine inferorum eduxit illos ideo iusti tulerunt spolia impiorum",
+      "citation": "Wisdom 10:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et decantaverunt Domine nomen sanctum tuum et victricem manum tuam laudaverunt pariter",
+      "citation": "Wisdom 10:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quoniam sapientia aperuit os mutorum et linguas infantium fecit dissertas",
+      "citation": "Wisdom 10:21 (Clementine Vulgate)"
+    }
+  ]
+}

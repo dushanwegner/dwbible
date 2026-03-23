@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Corinthians, Chapter 6 — 20 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Corinthians",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 53,
+      "totalChapters": 16
+    },
+    "chapter": 6,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-corinthians/5.json",
+      "nextChapter": "https://latinprayer.org/bible/1-corinthians/7.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-corinthians/6.json",
+      "german": "https://latinprayer.org/bibel/1-corinthians/6.json"
+    }
+  },
+  "citation": "1. Corinthians 6 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Dare any of you, having a matter against another, go to be judged before the unjust: and not before the saints?",
+      "citation": "1. Corinthians 6:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Know you not that the saints shall judge this world? And if the world shall be judged by you, are you unworthy to judge the smallest matters?",
+      "citation": "1. Corinthians 6:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Know you not that we shall judge angels? How much more things of this world?",
+      "citation": "1. Corinthians 6:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "If therefore you have judgments of things pertaining to this world, set them to judge who are the most despised in the church.",
+      "citation": "1. Corinthians 6:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "I speak to your shame. Is it so that there is not among you any one wise man that is able to judge between his brethren?",
+      "citation": "1. Corinthians 6:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But brother goeth to law with brother: and that before unbelievers.",
+      "citation": "1. Corinthians 6:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Already indeed there is plainly a fault among you, that you have law suits one with another. Why do you not rather take wrong? Why do you not rather suffer yourselves to be defrauded?",
+      "citation": "1. Corinthians 6:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But you do wrong and defraud: and that to your brethren.",
+      "citation": "1. Corinthians 6:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Know you not that the unjust shall not possess the kingdom of God? Do not err: Neither fornicators nor idolaters nor adulterers:",
+      "citation": "1. Corinthians 6:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Nor the effeminate nor liers with mankind nor thieves nor covetous nor drunkards nor railers nor extortioners shall possess the kingdom of God.",
+      "citation": "1. Corinthians 6:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And such some of you were. But you are washed: but you are sanctified: but you are justified: in the name of our Lord Jesus Christ and the Spirit of our God.",
+      "citation": "1. Corinthians 6:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "All things are lawful to me: but all things are not expedient. All things are lawful to me: but I will not be brought under the power of any.",
+      "citation": "1. Corinthians 6:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Meat for the belly and the belly for the meats: but God shall destroy both it and them. But the body is not for fornication, but for the Lord: and the Lord for the body.",
+      "citation": "1. Corinthians 6:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Now God hath raised up the Lord and will raise us up also by his power.",
+      "citation": "1. Corinthians 6:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Know you not that your bodies are the members of Christ?  Shall I then take the members of Christ and make them the members of an harlot? God forbid!",
+      "citation": "1. Corinthians 6:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Or know you not that he who is joined to a harlot is made one body? For they shall be, saith he, two in one flesh.",
+      "citation": "1. Corinthians 6:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But he who is joined to the Lord is one spirit.",
+      "citation": "1. Corinthians 6:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Fly fornication. Every sin that a man doth is without the body: but he that committeth fornication sinneth against his own body.",
+      "citation": "1. Corinthians 6:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Or know you not that your members are the temple of the Holy Ghost, who is in you, whom you have from God: and you are not your own?",
+      "citation": "1. Corinthians 6:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "For you are bought with a great price. Glorify and bear God in your body.",
+      "citation": "1. Corinthians 6:20 (Douay-Rheims)"
+    }
+  ]
+}

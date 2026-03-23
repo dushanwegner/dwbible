@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 31 — 40 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 31,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/30.json",
+      "nextChapter": "https://latinprayer.org/bible/job/32.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/31.json",
+      "german": "https://latinprayer.org/bibel/job/31.json"
+    }
+  },
+  "citation": "Job 31 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I made a covenant with my eyes, that I would not so much as think upon a virgin.",
+      "citation": "Job 31:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For what part should God from above have in me, and what inheritance the Almighty from on high?",
+      "citation": "Job 31:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Is not destruction to the wicked, and aversion to them that work iniquity?",
+      "citation": "Job 31:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Doth not he consider my ways, and number all my steps?",
+      "citation": "Job 31:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "If I have walked in vanity, and my foot hath made haste to deceit:",
+      "citation": "Job 31:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Let him weigh me in a just balance, and let God know my simplicity.",
+      "citation": "Job 31:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "If my step hath turned out of the way, and if my heart hath followed my eyes, and if a spot hath cleaved to my hands:",
+      "citation": "Job 31:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Then let me sow and let another reap: and let my offspring be rooted out.",
+      "citation": "Job 31:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "If my heart hath been deceived upon a woman, and if I have laid wait at my friend's door:",
+      "citation": "Job 31:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Let my wife be the harlot of another, and let other men lie with her.",
+      "citation": "Job 31:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For this is a heinous crime, and a most grievous iniquity.",
+      "citation": "Job 31:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "It is a fire that devoureth even to destruction, and rooteth up all things that spring.",
+      "citation": "Job 31:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "If I have despised to abide judgment with my man-servant, or my maid-servant, when they had any controversy against me:",
+      "citation": "Job 31:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For what shall I do when God shall rise to judge? and when he shall examine, what shall I answer him?",
+      "citation": "Job 31:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Did not he that made me in the womb make him also: and did not one and the same form me in the womb?",
+      "citation": "Job 31:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "If I have denied to the poor what they desired, and have made the eyes of the widow wait:",
+      "citation": "Job 31:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "If I have eaten my morsel alone, and the fatherless hath not eaten thereof:",
+      "citation": "Job 31:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "(For from my infancy mercy grew up with me: and it came out with me from my mother's womb:)",
+      "citation": "Job 31:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "If I have despised him that was perishing for want of clothing, and the poor man that had no covering:",
+      "citation": "Job 31:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "If his sides have not blessed me, and if he were not warmed with the fleece of my sheep:",
+      "citation": "Job 31:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "If I have lifted up my hand against the fatherless, even when I saw myself superior in the gate:",
+      "citation": "Job 31:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Let my shoulder fall from its joint, and let my arm with its bones be broken.",
+      "citation": "Job 31:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "For I have always feared God as waves swelling over me, and his weight I was unable to bear.",
+      "citation": "Job 31:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "If I have thought gold my strength, and have said to fine gold: My confidence:",
+      "citation": "Job 31:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "If I have rejoiced over my great riches, and because my hand had gotten much.",
+      "citation": "Job 31:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "If I beheld the sun when it shined and the moon going in brightness:",
+      "citation": "Job 31:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And my heart in secret hath rejoiced, and I have kissed my hand with, my mouth:",
+      "citation": "Job 31:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Which is a very great iniquity, and a denial against the most high God.",
+      "citation": "Job 31:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "If I have been glad at the downfall of him that hated me, and have rejoiced that evil had found him.",
+      "citation": "Job 31:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "For I have not given my mouth to sin, by wishing a curse to his soul.",
+      "citation": "Job 31:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "If the men of my tabernacle have not said: Who will give us of his flesh that we may be filled?",
+      "citation": "Job 31:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "The stranger did not stay without, my door was open to the traveller.",
+      "citation": "Job 31:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "If as a man I have hid my sin, and have concealed my iniquity in my bosom.",
+      "citation": "Job 31:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "If I have been afraid at a very great multitude, and the contempt of kinsmen hath terrified me: and have not rather held my peace, and not gone out of the door.",
+      "citation": "Job 31:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "Who would grant me a hearing, that the Almighty may hear my desire: and that he himself that judgeth would write a book,",
+      "citation": "Job 31:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "That I may carry it on my shoulder, and put it about me as a crown?",
+      "citation": "Job 31:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "At every step of mine I would pronounce it, and offer it as to a prince.",
+      "citation": "Job 31:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "If my land cry against me, and with it the furrows thereof mourn:",
+      "citation": "Job 31:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "If I have eaten the fruits thereof without money, and have afflicted the son of the tillers thereof:",
+      "citation": "Job 31:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Let thistles grow up to me instead of wheat, and thorns instead of barley.",
+      "citation": "Job 31:40 (Douay-Rheims)"
+    }
+  ]
+}

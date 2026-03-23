@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judges, Chapter 10 — 18 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judges",
+      "slug": "judges",
+      "testament": "OT",
+      "order": 7,
+      "totalChapters": 21
+    },
+    "chapter": 10,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/judges/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/judges/9.json",
+      "nextChapter": "https://latinprayer.org/latin/judges/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judges/10.json",
+      "german": "https://latinprayer.org/bibel/judges/10.json"
+    }
+  },
+  "citation": "Judges 10 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "post Abimelech surrexit dux in Israhel Thola filius Phoa patrui Abimelech vir de Isachar qui habitavit in Sanir montis Ephraim",
+      "citation": "Judges 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et iudicavit Israhel viginti et tribus annis mortuusque ac sepultus est in Sanir",
+      "citation": "Judges 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "huic successit Iair Galaadites qui iudicavit Israhel per viginti et duos annos",
+      "citation": "Judges 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "habens triginta filios sedentes super triginta pullos asinarum et principes triginta civitatum quae ex nomine eius appellatae sunt Avothiair id est oppida Iair usque in praesentem diem in terra Galaad",
+      "citation": "Judges 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "mortuusque est Iair ac sepultus in loco cui est vocabulum Camon",
+      "citation": "Judges 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "filii autem Israhel peccatis veteribus iungentes nova fecerunt malum in conspectu Domini et servierunt idolis Baalim et Astharoth et diis Syriae ac Sidonis et Moab et filiorum Ammon et Philisthim dimiseruntque Dominum et non colebant eum",
+      "citation": "Judges 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "contra quos iratus tradidit eos in manu Philisthim et filiorum Ammon",
+      "citation": "Judges 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "adflictique sunt et vehementer oppressi per annos decem et octo omnes qui habitabant trans Iordanem in terra Amorrei quae est in Galaad",
+      "citation": "Judges 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "in tantum ut filii Ammon Iordane transmisso vastarent Iudam et Beniamin et Ephraim adflictusque est Israhel nimis",
+      "citation": "Judges 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et clamantes ad Dominum dixerunt peccavimus tibi quia dereliquimus Deum nostrum et servivimus Baalim",
+      "citation": "Judges 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quibus locutus est Dominus numquid non Aegyptii et Amorrei filiique Ammon et Philisthim",
+      "citation": "Judges 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Sidonii quoque et Amalech et Chanaan oppresserunt vos et clamastis ad me et erui vos de manu eorum",
+      "citation": "Judges 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et tamen reliquistis me et coluistis deos alienos idcirco non addam ut ultra vos liberem",
+      "citation": "Judges 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ite et invocate deos quos elegistis ipsi vos liberent in tempore angustiae",
+      "citation": "Judges 10:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "dixeruntque filii Israhel ad Dominum peccavimus redde tu nobis quicquid tibi placet tantum nunc libera nos",
+      "citation": "Judges 10:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quae dicentes omnia de finibus suis alienorum deorum idola proiecerunt et servierunt Deo qui doluit super miseriis eorum",
+      "citation": "Judges 10:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "itaque filii Ammon conclamantes in Galaad fixere tentoria contra quos congregati filii Israhel in Maspha castrametati sunt",
+      "citation": "Judges 10:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "dixeruntque principes Galaad singuli ad proximos suos qui primus e nobis contra filios Ammon coeperit dimicare erit dux populi Galaad",
+      "citation": "Judges 10:18 (Clementine Vulgate)"
+    }
+  ]
+}

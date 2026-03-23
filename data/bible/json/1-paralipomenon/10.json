@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Paralipomenon, Chapter 10 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Paralipomenon",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 10,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-paralipomenon/9.json",
+      "nextChapter": "https://latinprayer.org/bible/1-paralipomenon/11.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-paralipomenon/10.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/10.json"
+    }
+  },
+  "citation": "1. Paralipomenon 10 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now the Philistines fought against Israel, and the men of Israel fled from before the Philistines, and fell down wounded in mount Gelboe.",
+      "citation": "1. Paralipomenon 10:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And the Philistines drew near pursuing after Saul, and his sons, and they killed Jonathan, and Abinadab, and Melchisua the sons of Saul.",
+      "citation": "1. Paralipomenon 10:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And the battle grew hard against Saul and the archers reached him, and wounded him with arrows.",
+      "citation": "1. Paralipomenon 10:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And Saul said to his armourbearer: Draw thy sword, and kill me: lest these uncircumcised come, and mock me. But his armourbearer would not, for he was struck with fear: so Saul took his sword, and fell upon it.",
+      "citation": "1. Paralipomenon 10:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And when his armourbearer saw it, to wit, that Saul was dead, he also fell upon his sword and died.",
+      "citation": "1. Paralipomenon 10:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "So Saul died, and his three sons, and all his house fell together.",
+      "citation": "1. Paralipomenon 10:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And when the men of Israel, that dwelt in the plains, saw this, they fled: and Saul and his sons being dead, they forsook their cities, and were scattered up and down: and the Philistines came, and dwelt in them.",
+      "citation": "1. Paralipomenon 10:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the next day the Philistines taking away the spoils of them that were slain, found Saul and his sons lying on mount Gelboe.",
+      "citation": "1. Paralipomenon 10:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And when they had stripped him, and cut off his head, and taken away his armour, they sent it into their land, to be carried about, and shewn in the temples of the idols and to the people.",
+      "citation": "1. Paralipomenon 10:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And his armour they dedicated in the temple of their god, and his head they fastened up in the temple of Dagon.",
+      "citation": "1. Paralipomenon 10:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And when the men of Jabes Galaad had heard this, to wit, all that the Philistines had done to Saul,",
+      "citation": "1. Paralipomenon 10:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "All the valiant men of them arose, and took the bodies of Saul and of his sons, and brought them to Jabes, and buried their bones under the oak that was in Jabes, and they fasted seven days.",
+      "citation": "1. Paralipomenon 10:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "So Saul died for his iniquities, because he transgressed the commandment of the Lord, which he had commanded, and kept it not: and moreover consulted also a witch,",
+      "citation": "1. Paralipomenon 10:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And trusted not in the Lord: therefore he slew him, and transferred his kingdom to David the son of Isai.",
+      "citation": "1. Paralipomenon 10:14 (Douay-Rheims)"
+    }
+  ]
+}

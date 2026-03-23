@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 132 — 18 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 132,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/131.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/133.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/132.json",
+      "latin": "https://latinprayer.org/latin/psalms/132.json"
+    }
+  },
+  "citation": "Psalmen 132 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Wallfahrtslied</em>. Gedenke, HERR, dem David alle seine Mühsal,",
+      "citation": "Psalmen 132:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "ihm, der dem HERRN einst zuschwor und gelobte Jakobs mächtigem Gott:",
+      "citation": "Psalmen 132:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "»Wahrlich, ich will mein Wohnzelt nicht betreten, nicht mein Ruhelager besteigen;",
+      "citation": "Psalmen 132:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "ich will meinen Augen den Schlaf nicht gönnen, nicht Schlummer meinen Augenlidern,",
+      "citation": "Psalmen 132:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "bis eine Stätte dem HERRN ich gefunden, eine Wohnung für Jakobs mächtigen Gott!«",
+      "citation": "Psalmen 132:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ja, wir haben von ihr gehört in Ephrath, sie gefunden im Gefilde von Jaar:",
+      "citation": "Psalmen 132:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "»Laßt uns in seine Wohnung treten, uns niederwerfen vor dem Schemel seiner Füße!",
+      "citation": "Psalmen 132:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Brich auf, o HERR, zu deiner Ruhstatt, du und die Lade (das Sinnbild) deiner Macht!",
+      "citation": "Psalmen 132:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Laß deine Priester sich kleiden in Gerechtigkeit, und deine Frommen mögen jubeln!",
+      "citation": "Psalmen 132:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Um deines Knechtes David willen weise das Antlitz deines Gesalbten nicht ab!«",
+      "citation": "Psalmen 132:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Geschworen hat der HERR dem David einen Eid, einen wahren Eid, von dem er nicht abgeht: »Von deinen leiblichen Sprossen will einen ich setzen auf deinen Thron.",
+      "citation": "Psalmen 132:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wenn deine Söhne meinen Bund beachten und meine Zeugnisse, die ich sie lehren werde, so sollen auch ihre Söhne für und für sitzen auf deinem Thron.«",
+      "citation": "Psalmen 132:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Denn der HERR hat Zion erwählt, hat es zu seiner Wohnung begehrt:",
+      "citation": "Psalmen 132:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "»Dies ist meine Ruhstatt für immer, hier will ich wohnen, weil ich’s so begehrt.",
+      "citation": "Psalmen 132:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Zions Nahrung will ich reichlich segnen, seine Armen sättigen mit Brot;",
+      "citation": "Psalmen 132:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "seine Priester werde in Heil ich kleiden, seine Frommen sollen laut frohlocken.",
+      "citation": "Psalmen 132:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Dort will ich Davids Macht erblühen lassen; eine Leuchte hab’ ich meinem Gesalbten bereitet.",
+      "citation": "Psalmen 132:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Seine Feinde will ich kleiden in Schmach, doch ihm soll auf dem Haupt die Krone glänzen.«",
+      "citation": "Psalmen 132:18 (Menge)"
+    }
+  ]
+}

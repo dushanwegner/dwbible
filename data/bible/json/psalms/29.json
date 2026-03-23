@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 29 — 11 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 29,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/28.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/30.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/29.json",
+      "german": "https://latinprayer.org/bibel/psalms/29.json"
+    }
+  },
+  "citation": "Psalms 29 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A psalm for David, at the finishing of the tabernacle. Bring to the Lord, O ye children of God: bring to the Lord the offspring of rams.",
+      "citation": "Psalms 29:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "A psalm of a canticle, at the dedication of David's house.",
+      "citation": "Psalms 29:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Bring to the Lord glory and honour: bring to the Lord glory to his name: adore ye the Lord in his holy court.",
+      "citation": "Psalms 29:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The voice of the Lord is upon the waters; the God of majesty hath thundered, The Lord is upon many waters.",
+      "citation": "Psalms 29:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The voice of the Lord is in power; the voice of the Lord in magnificence.",
+      "citation": "Psalms 29:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The voice of the Lord breaketh the cedars: yea, the Lord shall break the cedars of Libanus.",
+      "citation": "Psalms 29:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And shall reduce them to pieces, as a calf of Libanus, and as the beloved son of unicorns.",
+      "citation": "Psalms 29:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The voice of the Lord divideth the flame of fire:",
+      "citation": "Psalms 29:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The voice of the Lord shaketh the desert: and the Lord shall shake the desert of Cades.",
+      "citation": "Psalms 29:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The voice of the Lord prepareth the stags: and he will discover the thick woods: and in his temple all shall speak his glory.",
+      "citation": "Psalms 29:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The Lord maketh the flood to dwell: and the Lord shall sit king for ever. The Lord will give strength to his people: the Lord will bless his people with peace.",
+      "citation": "Psalms 29:10 (Douay-Rheims)"
+    }
+  ]
+}

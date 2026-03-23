@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Josua, Chapter 4 — 24 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Josua",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 24
+    },
+    "chapter": 4,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/josue/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/josue/3.json",
+      "nextChapter": "https://latinprayer.org/bibel/josue/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/josue/4.json",
+      "latin": "https://latinprayer.org/latin/josue/4.json"
+    }
+  },
+  "citation": "Josua 4 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als nun das ganze Volk den Übergang über den Jordan vollständig bewerkstelligt hatte, gebot der HERR dem Josua folgendes:",
+      "citation": "Josua 4:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Wählt euch aus dem Volke zwölf Männer, aus jedem Stamme einen Mann,",
+      "citation": "Josua 4:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "und erteilt ihnen folgenden Befehl: ›Nehmt euch von hier, aus der Mitte des Jordans, von der Stelle, wo die Füße der Priester festgestanden haben, zwölf Steine auf, schafft sie mit euch hinüber und legt sie auf dem Lagerplatz nieder, wo ihr diese Nacht zubringen werdet.‹«",
+      "citation": "Josua 4:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Da berief Josua die zwölf Männer, die er aus den Israeliten hatte wählen lassen, aus jedem Stamme einen Mann,",
+      "citation": "Josua 4:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "und befahl ihnen: »Geht hin vor die Lade des HERRN, eures Gottes, mitten in den Jordan hinein und ladet euch ein jeder einen Stein auf seine Schulter, entsprechend der Zahl der israelitischen Stämme,",
+      "citation": "Josua 4:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "damit dies ein Wahrzeichen unter euch werde! Wenn dann eure Kinder euch künftig fragen: ›Was haben diese Steine für euch zu bedeuten?‹,",
+      "citation": "Josua 4:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "so sollt ihr ihnen antworten: ›Daß das Wasser des Jordans vor der Bundeslade des HERRN zu fließen aufgehört hat; als die durch den Jordan zog, hat das Wasser des Jordans zu fließen aufgehört; deshalb sollen diese Steine für die Israeliten ein ewiges Denkmal sein!‹«",
+      "citation": "Josua 4:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Da taten die Israeliten so, wie Josua befohlen hatte: sie hoben zwölf Steine mitten aus dem Jordan auf, wie der HERR dem Josua geboten hatte, entsprechend der Zahl der israelitischen Stämme, nahmen sie mit sich nach dem Platze des Nachtlagers hinüber und legten sie dort nieder.",
+      "citation": "Josua 4:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Zwölf andere Steine aber ließ Josua mitten im Jordan an der Stelle aufrichten, wo die Füße der Priester, welche die Bundeslade trugen, gestanden hatten; dort befinden sie sich noch heutigen Tages.",
+      "citation": "Josua 4:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Die Priester aber, welche die Lade trugen, blieben mitten im Jordan stehen, bis alle Arbeit ausgeführt war, die Josua nach dem Befehl des HERRN dem Volk geboten hatte, genau so, wie Mose dem Josua geboten hatte; und das Volk zog eilends hinüber.",
+      "citation": "Josua 4:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Als dann das ganze Volk den Übergang vollständig bewerkstelligt hatte, zog auch die Lade des HERRN hinüber und die Priester angesichts des Volkes.",
+      "citation": "Josua 4:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Es waren aber die Stämme Ruben und Gad und der halbe Stamm Manasse kampfgerüstet an der Spitze der Israeliten hinübergezogen, wie Mose ihnen geboten hatte.",
+      "citation": "Josua 4:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "In der Zahl von etwa vierzigtausend kampfgerüsteten Männern waren sie vor dem HERRN her zum Kampf in die Steppen von Jericho hinübergezogen.",
+      "citation": "Josua 4:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "An jenem Tage machte der HERR den Josua groß in den Augen von ganz Israel, so daß sie Ehrfurcht vor ihm hatten während seines ganzen Lebens, wie sie vor Mose Ehrfurcht gehabt hatten.",
+      "citation": "Josua 4:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Hierauf gebot der HERR dem Josua folgendes:",
+      "citation": "Josua 4:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "»Befiehl den Priestern, welche die Gesetzeslade tragen, aus dem Jordan heraufzusteigen.«",
+      "citation": "Josua 4:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Da gab Josua den Priestern den Befehl: »Steigt aus dem Jordan herauf!«",
+      "citation": "Josua 4:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Als nun die Priester, welche die Bundeslade des HERRN trugen, aus dem Jordan heraufgestiegen waren und die Fußsohlen der Priester kaum das trockene Ufer betreten hatten, da kehrte das Wasser des Jordans in sein Bett zurück und ergoß sich wie früher überall über seine Ufer.",
+      "citation": "Josua 4:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Das Volk war aber aus dem Jordan am zehnten Tage des ersten Monats heraufgestiegen und lagerte in Gilgal an der Ostgrenze des Gebiets von Jericho.",
+      "citation": "Josua 4:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Da ließ Josua jene zwölf Steine, die sie aus dem Jordan mitgebracht hatten, in Gilgal aufrichten",
+      "citation": "Josua 4:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "und sagte dabei zu den Israeliten: »Wenn eure Kinder künftig an ihre Väter die Frage richten: ›Was haben diese Steine zu bedeuten?‹,",
+      "citation": "Josua 4:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "so gebt euren Kindern folgende Auskunft: ›Trockenen Fußes ist Israel hier durch den Jordan gezogen,",
+      "citation": "Josua 4:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "weil der HERR, euer Gott, das Wasser des Jordans vor euch her hat vertrocknen lassen, bis ihr hindurchgezogen wart, ebenso wie der HERR, euer Gott, es mit dem Schilfmeer gemacht hat, das er vor uns hat vertrocknen lassen, bis wir hindurchgezogen waren;",
+      "citation": "Josua 4:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "denn alle Völker der Erde sollten erkennen, daß die Hand des HERRN stark ist, damit ihr den HERRN, euren Gott, allezeit fürchtet.‹«",
+      "citation": "Josua 4:24 (Menge)"
+    }
+  ]
+}

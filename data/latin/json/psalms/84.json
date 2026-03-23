@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 84 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 84,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/83.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/85.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/84.json",
+      "german": "https://latinprayer.org/bibel/psalms/84.json"
+    }
+  },
+  "citation": "Psalms 84 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quam dilecta tabernacula tua Domine virtutum",
+      "citation": "Psalms 84:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in finem filiis Core psalmus",
+      "citation": "Psalms 84:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "quam dilecta tabernacula tua Domine exercituum",
+      "citation": "Psalms 84:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori filiorum Core canticum",
+      "citation": "Psalms 84:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "concupiscit et defecit anima mea in atria Domini cor meum et caro mea exultavit in Deum vivum",
+      "citation": "Psalms 84:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "desiderat et defecit anima mea in atria Domini cor meum et caro mea laudabunt Deum viventem",
+      "citation": "Psalms 84:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "etenim passer invenit %sibi; domum et turtur nidum sibi ubi ponat pullos suos altaria tua Domine virtutum rex meus et Deus meus",
+      "citation": "Psalms 84:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "siquidem avis invenit domum et passer nidum sibi ubi ponat pullos suos altaria tua Domine exercituum rex meus et Deus meus",
+      "citation": "Psalms 84:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "beati qui habitant in domo tua in saecula saeculorum laudabunt te diapsalma",
+      "citation": "Psalms 84:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "beati qui habitant in domo tua adhuc laudabunt te semper",
+      "citation": "Psalms 84:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "beatus vir cui est auxilium abs te ascensiones in corde suo disposuit",
+      "citation": "Psalms 84:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "beatus homo cuius fortitudo est in te semitae in corde eius",
+      "citation": "Psalms 84:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "in valle lacrimarum in loco quem posuit",
+      "citation": "Psalms 84:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "transeuntes in valle fletus fontem ponent eam",
+      "citation": "Psalms 84:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "etenim benedictiones dabit legis dator ibunt de virtute in virtutem videbitur Deus deorum in Sion",
+      "citation": "Psalms 84:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "benedictione quoque amicietur doctor ibunt de fortitudine in fortitudinem parebunt apud Deum in Sion",
+      "citation": "Psalms 84:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Domine Deus virtutum exaudi orationem meam auribus percipe Deus Iacob diapsalma",
+      "citation": "Psalms 84:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Domine Deus exercituum exaudi orationem meam ausculta Deus Iacob semper",
+      "citation": "Psalms 84:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "protector noster aspice Deus et respice in faciem christi tui",
+      "citation": "Psalms 84:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "clipeus noster vide Deus et adtende faciem christi tui",
+      "citation": "Psalms 84:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quia melior est dies una in atriis tuis super milia elegi abiectus esse in domo Dei mei magis quam habitare in tabernaculis peccatorum",
+      "citation": "Psalms 84:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quoniam melior est dies in atriis tuis super milia elegi abiectus esse in domo Dei mei magis quam habitare in tabernaculis impietatis",
+      "citation": "Psalms 84:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quia misericordiam et veritatem %diligit; Deus gratiam et gloriam dabit Dominus",
+      "citation": "Psalms 84:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quia sol et scutum Dominus Deus gratiam et gloriam dabit Dominus",
+      "citation": "Psalms 84:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "non privabit bonis eos qui ambulant in innocentia Domine virtutum beatus vir qui sperat in te",
+      "citation": "Psalms 84:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nec prohibebit bonum ab his qui ambulant in perfectione Domine exercituum beatus homo qui confidet in te",
+      "citation": "Psalms 84:12 (Clementine Vulgate)"
+    }
+  ]
+}

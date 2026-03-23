@@ -1,0 +1,226 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 9 — 38 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 9,
+    "verseCount": 38,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/matthew/8.json",
+      "nextChapter": "https://latinprayer.org/latin/matthew/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/9.json",
+      "german": "https://latinprayer.org/bibel/matthew/9.json"
+    }
+  },
+  "citation": "Matthew 9 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et ascendens in naviculam transfretavit et venit in civitatem suam",
+      "citation": "Matthew 9:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et ecce offerebant ei paralyticum iacentem in lecto et videns Iesus fidem illorum dixit paralytico confide fili remittuntur tibi peccata tua",
+      "citation": "Matthew 9:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et ecce quidam de scribis dixerunt intra se hic blasphemat",
+      "citation": "Matthew 9:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et cum vidisset Iesus cogitationes eorum dixit ut quid cogitatis mala in cordibus vestris",
+      "citation": "Matthew 9:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quid est facilius dicere dimittuntur tibi peccata aut dicere surge et ambula",
+      "citation": "Matthew 9:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ut sciatis autem quoniam Filius hominis habet potestatem in terra dimittendi peccata tunc ait paralytico surge tolle lectum tuum et vade in domum tuam",
+      "citation": "Matthew 9:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et surrexit et abiit in domum suam",
+      "citation": "Matthew 9:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "videntes autem turbae timuerunt et glorificaverunt Deum qui dedit potestatem talem hominibus",
+      "citation": "Matthew 9:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et cum transiret inde Iesus vidit hominem sedentem in teloneo Mattheum nomine et ait illi sequere me et surgens secutus est eum",
+      "citation": "Matthew 9:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et factum est discumbente eo in domo ecce multi publicani et peccatores venientes discumbebant cum Iesu et discipulis eius",
+      "citation": "Matthew 9:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et videntes Pharisaei dicebant discipulis eius quare cum publicanis et peccatoribus manducat magister vester",
+      "citation": "Matthew 9:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "at Iesus audiens ait non est opus valentibus medico sed male habentibus",
+      "citation": "Matthew 9:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "euntes autem discite quid est misericordiam volo et non sacrificium non enim veni vocare iustos sed peccatores",
+      "citation": "Matthew 9:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "tunc accesserunt ad eum discipuli Iohannis dicentes quare nos et Pharisaei ieiunamus frequenter discipuli autem tui non ieiunant",
+      "citation": "Matthew 9:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et ait illis Iesus numquid possunt filii sponsi lugere quamdiu cum illis est sponsus venient autem dies cum auferetur ab eis sponsus et tunc ieiunabunt",
+      "citation": "Matthew 9:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "nemo autem inmittit commissuram panni rudis in vestimentum vetus tollit enim plenitudinem eius a vestimento et peior scissura fit",
+      "citation": "Matthew 9:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "neque mittunt vinum novum in utres veteres alioquin rumpuntur utres et vinum effunditur et utres pereunt sed vinum novum in utres novos mittunt et ambo conservantur",
+      "citation": "Matthew 9:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "haec illo loquente ad eos ecce princeps unus accessit et adorabat eum dicens filia mea modo defuncta est sed veni inpone manum super eam et vivet",
+      "citation": "Matthew 9:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et surgens Iesus sequebatur eum et discipuli eius",
+      "citation": "Matthew 9:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et ecce mulier quae sanguinis fluxum patiebatur duodecim annis accessit retro et tetigit fimbriam vestimenti eius",
+      "citation": "Matthew 9:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "dicebat enim intra se si tetigero tantum vestimentum eius salva ero",
+      "citation": "Matthew 9:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "at Iesus conversus et videns eam dixit confide filia fides tua te salvam fecit et salva facta est mulier ex illa hora",
+      "citation": "Matthew 9:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et cum venisset Iesus in domum principis et vidisset tibicines et turbam tumultuantem",
+      "citation": "Matthew 9:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "dicebat recedite non est enim mortua puella sed dormit et deridebant eum",
+      "citation": "Matthew 9:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et cum eiecta esset turba intravit et tenuit manum eius et surrexit puella",
+      "citation": "Matthew 9:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et exiit fama haec in universam terram illam",
+      "citation": "Matthew 9:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et transeunte inde Iesu secuti sunt eum duo caeci clamantes et dicentes miserere nostri Fili David",
+      "citation": "Matthew 9:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "cum autem venisset domum accesserunt ad eum caeci et dicit eis Iesus creditis quia possum hoc facere vobis dicunt ei utique Domine",
+      "citation": "Matthew 9:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "tunc tetigit oculos eorum dicens secundum fidem vestram fiat vobis",
+      "citation": "Matthew 9:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et aperti sunt oculi illorum et comminatus est illis Iesus dicens videte ne quis sciat",
+      "citation": "Matthew 9:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "illi autem exeuntes diffamaverunt eum in tota terra illa",
+      "citation": "Matthew 9:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "egressis autem illis ecce obtulerunt ei hominem mutum daemonium habentem",
+      "citation": "Matthew 9:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "et eiecto daemone locutus est mutus et miratae sunt turbae dicentes numquam paruit sic in Israhel",
+      "citation": "Matthew 9:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "Pharisaei autem dicebant in principe daemoniorum eicit daemones",
+      "citation": "Matthew 9:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et circumibat Iesus civitates omnes et castella docens in synagogis eorum et praedicans evangelium regni et curans omnem languorem et omnem infirmitatem",
+      "citation": "Matthew 9:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "videns autem turbas misertus est eis quia erant vexati et iacentes sicut oves non habentes pastorem",
+      "citation": "Matthew 9:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "tunc dicit discipulis suis messis quidem multa operarii autem pauci",
+      "citation": "Matthew 9:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "rogate ergo dominum messis ut eiciat operarios in messem suam",
+      "citation": "Matthew 9:38 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Titus, Chapter 2 — 15 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Titus",
+      "slug": "titus",
+      "testament": "NT",
+      "order": 63,
+      "totalChapters": 3
+    },
+    "chapter": 2,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/titus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/titus/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/titus/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/titus/2.json",
+      "latin": "https://latinprayer.org/latin/titus/2.json"
+    }
+  },
+  "citation": "Titus 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Du aber sprich offen aus, was der gesunden Lehre entspricht,",
+      "citation": "Titus 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "nämlich daß die älteren Männer nüchtern sein sollen, ehrbar, besonnen, gesund im Glauben, in der Liebe und in der Standhaftigkeit. –",
+      "citation": "Titus 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ebenso ermahne die älteren Frauen, sich in ihrer Haltung würdevoll zu benehmen, nicht klatschsüchtig zu sein, nicht dem übermäßigen Weingenuß ergeben, Lehrerinnen des Guten,",
+      "citation": "Titus 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "damit sie die jungen Frauen zu besonnener Pflichterfüllung anleiten, nämlich ihre Männer und ihre Kinder zu lieben,",
+      "citation": "Titus 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "züchtig, keusch, tüchtige Haushälterinnen, gütig zu sein und sich ihren Ehemännern unterzuordnen, damit das Wort Gottes nicht gelästert werde. –",
+      "citation": "Titus 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Die jungen Männer ermahne gleichfalls, besonnen zu sein,",
+      "citation": "Titus 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "und biete dich selbst ihnen in jeder Beziehung als Vorbild guter Werke dar. In der Lehre beweise Unverfälschtheit, würdevollen Ernst,",
+      "citation": "Titus 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "gesunde, unanfechtbare Rede, damit jeder Gegner sich beschämt fühlt, weil er uns nichts Schlechtes nachsagen kann. –",
+      "citation": "Titus 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Die Knechte ermahne, ihren Herren in jeder Hinsicht gehorsam zu sein und ihnen zu Gefallen zu leben, nicht zu widersprechen,",
+      "citation": "Titus 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "nichts zu veruntreuen, vielmehr volle, echte Treue zu beweisen, damit sie der Lehre Gottes, unsers Retters, in allen Beziehungen Ehre machen.",
+      "citation": "Titus 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Denn erschienen ist die Gnade Gottes, die allen Menschen das Heil bringt,",
+      "citation": "Titus 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "indem sie uns dazu erzieht, dem gottlosen Wesen und den weltlichen Begierden abzusagen und besonnen, gerecht und gottselig (schon) in der gegenwärtigen Weltzeit zu leben,",
+      "citation": "Titus 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "indem wir dabei auf unser seliges Hoffnungsgut und auf das Erscheinen der Herrlichkeit des großen Gottes und unsers Retters Christus Jesus warten,",
+      "citation": "Titus 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "der sich selbst für uns dahingegeben hat, um uns von aller Gesetzlosigkeit zu erlösen und sich ein reines Volk zum Eigentum zu schaffen, das eifrig auf gute Werke bedacht ist.",
+      "citation": "Titus 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Dies trage ihnen vor, dazu ermahne sie und rede ihnen mit allem Nachdruck ins Gewissen; laß dich (dabei) von niemand geringschätzig behandeln!",
+      "citation": "Titus 2:15 (Menge)"
+    }
+  ]
+}

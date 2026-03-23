@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 22 — 30 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 22,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/21.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/23.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/22.json",
+      "german": "https://latinprayer.org/bibel/exodus/22.json"
+    }
+  },
+  "citation": "Exodus 22 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "si effringens fur domum sive suffodiens fuerit inventus et accepto vulnere mortuus fuerit percussor non erit reus sanguinis",
+      "citation": "Exodus 22:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quod si orto sole hoc fecerit homicidium perpetravit et ipse morietur si non habuerit quod pro furto reddat venundabitur",
+      "citation": "Exodus 22:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "si inventum fuerit apud eum quod furatus est vivens sive bos sive asinus sive ovis duplum restituet",
+      "citation": "Exodus 22:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "si laeserit quispiam agrum vel vineam et dimiserit iumentum suum ut depascatur aliena quicquid optimum habuerit in agro suo vel in vinea pro damni aestimatione restituet",
+      "citation": "Exodus 22:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "si egressus ignis invenerit spinas et conprehenderit acervos frugum sive stantes segetes in agris reddet damnum qui ignem succenderit",
+      "citation": "Exodus 22:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "si quis commendaverit amico pecuniam aut vas in custodiam et ab eo qui susceperat furto ablata fuerint si invenitur fur duplum reddet",
+      "citation": "Exodus 22:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "si latet dominus domus adplicabitur ad deos et iurabit quod non extenderit manum in rem proximi sui",
+      "citation": "Exodus 22:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ad perpetrandam fraudem tam in bove quam in asino et ove ac vestimento et quicquid damnum inferre potest ad deos utriusque causa perveniet et si illi iudicaverint duplum restituet proximo suo",
+      "citation": "Exodus 22:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "si quis commendaverit proximo suo asinum bovem ovem et omne iumentum ad custodiam et mortuum fuerit aut debilitatum vel captum ab hostibus nullusque hoc viderit",
+      "citation": "Exodus 22:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "iusiurandum erit in medio quod non extenderit manum ad rem proximi sui suscipietque dominus iuramentum et ille reddere non cogetur",
+      "citation": "Exodus 22:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quod si furto ablatum fuerit restituet damnum domino",
+      "citation": "Exodus 22:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "si comestum a bestia deferet ad eum quod occisum est et non restituet",
+      "citation": "Exodus 22:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "qui a proximo suo quicquam horum mutuo postularit et debilitatum aut mortuum fuerit domino non praesente reddere conpelletur",
+      "citation": "Exodus 22:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quod si inpraesentiarum fuit dominus non restituet maxime si conductum venerat pro mercede operis sui",
+      "citation": "Exodus 22:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "si seduxerit quis virginem necdum desponsatam et dormierit cum ea dotabit eam et habebit uxorem",
+      "citation": "Exodus 22:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "si pater virginis dare noluerit reddet pecuniam iuxta modum dotis quam virgines accipere consuerunt",
+      "citation": "Exodus 22:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "maleficos non patieris vivere",
+      "citation": "Exodus 22:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "qui coierit cum iumento morte moriatur",
+      "citation": "Exodus 22:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "qui immolat diis occidetur praeter Domino soli",
+      "citation": "Exodus 22:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "advenam non contristabis neque adfliges eum advenae enim et ipsi fuistis in terra Aegypti",
+      "citation": "Exodus 22:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "viduae et pupillo non nocebitis",
+      "citation": "Exodus 22:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "si laeseritis eos vociferabuntur ad me et ego audiam clamorem eorum",
+      "citation": "Exodus 22:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et indignabitur furor meus percutiamque vos gladio et erunt uxores vestrae viduae et filii vestri pupilli",
+      "citation": "Exodus 22:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "si pecuniam mutuam dederis populo meo pauperi qui habitat tecum non urgues eum quasi exactor nec usuris opprimes",
+      "citation": "Exodus 22:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "si pignus a proximo tuo acceperis vestimentum ante solis occasum redde ei",
+      "citation": "Exodus 22:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "ipsum enim est solum quo operitur indumentum carnis eius nec habet aliud in quo dormiat si clamaverit ad me exaudiam eum quia misericors sum",
+      "citation": "Exodus 22:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "diis non detrahes et principi populi tui non maledices",
+      "citation": "Exodus 22:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "decimas tuas et primitias non tardabis offerre primogenitum filiorum tuorum dabis mihi",
+      "citation": "Exodus 22:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "de bubus quoque et ovibus similiter facies septem diebus sit cum matre sua die octavo reddes illum mihi",
+      "citation": "Exodus 22:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "viri sancti eritis mihi carnem quae a bestiis fuerit praegustata non comedetis sed proicietis canibus",
+      "citation": "Exodus 22:30 (Clementine Vulgate)"
+    }
+  ]
+}

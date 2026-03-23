@@ -1,0 +1,351 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Maccabees, Chapter 6 — 63 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Maccabees",
+      "slug": "1-machabees",
+      "testament": "OT",
+      "order": 45,
+      "totalChapters": 16
+    },
+    "chapter": 6,
+    "verseCount": 63,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-machabees/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-machabees/5.json",
+      "nextChapter": "https://latinprayer.org/latin/1-machabees/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-machabees/6.json",
+      "german": "https://latinprayer.org/bibel/1-machabees/6.json"
+    }
+  },
+  "citation": "1 Maccabees 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et rex Antiochus perambulavit superiores regiones et audivit esse civitatem Elymaidem in Perside nobilissimam et copiosam in argento et auro",
+      "citation": "1 Maccabees 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "templumque in ea locuples valde et illic velamina aurea et loricae et scuta quae reliquit Alexander Philippi rex Macedo qui regnavit primus in Graecia",
+      "citation": "1 Maccabees 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et venit et quaerebat civitatem capere et praedare eam et non potuit quoniam innotuit sermo his qui erant in civitate",
+      "citation": "1 Maccabees 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et insurrexerunt in proelium et fugit inde et abiit cum tristitia magna et reversus est Babyloniam",
+      "citation": "1 Maccabees 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et venit qui nuntiaret ei in Perside quia fugata sunt castra quae erant in terra Iuda",
+      "citation": "1 Maccabees 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et quia abiit Lysias cum virtute forti in primis et fugatus est a facie Iudaeorum et invaluerunt armis et viribus et spoliis multis quas ceperunt",
+      "citation": "1 Maccabees 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et quia diruerunt abominationem quam aedificaverat super altare quod erat in Hierusalem et sanctificationem sicut prius circumdederunt muris excelsis sed et Bethsuram civitatem suam",
+      "citation": "1 Maccabees 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et factum est ut audivit rex sermones istos expavit et commotus est valde et decidit in lectum et incidit in languorem prae tristitia quia non est factum sicut cogitabat",
+      "citation": "1 Maccabees 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et erat illic dies multos quia renovata est in eo tristitia magna et arbitratus est se mori",
+      "citation": "1 Maccabees 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et vocavit omnes amicos suos et dixit illis recessit somnus ab oculis meis et concidi et corrui corde prae sollicitudine",
+      "citation": "1 Maccabees 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dixi in corde meo in quantam tribulationem deveni et in quos fluctus tristitiae in qua nunc sum qui iucundus eram et dilectus in potestate mea",
+      "citation": "1 Maccabees 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nunc vero reminiscor malorum quae feci in Hierusalem unde abstuli omnia spolia argentea et aurea quae erant in ea et misi auferri habitantes Iudaeam sine causa",
+      "citation": "1 Maccabees 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "cognovi ergo quia propterea invenerunt me mala ista et ecce pereo tristitia magna in terra aliena",
+      "citation": "1 Maccabees 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et vocavit Philippum unum de amicis suis et praeposuit eum super universum regnum suum",
+      "citation": "1 Maccabees 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et dedit ei diadema et stolam suam et anulum ut adduceret Antiochum filium suum et nutriret eum et regnaret",
+      "citation": "1 Maccabees 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et mortuus est illic Antiochus rex anno centesimo quadragesimo et nono",
+      "citation": "1 Maccabees 6:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et cognovit Lysias quoniam mortuus est rex et constituit regnare Antiochum filium eius quem nutrivit adulescentem et vocavit nomen eius Eupator",
+      "citation": "1 Maccabees 6:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et hii qui erant in arce concluserant Israhel in circuitu sanctorum et quaerebant eis mala semper ad firmamentum gentium",
+      "citation": "1 Maccabees 6:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et cogitavit Iudas disperdere eos et convocavit universum populum ut obsiderent eos",
+      "citation": "1 Maccabees 6:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et coirent simul et obsederunt eos anno centesimo quinquagesimo et fecerunt ballistas et machinas",
+      "citation": "1 Maccabees 6:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et exierunt quidam ex eis qui obsidebantur et adiunxerunt se illis aliqui ex impiis Israhel",
+      "citation": "1 Maccabees 6:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et abierunt ad regem et dixerunt quousque non facies iudicium et vindicas fratres nostros",
+      "citation": "1 Maccabees 6:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "nos decrevimus servire patri tuo et ambulare in praeceptis eius et obsequi edictis eius",
+      "citation": "1 Maccabees 6:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et filii populi nostri propter hoc abalienabantur se a nobis et quicumque inveniebantur ex nobis interficiebantur et hereditates nostrae diripiebantur",
+      "citation": "1 Maccabees 6:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et non ad nos tantum extenderunt manum sed et in omnes fines nostros",
+      "citation": "1 Maccabees 6:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et ecce adplicuerunt hodie ad arcem in Hierusalem occupare eam et munitionem in Bethsuram munierunt",
+      "citation": "1 Maccabees 6:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et nisi praeveneris eos velocius maiora quam haec facient nec poteris obtinere eos",
+      "citation": "1 Maccabees 6:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et iratus est rex ut audivit et convocavit omnes amicos suos et principes exercitus sui et eos qui super equites erant",
+      "citation": "1 Maccabees 6:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "sed et de regnis aliis et insulis et maritimis venerunt ad eum exercitus conducticius",
+      "citation": "1 Maccabees 6:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et erat numerus exercitus centum milia peditum et viginti milia equitum et elefanti triginta duo docti ad proelium",
+      "citation": "1 Maccabees 6:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "et venerunt per Idumeam et adplicuerunt ad Bethsuram et pugnaverunt dies multos et fecerunt machinas et exierunt et succenderunt eas igni et pugnaverunt viriliter",
+      "citation": "1 Maccabees 6:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et recessit Iudas ab arce et admovit castra ad Bethzacara contra castra regis",
+      "citation": "1 Maccabees 6:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "et surrexit ante lucem et concitavit exercitus impetum contra viam Bethzacara et conparaverunt se exercitus in proelium et tubis cecinerunt",
+      "citation": "1 Maccabees 6:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et elefantis ostenderunt sanguinem uvae et mori ad acuendos eos in proelium",
+      "citation": "1 Maccabees 6:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et diviserunt bestias per legiones et adstiterunt singulis elefantis mille viri in loricis concatenatis et galeae aereae in capitibus eorum et quingenti equites ordinati unicuique bestiae electi erant",
+      "citation": "1 Maccabees 6:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "hii ante tempus ubicumque erat bestia erant et quocumque ibat ibant non discedebant ab ea",
+      "citation": "1 Maccabees 6:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "sed et turres ligneas super eos firmae protegentes super singulas bestias et super eas machinae et super singulas viri virtutis triginta duo qui pugnabant desuper et intus magister bestiae",
+      "citation": "1 Maccabees 6:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "et residuum equitatum hinc et inde statuit in duas partes tubis et exercitum commovere et perurguere constipati in legionibus eius",
+      "citation": "1 Maccabees 6:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et ut refulsit sol in clypeos aureos et aereos resplenduerunt montes ab eis resplenduerunt sicut lampades ignis",
+      "citation": "1 Maccabees 6:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "et distincta est pars exercitus regis per montes excelsos et alii per loca humilia et ibant caute et ordinate",
+      "citation": "1 Maccabees 6:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et commovebantur omnes inhabitantes a voce multitudinis eorum et incessu turbae et conlisionis armorum erat enim exercitus magnus valde et fortis",
+      "citation": "1 Maccabees 6:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et adpropiavit Iudas et exercitus eius in proelium et ceciderunt de exercitu regis sescenti viri",
+      "citation": "1 Maccabees 6:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "et vidit Eleazar filius Saura unam de bestiis loricatam loricis regis et erat eminens super ceteras bestias et visum est ei quod in ea esset rex",
+      "citation": "1 Maccabees 6:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et dedit se ut liberaret populum suum et adquireret sibi nomen aeternum",
+      "citation": "1 Maccabees 6:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "et cucurrit ad eam audaciter in medio legionis interficiens a dextris et a sinistris et cadebant ab eo huc et illuc",
+      "citation": "1 Maccabees 6:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "et ivit sub pedes elefanti et subposuit ei et occidit eum et cecidit in terram super ipsum et mortuus est illic",
+      "citation": "1 Maccabees 6:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "et videntes virtutem regis et impetum exercitus eius deverterunt ab eis",
+      "citation": "1 Maccabees 6:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "castra autem regis ascenderunt contra eos in Hierusalem et adplicuit castra rex ad Iudaeam et montem Sion",
+      "citation": "1 Maccabees 6:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "et fecit pacem cum his qui erant in Bethsuram et exierunt de civitate quia non erant eis ibi alimenta conclusis quia sabbata erant terrae",
+      "citation": "1 Maccabees 6:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "et conprehendit rex Bethsuram et constituit illic custodiam servare eam",
+      "citation": "1 Maccabees 6:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "et convertit castra ad locum sanctificationis dies multos et statuit illic ballistas et machinas et ignis iacula et tormenta ad lapides iactandos et spicula et scorpios ad mittendas sagittas et fundibula",
+      "citation": "1 Maccabees 6:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "fecerunt autem et ipsi machinas adversus machinas eorum et pugnaverunt dies multos",
+      "citation": "1 Maccabees 6:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "escae autem non erant in civitate eo quod septimus annus esset et qui remanserant in Iudaea de gentibus consumpserant reliquias eorum quae repositae fuerant",
+      "citation": "1 Maccabees 6:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "et remanserunt in sanctis viri pauci quoniam obtinuerat eos fames et dispersi sunt unusquisque in locum suum",
+      "citation": "1 Maccabees 6:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "et audivit Lysias quod Philippus quem constituit rex Antiochus cum adhuc viveret et nutriret Antiochum filium suum ut regnaret",
+      "citation": "1 Maccabees 6:55 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "et reversus esset a Perside et Media et exercitus qui abierat cum ipso et quia quaerit suscipere regni negotia",
+      "citation": "1 Maccabees 6:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "festinavit ire et dicere ad regem et duces exercitus deficimus cotidie et esca nobis modica est et locus quem obsidemus est munitus et incumbit nobis ordinare de regno",
+      "citation": "1 Maccabees 6:57 (Clementine Vulgate)"
+    },
+    {
+      "verse": 58,
+      "text": "nunc itaque demus dextras hominibus istis et faciamus cum illis pacem et cum omni gente eorum",
+      "citation": "1 Maccabees 6:58 (Clementine Vulgate)"
+    },
+    {
+      "verse": 59,
+      "text": "et constituamus illis ut ambulent in legitimis suis sicut prius propter legitima enim ipsorum quae despeximus irati sunt et fecerunt omnia haec",
+      "citation": "1 Maccabees 6:59 (Clementine Vulgate)"
+    },
+    {
+      "verse": 60,
+      "text": "et placuit sermo in conspectu regis et principum et misit ad eos pacem facere et receperunt illam",
+      "citation": "1 Maccabees 6:60 (Clementine Vulgate)"
+    },
+    {
+      "verse": 61,
+      "text": "et iuravit illis rex et principes et exierunt de munitione",
+      "citation": "1 Maccabees 6:61 (Clementine Vulgate)"
+    },
+    {
+      "verse": 62,
+      "text": "et intravit rex montem Sion et vidit munitionem loci et rupit ius iuramenti quod iuravit et mandavit destruere murum in gyro",
+      "citation": "1 Maccabees 6:62 (Clementine Vulgate)"
+    },
+    {
+      "verse": 63,
+      "text": "et discessit festinanter et reversus est Antiochiam et invenit Philippum dominantem civitati et pugnavit adversus eum et occupavit civitatem",
+      "citation": "1 Maccabees 6:63 (Clementine Vulgate)"
+    }
+  ]
+}

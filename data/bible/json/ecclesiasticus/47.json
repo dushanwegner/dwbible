@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 47 — 31 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 47,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/46.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/48.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/47.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/47.json"
+    }
+  },
+  "citation": "Ecclesiasticus 47 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Then Nathan the prophet arose in the days of David.",
+      "citation": "Ecclesiasticus 47:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And as the fat taken away from the flesh, so was David chosen from among the children of Israel.",
+      "citation": "Ecclesiasticus 47:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He played with lions as with lambs: and with bears he did in like manner as with the lambs of the flock, in his youth.",
+      "citation": "Ecclesiasticus 47:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Did not he kill the giant, and take away reproach from his people?",
+      "citation": "Ecclesiasticus 47:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "In lifting up his hand, with the stone in the sling he beat down the boasting of Goliath:",
+      "citation": "Ecclesiasticus 47:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For he called upon the Lord the Almighty, and he gave strength in his right hand, to take away the mighty warrior, and to set up the horn of his nation.",
+      "citation": "Ecclesiasticus 47:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "So in ten thousand did he glorify him, and praised him in the blessings of the Lord, in offering to him a crown of glory:",
+      "citation": "Ecclesiasticus 47:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For he destroyed the enemies on every side, and extirpated the Philistines the adversaries unto this day: he broke their horn for ever.",
+      "citation": "Ecclesiasticus 47:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "In all his works he gave thanks to the holy one, and to the most High, with words of glory.",
+      "citation": "Ecclesiasticus 47:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "With his whole heart he praised the Lord, and loved God that made him: and he gave him power against his enemies:",
+      "citation": "Ecclesiasticus 47:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And he set singers before the altar, and by their voices he made sweet melody.",
+      "citation": "Ecclesiasticus 47:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And to the festivals he added beauty, and set in order the solemn times even to the end of his life, that they should praise the holy name of the Lord, and magnify the holiness of God in the morning.",
+      "citation": "Ecclesiasticus 47:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The Lord took away his sins, and exalted his horn for ever: and he gave him a covenant of the kingdom, and a throne of glory in Israel.",
+      "citation": "Ecclesiasticus 47:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "After him arose up a wise son, and for his sake he cast down all the power of the enemies.",
+      "citation": "Ecclesiasticus 47:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Solomon reigned in days of peace, and God brought all his enemies under him, that he might build a house in his name, and prepare a sanctuary for ever: O how wise wast thou in thy youth!",
+      "citation": "Ecclesiasticus 47:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And thou wast filled as a river with wisdom, and thy soul covered the earth.",
+      "citation": "Ecclesiasticus 47:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And thou didst multiply riddles in parables: thy name went abroad to the islands far off, and thou wast beloved in thy peace.",
+      "citation": "Ecclesiasticus 47:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The countries wondered at thee for thy canticles, and proverbs, and parables, and interpretations,",
+      "citation": "Ecclesiasticus 47:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And at the name of the Lord God, whose surname is, God of Israel.",
+      "citation": "Ecclesiasticus 47:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Thou didst gather gold as copper, and didst multiply silver as lead,",
+      "citation": "Ecclesiasticus 47:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And thou didst bow thyself to women: and by thy body thou wast brought under subjection.",
+      "citation": "Ecclesiasticus 47:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Thou hast stained thy glory, and defiled thy seed so as to bring wrath upon thy children, and to have thy folly kindled,",
+      "citation": "Ecclesiasticus 47:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "That thou shouldst make the kingdom to be divided, and out of Ephraim a rebellious kingdom to rule.",
+      "citation": "Ecclesiasticus 47:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "But God will not leave off his mercy, and he will not destroy, nor abolish his own works, neither will he cut up by the roots the offspring of his elect: and he will not utterly take away the seed of him that loveth the Lord.",
+      "citation": "Ecclesiasticus 47:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Wherefore he gave a remnant to Jacob, and to David of the same stock.",
+      "citation": "Ecclesiasticus 47:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And Solomon had an end with his fathers.",
+      "citation": "Ecclesiasticus 47:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And he left behind him of his seed, the folly of the nation,",
+      "citation": "Ecclesiasticus 47:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Even Roboam that had little wisdom, who turned away the people through his counsel:",
+      "citation": "Ecclesiasticus 47:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And Jeroboam the son of Nabat, who caused Israel to sin, and shewed Ephraim the way of sin, and their sins were multiplied exceedingly.",
+      "citation": "Ecclesiasticus 47:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "They removed them far away from their land.",
+      "citation": "Ecclesiasticus 47:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And they sought out all iniquities, till vengeance came upon them, and put an end to all their sins.",
+      "citation": "Ecclesiasticus 47:31 (Douay-Rheims)"
+    }
+  ]
+}

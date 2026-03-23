@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Obadja, Chapter 1 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Obadja",
+      "slug": "abdias",
+      "testament": "OT",
+      "order": 36,
+      "totalChapters": 1
+    },
+    "chapter": 1,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/abdias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/abdias/1.json",
+      "latin": "https://latinprayer.org/latin/abdias/1.json"
+    }
+  },
+  "citation": "Obadja 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "(Dies ist) die Weissagung Obadjas. So hat Gott der HERR in bezug auf Edom gesprochen: Eine Kunde haben wir vom HERRN vernommen, und eine Botschaft ist an die Völker gesandt worden: »Auf! Wir wollen uns gegen ihn erheben zum Kriege!«",
+      "citation": "Obadja 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Wisse wohl: klein mache ich dich unter den Völkern; ganz verachtet sollst du sein!",
+      "citation": "Obadja 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dein hochfahrender Sinn hat dich betört, der du in Felsklüften auf hohem Sitze wohnst und in deinem Herzen denkst: ›Wer könnte mich zur Erde hinabstürzen?‹",
+      "citation": "Obadja 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wenn du auch hoch horstetest wie der Adler und dein Nest zwischen den Sternen gebaut wäre, würde ich dich doch von dort herabholen!« – so lautet der Ausspruch des HERRN.",
+      "citation": "Obadja 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Wenn Diebe bei dir eingebrochen wären oder nächtliche Räuber – ach, wie bist du zugrunde gerichtet! –, so würden sie doch nur soviel gestohlen haben, als sie bedurften; und wenn Weingärtner in deinen Weinberg eingebrochen wären, würden sie nicht eine Nachlese übriggelassen haben?",
+      "citation": "Obadja 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Nun aber – wie ist Esau durchstöbert, wie sind seine verborgensten Schätze aufgewühlt worden!",
+      "citation": "Obadja 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Bis an die Landesgrenze haben dich alle deine Verbündeten getrieben; betrogen und vergewaltigt haben dich deine guten Freunde; die dein Brot aßen, legen dir Fallstricke.",
+      "citation": "Obadja 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "»Fürwahr, an jenem Tage« – so lautet der Ausspruch des HERRN – »werde ich die Weisen aus Edom verschwinden lassen und die Einsicht vom Berglande Esaus;",
+      "citation": "Obadja 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "und deine tapferen Krieger, Theman, sollen verzagen, auf daß auch der letzte Mann aus dem Berglande Esaus ausgerottet wird!«",
+      "citation": "Obadja 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Wegen des an deinem Bruder Jakob verübten Frevels lastet Schande auf dir, und du wirst auf ewig vernichtet.",
+      "citation": "Obadja 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Damals, als du dabeistandest, als Ausländer sein Hab und Gut wegschleppten und Fremde in seine Tore einzogen und das Los über Jerusalem warfen, da bist auch du wie einer von ihnen gewesen.",
+      "citation": "Obadja 1:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Und doch hättest du deine Lust nicht sehen sollen am Tage deines Bruders, am Tage seines Mißgeschicks, und hättest keine Schadenfreude über die Kinder Juda am Tage ihres Untergangs empfinden und deinen Mund nicht weit aufreißen dürfen am Tage ihrer Not!",
+      "citation": "Obadja 1:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Du hättest nicht in das Tor meines Volkes einziehen sollen am Tage seines Unglücks und auch nicht deine Lust sehen am Tage seines Unglücks, noch deine Hand nach seinem Hab und Gut ausstrecken dürfen am Tage seines Unglücks!",
+      "citation": "Obadja 1:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Auch hättest du dich nicht an den Talspalten aufstellen sollen, um seine Flüchtlinge niederzumachen, und hättest seine Entronnenen nicht ausliefern dürfen am Tage der Drangsal!",
+      "citation": "Obadja 1:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "b Wie du getan hast, wird dir wieder getan; was du verübt hast, fällt auf dein eigenes Haupt zurück! a Denn nahe ist der Tag des HERRN über alle Völker.",
+      "citation": "Obadja 1:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "»Denn wie ihr (Judäer) auf meinem heiligen Berge (den Zornesbecher) habt trinken müssen, so sollen alle Völker fort und fort (ihn) trinken; ja, sie sollen trinken und taumeln und sollen werden, als wären sie nie gewesen!",
+      "citation": "Obadja 1:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Aber auf dem Berge Zion wird eine Rettung sein, und er wird als heiliges Gebiet gelten, und die vom Hause Jakob werden ihren Besitz wieder einnehmen.«",
+      "citation": "Obadja 1:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Und das Haus Jakob wird ein Feuer sein und das Haus Joseph eine Flamme; aber das Haus Esau wird zu einem Strohbündel werden, das von jenen angezündet und verzehrt wird, so daß vom Hause Esau nichts übrigbleibt; denn der HERR hat es ausgesprochen.",
+      "citation": "Obadja 1:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Und die im Südland Wohnenden werden das Bergland Esaus in Besitz nehmen und die in der Niederung Wohnenden das Philisterland; auch das Gefilde Ephraims und das Gefilde Samarias werden sie einnehmen, und Benjamin wird Gilead besetzen;",
+      "citation": "Obadja 1:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "und die in die Gefangenschaft Geführten, diese Heerschar der Kinder Israel, werden Phönizien bis Sarepta hin erobern; und die aus Jerusalem in die Gefangenschaft Geführten, die sich in Sepharad befinden, werden die Städte des Südlandes in Besitz nehmen.",
+      "citation": "Obadja 1:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Dann werden sie als Befreier auf den Berg Zion hinaufziehen, um Richter im Berglande Esaus zu sein; das Königtum aber wird dem HERRN gehören.",
+      "citation": "Obadja 1:21 (Menge)"
+    }
+  ]
+}

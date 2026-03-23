@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Micha, Chapter 3 — 12 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Micha",
+      "slug": "micheas",
+      "testament": "OT",
+      "order": 38,
+      "totalChapters": 7
+    },
+    "chapter": 3,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/micheas/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/micheas/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/micheas/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/micheas/3.json",
+      "latin": "https://latinprayer.org/latin/micheas/3.json"
+    }
+  },
+  "citation": "Micha 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da sagte ich: »Höret doch, ihr Häupter Jakobs und ihr Obersten des Hauses Israel! Kommt es euch nicht zu, das Recht zu kennen?",
+      "citation": "Micha 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Und doch haßt ihr das Gute und liebt das Böse; ihr reißt den Leuten die Haut vom Leibe und das Fleisch von den Knochen;",
+      "citation": "Micha 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "ihr haßt das Fleisch meines Volkes, zieht ihnen die Haut vom Leibe ab und zerschlagt ihnen die Knochen, ihr zerlegt sie wie (einen Braten) im Kochtopf und wie Fleischstücke im Kessel.«",
+      "citation": "Micha 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Dereinst werden sie zum HERRN schreien, doch er wird sie nicht erhören, sondern sein Angesicht zu jener Zeit vor ihnen verbergen, wie sie es mit ihrem bösen Tun verdient haben.",
+      "citation": "Micha 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "So hat der HERR gegen die Propheten gesprochen, die mein Volk irreführen, die, solange ihre Zähne etwas zu beißen haben, Frieden verkünden, aber dem, der ihnen nichts in den Mund steckt, den Krieg erklären.",
+      "citation": "Micha 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "»Darum soll es Nacht für euch werden, so daß ihr keine Gesichte schaut, und Finsternis für euch eintreten, so daß keine Weissagung stattfindet; da soll die Sonne für die Propheten untergehen und der Tag über ihnen zu finsterer Nacht werden;",
+      "citation": "Micha 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "dann werden die Seher beschämt dastehen und die Wahrsager erröten müssen; und sie werden sich alle den Bart verhüllen, weil keine Antwort von Gott mehr erfolgt.«",
+      "citation": "Micha 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Ich dagegen bin mit Kraft erfüllt, mit dem Geist des HERRN und mit Rechtsgefühl und Mut, um Jakob seine Treulosigkeit vorzuhalten und Israel seine Sünde.",
+      "citation": "Micha 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Höret doch dieses, ihr Häupter des Hauses Jakob und ihr Obersten des Hauses Israel, die ihr das Recht verabscheut und alles Gerade krumm macht,",
+      "citation": "Micha 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "die ihr Zion mit Blutvergießen aufbaut und Jerusalem mit Unrecht!",
+      "citation": "Micha 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Seine Häupter sprechen Recht für Geschenke, seine Priester erteilen Rechtsbescheide für Bezahlung, und seine Propheten wahrsagen für Geld; und dabei verlassen sie sich auf den HERRN, daß sie sagen: »Ist nicht der HERR in unserer Mitte? Uns kann kein Unglück widerfahren!«",
+      "citation": "Micha 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Darum wird um euretwillen Zion zu Ackerland umgepflügt und Jerusalem zu einer Trümmerstätte werden und der Tempelberg zu einer bewaldeten Höhe!",
+      "citation": "Micha 3:12 (Menge)"
+    }
+  ]
+}

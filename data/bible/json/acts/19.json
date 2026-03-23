@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Acts, Chapter 19 — 40 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 51,
+      "totalChapters": 28
+    },
+    "chapter": 19,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/acts/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/acts/18.json",
+      "nextChapter": "https://latinprayer.org/bible/acts/20.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/acts/19.json",
+      "german": "https://latinprayer.org/bibel/acts/19.json"
+    }
+  },
+  "citation": "Acts 19 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And it came to pass, while Apollo was at Corinth, that Paul, having passed through the upper coasts, came to Ephesus and found certain disciples.",
+      "citation": "Acts 19:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he said to them: Have you received the Holy Ghost since ye believed? But they said to him: We have not so much as heard whether there be a Holy Ghost.",
+      "citation": "Acts 19:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he said: In what then were you baptized? Who said: In John's baptism.",
+      "citation": "Acts 19:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Then Paul said: John baptized the people with the baptism of penance saying: That they should believe in him, who was to come after him, that is to say, in Jesus.",
+      "citation": "Acts 19:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Having heard these things, they were baptized in the name of the Lord Jesus.",
+      "citation": "Acts 19:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And when Paul had imposed his hands on them, the Holy Ghost came upon them: and they spoke with tongues and prophesied.",
+      "citation": "Acts 19:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And all the men were about twelve.",
+      "citation": "Acts 19:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And entering into the synagogue, he spoke boldly for the space of three months, disputing and exhorting concerning the kingdom of God.",
+      "citation": "Acts 19:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But when some were hardened and believed not, speaking evil of the way of the Lord before the multitude, departing from them, he separated the disciples, disputing daily in the school of one Tyrannus.",
+      "citation": "Acts 19:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And this continued for the space of two years, so that all who dwelt in Asia heard the word of the Lord, both Jews and Gentiles.",
+      "citation": "Acts 19:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And God wrought by the hand of Paul more than common miracles.",
+      "citation": "Acts 19:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "So that even there were brought from his body to the sick, handkerchiefs and aprons: and the diseases departed from them: and the wicked spirits went out of them.",
+      "citation": "Acts 19:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Now some also of the Jewish exorcists, who went about, attempted to invoke over them that had evil spirits the name of the Lord Jesus, saying: I conjure you by Jesus, whom Paul preacheth.",
+      "citation": "Acts 19:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And there were certain men, seven sons of Sceva, a Jew, a chief priest, that did this.",
+      "citation": "Acts 19:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "But the wicked spirit, answering, said to them: Jesus I know: and Paul I know. But who are you?",
+      "citation": "Acts 19:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And the man in whom the wicked spirit was, leaping upon them and mastering them both, prevailed against them, so that they fled out of that house naked and wounded.",
+      "citation": "Acts 19:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And this became known to all the Jews and the Gentiles that dwelt a Ephesus. And fear fell on them all: and the name of the Lord Jesus was magnified.",
+      "citation": "Acts 19:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And many of them that believed came, confessing and declaring their deeds.",
+      "citation": "Acts 19:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And many of them who had followed curious arts brought together their books and burnt them before all. And, counting the price of them, they found the money to be fifty thousand pieces of silver.",
+      "citation": "Acts 19:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "So mightily grew the word of God and was confirmed.",
+      "citation": "Acts 19:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And when these things were ended, Paul purposed in the spirit, when he had passed through Macedonia and Achaia, to go to Jerusalem, saying: After I have been there, I must see Rome also.",
+      "citation": "Acts 19:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And sending into Macedonia two of them that ministered to him, Timothy and Erastus, he himself remained for a time in Asia.",
+      "citation": "Acts 19:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Now at that time there arose no small disturbance about the way of the Lord.",
+      "citation": "Acts 19:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "For a certain man named Demetrius, a silversmith, who made silver temples for Diana, brought no small gain to the craftsmen.",
+      "citation": "Acts 19:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Whom he calling together with the workmen of like occupation, said: Sirs, you know that our gain is by this trade.",
+      "citation": "Acts 19:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And you see and hear that this Paul, by persuasion hath drawn away a great multitude, not only of Ephesus, but almost of all Asia, saying: they are not gods which are made by hands.",
+      "citation": "Acts 19:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "So that not only this our craft is in danger to be set at nought, but also the temple of great Diana shall be reputed for nothing! Yea, and her majesty shall begin to be destroyed, whom all Asia and the world worshippeth.",
+      "citation": "Acts 19:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Having heard these things, they were full of anger and cried out, saying: Great is Diana of the Ephesians!",
+      "citation": "Acts 19:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And the whole city was filled with confusion. And having caught Gaius and Aristarchus, men of Macedonia, Paul's companions, they rushed with one accord into the theatre.",
+      "citation": "Acts 19:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And when Paul would have entered in unto the people, the disciples suffered him not.",
+      "citation": "Acts 19:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And some also of the rulers of Asia, who were his friends, sent unto him, desiring that he would not venture himself into the theatre.",
+      "citation": "Acts 19:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "Now some cried one thing, some another. For the assembly was confused: and the greater part knew not for what cause they were come together.",
+      "citation": "Acts 19:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And they drew forth Alexander out of the multitude, the Jews thrusting him forward. And Alexander, beckoning with his hand for silence, would have given the people satisfaction,",
+      "citation": "Acts 19:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "But as soon as they perceived him to be a Jew, all with one voice, for the space of about two, hours, cried out: Great is Diana of the Ephesians!",
+      "citation": "Acts 19:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And when the town clerk had appeased the multitudes, he said: Ye men of Ephesus, what man is there that knoweth not that the city of the Ephesians is a worshipper of the great Diana and of Jupiter's offspring?",
+      "citation": "Acts 19:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "For as much therefore as these things cannot be contradicted, you ought to be quiet and to do nothing rashly.",
+      "citation": "Acts 19:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "For you have brought hither these men, who are neither guilty of sacrilege nor of blasphemy against your goddess.",
+      "citation": "Acts 19:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "But if Demetrius and the craftsmen that are with him have a matter against any man, the courts of justice are open: and there are proconsuls. Let them accuse one another.",
+      "citation": "Acts 19:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And if you inquire after any other matter, it may be decided in a lawful assembly.",
+      "citation": "Acts 19:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "For we are even in danger to be called in question for this day's uproar, there being no man guilty (of whom we may give account) of this concourse. And when he had said these things, he dismissed the assembly.",
+      "citation": "Acts 19:40 (Douay-Rheims)"
+    }
+  ]
+}

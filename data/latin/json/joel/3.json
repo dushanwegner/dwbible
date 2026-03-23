@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joel, Chapter 3 — 5 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joel",
+      "slug": "joel",
+      "testament": "OT",
+      "order": 34,
+      "totalChapters": 9
+    },
+    "chapter": 3,
+    "verseCount": 5,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/joel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/joel/2.json",
+      "nextChapter": "https://latinprayer.org/latin/joel/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/joel/3.json",
+      "german": "https://latinprayer.org/bibel/joel/3.json"
+    }
+  },
+  "citation": "Joel 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et erit post haec effundam spiritum meum super omnem carnem et prophetabunt filii vestri et filiae vestrae senes vestri somnia somniabunt et iuvenes vestri visiones videbunt",
+      "citation": "Joel 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "sed et super servos et ancillas in diebus illis effundam spiritum meum",
+      "citation": "Joel 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dabo prodigia in caelo et in terra sanguinem et ignem et vaporem fumi",
+      "citation": "Joel 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sol vertetur in tenebras et luna in sanguinem antequam veniat dies Domini magnus et horribilis",
+      "citation": "Joel 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et erit omnis qui invocaverit nomen Domini salvus erit quia in monte Sion et in Hierusalem erit salvatio sicut dixit Dominus et in residuis quos Dominus vocaverit",
+      "citation": "Joel 3:5 (Clementine Vulgate)"
+    }
+  ]
+}

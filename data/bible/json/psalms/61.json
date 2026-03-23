@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 61 — 9 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 61,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/60.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/62.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/61.json",
+      "german": "https://latinprayer.org/bibel/psalms/61.json"
+    }
+  },
+  "citation": "Psalms 61 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Hear, O God, my supplication: be attentive to my prayer.",
+      "citation": "Psalms 61:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, for Idithun, a psalm of David.",
+      "citation": "Psalms 61:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "To thee have I cried from the ends of the earth: when my heart was in anguish, thou hast exalted me on a rock. Thou hast conducted me;",
+      "citation": "Psalms 61:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For thou hast been my hope; a tower of strength against the face of the enemy.",
+      "citation": "Psalms 61:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "In thy tabernacle I shall dwell for ever: I shall be protected under the covert of thy wings.",
+      "citation": "Psalms 61:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For thou, my God, hast heard my prayer: thou hast given an inheritance to them that fear thy name.",
+      "citation": "Psalms 61:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Thou wilt add days to the days of the king: his years even to generation and generation.",
+      "citation": "Psalms 61:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "He abideth for ever in the sight of God: his mercy and truth who shall search?",
+      "citation": "Psalms 61:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "So will I sing a psalm to thy name for ever and ever: that I may pay my vows from day to day.",
+      "citation": "Psalms 61:8 (Douay-Rheims)"
+    }
+  ]
+}

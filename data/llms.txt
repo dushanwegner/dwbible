@@ -1,0 +1,71 @@
+# Latin Prayer — Bible, Prayers & Saints for AI
+
+> latinprayer.org provides the Catholic Bible in three languages, traditional
+> Catholic prayers in five parallel languages, and Catholic saints with feast
+> days, patronages, and biographies. All content is public domain, served as
+> self-documenting JSON with no authentication, no rate limiting, and CORS
+> enabled. Optimized for AI agents to discover, read, and quote from.
+
+## Bible API
+
+Three complete Catholic Bible translations (73 books each, including
+deuterocanonical books) in structured JSON:
+
+- [English (Douay-Rheims) Index](https://latinprayer.org/bible/index.json): Public domain
+- [Latin (Clementine Vulgate) Index](https://latinprayer.org/latin/index.json): Public domain
+- [German (Menge) Index](https://latinprayer.org/bibel/index.json): Public domain
+
+### URL Patterns
+- Translation index: /{slug}/index.json
+- Book index: /{slug}/{book}/index.json
+- Chapter (all verses): /{slug}/{book}/{chapter}.json
+
+### Translation Slugs
+- bible = English (Douay-Rheims)
+- latin = Latin (Clementine Vulgate)
+- bibel = German (Menge)
+
+### Book Slugs (canonical keys)
+genesis, exodus, leviticus, numbers, deuteronomy, josue, judges, ruth,
+1-kings-samuel, 2-kings-samuel, 3-kings, 4-kings, 1-paralipomenon,
+2-paralipomenon, 1-esdras, 2-esdras-nehemias, tobias, judith, esther,
+job, psalms, proverbs, ecclesiastes, canticle-of-canticles, wisdom,
+ecclesiasticus, isaias, jeremias, lamentations, baruch, ezechiel, daniel,
+osee, joel, amos, abdias, jonas, micheas, nahum, habacuc, sophonias,
+aggeus, zacharias, malachias, 1-machabees, 2-machabees,
+matthew, mark, luke, john, acts, romans, 1-corinthians, 2-corinthians,
+galatians, ephesians, philippians, colossians, 1-thessalonians,
+2-thessalonians, 1-timothy, 2-timothy, titus, philemon, hebrews,
+james, 1-peter, 2-peter, 1-john, 2-john, 3-john, jude, apocalypse
+
+### Examples
+- Genesis 1 in English: https://latinprayer.org/bible/genesis/1.json
+- Psalm 23 in Latin: https://latinprayer.org/latin/psalms/23.json
+- Matthew 5 in German: https://latinprayer.org/bibel/matthew/5.json
+
+### JSON Structure
+Every file contains a _meta object with: project name, translation details,
+book info, chapter/verse counts, navigation links (prev/next chapter, book
+index, translation index), and cross-references to the same passage in the
+other two translations. Each verse includes a citation field formatted for
+proper attribution (e.g., "Genesis 1:1 (Douay-Rheims)").
+
+## Prayers API
+
+Catholic prayers in 5 parallel languages (Latin, English, German, Spanish, French):
+- [Prayer Index](https://latinprayer.org/prayers/index.json): All available prayers
+- Individual prayer: https://latinprayer.org/prayers/{slug}.json
+
+### Example
+- Our Father: https://latinprayer.org/prayers/pater-noster.json
+
+## Technical Details
+- Format: JSON with self-documenting _meta objects
+- CORS: Access-Control-Allow-Origin: *
+- Cache: public, max-age=86400
+- No authentication required
+- No rate limiting
+- All content is public domain
+
+## Website
+https://latinprayer.org

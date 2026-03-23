@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 150 — 6 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 150,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/149.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/150.json",
+      "latin": "https://latinprayer.org/latin/psalms/150.json"
+    }
+  },
+  "citation": "Psalmen 150 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Halleluja! Lobt Gott in seinem (himmlischen) Heiligtum, lobt ihn in seiner starken Feste!",
+      "citation": "Psalmen 150:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Lobt ihn ob seinen Wundertaten, lobt ihn nach seiner gewaltigen Größe!",
+      "citation": "Psalmen 150:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Lobt ihn mit Posaunenschall, lobt ihn mit Harfe und Zither!",
+      "citation": "Psalmen 150:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Lobt ihn mit Pauke und Reigentanz, lobt ihn mit Saitenspiel und Flöte!",
+      "citation": "Psalmen 150:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Lobt ihn mit hellklingenden Zimbeln, lobt ihn mit lautschallenden Zimbeln!",
+      "citation": "Psalmen 150:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Alles, was Odem hat, lobe den HERRN! Halleluja!",
+      "citation": "Psalmen 150:6 (Menge)"
+    }
+  ]
+}

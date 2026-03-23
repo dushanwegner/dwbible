@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 14 — 31 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 14,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/exodus/13.json",
+      "nextChapter": "https://latinprayer.org/bibel/exodus/15.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/14.json",
+      "latin": "https://latinprayer.org/latin/exodus/14.json"
+    }
+  },
+  "citation": "Exodus 14 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da gebot der HERR dem Mose folgendes:",
+      "citation": "Exodus 14:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Befiehl den Israeliten umzukehren und östlich von Pi-Hahiroth zwischen Migdol und dem Meer zu lagern! Gerade gegenüber von Baal-Zephon sollt ihr am Meer lagern!",
+      "citation": "Exodus 14:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dann wird der Pharao von den Israeliten denken: ›Ratlos irren sie im Lande umher, die Wüste hält sie umschlossen!‹",
+      "citation": "Exodus 14:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Dann will ich das Herz des Pharaos verhärten, daß er sie verfolgt, damit ich mich am Pharao und an seiner ganzen Heeresmacht verherrliche und damit die Ägypter erkennen, daß ich der HERR bin.« Und sie taten so.",
+      "citation": "Exodus 14:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Als nun dem König von Ägypten gemeldet wurde, daß das Volk entwichen sei, trat bei ihm und seinen Dienern eine Sinnesänderung dem Volk gegenüber ein, und sie sagten: »Was haben wir da getan, daß wir die Israeliten aus unserm Dienst entlassen haben!«",
+      "citation": "Exodus 14:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "So ließ er denn seinen Streitwagen anschirren und nahm sein Kriegsvolk mit sich;",
+      "citation": "Exodus 14:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "sechshundert auserlesene Kriegswagen nahm er mit und was sonst an Kriegswagen in Ägypten vorhanden war und die besten Kämpfer auf einem jeden von ihnen.",
+      "citation": "Exodus 14:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Denn der HERR hatte das Herz des Pharaos, des Königs von Ägypten, verhärtet, so daß er die Israeliten verfolgte, obgleich diese mit hocherhobener Hand ausgezogen waren.",
+      "citation": "Exodus 14:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "So setzten denn die Ägypter ihnen nach und holten sie ein, als sie sich eben am Meer gelagert hatten, alle Rosse und Wagen des Pharaos, seine Reiter und überhaupt seine Heeresmacht, bei Pi-Hahiroth, Baal-Zephon gegenüber.",
+      "citation": "Exodus 14:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Als nun der Pharao nahe herangekommen war und die Israeliten hinschauten und die Ägypter erblickten, die hinter ihnen herzogen, da gerieten die Israeliten in große Angst und schrien zum HERRN",
+      "citation": "Exodus 14:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "und sagten zu Mose: »Hast du uns etwa deshalb, weil es in Ägypten keine Gräber gab, mitgenommen, damit wir in der Wüste sterben? Was hast du uns da angetan, daß du uns aus Ägypten weggeführt hast!",
+      "citation": "Exodus 14:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Haben wir dir nicht schon in Ägypten aufs bestimmteste erklärt: ›Laß uns in Ruhe: wir wollen den Ägyptern dienen!‹; denn besser wäre es für uns, den Ägyptern zu dienen, als hier in der Wüste zu sterben!«",
+      "citation": "Exodus 14:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Da entgegnete Mose dem Volk: »Fürchtet euch nicht! Haltet nur stand, so werdet ihr sehen, welche Rettung euch der HERR heute noch schaffen wird! Denn so, wie ihr die Ägypter heute seht, werdet ihr sie in alle Ewigkeit nicht wieder sehen.",
+      "citation": "Exodus 14:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Der HERR wird für euch streiten, verhaltet ihr euch nur ruhig!«",
+      "citation": "Exodus 14:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Da sagte der HERR zu Mose: »Was schreist du zu mir? Befiehl den Israeliten aufzubrechen.",
+      "citation": "Exodus 14:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Du aber hebe deinen Stab empor, strecke deine Hand über das Meer aus und spalte es, damit die Israeliten mitten durch das Meer hindurch auf trockenem Boden ziehen können.",
+      "citation": "Exodus 14:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Ich aber will dann das Herz der Ägypter verhärten, daß sie hinter ihnen herziehen, und will mich am Pharao und an seiner ganzen Heeresmacht, an seinen Wagen und Reitern, verherrlichen;",
+      "citation": "Exodus 14:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "und die Ägypter sollen erkennen, daß ich der HERR bin, wenn ich mich am Pharao, an seinen Wagen und Reitern verherrlicht habe.«",
+      "citation": "Exodus 14:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Da änderte der Engel Gottes, der (bisher) vor dem Heer der Israeliten hergezogen war, seine Stellung und trat hinter sie; infolgedessen ging auch die Wolkensäule vorn vor ihnen weg und trat hinter sie,",
+      "citation": "Exodus 14:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "so daß sie zwischen das Heer der Ägypter und das Heer der Israeliten zu stehen kam; und sie zeigte sich dort als Wolke und Finsternis, während sie hier die Nacht erleuchtete; so gerieten beide Heere die ganze Nacht hindurch nicht feindlich aneinander.",
+      "citation": "Exodus 14:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Als dann Mose seine Hand über das Meer ausstreckte, drängte der HERR das Meer durch einen starken Ostwind die ganze Nacht hindurch zurück und legte den Meeresboden trocken, und die Wasser spalteten sich.",
+      "citation": "Exodus 14:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "So gingen denn die Israeliten trocknen Fußes mitten durch das Meer, während die Wasser ihnen wie eine Wand zur Rechten und zur Linken standen.",
+      "citation": "Exodus 14:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Die Ägypter aber eilten ihnen nach und zogen hinter ihnen her, alle Rosse des Pharaos, seine Wagen und seine Reiter, mitten ins Meer hinein.",
+      "citation": "Exodus 14:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Zur Zeit der Morgenwache aber schaute der HERR in der Feuer- und Wolkensäule hin auf das Heer der Ägypter und brachte ihren Zug in Verwirrung;",
+      "citation": "Exodus 14:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "er ließ die Räder ihrer Wagen abspringen und machte, daß sie nur mühsam vorwärts kamen. Da riefen die Ägypter: »Laßt uns vor den Israeliten fliehen, denn der HERR streitet für sie gegen die Ägypter!«",
+      "citation": "Exodus 14:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Da gebot der HERR dem Mose: »Strecke deine Hand über das Meer aus: damit die Wasser auf die Ägypter, auf ihre Wagen und ihre Reiter, zurückströmen!«",
+      "citation": "Exodus 14:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "So streckte denn Mose seine Hand über das Meer aus, da kehrte das Meer bei Tagesanbruch in sein altes Bett zurück, während die Ägypter ihm gerade entgegen flohen; und der HERR stürzte die Ägypter mitten ins Meer hinein.",
+      "citation": "Exodus 14:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Denn als die Wasser zurückgeströmt waren, bedeckten sie die Wagen und die Reiter der ganzen Heeresmacht des Pharaos, die hinter ihnen her ins Meer gezogen waren, so daß auch nicht einer von ihnen am Leben blieb.",
+      "citation": "Exodus 14:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Die Israeliten aber waren trocknen Fußes mitten durch das Meer gezogen, während die Wasser ihnen wie eine Wand zur Rechten und zur Linken standen.",
+      "citation": "Exodus 14:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "So rettete der HERR die Israeliten an diesem Tage aus der Hand der Ägypter, und Israel sah die Ägypter tot am Meeresufer liegen.",
+      "citation": "Exodus 14:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Als die Israeliten aber die große Wundertat sahen, die der HERR an den Ägyptern vollbracht hatte, da fürchtete das Volk den HERRN, und sie glaubten an den HERRN und an seinen Knecht Mose.",
+      "citation": "Exodus 14:31 (Menge)"
+    }
+  ]
+}

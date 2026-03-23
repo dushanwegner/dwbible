@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 1 — 31 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 1,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bibel/isaias/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/1.json",
+      "latin": "https://latinprayer.org/latin/isaias/1.json"
+    }
+  },
+  "citation": "Jesaja 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "(Dies ist) die Offenbarung, die Jesaja, der Sohn des Amoz, über Juda und (besonders) Jerusalem geschaut hat in den Tagen der judäischen Könige Ussia, Jotham, Ahas und Hiskia.",
+      "citation": "Jesaja 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Höret, ihr Himmel, und horche auf, o Erde! Denn der HERR redet: »Söhne habe ich großgezogen und zu Ehren gebracht, doch sie sind mir untreu geworden!",
+      "citation": "Jesaja 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ein Rind kennt seinen Besitzer und ein Esel die Krippe seines Herrn; aber Israel hat keine Erkenntnis, mein Volk ist ohne Einsicht!«",
+      "citation": "Jesaja 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wehe dem sündigen Geschlecht, dem schuldbeladenen Volk, der Brut von Missetätern, den entarteten Söhnen! Den HERRN haben sie verlassen, den Heiligen Israels verworfen, sich zur Abkehr von ihm gewandt!",
+      "citation": "Jesaja 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Auf welche Stelle soll man euch noch schlagen, da ihr ja doch im Abfall verharret? Das ganze Haupt ist krank und das ganze Herz siech;",
+      "citation": "Jesaja 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "von der Fußsohle bis zum Scheitel ist nichts Unversehrtes mehr an ihm: nur Wunden und Striemen und frische Schläge, die nicht ausgedrückt und nicht verbunden, noch mit Öl erweicht sind.",
+      "citation": "Jesaja 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Euer Land ist zu einer Wüste geworden: eure Städte sind mit Feuer verbrannt, euer Ackerland – Fremde verzehren seinen Ertrag vor euren Augen; ja, eine Wüstenei ist (alles), wie einst bei der Zerstörung Sodoms;",
+      "citation": "Jesaja 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "und übriggeblieben ist die Tochter Zion wie eine Hütte im Weinberg, wie ein Wächterhäuschen im Gurkenfeld, wie ein eingeschlossener Wachtturm.",
+      "citation": "Jesaja 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Hätte der HERR der Heerscharen von uns nicht eben noch einen Rest übriggelassen: schier wie Sodom wären wir geworden und hätten gleiches Schicksal mit Gomorrha gehabt!",
+      "citation": "Jesaja 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Höret das Wort des HERRN, ihr Sodomsfürsten! Merk auf die Weisung unsres Gottes, du Gomorrhavolk!",
+      "citation": "Jesaja 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "»Wozu soll mir die Menge eurer Schlachtopfer dienen?« fragt der HERR; »überdrüssig bin ich der Brandopfer von Widdern und des Fettes der Mastkälber, und am Blut von Jungstieren, Lämmern und Böcken habe ich kein Wohlgefallen.",
+      "citation": "Jesaja 1:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wenn ihr kommt, um vor meinem Angesicht euch sehen zu lassen – wer hat das von euch verlangt, meine Vorhöfe zu zertreten?",
+      "citation": "Jesaja 1:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Bringt mir keine heuchlerischen Speisopfer mehr dar: greuelhafter Opferrauch sind sie mir! Neumonde und Sabbate, die Berufung von Festversammlungen: ich kann Gottlosigkeit im Verein mit Festgepränge nicht ertragen!",
+      "citation": "Jesaja 1:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Eure Neumonde und Festzeiten sind meinem Herzen verhaßt, sie sind mir zur Last geworden, und bin’s müde, sie zu ertragen!",
+      "citation": "Jesaja 1:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Und wenn ihr eure Hände ausbreitet (beim Gebet), verhülle ich meine Augen vor euch; auch wenn ihr noch soviel betet, höre ich doch nicht darauf: eure Hände sind ja voll Blutschuld.",
+      "citation": "Jesaja 1:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Wascht euch, reinigt euch, schafft eure bösen Taten mir aus den Augen! Hört auf, Böses zu tun,",
+      "citation": "Jesaja 1:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "lernt Gutes tun, kümmert euch um die Rechtspflege, tretet den Gewalttätigen entgegen, schafft den Waisen Recht und führt die Sache der Witwen!«",
+      "citation": "Jesaja 1:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "»So kommt denn her, wir wollen miteinander rechten!« spricht der HERR. »Wenn eure Sünden auch rot wie Scharlach sind, sollen sie doch weiß werden wie Schnee; und sind sie auch rot wie Purpur, sollen sie doch weiß wie Wolle werden.",
+      "citation": "Jesaja 1:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Wenn ihr willig und gehorsam seid, sollt ihr die köstlichen Gaben des Landes genießen;",
+      "citation": "Jesaja 1:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "doch wenn ihr euch weigert und widerspenstig seid, sollt ihr vom Schwert gefressen werden; denn der Mund des HERRN hat gesprochen!«",
+      "citation": "Jesaja 1:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Ach wie ist doch die (einstmals) treue Stadt zur Ehebrecherin geworden, Zion, das (vordem) voll von Rechtspflege war! Die Gerechtigkeit hatte eine Wohnstätte in ihr, jetzt aber Mörder!",
+      "citation": "Jesaja 1:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Dein Silber ist zu Schlacken geworden, dein edler Wein mit Wasser verschnitten.",
+      "citation": "Jesaja 1:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Deine Oberen sind Aufrührer geworden und Diebsgesellen; sie sind alle in Geschenke verliebt und laufen hinter Bestechung her; den Waisen schaffen sie nicht Recht, und die Sache der Witwen gelangt nicht vor sie.",
+      "citation": "Jesaja 1:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Darum lautet der Ausspruch des Höchsten, der HERRN der Heerscharen, des starken Helden Israels: »Ha! Ich will meinen Zorn an meinen Widersachern kühlen und Rache an meinen Feinden nehmen!",
+      "citation": "Jesaja 1:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Ich will meine Hand gegen dich kehren und deine Schlacken wie mit Laugensalz ausschmelzen und all dein unedles Metall ausscheiden,",
+      "citation": "Jesaja 1:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "und will dir wieder Richter schaffen wie in der Vorzeit und Ratgeber wie zu Anfang: danach wird man dich nennen ›die Burg der Gerechtigkeit, die treue Stadt‹.«",
+      "citation": "Jesaja 1:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Zion wird durch Gericht erlöst werden, aber die sich in ihm Bekehrenden durch Gerechtigkeit.",
+      "citation": "Jesaja 1:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Und zwar wird Vernichtung die Abtrünnigen und Sünder allesamt treffen, und die vom HERRN Abgefallenen werden umkommen!",
+      "citation": "Jesaja 1:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Ja, ihr sollt zuschanden werden wegen der Terebinthen, die eure Lust sind, und vor Scham erröten wegen der Gärten, die ihr so gern habt!",
+      "citation": "Jesaja 1:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Denn ihr sollt werden wie eine Terebinthe, deren Laub verwelkt, und einem Garten gleichen, der kein Wasser hat!",
+      "citation": "Jesaja 1:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Und sogar der Mächtige soll zu (dürrem) Werg werden und sein Werk zum (zündenden) Funken, und sie sollen beide zusammen verbrennen, ohne daß jemand löschen kann!",
+      "citation": "Jesaja 1:31 (Menge)"
+    }
+  ]
+}

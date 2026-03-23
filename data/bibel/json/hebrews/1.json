@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebräer, Chapter 1 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebräer",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 1,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bibel/hebrews/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/hebrews/1.json",
+      "latin": "https://latinprayer.org/latin/hebrews/1.json"
+    }
+  },
+  "citation": "Hebräer 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Nachdem Gott vorzeiten vielfältig und auf vielerlei Weise zu den Vätern geredet hat in den Propheten,",
+      "citation": "Hebräer 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "hat er am Ende dieser Tage zu uns geredet im Sohn, den er zum Erben von allem eingesetzt, durch den er auch die Weltzeiten geschaffen hat.",
+      "citation": "Hebräer 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dieser ist der Abglanz seiner Herrlichkeit und die Ausprägung seines Wesens und trägt das Weltall durch sein Allmachtswort; er hat sich, nachdem er die Reinigung von den Sünden vollbracht hat, zur Rechten der Erhabenheit in den Himmelshöhen gesetzt",
+      "citation": "Hebräer 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "und ist dadurch um so viel größer geworden als die Engel, wie der Name, den er als Erbteil erhalten hat, den ihrigen überragt.",
+      "citation": "Hebräer 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn zu welchem von den Engeln hätte Gott jemals gesagt: »Mein Sohn bist du: ich habe dich heute gezeugt«? Und ein andermal: »Ich will ihm Vater sein, und er soll für mich Sohn sein?«",
+      "citation": "Hebräer 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Weiter sagt er von der Zeit, in welcher er den Erstgeborenen wiederum in die Menschenwelt einführen wird: »Alle Engel Gottes sollen vor ihm huldigend sich neigen.«",
+      "citation": "Hebräer 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Und in bezug auf die Engel heißt es zwar: »Er macht seine Engel zu Winden und seine Diener zur Feuerflamme«,",
+      "citation": "Hebräer 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "aber in bezug auf den Sohn: »Dein Thron, o Gott, steht fest in alle Ewigkeit, und der Stab der Geradheit ist der Stab deiner Königsherrschaft.",
+      "citation": "Hebräer 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Du hast Gerechtigkeit geliebt und Gesetzwidrigkeit gehaßt; darum hat dich, o Gott, dein Gott mit Freudenöl gesalbt vor deinen Genossen.«",
+      "citation": "Hebräer 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Und ferner: »Du hast im Anfang, Herr, die Erde gegründet, und die Himmel sind deiner Hände Werk;",
+      "citation": "Hebräer 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "sie werden vergehen, du aber bleibst, und sie werden alle veralten wie ein Gewand;",
+      "citation": "Hebräer 1:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "wie einen Mantel wirst du sie zusammenrollen, und sie werden verwandelt werden; du aber bleibst derselbe, und deine Jahre werden kein Ende nehmen.«",
+      "citation": "Hebräer 1:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Zu welchem Engel hätte er ferner jemals gesagt: »Setze dich zu meiner Rechten, bis ich deine Feinde hinlege zum Schemel deiner Füße«?",
+      "citation": "Hebräer 1:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Sind sie nicht allesamt (nur) dienstbare Geister, die zu Dienstleistungen ausgesandt werden um derer willen, welche die Rettung ererben sollen?",
+      "citation": "Hebräer 1:14 (Menge)"
+    }
+  ]
+}

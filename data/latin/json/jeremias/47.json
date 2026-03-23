@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 47 — 7 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 47,
+    "verseCount": 7,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/46.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/48.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/47.json",
+      "german": "https://latinprayer.org/bibel/jeremias/47.json"
+    }
+  },
+  "citation": "Jeremiah 47 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quod factum est verbum Domini ad Hieremiam prophetam contra Palestinos antequam percuteret Pharao Gazam",
+      "citation": "Jeremiah 47:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "haec dicit Dominus ecce aquae ascendunt ab aquilone et erunt quasi torrens inundans et operient terram et plenitudinem eius urbem et habitatores eius clamabunt homines et ululabit omnis habitator terrae",
+      "citation": "Jeremiah 47:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ab strepitu pompae armorum et bellatorum eius a commotione quadrigarum eius et multitudine rotarum illius non respexerunt patres filios manibus dissolutis",
+      "citation": "Jeremiah 47:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "pro adventu diei in quo vastabuntur omnes Philisthim et dissipabitur Tyrus et Sidon cum omnibus reliquis auxiliis suis depopulatus est enim Dominus Palestinos reliquias insulae Cappadociae",
+      "citation": "Jeremiah 47:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "venit calvitium super Gazam conticuit Ascalon et reliquiae vallis earum usquequo concideris",
+      "citation": "Jeremiah 47:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "o mucro Domini usquequo non quiescis ingredere in vaginam tuam refrigerare et sile",
+      "citation": "Jeremiah 47:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quomodo quiescet cum Dominus praeceperit ei adversus Ascalonem et adversus maritimas eius regiones ibique condixerit illi",
+      "citation": "Jeremiah 47:7 (Clementine Vulgate)"
+    }
+  ]
+}

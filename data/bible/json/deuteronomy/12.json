@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Deuteronomy, Chapter 12 — 30 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Deuteronomy",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "totalChapters": 34
+    },
+    "chapter": 12,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/deuteronomy/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/deuteronomy/11.json",
+      "nextChapter": "https://latinprayer.org/bible/deuteronomy/13.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/deuteronomy/12.json",
+      "german": "https://latinprayer.org/bibel/deuteronomy/12.json"
+    }
+  },
+  "citation": "Deuteronomy 12 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "These are the precepts and judgments, that you must do in the land, which the Lord the God of thy fathers will give thee, to possess it all the days that thou shalt walk upon the earth.",
+      "citation": "Deuteronomy 12:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Destroy all the places in which the nations, that you shall possess, worshipped their gods upon high mountains, and hills, and under every shady tree:",
+      "citation": "Deuteronomy 12:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Overthrow their altars, and break down their statues, burn their groves with fire, and break their idols in pieces: destroy their names out of those places.",
+      "citation": "Deuteronomy 12:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "You shall not do so to the Lord your God:",
+      "citation": "Deuteronomy 12:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But you shall come to the place, which the Lord your God shall choose out of all your tribes, to put his name there, and to dwell in it:",
+      "citation": "Deuteronomy 12:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And you shall offer in that place your holocausts and victims, the tithes and firstfruits of your hands and your vows and gifts, the firstborn of your herds and your sheep.",
+      "citation": "Deuteronomy 12:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And you shall eat there in the sight of the Lord your God: and you shall rejoice in all things, whereunto you shall put your hand, you and your houses wherein the Lord your God hath blessed you.",
+      "citation": "Deuteronomy 12:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "You shall not do there the things we do here this day, every man that which seemeth good to himself.",
+      "citation": "Deuteronomy 12:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For until this present time you are not come to rest, and to the possession, which the Lord your God will give you.",
+      "citation": "Deuteronomy 12:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "You shall pass over the Jordan, and shall dwell in the land which the Lord your God will give you, that you may have rest from all enemies round about: and may dwell without any fear,",
+      "citation": "Deuteronomy 12:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "In the place, which the Lord your God shall choose, that his name may be therein. Thither shall you bring all the things that I command you, holocausts, and victims, and tithes, and the firstfruits of your hands: and whatsoever is the choicest in the gifts which you shall vow to the Lord.",
+      "citation": "Deuteronomy 12:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "There shall you feast before the Lord your God, you and your sons and your daughters, your men-servants and maid-servants, and the Levite that dwelleth in your cities. For he hath no other part and possession among you.",
+      "citation": "Deuteronomy 12:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Beware lest thou offer thy holocausts in every place that thou shalt see:",
+      "citation": "Deuteronomy 12:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But in the place which the Lord shall choose in one of thy tribes shalt thou offer sacrifices, and shalt do all that I command thee.",
+      "citation": "Deuteronomy 12:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "But if thou desirest to eat, and the eating of flesh delight thee, kill, and eat according to the blessing of the Lord thy God, which he hath given thee, in thy cities: whether it be unclean, that is to say, having blemish or defect: or clean, that is to say, sound and without blemish, such as may be offered, as the roe, and the hart, shalt thou eat it:",
+      "citation": "Deuteronomy 12:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Only the blood thou shalt not eat, but thou shalt pour it out upon the earth as water.",
+      "citation": "Deuteronomy 12:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Thou mayst not eat in thy towns the tithes of thy corn, and thy wine, and thy oil, the firstborn of thy herds and thy cattle, nor any thing that thou vowest, and that thou wilt offer voluntarily, and the firstfruits of thy hands:",
+      "citation": "Deuteronomy 12:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "But thou shalt eat them before the Lord thy God in the place which the Lord thy God shall choose, thou and thy son and thy daughter, and thy man-servant, and maid-servant, and the Levite that dwelleth in thy cities: and thou shalt rejoice and be refreshed before the Lord thy God in all things, whereunto thou shalt put thy hand.",
+      "citation": "Deuteronomy 12:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Take heed thou forsake not the Levite all the time that thou livest in the land.",
+      "citation": "Deuteronomy 12:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And if the place which the Lord thy God shall choose, that his name should be there, be far off, thou shalt kill of thy herds and of thy flocks, as I have commanded thee, and shalt eat in thy towns, as it pleaseth thee.",
+      "citation": "Deuteronomy 12:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Even as the roe and the hart is eaten, so shalt thou eat them: both the clean and unclean shall eat of them alike.",
+      "citation": "Deuteronomy 12:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Only beware of this, that thou eat not the blood, for the blood is for the soul: and therefore thou must not eat the soul with the flesh:",
+      "citation": "Deuteronomy 12:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "But thou shalt pour it upon the earth as water,",
+      "citation": "Deuteronomy 12:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "That it may be well with thee and thy children after thee, when thou shalt do that which is pleasing in the sight of the Lord.",
+      "citation": "Deuteronomy 12:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "But the things which thou hast sanctified and vowed to the Lord, thou shalt take, and shalt come to the place which the Lord shall choose:",
+      "citation": "Deuteronomy 12:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And shalt offer thy oblations, the flesh and the blood upon the altar of the Lord thy God: the blood of thy victims thou shalt pour on the altar: and the flesh thou thyself shalt eat.",
+      "citation": "Deuteronomy 12:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Observe and hear all the things that I command thee, that it may be well with thee and thy children after thee for ever, when thou shalt do what is good and pleasing in the sight of the Lord thy God.",
+      "citation": "Deuteronomy 12:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "When the Lord thy God shall have destroyed before thy face the nations, which thou shalt go in to possess, and when thou shalt possess them, and dwell in their land:",
+      "citation": "Deuteronomy 12:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Beware lest thou imitate them, after they are destroyed at thy coming in, and lest thou seek after their ceremonies, saying: As these nations have worshipped their gods, so will I also worship.",
+      "citation": "Deuteronomy 12:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Thou shalt not do in like manner to the Lord thy God. For they have done to their gods all the abominations which the Lord abhorreth, offering their sons and daughters, and burning them with fire.",
+      "citation": "Deuteronomy 12:31 (Douay-Rheims)"
+    }
+  ]
+}

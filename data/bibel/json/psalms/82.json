@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 82 — 8 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 82,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/81.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/83.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/82.json",
+      "latin": "https://latinprayer.org/latin/psalms/82.json"
+    }
+  },
+  "citation": "Psalmen 82 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Psalm Asaphs</em>. Gott steht da in der Gottesversammlung, hält inmitten der Götter Gericht:",
+      "citation": "Psalmen 82:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Wie lange noch wollt ihr ungerecht richten und Partei für die Gottlosen nehmen? SELA.",
+      "citation": "Psalmen 82:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Schafft Recht dem Geringen und Verwaisten, dem Bedrückten und Dürftigen verhelft zum Recht!",
+      "citation": "Psalmen 82:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Rettet den Geringen und Armen, entreißt ihn der Hand der Gottlosen!«",
+      "citation": "Psalmen 82:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "»Doch sie sind ohne Einsicht und ohne Erkenntnis; in Finsternis gehn sie einher, mögen der Erde Pfeiler auch alle wanken.",
+      "citation": "Psalmen 82:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Wohl hab’ ich selber gesagt, daß ihr Götter seid und Söhne des Höchsten allesamt;",
+      "citation": "Psalmen 82:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "dennoch wie (gewöhnliche) Menschen sollt ihr sterben. und fallen wie irgendeiner der Fürsten.«",
+      "citation": "Psalmen 82:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Erhebe dich, Gott, richte die Erde! Denn du bist der Erbherr über alle Völker.",
+      "citation": "Psalmen 82:8 (Menge)"
+    }
+  ]
+}

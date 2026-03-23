@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezekiel, Chapter 6 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 6,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ezechiel/5.json",
+      "nextChapter": "https://latinprayer.org/latin/ezechiel/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ezechiel/6.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/6.json"
+    }
+  },
+  "citation": "Ezekiel 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et factus est sermo Domini ad me dicens",
+      "citation": "Ezekiel 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "fili hominis pone faciem tuam ad montes Israhel et prophetabis ad eos",
+      "citation": "Ezekiel 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dices montes Israhel audite verbum Domini Dei haec dicit Dominus Deus montibus et collibus rupibus et vallibus ecce ego inducam super vos gladium et disperdam excelsa vestra",
+      "citation": "Ezekiel 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et demoliar aras vestras et confringentur simulacra vestra et deiciam interfectos vestros ante idola vestra",
+      "citation": "Ezekiel 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et dabo cadavera filiorum Israhel ante faciem simulacrorum vestrorum et dispergam ossa vestra circum aras vestras",
+      "citation": "Ezekiel 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "in omnibus habitationibus vestris urbes desertae erunt et excelsa demolientur et dissipabuntur et interibunt arae vestrae et confringentur et cessabunt idola vestra et conterentur delubra vestra et delebuntur opera vestra",
+      "citation": "Ezekiel 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et cadet interfectus in medio vestri et scietis quoniam ego Dominus",
+      "citation": "Ezekiel 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et relinquam in vobis eos qui fugerint gladium in gentibus cum dispersero vos in terris",
+      "citation": "Ezekiel 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et recordabuntur mei liberati vestri in gentibus ad quas captivi ducti sunt quia contrivi cor eorum fornicans et recedens a me et oculos eorum fornicantes post idola sua et displicebunt sibimet super malis quae fecerunt in universis abominationibus suis",
+      "citation": "Ezekiel 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et scient quia ego Dominus non frustra locutus sum ut facerem eis malum hoc",
+      "citation": "Ezekiel 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "haec dicit Dominus Deus percute manu tua et adlide pedem tuum et dic eheu ad omnes abominationes malorum domus Israhel qui gladio fame peste ruituri sunt",
+      "citation": "Ezekiel 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "qui longe est peste morietur qui autem prope gladio corruet et qui relictus fuerit et obsessus fame morietur et conpleam indignationem meam in eis",
+      "citation": "Ezekiel 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et scietis quia ego Dominus cum fuerint interfecti vestri in medio idolorum vestrorum in circuitu ararum vestrarum in omni colle excelso in cunctis summitatibus montium et subtus omne lignum nemorosum et subtus universam quercum frondosam locum ubi accenderunt tura redolentia universis idolis suis",
+      "citation": "Ezekiel 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et extendam manum meam super eos et faciam terram desolatam et destitutam a deserto Deblatha in omnibus habitationibus eorum et scient quia ego Dominus",
+      "citation": "Ezekiel 6:14 (Clementine Vulgate)"
+    }
+  ]
+}

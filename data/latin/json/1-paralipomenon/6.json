@@ -1,0 +1,366 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Chronicles, Chapter 6 — 66 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Chronicles",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 6,
+    "verseCount": 66,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-paralipomenon/5.json",
+      "nextChapter": "https://latinprayer.org/latin/1-paralipomenon/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-paralipomenon/6.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/6.json"
+    }
+  },
+  "citation": "1 Chronicles 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "filii ergo Levi Gersom Caath et Merari",
+      "citation": "1 Chronicles 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et haec nomina filiorum Gersom Lobeni et Semei",
+      "citation": "1 Chronicles 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "filii Caath Amram et Isaar et Hebron et Ozihel",
+      "citation": "1 Chronicles 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "filii Merari Mooli et Musi hae autem cognationes Levi secundum familias eorum",
+      "citation": "1 Chronicles 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Gersom Lobeni filius eius Iaath filius eius Zamma filius eius",
+      "citation": "1 Chronicles 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "Ioaa filius eius Addo filius eius Zara filius eius Iethrai filius eius",
+      "citation": "1 Chronicles 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "filii Caath Aminadab filius eius Core filius eius Asir filius eius",
+      "citation": "1 Chronicles 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Helcana filius eius Abiasaph filius eius Asir filius eius",
+      "citation": "1 Chronicles 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "Thaath filius eius Urihel filius eius Ozias filius eius Saul filius eius",
+      "citation": "1 Chronicles 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "filii Helcana Amasai et Ahimoth",
+      "citation": "1 Chronicles 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Helcana filii Helcana Sophai filius eius Naath filius eius",
+      "citation": "1 Chronicles 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Heliab filius eius Hieroam filius eius Helcana filius eius",
+      "citation": "1 Chronicles 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "filii Samuhel primogenitus Vasseni et Abia",
+      "citation": "1 Chronicles 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "filii autem Merari Mooli Lobeni filius eius Semei filius eius Oza filius eius",
+      "citation": "1 Chronicles 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "Samaa filius eius Aggia filius eius Asaia filius eius",
+      "citation": "1 Chronicles 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "isti sunt quos constituit David super cantores domus Domini ex quo conlocata est arca",
+      "citation": "1 Chronicles 6:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et ministrabant coram tabernaculo testimonii canentes donec aedificaret Salomon domum Domini in Hierusalem stabant autem iuxta ordinem suum in ministerio",
+      "citation": "1 Chronicles 6:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "hii vero sunt qui adsistebant cum filiis suis de filiis Caath Heman cantor filius Iohel filii Samuhel",
+      "citation": "1 Chronicles 6:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "filii Helcana filii Hieroam filii Helihel filii Thou",
+      "citation": "1 Chronicles 6:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "filii Suph filii Helcana filii Maath filii Amasai",
+      "citation": "1 Chronicles 6:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "filii Helcana filii Iohel filii Azariae filii Sophoniae",
+      "citation": "1 Chronicles 6:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "filii Thaath filii Asir filii Abiasaph filii Core",
+      "citation": "1 Chronicles 6:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "filii Isaar filii Caath filii Levi filii Israhel",
+      "citation": "1 Chronicles 6:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et fratres eius Asaph qui stabat a dextris eius Asaph filius Barachiae filii Samaa",
+      "citation": "1 Chronicles 6:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "filii Michahel filii Basiae filii Melchiae",
+      "citation": "1 Chronicles 6:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "filii Athnai filii Zara filii Adaia",
+      "citation": "1 Chronicles 6:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "filii Ethan filii Zamma filii Semei",
+      "citation": "1 Chronicles 6:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "filii Ieth filii Gersom filii Levi",
+      "citation": "1 Chronicles 6:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "filii autem Merari fratres eorum ad sinistram Ethan filius Cusi filii Abdi filii Maloch",
+      "citation": "1 Chronicles 6:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "filii Asabiae filii Amasiae filii Helciae",
+      "citation": "1 Chronicles 6:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "filii Amasai filii Bonni filii Somer",
+      "citation": "1 Chronicles 6:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "filii Mooli filii Musi filii Merari filii Levi",
+      "citation": "1 Chronicles 6:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "fratres quoque eorum Levitae qui ordinati sunt in cunctum ministerium tabernaculi domus Domini",
+      "citation": "1 Chronicles 6:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "Aaron vero et filii eius adolebant incensum super altare holocausti et super altare thymiamatis in omne opus sancti sanctorum et ut precarentur pro Israhel iuxta omnia quae praecepit Moses servus Dei",
+      "citation": "1 Chronicles 6:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "hii sunt autem filii Aaron Eleazar filius eius Finees filius eius Abisue filius eius",
+      "citation": "1 Chronicles 6:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "Bocci filius eius Ozi filius eius Zaraia filius eius",
+      "citation": "1 Chronicles 6:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "Meraioth filius eius Amaria filius eius Ahitob filius eius",
+      "citation": "1 Chronicles 6:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "Sadoc filius eius Achimaas filius eius",
+      "citation": "1 Chronicles 6:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et haec habitacula eorum per vicos atque confinia filiorum scilicet Aaron iuxta cognationes Caathitarum ipsis enim sorte contigerat",
+      "citation": "1 Chronicles 6:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "dederunt igitur eis Hebron in terra Iuda et suburbana eius per circuitum",
+      "citation": "1 Chronicles 6:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "agros autem civitatis et villas Chaleb filio Iephonne",
+      "citation": "1 Chronicles 6:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "porro filiis Aaron dederunt civitates ad confugiendum Hebron et Lobna et suburbana eius",
+      "citation": "1 Chronicles 6:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "Iether quoque et Esthmo cum suburbanis suis sed et Helon et Dabir cum suburbanis suis",
+      "citation": "1 Chronicles 6:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "Asan quoque et Bethsemes et suburbana eorum",
+      "citation": "1 Chronicles 6:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "de tribu autem Beniamin Gabee et suburbana eius et Almath cum suburbanis suis Anathoth quoque cum suburbanis suis omnes civitates tredecim per cognationes suas",
+      "citation": "1 Chronicles 6:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "filiis autem Caath residuis de cognatione sua dederunt ex dimidia tribu Manasse in possessionem urbes decem",
+      "citation": "1 Chronicles 6:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "porro filiis Gersom per cognationes suas de tribu Isachar et de tribu Aser et de tribu Nepthali et de tribu Manasse in Basan urbes tredecim",
+      "citation": "1 Chronicles 6:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "filiis autem Merari per cognationes suas de tribu Ruben et de tribu Gad et de tribu Zabulon dederunt sorte civitates duodecim",
+      "citation": "1 Chronicles 6:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "dederunt quoque filii Israhel Levitis civitates et suburbana earum",
+      "citation": "1 Chronicles 6:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "dederuntque per sortem ex tribu filiorum Iuda et ex tribu filiorum Symeon et ex tribu filiorum Beniamin urbes has quas vocaverunt nominibus suis",
+      "citation": "1 Chronicles 6:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "et his qui erant ex cognatione filiorum Caath fueruntque civitates in terminis eorum de tribu Ephraim",
+      "citation": "1 Chronicles 6:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "dederunt ergo eis urbes ad confugiendum Sychem cum suburbanis suis in monte Ephraim et Gazer cum suburbanis suis",
+      "citation": "1 Chronicles 6:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "Hicmaam quoque cum suburbanis suis et Bethoron similiter",
+      "citation": "1 Chronicles 6:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "necnon et Helon cum suburbanis suis et Gethremmon in eundem modum",
+      "citation": "1 Chronicles 6:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "porro ex dimidia tribu Manasse Aner et suburbana eius Balaam et suburbana eius his videlicet qui de cognatione filiorum Caath reliqui erant",
+      "citation": "1 Chronicles 6:55 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "filiis autem Gersom de cognatione dimidiae tribus Manasse Gaulon in Basan et suburbana eius et Astharoth cum suburbanis suis",
+      "citation": "1 Chronicles 6:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "de tribu Isachar Cedes et suburbana eius et Dabereth cum suburbanis suis",
+      "citation": "1 Chronicles 6:57 (Clementine Vulgate)"
+    },
+    {
+      "verse": 58,
+      "text": "Ramoth quoque et suburbana illius et Anem cum suburbanis suis",
+      "citation": "1 Chronicles 6:58 (Clementine Vulgate)"
+    },
+    {
+      "verse": 59,
+      "text": "de tribu vero Aser Masal cum suburbanis suis et Abdon similiter",
+      "citation": "1 Chronicles 6:59 (Clementine Vulgate)"
+    },
+    {
+      "verse": 60,
+      "text": "Acac quoque et suburbana eius et Roob cum suburbanis suis",
+      "citation": "1 Chronicles 6:60 (Clementine Vulgate)"
+    },
+    {
+      "verse": 61,
+      "text": "porro de tribu Nepthali Cedes in Galilea et suburbana eius Amon cum suburbanis suis et Cariathaim et suburbana eius",
+      "citation": "1 Chronicles 6:61 (Clementine Vulgate)"
+    },
+    {
+      "verse": 62,
+      "text": "filiis autem Merari residuis de tribu Zabulon Remmono et suburbana eius et Thabor cum suburbanis suis",
+      "citation": "1 Chronicles 6:62 (Clementine Vulgate)"
+    },
+    {
+      "verse": 63,
+      "text": "trans Iordanem quoque ex adverso Hiericho contra orientem Iordanis de tribu Ruben Bosor in solitudine cum suburbanis suis et Iasa cum suburbanis suis",
+      "citation": "1 Chronicles 6:63 (Clementine Vulgate)"
+    },
+    {
+      "verse": 64,
+      "text": "Cademoth quoque et suburbana eius et Miphaath cum suburbanis suis",
+      "citation": "1 Chronicles 6:64 (Clementine Vulgate)"
+    },
+    {
+      "verse": 65,
+      "text": "necnon de tribu Gad Ramoth in Galaad et suburbana eius et Manaim cum suburbanis suis",
+      "citation": "1 Chronicles 6:65 (Clementine Vulgate)"
+    },
+    {
+      "verse": 66,
+      "text": "sed et Esbon cum suburbanis eius et Iezer cum suburbanis suis",
+      "citation": "1 Chronicles 6:66 (Clementine Vulgate)"
+    }
+  ]
+}

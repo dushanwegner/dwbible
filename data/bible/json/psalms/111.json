@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 111 — 10 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 111,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/110.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/112.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/111.json",
+      "german": "https://latinprayer.org/bibel/psalms/111.json"
+    }
+  },
+  "citation": "Psalms 111 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I will praise thee, O Lord, with my whole heart; in the council of the just, and in the congregation.",
+      "citation": "Psalms 111:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Great are the works of the Lord: sought out according to all his wills.",
+      "citation": "Psalms 111:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "His work is praise and magnificence: and his justice continueth for ever and ever.",
+      "citation": "Psalms 111:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "He hath made a remembrance of his wonderful works, being a merciful and gracious Lord:",
+      "citation": "Psalms 111:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "He hath given food to them that fear him. He will be mindful for ever of his covenant:",
+      "citation": "Psalms 111:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "He will shew forth to his people the power of his works.",
+      "citation": "Psalms 111:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "That he may give them the inheritance of the Gentiles: the works of his hands are truth and judgment.",
+      "citation": "Psalms 111:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "All his commandments are faithful: confirmed for ever and ever, made in truth and equity.",
+      "citation": "Psalms 111:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He hath sent redemption to his people: he hath commanded his covenant for ever. Holy and terrible is his name:",
+      "citation": "Psalms 111:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The fear of the Lord is the beginning of wisdom. A good understanding to all that do it: his praise continueth for ever and ever.",
+      "citation": "Psalms 111:10 (Douay-Rheims)"
+    }
+  ]
+}

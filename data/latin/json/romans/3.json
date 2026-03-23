@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Romans, Chapter 3 — 31 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 52,
+      "totalChapters": 16
+    },
+    "chapter": 3,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/romans/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/romans/2.json",
+      "nextChapter": "https://latinprayer.org/latin/romans/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/romans/3.json",
+      "german": "https://latinprayer.org/bibel/romans/3.json"
+    }
+  },
+  "citation": "Romans 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quid ergo amplius est Iudaeo aut quae utilitas circumcisionis",
+      "citation": "Romans 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "multum per omnem modum primum quidem quia credita sunt illis eloquia Dei",
+      "citation": "Romans 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quid enim si quidam illorum non crediderunt numquid incredulitas illorum fidem Dei evacuabit absit",
+      "citation": "Romans 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "est autem Deus verax omnis autem homo mendax sicut scriptum est ut iustificeris in sermonibus tuis et vincas cum iudicaris",
+      "citation": "Romans 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "si autem iniquitas nostra iustitiam Dei commendat quid dicemus numquid iniquus Deus qui infert iram secundum hominem dico",
+      "citation": "Romans 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "absit alioquin quomodo iudicabit Deus mundum",
+      "citation": "Romans 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "si enim veritas Dei in meo mendacio abundavit in gloriam ipsius quid adhuc et ego tamquam peccator iudicor",
+      "citation": "Romans 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et non sicut blasphemamur et sicut aiunt nos quidam dicere faciamus mala ut veniant bona quorum damnatio iusta est",
+      "citation": "Romans 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quid igitur praecellimus eos nequaquam causati enim sumus Iudaeos et Graecos omnes sub peccato esse",
+      "citation": "Romans 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "sicut scriptum est quia non est iustus quisquam",
+      "citation": "Romans 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "non est intellegens non est requirens Deum",
+      "citation": "Romans 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "omnes declinaverunt simul inutiles facti sunt non est qui faciat bonum non est usque ad unum",
+      "citation": "Romans 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sepulchrum patens est guttur eorum linguis suis dolose agebant venenum aspidum sub labiis eorum",
+      "citation": "Romans 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quorum os maledictione et amaritudine plenum est",
+      "citation": "Romans 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "veloces pedes eorum ad effundendum sanguinem",
+      "citation": "Romans 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "contritio et infelicitas in viis eorum",
+      "citation": "Romans 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et viam pacis non cognoverunt",
+      "citation": "Romans 3:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "non est timor Dei ante oculos eorum",
+      "citation": "Romans 3:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "scimus autem quoniam quaecumque lex loquitur his qui in lege sunt loquitur ut omne os obstruatur et subditus fiat omnis mundus Deo",
+      "citation": "Romans 3:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quia ex operibus legis non iustificabitur omnis caro coram illo per legem enim cognitio peccati",
+      "citation": "Romans 3:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "nunc autem sine lege iustitia Dei manifestata est testificata a lege et prophetis",
+      "citation": "Romans 3:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "iustitia autem Dei per fidem Iesu Christi super omnes qui credunt non enim est distinctio",
+      "citation": "Romans 3:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "omnes enim peccaverunt et egent gloriam Dei",
+      "citation": "Romans 3:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "iustificati gratis per gratiam ipsius per redemptionem quae est in Christo Iesu",
+      "citation": "Romans 3:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quem proposuit Deus propitiationem per fidem in sanguine ipsius ad ostensionem iustitiae suae propter remissionem praecedentium delictorum",
+      "citation": "Romans 3:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "in sustentatione Dei ad ostensionem iustitiae eius in hoc tempore ut sit ipse iustus et iustificans eum qui ex fide est Iesu",
+      "citation": "Romans 3:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "ubi est ergo gloriatio exclusa est per quam legem factorum non sed per legem fidei",
+      "citation": "Romans 3:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "arbitramur enim iustificari hominem per fidem sine operibus legis",
+      "citation": "Romans 3:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "an Iudaeorum Deus tantum nonne et gentium immo et gentium",
+      "citation": "Romans 3:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "quoniam quidem unus Deus qui iustificabit circumcisionem ex fide et praeputium per fidem",
+      "citation": "Romans 3:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "legem ergo destruimus per fidem absit sed legem statuimus",
+      "citation": "Romans 3:31 (Clementine Vulgate)"
+    }
+  ]
+}

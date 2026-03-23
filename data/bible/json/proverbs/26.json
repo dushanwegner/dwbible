@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 26 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 26,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/proverbs/25.json",
+      "nextChapter": "https://latinprayer.org/bible/proverbs/27.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/proverbs/26.json",
+      "german": "https://latinprayer.org/bibel/proverbs/26.json"
+    }
+  },
+  "citation": "Proverbs 26 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "As snow in summer, and rain in harvest, so glory is not seemly for a fool.",
+      "citation": "Proverbs 26:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "As a bird flying to other places, and a sparrow going here or there: so a curse uttered without cause shall come upon a man.",
+      "citation": "Proverbs 26:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "A whip for a horse, and a snaffle for an ass, and a rod for the back of fools.",
+      "citation": "Proverbs 26:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Answer not a fool according to his folly, lest thou be made like him.",
+      "citation": "Proverbs 26:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Answer a fool according to his folly, lest he imagine himself to be wise.",
+      "citation": "Proverbs 26:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "He that sendeth words by a foolish messenger, is lame of feet and drinketh iniquity.",
+      "citation": "Proverbs 26:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "As a lame man hath fair legs in vain: so a parable is unseemly in the mouth of fools.",
+      "citation": "Proverbs 26:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "As he that casteth a stone into the heap of Mercury: so is he that giveth honour to a fool.",
+      "citation": "Proverbs 26:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "As if a thorn should grow in the hand of a drunkard: so is a parable in the mouth of fools.",
+      "citation": "Proverbs 26:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Judgment determineth causes: and he that putteth a fool to silence, appeaseth anger.",
+      "citation": "Proverbs 26:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "As a dog that returneth to his vomit, so is the fool that repeateth his folly.",
+      "citation": "Proverbs 26:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Hast thou seen a man wise in his own conceit?  there shall be more hope of a fool than of him.",
+      "citation": "Proverbs 26:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The slothful man saith: There is a lion in the way, and a lioness in the roads.",
+      "citation": "Proverbs 26:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "As the door turneth upon its hinges, so doth the slothful upon his bed.",
+      "citation": "Proverbs 26:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The slothful hideth his hand under his armpit, and it grieveth him to turn it to his mouth.",
+      "citation": "Proverbs 26:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The sluggard is wiser in his own conceit, than seven men that speak sentences.",
+      "citation": "Proverbs 26:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "As he that taketh a dog by the ears, so is he that passeth by in anger, and meddleth with another man's quarrel.",
+      "citation": "Proverbs 26:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "As he is guilty that shooteth arrows, and lances unto death.",
+      "citation": "Proverbs 26:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "So is the man that hurteth his friend deceitfully: and when he is taken, saith: I did it in jest.",
+      "citation": "Proverbs 26:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "When the wood faileth, the fire shall go out: and when the talebearer is taken away, contentions shall cease.",
+      "citation": "Proverbs 26:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "As coals are to burning coals, and wood to fire, so an angry man stirreth up strife.",
+      "citation": "Proverbs 26:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The words of a talebearer are as it were simple, but they reach to the innermost parts of the belly.",
+      "citation": "Proverbs 26:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Swelling lips joined with a corrupt heart, are like an earthern vessel adorned with silver dross.",
+      "citation": "Proverbs 26:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "An enemy is known by his lips, when in his heart he entertaineth deceit.",
+      "citation": "Proverbs 26:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "When he shall speak low, trust him not: because there are seven mischiefs in his heart.",
+      "citation": "Proverbs 26:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "He that covereth hatred deceitfully, his malice shall be laid open in the public assembly.",
+      "citation": "Proverbs 26:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "He that diggeth a pit, shall fall into it: and he that rolleth a stone, it shall return to him.",
+      "citation": "Proverbs 26:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "A deceitful tongue loveth not truth: and a slippery mouth worketh ruin.",
+      "citation": "Proverbs 26:28 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 6 — 37 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 6,
+    "verseCount": 37,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/5.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/6.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/6.json"
+    }
+  },
+  "citation": "Sirach 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "noli fieri pro amico inimicus proximo inproperium enim et contumeliam malus hereditabit et omnis peccator invidus et bilinguis",
+      "citation": "Sirach 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "non te extollas in cogitatione animae tuae velut taurus ne forte elidatur virtus tua per stultitiam",
+      "citation": "Sirach 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et folia tua comedet et fructus tuos perdet et relinqueris velut lignum aridum in heremo",
+      "citation": "Sirach 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "anima enim nequa disperdet qui se habet et in gaudium inimici dat illum et deducit in sortem impiorum",
+      "citation": "Sirach 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "verbum dulce multiplicat amicos et mitigat inimicos et lingua eucharis in bono homine abundat",
+      "citation": "Sirach 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "multi pacifici sint tibi et consiliarii tibi sint unus de mille",
+      "citation": "Sirach 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "si possides amicum in temptatione posside eum et non facile credas illi",
+      "citation": "Sirach 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "est enim amicus secundum tempus suum et non permanebit in die tribulationis",
+      "citation": "Sirach 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et est amicus qui egreditur ad inimicitiam et est amicus qui odium et rixam et convicia denudabit",
+      "citation": "Sirach 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "est autem amicus socius mensae et non permanet in die necessitatis",
+      "citation": "Sirach 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "amicus si permanserit fixus erit tibi quasi coaequalis et in domesticis tuis fiducialiter aget",
+      "citation": "Sirach 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "si humiliaverit se contra te et a facie tua abscondet se unianimem habebis amicitiam bonam",
+      "citation": "Sirach 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ab inimicis tuis separare et ab amicis tuis adtende",
+      "citation": "Sirach 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "amicus fidelis protectio fortis qui autem invenit illum invenit thesaurum",
+      "citation": "Sirach 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "amico fideli nulla est conparatio et non est digna ponderatio auri et argenti contra bonitatem fidei illius",
+      "citation": "Sirach 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "amicus fidelis medicamentum vitae et inmortalitatis et qui metuunt Dominum inveniunt illum",
+      "citation": "Sirach 6:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "qui timet Deum aeque habebit amicitiam bonam quoniam secundum illum erit amicus illius",
+      "citation": "Sirach 6:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "fili a iuventute tua excipe doctrinam et usque ad canos invenies sapientiam",
+      "citation": "Sirach 6:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quasi is qui arat et seminat accede ad illam et sustine bonos fructus illius",
+      "citation": "Sirach 6:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in opere enim ipsius exiguum laborabis et cito edes de generationibus illius",
+      "citation": "Sirach 6:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quam aspera est nimium sapientia indoctis hominibus et non permanet in illa excors",
+      "citation": "Sirach 6:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quasi lapidis virtus probatio erit in illis et non demorabuntur proicere illum",
+      "citation": "Sirach 6:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "sapientia enim doctrinae secundum nomen est eius et non multis est manifesta quibus autem agnita est permanet usque ad conspectum Dei",
+      "citation": "Sirach 6:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "audi fili et accipe consilium intellectus et ne abicias consilium meum",
+      "citation": "Sirach 6:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "inice pedem tuum in conpedes illius et in torques eius tuum collum",
+      "citation": "Sirach 6:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "subice umerum tuum et porta illam et ne acedieris vinculis eius",
+      "citation": "Sirach 6:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "in omni animo tuo accede ad illam et in omni virtute tua serva vias eius",
+      "citation": "Sirach 6:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "investiga illam et manifestabitur tibi et continens factus ne derelinqueris eam",
+      "citation": "Sirach 6:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "in novissimis enim invenies requiem in ea et convertetur tibi in oblectationem",
+      "citation": "Sirach 6:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et erunt tibi conpedes in protectionem fortitudinis et bases virtutis et torques illius in stolam gloriae",
+      "citation": "Sirach 6:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "decor enim vitae est in illa et vincula illius netura salutaris",
+      "citation": "Sirach 6:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "stolam gloriae indues eam et coronam gratulationis superpones tibi",
+      "citation": "Sirach 6:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "fili si adtenderis mihi disces et si adcommodaveris animam tuam sapiens eris",
+      "citation": "Sirach 6:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et si inclinaveris aurem tuam excipies doctrinam et si dilexeris audire sapiens eris",
+      "citation": "Sirach 6:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "in multitudine presbyterorum prudentium sta et sapientiae illorum ex corde coniungere ut omnem narrationem Dei possis audire et proverbia laudis non effugiant te",
+      "citation": "Sirach 6:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "et si videris sensatum evigila ad illum et gradus ostiorum illius exterat pes tuus",
+      "citation": "Sirach 6:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "cogitatum habe in praeceptis Dei et in mandatis illius maxime adsiduus esto et ipse dabit cor tibi et concupiscentia sapientiae dabitur tibi",
+      "citation": "Sirach 6:37 (Clementine Vulgate)"
+    }
+  ]
+}

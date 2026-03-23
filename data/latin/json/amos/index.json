@@ -1,0 +1,117 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Amos — 15 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Amos",
+      "slug": "amos",
+      "testament": "OT",
+      "order": 35,
+      "totalChapters": 15
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/amos/index.json",
+      "german": "https://latinprayer.org/bibel/amos/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 26,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/latin/amos/26",
+      "jsonUrl": "https://latinprayer.org/latin/amos/26.json"
+    },
+    {
+      "chapter": 27,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/latin/amos/27",
+      "jsonUrl": "https://latinprayer.org/latin/amos/27.json"
+    },
+    {
+      "chapter": 28,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/latin/amos/28",
+      "jsonUrl": "https://latinprayer.org/latin/amos/28.json"
+    },
+    {
+      "chapter": 29,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/latin/amos/29",
+      "jsonUrl": "https://latinprayer.org/latin/amos/29.json"
+    },
+    {
+      "chapter": 30,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/latin/amos/30",
+      "jsonUrl": "https://latinprayer.org/latin/amos/30.json"
+    },
+    {
+      "chapter": 31,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/amos/31",
+      "jsonUrl": "https://latinprayer.org/latin/amos/31.json"
+    },
+    {
+      "chapter": 32,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/amos/32",
+      "jsonUrl": "https://latinprayer.org/latin/amos/32.json"
+    },
+    {
+      "chapter": 33,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/amos/33",
+      "jsonUrl": "https://latinprayer.org/latin/amos/33.json"
+    },
+    {
+      "chapter": 34,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/amos/34",
+      "jsonUrl": "https://latinprayer.org/latin/amos/34.json"
+    },
+    {
+      "chapter": 35,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/amos/35",
+      "jsonUrl": "https://latinprayer.org/latin/amos/35.json"
+    },
+    {
+      "chapter": 36,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/latin/amos/36",
+      "jsonUrl": "https://latinprayer.org/latin/amos/36.json"
+    },
+    {
+      "chapter": 37,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/latin/amos/37",
+      "jsonUrl": "https://latinprayer.org/latin/amos/37.json"
+    },
+    {
+      "chapter": 38,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/amos/38",
+      "jsonUrl": "https://latinprayer.org/latin/amos/38.json"
+    },
+    {
+      "chapter": 39,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/latin/amos/39",
+      "jsonUrl": "https://latinprayer.org/latin/amos/39.json"
+    },
+    {
+      "chapter": 40,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/amos/40",
+      "jsonUrl": "https://latinprayer.org/latin/amos/40.json"
+    }
+  ]
+}

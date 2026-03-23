@@ -1,0 +1,243 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers — 36 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/numbers/index.json",
+      "german": "https://latinprayer.org/bibel/numbers/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 54,
+      "url": "https://latinprayer.org/bible/numbers/1",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/bible/numbers/2",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 51,
+      "url": "https://latinprayer.org/bible/numbers/3",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 49,
+      "url": "https://latinprayer.org/bible/numbers/4",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/bible/numbers/5",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 27,
+      "url": "https://latinprayer.org/bible/numbers/6",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 89,
+      "url": "https://latinprayer.org/bible/numbers/7",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/bible/numbers/8",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/bible/numbers/9",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/bible/numbers/10",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/bible/numbers/11",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/bible/numbers/12",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/bible/numbers/13",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 45,
+      "url": "https://latinprayer.org/bible/numbers/14",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 41,
+      "url": "https://latinprayer.org/bible/numbers/15",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/bible/numbers/16",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/16.json"
+    },
+    {
+      "chapter": 17,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/bible/numbers/17",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/17.json"
+    },
+    {
+      "chapter": 18,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/bible/numbers/18",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/18.json"
+    },
+    {
+      "chapter": 19,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/bible/numbers/19",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/19.json"
+    },
+    {
+      "chapter": 20,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/bible/numbers/20",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/20.json"
+    },
+    {
+      "chapter": 21,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/bible/numbers/21",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/21.json"
+    },
+    {
+      "chapter": 22,
+      "verseCount": 41,
+      "url": "https://latinprayer.org/bible/numbers/22",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/22.json"
+    },
+    {
+      "chapter": 23,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/bible/numbers/23",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/23.json"
+    },
+    {
+      "chapter": 24,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/bible/numbers/24",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/24.json"
+    },
+    {
+      "chapter": 25,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/bible/numbers/25",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/25.json"
+    },
+    {
+      "chapter": 26,
+      "verseCount": 65,
+      "url": "https://latinprayer.org/bible/numbers/26",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/26.json"
+    },
+    {
+      "chapter": 27,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/bible/numbers/27",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/27.json"
+    },
+    {
+      "chapter": 28,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/bible/numbers/28",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/28.json"
+    },
+    {
+      "chapter": 29,
+      "verseCount": 39,
+      "url": "https://latinprayer.org/bible/numbers/29",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/29.json"
+    },
+    {
+      "chapter": 30,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bible/numbers/30",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/30.json"
+    },
+    {
+      "chapter": 31,
+      "verseCount": 54,
+      "url": "https://latinprayer.org/bible/numbers/31",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/31.json"
+    },
+    {
+      "chapter": 32,
+      "verseCount": 42,
+      "url": "https://latinprayer.org/bible/numbers/32",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/32.json"
+    },
+    {
+      "chapter": 33,
+      "verseCount": 56,
+      "url": "https://latinprayer.org/bible/numbers/33",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/33.json"
+    },
+    {
+      "chapter": 34,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bible/numbers/34",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/34.json"
+    },
+    {
+      "chapter": 35,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/bible/numbers/35",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/35.json"
+    },
+    {
+      "chapter": 36,
+      "verseCount": 13,
+      "url": "https://latinprayer.org/bible/numbers/36",
+      "jsonUrl": "https://latinprayer.org/bible/numbers/36.json"
+    }
+  ]
+}

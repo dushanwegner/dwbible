@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 28 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 28,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/proverbs/27.json",
+      "nextChapter": "https://latinprayer.org/latin/proverbs/29.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/28.json",
+      "german": "https://latinprayer.org/bibel/proverbs/28.json"
+    }
+  },
+  "citation": "Proverbs 28 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "fugit impius nemine persequente iustus autem quasi leo confidens absque terrore erit",
+      "citation": "Proverbs 28:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "propter peccata terrae multi principes eius et propter hominis sapientiam et horum scientiam quae dicuntur vita ducis longior erit",
+      "citation": "Proverbs 28:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "vir pauper calumnians pauperes similis imbri vehementi in quo paratur fames",
+      "citation": "Proverbs 28:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "qui derelinquunt legem laudant impium qui custodiunt succenduntur contra eum",
+      "citation": "Proverbs 28:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "viri mali non cogitant iudicium qui autem requirunt Dominum animadvertunt omnia",
+      "citation": "Proverbs 28:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "melior est pauper ambulans in simplicitate sua quam dives pravis itineribus",
+      "citation": "Proverbs 28:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui custodit legem filius sapiens est qui pascit comesatores confundit patrem suum",
+      "citation": "Proverbs 28:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "qui coacervat divitias usuris et fenore liberali in pauperes congregat eas",
+      "citation": "Proverbs 28:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "qui declinat aurem suam ne audiat legem oratio eius erit execrabilis",
+      "citation": "Proverbs 28:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui decipit iustos in via mala in interitu suo corruet et simplices possidebunt bona",
+      "citation": "Proverbs 28:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sapiens sibi videtur vir dives pauper autem prudens scrutabitur eum",
+      "citation": "Proverbs 28:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "in exultatione iustorum multa gloria regnantibus impiis ruinae hominum",
+      "citation": "Proverbs 28:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "qui abscondit scelera sua non dirigetur qui confessus fuerit et reliquerit ea misericordiam consequetur",
+      "citation": "Proverbs 28:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "beatus homo qui semper est pavidus qui vero mentis est durae corruet in malum",
+      "citation": "Proverbs 28:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "leo rugiens et ursus esuriens princeps impius super populum pauperem",
+      "citation": "Proverbs 28:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "dux indigens prudentia multos opprimet per calumniam qui autem odit avaritiam longi fient dies eius",
+      "citation": "Proverbs 28:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "hominem qui calumniatur animae sanguinem si usque ad lacum fugerit nemo sustentet",
+      "citation": "Proverbs 28:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "qui ambulat simpliciter salvus erit qui perversis ingreditur viis concidet semel",
+      "citation": "Proverbs 28:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "qui operatur terram suam saturabitur panibus qui sectatur otium replebitur egestate",
+      "citation": "Proverbs 28:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "vir fidelis multum laudabitur qui autem festinat ditari non erit innocens",
+      "citation": "Proverbs 28:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "qui cognoscit in iudicio faciem non facit bene iste et pro buccella panis deserit veritatem",
+      "citation": "Proverbs 28:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "vir qui festinat ditari et aliis invidet ignorat quod egestas superveniat ei",
+      "citation": "Proverbs 28:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "qui corripit hominem gratiam postea inveniet apud eum magis quam ille qui per linguae blandimenta decipit",
+      "citation": "Proverbs 28:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "qui subtrahit aliquid a patre suo et matre et dicit hoc non est peccatum particeps homicidae est",
+      "citation": "Proverbs 28:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "qui se iactat et dilatat iurgia concitat qui sperat in Domino saginabitur",
+      "citation": "Proverbs 28:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "qui confidit in corde suo stultus est qui autem graditur sapienter iste salvabitur",
+      "citation": "Proverbs 28:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "qui dat pauperi non indigebit qui despicit deprecantem sustinebit penuriam",
+      "citation": "Proverbs 28:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "cum surrexerint impii abscondentur homines cum illi perierint multiplicabuntur iusti",
+      "citation": "Proverbs 28:28 (Clementine Vulgate)"
+    }
+  ]
+}

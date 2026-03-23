@@ -1,0 +1,546 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 18 — 102 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 18,
+    "verseCount": 102,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/17.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/19.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/18.json",
+      "german": "https://latinprayer.org/bibel/psalms/18.json"
+    }
+  },
+  "citation": "Psalms 18 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "diligam te Domine fortitudo mea",
+      "citation": "Psalms 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in finem psalmus David",
+      "citation": "Psalms 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "diligam te Domine fortitudo mea",
+      "citation": "Psalms 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori canticum David",
+      "citation": "Psalms 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Dominus firmamentum meum et refugium meum et liberator meus Deus meus adiutor meus et sperabo in eum protector meus et cornu salutis meae et susceptor meus",
+      "citation": "Psalms 18:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Domine petra mea et robur meum et salvator meus Deus meus fortis meus sperabo in eo scutum meum et cornu salutis meae susceptor meus",
+      "citation": "Psalms 18:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "laudans invocabo Dominum et ab inimicis meis salvus ero",
+      "citation": "Psalms 18:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "laudatum invocabo Dominum et ab inimicis meis salvus ero",
+      "citation": "Psalms 18:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "circumdederunt me dolores mortis et torrentes iniquitatis conturbaverunt me",
+      "citation": "Psalms 18:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "circumdederunt me funes mortis et torrentes diabuli terruerunt me",
+      "citation": "Psalms 18:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "dolores inferni circumdederunt me praeoccupaverunt me laquei mortis",
+      "citation": "Psalms 18:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "funes inferi circumdederunt me praevenerunt me laquei mortis",
+      "citation": "Psalms 18:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "cum tribularer invocavi Dominum et ad Deum meum clamavi exaudivit de templo %sancto; suo vocem meam et clamor meus in conspectu eius introibit in aures eius",
+      "citation": "Psalms 18:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "in tribulatione mea invocabo Dominum et ad Deum meum clamabo exaudiet de templo suo vocem meam et clamor meus ante faciem eius veniet in aures eius",
+      "citation": "Psalms 18:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et commota est et contremuit terra et fundamenta montium conturbata sunt et commota sunt quoniam iratus est eis",
+      "citation": "Psalms 18:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "commota est et contremuit terra et fundamenta montium concussa sunt et conquassata quoniam iratus est",
+      "citation": "Psalms 18:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ascendit fumus in ira eius et ignis a facie eius exarsit carbones succensi sunt ab eo",
+      "citation": "Psalms 18:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ascendit fumus de furore eius et ignis ex ore eius devorans carbones incensi sunt ab eo",
+      "citation": "Psalms 18:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "inclinavit caelos et descendit et caligo sub pedibus eius",
+      "citation": "Psalms 18:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "inclinavit caelos et descendit et caligo sub pedibus eius",
+      "citation": "Psalms 18:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ascendit super cherubin et volavit volavit super pinnas ventorum",
+      "citation": "Psalms 18:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ascendit super cherub et volavit super pinnas venti",
+      "citation": "Psalms 18:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et posuit tenebras latibulum suum in circuitu eius tabernaculum eius tenebrosa aqua in nubibus aeris",
+      "citation": "Psalms 18:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "posuit tenebras latibulum suum in circuitu eius tabernaculum eius tenebrosas aquas in nubibus aetheris",
+      "citation": "Psalms 18:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "prae fulgore in conspectu eius nubes * eius; transierunt grando et carbones ignis",
+      "citation": "Psalms 18:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "prae fulgore in conspectu eius nubes transierunt grando et carbones ignis",
+      "citation": "Psalms 18:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et intonuit de caelo Dominus et Altissimus dedit vocem suam *grando et carbones ignis;",
+      "citation": "Psalms 18:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et intonuit de caelo Dominus et Altissimus dedit vocem suam grandinem et carbones ignis",
+      "citation": "Psalms 18:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et misit sagittas et dissipavit eos et fulgora multiplicavit et conturbavit eos",
+      "citation": "Psalms 18:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et emisit sagittas suas et dissipavit eos fulgora multiplicavit et conturbavit illos",
+      "citation": "Psalms 18:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et apparuerunt fontes aquarum et revelata sunt fundamenta orbis terrarum ab increpatione tua Domine ab inspiratione spiritus irae tuae",
+      "citation": "Psalms 18:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et apparuerunt effusiones aquarum et revelata sunt fundamenta orbis ab increpatione tua Domine ab inspiratione spiritus furoris tui",
+      "citation": "Psalms 18:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "misit de summo et accepit me adsumpsit me de aquis multis",
+      "citation": "Psalms 18:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "misit de alto et accepit me extraxit me de aquis multis",
+      "citation": "Psalms 18:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "eripiet me de inimicis meis fortissimis et ab his qui oderunt me quoniam confirmati sunt super me",
+      "citation": "Psalms 18:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "liberavit me de inimicis meis potentissimis et de his qui oderant me quoniam robustiores me erant",
+      "citation": "Psalms 18:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "praevenerunt me in die adflictionis meae et factus est Dominus protector meus",
+      "citation": "Psalms 18:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "praevenerunt me in die adflictionis meae et factus est Dominus firmamentum meum",
+      "citation": "Psalms 18:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et eduxit me in latitudinem salvum me faciet quoniam voluit me",
+      "citation": "Psalms 18:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et eduxit me in latitudinem liberavit me quia placuit ei",
+      "citation": "Psalms 18:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "%et; retribuet mihi Dominus secundum iustitiam meam %et; secundum puritatem manuum mearum retribuet mihi",
+      "citation": "Psalms 18:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "retribuit mihi Dominus secundum iustitiam meam et secundum munditiam manuum mearum reddidit mihi",
+      "citation": "Psalms 18:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quia custodivi vias Domini nec impie gessi a Deo meo",
+      "citation": "Psalms 18:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quia custodivi vias Domini et non egi impie a Deo meo",
+      "citation": "Psalms 18:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quoniam omnia iudicia eius in conspectu meo sunt et iustitias eius non reppuli a me",
+      "citation": "Psalms 18:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "omnia enim iudicia eius in conspectu meo et praecepta eius non amovi a me",
+      "citation": "Psalms 18:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et ero inmaculatus cum eo et observabo ab iniquitate mea",
+      "citation": "Psalms 18:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et fui inmaculatus cum eo et custodivi me ab iniquitate mea",
+      "citation": "Psalms 18:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et retribuet mihi Dominus secundum iustitiam meam et secundum puritatem manuum mearum in conspectu oculorum eius",
+      "citation": "Psalms 18:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et restituit Dominus mihi secundum iustitiam meam et secundum munditiam manuum mearum in conspectu oculorum eius",
+      "citation": "Psalms 18:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "cum sancto sanctus eris et cum viro innocente innocens eris",
+      "citation": "Psalms 18:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "cum sancto sanctus eris cum viro innocente innocenter ages",
+      "citation": "Psalms 18:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et cum electo electus eris et cum perverso perverteris",
+      "citation": "Psalms 18:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "cum electo electus eris et cum perverso pervertes",
+      "citation": "Psalms 18:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "quoniam tu populum humilem salvum facies et oculos superborum humiliabis",
+      "citation": "Psalms 18:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "quia tu populum pauperem salvabis et oculos excelsos humiliabis",
+      "citation": "Psalms 18:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "quoniam tu inluminas lucernam meam Domine Deus meus inluminas tenebras meas",
+      "citation": "Psalms 18:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "quia tu inluminabis lucernam meam Domine Deus meus inlustrabis tenebras meas",
+      "citation": "Psalms 18:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "quoniam in te eripiar a temptatione et in Deo meo transgrediar murum",
+      "citation": "Psalms 18:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "in te enim curram accinctus et in Deo meo transiliam murum",
+      "citation": "Psalms 18:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "Deus meus inpolluta via eius eloquia Domini igne examinata protector est omnium sperantium in eum",
+      "citation": "Psalms 18:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "Deus inmaculata via eius eloquium Domini igne examinatum scutum est omnium sperantium in se",
+      "citation": "Psalms 18:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "quoniam quis deus praeter Dominum et quis deus praeter Deum nostrum",
+      "citation": "Psalms 18:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "quis est deus praeter Dominum et quis fortis praeter Deum nostrum",
+      "citation": "Psalms 18:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "Deus qui praecingit me virtute et posuit inmaculatam viam meam",
+      "citation": "Psalms 18:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "Deus qui accingit me fortitudine et posuit inmaculatam viam meam",
+      "citation": "Psalms 18:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "qui perfecit pedes meos tamquam cervorum et super excelsa statuens me",
+      "citation": "Psalms 18:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "coaequans pedes meos cervis et super excelsa statuens me",
+      "citation": "Psalms 18:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "qui doces manus meas in proelium et posuisti arcum aereum brachia mea",
+      "citation": "Psalms 18:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "docens manus meas ad proelium et conponens quasi arcum aereum brachia mea",
+      "citation": "Psalms 18:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et dedisti mihi protectionem salutis tuae et dextera tua suscepit me et disciplina tua correxit me in finem et disciplina tua ipsa me docebit",
+      "citation": "Psalms 18:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "dedisti mihi clipeum salutis tuae et dextera tua confortavit me et mansuetudo tua multiplicavit me",
+      "citation": "Psalms 18:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "dilatasti gressus meos subtus me et non sunt infirmata vestigia mea",
+      "citation": "Psalms 18:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "dilatabis gressus meos subtus me et non deficient tali mei",
+      "citation": "Psalms 18:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "persequar inimicos meos et conprehendam illos et non convertar donec deficiant",
+      "citation": "Psalms 18:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "persequar inimicos meos et adprehendam et non revertar donec consumam eos",
+      "citation": "Psalms 18:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "confringam illos nec poterunt stare cadent subtus pedes meos",
+      "citation": "Psalms 18:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "caedam eos et non poterunt surgere cadent sub pedibus meis",
+      "citation": "Psalms 18:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et praecinxisti me virtute ad bellum subplantasti insurgentes in me subtus me",
+      "citation": "Psalms 18:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "accinxisti me fortitudine ad proelium incurvabis resistentes mihi sub me",
+      "citation": "Psalms 18:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "et inimicos meos dedisti mihi dorsum et odientes me disperdisti",
+      "citation": "Psalms 18:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "inimicorum meorum dedisti mihi dorsum et odientes me disperdidisti",
+      "citation": "Psalms 18:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "clamaverunt nec erat qui salvos faceret ad Dominum nec exaudivit eos",
+      "citation": "Psalms 18:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "clamabunt et non erit qui salvet ad Dominum et non exaudiet eos",
+      "citation": "Psalms 18:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et comminuam illos ut pulverem ante faciem venti ut lutum platearum delebo eos",
+      "citation": "Psalms 18:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "delebo eos ut pulverem ante faciem venti ut lutum platearum proiciam eos",
+      "citation": "Psalms 18:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "eripe me de contradictionibus populi constitues me in caput gentium",
+      "citation": "Psalms 18:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "salvabis me a contradictionibus populi pones me in caput gentium",
+      "citation": "Psalms 18:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "populus quem non cognovi servivit mihi in auditu auris oboedivit mihi",
+      "citation": "Psalms 18:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "populus quem ignoravi serviet mihi auditione auris oboediet mihi",
+      "citation": "Psalms 18:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "filii alieni mentiti sunt mihi filii alieni inveterati sunt et claudicaverunt a semitis suis",
+      "citation": "Psalms 18:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "filii alieni mentientur mihi filii alieni defluent et contrahentur in angustiis suis",
+      "citation": "Psalms 18:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "vivit Dominus et benedictus Deus meus et exaltetur Deus salutis meae",
+      "citation": "Psalms 18:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "vivit Dominus et benedictus Deus meus et exaltabitur Deus salutis meae",
+      "citation": "Psalms 18:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "Deus qui dat vindictas mihi et subdidit populos sub me liberator meus de gentibus iracundis",
+      "citation": "Psalms 18:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "Deus qui das vindictas mihi et congregas populos sub me qui servas me ab inimicis meis",
+      "citation": "Psalms 18:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "et ab insurgentibus in me exaltabis me a viro iniquo eripies me",
+      "citation": "Psalms 18:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "et a resistentibus mihi elevas me a viro iniquo libera me",
+      "citation": "Psalms 18:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "propterea confitebor tibi in nationibus Domine et psalmum dicam nomini tuo",
+      "citation": "Psalms 18:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "propterea confitebor tibi in gentibus Domine et nomini tuo cantabo",
+      "citation": "Psalms 18:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "magnificans salutes regis eius et faciens misericordiam christo suo David et semini eius usque in saeculum",
+      "citation": "Psalms 18:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "magnificanti salutes regis sui et facienti misericordiam christo suo David et semini eius usque in aeternum",
+      "citation": "Psalms 18:50 (Clementine Vulgate)"
+    }
+  ]
+}

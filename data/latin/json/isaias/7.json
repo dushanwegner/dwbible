@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 7 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 7,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/6.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/7.json",
+      "german": "https://latinprayer.org/bibel/isaias/7.json"
+    }
+  },
+  "citation": "Isaiah 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et factum est in diebus Ahaz filii Ioatham filii Oziae regis Iuda ascendit Rasin rex Syriae et Phacee filius Romeliae rex Israhel in Hierusalem ad proeliandum contra eam et non potuerunt debellare eam",
+      "citation": "Isaiah 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et nuntiaverunt domui David dicentes requievit Syria super Ephraim et commotum est cor eius et cor populi eius sicut moventur ligna silvarum a facie venti",
+      "citation": "Isaiah 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dixit Dominus ad Isaiam egredere in occursum Ahaz tu et qui derelictus est Iasub filius tuus ad extremum aquaeductus piscinae superioris in via agri Fullonis",
+      "citation": "Isaiah 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dices ad eum vide ut sileas noli timere et cor tuum ne formidet a duobus caudis titionum fumigantium istorum in ira furoris Rasin et Syriae et filii Romeliae",
+      "citation": "Isaiah 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "eo quod consilium inierit contra te Syria malum Ephraim et filius Romeliae dicentes",
+      "citation": "Isaiah 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ascendamus ad Iudam et suscitemus eum et avellamus eum ad nos et ponamus regem in medio eius filium Tabeel",
+      "citation": "Isaiah 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "haec dicit Dominus Deus non stabit et non erit istud",
+      "citation": "Isaiah 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sed caput Syriae Damascus et caput Damasci Rasin et adhuc sexaginta et quinque anni et desinet Ephraim esse populus",
+      "citation": "Isaiah 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et caput Ephraim Samaria et caput Samariae filius Romeliae si non credideritis non permanebitis",
+      "citation": "Isaiah 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et adiecit Dominus loqui ad Ahaz dicens",
+      "citation": "Isaiah 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "pete tibi signum a Domino Deo tuo in profundum inferni sive in excelsum supra",
+      "citation": "Isaiah 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et dixit Ahaz non petam et non temptabo Dominum",
+      "citation": "Isaiah 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et dixit audite ergo domus David numquid parum vobis est molestos esse hominibus quia molesti estis et Deo meo",
+      "citation": "Isaiah 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "propter hoc dabit Dominus ipse vobis signum ecce virgo concipiet et pariet filium et vocabitis nomen eius Emmanuhel",
+      "citation": "Isaiah 7:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "butyrum et mel comedet ut sciat reprobare malum et eligere bonum",
+      "citation": "Isaiah 7:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quia antequam sciat puer reprobare malum et eligere bonum derelinquetur terra quam tu detestaris a facie duum regum suorum",
+      "citation": "Isaiah 7:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "adducet Dominus super te et super populum tuum et super domum patris tui dies qui non venerunt a diebus separationis Ephraim a Iuda cum rege Assyriorum",
+      "citation": "Isaiah 7:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et erit in die illa sibilabit Dominus muscae quae est in extremo fluminum Aegypti et api quae est in terra Assur",
+      "citation": "Isaiah 7:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et venient et requiescent omnes in torrentibus vallium et cavernis petrarum et in omnibus frutectis et in universis foraminibus",
+      "citation": "Isaiah 7:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in die illa radet Dominus in novacula conducta in his qui trans Flumen sunt in rege Assyriorum caput et pilos pedum et barbam universam",
+      "citation": "Isaiah 7:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et erit in die illa nutriet homo vaccam boum et duas oves",
+      "citation": "Isaiah 7:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et prae ubertate lactis comedet butyrum butyrum enim et mel manducabit omnis qui relictus fuerit in medio terrae",
+      "citation": "Isaiah 7:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et erit in die illa omnis locus ubi fuerint mille vites mille argenteis et in spinas et in vepres erunt",
+      "citation": "Isaiah 7:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "cum sagittis et arcu ingredientur illuc vepres enim et spinae erunt in universa terra",
+      "citation": "Isaiah 7:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et omnes montes qui in sarculo sarientur non veniet illuc terror spinarum et veprium et erit in pascua bovis et in conculcationem pecoris",
+      "citation": "Isaiah 7:25 (Clementine Vulgate)"
+    }
+  ]
+}

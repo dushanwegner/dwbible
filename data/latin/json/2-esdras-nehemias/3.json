@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Nehemiah, Chapter 3 — 19 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Nehemiah",
+      "slug": "2-esdras-nehemias",
+      "testament": "OT",
+      "order": 16,
+      "totalChapters": 3
+    },
+    "chapter": 3,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-esdras-nehemias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-esdras-nehemias/2.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-esdras-nehemias/3.json",
+      "german": "https://latinprayer.org/bibel/2-esdras-nehemias/3.json"
+    }
+  },
+  "citation": "Nehemiah 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et surrexit Eliasib sacerdos magnus et fratres eius sacerdotes et aedificaverunt portam Gregis ipsi sanctificaverunt eam et statuerunt valvas eius et usque ad turrem centum cubitorum sanctificaverunt eam usque ad turrem Ananehel",
+      "citation": "Nehemiah 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et iuxta eum aedificaverunt viri Hiericho et iuxta eum aedificavit Zecchur filius Amri",
+      "citation": "Nehemiah 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "portam autem Piscium aedificaverunt filii Asanaa ipsi texerunt eam et statuerunt valvas eius et seras et vectes et iuxta eos aedificavit Marimuth filius Uriae filii Accus",
+      "citation": "Nehemiah 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et iuxta eos aedificavit Mosollam filius Barachiae filii Mesezebel et iuxta eos aedificavit Sadoc filius Baana",
+      "citation": "Nehemiah 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et iuxta eos aedificaverunt Thecueni optimates autem eorum non subposuerunt colla sua in opere Domini sui",
+      "citation": "Nehemiah 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et portam Veterem aedificaverunt Ioiada filius Fasea et Mosollam filius Besodia ipsi texerunt eam et statuerunt valvas eius et seras et vectes",
+      "citation": "Nehemiah 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et iuxta eos aedificavit Meletias Gabaonites et Iadon Meronathites viri de Gabaon et Maspha pro duce qui erat in regione trans Flumen",
+      "citation": "Nehemiah 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et iuxta eum aedificavit Ezihel filius Araia aurifex et iuxta eum aedificavit Anania filius pigmentarii et dimiserunt Hierusalem usque ad murum plateae latioris",
+      "citation": "Nehemiah 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et iuxta eum aedificavit Rafaia filius Ahur princeps vici Hierusalem",
+      "citation": "Nehemiah 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et iuxta eos aedificavit Ieiada filius Aromath contra domum suam et iuxta eum aedificavit Attus filius Asebeniae",
+      "citation": "Nehemiah 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "mediam partem vici aedificavit Melchias filius Erem et Asub filius Phaethmoab et turrem Furnorum",
+      "citation": "Nehemiah 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "iuxta eum aedificavit Sellum filius Alloes princeps mediae partis vici Hierusalem ipse et filiae eius",
+      "citation": "Nehemiah 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et portam Vallis aedificavit Anun et habitatores Zanoe ipsi aedificaverunt eam et statuerunt valvas eius et seras et vectes et mille cubitos in muro usque ad portam Sterquilinii",
+      "citation": "Nehemiah 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et portam Sterquilinii aedificavit Melchias filius Rechab princeps vici Bethaccharem ipse aedificavit eam et statuit valvas eius et seras et vectes",
+      "citation": "Nehemiah 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et portam Fontis aedificavit Sellum filius Choloozai princeps pagi Maspha ipse aedificavit eam et texit et statuit valvas eius et seras et vectes et muros piscinae Siloae in hortum regis et usque ad gradus qui descendunt de civitate David",
+      "citation": "Nehemiah 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "post eum aedificavit Neemias filius Azboc princeps dimidiae partis vici Bethsur usque contra sepulchra David et usque ad piscinam quae grandi opere constructa est et usque ad domum Fortium",
+      "citation": "Nehemiah 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "post eum aedificaverunt Levitae Reum filius Benni post eum aedificavit Asebias princeps dimidiae partis vici Ceilae in vico suo",
+      "citation": "Nehemiah 3:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "post eum aedificaverunt fratres eorum Behui filius Enadad princeps dimidiae partis Ceila",
+      "citation": "Nehemiah 3:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et aedificavit iuxta eum Azer filius Iosue princeps Maspha mensuram secundam contra ascensum firmissimi anguli",
+      "citation": "Nehemiah 3:19 (Clementine Vulgate)"
+    }
+  ]
+}

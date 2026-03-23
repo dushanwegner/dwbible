@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Maleachi — 3 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Maleachi",
+      "slug": "malachias",
+      "testament": "OT",
+      "order": 44,
+      "totalChapters": 3
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/malachias/index.json",
+      "latin": "https://latinprayer.org/latin/malachias/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bibel/malachias/1",
+      "jsonUrl": "https://latinprayer.org/bibel/malachias/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bibel/malachias/2",
+      "jsonUrl": "https://latinprayer.org/bibel/malachias/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/bibel/malachias/3",
+      "jsonUrl": "https://latinprayer.org/bibel/malachias/3.json"
+    }
+  ]
+}

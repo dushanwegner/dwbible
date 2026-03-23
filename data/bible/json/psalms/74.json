@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 74 — 24 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 74,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/73.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/75.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/74.json",
+      "german": "https://latinprayer.org/bibel/psalms/74.json"
+    }
+  },
+  "citation": "Psalms 74 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Understanding for Asaph. O God, why hast thou cast us off unto the end: why is thy wrath enkindled against the sheep of thy pasture?",
+      "citation": "Psalms 74:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, corrupt not, a psalm of a canticle for Asaph.",
+      "citation": "Psalms 74:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Remember thy congregation, which thou hast possessed from the beginning. The sceptre of thy inheritance which thou hast redeemed: mount Sion in which thou hast dwelt.",
+      "citation": "Psalms 74:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Lift up thy hands against their pride unto the end; see what things the enemy hath done wickedly in the sanctuary.",
+      "citation": "Psalms 74:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And they that hate thee have made their boasts, in the midst of thy solemnity. They have set up their ensigns for signs,",
+      "citation": "Psalms 74:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And they knew not both in the going out and on the highest top. As with axes in a wood of trees,",
+      "citation": "Psalms 74:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "They have cut down at once the gates thereof, with axe and hatchet they have brought it down.",
+      "citation": "Psalms 74:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "They have set fire to thy sanctuary: they have defiled the dwelling place of thy name on the earth.",
+      "citation": "Psalms 74:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "They said in their heart, the whole kindred of them together: Let us abolish all the festival days of God from the land.",
+      "citation": "Psalms 74:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Our signs we have not seen, there is now no prophet: and he will know us no more.",
+      "citation": "Psalms 74:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "How long, O God, shall the enemy reproach: is the adversary to provoke thy name for ever?",
+      "citation": "Psalms 74:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Why dost thou turn away thy hand: and thy right hand out of the midst of thy bosom for ever?",
+      "citation": "Psalms 74:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "But God is our king before ages: he hath wrought salvation in the midst of the earth.",
+      "citation": "Psalms 74:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thou by thy strength didst make the sea firm: thou didst crush the heads of the dragons in the waters.",
+      "citation": "Psalms 74:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Thou hast broken the heads of the dragon: thou hast given him to be meat for the people of the Ethiopians.",
+      "citation": "Psalms 74:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Thou hast broken up the fountains and the torrents: thou hast dried up the Ethan rivers.",
+      "citation": "Psalms 74:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Thine is the day, and thine is the night: thou hast made the morning light and the sun.",
+      "citation": "Psalms 74:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Thou hast made all the borders of the earth: the summer and the spring were formed by thee.",
+      "citation": "Psalms 74:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Remember this, the enemy hath reproached the Lord: and a foolish people hath provoked thy name.",
+      "citation": "Psalms 74:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Deliver not up to beasts the souls that confess to thee: and forget not to the end the souls of thy poor.",
+      "citation": "Psalms 74:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Have regard to thy covenant: for they that are the obscure of the earth have been filled with dwellings of iniquity.",
+      "citation": "Psalms 74:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Let not the humble be turned away with confusion: the poor and needy shall praise thy name.",
+      "citation": "Psalms 74:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Arise, O God, judge thy own cause: remember thy reproaches with which the foolish man hath reproached thee all the day.",
+      "citation": "Psalms 74:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Forget not the voices of thy enemies: the pride of them that hate thee ascendeth continually.",
+      "citation": "Psalms 74:23 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 38 — 23 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 38,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/37.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/39.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/38.json",
+      "latin": "https://latinprayer.org/latin/psalms/38.json"
+    }
+  },
+  "citation": "Psalmen 38 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Psalm von David, bei Darbringung des Duftopfers.</em>",
+      "citation": "Psalmen 38:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "HERR, nicht in deinem Zorne strafe mich, und nicht in deinem Ingrimm züchtige mich!",
+      "citation": "Psalmen 38:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn deine Pfeile sind in mich eingedrungen, und deine Hand liegt schwer auf mir:",
+      "citation": "Psalmen 38:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "nichts ist gesund an meinem Leib ob deinem Zürnen, nichts heil an meinen Gliedern ob meiner Sünde.",
+      "citation": "Psalmen 38:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn meine Missetaten schlagen mir über dem Haupt zusammen; wie eine schwere Last sind sie mir zu schwer geworden.",
+      "citation": "Psalmen 38:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Es faulen, es eitern meine Wunden infolge meiner Torheit.",
+      "citation": "Psalmen 38:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ich bin gekrümmt, tief niedergebeugt; den ganzen Tag geh’ ich trauernd einher;",
+      "citation": "Psalmen 38:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "denn meine Lenden sind voll von Entzündung, und nichts ist unversehrt an meinem Leibe.",
+      "citation": "Psalmen 38:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Erschöpft bin ich und ganz zerschlagen, ich schreie auf infolge des Stöhnens meines Herzens.",
+      "citation": "Psalmen 38:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "O Allherr, all mein Verlangen ist dir bekannt, und meine Seufzer sind dir nicht verborgen.",
+      "citation": "Psalmen 38:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Mein Herz pocht stürmisch, meine Kraft hat mich verlassen, und das Licht meiner Augen, auch das ist dahin!",
+      "citation": "Psalmen 38:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Meine Freunde und Genossen stehn abseits von meinem Elend, und meine nächsten Verwandten halten sich fern.",
+      "citation": "Psalmen 38:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Die nach dem Leben mir trachten, legen mir Schlingen, und die mein Unglück suchen, verabreden Unheil und sinnen auf Trug den ganzen Tag.",
+      "citation": "Psalmen 38:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Doch ich bin wie ein Tauber, höre es nicht, und bin wie ein Stummer, der den Mund nicht auftut;",
+      "citation": "Psalmen 38:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "ja, ich bin wie einer, der nicht hören kann und in dessen Mund keine Widerrede ist;",
+      "citation": "Psalmen 38:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "denn auf dich, HERR, warte ich: du wirst antworten, o Allherr, mein Gott;",
+      "citation": "Psalmen 38:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "denn ich sage: »Daß sie nur nicht über mich frohlocken, nur nicht beim Wanken meines Fußes gegen mich großtun!«",
+      "citation": "Psalmen 38:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Denn nahe bin ich am Zusammenbrechen, und mein Schmerz ist mir allezeit gegenwärtig.",
+      "citation": "Psalmen 38:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Ach! Ich bekenne meine Schuld, bin bekümmert ob meiner Sünde!",
+      "citation": "Psalmen 38:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Dagegen die ohne Grund mich befeinden, sind stark, und zahlreich sind, die ohn’ Ursach’ mich hassen,",
+      "citation": "Psalmen 38:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "und solche, die mir Gutes mit Bösem vergelten, sind meine Widersacher, weil fest am Guten ich halte.",
+      "citation": "Psalmen 38:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Verlaß mich nicht, o HERR, mein Gott, sei nicht ferne von mir!",
+      "citation": "Psalmen 38:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Eile zu meinem Schutz herbei, o Allherr, meine Rettung!",
+      "citation": "Psalmen 38:23 (Menge)"
+    }
+  ]
+}

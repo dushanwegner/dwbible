@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judith, Chapter 7 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "order": 18,
+      "totalChapters": 17
+    },
+    "chapter": 7,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/judith/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/judith/6.json",
+      "nextChapter": "https://latinprayer.org/latin/judith/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judith/7.json",
+      "german": "https://latinprayer.org/bibel/judith/7.json"
+    }
+  },
+  "citation": "Judith 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Holofernis autem altera die praecepit exercitibus suis ut ascenderent contra Bethuliam",
+      "citation": "Judith 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "erant autem pedites bellatorum centum viginti milia et equites viginti duo milia praeter praeparationes virorum illorum quos occupaverat captivitas et adducti fuerant de provinciis et urbibus universae iuventutis",
+      "citation": "Judith 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "omnes pariter paraverunt se ad pugnam contra filios Israhel et venerunt per crepidinem montis usque ad apicem qui respicit super Dothain a loco qui dicitur Belma usque Chelmo qui est contra Hesdraelon",
+      "citation": "Judith 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "filii autem Israhel ut viderunt multitudinem illorum prostraverunt se super terram mittentes cinerem super capita sua unianimes orantes ut Deus Israhel misericordiam suam ostenderet super populum suum",
+      "citation": "Judith 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et adsumentes arma sua bellica sederunt per loca quae angusti itineris tramitem dirigunt inter montuosa et erant custodientes ea tota die et nocte",
+      "citation": "Judith 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "porro Holofernis dum circuit per gyrum repperit quod fons qui influebat aquaeductum illorum a parte australi extra civitatem dirigeret incidi praecepit aquaeductum eorum",
+      "citation": "Judith 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "erant tamen non longe a muris fontes ex quibus furtim videbantur haurire aquam ad refocilandum potius quam ad potandum",
+      "citation": "Judith 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sed filii Ammon et Moab accesserunt ad Holofernem dicentes filii Israhel non in lancea nec in sagitta confidunt sed montes defendunt illos et muniunt illos colles in praecipitio constituti",
+      "citation": "Judith 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ut ergo sine congressione pugnae possis superare eos pone custodes fontium ut non hauriant ex eis et sine gladio interficies eos vel certe fatigati tradent civitatem suam quam putant civitatem montibus positam superari non posse",
+      "citation": "Judith 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et placuerunt verba haec coram Holoferne et coram omnibus satellitibus eius et constituit per gyrum centenarios per singulos fontes",
+      "citation": "Judith 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "cumque ista custodia per dies viginti fuisset expleta defecerunt cisternae et collectiones aquarum omnibus inhabitantibus in Bethuliam ita ut non esset intra civitatem unde satiarentur vel una die quoniam ad mensuram dabatur populis aqua cotidie",
+      "citation": "Judith 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "tunc ad Oziam congregati omnes viri feminaeque iuvenes et parvuli simul omnes una voce",
+      "citation": "Judith 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "dixerunt iudicet Deus inter nos et te quoniam fecisti in nos mala nolentes loqui pacifice cum Assyriis et propter hoc vendidit nos Deus in manibus eorum",
+      "citation": "Judith 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et ideo non est qui adiuvet cum prosternamur ante oculos eorum in siti et perditione magna",
+      "citation": "Judith 7:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et nunc congregate universos qui in civitate sunt ut sponte nos tradamus omnes populo Holofernis",
+      "citation": "Judith 7:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "melius est enim ut captivi benedicamus Deum viventes quam moriamur et simus obprobrium omni carni cum videamus uxores nostras et infantes nostros mori ante oculos nostros",
+      "citation": "Judith 7:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "contestamur hodie caelum et terram et Deum patrum nostrorum qui ulciscitur nos secundum peccata nostra ut iam tradatis civitatem in manu militiae Holofernis et sit finis noster brevis in ore gladii qui longior efficitur in ariditate sitis",
+      "citation": "Judith 7:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et cum haec dixissent factus est fletus et ululatus magnus in ecclesia omnibus et per multas horas una voce clamaverunt ad Deum dicentes",
+      "citation": "Judith 7:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "peccavimus cum patribus nostris iniuste egimus iniquitatem fecimus",
+      "citation": "Judith 7:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "tu quia pius es miserere nostri aut in tuo flagello vindica iniquitates nostras et noli tradere confitentes te populo qui ignorat te",
+      "citation": "Judith 7:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "ut non dicant inter gentes ubi est Deus eorum",
+      "citation": "Judith 7:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et cum fatigati his clamoribus et his fletibus lassati siluissent",
+      "citation": "Judith 7:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "exsurgens Ozias infusus lacrimis dixit aequo animo estote fratres et hos quinque dies expectemus a Domino misericordiam",
+      "citation": "Judith 7:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "forsitan enim indignationem suam abscidet et dat gloriam nomini suo",
+      "citation": "Judith 7:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "si autem transactis quinque diebus non venerit adiutorium faciemus haec verba quae locuti estis",
+      "citation": "Judith 7:25 (Clementine Vulgate)"
+    }
+  ]
+}

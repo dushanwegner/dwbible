@@ -1,0 +1,271 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Esra Nehemia, Chapter 12 — 47 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Esra Nehemia",
+      "slug": "2-esdras-nehemias",
+      "testament": "OT",
+      "order": 16,
+      "totalChapters": 13
+    },
+    "chapter": 12,
+    "verseCount": 47,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-esdras-nehemias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/2-esdras-nehemias/11.json",
+      "nextChapter": "https://latinprayer.org/bibel/2-esdras-nehemias/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-esdras-nehemias/12.json",
+      "latin": "https://latinprayer.org/latin/2-esdras-nehemias/12.json"
+    }
+  },
+  "citation": "2 Esra Nehemia 12 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Folgende sind die Priester und die Leviten, die mit Serubbabel, dem Sohne Sealthiels, und mit Jesua (nach Jerusalem) hinaufgezogen waren: Seraja, Jeremia, Esra,",
+      "citation": "2 Esra Nehemia 12:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Amarja, Malluch, Hattus,",
+      "citation": "2 Esra Nehemia 12:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Sechanja, Harim, Meremoth,",
+      "citation": "2 Esra Nehemia 12:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Iddo, Ginnethoi, Abia,",
+      "citation": "2 Esra Nehemia 12:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Mijjamin, Maadja, Bilga,",
+      "citation": "2 Esra Nehemia 12:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Semaja und Jojarib, Jedaja,",
+      "citation": "2 Esra Nehemia 12:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Sallu, Amok, Hilkija, Jedaja. Das waren die Häupter der Priester und ihrer Genossen zur Zeit Jesuas. –",
+      "citation": "2 Esra Nehemia 12:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Die Leviten aber waren: Jesua, Binnui, Kadmiel, Serebja, Juda, Matthanja; dieser und seine Genossen leiteten den Dankgesang,",
+      "citation": "2 Esra Nehemia 12:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "während ihre Genossen Bakbukja und Unni nach den Dienstabteilungen ihnen gegenüberstanden.",
+      "citation": "2 Esra Nehemia 12:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Jesua war der Vater Jojakims, Jojakim der Vater Eljasibs, Eljasib der Vater Jojadas,",
+      "citation": "2 Esra Nehemia 12:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Jojada der Vater Johanans, Johanan der Vater Jadduas.",
+      "citation": "2 Esra Nehemia 12:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Zur Zeit Jojakims aber waren folgende Priester die Häupter der Familien: von der Familie Seraja: Meraja, von Jeremia: Hananja,",
+      "citation": "2 Esra Nehemia 12:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "von Esra: Mesullam, von Amarja: Johanan,",
+      "citation": "2 Esra Nehemia 12:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "von Malluch: Jonathan, von Sechanja: Joseph,",
+      "citation": "2 Esra Nehemia 12:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "von Harim: Adna, von Merajoth : Helkai,",
+      "citation": "2 Esra Nehemia 12:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "von Iddo: Sacharja, von Ginneton: Mesullam,",
+      "citation": "2 Esra Nehemia 12:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "von Abija: Sichri, von Minjamin: …, von Moadja: Piltai,",
+      "citation": "2 Esra Nehemia 12:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "von Bilga: Sammua, von Semaja: Jonathan,",
+      "citation": "2 Esra Nehemia 12:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "von Jojarib: Matthenai, von Jedaja: Ussi,",
+      "citation": "2 Esra Nehemia 12:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "von Sallu: Kallai, von Amok: Eber,",
+      "citation": "2 Esra Nehemia 12:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "von Hilkija: Hasabja, von Jedaja: Nethaneel.",
+      "citation": "2 Esra Nehemia 12:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Was die Leviten betrifft, so sind ihre Familienhäupter zur Zeit Eljasibs, Jojadas, Johanans und Jadduas aufgezeichnet worden, von den Priestern aber unter der Regierung des Perserkönigs Darius. –",
+      "citation": "2 Esra Nehemia 12:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Von den Leviten sind die Familienhäupter im Buch der Chronik aufgezeichnet, und zwar bis auf die Zeit Johanans, des Sohnes Eljasibs.",
+      "citation": "2 Esra Nehemia 12:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Die Häupter der Leviten waren: Hasabja, Serebja und Jesua, der Sohn Kadmiels, und ihre Genossen, die ihnen gegenüberstanden, um die Lob- und Danklieder zu singen nach der Anordnung Davids, des Mannes Gottes, eine Abteilung neben der andern.",
+      "citation": "2 Esra Nehemia 12:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Matthanja und Bakbukja, Obadja, Mesullam, Talmon und Akkub hielten als Torhüter Wache bei den Vorratshäusern an den Toren.",
+      "citation": "2 Esra Nehemia 12:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Diese waren Zeitgenossen Jojakims, des Sohnes Jesuas, des Sohnes Jozadaks, und Zeitgenossen des Statthalters Nehemia und des schriftgelehrten Priesters Esra.",
+      "citation": "2 Esra Nehemia 12:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Bei Gelegenheit der Einweihung der Mauer Jerusalems aber suchte man die Leviten zu veranlassen, aus allen ihren Wohnorten nach Jerusalem zu kommen, damit die Einweihung durch ein Freudenfest begangen würde mit Dankliedern und Lobgesängen, mit Zimbeln, Harfen und Zithern.",
+      "citation": "2 Esra Nehemia 12:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Da versammelten sich die zu den (Tempel-)- Sängern Gehörenden sowohl aus der ganzen Umgegend von Jerusalem als auch aus den Gehöften von Netopha",
+      "citation": "2 Esra Nehemia 12:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "sowie aus Beth-Gilgal und aus den Feldmarken von Geba und Asmaweth; die Sänger hatten sich nämlich Gehöfte in der Umgegend von Jerusalem gebaut.",
+      "citation": "2 Esra Nehemia 12:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Nachdem nun die Priester und die Leviten sich selbst gereinigt und dann auch das Volk sowie die Tore und die Mauer gereinigt hatten,",
+      "citation": "2 Esra Nehemia 12:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "ließ ich die Obersten Judas oben auf die Mauer steigen und stellte zwei große Dankchöre und Festzüge auf, von denen der eine oben auf der Mauer südwärts zum Misttor hin zog,",
+      "citation": "2 Esra Nehemia 12:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "und hinter ihnen her schritt Hosaja mit der einen Hälfte der Obersten von Juda,",
+      "citation": "2 Esra Nehemia 12:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "nämlich Asarja, Esra und Mesullam,",
+      "citation": "2 Esra Nehemia 12:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Juda, Benjamin, Semaja und Jeremia;",
+      "citation": "2 Esra Nehemia 12:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "ferner einige Mitglieder der Priesterschaft mit Trompeten, nämlich Sacharja, der Sohn Jonathans, des Sohnes Semajas, des Sohnes Matthanjas, des Sohnes Michajas, des Sohnes Sakkurs, des Sohnes Asaphs,",
+      "citation": "2 Esra Nehemia 12:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "und seine Genossen Semaja und Asareel, Milalai, Gilalai, Maai, Nethaneel und Juda, Hanani, mit den Tonwerkzeugen Davids, des Mannes Gottes; und der Schriftgelehrte Esra ging an ihrer Spitze.",
+      "citation": "2 Esra Nehemia 12:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "Weiter zogen sie zum Quelltor hin, stiegen dann geradeaus auf den Stufen der Davidsstadt den Aufgang zur Mauer hinauf und dann oberhalb des Palastes Davids bis zum Wassertor im Osten.",
+      "citation": "2 Esra Nehemia 12:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "Der zweite Festchor aber zog nach der entgegengesetzten Seite, und ich selbst ging hinter ihm her mit der andern Hälfte (der Obersten) des Volkes oben auf der Mauer hin, am Ofenturm vorüber bis an die Breite Mauer,",
+      "citation": "2 Esra Nehemia 12:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "dann am Tor Ephraim und dem Tor der Altstadt, dem Fischtor, dem Turm Hananeel und dem Turm Mea vorüber bis an das Schaftor; am Gefängnistor machten sie Halt.",
+      "citation": "2 Esra Nehemia 12:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "Dann nahmen beide Festchöre beim Hause Gottes Aufstellung, auch ich und die eine Hälfte der Obersten mit mir.",
+      "citation": "2 Esra Nehemia 12:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "Hierauf bliesen die Priester Eljakim, Maaseja, Minjamin, Michaja, Eljoenai, Sacharja und Hananja mit Trompeten,",
+      "citation": "2 Esra Nehemia 12:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "und Maaseja, Semaja, Eleasar, Ussi, Johanan, Malkija, Elam und Eser, die Sänger, trugen unter Leitung Jisrahjas Lieder vor.",
+      "citation": "2 Esra Nehemia 12:42 (Menge)"
+    },
+    {
+      "verse": 43,
+      "text": "Alsdann brachte man an diesem Tage große Schlachtopfer dar und gab sich der Freude hin, denn Gott der HERR hatte ihnen eine große Freude bereitet; und auch die Frauen und Kinder überließen sich der Freude, so daß man den Jubel Jerusalems bis in weite Ferne hörte.",
+      "citation": "2 Esra Nehemia 12:43 (Menge)"
+    },
+    {
+      "verse": 44,
+      "text": "An jenem Tage bestellte man auch Männer zu Aufsehern über die Zellen, die zu Vorratskammern für die Abgaben, für die Erstlinge und die Zehnten, bestimmt waren, um in ihnen nach den Feldmarken der einzelnen Ortschaften die gesetzlichen Abgaben für die Priester und die Leviten einzusammeln; denn die Judäer hatten ihre Freude an den Priestern und Leviten, die für den heiligen Dienst bestellt waren;",
+      "citation": "2 Esra Nehemia 12:44 (Menge)"
+    },
+    {
+      "verse": 45,
+      "text": "und diese besorgten in der Tat den Dienst ihres Gottes und die Beobachtung der Reinigungsvorschriften gewissenhaft, ebenso auch die Sänger und Torhüter, nach der Anordnung Davids und seines Sohnes Salomo.",
+      "citation": "2 Esra Nehemia 12:45 (Menge)"
+    },
+    {
+      "verse": 46,
+      "text": "Denn schon vor alters, zur Zeit Davids und Asaphs, hatte es Vorsteher der Sänger sowie Lobgesänge und Danklieder für Gott gegeben.",
+      "citation": "2 Esra Nehemia 12:46 (Menge)"
+    },
+    {
+      "verse": 47,
+      "text": "Ganz Israel aber entrichtete zur Zeit Serubbabels und zur Zeit Nehemias die Abgaben für die Sänger und die Torhüter, die diesen tagtäglich gebührten; sie lieferten aber die (vorgeschriebenen) heiligen Gaben an die Leviten ab, und die Leviten ließen die Weihegaben den Nachkommen Aarons zukommen.",
+      "citation": "2 Esra Nehemia 12:47 (Menge)"
+    }
+  ]
+}

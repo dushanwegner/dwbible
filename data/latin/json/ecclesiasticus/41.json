@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 41 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 41,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/40.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/42.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/41.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/41.json"
+    }
+  },
+  "citation": "Sirach 41 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "o mors quam amara est memoria tua homini pacem habenti in substantiis suis",
+      "citation": "Sirach 41:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "viro quieto et cuius viae directae sunt in omnibus et adhuc valenti accipere cibum",
+      "citation": "Sirach 41:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "o mors bonum est iudicium tuum homini indigenti et qui minoratur viribus",
+      "citation": "Sirach 41:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "defecto aetate et cui de omnibus cura est et incredibili qui perdit sapientiam",
+      "citation": "Sirach 41:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "noli metuere iudicium mortis memento quae ante te fuerunt et quae superventura sunt tibi hoc iudicium a Domino omni carni",
+      "citation": "Sirach 41:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et quid superveniet in beneplacita Altissimi sive decem sive centum sive mille anni",
+      "citation": "Sirach 41:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "non est enim in inferno accusatio vitae",
+      "citation": "Sirach 41:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "filii abominationum fiunt filii peccatorum et qui conversantur secus domos impiorum",
+      "citation": "Sirach 41:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "filiorum peccatorum periet hereditas et cum semine illorum adsiduitas obprobrii",
+      "citation": "Sirach 41:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "de patre impio queruntur filii quoniam propter illum sunt in obprobrio",
+      "citation": "Sirach 41:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "vae vobis viri impii qui dereliquistis legem Domini altissimi",
+      "citation": "Sirach 41:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et si nati fueritis in maledictione nascemini et si mortui fueritis in maledictione erit pars vestra",
+      "citation": "Sirach 41:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "omnia quae de terra sunt in terram convertentur sic impii a maledicto in perditionem",
+      "citation": "Sirach 41:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "luctus hominum in corpore ipsorum nomen autem impiorum delebitur",
+      "citation": "Sirach 41:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "curam habe de bono nomine hoc enim magis permanebit tibi quam mille thesauri magni pretiosi",
+      "citation": "Sirach 41:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "bonae vitae numerus dierum bonum autem nomen permanebit in aevo",
+      "citation": "Sirach 41:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "disciplinam in pace conservate filii sapientia enim abscondita et thesaurus occultus quae utilitas in utrisque",
+      "citation": "Sirach 41:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "melior est homo qui abscondit stultitiam suam quam homo qui abscondit sapientiam suam",
+      "citation": "Sirach 41:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "verumtamen reveremini in his quae procedunt de ore meo",
+      "citation": "Sirach 41:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "non est enim bonum omnem inreverentiam observare et non omnia omnibus beneplacent in fide",
+      "citation": "Sirach 41:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "erubescite matrem et patrem de fornicatione et a praesidente et potente de mendacio",
+      "citation": "Sirach 41:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "a principe et iudice de delicto a synagoga et plebe de iniquitate",
+      "citation": "Sirach 41:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "a socio et amico de iniustitia de loco in quo habitas",
+      "citation": "Sirach 41:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "de furto de veritate Dei et testamento de discubitu in panibus et ab offuscatione dati et accepti",
+      "citation": "Sirach 41:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "a salutantibus de silentio a respectu mulieris fornicariae et ab aversione vultus cognati",
+      "citation": "Sirach 41:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "ne avertas faciem a proximo tuo ab auferendo partem et non restituendo",
+      "citation": "Sirach 41:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "ne respicias mulierem alieni viri et ne scruteris ancillam eius neque steteris ad lectum eius",
+      "citation": "Sirach 41:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "ab amicis de sermonibus inproperii et cum dederis ne inproperes",
+      "citation": "Sirach 41:28 (Clementine Vulgate)"
+    }
+  ]
+}

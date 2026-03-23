@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 32 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 32,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/31.json",
+      "nextChapter": "https://latinprayer.org/bible/job/33.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/32.json",
+      "german": "https://latinprayer.org/bibel/job/32.json"
+    }
+  },
+  "citation": "Job 32 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "So these three men ceased to answer Job, because he seemed just to himself.",
+      "citation": "Job 32:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And Eliu the son of Barachel the Buzite of the kindred of Ram, was angry and was moved to indignation: now he was angry against Job, because he said he was just before God.",
+      "citation": "Job 32:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he was angry with his friends, because they had not found a reasonable answer, but only had condemned Job.",
+      "citation": "Job 32:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "So Eliu waited while Job was speaking because they were his elders that were speaking.",
+      "citation": "Job 32:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But when he saw that the three were not able to answer, he was exceedingly angry.",
+      "citation": "Job 32:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Then Eliu the son of Barachel the Buzite answered, and said: I am younger in days, and you are more ancient, therefore hanging down my head, I was afraid to shew you my opinion.",
+      "citation": "Job 32:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For I hoped that greater age would speak, and that a multitude of years would teach wisdom.",
+      "citation": "Job 32:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But, as I see, there is a spirit in men, and the inspiration of the Almighty giveth understanding.",
+      "citation": "Job 32:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "They that are aged are not the wise men, neither do the ancients understand judgment.",
+      "citation": "Job 32:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Therefore I will speak: Hearken to me, I also will shew you my wisdom.",
+      "citation": "Job 32:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For I have waited for your words, I have given ear to your wisdom, as long as you were disputing in words.",
+      "citation": "Job 32:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And as long as I thought you said some thing, I considered: but, as I see, there is none of you that can convince Job, and answer his words.",
+      "citation": "Job 32:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Lest you should say: We have found wisdom, God hath cast him down, not man.",
+      "citation": "Job 32:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "He hath spoken nothing to me, and I will not answer him according to your words.",
+      "citation": "Job 32:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "They were afraid, and answered no more, and they left off speaking.",
+      "citation": "Job 32:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Therefore because I have waited, and they have not spoken: they stood, and answered no more:",
+      "citation": "Job 32:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "I also will answer my part, and will shew my knowledge.",
+      "citation": "Job 32:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "For I am full of matter to speak of, and the spirit of my bowels straiteneth me.",
+      "citation": "Job 32:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Behold, my belly is as new wine which wanteth vent, which bursteth the new vessels.",
+      "citation": "Job 32:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "I will speak and take breath a little: I will open my lips, and will answer.",
+      "citation": "Job 32:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "I will not accept the person of man, and I will not level God with man.",
+      "citation": "Job 32:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "For I know not how long I shall continue, and whether after a while my Maker may take me away.",
+      "citation": "Job 32:22 (Douay-Rheims)"
+    }
+  ]
+}

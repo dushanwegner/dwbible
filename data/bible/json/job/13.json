@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 13 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 13,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/12.json",
+      "nextChapter": "https://latinprayer.org/bible/job/14.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/13.json",
+      "german": "https://latinprayer.org/bibel/job/13.json"
+    }
+  },
+  "citation": "Job 13 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Behold my eye hath seen all these things, and my ear hath heard them, and I have understood them all.",
+      "citation": "Job 13:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "According to your knowledge I also know: neither am I inferior to you.",
+      "citation": "Job 13:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "But yet I will speak to the Almighty, and I desire to reason with God.",
+      "citation": "Job 13:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Having first shewn that you are forgers of lies, and maintainers of perverse opinions.",
+      "citation": "Job 13:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And I wish you would hold your peace, that you might be thought to be wise men.",
+      "citation": "Job 13:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Hear ye therefore my reproof, and attend to the judgment of my lips.",
+      "citation": "Job 13:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Hath God any need of your lie, that you should speak deceitfully for him?",
+      "citation": "Job 13:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Do you accept this person, and do you endeavour to judge for God?",
+      "citation": "Job 13:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Or shall it please him, from whom nothing can be concealed? or shall he be deceived as a man, with your deceitful dealings?",
+      "citation": "Job 13:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "He shall reprove you, because in secret you accept his person.",
+      "citation": "Job 13:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "As soon as he shall move himself, he shall trouble you: and his dread shall fall upon you.",
+      "citation": "Job 13:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Your remembrance shall be compared to ashes, and your necks shall be brought to clay.",
+      "citation": "Job 13:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Hold your peace a little while, that I may speak whatsoever my mind shall suggest to me.",
+      "citation": "Job 13:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Why do I tear my flesh with my teeth, and carry my soul in my hands?",
+      "citation": "Job 13:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Although he should kill me, I will trust in him: but yet I will reprove my ways in his sight.",
+      "citation": "Job 13:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And he shall be my saviour: for no hypocrite shall come before his presence.",
+      "citation": "Job 13:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Hear ye my speech, and receive with your ears hidden truths.",
+      "citation": "Job 13:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "If I shall be judged, I know that I shall be found just.",
+      "citation": "Job 13:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Who is he that will plead against me? let him come: why am I consumed holding my peace?",
+      "citation": "Job 13:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Two things only do not to me, and then from thy face I shall not be hid:",
+      "citation": "Job 13:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Withdraw thy hand far from me, and let not thy dread terrify me.",
+      "citation": "Job 13:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Call me, and I will answer thee: or else I will speak, and do thou answer me.",
+      "citation": "Job 13:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "How many are my iniquities and sins? make me know my crimes and offenses.",
+      "citation": "Job 13:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Why hidest thou thy face, and thinkest me thy enemy?",
+      "citation": "Job 13:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Against a leaf, that is carried away with the wind, thou shewest thy power, and thou pursuest a dry straw.",
+      "citation": "Job 13:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "For thou writest bitter things against me, and wilt consume me for the sins of my youth.",
+      "citation": "Job 13:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Thou hast put my feet in the stocks, and hast observed all my paths, and hast considered the steps of my feet:",
+      "citation": "Job 13:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Who am to be consumed as rottenness, and as a garment that is motheaten.",
+      "citation": "Job 13:28 (Douay-Rheims)"
+    }
+  ]
+}

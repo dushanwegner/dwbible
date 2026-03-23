@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 5 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 5,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/exodus/4.json",
+      "nextChapter": "https://latinprayer.org/bible/exodus/6.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/exodus/5.json",
+      "german": "https://latinprayer.org/bibel/exodus/5.json"
+    }
+  },
+  "citation": "Exodus 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "After these things, Moses and Aaron went in, and said to Pharao: Thus saith the Lord God of Israel: Let my people go, that they may sacrifice to me in the desert.",
+      "citation": "Exodus 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But he answered: Who is the Lord, that I should hear his voice, and let Israel go? I know not the Lord, neither will I let Israel go.",
+      "citation": "Exodus 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And they said: The God of the Hebrews hath called us, to go three days' journey into the wilderness, and to sacrifice to the Lord our God; lest a pestilence or the sword fall upon us.",
+      "citation": "Exodus 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The king of Egypt said to them: Why do you Moses and Aaron draw off the people from their works? Get you gone to your burdens.",
+      "citation": "Exodus 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And Pharao said: The people of the land are numerous; you see that the multitude is increased; how much more if you give them rest from their works?",
+      "citation": "Exodus 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Therefore he commanded the same day the overseers of the works, and the task-masters of the people, saying:",
+      "citation": "Exodus 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "You shall give straw no more to the people to make brick, as before; but let them go and gather straw.",
+      "citation": "Exodus 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And you shall lay upon them the task of bricks, which they did before; neither shall you diminish any thing thereof, for they are idle, and therefore they cry, saying: Let us go and sacrifice to our God.",
+      "citation": "Exodus 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Let them be oppressed with works, and let them fulfil them; that they may not regard lying words.",
+      "citation": "Exodus 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the overseers of the works, and the taskmasters, went out and said to the people: Thus saith Pharao: I allow you no straw;",
+      "citation": "Exodus 5:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Go, and gather it where you can find it; neither shall any thing of your work be diminished.",
+      "citation": "Exodus 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And the people was scattered through all the land of Egypt to gather straw.",
+      "citation": "Exodus 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the overseers of the works pressed them, saying: Fulfil your work every day, as before ye were wont to do, when straw was given you.",
+      "citation": "Exodus 5:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And they that were over the works of the children of Israel, were scourged by Pharao's taskmasters, saying: Why have you not made up the task of bricks, both yesterday and to day, as before?",
+      "citation": "Exodus 5:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And the officers of the children of Israel came, and cried out to Pharao, saying: Why dealest thou so with thy servants?",
+      "citation": "Exodus 5:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Straw is not given us, and bricks are required of us as before; behold we, thy servants, are beaten with whips, and thy people is unjustly dealt withal.",
+      "citation": "Exodus 5:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And he said: You are idle, and therefore you say: Let us go and sacrifice to the Lord.",
+      "citation": "Exodus 5:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And the officers of the children of Israel saw that they were in evil case, because it was said to them: There shall not a whit be diminished of the bricks for every day.",
+      "citation": "Exodus 5:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And they met Moses and Aaron, who stood over against them as they came out from Pharao:",
+      "citation": "Exodus 5:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And they said to them: The Lord see and judge, because you have, made our savour to stink before Pharao and his servants, and you have given him a sword, to kill us.",
+      "citation": "Exodus 5:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And Moses returned to the Lord, and said: Lord, why hast thou afflicted this people? wherefore hast thou sent me?",
+      "citation": "Exodus 5:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "For since the time that I went in to Pharao to speak in thy name, he hath afflicted thy people: and thou hast not delivered them.",
+      "citation": "Exodus 5:23 (Douay-Rheims)"
+    }
+  ]
+}

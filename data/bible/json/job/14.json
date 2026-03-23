@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 14 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 14,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/13.json",
+      "nextChapter": "https://latinprayer.org/bible/job/15.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/14.json",
+      "german": "https://latinprayer.org/bibel/job/14.json"
+    }
+  },
+  "citation": "Job 14 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Man born of a woman, living for a short time, is filled with many miseries.",
+      "citation": "Job 14:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Who cometh forth like a flower, and is destroyed, and fleeth as a shadow, and never continueth in the same state.",
+      "citation": "Job 14:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And dost thou think it meet to open thy eyes upon such an one, and to bring him into judgment with thee?",
+      "citation": "Job 14:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Who can make him clean that is conceived of unclean seed? is it not thou who only art?",
+      "citation": "Job 14:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The days of man are short, and the number of his months is with thee: thou hast appointed his bounds which cannot be passed.",
+      "citation": "Job 14:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Depart a little from him, that he may rest until his wished for day come, as that of the hireling.",
+      "citation": "Job 14:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "A tree hath hope: if it be cut, it growth green again, and the boughs thereof sprout.",
+      "citation": "Job 14:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "If its roots be old in the earth, and its stock be dead in the dust:",
+      "citation": "Job 14:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "At the scent of water, it shall spring, and bring forth leaves, as when it was first planted.",
+      "citation": "Job 14:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But man when he shall be dead, and stripped and consumed, I pray you where is he?",
+      "citation": "Job 14:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "As if the waters should depart out of the sea, and an emptied river should be dried up;",
+      "citation": "Job 14:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "So man when he is fallen asleep shall not rise again; till the heavens be broken, he shall not awake, nor rise up out of his sleep.",
+      "citation": "Job 14:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Who will grant me this, that thou mayst protect me in hell, and hide me till thy wrath pass, and appoint me a time when thou wilt remember me?",
+      "citation": "Job 14:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Shall man that is dead, thinkest thou, live again? all the days in which I am now in warfare, I expect until my change come.",
+      "citation": "Job 14:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Thou shalt call me, and I will answer thee: to the work of thy hands thou shalt reach out thy right hand.",
+      "citation": "Job 14:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Thou indeed hast numbered my steps, but spare my sins.",
+      "citation": "Job 14:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Thou hast sealed up my offences as it were in a bag, but hast cured my iniquity.",
+      "citation": "Job 14:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "A mountain falling cometh to nought, and a rock is removed out of its place.",
+      "citation": "Job 14:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Waters wear away the stones, and with inundation the ground by little and little is washed away: so in like manner thou shalt destroy man.",
+      "citation": "Job 14:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Thou hast strengthened him for a little while, that he may pass away for ever: thou shalt change his face, and shalt send him away.",
+      "citation": "Job 14:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Whether his children come to honour or dishonour, he shall not understand.",
+      "citation": "Job 14:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "But yet his flesh, while he shall live, shall have pain, and his soul shall mourn over him.",
+      "citation": "Job 14:22 (Douay-Rheims)"
+    }
+  ]
+}

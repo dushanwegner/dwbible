@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Canticle of Canticles, Chapter 6 — 12 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Canticle of Canticles",
+      "slug": "canticle-of-canticles",
+      "testament": "OT",
+      "order": 24,
+      "totalChapters": 8
+    },
+    "chapter": 6,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/canticle-of-canticles/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/canticle-of-canticles/5.json",
+      "nextChapter": "https://latinprayer.org/bible/canticle-of-canticles/7.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/canticle-of-canticles/6.json",
+      "german": "https://latinprayer.org/bibel/canticle-of-canticles/6.json"
+    }
+  },
+  "citation": "Canticle of Canticles 6 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Whither is thy beloved gone, O thou most beautiful among women? whither is thy beloved turned aside, and we will seek him with thee?",
+      "citation": "Canticle of Canticles 6:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "My beloved is gone down into his garden, to the bed of aromatical spices, to feed in the gardens, and to gather lilies.",
+      "citation": "Canticle of Canticles 6:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "I to my beloved, and my beloved to me, who feedeth among the lilies.",
+      "citation": "Canticle of Canticles 6:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Thou art beautiful, O my love, sweet and comely as Jerusalem terrible as an army set in array.",
+      "citation": "Canticle of Canticles 6:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Turn away thy eyes from me, for they have made me flee away. Thy hair is as a flock of goats, that appear from Galaad.",
+      "citation": "Canticle of Canticles 6:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Thy teeth as a flock of sheep, which come up from the washing, all with twins, and there is none barren among them.",
+      "citation": "Canticle of Canticles 6:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Thy cheeks are as the bark of a pomegranate, beside what is hidden within thee.",
+      "citation": "Canticle of Canticles 6:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "There are threescore queens, and fourscore concubines, and young maidens without number.",
+      "citation": "Canticle of Canticles 6:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "One is my dove, my perfect one is but one, she is the only one of her mother, the chosen of her that bore her. The daughters saw her, and declared her most blessed: the queens and concubines, and they praised her.",
+      "citation": "Canticle of Canticles 6:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Who is she that cometh forth as the morning rising, fair as the moon, bright as the sun, terrible as an army set in array?",
+      "citation": "Canticle of Canticles 6:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "I went down into the garden of nuts, to see the fruits of the valleys, and to look if the vineyard had flourished, and the pomegranates budded.",
+      "citation": "Canticle of Canticles 6:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "I knew not: my soul troubled me for the chariots of Aminadab.",
+      "citation": "Canticle of Canticles 6:12 (Douay-Rheims)"
+    }
+  ]
+}

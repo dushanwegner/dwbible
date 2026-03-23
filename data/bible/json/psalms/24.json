@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 24 — 10 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 24,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/23.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/25.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/24.json",
+      "german": "https://latinprayer.org/bibel/psalms/24.json"
+    }
+  },
+  "citation": "Psalms 24 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "On the first day of the week, a psalm for David. The earth is the Lord's and the fulness thereof: the world, and all they that dwell therein.",
+      "citation": "Psalms 24:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For he hath founded it upon the seas; and hath prepared it upon the rivers.",
+      "citation": "Psalms 24:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Who shall ascend into the mountain of the Lord: or who shall stand in his holy place?",
+      "citation": "Psalms 24:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The innocent in hands, and clean of heart, who hath not taken his soul in vain, nor sworn deceitfully to his neighbour.",
+      "citation": "Psalms 24:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "He shall receive a blessing from the Lord, and mercy from God his Saviour.",
+      "citation": "Psalms 24:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "This is the generation of them that seek him, of them that seek the face of the God of Jacob.",
+      "citation": "Psalms 24:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Lift up your gates, O ye princes, and be ye lifted up, O eternal gates: and the King of Glory shall enter in.",
+      "citation": "Psalms 24:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Who is this King of Glory? the Lord who is strong and mighty: the Lord mighty in battle.",
+      "citation": "Psalms 24:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Lift up your gates, O ye princes, and be ye lifted up, O eternal gates: and the King of Glory shall enter in.",
+      "citation": "Psalms 24:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Who is this King of Glory? the Lord of hosts, he is the King of Glory.",
+      "citation": "Psalms 24:10 (Douay-Rheims)"
+    }
+  ]
+}

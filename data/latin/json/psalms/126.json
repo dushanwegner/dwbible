@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 126 — 12 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 126,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/125.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/127.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/126.json",
+      "german": "https://latinprayer.org/bibel/psalms/126.json"
+    }
+  },
+  "citation": "Psalms 126 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "canticum graduum in convertendo Dominum captivitatem Sion facti sumus sicut consolati",
+      "citation": "Psalms 126:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "canticum graduum cum converteret Dominus captivitatem Sion facti sumus quasi somniantes",
+      "citation": "Psalms 126:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "tunc repletum est gaudio os nostrum et lingua nostra exultatione tunc dicent inter gentes magnificavit Dominus facere cum eis",
+      "citation": "Psalms 126:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "tunc implebitur risu os nostrum et lingua nostra laude tunc dicent in gentibus magnificavit Dominus facere cum istis",
+      "citation": "Psalms 126:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "magnificavit Dominus facere nobiscum facti sumus laetantes",
+      "citation": "Psalms 126:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "magnificavit Dominus facere nobiscum facti sumus laetantes",
+      "citation": "Psalms 126:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "converte Domine captivitatem nostram sicut torrens in austro",
+      "citation": "Psalms 126:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "converte Domine captivitatem nostram sicut rivum in austro",
+      "citation": "Psalms 126:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "qui seminant in lacrimis in exultatione metent",
+      "citation": "Psalms 126:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "qui seminant in lacrimis in exultatione metent",
+      "citation": "Psalms 126:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "euntes ibant et flebant portantes semina sua venientes autem venient in exultatione portantes manipulos suos",
+      "citation": "Psalms 126:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "qui ambulans ibat et flebat portans ad seminandum sementem veniens veniet in exultatione portans manipulos suos",
+      "citation": "Psalms 126:6 (Clementine Vulgate)"
+    }
+  ]
+}

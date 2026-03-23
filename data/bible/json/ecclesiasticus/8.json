@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 8 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 8,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/7.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/9.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/8.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/8.json"
+    }
+  },
+  "citation": "Ecclesiasticus 8 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Strive not with a powerful man, lest thou fall into his hands.",
+      "citation": "Ecclesiasticus 8:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Contend not with a rich man, lest he bring an action against thee.",
+      "citation": "Ecclesiasticus 8:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For gold and silver hath destroyed many, and hath reached even to the heart of kings, and perverted them.",
+      "citation": "Ecclesiasticus 8:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Strive not with a man that is full of tongue, and heap not wood upon his fire.",
+      "citation": "Ecclesiasticus 8:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Communicate not with an ignorant man, lest he speak ill of thy family.",
+      "citation": "Ecclesiasticus 8:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Despise not a man that turneth away from sin, nor reproach him therewith: remember that we are all worthy of reproof.",
+      "citation": "Ecclesiasticus 8:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Despise not a man in his old age; for we also shall become old.",
+      "citation": "Ecclesiasticus 8:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Rejoice not at the death of thy enemy; knowing that we all die, and are not willing that others should rejoice at our death.",
+      "citation": "Ecclesiasticus 8:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Despise not the discourse of them that are ancient and wise, but acquaint thyself with their proverbs.",
+      "citation": "Ecclesiasticus 8:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For of them thou shalt learn wisdom, and instruction of understanding, and to serve great men without blame.",
+      "citation": "Ecclesiasticus 8:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Let not the discourse of the ancients escape thee, for they have learned of their fathers:",
+      "citation": "Ecclesiasticus 8:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For of them thou shalt learn understanding, and to give an answer in time of need.",
+      "citation": "Ecclesiasticus 8:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Kindle not the coals of sinners by rebuking them, lest thou be burnt with the flame of the fire of their sins.",
+      "citation": "Ecclesiasticus 8:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Stand not against the face of an injurious person, lest he sit as a spy to entrap thee in thy words.",
+      "citation": "Ecclesiasticus 8:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Lend not to a man that is mightier than thyself: and if thou lendest, count it as lost.",
+      "citation": "Ecclesiasticus 8:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Be not surety above thy power: and if thou be surety, think as if thou wert to pay it.",
+      "citation": "Ecclesiasticus 8:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Judge not against a judge: for he judgeth according to that which is just.",
+      "citation": "Ecclesiasticus 8:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Go not on the way with a bold man, lest he burden thee with his evils: for he goeth according to his own will, and thou shalt perish together with his folly.",
+      "citation": "Ecclesiasticus 8:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Quarrel not with a passionate man, and go not into the desert with a bold man: for blood is as nothing in his sight, and where there is no help he will overthrow thee.",
+      "citation": "Ecclesiasticus 8:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Advise not with fools, for they cannot love but such things as please them.",
+      "citation": "Ecclesiasticus 8:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Before a stranger do no matter of counsel: for thou knowest not what he will bring forth.",
+      "citation": "Ecclesiasticus 8:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Open not thy heart to every man: lest he repay thee with an evil turn, and speak reproachfully to thee.",
+      "citation": "Ecclesiasticus 8:22 (Douay-Rheims)"
+    }
+  ]
+}

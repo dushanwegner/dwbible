@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 John, Chapter 5 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 John",
+      "slug": "1-john",
+      "testament": "NT",
+      "order": 69,
+      "totalChapters": 5
+    },
+    "chapter": 5,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-john/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-john/4.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-john/5.json",
+      "german": "https://latinprayer.org/bibel/1-john/5.json"
+    }
+  },
+  "citation": "1 John 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "omnis qui credit quoniam Iesus est Christus ex Deo natus est et omnis qui diligit eum qui genuit diligit eum qui natus est ex eo",
+      "citation": "1 John 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in hoc cognoscimus quoniam diligimus natos Dei cum Deum diligamus et mandata eius faciamus",
+      "citation": "1 John 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "haec est enim caritas Dei ut mandata eius custodiamus et mandata eius gravia non sunt",
+      "citation": "1 John 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quoniam omne quod natum est ex Deo vincit mundum et haec est victoria quae vincit mundum fides nostra",
+      "citation": "1 John 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quis est qui vincit mundum nisi qui credit quoniam Iesus est Filius Dei",
+      "citation": "1 John 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "hic est qui venit per aquam et sanguinem Iesus Christus non in aqua solum sed in aqua et sanguine et Spiritus est qui testificatur quoniam Christus est veritas",
+      "citation": "1 John 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quia tres sunt qui testimonium dant",
+      "citation": "1 John 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Spiritus et aqua et sanguis et tres unum sunt",
+      "citation": "1 John 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "si testimonium hominum accipimus testimonium Dei maius est quoniam hoc est testimonium Dei quod maius est quia testificatus est de Filio suo",
+      "citation": "1 John 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui credit in Filio Dei habet testimonium Dei in se qui non credit Filio mendacem facit eum quoniam non credidit in testimonio quod testificatus est Deus de Filio suo",
+      "citation": "1 John 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et hoc est testimonium quoniam vitam aeternam dedit nobis Deus et haec vita in Filio eius est",
+      "citation": "1 John 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "qui habet Filium habet vitam qui non habet Filium Dei vitam non habet",
+      "citation": "1 John 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "haec scripsi vobis ut sciatis quoniam vitam habetis aeternam qui creditis in nomine Filii Dei",
+      "citation": "1 John 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et haec est fiducia quam habemus ad eum quia quodcumque petierimus secundum voluntatem eius audit nos",
+      "citation": "1 John 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et scimus quoniam audit nos quicquid petierimus scimus quoniam habemus petitiones quas postulavimus ab eo",
+      "citation": "1 John 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "qui scit fratrem suum peccare peccatum non ad mortem petet et dabit ei vitam peccantibus non ad mortem est peccatum ad mortem non pro illo dico ut roget",
+      "citation": "1 John 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "omnis iniquitas peccatum est et est peccatum non ad mortem",
+      "citation": "1 John 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "scimus quoniam omnis qui natus est ex Deo non peccat sed generatio Dei conservat eum et malignus non tangit eum",
+      "citation": "1 John 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "scimus quoniam ex Deo sumus et mundus totus in maligno positus est",
+      "citation": "1 John 5:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et scimus quoniam Filius Dei venit et dedit nobis sensum ut cognoscamus verum Deum et simus in vero Filio eius hic est verus Deus et vita aeterna",
+      "citation": "1 John 5:20 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 9 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 9,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/8.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/9.json",
+      "german": "https://latinprayer.org/bibel/jeremias/9.json"
+    }
+  },
+  "citation": "Jeremiah 9 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quis dabit me in solitudine diversorium viatorum et derelinquam populum meum et recedam ab eis quia omnes adulteri sunt coetus praevaricatorum",
+      "citation": "Jeremiah 9:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et extenderunt linguam suam quasi arcum mendacii et non veritatis confortati sunt in terra quia de malo ad malum egressi sunt et me non cognoverunt dicit Dominus",
+      "citation": "Jeremiah 9:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "unusquisque se a proximo suo custodiat et in omni fratre suo non habeat fiduciam quia omnis frater subplantans subplantabit et omnis amicus fraudulenter incedet",
+      "citation": "Jeremiah 9:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et vir fratrem suum deridebit et veritatem non loquentur docuerunt enim linguam suam loqui mendacium ut inique agerent laboraverunt",
+      "citation": "Jeremiah 9:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "habitatio tua in medio doli in dolo rennuerunt scire me dicit Dominus",
+      "citation": "Jeremiah 9:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "propterea haec dicit Dominus exercituum ecce ego conflabo et probabo eos quid enim aliud faciam a facie filiae populi mei",
+      "citation": "Jeremiah 9:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "sagitta vulnerans lingua eorum dolum locuta est in ore suo pacem cum amico suo loquitur et occulte ponit ei insidias",
+      "citation": "Jeremiah 9:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "numquid super his non visitabo dicit Dominus aut in gentem huiuscemodi non ulciscetur anima mea",
+      "citation": "Jeremiah 9:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "super montes adsumam fletum ac lamentum et super speciosa deserti planctum quoniam incensa sunt eo quod non sit vir pertransiens et non audierunt vocem possidentis a volucre caeli usque ad pecora transmigraverunt et recesserunt",
+      "citation": "Jeremiah 9:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et dabo Hierusalem in acervos harenae et cubilia draconum et civitates Iuda dabo in desolationem eo quod non sit habitator",
+      "citation": "Jeremiah 9:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quis est vir sapiens qui intellegat hoc et ad quem verbum oris Domini fiat ut adnuntiet istud quare perierit terra exusta sit quasi desertum eo quod non sit qui pertranseat",
+      "citation": "Jeremiah 9:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et dixit Dominus quia dereliquerunt legem meam quam dedi eis et non audierunt vocem meam et non ambulaverunt in ea",
+      "citation": "Jeremiah 9:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et abierunt post pravitatem cordis sui et post Baalim quos didicerunt a patribus suis",
+      "citation": "Jeremiah 9:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "idcirco haec dicit Dominus exercituum Deus Israhel ecce ego cibabo eos populum istum absinthio et potum dabo eis aquam fellis",
+      "citation": "Jeremiah 9:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et dispergam eos in gentibus quas non noverunt ipsi et patres eorum et mittam post eos gladium donec consumantur",
+      "citation": "Jeremiah 9:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "haec dicit Dominus exercituum contemplamini et vocate lamentatrices et veniant et ad eas quae sapientes sunt mittite et properent",
+      "citation": "Jeremiah 9:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "festinent et adsumant super nos lamentum deducant oculi nostri lacrimas et palpebrae nostrae defluant aquis",
+      "citation": "Jeremiah 9:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quia vox lamentationis audita est de Sion quomodo vastati sumus et confusi vehementer quia dereliquimus terram quoniam deiecta sunt tabernacula nostra",
+      "citation": "Jeremiah 9:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "audite ergo mulieres verbum Domini et adsumat auris vestra sermonem oris eius et docete filias vestras lamentum et unaquaeque proximam suam planctum",
+      "citation": "Jeremiah 9:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quia ascendit mors per fenestras nostras ingressa est domos nostras disperdere parvulos de foris iuvenes de plateis",
+      "citation": "Jeremiah 9:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "loquere haec dicit Dominus et cadet morticinum hominis quasi stercus super faciem regionis et quasi faenum post tergum metentis et non est qui colligat",
+      "citation": "Jeremiah 9:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "haec dicit Dominus non glorietur sapiens in sapientia sua et non glorietur fortis in fortitudine sua et non glorietur dives in divitiis suis",
+      "citation": "Jeremiah 9:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "sed in hoc glorietur qui gloriatur scire et nosse me quia ego sum Dominus qui facio misericordiam et iudicium et iustitiam in terra haec enim placent mihi ait Dominus",
+      "citation": "Jeremiah 9:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "ecce dies veniunt dicit Dominus et visitabo super omnem qui circumcisum habet praeputium",
+      "citation": "Jeremiah 9:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "super Aegyptum et super Iudam et super Edom et super filios Ammon et super Moab et super omnes qui adtonsi sunt in comam habitantes in deserto quia omnes gentes habent praeputium omnis autem domus Israhel incircumcisi sunt corde",
+      "citation": "Jeremiah 9:25 (Clementine Vulgate)"
+    }
+  ]
+}

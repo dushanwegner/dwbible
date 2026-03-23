@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 20 — 6 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 20,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/isaias/19.json",
+      "nextChapter": "https://latinprayer.org/bibel/isaias/21.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/20.json",
+      "latin": "https://latinprayer.org/latin/isaias/20.json"
+    }
+  },
+  "citation": "Jesaja 20 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "In dem Jahre, in welchem Tartan, als ihn Sargon, der König von Assyrien, gesandt hatte, nach Asdod kam und diese Stadt belagerte und eroberte –",
+      "citation": "Jesaja 20:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "in jener Zeit hatte der HERR durch Jesaja, den Sohn des Amoz, folgende Weisung ausgesprochen: »Wohlan, lege das härene Gewand von deinen Hüften ab und binde dir die Sandalen von deinen Füßen ab!« Da tat er demgemäß, so daß er ohne Obergewand und barfuß einherging.",
+      "citation": "Jesaja 20:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Darauf sagte der HERR: »Gleichwie mein Knecht Jesaja ohne Obergewand und barfuß drei Jahre lang einhergegangen ist als ein Wahrzeichen und eine Vorbedeutung für Ägypten und Äthiopien,",
+      "citation": "Jesaja 20:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "so wird der König von Assyrien die gefangenen Ägypter und die zur Wegführung bestimmten Äthiopier, Jünglinge und Greise, ohne Obergewand und barfuß und mit nacktem Gesäß – eine Schmach für Ägypten – dahinwandern lassen.«",
+      "citation": "Jesaja 20:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da wird man denn (in Juda) bestürzt und enttäuscht sein wegen Äthiopiens, auf das man zuversichtlich gehofft, und wegen Ägyptens, mit dem man geprahlt hatte;",
+      "citation": "Jesaja 20:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "und die Bewohner dieses Küstenlandes werden zu jener Zeit sagen: »Ach, wenn es denen so ergangen ist, auf die wir zuversichtlich gehofft und zu denen wir unsere Zuflucht genommen hatten, um uns vor dem Könige von Assyrien zu retten: wie sollten wir da entrinnen?«",
+      "citation": "Jesaja 20:6 (Menge)"
+    }
+  ]
+}

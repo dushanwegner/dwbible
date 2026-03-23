@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Nahum, Chapter 3 — 19 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Nahum",
+      "slug": "nahum",
+      "testament": "OT",
+      "order": 39,
+      "totalChapters": 3
+    },
+    "chapter": 3,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/nahum/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/nahum/2.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/nahum/3.json",
+      "latin": "https://latinprayer.org/latin/nahum/3.json"
+    }
+  },
+  "citation": "Nahum 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wehe der blutbefleckten Stadt, die ganz angefüllt ist mit Trug und Gewalttat und die kein Ende des Raubens findet!",
+      "citation": "Nahum 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Horch Peitschenknall, horch Rädergerassel! Jagende Rosse und rollende Wagen,",
+      "citation": "Nahum 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "heransprengende Reiter, funkelnde Schwerter und blitzende Speere! Durchbohrte in Menge, Haufen von Toten und zahllose Leichen – man strauchelt über die Leichen!",
+      "citation": "Nahum 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Und (das alles) wegen der vielen Buhlereien der holdseligen, verführerischen Buhlerin, die ganze Völker mit ihrer Buhlerei berückte und Völkerschaften mit ihren Zauberkünsten (umgarnte).",
+      "citation": "Nahum 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "»Nunmehr will ich an dich« – so lautet der Ausspruch des HERRN der Heerscharen – »und will deine Schleppe dir übers Gesicht ziehen und den Völkern deine Blöße zeigen und den Königreichen deine Scham.",
+      "citation": "Nahum 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ich will dich mit Unrat bewerfen und dich dadurch entehren und dich zu einem Schauspiel machen,",
+      "citation": "Nahum 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "daß alle, die dich erblicken, vor dir fliehen und ausrufen: ›Zerstört ist Ninive! Wer möchte ihm Beileid bezeigen? Wo soll ich Tröster für dich ausfindig machen?‹«",
+      "citation": "Nahum 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Bist du etwa besser als No Ammon, die an den Nilarmen thronte, rings von Wasser umgeben? die Stadt, deren Außenwerk der Nilstrom bildete und deren Mauer aus Wasser bestand?",
+      "citation": "Nahum 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Äthiopier waren ihre Stärke und Ägypter ohne Zahl; Put und die Libyer standen ihr zu Gebot.",
+      "citation": "Nahum 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Doch auch sie ist der Verbannung verfallen, ist in die Gefangenschaft gewandert, auch ihre Kinder sind an allen Straßenecken zerschmettert worden; über ihre Edlen warf man das Los, und alle ihre Großen wurden mit Ketten gefesselt.",
+      "citation": "Nahum 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "So sollst auch du, Ninive, trunken werden, sollst umnachtet daliegen; auch du sollst Zuflucht vor dem Feinde suchen müssen!",
+      "citation": "Nahum 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Alle deine Festungen sind wie Feigenbäume mit Frühfeigen: werden sie geschüttelt, fallen sie dem, der essen will, in den Mund.",
+      "citation": "Nahum 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wisse wohl: dein Kriegsvolk ist zu Weibern in deiner Mitte geworden; deinen Feinden stehen die Tore deines Landes weit offen, Feuer verzehrt deine Riegel.",
+      "citation": "Nahum 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Schöpfe dir Wasser für die (Zeit der) Belagerung, mache deine Festungswerke stärker! tritt in den Lehm und stampfe Ton, nimm die Ziegelform zur Hand!",
+      "citation": "Nahum 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Trotzdem wird das Feuer dich fressen, wird das Schwert dich vertilgen, dich verzehren wie die Freßgrillen verzehren. Magst du auch zahlreich sein wie ein Freßgrillenschwarm, zahllos wie ein Heuschreckenvolk,",
+      "citation": "Nahum 3:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "magst du auch mehr Krämer haben, als Sterne am Himmel sind: – die Freßgrillen häuten sich und fliegen davon!",
+      "citation": "Nahum 3:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Deine Fürsten gleichen den Heuschrecken und deine Hofleute den Grillenschwärmen, die sich bei kaltem Wetter an den Mauern lagern; geht aber die Sonne auf, so fliegen sie davon, und niemand weiß, wo sie geblieben sind.",
+      "citation": "Nahum 3:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Entschlafen sind deine Hirten, König von Assyrien, entschlummert deine Großen! Dein Kriegsvolk hat sich auf den Bergen zerstreut, und niemand ist da, der es sammelt!",
+      "citation": "Nahum 3:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Keine Linderung gibt es für deine Wunde, unheilbar ist der Schlag, der dich getroffen! Alle, welche die Kunde von dir vernehmen, klatschen über dich in die Hände; denn über wen wäre nicht deine Bosheit ohne Unterlaß dahingegangen?",
+      "citation": "Nahum 3:19 (Menge)"
+    }
+  ]
+}

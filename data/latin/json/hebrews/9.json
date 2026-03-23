@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebrews, Chapter 9 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 9,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/hebrews/8.json",
+      "nextChapter": "https://latinprayer.org/latin/hebrews/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/hebrews/9.json",
+      "german": "https://latinprayer.org/bibel/hebrews/9.json"
+    }
+  },
+  "citation": "Hebrews 9 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "habuit quidem et prius iustificationes culturae et sanctum saeculare",
+      "citation": "Hebrews 9:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "tabernaculum enim factum est primum in quo inerant candelabra et mensa et propositio panum quae dicitur sancta",
+      "citation": "Hebrews 9:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "post velamentum autem secundum tabernaculum quod dicitur sancta sanctorum",
+      "citation": "Hebrews 9:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "aureum habens turibulum et arcam testamenti circumtectam ex omni parte auro in qua urna aurea habens manna et virga Aaron quae fronduerat et tabulae testamenti",
+      "citation": "Hebrews 9:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "superque eam cherubin gloriae obumbrantia propitiatorium de quibus non est modo dicendum per singula",
+      "citation": "Hebrews 9:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "his vero ita conpositis in priori quidem tabernaculo semper introibant sacerdotes sacrificiorum officia consummantes",
+      "citation": "Hebrews 9:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in secundo autem semel in anno solus pontifex non sine sanguine quem offert pro sua et populi ignorantia",
+      "citation": "Hebrews 9:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "hoc significante Spiritu Sancto nondum propalatam esse sanctorum viam adhuc priore tabernaculo habente statum",
+      "citation": "Hebrews 9:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quae parabola est temporis instantis iuxta quam munera et hostiae offeruntur quae non possunt iuxta conscientiam perfectum facere servientem",
+      "citation": "Hebrews 9:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "solummodo in cibis et in potibus et variis baptismis et iustitiis carnis usque ad tempus correctionis inpositis",
+      "citation": "Hebrews 9:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Christus autem adsistens pontifex futurorum bonorum per amplius et perfectius tabernaculum non manufactum id est non huius creationis",
+      "citation": "Hebrews 9:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "neque per sanguinem hircorum et vitulorum sed per proprium sanguinem introivit semel in sancta aeterna redemptione inventa",
+      "citation": "Hebrews 9:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "si enim sanguis hircorum et taurorum et cinis vitulae aspersus inquinatos sanctificat ad emundationem carnis",
+      "citation": "Hebrews 9:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quanto magis sanguis Christi qui per Spiritum Sanctum semet ipsum obtulit inmaculatum Deo emundabit conscientiam vestram ab operibus mortuis ad serviendum Deo viventi",
+      "citation": "Hebrews 9:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et ideo novi testamenti mediator est ut morte intercedente in redemptionem earum praevaricationum quae erant sub priore testamento repromissionem accipiant qui vocati sunt aeternae hereditatis",
+      "citation": "Hebrews 9:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ubi enim testamentum mors necesse est intercedat testatoris",
+      "citation": "Hebrews 9:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "testamentum enim in mortuis confirmatum est alioquin nondum valet dum vivit qui testatus est",
+      "citation": "Hebrews 9:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "unde ne primum quidem sine sanguine dedicatum est",
+      "citation": "Hebrews 9:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "lecto enim omni mandato legis a Mose universo populo accipiens sanguinem vitulorum et hircorum cum aqua et lana coccinea et hysopo ipsum quoque librum et omnem populum aspersit",
+      "citation": "Hebrews 9:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "dicens hic sanguis testamenti quod mandavit ad vos Deus",
+      "citation": "Hebrews 9:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "etiam tabernaculum et omnia vasa ministerii sanguine similiter aspersit",
+      "citation": "Hebrews 9:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et omnia paene in sanguine mundantur secundum legem et sine sanguinis fusione non fit remissio",
+      "citation": "Hebrews 9:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "necesse est ergo exemplaria quidem caelestium his mundari ipsa autem caelestia melioribus hostiis quam istis",
+      "citation": "Hebrews 9:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "non enim in manufactis sanctis Iesus introiit exemplaria verorum sed in ipsum caelum ut appareat nunc vultui Dei pro nobis",
+      "citation": "Hebrews 9:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "neque ut saepe offerat semet ipsum quemadmodum pontifex intrat in sancta per singulos annos in sanguine alieno",
+      "citation": "Hebrews 9:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "alioquin oportebat eum frequenter pati ab origine mundi nunc autem semel in consummatione saeculorum ad destitutionem peccati per hostiam suam apparuit",
+      "citation": "Hebrews 9:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et quemadmodum statutum est hominibus semel mori post hoc autem iudicium",
+      "citation": "Hebrews 9:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "sic et Christus semel oblatus ad multorum exhaurienda peccata secundo sine peccato apparebit expectantibus se in salutem",
+      "citation": "Hebrews 9:28 (Clementine Vulgate)"
+    }
+  ]
+}

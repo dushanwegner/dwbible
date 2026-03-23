@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joshua, Chapter 16 — 10 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joshua",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 19
+    },
+    "chapter": 16,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/josue/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/josue/15.json",
+      "nextChapter": "https://latinprayer.org/latin/josue/17.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/josue/16.json",
+      "german": "https://latinprayer.org/bibel/josue/16.json"
+    }
+  },
+  "citation": "Joshua 16 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "cecidit quoque sors filiorum Ioseph ab Iordane contra Hiericho et aquas eius ab oriente solitudo quae ascendit de Hiericho ad montana Bethel",
+      "citation": "Joshua 16:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et egreditur de Bethel Luzam transitque terminum Archiatharoth",
+      "citation": "Joshua 16:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et descendit ad occidentem iuxta terminum Ieflethi usque ad terminos Bethoron inferioris et Gazer finiunturque regiones eius mari Magno",
+      "citation": "Joshua 16:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "possederuntque filii Ioseph Manasse et Ephraim",
+      "citation": "Joshua 16:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et factus est terminus filiorum Ephraim per cognationes suas et possessio eorum contra orientem Atharothaddar usque Bethoron superiorem",
+      "citation": "Joshua 16:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "egrediunturque confinia in mare Machmethath vero aquilonem respicit et circuit terminus contra orientem in Thanathselo et pertransit ab oriente Ianoe",
+      "citation": "Joshua 16:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "descenditque de Ianoe in Atharoth et Noaratha et pervenit in Hiericho et egreditur ad Iordanem",
+      "citation": "Joshua 16:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "de Taffua pertransitque contra mare in valle Harundineti suntque egressus eius in mare Salsissimum haec est possessio tribus filiorum Ephraim per familias suas",
+      "citation": "Joshua 16:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "urbesque quae separatae sunt filiis Ephraim in medio possessionis filiorum Manasse et villae earum",
+      "citation": "Joshua 16:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et non interfecerunt filii Ephraim Chananeum qui habitabat in Gazer habitavitque Chananeus in medio Ephraim usque in diem hanc tributarius",
+      "citation": "Joshua 16:10 (Clementine Vulgate)"
+    }
+  ]
+}

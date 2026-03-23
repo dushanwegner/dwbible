@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Josua, Chapter 13 — 33 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Josua",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 24
+    },
+    "chapter": 13,
+    "verseCount": 33,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/josue/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/josue/12.json",
+      "nextChapter": "https://latinprayer.org/bibel/josue/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/josue/13.json",
+      "latin": "https://latinprayer.org/latin/josue/13.json"
+    }
+  },
+  "citation": "Josua 13 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als nun Josua alt und hochbetagt geworden war, sagte der HERR zu ihm: »Du bist nun alt und hochbetagt, und von dem Lande sind sehr viele Teile bisher noch unerobert geblieben.",
+      "citation": "Josua 13:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Dies ist das noch uneroberte Land: sämtliche Bezirke der Philister und das ganze Gesuriterland.",
+      "citation": "Josua 13:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Vom Sihorbach an, der östlich von Ägypten fließt, bis an das Gebiet von Ekron im Norden – es wird zum Gebiet der Kanaanäer gerechnet –: die fünf Fürsten der Philister, nämlich der von Gaza, der von Asdod, der von Askalon, der von Gath und der von Ekron, sowie die Awwiter im Süden;",
+      "citation": "Josua 13:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "ferner das ganze Land der Kanaanäer und Meara, das den Sidoniern gehört, bis nach Aphek, bis an die Grenze der Amoriter;",
+      "citation": "Josua 13:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "sodann das Land der Gibliter und der ganze Libanon östlichen Teils, von Baal-Gad am Fuß des Hermongebirges bis dahin, wo man nach Hamath kommt.",
+      "citation": "Josua 13:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Alle Gebirgsbewohner vom Libanon an bis Misrephoth-Majim, alle Sidonier, werde ich selbst vor den Israeliten her vertreiben; verlose es immerhin an Israel als Erbbesitz, wie ich dir geboten habe.",
+      "citation": "Josua 13:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "So verteile also jetzt dieses Land als Erbbesitz an die neun Stämme und an den halben Stamm Manasse.«",
+      "citation": "Josua 13:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Mit dem andern halben Stamm Manasse nämlich hatten die Stämme Ruben und Gad ihren Erbbesitz bereits empfangen, den ihnen Mose im Ostjordanlande angewiesen hatte, wie ihn Mose, der Knecht des HERRN, ihnen angewiesen hatte:",
+      "citation": "Josua 13:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "von Aroer an, das am Ufer des Flusses Arnon liegt, und überhaupt von den Städten an, die mitten im Flußtal liegen, dazu die ganze Hochebene von Medeba bis Dibon,",
+      "citation": "Josua 13:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "ferner sämtliche Städte des Amoriterkönigs Sihon, der in Hesbon geherrscht hatte, bis an das Gebiet der Ammoniter;",
+      "citation": "Josua 13:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "sodann Gilead und das Gebiet der Gesuriter und Maachathiter sowie das ganze Hermongebirge und ganz Basan bis nach Salcha,",
+      "citation": "Josua 13:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "das ganze Reich Ogs in Basan, der in Astharoth und Edrei geherrscht hatte – er war vom Überrest der Rephaiter noch übriggeblieben –: diese hatte Mose besiegt und aus ihrem Besitz vertrieben.",
+      "citation": "Josua 13:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Die Israeliten dagegen haben die Gesuriter und Maachathiter nicht aus ihrem Besitz vertrieben, sondern diese beiden Völkerschaften sind mitten unter den Israeliten bis auf den heutigen Tag wohnen geblieben. –",
+      "citation": "Josua 13:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Nur dem Stamme Levi hatte (Mose) keinen Erbbesitz verliehen: die Feueropfer des HERRN, des Gottes der Israeliten, die sind dessen Erbbesitz, wie er ihm zugesagt hat.",
+      "citation": "Josua 13:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Mose hatte aber dem Stamme der Rubeniten Landbesitz nach ihren Geschlechtern angewiesen,",
+      "citation": "Josua 13:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "so daß ihnen folgendes Gebiet zuteil wurde: das Gebiet von Aroer an, das am Ufer des Flusses Arnon liegt, und überhaupt von den Städten an, die mitten im Flußtal liegen, dazu die ganze Hochebene bis Medeba;",
+      "citation": "Josua 13:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Hesbon mit allen zugehörigen Ortschaften, die auf der Hochebene liegen, nämlich Dibon, Bamoth-Baal, Beth-Baal-Meon,",
+      "citation": "Josua 13:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Jahza, Kedemoth, Mephaath,",
+      "citation": "Josua 13:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Kirjathaim, Sibma, Zereth-Sahar auf dem Berge in der Talebene,",
+      "citation": "Josua 13:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Beth-Peor, die Abhänge des Pisga, Beth-Jesimoth",
+      "citation": "Josua 13:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "und alle übrigen Ortschaften der Hochebene; ferner das ganze Reich des Amoriterkönigs Sihon, der in Hesbon geherrscht hatte – Mose hatte ihn besiegt, ihn mitsamt den Fürsten der Midianiter, nämlich Ewi, Rekem, Zur, Hur und Reba, den Häuptlingen Sihons, die im Lande gewohnt hatten.",
+      "citation": "Josua 13:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Auch den Wahrsager Bileam, den Sohn Beors, hatten die Israeliten mit dem Schwert getötet außer den anderen von ihnen Erschlagenen.",
+      "citation": "Josua 13:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Die (westliche) Grenze des Stammes Ruben aber bildete der Jordan und sein Uferland. Dies war der Erbbesitz der Rubeniten nach ihren Geschlechtern: die genannten Städte mit den zugehörigen Gehöften.",
+      "citation": "Josua 13:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Sodann hatte Mose dem Stamme Gad, den Gaditen, Landbesitz nach ihren Geschlechtern angewiesen,",
+      "citation": "Josua 13:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "so daß ihnen folgendes Gebiet zuteil wurde: Jaser und sämtliche Ortschaften in Gilead und das halbe Ammoniterland bis Aroer, das östlich von Rabba liegt;",
+      "citation": "Josua 13:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "ferner das Land von Hesbon bis Ramath-Mizpe und Betonim und von Mahanaim bis an das Gebiet von Lidebir;",
+      "citation": "Josua 13:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "sodann in der Talebene: Beth-haram, Beth-Nimra, Sukkoth und Zaphon, der Rest vom Reiche Sihons, des Königs von Hesbon, der Jordan mit seinem Uferland bis an das Ende des Sees Genezareth auf der Ostseite des Jordans.",
+      "citation": "Josua 13:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Das war der Erbbesitz der Gaditen nach ihren Geschlechtern, die genannten Städte mit den zugehörigen Dörfern.",
+      "citation": "Josua 13:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Ferner hatte Mose dem halben Stamm Manasse Landbesitz angewiesen, so daß dem halben Stamme der Manassiten nach ihren Geschlechtern folgendes Gebiet zuteil wurde:",
+      "citation": "Josua 13:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "das Land von Mahanaim an, das ganze Basan, das ganze Reich Ogs, des Königs von Basan, und sämtliche Zeltdörfer Jairs, die in Basan liegen, sechzig Ortschaften;",
+      "citation": "Josua 13:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "ferner die Hälfte von Gilead sowie Astaroth und Edrei, die Hauptstädte des Reiches Ogs in Basan. Dies alles wurde den Nachkommen Machirs, des Sohnes Manasses, und zwar der Hälfte der Nachkommen Machirs, nach ihren Geschlechtern zuteil.",
+      "citation": "Josua 13:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Diese Gebiete sind es, die Mose in den Steppen der Moabiter jenseits des Jordans, östlich von Jericho, ausgeteilt hatte.",
+      "citation": "Josua 13:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Dem Stamme Levi aber hatte Mose keinen Erbbesitz gegeben: der HERR, der Gott Israels, der sollte ihr Erbbesitz sein, wie er ihnen zugesagt hatte.",
+      "citation": "Josua 13:33 (Menge)"
+    }
+  ]
+}

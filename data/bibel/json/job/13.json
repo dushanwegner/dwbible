@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hiob, Chapter 13 — 28 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hiob",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 13,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/job/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/job/12.json",
+      "nextChapter": "https://latinprayer.org/bibel/job/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/13.json",
+      "latin": "https://latinprayer.org/latin/job/13.json"
+    }
+  },
+  "citation": "Hiob 13 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Seht, dies alles hat mein Auge gesehen, hat mein Ohr gehört und es sich gemerkt.",
+      "citation": "Hiob 13:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Soviel ihr wißt, weiß ich auch: ich stehe hinter euch nicht zurück.",
+      "citation": "Hiob 13:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Doch ich will zum Allmächtigen reden und trage Verlangen, mich mit Gott auseinanderzusetzen.",
+      "citation": "Hiob 13:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ihr dagegen seid nur Lügenschmiede, Pfuscherärzte allesamt.",
+      "citation": "Hiob 13:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "O wolltet ihr doch ganz stille schweigen: das würde euch als Weisheit angerechnet werden.",
+      "citation": "Hiob 13:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Hört doch meine Rechtfertigung an und achtet auf die Entgegnungen meiner Lippen!",
+      "citation": "Hiob 13:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wollt ihr Gott zur Ehre Lügen reden und ihm zuliebe Trug vorbringen?",
+      "citation": "Hiob 13:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wollt ihr Parteilichkeit zu seinen Gunsten üben oder Gottes Sachwalter spielen?",
+      "citation": "Hiob 13:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Würde es gut für euch ablaufen, wenn er euch ins Verhör nimmt, oder könnt ihr ihn narren, wie man Menschen narrt?",
+      "citation": "Hiob 13:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Mit aller Strenge wird er euch strafen, wenn ihr im geheimen Partei (für ihn) ergreift.",
+      "citation": "Hiob 13:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Wird nicht sein bloßes Sich-Erheben euch fassungslos machen und Schrecken vor ihm euch befallen?",
+      "citation": "Hiob 13:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Eure Denksprüche sind Sprüche so lose wie Asche, eure Schanzen erweisen sich als Schanzen von Lehm!«",
+      "citation": "Hiob 13:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "»So schweigt denn vor mir still: ich will reden, es mag über mich hereinfahren, was da will!",
+      "citation": "Hiob 13:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Warum sollte ich mein Fleisch in meinen Zähnen forttragen und meine Seele in meine offene Hand legen?",
+      "citation": "Hiob 13:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Er wird mich ja doch töten, ich habe auf nichts mehr zu hoffen; nur meinen bisherigen Wandel will ich offen vor ihm darlegen.",
+      "citation": "Hiob 13:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Schon das muß mir zugute kommen, denn kein Heuchler darf ihm vor die Augen treten.",
+      "citation": "Hiob 13:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "So hört denn meine Rede aufmerksam an und laßt meine Darlegung in euer Ohr dringen!",
+      "citation": "Hiob 13:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Seht doch: ich bin zum Rechtsstreit gerüstet! Ich weiß, daß ich, ja ich, recht behalten werde.",
+      "citation": "Hiob 13:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Wer ist es, der mit mir rechten dürfte? Denn in diesem Fall wollte ich lieber verstummen und den Tod erleiden!",
+      "citation": "Hiob 13:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Nur zweierlei tu mir dabei nicht an (o Gott), dann will ich mich vor deinem Angesicht nicht verbergen:",
+      "citation": "Hiob 13:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "ziehe deine Hand von mir zurück und laß deine schreckliche Erscheinung mich nicht ängstigen!",
+      "citation": "Hiob 13:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Dann rufe mich, so will ich mich verantworten; oder ich will reden, und du entgegne mir!«",
+      "citation": "Hiob 13:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "»Wie viele Übertretungen und Missetaten habe ich (begangen)? Meine Übertretung und meine Sünde laß mich wissen!",
+      "citation": "Hiob 13:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Warum verbirgst du dein Angesicht vor mir und siehst in mir deinen Feind?",
+      "citation": "Hiob 13:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Willst du ein verwehtes Blatt noch aufschrecken und einem dürren Strohhalm noch nachjagen,",
+      "citation": "Hiob 13:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "daß du mir so bittere Arzneien verschreibst und mich sogar die Verfehlungen meiner Jugend büßen läßt?",
+      "citation": "Hiob 13:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Daß du meine Füße in den Block legst und alle meine Pfade überwachst, meinen Füßen jede freie Bewegung entziehst,",
+      "citation": "Hiob 13:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "mir, einem Manne, der wie ein vom Wurm zerfressenes Gerät zerfällt, wie ein Kleid, das die Motten zernagt haben?«",
+      "citation": "Hiob 13:28 (Menge)"
+    }
+  ]
+}

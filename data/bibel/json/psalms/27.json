@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 27 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 27,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/26.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/28.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/27.json",
+      "latin": "https://latinprayer.org/latin/psalms/27.json"
+    }
+  },
+  "citation": "Psalmen 27 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Von David.</em> Der HERR ist mein Licht und mein Heil: vor wem sollt’ ich mich fürchten? Der HERR ist meines Lebens Schutzwehr: vor wem sollte mir bangen?",
+      "citation": "Psalmen 27:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wenn Übeltäter gegen mich anstürmen, mich zu zerfleischen, meine Widersacher und Feinde: sie straucheln und fallen.",
+      "citation": "Psalmen 27:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Mag ein Heer sich gegen mich lagern: mein Herz ist ohne Furcht; mag Krieg sich gegen mich erheben: trotzdem bleib’ ich getrost.",
+      "citation": "Psalmen 27:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Nur eines erbitt’ ich vom HERRN, danach trag’ ich Verlangen: daß ich weilen möge im Hause des HERRN mein ganzes Leben hindurch, um anzuschauen die Huld des HERRN und der Andacht mich hinzugeben in seinem Tempel.",
+      "citation": "Psalmen 27:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn er birgt mich in seiner Hütte am Tage des Unheils, beschirmt mich im Schirm seines Zeltes, hebt hoch mich auf einen Felsen empor.",
+      "citation": "Psalmen 27:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "So wird sich denn mein Haupt erheben über meine Feinde rings um mich her; und opfern will ich in seinem Zelte Schlachtopfer mit Jubelschall, will singen und spielen dem HERRN!",
+      "citation": "Psalmen 27:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Höre mich, HERR, laut ruf’ ich zu dir! Ach sei mir gnädig, erhöre mich!",
+      "citation": "Psalmen 27:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Mein Herz hält dein Gebot dir vor: »Ihr sollt mein Angesicht suchen!« Darum suche ich, o HERR, dein Angesicht.",
+      "citation": "Psalmen 27:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Verbirg dein Angesicht nicht vor mir, weise nicht ab deinen Knecht im Zorn! Du bist meine Hilfe gewesen: verwirf mich nicht und verlaß mich nicht, du Gott meines Heils!",
+      "citation": "Psalmen 27:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Wenn Vater und Mutter mich verlassen, so nimmt doch der HERR mich auf.",
+      "citation": "Psalmen 27:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Lehre mich, HERR, deinen Weg und führe mich auf ebener Bahn um meiner Feinde willen!",
+      "citation": "Psalmen 27:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Gib mich nicht preis der Gier meiner Dränger! Denn Lügenzeugen sind gegen mich aufgetreten und schnauben Gewalttat (gegen mich).",
+      "citation": "Psalmen 27:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Gott Lob! Ich bin gewiß, die Güte des HERRN zu schauen im Lande der Lebenden.",
+      "citation": "Psalmen 27:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Harre des HERRN, sei getrost, und dein Herz sei unverzagt! Ja, harre des HERRN!",
+      "citation": "Psalmen 27:14 (Menge)"
+    }
+  ]
+}

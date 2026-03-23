@@ -1,0 +1,306 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "3. Kings, Chapter 22 — 54 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "3. Kings",
+      "slug": "3-kings",
+      "testament": "OT",
+      "order": 11,
+      "totalChapters": 22
+    },
+    "chapter": 22,
+    "verseCount": 54,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/3-kings/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/3-kings/21.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/3-kings/22.json",
+      "german": "https://latinprayer.org/bibel/3-kings/22.json"
+    }
+  },
+  "citation": "3. Kings 22 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And there passed three years without war between Syria and Israel.",
+      "citation": "3. Kings 22:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And in the third year, Josaphat, king of Juda, came down to the king of Israel.",
+      "citation": "3. Kings 22:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "(And the king of Israel said to his servants: Know ye not that Ramoth Galaad is ours, and we neglect to take it out of the hand of the king of Syria?)",
+      "citation": "3. Kings 22:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he said to Josaphat: Wilt thou come with me to battle to Ramoth Galaad?",
+      "citation": "3. Kings 22:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And Josaphat said to the king of Israel: As I am, so art thou: my people and thy people are one: and my horsemen are thy horsemen. And Josaphat said to the king of Israel: Inquire, I beseech thee, this day the word of the Lord.",
+      "citation": "3. Kings 22:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Then the king of Israel assembled the prophets, about four hundred men, and he said to them: Shall I go to Ramoth Galaad to fight, or shall I forbear?  They answered: Go up, and the Lord will deliver it into the hand of the king.",
+      "citation": "3. Kings 22:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And Josaphat said: Is there not here some prophet of the Lord, that we may inquire by him?",
+      "citation": "3. Kings 22:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the king of Israel said to Josaphat. There is one man left, by whom we may inquire of the Lord; Micheas, the son of Jemla: but I hate him, for he doth not prophecy good to me, but evil. And Josaphat said: Speak not so, O king.",
+      "citation": "3. Kings 22:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Then the king of Israel called an eunuch, and said to him: Make haste, and bring hither Micheas, the son of Jemla.",
+      "citation": "3. Kings 22:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the king of Israel, and Josaphat, king of Juda, sat each on his throne, clothed with royal robes, in a court, by the entrance of the gate of Samaria, and all the prophets prophesied before them.",
+      "citation": "3. Kings 22:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Sedecias, the son of Chanaana, made himself horns of iron, and said: Thus saith the Lord: With these shalt thou push Syria, till thou destroy it.",
+      "citation": "3. Kings 22:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And all the prophets prophesied in like manner, saying: Go up to Ramoth Galaad, and prosper, for the Lord will deliver it into the king's hands.",
+      "citation": "3. Kings 22:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the messenger that went to call Micheas, spoke to him, saying: Behold the words of the prophets with one mouth declare good things to the king: let thy word, therefore, be like to theirs, and speak that which is good.",
+      "citation": "3. Kings 22:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But Micheas said to him: As the Lord liveth, whatsoever the Lord shall say to me, that will I speak.",
+      "citation": "3. Kings 22:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "So he came to the king, and the king said to him: Micheas, shall we go to Ramoth Galaad to battle, or shall we forbear?  He answered him: Go up, and prosper, and the Lord shall deliver it into the king's hands.",
+      "citation": "3. Kings 22:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "But the king said to him: I adjure thee again and again, that thou tell me nothing but that which is true, in the name of the Lord.",
+      "citation": "3. Kings 22:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And he said: I saw all Israel scattered upon the hills, like sheep that have no shepherd; and the Lord said: These have no master: let every man of them return to his house in peace.",
+      "citation": "3. Kings 22:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "(Then the king of Israel said to Josaphat: Did I not tell thee, that he prophesieth no good to me, but always evil?)",
+      "citation": "3. Kings 22:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And he added and said: Hear thou, therefore, the word of the Lord: I saw the Lord sitting on his throne, and all the army of heaven standing by him on the right hand and on the left:",
+      "citation": "3. Kings 22:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And the Lord said: Who shall deceive Achab, king of Israel, that he may go up, and fall at Ramoth Galaad? And one spoke words of this manner, and another otherwise.",
+      "citation": "3. Kings 22:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And there came forth a spirit, and stood before the Lord, and said: I will deceive him. And the Lord said to him: By what means?",
+      "citation": "3. Kings 22:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And he said: I will go forth, and be a lying spirit, in the mouth of all his prophets. And the Lord said: Thou shalt deceive him, and shalt prevail: go forth, and do so.",
+      "citation": "3. Kings 22:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Now, therefore, behold the Lord hath given a lying spirit in the mouth of all thy prophets that are here, and the Lord hath spoken evil against thee.",
+      "citation": "3. Kings 22:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And Sedecias, the son of Chanaana, came, and struck Micheas on the cheek, and said: Hath then the spirit of the Lord left me, and spoken to thee?",
+      "citation": "3. Kings 22:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And Micheas said: Thou shalt see in the day when thou shalt go into a chamber within a chamber to hide thyself.",
+      "citation": "3. Kings 22:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And the king of Israel said: Take Micheas and let him abide with Amon, the governor of the city, and with Joas, the son of Amalech;",
+      "citation": "3. Kings 22:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And tell them: Thus saith the king: Put this man in prison, and feed him with bread of affliction, and water of distress till I return in peace.",
+      "citation": "3. Kings 22:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And Micheas said: If thou return in peace, the Lord hath not spoken by me. And he said: Hear, all ye people.",
+      "citation": "3. Kings 22:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "So the king of Israel, and Josaphat, king of Juda, went up to Ramoth-Galaad.",
+      "citation": "3. Kings 22:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And the king of Israel said to Josaphat: Take thy armour, and go into the battle, and put on thy own garments.  But the king of Israel changed his dress, and went into the battle.",
+      "citation": "3. Kings 22:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And the king of Syria had commanded the two and thirty captains of the chariots, saying: You shall not fight against any, small or great, but against the king of Israel only.",
+      "citation": "3. Kings 22:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "So when the captains of the chariots saw Josaphat, they suspected that he was the king of Israel, and making a violent assault, they fought against him: and Josaphat cried out.",
+      "citation": "3. Kings 22:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And the captains of the chariots perceived that he was not the king of Israel, and they turned away from him.",
+      "citation": "3. Kings 22:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And a certain man bent his bow, shooting at a venture, and chanced to strike the king of Israel, between the lungs and the stomach. But he said to the driver of his chariot: Turn thy hand, and carry me out of the army, for I am grievously wounded.",
+      "citation": "3. Kings 22:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And the battle was fought that day, and the king of Israel stood in his chariot against the Syrians, and he died in the evening: and the blood ran out of the wound into the midst of the chariot.",
+      "citation": "3. Kings 22:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And the herald proclaimed through all the army, before the sun set, saying: Let every man return to his own city, and to his own country.",
+      "citation": "3. Kings 22:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And the king died, and was carried into Samaria: and they buried the king in Samaria.",
+      "citation": "3. Kings 22:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And they washed his chariot in the pool of Samaria and the dogs licked up his blood, and they washed the reins according to the word of the Lord which he had spoken.",
+      "citation": "3. Kings 22:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "But the rest of the acts of Achab, and all that he did, and the house of ivory that he made, and all the cities that he built, are they not written in the book of the words of the days of the kings of Israel?",
+      "citation": "3. Kings 22:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "So Achab slept with his fathers; and Ochozias, his son, reigned in his stead.",
+      "citation": "3. Kings 22:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "But Josaphat, the son of Asa, began to reign over Juda, in the fourth year of Acbab, king of Israel.",
+      "citation": "3. Kings 22:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "He was five and thirty years old when he began to reign, and he reigned five and twenty years in Jerusalem: the name of his mother was Azuba, the daughter of Salai.",
+      "citation": "3. Kings 22:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And he walked in all the way of Asa, his father, and he declined not from it: and he did that which was right in the sight of the Lord.",
+      "citation": "3. Kings 22:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "Nevertheless, he took not away the high places for as yet the people offered sacrifice, and burnt incense in the high places.",
+      "citation": "3. Kings 22:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "And Josaphat had peace with the king of Israel.",
+      "citation": "3. Kings 22:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "But the rest of the acts of Josaphat, and his works which he did, and his battles, are they not written in the book of the words of the days of the kings of Juda?",
+      "citation": "3. Kings 22:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "And the remnant also of the effeminate, who remained in the days of Asa, his father, he took out of the land.",
+      "citation": "3. Kings 22:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "And there was then no king appointed in Edom.",
+      "citation": "3. Kings 22:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "But king Josaphat made navies on the sea, to sail into Ophir for gold: but they could not go, for the ships were broken in Asiongaber.",
+      "citation": "3. Kings 22:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "Then Ochozias, the son of Achab, said to Josaphat: Let my servants go with thy servants in the ships.  And Josaphat would not.",
+      "citation": "3. Kings 22:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "And Josaphat slept with his fathers, and was buried with them in the city of David, his father: and Joram, his son, reigned in his stead.",
+      "citation": "3. Kings 22:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "And Ochozias, the son of Achab, began to reign over Israel, in Samaria, in the seventeenth year of Josaphat, king of Juda, and he reigned over Israel two years.",
+      "citation": "3. Kings 22:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "And he did evil in the sight of the Lord, and walked in the way of his father and his mother, and in the way of Jeroboam, the son of Nabat, who made Israel to sin.",
+      "citation": "3. Kings 22:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "He served also Baal, and worshipped him, and provoked the Lord, the God of Israel, according to all that his father had done.",
+      "citation": "3. Kings 22:54 (Douay-Rheims)"
+    }
+  ]
+}

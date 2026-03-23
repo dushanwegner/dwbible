@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 1 — 40 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 1,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/2.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/1.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/1.json"
+    }
+  },
+  "citation": "Ecclesiasticus 1 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "All wisdom is from the Lord God, and hath been always with him, and is before all time.",
+      "citation": "Ecclesiasticus 1:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Who hath numbered the sand of the sea, and the drops of rain, and the days of the world? Who hath measured the height of heaven, and the breadth of the earth, and the depth of the abyss?",
+      "citation": "Ecclesiasticus 1:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Who hath searched out the wisdom of God that goeth before all things?",
+      "citation": "Ecclesiasticus 1:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Wisdom hath been created before all things, and the understanding of prudence from everlasting.",
+      "citation": "Ecclesiasticus 1:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The word of God on high is the fountain of wisdom, and her ways are everlasting commandments.",
+      "citation": "Ecclesiasticus 1:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "To whom hath the root of wisdom been revealed, and who hath known her wise counsels?",
+      "citation": "Ecclesiasticus 1:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "To whom hath the discipline of wisdom been revealed and made manifest? and who hath understood the multiplicity of her steps?",
+      "citation": "Ecclesiasticus 1:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "There is one most high Creator Almighty, and a powerful king, and greatly to be feared, who sitteth upon his throne, and is the God of dominion.",
+      "citation": "Ecclesiasticus 1:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He created her in the Holy Ghost, and saw her, and numbered her, and measured her.",
+      "citation": "Ecclesiasticus 1:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And he poured her out upon all his works, and upon all flesh according to his gift, and hath given her to them that love him.",
+      "citation": "Ecclesiasticus 1:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The fear of the Lord is honour, and glory, and gladness, and a crown of joy.",
+      "citation": "Ecclesiasticus 1:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The fear of the Lord shall delight the heart, and shall give joy, and gladness, and length of days.",
+      "citation": "Ecclesiasticus 1:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "With him that feareth the Lord, it shall go well in the latter end, and in the day of his death he shall be blessed.",
+      "citation": "Ecclesiasticus 1:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "The love of God is honourable wisdom.",
+      "citation": "Ecclesiasticus 1:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And they to whom she shall shew herself love her by the sight, and by the knowledge of her great works.",
+      "citation": "Ecclesiasticus 1:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The fear of the Lord is the beginning of wisdom, and was created with the faithful in the womb, it walketh with chosen women, and is known with the just and faithful.",
+      "citation": "Ecclesiasticus 1:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The fear of the Lord is the religiousness of knowledge.",
+      "citation": "Ecclesiasticus 1:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Religiousness shall keep and justify the heart, it shall give joy and gladness.",
+      "citation": "Ecclesiasticus 1:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "It shall go well with him that feareth the Lord, and in the days of his end he shall be blessed.",
+      "citation": "Ecclesiasticus 1:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "To fear God is the fulness of wisdom, and fulness is from the fruits thereof.",
+      "citation": "Ecclesiasticus 1:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "She shall fill all her house with her increase, and the storehouses with her treasures.",
+      "citation": "Ecclesiasticus 1:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The fear of the Lord is a crown of wisdom, filling up peace and the fruit of salvation:",
+      "citation": "Ecclesiasticus 1:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And it hath seen, and numbered her: but both are the gifts of God.",
+      "citation": "Ecclesiasticus 1:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Wisdom shall distribute knowledge, and understanding of prudence: and exalteth the glory of them that hold her.",
+      "citation": "Ecclesiasticus 1:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "The root of wisdom is to fear the Lord: and the branches thereof are long-lived.",
+      "citation": "Ecclesiasticus 1:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "In the treasures of wisdom is understanding, and religiousness of knowledge: but to sinners wisdom is an abomination.",
+      "citation": "Ecclesiasticus 1:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "The fear of the Lord driveth out sin:",
+      "citation": "Ecclesiasticus 1:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "For he that is without fear, cannot be justified: for the wrath of his high spirits is his ruin.",
+      "citation": "Ecclesiasticus 1:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "A patient man shall bear for a time, and afterwards joy shall be restored to him.",
+      "citation": "Ecclesiasticus 1:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "A good understanding will hide his words for a time, and the lips of many shall declare his wisdom.",
+      "citation": "Ecclesiasticus 1:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "In the treasures of wisdom is the signification of discipline:",
+      "citation": "Ecclesiasticus 1:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "But the worship of God is an abomination to a sinner.",
+      "citation": "Ecclesiasticus 1:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Son, if thou desire wisdom, keep justice, and God will give her to thee.",
+      "citation": "Ecclesiasticus 1:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "For the fear of the Lord is wisdom and discipline: and that which is agreeable to him,",
+      "citation": "Ecclesiasticus 1:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "Is faith, and meekness: and he will fill up his treasures.",
+      "citation": "Ecclesiasticus 1:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "Be not incredulous to the fear of the Lord: and come not to him with a double heart.",
+      "citation": "Ecclesiasticus 1:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "Be not a hypocrite in the sight of men, and let not thy lips be a stumblingblock to thee.",
+      "citation": "Ecclesiasticus 1:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Watch over them, lest thou fall, and bring dishonour upon thy soul,",
+      "citation": "Ecclesiasticus 1:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And God discover thy secrets, and cast thee down in the midst of the congregation.",
+      "citation": "Ecclesiasticus 1:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Because thou camest to the Lord wickedly, and thy heart is full of guile and deceit.",
+      "citation": "Ecclesiasticus 1:40 (Douay-Rheims)"
+    }
+  ]
+}

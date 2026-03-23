@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Corinthians, Chapter 13 — 12 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "chapter": 13,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-corinthians/12.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-corinthians/13.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/13.json"
+    }
+  },
+  "citation": "2 Corinthians 13 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ecce tertio hoc venio ad vos in ore duorum vel trium testium stabit omne verbum",
+      "citation": "2 Corinthians 13:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "praedixi et praedico ut praesens bis et nunc absens his qui ante peccaverunt et ceteris omnibus quoniam si venero iterum non parcam",
+      "citation": "2 Corinthians 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "an experimentum quaeritis eius qui in me loquitur Christi qui in vos non infirmatur sed potens est in vobis",
+      "citation": "2 Corinthians 13:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nam et si crucifixus est ex infirmitate sed vivit ex virtute Dei nam et nos infirmi sumus in illo sed vivemus cum eo ex virtute Dei in vobis",
+      "citation": "2 Corinthians 13:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "vosmet ipsos temptate si estis in fide ipsi vos probate an non cognoscitis vos ipsos quia Christus Iesus in vobis est nisi forte reprobi estis",
+      "citation": "2 Corinthians 13:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "spero autem quod cognoscetis quia nos non sumus reprobi",
+      "citation": "2 Corinthians 13:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "oramus autem Deum ut nihil mali faciatis non ut nos probati pareamus sed ut vos quod bonum est faciatis nos autem ut reprobi simus",
+      "citation": "2 Corinthians 13:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "non enim possumus aliquid adversus veritatem sed pro veritate",
+      "citation": "2 Corinthians 13:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "gaudemus enim quando nos infirmi sumus vos autem potentes estis hoc et oramus vestram consummationem",
+      "citation": "2 Corinthians 13:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ideo haec absens scribo ut non praesens durius agam secundum potestatem quam Dominus dedit mihi in aedificationem et non in destructionem",
+      "citation": "2 Corinthians 13:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "de cetero fratres gaudete perfecti estote exhortamini idem sapite pacem habete et Deus dilectionis et pacis erit vobiscum",
+      "citation": "2 Corinthians 13:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "salutate invicem in osculo sancto salutant vos sancti omnes",
+      "citation": "2 Corinthians 13:12 (Clementine Vulgate)"
+    }
+  ]
+}

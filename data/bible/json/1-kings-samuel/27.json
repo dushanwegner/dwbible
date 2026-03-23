@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Kings / Samuel, Chapter 27 — 12 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Kings / Samuel",
+      "slug": "1-kings-samuel",
+      "testament": "OT",
+      "order": 9,
+      "totalChapters": 31
+    },
+    "chapter": 27,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-kings-samuel/26.json",
+      "nextChapter": "https://latinprayer.org/bible/1-kings-samuel/28.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-kings-samuel/27.json",
+      "german": "https://latinprayer.org/bibel/1-kings-samuel/27.json"
+    }
+  },
+  "citation": "1. Kings / Samuel 27 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And David said in his heart: I shall one day or other fall into the hands of Saul: is it not better for me to flee, and to be saved in the land of the Philistines, that Saul may despair of me, and cease to seek me in all the coasts of Israel? I will flee then out of his hands.",
+      "citation": "1. Kings / Samuel 27:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And David arose, and went away, both he and the six hundred men that were with him, to Achis, the son of Maoch, king of Geth.",
+      "citation": "1. Kings / Samuel 27:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And David dwelt with Achis at Geth, he and his men; every man with his household, and David with his two wives, Achinoam, the Jezrahelitess, and Abigail, the wife of Nabal of Carmel.",
+      "citation": "1. Kings / Samuel 27:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And it was told Saul that David was fled to Geth, and he sought no more after him.",
+      "citation": "1. Kings / Samuel 27:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And David said to Achis: If I have found favour in thy sight, let a place be given me in one of the cities of this country, that I may dwell there: for why should thy servant dwell in the royal city with thee?",
+      "citation": "1. Kings / Samuel 27:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Then Achis gave him Siceleg that day: for which reason Siceleg belongeth to the kings of Juda unto this day.",
+      "citation": "1. Kings / Samuel 27:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the time that David dwelt in the country of the Philistines, was four months.",
+      "citation": "1. Kings / Samuel 27:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And David and his men went up, and pillaged Gessuri, and Gerzi, and the Amalecites: for these were of old the inhabitants of the countries, as men go to Sur, even to the land of Egypt.",
+      "citation": "1. Kings / Samuel 27:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And David wasted all the land, and left neither man nor woman alive: and took away the sheep, and the oxen, and the asses, and the camels, and the apparel, and returned and came to Achis.",
+      "citation": "1. Kings / Samuel 27:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And Achis said to him: Whom hast thou gone against to day? David answered: Against the south of Juda, and against the south of Jerameel, and against the south of Ceni.",
+      "citation": "1. Kings / Samuel 27:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And David saved neither man nor woman, neither brought he any of them to Geth, saying: Lest they should speak against us. So did David, and such was his proceeding all the days that he dwelt in the country of the Philistines.",
+      "citation": "1. Kings / Samuel 27:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And Achis believed David, saying: He hath done much harm to his people Israel: Therefore he shall be my servant for ever.",
+      "citation": "1. Kings / Samuel 27:12 (Douay-Rheims)"
+    }
+  ]
+}

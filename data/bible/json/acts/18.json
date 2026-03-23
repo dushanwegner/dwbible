@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Acts, Chapter 18 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 51,
+      "totalChapters": 28
+    },
+    "chapter": 18,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/acts/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/acts/17.json",
+      "nextChapter": "https://latinprayer.org/bible/acts/19.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/acts/18.json",
+      "german": "https://latinprayer.org/bibel/acts/18.json"
+    }
+  },
+  "citation": "Acts 18 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "After these things, departing from Athens, he came to Corinth.",
+      "citation": "Acts 18:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And finding a certain Jew, named Aquila, born in Pontus, lately come from Italy, with Priscilla his wife (because that Claudius had commanded all Jews to depart from Rome), he came to them.",
+      "citation": "Acts 18:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And because he was of the same trade, he remained with them and wrought. (Now they were tentmakers by trade.)",
+      "citation": "Acts 18:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he reasoned in the synagogue every sabbath, bringing in the name of the Lord Jesus. And he persuaded the Jews and the Greeks.",
+      "citation": "Acts 18:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And when Silas and Timothy were come from Macedonia, Paul was earnest in preaching, testifying to the Jews that Jesus is the Christ.",
+      "citation": "Acts 18:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But they gainsaying and blaspheming, he shook his garments and said to them: Your blood be upon your own heads: I am clean. From henceforth I will go unto the Gentiles.",
+      "citation": "Acts 18:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And departing thence, he entered into the house of a certain man, named Titus Justus, one that worshipped God, whose house was adjoining to the synagogue.",
+      "citation": "Acts 18:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And Crispus, the ruler of the synagogue, believed in the Lord, with all his house. And many of the Corinthians hearing, believed and were baptized.",
+      "citation": "Acts 18:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the Lord said to Paul in the night, by a vision: Do not fear, but speak. And hold not thy peace,",
+      "citation": "Acts 18:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Because I am with thee and no man shall set upon thee, to hurt thee. For I have much people in this city.",
+      "citation": "Acts 18:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And he stayed there a year and six months, teaching among them the word of God.",
+      "citation": "Acts 18:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "But when Gallio was proconsul of Achaia, the Jews with one accord rose up against Paul and brought him to the judgment seat,",
+      "citation": "Acts 18:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Saying: This man persuadeth men to worship God contrary to the law.",
+      "citation": "Acts 18:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And when Paul was beginning to open his mouth, Gallio said to the Jews: If it were some matter of injustice or an heinous deed, O Jews, I should with reason bear with you.",
+      "citation": "Acts 18:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "But if they be questions of word and names and of your law, look you to it. I will not be judge of such things.",
+      "citation": "Acts 18:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And he drove them from the judgment seat.",
+      "citation": "Acts 18:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And all laying hold on Sosthenes, the ruler of the synagogue, beat him before the judgment seat. And Gallio cared for none of those things.",
+      "citation": "Acts 18:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "But Paul, when he had stayed yet many days, taking his leave of the brethren, sailed thence into Syria (and with him Priscilla and Aquila), having shorn his head in Cenchrae. For he had a vow.",
+      "citation": "Acts 18:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And he came to Ephesus and left them there. But he himself, entering into the synagogue, disputed with the Jews.",
+      "citation": "Acts 18:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And when they desired him that he would tarry a longer time, he consented not:",
+      "citation": "Acts 18:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "But taking his leave and saying: I will return to you again, God willing, he departed from Ephesus.",
+      "citation": "Acts 18:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And going down to Caesarea, he went up to Jerusalem and saluted the church: and so came down to Antioch.",
+      "citation": "Acts 18:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And after he had spent some time there, he departed and went through the country of Galatia and Phrygia, in order, confirming all the disciples.",
+      "citation": "Acts 18:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Now a certain Jew, named Apollo, born at Alexandria, an eloquent man, came to Ephesus, one mighty in the scriptures.",
+      "citation": "Acts 18:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "This man was instructed in the way of the Lord: and being fervent in spirit, spoke and taught diligently the things that are of Jesus, knowing only the baptism of John.",
+      "citation": "Acts 18:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "This man therefore began to speak boldly in the synagogue.  Whom when Priscilla and Aquila had heard, they took him to them and expounded to him the way of the Lord more diligently.",
+      "citation": "Acts 18:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And whereas he was desirous to go to Achaia, the brethren exhorting wrote to the disciples to receive him. Who, when he was come, helped them much who had believed.",
+      "citation": "Acts 18:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "For with much vigour he convinced the Jews openly, shewing by the scriptures that Jesus is the Christ.",
+      "citation": "Acts 18:28 (Douay-Rheims)"
+    }
+  ]
+}

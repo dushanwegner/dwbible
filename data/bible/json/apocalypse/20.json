@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Apocalypse, Chapter 20 — 15 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Apocalypse",
+      "slug": "apocalypse",
+      "testament": "NT",
+      "order": 73,
+      "totalChapters": 22
+    },
+    "chapter": 20,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/apocalypse/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/apocalypse/19.json",
+      "nextChapter": "https://latinprayer.org/bible/apocalypse/21.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/apocalypse/20.json",
+      "german": "https://latinprayer.org/bibel/apocalypse/20.json"
+    }
+  },
+  "citation": "Apocalypse 20 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And I saw an angel coming down from heaven, having the key of the bottomless pit and a great chain in his hand.",
+      "citation": "Apocalypse 20:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he laid hold on the dragon, the old serpent, which is the devil and Satan, and bound him for a thousand years.",
+      "citation": "Apocalypse 20:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he cast him into the bottomless pit and shut him up and set a seal upon him, that he should no more seduce the nations till the thousand years be finished. And after that, he must be loosed a little time.",
+      "citation": "Apocalypse 20:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And I saw seats. And they sat upon them: and judgment was given unto them. And the souls of them that were beheaded for the testimony of Jesus and for the word of God and who had not adored the beast nor his image nor received his character on their foreheads or in their hands. And they lived and reigned with Christ a thousand years.",
+      "citation": "Apocalypse 20:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The rest of the dead lived not, till the thousand years were finished. This is the first resurrection.",
+      "citation": "Apocalypse 20:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Blessed and holy is he that hath part in the first resurrection. In these the second death hath no power. But they shall be priests of God and of Christ: and shall reign with him a thousand years.",
+      "citation": "Apocalypse 20:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And when the thousand years shall be finished, Satan shall be loosed out of his prison and shall go forth and seduce the nations which are over the four quarters of the earth, Gog and Magog: and shall gather them together to battle, the number of whom is as the sand of the sea.",
+      "citation": "Apocalypse 20:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And they came upon the breadth of the earth and encompassed the camp of the saints and the beloved city.",
+      "citation": "Apocalypse 20:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And there came down fire from God out of heaven and devoured them: and the devil, who seduced them, was cast into the pool of fire and brimstone, where both the beast",
+      "citation": "Apocalypse 20:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the false prophet shall be tormented day and night for ever and ever.",
+      "citation": "Apocalypse 20:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And I saw a great white throne and one sitting upon it, from whose face the earth and heaven fled away: and there was no place found for them.",
+      "citation": "Apocalypse 20:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And I saw the dead, great and small, standing in the presence of the throne. And the books were opened: and another book was opened, which was the book of life. And the dead were judged by those things which were written in the books, according to their works.",
+      "citation": "Apocalypse 20:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the sea gave up the dead that were in it: and death and hell gave up their dead that were in them. And they were judged, every one according to their works.",
+      "citation": "Apocalypse 20:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And hell and death were cast into the pool of fire. This is the second death.",
+      "citation": "Apocalypse 20:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And whosoever was not found written in the book of life was cast into the pool of fire.",
+      "citation": "Apocalypse 20:15 (Douay-Rheims)"
+    }
+  ]
+}

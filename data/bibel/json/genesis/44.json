@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 44 — 34 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 44,
+    "verseCount": 34,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/genesis/43.json",
+      "nextChapter": "https://latinprayer.org/bibel/genesis/45.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/44.json",
+      "latin": "https://latinprayer.org/latin/genesis/44.json"
+    }
+  },
+  "citation": "Genesis 44 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Hierauf befahl er (Joseph) seinem Hausverwalter: »Fülle den Männern ihre Säcke mit Getreide, soviel sie fortschaffen können, und lege einem jeden sein Geld (wieder) oben in seinen Sack!",
+      "citation": "Genesis 44:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Meinen Becher aber, den silbernen Becher, sollst du dem Jüngsten oben in seinen Sack legen samt dem Gelde für sein Getreide!« Jener tat nach dem von Joseph ihm erteilten Befehl.",
+      "citation": "Genesis 44:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Am andern Morgen, als es hell wurde, ließ man die Männer mit ihren Eseln ziehen.",
+      "citation": "Genesis 44:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als sie aber kaum zur Stadt hinausgezogen und noch nicht weit gekommen waren, befahl Joseph seinem Hausverwalter: »Auf! Eile den Männern nach! Und hast du sie eingeholt, so sage zu ihnen: ›Warum habt ihr Gutes mit Bösem vergolten?",
+      "citation": "Genesis 44:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Warum habt ihr den silbernen Becher gestohlen? Es ist gerade der Becher, aus dem mein Herr trinkt und mittels dessen er auch wahrzusagen pflegt. Ihr habt da schlecht gehandelt!‹«",
+      "citation": "Genesis 44:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Als er sie nun eingeholt hatte, sagte er diese Worte zu ihnen.",
+      "citation": "Genesis 44:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da antworteten sie ihm: »O Herr, wie kannst du so etwas sagen? Es liegt deinen Knechten fern, so etwas zu tun!",
+      "citation": "Genesis 44:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wir haben dir ja doch auch das Geld, das wir oben in unsern Säcken gefunden hatten, aus dem Lande Kanaan zurückgebracht: wie sollten wir da jetzt aus dem Hause deines Herrn Silber oder Gold gestohlen haben?",
+      "citation": "Genesis 44:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Bei wem von deinen Knechten (der Becher) gefunden wird, der soll sterben, und auch wir anderen wollen Sklaven meines Herrn werden!«",
+      "citation": "Genesis 44:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Er antwortete: »Gut! Es sei, wie ihr gesagt habt: bei wem er gefunden wird, der soll mein Sklave sein; ihr anderen aber sollt frei ausgehen!«",
+      "citation": "Genesis 44:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da setzten sie jeder seinen Sack schnell auf die Erde nieder, und jeder öffnete seinen Sack.",
+      "citation": "Genesis 44:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Er aber fing an zu suchen; beim Ältesten fing er an, und beim Jüngsten hörte er auf: da fand sich der Becher im Sack Benjamins.",
+      "citation": "Genesis 44:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Da zerrissen sie ihre Kleider; ein jeder belud seinen Esel wieder, und sie kehrten in die Stadt zurück.",
+      "citation": "Genesis 44:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Als nun Juda und seine Brüder in das Haus Josephs gekommen waren – dieser war aber dort noch anwesend –, warfen sie sich vor ihm auf die Erde nieder.",
+      "citation": "Genesis 44:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Da sagte Joseph zu ihnen: »Was für eine Tat habt ihr da begangen! Wußtet ihr nicht, daß ein Mann wie ich sich auf Zeichendeutung versteht?«",
+      "citation": "Genesis 44:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Da antwortete Juda: »Was sollen wir zu meinem Herrn sagen? Was sollen wir reden und wie uns rechtfertigen? Gott hat die Schuld deiner Knechte ans Licht gebracht: wir (alle) gehören jetzt meinem Herrn als Sklaven, wir ebensogut wie der, in dessen Besitz der Becher gefunden worden ist.«",
+      "citation": "Genesis 44:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Joseph aber antwortete: »Fern sei es von mir, so zu verfahren! Nur der, in dessen Besitz der Becher sich gefunden hat, soll mein Sklave werden; ihr anderen aber mögt ungehindert zu eurem Vater zurückkehren!«",
+      "citation": "Genesis 44:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Da trat Juda an ihn heran und sagte: »Bitte, mein Herr! Laß doch deinen Knecht ein Wort an dich richten, mein Herr, ohne daß dein Zorn gegen deinen Knecht entbrennt, obgleich du so hoch stehst wie der Pharao!",
+      "citation": "Genesis 44:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Mein Herr hat vordem seine Knechte gefragt: ›Habt ihr noch einen Vater oder einen Bruder?‹",
+      "citation": "Genesis 44:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Da antworteten wir meinem Herrn: ›Wir haben noch einen alten Vater und einen noch jungen Bruder, der ihm im Alter geboren ist; dessen rechter Bruder ist tot, und so ist er ihm allein von seiner Mutter übriggeblieben und ist deshalb der Liebling seines Vaters.‹",
+      "citation": "Genesis 44:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Da befahlst du deinen Knechten: ›Bringt ihn zu mir her, ich will ihn mit eigenen Augen zu sehen bekommen!‹",
+      "citation": "Genesis 44:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Da antworteten wir meinem Herrn: ›Der Knabe kann seinen Vater nicht verlassen; denn wenn er seinen Vater verließe, so würde dieser sterben.‹",
+      "citation": "Genesis 44:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Aber du antwortetest deinen Knechten: ›Kommt euer jüngster Bruder nicht mit euch her, so dürft ihr mir nicht wieder vor die Augen treten!‹",
+      "citation": "Genesis 44:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Als wir dann zu deinem Knecht, meinem Vater, zurückgekehrt waren, teilten wir ihm die Worte meines Herrn mit;",
+      "citation": "Genesis 44:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "und als später unser Vater sagte: ›Zieht wieder hin und kauft uns etwas Getreide!‹,",
+      "citation": "Genesis 44:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "da antworteten wir: ›Wir können nicht hinabziehen; nur wenn unser jüngster Bruder uns begleitet, wollen wir hinabziehen; denn wir dürfen uns vor dem Manne nicht sehen lassen, wenn unser jüngster Bruder nicht bei uns ist.‹",
+      "citation": "Genesis 44:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Da erwiderte uns dein Knecht, mein Vater: ›Ihr wißt selbst, daß meine Frau mir nur zwei Söhne geboren hat;",
+      "citation": "Genesis 44:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "der eine ist von mir weggegangen, und ich mußte mir sagen: Sicherlich hat ihn ein Tier zerrissen!, und ich habe ihn bis heute nicht wiedergesehen.",
+      "citation": "Genesis 44:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Wenn ihr mir nun auch diesen noch wegnehmt und ihm ein Unglück zustößt, so werdet ihr mein graues Haar mit Jammer in die Unterwelt hinabbringen!‹",
+      "citation": "Genesis 44:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Käme ich jetzt also zu deinem Knecht, meinem Vater, heim und der Knabe wäre nicht bei uns, an dem doch sein ganzes Herz hängt,",
+      "citation": "Genesis 44:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "und müßte er sehen, daß der Knabe nicht da ist, so würde er sterben, und deine Knechte hätten wirklich das graue Haar deines Knechtes, unsers Vaters, mit Herzeleid in die Unterwelt hinabgebracht!",
+      "citation": "Genesis 44:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Weil nun dein Knecht sich bei meinem Vater für den Knaben verbürgt und gelobt hat: ›Wenn ich ihn dir nicht zurückbringe, so will ich zeit meines Lebens vor meinem Vater schuldbeladen dastehen!‹,",
+      "citation": "Genesis 44:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "so laß doch jetzt deinen Knecht anstatt des Knaben als Sklaven meines Herrn hierbleiben, den Knaben aber laß mit seinen Brüdern heimziehen!",
+      "citation": "Genesis 44:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Denn wie könnte ich zu meinem Vater zurückkehren, ohne daß der Knabe bei mir wäre? Ich könnte den Jammer nicht mitansehen, der meinen Vater träfe!«",
+      "citation": "Genesis 44:34 (Menge)"
+    }
+  ]
+}

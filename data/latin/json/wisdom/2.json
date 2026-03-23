@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Wisdom, Chapter 2 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Wisdom",
+      "slug": "wisdom",
+      "testament": "OT",
+      "order": 25,
+      "totalChapters": 19
+    },
+    "chapter": 2,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/wisdom/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/wisdom/1.json",
+      "nextChapter": "https://latinprayer.org/latin/wisdom/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/wisdom/2.json",
+      "german": "https://latinprayer.org/bibel/wisdom/2.json"
+    }
+  },
+  "citation": "Wisdom 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "dixerunt enim apud se cogitantes non recte exiguum et cum taedio est tempus vitae nostrae et non est refrigerium in fine hominis et non est qui agnitus sit reversus ab inferis",
+      "citation": "Wisdom 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quia ex nihilo nati sumus et post hoc erimus tamquam non fuerimus quoniam fumus afflatus est in naribus nostris et sermo scintillae ad commovendum cor nostrum",
+      "citation": "Wisdom 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia extincta cinis erit corpus et spiritus diffundetur tamquam mollis aer et transiet vita nostra tamquam vestigium nubis et sicut nebula dissolvetur quae fugata est a radiis solis et a calore illius adgravata",
+      "citation": "Wisdom 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et nomen nostrum oblivionem accipiet per tempus et nemo memoriam habebit operum nostrorum",
+      "citation": "Wisdom 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "umbrae enim transitus est tempus nostrum et non est reversio finis nostri quoniam consignata est et nemo revertetur",
+      "citation": "Wisdom 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "venite ergo et fruamur bonis quae sunt et utamur creaturam tamquam in iuventute celeriter",
+      "citation": "Wisdom 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "vino pretioso et unguentis nos impleamus et non praetereat nos flos temporis",
+      "citation": "Wisdom 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "coronemus nos rosis antequam marcescant nullum pratum sit quod non pertranseat luxuria nostra",
+      "citation": "Wisdom 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ubique relinquamus signa laetitiae quoniam haec est pars nostra et haec est sors",
+      "citation": "Wisdom 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "opprimamus pauperem iustum et non parcamus viduae nec veterani revereamur canos multi temporis",
+      "citation": "Wisdom 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sit autem fortitudo nostra lex iniustitiae quod infirmum est enim inutile invenitur",
+      "citation": "Wisdom 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "circumveniamus ergo iustum quoniam inutilis est nobis et contrarius est operibus nostris et inproperat nobis peccata legis et diffamat in nos peccata disciplinae nostrae",
+      "citation": "Wisdom 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "promittit scientiam Dei se habere et filium Dei se nominat",
+      "citation": "Wisdom 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "factus est nobis in traductionem cogitationum nostrarum",
+      "citation": "Wisdom 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "gravis est nobis etiam ad videndum quoniam dissimilis est aliis vita illius et inmutatae sunt viae eius",
+      "citation": "Wisdom 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "tamquam nugaces aestimati sumus ab illo et abstinet se a viis nostris tamquam ab inmunditiis et praefert novissima iustorum et gloriatur patrem Deum se habere",
+      "citation": "Wisdom 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "videamus ergo si sermones illius veri sunt et temptemus quae ventura sunt illi et sciemus quae erunt novissima illius",
+      "citation": "Wisdom 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "si enim est verus filius Dei suscipiet illum et liberabit eum de manu contrariorum",
+      "citation": "Wisdom 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "contumelia et tormento interrogemus eum ut sciamus reverentiam illius et probemus patientiam ipsius",
+      "citation": "Wisdom 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "morte turpissima condemnemus illum erit enim ei respectus ex sermonibus illius",
+      "citation": "Wisdom 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "haec cogitaverunt et erraverunt excaecavit enim illos malitia eorum",
+      "citation": "Wisdom 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et nescierunt sacramenta Dei neque mercedem speraverunt iustitiae nec iudicaverunt honorem animarum sanctarum",
+      "citation": "Wisdom 2:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "quoniam Deus creavit hominem inexterminabilem et ad imaginem suae similitudinis fecit illum",
+      "citation": "Wisdom 2:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "invidia autem diaboli mors introivit in orbem terrarum",
+      "citation": "Wisdom 2:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "imitantur autem illum qui sunt ex parte illius",
+      "citation": "Wisdom 2:24 (Clementine Vulgate)"
+    }
+  ]
+}

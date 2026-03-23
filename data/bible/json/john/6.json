@@ -1,0 +1,396 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John, Chapter 6 — 72 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 6,
+    "verseCount": 72,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/john/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/john/5.json",
+      "nextChapter": "https://latinprayer.org/bible/john/7.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/john/6.json",
+      "german": "https://latinprayer.org/bibel/john/6.json"
+    }
+  },
+  "citation": "John 6 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "After these things Jesus went over the sea of Galilee, which is that of Tiberias.",
+      "citation": "John 6:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And a great multitude followed him, because they saw the miracles which he did on them that were diseased.",
+      "citation": "John 6:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Jesus therefore went up into a mountain: and there he sat with his disciples.",
+      "citation": "John 6:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Now the pasch, the festival day of the Jews, was near at hand.",
+      "citation": "John 6:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "When Jesus therefore had lifted up his eyes and seen that a very great multitude cometh to him, he said to Philip: Whence shall we buy bread, that these may eat?",
+      "citation": "John 6:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And this he said to try him: for he himself knew what he would do.",
+      "citation": "John 6:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Philip answered him: Two hundred pennyworth of bread is not sufficient for them that every one may take a little.",
+      "citation": "John 6:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "One of his disciples, Andrew, the brother of Simon Peter, saith to him:",
+      "citation": "John 6:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "There is a boy here that hath five barley loaves and two fishes. But what are these among so many?",
+      "citation": "John 6:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Then Jesus said: Make the men sit down. Now, there was much grass in the place. The men therefore sat down, in number about five thousand.",
+      "citation": "John 6:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Jesus took the loaves: and when he had given thanks, he distributed to them that were set down. In like manner also of the fishes, as much as they would.",
+      "citation": "John 6:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And when they were filled, he said to his disciples: gather up the fragments that remain, lest they be lost.",
+      "citation": "John 6:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "They gathered up therefore and filled twelve baskets with the fragments of the five barley loaves which remained over and above to them that had eaten.",
+      "citation": "John 6:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Now those men, when they had seen what a miracle Jesus had done, said: This is of a truth the prophet that is to come into the world.",
+      "citation": "John 6:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Jesus therefore, when he knew that they would come to take him by force and make him king, fled again into the mountains, himself alone.",
+      "citation": "John 6:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And when evening was come, his disciples went down to the sea.",
+      "citation": "John 6:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And when they had gone up into a ship, they went over the sea to Capharnaum. And it was now dark: and Jesus was not come unto them.",
+      "citation": "John 6:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And the sea arose, by reason of a great wind that blew.",
+      "citation": "John 6:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "When they had rowed therefore about five and twenty or thirty furlongs, they see Jesus walking upon the sea and drawing nigh to the ship. And they were afraid.",
+      "citation": "John 6:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "But he saith to them: It is I. Be not afraid.",
+      "citation": "John 6:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "They were willing therefore to take him into the ship. And presently the ship was at the land to which they were going.",
+      "citation": "John 6:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The next day, the multitude that stood on the other side of the sea saw that there was no other ship there but one: and that Jesus had not entered into the ship with his disciples, but that his disciples were gone away alone.",
+      "citation": "John 6:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "But other ships came in from Tiberias, nigh unto the place where they had eaten the bread, the Lord giving thanks.",
+      "citation": "John 6:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "When therefore the multitude saw that Jesus was not there, nor his disciples, they took shipping and came to Capharnaum, seeking for Jesus.",
+      "citation": "John 6:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And when they had found him on that other side of the sea, they said to him: Rabbi, when camest thou hither?",
+      "citation": "John 6:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Jesus answered them and said: Amen, amen, I say to you, you seek me, not because you have seen miracles, but because you did eat of the loaves and were filled.",
+      "citation": "John 6:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Labour not for the meat which perisheth, but for that which endureth unto life everlasting, which the Son of man will give you. For him hath God, the Father, sealed.",
+      "citation": "John 6:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "They said therefore unto him: What shall we do, that we may work the works of God?",
+      "citation": "John 6:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Jesus answered and said to them: This is the work of God, that you believe in him whom he hath sent.",
+      "citation": "John 6:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "They said therefore to him: What sign therefore dost thou shew that we may see and may believe thee? What dost thou work?",
+      "citation": "John 6:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Our fathers did eat manna in the desert, as it is written: He gave them bread from heaven to eat.",
+      "citation": "John 6:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "Then Jesus said to them: Amen, amen, I say to you; Moses gave you not bread from heaven, but my Father giveth you the true bread from heaven.",
+      "citation": "John 6:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "For the bread of God is that which cometh down from heaven and giveth life to the world.",
+      "citation": "John 6:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "They said therefore unto him: Lord, give us always this bread.",
+      "citation": "John 6:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And Jesus said to them: I am the bread of life. He that cometh to me shall not hunger: and he that believeth in me shall never thirst.",
+      "citation": "John 6:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "But I said unto you that you also have seen me, and you believe not.",
+      "citation": "John 6:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "All that the Father giveth to me shall come to me: and him that cometh to me, I will not cast out.",
+      "citation": "John 6:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Because I came down from heaven, not to do my own will but the will of him that sent me.",
+      "citation": "John 6:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "Now this is the will of the Father who sent me: that of all that he hath given me, I should lose nothing; but should raise it up again in the last day.",
+      "citation": "John 6:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And this is the will of my Father that sent me: that every one who seeth the Son and believeth in him may have life everlasting. And I will raise him up in the last day.",
+      "citation": "John 6:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "The Jews therefore murmured at him, because he had said: I am the living bread which came down from heaven.",
+      "citation": "John 6:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And they said: Is not this Jesus, the son of Joseph, whose father and mother we know? How then saith he: I came down from heaven?",
+      "citation": "John 6:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "Jesus therefore answered and said to them: Murmur not among yourselves.",
+      "citation": "John 6:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "No man can come to me, except the Father, who hath sent me, draw him. And I will raise him up in the last day.",
+      "citation": "John 6:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "It is written in the prophets: And they shall all be taught of God. Every one that hath heard of the Father and hath learned cometh forth me.",
+      "citation": "John 6:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "Not that any man hath seen the Father: but he who is of God, he hath seen the Father.",
+      "citation": "John 6:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "Amen, amen, I say unto you: He that believeth in me hath everlasting life.",
+      "citation": "John 6:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "I am the bread of life.",
+      "citation": "John 6:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "Your fathers did eat manna in the desert: and are dead.",
+      "citation": "John 6:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "This is the bread which cometh down from heaven: that if any man eat of it, he may not die.",
+      "citation": "John 6:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "I am the living bread which came down from heaven.",
+      "citation": "John 6:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "If any man eat of this bread, he shall live for ever: and the bread that I will give is my flesh, for the life of the world.",
+      "citation": "John 6:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "The Jews therefore strove among themselves, saying: How can this man give us his flesh to eat?",
+      "citation": "John 6:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "Then Jesus said to them: Amen, amen, I say unto you: except you eat the flesh of the Son of man and drink his blood, you shall not have life in you.",
+      "citation": "John 6:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "He that eateth my flesh and drinketh my blood hath everlasting life: and I will raise him up in the last day.",
+      "citation": "John 6:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "For my flesh is meat indeed: and my blood is drink indeed.",
+      "citation": "John 6:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "He that eateth my flesh and drinketh my blood abideth in me: and I in him.",
+      "citation": "John 6:56 (Douay-Rheims)"
+    },
+    {
+      "verse": 57,
+      "text": "As the living Father hath sent me and I live by the Father: so he that eateth me, the same also shall live by me.",
+      "citation": "John 6:57 (Douay-Rheims)"
+    },
+    {
+      "verse": 58,
+      "text": "This is the bread that came down from heaven. Not as your fathers did eat manna and are dead. He that eateth this bread shall live for ever.",
+      "citation": "John 6:58 (Douay-Rheims)"
+    },
+    {
+      "verse": 59,
+      "text": "These things he said, teaching in the synagogue, in Capharnaum.",
+      "citation": "John 6:59 (Douay-Rheims)"
+    },
+    {
+      "verse": 60,
+      "text": "Many therefore of his disciples, hearing it, said: This saying is hard; and who can hear it?",
+      "citation": "John 6:60 (Douay-Rheims)"
+    },
+    {
+      "verse": 61,
+      "text": "But Jesus, knowing in himself that his disciples murmured at this, said to them: Doth this scandalize you?",
+      "citation": "John 6:61 (Douay-Rheims)"
+    },
+    {
+      "verse": 62,
+      "text": "If then you shall see the Son of man ascend up where he was before?",
+      "citation": "John 6:62 (Douay-Rheims)"
+    },
+    {
+      "verse": 63,
+      "text": "It is the spirit that quickeneth: the flesh profiteth nothing. The words that I have spoken to you are spirit and life.",
+      "citation": "John 6:63 (Douay-Rheims)"
+    },
+    {
+      "verse": 64,
+      "text": "But there are some of you that believe not. For Jesus knew from the beginning who they were that did not believe and who he was that would betray him.",
+      "citation": "John 6:64 (Douay-Rheims)"
+    },
+    {
+      "verse": 65,
+      "text": "And he said: Therefore did I say to you that no man can come to me, unless it be given him by my Father.",
+      "citation": "John 6:65 (Douay-Rheims)"
+    },
+    {
+      "verse": 66,
+      "text": "After this, many of his disciples went back and walked no more with him.",
+      "citation": "John 6:66 (Douay-Rheims)"
+    },
+    {
+      "verse": 67,
+      "text": "Then Jesus said to the twelve: Will you also go away?",
+      "citation": "John 6:67 (Douay-Rheims)"
+    },
+    {
+      "verse": 68,
+      "text": "And Simon Peter answered him: Lord, to whom shall we go?  Thou hast the words of eternal life.",
+      "citation": "John 6:68 (Douay-Rheims)"
+    },
+    {
+      "verse": 69,
+      "text": "And we have believed and have known that thou art the Christ, the Son of God.",
+      "citation": "John 6:69 (Douay-Rheims)"
+    },
+    {
+      "verse": 70,
+      "text": "Jesus answered them: Have not I chosen you twelve? And one of you is a devil.",
+      "citation": "John 6:70 (Douay-Rheims)"
+    },
+    {
+      "verse": 71,
+      "text": "Now he meant Judas Iscariot, the son of Simon: for this same was about to betray him, whereas he was one of the twelve.",
+      "citation": "John 6:71 (Douay-Rheims)"
+    }
+  ]
+}

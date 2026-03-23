@@ -1,0 +1,291 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 3 — 51 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 3,
+    "verseCount": 51,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/numbers/2.json",
+      "nextChapter": "https://latinprayer.org/bible/numbers/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/numbers/3.json",
+      "german": "https://latinprayer.org/bibel/numbers/3.json"
+    }
+  },
+  "citation": "Numbers 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "These are the generations of Aaron and Moses in the day that the Lord spoke to Moses in mount Sinai.",
+      "citation": "Numbers 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And these the names of the sons of Aaron: his firstborn Nadab, then Abiu, and Eleazar, and Ithamar.",
+      "citation": "Numbers 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "These the names of the sons of Aaron the priests that were anointed, and whose hands were filled and consecrated, to do the functions of priesthood.",
+      "citation": "Numbers 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Now Nadab and Abiu died, without children, when they offered strange fire before the Lord, in the desert of Sinai: and Eleazar and Ithamar performed the priestly office in the presence of Aaron their father.",
+      "citation": "Numbers 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Bring the tribe of Levi, and make them stand in the sight of Aaron the priest to minister to him, and let them watch,",
+      "citation": "Numbers 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And observe whatsoever appertaineth to the service of the multitude before the tabernacle of the testimony,",
+      "citation": "Numbers 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And let them keep the vessels of the tabernacle, serving in the ministry thereof.",
+      "citation": "Numbers 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And thou shalt give the Levites for a gift,",
+      "citation": "Numbers 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "To Aaron and to his sons, to whom they are delivered by the children of Israel. But thou shalt appoint Aaron and his sons over the service of priesthood. The stranger that approacheth to minister, shall be put to death.",
+      "citation": "Numbers 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "I have taken the Levites from the children of Israel, for every firstborn that openeth the womb among the children of Israel, and the Levites shall be mine.",
+      "citation": "Numbers 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For every firstborn is mine: since I struck the firstborn in the land of Egypt: I have sanctified to myself whatsoever is firstborn in Israel both of man and beast, they are mine: I am the Lord.",
+      "citation": "Numbers 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And the Lord spoke to Moses in the desert of Sinai, saying:",
+      "citation": "Numbers 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Number the sons of Levi by the houses of their fathers and their families, every male from one month and upward.",
+      "citation": "Numbers 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Moses numbered them as the Lord had commanded.",
+      "citation": "Numbers 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And there were found sons of Levi by their names, Gerson and Caath Merari.",
+      "citation": "Numbers 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The sons of Gerson: Lebni and Semei.",
+      "citation": "Numbers 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The sons of Caath: Amram, and Jesaar, Hebron and Oziel:",
+      "citation": "Numbers 3:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The sons of Merari, Moholi and Musi.",
+      "citation": "Numbers 3:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Of Gerson were two families, the Lebnites, and the Semeites:",
+      "citation": "Numbers 3:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Of which were numbered, people of the male sex from one month and upward, seven thousand five hundred.",
+      "citation": "Numbers 3:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "These shall pitch behind the tabernacle on the west,",
+      "citation": "Numbers 3:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Under their prince Eliasaph the son of Lael.",
+      "citation": "Numbers 3:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And their charge shall be in the tabernacle of the covenant:",
+      "citation": "Numbers 3:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "The tabernacle itself and the cover thereof, the hanging that is drawn before the doors of the tabernacle of the covenant, and the curtains of the court: the hanging also that is hanged in the entry of the court of the tabernacle, and whatsoever belongeth to the rite of the altar, the cords of the tabernacle, and all the furniture thereof.",
+      "citation": "Numbers 3:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Of the kindred of Caath come the families of the Amramites and Jesaarites and Hebronites and Ozielites. These are the families of the Caathites reckoned up by their names:",
+      "citation": "Numbers 3:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "All of the male sex from one month and upward, eight thousand six hundred: they shall have the guard of the sanctuary,",
+      "citation": "Numbers 3:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And shall camp on the south side.",
+      "citation": "Numbers 3:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And their prince shall be Elisaphan the son of Oziel:",
+      "citation": "Numbers 3:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And they shall keep the ark, and the table and the candlestick, the altars, and the vessels of the sanctuary, wherewith they minister, and the veil, and all the furniture of this kind.",
+      "citation": "Numbers 3:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And the prince of the princes of the Levites, Eleazar, the son of Aaron the priest, shall be over them that watch for the guard of the sanctuary.",
+      "citation": "Numbers 3:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And of Merari are the families of the Moholites, and Musites, reckoned up by their names:",
+      "citation": "Numbers 3:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "All of the male-kind from one month and upward, six thousand two hundred.",
+      "citation": "Numbers 3:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "Their prince Suriel the son of Abihaiel: their shall camp on the north side.",
+      "citation": "Numbers 3:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "Under their custody shall be the boards of the tabernacle, and the bars, and the pillars and their sockets, and all things that pertain to this kind of service:",
+      "citation": "Numbers 3:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And the pillars of the court round about with their sockets, and the pins with their cords.",
+      "citation": "Numbers 3:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Before the tabernacle of the covenant, that is to say on the east side shall Moses and Aaron camp, with their sons, having the custody of the sanctuary, in the midst of the children of Israel. What stranger soever cometh unto it, shall be put to death.",
+      "citation": "Numbers 3:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "All the Levites, that I Moses and Aaron numbered according to the precept of the Lord, by their f families, of the male-kind from one month and upward, were twenty-two thousand.",
+      "citation": "Numbers 3:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And the Lord said to Moses: Number the firstborn of the male sex of the children of Israel, from one month and upward, and thou shalt take the sum of them.",
+      "citation": "Numbers 3:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And thou shalt take the Levites to me for all the firstborn of the children of Israel, I am the Lord: and their cattle for all the firstborn of the cattle of the children of Israel:",
+      "citation": "Numbers 3:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "Moses reckoned up, as the Lord had commanded, the firstborn of the children of Israel:",
+      "citation": "Numbers 3:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And the males by their names, from one month and upward, were twenty-two thousand two hundred and seventy-three.",
+      "citation": "Numbers 3:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 3:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "Take the Levites for the firstborn of the children of Israel, and the cattle of the Levites for their cattle, and the Levites shall be mine. I am the Lord.",
+      "citation": "Numbers 3:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "But for the price of the two hundred and seventy-three, of the firstborn of the children of Israel, that exceed the number of the Levites,",
+      "citation": "Numbers 3:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "Thou shalt take five sicles for every bead, according to the weight of the sanctuary. A sicle hath twenty obols.",
+      "citation": "Numbers 3:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "And thou shalt give the money to Aaron and his sons, the price of them that are above.",
+      "citation": "Numbers 3:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "Moses therefore took the money of them that were above, and whom they had redeemed from the Levites,",
+      "citation": "Numbers 3:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "For the firstborn of the children of Israel, one thousand three hundred and sixty-five sicles, according to the weight of the sanctuary,",
+      "citation": "Numbers 3:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "And gave it to Aaron and his sons according to the word that the Lord had commanded him.",
+      "citation": "Numbers 3:51 (Douay-Rheims)"
+    }
+  ]
+}

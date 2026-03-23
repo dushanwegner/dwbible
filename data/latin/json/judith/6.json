@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judith, Chapter 6 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "order": 18,
+      "totalChapters": 17
+    },
+    "chapter": 6,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/judith/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/judith/5.json",
+      "nextChapter": "https://latinprayer.org/latin/judith/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judith/6.json",
+      "german": "https://latinprayer.org/bibel/judith/6.json"
+    }
+  },
+  "citation": "Judith 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "factum est autem cum cessassent loqui indignatus Holofernis vehementer dixit ad Achior",
+      "citation": "Judith 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quoniam prophetasti nobis dicens quod gens Israhel defendatur a Deo suo ut ostendam tibi quia non est deus nisi Nabuchodonosor",
+      "citation": "Judith 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cum percusserimus eos omnes sicut hominem unum tunc et ipse cum illis Assyriorum gladio interibis et omnis Israhel tecum perditione disperiet",
+      "citation": "Judith 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et probabis quoniam Nabuchodonosor dominus sit universae terrae tuncque gladius militiae meae transiet per latera tua et confixus cades inter vulneratos Israhel et non respirabis ultra donec extermineris cum illis",
+      "citation": "Judith 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "porro autem si prophetiam tuam veram existimas non concidat vultus tuus et pallor qui faciem tuam obtinuit abscedat a te si verba mea haec putas impleri non posse",
+      "citation": "Judith 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ut autem noveris quia simul cum illis haec experieris ecce ex hac hora illorum populo sociaberis ut dum dignas mei gladii poenas exceperint ipse simul ultioni subiaceas",
+      "citation": "Judith 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "tunc Holofernis praecepit servis suis ut conprehenderent Achior ut ducerent eum in Bethuliam et traderent eum in manu filiorum Israhel",
+      "citation": "Judith 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et accipientes eum servi Holofernis profecti sunt per campestria sed cum adpropinquassent ad montana exierunt contra eos fundibalarii",
+      "citation": "Judith 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "illi autem divertentes a latere montis ligaverunt Achior ad arborem manibus et pedibus et sic vinctum de restibus dimiserunt eum et reversi sunt ad dominum suum",
+      "citation": "Judith 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "porro filii Israhel descendentes de Bethulia venerunt ad eum quem solventes duxerunt ad Bethuliam atque in medio populi illum statuentes percontati sunt quid rerum esset quod illum vinctum Assyrii reliquissent",
+      "citation": "Judith 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in diebus illis erant illic principes Ozias filius Micha de tribu Symeon et Carmi qui et Gothonihel",
+      "citation": "Judith 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "in medio itaque seniorum et in conspectu omnium Achior dixit omnia quae locutus ipse fuerat ab Holoferne interrogatus et qualiter populus Holofernis voluisset propter hoc verbum interficere eum",
+      "citation": "Judith 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quemadmodum ipse Holofernis iratus iusserit eum Israhelitis hac de causa tradi ut dum vinceret filios Israhel tunc etiam ipsum Achior diversis iubeat suppliciis interire propter hoc quod dixisset Deus caeli defensor eorum est",
+      "citation": "Judith 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "cumque universa Achior exposuisset omnis populus cecidit in faciem adorantes Dominum et communi lamentatione et fletu unianimes preces suas Deo effuderunt",
+      "citation": "Judith 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "dicentes Domine Deus caeli et terrae intuere superbiam illorum et respice ad nostram humilitatem et faciem tuorum sanctorum adtende et ostende quia non derelinquis praesumentes de te et praesumentes de se et de sua virtute gloriantes humilias",
+      "citation": "Judith 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "finito itaque fletu et per totum diem populorum oratione conpleta consolati sunt Achior",
+      "citation": "Judith 6:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "dicentes Deus patrum nostrorum cuius tu virtutem praedicasti ipse tibi hanc dabit vicissitudinem ut eorum magis tu interitum videas",
+      "citation": "Judith 6:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "cum vero Dominus Deus noster dederit hanc libertatem servis suis sit et tecum Deus in medio nostri ut sicut placuerit tibi ita cum tuis omnibus converseris",
+      "citation": "Judith 6:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "tunc Ozias finito consilio suscepit eum in domum suam et fecit cenam magnam",
+      "citation": "Judith 6:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et vocatis omnibus presbyteris simul expleto ieiunio refecerunt",
+      "citation": "Judith 6:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "postea vero convocatus omnis populus et per totam noctem intra ecclesiam oraverunt petentes auxilium a Deo Israhel",
+      "citation": "Judith 6:21 (Clementine Vulgate)"
+    }
+  ]
+}

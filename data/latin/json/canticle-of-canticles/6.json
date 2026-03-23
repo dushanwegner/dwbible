@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Song of Solomon, Chapter 6 — 12 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Song of Solomon",
+      "slug": "canticle-of-canticles",
+      "testament": "OT",
+      "order": 24,
+      "totalChapters": 8
+    },
+    "chapter": 6,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/canticle-of-canticles/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/canticle-of-canticles/5.json",
+      "nextChapter": "https://latinprayer.org/latin/canticle-of-canticles/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/canticle-of-canticles/6.json",
+      "german": "https://latinprayer.org/bibel/canticle-of-canticles/6.json"
+    }
+  },
+  "citation": "Song of Solomon 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quo abiit dilectus tuus o pulcherrima mulierum quo declinavit dilectus tuus et quaeremus eum tecum",
+      "citation": "Song of Solomon 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dilectus meus descendit in hortum suum ad areolam aromatis ut pascatur in hortis et lilia colligat",
+      "citation": "Song of Solomon 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ego dilecto meo et dilectus meus mihi qui pascitur inter lilia",
+      "citation": "Song of Solomon 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "pulchra es amica mea suavis et decora sicut Hierusalem terribilis ut castrorum acies ordinata",
+      "citation": "Song of Solomon 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "averte oculos tuos a me quia ipsi me avolare fecerunt capilli tui sicut grex caprarum quae apparuerunt de Galaad",
+      "citation": "Song of Solomon 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dentes tui sicut grex ovium quae ascenderunt de lavacro omnes gemellis fetibus et sterilis non est in eis",
+      "citation": "Song of Solomon 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "sicut cortex mali punici genae tuae absque occultis tuis",
+      "citation": "Song of Solomon 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sexaginta sunt reginae et octoginta concubinae et adulescentularum non est numerus",
+      "citation": "Song of Solomon 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "una est columba mea perfecta mea una est matris suae electa genetrici suae viderunt illam filiae et beatissimam praedicaverunt reginae et concubinae et laudaverunt eam",
+      "citation": "Song of Solomon 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quae est ista quae progreditur quasi aurora consurgens pulchra ut luna electa ut sol terribilis ut acies ordinata",
+      "citation": "Song of Solomon 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "descendi ad hortum nucum ut viderem poma convallis ut inspicerem si floruisset vinea et germinassent mala punica",
+      "citation": "Song of Solomon 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nescivi anima mea conturbavit me propter quadrigas Aminadab",
+      "citation": "Song of Solomon 6:12 (Clementine Vulgate)"
+    }
+  ]
+}

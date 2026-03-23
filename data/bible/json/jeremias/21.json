@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremias, Chapter 21 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremias",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 21,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/jeremias/20.json",
+      "nextChapter": "https://latinprayer.org/bible/jeremias/22.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/jeremias/21.json",
+      "german": "https://latinprayer.org/bibel/jeremias/21.json"
+    }
+  },
+  "citation": "Jeremias 21 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The word that came to Jeremias from the Lord, when king Sedecias sent unto him Phassur, the son of Melchias, and Sophonias, the son of Maasias the priest, saying:",
+      "citation": "Jeremias 21:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Inquire of the Lord for us, for Nabuchodonosor king of Babylon maketh war against us: if so be the Lord will deal with us according to all his wonderful works, that he may depart from us.",
+      "citation": "Jeremias 21:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Jeremias said to them: Thus shall you say to Sedecias:",
+      "citation": "Jeremias 21:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Thus saith the Lord, the God of Israel: Behold I will turn back the weapons of war that are in your hands, and with which you fight against the king of Babylon, and the Chaldeans, that besiege you round about the walls: and I will gather them together in the midst of this city.",
+      "citation": "Jeremias 21:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And I myself will fight against you with an outstretched hand, and with a strong arm, and in fury, and in indignation, and in great wrath.",
+      "citation": "Jeremias 21:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And I will strike the inhabitants of this city, men and beasts shall die of a great pestilence.",
+      "citation": "Jeremias 21:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And after this, saith the Lord, I will give Sedecias the king of Juda, and his servants, and his people, and such as are left in this city from the pestilence, and the sword, and the famine, into the hand of Nabuchodonosor the king of Babylon, and into the hand of their enemies, and into the hand of them that seek their life, and he shall strike them with the edge of the sword, and he shall not be moved to pity, nor spare them, nor shew mercy to them.",
+      "citation": "Jeremias 21:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And to this people thou shalt say: Thus saith the Lord: Behold I set before you the way of life, and the way of death.",
+      "citation": "Jeremias 21:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He that shall abide in this city, shall die by the sword, and by the famine, and by the pestilence: but he that shall go out and flee over to the Chaldeans, that besiege you, shall live, and his life shall be to him as a spoil.",
+      "citation": "Jeremias 21:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For I have set my face against this city for evil, and not for good, saith the Lord: it shall be given into the hand of the king of Babylon, and he shall burn it with fire.",
+      "citation": "Jeremias 21:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And to the house of the king of Juda: Hear ye the word of the Lord,",
+      "citation": "Jeremias 21:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "O house of David, thus saith the Lord: Judge ye judgment in the morning, and deliver him that is oppressed by violence out of the hand of the oppressor: lest my indignation go forth like a fire, and be kindled, and there be none to quench it, because of the evil of your ways.",
+      "citation": "Jeremias 21:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Behold I come to thee that dwellest in a valley upon a rock above a plain, saith the Lord: and you say: Who shall strike us and who shall enter into our houses?",
+      "citation": "Jeremias 21:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But I will visit upon you according to the fruit of your doings, saith the Lord: and I will kindle a fire in the forest thereof: and it shall devour all things round about it.",
+      "citation": "Jeremias 21:14 (Douay-Rheims)"
+    }
+  ]
+}

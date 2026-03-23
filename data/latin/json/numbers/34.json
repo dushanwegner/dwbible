@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 34 — 29 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 34,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/numbers/33.json",
+      "nextChapter": "https://latinprayer.org/latin/numbers/35.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/34.json",
+      "german": "https://latinprayer.org/bibel/numbers/34.json"
+    }
+  },
+  "citation": "Numbers 34 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "locutus est Dominus ad Mosen",
+      "citation": "Numbers 34:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "praecipe filiis Israhel et dices ad eos cum ingressi fueritis terram Chanaan et in possessionem vobis sorte ceciderit his finibus terminabitur",
+      "citation": "Numbers 34:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "pars meridiana incipiet a solitudine Sin quae est iuxta Edom et habebit terminos contra orientem mare Salsissimum",
+      "citation": "Numbers 34:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "qui circumibunt australem plagam per ascensum Scorpionis ita ut transeant Senna et perveniant in meridiem usque ad Cadesbarne unde egredientur confinia ad villam nomine Addar et tendent usque Asemona",
+      "citation": "Numbers 34:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ibitque per gyrum terminus ab Asemona usque ad torrentem Aegypti et maris Magni litore finietur",
+      "citation": "Numbers 34:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "plaga autem occidentalis a mari Magno incipiet et ipso fine cludetur",
+      "citation": "Numbers 34:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "porro ad septentrionalem plagam a mari Magno termini incipient pervenientes usque ad montem Altissimum",
+      "citation": "Numbers 34:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "a quo venies in Emath usque ad terminos Sedada",
+      "citation": "Numbers 34:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ibuntque confinia usque Zephrona et villam Henan hii erunt termini in parte aquilonis",
+      "citation": "Numbers 34:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "inde metabuntur fines contra orientalem plagam de villa Henan usque Sephama",
+      "citation": "Numbers 34:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et de Sephama descendent termini in Rebla contra fontem inde pervenient contra orientem ad mare Chenereth",
+      "citation": "Numbers 34:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et tendent usque Iordanem et ad ultimum Salsissimo cludentur mari hanc habebitis terram per fines suos in circuitu",
+      "citation": "Numbers 34:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "praecepitque Moses filiis Israhel dicens haec erit terra quam possidebitis sorte et quam iussit dari Dominus novem tribubus et dimidiae tribui",
+      "citation": "Numbers 34:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "tribus enim filiorum Ruben per familias suas et tribus filiorum Gad iuxta cognationum numerum media quoque tribus Manasse",
+      "citation": "Numbers 34:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "id est duae semis tribus acceperunt partem suam trans Iordanem contra Hiericho ad orientalem plagam",
+      "citation": "Numbers 34:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et ait Dominus ad Mosen",
+      "citation": "Numbers 34:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "haec sunt nomina virorum qui terram vobis divident Eleazar sacerdos et Iosue filius Nun",
+      "citation": "Numbers 34:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et singuli principes de tribubus singulis",
+      "citation": "Numbers 34:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quorum ista sunt vocabula de tribu Iuda Chaleb filius Iepphonne",
+      "citation": "Numbers 34:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "de tribu Symeon Samuhel filius Ammiud",
+      "citation": "Numbers 34:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "de tribu Beniamin Helidad filius Chaselon",
+      "citation": "Numbers 34:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "de tribu filiorum Dan Bocci filius Iogli",
+      "citation": "Numbers 34:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "filiorum Ioseph de tribu Manasse Hannihel filius Ephod",
+      "citation": "Numbers 34:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "de tribu Ephraim Camuhel filius Sephtan",
+      "citation": "Numbers 34:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "de tribu Zabulon Elisaphan filius Pharnach",
+      "citation": "Numbers 34:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "de tribu Isachar dux Faltihel filius Ozan",
+      "citation": "Numbers 34:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "de tribu Aser Ahiud filius Salomi",
+      "citation": "Numbers 34:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "de tribu Nepthali Phedahel filius Ameiud",
+      "citation": "Numbers 34:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "hii sunt quibus praecepit Dominus ut dividerent filiis Israhel terram Chanaan",
+      "citation": "Numbers 34:29 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Timothy, Chapter 4 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Timothy",
+      "slug": "2-timothy",
+      "testament": "NT",
+      "order": 62,
+      "totalChapters": 4
+    },
+    "chapter": 4,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-timothy/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-timothy/3.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-timothy/4.json",
+      "german": "https://latinprayer.org/bibel/2-timothy/4.json"
+    }
+  },
+  "citation": "2. Timothy 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I charge thee, before God and Jesus Christ, who shall judge the living and the dead, by his coming and his kingdom:",
+      "citation": "2. Timothy 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Preach the word: be instant in season, out of season: reprove, entreat, rebuke in all patience and doctrine.",
+      "citation": "2. Timothy 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For there shall be a time when they will not endure sound doctrine but, according to their own desires, they will heap to themselves teachers having itching ears:",
+      "citation": "2. Timothy 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And will indeed turn away their hearing from the truth, but will be turned unto fables.",
+      "citation": "2. Timothy 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But be thou vigilant, labour in all things, do the work of an evangelist, fulfil thy ministry. Be sober.",
+      "citation": "2. Timothy 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For I am even now ready to be sacrificed: and the time of my dissolution is at hand.",
+      "citation": "2. Timothy 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "I have fought a good fight: I have finished my course: I have kept the faith.",
+      "citation": "2. Timothy 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "As to the rest, there is laid up for me a crown of justice which the Lord the just judge will render to me in that day: and not only to me, but to them also that love his coming. Make haste to come to me quickly.",
+      "citation": "2. Timothy 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For Demas hath left me, loving this world, and is gone to Thessalonica:",
+      "citation": "2. Timothy 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Crescens into Galatia, Titus into Dalmatia.",
+      "citation": "2. Timothy 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Only Luke is with me. Take Mark and bring him with thee: for he is profitable to me for the ministry.",
+      "citation": "2. Timothy 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "But Tychicus I have sent to Ephesus.",
+      "citation": "2. Timothy 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The cloak that I left at Troas, with Carpus, when thou comest, bring with thee: and the books, especially the parchments.",
+      "citation": "2. Timothy 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Alexander the coppersmith hath done me much evil: the Lord will reward him according to his works:",
+      "citation": "2. Timothy 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Whom do thou also avoid: for he hath greatly withstood our words.",
+      "citation": "2. Timothy 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "At my first answer, no man stood with me: but all forsook me.  May it not be laid to their charge!",
+      "citation": "2. Timothy 4:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But the Lord stood by me and strengthened me, that by me the preaching may be accomplished and that all the Gentiles may hear.  And I was delivered out of the mouth of the lion.",
+      "citation": "2. Timothy 4:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The Lord hath delivered me from every evil work and will preserve me unto his heavenly kingdom. To whom be glory for ever and ever. Amen.",
+      "citation": "2. Timothy 4:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Salute Prisca, and Aquila and the household of Onesiphorus.",
+      "citation": "2. Timothy 4:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Erastus remained at Corinth. And Trophimus I left sick at Miletus.",
+      "citation": "2. Timothy 4:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Make haste to come before winter. Eubulus and Pudens and Linus and Claudia and all the brethren, salute thee.",
+      "citation": "2. Timothy 4:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The Lord Jesus Christ be with thy spirit. Grace be with you. Amen.",
+      "citation": "2. Timothy 4:22 (Douay-Rheims)"
+    }
+  ]
+}

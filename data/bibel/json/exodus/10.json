@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 10 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 10,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/exodus/9.json",
+      "nextChapter": "https://latinprayer.org/bibel/exodus/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/10.json",
+      "latin": "https://latinprayer.org/latin/exodus/10.json"
+    }
+  },
+  "citation": "Exodus 10 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Hierauf sagte der HERR zu Mose: »Gehe zum Pharao! Denn ich selbst habe ihm und seinen Dienern das Herz verhärtet, um diese meine Zeichen in ihrer Mitte zu verrichten,",
+      "citation": "Exodus 10:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "und damit du deinen Kindern und Kindeskindern einst erzählen kannst, wie ich gegen die Ägypter vorgegangen bin und welche Zeichen ich unter ihnen vollführt habe: erkennen sollt ihr, daß ich der HERR bin!«",
+      "citation": "Exodus 10:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Da gingen Mose und Aaron zum Pharao und sagten zu ihm: »So hat der HERR, der Gott der Hebräer, gesprochen: ›Wie lange willst du dich noch sträuben, dich vor mir zu demütigen? Laß mein Volk ziehen, damit es mir diene!",
+      "citation": "Exodus 10:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denn wenn du dich weigerst, mein Volk ziehen zu lassen, so will ich morgen Heuschrecken in dein Land kommen lassen;",
+      "citation": "Exodus 10:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "die werden die Oberfläche des Erdbodens so bedecken, daß man den Erdboden nicht mehr wird sehen können, und sollen alles auffressen, was von dem Hagelwetter verschont geblieben und euch noch übriggelassen ist; sie sollen auch alle Bäume abfressen, die euch auf dem Felde wachsen;",
+      "citation": "Exodus 10:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "sie sollen auch deine Paläste und die Häuser aller deiner Diener und die Häuser aller Ägypter anfüllen, wie es deine Väter und die Väter deiner Väter, seitdem sie auf dem Erdboden gewesen sind, bis auf den heutigen Tag nicht erlebt haben!‹« Damit wandte er sich und verließ den Pharao.",
+      "citation": "Exodus 10:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da sagten die Diener des Pharaos zu ihm: »Wie lange soll dieser Mensch uns noch unglücklich machen? Laß doch die Leute ziehen, damit sie dem HERRN, ihrem Gott, dienen! Siehst du noch nicht ein, daß Ägypten zugrunde gerichtet wird?«",
+      "citation": "Exodus 10:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Hierauf holte man Mose und Aaron zum Pharao zurück, und er sagte zu ihnen: »Zieht hin und dient dem HERRN, eurem Gott! Wer soll denn alles hinziehen?«",
+      "citation": "Exodus 10:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Da antwortete Mose: »Mit jung und alt wollen wir hinausziehen, mit unsern Söhnen und unsern Töchtern, mit unserm Kleinvieh und unsern Rindern wollen wir hinausziehen; denn wir haben ein Fest des HERRN zu feiern.«",
+      "citation": "Exodus 10:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Da antwortete er ihnen: »Möge der HERR ebenso mit euch sein, wie ich euch mit Weib und Kind ziehen lasse! Seht ihr wohl, daß ihr Böses im Sinn habt?",
+      "citation": "Exodus 10:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Daraus wird nichts! Ihr Männer mögt hinziehen und dem HERRN dienen: das ist ja auch euer Begehr gewesen!« Hierauf wies man sie vom Pharao weg.",
+      "citation": "Exodus 10:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Da gebot der HERR dem Mose: »Strecke deine Hand über das Land Ägypten aus, damit die Heuschrecken über das Land kommen und alle Feldgewächse abfressen, alles, was der Hagel übriggelassen hat!«",
+      "citation": "Exodus 10:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Da streckte Mose seinen Stab über das Land Ägypten aus, und der HERR ließ einen Ostwind über das Land hin wehen jenen ganzen Tag und die ganze Nacht; als es dann Morgen wurde, hatte der Ostwind die Heuschrecken herbeigebracht.",
+      "citation": "Exodus 10:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "So kamen denn die Heuschrecken über das ganze Land Ägypten und ließen sich in allen Teilen Ägyptens in gewaltiger Menge nieder; nie zuvor waren so viele Heuschrecken dagewesen wie damals, und künftig wird es nie wieder so viele geben.",
+      "citation": "Exodus 10:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Sie bedeckten die Oberfläche des ganzen Landes, so daß der Erdboden nicht mehr zu sehen war, und sie fraßen alle Feldgewächse ab und alle Baumfrüchte, die der Hagel übriggelassen hatte, so daß nichts Grünes mehr an den Bäumen und an den Feldgewächsen im ganzen Lande Ägypten übrigblieb.",
+      "citation": "Exodus 10:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Da ließ der Pharao in aller Eile Mose und Aaron rufen und sagte: »Ich habe mich am HERRN, eurem Gott, und an euch versündigt!",
+      "citation": "Exodus 10:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Und nun vergib mir meine Verfehlung nur noch dies eine Mal und betet zum HERRN, eurem Gott, daß er wenigstens dieses Verderben von mir abwende!«",
+      "citation": "Exodus 10:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Als nun (Mose) vom Pharao weggegangen war und zum HERRN gebetet hatte,",
+      "citation": "Exodus 10:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "da wandte der HERR den Wind, so daß er sehr stark aus dem Westen wehte; der hob die Heuschrecken auf und warf sie ins Schilfmeer, so daß keine einzige Heuschrecke im ganzen Bereich von Ägypten übrigblieb.",
+      "citation": "Exodus 10:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Aber der HERR verhärtete das Herz des Pharaos, so daß er die Israeliten nicht ziehen ließ.",
+      "citation": "Exodus 10:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Hierauf gebot der HERR dem Mose: »Strecke deine Hand gen Himmel aus, damit eine Finsternis über das Land Ägypten komme, so dicht, daß man sie greifen kann.«",
+      "citation": "Exodus 10:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Als nun Mose seine Hand gen Himmel ausgestreckt hatte, entstand eine Finsternis im ganzen Land Ägypten drei Tage lang.",
+      "citation": "Exodus 10:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Kein Mensch konnte den andern sehen, und keiner erhob sich von seinem Platz drei Tage lang; aber die Israeliten hatten alle hellen Tag in ihren Wohnsitzen.",
+      "citation": "Exodus 10:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Da ließ der Pharao Mose rufen und sagte: »Zieht hin, dient dem HERRN! Nur euer Kleinvieh und eure Rinder sollen hier zurückbleiben; auch eure Frauen und Kinder mögen mit euch gehen!«",
+      "citation": "Exodus 10:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Da antwortete Mose: »Nicht nur mußt du selbst uns Tiere zu Schlacht- und Brandopfern mitgeben, damit wir sie dem HERRN, unserm Gott, darbringen,",
+      "citation": "Exodus 10:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "sondern auch unser Vieh muß mit uns ziehen: keine Klaue darf zurückbleiben! Denn davon müssen wir Tiere zur Verehrung des HERRN, unsers Gottes, nehmen; wir wissen ja nicht, was wir dem HERRN zu opfern haben, ehe wir an Ort und Stelle sind.«",
+      "citation": "Exodus 10:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Aber der HERR verhärtete das Herz des Pharaos, so daß er sie nicht ziehen lassen wollte,",
+      "citation": "Exodus 10:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "sondern zu Mose sagte: »Hinweg von mir! Hüte dich, mir nochmals vor die Augen zu treten! Denn sobald du dich wieder vor mir sehen läßt, bist du des Todes!«",
+      "citation": "Exodus 10:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Da antwortete Mose: »Du hast recht geredet: ich werde dir nicht wieder vor die Augen treten!«",
+      "citation": "Exodus 10:29 (Menge)"
+    }
+  ]
+}

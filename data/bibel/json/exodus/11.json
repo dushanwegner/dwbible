@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 11 — 10 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 11,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/exodus/10.json",
+      "nextChapter": "https://latinprayer.org/bibel/exodus/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/11.json",
+      "latin": "https://latinprayer.org/latin/exodus/11.json"
+    }
+  },
+  "citation": "Exodus 11 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Darauf sagte der HERR zu Mose: »Noch eine einzige Plage will ich über den Pharao und über Ägypten kommen lassen; alsdann wird er euch von hier ziehen lassen, ja er wird, wenn er euch bedingungslos entläßt, euch sogar gewaltsam von hier wegtreiben.",
+      "citation": "Exodus 11:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Gib nun dem Volke die bestimmte Weisung, daß sie sich insgesamt, Männer wie Weiber, silberne und goldene Wertsachen von ihren Nachbarn und Nachbarinnen erbitten.«",
+      "citation": "Exodus 11:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Der HERR stimmte dann die Ägypter günstig gegen das Volk; auch stand Mose in den Augen der Diener des Pharaos und des ganzen ägyptischen Volkes als ein großer Mann da.",
+      "citation": "Exodus 11:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Hierauf sagte Mose: »So hat der HERR gesprochen: ›Um Mitternacht will ich mitten durch Ägypten schreiten;",
+      "citation": "Exodus 11:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "da soll dann jede Erstgeburt in Ägypten sterben, vom erstgeborenen Sohn des Pharaos an, der auf seinem Thron sitzt, bis zum Erstgeborenen der Magd, die hinter der Handmühle sitzt, auch alles Erstgeborene vom Vieh.",
+      "citation": "Exodus 11:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Da wird sich ein großes Wehgeschrei im ganzen Land Ägypten erheben, wie ein solches noch nie dagewesen ist und nie wieder stattfinden wird.",
+      "citation": "Exodus 11:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Aber gegen keinen Israeliten, weder gegen einen Menschen noch gegen das Vieh, soll auch nur ein Hund ein Knurren hören lassen, damit ihr erkennt, daß der HERR eine Scheidung zwischen den Ägyptern und den Israeliten macht.‹",
+      "citation": "Exodus 11:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Dann werden alle diese deine Diener zu mir herabkommen, sich vor mir niederwerfen und bitten: ›Ziehe weg, du und das ganze Volk, das deiner Leitung folgt!‹, und danach werde ich wegziehen.« Hierauf ging (Mose) vom Pharao weg in glühendem Zorn.",
+      "citation": "Exodus 11:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Der HERR hatte aber zu Mose gesagt: »Der Pharao wird nicht auf euch hören, damit meine Wunder in Ägypten zahlreich werden.«",
+      "citation": "Exodus 11:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "So haben denn Mose und Aaron alle diese Wunder vor dem Pharao vollführt; aber der HERR verstockte das Herz des Pharaos, so daß er die Israeliten aus seinem Lande nicht ziehen ließ.",
+      "citation": "Exodus 11:10 (Menge)"
+    }
+  ]
+}

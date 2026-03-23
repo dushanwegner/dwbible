@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebrews, Chapter 1 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 1,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bible/hebrews/2.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/hebrews/1.json",
+      "german": "https://latinprayer.org/bibel/hebrews/1.json"
+    }
+  },
+  "citation": "Hebrews 1 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "God, who, at sundry times and in divers manners, spoke in times past to the fathers by the prophets, last of all,",
+      "citation": "Hebrews 1:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "In these days, hath spoken to us by his Son, whom he hath appointed heir of all things, by whom also he made the world.",
+      "citation": "Hebrews 1:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Who being the brightness of his glory and the figure of his substance and upholding all things by the word of his power, making purgation of sins, sitteth on the right hand of the majesty on high:",
+      "citation": "Hebrews 1:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Being made so much better than the angels as he hath inherited a more excellent name than they.",
+      "citation": "Hebrews 1:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For to which of the angels hath he said at any time: Thou art my Son, to-day have I begotten thee? And again: I will be to him a Father, and he shall be to me a Son?",
+      "citation": "Hebrews 1:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And again, when he bringeth in the first begotten into the world, he saith: And let all the angels of God adore him.",
+      "citation": "Hebrews 1:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And to the angels indeed he saith: He that maketh his angels spirits and his ministers a flame of fire.",
+      "citation": "Hebrews 1:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But to the Son: Thy throne, O God, is for ever and ever: a sceptre of justice is the sceptre of thy kingdom.",
+      "citation": "Hebrews 1:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thou hast loved justice and hated iniquity: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows.",
+      "citation": "Hebrews 1:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And: Thou in the beginning, O Lord, didst found the earth: and the works of thy hands are the heavens.",
+      "citation": "Hebrews 1:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "They shall perish: but thou shalt continue: and they shall all grow old as a garment.",
+      "citation": "Hebrews 1:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And as a vesture shalt thou change them, and they shalt be changed. But thou art the selfsame: and thy years shall not fail.",
+      "citation": "Hebrews 1:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But to which of the angels said he at any time: Sit on my right hand, until I make thy enemies thy footstool?",
+      "citation": "Hebrews 1:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Are they not all ministering spirits, sent to minister for them who shall receive the inheritance of salvation?",
+      "citation": "Hebrews 1:14 (Douay-Rheims)"
+    }
+  ]
+}

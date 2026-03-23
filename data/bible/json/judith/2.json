@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judith, Chapter 2 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "order": 18,
+      "totalChapters": 16
+    },
+    "chapter": 2,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/judith/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/judith/1.json",
+      "nextChapter": "https://latinprayer.org/bible/judith/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/judith/2.json",
+      "german": "https://latinprayer.org/bibel/judith/2.json"
+    }
+  },
+  "citation": "Judith 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "In the thirteenth year of the reign of Nabuchodonosor, the two and twentieth day of the first month, the word was given out in the house of Nabuchodonosor king of the Assyrians, that he would revenge himself.",
+      "citation": "Judith 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he called all the ancients, and all the governors, and his officers of war, and communicated to them the secret of his counsel:",
+      "citation": "Judith 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he said that his thoughts were to bring all the earth under his empire.",
+      "citation": "Judith 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And when this saying pleased them all, Nabuchodonosor, the king, called Holofernes the general of his armies,",
+      "citation": "Judith 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And said to him: Go out against all the kingdoms of the west, and against them especially that despised my commandment.",
+      "citation": "Judith 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Thy eye shall not spare any kingdom, and all the strong cities thou shalt bring under my yoke.",
+      "citation": "Judith 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Then Holofernes called the captains, and officers of the power of the Assyrians: and he mustered men for the expedition, and the king commanded him, a hundred and twenty thousand fighting men on foot, and twelve thousand archers, horsemen.",
+      "citation": "Judith 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And he made all his warlike preparations to go before with a multitude of innumerable camels, with all provisions sufficient for the armies in abundance, and herds of oxen, and flocks of sheep, without number.",
+      "citation": "Judith 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He appointed corn to be prepared out of all Syria in his passage.",
+      "citation": "Judith 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But gold and silver he took out of the king's house in great abundance.",
+      "citation": "Judith 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And he went forth he and all the army, with the chariots, and horsemen, and archers, who covered the face of the earth, like locusts.",
+      "citation": "Judith 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And when he had passed through the borders of the Assyrians, he came to the great mountains of Ange, which are on the left of Cilicia: and he went up to all their castles, and took all the strong places.",
+      "citation": "Judith 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And he took by assault the renowned city of Melothus, and pillaged all the children of Tharsis, and the children of Ismahel, who were over against the face of the desert, and on the south of the land of Cellon.",
+      "citation": "Judith 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And he passed over the Euphrates and came into Mesopotamia: and he forced all the stately cities that were there, from the torrent of Mambre, till one comes to the sea:",
+      "citation": "Judith 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And he took the borders thereof, from Cilicia to the coasts of Japheth, which are towards the south.",
+      "citation": "Judith 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And he carried away all the children of Madian, and stripped them of all their riches, and all that resisted him he slew with the edge of the sword.",
+      "citation": "Judith 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And after these things he went down into the plains of Damascus in the days of the harvest, and he set all the corn on fire, and he caused all the trees and vineyards to be cut down.",
+      "citation": "Judith 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And the fear of them fell upon all the inhabitants of the land.",
+      "citation": "Judith 2:18 (Douay-Rheims)"
+    }
+  ]
+}

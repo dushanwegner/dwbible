@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 90 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 90,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/89.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/91.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/90.json",
+      "german": "https://latinprayer.org/bibel/psalms/90.json"
+    }
+  },
+  "citation": "Psalms 90 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A prayer of Moses the man of God. Lord, thou hast been our refuge from generation to generation.",
+      "citation": "Psalms 90:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Before the mountains were made, or the earth and the world was formed; from eternity and to eternity thou art God.",
+      "citation": "Psalms 90:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Turn not man away to be brought low: and thou hast said: Be converted, O ye sons of men.",
+      "citation": "Psalms 90:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For a thousand years in thy sight are as yesterday, which is past. And as a watch in the night,",
+      "citation": "Psalms 90:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Things that are counted nothing, shall their years be.",
+      "citation": "Psalms 90:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "In the morning man shall grow up like grass; in the morning he shall flourish and pass away: in the evening he shall fall, grow dry, and wither.",
+      "citation": "Psalms 90:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For in thy wrath we have fainted away: and are troubled in thy indignation.",
+      "citation": "Psalms 90:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Thou hast set our iniquities before thy eyes: our life in the light of thy countenance.",
+      "citation": "Psalms 90:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For all our days are spent; and in thy wrath we have fainted away. Our years shall be considered as a spider:",
+      "citation": "Psalms 90:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The days of our years in them are threescore and ten years. But if in the strong they be fourscore years: and what is more of them is labour and sorrow. For mildness is come upon us: and we shall be corrected.",
+      "citation": "Psalms 90:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Who knoweth the power of thy anger, and for thy fear",
+      "citation": "Psalms 90:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Can number thy wrath?  So make thy right hand known: and men learned in heart, in wisdom.",
+      "citation": "Psalms 90:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Return, O Lord, how long? and be entreated in favour of thy servants.",
+      "citation": "Psalms 90:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "We are filled in the morning with thy mercy: and we have rejoiced, and are delighted all our days.",
+      "citation": "Psalms 90:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "We have rejoiced for the days in which thou hast humbled us: for the years in which we have seen evils.",
+      "citation": "Psalms 90:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Look upon thy servants and upon their works: and direct their children.",
+      "citation": "Psalms 90:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And let the brightness of the Lord our God be upon us: and direct thou the works of our hands over us; yea, the work of our hands do thou direct.",
+      "citation": "Psalms 90:17 (Douay-Rheims)"
+    }
+  ]
+}

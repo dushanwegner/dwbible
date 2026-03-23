@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 7 — 16 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 7,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/osee/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/osee/6.json",
+      "nextChapter": "https://latinprayer.org/bibel/osee/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/7.json",
+      "latin": "https://latinprayer.org/latin/osee/7.json"
+    }
+  },
+  "citation": "Hosea 7 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Sooft ich Israel heilen will, treten die Verschuldung Ephraims und die Bosheit Samarias klar zutage; denn sie verüben Trug, brechen als Diebe (in die Häuser) ein, plündern draußen als Räuberbanden.",
+      "citation": "Hosea 7:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Sie sagen sich nicht in ihrem Herzen, daß ich all ihrer Bosheit eingedenk bin; nunmehr stehen ihre Missetaten rings um sie her und sind vor meinen Augen offenbar.",
+      "citation": "Hosea 7:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Mit ihrer Bosheit erfreuen sie den König und mit ihrer Falschheit die Fürsten.",
+      "citation": "Hosea 7:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Sie sind allesamt Ehebrecher, gleichen einem geheizten Backofen, den der Bäcker nur vom Anmengen des Teigs bis zu seiner Gärung zu schüren aufhört.",
+      "citation": "Hosea 7:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Am Geburtstag unsers Königs machen die Fürsten ihn krank mit der Glut des Weins; er wechselt Händedruck mit den Spöttern.",
+      "citation": "Hosea 7:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Denn es brennt wie ein Ofen ihr Herz in ihrer Arglist; die ganze Nacht hindurch schläft ihr Zorn, am Morgen aber brennt er wie loderndes Feuer.",
+      "citation": "Hosea 7:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Sie glühen allesamt wie ein Backofen und verzehren ihre Richter. Alle ihre Könige sind gefallen, ohne daß einer von ihnen mich angerufen hätte.«",
+      "citation": "Hosea 7:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "»Ephraim tritt in Verkehr mit den Völkern; Ephraim ist wie ein Brotkuchen geworden, den man nicht umgewandt hat.",
+      "citation": "Hosea 7:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ausländer haben seine Kraft verzehrt, ohne daß er es merkt; schon ist graues Haar auf sein Haupt gesprengt, ohne daß er es merkt.",
+      "citation": "Hosea 7:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Wiewohl aber der Stolz Israels offen Zeugnis gegen sie ablegt, sind sie doch nicht zum HERRN, ihrem Gott, umgekehrt und haben ihn trotz alledem nicht aufgesucht;",
+      "citation": "Hosea 7:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "nein, Ephraim ist einer einfältigen Taube gleich geworden, ist ohne Verstand: Ägypten rufen sie an und laufen nach Assyrien!",
+      "citation": "Hosea 7:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Sobald sie hinlaufen, breite ich mein Fangnetz über sie aus, hole sie wie Vögel des Himmels herunter, züchtige sie, wie es ihrer Gemeinde angekündigt worden ist.",
+      "citation": "Hosea 7:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wehe ihnen, daß sie von mir gewichen sind! Verderben über sie, daß sie treulos von mir abgefallen sind! Und ich sollte sie erlösen, da sie doch Lügen gegen mich reden",
+      "citation": "Hosea 7:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "und nicht von Herzen zu mir schreien, wenn sie auf ihren Lagern heulen? Um Getreide und Most ritzen sie sich blutig und verlassen mich treulos,",
+      "citation": "Hosea 7:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "obwohl doch ich ihre Arme geübt und stark gemacht habe; aber gegen mich sind sie feindlich gesinnt.",
+      "citation": "Hosea 7:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Sie wenden sich zum Baal hin, sie sind wie ein Bogen mit schlaffer Sehne geworden. Ihre Fürsten sollen durchs Schwert fallen wegen des Trotzes ihrer Zunge: das wird Hohnlachen über sie hervorrufen im Lande Ägypten!«",
+      "citation": "Hosea 7:16 (Menge)"
+    }
+  ]
+}

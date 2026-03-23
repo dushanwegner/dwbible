@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Philemon — 1 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Philemon",
+      "slug": "philemon",
+      "testament": "NT",
+      "order": 64,
+      "totalChapters": 1
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/philemon/index.json",
+      "german": "https://latinprayer.org/bibel/philemon/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/latin/philemon/1",
+      "jsonUrl": "https://latinprayer.org/latin/philemon/1.json"
+    }
+  ]
+}

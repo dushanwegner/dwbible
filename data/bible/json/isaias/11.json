@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 11 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 11,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/10.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/12.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/11.json",
+      "german": "https://latinprayer.org/bibel/isaias/11.json"
+    }
+  },
+  "citation": "Isaias 11 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And there shall come forth a rod out of the root of Jesse, and a flower shall rise up out of his root.",
+      "citation": "Isaias 11:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And the spirit of the Lord shall rest upon him: the spirit of wisdom, and of understanding, the spirit of counsel, and of fortitude, the spirit of knowledge, and of godliness.",
+      "citation": "Isaias 11:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he shall be filled with the spirit of the fear of the Lord, He shall not judge according to the sight of the eyes, nor reprove according to the hearing of the ears.",
+      "citation": "Isaias 11:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But he shall judge the poor with justice, and shall reprove with equity the meek of the earth: and he shall strike the earth with the rod of his mouth, and with the breath of his lips he shall slay the wicked.",
+      "citation": "Isaias 11:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And justice shall be the girdle of his loins: and faith the girdle of his reins.",
+      "citation": "Isaias 11:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The wolf shall dwell with the lamb: and the leopard shall lie down with the kid: the calf and the lion, and the sheep shall abide together, and a little child shall lead them.",
+      "citation": "Isaias 11:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The calf and the bear shall feed: their young ones shall rest together: and the lion shall eat straw like the ox.",
+      "citation": "Isaias 11:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the sucking child shall play on other hole of the asp: and the weaned child shall thrust his hand into the den of the basilisk.",
+      "citation": "Isaias 11:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "They shall not hurt, nor shall they kill in all my holy mountain, for the earth is filled with the knowledge of the Lord, as the covering waters of the sea.",
+      "citation": "Isaias 11:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "In that day the root of Jesse, who standeth for an ensign of the people, him the Gentiles shall beseech, and his sepulchre shall be glorious.",
+      "citation": "Isaias 11:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And it shall come to pass in that day, that the Lord shall set his hand the second time to possess the remnant of his people, which shall be left from the Assyrians, and from Egypt, and from Phetros, and from Ethiopia, and from Elam, and from Sennaar, and from Emath, and from the islands of the sea.",
+      "citation": "Isaias 11:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And he shall set up a standard unto the nations, and shall assemble the fugitives of Israel, and shall gather together the dispersed of Juda from the four quarters of the earth.",
+      "citation": "Isaias 11:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the envy of Ephraim shall be taken away, and the enemies of Juda shall perish: Ephraim shall not envy Juda, and Juda shall not fight against Ephraim.",
+      "citation": "Isaias 11:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But they shall fly upon the shoulders of the Philistines by the sea, they together shall spoil the children of the east: Edom, till Moab shall be under the rule of their hand, and the children of Ammon shall be obedient.",
+      "citation": "Isaias 11:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And the Lord shall lay waste the tongue of the sea of Egypt, and shall lift up his hand over the river in the strength of his spirit: and he shall strike it in the seven streams, so that men may pass through it in their shoes.",
+      "citation": "Isaias 11:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And there shall be a highway for the remnant of my people, which shall be left from the Assyrians: as there was for Israel in the day that he came up out of the land of Egypt.",
+      "citation": "Isaias 11:16 (Douay-Rheims)"
+    }
+  ]
+}

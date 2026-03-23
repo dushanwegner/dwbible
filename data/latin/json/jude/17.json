@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jude, Chapter 17 — 18 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jude",
+      "slug": "jude",
+      "testament": "NT",
+      "order": 72,
+      "totalChapters": 23
+    },
+    "chapter": 17,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jude/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jude/16.json",
+      "nextChapter": "https://latinprayer.org/latin/jude/18.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jude/17.json",
+      "german": "https://latinprayer.org/bibel/jude/17.json"
+    }
+  },
+  "citation": "Jude 17 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et venit unus de septem angelis qui habebant septem fialas et locutus est mecum dicens veni ostendam tibi damnationem meretricis magnae quae sedet super aquas multas",
+      "citation": "Jude 17:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cum qua fornicati sunt reges terrae et inebriati sunt qui inhabitant terram de vino prostitutionis eius",
+      "citation": "Jude 17:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et abstulit me in desertum in spiritu et vidi mulierem sedentem super bestiam coccineam plenam nominibus blasphemiae habentem capita septem et cornua decem",
+      "citation": "Jude 17:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et mulier erat circumdata purpura et coccino et inaurata auro et lapide pretioso et margaritis habens poculum aureum in manu sua plenum abominationum et inmunditia fornicationis eius",
+      "citation": "Jude 17:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et in fronte eius nomen scriptum mysterium Babylon magna mater fornicationum et abominationum terrae",
+      "citation": "Jude 17:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et vidi mulierem ebriam de sanguine sanctorum et de sanguine martyrum Iesu et miratus sum cum vidissem illam admiratione magna",
+      "citation": "Jude 17:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et dixit mihi angelus quare miraris ego tibi dicam sacramentum mulieris et bestiae quae portat eam quae habet capita septem et decem cornua",
+      "citation": "Jude 17:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "bestiam quam vidisti fuit et non est et ascensura est de abysso et in interitum ibit et mirabuntur inhabitantes terram quorum non sunt scripta nomina in libro vitae a constitutione mundi videntes bestiam quia erat et non est",
+      "citation": "Jude 17:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et hic est sensus qui habet sapientiam septem capita septem montes sunt super quos mulier sedet et reges septem sunt",
+      "citation": "Jude 17:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quinque ceciderunt unus est alius nondum venit et cum venerit oportet illum breve tempus manere",
+      "citation": "Jude 17:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et bestia quae erat et non est et ipsa octava est et de septem est et in interitum vadit",
+      "citation": "Jude 17:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et decem cornua quae vidisti decem reges sunt qui regnum nondum acceperunt sed potestatem tamquam reges una hora accipiunt post bestiam",
+      "citation": "Jude 17:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "hii unum consilium habent et virtutem et potestatem suam bestiae tradunt",
+      "citation": "Jude 17:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "hii cum agno pugnabunt et agnus vincet illos quoniam Dominus dominorum est et rex regum et qui cum illo sunt vocati et electi et fideles",
+      "citation": "Jude 17:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et dixit mihi aquas quas vidisti ubi meretrix sedet populi sunt et gentes et linguae",
+      "citation": "Jude 17:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et decem cornua quae vidisti et bestiam hii odient fornicariam et desolatam facient illam et nudam et carnes eius manducabunt et ipsam igni concremabunt",
+      "citation": "Jude 17:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Deus enim dedit in corda eorum ut faciant quod illi placitum est ut dent regnum suum bestiae donec consummentur verba Dei",
+      "citation": "Jude 17:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et mulier quam vidisti est civitas magna quae habet regnum super reges terrae",
+      "citation": "Jude 17:18 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Thessalonicher, Chapter 1 — 12 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Thessalonicher",
+      "slug": "2-thessalonians",
+      "testament": "NT",
+      "order": 60,
+      "totalChapters": 3
+    },
+    "chapter": 1,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bibel/2-thessalonians/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-thessalonians/1.json",
+      "latin": "https://latinprayer.org/latin/2-thessalonians/1.json"
+    }
+  },
+  "citation": "2 Thessalonicher 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wir, Paulus, Silvanus und Timotheus, senden unsern Gruß der Gemeinde der Thessaloniker in Gott, unserm Vater, und dem Herrn Jesus Christus.",
+      "citation": "2 Thessalonicher 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Gnade sei (mit) euch und Friede von Gott dem Vater und dem Herrn Jesus Christus!",
+      "citation": "2 Thessalonicher 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wir sind Gott allezeit zur Danksagung für euch, liebe Brüder, verpflichtet; das ist recht und billig, weil euer Glaube überaus kräftig wächst und die brüderliche Liebe bei jedem einzelnen von euch allen zunimmt,",
+      "citation": "2 Thessalonicher 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "so daß wir selbst uns in den Gemeinden Gottes euer rühmen wegen eurer Standhaftigkeit und Glaubenstreue in allen euren Verfolgungen und den Leiden, die ihr zu erdulden habt.",
+      "citation": "2 Thessalonicher 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Darin liegt ein Hinweis auf das gerechte Gericht Gottes, daß ihr nämlich des Reiches Gottes würdig erachtet werdet, um dessen willen ihr eben zu leiden habt.",
+      "citation": "2 Thessalonicher 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Denn das entspricht doch sicherlich der Gerechtigkeit Gottes, euren Bedrängern mit Drangsal zu vergelten,",
+      "citation": "2 Thessalonicher 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "euch aber, den Bedrängten, Erquickung in Gemeinschaft mit uns zuteil werden zu lassen, wenn der Herr Jesus sich vom Himmel her mit den Engeln seiner Macht",
+      "citation": "2 Thessalonicher 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "in loderndem Feuer offenbart, um Vergeltung an denen zu üben, die Gott nicht (aner)kennen, und an denen, die der Heilsbotschaft unsers Herrn Jesus kein Gehör schenken.",
+      "citation": "2 Thessalonicher 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Diese werden als Strafe ewiges Verderben erleiden fern vom Angesicht des Herrn und fern von der Herrlichkeit seiner Kraft,",
+      "citation": "2 Thessalonicher 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "wenn er kommen wird, um unter seinen Heiligen verherrlicht zu werden und Bewunderung zu finden bei allen, die gläubig geworden sind – denn bei euch hat unser Zeugnis Glauben gefunden –, an jenem Tage.",
+      "citation": "2 Thessalonicher 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Im Hinblick hierauf beten wir auch allezeit für euch, unser Gott möge euch der (endgültigen) Berufung für würdig erachten und alle Freude am Guten und die Glaubensarbeit (in euch) kraftvoll zur Vollendung bringen,",
+      "citation": "2 Thessalonicher 1:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "damit der Name unsers Herrn Jesus in euch verherrlicht werde und ihr in ihm, wie es der Gnade unsers Gottes und des Herrn Jesus Christus entspricht.",
+      "citation": "2 Thessalonicher 1:12 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 8 — 27 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 8,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/exodus/7.json",
+      "nextChapter": "https://latinprayer.org/bible/exodus/9.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/exodus/8.json",
+      "german": "https://latinprayer.org/bibel/exodus/8.json"
+    }
+  },
+  "citation": "Exodus 8 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord said to Moses: Say to Aaron: Stretch forth thy hand upon the streams, and upon the rivers and the pools, and bring forth frogs upon the land of Egypt.",
+      "citation": "Exodus 8:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And Aaron stretched forth his hand upon the waters of Egypt, and the frogs came up, and covered the land of Egypt.",
+      "citation": "Exodus 8:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And the magicians also, by their enchantments, did in like manner, and they brought forth frogs upon the land of Egypt.",
+      "citation": "Exodus 8:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But Pharao called Moses and Aaron, and said to them: Pray ye to the Lord to take away the frogs from me and from my people; and I will let the people go to sacrifice to the Lord.",
+      "citation": "Exodus 8:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And Moses said to Pharao: Set me a time when I shall pray for thee, and for thy servants, and for thy people, that the frogs may be driven away from thee and from thy house, and from thy servants, and from thy people; and may remain only in the river.",
+      "citation": "Exodus 8:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And he answered: To morrow. But he said: I will do according to thy word; that thou mayest know that there is none like to the Lord our God.",
+      "citation": "Exodus 8:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the frogs shall depart from thee, and from thy house, and from thy servants, and from thy people; and shall remain only in the river.",
+      "citation": "Exodus 8:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And Moses and Aaron went forth from Pharao: and Moses cried to the Lord for the promise, which he had made to Pharao concerning the frogs.",
+      "citation": "Exodus 8:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the Lord did according to the word of Moses: and the frogs died out of the houses, and out of the villages, and out of the fields:",
+      "citation": "Exodus 8:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And they gathered them together into immense heaps, and the land was corrupted.",
+      "citation": "Exodus 8:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Pharao seeing that rest was given, hardened his own heart, and did not hear them, as the Lord had commanded.",
+      "citation": "Exodus 8:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And the Lord said to Moses: Say to Aaron: Stretch forth thy rod, and strike the dust of the earth; and may there be sciniphs in all the land of Egypt.",
+      "citation": "Exodus 8:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And they did so. And Aaron stretched forth his hand, holding the rod; and he struck the dust of the earth, and there came sciniphs on men and on beasts: all the dust of the earth was turned into sciniphs through all the land of Egypt.",
+      "citation": "Exodus 8:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And the magicians said to Pharao: This is the finger of God. And Pharao's heart was hardened, and he hearkened not unto them, as the Lord had commanded.",
+      "citation": "Exodus 8:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The Lord also said to Moses: Arise early, and stand before Pharao; for he will go forth to the waters: and thou shalt say to him: Thus saith the Lord: Let my people go to sacrifice to me.",
+      "citation": "Exodus 8:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But if thou wilt not let them go, behold I will send in upon thee, and upon thy servants, and upon thy houses, all kind of flies: and the houses of the Egyptians shall be filled with flies of divers kinds, and the whole land wherein they shall be.",
+      "citation": "Exodus 8:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And I will make the land of Gessen wonderful in that day, so that flies shall not be there: and thou shalt know that I am the Lord in the midst of the earth.",
+      "citation": "Exodus 8:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And I will put a division between my people and thy people: to morrow shall this sign be.",
+      "citation": "Exodus 8:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And the Lord did so. And there came a very grievous swarm of flies into the houses of Pharao and of his servants, and into all the land of Egypt: and the land was corrupted by this kind of flies.",
+      "citation": "Exodus 8:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And Pharao called Moses and Aaron, and said to them: Go and sacrifice to your God in this land.",
+      "citation": "Exodus 8:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And Moses said: It cannot be so: for we shall sacrifice the abominations of the Egyptians to the Lord our God: now if we kill those things which the Egyptians worship, in their presence, they will stone us.",
+      "citation": "Exodus 8:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "We will go three days' journey into the wilderness; and we will sacrifice to the Lord our God, as he hath commanded us.",
+      "citation": "Exodus 8:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And Pharao said: I will let you go to sacrifice to the Lord your God in the wilderness, but go no farther: pray for me.",
+      "citation": "Exodus 8:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And Moses said: I will go out from thee, and will pray to the Lord: and the flies shall depart from Pharao, and from his servants, and from his people to morrow: but do not deceive any more, in not letting the people go to sacrifice to the Lord.",
+      "citation": "Exodus 8:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "So Moses went out from Pharao, and prayed to the Lord.",
+      "citation": "Exodus 8:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And he did according to his word: and he took away the flies from Pharao, and from his servants, and from his people: there was not left so much as one.",
+      "citation": "Exodus 8:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And Pharao's heart was hardened, so that neither this time would he let the people go.",
+      "citation": "Exodus 8:28 (Douay-Rheims)"
+    }
+  ]
+}

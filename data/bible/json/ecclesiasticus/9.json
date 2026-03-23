@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 9 — 25 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 9,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/8.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/10.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/9.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/9.json"
+    }
+  },
+  "citation": "Ecclesiasticus 9 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Be not jealous over the wife of thy bosom, lest she shew in thy regard the malice of a wicked lesson.",
+      "citation": "Ecclesiasticus 9:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Give not the power of thy soul to a woman, lest she enter upon thy strength, and thou be confounded.",
+      "citation": "Ecclesiasticus 9:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Look not upon a woman that hath a mind for many: lest thou fall into her snares.",
+      "citation": "Ecclesiasticus 9:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Use not much the company of her that is a dancer, and hearken not to her, lest thou perish by the force of her charms.",
+      "citation": "Ecclesiasticus 9:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Gaze not upon a maiden, lest her beauty be a stumblingblock to thee.",
+      "citation": "Ecclesiasticus 9:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Give not thy soul to harlots in any point: lest thou destroy thyself and thy inheritance.",
+      "citation": "Ecclesiasticus 9:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Look not round about thee in the ways of the city, nor wander up and down in the streets thereof.",
+      "citation": "Ecclesiasticus 9:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Turn away thy face from a woman dressed up, and gaze not about upon another's beauty.",
+      "citation": "Ecclesiasticus 9:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For many have perished by the beauty of a woman, and hereby lust is enkindled as a fire.",
+      "citation": "Ecclesiasticus 9:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Every woman that is a harlot, shall be trodden upon as dung in the way.",
+      "citation": "Ecclesiasticus 9:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Many by admiring the beauty of another man's wife, have become reprobate, for her conversation burneth as fire.",
+      "citation": "Ecclesiasticus 9:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Sit not at all with another man's wife, nor repose upon the bed with her:",
+      "citation": "Ecclesiasticus 9:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And strive not with her over wine, lest thy heart decline towards her and by thy blood thou fall into destruction.",
+      "citation": "Ecclesiasticus 9:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Forsake not an old friend, for the new will not be like to him.",
+      "citation": "Ecclesiasticus 9:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "A new friend is as new wine: it shall grow old, and thou shalt drink it with pleasure.",
+      "citation": "Ecclesiasticus 9:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Envy not the glory and riches of a sinner: for thou knowest not what his ruin shall be.",
+      "citation": "Ecclesiasticus 9:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Be not pleased with the wrong done by the unjust, knowing that even to hell the wicked shall not please.",
+      "citation": "Ecclesiasticus 9:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Keep thee far from the man that hath power to kill, so thou shalt not suspect the fear of death.",
+      "citation": "Ecclesiasticus 9:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And if thou come to him, commit no fault, lest he take away thy life.",
+      "citation": "Ecclesiasticus 9:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Know it to be a communication with death: for thou art going in the midst of snares, and walking upon the arms of them that are grieved.",
+      "citation": "Ecclesiasticus 9:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "According to thy power beware of thy neighbour, and treat with the wise and prudent.",
+      "citation": "Ecclesiasticus 9:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Let just men be thy guests, and let thy glory be in the fear of God.",
+      "citation": "Ecclesiasticus 9:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And let the thought of God be in thy mind, and all thy discourse on the commandments of the Highest.",
+      "citation": "Ecclesiasticus 9:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Works shall be praised for the hand of the artificers, and the prince of the people for the wisdom of his speech, but the word of the ancients for the sense.",
+      "citation": "Ecclesiasticus 9:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "A man full of tongue is terrible in his city, and he that is rash in his word shall be hateful.",
+      "citation": "Ecclesiasticus 9:25 (Douay-Rheims)"
+    }
+  ]
+}

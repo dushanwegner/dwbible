@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 24 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 24,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/23.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/25.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/24.json",
+      "german": "https://latinprayer.org/bibel/psalms/24.json"
+    }
+  },
+  "citation": "Psalms 24 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "psalmus David prima sabbati Domini est terra et plenitudo eius orbis terrarum et %universi; qui habitant in eo",
+      "citation": "Psalms 24:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "David canticum Domini est terra et plenitudo eius orbis et habitatores eius",
+      "citation": "Psalms 24:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "*quia; ipse super maria fundavit eum et super flumina praeparavit eum",
+      "citation": "Psalms 24:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quia ipse super maria fundavit eum et super flumina stabilivit illum",
+      "citation": "Psalms 24:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quis ascendit in montem Domini aut quis stabit in loco sancto eius",
+      "citation": "Psalms 24:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quis ascendet in montem Domini et quis stabit in loco sancto eius",
+      "citation": "Psalms 24:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "innocens manibus et mundo corde qui non accepit in vano animam suam nec iuravit in dolo proximo suo",
+      "citation": "Psalms 24:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "innocens manibus et mundo corde qui non exaltavit frustra animam suam et non iuravit dolose",
+      "citation": "Psalms 24:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "hic accipiet benedictionem a Domino et misericordiam a Deo salvatore suo",
+      "citation": "Psalms 24:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "accipiet benedictionem a Domino et iustitiam a Deo salutari suo",
+      "citation": "Psalms 24:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "haec est generatio quaerentium eum quaerentium faciem Dei Iacob diapsalma",
+      "citation": "Psalms 24:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "haec generatio quaerentium eum quaerentium faciem tuam Iacob semper",
+      "citation": "Psalms 24:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "adtollite portas principes vestras et elevamini portae aeternales et introibit rex gloriae",
+      "citation": "Psalms 24:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "levate portae capita vestra et elevamini ianuae sempiternae et ingrediatur rex gloriae",
+      "citation": "Psalms 24:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quis est iste rex gloriae Dominus fortis et potens Dominus potens in proelio",
+      "citation": "Psalms 24:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quis est iste rex gloriae Dominus fortis et potens Dominus fortis in proelio",
+      "citation": "Psalms 24:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "adtollite portas principes vestras et elevamini portae aeternales et introibit rex gloriae",
+      "citation": "Psalms 24:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "levate portae capita vestra et erigite ianuae sempiternae et ingrediatur rex gloriae",
+      "citation": "Psalms 24:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quis est iste rex gloriae Dominus virtutum ipse est rex gloriae diapsalma",
+      "citation": "Psalms 24:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quis est iste rex gloriae Dominus exercituum ipse est rex gloriae semper",
+      "citation": "Psalms 24:10 (Clementine Vulgate)"
+    }
+  ]
+}

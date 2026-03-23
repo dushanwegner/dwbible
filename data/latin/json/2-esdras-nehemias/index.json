@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Nehemiah — 3 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Nehemiah",
+      "slug": "2-esdras-nehemias",
+      "testament": "OT",
+      "order": 16,
+      "totalChapters": 3
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-esdras-nehemias/index.json",
+      "german": "https://latinprayer.org/bibel/2-esdras-nehemias/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/1",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/2",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/latin/2-esdras-nehemias/3",
+      "jsonUrl": "https://latinprayer.org/latin/2-esdras-nehemias/3.json"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sacharja, Chapter 4 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sacharja",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 4,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/zacharias/3.json",
+      "nextChapter": "https://latinprayer.org/bibel/zacharias/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/zacharias/4.json",
+      "latin": "https://latinprayer.org/latin/zacharias/4.json"
+    }
+  },
+  "citation": "Sacharja 4 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da kam der Engel, der mit mir redete, zurück und weckte mich auf wie einen, der aus seinem Schlaf aufgeweckt wird,",
+      "citation": "Sacharja 4:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "und er fragte mich: »Was siehst du?« Ich antwortete: »Ich sehe, da steht ein Leuchter ganz von Gold, und ein Ölbehälter befindet sich oben darauf, und sieben Lampen sind an ihm und sieben Gießröhren für die Lampen, die sich an ihm befinden;",
+      "citation": "Sacharja 4:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "und neben ihm stehen zwei Ölbäume, einer zu seiner Rechten und einer links von ihm.«",
+      "citation": "Sacharja 4:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Da hob ich an und richtete an den Engel, der mit mir redete, die Frage: »Mein Herr, was soll dies alles bedeuten?«",
+      "citation": "Sacharja 4:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da gab mir der Engel, der mit mir redete, folgende Antwort: »Du weißt also nicht, was dies dort bedeutet?« Als ich nun antwortete: »Nein, mein Herr«,",
+      "citation": "Sacharja 4:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "gab er mir folgende Auskunft: »So lautet das Wort des HERRN an Serubbabel: ›Nicht durch Heeresmacht und nicht durch Gewalt (geschieht’s), sondern durch meinen Geist!‹ – so spricht der HERR der Heerscharen.",
+      "citation": "Sacharja 4:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "›Wer bist du, großer Berg? Vor Serubbabel sollst du zur Ebene werden! Er wird den Giebelstein an Ort und Stelle bringen unter dem Jubelruf: ›Heil, Heil sei ihm!‹«",
+      "citation": "Sacharja 4:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Weiter erging das Wort des HERRN an mich folgendermaßen:",
+      "citation": "Sacharja 4:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "»Die Hände Serubbabels haben den Grundstein zu diesem Hause gelegt, und seine Hände werden es auch vollenden; dann wirst du auch erkennen, daß der HERR der Heerscharen es ist, der mich zu euch gesandt hat.",
+      "citation": "Sacharja 4:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Denn wer immer den Tag der geringen Anfänge verachtet hat, der wird mit Freuden den Bleistein in der Hand Serubbabels sehen. Diese sieben (Lampen) aber sind die Augen des HERRN, die über die ganze Erde schweifen.«",
+      "citation": "Sacharja 4:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Hierauf richtete ich die Frage an ihn: »Was bedeuten denn diese beiden Ölbäume rechts und links von dem Leuchter?«",
+      "citation": "Sacharja 4:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Und noch eine andere Frage richtete ich an ihn, nämlich: »Was haben die beiden Olivenzweige zu bedeuten, die sich neben den beiden goldenen Röhren befinden, welche das Gold(öl) von oben herableiten?«",
+      "citation": "Sacharja 4:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Da antwortete er mir: »Du weißt also nicht, was diese bedeuten?« Als ich ihm nun erwiderte: »Nein, mein Herr«,",
+      "citation": "Sacharja 4:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "sagte er: »Das sind die beiden Söhne des Öls, die (als Diener) vor dem Herrn der ganzen Erde stehen.«",
+      "citation": "Sacharja 4:14 (Menge)"
+    }
+  ]
+}

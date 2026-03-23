@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 6 — 13 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 6,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/5.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/6.json",
+      "german": "https://latinprayer.org/bibel/isaias/6.json"
+    }
+  },
+  "citation": "Isaiah 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in anno quo mortuus est rex Ozias vidi Dominum sedentem super solium excelsum et elevatum et ea quae sub eo erant implebant templum",
+      "citation": "Isaiah 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "seraphin stabant super illud sex alae uni et sex alae alteri duabus velabant faciem eius et duabus velabant pedes eius et duabus volabant",
+      "citation": "Isaiah 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et clamabant alter ad alterum et dicebant sanctus sanctus sanctus Dominus exercituum plena est omnis terra gloria eius",
+      "citation": "Isaiah 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et commota sunt superliminaria cardinum a voce clamantis et domus impleta est fumo",
+      "citation": "Isaiah 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et dixi vae mihi quia tacui quia vir pollutus labiis ego sum et in medio populi polluta labia habentis ego habito et Regem Dominum exercituum vidi oculis meis",
+      "citation": "Isaiah 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et volavit ad me unus de seraphin et in manu eius calculus quem forcipe tulerat de altari",
+      "citation": "Isaiah 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et tetigit os meum et dixit ecce tetigit hoc labia tua et auferetur iniquitas tua et peccatum tuum mundabitur",
+      "citation": "Isaiah 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et audivi vocem Domini dicentis quem mittam et quis ibit nobis et dixi ecce ego sum mitte me",
+      "citation": "Isaiah 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et dixit vade et dices populo huic audite audientes et nolite intellegere et videte visionem et nolite cognoscere",
+      "citation": "Isaiah 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "excaeca cor populi huius et aures eius adgrava et oculos eius claude ne forte videat oculis suis et auribus suis audiat et corde suo intellegat et convertatur et sanem eum",
+      "citation": "Isaiah 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dixi usquequo Domine et dixit donec desolentur civitates absque habitatore et domus sine homine et terra relinquetur deserta",
+      "citation": "Isaiah 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et longe faciet Dominus homines et multiplicabitur quae derelicta fuerat in medio terrae",
+      "citation": "Isaiah 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et adhuc in ea decimatio et convertetur et erit in ostensionem sicut terebinthus et sicuti quercus quae expandit ramos suos semen sanctum erit id quod steterit in ea",
+      "citation": "Isaiah 6:13 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 73 — 28 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 73,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/72.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/74.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/73.json",
+      "latin": "https://latinprayer.org/latin/psalms/73.json"
+    }
+  },
+  "citation": "Psalmen 73 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Psalm von Asaph</em>. Dennoch ist Gott voll Güte gegen den Frommen, der Herr gegen alle, die reinen Herzens sind.",
+      "citation": "Psalmen 73:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Doch ich – fast wär’ ich gestrauchelt mit meinen Füßen, nichts fehlte, so wären meine Schritte ausgeglitten;",
+      "citation": "Psalmen 73:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "denn ich ereiferte mich über die Großsprecher, wenn ich sehen mußte der Gottlosen Wohlergehn.",
+      "citation": "Psalmen 73:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denn bis zu ihrem Tode leiden sie keine Schmerzen, und wohlgenährt ist ihr Leib;",
+      "citation": "Psalmen 73:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Unglück trifft sie nicht wie andere Sterbliche, und sie werden nicht geplagt wie sonst die Menschen.",
+      "citation": "Psalmen 73:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Drum ist auch Hochmut ihr Halsgeschmeide, und Gewalttat ist das Kleid, das sie umhüllt.",
+      "citation": "Psalmen 73:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Aus strotzendem Antlitz tritt ihr Auge hervor, die Gebilde ihres Herzens wallen über.",
+      "citation": "Psalmen 73:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Sie höhnen und reden in Bosheit (nur) von Gewalttat, führen Reden von oben herab;",
+      "citation": "Psalmen 73:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "gegen den Himmel richten sie ihren Mund, und ihre Zunge ergeht sich frei auf Erden.",
+      "citation": "Psalmen 73:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Darum wendet das Volk sich ihnen zu und schlürft das Wasser (ihrer Lehren) in vollen Zügen;",
+      "citation": "Psalmen 73:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "sie sagen: »Wie sollte Gott es wissen, und wie sollte der Höchste Kenntnis davon haben?«",
+      "citation": "Psalmen 73:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Seht, so treiben’s die Gottlosen, und, immer in Sicherheit lebend, häufen sie Reichtum an.",
+      "citation": "Psalmen 73:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ach, ganz umsonst hab’ ich rein mein Herz erhalten und in Unschuld meine Hände gewaschen;",
+      "citation": "Psalmen 73:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "ich ward ja doch vom Unglück allzeit geplagt, und alle Morgen war meine Züchtigung da.",
+      "citation": "Psalmen 73:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Doch hätt’ ich gesagt: »Ich will auch so reden!«, so hätt’ ich treulos verleugnet deiner Söhne Geschlecht.",
+      "citation": "Psalmen 73:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "So sann ich denn nach, um dies zu begreifen, doch es war zu schwer für mein Verständnis,",
+      "citation": "Psalmen 73:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "bis ich eindrang in die Heiligtümer Gottes und achtgab auf der Gottlosen Endgeschick.",
+      "citation": "Psalmen 73:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Fürwahr, auf schlüpfrigen Boden stellst du sie, läßt sie fallen, daß sie in Trümmer zergehn.",
+      "citation": "Psalmen 73:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Wie werden sie doch im Nu vernichtet, weggerafft, und nehmen ein Ende mit Schrecken!",
+      "citation": "Psalmen 73:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Wie ein Traumbild gleich nach dem Erwachen verfliegt, so läßt du, o Allherr, beim Wachwerden ihr Bild verschwinden.",
+      "citation": "Psalmen 73:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Wenn mein Herz sich nun noch verbitterte und ich in meinem Innern empört mich fühlte,",
+      "citation": "Psalmen 73:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "so wär’ ich ein ganzer Tor und bar der Einsicht, benähme mich wie ein vernunftloses Tier gegen dich.",
+      "citation": "Psalmen 73:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Doch nein, ich bleibe stets mit dir verbunden, du hältst mich fest bei meiner rechten Hand;",
+      "citation": "Psalmen 73:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "du leitest mich nach deinem Ratschluß und nimmst mich endlich auf in die Herrlichkeit.",
+      "citation": "Psalmen 73:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Wen hätt’ ich sonst noch im Himmel? Und außer dir erfreut mich nichts auf Erden.",
+      "citation": "Psalmen 73:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Mag Leib und Seele mir verschmachten, bleibt Gott doch allzeit meines Herzens Fels und mein Teil.",
+      "citation": "Psalmen 73:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Denn gewiß: wer von dir sich lossagt, der kommt um; du vernichtest alle, die treulos von dir abfallen.",
+      "citation": "Psalmen 73:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Mir aber ist Gottes Nähe beglückend: ich setze mein Vertrauen auf Gott den HERRN, um alle deine Werke zu verkünden.",
+      "citation": "Psalmen 73:28 (Menge)"
+    }
+  ]
+}

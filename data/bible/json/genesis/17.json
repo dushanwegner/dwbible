@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 17 — 27 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 17,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/genesis/16.json",
+      "nextChapter": "https://latinprayer.org/bible/genesis/18.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/genesis/17.json",
+      "german": "https://latinprayer.org/bibel/genesis/17.json"
+    }
+  },
+  "citation": "Genesis 17 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And after he began to be ninety and nine years old, the Lord appeared to him: and said unto him: I am the Almighty God: walk before me, and be perfect.",
+      "citation": "Genesis 17:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And I will make my covenant between me and thee: and I will multiply thee exceedingly.",
+      "citation": "Genesis 17:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Abram fell flat on his face.",
+      "citation": "Genesis 17:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And God said to him: I am, and my covenant is with thee, and thou shalt be a father of many nations.",
+      "citation": "Genesis 17:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Neither shall thy name be called any more Abram: but thou shalt be called Abraham: because I have made thee a father of many nations.",
+      "citation": "Genesis 17:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And I will make thee increase exceedingly, and I will make nations of thee, and kings shall come out of thee.",
+      "citation": "Genesis 17:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And I will establish my covenant between me and thee, and between thy seed after thee in their generations, by a perpetual covenant: to be a God to thee, and to thy seed after thee.",
+      "citation": "Genesis 17:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And I will give to thee, and to thy seed, the land of thy sojournment, all the land of Chanaan, for a perpetual possession, and I will be their God.",
+      "citation": "Genesis 17:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Again God said to Abraham: And thou therefore shalt keep my covenant, and thy seed after thee in their generations.",
+      "citation": "Genesis 17:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "This is my covenant which you shall observe between me and you, and thy seed after thee: All the male-kind of you shall be circumcised.",
+      "citation": "Genesis 17:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And you shall circumcise the flesh of your foreskin, that it may be for a sign of the covenant between me and you.",
+      "citation": "Genesis 17:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "An infant of eight days old shall be circumcised among you, every manchild in your generations: he that is born in the house, as well as the bought servant, shall be circumcised, and whosoever is not of your stock:",
+      "citation": "Genesis 17:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And my covenant shall be in your flesh for a perpetual covenant.",
+      "citation": "Genesis 17:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "The male whose flesh of his foreskin shall not be circumcised, that soul shall be destroyed out of his people: because he hath broken my covenant.",
+      "citation": "Genesis 17:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "God said also to Abraham: Sarai thy wife thou shalt not call Sarai, but Sara.",
+      "citation": "Genesis 17:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And I will bless her, and of her I will give thee a son, whom I will bless, and he shall become nations, and kings of people shall spring from him.",
+      "citation": "Genesis 17:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Abraham fell upon his face, and laughed, saying in his heart: Shall a son, thinkest thou, be born to him that is a hundred years old? and shall Sara that is ninety years old bring forth?",
+      "citation": "Genesis 17:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And he said to God: O that Ismael may live before thee.",
+      "citation": "Genesis 17:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And God said to Abraham: Sara thy wife shall bear thee a son, and thou shalt call his name Isaac, and I will establish my covenant with him for a perpetual covenant, and with his seed after him.",
+      "citation": "Genesis 17:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And as for Ismael I have also heard thee. Behold, I will bless him, and increase, and multiply him exceedingly: he shall beget twelve chiefs, and I will make him a great nation.",
+      "citation": "Genesis 17:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "But my covenant I will establish with Isaac, whom Sara shall bring forth to thee at this time in the next year.",
+      "citation": "Genesis 17:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And when he had left off speaking with him, God went up from Abraham.",
+      "citation": "Genesis 17:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And Abraham took Ismael his son, and all that were born in his house: and all whom he had bought, every male among the men of his house: and he circumcised the flesh of their foreskin forthwith the very same day, as God had commanded him.",
+      "citation": "Genesis 17:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Abraham was ninety and nine years old, when he circumcised the flesh of his foreskin.",
+      "citation": "Genesis 17:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And Ismael his son was full thirteen years old at the time of his circumcision.",
+      "citation": "Genesis 17:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "The selfsame day was Abraham circumcised and Ismael his son.",
+      "citation": "Genesis 17:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And all the men of his house, as well they that were born in his house, as the bought servants and strangers, were circumcised with him.",
+      "citation": "Genesis 17:27 (Douay-Rheims)"
+    }
+  ]
+}

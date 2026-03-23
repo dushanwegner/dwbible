@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Peter, Chapter 3 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Peter",
+      "slug": "1-peter",
+      "testament": "NT",
+      "order": 67,
+      "totalChapters": 5
+    },
+    "chapter": 3,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-peter/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-peter/2.json",
+      "nextChapter": "https://latinprayer.org/bible/1-peter/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-peter/3.json",
+      "german": "https://latinprayer.org/bibel/1-peter/3.json"
+    }
+  },
+  "citation": "1. Peter 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "In like manner also, let wives be subject to their husbands: that, if any believe not the word, they may be won without the word, by the conversation of the wives,",
+      "citation": "1. Peter 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Considering your chaste conversation with fear.",
+      "citation": "1. Peter 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Whose adorning, let it not be the outward plaiting of the hair, or the wearing of gold, or the putting on of apparel:",
+      "citation": "1. Peter 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But the hidden man of the heart, in the incorruptibility of a quiet and a meek spirit which is rich in the sight of God.",
+      "citation": "1. Peter 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For after this manner heretofore, the holy women also who trusted in God adorned themselves, being in subjection to their own husbands:",
+      "citation": "1. Peter 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "As Sara obeyed Abraham, calling him lord: whose daughters you are, doing well and not fearing any disturbance.",
+      "citation": "1. Peter 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Ye husbands, likewise dwelling with them according to knowledge, giving honour to the female as to the weaker vessel and as to the co-heirs of the grace of life: that your prayers be not hindered.",
+      "citation": "1. Peter 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And in fine, be ye all of one mind, having compassion one of another, being lovers of the brotherhood, merciful, modest, humble:",
+      "citation": "1. Peter 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Not rendering evil for evil, nor railing for railing, but contrariwise, blessing: for unto this are you called, that you may inherit a blessing.",
+      "citation": "1. Peter 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For he that will love life and see good days, let him refrain his tongue from evil, and his lips that they speak no guile.",
+      "citation": "1. Peter 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Let him decline from evil and do good: Let him seek after peace and pursue it:",
+      "citation": "1. Peter 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Because the eyes of the Lord are upon the just, and his ears unto their prayers but the countenance of the Lord upon them that do evil things.",
+      "citation": "1. Peter 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And who is he that can hurt you, if you be zealous of good?",
+      "citation": "1. Peter 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But if also you suffer any thing for justice' sake, blessed are ye. And be not afraid of their fear: and be not troubled.",
+      "citation": "1. Peter 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "But sanctify the Lord Christ in your hearts, being ready always to satisfy every one that asketh you a reason of that hope which is in you.",
+      "citation": "1. Peter 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "But with modesty and fear, having a good conscience: that whereas they speak evil of you, they may be ashamed who falsely accuse your good conversation in Christ.",
+      "citation": "1. Peter 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "For it is better doing well (if such be the will of God) to suffer than doing ill.",
+      "citation": "1. Peter 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Because Christ also died once for our sins, the just for the unjust: that he might offer us to God, being put to death indeed in the flesh, but enlivened in the spirit,",
+      "citation": "1. Peter 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "In which also coming he preached to those spirits that were in prison:",
+      "citation": "1. Peter 3:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Which had been some time incredulous, when they waited for the patience of God in the days of Noe, when the ark was a building: wherein a few, that is, eight souls, were saved by water.",
+      "citation": "1. Peter 3:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Whereunto baptism, being of the like form, now saveth you also: not the putting away of the filth of the flesh, but, the examination of a good conscience towards God by the resurrection of Jesus Christ.",
+      "citation": "1. Peter 3:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Who is on the right hand of God, swallowing down death that we might be made heirs of life everlasting: being gone into heaven, the angels and powers and virtues being made subject to him.",
+      "citation": "1. Peter 3:22 (Douay-Rheims)"
+    }
+  ]
+}

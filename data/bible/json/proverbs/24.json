@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 24 — 34 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 24,
+    "verseCount": 34,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/proverbs/23.json",
+      "nextChapter": "https://latinprayer.org/bible/proverbs/25.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/proverbs/24.json",
+      "german": "https://latinprayer.org/bibel/proverbs/24.json"
+    }
+  },
+  "citation": "Proverbs 24 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Seek not to be like evil men, neither desire to be with them:",
+      "citation": "Proverbs 24:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Because their mind studieth robberies, and their lips speak deceits.",
+      "citation": "Proverbs 24:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "By wisdom the house shall be built, and by prudence it shall be strengthened.",
+      "citation": "Proverbs 24:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "By instruction the storerooms shall be filled with all precious and most beautiful wealth.",
+      "citation": "Proverbs 24:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "A wise man is strong: and a knowing man, stout and valiant.",
+      "citation": "Proverbs 24:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Because war is managed by due ordering: and there shall be safety where there are many counsels.",
+      "citation": "Proverbs 24:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Wisdom is too high for a fool; in the gate he shall not open his mouth.",
+      "citation": "Proverbs 24:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He that deviseth to do evils, shall be called a fool.",
+      "citation": "Proverbs 24:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The thought of a fool is sin: and the detractor is the abomination of men.",
+      "citation": "Proverbs 24:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "If thou lose hope, being weary in the day of distress, thy strength shall be diminished.",
+      "citation": "Proverbs 24:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Deliver them that are led to death: and those that are drawn to death, forbear not to deliver.",
+      "citation": "Proverbs 24:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "If thou say: I have not strength enough: he that seeth into the heart, he understandeth, and nothing deceiveth the keeper of thy soul, and he shall render to a man according to his works.",
+      "citation": "Proverbs 24:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Eat honey, my son, because it is good, and the honeycomb most sweet to thy throat.",
+      "citation": "Proverbs 24:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "So also is the doctrine of wisdom to thy soul: which when thou hast found, thou shalt have hope in the end, and thy hope shall not perish.",
+      "citation": "Proverbs 24:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Lie not in wait, nor seek after wickedness in the house of the just, nor spoil his rest.",
+      "citation": "Proverbs 24:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "For a just man shall fall seven times, and shall rise again: but the wicked shall fall down into evil.",
+      "citation": "Proverbs 24:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "When thy enemy shall fall, be not glad, and in his ruin let not thy heart rejoice:",
+      "citation": "Proverbs 24:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Lest the Lord see, and it displease him, and he turn away his wrath from him.",
+      "citation": "Proverbs 24:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Contend not with the wicked, nor seek to be like the ungodly.",
+      "citation": "Proverbs 24:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "For evil men have no hope of things to come, and the lamp of the wicked shall be put out.",
+      "citation": "Proverbs 24:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "My son, fear the Lord, and the king: and have nothing to do with detractors.",
+      "citation": "Proverbs 24:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "For their destruction shall rise suddenly: and who knoweth the ruin of both?",
+      "citation": "Proverbs 24:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "These things also to the wise: It is not good to have respect to persons in judgment.",
+      "citation": "Proverbs 24:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "They that say to the wicked man: Thou art just: shall be cursed by the people, and the tribes shall abhor them.",
+      "citation": "Proverbs 24:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "They that rebuke him shall be praised: and a blessing shall come upon them.",
+      "citation": "Proverbs 24:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "He shall kiss the lips, who answereth right words.",
+      "citation": "Proverbs 24:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Prepare thy work without, and diligently till thy ground: that afterward thou mayst build thy house.",
+      "citation": "Proverbs 24:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Be not witness without cause against thy neighbour: and deceive not any man with thy lips.",
+      "citation": "Proverbs 24:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Say not: I will do to him as he hath done to me: I will render to every one according to his work.",
+      "citation": "Proverbs 24:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "I passed by the field of the slothful man, and by the vineyard of the foolish man:",
+      "citation": "Proverbs 24:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And behold it was all filled with nettles, and thorns had covered the face thereof, and the stone wall was broken down.",
+      "citation": "Proverbs 24:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "Which when I had seen, I laid it up in my heart, and by the example I received instruction.",
+      "citation": "Proverbs 24:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Thou wilt sleep a little, said I, thou wilt slumber a little, thou wilt fold thy hands a little to rest.",
+      "citation": "Proverbs 24:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And poverty shall come to thee as a runner, and beggary as an armed man.",
+      "citation": "Proverbs 24:34 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 25 — 12 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 25,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/24.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/26.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/25.json",
+      "german": "https://latinprayer.org/bibel/isaias/25.json"
+    }
+  },
+  "citation": "Isaiah 25 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Domine Deus meus es tu exaltabo te confitebor nomini tuo quoniam fecisti mirabilia cogitationes antiquas fideles amen",
+      "citation": "Isaiah 25:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quia posuisti civitatem in tumulum urbem fortem in ruinam domum alienorum ut non sit civitas et in sempiternum non aedificetur",
+      "citation": "Isaiah 25:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "super hoc laudabit te populus fortis civitas gentium robustarum timebit te",
+      "citation": "Isaiah 25:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia factus es fortitudo pauperi fortitudo egeno in tribulatione sua spes a turbine umbraculum ab aestu spiritus enim robustorum quasi turbo inpellens parietem",
+      "citation": "Isaiah 25:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "sicut aestum in siti tumultum alienorum humiliabis et quasi calore sub nube torrente propaginem fortium marcescere facies",
+      "citation": "Isaiah 25:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et faciet Dominus exercituum omnibus populis in monte hoc convivium pinguium convivium vindemiae pinguium medullatorum vindemiae defecatae",
+      "citation": "Isaiah 25:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et praecipitabit in monte isto faciem vinculi conligati super omnes populos et telam quam orditus est super universas nationes",
+      "citation": "Isaiah 25:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "praecipitabit mortem in sempiternum et auferet Dominus Deus lacrimam ab omni facie et obprobrium populi sui auferet de universa terra quia Dominus locutus est",
+      "citation": "Isaiah 25:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et dicet in die illa ecce Deus noster iste expectavimus eum et salvabit nos iste Dominus sustinuimus eum exultabimus et laetabimur in salutari eius",
+      "citation": "Isaiah 25:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quia requiescet manus Domini in monte isto et triturabitur Moab sub eo sicuti teruntur paleae in plaustro",
+      "citation": "Isaiah 25:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et extendet manus suas sub eo sicut extendit natans ad natandum et humiliabit gloriam eius cum adlisione manuum eius",
+      "citation": "Isaiah 25:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et munimenta sublimium murorum tuorum concident et humiliabuntur et detrahentur in terram usque ad pulverem",
+      "citation": "Isaiah 25:12 (Clementine Vulgate)"
+    }
+  ]
+}

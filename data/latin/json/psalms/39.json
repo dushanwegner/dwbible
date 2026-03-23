@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 39 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 39,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/38.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/40.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/39.json",
+      "german": "https://latinprayer.org/bibel/psalms/39.json"
+    }
+  },
+  "citation": "Psalms 39 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "dixi custodiam vias meas ut non delinquam in lingua mea posui ori meo custodiam cum consisteret peccator adversum me",
+      "citation": "Psalms 39:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in finem David psalmus",
+      "citation": "Psalms 39:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "dixi custodiam vias meas ne peccem in lingua mea custodiam os meum silentio donec est impius contra me",
+      "citation": "Psalms 39:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "pro victoria David canticum",
+      "citation": "Psalms 39:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "obmutui et humiliatus sum et silui a bonis et dolor meus renovatus est",
+      "citation": "Psalms 39:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "obmutui silentio tacui de bono et dolor meus conturbatus est",
+      "citation": "Psalms 39:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "concaluit cor meum intra me et in meditatione mea exardescet ignis",
+      "citation": "Psalms 39:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "incaluit cor meum in medio mei in meditatione mea incensus sum igni",
+      "citation": "Psalms 39:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "locutus sum in lingua mea notum fac mihi Domine finem meum et numerum dierum meorum quis est ut sciam quid desit mihi",
+      "citation": "Psalms 39:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "locutus sum lingua mea ostende mihi Domine finem meum et mensuram dierum meorum quae sit ut sciam quid mihi desit",
+      "citation": "Psalms 39:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ecce mensurabiles posuisti dies meos et substantia mea tamquam nihilum ante te verumtamen universa vanitas omnis homo vivens diapsalma",
+      "citation": "Psalms 39:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ecce breves posuisti dies meos et vita mea quasi non sit in conspectu tuo omnia enim vanitas omnis homo stans semper",
+      "citation": "Psalms 39:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "verumtamen in imagine pertransit homo sed et frustra conturbatur thesaurizat et ignorat cui congregabit ea",
+      "citation": "Psalms 39:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "tantum in imagine ambulat homo tantum frustra turbatur congregat et ignorat cui dimittat ea",
+      "citation": "Psalms 39:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et nunc quae est expectatio mea nonne Dominus et substantia mea apud te est",
+      "citation": "Psalms 39:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "nunc ergo quid expecto Domine praestolatio mea tu es",
+      "citation": "Psalms 39:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ab omnibus iniquitatibus meis erue me obprobrium insipienti dedisti me",
+      "citation": "Psalms 39:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ab omnibus iniquitatibus meis libera me obprobrium stulto ne ponas me",
+      "citation": "Psalms 39:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "obmutui %et; non aperui os meum quoniam tu fecisti",
+      "citation": "Psalms 39:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "obmutui non aperiam os meum quia tu fecisti",
+      "citation": "Psalms 39:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "amove a me plagas tuas",
+      "citation": "Psalms 39:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "tolle a me plagas tuas",
+      "citation": "Psalms 39:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "a fortitudine manus tuae ego defeci in increpationibus propter iniquitatem corripuisti hominem et tabescere fecisti sicut araneam animam eius verumtamen vane %conturbatur; omnis homo diapsalma",
+      "citation": "Psalms 39:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "a contentione manus tuae ego consumptus sum in increpationibus pro iniquitate corripuisti virum et posuisti quasi tineam desiderabilia eius verumtamen vanitas omnis homo semper",
+      "citation": "Psalms 39:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "exaudi orationem meam Domine et deprecationem meam auribus percipe lacrimas meas ne sileas quoniam advena sum apud te et peregrinus sicut omnes patres mei",
+      "citation": "Psalms 39:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "audi orationem meam Domine et clamorem meum exaudi ad lacrimam meam ne obsurdescas quia advena ego sum apud te et peregrinus sicut omnes patres mei",
+      "citation": "Psalms 39:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "remitte mihi ut refrigerer priusquam abeam et amplius non ero",
+      "citation": "Psalms 39:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "parce mihi ut rideam antequam vadam et non subsistam",
+      "citation": "Psalms 39:13 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 16 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 16,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/matthew/15.json",
+      "nextChapter": "https://latinprayer.org/latin/matthew/17.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/16.json",
+      "german": "https://latinprayer.org/bibel/matthew/16.json"
+    }
+  },
+  "citation": "Matthew 16 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et accesserunt ad eum Pharisaei et Sadducaei temptantes et rogaverunt eum ut signum de caelo ostenderet eis",
+      "citation": "Matthew 16:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "at ille respondens ait eis facto vespere dicitis serenum erit rubicundum est enim caelum",
+      "citation": "Matthew 16:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et mane hodie tempestas rutilat enim triste caelum",
+      "citation": "Matthew 16:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "faciem ergo caeli diiudicare nostis signa autem temporum non potestis generatio mala et adultera signum quaerit et signum non dabitur ei nisi signum Ionae et relictis illis abiit",
+      "citation": "Matthew 16:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et cum venissent discipuli eius trans fretum obliti sunt panes accipere",
+      "citation": "Matthew 16:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "qui dixit illis intuemini et cavete a fermento Pharisaeorum et Sadducaeorum",
+      "citation": "Matthew 16:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "at illi cogitabant inter se dicentes quia panes non accepimus",
+      "citation": "Matthew 16:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sciens autem Iesus dixit quid cogitatis inter vos modicae fidei quia panes non habetis",
+      "citation": "Matthew 16:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "nondum intellegitis neque recordamini quinque panum quinque milium hominum et quot cofinos sumpsistis",
+      "citation": "Matthew 16:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "neque septem panum quattuor milium hominum et quot sportas sumpsistis",
+      "citation": "Matthew 16:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quare non intellegitis quia non de pane dixi vobis cavete a fermento Pharisaeorum et Sadducaeorum",
+      "citation": "Matthew 16:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "tunc intellexerunt quia non dixerit cavendum a fermento panum sed a doctrina Pharisaeorum et Sadducaeorum",
+      "citation": "Matthew 16:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "venit autem Iesus in partes Caesareae Philippi et interrogabat discipulos suos dicens quem dicunt homines esse Filium hominis",
+      "citation": "Matthew 16:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "at illi dixerunt alii Iohannem Baptistam alii autem Heliam alii vero Hieremiam aut unum ex prophetis",
+      "citation": "Matthew 16:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "dicit illis vos autem quem me esse dicitis",
+      "citation": "Matthew 16:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "respondens Simon Petrus dixit tu es Christus Filius Dei vivi",
+      "citation": "Matthew 16:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "respondens autem Iesus dixit ei beatus es Simon Bar Iona quia caro et sanguis non revelavit tibi sed Pater meus qui in caelis est",
+      "citation": "Matthew 16:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et ego dico tibi quia tu es Petrus et super hanc petram aedificabo ecclesiam meam et portae inferi non praevalebunt adversum eam",
+      "citation": "Matthew 16:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et tibi dabo claves regni caelorum et quodcumque ligaveris super terram erit ligatum in caelis et quodcumque solveris super terram erit solutum in caelis",
+      "citation": "Matthew 16:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "tunc praecepit discipulis suis ut nemini dicerent quia ipse esset Iesus Christus",
+      "citation": "Matthew 16:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "exinde coepit Iesus ostendere discipulis suis quia oporteret eum ire Hierosolymam et multa pati a senioribus et scribis et principibus sacerdotum et occidi et tertia die resurgere",
+      "citation": "Matthew 16:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et adsumens eum Petrus coepit increpare illum dicens absit a te Domine non erit tibi hoc",
+      "citation": "Matthew 16:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "qui conversus dixit Petro vade post me Satana scandalum es mihi quia non sapis ea quae Dei sunt sed ea quae hominum",
+      "citation": "Matthew 16:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "tunc Iesus dixit discipulis suis si quis vult post me venire abneget semet ipsum et tollat crucem suam et sequatur me",
+      "citation": "Matthew 16:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "qui enim voluerit animam suam salvam facere perdet eam qui autem perdiderit animam suam propter me inveniet eam",
+      "citation": "Matthew 16:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "quid enim prodest homini si mundum universum lucretur animae vero suae detrimentum patiatur aut quam dabit homo commutationem pro anima sua",
+      "citation": "Matthew 16:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "Filius enim hominis venturus est in gloria Patris sui cum angelis suis et tunc reddet unicuique secundum opus eius",
+      "citation": "Matthew 16:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "amen dico vobis sunt quidam de hic stantibus qui non gustabunt mortem donec videant Filium hominis venientem in regno suo",
+      "citation": "Matthew 16:28 (Clementine Vulgate)"
+    }
+  ]
+}

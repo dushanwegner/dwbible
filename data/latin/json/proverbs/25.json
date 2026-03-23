@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 25 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 25,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/proverbs/24.json",
+      "nextChapter": "https://latinprayer.org/latin/proverbs/26.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/25.json",
+      "german": "https://latinprayer.org/bibel/proverbs/25.json"
+    }
+  },
+  "citation": "Proverbs 25 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "haec quoque parabolae Salomonis quas transtulerunt viri Ezechiae regis Iuda",
+      "citation": "Proverbs 25:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "gloria Dei celare verbum et gloria regum investigare sermonem",
+      "citation": "Proverbs 25:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "caelum sursum et terra deorsum et cor regum inscrutabile",
+      "citation": "Proverbs 25:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "aufer robiginem de argento et egredietur vas purissimum",
+      "citation": "Proverbs 25:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "aufer impietatem de vultu regis et firmabitur iustitia thronus eius",
+      "citation": "Proverbs 25:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ne gloriosus appareas coram rege et in loco magnorum ne steteris",
+      "citation": "Proverbs 25:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "melius est enim ut dicatur tibi ascende huc quam ut humilieris coram principe",
+      "citation": "Proverbs 25:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quae viderunt oculi tui ne proferas in iurgio cito ne postea emendare non possis cum dehonestaveris amicum tuum",
+      "citation": "Proverbs 25:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "causam tuam tracta cum amico tuo et secretum extraneo non reveles",
+      "citation": "Proverbs 25:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ne forte insultet tibi cum audierit et exprobrare non cesset",
+      "citation": "Proverbs 25:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "mala aurea in lectis argenteis qui loquitur verbum in tempore suo",
+      "citation": "Proverbs 25:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "inauris aurea et margaritum fulgens qui arguit sapientem et aurem oboedientem",
+      "citation": "Proverbs 25:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sicut frigus nivis in die messis ita legatus fidelis ei qui misit eum animam illius requiescere facit",
+      "citation": "Proverbs 25:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "nubes et ventus et pluviae non sequentes vir gloriosus et promissa non conplens",
+      "citation": "Proverbs 25:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "patientia lenietur princeps et lingua mollis confringet duritiam",
+      "citation": "Proverbs 25:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "mel invenisti comede quod sufficit tibi ne forte saturatus evomas illud",
+      "citation": "Proverbs 25:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "subtrahe pedem tuum de domo proximi tui nequando satiatus oderit te",
+      "citation": "Proverbs 25:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "iaculum et gladius et sagitta acuta homo qui loquitur contra proximum suum testimonium falsum",
+      "citation": "Proverbs 25:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "dens putridus et pes lapsus qui sperat super infideli in die angustiae",
+      "citation": "Proverbs 25:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et amittit pallium in die frigoris acetum in nitro et qui cantat carmina cordi pessimo",
+      "citation": "Proverbs 25:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "si esurierit inimicus tuus ciba illum et si sitierit da ei aquam bibere",
+      "citation": "Proverbs 25:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "prunam enim congregabis super caput eius et Dominus reddet tibi",
+      "citation": "Proverbs 25:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ventus aquilo dissipat pluvias et facies tristis linguam detrahentem",
+      "citation": "Proverbs 25:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "melius est sedere in angulo domatis quam cum muliere litigiosa et in domo communi",
+      "citation": "Proverbs 25:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "aqua frigida animae sitienti et nuntius bonus de terra longinqua",
+      "citation": "Proverbs 25:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "fons turbatus pede et vena corrupta iustus cadens coram impio",
+      "citation": "Proverbs 25:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "sicut qui mel multum comedit non est ei bonum sic qui scrutator est maiestatis opprimitur gloria",
+      "citation": "Proverbs 25:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "sicut urbs patens et absque murorum ambitu ita vir qui non potest in loquendo cohibere spiritum suum",
+      "citation": "Proverbs 25:28 (Clementine Vulgate)"
+    }
+  ]
+}

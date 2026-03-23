@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 93 — 5 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 93,
+    "verseCount": 5,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/92.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/94.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/93.json",
+      "latin": "https://latinprayer.org/latin/psalms/93.json"
+    }
+  },
+  "citation": "Psalmen 93 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Der HERR ist König! Er hat sich gekleidet in Hoheit; in Hoheit hat der HERR sich gekleidet, mit Kraft umgürtet, auch der Erdkreis steht fest, so daß er nicht wankt.",
+      "citation": "Psalmen 93:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Fest steht dein Thron von Anbeginn, von Ewigkeit her bist du.",
+      "citation": "Psalmen 93:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Fluten erhoben, o HERR, Fluten erhoben ihr Brausen, Fluten werden (auch weiter) ihr Tosen erheben –",
+      "citation": "Psalmen 93:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "mächtiger als das Brausen gewaltiger Wasser, mächtiger als die brandenden Meereswogen ist der HERR in der Himmelshöhe!",
+      "citation": "Psalmen 93:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Was du verordnet hast, ist völlig zuverlässig, deinem Hause gebührt Heiligkeit, o HERR, für die Dauer der Zeiten.",
+      "citation": "Psalmen 93:5 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 60 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 60,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/59.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/61.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/60.json",
+      "german": "https://latinprayer.org/bibel/psalms/60.json"
+    }
+  },
+  "citation": "Psalms 60 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Unto the end, for them that shall be changed, for the inscription of a title, to David himself, for doctrine,",
+      "citation": "Psalms 60:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "O God, thou hast cast us off, and hast destroyed us; thou hast been angry, and hast had mercy on us.",
+      "citation": "Psalms 60:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, in hymns, for David.",
+      "citation": "Psalms 60:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Thou hast moved the earth, and hast troubled it: heal thou the breaches thereof, for it has been moved.",
+      "citation": "Psalms 60:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Thou hast shewn thy people hard things; thou hast made us drink the wine of sorrow.",
+      "citation": "Psalms 60:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Thou hast given a warning to them that fear thee: that they may flee from before the bow: That thy beloved may be delivered.",
+      "citation": "Psalms 60:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Save me with thy right hand, and hear me.",
+      "citation": "Psalms 60:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "God hath spoken in his holy place: I will rejoice, and I will divide Sichem; and will mete out the vale of tabernacles.",
+      "citation": "Psalms 60:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Galaad is mine, and Manasses is mine: and Ephraim is the strength of my head. Juda is my king:",
+      "citation": "Psalms 60:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Moab is the pot of my hope. Into Edom will I stretch out my shoe: to me the foreigners are made subject.",
+      "citation": "Psalms 60:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Who will bring me into the strong city? who will lead me into Edom?",
+      "citation": "Psalms 60:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Wilt not thou, O God, who hast cast us off? and wilt not thou, O God, go out with our armies?",
+      "citation": "Psalms 60:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Give us help from trouble: for vain is the salvation of man.",
+      "citation": "Psalms 60:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Through God we shall do mightily: and he shall bring to nothing them that afflict us.",
+      "citation": "Psalms 60:12 (Douay-Rheims)"
+    }
+  ]
+}

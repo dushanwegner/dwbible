@@ -1,0 +1,301 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John, Chapter 7 — 53 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 7,
+    "verseCount": 53,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/john/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/john/6.json",
+      "nextChapter": "https://latinprayer.org/latin/john/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/john/7.json",
+      "german": "https://latinprayer.org/bibel/john/7.json"
+    }
+  },
+  "citation": "John 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "post haec ambulabat Iesus in Galilaeam non enim volebat in Iudaeam ambulare quia quaerebant eum Iudaei interficere",
+      "citation": "John 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "erat autem in proximo dies festus Iudaeorum scenopegia",
+      "citation": "John 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "dixerunt autem ad eum fratres eius transi hinc et vade in Iudaeam ut et discipuli tui videant opera tua quae facis",
+      "citation": "John 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nemo quippe in occulto quid facit et quaerit ipse in palam esse si haec facis manifesta te ipsum mundo",
+      "citation": "John 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "neque enim fratres eius credebant in eum",
+      "citation": "John 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dicit ergo eis Iesus tempus meum nondum advenit tempus autem vestrum semper est paratum",
+      "citation": "John 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "non potest mundus odisse vos me autem odit quia ego testimonium perhibeo de illo quia opera eius mala sunt",
+      "citation": "John 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "vos ascendite ad diem festum hunc ego non ascendo ad diem festum istum quia meum tempus nondum impletum est",
+      "citation": "John 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "haec cum dixisset ipse mansit in Galilaea",
+      "citation": "John 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ut autem ascenderunt fratres eius tunc et ipse ascendit ad diem festum non manifeste sed quasi in occulto",
+      "citation": "John 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Iudaei ergo quaerebant eum in die festo et dicebant ubi est ille",
+      "citation": "John 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et murmur multus de eo erat in turba; quidam enim dicebant quia bonus est alii autem dicebant non sed seducit turbas",
+      "citation": "John 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "nemo tamen palam loquebatur de illo propter metum Iudaeorum",
+      "citation": "John 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "iam autem die festo mediante ascendit Iesus in templum et docebat",
+      "citation": "John 7:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et mirabantur Iudaei dicentes quomodo hic litteras scit cum non didicerit",
+      "citation": "John 7:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "respondit eis Iesus et dixit mea doctrina non est mea sed eius qui misit me",
+      "citation": "John 7:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "si quis voluerit voluntatem eius facere cognoscet de doctrina utrum ex Deo sit an ego a me ipso loquar",
+      "citation": "John 7:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "qui a semet ipso loquitur gloriam propriam quaerit qui autem quaerit gloriam eius qui misit illum hic verax est et iniustitia in illo non est",
+      "citation": "John 7:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "nonne Moses dedit vobis legem et nemo ex vobis facit legem",
+      "citation": "John 7:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quid me quaeritis interficere respondit turba et dixit daemonium habes quis te quaerit interficere",
+      "citation": "John 7:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "respondit Iesus et dixit eis unum opus feci et omnes miramini",
+      "citation": "John 7:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "propterea Moses dedit vobis circumcisionem non quia ex Mose est sed ex patribus et in sabbato circumciditis hominem",
+      "citation": "John 7:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "si circumcisionem accipit homo in sabbato ut non solvatur lex Mosi mihi indignamini quia totum hominem sanum feci in sabbato",
+      "citation": "John 7:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "nolite iudicare secundum faciem sed iustum iudicium iudicate",
+      "citation": "John 7:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "dicebant ergo quidam ex Hierosolymis nonne hic est quem quaerunt interficere",
+      "citation": "John 7:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et ecce palam loquitur et nihil ei dicunt numquid vere cognoverunt principes quia hic est Christus",
+      "citation": "John 7:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "sed hunc scimus unde sit Christus autem cum venerit nemo scit unde sit",
+      "citation": "John 7:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "clamabat ergo docens in templo Iesus et dicens et me scitis et unde sim scitis et a me ipso non veni sed est verus qui misit me quem vos non scitis",
+      "citation": "John 7:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "ego scio eum quia ab ipso sum et ipse me misit",
+      "citation": "John 7:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "quaerebant ergo eum adprehendere et nemo misit in illum manus quia nondum venerat hora eius",
+      "citation": "John 7:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "de turba autem multi crediderunt in eum et dicebant Christus cum venerit numquid plura signa faciet quam quae hic facit",
+      "citation": "John 7:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "audierunt Pharisaei turbam murmurantem de illo haec et miserunt principes et Pharisaei ministros ut adprehenderent eum",
+      "citation": "John 7:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "dixit ergo Iesus adhuc modicum tempus vobiscum sum et vado ad eum qui misit me",
+      "citation": "John 7:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "quaeretis me et non invenietis et ubi sum ego vos non potestis venire",
+      "citation": "John 7:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "dixerunt ergo Iudaei ad se ipsos quo hic iturus est quia non inveniemus eum numquid in dispersionem gentium iturus est et docturus gentes",
+      "citation": "John 7:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "quis est hic sermo quem dixit quaeretis me et non invenietis et ubi sum ego non potestis venire",
+      "citation": "John 7:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "in novissimo autem die magno festivitatis stabat Iesus et clamabat dicens si quis sitit veniat ad me et bibat",
+      "citation": "John 7:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "qui credit in me sicut dixit scriptura flumina de ventre eius fluent aquae vivae",
+      "citation": "John 7:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "hoc autem dixit de Spiritu quem accepturi erant credentes in eum non enim erat Spiritus quia Iesus nondum fuerat glorificatus",
+      "citation": "John 7:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "ex illa ergo turba cum audissent hos sermones eius dicebant hic est vere propheta",
+      "citation": "John 7:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "alii dicebant hic est Christus quidam autem dicebant numquid a Galilaea Christus venit",
+      "citation": "John 7:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "nonne scriptura dicit quia ex semine David et Bethleem castello ubi erat David venit Christus",
+      "citation": "John 7:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "dissensio itaque facta est in turba propter eum",
+      "citation": "John 7:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "quidam autem ex ipsis volebant adprehendere eum sed nemo misit super illum manus",
+      "citation": "John 7:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "venerunt ergo ministri ad pontifices et Pharisaeos et dixerunt eis illi quare non adduxistis eum",
+      "citation": "John 7:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "responderunt ministri numquam sic locutus est homo sicut hic homo",
+      "citation": "John 7:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "responderunt ergo eis Pharisaei numquid et vos seducti estis",
+      "citation": "John 7:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "numquid aliquis ex principibus credidit in eum aut ex Pharisaeis",
+      "citation": "John 7:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "sed turba haec quae non novit legem maledicti sunt",
+      "citation": "John 7:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "dicit Nicodemus ad eos ille qui venit ad eum nocte qui unus erat ex ipsis",
+      "citation": "John 7:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "numquid lex nostra iudicat hominem nisi audierit ab ipso prius et cognoverit quid faciat",
+      "citation": "John 7:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "responderunt et dixerunt ei numquid et tu Galilaeus es scrutare et vide quia propheta a Galilaea non surgit",
+      "citation": "John 7:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "et reversi sunt unusquisque in domum suam",
+      "citation": "John 7:53 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 28 — 30 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 28,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/27.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/29.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/28.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/28.json"
+    }
+  },
+  "citation": "Sirach 28 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "qui vindicari vult a Deo inveniet vindictam et peccata illius servans servabit",
+      "citation": "Sirach 28:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "relinque proximo tuo nocenti te et tunc deprecanti tibi peccata solventur",
+      "citation": "Sirach 28:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "homo homini servat iram et a Deo quaerit medellam",
+      "citation": "Sirach 28:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et in hominem similem sibi non habet misericordiam et de peccatis suis deprecatur",
+      "citation": "Sirach 28:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ipse dum caro sit reservat iram et propitiationem petit a Deo quis exorabit pro delictis illius",
+      "citation": "Sirach 28:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "memento novissimorum et desine inimicari",
+      "citation": "Sirach 28:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "tabitudo enim et mors inminet in mandatis",
+      "citation": "Sirach 28:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "memorare timorem Dei et non irascaris proximo",
+      "citation": "Sirach 28:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "memorare testamenti Altissimi et despice ignorantiam proximi",
+      "citation": "Sirach 28:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "abstine te a lite et minues peccata",
+      "citation": "Sirach 28:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "homo enim iracundus incendit litem et vir peccator turbabit amicos et in medium pacem habentium inmittit inimicitiam",
+      "citation": "Sirach 28:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "secundum enim ligna silvae sic ignis exardescit et secundum virtutem hominis iracundia illius erit et secundum substantiam suam exaltabit iram suam",
+      "citation": "Sirach 28:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "certamen festinatum incendit ignem et lis festinans effundit sanguinem et lingua testificans adducit mortem",
+      "citation": "Sirach 28:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "si sufflaveris quasi ignis exardebit et si expueris super illam extinguetur utraque ex ore proficiscuntur",
+      "citation": "Sirach 28:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "susurrio et bilinguis maledictus multos enim turbavit pacem habentes",
+      "citation": "Sirach 28:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "lingua tertia multos commovit et dispersit illos a gente in gentem",
+      "citation": "Sirach 28:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "civitates muratas divitum destruxit et domos magnatorum effodit",
+      "citation": "Sirach 28:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "virtutes populorum concidit et gentes fortes dissolvit",
+      "citation": "Sirach 28:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "lingua tertia mulieres viritas eiecit et privavit illas laboribus suis",
+      "citation": "Sirach 28:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "qui respicit illam non habebit requiem nec habitabit cum requie",
+      "citation": "Sirach 28:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "flagelli plaga livorem facit plaga autem linguae comminuet ossa",
+      "citation": "Sirach 28:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "multi ceciderunt in ore gladii sed non sic quasi qui interierunt per linguam suam",
+      "citation": "Sirach 28:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "beatus qui tectus est a lingua nequa qui in iracundia illius non transivit et qui non adtraxit iugum eius et in vinculis illius non est ligatus",
+      "citation": "Sirach 28:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "iugum enim illius iugum ferreum est et vinculum illius vinculum aereum est",
+      "citation": "Sirach 28:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "mors illius mors nequissima et utilis potius inferus quam illa",
+      "citation": "Sirach 28:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "perseverantia illius non permanebit sed obtinebit vias iniustorum et in flamma sua non conburet iustos",
+      "citation": "Sirach 28:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "qui derelinquunt Deum incident in illam et exardebit in illis et non extinguetur et inmittetur in illos quasi leo et quasi pardus laedebit illos",
+      "citation": "Sirach 28:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "sepi aures tuas spinis et noli audire linguam nequam et ori tuo facito ostia et seras",
+      "citation": "Sirach 28:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "aurum tuum et argentum confla et verbis tuis facito stateram et frenos ori tuo rectos",
+      "citation": "Sirach 28:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et adtende ne forte labaris in lingua et cadas in conspectu inimicorum insidiantium tibi et sit casus tuus insanabilis in mortem",
+      "citation": "Sirach 28:30 (Clementine Vulgate)"
+    }
+  ]
+}

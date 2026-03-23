@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 35 — 26 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 35,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/34.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/36.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/35.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/35.json"
+    }
+  },
+  "citation": "Ecclesiasticus 35 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "He that keepeth the law, multiplieth offerings.",
+      "citation": "Ecclesiasticus 35:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "It is a wholesome sacrifice to take heed to the commandments, and to depart from all iniquity.",
+      "citation": "Ecclesiasticus 35:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And to depart from injustice, is to offer a propitiatory sacrifice for injustices, and a begging of pardon for sins.",
+      "citation": "Ecclesiasticus 35:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "He shall return thanks, that offereth fine flour: and he that doth mercy, offereth sacrifice.",
+      "citation": "Ecclesiasticus 35:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "To depart from iniquity is that which pleaseth the Lord, and to depart from injustice, is an entreaty for sins.",
+      "citation": "Ecclesiasticus 35:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Thou shalt not appear empty in the sight of the Lord.",
+      "citation": "Ecclesiasticus 35:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For all these things are to be done because of the commandment of God.",
+      "citation": "Ecclesiasticus 35:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The oblation of the just maketh the altar fat, and is an odour of sweetness in the sight of the most High.",
+      "citation": "Ecclesiasticus 35:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The sacrifice of the just is acceptable, and the Lord will not forget the memorial thereof.",
+      "citation": "Ecclesiasticus 35:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Give glory to God with a good heart: and diminish not the firstfruits of thy hands.",
+      "citation": "Ecclesiasticus 35:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "In every gift shew a cheerful countenance, and sanctify thy tithes with joy.",
+      "citation": "Ecclesiasticus 35:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Give to the most High according to what he hath given to thee, and with a good eye do according to the ability of thy hands:",
+      "citation": "Ecclesiasticus 35:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For the Lord maketh recompense, and will give thee seven times as much.",
+      "citation": "Ecclesiasticus 35:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Do not offer wicked gifts, for such he will not receive.",
+      "citation": "Ecclesiasticus 35:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And look not upon an unjust sacrifice, for the Lord is judge, and there is not with him respect of person.",
+      "citation": "Ecclesiasticus 35:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The Lord will not accept any person against a poor man, and he will hear the prayer of him that is wronged.",
+      "citation": "Ecclesiasticus 35:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "He will not despise the prayers of the fatherless: nor the widow, when she poureth out her complaint.",
+      "citation": "Ecclesiasticus 35:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Do not the widow's tears run down the cheek, and her cry against him that causeth them to fall?",
+      "citation": "Ecclesiasticus 35:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For from the cheek they go up even to heaven, and the Lord that heareth will not be delighted with them.",
+      "citation": "Ecclesiasticus 35:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "He that adoreth God with joy, shall be accepted, and his prayer shall approach even to the clouds.",
+      "citation": "Ecclesiasticus 35:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "The prayer of him that humbleth himself, shall pierce the clouds: and till it come nigh he will not be comforted: and he will not depart till the most High behold.",
+      "citation": "Ecclesiasticus 35:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And the Lord will not be slack, but will judge for the just, and will do judgment: and the Almighty will not have patience with them, that he may crush their back:",
+      "citation": "Ecclesiasticus 35:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And he will repay vengeance to the Gentiles, till he have taken away the multitude of the proud, and broken the sceptres of the unjust,",
+      "citation": "Ecclesiasticus 35:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Till he have rendered to men according to their deeds: and according to the works of Adam, and according to his presumption,",
+      "citation": "Ecclesiasticus 35:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Till he have judged the cause of his people, and he shall delight the just with his mercy.",
+      "citation": "Ecclesiasticus 35:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "The mercy of God is beautiful in the time of affliction, as a cloud of rain in the time of drought.",
+      "citation": "Ecclesiasticus 35:26 (Douay-Rheims)"
+    }
+  ]
+}

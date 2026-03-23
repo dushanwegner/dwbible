@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebrews, Chapter 11 — 40 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 11,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/hebrews/10.json",
+      "nextChapter": "https://latinprayer.org/latin/hebrews/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/hebrews/11.json",
+      "german": "https://latinprayer.org/bibel/hebrews/11.json"
+    }
+  },
+  "citation": "Hebrews 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "est autem fides sperandorum substantia rerum argumentum non parentum",
+      "citation": "Hebrews 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in hac enim testimonium consecuti sunt senes",
+      "citation": "Hebrews 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "fide intellegimus aptata esse saecula verbo Dei ut ex invisibilibus visibilia fierent",
+      "citation": "Hebrews 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "fide plurimam hostiam Abel quam Cain obtulit Deo per quam testimonium consecutus est esse iustus testimonium perhibente muneribus eius Deo et per illam defunctus adhuc loquitur",
+      "citation": "Hebrews 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "fide Enoch translatus est ne videret mortem et non inveniebatur quia transtulit illum Deus ante translationem enim testimonium habebat placuisse Deo",
+      "citation": "Hebrews 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "sine fide autem inpossibile placere credere enim oportet accedentem ad Deum quia est et inquirentibus se remunerator fit",
+      "citation": "Hebrews 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "fide Noe responso accepto de his quae adhuc non videbantur metuens aptavit arcam in salutem domus suae per quam damnavit mundum et iustitiae quae per fidem est heres est institutus",
+      "citation": "Hebrews 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "fide qui vocatur Abraham oboedivit in locum exire quem accepturus erat in hereditatem et exiit nesciens quo iret",
+      "citation": "Hebrews 11:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "fide moratus est in terra repromissionis tamquam in aliena in casulis habitando cum Isaac et Iacob coheredibus repromissionis eiusdem",
+      "citation": "Hebrews 11:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "expectabat enim fundamenta habentem civitatem cuius artifex et conditor Deus",
+      "citation": "Hebrews 11:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "fide et ipsa Sarra sterilis virtutem in conceptionem seminis accepit etiam praeter tempus aetatis quoniam fidelem credidit esse qui promiserat",
+      "citation": "Hebrews 11:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "propter quod et ab uno orti sunt et haec emortuo tamquam sidera caeli in multitudinem et sicut harena quae est ad oram maris innumerabilis",
+      "citation": "Hebrews 11:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "iuxta fidem defuncti sunt omnes isti non acceptis repromissionibus sed a longe eas aspicientes et salutantes et confitentes quia peregrini et hospites sunt supra terram",
+      "citation": "Hebrews 11:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "qui enim haec dicunt significant se patriam inquirere",
+      "citation": "Hebrews 11:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et si quidem illius meminissent de qua exierunt habebant utique tempus revertendi",
+      "citation": "Hebrews 11:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "nunc autem meliorem appetunt id est caelestem ideo non confunditur Deus vocari Deus eorum paravit enim illis civitatem",
+      "citation": "Hebrews 11:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "fide obtulit Abraham Isaac cum temptaretur et unigenitum offerebat qui susceperat repromissiones",
+      "citation": "Hebrews 11:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "ad quem dictum est quia in Isaac vocabitur tibi semen",
+      "citation": "Hebrews 11:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "arbitrans quia et a mortuis suscitare potens est Deus unde eum et in parabola accepit",
+      "citation": "Hebrews 11:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "fide et de futuris benedixit Isaac Iacob et Esau",
+      "citation": "Hebrews 11:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "fide Iacob moriens singulis filiorum Ioseph benedixit et adoravit fastigium virgae eius",
+      "citation": "Hebrews 11:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "fide Ioseph moriens de profectione filiorum Israhel memoratus est et de ossibus suis mandavit",
+      "citation": "Hebrews 11:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "fide Moses natus occultatus est mensibus tribus a parentibus suis eo quod vidissent elegantem infantem et non timuerunt regis edictum",
+      "citation": "Hebrews 11:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "fide Moses grandis factus negavit se esse filium filiae Pharaonis",
+      "citation": "Hebrews 11:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "magis eligens adfligi cum populo Dei quam temporalis peccati habere iucunditatem",
+      "citation": "Hebrews 11:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "maiores divitias aestimans thesauro Aegyptiorum inproperium Christi aspiciebat enim in remunerationem",
+      "citation": "Hebrews 11:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "fide reliquit Aegyptum non veritus animositatem regis invisibilem enim tamquam videns sustinuit",
+      "citation": "Hebrews 11:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "fide celebravit pascha et sanguinis effusionem ne qui vastabat primitiva tangeret eos",
+      "citation": "Hebrews 11:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "fide transierunt mare Rubrum tamquam per aridam terram quod experti Aegyptii devorati sunt",
+      "citation": "Hebrews 11:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "fide muri Hiericho ruerunt circuiti dierum septem",
+      "citation": "Hebrews 11:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "fide Raab meretrix non periit cum incredulis excipiens exploratores cum pace",
+      "citation": "Hebrews 11:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et quid adhuc dicam deficiet enim me tempus enarrantem de Gedeon Barac Samson Iepthae David et Samuhel et prophetis",
+      "citation": "Hebrews 11:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "qui per fidem devicerunt regna operati sunt iustitiam adepti sunt repromissiones obturaverunt ora leonum",
+      "citation": "Hebrews 11:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "extinxerunt impetum ignis effugerunt aciem gladii convaluerunt de infirmitate fortes facti sunt in bello castra verterunt exterorum",
+      "citation": "Hebrews 11:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "acceperunt mulieres de resurrectione mortuos suos alii autem distenti sunt non suscipientes redemptionem ut meliorem invenirent resurrectionem",
+      "citation": "Hebrews 11:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "alii vero ludibria et verbera experti insuper et vincula et carceres",
+      "citation": "Hebrews 11:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "lapidati sunt secti sunt temptati sunt in occisione gladii mortui sunt circumierunt in melotis in pellibus caprinis egentes angustiati adflicti",
+      "citation": "Hebrews 11:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "quibus dignus non erat mundus in solitudinibus errantes et montibus et speluncis et in cavernis terrae",
+      "citation": "Hebrews 11:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et hii omnes testimonio fidei probati non acceperunt repromissionem",
+      "citation": "Hebrews 11:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "Deo pro nobis melius aliquid providente ut ne sine nobis consummarentur",
+      "citation": "Hebrews 11:40 (Clementine Vulgate)"
+    }
+  ]
+}

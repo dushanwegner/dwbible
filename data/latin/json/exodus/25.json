@@ -1,0 +1,196 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 25 — 32 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 25,
+    "verseCount": 32,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/24.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/25.json",
+      "german": "https://latinprayer.org/bibel/exodus/25.json"
+    }
+  },
+  "citation": "Exodus 25 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "locutusque est Dominus ad Mosen dicens",
+      "citation": "Exodus 25:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "loquere filiis Israhel ut tollant mihi primitias ab omni homine qui offert ultroneus accipietis eas",
+      "citation": "Exodus 25:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "haec sunt autem quae accipere debetis aurum et argentum et aes",
+      "citation": "Exodus 25:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "hyacinthum et purpuram coccumque bis tinctum et byssum pilos caprarum",
+      "citation": "Exodus 25:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et pelles arietum rubricatas pelles ianthinas et ligna setthim",
+      "citation": "Exodus 25:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "oleum ad luminaria concinnanda aromata in unguentum et thymiama boni odoris",
+      "citation": "Exodus 25:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "lapides onychinos et gemmas ad ornandum ephod ac rationale",
+      "citation": "Exodus 25:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "facientque mihi sanctuarium et habitabo in medio eorum",
+      "citation": "Exodus 25:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "iuxta omnem similitudinem tabernaculi quod ostendam tibi et omnium vasorum in cultum eius sicque facietis illud",
+      "citation": "Exodus 25:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "arcam de lignis setthim conpingite cuius longitudo habeat duos semis cubitos latitudo cubitum et dimidium altitudo cubitum similiter ac semissem",
+      "citation": "Exodus 25:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et deaurabis eam auro mundissimo intus et foris faciesque supra coronam auream per circuitum",
+      "citation": "Exodus 25:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et quattuor circulos aureos quos pones per quattuor arcae angulos duo circuli sint in latere uno et duo in altero",
+      "citation": "Exodus 25:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "facies quoque vectes de lignis setthim et operies eos auro",
+      "citation": "Exodus 25:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "inducesque per circulos qui sunt in arcae lateribus ut portetur in eis",
+      "citation": "Exodus 25:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "qui semper erunt in circulis nec umquam extrahentur ab eis",
+      "citation": "Exodus 25:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ponesque in arcam testificationem quam dabo tibi",
+      "citation": "Exodus 25:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "facies et propitiatorium de auro mundissimo duos cubitos et dimidium tenebit longitudo eius cubitum ac semissem latitudo",
+      "citation": "Exodus 25:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "duos quoque cherubin aureos et productiles facies ex utraque parte oraculi",
+      "citation": "Exodus 25:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "cherub unus sit in latere uno et alter in altero",
+      "citation": "Exodus 25:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "utrumque latus propitiatorii tegant expandentes alas et operientes oraculum respiciantque se mutuo versis vultibus in propitiatorium quo operienda est arca",
+      "citation": "Exodus 25:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "in qua pones testimonium quod dabo tibi",
+      "citation": "Exodus 25:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "inde praecipiam et loquar ad te supra propitiatorio scilicet ac medio duorum cherubin qui erunt super arcam testimonii cuncta quae mandabo per te filiis Israhel",
+      "citation": "Exodus 25:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "facies et mensam de lignis setthim habentem duos cubitos longitudinis et in latitudine cubitum et in altitudine cubitum ac semissem",
+      "citation": "Exodus 25:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et inaurabis eam auro purissimo faciesque illi labium aureum per circuitum",
+      "citation": "Exodus 25:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et ipsi labio coronam interrasilem altam quattuor digitis et super illam alteram coronam aureolam",
+      "citation": "Exodus 25:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "quattuor quoque circulos aureos praeparabis et pones eos in quattuor angulis eiusdem mensae per singulos pedes",
+      "citation": "Exodus 25:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "subter coronam erunt circuli aurei ut mittantur vectes per eos et possit mensa portari",
+      "citation": "Exodus 25:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "ipsosque vectes facies de lignis setthim et circumdabis auro ad subvehendam mensam",
+      "citation": "Exodus 25:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "parabis et acetabula ac fialas turibula et cyatos in quibus offerenda sunt libamina ex auro purissimo",
+      "citation": "Exodus 25:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et pones super mensam panes propositionis in conspectu meo semper",
+      "citation": "Exodus 25:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "facies et candelabrum ductile de auro mundissimo hastile eius et calamos scyphos et spherulas ac lilia ex ipso procedentia",
+      "citation": "Exodus 25:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "sex calami egredientur de lateribus tres ex uno latere et tres ex altero",
+      "citation": "Exodus 25:32 (Clementine Vulgate)"
+    }
+  ]
+}

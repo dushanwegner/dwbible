@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 42 — 0 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 42,
+    "verseCount": 0,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/41.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/42.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/42.json"
+    }
+  },
+  "citation": "Sirach 42 (Clementine Vulgate)",
+  "verses": []
+}

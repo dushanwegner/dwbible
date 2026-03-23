@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Micheas — 7 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Micheas",
+      "slug": "micheas",
+      "testament": "OT",
+      "order": 38,
+      "totalChapters": 7
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/micheas/index.json",
+      "german": "https://latinprayer.org/bibel/micheas/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/bible/micheas/1",
+      "jsonUrl": "https://latinprayer.org/bible/micheas/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 13,
+      "url": "https://latinprayer.org/bible/micheas/2",
+      "jsonUrl": "https://latinprayer.org/bible/micheas/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 12,
+      "url": "https://latinprayer.org/bible/micheas/3",
+      "jsonUrl": "https://latinprayer.org/bible/micheas/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bible/micheas/4",
+      "jsonUrl": "https://latinprayer.org/bible/micheas/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 13,
+      "url": "https://latinprayer.org/bible/micheas/5",
+      "jsonUrl": "https://latinprayer.org/bible/micheas/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/bible/micheas/6",
+      "jsonUrl": "https://latinprayer.org/bible/micheas/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/bible/micheas/7",
+      "jsonUrl": "https://latinprayer.org/bible/micheas/7.json"
+    }
+  ]
+}

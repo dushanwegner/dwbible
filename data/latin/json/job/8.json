@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 8 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 8,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/job/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/job/7.json",
+      "nextChapter": "https://latinprayer.org/latin/job/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/8.json",
+      "german": "https://latinprayer.org/bibel/job/8.json"
+    }
+  },
+  "citation": "Job 8 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "respondens autem Baldad Suites dixit",
+      "citation": "Job 8:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "usquequo loqueris talia et spiritus multiplex sermones oris tui",
+      "citation": "Job 8:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "numquid Deus subplantat iudicium et Omnipotens subvertit quod iustum est",
+      "citation": "Job 8:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "etiam si filii tui peccaverunt ei et dimisit eos in manu iniquitatis suae",
+      "citation": "Job 8:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "tu tamen si diluculo consurrexeris ad Deum et Omnipotentem fueris deprecatus",
+      "citation": "Job 8:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "si mundus et rectus incesseris statim evigilabit ad te et pacatum reddet habitaculum iustitiae tuae",
+      "citation": "Job 8:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in tantum ut priora tua fuerint parva et novissima tua multiplicentur nimis",
+      "citation": "Job 8:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "interroga enim generationem pristinam et diligenter investiga patrum memoriam",
+      "citation": "Job 8:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "hesterni quippe sumus et ignoramus quoniam sicut umbra dies nostri sunt super terram",
+      "citation": "Job 8:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ipsi docebunt te loquentur tibi et de corde suo proferent eloquia",
+      "citation": "Job 8:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "numquid vivere potest scirpus absque humore aut crescet carectum sine aqua",
+      "citation": "Job 8:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cum adhuc sit in flore nec carpatur manu ante omnes herbas arescit",
+      "citation": "Job 8:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sic viae omnium qui obliviscuntur Deum et spes hypocritae peribit",
+      "citation": "Job 8:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "non ei placebit vecordia sua et sicut tela aranearum fiducia eius",
+      "citation": "Job 8:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "innitetur super domum suam et non stabit fulciet eam et non consurget",
+      "citation": "Job 8:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "humectus videtur antequam veniat sol et in horto suo germen eius egreditur",
+      "citation": "Job 8:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "super acervum petrarum radices eius densabuntur et inter lapides commorabitur",
+      "citation": "Job 8:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "si absorbuerit eum de loco suo negabit eum et dicet non novi te",
+      "citation": "Job 8:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "haec est enim laetitia viae eius ut rursum de terra alii germinentur",
+      "citation": "Job 8:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "Deus non proiciet simplicem nec porriget manum malignis",
+      "citation": "Job 8:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "donec impleatur risu os tuum et labia tua iubilo",
+      "citation": "Job 8:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "qui oderunt te induentur confusione et tabernaculum impiorum non subsistet",
+      "citation": "Job 8:22 (Clementine Vulgate)"
+    }
+  ]
+}

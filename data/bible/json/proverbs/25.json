@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 25 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 25,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/proverbs/24.json",
+      "nextChapter": "https://latinprayer.org/bible/proverbs/26.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/proverbs/25.json",
+      "german": "https://latinprayer.org/bibel/proverbs/25.json"
+    }
+  },
+  "citation": "Proverbs 25 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "These are also parables of Solomon, which the men of Ezechias, king of Juda, copied out.",
+      "citation": "Proverbs 25:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "It is the glory of God to conceal the word, and the glory of kings to search out the speech.",
+      "citation": "Proverbs 25:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The heaven above and the earth beneath, and the heart of kings is unsearchable.",
+      "citation": "Proverbs 25:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Take away the rust from silver, and there shall come forth a most pure vessel:",
+      "citation": "Proverbs 25:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Take away wickedness from the face of the king, and his throne shall be established with justice.",
+      "citation": "Proverbs 25:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Appear not glorious before the king, and stand not in the place of great men.",
+      "citation": "Proverbs 25:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For it is better that it should be said to thee: Come up hither; than that thou shouldst be humbled before the prince.",
+      "citation": "Proverbs 25:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The things which thy eyes have seen, utter not hastily in a quarrel: lest afterward thou mayst not be able to make amends, when thou hast dishonoured thy friend.",
+      "citation": "Proverbs 25:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Treat thy cause with thy friend, and discover not the secret to a stranger:",
+      "citation": "Proverbs 25:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Lest he insult over thee, when he hath heard it, and cease not to upbraid thee.  Grace and friendship deliver a man: keep these for thyself, lest thou fall under reproach.",
+      "citation": "Proverbs 25:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "To speak a word in due time, is like apples of gold on beds of silver.",
+      "citation": "Proverbs 25:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "As an earring of gold and a bright pearl, so is he that reproveth the wise, and the obedient ear.",
+      "citation": "Proverbs 25:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "As the cold of snow in the time of harvest, so is a faithful messenger to him that sent him, for he refresheth his soul.",
+      "citation": "Proverbs 25:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "As clouds, and wind, when no rain followeth, so is the man that boasteth, and doth not fulfil his promises.",
+      "citation": "Proverbs 25:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "By patience a prince shall be appeased, and a soft tongue shall break hardness.",
+      "citation": "Proverbs 25:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Thou hast found honey, eat what is sufficient for thee, lest being glutted therewith thou vomit it up.",
+      "citation": "Proverbs 25:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Withdraw thy foot from the house of thy neighbour, lest having his fill he hate thee.",
+      "citation": "Proverbs 25:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "A man that beareth false witness against his neighbour, is like a dart and a sword and a sharp arrow.",
+      "citation": "Proverbs 25:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "To trust in an unfaithful man in the time of trouble, is like a rotten tooth, and weary foot,",
+      "citation": "Proverbs 25:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And one that looseth his garment in cold weather. As vinegar upon nitre, so is he that singeth songs to a very evil heart. As a moth doth by a garment, and a worm by the wood: so the sadness of a man consumeth the heart.",
+      "citation": "Proverbs 25:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "If thy enemy be hungry, give him to eat: if he thirst, give him water to drink:",
+      "citation": "Proverbs 25:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "For thou shalt heap hot coals upon his head, and the Lord will reward thee.",
+      "citation": "Proverbs 25:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The north wind driveth away rain, as doth a sad countenance a backbiting tongue.",
+      "citation": "Proverbs 25:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "It is better to sit in a corner of the housetop: than with a brawling woman, and in a common house.",
+      "citation": "Proverbs 25:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "As cold water to a thirsty soul, so are good tidings from a far country.",
+      "citation": "Proverbs 25:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "A just man falling down before the wicked, is as a fountain troubled with the foot and a corrupted spring.",
+      "citation": "Proverbs 25:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "As it is not good for a man to eat much honey, so he that is a searcher of majesty shall be overwhelmed by glory.",
+      "citation": "Proverbs 25:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "As a city that lieth open and is not compassed with walls, so is a man that cannot refrain his own spirit in speaking.",
+      "citation": "Proverbs 25:28 (Douay-Rheims)"
+    }
+  ]
+}

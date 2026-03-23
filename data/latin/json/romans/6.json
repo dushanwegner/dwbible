@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Romans, Chapter 6 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 52,
+      "totalChapters": 16
+    },
+    "chapter": 6,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/romans/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/romans/5.json",
+      "nextChapter": "https://latinprayer.org/latin/romans/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/romans/6.json",
+      "german": "https://latinprayer.org/bibel/romans/6.json"
+    }
+  },
+  "citation": "Romans 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quid ergo dicemus permanebimus in peccato ut gratia abundet",
+      "citation": "Romans 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "absit qui enim mortui sumus peccato quomodo adhuc vivemus in illo",
+      "citation": "Romans 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "an ignoratis quia quicumque baptizati sumus in Christo Iesu in morte ipsius baptizati sumus",
+      "citation": "Romans 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "consepulti enim sumus cum illo per baptismum in mortem ut quomodo surrexit Christus a mortuis per gloriam Patris ita et nos in novitate vitae ambulemus",
+      "citation": "Romans 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "si enim conplantati facti sumus similitudini mortis eius simul et resurrectionis erimus",
+      "citation": "Romans 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "hoc scientes quia vetus homo noster simul crucifixus est ut destruatur corpus peccati ut ultra non serviamus peccato",
+      "citation": "Romans 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui enim mortuus est iustificatus est a peccato",
+      "citation": "Romans 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "si autem mortui sumus cum Christo credimus quia simul etiam vivemus cum Christo",
+      "citation": "Romans 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "scientes quod Christus surgens ex mortuis iam non moritur mors illi ultra non dominabitur",
+      "citation": "Romans 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quod enim mortuus est peccato mortuus est semel quod autem vivit vivit Deo",
+      "citation": "Romans 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ita et vos existimate vos mortuos quidem esse peccato viventes autem Deo in Christo Iesu",
+      "citation": "Romans 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "non ergo regnet peccatum in vestro mortali corpore ut oboediatis concupiscentiis eius",
+      "citation": "Romans 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sed neque exhibeatis membra vestra arma iniquitatis peccato sed exhibete vos Deo tamquam ex mortuis viventes et membra vestra arma iustitiae Deo",
+      "citation": "Romans 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "peccatum enim vobis non dominabitur non enim sub lege estis sed sub gratia",
+      "citation": "Romans 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quid ergo peccavimus quoniam non sumus sub lege sed sub gratia absit",
+      "citation": "Romans 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "nescitis quoniam cui exhibetis vos servos ad oboediendum servi estis eius cui oboeditis sive peccati sive oboeditionis ad iustitiam",
+      "citation": "Romans 6:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "gratias autem Deo quod fuistis servi peccati oboedistis autem ex corde in eam formam doctrinae in qua traditi estis",
+      "citation": "Romans 6:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "liberati autem a peccato servi facti estis iustitiae",
+      "citation": "Romans 6:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "humanum dico propter infirmitatem carnis vestrae sicut enim exhibuistis membra vestra servire inmunditiae et iniquitati ad iniquitatem ita nunc exhibete membra vestra servire iustitiae in sanctificationem",
+      "citation": "Romans 6:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "cum enim servi essetis peccati liberi fuistis iustitiae",
+      "citation": "Romans 6:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quem ergo fructum habuistis tunc in quibus nunc erubescitis nam finis illorum mors est",
+      "citation": "Romans 6:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "nunc vero liberati a peccato servi autem facti Deo habetis fructum vestrum in sanctificationem finem vero vitam aeternam",
+      "citation": "Romans 6:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "stipendia enim peccati mors gratia autem Dei vita aeterna in Christo Iesu Domino nostro",
+      "citation": "Romans 6:23 (Clementine Vulgate)"
+    }
+  ]
+}

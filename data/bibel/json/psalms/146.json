@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 146 — 10 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 146,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/145.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/147.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/146.json",
+      "latin": "https://latinprayer.org/latin/psalms/146.json"
+    }
+  },
+  "citation": "Psalmen 146 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Halleluja! Lobe den HERRN, meine Seele!",
+      "citation": "Psalmen 146:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Loben will ich den HERRN, solange ich lebe, will meinem Gott lobsingen, solange ich bin!",
+      "citation": "Psalmen 146:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Verlaßt euch nicht auf Fürsten, nicht auf Menschen, die ja nicht helfen können!",
+      "citation": "Psalmen 146:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Geht der Odem ihnen aus, so kehren sie zurück zum Staube; am gleichen Tage ist’s aus mit ihren Plänen.",
+      "citation": "Psalmen 146:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Wohl dem, dessen Hilfe der Gott Jakobs ist, dessen Hoffnung ruht auf dem HERRN, seinem Gott,",
+      "citation": "Psalmen 146:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "auf ihm, der Himmel und Erde geschaffen, das Meer mit allem, was in ihnen ist, der Treue ewiglich hält;",
+      "citation": "Psalmen 146:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "der Recht den Unterdrückten schafft und Brot den Hungrigen gibt. Der HERR macht die Gefangenen frei;",
+      "citation": "Psalmen 146:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "der HERR gibt Blinden das Augenlicht, der HERR richtet die Gebeugten auf, der HERR hat lieb die Gerechten;",
+      "citation": "Psalmen 146:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "der HERR behütet den Fremdling; Waisen und Witwen hält er aufrecht; doch den Weg der Gottlosen macht er zum Irrweg.",
+      "citation": "Psalmen 146:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Der HERR wird König in Ewigkeit sein, dein Gott, o Zion, für und für! Halleluja!",
+      "citation": "Psalmen 146:10 (Menge)"
+    }
+  ]
+}

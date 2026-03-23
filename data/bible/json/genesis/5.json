@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 5 — 31 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 5,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/genesis/4.json",
+      "nextChapter": "https://latinprayer.org/bible/genesis/6.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/genesis/5.json",
+      "german": "https://latinprayer.org/bibel/genesis/5.json"
+    }
+  },
+  "citation": "Genesis 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "This is the book of the generation of Adam. In the day that God created man, he made him to the likeness of God.",
+      "citation": "Genesis 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "He created them male and female; and blessed them: and called their name Adam, in the day when they were created.",
+      "citation": "Genesis 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Adam lived a hundred and thirty years, and begot a son to his own image and likeness, and called his name Seth.",
+      "citation": "Genesis 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And the days of Adam, after he begot Seth, were eight hundred years: and he begot sons and daughters.",
+      "citation": "Genesis 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And all the time that Adam lived, came to nine hundred and thirty years, and he died.",
+      "citation": "Genesis 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Seth also lived a hundred and five years, and begot Enos.",
+      "citation": "Genesis 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And Seth lived after he begot Enos, eight hundred and seven years, and begot sons and daughters.",
+      "citation": "Genesis 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And all the days of Seth were nine hundred and twelve years, and he died.",
+      "citation": "Genesis 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And Enos lived ninety years, and begot Cainan.",
+      "citation": "Genesis 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "After whose birth he lived eight hundred and fifteen years, and begot sons and daughters.",
+      "citation": "Genesis 5:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And all the days of Enos were nine hundred and five years, and he died.",
+      "citation": "Genesis 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And Cainan lived seventy years, and begot Malaleel.",
+      "citation": "Genesis 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And Cainan lived after he begot Malaleel, eight hundred and forty years, and begot sons and daughters.",
+      "citation": "Genesis 5:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And all the days of Cainan were nine hundred and ten years, and he died.",
+      "citation": "Genesis 5:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And Malaleel lived sixty-five years and begot Jared.",
+      "citation": "Genesis 5:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And Malaleel lived after he begot Jared, eight hundred and thirty years, and begot sons and daughters.",
+      "citation": "Genesis 5:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And all the days of Malaleel were eight hundred and ninety-five years, and he died.",
+      "citation": "Genesis 5:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And Jared lived a hundred and sixty-two years, and begot Henoch.",
+      "citation": "Genesis 5:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And Jared lived after he begot Henoch, eight hundred years, and begot sons and daughters.",
+      "citation": "Genesis 5:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And all the days of Jared were nine hundred and sixty-two years, and he died.",
+      "citation": "Genesis 5:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And Henoch lived sixty-five years, and begot Mathusala.",
+      "citation": "Genesis 5:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And Henoch walked with God: and lived after he begot Mathusala, three hundred years, and begot sons and daughters.",
+      "citation": "Genesis 5:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And all the days of Henoch were three hundred and sixty-five years.",
+      "citation": "Genesis 5:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And he walked with God, and was seen no more: because God took him.",
+      "citation": "Genesis 5:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And Mathusala lived a hundred and eighty-seven years, and begot Lamech.",
+      "citation": "Genesis 5:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And Mathlusala lived after he begot Lamech, seven hundred and eighty-two years, and begot sons and daughters.",
+      "citation": "Genesis 5:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And all the days of Mathusala were nine hundred and sixty-nine years, and he died.",
+      "citation": "Genesis 5:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And Lamech lived a hundred and eighty-two years, and begot a son.",
+      "citation": "Genesis 5:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And he called his name Noe, saying: This same shall comfort us from the works and labours of our hands on the earth, which the Lord hath cursed.",
+      "citation": "Genesis 5:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And Lamech lived after he begot Noe, five hundred and ninety-five years, and begot sons and daughters.",
+      "citation": "Genesis 5:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And all the days of Lamech came to seven hundred and seventy-seven years, and he died. And Noe, when he was five hundred years old, begot Sem, Cham, and Japheth.",
+      "citation": "Genesis 5:31 (Douay-Rheims)"
+    }
+  ]
+}

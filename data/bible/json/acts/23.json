@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Acts, Chapter 23 — 35 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 51,
+      "totalChapters": 28
+    },
+    "chapter": 23,
+    "verseCount": 35,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/acts/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/acts/22.json",
+      "nextChapter": "https://latinprayer.org/bible/acts/24.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/acts/23.json",
+      "german": "https://latinprayer.org/bibel/acts/23.json"
+    }
+  },
+  "citation": "Acts 23 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And Paul, looking upon the council, said: Men, brethren, I have conversed with all good conscience before God until this present day.",
+      "citation": "Acts 23:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And the high priest, Ananias, commanded them that stood by him to strike him on the mouth.",
+      "citation": "Acts 23:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Then Paul said to him: God shall strike thee, thou whited wall. For, sittest thou to judge me according to the law and, contrary to the law, commandest me to be struck?",
+      "citation": "Acts 23:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And they that stood by said: Dost thou revile the high priest of God?",
+      "citation": "Acts 23:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And Paul said: I knew not, brethren, that he is the high priest. For it is written: Thou shalt not speak evil of the prince of thy people.",
+      "citation": "Acts 23:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Paul, knowing that the one part were Sadducees and the other Pharisees, cried out in the council: Men, brethren, I am a Pharisee, the son of Pharisees: concerning the hope and resurrection of the dead I am called in question.",
+      "citation": "Acts 23:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And when he had so said, there arose a dissension between the Pharisees and the Sadducees. And the multitude was divided.",
+      "citation": "Acts 23:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For the Sadducees say that there is no resurrection, neither angel, nor spirit: but the Pharisees confess both.",
+      "citation": "Acts 23:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And there arose a great cry. And some of the Pharisees rising up, strove, saying: We find no evil in this man. What if a spirit hath spoken to him, or an angel?",
+      "citation": "Acts 23:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And when there arose a great dissension, the tribune, fearing lest Paul should be pulled in pieces by them, commanded the soldiers to go down and to take him by force from among them and to bring him into the castle.",
+      "citation": "Acts 23:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the night following, the Lord standing by him, said: Be constant: for as thou hast testified of me in Jerusalem, so must thou bear witness also at Rome.",
+      "citation": "Acts 23:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And when day was come, some of the Jews gathered together and bound themselves under a curse, saying that they would neither eat nor drink till they killed Paul.",
+      "citation": "Acts 23:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And they were more than forty men that had made this conspiracy.",
+      "citation": "Acts 23:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Who came to the chief priests and the ancients and said: We have bound ourselves under a great curse that we will eat nothing till we have slain Paul.",
+      "citation": "Acts 23:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Now therefore do you with the council signify to the tribune, that he bring him forth to you, as if you meant to know something more certain touching him. And we, before he come near, are ready to kill him.",
+      "citation": "Acts 23:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Which when Paul's sister's son had heard, of their lying in wait, he came and entered into the castle and told Paul.",
+      "citation": "Acts 23:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And Paul, calling to him one of the centurions, said: Bring this young man to the tribune: for he hath some thing to tell him.",
+      "citation": "Acts 23:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And he, taking him, brought him to the tribune and said: Paul, the prisoner, desired me to bring this young man unto thee, who hath some thing to say to thee.",
+      "citation": "Acts 23:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And the tribune, taking him by the hand, went aside with him privately and asked him: What is it that thou hast to tell me?",
+      "citation": "Acts 23:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And he said: The Jews have agreed to desire thee that thou wouldst bring forth Paul to-morrow into the council, as if they meant to inquire some thing more certain touching him.",
+      "citation": "Acts 23:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "But do not thou give credit to them: for there lie in wait for him more than forty men of them, who have bound themselves by oath neither to eat nor to drink, till they have killed him.  And they are now ready, looking for a promise from thee.",
+      "citation": "Acts 23:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The tribune therefore dismissed the young man, charging him that he should tell no man that he had made known these things unto him.",
+      "citation": "Acts 23:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Then having called two centurions, he said to them: Make ready two hundred soldiers to go as far as Caesarea: and seventy horsemen and two hundred spearmen, for the third hour of the night.",
+      "citation": "Acts 23:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And provide beasts, that they may set Paul on and bring him safe to Felix the governor.",
+      "citation": "Acts 23:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "(For he feared lest perhaps the Jews might take him away by force and kill him: and he should afterwards be slandered, as if he was to take money.) And he wrote a letter after this manner:",
+      "citation": "Acts 23:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Claudius Lysias to the most excellent governor, Felix, greeting:",
+      "citation": "Acts 23:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "This man, being taken by the Jews and ready to be killed by them, I rescued, coming in with an army, understanding that he is a Roman.",
+      "citation": "Acts 23:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And meaning to know the cause which they objected unto him, I brought him forth into their council.",
+      "citation": "Acts 23:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Whom I found to be accused concerning questions of their law; but having nothing laid to his charge worthy of death or of bands.",
+      "citation": "Acts 23:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And when I was told of ambushes that they had prepared for him, I sent him to thee, signifying also to his accusers to plead before thee. Farewell.",
+      "citation": "Acts 23:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Then the soldiers, according as it was commanded them, taking Paul, brought him by night to Antipatris.",
+      "citation": "Acts 23:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And the next day, leaving the horsemen to go with him, they returned to the castle.",
+      "citation": "Acts 23:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Who, when they were come to Caesarea and had delivered the letter to the governor, did also present Paul before him.",
+      "citation": "Acts 23:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And when he had read it and had asked of what province he was and understood that he was of Cilicia:",
+      "citation": "Acts 23:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "I will hear thee, said he, when thy accusers come. And he commanded him to be kept in Herod's judgment hall.",
+      "citation": "Acts 23:35 (Douay-Rheims)"
+    }
+  ]
+}

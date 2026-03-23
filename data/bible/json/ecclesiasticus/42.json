@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 42 — 26 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 42,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/41.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/43.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/42.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/42.json"
+    }
+  },
+  "citation": "Ecclesiasticus 42 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Repeat not the word which thou hast heard, and disclose not the thing that is secret; so shalt thou be truly without confusion, and shalt find favour before all men: be not ashamed of any of these things, and accept no person to sin thereby:",
+      "citation": "Ecclesiasticus 42:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Of the law of the most High, and of his covenant, and of judgment to justify the ungodly:",
+      "citation": "Ecclesiasticus 42:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Of the affair of companions and travellers, and of the gift of the inheritance of friends:",
+      "citation": "Ecclesiasticus 42:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Of exactness of balance and weights, of getting much or little:",
+      "citation": "Ecclesiasticus 42:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Of the corruption of buying, and of merchants, and of much correction of children, and to make the side of a wicked slave to bleed.",
+      "citation": "Ecclesiasticus 42:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Sure keeping is good over a wicked wife.",
+      "citation": "Ecclesiasticus 42:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Where there are many hands, shut up, and deliver all things in number, and weight: and put all in writing that thou givest out or receivest in.",
+      "citation": "Ecclesiasticus 42:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Be not ashamed to inform the unwise and foolish, and the aged, that are judged by young men: and thou shalt be well instructed in all things, and well approved in the sight of all men living.",
+      "citation": "Ecclesiasticus 42:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The father waketh for the daughter when no man knoweth, and the care for her taketh away his sleep, when she is young, lest she pass away the flower of her age, and when she is married, lest she should be hateful:",
+      "citation": "Ecclesiasticus 42:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "In her virginity, lest she should be corrupted, and be found with child in her father's house: and having a husband, lest she should misbehave herself, or at the least become barren.",
+      "citation": "Ecclesiasticus 42:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Keep a sure watch over a shameless daughter: lest at anytime she make thee become a laughingstock to thy enemies, and a byword in the city, and a reproach among the people, and she make thee ashamed before all the multitude.",
+      "citation": "Ecclesiasticus 42:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Behold not everybody's beauty: and tarry not among women.",
+      "citation": "Ecclesiasticus 42:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For from garments cometh a moth, and from a woman the iniquity of a man.",
+      "citation": "Ecclesiasticus 42:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For better is the iniquity of a man, than a woman doing a good turn, and a woman bringing shame and reproach.",
+      "citation": "Ecclesiasticus 42:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "I will now remember the works of the Lord, and I will declare the things I have seen. By the words of the Lord are his works.",
+      "citation": "Ecclesiasticus 42:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The sun giving light hath looked upon all things, and full of the glory of the Lord is his work.",
+      "citation": "Ecclesiasticus 42:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Hath not the Lord made the saints to declare all his wonderful works, which the Lord Almighty hath firmly settled to be established for his glory?",
+      "citation": "Ecclesiasticus 42:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "He hath searched out the deep, and the heart of men: and considered their crafty devices.",
+      "citation": "Ecclesiasticus 42:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For the Lord knoweth all knowledge, and hath beheld the signs of the world, he declareth the things that are past, and the things that are to come, and revealeth the traces of hidden things.",
+      "citation": "Ecclesiasticus 42:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "No thought escapeth him, and no word can hide itself from him.",
+      "citation": "Ecclesiasticus 42:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "He hath beautified the glorious works of his wisdom: and he is from eternity to eternity, and to him nothing may be added,",
+      "citation": "Ecclesiasticus 42:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Nor can he be diminished, and he hath no need of any counsellor.",
+      "citation": "Ecclesiasticus 42:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "O how desirable are all his works, and what we can know is but as a spark!",
+      "citation": "Ecclesiasticus 42:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "All these things live, and remain for ever, and for every use all things obey him.",
+      "citation": "Ecclesiasticus 42:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "All things are double, one against another, and he hath made nothing defective.",
+      "citation": "Ecclesiasticus 42:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "He hath established the good things of every one. And who shall be filled with beholding his glory?",
+      "citation": "Ecclesiasticus 42:26 (Douay-Rheims)"
+    }
+  ]
+}

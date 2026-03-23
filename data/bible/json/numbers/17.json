@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 17 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 17,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/numbers/16.json",
+      "nextChapter": "https://latinprayer.org/bible/numbers/18.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/numbers/17.json",
+      "german": "https://latinprayer.org/bibel/numbers/17.json"
+    }
+  },
+  "citation": "Numbers 17 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 17:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Command Eleazar the son of Aaron the priest to take up the censers that lie in the burning, and to scatter the fire of one side and the other: because they are sanctified",
+      "citation": "Numbers 17:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "In the deaths of the sinners: and let him beat them into plates, and fasten them to the altar, because incense hath been offered in them to the Lord, and they are sanctified, that the children of Israel may see them for a sign and a memorial.",
+      "citation": "Numbers 17:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Then Eleazar the priest took the brazen censers, wherein they had offered, whom the burning fire had devoured, and beat them into plates, fastening them to the altar:",
+      "citation": "Numbers 17:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "That the children of Israel might have for the time to come wherewith they should be admonished, that no stranger or any one that is not of the seed of Aaron should come near to offer incense to the Lord, lest he should suffer as Core suffered, and all his congregation, according as the Lord spoke to Moses.",
+      "citation": "Numbers 17:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The following day all the multitude of the children of Israel murmured against Moses and Aaron, saying: You have killed the people of the Lord.",
+      "citation": "Numbers 17:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And when there arose a sedition, and the tumult increased,",
+      "citation": "Numbers 17:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Moses and Aaron fled to the tabernacle of the covenant. And when they were gone into it, the cloud covered it, and the glory of the Lord appeared.",
+      "citation": "Numbers 17:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the Lord said to Moses:",
+      "citation": "Numbers 17:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Get you out from the midst of this multitude, this moment will I destroy them. And as they were lying on the ground,",
+      "citation": "Numbers 17:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Moses said to Aaron: Take the censer, and putting fire in it from the altar, put incense upon it, and go quickly to the people to pray for them: for already wrath is gone out from the Lord, and the plague rageth.",
+      "citation": "Numbers 17:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "When Aaron had done this, and had run to the midst of the multitude which the burning fire was now destroying, he offered the incense:",
+      "citation": "Numbers 17:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And standing between the dead and the living, he prayed for the people, and the plague ceased.",
+      "citation": "Numbers 17:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And the number of them that were slain was fourteen thousand and seven hundred men, besides them that had perished in the sedition of Core.",
+      "citation": "Numbers 17:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And Aaron returned to Moses to the door of the tabernacle of the covenant after the destruction was over.",
+      "citation": "Numbers 17:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 17:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Speak to the children of Israel, and take of every one of them a rod by their kindreds, of all the princes of the tribes, twelve rods, and write the name of every man upon his rod.",
+      "citation": "Numbers 17:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And the name of Aaron shall be for the tribe of Levi, and one rod shall contain all their families:",
+      "citation": "Numbers 17:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And thou shalt lay them up in the tabernacle of the covenant before the testimony, where I will speak to thee.",
+      "citation": "Numbers 17:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Whomsoever of these I shall choose, his rod shall blossom: and I will make to cease from me the murmurings of the children of Israel, wherewith they murmur against you.",
+      "citation": "Numbers 17:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And Moses spoke to the children of Israel: and all the princes gave him rods one for every tribe: and there were twelve rods besides the rod of Aaron.",
+      "citation": "Numbers 17:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And when Moses had Laid them up before the Lord in the tabernacle of the testimony:",
+      "citation": "Numbers 17:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "He returned on the following day, and found that the rod of Aaron for the house of Levi, was budded: and that the buds swelling it hid bloomed blossoms, which spreading the leaves, were formed into almonds.",
+      "citation": "Numbers 17:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Moses therefore brought out all the rods from before the Lord to all the children of Israel: and they saw, and every one received their rods.",
+      "citation": "Numbers 17:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And the Lord said to Moses: Carry back the rod of Aaron into the tabernacle of the testimony, that it may be kept there for a token of the rebellious children of Israel, and that their complaints may cease from me lest they die.",
+      "citation": "Numbers 17:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And Moses did as the Lord had commanded.",
+      "citation": "Numbers 17:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And the children of Israel said to Moses: Behold we are consumed, we all perish.",
+      "citation": "Numbers 17:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Whosoever approacheth to the tabernacle of the Lord, he dieth. Are we all to a man to be utterly destroyed?",
+      "citation": "Numbers 17:28 (Douay-Rheims)"
+    }
+  ]
+}

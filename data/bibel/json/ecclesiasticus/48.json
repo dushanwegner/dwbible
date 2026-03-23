@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 48 — 25 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 48,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/47.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/49.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/48.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/48.json"
+    }
+  },
+  "citation": "Jesus Sirach 48 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "bis ein Prophet wie Feuer auftrat und sein Wort wie eine Fackel brannte.",
+      "citation": "Jesus Sirach 48:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Er ließ eine Hungersnot über sie kommen (h) und minderte ihre Zahl durch seinen Eifer;",
+      "citation": "Jesus Sirach 48:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "durch das Wort Gottes verschloß er den Himmel, und [ebenso] ließ er dreimal Feuer niederfallen.",
+      "citation": "Jesus Sirach 48:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wie herrlich warst du, Elia, [durch deine Wundertaten]! Ja, wer dir gleich ist, mag sich dessen rühmen, –",
+      "citation": "Jesus Sirach 48:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "du hast ja einen Verstorbenen aus dem Tode auferweckt und aus der Unterwelt mit Einwilligung des Höchsten (g);",
+      "citation": "Jesus Sirach 48:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "du hast Könige in die Grube hinabgestürzt und Hochgeehrte von ihrem Krankenbett weggerafft;",
+      "citation": "Jesus Sirach 48:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "du hast auf dem Sinai die Zurechtweisung vernommen und auf dem Horeb die Urteilssprüche der Rache;",
+      "citation": "Jesus Sirach 48:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "du hast Könige gesalbt, um Vergeltung zu üben, und einen Propheten als Nachfolger für dich (g);",
+      "citation": "Jesus Sirach 48:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "du bist entführt worden im Gewitter nach oben auf einem Wagen mit Feuerrossen;",
+      "citation": "Jesus Sirach 48:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "du bist, wie geschrieben steht, in Bereitschaft für die bestimmte Zeit (g), um den göttlichen Zorn zu beschwichtigen, bevor er entbrennt, um das Herz der Väter den Kindern wieder zuzuwenden und die Stämme Jakobs wiederherzustellen.",
+      "citation": "Jesus Sirach 48:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Heil denen, die dich gesehen haben und mit Liebe geschmückt sind! denn wir, wir werden gewißlich leben.",
+      "citation": "Jesus Sirach 48:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Als Elia durch einen Sturm in den Himmel entrückt war, wurde Elisa mit seinem Geist erfüllt. Doppelt so viele Zeichen tat er, und lauter Wunder gingen aus seinem Munde hervor (g). Solange er lebte, zitterte er vor keinem (Fürsten), und kein Mensch hatte Gewalt über ihn.",
+      "citation": "Jesus Sirach 48:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Keine Sache war für ihn unmöglich, und noch von seiner Grabstätte aus weissagte sein Leichnam.",
+      "citation": "Jesus Sirach 48:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Bei seinen Lebzeiten vollbrachte er Wunder und bei seinem Tode die erstaunlichsten Taten.",
+      "citation": "Jesus Sirach 48:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Bei alledem bekehrte das Volk sich nicht, und sie ließen von ihren Sünden nicht ab, bis sie aus ihrem Lande herausgerissen und über die ganze Erde zerstreut wurden; und es blieb von Juda (g) nur ein wenig Volk übrig und ein Fürst vom Hause Davids.",
+      "citation": "Jesus Sirach 48:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Manche von ihnen handelten recht, andere aber verübten Treubruch.",
+      "citation": "Jesus Sirach 48:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Hiskia befestigte seine Stadt, indem er Wasser in sie hineinleitete, (g); er ließ die Felsen mit Erz durchhauen und legte Teiche für das Wasser an (h).",
+      "citation": "Jesus Sirach 48:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Zu seiner Zeit zog Sanherib herauf und sandte den Rabsake ab; der kam und streckte seine Hand gegen Zion aus und lästerte Gott in seinem Übermut.",
+      "citation": "Jesus Sirach 48:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Damals erbebten ihre Herzen und ihre Hände, und sie wanden sich in Schmerzen wie Frauen in Geburtsnöten;",
+      "citation": "Jesus Sirach 48:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "und sie riefen zu Gott, dem Erbarmer, und streckten die Hände zu ihm aus; da erhörte der Heilige vom Himmel her schnell ihr Gebet und errettete sie durch Jesaja.",
+      "citation": "Jesus Sirach 48:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Er schlug das Heerlager der Assyrer, und sein Engel vernichtete sie durch die Pest.",
+      "citation": "Jesus Sirach 48:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Denn Hiskia hatte getan, was dem Herrn wohlgefiel, und war unverrückt in den Wegen Davids gewandelt, die ihm Jesaja geboten hatte, der große Prophet und zuverlässige Seher.",
+      "citation": "Jesus Sirach 48:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "In seinen Tagen ging die Sonne zurück, und er verlängerte dem Könige das Leben.",
+      "citation": "Jesus Sirach 48:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Gewaltigen Geistes schaute er die Endzeit und tröstete die Trauernden in Zion.",
+      "citation": "Jesus Sirach 48:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Bis in Ewigkeit verkündigte er das Künftige und das Verborgene, ehe es eintrat.",
+      "citation": "Jesus Sirach 48:25 (Menge)"
+    }
+  ]
+}

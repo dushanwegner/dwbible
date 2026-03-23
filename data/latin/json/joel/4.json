@@ -1,0 +1,276 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joel, Chapter 4 — 48 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joel",
+      "slug": "joel",
+      "testament": "OT",
+      "order": 34,
+      "totalChapters": 9
+    },
+    "chapter": 4,
+    "verseCount": 48,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/joel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/joel/3.json",
+      "nextChapter": "https://latinprayer.org/latin/joel/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/joel/4.json",
+      "german": "https://latinprayer.org/bibel/joel/4.json"
+    }
+  },
+  "citation": "Joel 4 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quia ecce in diebus illis et in tempore illo cum convertero captivitatem Iuda et Hierusalem",
+      "citation": "Joel 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "audite verbum quod locutus est Dominus super vos filii Israhel super omni cognatione quam eduxi de terra Aegypti dicens",
+      "citation": "Joel 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "audite verbum hoc vaccae pingues quae estis in monte Samariae quae calumniam facitis egenis et confringitis pauperes quae dicitis dominis vestris adferte et bibemus",
+      "citation": "Joel 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "congregabo omnes gentes et deducam eas in valle Iosaphat et disceptabo cum eis ibi super populo meo et hereditate mea Israhel quos disperserunt in nationibus et terram meam diviserunt",
+      "citation": "Joel 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "tantummodo vos cognovi ex omnibus cognationibus terrae idcirco visitabo super vos omnes iniquitates vestras",
+      "citation": "Joel 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "iuravit Dominus Deus in sancto suo quia ecce dies venient super vos et levabunt vos in contis et reliquias vestras in ollis ferventibus",
+      "citation": "Joel 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et super populum meum miserunt sortem et posuerunt puerum in prostibulum et puellam vendiderunt pro vino ut biberent",
+      "citation": "Joel 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "numquid ambulabunt duo pariter nisi convenerit eis",
+      "citation": "Joel 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et per aperturas exibitis altera contra alteram et proiciemini in Armon dicit Dominus",
+      "citation": "Joel 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "verum quid vobis et mihi Tyrus et Sidon et omnis terminus Palestinorum numquid ultionem vos redditis mihi et si ulciscimini vos contra me cito velociter reddam vicissitudinem vobis super caput vestrum",
+      "citation": "Joel 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "numquid rugiet leo in saltu nisi habuerit praedam numquid dabit catulus leonis vocem de cubili suo nisi aliquid adprehenderit",
+      "citation": "Joel 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "venite ad Bethel et impie agite ad Galgalam et multiplicate praevaricationem et offerte mane victimas vestras tribus diebus decimas vestras",
+      "citation": "Joel 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "argentum enim meum et aurum tulistis et desiderabilia mea et pulcherrima intulistis in delubra vestra",
+      "citation": "Joel 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "numquid cadet avis in laqueum terrae absque aucupe numquid auferetur laqueus de terra antequam quid ceperit",
+      "citation": "Joel 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et sacrificate de fermentato laudem et vocate voluntarias oblationes et adnuntiate sic enim voluistis filii Israhel dicit Dominus Deus",
+      "citation": "Joel 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et filios Iuda et filios Hierusalem vendidistis filiis Graecorum ut longe faceretis eos de finibus suis",
+      "citation": "Joel 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "si clanget tuba in civitate et populus non expavescet si erit malum in civitate quod Dominus non fecit",
+      "citation": "Joel 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "unde et ego dedi vobis stuporem dentium in cunctis urbibus vestris et indigentiam panum in omnibus locis vestris et non estis reversi ad me dicit Dominus",
+      "citation": "Joel 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ecce ego suscitabo eos de loco in quo vendidistis eos et convertam retributionem vestram in caput vestrum",
+      "citation": "Joel 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quia non faciet Dominus Deus verbum nisi revelaverit secretum suum ad servos suos prophetas",
+      "citation": "Joel 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ego quoque prohibui a vobis imbrem cum adhuc tres menses superessent usque ad messem et plui super civitatem unam et super civitatem alteram non plui pars una conpluta est et pars super quam non plui aruit",
+      "citation": "Joel 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et vendam filios vestros et filias vestras in manibus filiorum Iuda et venundabunt eos Sabeis genti longinquae quia Dominus locutus est",
+      "citation": "Joel 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "leo rugiet quis non timebit Dominus Deus locutus est quis non prophetabit",
+      "citation": "Joel 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et venerunt duae et tres civitates ad civitatem unam ut biberent aquam et non sunt satiatae et non redistis ad me dicit Dominus",
+      "citation": "Joel 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "clamate hoc in gentibus sanctificate bellum suscitate robustos accedant ascendant omnes viri bellatores",
+      "citation": "Joel 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "auditum facite in aedibus Azoti et in aedibus terrae Aegypti et dicite congregamini super montes Samariae et videte insanias multas in medio eius et calumniam patientes in penetrabilibus eius",
+      "citation": "Joel 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "percussi vos in vento urente et in aurugine multitudinem hortorum vestrorum et vinearum vestrarum oliveta vestra et ficeta vestra comedit eruca et non redistis ad me dicit Dominus",
+      "citation": "Joel 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "concidite aratra vestra in gladios et ligones vestros in lanceas infirmus dicat quia fortis ego sum",
+      "citation": "Joel 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et nescierunt facere rectum dicit Dominus thesaurizantes iniquitatem et rapinas in aedibus suis",
+      "citation": "Joel 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "misi in vos mortem in via Aegypti percussi in gladio iuvenes vestros usque ad captivitatem equorum vestrorum et ascendere feci putredinem castrorum vestrorum in nares vestras et non redistis ad me dicit Dominus",
+      "citation": "Joel 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "erumpite et venite omnes gentes de circuitu et congregamini ibi occumbere faciet Dominus robustos tuos",
+      "citation": "Joel 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "propterea haec dicit Dominus Deus tribulabitur et circumietur terra et detrahetur ex te fortitudo tua et diripientur aedes tuae",
+      "citation": "Joel 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "subverti vos sicut subvertit Deus Sodomam et Gomorram et facti estis quasi torris raptus de incendio et non redistis ad me dicit Dominus",
+      "citation": "Joel 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "consurgant et ascendant gentes in vallem Iosaphat quia ibi sedebo ut iudicem omnes gentes in circuitu",
+      "citation": "Joel 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "haec dicit Dominus quomodo si eruat pastor de ore leonis duo crura aut extremum auriculae sic eruentur filii Israhel qui habitant in Samaria in plaga lectuli et in Damasco grabatti",
+      "citation": "Joel 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quapropter haec faciam tibi Israhel postquam autem haec fecero tibi praeparare in occursum Dei tui Israhel",
+      "citation": "Joel 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "mittite falces quoniam maturavit messis venite et descendite quia plenum est torcular exuberant torcularia quia multiplicata est malitia eorum",
+      "citation": "Joel 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "audite et contestamini in domo Iacob dicit Dominus Deus exercituum",
+      "citation": "Joel 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quia ecce formans montes et creans ventum et adnuntians homini eloquium suum faciens matutinam nebulam et gradiens super excelsa terrae Dominus Deus exercituum nomen eius",
+      "citation": "Joel 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "populi populi in valle concisionis quia iuxta est dies Domini in valle concisionis",
+      "citation": "Joel 4:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quia in die cum visitare coepero praevaricationes Israhel super eum visitabo et super altaria Bethel et amputabuntur cornua altaris et cadent in terram",
+      "citation": "Joel 4:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "sol et luna obtenebricata sunt et stellae retraxerunt splendorem suum",
+      "citation": "Joel 4:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et percutiam domum hiemalem cum domo aestiva et peribunt domus eburneae et dissipabuntur aedes multae dicit Dominus",
+      "citation": "Joel 4:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et Dominus de Sion rugiet et de Hierusalem dabit vocem suam et movebuntur caeli et terra et Dominus spes populi sui et fortitudo filiorum Israhel",
+      "citation": "Joel 4:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et scietis quia ego Dominus Deus vester habitans in Sion in monte sancto meo et erit Hierusalem sancta et alieni non transibunt per eam amplius",
+      "citation": "Joel 4:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et erit in die illa stillabunt montes dulcedinem et colles fluent lacte et per omnes rivos Iuda ibunt aquae et fons de domo Domini egredietur et inrigabit torrentem Spinarum",
+      "citation": "Joel 4:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Aegyptus in desolatione erit et Idumea in desertum perditionis pro eo quod inique egerint in filios Iuda et effuderint sanguinem innocentem in terra sua",
+      "citation": "Joel 4:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et Iudaea in aeternum habitabitur et Hierusalem in generatione et generationem Amos",
+      "citation": "Joel 4:20 (Clementine Vulgate)"
+    }
+  ]
+}

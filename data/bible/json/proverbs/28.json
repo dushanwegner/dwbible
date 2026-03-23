@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 28 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 28,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/proverbs/27.json",
+      "nextChapter": "https://latinprayer.org/bible/proverbs/29.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/proverbs/28.json",
+      "german": "https://latinprayer.org/bibel/proverbs/28.json"
+    }
+  },
+  "citation": "Proverbs 28 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The wicked man fleeth, when no man pursueth: but the just, bold as a lion, shall be without dread.",
+      "citation": "Proverbs 28:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For the sins of the land many are the princes thereof: and for the wisdom of a man, and the knowledge of those things that are said, the life of the prince shall be prolonged.",
+      "citation": "Proverbs 28:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "A poor man that oppresseth the poor, is like a violent shower, which bringeth a famine.",
+      "citation": "Proverbs 28:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "They that forsake the law, praise the wicked man: they that keep it, are incensed against him.",
+      "citation": "Proverbs 28:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Evil men think not on judgment: but they that seek after the Lord, take notice of all things.",
+      "citation": "Proverbs 28:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Better is the poor man walking in his simplicity, than the rich in crooked ways.",
+      "citation": "Proverbs 28:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "He that keepeth the law, is a wise son: but he that feedeth gluttons, shameth his father.",
+      "citation": "Proverbs 28:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He that heapeth together riches by usury and loan, gathereth them for him that will be bountiful to the poor.",
+      "citation": "Proverbs 28:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He that turneth away his ears from hearing the law, his prayer shall be an abomination.",
+      "citation": "Proverbs 28:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "He that deceiveth the just in a wicked way, shall fall in his own destruction: and the upright shall possess his goods.",
+      "citation": "Proverbs 28:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The rich man seemeth to himself wise: but the poor man that is prudent shall search him out.",
+      "citation": "Proverbs 28:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "In the joy of the just there is great glory: when the wicked reign, men are ruined.",
+      "citation": "Proverbs 28:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "He that hideth his sins, shall not prosper: but he that shall confess, and forsake them, shall obtain mercy.",
+      "citation": "Proverbs 28:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Blessed is the man that is always fearful: but he that is hardened in mind shall fall into evil.",
+      "citation": "Proverbs 28:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "As a roaring lion, and a hungry bear, so is a wicked prince over the poor people.",
+      "citation": "Proverbs 28:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "A prince void of prudence shall oppress many by calumny: but he that hateth covetousness, shall prolong his days.",
+      "citation": "Proverbs 28:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "A man that doth violence to the blood of a person, if he flee even to the pit, no man will stay him.",
+      "citation": "Proverbs 28:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "He that walketh uprightly, shall be saved: he that is perverse in his ways, shall fall at once.",
+      "citation": "Proverbs 28:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "He that tilleth his ground, shall be filled with bread: but he that followeth idleness, shall be filled with poverty.",
+      "citation": "Proverbs 28:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "A faithful man shall be much praised: but he that maketh haste to be rich, shall not be innocent.",
+      "citation": "Proverbs 28:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "He that hath respect to a person in judgment, doth not well: such a man even for a morsel of bread forsaketh the truth.",
+      "citation": "Proverbs 28:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "A man that maketh haste to be rich, and envieth others, is ignorant that poverty shall come upon him.",
+      "citation": "Proverbs 28:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "He that rebuketh a man, shall afterward find favour with him, more than he that by a flattering tongue deceiveth him.",
+      "citation": "Proverbs 28:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "He that stealeth any thing from his father, or from his mother: and saith, This is no sin, is the partner of a murderer.",
+      "citation": "Proverbs 28:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "He that boasteth and puffeth up himself, stirreth up quarrels: but he that trusteth in the Lord, shall be healed.",
+      "citation": "Proverbs 28:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "He that trusteth in his own heart, is a fool: but he that walketh wisely, he shall be saved.",
+      "citation": "Proverbs 28:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "He that giveth to the poor shall not want: he that despiseth his entreaty, shall suffer indigence.",
+      "citation": "Proverbs 28:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "When the wicked rise up, men shall hide themselves: when they perish, the just shall be multiplied.",
+      "citation": "Proverbs 28:28 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 77 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 77,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/76.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/78.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/77.json",
+      "latin": "https://latinprayer.org/latin/psalms/77.json"
+    }
+  },
+  "citation": "Psalmen 77 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister über die Jeduthuniden</em>; <em>von Asaph ein Psalm.</em>",
+      "citation": "Psalmen 77:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Laut ruf’ ich zu Gott, ja ich will schreien, laut ruf’ ich zu Gott: »Ach, höre mein Flehen!«",
+      "citation": "Psalmen 77:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wenn Drangsalszeiten über mich kommen, such’ ich den Allherrn; meine Hand ist nachts ohn’ Ermatten ausgestreckt, meine Seele will sich nicht trösten lassen.",
+      "citation": "Psalmen 77:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denk’ ich an Gott, so muß ich seufzen; sinne ich nach, so verzagt mein Geist. SELA.",
+      "citation": "Psalmen 77:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Du hältst mir die Augenlider offen, ich bin voll Unruhe und kann nicht reden.",
+      "citation": "Psalmen 77:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ich überdenke die Tage der Vorzeit, die längst entschwundenen Jahre;",
+      "citation": "Psalmen 77:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "ich denke bei Nacht an mein Saitenspiel, ich sinne in meinem Herzen nach, und es grübelt mein Geist und fragt:",
+      "citation": "Psalmen 77:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "»Wird der Allherr auf ewig verstoßen und niemals wieder Gnade üben?",
+      "citation": "Psalmen 77:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ist seine Güte für immer erschöpft? sind seine Verheißungen abgetan für alle Zukunft?",
+      "citation": "Psalmen 77:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Hat Gott vergessen, gnädig zu sein, oder im Zorn sein Erbarmen verschlossen?« SELA.",
+      "citation": "Psalmen 77:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da sagte ich mir: »Das bekümmert mich schmerzlich, daß das Walten des Höchsten sich hat geändert.«",
+      "citation": "Psalmen 77:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Ich will gedenken der Taten des HERRN, will gedenken deiner Wunder von der Vorzeit her,",
+      "citation": "Psalmen 77:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "will sinnen über all dein Tun und deine großen Taten erwägen.",
+      "citation": "Psalmen 77:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "O Gott, erhaben ist dein Weg: wo ist eine Gottheit so groß wie Gott?",
+      "citation": "Psalmen 77:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Du bist der Gott, der Wunder tut, du hast deine Macht an den Völkern bewiesen,",
+      "citation": "Psalmen 77:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "hast dein Volk erlöst mit starkem Arm, die Kinder Jakobs und Josephs. SELA.",
+      "citation": "Psalmen 77:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Als die Wasser dich sahen, o Gott, als die Wasser dich sahen, erbebten sie, auch die Tiefen des Weltmeers zitterten;",
+      "citation": "Psalmen 77:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "die Wolken ergossen sich in strömenden Regen, das Gewölk ließ Donner erkrachen, und deine Pfeile fuhren einher;",
+      "citation": "Psalmen 77:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "deine Donnerstimme dröhnte am Himmelsgewölbe, Blitze erhellten den Erdkreis, es bebte und schwankte die Erde.",
+      "citation": "Psalmen 77:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Durchs Meer ging dein Weg dahin und dein Pfad durch gewaltige Fluten; doch deine Spuren waren nicht zu erkennen.",
+      "citation": "Psalmen 77:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Du hast dein Volk geführt wie eine Herde unter Leitung von Mose und Aaron.",
+      "citation": "Psalmen 77:21 (Menge)"
+    }
+  ]
+}

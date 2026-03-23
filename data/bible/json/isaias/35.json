@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 35 — 10 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 35,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/34.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/36.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/35.json",
+      "german": "https://latinprayer.org/bibel/isaias/35.json"
+    }
+  },
+  "citation": "Isaias 35 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The land that was desolate and impassable shall be glad, and the wilderness shall rejoice, and shall flourish like the lily.",
+      "citation": "Isaias 35:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "It shall bud forth and blossom, and shall rejoice with joy and praise: the glory of Libanus is given to it: the beauty of Carmel, and Saron, they shall see the glory of the Lord, and the beauty of our God.",
+      "citation": "Isaias 35:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Strengthen ye the feeble hands, and confirm the weak knees.",
+      "citation": "Isaias 35:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Say to the fainthearted: Take courage, and fear not: behold your God will bring the revenge of recompense: God himself will come and will save you.",
+      "citation": "Isaias 35:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Then shall the eyes of the blind be opened, and the ears of the deaf shall be unstopped.",
+      "citation": "Isaias 35:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Then shall the lame man leap as a hart, and the tongue of the dumb shall be free: for waters are broken out in the desert, and streams in the wilderness.",
+      "citation": "Isaias 35:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And that which was dry land, shall become a pool, and the thirsty land springs of water. In the dens where dragons dwelt before, shall rise up the verdure of the reed and the bulrush.",
+      "citation": "Isaias 35:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And a path and a way shall be there, and it shall be called the holy way: the unclean shall not pass over it, and this shall be unto you a straight way, so that fools shall not err therein.",
+      "citation": "Isaias 35:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "No lion shall be there, nor shall any mischievous beast go up by it, nor be found there: but they shall walk there that shall be delivered.",
+      "citation": "Isaias 35:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the redeemed of the Lord shall return, and shall come into Sion with praise, and everlasting joy shall be upon their heads: they shall obtain joy and gladness, and sorrow and mourning shall flee away.",
+      "citation": "Isaias 35:10 (Douay-Rheims)"
+    }
+  ]
+}

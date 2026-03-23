@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jona — 4 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jona",
+      "slug": "jonas",
+      "testament": "OT",
+      "order": 37,
+      "totalChapters": 4
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jonas/index.json",
+      "latin": "https://latinprayer.org/latin/jonas/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/bibel/jonas/1",
+      "jsonUrl": "https://latinprayer.org/bibel/jonas/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/bibel/jonas/2",
+      "jsonUrl": "https://latinprayer.org/bibel/jonas/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 10,
+      "url": "https://latinprayer.org/bibel/jonas/3",
+      "jsonUrl": "https://latinprayer.org/bibel/jonas/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/bibel/jonas/4",
+      "jsonUrl": "https://latinprayer.org/bibel/jonas/4.json"
+    }
+  ]
+}

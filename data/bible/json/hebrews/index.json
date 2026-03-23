@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebrews — 13 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/hebrews/index.json",
+      "german": "https://latinprayer.org/bibel/hebrews/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bible/hebrews/1",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/bible/hebrews/2",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/bible/hebrews/3",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/bible/hebrews/4",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bible/hebrews/5",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/bible/hebrews/6",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/bible/hebrews/7",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 13,
+      "url": "https://latinprayer.org/bible/hebrews/8",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/bible/hebrews/9",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 39,
+      "url": "https://latinprayer.org/bible/hebrews/10",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 40,
+      "url": "https://latinprayer.org/bible/hebrews/11",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bible/hebrews/12",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/bible/hebrews/13",
+      "jsonUrl": "https://latinprayer.org/bible/hebrews/13.json"
+    }
+  ]
+}

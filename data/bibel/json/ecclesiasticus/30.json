@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 30 — 25 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 30,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/29.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/31.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/30.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/30.json"
+    }
+  },
+  "citation": "Jesus Sirach 30 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wer seinen Sohn lieb hat, läßt ihn immerdar die Rute fühlen, damit er zuletzt Freude an ihm erlebe.",
+      "citation": "Jesus Sirach 30:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wer seinen Sohn in Zucht hält, wird Freude an ihm haben und inmitten der Bekannten sich seiner rühmen können.",
+      "citation": "Jesus Sirach 30:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wer seinem Sohn Belehrung erteilt, macht seinen Feind eifersüchtig und kann vor seinen Freunden über ihn frohlocken.",
+      "citation": "Jesus Sirach 30:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Stirbt sein Vater, so ist’s, als wäre er nicht gestorben, denn einen ihm Ähnlichen läßt er zurück;",
+      "citation": "Jesus Sirach 30:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "solange er lebt, sieht er ihn mit Freuden an und bei seinem Tode tritt keine bange Sorge ein.",
+      "citation": "Jesus Sirach 30:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Den Feinden gegenüber hinterläßt er einen Rächer und seinen Freunden einen, der ihre Liebe vergilt.",
+      "citation": "Jesus Sirach 30:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wer seinen Sohn verzärtelt, verbindet ihm die Wunden, und bei jedem Schrei gerät sein Herz in Angst.",
+      "citation": "Jesus Sirach 30:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wie ein ungebändigtes Pferd störrisch wird, so wird ein Sohn, dem man die Zügel schießen läßt, widerspenstig.",
+      "citation": "Jesus Sirach 30:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Herze deinen Sohn, so wird er dich in Schrecken setzen, scherze mit ihm, so wird er dir Kummer bereiten.",
+      "citation": "Jesus Sirach 30:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Lache nicht mit ihm, damit du später nicht Schmerzen mit ihm zu leiden brauchst und schließlich mit den Zähnen knirschen mußt.",
+      "citation": "Jesus Sirach 30:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Gewähre ihm keine Freiheit in seiner Jugend und laß seine Verfehlungen nicht unbeachtet;",
+      "citation": "Jesus Sirach 30:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "beuge ihm den Nacken in seiner Jugendzeit und bleue ihm den Rücken, solange er noch klein ist, damit er nicht störrisch und dir ungehorsam werde und dir Seelenkummer erwachse.",
+      "citation": "Jesus Sirach 30:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Halte deinen Sohn in Zucht und mache dir mit ihm zu schaffen, damit du nicht durch seine Torheit (g) Kummer erlebst (h).",
+      "citation": "Jesus Sirach 30:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Besser ein Armer, der gesund und von kräftiger Leibesbeschaffenheit ist, als ein Reicher, dessen Körper mit Krankheit behaftet ist.",
+      "citation": "Jesus Sirach 30:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Gesundheit und Wohlbefinden ist besser als alles Gold, und ein kräftiger Leib besser als unermeßliches Vermögen.",
+      "citation": "Jesus Sirach 30:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Kein Reichtum ist besser als leibliche Gesundheit, und kein Gut (g) geht über volles Wohlbehagen.",
+      "citation": "Jesus Sirach 30:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Besser ist der Tod als ein qualvolles Leben und besser ewige Ruhe als immerwährende Krankheit.",
+      "citation": "Jesus Sirach 30:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Leckerbissen, einem verschlossenen Munde reichlich dargeboten, sind wie kostbare Speisen, die man auf ein Grab gestellt hat.",
+      "citation": "Jesus Sirach 30:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Was nützt das Opfer einem Götzenbilde? Es kann ja weder essen noch riechen.",
+      "citation": "Jesus Sirach 30:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "So ist es auch mit dem, der vom Herrn heimgesucht, d.h. mit Geld und Gut gesegnet) wird: er sieht’s mit den Augen und seufzt gleichwie ein Entmannter, der eine Jungfrau umarmt und seufzt.",
+      "citation": "Jesus Sirach 30:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Gib dich nicht dem Trübsinn hin und plage dich nicht mit sorgenvollen Gedanken.",
+      "citation": "Jesus Sirach 30:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Frohsinn im Herzen ist Leben für den Menschen, und die fröhliche Stimmung eines Mannes verlängert seine Lebenstage.",
+      "citation": "Jesus Sirach 30:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Rede deiner Seele zu (g) und sprich deinem Herzen Mut ein und halte Trübsinn fern von dir; denn schon viele hat die Traurigkeit ums Leben gebracht, und es wohnt kein Nutzen in ihr.",
+      "citation": "Jesus Sirach 30:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Neid und Zorn verkürzen die Tage, und Sorgen führen das Greisenalter vor der Zeit herbei.",
+      "citation": "Jesus Sirach 30:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Ein heiteres und fröhliches Herz wird sich bei Leckerbissen an die ihm zusagenden Speisen halten.",
+      "citation": "Jesus Sirach 30:25 (Menge)"
+    }
+  ]
+}

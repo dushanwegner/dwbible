@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Timothy, Chapter 4 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Timothy",
+      "slug": "1-timothy",
+      "testament": "NT",
+      "order": 61,
+      "totalChapters": 6
+    },
+    "chapter": 4,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-timothy/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-timothy/3.json",
+      "nextChapter": "https://latinprayer.org/bible/1-timothy/5.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-timothy/4.json",
+      "german": "https://latinprayer.org/bibel/1-timothy/4.json"
+    }
+  },
+  "citation": "1. Timothy 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now the Spirit manifestly saith that in the last times some shall depart from the faith, giving heed to spirits of error and doctrines of devils,",
+      "citation": "1. Timothy 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Speaking lies in hypocrisy and having their conscience seared,",
+      "citation": "1. Timothy 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Forbidding to marry, to abstain from meats, which God hath created to be received with thanksgiving by the faithful and by them that have known the truth.",
+      "citation": "1. Timothy 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For every creature of God is good, and nothing to be rejected that is received with thanksgiving:",
+      "citation": "1. Timothy 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For it is sanctified by the word of God and prayer.",
+      "citation": "1. Timothy 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "These things proposing to the brethren, thou shalt be a good minister of Christ Jesus, nourished up in the words of faith and of the good doctrine which thou hast attained unto.",
+      "citation": "1. Timothy 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But avoid foolish and old wives fables: and exercise thyself unto godliness.",
+      "citation": "1. Timothy 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For bodily exercise is profitable to little: but godliness is profitable to all things, having promise of the life that now is and of that which is to come.",
+      "citation": "1. Timothy 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "A faithful saying and worthy of all acceptation.",
+      "citation": "1. Timothy 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For therefore we labour and are reviled, because we hope in the living God, who is the Saviour of all men, especially of the faithful.",
+      "citation": "1. Timothy 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "These things command and teach:",
+      "citation": "1. Timothy 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Let no man despise thy youth: but be thou an example of the faithful, in word, in conversation, in charity, in faith, in chastity.",
+      "citation": "1. Timothy 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Till I come, attend unto reading, to exhortation and to doctrine.",
+      "citation": "1. Timothy 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Neglect not the grace that is in thee, which was given thee by prophecy, with imposition of the hands of the priesthood.",
+      "citation": "1. Timothy 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Meditate upon these things, be wholly in these things: that thy profiting may be manifest to all.",
+      "citation": "1. Timothy 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Take heed to thyself and to doctrine: be earnest in them.  For in doing this thou shalt both save thyself and them that hear thee.",
+      "citation": "1. Timothy 4:16 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 12 — 16 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 12,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/numbers/11.json",
+      "nextChapter": "https://latinprayer.org/latin/numbers/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/12.json",
+      "german": "https://latinprayer.org/bibel/numbers/12.json"
+    }
+  },
+  "citation": "Numbers 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "locutaque est Maria et Aaron contra Mosen propter uxorem eius aethiopissam",
+      "citation": "Numbers 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et dixerunt num per solum Mosen locutus est Dominus nonne et nobis similiter est locutus quod cum audisset Dominus",
+      "citation": "Numbers 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "erat enim Moses vir mitissimus super omnes homines qui morabantur in terra",
+      "citation": "Numbers 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "statim locutus est ad eum et ad Aaron et Mariam egredimini vos tantum tres ad tabernaculum foederis cumque fuissent egressi",
+      "citation": "Numbers 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "descendit Dominus in columna nubis et stetit in introitu tabernaculi vocans Aaron et Mariam qui cum issent",
+      "citation": "Numbers 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dixit ad eos audite sermones meos si quis fuerit inter vos propheta Domini in visione apparebo ei vel per somnium loquar ad illum",
+      "citation": "Numbers 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "at non talis servus meus Moses qui in omni domo mea fidelissimus est",
+      "citation": "Numbers 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ore enim ad os loquor ei et palam non per enigmata et figuras Dominum videt quare igitur non timuistis detrahere servo meo Mosi",
+      "citation": "Numbers 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "iratusque contra eos abiit",
+      "citation": "Numbers 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "nubes quoque recessit quae erat super tabernaculum et ecce Maria apparuit candens lepra quasi nix cumque respexisset eam Aaron et vidisset perfusam lepra",
+      "citation": "Numbers 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ait ad Mosen obsecro domine mi ne inponas nobis hoc peccatum quod stulte commisimus",
+      "citation": "Numbers 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ne fiat haec quasi mortua et ut abortivum quod proicitur de vulva matris suae ecce iam medium carnis eius devoratum est lepra",
+      "citation": "Numbers 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "clamavitque Moses ad Dominum dicens Deus obsecro sana eam",
+      "citation": "Numbers 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "cui respondit Dominus si pater eius spuisset in faciem illius nonne debuerat saltem septem dierum rubore suffundi separetur septem diebus extra castra et postea revocabitur",
+      "citation": "Numbers 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "exclusa est itaque Maria extra castra septem diebus et populus non est motus de loco illo donec revocata est Maria",
+      "citation": "Numbers 12:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "profectus est de Aseroth fixis tentoriis in deserto Pharan",
+      "citation": "Numbers 12:16 (Clementine Vulgate)"
+    }
+  ]
+}

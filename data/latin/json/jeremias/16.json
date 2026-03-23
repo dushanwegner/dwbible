@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 16 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 16,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/15.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/17.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/16.json",
+      "german": "https://latinprayer.org/bibel/jeremias/16.json"
+    }
+  },
+  "citation": "Jeremiah 16 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et factum est verbum Domini ad me dicens",
+      "citation": "Jeremiah 16:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "non accipies uxorem et non erunt tibi filii et filiae in loco isto",
+      "citation": "Jeremiah 16:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia haec dicit Dominus super filios et filias qui generantur in loco isto et super matres eorum quae genuerunt eos et super patres eorum de quorum stirpe sunt nati in terra hac",
+      "citation": "Jeremiah 16:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "mortibus aegrotationum morientur non plangentur et non sepelientur in sterquilinium super faciem terrae erunt et gladio et fame consumentur et erit cadaver eorum in escam volatilibus caeli et bestiis terrae",
+      "citation": "Jeremiah 16:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "haec enim dicit Dominus ne ingrediaris domum convivii neque vadas ad plangendum neque consoleris eos quia abstuli pacem meam a populo isto dicit Dominus misericordiam et miserationes",
+      "citation": "Jeremiah 16:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et morientur grandes et parvi in terra ista non sepelientur neque plangentur et non se incident neque calvitium fiet pro eis",
+      "citation": "Jeremiah 16:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et non frangent inter eos lugenti panem ad consolandum super mortuo et non dabunt eis potum calicis ad consolandum super patre suo et matre",
+      "citation": "Jeremiah 16:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et domum convivii non ingredieris ut sedeas cum eis et comedas et bibas",
+      "citation": "Jeremiah 16:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quia haec dicit Dominus exercituum Deus Israhel ecce ego auferam de loco isto in oculis vestris et in diebus vestris vocem gaudii et vocem laetitiae vocem sponsi et vocem sponsae",
+      "citation": "Jeremiah 16:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et cum adnuntiaveris populo huic omnia verba haec et dixerint tibi quare locutus est Dominus super nos omne malum grande istud quae iniquitas nostra et quod peccatum nostrum quod peccavimus Domino Deo nostro",
+      "citation": "Jeremiah 16:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dices ad eos quia dereliquerunt patres vestri me ait Dominus et abierunt post deos alienos et servierunt eis et adoraverunt eos et me dereliquerunt et legem meam non custodierunt",
+      "citation": "Jeremiah 16:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "sed et vos peius operati estis quam patres vestri ecce enim ambulat unusquisque post pravitatem cordis sui mali ut me non audiat",
+      "citation": "Jeremiah 16:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et eiciam vos de terra hac in terram quam ignoratis vos et patres vestri et servietis ibi diis alienis die ac nocte qui non dabunt vobis requiem",
+      "citation": "Jeremiah 16:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "propterea ecce dies veniunt dicit Dominus et non dicetur ultra vivit Dominus qui eduxit filios Israhel de terra Aegypti",
+      "citation": "Jeremiah 16:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "sed vivit Dominus qui eduxit filios Israhel de terra aquilonis et de universis terris ad quas eieci eos et reducam eos in terram suam quam dedi patribus eorum",
+      "citation": "Jeremiah 16:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ecce ego mittam piscatores multos dicit Dominus et piscabuntur eos et post haec mittam eis multos venatores et venabuntur eos de omni monte et de omni colle et de cavernis petrarum",
+      "citation": "Jeremiah 16:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quia oculi mei super omnes vias eorum non sunt absconditae a facie mea et non fuit occulta iniquitas eorum ab oculis meis",
+      "citation": "Jeremiah 16:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et reddam primum duplices iniquitates et peccata eorum quia contaminaverunt terram meam in morticinis idolorum suorum et abominationibus suis impleverunt hereditatem meam",
+      "citation": "Jeremiah 16:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Domine fortitudo mea et robur meum et refugium meum in die tribulationis ad te gentes venient ab extremis terrae et dicent vere mendacium possederunt patres nostri vanitatem quae eis non profuit",
+      "citation": "Jeremiah 16:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "numquid faciet sibi homo deos et ipsi non sunt dii",
+      "citation": "Jeremiah 16:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "idcirco ecce ego ostendam eis per vicem hanc ostendam eis manum meam et virtutem meam et scient quia nomen mihi Dominus",
+      "citation": "Jeremiah 16:21 (Clementine Vulgate)"
+    }
+  ]
+}

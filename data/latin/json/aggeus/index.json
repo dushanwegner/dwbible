@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Haggai — 2 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Haggai",
+      "slug": "aggeus",
+      "testament": "OT",
+      "order": 42,
+      "totalChapters": 2
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/aggeus/index.json",
+      "german": "https://latinprayer.org/bibel/aggeus/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/aggeus/1",
+      "jsonUrl": "https://latinprayer.org/latin/aggeus/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/latin/aggeus/2",
+      "jsonUrl": "https://latinprayer.org/latin/aggeus/2.json"
+    }
+  ]
+}

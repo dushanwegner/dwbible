@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 62 — 13 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 62,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/61.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/63.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/62.json",
+      "german": "https://latinprayer.org/bibel/psalms/62.json"
+    }
+  },
+  "citation": "Psalms 62 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Shall not my soul be subject to God? for from him is my salvation.",
+      "citation": "Psalms 62:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "A psalm of David while he was in the desert of Edom.",
+      "citation": "Psalms 62:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For he is my God and my saviour: he is my protector, I shall be moved no more.",
+      "citation": "Psalms 62:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "How long do you rush in upon a man? you all kill, as if you were thrusting down a leaning wall, and a tottering fence.",
+      "citation": "Psalms 62:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But they have thought to cast away my price; I ran in thirst: they blessed with their mouth, but cursed with their heart.",
+      "citation": "Psalms 62:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But be thou, O my soul, subject to God: for from him is my patience.",
+      "citation": "Psalms 62:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For he is my God and my saviour: he is my helper, I shall not be moved.",
+      "citation": "Psalms 62:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "In God is my salvation and my glory: he is the God of my help, and my hope is in God.",
+      "citation": "Psalms 62:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Trust in him, all ye congregation of people: pour out your hearts before him. God is our helper for ever.",
+      "citation": "Psalms 62:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But vain are the sons of men, the sons of men are liars in the balances: that by vanity they may together deceive.",
+      "citation": "Psalms 62:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Trust not in iniquity, and cover not robberies: if riches abound, set not your heart upon them.",
+      "citation": "Psalms 62:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "God hath spoken once, these two things have I heard, that power belongeth to God,",
+      "citation": "Psalms 62:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And mercy to thee, O Lord; for thou wilt render to every man according to his works.",
+      "citation": "Psalms 62:12 (Douay-Rheims)"
+    }
+  ]
+}

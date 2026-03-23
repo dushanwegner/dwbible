@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Galatians, Chapter 2 — 21 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Galatians",
+      "slug": "galatians",
+      "testament": "NT",
+      "order": 55,
+      "totalChapters": 6
+    },
+    "chapter": 2,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/galatians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/galatians/1.json",
+      "nextChapter": "https://latinprayer.org/bible/galatians/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/galatians/2.json",
+      "german": "https://latinprayer.org/bibel/galatians/2.json"
+    }
+  },
+  "citation": "Galatians 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Then, after fourteen years, I went up again to Jerusalem with Barnabas, taking Titus also with me.",
+      "citation": "Galatians 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And I went up according to revelation and communicated to them the gospel which I preach among the Gentiles: but apart to them who seemed to be some thing: lest perhaps I should run or had run in vain.",
+      "citation": "Galatians 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "But neither Titus, who was with me, being a Gentile, was compelled to be circumcised.",
+      "citation": "Galatians 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But because of false brethren unawares brought in, who came in privately to spy our liberty which we have in Christ Jesus, that they might bring us into servitude.",
+      "citation": "Galatians 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "To whom we yielded not by subjection: no, not for an hour: that the truth of the gospel might continue with you.",
+      "citation": "Galatians 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But of them who seemed to be some thing, (what they were some time it is nothing to me, God accepteth not the person of man): for to me they that seemed to be some thing added nothing.",
+      "citation": "Galatians 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But contrariwise, when they had seen that to me was committed the gospel of the uncircumcision, as to Peter was that of the circumcision.",
+      "citation": "Galatians 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "(For he who wrought in Peter to the apostleship of the circumcision wrought in me also among the Gentiles.)",
+      "citation": "Galatians 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And when they had known the grace that was given to me, James and Cephas and John, who seemed to be pillars, gave to me and Barnabas the right hands of fellowship: that we should go unto the Gentiles, and they unto the circumcision:",
+      "citation": "Galatians 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Only that we should be mindful of the poor: which same thing also I was careful to do.",
+      "citation": "Galatians 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "But when Cephas was come to Antioch, I withstood him to the face, because he was to be blamed.",
+      "citation": "Galatians 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For before that some came from James, he did eat with the Gentiles: but when they were come, he withdrew and separated himself, fearing them who were of the circumcision.",
+      "citation": "Galatians 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And to his dissimulation the rest of the Jews consented: so that Barnabas also was led by them into that dissimulation.",
+      "citation": "Galatians 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But when I saw that they walked not uprightly unto the truth of the gospel, I said to Cephas before them all: If thou, being a Jew, livest after the manner of the Gentiles and not as the Jews do, how dost thou compel the Gentiles to live as do the Jews?",
+      "citation": "Galatians 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "We by nature are Jews: and not of the Gentiles, sinners.",
+      "citation": "Galatians 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "But knowing that man is not justified by the works of the law, but by the faith of Jesus Christ, we also believe in Christ Jesus, that we may be justified by the faith of Christ and not by the works of the law: because by the works of the law no flesh shall be justified.",
+      "citation": "Galatians 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But if, while we seek to be justified in Christ, we ourselves also are found sinners, is Christ then the minister of sin? God forbid!",
+      "citation": "Galatians 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "For if I build up again the things which I have destroyed, I make myself a prevaricator.",
+      "citation": "Galatians 2:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For I, through the law, am dead to the law, that I may live to God; with Christ I am nailed to the cross.",
+      "citation": "Galatians 2:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And I live, now not I: but Christ liveth in me. And that I live now in the flesh: I live in the faith of the Son of God, who loved me and delivered himself for me.",
+      "citation": "Galatians 2:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "I cast not away the grace of God. For if justice be by the law, then Christ died in vain.",
+      "citation": "Galatians 2:21 (Douay-Rheims)"
+    }
+  ]
+}

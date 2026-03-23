@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 21 — 34 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 21,
+    "verseCount": 34,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/genesis/20.json",
+      "nextChapter": "https://latinprayer.org/bible/genesis/22.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/genesis/21.json",
+      "german": "https://latinprayer.org/bibel/genesis/21.json"
+    }
+  },
+  "citation": "Genesis 21 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord visited Sara, as he had promised: and fulfilled what he had spoken.",
+      "citation": "Genesis 21:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And she conceived and bore a son in her old age, at the time that God had foretold her.",
+      "citation": "Genesis 21:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Abraham called the name of his son, whom Sara bore him, Isaac.",
+      "citation": "Genesis 21:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he circumcised him the eighth day, as God had commanded him,",
+      "citation": "Genesis 21:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "When he was a hundred years old: for at this age of his father, was Isaac born.",
+      "citation": "Genesis 21:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Sara said: God hath made a laughter for me: whosoever shall hear of it will laugh with me.",
+      "citation": "Genesis 21:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And again she said: Who would believe that Abraham should hear that Sara gave suck to a son, whom she bore to him in his old age?",
+      "citation": "Genesis 21:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the child grew, and was weaned: and Abraham made a great feast on the day of his weaning.",
+      "citation": "Genesis 21:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And when Sara had seen the son of Agar, the Egyptian, playing with Isaac, her son, she said to Abraham:",
+      "citation": "Genesis 21:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Cast out this bondwoman and her son; for the son of the bondwoman shall not be heir with my son Isaac.",
+      "citation": "Genesis 21:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Abraham took this grievously for his son.",
+      "citation": "Genesis 21:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And God said to him: Let it not seem grievous to thee for the boy, and for thy bondwoman: in all that Sara hath said to thee, hearken to her voice: for in Isaac shall thy seed be called.",
+      "citation": "Genesis 21:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But I will make the son also of the bondwoman a great nation, because he is thy seed.",
+      "citation": "Genesis 21:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "So Abraham rose up in the morning, and taking bread and a bottle of water, put it upon her shoulder, and delivered the boy, and sent her away. And she departed, and wandered in the wilderness of Bersabee.",
+      "citation": "Genesis 21:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And when the water in the bottle was spent, she cast the boy under one of the trees that were there.",
+      "citation": "Genesis 21:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And she went her way, and sat over against him a great way off, as far as a bow can carry, for she said: I will not see the boy die: and sitting over against, she lifted up her voice and wept.",
+      "citation": "Genesis 21:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And God heard the voice of the boy: and an angel of God called to Agar from heaven, saying: What art thou doing, Agar? fear not; for God hath heard the voice of the boy, from the place wherein he is.",
+      "citation": "Genesis 21:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Arise, take up the boy, and hold him by the hand, for I will make him a great nation.",
+      "citation": "Genesis 21:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And God opened her eyes: and she saw a well of water, and went and filled the bottle, and gave the boy to drink.",
+      "citation": "Genesis 21:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And God was with him: and he grew, and dwelt in the wilderness, and became a young man, an archer.",
+      "citation": "Genesis 21:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And he dwelt in the wilderness of Pharan, and his mother took a wife for him out of the land of Egypt.",
+      "citation": "Genesis 21:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "At the same time Abimelech, and Phicol the general of his army, said to Abraham: God is with thee in all that thou dost.",
+      "citation": "Genesis 21:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Swear therefore by God, that thou wilt not hurt me, nor my posterity, nor my stock: but according to the kindness that I have done to thee, thou shalt do to me, and to the land wherein thou hast lived a stranger.",
+      "citation": "Genesis 21:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And Abraham said: I will swear.",
+      "citation": "Genesis 21:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And he reproved Abimelech for a well of water, which his servants had taken away by force.",
+      "citation": "Genesis 21:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And Abimelech answered: I knew not who did this thing: and thou didst not tell me, and I heard not of it till today.",
+      "citation": "Genesis 21:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Then Abraham took sheep and oxen, and gave them to Abimelech: and both of them made a league.",
+      "citation": "Genesis 21:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And Abraham set apart seven ewelambs of the flock.",
+      "citation": "Genesis 21:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And Abimelech said to him: What mean these seven ewelambs which thou hast set apart?",
+      "citation": "Genesis 21:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "But he said: Thou shalt take seven ewelambs at my hand: that they may be a testimony for me, that I dug this well.",
+      "citation": "Genesis 21:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Therefore that place was called Bersabee; because there both of them did swear.",
+      "citation": "Genesis 21:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And they made a league for the well of oath.",
+      "citation": "Genesis 21:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And Abimelech and Phicol, the general of his army, arose and returned to the land of the Palestines. But Abraham planted a grove in Bersabee, and there called upon the name of the Lord God eternal.",
+      "citation": "Genesis 21:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And he was a sojourner in the land of the Palestines many days.",
+      "citation": "Genesis 21:34 (Douay-Rheims)"
+    }
+  ]
+}

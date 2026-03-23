@@ -1,0 +1,321 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Leviticus, Chapter 14 — 57 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Leviticus",
+      "slug": "leviticus",
+      "testament": "OT",
+      "order": 3,
+      "totalChapters": 27
+    },
+    "chapter": 14,
+    "verseCount": 57,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/leviticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/leviticus/13.json",
+      "nextChapter": "https://latinprayer.org/bible/leviticus/15.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/leviticus/14.json",
+      "german": "https://latinprayer.org/bibel/leviticus/14.json"
+    }
+  },
+  "citation": "Leviticus 14 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Leviticus 14:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "This is the rite of a leper, when he is to be cleansed. He shall be brought to the priest:",
+      "citation": "Leviticus 14:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Who going out of the camp, when he shall find that the leprosy is cleansed,",
+      "citation": "Leviticus 14:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Shall command him that is to be purified, to offer for himself two living sparrows, which it is lawful to eat, and cedar wood, and scarlet, and hyssop.",
+      "citation": "Leviticus 14:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And he shall command one of the sparrows to be immolated in an earthen vessel over living waters.",
+      "citation": "Leviticus 14:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But the other that is alive, he shall dip, with the cedar wood, and the scarlet and the hyssop, in the blood of the sparrow that is immolated:",
+      "citation": "Leviticus 14:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Wherewith he shall sprinkle him that is to be cleansed seven times, that he may be rightly purified. And he shall let go the living sparrow, that it may fly into the field.",
+      "citation": "Leviticus 14:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And when the man hath washed his clothes, he shall shave all the hair of his body, and shall be washed with water: and being purified he shall enter into the camp, yet so that he tarry without his own tent seven days.",
+      "citation": "Leviticus 14:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And on the seventh day he shall shave the hair of his head, and his beard and his eyebrows, and the hair of all his body. And having washed again his clothes, and his body,",
+      "citation": "Leviticus 14:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "On the eighth day, he shall take two lambs without blemish, and an ewe of a year old without blemish, and three tenths of flour tempered with oil for a sacrifice, and a sextary of oil apart.",
+      "citation": "Leviticus 14:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And when the priest that purifieth the man, hath presented him, and all these things before the Lord, at the door of the tabernacle of the testimony:",
+      "citation": "Leviticus 14:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "He shall take a lamb, and offer it for a trespass offering with the sextary of oil. And having offered all before the Lord,",
+      "citation": "Leviticus 14:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "He shall immolate the lamb, where the victim for sin is wont to be immolated, and the holocaust, that is, in the holy place. For as that which is for sin, so also the victim for a trespass offering pertaineth to the priest: it is holy of holies.",
+      "citation": "Leviticus 14:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And the priest taking of the blood of the victim that was immolated for trespass, shall put it upon the tip of the right ear of him that is cleansed, and upon the thumb of his right hand and the great toe of his right foot.",
+      "citation": "Leviticus 14:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And he shall pour of the sextary of oil into his own left hand,",
+      "citation": "Leviticus 14:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And shall dip his right finger in it, and sprinkle it before the Lord seven times.",
+      "citation": "Leviticus 14:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And the rest of the oil in his left hand, he shall pour upon the tip of the right ear of him that is cleansed, and upon the thumb of his right hand and the great toe of his right foot, and upon the blood that was shed for trespass:",
+      "citation": "Leviticus 14:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And upon his head.",
+      "citation": "Leviticus 14:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And he shall pray for him before the Lord, and shall offer the sacrifice for sin. Then shall he immolate the holocaust.",
+      "citation": "Leviticus 14:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And put it on the altar with the libations thereof: and the man shall be rightly cleansed.",
+      "citation": "Leviticus 14:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "But if he be poor, and his hand cannot find the things aforesaid: he shall take a lamb for an offering for trespass, that the priest may pray for him, and a tenth part of flour tempered with oil for a sacrifice, and a sextary of oil:",
+      "citation": "Leviticus 14:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And two turtles or two young pigeons, of which one may be for sin, and the other for a holocaust.",
+      "citation": "Leviticus 14:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And he shall offer them on the eighth day of his purification to the priest, at the door of the tabernacle of the testimony before the Lord.",
+      "citation": "Leviticus 14:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And the priest receiving the lamb for trespass, and the sextary of oil, shall elevate them together.",
+      "citation": "Leviticus 14:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And the lamb being immolated, he shall put of the blood thereof upon the tip of the right ear of him that is cleansed, and upon the thumb of his right hand, and the great toe of his right foot.",
+      "citation": "Leviticus 14:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "But he shall pour part of the oil into his own left hand,",
+      "citation": "Leviticus 14:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And dipping the finger of his right hand in it, he shall sprinkle it seven times before the Lord.",
+      "citation": "Leviticus 14:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And he shall touch the tip of the right ear of him that is cleansed, and the thumb of his right hand and the great toe of his right foot, in the place of the blood that was shed for trespass.",
+      "citation": "Leviticus 14:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And the other part of the oil that is in his left hand, he shall pour upon the head of the purified person, that he may appease the Lord for him.",
+      "citation": "Leviticus 14:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And he shall offer a turtle, or young pigeon:",
+      "citation": "Leviticus 14:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "One for trespass, and the other for a holocaust, with their libations.",
+      "citation": "Leviticus 14:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "This is the sacrifice of a leper, that is not able to have all things that appertain to his cleansing.",
+      "citation": "Leviticus 14:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And the Lord spoke to Moses and Aaron, saying:",
+      "citation": "Leviticus 14:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "When you shall come into the land of Chanaan, which I will give you for a possession, if there be the plague or leprosy in a house:",
+      "citation": "Leviticus 14:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "He whose house it is, shall go and tell the priest, saying: It seemeth to me, that there is the plague of leprosy in my house,",
+      "citation": "Leviticus 14:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And he shall command, that they carry forth all things out of the house, before he go into it, and see whether it have the leprosy, let all things become unclean that are in the house. And afterwards he shall go in to view the leprosy of the house.",
+      "citation": "Leviticus 14:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And if he see in the walls thereof as it were little dints, disfigured with paleness or redness, and lower than all he rest:",
+      "citation": "Leviticus 14:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "He shall go out of the door of the house, and forthwith shut it up seven days,",
+      "citation": "Leviticus 14:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And returning on the seventh day, he shall look upon it. If he find that the leprosy is spread,",
+      "citation": "Leviticus 14:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "He shall command, that the stones wherein the leprosy is, be taken out, and cast without the city into an unclean place:",
+      "citation": "Leviticus 14:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And that the house be scraped on the inside round about, and the dust of the scrapings be scattered without the city into an unclean place:",
+      "citation": "Leviticus 14:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And that other stones be laid in the place of them that were taken away, and the house be plastered with other mortar.",
+      "citation": "Leviticus 14:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "But if after the stones be taken out, and the dust scraped off, and it be plastered with other earth.",
+      "citation": "Leviticus 14:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "The priest going in perceive that the leprosy is returned, and the walls full of spots, it is a lasting leprosy, and the house is unclean.",
+      "citation": "Leviticus 14:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "And they shall destroy it forthwith, and shall cast the stones and timber thereof, and all the dust without the town into an unclean place.",
+      "citation": "Leviticus 14:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "He that entereth into the house when it is shut, shall be unclean until evening,",
+      "citation": "Leviticus 14:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "And he that sleepeth in it, and eateth any thing, shall wash his clothes.",
+      "citation": "Leviticus 14:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "But if the priest going in perceive that the leprosy is not spread in the house, after it was plastered again, he shall purify it, it being cured.",
+      "citation": "Leviticus 14:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "And for the purification thereof he shall take two sparrows, and cedar wood, and scarlet, and hyssop.",
+      "citation": "Leviticus 14:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "And having immolated one sparrow in an earthen vessel, over living waters,",
+      "citation": "Leviticus 14:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "He shall take the cedar wood, and the hyssop, and the scarlet, and the living sparrow, and shall dip all in the blood of the sparrow that is immolated, and in the living water: and he shall sprinkle the house seven times.",
+      "citation": "Leviticus 14:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "And shall purify it as well with the blood of the sparrow, as with the living water, and with the living sparrow, and with the cedar wood, and the hyssop, and the scarlet.",
+      "citation": "Leviticus 14:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "And when he hath let go the sparrow to fly freely away into the field, he shall pray for the house: and it shall be rightly cleansed.",
+      "citation": "Leviticus 14:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "This is the law of every kind of leprosy and stroke.",
+      "citation": "Leviticus 14:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "Of the leprosy of garments and houses,",
+      "citation": "Leviticus 14:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "Of a scar and of blisters breaking out of a shining spot, and when the colours are diversely changed:",
+      "citation": "Leviticus 14:56 (Douay-Rheims)"
+    },
+    {
+      "verse": 57,
+      "text": "That it may be known when a thing is clean or unclean.",
+      "citation": "Leviticus 14:57 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 3 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 3,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/job/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/job/2.json",
+      "nextChapter": "https://latinprayer.org/latin/job/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/3.json",
+      "german": "https://latinprayer.org/bibel/job/3.json"
+    }
+  },
+  "citation": "Job 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "post haec aperuit Iob os suum et maledixit diei suo",
+      "citation": "Job 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et locutus est",
+      "citation": "Job 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "pereat dies in qua natus sum et nox in qua dictum est conceptus est homo",
+      "citation": "Job 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "dies ille vertatur in tenebras non requirat eum Deus desuper et non inlustret lumine",
+      "citation": "Job 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "obscurent eum tenebrae et umbra mortis occupet eum caligo et involvatur amaritudine",
+      "citation": "Job 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "noctem illam tenebrosus turbo possideat non conputetur in diebus anni nec numeretur in mensibus",
+      "citation": "Job 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "sit nox illa solitaria nec laude digna",
+      "citation": "Job 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "maledicant ei qui maledicunt diei qui parati sunt suscitare Leviathan",
+      "citation": "Job 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "obtenebrentur stellae caligine eius expectet lucem et non videat nec ortum surgentis aurorae",
+      "citation": "Job 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quia non conclusit ostia ventris qui portavit me nec abstulit mala ab oculis meis",
+      "citation": "Job 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quare non in vulva mortuus sum egressus ex utero non statim perii",
+      "citation": "Job 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quare exceptus genibus cur lactatus uberibus",
+      "citation": "Job 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "nunc enim dormiens silerem et somno meo requiescerem",
+      "citation": "Job 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "cum regibus et consulibus terrae qui aedificant sibi solitudines",
+      "citation": "Job 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "aut cum principibus qui possident aurum et replent domos suas argento",
+      "citation": "Job 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "aut sicut abortivum absconditum non subsisterem vel qui concepti non viderunt lucem",
+      "citation": "Job 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "ibi impii cessaverunt a tumultu et ibi requieverunt fessi robore",
+      "citation": "Job 3:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et quondam vincti pariter sine molestia non audierunt vocem exactoris",
+      "citation": "Job 3:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "parvus et magnus ibi sunt et servus liber a domino suo",
+      "citation": "Job 3:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quare data est misero lux et vita his qui in amaritudine animae sunt",
+      "citation": "Job 3:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "qui expectant mortem et non venit quasi effodientes thesaurum",
+      "citation": "Job 3:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "gaudentque vehementer cum invenerint sepulchrum",
+      "citation": "Job 3:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "viro cuius abscondita est via et circumdedit eum Deus tenebris",
+      "citation": "Job 3:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "antequam comedam suspiro et quasi inundantes aquae sic rugitus meus",
+      "citation": "Job 3:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quia timor quem timebam evenit mihi et quod verebar accidit",
+      "citation": "Job 3:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "nonne dissimulavi nonne silui nonne quievi et venit super me indignatio",
+      "citation": "Job 3:26 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Leviticus, Chapter 26 — 45 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Leviticus",
+      "slug": "leviticus",
+      "testament": "OT",
+      "order": 3,
+      "totalChapters": 27
+    },
+    "chapter": 26,
+    "verseCount": 45,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/leviticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/leviticus/25.json",
+      "nextChapter": "https://latinprayer.org/latin/leviticus/27.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/leviticus/26.json",
+      "german": "https://latinprayer.org/bibel/leviticus/26.json"
+    }
+  },
+  "citation": "Leviticus 26 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ego Dominus Deus vester non facietis vobis idolum et sculptile nec titulos erigetis nec insignem lapidem ponetis in terra vestra ut adoretis eum ego enim sum Dominus Deus vester",
+      "citation": "Leviticus 26:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "custodite sabbata mea et pavete ad sanctuarium meum ego Dominus",
+      "citation": "Leviticus 26:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "si in praeceptis meis ambulaveritis et mandata mea custodieritis et feceritis ea dabo vobis pluvias temporibus suis",
+      "citation": "Leviticus 26:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et terra gignet germen suum et pomis arbores replebuntur",
+      "citation": "Leviticus 26:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "adprehendet messium tritura vindemiam et vindemia occupabit sementem et comedetis panem vestrum in saturitatem et absque pavore habitabitis in terra vestra",
+      "citation": "Leviticus 26:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dabo pacem in finibus vestris dormietis et non erit qui exterreat auferam malas bestias et gladius non transibit terminos vestros",
+      "citation": "Leviticus 26:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "persequemini inimicos vestros et corruent coram vobis",
+      "citation": "Leviticus 26:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "persequentur quinque de vestris centum alienos et centum ex vobis decem milia cadent inimici vestri in conspectu vestro gladio",
+      "citation": "Leviticus 26:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "respiciam vos et crescere faciam multiplicabimini et firmabo pactum meum vobiscum",
+      "citation": "Leviticus 26:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "comedetis vetustissima veterum et vetera novis supervenientibus proicietis",
+      "citation": "Leviticus 26:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ponam tabernaculum meum in medio vestri et non abiciet vos anima mea",
+      "citation": "Leviticus 26:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ambulabo inter vos et ero vester Deus vosque eritis populus meus",
+      "citation": "Leviticus 26:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ego Dominus Deus vester qui eduxi vos de terra Aegyptiorum ne serviretis eis et qui confregi catenas cervicum vestrarum ut incederetis erecti",
+      "citation": "Leviticus 26:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quod si non audieritis me nec feceritis omnia mandata mea",
+      "citation": "Leviticus 26:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "si spreveritis leges meas et iudicia mea contempseritis ut non faciatis ea quae a me constituta sunt et ad irritum perducatis pactum meum",
+      "citation": "Leviticus 26:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ego quoque haec faciam vobis visitabo vos velociter in egestate et ardore qui conficiat oculos vestros et consumat animas frustra seretis sementem quae ab hostibus devorabitur",
+      "citation": "Leviticus 26:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "ponam faciem meam contra vos et corruetis coram hostibus vestris et subiciemini his qui oderunt vos fugietis nemine persequente",
+      "citation": "Leviticus 26:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "sin autem nec sic oboedieritis mihi addam correptiones vestras septuplum propter peccata vestra",
+      "citation": "Leviticus 26:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et conteram superbiam duritiae vestrae daboque caelum vobis desuper sicut ferrum et terram aeneam",
+      "citation": "Leviticus 26:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "consumetur in cassum labor vester non proferet terra germen nec arbores poma praebebunt",
+      "citation": "Leviticus 26:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "si ambulaveritis ex adverso mihi nec volueritis audire me addam plagas vestras usque in septuplum propter peccata vestra",
+      "citation": "Leviticus 26:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "emittamque in vos bestias agri quae consumant et vos et pecora vestra et ad paucitatem cuncta redigant desertaeque fiant viae vestrae",
+      "citation": "Leviticus 26:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "quod si nec sic volueritis recipere disciplinam sed ambulaveritis ex adverso mihi",
+      "citation": "Leviticus 26:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "ego quoque contra vos adversus incedam et percutiam vos septies propter peccata vestra",
+      "citation": "Leviticus 26:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "inducamque super vos gladium ultorem foederis mei cumque confugeritis in urbes mittam pestilentiam in medio vestri et trademini hostium manibus",
+      "citation": "Leviticus 26:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "postquam confregero baculum panis vestri ita ut decem mulieres in uno clibano coquant panes et reddant eos ad pondus et comedetis et non saturabimini",
+      "citation": "Leviticus 26:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "sin autem nec per haec audieritis me sed ambulaveritis contra me",
+      "citation": "Leviticus 26:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et ego incedam adversum vos in furore contrario et corripiam vos septem plagis propter peccata vestra",
+      "citation": "Leviticus 26:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "ita ut comedatis carnes filiorum et filiarum vestrarum",
+      "citation": "Leviticus 26:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "destruam excelsa vestra et simulacra confringam cadetis inter ruinas idolorum vestrorum et abominabitur vos anima mea",
+      "citation": "Leviticus 26:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "in tantum ut urbes vestras redigam in solitudinem et deserta faciam sanctuaria vestra nec recipiam ultra odorem suavissimum",
+      "citation": "Leviticus 26:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "disperdamque terram vestram et stupebunt super ea inimici vestri cum habitatores illius fuerint",
+      "citation": "Leviticus 26:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "vos autem dispergam in gentes et evaginabo post vos gladium eritque terra vestra deserta et civitates dirutae",
+      "citation": "Leviticus 26:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "tunc placebunt terrae sabbata sua cunctis diebus solitudinis suae quando fueritis",
+      "citation": "Leviticus 26:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "in terra hostili sabbatizabit et requiescet in sabbatis solitudinis suae eo quod non requieverit in sabbatis vestris quando habitabatis in ea",
+      "citation": "Leviticus 26:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "et qui de vobis remanserint dabo pavorem in cordibus eorum in regionibus hostium terrebit eos sonitus folii volantis et ita fugient quasi gladium cadent nullo sequente",
+      "citation": "Leviticus 26:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et corruent singuli super fratres suos quasi bella fugientes nemo vestrum inimicis audebit resistere",
+      "citation": "Leviticus 26:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "peribitis inter gentes et hostilis vos terra consumet",
+      "citation": "Leviticus 26:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "quod si et de his aliqui remanserint tabescent in iniquitatibus suis in terra inimicorum suorum et propter peccata patrum suorum et sua adfligentur",
+      "citation": "Leviticus 26:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "donec confiteantur iniquitates suas et maiorum suorum quibus praevaricati sunt in me et ambulaverunt ex adverso mihi",
+      "citation": "Leviticus 26:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "ambulabo igitur et ego contra eos et inducam illos in terram hostilem donec erubescat incircumcisa mens eorum tunc orabunt pro impietatibus suis",
+      "citation": "Leviticus 26:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et recordabor foederis mei quod pepigi cum Iacob et Isaac et Abraham terrae quoque memor ero",
+      "citation": "Leviticus 26:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "quae cum relicta fuerit ab eis conplacebit sibi in sabbatis suis patiens solitudinem propter illos ipsi vero rogabunt pro peccatis suis eo quod abiecerint iudicia mea et leges meas despexerint",
+      "citation": "Leviticus 26:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et tamen etiam cum essent in terra hostili non penitus abieci eos neque sic despexi ut consumerentur et irritum facerem pactum meum cum eis ego enim sum Dominus Deus eorum",
+      "citation": "Leviticus 26:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "et recordabor foederis mei pristini quando eduxi eos de terra Aegypti in conspectu gentium ut essem Deus eorum ego Dominus Deus haec sunt praecepta atque iudicia et leges quas dedit Dominus inter se et inter filios Israhel in monte Sinai per manum Mosi",
+      "citation": "Leviticus 26:46 (Clementine Vulgate)"
+    }
+  ]
+}

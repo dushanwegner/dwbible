@@ -2,14 +2,14 @@
 /*
 * Plugin Name: The Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.03.18.01
+* Version: 1.26.03.21.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('THEBIBLE_VERSION')) {
-    define('THEBIBLE_VERSION', '1.26.03.18.01');
+    define('THEBIBLE_VERSION', '1.26.03.21.01');
 }
 
 // Load include classes before hooks are registered
@@ -35,11 +35,14 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-router.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-selftest.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-autolink.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-nav-helpers.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-json-api.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-jsonld.php';
 class TheBible_Plugin {
     use TheBible_Interlinear_Trait;
     use TheBible_Router_Trait;
     use TheBible_SelfTest_Trait;
     use TheBible_AutoLink_Trait;
+    use TheBible_JSON_API_Trait;
     const QV_FLAG = 'thebible';
     const QV_BOOK = 'thebible_book';
     const QV_CHAPTER = 'thebible_ch';
@@ -49,6 +52,7 @@ class TheBible_Plugin {
     const QV_OG   = 'thebible_og';
     const QV_SITEMAP = 'thebible_sitemap';
     const QV_SELFTEST = 'thebible_selftest';
+    const QV_FORMAT   = 'thebible_format';
 
     private static $books = null; // array of [order, short_name, filename]
     private static $slug_map = null; // slug => array entry
@@ -91,6 +95,15 @@ class TheBible_Plugin {
         add_filter('bulk_actions-edit-page', [__CLASS__, 'register_strip_bibleserver_bulk']);
         add_filter('handle_bulk_actions-edit-post', [__CLASS__, 'handle_strip_bibleserver_bulk'], 10, 3);
         add_filter('handle_bulk_actions-edit-page', [__CLASS__, 'handle_strip_bibleserver_bulk'], 10, 3);
+
+        // AI optimization: robots.txt directives for AI crawlers
+        add_filter( 'robots_txt', [ __CLASS__, 'filter_robots_txt' ], 100, 2 );
+
+        // AI optimization: JSON-LD structured data on Bible HTML pages
+        add_action( 'wp_head', [ 'TheBible_JsonLd', 'print_jsonld' ] );
+
+        // AI optimization: <link rel="alternate"> pointing to JSON on Bible pages
+        add_action( 'wp_head', [ __CLASS__, 'print_json_alternate_link' ] );
 
         register_activation_hook(__FILE__, [__CLASS__, 'activate']);
         register_deactivation_hook(__FILE__, [__CLASS__, 'deactivate']);
@@ -255,6 +268,36 @@ class TheBible_Plugin {
 
     public static function add_rewrite_rules() {
         $slugs = self::base_slugs();
+
+        // ── JSON API routes (must come before HTML routes for priority) ──
+        foreach ($slugs as $slug) {
+            $slug = trim($slug, "/ ");
+            if ($slug === '') continue;
+            $qs = preg_quote($slug, '/');
+            // /{slug}/index.json → translation index
+            add_rewrite_rule(
+                '^' . $qs . '/index\.json$',
+                'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug,
+                'top'
+            );
+            // /{slug}/{book}/index.json → book index
+            add_rewrite_rule(
+                '^' . $qs . '/([^/]+)/index\.json$',
+                'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug . '&' . self::QV_BOOK . '=$matches[1]',
+                'top'
+            );
+            // /{slug}/{book}/{chapter}.json → chapter data
+            add_rewrite_rule(
+                '^' . $qs . '/([^/]+)/([0-9]+)\.json$',
+                'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug . '&' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]',
+                'top'
+            );
+        }
+        // /llms.txt and /llms-full.txt — AI entry-point documents
+        add_rewrite_rule( '^llms\.txt$', 'index.php?' . self::QV_FORMAT . '=llms&' . self::QV_FLAG . '=1', 'top' );
+        add_rewrite_rule( '^llms-full\.txt$', 'index.php?' . self::QV_FORMAT . '=llms-full&' . self::QV_FLAG . '=1', 'top' );
+
+        // ── HTML routes ─────────────────────────────────────────────────
         foreach ($slugs as $slug) {
             $slug = trim($slug, "/ ");
             if ($slug === '') continue;
@@ -322,6 +365,7 @@ class TheBible_Plugin {
         $vars[] = self::QV_OG;
         $vars[] = self::QV_SITEMAP;
         $vars[] = self::QV_SELFTEST;
+        $vars[] = self::QV_FORMAT;
         return $vars;
     }
 
@@ -983,6 +1027,61 @@ class TheBible_Plugin {
             $parts['title'] = self::$current_page_title;
         }
         return $parts;
+    }
+
+    /**
+     * Append AI-friendly directives to the WordPress virtual robots.txt.
+     *
+     * Explicitly allows major AI crawlers and references Bible sitemaps
+     * so AI agents can discover all available Bible content.
+     */
+    public static function filter_robots_txt( $output, $public ) {
+        $site_url = site_url();
+
+        $output .= "\n";
+        $output .= "# ── AI Crawlers Welcome ────────────────────────────\n";
+        $output .= "# See /llms.txt for structured API documentation\n";
+        $output .= "\n";
+
+        $bots = [
+            'GPTBot', 'ChatGPT-User', 'ClaudeBot', 'anthropic-ai',
+            'PerplexityBot', 'GoogleOther', 'cohere-ai',
+        ];
+        foreach ( $bots as $bot ) {
+            $output .= "User-agent: {$bot}\nAllow: /\n\n";
+        }
+
+        $output .= "# ── Bible Sitemaps ─────────────────────────────────\n";
+        $output .= "Sitemap: {$site_url}/bible-sitemap-bible.xml\n";
+        $output .= "Sitemap: {$site_url}/bible-sitemap-bibel.xml\n";
+        $output .= "Sitemap: {$site_url}/bible-sitemap-latin.xml\n";
+
+        return $output;
+    }
+
+    /**
+     * Output <link rel="alternate"> pointing to the JSON version of the
+     * current Bible page, so AI agents know structured data is available.
+     */
+    public static function print_json_alternate_link() {
+        if ( ! self::is_bible_request() ) {
+            return;
+        }
+        $slug = get_query_var( self::QV_SLUG );
+        if ( ! is_string( $slug ) || $slug === '' ) { $slug = 'bible'; }
+        $book    = get_query_var( self::QV_BOOK );
+        $chapter = get_query_var( self::QV_CHAPTER );
+
+        // Build the JSON URL
+        if ( ! empty( $book ) && ! empty( $chapter ) ) {
+            $json_url = home_url( "/{$slug}/{$book}/{$chapter}.json" );
+        } elseif ( ! empty( $book ) ) {
+            $json_url = home_url( "/{$slug}/{$book}/index.json" );
+        } else {
+            $json_url = home_url( "/{$slug}/index.json" );
+        }
+
+        echo '<link rel="alternate" type="application/json" href="' . esc_url( $json_url ) . '" />' . "\n";
     }
 
     private static function output_with_theme($title, $content_html, $context = '') {

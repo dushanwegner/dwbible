@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 41 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 41,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/40.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/42.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/41.json",
+      "german": "https://latinprayer.org/bibel/psalms/41.json"
+    }
+  },
+  "citation": "Psalms 41 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Blessed is he that understandeth concerning the needy and the poor: the Lord will deliver him in the evil day.",
+      "citation": "Psalms 41:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, understanding for the sons of Core.",
+      "citation": "Psalms 41:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The Lord preserve him and give him life, and make him blessed upon the earth: and deliver him not up to the will of his enemies.",
+      "citation": "Psalms 41:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The Lord help him on his bed of sorrow: thou hast turned all his couch in his sickness.",
+      "citation": "Psalms 41:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "I said: O Lord, be thou merciful to me: heal my soul, for I have sinned against thee.",
+      "citation": "Psalms 41:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "My enemies have spoken evils against me: when shall he die and his name perish?",
+      "citation": "Psalms 41:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And if he came in to see me, he spoke vain things: his heart gathered together iniquity to itself. He went out and spoke to the same purpose.",
+      "citation": "Psalms 41:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "All my enemies whispered together against me: they devised evils to me.",
+      "citation": "Psalms 41:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "They determined against me an unjust word: shall he that sleepeth rise again no more?",
+      "citation": "Psalms 41:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For even the man of my peace, in whom I trusted, who ate my bread, hath greatly supplanted me.",
+      "citation": "Psalms 41:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But thou, O Lord, have mercy on me, and raise my up again: and I will requite them.",
+      "citation": "Psalms 41:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "By this I know, that thou hast had a good will for me: because my enemy shall not rejoice over me.",
+      "citation": "Psalms 41:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "But thou hast upheld me by reason of my innocence: and hast established me in thy sight for ever.",
+      "citation": "Psalms 41:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Blessed be the Lord the God of Israel from eternity to eternity. So be it. So be it.",
+      "citation": "Psalms 41:13 (Douay-Rheims)"
+    }
+  ]
+}

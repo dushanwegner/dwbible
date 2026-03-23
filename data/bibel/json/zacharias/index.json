@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sacharja — 14 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sacharja",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/zacharias/index.json",
+      "latin": "https://latinprayer.org/latin/zacharias/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bibel/zacharias/1",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bibel/zacharias/2",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 10,
+      "url": "https://latinprayer.org/bibel/zacharias/3",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bibel/zacharias/4",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/bibel/zacharias/5",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/bibel/zacharias/6",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bibel/zacharias/7",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/bibel/zacharias/8",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bibel/zacharias/9",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 12,
+      "url": "https://latinprayer.org/bibel/zacharias/10",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bibel/zacharias/11",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bibel/zacharias/12",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 9,
+      "url": "https://latinprayer.org/bibel/zacharias/13",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bibel/zacharias/14",
+      "jsonUrl": "https://latinprayer.org/bibel/zacharias/14.json"
+    }
+  ]
+}

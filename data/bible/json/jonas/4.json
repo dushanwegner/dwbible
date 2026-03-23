@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jonas, Chapter 4 — 11 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jonas",
+      "slug": "jonas",
+      "testament": "OT",
+      "order": 37,
+      "totalChapters": 4
+    },
+    "chapter": 4,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/jonas/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/jonas/3.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/jonas/4.json",
+      "german": "https://latinprayer.org/bibel/jonas/4.json"
+    }
+  },
+  "citation": "Jonas 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And Jonas was exceedingly troubled, and was angry:",
+      "citation": "Jonas 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he prayed to the Lord, and said: I beseech thee, O Lord, is not this what I said, when I was yet in my own country? therefore I went before to flee into Tharsis: for I know that thou art a gracious and merciful God, patient, and of much compassion, and easy to forgive evil.",
+      "citation": "Jonas 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And now, O Lord, I beseech thee take my life from me: for it is better for me to die than to live.",
+      "citation": "Jonas 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And the Lord said: Dost thou think thou hast reason to be angry?",
+      "citation": "Jonas 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Then Jonas went out of the city, and sat toward the east side of the city: and he made himself a booth there, and he sat under it in the shadow, till he might see what would befall the city.",
+      "citation": "Jonas 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the Lord God prepared an ivy, and it came up over the head of Jonas, to be a shadow over his head, and to cover him (for he was fatigued): and Jonas was exceeding glad of the ivy.",
+      "citation": "Jonas 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But God prepared a worm, when the morning arose on the following day: and it struck the ivy and it withered.",
+      "citation": "Jonas 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And when the sun was risen, the Lord commanded a hot and burning wind: and the sun beat upon the head of Jonas, and he broiled with the heat: and he desired for his soul that he might die, and said: It is better for me to die than to live.",
+      "citation": "Jonas 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the Lord said to Jonas: Dost thou think thou hast reason to be angry, for the ivy? And he said: I am angry with reason even unto death.",
+      "citation": "Jonas 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the Lord said: Thou art grieved for the ivy, for which thou hast not laboured, nor made it to grow, which in one night came up, and in one night perished.",
+      "citation": "Jonas 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And shall I not spare Ninive, that great city, in which there are more than a hundred and twenty thousand persons, that know not how to distinguish between their right hand and their left, and many beasts?",
+      "citation": "Jonas 4:11 (Douay-Rheims)"
+    }
+  ]
+}

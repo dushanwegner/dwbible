@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 6 — 11 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 6,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/osee/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/osee/5.json",
+      "nextChapter": "https://latinprayer.org/latin/osee/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/6.json",
+      "german": "https://latinprayer.org/bibel/osee/6.json"
+    }
+  },
+  "citation": "Hosea 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in tribulatione sua mane consurgunt ad me venite et revertamur ad Dominum",
+      "citation": "Hosea 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quia ipse cepit et sanabit nos percutiet et curabit nos",
+      "citation": "Hosea 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "vivificabit nos post duos dies in die tertia suscitabit nos et vivemus in conspectu eius sciemus sequemurque ut cognoscamus Dominum quasi diluculum praeparatus est egressus eius et veniet quasi imber nobis temporaneus et serotinus terrae",
+      "citation": "Hosea 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quid faciam tibi Ephraim quid faciam tibi Iuda misericordia vestra quasi nubes matutina et quasi ros mane pertransiens",
+      "citation": "Hosea 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "propter hoc dolavi in prophetis occidi eos in verbis oris mei et iudicia tua quasi lux egredientur",
+      "citation": "Hosea 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quia misericordiam volui et non sacrificium et scientiam Dei plus quam holocausta",
+      "citation": "Hosea 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ipsi autem sicut Adam transgressi sunt pactum ibi praevaricati sunt in me",
+      "citation": "Hosea 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Galaad civitas operantium idolum subplantata sanguine",
+      "citation": "Hosea 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et quasi fauces virorum latronum particeps sacerdotum in via interficientium pergentes de Sychem quia scelus operati sunt",
+      "citation": "Hosea 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in domo Israhel vidi horrendum ibi fornicationes Ephraim contaminatus est Israhel",
+      "citation": "Hosea 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sed et Iuda pone messem tibi cum convertero captivitatem populi mei",
+      "citation": "Hosea 6:11 (Clementine Vulgate)"
+    }
+  ]
+}

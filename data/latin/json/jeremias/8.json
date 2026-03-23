@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 8 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 8,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/7.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/8.json",
+      "german": "https://latinprayer.org/bibel/jeremias/8.json"
+    }
+  },
+  "citation": "Jeremiah 8 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in tempore illo ait Dominus eicient ossa regis Iuda et ossa principum eius et ossa sacerdotum et ossa prophetarum et ossa eorum qui habitaverunt Hierusalem de sepulchris suis",
+      "citation": "Jeremiah 8:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et pandent ea ad solem et lunam et omnem militiam caeli quae dilexerunt et quibus servierunt et post quae ambulaverunt et quae quaesierunt et adoraverunt non colligentur et non sepelientur in sterquilinium super faciem terrae erunt",
+      "citation": "Jeremiah 8:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et eligent magis mortem quam vitam omnes qui residui fuerint de cognatione hac pessima in universis locis quae derelicta sunt ad quae eieci eos dicit Dominus exercituum",
+      "citation": "Jeremiah 8:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dices ad eos haec dicit Dominus numquid qui cadet non resurget et qui aversus est non revertetur",
+      "citation": "Jeremiah 8:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quare ergo aversus est populus iste in Hierusalem aversione contentiosa adprehenderunt mendacium et noluerunt reverti",
+      "citation": "Jeremiah 8:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "adtendi et auscultavi nemo quod bonum est loquitur nullus est qui agat paenitentiam super peccato suo dicens quid feci omnes conversi sunt ad cursum suum quasi equus impetu vadens in proelio",
+      "citation": "Jeremiah 8:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "milvus in caelo cognovit tempus suum turtur et hirundo et ciconia custodierunt tempus adventus sui populus autem meus non cognovit iudicium Domini",
+      "citation": "Jeremiah 8:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quomodo dicitis sapientes nos sumus et lex Domini nobiscum est vere mendacium operatus est stilus mendax scribarum",
+      "citation": "Jeremiah 8:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "confusi sunt sapientes perterriti et capti sunt verbum enim Domini proiecerunt et sapientia nulla est in eis",
+      "citation": "Jeremiah 8:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "propterea dabo mulieres eorum exteris agros eorum heredibus quia a minimo usque ad maximum omnes avaritiam sequuntur a propheta usque ad sacerdotem cuncti faciunt mendacium",
+      "citation": "Jeremiah 8:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et sanabant contritionem filiae populi mei ad ignominiam dicentes pax pax cum non esset pax",
+      "citation": "Jeremiah 8:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "confusi sunt quia abominationem fecerunt quinimmo confusione non sunt confusi et erubescere nescierunt idcirco cadent inter corruentes in tempore visitationis suae corruent dicit Dominus",
+      "citation": "Jeremiah 8:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "congregans congregabo eos ait Dominus non est uva in vitibus et non sunt ficus in ficulnea folium defluxit et dedi eis quae praetergressa sunt",
+      "citation": "Jeremiah 8:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quare sedemus convenite et ingrediamur civitatem munitam et sileamus ibi quia Dominus noster silere nos fecit et potum dedit nobis aquam fellis peccavimus enim Domino",
+      "citation": "Jeremiah 8:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "expectavimus pacem et non erat bonum tempus medellae et ecce formido",
+      "citation": "Jeremiah 8:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "a Dan auditus est fremitus equorum eius a voce hinnituum pugnatorum eius commota est omnis terra et venerunt et devoraverunt terram et plenitudinem eius urbem et habitatores eius",
+      "citation": "Jeremiah 8:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quia ecce ego mittam vobis serpentes regulos quibus non est incantatio et mordebunt vos ait Dominus",
+      "citation": "Jeremiah 8:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "dolor meus super dolorem in me cor meum maerens",
+      "citation": "Jeremiah 8:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "ecce vox clamoris filiae populi mei de terra longinqua numquid Dominus non est in Sion aut rex eius non est in ea quare ergo me ad iracundiam concitaverunt in sculptilibus suis et in vanitatibus alienis",
+      "citation": "Jeremiah 8:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "transiit messis finita est aestas et nos salvati non sumus",
+      "citation": "Jeremiah 8:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "super contritionem filiae populi mei contritus sum et contristatus stupor obtinuit me",
+      "citation": "Jeremiah 8:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "numquid resina non est in Galaad aut medicus non est ibi quare igitur non est obducta cicatrix filiae populi mei",
+      "citation": "Jeremiah 8:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "quis dabit capiti meo aquam et oculis meis fontem lacrimarum et plorabo die et nocte interfectos filiae populi mei",
+      "citation": "Jeremiah 8:23 (Clementine Vulgate)"
+    }
+  ]
+}

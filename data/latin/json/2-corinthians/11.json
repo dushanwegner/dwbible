@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Corinthians, Chapter 11 — 33 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "chapter": 11,
+    "verseCount": 33,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-corinthians/10.json",
+      "nextChapter": "https://latinprayer.org/latin/2-corinthians/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-corinthians/11.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/11.json"
+    }
+  },
+  "citation": "2 Corinthians 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "utinam sustineretis modicum quid insipientiae meae sed et subportate me",
+      "citation": "2 Corinthians 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "aemulor enim vos Dei aemulatione despondi enim vos uni viro virginem castam exhibere Christo",
+      "citation": "2 Corinthians 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "timeo autem ne sicut serpens Evam seduxit astutia sua ita corrumpantur sensus vestri et excidant a simplicitate quae est in Christo",
+      "citation": "2 Corinthians 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nam si is qui venit alium Christum praedicat quem non praedicavimus aut alium spiritum accipitis quem non accepistis aut aliud evangelium quod non recepistis recte pateremini",
+      "citation": "2 Corinthians 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "existimo enim nihil me minus fecisse magnis apostolis",
+      "citation": "2 Corinthians 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et si inperitus sermone sed non scientia in omnibus autem manifestatus sum vobis",
+      "citation": "2 Corinthians 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "aut numquid peccatum feci me ipsum humilians ut vos exaltemini quoniam gratis evangelium Dei evangelizavi vobis",
+      "citation": "2 Corinthians 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "alias ecclesias expoliavi accipiens stipendium ad ministerium vestrum",
+      "citation": "2 Corinthians 11:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et cum essem apud vos et egerem nulli onerosus fui nam quod mihi deerat suppleverunt fratres qui venerunt a Macedonia et in omnibus sine onere me vobis servavi et servabo",
+      "citation": "2 Corinthians 11:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "est veritas Christi in me quoniam haec gloria non infringetur in me in regionibus Achaiae",
+      "citation": "2 Corinthians 11:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quare quia non diligo vos Deus scit",
+      "citation": "2 Corinthians 11:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quod autem facio et faciam ut amputem occasionem eorum qui volunt occasionem ut in quo gloriantur inveniantur sicut et nos",
+      "citation": "2 Corinthians 11:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "nam eiusmodi pseudoapostoli operarii subdoli transfigurantes se in apostolos Christi",
+      "citation": "2 Corinthians 11:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et non mirum ipse enim Satanas transfigurat se in angelum lucis",
+      "citation": "2 Corinthians 11:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "non est ergo magnum si ministri eius transfigurentur velut ministri iustitiae quorum finis erit secundum opera ipsorum",
+      "citation": "2 Corinthians 11:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "iterum dico ne quis me putet insipientem alioquin velut insipientem accipite me ut et ego modicum quid glorier",
+      "citation": "2 Corinthians 11:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quod loquor non loquor secundum Dominum sed quasi in insipientia in hac substantia gloriae",
+      "citation": "2 Corinthians 11:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quoniam multi gloriantur secundum carnem et ego gloriabor",
+      "citation": "2 Corinthians 11:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "libenter enim suffertis insipientes cum sitis ipsi sapientes",
+      "citation": "2 Corinthians 11:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "sustinetis enim si quis vos in servitutem redigit si quis devorat si quis accipit si quis extollitur si quis in faciem vos caedit",
+      "citation": "2 Corinthians 11:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "secundum ignobilitatem dico quasi nos infirmi fuerimus in quo quis audet in insipientia dico audeo et ego",
+      "citation": "2 Corinthians 11:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "Hebraei sunt et ego Israhelitae sunt et ego semen Abrahae sunt et ego",
+      "citation": "2 Corinthians 11:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ministri Christi sunt minus sapiens dico plus ego in laboribus plurimis in carceribus abundantius in plagis supra modum in mortibus frequenter",
+      "citation": "2 Corinthians 11:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "a Iudaeis quinquies quadragenas una minus accepi",
+      "citation": "2 Corinthians 11:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "ter virgis caesus sum semel lapidatus sum ter naufragium feci nocte et die in profundo maris fui",
+      "citation": "2 Corinthians 11:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "in itineribus saepe periculis fluminum periculis latronum periculis ex genere periculis ex gentibus periculis in civitate periculis in solitudine periculis in mari periculis in falsis fratribus",
+      "citation": "2 Corinthians 11:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "in labore et aerumna in vigiliis multis in fame et siti in ieiuniis multis in frigore et nuditate",
+      "citation": "2 Corinthians 11:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "praeter illa quae extrinsecus sunt instantia mea cotidiana sollicitudo omnium ecclesiarum",
+      "citation": "2 Corinthians 11:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "quis infirmatur et non infirmor quis scandalizatur et ego non uror",
+      "citation": "2 Corinthians 11:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "si gloriari oportet quae infirmitatis meae sunt gloriabor",
+      "citation": "2 Corinthians 11:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "Deus et Pater Domini Iesu scit qui est benedictus in saecula quod non mentior",
+      "citation": "2 Corinthians 11:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "Damasci praepositus gentis Aretae regis custodiebat civitatem Damascenorum ut me conprehenderet",
+      "citation": "2 Corinthians 11:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "et per fenestram in sporta dimissus sum per murum et effugi manus eius",
+      "citation": "2 Corinthians 11:33 (Clementine Vulgate)"
+    }
+  ]
+}

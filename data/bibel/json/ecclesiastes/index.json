@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Prediger — 12 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Prediger",
+      "slug": "ecclesiastes",
+      "testament": "OT",
+      "order": 23,
+      "totalChapters": 12
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiastes/index.json",
+      "latin": "https://latinprayer.org/latin/ecclesiastes/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/1",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/2",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/3",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/4",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/5",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 12,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/6",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/7",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/8",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/9",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/10",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 10,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/11",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bibel/ecclesiastes/12",
+      "jsonUrl": "https://latinprayer.org/bibel/ecclesiastes/12.json"
+    }
+  ]
+}

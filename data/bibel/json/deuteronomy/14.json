@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Deuteronomium, Chapter 14 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Deuteronomium",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "totalChapters": 34
+    },
+    "chapter": 14,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/deuteronomy/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/deuteronomy/13.json",
+      "nextChapter": "https://latinprayer.org/bibel/deuteronomy/15.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/deuteronomy/14.json",
+      "latin": "https://latinprayer.org/latin/deuteronomy/14.json"
+    }
+  },
+  "citation": "Deuteronomium 14 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Ihr seid Söhne für den HERRN, euren Gott; darum dürft ihr euch wegen eines Toten keine Einschnitte ins Fleisch machen und euch über der Stirn nicht kahlscheren;",
+      "citation": "Deuteronomium 14:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "denn du bist ein dem HERRN, deinem Gott, geheiligtes Volk, und dich hat der HERR, dein Gott, aus allen Völkern, die es auf dem ganzen Erdboden gibt, zu seinem Eigentumsvolk erwählt. –",
+      "citation": "Deuteronomium 14:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Du sollst nichts Greuelhaftes essen!",
+      "citation": "Deuteronomium 14:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Dies sind die Vierfüßler, die ihr essen dürft: Rind, Schaf und Ziege,",
+      "citation": "Deuteronomium 14:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Hirsch, Gazelle, Damwild, Steinbock, Antilope, wilder Ochs und Bergziege",
+      "citation": "Deuteronomium 14:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "und überhaupt alle Vierfüßler, die gespaltene Hufe haben, und zwar ganz durchgespaltene, also zwei Hufe, und die zugleich Wiederkäuer unter den Vierfüßlern sind: diese dürft ihr essen.",
+      "citation": "Deuteronomium 14:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Dagegen folgende dürft ihr von den Wiederkäuern und von denen, welche ganz durchgespaltene Hufe haben, nicht essen: das Kamel, den Hasen und den Klippdachs; denn sie sind zwar Wiederkäuer, haben aber keine gespaltenen Hufe: als unrein sollen sie euch gelten;",
+      "citation": "Deuteronomium 14:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "ferner das Schwein, denn es hat zwar gespaltene Klauen, ist aber kein Wiederkäuer: als unrein soll es euch gelten; vom Fleisch dieser Tiere dürft ihr nichts genießen und ihre toten Leiber nicht anrühren. –",
+      "citation": "Deuteronomium 14:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Dies ist es, was ihr von allen im Wasser lebenden Tieren essen dürft: alles, was Flossen und Schuppen hat: diese dürft ihr essen;",
+      "citation": "Deuteronomium 14:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "aber alles, was keine Flossen und Schuppen hat, dürft ihr nicht genießen: als unrein soll es euch gelten. –",
+      "citation": "Deuteronomium 14:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Alle reinen Vögel dürft ihr essen;",
+      "citation": "Deuteronomium 14:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "folgende aber sind es, von denen ihr nichts essen dürft: der Adler, der Lämmergeier, der Bartgeier,",
+      "citation": "Deuteronomium 14:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "die Weihe, der Habicht, die verschiedenen Falkenarten,",
+      "citation": "Deuteronomium 14:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "alle Arten von Raben,",
+      "citation": "Deuteronomium 14:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "der Strauß, die Schwalbe, die Möwe, alle Habichtarten,",
+      "citation": "Deuteronomium 14:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "das Käuzchen, der Uhu, die Eule,",
+      "citation": "Deuteronomium 14:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "der Pelikan, der Aasgeier, der Sturzpelikan,",
+      "citation": "Deuteronomium 14:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "der Storch, die verschiedenen Arten der Regenpfeifer, der Wiedehopf und die Fledermaus.",
+      "citation": "Deuteronomium 14:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Auch alle geflügelten Insekten sollen euch als unrein gelten und dürfen nicht gegessen werden.",
+      "citation": "Deuteronomium 14:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Alles reine Geflügel dürft ihr essen. –",
+      "citation": "Deuteronomium 14:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Von gefallenen Tieren dürft ihr nichts genießen; dem Fremdling, der in deinen Ortschaften lebt, magst du sie zum Essen geben oder magst sie an einen Nichtisraeliten verkaufen; denn du bist ein dem HERRN, deinem Gott, geheiligtes Volk. – Ein Böckchen darfst du nicht in der Milch seiner Mutter kochen.«",
+      "citation": "Deuteronomium 14:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "»Den ganzen Ertrag deiner Aussaat, alles, was dir auf dem Felde wächst, sollst du Jahr für Jahr gewissenhaft verzehnten",
+      "citation": "Deuteronomium 14:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "und sollst den Zehnten deines Getreides, deines Weins und deines Öls sowie die Erstgeburten deiner Rinder und deines Kleinviehs vor dem HERRN, deinem Gott, an der Stätte, die er erwählen wird, um seinen Namen dort wohnen zu lassen, verzehren, damit du den HERRN, deinen Gott, allezeit fürchten lernst.",
+      "citation": "Deuteronomium 14:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Wenn dir aber der Weg zu weit ist, so daß du, wenn der HERR, dein Gott, dich gesegnet hat, den Zehnten nicht hinbringen kannst, weil die Stätte, die der HERR, dein Gott, erwählen wird, um seinen Namen dorthin zu versetzen, zu weit von dir entfernt liegt:",
+      "citation": "Deuteronomium 14:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "so mache den Zehnten zu Geld, nimm dann das Geld wohlbewahrt mit dir und begib dich an den Ort, den der HERR, dein Gott, erwählen wird.",
+      "citation": "Deuteronomium 14:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Dort gib das Geld aus für alles, wonach dein Herz Verlangen tragen mag, für Rinder und Kleinvieh, für Wein und starke Getränke, kurz für alles, wonach dich gelüsten mag; halte dann dort vor dem HERRN, deinem Gott, ein Mahl und sei mit deinen Angehörigen fröhlich.",
+      "citation": "Deuteronomium 14:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Dabei vergiß aber auch die Leviten nicht, die in deinen Wohnorten leben; denn sie haben keinen eigenen Landbesitz und kein Erbteil gleich dir.",
+      "citation": "Deuteronomium 14:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Nach Verlauf von je drei Jahren sollst du den gesamten Zehnten deines Ertrags von jenem Jahre für sich besonders nehmen und ihn in deinen Wohnorten niederlegen;",
+      "citation": "Deuteronomium 14:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "dann sollen die Leviten, die ja keinen eigenen Landbesitz und kein Erbteil gleich dir haben, sowie die Fremdlinge, die Witwen und die Waisen, die in deinen Wohnorten leben, herbeikommen und sich satt essen, damit der HERR, dein Gott, dich segne bei aller Arbeit deiner Hände, bei allem, was du unternimmst.«",
+      "citation": "Deuteronomium 14:29 (Menge)"
+    }
+  ]
+}

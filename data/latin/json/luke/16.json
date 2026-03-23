@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Luke, Chapter 16 — 31 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Luke",
+      "slug": "luke",
+      "testament": "NT",
+      "order": 49,
+      "totalChapters": 24
+    },
+    "chapter": 16,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/luke/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/luke/15.json",
+      "nextChapter": "https://latinprayer.org/latin/luke/17.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/luke/16.json",
+      "german": "https://latinprayer.org/bibel/luke/16.json"
+    }
+  },
+  "citation": "Luke 16 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "dicebat autem et ad discipulos suos homo quidam erat dives qui habebat vilicum et hic diffamatus est apud illum quasi dissipasset bona ipsius",
+      "citation": "Luke 16:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et vocavit illum et ait illi quid hoc audio de te redde rationem vilicationis tuae iam enim non poteris vilicare",
+      "citation": "Luke 16:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ait autem vilicus intra se quid faciam quia dominus meus aufert a me vilicationem fodere non valeo mendicare erubesco",
+      "citation": "Luke 16:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "scio quid faciam ut cum amotus fuero a vilicatione recipiant me in domos suas",
+      "citation": "Luke 16:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "convocatis itaque singulis debitoribus domini sui dicebat primo quantum debes domino meo",
+      "citation": "Luke 16:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "at ille dixit centum cados olei dixitque illi accipe cautionem tuam et sede cito scribe quinquaginta",
+      "citation": "Luke 16:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "deinde alio dixit tu vero quantum debes qui ait centum choros tritici ait illi accipe litteras tuas et scribe octoginta",
+      "citation": "Luke 16:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et laudavit dominus vilicum iniquitatis quia prudenter fecisset quia filii huius saeculi prudentiores filiis lucis in generatione sua sunt",
+      "citation": "Luke 16:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et ego vobis dico facite vobis amicos de mamona iniquitatis ut cum defeceritis recipiant vos in aeterna tabernacula",
+      "citation": "Luke 16:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui fidelis est in minimo et in maiori fidelis est et qui in modico iniquus est et in maiori iniquus est",
+      "citation": "Luke 16:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "si ergo in iniquo mamona fideles non fuistis quod verum est quis credet vobis",
+      "citation": "Luke 16:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et si in alieno fideles non fuistis quod vestrum est quis dabit vobis",
+      "citation": "Luke 16:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "nemo servus potest duobus dominis servire aut enim unum odiet et alterum diliget aut uni adherebit et alterum contemnet non potestis Deo servire et mamonae",
+      "citation": "Luke 16:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "audiebant autem omnia haec Pharisaei qui erant avari et deridebant illum",
+      "citation": "Luke 16:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et ait illis vos estis qui iustificatis vos coram hominibus Deus autem novit corda vestra quia quod hominibus altum est abominatio est ante Deum",
+      "citation": "Luke 16:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "lex et prophetae usque ad Iohannem ex eo regnum Dei evangelizatur et omnis in illud vim facit",
+      "citation": "Luke 16:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "facilius est autem caelum et terram praeterire quam de lege unum apicem cadere",
+      "citation": "Luke 16:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "omnis qui dimittit uxorem suam et ducit alteram moechatur et qui dimissam a viro ducit moechatur",
+      "citation": "Luke 16:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "homo quidam erat dives et induebatur purpura et bysso et epulabatur cotidie splendide",
+      "citation": "Luke 16:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et erat quidam mendicus nomine Lazarus qui iacebat ad ianuam eius ulceribus plenus",
+      "citation": "Luke 16:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "cupiens saturari de micis quae cadebant de mensa divitis sed et canes veniebant et lingebant ulcera eius",
+      "citation": "Luke 16:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "factum est autem ut moreretur mendicus et portaretur ab angelis in sinum Abrahae mortuus est autem et dives et sepultus est in inferno",
+      "citation": "Luke 16:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "elevans oculos suos cum esset in tormentis videbat Abraham a longe et Lazarum in sinu eius",
+      "citation": "Luke 16:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et ipse clamans dixit pater Abraham miserere mei et mitte Lazarum ut intinguat extremum digiti sui in aqua ut refrigeret linguam meam quia crucior in hac flamma",
+      "citation": "Luke 16:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et dixit illi Abraham fili recordare quia recepisti bona in vita tua et Lazarus similiter mala nunc autem hic consolatur tu vero cruciaris",
+      "citation": "Luke 16:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et in his omnibus inter nos et vos chasma magnum firmatum est ut hii qui volunt hinc transire ad vos non possint neque inde huc transmeare",
+      "citation": "Luke 16:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et ait rogo ergo te pater ut mittas eum in domum patris mei",
+      "citation": "Luke 16:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "habeo enim quinque fratres ut testetur illis ne et ipsi veniant in locum hunc tormentorum",
+      "citation": "Luke 16:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et ait illi Abraham habent Mosen et prophetas audiant illos",
+      "citation": "Luke 16:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "at ille dixit non pater Abraham sed si quis ex mortuis ierit ad eos paenitentiam agent",
+      "citation": "Luke 16:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "ait autem illi si Mosen et prophetas non audiunt neque si quis ex mortuis resurrexerit credent",
+      "citation": "Luke 16:31 (Clementine Vulgate)"
+    }
+  ]
+}

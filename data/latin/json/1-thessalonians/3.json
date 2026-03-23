@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Thessalonians, Chapter 3 — 13 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Thessalonians",
+      "slug": "1-thessalonians",
+      "testament": "NT",
+      "order": 59,
+      "totalChapters": 5
+    },
+    "chapter": 3,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-thessalonians/2.json",
+      "nextChapter": "https://latinprayer.org/latin/1-thessalonians/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-thessalonians/3.json",
+      "german": "https://latinprayer.org/bibel/1-thessalonians/3.json"
+    }
+  },
+  "citation": "1 Thessalonians 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "propter quod non sustinentes amplius placuit nobis remanere Athenis solis",
+      "citation": "1 Thessalonians 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et misimus Timotheum fratrem nostrum et ministrum Dei in evangelio Christi ad confirmandos vos et exhortandos pro fide vestra",
+      "citation": "1 Thessalonians 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ut nemo moveatur in tribulationibus istis ipsi enim scitis quod in hoc positi sumus",
+      "citation": "1 Thessalonians 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nam et cum apud vos essemus praedicebamus vobis passuros nos tribulationes sicut et factum est et scitis",
+      "citation": "1 Thessalonians 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "propterea et ego amplius non sustinens misi ad cognoscendam fidem vestram ne forte temptaverit vos is qui temptat et inanis fiat labor noster",
+      "citation": "1 Thessalonians 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nunc autem veniente Timotheo ad nos a vobis et adnuntiante nobis fidem et caritatem vestram et quia memoriam nostri habetis bonam semper desiderantes nos videre sicut nos quoque vos",
+      "citation": "1 Thessalonians 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ideo consolati sumus fratres in vobis in omni necessitate et tribulatione nostra per vestram fidem",
+      "citation": "1 Thessalonians 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quoniam nunc vivimus si vos statis in Domino",
+      "citation": "1 Thessalonians 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quam enim gratiarum actionem possumus Deo retribuere pro vobis in omni gaudio quo gaudemus propter vos ante Deum nostrum",
+      "citation": "1 Thessalonians 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "nocte et die abundantius orantes ut videamus faciem vestram et conpleamus ea quae desunt fidei vestrae",
+      "citation": "1 Thessalonians 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ipse autem Deus et Pater noster et Dominus Iesus dirigat viam nostram ad vos",
+      "citation": "1 Thessalonians 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "vos autem Dominus multiplicet et abundare faciat caritatem in invicem et in omnes quemadmodum et nos in vobis",
+      "citation": "1 Thessalonians 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ad confirmanda corda vestra sine querella in sanctitate ante Deum et Patrem nostrum in adventu Domini nostri Iesu cum omnibus sanctis eius amen",
+      "citation": "1 Thessalonians 3:13 (Clementine Vulgate)"
+    }
+  ]
+}

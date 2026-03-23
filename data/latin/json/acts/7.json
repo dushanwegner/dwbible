@@ -1,0 +1,331 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Acts, Chapter 7 — 59 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 51,
+      "totalChapters": 28
+    },
+    "chapter": 7,
+    "verseCount": 59,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/acts/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/acts/6.json",
+      "nextChapter": "https://latinprayer.org/latin/acts/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/acts/7.json",
+      "german": "https://latinprayer.org/bibel/acts/7.json"
+    }
+  },
+  "citation": "Acts 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "dixit autem princeps sacerdotum si haec ita se habent",
+      "citation": "Acts 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui ait viri fratres et patres audite Deus gloriae apparuit patri nostro Abraham cum esset in Mesopotamiam priusquam moraretur in Charram",
+      "citation": "Acts 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dixit ad illum exi de terra tua et de cognatione tua et veni in terram quam tibi monstravero",
+      "citation": "Acts 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "tunc exiit de terra Chaldeorum et habitavit in Charram et inde postquam mortuus est pater eius transtulit illum in terram istam in qua nunc vos habitatis",
+      "citation": "Acts 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et non dedit illi hereditatem in ea nec passum pedis et repromisit dare illi eam in possessionem et semini eius post ipsum cum non haberet filium",
+      "citation": "Acts 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "locutus est autem Deus quia erit semen eius accola in terra aliena et servituti eos subicient et male tractabunt eos annis quadringentis",
+      "citation": "Acts 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et gentem cui servierint iudicabo ego dixit Deus et post haec exibunt et deservient mihi in loco isto",
+      "citation": "Acts 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et dedit illi testamentum circumcisionis et sic genuit Isaac et circumcidit eum die octava et Isaac Iacob et Iacob duodecim patriarchas",
+      "citation": "Acts 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et patriarchae aemulantes Ioseph vendiderunt in Aegyptum et erat Deus cum eo",
+      "citation": "Acts 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et eripuit eum ex omnibus tribulationibus eius et dedit ei gratiam et sapientiam in conspectu Pharaonis regis Aegypti et constituit eum praepositum super Aegyptum et super omnem domum suam",
+      "citation": "Acts 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "venit autem fames in universam Aegyptum et Chanaan et tribulatio magna et non inveniebant cibos patres nostri",
+      "citation": "Acts 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cum audisset autem Iacob esse frumentum in Aegypto misit patres nostros primum",
+      "citation": "Acts 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et in secundo cognitus est Ioseph a fratribus suis et manifestatum est Pharaoni genus eius",
+      "citation": "Acts 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "mittens autem Ioseph accersivit Iacob patrem suum et omnem cognationem in animabus septuaginta quinque",
+      "citation": "Acts 7:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et descendit Iacob in Aegyptum et defunctus est ipse et patres nostri",
+      "citation": "Acts 7:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et translati sunt in Sychem et positi sunt in sepulchro quod emit Abraham pretio argenti a filiis Emmor filii Sychem",
+      "citation": "Acts 7:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "cum adpropinquaret autem tempus repromissionis quam confessus erat Deus Abrahae crevit populus et multiplicatus est in Aegypto",
+      "citation": "Acts 7:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quoadusque surrexit rex alius in Aegypto qui non sciebat Ioseph",
+      "citation": "Acts 7:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "hic circumveniens genus nostrum adflixit patres ut exponerent infantes suos ne vivificarentur",
+      "citation": "Acts 7:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "eodem tempore natus est Moses et fuit gratus Deo qui nutritus est tribus mensibus in domo patris sui",
+      "citation": "Acts 7:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "exposito autem illo sustulit eum filia Pharaonis et enutrivit eum sibi in filium",
+      "citation": "Acts 7:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et eruditus est Moses omni sapientia Aegyptiorum et erat potens in verbis et in operibus suis",
+      "citation": "Acts 7:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "cum autem impleretur ei quadraginta annorum tempus ascendit in cor eius ut visitaret fratres suos filios Israhel",
+      "citation": "Acts 7:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et cum vidisset quendam iniuriam patientem vindicavit illum et fecit ultionem ei qui iniuriam sustinebat percusso Aegyptio",
+      "citation": "Acts 7:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "existimabat autem intellegere fratres quoniam Deus per manum ipsius daret salutem illis at illi non intellexerunt",
+      "citation": "Acts 7:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "sequenti vero die apparuit illis litigantibus et reconciliabat eos in pacem dicens viri fratres estis ut quid nocetis alterutrum",
+      "citation": "Acts 7:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "qui autem iniuriam faciebat proximo reppulit eum dicens quis te constituit principem et iudicem super nos",
+      "citation": "Acts 7:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "numquid interficere me tu vis quemadmodum interfecisti heri Aegyptium",
+      "citation": "Acts 7:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "fugit autem Moses in verbo isto et factus est advena in terra Madiam ubi generavit filios duos",
+      "citation": "Acts 7:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et expletis annis quadraginta apparuit illi in deserto montis Sina angelus in igne flammae rubi",
+      "citation": "Acts 7:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "Moses autem videns admiratus est visum et accedente illo ut consideraret facta est vox Domini",
+      "citation": "Acts 7:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "ego Deus patrum tuorum Deus Abraham et Deus Isaac et Deus Iacob tremefactus autem Moses non audebat considerare",
+      "citation": "Acts 7:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "dixit autem illi Dominus solve calciamentum pedum tuorum locus enim in quo stas terra sancta est",
+      "citation": "Acts 7:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "videns vidi adflictionem populi mei qui est in Aegypto et gemitum eorum audivi et descendi liberare eos et nunc veni et mittam te in Aegyptum",
+      "citation": "Acts 7:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "hunc Mosen quem negaverunt dicentes quis te constituit principem et iudicem hunc Deus principem et redemptorem misit cum manu angeli qui apparuit illi in rubo",
+      "citation": "Acts 7:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "hic eduxit illos faciens prodigia et signa in terra Aegypti et in Rubro mari et in deserto annis quadraginta",
+      "citation": "Acts 7:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "hic est Moses qui dixit filiis Israhel prophetam vobis suscitabit Deus de fratribus vestris tamquam me",
+      "citation": "Acts 7:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "hic est qui fuit in ecclesia in solitudine cum angelo qui loquebatur ei in monte Sina et cum patribus nostris qui accepit verba vitae dare nobis",
+      "citation": "Acts 7:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "cui noluerunt oboedire patres nostri sed reppulerunt et aversi sunt cordibus suis in Aegyptum",
+      "citation": "Acts 7:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "dicentes ad Aaron fac nobis deos qui praecedant nos Moses enim hic qui eduxit nos de terra Aegypti nescimus quid factum sit ei",
+      "citation": "Acts 7:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et vitulum fecerunt in illis diebus et obtulerunt hostiam simulacro et laetabantur in operibus manuum suarum",
+      "citation": "Acts 7:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "convertit autem Deus et tradidit eos servire militiae caeli sicut scriptum est in libro Prophetarum numquid victimas aut hostias obtulistis mihi annis quadraginta in deserto domus Israhel",
+      "citation": "Acts 7:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "et suscepistis tabernaculum Moloch et sidus dei vestri Rempham figuras quas fecistis adorare eas et transferam vos trans Babylonem",
+      "citation": "Acts 7:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "tabernaculum testimonii fuit patribus nostris in deserto sicut disposuit loquens ad Mosen ut faceret illud secundum formam quam viderat",
+      "citation": "Acts 7:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "quod et induxerunt suscipientes patres nostri cum Iesu in possessionem gentium quas expulit Deus a facie patrum nostrorum usque in diebus David",
+      "citation": "Acts 7:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "qui invenit gratiam ante Deum et petiit ut inveniret tabernaculum Deo Iacob",
+      "citation": "Acts 7:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "Salomon autem aedificavit illi domum",
+      "citation": "Acts 7:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "sed non Excelsus in manufactis habitat sicut propheta dicit",
+      "citation": "Acts 7:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "caelum mihi sedis est terra autem scabillum pedum meorum quam domum aedificabitis mihi dicit Dominus aut quis locus requietionis meae est",
+      "citation": "Acts 7:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "nonne manus mea fecit haec omnia",
+      "citation": "Acts 7:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "dura cervice et incircumcisi cordibus et auribus vos semper Spiritui Sancto resistitis sicut patres vestri et vos",
+      "citation": "Acts 7:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "quem prophetarum non sunt persecuti patres vestri et occiderunt eos qui praenuntiabant de adventu Iusti cuius vos nunc proditores et homicidae fuistis",
+      "citation": "Acts 7:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "qui accepistis legem in dispositionem angelorum et non custodistis",
+      "citation": "Acts 7:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "audientes autem haec dissecabantur cordibus suis et stridebant dentibus in eum",
+      "citation": "Acts 7:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "cum autem esset plenus Spiritu Sancto intendens in caelum vidit gloriam Dei et Iesum stantem a dextris Dei et ait ecce video caelos apertos et Filium hominis a dextris stantem Dei",
+      "citation": "Acts 7:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "exclamantes autem voce magna continuerunt aures suas et impetum fecerunt unianimiter in eum",
+      "citation": "Acts 7:57 (Clementine Vulgate)"
+    },
+    {
+      "verse": 58,
+      "text": "et eicientes eum extra civitatem lapidabant et testes deposuerunt vestimenta sua secus pedes adulescentis qui vocabatur Saulus",
+      "citation": "Acts 7:58 (Clementine Vulgate)"
+    },
+    {
+      "verse": 59,
+      "text": "et lapidabant Stephanum invocantem et dicentem Domine Iesu suscipe spiritum meum",
+      "citation": "Acts 7:59 (Clementine Vulgate)"
+    },
+    {
+      "verse": 60,
+      "text": "positis autem genibus clamavit voce magna Domine ne statuas illis hoc peccatum et cum hoc dixisset obdormivit Saulus autem erat consentiens neci eius",
+      "citation": "Acts 7:60 (Clementine Vulgate)"
+    }
+  ]
+}

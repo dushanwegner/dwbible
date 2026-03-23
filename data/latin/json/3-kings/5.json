@@ -1,0 +1,196 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Kings, Chapter 5 — 32 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Kings",
+      "slug": "3-kings",
+      "testament": "OT",
+      "order": 11,
+      "totalChapters": 22
+    },
+    "chapter": 5,
+    "verseCount": 32,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/3-kings/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/3-kings/4.json",
+      "nextChapter": "https://latinprayer.org/latin/3-kings/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/3-kings/5.json",
+      "german": "https://latinprayer.org/bibel/3-kings/5.json"
+    }
+  },
+  "citation": "1 Kings 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Salomon autem erat in dicione sua habens omnia regna sicut a flumine terrae Philisthim usque ad terminum Aegypti offerentium sibi munera et servientium ei cunctis diebus vitae eius",
+      "citation": "1 Kings 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "erat autem cibus Salomonis per dies singulos triginta chori similae et sexaginta chori farinae",
+      "citation": "1 Kings 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "decem boves pingues et viginti boves pascuales et centum arietes excepta venatione cervorum caprearum atque bubalorum et avium altilium",
+      "citation": "1 Kings 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ipse enim obtinebat omnem regionem quae erat trans flumen quasi a Thapsa usque Gazam et cunctos reges illarum regionum et habebat pacem ex omni parte in circuitu",
+      "citation": "1 Kings 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "habitabatque Iudas et Israhel absque timore ullo unusquisque sub vite sua et sub ficu sua a Dan usque Bersabee cunctis diebus Salomonis",
+      "citation": "1 Kings 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et habebat Salomon quadraginta milia praesepia equorum currulium et duodecim milia equestrium",
+      "citation": "1 Kings 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "nutriebantque eos supradicti regis praefecti sed et necessaria mensae regis Salomonis cum ingenti cura praebebant in tempore suo",
+      "citation": "1 Kings 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "hordeum quoque et paleas equorum et iumentorum deferebant in locum ubi erat rex iuxta constitutum sibi",
+      "citation": "1 Kings 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dedit quoque Deus sapientiam Salomoni et prudentiam multam nimis et latitudinem cordis quasi harenam quae est in litore maris",
+      "citation": "1 Kings 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et praecedebat sapientia Salomonis sapientiam omnium Orientalium et Aegyptiorum",
+      "citation": "1 Kings 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et erat sapientior cunctis hominibus sapientior Aethan Ezraita et Heman et Chalcal et Dorda filiis Maol et erat nominatus in universis gentibus per circuitum",
+      "citation": "1 Kings 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "locutus est quoque Salomon tria milia parabolas et fuerunt carmina eius quinque et mille",
+      "citation": "1 Kings 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et disputavit super lignis a cedro quae est in Libano usque ad hysopum quae egreditur de pariete et disseruit de iumentis et volucribus et reptilibus et piscibus",
+      "citation": "1 Kings 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et veniebant de cunctis populis ad audiendam sapientiam Salomonis et ab universis regibus terrae qui audiebant sapientiam eius",
+      "citation": "1 Kings 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "misit quoque Hiram rex Tyri servos suos ad Salomonem audivit enim quod ipsum unxissent regem pro patre eius quia amicus fuerat Hiram David omni tempore",
+      "citation": "1 Kings 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "misit autem et Salomon ad Hiram dicens",
+      "citation": "1 Kings 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "tu scis voluntatem David patris mei et quia non potuerit aedificare domum nomini Domini Dei sui propter bella inminentia per circuitum donec daret Dominus eos sub vestigio pedum eius",
+      "citation": "1 Kings 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "nunc autem requiem dedit Deus meus mihi per circuitum non est Satan neque occursus malus",
+      "citation": "1 Kings 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quam ob rem cogito aedificare templum nomini Domini Dei mei sicut locutus est Dominus David patri meo dicens filius tuus quem dabo pro te super solium tuum ipse aedificabit domum nomini meo",
+      "citation": "1 Kings 5:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "praecipe igitur ut praecidant mihi cedros de Libano et servi mei sint cum servis tuis mercedem autem servorum tuorum dabo tibi quamcumque praeceperis scis enim quoniam non est in populo meo vir qui noverit ligna caedere sicut Sidonii",
+      "citation": "1 Kings 5:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "cum ergo audisset Hiram verba Salomonis laetatus est valde et ait benedictus Dominus hodie qui dedit David filium sapientissimum super populum hunc plurimum",
+      "citation": "1 Kings 5:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et misit Hiram ad Salomonem dicens audivi quaecumque mandasti mihi ego faciam omnem voluntatem tuam in lignis cedrinis et abiegnis",
+      "citation": "1 Kings 5:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "servi mei deponent ea de Libano ad mare et ego conponam ea in ratibus in mari usque ad locum quem significaveris mihi et adplicabo ea ibi et tu tolles ea praebebisque necessaria mihi ut detur cibus domui meae",
+      "citation": "1 Kings 5:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "itaque Hiram dabat Salomoni ligna cedrina et ligna abiegna iuxta omnem voluntatem eius",
+      "citation": "1 Kings 5:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "Salomon autem praebebat Hiram viginti milia chororum tritici in cibum domui eius et viginti choros purissimi olei haec tribuebat Salomon Hiram per annos singulos",
+      "citation": "1 Kings 5:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "dedit quoque Dominus sapientiam Salomoni sicut locutus est ei et erat pax inter Hiram et Salomonem et percusserunt foedus ambo",
+      "citation": "1 Kings 5:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "legitque rex Salomon operas de omni Israhel et erat indictio triginta milia virorum",
+      "citation": "1 Kings 5:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "mittebatque eos in Libanum decem milia per menses singulos vicissim ita ut duobus mensibus essent in domibus suis et Adoniram erat super huiuscemodi indictione",
+      "citation": "1 Kings 5:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "fuerunt itaque Salomoni septuaginta milia eorum qui onera portabant et octoginta milia latomorum in monte",
+      "citation": "1 Kings 5:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "absque praepositis qui praeerant singulis operibus numero trium milium et trecentorum praecipientium populo et his qui faciebant opus",
+      "citation": "1 Kings 5:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "praecepitque rex ut tollerent lapides grandes lapides pretiosos in fundamentum templi et quadrarent eos",
+      "citation": "1 Kings 5:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "quos dolaverunt cementarii Salomonis et cementarii Hiram porro Biblii praeparaverunt ligna et lapides ad aedificandam domum",
+      "citation": "1 Kings 5:32 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Esdras, Chapter 4 — 24 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Esdras",
+      "slug": "1-esdras",
+      "testament": "OT",
+      "order": 15,
+      "totalChapters": 10
+    },
+    "chapter": 4,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-esdras/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-esdras/3.json",
+      "nextChapter": "https://latinprayer.org/bible/1-esdras/5.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-esdras/4.json",
+      "german": "https://latinprayer.org/bibel/1-esdras/4.json"
+    }
+  },
+  "citation": "1. Esdras 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now the enemies of Juda and Benjamin heard that the children of the captivity were building a temple to the Lord the God of Israel.",
+      "citation": "1. Esdras 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And they came to Zorobabel, and the chief of the fathers, and said to them: Let us build with you, for we seek your God as ye do: behold we have sacrificed to him, since the days of Asor Haddan king of Assyria, who brought us hither.",
+      "citation": "1. Esdras 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "But Zorobabel, and Josue, and the rest of the chief of the fathers of Israel said to them: You have nothing to do with us to build a house to our God, but we ourselves alone will build to the Lord our God, as Cyrus king of the Persians hath commanded us.",
+      "citation": "1. Esdras 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Then the people of the land hindered the hands of the people of Juda, and troubled them in building.",
+      "citation": "1. Esdras 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And they hired counsellors against them, to frustrate their design all the days of Cyrus king of Persia, even until the reign of Darius king of the Persians.",
+      "citation": "1. Esdras 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And in the reign of Assuerus, in the beginning of his reign, they wrote an accusation against the inhabitants of Juda and Jerusalem.",
+      "citation": "1. Esdras 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And in the days of Artaxerxes, Beselam, Mithridates, and Thabeel, and the rest that were in the council wrote to Artaxerxes king of the Persians: and the letter of accusation was written in Syrian, and was read in the Syrian tongue.",
+      "citation": "1. Esdras 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Reum Beelteem, and Samsai the scribe wrote a letter from Jerusalem to king Artaxerxes, in this manner:",
+      "citation": "1. Esdras 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Reum Beelteem, and Samsai the scribe and the rest of their counsellors, the Dinites, and the Apharsathacites, the Therphalites, the Apharsites, the Erchuites, the Babylonians, the Susanechites, the Dievites, and the Elamites,",
+      "citation": "1. Esdras 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the rest of the nations, whom the great and glorious Asenaphar brought over: and made to dwell in the cities of Samaria and in the rest of the countries of this side of the river in peace.",
+      "citation": "1. Esdras 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "(This is the copy of the letter, which they sent to him:) To Artaxerxes the king, thy servants, the men that are on this side of the river, send greeting.",
+      "citation": "1. Esdras 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Be it known to the king, that the Jews, who came up from thee to us, are come to Jerusalem a rebellious and wicked city, which they are building, setting up the ramparts thereof and repairing the walls.",
+      "citation": "1. Esdras 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And now be it known to the king, that if this city be built up, and the walls thereof repaired, they will not pay tribute nor toll, nor yearly revenues, and this loss will fall upon the kings.",
+      "citation": "1. Esdras 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But we remembering the salt that we have eaten in the palace, and because we count it a crime to see the king wronged, have therefore sent and certified the king,",
+      "citation": "1. Esdras 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "That search may be made in the books of the histories of thy fathers, and thou shalt find written in the records: and shalt know that this city is a rebellious city, and hurtful to the kings and provinces, and that wars were raised therein of old time: for which cause also the city was destroyed.",
+      "citation": "1. Esdras 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "We certify the king, that if this city be built, and the walls thereof repaired, thou shalt have no possession on this side of the river.",
+      "citation": "1. Esdras 4:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The king sent word to Reum Beelteem and Samsai the scribe, and to the rest that were in their council, inhabitants of Samaria, and to the rest beyond the river, sending greeting and peace.",
+      "citation": "1. Esdras 4:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The accusation, which you have sent to us, hath been plainly read before me,",
+      "citation": "1. Esdras 4:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And I commanded: and search hath been made, and it is found, that this city of old time hath rebelled against kings, and seditions and wars have been raised therein.",
+      "citation": "1. Esdras 4:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "For there have been powerful kings in Jerusalem, who have had dominion over all the country that is beyond the river: and have received tribute, and toll and revenues.",
+      "citation": "1. Esdras 4:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Now therefore hear the sentence: Hinder those men, that this city be not built, till further orders be given by me.",
+      "citation": "1. Esdras 4:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "See that you be not negligent in executing this, lest by little and little the evil grow to the hurt of the kings.",
+      "citation": "1. Esdras 4:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Now the copy of the edict of king Artaxerxes was read before Reum Beelteem, and Samsai the scribe, and their counsellors: and they went up in haste to Jerusalem to the Jews, and hindered them with arm and power.",
+      "citation": "1. Esdras 4:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Then the work of the house of the Lord in Jerusalem was interrupted, and ceased till the second year of the reign of Darius king of the Persians.",
+      "citation": "1. Esdras 4:24 (Douay-Rheims)"
+    }
+  ]
+}

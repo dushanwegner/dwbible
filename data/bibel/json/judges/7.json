@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Richter, Chapter 7 — 25 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Richter",
+      "slug": "judges",
+      "testament": "OT",
+      "order": 7,
+      "totalChapters": 21
+    },
+    "chapter": 7,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/judges/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/judges/6.json",
+      "nextChapter": "https://latinprayer.org/bibel/judges/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judges/7.json",
+      "latin": "https://latinprayer.org/latin/judges/7.json"
+    }
+  },
+  "citation": "Richter 7 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da machte sich Jerubbaal, das ist Gideon, in der Frühe mit der gesamten Mannschaft, die bei ihm war, auf den Weg und lagerte sich bei der Quelle Harod, so daß sich das Lager der Midianiter nördlich von ihm in der Ebene nach dem Hügel More hin befand.",
+      "citation": "Richter 7:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da sagte der HERR zu Gideon: »Das Volk, das du bei dir hast, ist zu zahlreich, als daß ich die Midianiter in ihre Gewalt geben sollte; die Israeliten könnten sich sonst mir gegenüber rühmen und behaupten: ›Wir haben uns durch eigene Kraft gerettet!‹",
+      "citation": "Richter 7:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Darum laß vor dem Volk laut ausrufen: ›Wer sich fürchtet und Angst hat, der kehre um [und entferne sich vom Gebirge Gilead]!‹« Da zogen 22000 Mann von dem Kriegsvolk ab, und 10000 blieben zurück.",
+      "citation": "Richter 7:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Der HERR aber sagte zu Gideon: »Das Volk ist immer noch zu zahlreich; führe sie hinab ans Wasser: dort will ich sie dir sichten; und von wem ich dir dann sagen werde: ›Dieser soll mit dir ziehen!‹, der soll dich begleiten; aber jeder, von dem ich dir sage: ›Dieser soll nicht mit dir ziehen!‹, der soll dich nicht begleiten!«",
+      "citation": "Richter 7:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Als nun Gideon die Leute an das Wasser hinabgeführt hatte, sagte der HERR zu ihm: »Jeden, der das Wasser mit der Zunge leckt, wie die Hunde es machen, den stelle besonders, und ebenso jeden, der niederkniet, um zu trinken.«",
+      "citation": "Richter 7:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Es belief sich aber die Zahl derer, die das Wasser [mit der Hand in den Mund] geleckt hatten, auf dreihundert Mann; alle übrigen hatten sich auf die Knie niedergelassen, um Wasser (mit der Hand in den Mund) zu trinken.",
+      "citation": "Richter 7:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Darauf sagte der HERR zu Gideon: »Durch die dreihundert Mann, die (das Wasser) geleckt haben, will ich euch erretten und die Midianiter in deine Hand geben; alle übrigen Leute aber sollen ein jeder in seinen Wohnort zurückkehren!«",
+      "citation": "Richter 7:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Da behielten sie den Mundvorrat der Leute und deren Posaunen bei sich zurück, alle übrigen israelitischen Männer aber entließ er, einen jeden in seine Heimat; nur die dreihundert Mann behielt er bei sich. Das Lager der Midianiter aber befand sich unterhalb von ihm in der Ebene.",
+      "citation": "Richter 7:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "In derselben Nacht nun gebot ihm der HERR: »Mache dich auf, ziehe gegen das Lager hinab! Denn ich habe es in deine Hand gegeben.",
+      "citation": "Richter 7:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Fürchtest du dich aber hinabzuziehen, so steige mit deinem Knappen Pura zum Lager hinab;",
+      "citation": "Richter 7:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "wenn du dann belauscht hast, was man dort redet, wirst du alsdann den Mut in dir fühlen, gegen das Lager hinabzuziehen.« Da begab er sich mit seinem Knappen Pura hinab bis zu den Kriegern am äußersten Rande des Lagers.",
+      "citation": "Richter 7:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Die Midianiter aber sowie die Amalekiter und die sämtlichen Horden aus dem Osten hatten sich in der Ebene gelagert so zahllos wie Heuschreckenschwärme, und die Menge ihrer Kamele war unzählbar wie der Sand am Gestade des Meeres.",
+      "citation": "Richter 7:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Als nun Gideon dort ankam, erzählte ein Mann gerade seinem Kameraden einen Traum mit den Worten: »Denke dir: ich habe einen Traum gehabt! Ich sah, wie ein hartgebackenes Gerstenbrot in das midianitische Lager rollte, bis es an ein Zelt kam und dieses so traf, daß es umfiel: es wurde umgestürzt, das Unterste zuoberst, und so lag das Zelt da.«",
+      "citation": "Richter 7:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Da antwortete der andere: »Das bedeutet nichts anderes als das Schwert des Israeliten Gideon, des Sohnes des Joas! Gott hat die Midianiter und unser ganzes Lager in seine Hand gegeben!«",
+      "citation": "Richter 7:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Als nun Gideon die Erzählung von dem Traum und seine Deutung gehört hatte, warf er sich danksagend auf die Knie nieder, kehrte dann ins israelitische Lager zurück und rief: »Auf! Der HERR hat das Lager der Midianiter in eure Hand gegeben!«",
+      "citation": "Richter 7:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Hierauf teilte er seine dreihundert Mann in drei Abteilungen und gab ihnen allen Posaunen in die Hand und leere Krüge, in denen sich aber Fackeln befanden.",
+      "citation": "Richter 7:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Dann befahl er ihnen: »Achtet darauf, wie ich es mache, und macht es ebenso! Was ich tun werde, sobald ich unmittelbar vor dem Lager angekommen bin, das tut auch ihr!",
+      "citation": "Richter 7:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Wenn ich also samt allen Leuten, die zu meiner Abteilung gehören, in die Posaune stoße, so stoßt auch ihr in die Posaunen rings um das ganze Lager und ruft: ›Für den HERRN und für Gideon!‹«",
+      "citation": "Richter 7:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Als nun Gideon mit den hundert Mann, die seine Abteilung bildeten, bei Beginn der mittleren Nachtwache – soeben hatte man die Wachen aufgestellt – unmittelbar vor dem Lager angekommen war, stießen sie in die Posaunen und zerschlugen die Krüge, die sie in der Hand hatten;",
+      "citation": "Richter 7:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "und zwar stießen die drei Abteilungen gleichzeitig in die Posaunen und zerschlugen die Krüge, nahmen dann die Fackeln in die linke Hand und die Posaunen in die rechte, um hineinzustoßen, und schrien: »Schwert für den HERRN und für Gideon!«",
+      "citation": "Richter 7:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Dabei blieben sie ein jeder ruhig an seiner Stelle rings um das Lager herum stehen. Da geriet das ganze Lager in Bewegung, alles schrie und suchte zu fliehen;",
+      "citation": "Richter 7:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "als jene dann aber in die dreihundert Posaunen stießen, richtete der HERR das Schwert eines jeden gegen den andern, und zwar im ganzen Lager, und das Heerlager floh bis Beth-Sitta nach Zerera hin, bis an das (Jordan-) Ufer von Abel-Mehola bei Tabbath.",
+      "citation": "Richter 7:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Nun wurden die Mannschaften der Israeliten aus den Stämmen Naphthali, Asser und ganz Manasse aufgeboten und verfolgten die Midianiter.",
+      "citation": "Richter 7:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Auch hatte Gideon Boten im ganzen Berglande Ephraim umhergesandt mit der Aufforderung: »Kommt herab den Midianitern entgegen und schneidet ihnen das Wasser ab bis Beth-Bara und den Übergang über den Jordan!« Da folgten alle Männer vom Stamm Ephraim dem Rufe und schnitten ihnen das Wasser ab bis Beth-Bara und den Übergang über den Jordan.",
+      "citation": "Richter 7:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Auch nahmen sie die beiden midianitischen Fürsten Oreb und Seeb gefangen und hieben Oreb am Rabenfelsen nieder und erschlugen Seeb bei der Wolfskelter. Nach der Verfolgung der Midianiter aber brachten sie die Köpfe Orebs und Seebs zu Gideon auf die andere Seite des Jordans.",
+      "citation": "Richter 7:25 (Menge)"
+    }
+  ]
+}

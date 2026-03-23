@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 8 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 8,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/7.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/8.json",
+      "german": "https://latinprayer.org/bibel/psalms/8.json"
+    }
+  },
+  "citation": "Psalms 8 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in finem pro torcularibus psalmus David",
+      "citation": "Psalms 8:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori pro torcularibus canticum David",
+      "citation": "Psalms 8:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Domine Dominus noster quam admirabile est nomen tuum in universa terra quoniam elevata est magnificentia tua super caelos",
+      "citation": "Psalms 8:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Domine Dominator noster quam grande est nomen tuum in universa terra qui posuisti gloriam tuam super caelos",
+      "citation": "Psalms 8:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ex ore infantium et lactantium perfecisti laudem propter inimicos tuos ut destruas inimicum et ultorem",
+      "citation": "Psalms 8:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ex ore infantium et lactantium perfecisti laudem propter adversarios meos ut quiescat inimicus et ultor",
+      "citation": "Psalms 8:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quoniam videbo caelos * tuos; opera digitorum tuorum lunam et stellas quae tu fundasti",
+      "citation": "Psalms 8:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "videbo enim caelos tuos opera digitorum tuorum lunam et stellas quae fundasti",
+      "citation": "Psalms 8:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quid est homo quod memor es eius aut filius hominis quoniam visitas eum",
+      "citation": "Psalms 8:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quid est homo quoniam recordaris eius vel filius hominis quoniam visitas eum",
+      "citation": "Psalms 8:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "minuisti eum paulo minus ab angelis gloria et honore coronasti eum",
+      "citation": "Psalms 8:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "minues eum paulo minus a Deo gloria et decore coronabis eum",
+      "citation": "Psalms 8:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et constituisti eum super opera manuum tuarum",
+      "citation": "Psalms 8:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "dabis ei potestatem super opera manuum tuarum",
+      "citation": "Psalms 8:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "omnia subiecisti sub pedibus eius oves et boves universas insuper et pecora campi",
+      "citation": "Psalms 8:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "cuncta posuisti sub pedibus eius oves et armenta omnia insuper et animalia agri",
+      "citation": "Psalms 8:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "volucres caeli et pisces maris qui perambulant semitas maris",
+      "citation": "Psalms 8:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "aves caeli et pisces maris qui pertranseunt semitas ponti",
+      "citation": "Psalms 8:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "Domine Dominus noster quam admirabile est nomen tuum in universa terra",
+      "citation": "Psalms 8:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "Domine Dominator noster quam grande est nomen tuum in universa terra",
+      "citation": "Psalms 8:10 (Clementine Vulgate)"
+    }
+  ]
+}

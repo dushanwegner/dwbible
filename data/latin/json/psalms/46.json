@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 46 — 24 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 46,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/45.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/47.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/46.json",
+      "german": "https://latinprayer.org/bibel/psalms/46.json"
+    }
+  },
+  "citation": "Psalms 46 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Deus noster refugium et virtus adiutor in tribulationibus quae invenerunt nos nimis",
+      "citation": "Psalms 46:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in finem pro filiis Core psalmus",
+      "citation": "Psalms 46:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "Deus nostra spes et fortitudo auxilium in tribulationibus inventus es validum",
+      "citation": "Psalms 46:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori filiorum Core canticum",
+      "citation": "Psalms 46:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "propterea non timebimus dum turbabitur terra et transferentur montes in cor maris",
+      "citation": "Psalms 46:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ideo non timebimus cum fuerit translata terra et concussi montes in corde maris",
+      "citation": "Psalms 46:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "sonaverunt et turbatae sunt aquae eorum conturbati sunt montes in fortitudine eius diapsalma",
+      "citation": "Psalms 46:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "sonantibus et intumescentibus gurgitibus eius et agitatis montibus in potentia eius semper",
+      "citation": "Psalms 46:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "fluminis impetus laetificat civitatem Dei sanctificavit tabernaculum suum Altissimus",
+      "citation": "Psalms 46:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "fluminis divisiones laetificant civitatem Dei sanctum tabernaculum Altissimi",
+      "citation": "Psalms 46:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Deus in medio eius non commovebitur adiuvabit eam Deus mane diluculo",
+      "citation": "Psalms 46:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Dominus in medio eius non commovebitur auxiliabitur ei Deus in ipso ortu matutino",
+      "citation": "Psalms 46:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "conturbatae sunt gentes inclinata sunt regna dedit vocem suam mota est terra",
+      "citation": "Psalms 46:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "conturbatae sunt gentes concussa sunt regna dedit vocem suam prostrata est terra",
+      "citation": "Psalms 46:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Dominus virtutum nobiscum susceptor noster Deus Iacob diapsalma",
+      "citation": "Psalms 46:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Dominus exercituum nobiscum protector noster Deus Iacob semper",
+      "citation": "Psalms 46:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "venite et videte opera Domini quae posuit prodigia super terram",
+      "citation": "Psalms 46:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "venite et videte opera Domini quantas posuerit solitudines in terra",
+      "citation": "Psalms 46:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "auferens bella usque ad finem terrae arcum conteret et confringet arma et scuta conburet in igne",
+      "citation": "Psalms 46:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "conpescuit bella usque ad extremum terrae arcum confringet et concidet hastam plaustra conburet igni",
+      "citation": "Psalms 46:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "vacate et videte quoniam ego sum Deus exaltabor in gentibus exaltabor in terra",
+      "citation": "Psalms 46:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cessate et cognoscite quoniam ego sum Deus exaltabor in gentibus exaltabor in terra",
+      "citation": "Psalms 46:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Dominus virtutum nobiscum susceptor noster Deus Iacob",
+      "citation": "Psalms 46:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Dominus exercituum nobiscum fortitudo nostra Deus Iacob semper",
+      "citation": "Psalms 46:11 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 11 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 11,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/osee/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/osee/10.json",
+      "nextChapter": "https://latinprayer.org/bibel/osee/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/11.json",
+      "latin": "https://latinprayer.org/latin/osee/11.json"
+    }
+  },
+  "citation": "Hosea 11 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Als Israel jung war, gewann ich es lieb, und aus Ägypten habe ich meinen Sohn gerufen.",
+      "citation": "Hosea 11:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Je öfter ich sie aber gerufen habe, desto weiter haben sie sich von mir entfernt, während sie den Baalen Schlachtopfer und den Schnitzbildern Weihrauch darbrachten.",
+      "citation": "Hosea 11:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dennoch bin ich es gewesen, der Ephraim am Gängelbande geleitet und es auf die Arme genommen hat; aber sie haben nicht erkannt, daß ich ihr Arzt bin.",
+      "citation": "Hosea 11:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "An Banden, wie sie für Menschen passen, habe ich sie an mich gezogen, an Seilen der Liebe, und mich so gegen sie verhalten, daß ich das Joch an ihren Kinnbacken hochhob und mich zu ihnen neigte, um ihnen Nahrung zu reichen.",
+      "citation": "Hosea 11:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Jetzt müssen sie nach Ägypten zurückkehren, oder der Assyrer mag ihr König werden, denn sie haben sich geweigert, (zu mir) umzukehren.",
+      "citation": "Hosea 11:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "So soll denn das Schwert in ihren Städten umgehen und ihre Großen vernichten und fressen um ihrer Ratschläge willen;",
+      "citation": "Hosea 11:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "denn mein Volk hält den Hang zum Abfall von mir fest, und ruft man ihm ein Aufwärts zu, so richtet sich doch keiner von ihnen empor.",
+      "citation": "Hosea 11:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wie könnte ich dich preisgeben, Ephraim, dich fahren lassen, Israel! Wie könnte ich mit dir verfahren wie einst mit Adama; ein Zeboim aus dir machen! Mein Herz kehrt sich in mir um, mein ganzes Mitleid gerät in Wallung!",
+      "citation": "Hosea 11:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ich will meines Zornes Glut nicht auswirken, will Ephraim nicht nochmals vernichten; denn Gott bin ich und nicht ein Mensch: als der Heilige wohne ich in deiner Mitte, und ich will nicht in Zornesglut (zu dir) kommen.« –",
+      "citation": "Hosea 11:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Sie werden dem HERRN nachfolgen, der wird wie ein Löwe brüllen; ja, er wird brüllen, und die Kinder (Israel) werden vom Meer her zitternd herbeieilen;",
+      "citation": "Hosea 11:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "wie Vögel werden sie aus Ägypten zitternd herbeieilen und wie Tauben aus dem Lande Assyrien. »Dann will ich sie wieder in ihren Wohnsitzen heimisch machen!« – so lautet der Ausspruch des HERRN.",
+      "citation": "Hosea 11:11 (Menge)"
+    }
+  ]
+}

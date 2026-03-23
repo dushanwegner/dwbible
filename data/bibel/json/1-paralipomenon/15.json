@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Chronik, Chapter 15 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Chronik",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 15,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-paralipomenon/14.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-paralipomenon/16.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-paralipomenon/15.json",
+      "latin": "https://latinprayer.org/latin/1-paralipomenon/15.json"
+    }
+  },
+  "citation": "1 Chronik 15 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Hierauf baute er sich Häuser in der Davidsstadt und richtete für die Lade Gottes eine Stätte her, indem er ein Zelt für sie aufschlug.",
+      "citation": "1 Chronik 15:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Damals ordnete David an: »Niemand darf die Lade Gottes tragen außer den Leviten! Denn diese hat der HERR dazu erwählt, die Lade Gottes zu tragen und ihm allezeit Dienste zu verrichten.«",
+      "citation": "1 Chronik 15:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dann entbot David das gesamte Israel nach Jerusalem, um die Lade des HERRN an die Stätte hinaufzuschaffen, die er für sie hatte herrichten lassen;",
+      "citation": "1 Chronik 15:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "und zwar ließ David die Nachkommen Aarons sowie die Leviten zusammenkommen,",
+      "citation": "1 Chronik 15:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "nämlich von den Nachkommen Kehaths: Uriel, den Obersten des Geschlechts, und seine Geschlechtsgenossen, hundertundzwanzig an der Zahl;",
+      "citation": "1 Chronik 15:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "von den Nachkommen Meraris: Asaja, den Obersten des Geschlechts, und seine Geschlechtsgenossen, zweihundertundzwanzig;",
+      "citation": "1 Chronik 15:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "von den Nachkommen Gersoms: Joel, den Obersten des Geschlechts, und seine Geschlechtsgenossen, hundertunddreißig;",
+      "citation": "1 Chronik 15:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "von den Nachkommen Elizaphans: Semaja, den Obersten des Geschlechts, und seine Geschlechtsgenossen, zweihundert;",
+      "citation": "1 Chronik 15:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "von den Nachkommen Hebrons: Eliel, den Obersten des Geschlechts, und seine Geschlechtsgenossen, achtzig;",
+      "citation": "1 Chronik 15:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "von den Nachkommen Ussiels: Amminadab, den Obersten des Geschlechts, und seine Geschlechtsgenossen, hundertundzwölf. –",
+      "citation": "1 Chronik 15:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Darauf berief David die Priester Zadok und Abjathar und die Leviten Uriel, Asaja und Joel, Semaja und Eliel und Amminadab",
+      "citation": "1 Chronik 15:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "und richtete folgende Worte an sie: »Ihr seid die Familienhäupter der Leviten: so heiligt euch nun, ihr samt euren Geschlechtsgenossen! Denn ihr sollt die Lade des HERRN, des Gottes Israels, an die Stätte hinaufbringen, die ich für sie habe herrichten lassen.",
+      "citation": "1 Chronik 15:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Weil ihr nämlich das vorige Mal nicht zugegen gewesen seid, hat der HERR, unser Gott, Unheil unter uns angerichtet, zur Strafe dafür, daß wir nicht in gebührender Weise Rücksicht auf ihn genommen hatten.«",
+      "citation": "1 Chronik 15:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Da heiligten sich die Priester und die Leviten, um die Lade des HERRN, des Gottes Israels, hinaufzubringen;",
+      "citation": "1 Chronik 15:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "sodann hoben die Leviten die Lade Gottes so, wie Mose es nach dem Befehl des HERRN geboten hatte, auf ihre Schultern, indem sie die Tragstangen auf sich legten.",
+      "citation": "1 Chronik 15:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Hierauf befahl David den Obersten der Leviten, ihre Geschlechtsgenossen, die Sänger, mit ihren Musikinstrumenten, den Harfen, Zithern und Zimbeln, antreten zu lassen, damit sie Musik und Gesang mit lautem Jubelschall ertönen ließen.",
+      "citation": "1 Chronik 15:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Da stellten denn die Leviten Heman, den Sohn Joels, auf und von dessen Geschlechtsgenossen Asaph, den Sohn Berechjas, und von den Nachkommen Meraris, ihren Geschlechtsgenossen, Ethan, den Sohn Kusajas,",
+      "citation": "1 Chronik 15:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "und mit ihnen ihre Amtsgenossen zweiten Ranges: Sacharja, [den Sohn,] sowie Jaasiel, Semiramoth, Jehiel, Unni, Eliab, Benaja, Maaseja, Matthithja, Eliphelehu, Mikneja, Obed-Edom und Jeiel, die Torhüter;",
+      "citation": "1 Chronik 15:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "dazu die Sänger Heman, Asaph und Ethan mit kupfernen Zimbeln, um die Musik zu verstärken,",
+      "citation": "1 Chronik 15:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Sacharja dagegen nebst Ussiel, Semiramoth, Jehiel, Unni, Eliab, Maaseja und Benaja mit Leiern, zu denen sie in hoher Tonlage sangen;",
+      "citation": "1 Chronik 15:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "ferner Matthithja, Eliphelehu, Mikneja, Obed-Edom, Jehiel und Asasja mit Harfen, zu denen sie mit Baßstimmen sangen und den Gesang leiteten.",
+      "citation": "1 Chronik 15:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Kenanja ferner, der Oberste der Leviten beim Tragen (der heiligen Geräte), führte die Aufsicht beim Tragen, denn er verstand sich darauf;",
+      "citation": "1 Chronik 15:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "und Berechja und Elkana waren Torhüter bei der Lade;",
+      "citation": "1 Chronik 15:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Sebanja aber sowie Josaphat, Nethaneel, Amasai, Sacharja, Benaja und Elieser, die Priester, bliesen die Trompeten vor der Lade Gottes her, während Obed-Edom und Jehia Torhüter bei der Lade waren.",
+      "citation": "1 Chronik 15:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "So zogen denn David und die Ältesten der Israeliten und die Befehlshaber der Tausendschaften hin, um die Lade mit dem Bundesgesetz des HERRN aus dem Hause Obed-Edoms voller Freude hinaufzubringen;",
+      "citation": "1 Chronik 15:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "und da Gott sich den Leviten, welche die Lade mit dem Bundesgesetz des HERRN trugen, gnädig bewies, opferte man sieben Stiere und sieben Widder.",
+      "citation": "1 Chronik 15:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Dabei war David mit einem Überwurf von Byssus bekleidet, ebenso alle Leviten, welche die Lade trugen, sowie die Sänger und Kenanja, der das Tragen zu leiten hatte; David aber hatte ein linnenes Schulterkleid (darüber) angelegt.",
+      "citation": "1 Chronik 15:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "So brachte denn ganz Israel die Lade mit dem Bundesgesetz des HERRN unter lautem Jubel und Posaunenschall, mit Trompeten- und Zimbelklang und unter Harfen- und Zitherspiel hinauf.",
+      "citation": "1 Chronik 15:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Da begab es sich, als die Lade mit dem Bundesgesetz des HERRN in die Davidsstadt einzog, daß Sauls Tochter Michal zum Fenster hinausschaute; als sie nun den König David so springen und tanzen sah, empfand sie Verachtung für ihn in ihrem Herzen.",
+      "citation": "1 Chronik 15:29 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Mark, Chapter 3 — 35 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Mark",
+      "slug": "mark",
+      "testament": "NT",
+      "order": 48,
+      "totalChapters": 16
+    },
+    "chapter": 3,
+    "verseCount": 35,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/mark/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/mark/2.json",
+      "nextChapter": "https://latinprayer.org/bible/mark/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/mark/3.json",
+      "german": "https://latinprayer.org/bibel/mark/3.json"
+    }
+  },
+  "citation": "Mark 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And he entered again into the synagogue: and there was a man there who had a withered hand.",
+      "citation": "Mark 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And they watched him whether he would heal on the sabbath days, that they might accuse him.",
+      "citation": "Mark 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he said to the man who had the withered hand: Stand up in the midst.",
+      "citation": "Mark 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he saith to them: Is it lawful to do good on the sabbath days, or to do evil? To save life, or to destroy? But they held their peace.",
+      "citation": "Mark 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And looking round about on them with anger, being grieved for the blindness of their hearts, he saith to the man: Stretch forth thy hand. And he stretched it forth: and his hand was restored unto him.",
+      "citation": "Mark 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the Pharisees going out, immediately made a consultation with the Herodians against him, how they might destroy him.",
+      "citation": "Mark 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But Jesus retired with his disciples to the sea; and a great multitude followed him from Galilee and Judea,",
+      "citation": "Mark 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And from Jerusalem, and from Idumea and from beyond the Jordan. And they about Tyre and Sidon, a great multitude, hearing the things which he did, came to him.",
+      "citation": "Mark 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And he spoke to his disciples that a small ship should wait on him, because of the multitude, lest they should throng him.",
+      "citation": "Mark 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For he healed many, so that they pressed upon him for to touch him, as many as had evils.",
+      "citation": "Mark 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the unclean spirits, when they saw him, fell down before him: and they cried, saying:",
+      "citation": "Mark 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Thou art the Son of God. And he strictly charged them that they should not make him known.",
+      "citation": "Mark 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And going up into a mountain, he called unto him whom he would himself: and they came to him.",
+      "citation": "Mark 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And he made that twelve should be with him, and that he might send them to preach.",
+      "citation": "Mark 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And he gave them power to heal sicknesses, and to cast out devils.",
+      "citation": "Mark 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And to Simon he gave the name Peter:",
+      "citation": "Mark 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And James the son of Zebedee, and John the brother of James; and he named them Boanerges, which is, The sons of thunder.",
+      "citation": "Mark 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And Andrew and Philip, and Bartholomew and Matthew, and Thomas and James of Alpheus, and Thaddeus and Simon the Cananean:",
+      "citation": "Mark 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And Judas Iscariot, who also betrayed him.",
+      "citation": "Mark 3:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And they come to a house, and the multitude cometh together again, so that they could not so much as eat bread.",
+      "citation": "Mark 3:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And when his friends had heard of it, they went out to lay hold on him. For they said: He is become mad.",
+      "citation": "Mark 3:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And the scribes who were come down from Jerusalem, said: He hath Beelzebub, and by the prince of devils he casteth out devils.",
+      "citation": "Mark 3:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And after he had called them together, he said to them in parables: How can Satan cast out Satan?",
+      "citation": "Mark 3:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And if a kingdom be divided against itself, that kingdom cannot stand.",
+      "citation": "Mark 3:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And if a house be divided against itself, that house cannot stand.",
+      "citation": "Mark 3:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And if Satan be risen up against himself, he is divided, and cannot stand, but hath an end.",
+      "citation": "Mark 3:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "No man can enter into the house of a strong man and rob him of his goods, unless he first bind the strong man, and then shall he plunder his house.",
+      "citation": "Mark 3:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Amen I say to you that all sins shall be forgiven unto the sons of men, and the blasphemies wherewith they shall blaspheme:",
+      "citation": "Mark 3:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "But he that shall blaspheme against the Holy Ghost, shall never have forgiveness, but shall be guilty of an everlasting sin.",
+      "citation": "Mark 3:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Because they said: He hath an unclean spirit.",
+      "citation": "Mark 3:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And his mother and his brethren came; and standing without, sent unto him, calling him.",
+      "citation": "Mark 3:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And the multitude sat about him; and they say to him: Behold thy mother and thy brethren without seek for thee.",
+      "citation": "Mark 3:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And answering them, he said: Who is my mother and my brethren?",
+      "citation": "Mark 3:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And looking round about on them who sat about him, he saith: Behold my mother and my brethren.",
+      "citation": "Mark 3:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "For whosoever shall do the will of God, he is my brother, and my sister, and mother.",
+      "citation": "Mark 3:35 (Douay-Rheims)"
+    }
+  ]
+}

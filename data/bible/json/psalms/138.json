@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 138 — 8 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 138,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/137.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/139.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/138.json",
+      "german": "https://latinprayer.org/bibel/psalms/138.json"
+    }
+  },
+  "citation": "Psalms 138 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "For David himself. I will praise thee, O Lord, with my whole heart: for thou hast heard the words of my mouth. I will sing praise to thee in the sight of the angels:",
+      "citation": "Psalms 138:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "I will worship towards thy holy temple, and I will give glory to thy name. For thy mercy, and for thy truth: for thou hast magnified thy holy name above all.",
+      "citation": "Psalms 138:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "In what day soever I shall call upon thee, hear me: thou shalt multiply strength in my soul.",
+      "citation": "Psalms 138:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "May all the kings of the earth give glory to thee: for they have heard all the words of thy mouth.",
+      "citation": "Psalms 138:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And let them sing in the ways of the Lord: for great is the glory of the Lord.",
+      "citation": "Psalms 138:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For the Lord is high, and looketh on the low: and the high he knoweth afar off.",
+      "citation": "Psalms 138:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "If I shall walk in the midst of tribulation, thou wilt quicken me: and thou hast stretched forth thy hand against the wrath of my enemies: and thy right hand hath saved me.",
+      "citation": "Psalms 138:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The Lord will repay for me: thy mercy, O Lord, endureth for ever: O despise not the works of thy hands.",
+      "citation": "Psalms 138:8 (Douay-Rheims)"
+    }
+  ]
+}

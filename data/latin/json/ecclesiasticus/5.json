@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 5 — 18 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 5,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/4.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/5.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/5.json"
+    }
+  },
+  "citation": "Sirach 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "noli adtendere ad possessiones iniquas et ne dixeris est mihi sufficiens vita nihil enim proderit in tempore vindictae et obductionis",
+      "citation": "Sirach 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "non sequaris concupiscentiam cordis",
+      "citation": "Sirach 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et ne dixeris quomodo potui aut quis me subiciet propter facta mea Deus enim vindicans vindicabit",
+      "citation": "Sirach 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ne dixeris peccavi et quid accidit mihi triste Altissimus enim est patiens redditor",
+      "citation": "Sirach 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "de propitiatu peccatorum noli esse sine metu neque adicias peccatum super peccatum",
+      "citation": "Sirach 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et ne dicas miseratio Dei magna est multitudinis peccatorum meorum miserebitur",
+      "citation": "Sirach 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "misericordia enim et ira ab illo et in peccatores respicit ira illius",
+      "citation": "Sirach 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "non tardes converti ad Deum et ne differas de die in diem",
+      "citation": "Sirach 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "subito enim venit ira illius et in tempore vindictae disperdet te",
+      "citation": "Sirach 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "noli anxius esse in divitiis iniustis nihil enim proderunt tibi in die obductionis et vindictae",
+      "citation": "Sirach 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "non ventiles te in omnem ventum et non eas in omni via sic enim peccator probatur duplici lingua",
+      "citation": "Sirach 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "esto firmus in via Dei et in veritate sensus tui et scientia et prosequatur te verbum pacis et iustitiae",
+      "citation": "Sirach 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "esto mansuetus ad audiendum verbum ut intellegas et cum sapientia fers responsum verum",
+      "citation": "Sirach 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "si est tibi intellectus responde proximo sin autem sit manus tua super os tuum ne capiaris in verbo indisciplinato et confundaris",
+      "citation": "Sirach 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "honor et gloria in sermone sensati lingua inprudentis subversio ipsius",
+      "citation": "Sirach 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "non appelleris susurrio et lingua tua capiaris et confundaris",
+      "citation": "Sirach 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "super furem enim est confusio et paenitentia et denotatio pessima super bilinguem susurratori autem odium et inimicitia et contumelia",
+      "citation": "Sirach 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "iustifica pusillo et magno similiter",
+      "citation": "Sirach 5:18 (Clementine Vulgate)"
+    }
+  ]
+}

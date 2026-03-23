@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 65 — 13 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 65,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/64.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/66.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/65.json",
+      "german": "https://latinprayer.org/bibel/psalms/65.json"
+    }
+  },
+  "citation": "Psalms 65 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A hymn, O God, becometh thee in Sion: and a vow shall be paid to thee in Jerusalem.",
+      "citation": "Psalms 65:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "O hear my prayer: all flesh shall come to thee.",
+      "citation": "Psalms 65:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The words of the wicked have prevailed over us: and thou wilt pardon our transgressions.",
+      "citation": "Psalms 65:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Blessed is he whom thou hast chosen and taken to thee: he shall dwell in thy courts. We shall be filled with the good things of thy house; holy is thy temple,",
+      "citation": "Psalms 65:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Wonderful in justice. Hear us, O God our saviour, who art the hope of all the ends of the earth, and in the sea afar off.",
+      "citation": "Psalms 65:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Thou who preparest the mountains by thy strength, being girded with power:",
+      "citation": "Psalms 65:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Who troublest the depth of the sea, the noise of its waves. The Gentiles shall be troubled,",
+      "citation": "Psalms 65:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And they that dwell in the uttermost borders shall be afraid at thy signs: thou shalt make the outgoings of the morning and of the evening to be joyful.",
+      "citation": "Psalms 65:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thou hast visited the earth, and hast plentifully watered it; thou hast many ways enriched it. The river of God is filled with water, thou hast prepared their food: for so is its preparation.",
+      "citation": "Psalms 65:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Fill up plentifully the streams thereof, multiply its fruits; it shall spring up and rejoice in its showers.",
+      "citation": "Psalms 65:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Thou shalt bless the crown of the year of thy goodness: and thy fields shall be filled with plenty.",
+      "citation": "Psalms 65:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The beautiful places of the wilderness shall grow fat: and the hills shall be girded about with joy,",
+      "citation": "Psalms 65:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The rams of the flock are clothed, and the vales shall abound with corn: they shall shout, yea they shall sing a hymn.",
+      "citation": "Psalms 65:13 (Douay-Rheims)"
+    }
+  ]
+}

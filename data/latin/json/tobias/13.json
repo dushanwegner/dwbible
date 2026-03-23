@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Tobit, Chapter 13 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Tobit",
+      "slug": "tobias",
+      "testament": "OT",
+      "order": 17,
+      "totalChapters": 14
+    },
+    "chapter": 13,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/tobias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/tobias/12.json",
+      "nextChapter": "https://latinprayer.org/latin/tobias/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/tobias/13.json",
+      "german": "https://latinprayer.org/bibel/tobias/13.json"
+    }
+  },
+  "citation": "Tobit 13 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "aperiens autem Tobias senior os suum benedixit Dominum et dixit magnus es Domine in aeternum et in omnia saecula regnum tuum",
+      "citation": "Tobit 13:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quoniam tu flagellas et salvas deducis ad infernum et reducis et non est qui effugiat manum tuam",
+      "citation": "Tobit 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "confitemini Domino filii Israhel et in conspectu gentium laudate eum",
+      "citation": "Tobit 13:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quoniam ideo dispersit vos inter gentes quae ignorant eum ut vos narretis mirabilia eius et faciatis scire eos quia non est alius Deus omnipotens praeter eum",
+      "citation": "Tobit 13:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ipse castigavit nos propter iniquitates nostras et ipse salvabit nos propter misericordiam suam",
+      "citation": "Tobit 13:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "aspicite ergo quae fecit vobiscum et cum timore et tremore confitemini illi regemque saeculorum exaltate in operibus vestris",
+      "citation": "Tobit 13:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ego autem in terra captivitatis meae confitebor illi quoniam ostendit maiestatem suam in gentem peccatricem",
+      "citation": "Tobit 13:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "convertimini itaque peccatores et facite iustitiam coram Deo credentes quod faciat vobiscum misericordiam suam",
+      "citation": "Tobit 13:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ego autem et anima mea in eo laetabimur",
+      "citation": "Tobit 13:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "benedicite Dominum omnes electi eius agite dies laetitiae et confitemini illi",
+      "citation": "Tobit 13:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Hierusalem civitas Dei castigavit te Dominus in operibus manuum tuarum",
+      "citation": "Tobit 13:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "confitere Domino in bonis et benedic Deum saeculorum ut reaedificet in te tabernaculum suum et revocet ad te omnes captivos et gaudeas in omnia saecula saeculorum",
+      "citation": "Tobit 13:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "luce splendida fulgebis et omnes fines terrae adorabunt te",
+      "citation": "Tobit 13:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "nationes ex longinquo ad te venient et munera deferentes adorabunt Dominum in te et terram tuam in sanctificatione habebunt",
+      "citation": "Tobit 13:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "nomen magnum invocabunt in te",
+      "citation": "Tobit 13:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "maledicti erunt qui contempserint te et condemnati erunt omnes qui blasphemaverint te benedictique erunt qui aedificaverint te",
+      "citation": "Tobit 13:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "tu autem laetaberis in filiis tuis quoniam omnes benedicentur et congregabuntur ad Dominum",
+      "citation": "Tobit 13:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "beati omnes qui diligunt te et qui gaudent super pace tua",
+      "citation": "Tobit 13:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "anima mea benedic Dominum quoniam liberavit Hierusalem civitatem suam",
+      "citation": "Tobit 13:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "beatus ero si fuerint reliquiae seminis mei ad videndam claritatem Hierusalem",
+      "citation": "Tobit 13:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "portae Hierusalem ex sapphyro et zmaragdo aedificabuntur et ex lapide pretioso omnis circuitus murorum eius",
+      "citation": "Tobit 13:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "ex lapide candido et mundo omnes plateae eius sternentur et per vicos eius alleluia cantabitur",
+      "citation": "Tobit 13:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "benedictus Dominus qui excitavit eam ut sit regnum eius in saecula saeculorum super eam amen",
+      "citation": "Tobit 13:23 (Clementine Vulgate)"
+    }
+  ]
+}

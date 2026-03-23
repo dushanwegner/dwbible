@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Corinthians, Chapter 12 — 31 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Corinthians",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 53,
+      "totalChapters": 16
+    },
+    "chapter": 12,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-corinthians/11.json",
+      "nextChapter": "https://latinprayer.org/bible/1-corinthians/13.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-corinthians/12.json",
+      "german": "https://latinprayer.org/bibel/1-corinthians/12.json"
+    }
+  },
+  "citation": "1. Corinthians 12 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now concerning spiritual things, my brethren, I would not have you ignorant.",
+      "citation": "1. Corinthians 12:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "You know that when you were heathens, you went to dumb idols, according as you were led.",
+      "citation": "1. Corinthians 12:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Wherefore, I give you to understand that no man, speaking by the Spirit of God, saith Anathema to Jesus. And no man can say The Lord Jesus, but by the Holy Ghost.",
+      "citation": "1. Corinthians 12:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Now there are diversities of graces, but the same Spirit.",
+      "citation": "1. Corinthians 12:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And there are diversities of ministries, but the same Lord.",
+      "citation": "1. Corinthians 12:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And there are diversities of operations, but the same God, who worketh all in all.",
+      "citation": "1. Corinthians 12:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the manifestation of the Spirit is given to every man unto profit.",
+      "citation": "1. Corinthians 12:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "To one indeed, by the Spirit, is given the word of wisdom: and to another, the word of knowledge, according to the same Spirit:",
+      "citation": "1. Corinthians 12:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "To another, faith in the same spirit: to another, the grace of healing in one Spirit:",
+      "citation": "1. Corinthians 12:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "To another the working of miracles: to another, prophecy: to another, the discerning of spirits: to another, diverse kinds of tongues: to another, interpretation of speeches.",
+      "citation": "1. Corinthians 12:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "But all these things, one and the same Spirit worketh, dividing to every one according as he will.",
+      "citation": "1. Corinthians 12:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For as the body is one and hath many members; and all the members of the body, whereas they are many, yet are one body: So also is Christ.",
+      "citation": "1. Corinthians 12:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For in one Spirit were we all baptized into one body, whether Jews or Gentiles, whether bond or free: and in one Spirit we have all been made to drink.",
+      "citation": "1. Corinthians 12:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For the body also is not one member, but many.",
+      "citation": "1. Corinthians 12:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "If the foot should say: Because I am not the hand, I am not of the body: Is it therefore not of the Body?",
+      "citation": "1. Corinthians 12:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And if the ear should say: Because I am not the eye, I am not of the body: Is it therefore not of the body?",
+      "citation": "1. Corinthians 12:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "If the whole body were the eye, where would be the hearing?  If the whole were hearing, where would be the smelling?",
+      "citation": "1. Corinthians 12:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "But now God hath set the members, every one of them, in the body as it hath pleased him.",
+      "citation": "1. Corinthians 12:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And if they all were one member, where would be the body?",
+      "citation": "1. Corinthians 12:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "But now there are many members indeed, yet one body.",
+      "citation": "1. Corinthians 12:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And the eye cannot say to the hand: I need not thy help.  Nor again the head to the feet: I have no need of you.",
+      "citation": "1. Corinthians 12:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Yea, much more those that seem to be the more feeble members of the body are more necessary.",
+      "citation": "1. Corinthians 12:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And such as we think to be the less honourable members of the body, about these we put more abundant honour: and those that are our uncomely parts have more abundant comeliness.",
+      "citation": "1. Corinthians 12:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "But our comely parts have no need: but God hath tempered the body together, giving to that which wanted the more abundant honour.",
+      "citation": "1. Corinthians 12:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "That there might be no schism in the body: but the members might be mutually careful one for another.",
+      "citation": "1. Corinthians 12:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And if one member suffer any thing, all the members suffer with it: or if one member glory, all the members rejoice with it.",
+      "citation": "1. Corinthians 12:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Now you are the body of Christ and members of member.",
+      "citation": "1. Corinthians 12:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And God indeed hath set some in the church; first apostles, secondly prophets, thirdly doctors: after that miracles: then the graces of healings, helps, governments, kinds of tongues, interpretations of speeches.",
+      "citation": "1. Corinthians 12:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Are all apostles? Are all prophets? Are all doctors?",
+      "citation": "1. Corinthians 12:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Are all workers of miracles? Have all the grace of healing?  Do all speak with tongues? Do all interpret?",
+      "citation": "1. Corinthians 12:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "But be zealous for the better gifts. And I shew unto you yet a more excellent way.",
+      "citation": "1. Corinthians 12:31 (Douay-Rheims)"
+    }
+  ]
+}

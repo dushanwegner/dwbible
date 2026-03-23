@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 10 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 10,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/9.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/10.json",
+      "german": "https://latinprayer.org/bibel/jeremias/10.json"
+    }
+  },
+  "citation": "Jeremiah 10 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "audite verbum quod locutus est Dominus super vos domus Israhel",
+      "citation": "Jeremiah 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "haec dicit Dominus iuxta vias gentium nolite discere et a signis caeli nolite metuere quae timent gentes",
+      "citation": "Jeremiah 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia leges populorum vanae sunt quia lignum de saltu praecidit opus manuum artificis in ascia",
+      "citation": "Jeremiah 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "argento et auro decoravit illud clavis et malleis conpegit ut non dissolvatur",
+      "citation": "Jeremiah 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "in similitudinem palmae fabricata sunt et non loquentur portata tollentur quia incedere non valent nolite ergo timere ea quia nec male possunt facere nec bene",
+      "citation": "Jeremiah 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "non est similis tui Domine magnus tu et magnum nomen tuum in fortitudine",
+      "citation": "Jeremiah 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quis non timebit te o rex gentium tuum est enim decus inter cunctos sapientes gentium et in universis regnis eorum nullus est similis tui",
+      "citation": "Jeremiah 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "pariter insipientes et fatui probabuntur doctrina vanitatis eorum lignum est",
+      "citation": "Jeremiah 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "argentum involutum de Tharsis adfertur et aurum de Ofaz opus artificis et manus aerarii hyacinthus et purpura indumentum eorum opus artificum universa haec",
+      "citation": "Jeremiah 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "Dominus autem Deus verus est ipse Deus vivens et rex sempiternus ab indignatione eius commovebitur terra et non sustinebunt gentes comminationem eius",
+      "citation": "Jeremiah 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sic ergo dicetis eis dii qui caelos et terram non fecerunt pereant de terra et de his quae sub caelis sunt",
+      "citation": "Jeremiah 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "qui facit terram in fortitudine sua praeparat orbem in sapientia sua et prudentia sua extendit caelos",
+      "citation": "Jeremiah 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ad vocem suam dat multitudinem aquarum in caelo et elevat nebulas ab extremitatibus terrae fulgura in pluviam facit et educit ventum de thesauris suis",
+      "citation": "Jeremiah 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "stultus factus est omnis homo ab scientia confusus est omnis artifex in sculptili quoniam falsum est quod conflavit et non est spiritus in eis",
+      "citation": "Jeremiah 10:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "vana sunt et opus risu dignum in tempore visitationis suae peribunt",
+      "citation": "Jeremiah 10:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "non est his similis pars Iacob qui enim formavit omnia ipse est et Israhel virga hereditatis eius Dominus exercituum nomen illi",
+      "citation": "Jeremiah 10:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "congrega de terra confusionem tuam quae habitas in obsidione",
+      "citation": "Jeremiah 10:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quia haec dicit Dominus ecce ego longe proiciam habitatores terrae in hac vice et tribulabo eos ita ut inveniantur",
+      "citation": "Jeremiah 10:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "vae mihi super contritione mea pessima plaga mea ego autem dixi plane haec infirmitas mea est et portabo illam",
+      "citation": "Jeremiah 10:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "tabernaculum meum vastatum est omnes funiculi mei disrupti sunt filii mei exierunt a me et non subsistunt non est qui extendat ultra tentorium meum et erigat pelles meas",
+      "citation": "Jeremiah 10:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quia stulte egerunt pastores et Dominum non quaesierunt propterea non intellexerunt et omnis grex eorum dispersus est",
+      "citation": "Jeremiah 10:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "vox auditionis ecce venit et commotio magna de terra aquilonis ut ponat civitates Iuda solitudinem et habitaculum draconum",
+      "citation": "Jeremiah 10:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "scio Domine quia non est hominis via eius nec viri est ut ambulet et dirigat gressus suos",
+      "citation": "Jeremiah 10:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "corripe me Domine verumtamen in iudicio et non in furore tuo ne forte ad nihilum redigas me",
+      "citation": "Jeremiah 10:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "effunde indignationem tuam super gentes quae non cognoverunt te et super provincias quae nomen tuum non invocaverunt quia comederunt Iacob et devoraverunt eum et consumpserunt illum et decus eius dissipaverunt",
+      "citation": "Jeremiah 10:25 (Clementine Vulgate)"
+    }
+  ]
+}

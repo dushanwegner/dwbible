@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 29 — 25 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 29,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/28.json",
+      "nextChapter": "https://latinprayer.org/bible/job/30.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/29.json",
+      "german": "https://latinprayer.org/bibel/job/29.json"
+    }
+  },
+  "citation": "Job 29 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Job also added, taking up his parable, and said:",
+      "citation": "Job 29:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Who will grant me, that I might be according to the months past, according to the days in which God kept me?",
+      "citation": "Job 29:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "When his lamp shined over my head, and I walked by his light in darkness?",
+      "citation": "Job 29:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "As I was in the days of my youth, when God was secretly in my tabernacle?",
+      "citation": "Job 29:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "When the Almighty was with me: and my servants round about me?",
+      "citation": "Job 29:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "When I washed my feet with butter, and the rock poured me out rivers of oil?",
+      "citation": "Job 29:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "When I went out to the gate of the city, and in the street they prepared me a chair?",
+      "citation": "Job 29:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The young men saw me, and hid themselves: and the old men rose up and stood.",
+      "citation": "Job 29:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The princes ceased to speak, and laid the finger on their mouth.",
+      "citation": "Job 29:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The rulers held their peace, and their tongue cleaved to their throat.",
+      "citation": "Job 29:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The ear that heard me blessed me, and the eye that saw me gave witness to me:",
+      "citation": "Job 29:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Because I had delivered the poor man that cried out; and the fatherless, that had no helper.",
+      "citation": "Job 29:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The blessing of him that was ready to perish came upon me, and I comforted the heart of the widow.",
+      "citation": "Job 29:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "I was clad with justice: and I clothed myself with my judgment, as with a robe and a diadem.",
+      "citation": "Job 29:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "I was an eye to the blind, and a foot to the lame.",
+      "citation": "Job 29:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "I was the father of the poor: and the cause which I knew not, I searched out most diligently.",
+      "citation": "Job 29:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "I broke the jaws of the wicked man, and out of his teeth I took away the prey.",
+      "citation": "Job 29:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And I said: I shall die in my nest, and as a palm tree shall multiply my days.",
+      "citation": "Job 29:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "My root is opened beside the waters, and dew shall continue in my harvest.",
+      "citation": "Job 29:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "My glory shall always be renewed, and my bow in my hand shall be repaired.",
+      "citation": "Job 29:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "They that heard me, waited for my sentence, and being attentive held their peace at my counsel.",
+      "citation": "Job 29:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "To my words they durst add nothing, and my speech dropped upon them.",
+      "citation": "Job 29:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "They waited for me as for rain, and they opened their mouth as for a latter shower.",
+      "citation": "Job 29:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "If at any time I laughed on them, they believed not, and the light of my countenance fell not on earth.",
+      "citation": "Job 29:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "If I had a mind to go to them, I sat first, and when I sat as a king, with his army standing about him, yet I was a comforter of them that mourned.",
+      "citation": "Job 29:25 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 22 — 33 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 22,
+    "verseCount": 33,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/21.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/23.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/22.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/22.json"
+    }
+  },
+  "citation": "Ecclesiasticus 22 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The sluggard is pelted with a dirty stone, and all men will speak of his disgrace.",
+      "citation": "Ecclesiasticus 22:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The sluggard is pelted with the dung of oxen: and every one that toucheth him will shake his hands.",
+      "citation": "Ecclesiasticus 22:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "A son ill taught is the confusion of the father: and a foolish daughter shall be to his loss.",
+      "citation": "Ecclesiasticus 22:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "A wise daughter shall bring an inheritance to her husband: but she that confoundeth, becometh a disgrace to her father.",
+      "citation": "Ecclesiasticus 22:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "She that is bold shameth both her father and husband, and will not be inferior to the ungodly: and shall be disgraced by them both.",
+      "citation": "Ecclesiasticus 22:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "A tale out of time is like music in mourning: but the stripes and instruction of wisdom are never out of time.",
+      "citation": "Ecclesiasticus 22:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "He that teacheth a fool, is like one that glueth a potsherd together.",
+      "citation": "Ecclesiasticus 22:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He that telleth a word to him that heareth not, is like one that waketh a man out of a deep sleep.",
+      "citation": "Ecclesiasticus 22:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He speaketh with one that is asleep, who uttereth wisdom to a fool: and in the end of the discourse he saith: Who is this?",
+      "citation": "Ecclesiasticus 22:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Weep for the dead, for his light hath failed: and weep for the fool, for his understanding faileth.",
+      "citation": "Ecclesiasticus 22:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Weep but a little for the dead, for he is at rest.",
+      "citation": "Ecclesiasticus 22:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For the wicked life of a wicked fool is worse than death.",
+      "citation": "Ecclesiasticus 22:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The mourning for the dead is seven days: but for a fool and an ungodly man all the days of their life.",
+      "citation": "Ecclesiasticus 22:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Talk not much with a fool and go not with him that hath no sense.",
+      "citation": "Ecclesiasticus 22:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Keep thyself from him, that thou mayst not have trouble, and thou shalt not be defiled with his sin.",
+      "citation": "Ecclesiasticus 22:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Turn away from him, and thou shalt find rest, and shalt not be wearied out with his folly.",
+      "citation": "Ecclesiasticus 22:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "What is heavier than lead? and what other name hath he but fool?",
+      "citation": "Ecclesiasticus 22:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Sand and salt, and a mass of iron is easier to bear, than a man without sense, that is both foolish and wicked.",
+      "citation": "Ecclesiasticus 22:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "A frame of wood bound together in the foundation of a building, shall not be loosed: so neither shall the heart that is established by advised counsel.",
+      "citation": "Ecclesiasticus 22:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The thought of him that is wise at all times, shall not be depraved by fear.",
+      "citation": "Ecclesiasticus 22:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "As pales set in high places, and plasterings made without cost, will not stand against the face of the wind:",
+      "citation": "Ecclesiasticus 22:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "So also a fearful heart in the imagination of a fool shall not resist against the violence of fear.",
+      "citation": "Ecclesiasticus 22:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "As a fearful heart in the thought of a fool at all times will not fear, so neither shall he that continueth always in the commandments of God.",
+      "citation": "Ecclesiasticus 22:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "He that pricketh the eye, bringeth out tears: and he that pricketh the heart, bringeth forth resentment.",
+      "citation": "Ecclesiasticus 22:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "He that flingeth a stone at birds, shall drive them away: so he that upbraideth his friend, breaketh friendship.",
+      "citation": "Ecclesiasticus 22:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Although thou hast drawn a sword at a friend, despair not: for there may be a returning. To a friend,",
+      "citation": "Ecclesiasticus 22:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "If thou hast opened a sad mouth, fear not, for there may be a reconciliation: except upbraiding, and reproach, and pride, and disclosing of secrets, or a treacherous wound: for in all these cases a friend will flee away.",
+      "citation": "Ecclesiasticus 22:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Keep fidelity with a friend in his poverty, that in his prosperity also thou mayst rejoice.",
+      "citation": "Ecclesiasticus 22:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "In the time of his trouble continue faithful to him, that thou mayst also be heir with him in his inheritance.",
+      "citation": "Ecclesiasticus 22:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "As the vapour of a chimney, and the smoke of the fire goeth up before the fire: so also injurious words, and reproaches, and threats, before blood.",
+      "citation": "Ecclesiasticus 22:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "I will not be ashamed to salute a friend, neither will I hide myself from his face: and if any evil happen to me by him, I will bear it.",
+      "citation": "Ecclesiasticus 22:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "But every one that shall hear it, will beware of him.",
+      "citation": "Ecclesiasticus 22:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Who will set a guard before my mouth, and a sure seal upon my lips, that I fall not by them, and that my tongue destroy me not?",
+      "citation": "Ecclesiasticus 22:33 (Douay-Rheims)"
+    }
+  ]
+}

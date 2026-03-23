@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Chronik, Chapter 31 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Chronik",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "order": 14,
+      "totalChapters": 36
+    },
+    "chapter": 31,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/2-paralipomenon/30.json",
+      "nextChapter": "https://latinprayer.org/bibel/2-paralipomenon/32.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-paralipomenon/31.json",
+      "latin": "https://latinprayer.org/latin/2-paralipomenon/31.json"
+    }
+  },
+  "citation": "2 Chronik 31 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als nun alle diese (Festlichkeiten) zu Ende waren, zogen sämtliche Israeliten, die sich dazu eingefunden hatten, in die Ortschaften Judas hinaus, zertrümmerten die Malsteine, zerschlugen die Standbilder der Aschera und zerstörten die Opferhöhen und die Altäre in ganz Juda und Benjamin sowie in Ephraim und Manasse, bis sie sie gänzlich vernichtet hatten; darauf kehrten alle Israeliten in ihre Ortschaften zurück, ein jeder zu seinem Besitztum.",
+      "citation": "2 Chronik 31:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Hierauf bestellte Hiskia die verschiedenen Abteilungen der Priester und der Leviten, jeden einzelnen von den Priestern und den Leviten nach Maßgabe des ihm obliegenden Dienstes bei den Brandopfern und bei den Heilsopfern, um in den Toren des Lagers des HERRN Dienst zu tun und Danklieder oder Lobgesänge vorzutragen.",
+      "citation": "2 Chronik 31:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Der Beitrag des Königs aus seinem Vermögen war für die Brandopfer bestimmt, und zwar für die Brandopfer sowohl an jedem Morgen und Abend als auch an den Sabbaten und Neumonden und an den Festen, wie es im Gesetz des HERRN vorgeschrieben ist.",
+      "citation": "2 Chronik 31:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Sodann machte er es dem Volke, das in Jerusalem wohnte, zur Pflicht, den Priestern und den Leviten die ihnen gebührenden Abgaben zukommen zu lassen, damit sie am Gesetz des HERRN festhalten könnten.",
+      "citation": "2 Chronik 31:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Sobald nun dieser Befehl bekannt wurde, brachten die Israeliten reichlich die Erstlinge vom Getreide, Most, Öl und Honig sowie von allen (übrigen) Erzeugnissen des Feldes dar und lieferten den Zehnten von allem in Menge ab;",
+      "citation": "2 Chronik 31:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "und die Israeliten und Judäer, die in den Ortschaften Judas wohnten, brachten ebenfalls den Zehnten vom Groß- und Kleinvieh sowie den Zehnten von den Weihegaben, die dem HERRN, ihrem Gott, geweiht waren, und legten sie Haufen bei Haufen hin.",
+      "citation": "2 Chronik 31:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Im dritten Monat begannen sie die Haufen aufzuschichten, und im siebten Monat waren sie damit fertig.",
+      "citation": "2 Chronik 31:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Als dann Hiskia und die Fürsten kamen und die Haufen besichtigten, priesen sie den HERRN und sein Volk Israel;",
+      "citation": "2 Chronik 31:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "und als Hiskia sich nun bei den Priestern und den Leviten in betreff der Haufen erkundigte,",
+      "citation": "2 Chronik 31:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "antwortete ihm Asarja, der Oberpriester aus dem Hause Zadok: »Seitdem man angefangen hat, die Abgaben zum Tempel des HERRN zu bringen, haben wir gegessen und sind satt geworden und haben noch viel übrig behalten; denn der HERR hat sein Volk gesegnet; daher ist dieser große Vorrat da übriggeblieben.«",
+      "citation": "2 Chronik 31:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da befahl Hiskia, Zellen im Hause des HERRN herzurichten; und als dies geschehen war,",
+      "citation": "2 Chronik 31:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "brachte man die Abgaben sowie die Zehnten und die Weihegaben gewissenhaft hinein. Zum Oberaufseher darüber wurde der Levit Chananja bestellt und sein Bruder Simei an zweiter Stelle;",
+      "citation": "2 Chronik 31:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Jehiel aber, Asasja, Nahath, Asahel, Jerimoth, Josabad, Eliel, Jismachja, Mahath und Benaja standen als Aufseher dem Chananja und seinem Bruder Simei zur Seite nach der Anordnung des Königs Hiskia und Asarjas, des Fürsten im Hause Gottes.",
+      "citation": "2 Chronik 31:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Weiter wurde der Levit Kore, der Sohn Jimnas, der Hüter des östlichen Tores, zum Aufseher über die Gaben bestellt, die Gott freiwillig dargebracht wurden, damit die dem HERRN gebührenden Hebopfer und die hochheiligen Gaben abgeliefert würden.",
+      "citation": "2 Chronik 31:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Ihm standen Eden, Minjamin, Jesua, Semaja, Amarja und Sechanja in den Priesterstädten getreulich zur Seite, um ihren Amtsbrüdern abteilungsweise, den alten wie den jungen, ihre Anteile zuzuweisen",
+      "citation": "2 Chronik 31:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "mit Ausnahme der in das Geschlechtsverzeichnis eingetragenen männlichen Personen im Alter von drei und mehr Jahren, d.h. aller, die zum Hause des HERRN kamen, wie es ein jeder Tag erforderte, um ihren Dienst nach ihren Obliegenheiten abteilungsweise auszurichten.",
+      "citation": "2 Chronik 31:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Was aber das Verzeichnis der Priester anbetrifft, so war es nach ihren Familien angelegt, und das der Leviten enthielt die Personen von zwanzig und mehr Jahren mit Rücksicht auf ihre amtlichen Obliegenheiten abteilungsweise,",
+      "citation": "2 Chronik 31:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "und zwar waren sie in das Verzeichnis eingetragen samt all ihren kleinen Kindern, ihren Frauen, ihren Söhnen und ihren Töchtern, also der gesamte Stand; denn in ihrer Ehrenhaftigkeit hatten sie sich zu gewissenhafter Pflichterfüllung geheiligt.",
+      "citation": "2 Chronik 31:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Auch für die Nachkommen Aarons, die Priester, waren in den Bezirken der zu ihren Städten gehörenden Markung, in jeder einzelnen Stadt, Männer, die mit Namen angegeben waren, dazu bestellt, allen männlichen Personen unter den Priestern und allen in das Verzeichnis eingetragenen Leviten Anteile zukommen zu lassen.",
+      "citation": "2 Chronik 31:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Auf diese Weise verfuhr Hiskia in ganz Juda und tat, was vor dem HERRN, seinem Gott, gut, recht und pflichtgemäß war;",
+      "citation": "2 Chronik 31:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "und bei allem, was er in betreff des Dienstes am Hause Gottes und auf Grund des Gesetzes und des Gebotes, um seinen Gott zu suchen, vornahm, handelte er mit voller Aufrichtigkeit und hatte daher auch glücklichen Erfolg.",
+      "citation": "2 Chronik 31:21 (Menge)"
+    }
+  ]
+}

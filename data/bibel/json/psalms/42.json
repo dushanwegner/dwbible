@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 42 — 12 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 42,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/41.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/43.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/42.json",
+      "latin": "https://latinprayer.org/latin/psalms/42.json"
+    }
+  },
+  "citation": "Psalmen 42 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister; ein Lehrgedicht</em> <em>der Korahiten</em>.",
+      "citation": "Psalmen 42:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wie der Hirsch lechzt nach Wasserbächen, so lechzt meine Seele nach dir, o Gott!",
+      "citation": "Psalmen 42:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Meine Seele dürstet nach Gott, dem lebendigen Gott: wann werde ich dahin kommen, daß ich erscheine vor Gottes Angesicht?",
+      "citation": "Psalmen 42:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Meine Tränen sind meine Speise geworden bei Tag und bei Nacht, weil man den ganzen Tag zu mir sagt: »Wo ist nun dein Gott?«",
+      "citation": "Psalmen 42:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Daran will ich gedenken – und meinem Schmerz freien Lauf in mir lassen –, wie einst ich dahinschritt in dichter Schar, mit ihnen wallte zum Hause Gottes, umbraust von lautem Jubel und Lobgesang inmitten der feiernden Menge.",
+      "citation": "Psalmen 42:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Was betrübst du dich, meine Seele, und stürmst so ruhlos in mir? Harre auf Gott! Denn ich werde ihm noch danken, ihm, meines Angesichts Hilfe und meinem Gott.",
+      "citation": "Psalmen 42:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Gebeugt ist meine Seele in mir: drum denk’ ich an dich im Lande des Jordans und der Hermongipfel, am Berge Mizar:",
+      "citation": "Psalmen 42:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Flut ruft der Flut zu beim Tosen deiner Wasserstürze; alle, alle deine Wogen und Wellen sind über mich hingegangen!",
+      "citation": "Psalmen 42:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Bei Tag seufz’ ich: »Es entbiete der HERR seine Gnade!«, und nachts ist sein Lied in meinem Munde, ein Gebet zum Gott meines Lebens.",
+      "citation": "Psalmen 42:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Ich sage zu Gott, meinem Felsen: »Warum hast du mich vergessen? Warum muß ich trauernd einhergehn unter dem Druck des Feindes?«",
+      "citation": "Psalmen 42:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Wie Zermalmung liegt mir in meinen Gebeinen der Hohn meiner Dränger, weil sie den ganzen Tag zu mir sagen: »Wo ist nun dein Gott?«",
+      "citation": "Psalmen 42:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Was betrübst du dich, meine Seele, und stürmst so ruhlos in mir? Harre auf Gott! Denn ich werde ihm noch danken, ihm, meines Angesichts Hilfe und meinem Gott.",
+      "citation": "Psalmen 42:12 (Menge)"
+    }
+  ]
+}

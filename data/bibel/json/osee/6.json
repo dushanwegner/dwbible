@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 6 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 6,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/osee/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/osee/5.json",
+      "nextChapter": "https://latinprayer.org/bibel/osee/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/6.json",
+      "latin": "https://latinprayer.org/latin/osee/6.json"
+    }
+  },
+  "citation": "Hosea 6 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "›Kommt, laßt uns zum HERRN umkehren! Denn er hat uns zerrissen und wird uns auch wieder heilen; er hat uns (blutig) geschlagen und wird uns auch verbinden;",
+      "citation": "Hosea 6:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "schon nach zwei Tagen wird er uns genesen lassen, am dritten Tage uns wieder aufhelfen, daß wir vor seinen Augen leben.",
+      "citation": "Hosea 6:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "So laßt uns denn zur Erkenntnis kommen, ja der Erkenntnis des HERRN nachtrachten! Er wird so sicher erscheinen wie das Morgenlicht und wird über uns kommen wie der Regen, wie der Spätregen, der das Land tränkt.‹",
+      "citation": "Hosea 6:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Was soll ich dir tun, Ephraim? Was soll ich dir tun, Juda? Eure Liebe gleicht ja doch dem Morgengewölk und dem Tau, der gar bald vergeht.",
+      "citation": "Hosea 6:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Darum habe ich dreingeschlagen durch die Propheten, habe sie auf Grund der Drohworte meines Mundes erschlagen; und mein Strafgericht ist sichtbar geworden wie das Licht.",
+      "citation": "Hosea 6:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Denn an Liebe habe ich Wohlgefallen, aber nicht an Schlachtopfern, und an Gotteserkenntnis mehr als an Brandopfern.«",
+      "citation": "Hosea 6:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "»Sie aber haben in Adam den Bund gebrochen, sind dort treulos von mir abgefallen.",
+      "citation": "Hosea 6:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Gilead ist eine Stadt von Verbrechern, voll von Blutspuren;",
+      "citation": "Hosea 6:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "und wie Straßenräuber auflauern, so mordet die Genossenschaft der Priester auf der Straße nach Sichem; ja, Schändliches haben sie verübt!",
+      "citation": "Hosea 6:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Im Hause Israel habe ich Grauenhaftes gesehen: dort hat Ephraim sich dem Götzendienst ergeben und Israel sich verunreinigt.",
+      "citation": "Hosea 6:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Auch dir, Juda, ist eine Ernte bereitet, wenn ich das Geschick meines Volkes wende!«",
+      "citation": "Hosea 6:11 (Menge)"
+    }
+  ]
+}

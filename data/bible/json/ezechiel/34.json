@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezechiel, Chapter 34 — 31 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezechiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 34,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ezechiel/33.json",
+      "nextChapter": "https://latinprayer.org/bible/ezechiel/35.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ezechiel/34.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/34.json"
+    }
+  },
+  "citation": "Ezechiel 34 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the word of the Lord came to me, it saying:",
+      "citation": "Ezechiel 34:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Son of man, prophesy concerning the shepherds of Israel: prophesy, and say to the shepherds: Thus saith the Lord God: Woe to the shepherds of Israel, that fed themselves: should not the flocks be fed by the shepherds?",
+      "citation": "Ezechiel 34:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "You ate the milk, and you clothed yourselves with the wool, and you killed that which was fat: but my flock you did not feed.",
+      "citation": "Ezechiel 34:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The weak you have not strengthened, and that which was sick you have not healed, that which was broken you have not bound up, and that which was driven away you have not brought again, neither have you sought that which was lost: but you ruled over them with rigour, and with a high hand.",
+      "citation": "Ezechiel 34:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And my sheep were scattered, because there was no shepherd and they became the prey of all the beasts of the field, and were scattered.",
+      "citation": "Ezechiel 34:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "My sheep have wandered in every mountain, and in every high hill: and my flocks were scattered upon the face of the earth, and there was none that sought them, there was none, I say, that sought them.",
+      "citation": "Ezechiel 34:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Therefore, ye shepherds, hear the word of the Lord:",
+      "citation": "Ezechiel 34:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "As I live, saith the Lord God, forasmuch as my flocks have been made a spoil, and my sheep are become a prey to all the beasts of the field, because there was no shepherd: for my shepherds did not seek after my flock, but the shepherds fed themselves, and fed not my flocks:",
+      "citation": "Ezechiel 34:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Therefore, ye shepherds, hear the word of the Lord:",
+      "citation": "Ezechiel 34:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Thus saith the Lord God: Behold I myself come upon the shepherds, I will require my flock at their hand, and I will cause them to cease from feeding the flock any more, neither shall the shepherds feed themselves any more: and I will deliver my flock from their mouth, and it shall no more be meat for them.",
+      "citation": "Ezechiel 34:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For thus saith the Lord God: Behold I myself will seek my sheep, and will visit them.",
+      "citation": "Ezechiel 34:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "As the shepherd visiteth his flock in the day when he shall be in the midst of his sheep that were scattered, so will I visit my sheep, and will deliver them out of all the places where they have been scattered in the cloudy and dark day.",
+      "citation": "Ezechiel 34:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And I will bring them out from the peoples, and will gather them out of the countries, and will bring them to their own land: and I will feed them in the mountains of Israel, by the rivers, and in all the habitations of the land.",
+      "citation": "Ezechiel 34:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "I will feed them in the most fruitful pastures, and their pastures shall be in the high mountains of Israel: there shall they rest on the green grass, and be fed in fat pastures upon the mountains of Israel.",
+      "citation": "Ezechiel 34:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "I will feed my sheep: and I will cause them to lie down, saith the Lord God.",
+      "citation": "Ezechiel 34:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "I will seek that which was lost: and that which was driven away, I will bring again: and I will bind up that which was broken, and I will strengthen that which was weak, and that which was fat and strong I will preserve, and I will feed them in judgment.",
+      "citation": "Ezechiel 34:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And as for you, O my flocks, thus saith the Lord God: Behold I judge between cattle and cattle, of rams and of he-goats.",
+      "citation": "Ezechiel 34:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Was it not enough for you to feed upon good pastures? but you must also tread down with your feet the residue of your pastures: and when you drank the clearest water, you troubled the rest with your feet.",
+      "citation": "Ezechiel 34:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And my sheep were fed with that which you had trodden with your feet: and they drank what your feet had troubled.",
+      "citation": "Ezechiel 34:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Therefore thus saith the Lord God to you: Behold, I myself will judge between the fat cattle and the lean.",
+      "citation": "Ezechiel 34:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Because you thrusted with sides and shoulders, and struck all the weak cattle with your horns, till they were scattered abroad:",
+      "citation": "Ezechiel 34:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "I will save my flock, and it shall be no more a spoil, and I will judge between cattle and cattle.",
+      "citation": "Ezechiel 34:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And I WILL SET UP ONE SHEPHERD OVER THEM, and he shall feed them, even my servant David: he shall feed them, and he shall be their shepherd.",
+      "citation": "Ezechiel 34:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And I the Lord will be their God: and my servant David the prince in the midst of them: I the Lord have spoken it.",
+      "citation": "Ezechiel 34:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And I will make a covenant of peace with them, and will cause the evil beasts to cease out of the land: and they that dwell in the wilderness shall sleep secure in the forests.",
+      "citation": "Ezechiel 34:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And I will make them a blessing round about my hill: and I will send down the rain in its season, there shall be showers of blessing.",
+      "citation": "Ezechiel 34:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And the tree of the field shall yield its fruit, and the earth shall yield her increase, and they shall be in their land without fear: and they shall know that I am the Lord, when I shall have broken the bonds of their yoke, and shall have delivered them out of the hand of those that rule over them.",
+      "citation": "Ezechiel 34:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And they shall be no more for a spoil to the nations, neither shall the beasts of the earth devour them: but they shall dwell securely without, any terror.",
+      "citation": "Ezechiel 34:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And I will raise up for them a bud of renown: and they shall be no more consumed with famine in the land, neither shall they bear any more the reproach of the Gentiles.",
+      "citation": "Ezechiel 34:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And they shall know that I the Lord their God am with them, and that they are my people the house of Israel: saith the Lord God.",
+      "citation": "Ezechiel 34:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And you my flocks, the flocks of my pasture are men: and I am the Lord your God, saith the Lord God.",
+      "citation": "Ezechiel 34:31 (Douay-Rheims)"
+    }
+  ]
+}

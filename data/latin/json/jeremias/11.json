@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 11 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 11,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/10.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/11.json",
+      "german": "https://latinprayer.org/bibel/jeremias/11.json"
+    }
+  },
+  "citation": "Jeremiah 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "verbum quod factum est ad Hieremiam a Domino dicens",
+      "citation": "Jeremiah 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "audite verba pacti huius et loquimini ad viros Iuda et habitatores Hierusalem",
+      "citation": "Jeremiah 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dices ad eos haec dicit Dominus Deus Israhel maledictus vir qui non audierit verba pacti huius",
+      "citation": "Jeremiah 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quod praecepi patribus vestris in die qua eduxi eos de terra Aegypti de fornace ferrea dicens audite vocem meam et facite omnia quae praecipio vobis et eritis mihi in populum et ego ero vobis in Deum",
+      "citation": "Jeremiah 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ut suscitem iuramentum quod iuravi patribus vestris daturum me eis terram fluentem lacte et melle sicut est dies haec et respondi et dixi amen Domine",
+      "citation": "Jeremiah 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et dixit Dominus ad me vociferare omnia verba haec in civitatibus Iuda et foris Hierusalem dicens audite verba pacti huius et facite illa",
+      "citation": "Jeremiah 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quia contestans contestatus sum patres vestros in die qua eduxi eos de terra Aegypti usque ad diem hanc mane surgens contestatus sum et dixi audite vocem meam",
+      "citation": "Jeremiah 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et non audierunt nec inclinaverunt aurem suam sed abierunt unusquisque in pravitate cordis sui mali et induxi super eos omnia verba pacti huius quod praecepi ut facerent et non fecerunt",
+      "citation": "Jeremiah 11:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et dixit Dominus ad me inventa est coniuratio in viris Iuda et in habitatoribus Hierusalem",
+      "citation": "Jeremiah 11:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "reversi sunt ad iniquitates patrum suorum priores qui noluerunt audire verba mea et hii ergo abierunt post deos alienos ut servirent eis irritum fecerunt domus Israhel et domus Iuda pactum meum quod pepigi cum patribus eorum",
+      "citation": "Jeremiah 11:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quam ob rem haec dicit Dominus ecce ego inducam super eos mala de quibus exire non poterunt et clamabunt ad me et non exaudiam eos",
+      "citation": "Jeremiah 11:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et ibunt civitates Iuda et habitatores Hierusalem et clamabunt ad deos quibus libant et non salvabunt eos in tempore adflictionis eorum",
+      "citation": "Jeremiah 11:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "secundum numerum enim civitatum tuarum erant dii tui Iuda et secundum numerum viarum Hierusalem posuistis aras confusionis aras ad libandum Baali",
+      "citation": "Jeremiah 11:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "tu ergo noli orare pro populo hoc et ne adsumas pro eis laudem et orationem quia non exaudiam in tempore clamoris eorum ad me in tempore adflictionis eorum",
+      "citation": "Jeremiah 11:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quid est quod dilectus meus in domo mea fecit scelera multa numquid carnes sanctae auferent a te malitias tuas in quibus gloriata es",
+      "citation": "Jeremiah 11:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "olivam uberem pulchram fructiferam speciosam vocavit Dominus nomen tuum ad vocem loquellae grandis exarsit ignis in ea et conbusta sunt frutecta eius",
+      "citation": "Jeremiah 11:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et Dominus exercituum qui plantavit te locutus est super te malum pro malis domus Israhel et domus Iuda quae fecerunt sibi ad inritandum me libantes Baali",
+      "citation": "Jeremiah 11:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "tu autem Domine demonstrasti mihi et cognovi tunc ostendisti mihi studia eorum",
+      "citation": "Jeremiah 11:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et ego quasi agnus mansuetus qui portatur ad victimam et non cognovi quia super me cogitaverunt consilia mittamus lignum in panem eius et eradamus eum de terra viventium et nomen eius non memoretur amplius",
+      "citation": "Jeremiah 11:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "tu autem Domine Sabaoth qui iudicas iuste et probas renes et cor videam ultionem tuam ex eis tibi enim revelavi causam meam",
+      "citation": "Jeremiah 11:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "propterea haec dicit Dominus ad viros Anathoth qui quaerunt animam tuam et dicunt non prophetabis in nomine Domini et non morieris in manibus nostris",
+      "citation": "Jeremiah 11:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "propterea haec dicit Dominus exercituum ecce ego visitabo super eos iuvenes morientur in gladio filii eorum et filiae eorum morientur in fame",
+      "citation": "Jeremiah 11:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et reliquiae non erunt ex eis inducam enim malum super viros Anathoth annum visitationis eorum",
+      "citation": "Jeremiah 11:23 (Clementine Vulgate)"
+    }
+  ]
+}

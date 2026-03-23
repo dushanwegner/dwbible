@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 49 — 26 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 49,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/isaias/48.json",
+      "nextChapter": "https://latinprayer.org/bibel/isaias/50.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/49.json",
+      "latin": "https://latinprayer.org/latin/isaias/49.json"
+    }
+  },
+  "citation": "Jesaja 49 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Höret auf mich, ihr Meeresländer, und merkt auf, ihr Völker in der Ferne! Der HERR hat mich von Geburt an berufen, von meiner Mutter Schoß an meinen Namen in Erinnerung gebracht.",
+      "citation": "Jesaja 49:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Und er hat meinen Mund einem scharfen Schwerte gleich gemacht, im Schatten seiner Hand mich geborgen und mich zu einem auserlesenen Pfeil gemacht, in seinem Köcher mich sicher verwahrt",
+      "citation": "Jesaja 49:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "und zu mir gesagt: »Mein Knecht bist du, Israel, an dem ich mich verherrlichen will.«",
+      "citation": "Jesaja 49:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ich aber sagte: »Umsonst habe ich mich gemüht, vergebens und erfolglos meine Kraft verbraucht; doch mein Recht steht bei dem HERRN und mein Lohn bei meinem Gott.«",
+      "citation": "Jesaja 49:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Nun aber hat der HERR gesagt, der mich von meiner Geburt an zu seinem Knecht gebildet hat, damit ich Jakob zu ihm zurückführe und damit Israel zu ihm gesammelt werde – denn ich bin geehrt in den Augen des HERRN, und mein Gott ist meine Stärke geworden –,",
+      "citation": "Jesaja 49:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "ja er hat gesagt: »Es genügt mir nicht, daß du mein Knecht sein sollst, nur damit ich die Stämme Jakobs wiederherstelle und die geretteten Angehörigen Israels zurückführe; nein, ich bestimme dich (auch) zum Licht der Heidenvölker, damit mein Heil bis ans Ende der Erde reiche.«",
+      "citation": "Jesaja 49:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "So hat der HERR, der Erlöser Israels, sein Heiliger, zu dem gesprochen, den jedermann tief verachtet, den die Heidenwelt verabscheut, zu dem Knecht der Zwingherren: »Könige werden es sehen und (vor ihm) aufstehen, Fürsten (werden es sehen) und sich niederwerfen um des HERRN willen, weil er treu ist, um des Heiligen Israels willen, weil er dich erwählt hat.«",
+      "citation": "Jesaja 49:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Weiter hat der HERR so gesprochen: »In der Zeit des Wohlgefallens habe ich dich erhört und am Tage des Heils dir geholfen und habe dich behütet und dich zum Volksbund gemacht, um das Land wieder aufzurichten, um die verwüsteten Erblande wieder als Erbe auszuteilen,",
+      "citation": "Jesaja 49:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "um den Gefangenen zuzurufen: ›Tretet heraus!‹ und zu den in Finsternis Sitzenden: ›Kommt ans Licht!‹ Gleich an den Wegen sollen sie weiden und auf allen kahlen Höhen Weideplätze für sich finden;",
+      "citation": "Jesaja 49:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "sie sollen nicht hungern und nicht dürsten, und weder der Glutwind noch der Sonnenbrand soll sie treffen, denn ihr Erbarmer wird sie führen und sie an Wasserquellen ruhen lassen.",
+      "citation": "Jesaja 49:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Und alle meine Berge will ich zu Wegen machen, und meine Straßen sollen hoch gebaut sein.",
+      "citation": "Jesaja 49:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Sehet, die einen werden aus weiter Ferne kommen, und jene dort von Norden und vom Westmeer her und wieder andere aus dem Lande der Siniter.«",
+      "citation": "Jesaja 49:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Jubelt, ihr Himmel, und jauchze, du Erde, und ihr Berge, brecht in Jubel aus! Denn der HERR hat sein Volk getröstet und seiner Gebeugten sich erbarmt.",
+      "citation": "Jesaja 49:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Und trotzdem hat Zion geklagt: »Der HERR hat mich verlassen, und der Allherr hat meiner vergessen!«",
+      "citation": "Jesaja 49:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Wird wohl ein Weib ihres Kindleins vergessen, so daß sie sich nicht erbarmt über das Kind ihres Mutterleibes? Und sollten selbst Mütter seiner vergessen, so will ich doch deiner nicht vergessen;",
+      "citation": "Jesaja 49:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "siehe, auf meine beiden Handflächen habe ich dich gezeichnet: deine (neuzuerbauenden) Mauern stehen mir allezeit vor Augen.",
+      "citation": "Jesaja 49:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Deine Erbauer eilen schon herbei, deine Zerstörer und Verwüster aber ziehen weg aus dir.",
+      "citation": "Jesaja 49:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Erhebe deine Augen und blicke rings um dich: sie haben sich alle schon versammelt und kommen zu dir! »So wahr ich lebe« – so lautet der Ausspruch des HERRN –, »wie einen Schmuck wirst du sie alle dir anlegen und sie dir wie eine Braut als Gürtel umbinden.",
+      "citation": "Jesaja 49:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Denn deine Trümmerstätten und Einöden und dein verwüstetes Land – fortan wird es zu eng sein für die Bewohner, und die dich jetzt verheeren, werden fern sein.",
+      "citation": "Jesaja 49:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Du wirst noch mit eigenen Ohren die aus der Zeit deiner Vereinsamung dir gebliebenen Söhne sagen hören: ›Der Raum ist mir zu eng: schaffe mir Platz, daß ich wohnen kann!‹",
+      "citation": "Jesaja 49:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Da wirst du denn dir selbst die Frage vorlegen: ›Wer hat diese da für mich erzeugt, während ich kinderlos und unfruchtbar war, in der Verbannung lebend und verstoßen? Und wer hat mir diese da großgezogen? Ich war ja doch allein übriggeblieben; diese also – wo waren sie?‹«",
+      "citation": "Jesaja 49:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "So hat Gott der HERR gesprochen: »Fürwahr, ich will mit der Hand den Heiden winken und mein Panier den Völkern sichtbar aufpflanzen; dann werden sie deine Söhne im Gewandbausch herbeitragen, und deine Töchter wird man auf den Schultern herbringen.",
+      "citation": "Jesaja 49:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Und Könige werden deine Kinderwärter sein und ihre fürstlichen Gemahlinnen deine Ammen; das Antlitz zur Erde gewandt, werden sie sich vor dir niederwerfen und den Staub an deinen Füßen lecken; und du sollst erkennen, daß ich, der HERR, es bin, an dem die, welche auf ihn harren, nicht enttäuscht werden.«",
+      "citation": "Jesaja 49:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Kann wohl einem Starken die Beute abgenommen werden, oder können die Gefangenen eines Mächtigen entrinnen?",
+      "citation": "Jesaja 49:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "»Ja«; so hat der HERR gesprochen: »Auch die Gefangenen eines Helden können ihm abgenommen werden, und die Beute eines Mächtigen kann entrinnen, und ich selbst will mit deinen Widersachern streiten, und deine Söhne will ich selbst retten;",
+      "citation": "Jesaja 49:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "deine Peiniger will ich ihr eigenes Fleisch verzehren lassen, und wie an Most sollen sie sich an ihrem eigenen Blute berauschen; dann wird alles Fleisch erkennen, daß ich, der HERR, dein Retter bin und ich dein Erlöser, der starke Gott Jakobs.«",
+      "citation": "Jesaja 49:26 (Menge)"
+    }
+  ]
+}

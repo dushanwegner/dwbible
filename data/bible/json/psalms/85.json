@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 85 — 13 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 85,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/84.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/86.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/85.json",
+      "german": "https://latinprayer.org/bibel/psalms/85.json"
+    }
+  },
+  "citation": "Psalms 85 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Lord, thou hast blessed thy land: thou hast turned away the captivity of Jacob.",
+      "citation": "Psalms 85:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Thou hast forgiven the iniquity of thy people: thou hast covered all their sins.",
+      "citation": "Psalms 85:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Thou hast mitigated all thy anger: thou hast turned away from the wrath of thy indignation.",
+      "citation": "Psalms 85:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Convert us, O God our saviour: and turn off thy anger from us.",
+      "citation": "Psalms 85:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Wilt thou be angry with us for ever: or wilt thou extend thy wrath from generation to generation?",
+      "citation": "Psalms 85:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Thou wilt turn, O God, and bring us to life: and thy people shall rejoice in thee.",
+      "citation": "Psalms 85:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Shew us, O Lord, thy mercy; and grant us thy salvation.",
+      "citation": "Psalms 85:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "I will hear what the Lord God will speak in me: for he will speak peace unto his people: And unto his saints: and unto them that are converted to the heart.",
+      "citation": "Psalms 85:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Surely his salvation is near to them that fear him: that glory may dwell in our land.",
+      "citation": "Psalms 85:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Mercy and truth have met each other: justice and peace have kissed.",
+      "citation": "Psalms 85:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Truth is sprung out of the earth: and justice hath looked down from heaven.",
+      "citation": "Psalms 85:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For the Lord will give goodness: and our earth shall yield her fruit.",
+      "citation": "Psalms 85:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Justice shall walk before him: and shall set his steps in the way.",
+      "citation": "Psalms 85:13 (Douay-Rheims)"
+    }
+  ]
+}

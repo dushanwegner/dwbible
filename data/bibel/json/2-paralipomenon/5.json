@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Chronik, Chapter 5 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Chronik",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "order": 14,
+      "totalChapters": 36
+    },
+    "chapter": 5,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/2-paralipomenon/4.json",
+      "nextChapter": "https://latinprayer.org/bibel/2-paralipomenon/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-paralipomenon/5.json",
+      "latin": "https://latinprayer.org/latin/2-paralipomenon/5.json"
+    }
+  },
+  "citation": "2 Chronik 5 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als nun alle Arbeiten, die Salomo für den Tempel des HERRN hatte herstellen lassen, fertig waren, ließ Salomo die Weihgeschenke seines Vaters David hineinbringen und legte das Silber, das Gold und sämtliche Geräte in den Schatzkammern des Gotteshauses nieder.",
+      "citation": "2 Chronik 5:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Damals ließ Salomo die Ältesten der Israeliten und alle Häupter der Stämme, die Fürsten der israelitischen Geschlechter, in Jerusalem zusammenkommen, um die Bundeslade des HERRN aus der Davidsstadt, das ist Zion, hinaufzubringen.",
+      "citation": "2 Chronik 5:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "So versammelten sich denn alle Israeliten beim König zum Fest, nämlich im Monat Ethanim, das ist der siebte Monat.",
+      "citation": "2 Chronik 5:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als nun alle Ältesten der Israeliten sich eingefunden hatten, hoben die Leviten die Lade auf",
+      "citation": "2 Chronik 5:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "und trugen sie hinauf, ebenso das Offenbarungszelt samt allen heiligen Geräten, die sich im Zelt befanden: die levitischen Priester trugen sie hinauf.",
+      "citation": "2 Chronik 5:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Der König Salomo aber und die ganze Volksgemeinde Israel, die bei ihm versammelt war, standen vor der Lade und opferten so viele Stück Kleinvieh und Rinder, daß ihre Menge geradezu unzählbar war.",
+      "citation": "2 Chronik 5:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Alsdann brachten die Priester die Lade mit dem Bundesgesetz des HERRN an den für sie bestimmten Platz, nämlich in den Hinterraum des Tempelhauses, in das Allerheiligste, unter die Flügel der Cherube;",
+      "citation": "2 Chronik 5:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "die Cherube hielten nämlich die Flügel ausgebreitet über den Platz, wo die Lade stand, so daß die Cherube eine Decke oben über der Lade und deren Tragstangen bildeten.",
+      "citation": "2 Chronik 5:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Die Tragstangen aber waren so lang, daß die Spitzen der Stangen im Heiligtum an der Vorderseite des Allerheiligsten sichtbar waren; weiter draußen aber waren sie nicht zu sehen; und sie sind dort geblieben bis auf den heutigen Tag.",
+      "citation": "2 Chronik 5:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "In der Lade befand sich nichts als nur die beiden Tafeln, die Mose am Horeb hineingelegt hatte, als der HERR mit den Israeliten nach ihrem Auszug aus Ägypten einen Bund schloß.",
+      "citation": "2 Chronik 5:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Als aber die Priester aus dem Heiligtum hinaustraten – alle Priester nämlich, die zugegen waren, hatten sich geheiligt, ohne daß man Rücksicht auf die (Reihenfolge der) Abteilungen genommen hatte,",
+      "citation": "2 Chronik 5:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "und die levitischen Sänger standen insgesamt, nämlich Asaph, Heman, Jeduthun nebst ihren Söhnen und Amtsgenossen, in Byssus gekleidet, mit Zimbeln, Harfen und Zithern auf der Ostseite des Altars und bei ihnen an hundertundzwanzig Priester, die auf Trompeten bliesen;",
+      "citation": "2 Chronik 5:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "es hatten aber die Trompeter und die Sänger wie ein Mann mit einer Stimme einzusetzen, um dem HERRN Lobpreis und Dank darzubringen –, sobald sich also der Schall der Trompeten und Zimbeln und der übrigen Musikinstrumente erhob und man das Loblied auf den HERRN anstimmte: »Denn er ist gütig, und seine Gnade währet ewiglich«: da wurde das Haus, der Tempel des HERRN, von einer Wolke erfüllt,",
+      "citation": "2 Chronik 5:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "so daß die Priester wegen der Wolke nicht hintreten konnten, um ihren Dienst zu versehen; denn die Herrlichkeit des HERRN erfüllte das Gotteshaus.",
+      "citation": "2 Chronik 5:14 (Menge)"
+    }
+  ]
+}

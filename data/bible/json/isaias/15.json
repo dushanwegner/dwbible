@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 15 — 9 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 15,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/14.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/16.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/15.json",
+      "german": "https://latinprayer.org/bibel/isaias/15.json"
+    }
+  },
+  "citation": "Isaias 15 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The burden of Moab. Because in the night Ar of Moab is laid waste, it is silent: because the wall of Moab is destroyed in the night, it is silent.",
+      "citation": "Isaias 15:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The house is gone up, and Dibon to the high places to mourn over Nabo, and over Medaba, Moab hath howled: on all their heads shall be baldness, and every beard shall be shaven.",
+      "citation": "Isaias 15:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "In their streets they are girded with sackcloth: on the tops of their houses, and in their streets all shall howl and come down weeping.",
+      "citation": "Isaias 15:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Hesebon shall cry, and Eleale, their voice is heard even to Jasa. For this shall the well appointed men of Moab howl, his soul shall howl to itself.",
+      "citation": "Isaias 15:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "My heart shall cry to Moab, the bars thereof shall flee unto Segor a heifer of three years old: for by the ascent of Luith they shall go up weeping: and in the way of Oronaim they shall lift up a cry of destruction.",
+      "citation": "Isaias 15:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For the waters of Nemrim shall be desolate, for the grass is withered away, the spring is faded, all the greenness is perished.",
+      "citation": "Isaias 15:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "According to the greatness of their work, is their visitation also: they shall lead them to the torrent of the willows.",
+      "citation": "Isaias 15:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For the cry is gone round about the border of Moab: the howling thereof unto Gallim, and unto the well of Elim the cry thereof.",
+      "citation": "Isaias 15:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For the waters of Dibon are filled with blood: for I will bring more upon Dibon: the lion upon them that shall flee of Moab, and upon the remnant of the land.",
+      "citation": "Isaias 15:9 (Douay-Rheims)"
+    }
+  ]
+}

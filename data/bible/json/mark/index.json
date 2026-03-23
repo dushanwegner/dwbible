@@ -1,0 +1,123 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Mark — 16 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Mark",
+      "slug": "mark",
+      "testament": "NT",
+      "order": 48,
+      "totalChapters": 16
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/mark/index.json",
+      "german": "https://latinprayer.org/bibel/mark/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 45,
+      "url": "https://latinprayer.org/bible/mark/1",
+      "jsonUrl": "https://latinprayer.org/bible/mark/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/bible/mark/2",
+      "jsonUrl": "https://latinprayer.org/bible/mark/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/bible/mark/3",
+      "jsonUrl": "https://latinprayer.org/bible/mark/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 40,
+      "url": "https://latinprayer.org/bible/mark/4",
+      "jsonUrl": "https://latinprayer.org/bible/mark/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/bible/mark/5",
+      "jsonUrl": "https://latinprayer.org/bible/mark/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 56,
+      "url": "https://latinprayer.org/bible/mark/6",
+      "jsonUrl": "https://latinprayer.org/bible/mark/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/bible/mark/7",
+      "jsonUrl": "https://latinprayer.org/bible/mark/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/bible/mark/8",
+      "jsonUrl": "https://latinprayer.org/bible/mark/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 50,
+      "url": "https://latinprayer.org/bible/mark/9",
+      "jsonUrl": "https://latinprayer.org/bible/mark/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 52,
+      "url": "https://latinprayer.org/bible/mark/10",
+      "jsonUrl": "https://latinprayer.org/bible/mark/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/bible/mark/11",
+      "jsonUrl": "https://latinprayer.org/bible/mark/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 44,
+      "url": "https://latinprayer.org/bible/mark/12",
+      "jsonUrl": "https://latinprayer.org/bible/mark/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/bible/mark/13",
+      "jsonUrl": "https://latinprayer.org/bible/mark/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 72,
+      "url": "https://latinprayer.org/bible/mark/14",
+      "jsonUrl": "https://latinprayer.org/bible/mark/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 47,
+      "url": "https://latinprayer.org/bible/mark/15",
+      "jsonUrl": "https://latinprayer.org/bible/mark/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/bible/mark/16",
+      "jsonUrl": "https://latinprayer.org/bible/mark/16.json"
+    }
+  ]
+}

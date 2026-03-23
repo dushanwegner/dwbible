@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebrews, Chapter 1 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 1,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/hebrews/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/hebrews/1.json",
+      "german": "https://latinprayer.org/bibel/hebrews/1.json"
+    }
+  },
+  "citation": "Hebrews 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "multifariam et multis modis olim Deus loquens patribus in prophetis",
+      "citation": "Hebrews 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "novissime diebus istis locutus est nobis in Filio quem constituit heredem universorum per quem fecit et saecula",
+      "citation": "Hebrews 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "qui cum sit splendor gloriae et figura substantiae eius portansque omnia verbo virtutis suae purgationem peccatorum faciens sedit ad dexteram Maiestatis in excelsis",
+      "citation": "Hebrews 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "tanto melior angelis effectus quanto differentius prae illis nomen hereditavit",
+      "citation": "Hebrews 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "cui enim dixit aliquando angelorum Filius meus es tu ego hodie genui te et rursum ego ero illi in Patrem et ipse erit mihi in Filium",
+      "citation": "Hebrews 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et cum iterum introducit primogenitum in orbem terrae dicit et adorent eum omnes angeli Dei",
+      "citation": "Hebrews 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et ad angelos quidem dicit qui facit angelos suos spiritus et ministros suos flammam ignis",
+      "citation": "Hebrews 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ad Filium autem thronus tuus Deus in saeculum saeculi et virga aequitatis virga regni tui",
+      "citation": "Hebrews 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dilexisti iustitiam et odisti iniquitatem propterea unxit te Deus Deus tuus oleo exultationis prae participibus tuis",
+      "citation": "Hebrews 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et tu in principio Domine terram fundasti et opera manuum tuarum sunt caeli",
+      "citation": "Hebrews 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ipsi peribunt tu autem permanebis et omnes ut vestimentum veterescent",
+      "citation": "Hebrews 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et velut amictum involves eos et mutabuntur tu autem idem es et anni tui non deficient",
+      "citation": "Hebrews 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ad quem autem angelorum dixit aliquando sede a dextris meis quoadusque ponam inimicos tuos scabillum pedum tuorum",
+      "citation": "Hebrews 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "nonne omnes sunt administratorii spiritus in ministerium missi propter eos qui hereditatem capient salutis",
+      "citation": "Hebrews 1:14 (Clementine Vulgate)"
+    }
+  ]
+}

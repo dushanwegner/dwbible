@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 28 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 28,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/27.json",
+      "nextChapter": "https://latinprayer.org/bible/job/29.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/28.json",
+      "german": "https://latinprayer.org/bibel/job/28.json"
+    }
+  },
+  "citation": "Job 28 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Silver hath beginnings of its veins, and gold hath a place wherein it is melted.",
+      "citation": "Job 28:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Iron is taken out of the earth, and stone melted with heat is turned into brass.",
+      "citation": "Job 28:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He hath set a time for darkness, and the end of all things he considereth, the stone also that is in the dark and the shadow of death.",
+      "citation": "Job 28:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The flood divideth from the people that are on their journey, those whom the food of the needy man hath forgotten, and who cannot be come at.",
+      "citation": "Job 28:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The land, out of which bread grew in its place, hath been overturned with fire.",
+      "citation": "Job 28:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The stones of it are the place of sapphires, and the clods of it are gold.",
+      "citation": "Job 28:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The bird hath not known the path, neither hath the eye of the vulture beheld it.",
+      "citation": "Job 28:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The children of the merchants have not trodden it, neither hath the lioness passed by it.",
+      "citation": "Job 28:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He hath stretched forth his hand to the flint, he hath overturned mountains from the roots.",
+      "citation": "Job 28:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "In the rocks he hath cut out rivers, and his eye hath seen every precious thing.",
+      "citation": "Job 28:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The depths also of rivers he hath searched, and hidden things he hath brought forth to light.",
+      "citation": "Job 28:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "But where is wisdom to be found, and where is the place of understanding?",
+      "citation": "Job 28:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Man knoweth not the price thereof, neither is it found in the land of them that live in delights.",
+      "citation": "Job 28:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "The depth saith: It is not in me: and the sea saith: It is not with me.",
+      "citation": "Job 28:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The finest gold shall not purchase it, neither shall silver be weighed in exchange for it.",
+      "citation": "Job 28:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "It shall not be compared with the dyed colours of India, or with the most precious stone sardonyx, or the sapphire.",
+      "citation": "Job 28:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Gold or crystal cannot equal it, neither shall any vessels of gold be changed for it.",
+      "citation": "Job 28:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "High and eminent things shall not be mentioned in comparison of it: but wisdom is drawn out of secret places.",
+      "citation": "Job 28:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The topaz of Ethiopia shall not be equal to it, neither shall it be compared to the cleanest dyeing.",
+      "citation": "Job 28:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Whence then cometh wisdom? and where is the place of understanding?",
+      "citation": "Job 28:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "It is hid from the eyes of all living, and the fowls of the air know it not.",
+      "citation": "Job 28:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Destruction and death have said: With our ears we have heard the fame thereof.",
+      "citation": "Job 28:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "God understandeth the way of it, and he knoweth the place thereof.",
+      "citation": "Job 28:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "For he beholdeth the ends of the world: and looketh on all things that are under heaven.",
+      "citation": "Job 28:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Who made a weight for the winds, and weighed the waters by measure.",
+      "citation": "Job 28:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "When he gave a law for the rain, and a way for the sounding storms.",
+      "citation": "Job 28:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Then he saw it, and declared, and prepared, and searched it.",
+      "citation": "Job 28:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And he said to man: Behold the fear of the Lord, that is wisdom: and to depart from evil, is understanding.",
+      "citation": "Job 28:28 (Douay-Rheims)"
+    }
+  ]
+}

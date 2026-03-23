@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judith, Chapter 4 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "order": 18,
+      "totalChapters": 16
+    },
+    "chapter": 4,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/judith/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/judith/3.json",
+      "nextChapter": "https://latinprayer.org/bible/judith/5.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/judith/4.json",
+      "german": "https://latinprayer.org/bibel/judith/4.json"
+    }
+  },
+  "citation": "Judith 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Then the children of Israel, who dwelt in the land of Juda, hearing these things, were exceedingly afraid of him.",
+      "citation": "Judith 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Dread and horror seized upon their minds, lest he should do the same to Jerusalem and to the temple of the Lord, that he had done to other cities and their temples.",
+      "citation": "Judith 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And they sent into all Samaria round about, as far as Jericho, and seized upon all the tops of the mountains:",
+      "citation": "Judith 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And they compassed their towns with walls and gathered together corn for provision for war.",
+      "citation": "Judith 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And Eliachim the priest wrote to all that were over against Esdrelon, which faceth the great plain near Dothain, and to all by whom there might be a passage of way, that they should take possession of the ascents of the mountains, by which there might be any way to Jerusalem, and should keep watch where the way was narrow between the mountains.",
+      "citation": "Judith 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the children of Israel did as the priests of the Lord Eliachim had appointed them.",
+      "citation": "Judith 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And all the people cried to the Lord with great earnestness, and they humbled their souls in fastings, and prayers, both they and their wives.",
+      "citation": "Judith 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the priests put on haircloths, and they caused the little children to lie prostrate before the temple of the Lord, and the altar of the Lord they covered with haircloth.",
+      "citation": "Judith 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And they cried to the Lord the God of Israel with one accord, that their children might not be made a prey, and their wives carried off, and their cities destroyed, and their holy things profaned, and that they might not be made a reproach to the Gentiles.",
+      "citation": "Judith 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Then Eliachim the high priest of the Lord went about all Israel and spoke to them,",
+      "citation": "Judith 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Saying: Know ye that the Lord will hear your prayers, if you continue with perseverance in fastings and prayers in the sight of the Lord.",
+      "citation": "Judith 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Remember Moses the servant of the Lord overcame Amalec that trusted in his own strength, and in his power, and in his army, and in his shields, and in his chariots, and in his horsemen, not by fighting with the sword, but by holy prayers:",
+      "citation": "Judith 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "So all the enemies of Israel be, if you persevere in this work which you have begun.",
+      "citation": "Judith 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "So they being moved by this exhortation of his, prayed to the Lord, and continued in the sight of the Lord.",
+      "citation": "Judith 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "So that even they who offered the holocausts to the Lord, offered the sacrifices to the Lord girded with haircloths, and with ashes upon their head.",
+      "citation": "Judith 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And they all begged of God with all their heart, that he would visit his people Israel.",
+      "citation": "Judith 4:16 (Douay-Rheims)"
+    }
+  ]
+}

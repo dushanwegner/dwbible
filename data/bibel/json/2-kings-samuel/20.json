@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Samuel, Chapter 20 — 26 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "order": 10,
+      "totalChapters": 24
+    },
+    "chapter": 20,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/2-kings-samuel/19.json",
+      "nextChapter": "https://latinprayer.org/bibel/2-kings-samuel/21.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-kings-samuel/20.json",
+      "latin": "https://latinprayer.org/latin/2-kings-samuel/20.json"
+    }
+  },
+  "citation": "2 Samuel 20 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Nun befand sich dort zufällig ein nichtswürdiger Mensch namens Seba, der Sohn Bichris, ein Benjaminit; der stieß in die Posaune und rief aus: »Wir haben keinen Anteil an David und nichts zu schaffen mit dem Sohne Isais! Ein jeder begebe sich in seinen Wohnort, ihr Israeliten!«",
+      "citation": "2 Samuel 20:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da fielen die Israeliten insgesamt von David ab und schlossen sich an Seba, den Sohn Bichris, an; die Judäer aber blieben ihrem König treu (und geleiteten ihn) vom Jordan bis nach Jerusalem.",
+      "citation": "2 Samuel 20:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Als nun David in seinen Palast nach Jerusalem zurückgekommen war, ließ er die zehn Nebenweiber, die er zur Hut des Palastes zurückgelassen hatte, in ein besonderes Haus bringen und sorgte dort für ihren Unterhalt, hatte aber keinen Verkehr mehr mit ihnen; so lebten sie eingesperrt bis zu ihrem Todestag gleichsam als Witwen bei Lebzeiten (ihres Mannes).",
+      "citation": "2 Samuel 20:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Darauf befahl der König dem Amasa: »Biete mir die Mannschaft von Juda binnen drei Tagen auf und sei du selbst dann hier zur Stelle!«",
+      "citation": "2 Samuel 20:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Amasa machte sich nun daran, die Judäer aufzubieten; als er jedoch über die ihm genau bestimmte Zeit hinaus ausblieb,",
+      "citation": "2 Samuel 20:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "sagte David zu Abisai: »Nun wird Seba, der Sohn Bichris, für uns noch gefährlicher werden als Absalom. Nimm du die Leute deines Herrn und verfolge ihn, damit er nicht etwa feste Städte für sich gewinnt und uns viel zu schaffen macht!«",
+      "citation": "2 Samuel 20:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da zogen denn unter Abisais Führung Joab mit seinen Leuten sowie die (Leibwache der) Krethi und Plethi und alle ›Kriegshelden‹ ins Feld; sie zogen aus Jerusalem aus, um Seba, den Sohn Bichris, zu verfolgen.",
+      "citation": "2 Samuel 20:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Als sie nun bei dem großen Stein in Gibeon waren, kam Amasa ihnen zu Gesicht. Joab aber war mit seinem Waffenrock bekleidet und hatte sich darüber ein Schwert umgegürtet, das ihm in seiner Scheide an die Hüfte gekoppelt war und das er, als er vorging, aus der Scheide herausfallen ließ.",
+      "citation": "2 Samuel 20:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Darauf redete Joab den Amasa mit den Worten an: »Geht es dir gut, lieber Bruder?« Dabei faßte Joab mit der rechten Hand Amasa beim Bart, um ihn zu küssen.",
+      "citation": "2 Samuel 20:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Amasa hatte aber nicht auf das Schwert geachtet, das Joab in der (linken) Hand hatte; so stieß Joab es ihm in den Leib, so daß ihm die Eingeweide auf die Erde herausfielen und er starb, ohne daß er ihm noch einen zweiten Stoß zu versetzen brauchte. Während dann Joab und sein Bruder Abisai die Verfolgung Sebas, des Sohnes Bichris, fortsetzten,",
+      "citation": "2 Samuel 20:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "mußte einer von den Leuten Joabs bei Amasa stehen bleiben und ausrufen: »Wer es mit Joab hält und wer für David ist, folge Joab nach!«",
+      "citation": "2 Samuel 20:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Amasa aber hatte sich in seinem Blute gewälzt und lag mitten auf der Straße. Als nun der Mann sah, daß die Leute alle stehenblieben, schaffte er Amasa von der Straße weg aufs Feld und warf einen Mantel über ihn, weil er sah, daß alle, die an ihn herankamen, stehenblieben.",
+      "citation": "2 Samuel 20:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Nachdem er ihn aber von der Straße weggeschafft hatte, zogen alle Leute vorüber hinter Joab her, um an der Verfolgung Sebas teilzunehmen.",
+      "citation": "2 Samuel 20:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Dieser hatte aber alle Stämme Israels bis nach Abel-Beth-Maacha durchzogen (freilich mit geringem Erfolg); nur eben alle Bichrileute waren hinter ihm hergekommen, ebenfalls dorthin.",
+      "citation": "2 Samuel 20:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Nun kamen jene heran und belagerten ihn in Abel-Beth-Maacha; sie führten gegen die Stadt einen Wall auf, der an die Außenmauer stieß; und alle Leute Joabs unterwühlten die Mauer, um sie zum Einsturz zu bringen.",
+      "citation": "2 Samuel 20:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Da (trat) eine kluge Frau (auf die Vormauer und) rief aus der Stadt heraus: »Hört, hört! Fordert doch Joab auf, hierher zu kommen: ich möchte mit ihm reden!«",
+      "citation": "2 Samuel 20:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Als er nun nahe an sie herangekommen war, fragte die Frau: »Bist du Joab?« Er antwortete ihr: »Ja, ich bin’s.« Da sagte sie zu ihm: »Höre, was deine Magd dir zu sagen hat!« Er antwortete: »Ich höre!«",
+      "citation": "2 Samuel 20:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Da fuhr sie fort: »Früher pflegte der Volksmund zu sagen: ›Fragt nur in Abel an!‹, und so kam man glücklich ans Ziel.",
+      "citation": "2 Samuel 20:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Wir gehören zu den friedlichsten, getreusten Leuten in Israel, und du suchst eine Stadt, eine Muttergemeinde in Israel zu zerstören? Warum willst du das Eigentum des HERRN zugrunde richten?«",
+      "citation": "2 Samuel 20:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Da antwortete Joab: »Ganz fern liegt es mir, daß ich zerstören und daß ich zugrunde richten will.",
+      "citation": "2 Samuel 20:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Die Sache liegt nicht so, sondern ein Mann vom Gebirge Ephraim namens Seba, der Sohn Bichris, hat sich gegen den König, gegen David, empört; liefert ihn aus, ihn allein, so ziehe ich von der Stadt ab!« Da erwiderte die Frau dem Joab: »Sein Kopf soll dir alsbald über die Mauer zugeworfen werden!«",
+      "citation": "2 Samuel 20:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Hierauf redete die Frau (in der Stadt) mit ihrer Klugheit auf die ganze Einwohnerschaft so lange ein, bis sie Seba, dem Sohne Bichris, den Kopf abhieben und ihn dem Joab zuwarfen. Da ließ Joab mit der Posaune zum Abzug blasen, und seine Leute zogen von der Stadt ab und zerstreuten sich, ein jeder in seinen Wohnort; Joab aber kehrte nach Jerusalem zum König zurück.",
+      "citation": "2 Samuel 20:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Joab war oberster Heerführer in Israel; Benaja, der Sohn Jojadas, war Befehlshaber (der Leibwache) der Krethi und Plethi;",
+      "citation": "2 Samuel 20:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Adoram war Oberaufseher über die Fronarbeiten; Josaphat, der Sohn Ahiluds, war Kanzler;",
+      "citation": "2 Samuel 20:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Seja war Staatsschreiber; Zadok und Abjathar waren Priester,",
+      "citation": "2 Samuel 20:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "und Ira, der Jairit, war ebenfalls ein Priester Davids.",
+      "citation": "2 Samuel 20:26 (Menge)"
+    }
+  ]
+}

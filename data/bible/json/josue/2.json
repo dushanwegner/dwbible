@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Josue, Chapter 2 — 24 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Josue",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 24
+    },
+    "chapter": 2,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/josue/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/josue/1.json",
+      "nextChapter": "https://latinprayer.org/bible/josue/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/josue/2.json",
+      "german": "https://latinprayer.org/bibel/josue/2.json"
+    }
+  },
+  "citation": "Josue 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And Josue, the son of Nun, sent from Setim two men, to spy secretly: and said to them: Go, and view the land, and the city of Jericho. They went, and entered into the house of a woman that was a harlot, named Rahab, and lodged with her.",
+      "citation": "Josue 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And it was told the king of Jericho, and was said: Behold there are men come in hither, by night, of the children of Israel, to spy the land.",
+      "citation": "Josue 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And the king of Jericho sent to Rahab, saying: Bring forth the men that came to thee, and are entered into thy house: for they are spies, and are come to view all the land.",
+      "citation": "Josue 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And the woman taking the men, hid them, and said: I confess they came to me, but I knew not whence they were:",
+      "citation": "Josue 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And at the time of shutting the gate in the dark, they also went out together. I know not whither they are gone: pursue after them quickly, and you will overtake them.",
+      "citation": "Josue 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But she made the men go up to the top of her house, and covered them with the stalks of flax, which was there.",
+      "citation": "Josue 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Now they that were sent, pursued after them, by the way that leadeth to the fords of the Jordan: and as soon as they were gone out, the gate was presently shut.",
+      "citation": "Josue 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The men that were hid were not yet asleep, when behold the woman went up to them, and said:",
+      "citation": "Josue 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "I know that the Lord hath given this land to you: for the dread of you is fallen upon us, and all the inhabitants of the land have lost all strength.",
+      "citation": "Josue 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "We have heard that the Lord dried up the water of the Red Sea, at your going in, when you came out of Egypt: and what things you did to the two kings of the Amorrhites, that were beyond the Jordan, Sehon and Og whom you slew.",
+      "citation": "Josue 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And at the hearing these things, we were affrighted, and our heart fainted away, neither did there remain any spirit in us, at your coming in: for the Lord your God he is God in heaven above, and in the earth beneath.",
+      "citation": "Josue 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Now, therefore, swear ye to me by the Lord, that as I have shewed mercy to you, so you also will shew mercy to my father's house: and give me a true token.",
+      "citation": "Josue 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "That you will save my father and mother, my brethren and sisters, and all things that are theirs, and deliver our souls from death.",
+      "citation": "Josue 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "They answered her: Be our lives for you unto death, only if thou betray us not. And when the Lord shall have delivered us the land, we will shew thee mercy and truth.",
+      "citation": "Josue 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Then she let them down with a cord out of a window: for her house joined close to the wall.",
+      "citation": "Josue 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And she said to them: Get ye up to the mountains, lest perhaps they meet you as they return: and there lie ye hid three days, till they come back, and so you shall go on your way.",
+      "citation": "Josue 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And they said to her: We shall be blameless of this oath, which thou hast made us swear,",
+      "citation": "Josue 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "If, when we come into the land, this scarlet cord be a sign, and thou tie it in the window, by which thou hast let us down: and gather together thy father and mother, and brethren, and all thy kindred into thy house.",
+      "citation": "Josue 2:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Whosoever shall go out of the door of thy house, his blood shall be upon his own head, and we shall be quit. But the blood of all that shall be with thee in the house, shall light upon our head, if any man touch them.",
+      "citation": "Josue 2:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "But if thou wilt betray us, and utter this word abroad, we shall be quit of this oath, which thou hast made us swear.",
+      "citation": "Josue 2:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And she answered: As you have spoken, so be it done: and sending them on their way, she hung the scarlet cord in the window.",
+      "citation": "Josue 2:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "But they went and came to the mountains, and stayed there three days, till they that pursued them were returned. For having sought them through all the way, they found them not.",
+      "citation": "Josue 2:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And when they were gone back into the city, the spies returned, and came down from the mountain: and passing over the Jordan, they came to Josue, the son of Nun, and told him all that befel them,",
+      "citation": "Josue 2:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And said: the Lord hath delivered all this land into our hands, and all the inhabitants thereof are overthrown with fear.",
+      "citation": "Josue 2:24 (Douay-Rheims)"
+    }
+  ]
+}

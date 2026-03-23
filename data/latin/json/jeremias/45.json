@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 45 — 5 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 45,
+    "verseCount": 5,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/44.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/46.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/45.json",
+      "german": "https://latinprayer.org/bibel/jeremias/45.json"
+    }
+  },
+  "citation": "Jeremiah 45 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "verbum quod locutus est Hieremias propheta ad Baruch filium Neri cum scripsisset verba haec in libro de ore Hieremiae anno quarto Ioachim filii Iosiae regis Iuda dicens",
+      "citation": "Jeremiah 45:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "haec dicit Dominus Deus Israhel ad te Baruch",
+      "citation": "Jeremiah 45:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "dixisti vae misero mihi quoniam addidit Dominus dolorem dolori meo laboravi in gemitu meo et requiem non inveni",
+      "citation": "Jeremiah 45:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "haec dices ad eum sic dicit Dominus ecce quos aedificavi ego destruo et quos plantavi ego evello et universam terram hanc",
+      "citation": "Jeremiah 45:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et tu quaeris tibi grandia noli quaerere quia ecce ego adducam malum super omnem carnem ait Dominus et dabo tibi animam tuam in salutem in omnibus locis ad quaecumque perrexeris",
+      "citation": "Jeremiah 45:5 (Clementine Vulgate)"
+    }
+  ]
+}

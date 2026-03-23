@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 20 — 26 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 20,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/exodus/19.json",
+      "nextChapter": "https://latinprayer.org/bible/exodus/21.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/exodus/20.json",
+      "german": "https://latinprayer.org/bibel/exodus/20.json"
+    }
+  },
+  "citation": "Exodus 20 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke all these words:",
+      "citation": "Exodus 20:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "I am the Lord thy God, who brought thee out of the land of Egypt, out of the house of bondage.",
+      "citation": "Exodus 20:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Thou shalt not have strange gods before me.",
+      "citation": "Exodus 20:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Thou shalt not make to thyself a graven thing, nor the likeness of any thing that is in heaven above, or in the earth beneath, nor of those things that are in the waters under the earth.",
+      "citation": "Exodus 20:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Thou shalt not adore them, nor serve them: I am the Lord thy God, mighty, jealous, visiting the iniquity of the fathers upon the children, unto the third and fourth generation of them that hate me:",
+      "citation": "Exodus 20:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And shewing mercy unto thousands to them that love me, and keep my commandments.",
+      "citation": "Exodus 20:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Thou shalt not take the name of the Lord thy God in vain: for the Lord will not hold him guiltless that shall take the name of the Lord his God in vain.",
+      "citation": "Exodus 20:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Remember that thou keep holy the sabbath day.",
+      "citation": "Exodus 20:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Six days shalt thou labour, and shalt do all thy works.",
+      "citation": "Exodus 20:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But on the seventh day is the sabbath of the Lord thy God: thou shalt do no work on it, thou nor thy son, nor thy daughter, nor thy man-servant, nor thy maid-servant, nor thy beast, nor the stranger that is within thy gates.",
+      "citation": "Exodus 20:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For in six days the Lord made heaven and earth, and the sea, and all things that are in them, and rested on the seventh day: therefore the Lord blessed the seventh day, and sanctified it.",
+      "citation": "Exodus 20:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Honour thy father and thy mother, that thou mayst be longlived upon the land which the Lord thy God will give thee.",
+      "citation": "Exodus 20:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thou shalt not kill.",
+      "citation": "Exodus 20:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Thou shalt not commit adultery.",
+      "citation": "Exodus 20:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Thou shalt not steal.",
+      "citation": "Exodus 20:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Thou shalt not bear false witness against thy neighbour.",
+      "citation": "Exodus 20:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Thou shalt not covet thy neighbour's house; neither shalt thou desire his wife, nor his servant, nor his handmaid, nor his ox, nor his ass, nor any thing that is his.",
+      "citation": "Exodus 20:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And all the people saw the voices and the flames, and the sound of the trumpet, and the mount smoking; and being terrified and struck with fear, they stood afar off,",
+      "citation": "Exodus 20:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Saying to Moses: Speak thou to us, and we will hear: let not the Lord speak to us, lest we die.",
+      "citation": "Exodus 20:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And Moses said to the people: Fear not; for God is come to prove you, and that the dread of him might be in you, and you should not sin.",
+      "citation": "Exodus 20:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And the people stood afar off. But Moses went to the dark cloud wherein God was.",
+      "citation": "Exodus 20:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And the Lord said to Moses: Thus shalt thou say to the children of Israel: You have seen that I have spoken to you from heaven.",
+      "citation": "Exodus 20:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "You shall not make gods of silver, nor shall you make to yourselves gods of gold.",
+      "citation": "Exodus 20:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "You shall make an altar of earth unto me, and you shall offer upon it your holocausts and peace offerings, your sheep and oxen, in every place where the memory of my name shall be: I will come to thee, and will bless thee.",
+      "citation": "Exodus 20:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And if thou make an altar of stone unto me, thou shalt not build it of hewn stones; for if thou lift up a tool upon it, it shall be defiled.",
+      "citation": "Exodus 20:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Thou shalt not go up by steps unto my altar, lest thy nakedness be discovered.",
+      "citation": "Exodus 20:26 (Douay-Rheims)"
+    }
+  ]
+}

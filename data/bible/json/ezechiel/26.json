@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezechiel, Chapter 26 — 21 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezechiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 26,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ezechiel/25.json",
+      "nextChapter": "https://latinprayer.org/bible/ezechiel/27.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ezechiel/26.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/26.json"
+    }
+  },
+  "citation": "Ezechiel 26 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And it came to pass in the eleventh year, the first day of the month, that the word of the Lord came to me, saying:",
+      "citation": "Ezechiel 26:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Son of man, because Tyre hath said of Jerusalem: Aha, the gates of the people are broken, she is turned to me: I shall be filled, now she is laid waste.",
+      "citation": "Ezechiel 26:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Therefore thus saith the Lord God: Behold I come against thee, O Tyre, and I will cause many nations to come up to thee, as the waves of the sea rise up.",
+      "citation": "Ezechiel 26:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And they shall break down the walls of Tyre, and destroy the towers thereof: and I will scrape her dust from her, and make her like a smooth rock.",
+      "citation": "Ezechiel 26:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "She shall be a drying place for nets in the midst of the sea, because I have spoken it, saith the Lord God: and she shall be a spoil to the nations.",
+      "citation": "Ezechiel 26:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Her daughters also that are in the field, shall be slain by the sword: and they shall know that I am the Lord.",
+      "citation": "Ezechiel 26:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For thus saith the Lord God: Behold I will bring against Tyre Nabuchodonosor king of Babylon, the king of kings, from the north, with horses, and chariots, and horsemen, and companies, and much people.",
+      "citation": "Ezechiel 26:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Thy daughters that are in the field, he shall kill with the sword: and he shall compass thee with forts, and shall cast up a mount round about: and he shall lift up the buckler against thee.",
+      "citation": "Ezechiel 26:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And he shall set engines of war and battering rams against thy walls, and shall destroy thy towers with his arms.",
+      "citation": "Ezechiel 26:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "By reason of the multitude of his horses, their dust shall cover thee: thy walls shall shake at the noise of the horsemen, and wheels, and chariots, when they shall go in at thy gates, as by the entrance of a city that is destroyed.",
+      "citation": "Ezechiel 26:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "With the hoofs of his horses he shall tread down all thy streets, thy people he shall kill with the sword, and thy famous statues shall fall to the ground.",
+      "citation": "Ezechiel 26:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "They shall waste thy riches, they shall make a spoil of thy merchandise: and they shall destroy thy walls, and pull down thy fine houses: and they shall lay thy stones and thy timber, and thy dust in the midst of the waters.",
+      "citation": "Ezechiel 26:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And I will make the multitude of thy songs to cease, and the sound of thy harps shall be heard no more.",
+      "citation": "Ezechiel 26:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And I will make thee like a naked rock, thou shalt be a drying place for nets, neither shalt thou be built any more: for I have spoken it, saith the Lord God.",
+      "citation": "Ezechiel 26:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Thus saith the Lord God to Tyre: Shall not the islands shake at the sound of thy fall, and the groans of thy slain when they shall be killed in the midst of thee?",
+      "citation": "Ezechiel 26:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Then all the princes of the sea shall come down from their thrones: and take off their robes, and cast away their broidered garments, and be clothed with astonishment: they shall sit on the ground, and with amazement shall wonder at thy sudden fall.",
+      "citation": "Ezechiel 26:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And taking up a lamentation over thee, they shall say to thee: How art thou fallen, that dwellest in the sea, renowned city that wast strong in the sea, with thy inhabitants whom all did dread?",
+      "citation": "Ezechiel 26:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Now shall the ships be astonished in the day of thy terror: and the islands in the sea shall be troubled because no one cometh out of thee.",
+      "citation": "Ezechiel 26:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For thus saith the Lord God: When I shall make thee a desolate city like the cities that are not inhabited: and shall bring the deep upon thee, and many waters shall cover thee:",
+      "citation": "Ezechiel 26:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And when I shall bring thee down with those that descend into the pit to the everlasting people, and shall set thee in the lowest parts of the earth, as places desolate of old, with them that are brought down into the pit, that thou be not inhabited: and when I shall give glory in the land of the living,",
+      "citation": "Ezechiel 26:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "I will bring thee to nothing, and thou shalt not be, and if thou be sought for, thou shalt not be found any more for ever, saith the Lord God.",
+      "citation": "Ezechiel 26:21 (Douay-Rheims)"
+    }
+  ]
+}

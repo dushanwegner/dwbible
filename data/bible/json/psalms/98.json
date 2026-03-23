@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 98 — 9 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 98,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/97.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/99.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/98.json",
+      "german": "https://latinprayer.org/bibel/psalms/98.json"
+    }
+  },
+  "citation": "Psalms 98 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A psalm for David himself. Sing ye to the Lord a new canticle: because he hath done wonderful things. His right hand hath wrought for him salvation, and his arm is holy.",
+      "citation": "Psalms 98:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The Lord hath made known his salvation: he hath revealed his justice in the sight of the Gentiles.",
+      "citation": "Psalms 98:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He hath remembered his mercy and his truth toward the house of Israel. All the ends of the earth have seen the salvation of our God.",
+      "citation": "Psalms 98:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Sing joyfully to God, all the earth; make melody, rejoice and sing.",
+      "citation": "Psalms 98:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Sing praise to the Lord on the harp, on the harp, and with the voice of a psalm:",
+      "citation": "Psalms 98:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "With long trumpets, and sound of cornet. Make a joyful noise before the Lord our king:",
+      "citation": "Psalms 98:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Let the sea be moved and the fullness thereof: the world and they that dwell therein.",
+      "citation": "Psalms 98:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The rivers shall clap their hands, the mountains shall rejoice together",
+      "citation": "Psalms 98:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "At the presence of the Lord: because he cometh to judge the earth. He shall judge the world with justice, and the people with equity.",
+      "citation": "Psalms 98:9 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew — 28 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/matthew/index.json",
+      "german": "https://latinprayer.org/bibel/matthew/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/bible/matthew/1",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/bible/matthew/2",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bible/matthew/3",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/bible/matthew/4",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 48,
+      "url": "https://latinprayer.org/bible/matthew/5",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/bible/matthew/6",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bible/matthew/7",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/bible/matthew/8",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/bible/matthew/9",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 42,
+      "url": "https://latinprayer.org/bible/matthew/10",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/bible/matthew/11",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 50,
+      "url": "https://latinprayer.org/bible/matthew/12",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 58,
+      "url": "https://latinprayer.org/bible/matthew/13",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/bible/matthew/14",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 39,
+      "url": "https://latinprayer.org/bible/matthew/15",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/bible/matthew/16",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/16.json"
+    },
+    {
+      "chapter": 17,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/bible/matthew/17",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/17.json"
+    },
+    {
+      "chapter": 18,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/bible/matthew/18",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/18.json"
+    },
+    {
+      "chapter": 19,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/bible/matthew/19",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/19.json"
+    },
+    {
+      "chapter": 20,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/bible/matthew/20",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/20.json"
+    },
+    {
+      "chapter": 21,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/bible/matthew/21",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/21.json"
+    },
+    {
+      "chapter": 22,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/bible/matthew/22",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/22.json"
+    },
+    {
+      "chapter": 23,
+      "verseCount": 39,
+      "url": "https://latinprayer.org/bible/matthew/23",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/23.json"
+    },
+    {
+      "chapter": 24,
+      "verseCount": 51,
+      "url": "https://latinprayer.org/bible/matthew/24",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/24.json"
+    },
+    {
+      "chapter": 25,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/bible/matthew/25",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/25.json"
+    },
+    {
+      "chapter": 26,
+      "verseCount": 75,
+      "url": "https://latinprayer.org/bible/matthew/26",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/26.json"
+    },
+    {
+      "chapter": 27,
+      "verseCount": 66,
+      "url": "https://latinprayer.org/bible/matthew/27",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/27.json"
+    },
+    {
+      "chapter": 28,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/bible/matthew/28",
+      "jsonUrl": "https://latinprayer.org/bible/matthew/28.json"
+    }
+  ]
+}

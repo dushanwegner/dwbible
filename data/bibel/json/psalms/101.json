@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 101 — 8 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 101,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/100.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/102.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/101.json",
+      "latin": "https://latinprayer.org/latin/psalms/101.json"
+    }
+  },
+  "citation": "Psalmen 101 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Von David, ein Psalm.</em> Von Gnade und Recht will ich singen, dir, o HERR, will ich spielen!",
+      "citation": "Psalmen 101:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Achten will ich auf fehllosen Wandel <ul> <li>wann wirst du zu mir kommen? In Herzensreinheit will ich wandeln im Innern meines Hauses.</li> </ul>",
+      "citation": "Psalmen 101:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ich will nicht mein Auge gerichtet halten auf schandbare Dinge; das Tun der Abtrünnigen hasse ich: es soll mir nicht anhaften.",
+      "citation": "Psalmen 101:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ein falsches Herz soll fern von mir bleiben, einen Bösen will ich nicht kennen.",
+      "citation": "Psalmen 101:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Wer seinen Nächsten heimlich verleumdet, den will ich zum Schweigen bringen; wer stolze Augen hat und ein hoffärtig Herz, den werde ich nicht ertragen.",
+      "citation": "Psalmen 101:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Meine Augen sollen blicken auf die Treuen im Lande: die sollen bei mir wohnen; wer auf frommen Wege wandelt, der soll mir dienen.",
+      "citation": "Psalmen 101:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Nicht darf inmitten meines Hauses weilen, wer Trug verübt; wer Lügen redet, soll nicht bestehn vor meinen Augen.",
+      "citation": "Psalmen 101:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Jeden Morgen will ich unschädlich machen alle Frevler im Lande, um auszurotten aus der Stadt des HERRN alle Übeltäter.",
+      "citation": "Psalmen 101:8 (Menge)"
+    }
+  ]
+}

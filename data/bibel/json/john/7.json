@@ -1,0 +1,301 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Johannes, Chapter 7 — 53 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Johannes",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 7,
+    "verseCount": 53,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/john/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/john/6.json",
+      "nextChapter": "https://latinprayer.org/bibel/john/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/john/7.json",
+      "latin": "https://latinprayer.org/latin/john/7.json"
+    }
+  },
+  "citation": "Johannes 7 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Hierauf zog Jesus in Galiläa umher; denn in Judäa wollte er nicht umherziehen, weil die Juden ihm nach dem Leben trachteten;",
+      "citation": "Johannes 7:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "es stand aber das jüdische Laubhüttenfest nahe bevor.",
+      "citation": "Johannes 7:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Darum sagten seine Brüder zu ihm: »Mache dich von hier auf den Weg und begib dich nach Judäa, damit deine Jünger auch dort die Werke sehen, die du tust;",
+      "citation": "Johannes 7:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "denn niemand wirkt doch in der Verborgenheit, wenn er sich in der Öffentlichkeit geltend machen will. Willst du überhaupt solche Tätigkeit ausüben, so zeige dich der Welt öffentlich« –",
+      "citation": "Johannes 7:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "nicht einmal seine Brüder nämlich glaubten an ihn.",
+      "citation": "Johannes 7:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Da antwortete Jesus ihnen: »Meine Zeit ist noch nicht da; für euch freilich ist die Zeit immer gelegen.",
+      "citation": "Johannes 7:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Euch kann die Welt nicht hassen, mich aber haßt sie, weil ich von ihr bezeuge, daß ihr ganzes Tun böse ist.",
+      "citation": "Johannes 7:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Geht ihr nur zum Fest hinauf, ich gehe zu diesem Fest nicht hinauf, weil meine Zeit noch nicht erfüllt ist.«",
+      "citation": "Johannes 7:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "So sprach er zu ihnen und blieb in Galiläa.",
+      "citation": "Johannes 7:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Als dann aber seine Brüder zum Fest hinaufgegangen waren, da ging auch er hinauf, jedoch nicht öffentlich, sondern ganz in der Stille.",
+      "citation": "Johannes 7:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Die Juden suchten nun während des Festes nach ihm und fragten: »Wo ist er?«",
+      "citation": "Johannes 7:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Und unter den Volksscharen war viel Gerede über ihn; die einen sagten: »Er ist ein guter Mann«; andere dagegen behaupteten: »Nein, er ist ein Volksverführer«;",
+      "citation": "Johannes 7:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "doch niemand redete mit voller Offenheit über ihn aus Furcht vor den Juden.",
+      "citation": "Johannes 7:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Als aber die Festwoche schon zur Hälfte vorüber war, ging Jesus zum Tempel hinauf und lehrte.",
+      "citation": "Johannes 7:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Da wunderten sich die Juden und sagten: »Wie kommt dieser zur Schriftgelehrsamkeit, obwohl er doch keinen Unterricht in ihr erhalten hat?«",
+      "citation": "Johannes 7:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Da antwortete ihnen Jesus mit den Worten: »Meine Lehre stammt nicht von mir, sondern von dem, der mich gesandt hat;",
+      "citation": "Johannes 7:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "wenn jemand dessen Willen tun will, wird er inne werden, ob diese Lehre von Gott stammt oder ob ich von mir selbst aus rede.",
+      "citation": "Johannes 7:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Wer von sich selbst aus redet, sucht seine eigene Ehre; wer aber die Ehre dessen sucht, der ihn gesandt hat, der ist wahrhaftig, und bei dem findet sich keine Ungerechtigkeit.",
+      "citation": "Johannes 7:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Hat nicht Mose euch das Gesetz gegeben? Und doch erfüllt niemand von euch das Gesetz! Warum sucht ihr mich zu töten?«",
+      "citation": "Johannes 7:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Die Volksmenge antwortete: »Du bist von Sinnen! Wer sucht dich denn zu töten?«",
+      "citation": "Johannes 7:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Jesus antwortete ihnen: »Ein einziges Werk habe ich (hier in Jerusalem) getan, und ihr seid allesamt verwundert darüber.",
+      "citation": "Johannes 7:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Mose hat euch die Beschneidung gegeben – von Mose stammt sie freilich nicht, sondern von den Erzvätern –, und so beschneidet ihr denn einen Menschen (auch) am Sabbat.",
+      "citation": "Johannes 7:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Wenn (nun) ein Mensch am Sabbat die Beschneidung empfängt, damit das mosaische Gesetz nicht gebrochen wird: da wollt ihr mir zürnen, weil ich einen ganzen Menschen am Sabbat gesund gemacht habe?",
+      "citation": "Johannes 7:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Urteilt nicht nach dem äußeren Schein, sondern gebt ein gerechtes Urteil ab!«",
+      "citation": "Johannes 7:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Da sagten einige von den Bewohnern Jerusalems: »Ist dieser Mensch es nicht, den sie zu töten suchen?",
+      "citation": "Johannes 7:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Und seht nur: er redet ganz öffentlich, und man sagt ihm kein Wort! Die Oberen werden doch nicht etwa zu der Erkenntnis gekommen sein, daß dieser der Messias ist?",
+      "citation": "Johannes 7:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Freilich von diesem wissen wir, woher er stammt; wenn aber der Messias kommt, weiß niemand, woher er stammt.«",
+      "citation": "Johannes 7:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Da rief Jesus im Tempel, wo er lehrte, laut aus: »Ja, ihr kennt mich und wißt, woher ich stamme! Und doch bin ich nicht von mir selbst aus gekommen, sondern es ist der rechte Sender, der mich gesandt hat, den ihr aber nicht kennt.",
+      "citation": "Johannes 7:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Ich kenne ihn, weil ich von ihm her (ausgegangen) bin, und er hat mich gesandt.«",
+      "citation": "Johannes 7:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Da suchten sie ihn festzunehmen, doch niemand legte Hand an ihn, weil seine Stunde noch nicht gekommen war.",
+      "citation": "Johannes 7:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Aus dem Volke kamen aber viele zum Glauben an ihn und sagten: »Wird wohl Christus, wenn er kommt, mehr Wunderzeichen tun, als dieser getan hat?«",
+      "citation": "Johannes 7:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Die Pharisäer erfuhren, daß das Volk solche Ansichten im geheimen über ihn äußerte; daher schickten die Hohenpriester und die Pharisäer Diener ab, die ihn festnehmen sollten.",
+      "citation": "Johannes 7:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Da sagte Jesus: »Nur noch kurze Zeit bin ich bei euch, dann gehe ich hin zu dem, der mich gesandt hat.",
+      "citation": "Johannes 7:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Ihr werdet mich (dann) suchen, aber nicht finden, und wo ich (dann) bin, dahin könnt ihr nicht kommen.«",
+      "citation": "Johannes 7:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Da sagten die Juden zueinander: »Wohin will dieser gehen, daß wir ihn nicht finden können? Will er etwa zu den Juden gehen, die unter den Griechen zerstreut leben, und der Lehrer der Griechen werden?",
+      "citation": "Johannes 7:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Welchen Sinn hat dieses Wort, das er ausgesprochen hat: ›Ihr werdet mich suchen, aber nicht finden‹ und ›Wo ich (dann) bin, dahin könnt ihr nicht kommen‹?«",
+      "citation": "Johannes 7:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "Am letzten, dem großen Tage des Festes aber stand Jesus da und rief laut aus: »Wen da dürstet, der komme zu mir und trinke!",
+      "citation": "Johannes 7:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "Wer an mich glaubt, aus dessen Leibe werden, wie die Schrift gesagt hat, Ströme lebendigen Wassers fließen.«",
+      "citation": "Johannes 7:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Damit meinte er aber den Geist, den die, welche zum Glauben an ihn gekommen waren, empfangen sollten; denn der (heilige) Geist war noch nicht da, weil Jesus noch nicht zur Herrlichkeit erhoben worden war.",
+      "citation": "Johannes 7:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "Nun sagten manche aus dem Volk, die diese Worte gehört hatten: »Dieser ist wirklich der Prophet!«",
+      "citation": "Johannes 7:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "Andere sagten: »Er ist Christus«; wieder andere meinten: »Christus kommt doch nicht aus Galiläa!",
+      "citation": "Johannes 7:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "Hat nicht die Schrift gesagt, daß Christus aus dem Samen Davids und aus der Ortschaft Bethlehem, wo David gewohnt hat, kommen soll?«",
+      "citation": "Johannes 7:42 (Menge)"
+    },
+    {
+      "verse": 43,
+      "text": "So entstand seinetwegen eine Spaltung unter dem Volk.",
+      "citation": "Johannes 7:43 (Menge)"
+    },
+    {
+      "verse": 44,
+      "text": "Einige von ihnen hätten ihn nun gern festgenommen, aber keiner legte Hand an ihn.",
+      "citation": "Johannes 7:44 (Menge)"
+    },
+    {
+      "verse": 45,
+      "text": "So kamen denn die Diener zu den Hohenpriestern und Pharisäern zurück, und diese fragten sie: »Warum habt ihr ihn nicht hergebracht?«",
+      "citation": "Johannes 7:45 (Menge)"
+    },
+    {
+      "verse": 46,
+      "text": "Die Diener antworteten: »Noch niemals hat ein Mensch so geredet, wie dieser Mann redet!«",
+      "citation": "Johannes 7:46 (Menge)"
+    },
+    {
+      "verse": 47,
+      "text": "Da erwiderten ihnen die Pharisäer: »Habt auch ihr euch irreführen lassen?",
+      "citation": "Johannes 7:47 (Menge)"
+    },
+    {
+      "verse": 48,
+      "text": "Ist etwa irgendein Oberer oder ein Pharisäer zum Glauben an ihn gekommen?",
+      "citation": "Johannes 7:48 (Menge)"
+    },
+    {
+      "verse": 49,
+      "text": "Nein, nur dieses gemeine Volk, das vom Gesetz nichts weiß – verflucht sind sie!«",
+      "citation": "Johannes 7:49 (Menge)"
+    },
+    {
+      "verse": 50,
+      "text": "Da sagte Nikodemus, der früher einmal zu Jesus gekommen war und ihrer Partei angehörte:",
+      "citation": "Johannes 7:50 (Menge)"
+    },
+    {
+      "verse": 51,
+      "text": "»Verurteilt etwa unser Gesetz einen Menschen, ohne daß man ihn zuvor verhört und seine Schuld festgestellt hat?«",
+      "citation": "Johannes 7:51 (Menge)"
+    },
+    {
+      "verse": 52,
+      "text": "Da gaben sie ihm zur Antwort: »Stammst du vielleicht auch aus Galiläa? Forsche doch nach und lerne begreifen, daß aus Galiläa kein Prophet hervorgeht!«",
+      "citation": "Johannes 7:52 (Menge)"
+    },
+    {
+      "verse": 53,
+      "text": "Dann gingen sie weg, ein jeder in sein Haus;",
+      "citation": "Johannes 7:53 (Menge)"
+    }
+  ]
+}

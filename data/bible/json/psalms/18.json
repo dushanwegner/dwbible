@@ -1,0 +1,291 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 18 — 51 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 18,
+    "verseCount": 51,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/17.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/19.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/18.json",
+      "german": "https://latinprayer.org/bibel/psalms/18.json"
+    }
+  },
+  "citation": "Psalms 18 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I will love thee, O Lord, my strength:",
+      "citation": "Psalms 18:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end. A Psalm for David.",
+      "citation": "Psalms 18:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The Lord is my firmament, my refuge, and my deliverer. My God is my helper, and in him will I put my trust. My protector, and the horn of my salvation, and my support.",
+      "citation": "Psalms 18:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Praising, I will call upon the Lord: and I shall be saved from my enemies.",
+      "citation": "Psalms 18:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The sorrows of death surrounded me: and the torrents of iniquity troubled me.",
+      "citation": "Psalms 18:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The sorrows of hell encompassed me: and the snares of death prevented me.",
+      "citation": "Psalms 18:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "In my affliction I called upon the Lord, and I cried to my God: And he heard my voice from his holy temple: and my cry before him came into his ears.",
+      "citation": "Psalms 18:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The earth shook and trembled: the foundations of the mountains were troubled and were moved, because he was angry with them.",
+      "citation": "Psalms 18:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "There went up a smoke in his wrath: and a fire flamed from his face: coals were kindled by it.",
+      "citation": "Psalms 18:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He bowed the heavens, and came down, and darkness was under his feet.",
+      "citation": "Psalms 18:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And he ascended upon the cherubim, and he flew; he flew upon the wings of the winds.",
+      "citation": "Psalms 18:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And he made darkness his covert, his pavilion round about him: dark waters in the clouds of the air.",
+      "citation": "Psalms 18:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "At the brightness that was before him the clouds passed, hail and coals of fire.",
+      "citation": "Psalms 18:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the Lord thundered from heaven, and the Highest gave his voice: hail and coals of fire.",
+      "citation": "Psalms 18:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And he sent forth his arrows, and he scattered them: he multiplied lightnings, and troubled them.",
+      "citation": "Psalms 18:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Then the fountains of waters appeared, and the foundations of the world were discovered: At thy rebuke, O Lord, at the blast of the spirit of thy wrath.",
+      "citation": "Psalms 18:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "He sent from on high, and took me: and received me out of many waters.",
+      "citation": "Psalms 18:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "He delivered me from my strongest enemies, and from them that hated me: for they were too strong for me.",
+      "citation": "Psalms 18:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "They prevented me in the day of my affliction: and the Lord became my protector.",
+      "citation": "Psalms 18:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And he brought me forth into a large place: he saved me, because he was well pleased with me.",
+      "citation": "Psalms 18:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And the Lord will reward me according to my justice; and will repay me according to the cleanness of my hands:",
+      "citation": "Psalms 18:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Because I have kept the ways of the Lord; and have not done wickedly against my God.",
+      "citation": "Psalms 18:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "For all his judgments are in my sight: and his justices I have not put away from me.",
+      "citation": "Psalms 18:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And I shall be spotless with him: and shall keep myself from my iniquity.",
+      "citation": "Psalms 18:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And the Lord will reward me according to my justice: and according to the cleanness of my hands before his eyes.",
+      "citation": "Psalms 18:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "With the holy thou wilt be holy; and with the innocent man thou wilt be innocent:",
+      "citation": "Psalms 18:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And withe the elect thou wilt be elect: and with the perverse thou wilt be perverted.",
+      "citation": "Psalms 18:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "For thou wilt save the humble people; but wilt bring down the eyes of the proud.",
+      "citation": "Psalms 18:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "For thou lightest my lamp, O Lord: O my God, enlighten my darkness.",
+      "citation": "Psalms 18:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "For by thee I shall be delivered from temptation; and through my God I shall go over a wall.",
+      "citation": "Psalms 18:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "As for my God, his way is undefiled: the words of the Lord are fire-tried: he is the protector of all that trust in him.",
+      "citation": "Psalms 18:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "For who is God but the Lord? or who is God but our God?",
+      "citation": "Psalms 18:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "God, who hath girt me with strength; and made my way blameless.",
+      "citation": "Psalms 18:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Who hath made my feet like the feet of harts: and who setteth me upon high places.",
+      "citation": "Psalms 18:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "Who teacheth my hands to war: and thou hast made my arms like a brazen bow.",
+      "citation": "Psalms 18:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And thou hast given me the protection of thy salvation: and thy right hand hath held me up: And thy discipline hath corrected me unto the end: and thy discipline, the same shall teach me.",
+      "citation": "Psalms 18:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "Thou hast enlarged my steps under me; and my feet are not weakened.",
+      "citation": "Psalms 18:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "I will pursue after my enemies, and overtake them: and I will not turn again till they are consumed.",
+      "citation": "Psalms 18:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "I will break them, and they shall not be able to stand: they shall fall under my feet.",
+      "citation": "Psalms 18:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And thou hast girded me with strength unto battle; and hast subdued under me them that rose up against me.",
+      "citation": "Psalms 18:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And thou hast made my enemies furn their back upon me, and hast destroyed them that hated me.",
+      "citation": "Psalms 18:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "They cried, but there was none to save them, to the Lord: but he heard them not.",
+      "citation": "Psalms 18:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And I shall beat them as small as the dust before the wind; I shall bring them to nought, like the dirt in the streets.",
+      "citation": "Psalms 18:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "Thou wilt deliver me from the contradictions of the people; thou wilt make me head of the Gentiles.",
+      "citation": "Psalms 18:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "A people which I knew not, hath served me: at the hearing of the ear they have obeyed me.",
+      "citation": "Psalms 18:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "The children that are strangers have lied to me, strange children have faded away, and have halted from their paths.",
+      "citation": "Psalms 18:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "The Lord liveth, and blessed by my God, and let the God of my salvation be exalted.",
+      "citation": "Psalms 18:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "O God, who avengest me, and subduest the people under me, my deliverer from my enraged enemies.",
+      "citation": "Psalms 18:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "And thou wilt lift me up above them that rise up against me: from the unjust man thou wilt deliver me.",
+      "citation": "Psalms 18:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "Therefore will I give glory to thee, O Lord, among the nations, and I will sing a psalm to thy name.",
+      "citation": "Psalms 18:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "Giving great deliverance to his king, and shewing mercy to David, his anointed: and to his seed for ever.",
+      "citation": "Psalms 18:50 (Douay-Rheims)"
+    }
+  ]
+}

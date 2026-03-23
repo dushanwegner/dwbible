@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 11 — 11 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 11,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/osee/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/osee/10.json",
+      "nextChapter": "https://latinprayer.org/latin/osee/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/11.json",
+      "german": "https://latinprayer.org/bibel/osee/11.json"
+    }
+  },
+  "citation": "Hosea 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "sicuti mane transit pertransiit rex Israhel quia puer Israhel et dilexi eum et ex Aegypto vocavi filium meum",
+      "citation": "Hosea 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "vocaverunt eos sic abierunt a facie eorum Baalim immolabant et simulacris sacrificabant",
+      "citation": "Hosea 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et ego quasi nutricius Ephraim portabam eos in brachiis meis et nescierunt quod curarem eos",
+      "citation": "Hosea 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "in funiculis Adam traham eos in vinculis caritatis et ero eis quasi exaltans iugum super maxillas eorum et declinavi ad eum ut vesceretur",
+      "citation": "Hosea 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "non revertetur in terram Aegypti et Assur ipse rex eius quoniam noluerunt converti",
+      "citation": "Hosea 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "coepit gladius in civitatibus eius et consumet electos eius et comedet capita eorum",
+      "citation": "Hosea 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et populus meus pendebit ad reditum meum iugum autem inponetur ei simul quod non auferetur",
+      "citation": "Hosea 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quomodo dabo te Ephraim protegam te Israhel quomodo dabo te sicut Adama ponam te ut Seboim conversum est in me cor meum pariter conturbata est paenitudo mea",
+      "citation": "Hosea 11:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "non faciam furorem irae meae non convertar ut disperdam Ephraim quoniam Deus ego et non homo in medio tui Sanctus et non ingrediar civitatem",
+      "citation": "Hosea 11:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "post Dominum ambulabunt quasi leo rugiet quia ipse rugiet et formidabunt filii maris",
+      "citation": "Hosea 11:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et avolabunt quasi avis ex Aegypto et quasi columba de terra Assyriorum et conlocabo eos in domibus suis dicit Dominus",
+      "citation": "Hosea 11:11 (Clementine Vulgate)"
+    }
+  ]
+}

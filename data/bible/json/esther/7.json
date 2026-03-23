@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Esther, Chapter 7 — 10 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Esther",
+      "slug": "esther",
+      "testament": "OT",
+      "order": 19,
+      "totalChapters": 16
+    },
+    "chapter": 7,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/esther/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/esther/6.json",
+      "nextChapter": "https://latinprayer.org/bible/esther/8.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/esther/7.json",
+      "german": "https://latinprayer.org/bibel/esther/7.json"
+    }
+  },
+  "citation": "Esther 7 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "So the king and Aman went in, to drink with the queen.",
+      "citation": "Esther 7:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And the king said to her again the second day, after he was warm with wine: What is thy petition, Esther, that it may be granted thee? and what wilt thou have done: although thou ask the half of my kingdom, thou shalt have it.",
+      "citation": "Esther 7:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Then she answered: If I have found favour in thy sight, O king, and if it please thee, give me my life for which I ask, and my people for which I request.",
+      "citation": "Esther 7:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For we are given up, I and my people, to be destroyed, to be slain, and to perish. And would God we were sold for bondmen and bondwomen: the evil might be borne with, and I would have mourned in silence: but now we have an enemy, whose cruelty redoundeth upon the king.",
+      "citation": "Esther 7:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And king Assuerus answered and said: Who is this, and of what power, that he should do these things?",
+      "citation": "Esther 7:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Esther said: It is this Aman that is our adversary and most wicked enemy. Aman hearing this was forthwith astonished, not being able to bear the countenance of the king and of the queen.",
+      "citation": "Esther 7:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But the king being angry rose up, and went from the place of the banquet into the garden set with trees. Aman also rose up to entreat Esther the queen for his life, for he understood that evil was prepared for him by the king.",
+      "citation": "Esther 7:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And when the king came back out of the garden set with trees, and entered into the place of the banquet, he found Aman was fallen upon the bed on which Esther lay, and he said: He will force the queen also in my presence, in my own house. The word was not yet gone out of the king's mouth, and immediately they covered his face.",
+      "citation": "Esther 7:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And Harbona, one of the eunuchs that stood waiting on the king, said: Behold the gibbet which he hath prepared for Mardochai, who spoke for the king, standeth in Aman's house, being fifty cubits high. And the king said to him: Hang him upon it.",
+      "citation": "Esther 7:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "So Aman was hanged on the gibbet, which he had prepared for Mardochai: and the king's wrath ceased.",
+      "citation": "Esther 7:10 (Douay-Rheims)"
+    }
+  ]
+}

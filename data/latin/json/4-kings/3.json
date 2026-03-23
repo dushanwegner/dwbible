@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Kings, Chapter 3 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Kings",
+      "slug": "4-kings",
+      "testament": "OT",
+      "order": 12,
+      "totalChapters": 25
+    },
+    "chapter": 3,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/4-kings/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/4-kings/2.json",
+      "nextChapter": "https://latinprayer.org/latin/4-kings/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/4-kings/3.json",
+      "german": "https://latinprayer.org/bibel/4-kings/3.json"
+    }
+  },
+  "citation": "2 Kings 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Ioram vero filius Ahab regnavit super Israhel in Samaria anno octavodecimo Iosaphat regis Iudae regnavitque duodecim annis",
+      "citation": "2 Kings 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et fecit malum coram Domino sed non sicut pater suus et mater tulit enim statuas Baal quas fecerat pater eius",
+      "citation": "2 Kings 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "verumtamen in peccatis Hieroboam filii Nabath qui peccare fecit Israhel adhesit nec recessit ab eis",
+      "citation": "2 Kings 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "porro Mesa rex Moab nutriebat pecora multa et solvebat regi Israhel centum milia agnorum et centum milia arietum cum velleribus suis",
+      "citation": "2 Kings 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "cumque mortuus fuisset Ahab praevaricatus est foedus quod habebat cum rege Israhel",
+      "citation": "2 Kings 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "egressus est igitur rex Ioram in die illa de Samaria et recensuit universum Israhel",
+      "citation": "2 Kings 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "misitque ad Iosaphat regem Iuda dicens rex Moab recessit a me veni mecum contra Moab ad proelium qui respondit ascendam qui meus est tuus est populus meus populus tuus equi mei equi tui",
+      "citation": "2 Kings 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dixitque per quam viam ascendemus at ille respondit per desertum Idumeae",
+      "citation": "2 Kings 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "perrexerunt igitur rex Israhel et rex Iuda et rex Edom et circumierunt per viam septem dierum nec erat aqua exercitui et iumentis quae sequebantur eos",
+      "citation": "2 Kings 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "dixitque rex Israhel eheu eheu eheu congregavit nos Dominus tres reges ut traderet in manu Moab",
+      "citation": "2 Kings 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et ait Iosaphat estne hic propheta Domini ut deprecemur Dominum per eum et respondit unus de servis regis Israhel est hic Heliseus filius Saphat qui fundebat aquam super manus Heliae",
+      "citation": "2 Kings 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et ait Iosaphat est apud eum sermo Domini descenditque ad eum rex Israhel et Iosaphat et rex Edom",
+      "citation": "2 Kings 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "dixit autem Heliseus ad regem Israhel quid mihi et tibi est vade ad prophetas patris tui et matris tuae et ait illi rex Israhel quare congregavit Dominus tres reges hos ut traderet eos in manu Moab",
+      "citation": "2 Kings 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dixit autem Heliseus vivit Dominus exercituum in cuius conspectu sto quod si non vultum Iosaphat regis Iudae erubescerem ne adtendissem quidem te nec respexissem",
+      "citation": "2 Kings 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "nunc autem adducite mihi psalten cumque caneret psaltes facta est super eum manus Domini et ait",
+      "citation": "2 Kings 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "haec dicit Dominus facite alveum torrentis huius fossas et fossas",
+      "citation": "2 Kings 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "haec enim dicit Dominus non videbitis ventum neque pluviam et alveus iste replebitur aquis et bibetis vos et familiae vestrae et iumenta vestra",
+      "citation": "2 Kings 3:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "parumque hoc est in conspectu Domini insuper tradet etiam Moab in manu vestra",
+      "citation": "2 Kings 3:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et percutietis omnem civitatem munitam et omnem urbem electam et universum lignum fructiferum succidetis cunctosque fontes aquarum obturabitis et omnem agrum egregium operietis lapidibus",
+      "citation": "2 Kings 3:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "factum est igitur mane quando sacrificium offerri solet et ecce aquae veniebant per viam Edom et repleta est terra aquis",
+      "citation": "2 Kings 3:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "universi autem Moabitae audientes quod ascendissent reges ut pugnarent adversum eos convocaverunt omnes qui accincti erant balteo desuper et steterunt in terminis",
+      "citation": "2 Kings 3:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "primoque mane surgentes et orto iam sole ex adverso aquarum viderunt Moabitae contra aquas rubras quasi sanguinem",
+      "citation": "2 Kings 3:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "dixeruntque sanguis est gladii pugnaverunt reges contra se et caesi sunt mutuo nunc perge ad praedam Moab",
+      "citation": "2 Kings 3:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "perrexeruntque in castra Israhel porro consurgens Israhel percussit Moab at illi fugerunt coram eis venerunt igitur qui vicerant et percusserunt Moab",
+      "citation": "2 Kings 3:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et civitates destruxerunt et omnem agrum optimum mittentes singuli lapides repleverunt et universos fontes aquarum obturaverunt et omnia ligna fructifera succiderunt ita ut muri tantum fictiles remanerent et circumdata est civitas a fundibalariis et magna ex parte percussa",
+      "citation": "2 Kings 3:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "quod cum vidisset rex Moab praevaluisse scilicet hostes tulit secum septingentos viros educentes gladium ut inrumperet ad regem Edom et non potuerunt",
+      "citation": "2 Kings 3:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "arripiensque filium suum primogenitum qui regnaturus erat pro eo obtulit holocaustum super murum et facta est indignatio magna in Israhel statimque recesserunt ab eo et reversi sunt in terram suam",
+      "citation": "2 Kings 3:27 (Clementine Vulgate)"
+    }
+  ]
+}

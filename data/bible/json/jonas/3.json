@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jonas, Chapter 3 — 10 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jonas",
+      "slug": "jonas",
+      "testament": "OT",
+      "order": 37,
+      "totalChapters": 4
+    },
+    "chapter": 3,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/jonas/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/jonas/2.json",
+      "nextChapter": "https://latinprayer.org/bible/jonas/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/jonas/3.json",
+      "german": "https://latinprayer.org/bibel/jonas/3.json"
+    }
+  },
+  "citation": "Jonas 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the word of the Lord came to Jonas the second time saying:",
+      "citation": "Jonas 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Arise, and go to Ninive, the great city: and preach in it the preaching that I bid thee.",
+      "citation": "Jonas 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Jonas arose, and went to Ninive, according to the word of the Lord: now Ninive was a great city of three days' journey.",
+      "citation": "Jonas 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And Jonas began to enter into the city one day's journey: and he cried and said: Yet forty days and Ninive shall be destroyed.",
+      "citation": "Jonas 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the men of Ninive believed in God: and they proclaimed a fast, and put on sackcloth from the greatest to the least.",
+      "citation": "Jonas 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the word came to the king of Ninive: and he rose up out of his throne, and cast away his robe from him, and was clothed in sackcloth, and sat in ashes.",
+      "citation": "Jonas 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And he caused it to be proclaimed and published in Ninive, from the mouth of the king and of his princes, saying: Let neither men nor beasts, oxen, nor sheep taste anything: let them not feed, nor drink water.",
+      "citation": "Jonas 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And let men and beasts be covered with sackcloth, and cry to the Lord with all their strength, and let them turn every one from his evil way, and from the iniquity that is in their hands.",
+      "citation": "Jonas 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Who can tell if God will turn, and forgive: and will turn away from his fierce anger, and we shall not perish?",
+      "citation": "Jonas 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And God saw their works, that they were turned from their evil way: and God had mercy with regard to the evil which he had said that he would do to them, and he did it not.",
+      "citation": "Jonas 3:10 (Douay-Rheims)"
+    }
+  ]
+}

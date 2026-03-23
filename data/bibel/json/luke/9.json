@@ -1,0 +1,346 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Lukas, Chapter 9 — 62 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Lukas",
+      "slug": "luke",
+      "testament": "NT",
+      "order": 49,
+      "totalChapters": 24
+    },
+    "chapter": 9,
+    "verseCount": 62,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/luke/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/luke/8.json",
+      "nextChapter": "https://latinprayer.org/bibel/luke/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/luke/9.json",
+      "latin": "https://latinprayer.org/latin/luke/9.json"
+    }
+  },
+  "citation": "Lukas 9 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Er rief dann die Zwölf zusammen und gab ihnen Kraft und Vollmacht über alle bösen Geister sowie zur Heilung von Krankheiten,",
+      "citation": "Lukas 9:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "hierauf sandte er sie aus, das Reich Gottes zu verkünden und (die Kranken) zu heilen.",
+      "citation": "Lukas 9:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dabei gab er ihnen die Weisung: »Nehmt nichts mit auf den Weg, weder einen Stock noch einen Ranzen, weder Brot noch Geld; auch sollt ihr nicht jeder zwei Röcke haben!",
+      "citation": "Lukas 9:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wo ihr in ein Haus eingetreten seid, dort bleibt und von dort zieht weiter!",
+      "citation": "Lukas 9:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Und wo man euch nicht aufnimmt, da geht aus einer solchen Stadt weg und schüttelt den Staub von euren Füßen ab zum Zeugnis wider sie!«",
+      "citation": "Lukas 9:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "So machten sie sich denn auf den Weg und wanderten von Dorf zu Dorf, indem sie überall die Heilsbotschaft verkündeten und Heilungen vollführten.",
+      "citation": "Lukas 9:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Es hörte aber der Vierfürst Herodes von allen diesen Begebenheiten und fühlte sich dadurch beunruhigt; denn manche behaupteten, Johannes sei von den Toten auferweckt worden;",
+      "citation": "Lukas 9:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "andere wieder meinten, Elia sei erschienen; noch andere, einer von den alten Propheten sei auferstanden.",
+      "citation": "Lukas 9:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Herodes aber sagte: »Den Johannes habe ich enthaupten lassen; wer mag nun dieser sein, über den ich solche Dinge höre?« So hegte er denn den Wunsch, Jesus persönlich zu sehen.",
+      "citation": "Lukas 9:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Nach ihrer Rückkehr berichteten ihm die Apostel alles, was sie getan hatten. Da nahm er sie mit sich und zog sich in die Stille zurück in eine Ortschaft namens Bethsaida.",
+      "citation": "Lukas 9:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Als aber die Volksmenge das in Erfahrung gebracht hatte, zogen sie ihm nach, und er ließ sie auch zu sich kommen, redete zu ihnen vom Reiche Gottes und machte die gesund, welche der Heilung bedurften.",
+      "citation": "Lukas 9:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Als der Tag sich dann zu neigen begann, traten die Zwölf an ihn heran und sagten zu ihm: »Laß das Volk ziehen, damit sie in die umliegenden Ortschaften und Gehöfte gehen und dort Unterkunft und Verpflegung finden; denn hier sind wir in einer öden Gegend.«",
+      "citation": "Lukas 9:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Doch er antwortete ihnen: »Gebt ihr ihnen doch zu essen!« Da erwiderten sie: »Wir haben nicht mehr als fünf Brote und zwei Fische; wir müßten sonst hingehen und Lebensmittel für dieses ganze Volk einkaufen« –",
+      "citation": "Lukas 9:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "es waren nämlich gegen fünftausend Männer. Er sagte aber zu seinen Jüngern: »Laßt sie sich in Gruppen von etwa je fünfzig Personen lagern.«",
+      "citation": "Lukas 9:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Sie taten so und brachten alle dazu, sich zu lagern.",
+      "citation": "Lukas 9:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Darauf nahm er die fünf Brote und die beiden Fische, blickte zum Himmel auf, sprach den Lobpreis (Gottes), brach die Brote und gab sie immer wieder den Jüngern, damit diese sie dem Volk vorlegten.",
+      "citation": "Lukas 9:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Und sie aßen und wurden alle satt; dann las man die Brocken auf, die sie übriggelassen hatten, zwölf Körbe voll.",
+      "citation": "Lukas 9:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Es begab sich hierauf, als er für sich allein betete, daß nur die Jünger sich bei ihm befanden; da fragte er sie: »Für wen halten mich die Volksscharen?«",
+      "citation": "Lukas 9:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Sie gaben ihm zur Antwort: »Für Johannes den Täufer, andere für Elia, noch andere meinen, einer von den alten Propheten sei auferstanden.«",
+      "citation": "Lukas 9:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Darauf fragte er sie weiter: »Ihr aber – für wen haltet ihr mich?« Da antwortete Petrus: »Für Christus, den Gottgesalbten!«",
+      "citation": "Lukas 9:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Da gab er ihnen die strenge Weisung und gebot ihnen, sie sollten das niemand sagen,",
+      "citation": "Lukas 9:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "und fügte noch hinzu: »Der Menschensohn muß vieles leiden und von den Ältesten und Hohenpriestern und Schriftgelehrten verworfen werden und den Tod erleiden und am dritten Tage auferweckt werden.«",
+      "citation": "Lukas 9:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Dann sagte er zu allen: »Will jemand mein Nachfolger sein, so verleugne er sich selbst und nehme sein Kreuz Tag für Tag auf sich und folge so mir nach! –",
+      "citation": "Lukas 9:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Denn wer sein Leben retten will, der wird es verlieren; wer aber sein Leben um meinetwillen verliert, der wird es retten.",
+      "citation": "Lukas 9:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Denn was hülfe es einem Menschen, wenn er die ganze Welt gewänne, sich selbst aber verlöre oder einbüßte? –",
+      "citation": "Lukas 9:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Denn wer sich meiner und meiner Worte schämt, dessen wird auch der Menschensohn sich schämen, wenn er in seiner Herrlichkeit und in der Herrlichkeit des Vaters und der heiligen Engel kommt.",
+      "citation": "Lukas 9:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Ich sage euch aber der Wahrheit gemäß: Einige unter denen, die hier stehen, werden den Tod nicht schmecken, bis sie das Reich Gottes gesehen haben.«",
+      "citation": "Lukas 9:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Etwa acht Tage nach diesen Unterredungen nahm er Petrus, Johannes und Jakobus mit sich und stieg auf den Berg, um zu beten.",
+      "citation": "Lukas 9:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Während er nun betete, veränderte sich das Aussehen seines Angesichts, und seine Kleidung wurde leuchtend weiß.",
+      "citation": "Lukas 9:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Und siehe, zwei Männer besprachen sich mit ihm, das waren Mose und Elia;",
+      "citation": "Lukas 9:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "sie erschienen in (himmlischer) Herrlichkeit und redeten davon, wie sein Lebensausgang sich in Jerusalem vollziehen sollte.",
+      "citation": "Lukas 9:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Petrus aber und seine Genossen waren von schwerer Schläfrigkeit befallen; weil sie sich aber mit Gewalt wach hielten, sahen sie seine Herrlichkeit und die beiden Männer, die bei ihm standen.",
+      "citation": "Lukas 9:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Als diese von ihm scheiden wollten, sagte Petrus zu Jesus: »Meister, hier sind wir gut aufgehoben; wir wollen drei Hütten bauen, eine für dich, eine für Mose und eine für Elia« – er wußte nämlich nicht, was er da sagte.",
+      "citation": "Lukas 9:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Während er noch so redete, kam eine Wolke und überschattete sie; und sie gerieten in Furcht, als sie in die Wolke hineinkamen.",
+      "citation": "Lukas 9:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Da erscholl eine Stimme aus der Wolke, die rief: »Dies ist mein auserwählter Sohn: höret auf ihn!«,",
+      "citation": "Lukas 9:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "und während die Stimme erscholl, fand es sich, daß Jesus allein da war. Und die Jünger blieben verschwiegen und teilten in jenen Tagen niemand etwas von dem mit, was sie gesehen hatten.",
+      "citation": "Lukas 9:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "Als sie aber am folgenden Tage von dem Berge wieder hinabgestiegen waren, kam ihm eine große Volksmenge entgegen.",
+      "citation": "Lukas 9:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "Da rief ein Mann aus der Volksmenge heraus: »Meister, ich bitte dich: nimm dich meines Sohnes an, er ist ja mein einziger!",
+      "citation": "Lukas 9:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Siehe, ein Geist packt ihn, so daß er plötzlich aufschreit; und er zerrt ihn hin und her, so daß ihm Schaum vor den Mund tritt, und läßt nur schwer von ihm ab: er reibt seine Kräfte ganz auf!",
+      "citation": "Lukas 9:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "Ich habe deine Jünger gebeten, sie möchten ihn austreiben, doch sie haben es nicht gekonnt.«",
+      "citation": "Lukas 9:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "Da antwortete Jesus: »O ihr ungläubige und verkehrte Art von Menschen! Wie lange soll ich noch bei euch sein und es mit euch aushalten? Bringe deinen Sohn hierher!«",
+      "citation": "Lukas 9:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "Während nun der Knabe noch auf ihn zuging, riß der böse Geist ihn hin und her und zog ihn krampfhaft zusammen. Jesus aber bedrohte den unreinen Geist, heilte den Knaben und gab ihn seinem Vater (gesund) zurück.",
+      "citation": "Lukas 9:42 (Menge)"
+    },
+    {
+      "verse": 43,
+      "text": "Da gerieten alle außer sich vor Staunen über die große Macht Gottes. Während nun alle voll Verwunderung über alle seine Taten waren, sagte er zu seinen Jüngern:",
+      "citation": "Lukas 9:43 (Menge)"
+    },
+    {
+      "verse": 44,
+      "text": "»Laßt ihr die Worte, die ich euch jetzt sage, in eure Ohren dringen! Denn der Menschensohn wird in die Hände der Menschen überantwortet werden.«",
+      "citation": "Lukas 9:44 (Menge)"
+    },
+    {
+      "verse": 45,
+      "text": "Sie verstanden aber diesen Ausspruch nicht, sondern er blieb vor ihnen verhüllt, damit sie ihn nicht begriffen; doch scheuten sie sich, ihn wegen dieses Ausspruchs zu befragen.",
+      "citation": "Lukas 9:45 (Menge)"
+    },
+    {
+      "verse": 46,
+      "text": "Es stieg aber (einmal) der Gedanke in ihnen auf, wer wohl der Größte unter ihnen wäre.",
+      "citation": "Lukas 9:46 (Menge)"
+    },
+    {
+      "verse": 47,
+      "text": "Da Jesus nun den Gedanken kannte, der sie beschäftigte, nahm er ein Kind, stellte es neben sich",
+      "citation": "Lukas 9:47 (Menge)"
+    },
+    {
+      "verse": 48,
+      "text": "und sagte zu ihnen: »Wenn jemand dieses Kind auf meinen Namen hin aufnimmt, so nimmt er mich auf, und wer mich aufnimmt, der nimmt den auf, der mich gesandt hat; denn wer der Kleinste unter euch allen ist, der ist groß.«",
+      "citation": "Lukas 9:48 (Menge)"
+    },
+    {
+      "verse": 49,
+      "text": "Da nahm Johannes das Wort und sagte: »Meister, wir haben jemand gesehen, der mit deinem Namen böse Geister austrieb, und haben es ihm untersagt, weil er dir nicht mit uns nachfolgt.«",
+      "citation": "Lukas 9:49 (Menge)"
+    },
+    {
+      "verse": 50,
+      "text": "Jesus aber erwiderte ihm: »Untersagt es ihm nicht! Denn wer nicht gegen euch ist, der ist für euch.«",
+      "citation": "Lukas 9:50 (Menge)"
+    },
+    {
+      "verse": 51,
+      "text": "Als dann aber die Zeit seines Hingangs herankam, richtete er fest entschlossen sein Augenmerk darauf, nach Jerusalem zu ziehen,",
+      "citation": "Lukas 9:51 (Menge)"
+    },
+    {
+      "verse": 52,
+      "text": "und er sandte Boten vor sich her. Diese machten sich auf den Weg und kamen in ein Dorf der Samariter, um dort ein Unterkommen für ihn zu besorgen;",
+      "citation": "Lukas 9:52 (Menge)"
+    },
+    {
+      "verse": 53,
+      "text": "doch man nahm ihn nicht auf, weil er die Absicht hatte, nach Jerusalem zu ziehen.",
+      "citation": "Lukas 9:53 (Menge)"
+    },
+    {
+      "verse": 54,
+      "text": "Als die Jünger Jakobus und Johannes das sahen, fragten sie: »Herr, willst du, daß wir aussprechen, es solle Feuer vom Himmel fallen und sie verzehren, wie auch Elia getan hat?«",
+      "citation": "Lukas 9:54 (Menge)"
+    },
+    {
+      "verse": 55,
+      "text": "Er aber wandte sich um und verwies es ihnen mit den Worten: »Wißt ihr nicht, welches Geistes Kinder ihr seid? Der Menschensohn ist nicht gekommen, um Menschenleben zu vernichten, sondern um sie zu retten.«",
+      "citation": "Lukas 9:55 (Menge)"
+    },
+    {
+      "verse": 56,
+      "text": "So begaben sie sich denn in ein anderes Dorf.",
+      "citation": "Lukas 9:56 (Menge)"
+    },
+    {
+      "verse": 57,
+      "text": "Als sie dann des Weges weiterzogen, sagte einer zu ihm: »Ich will dir folgen, wohin du auch gehst.«",
+      "citation": "Lukas 9:57 (Menge)"
+    },
+    {
+      "verse": 58,
+      "text": "Jesus antwortete ihm: »Die Füchse haben Gruben und die Vögel des Himmels Nester, der Menschensohn aber hat keine Stätte, wohin er sein Haupt legen kann.« –",
+      "citation": "Lukas 9:58 (Menge)"
+    },
+    {
+      "verse": 59,
+      "text": "Zu einem anderen sagte er: »Folge mir nach!« Der entgegnete: »Erlaube mir, zunächst noch hinzugehen und meinen Vater zu begraben.«",
+      "citation": "Lukas 9:59 (Menge)"
+    },
+    {
+      "verse": 60,
+      "text": "Da antwortete er ihm: »Laß die Toten ihre Toten begraben! Du aber gehe hin und verkündige das Reich Gottes!« –",
+      "citation": "Lukas 9:60 (Menge)"
+    },
+    {
+      "verse": 61,
+      "text": "Noch ein anderer sagte: »Herr, ich will dir folgen; zunächst aber gestatte mir, von meinen Hausgenossen Abschied zu nehmen!«",
+      "citation": "Lukas 9:61 (Menge)"
+    },
+    {
+      "verse": 62,
+      "text": "Da sagte Jesus zu ihm: »Niemand, der die Hand an den Pflug gelegt hat und dann noch rückwärts blickt, ist für das Reich Gottes tauglich.«",
+      "citation": "Lukas 9:62 (Menge)"
+    }
+  ]
+}

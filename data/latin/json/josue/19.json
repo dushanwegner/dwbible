@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joshua, Chapter 19 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joshua",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 19
+    },
+    "chapter": 19,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/josue/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/josue/18.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/josue/19.json",
+      "german": "https://latinprayer.org/bibel/josue/19.json"
+    }
+  },
+  "citation": "Joshua 19 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et egressa est sors secunda filiorum Symeon per cognationes suas fuitque hereditas",
+      "citation": "Joshua 19:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "eorum in medio possessionis filiorum Iuda Bersabee et Sabee et Molada",
+      "citation": "Joshua 19:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et Asersual Bala et Asem",
+      "citation": "Joshua 19:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et Heltholath Bethul Arma",
+      "citation": "Joshua 19:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et Seceleg et Bethmarchaboth Asersusa",
+      "citation": "Joshua 19:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et Bethlebaoth et Saroen civitates tredecim et villae earum",
+      "citation": "Joshua 19:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Ahin et Remmon et Athar et Asan civitates quattuor et villae earum",
+      "citation": "Joshua 19:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "omnes viculi per circuitum urbium istarum usque ad Balaath Berrameth contra australem plagam haec est hereditas filiorum Symeon iuxta cognationes suas",
+      "citation": "Joshua 19:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "in funiculo et possessione filiorum Iuda quia maior erat et idcirco possederunt filii Symeon in medio hereditatis eorum",
+      "citation": "Joshua 19:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cecidit quoque sors tertia filiorum Zabulon per cognationes suas et factus est terminus possessionis eorum usque Sarith",
+      "citation": "Joshua 19:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ascenditque de mari et Medala ac pervenit in Debbaseth usque ad torrentem qui est contra Iecennam",
+      "citation": "Joshua 19:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et revertitur de Sarith contra orientem in fines Ceseleththabor et egreditur ad Dabereth ascenditque contra Iafie",
+      "citation": "Joshua 19:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et inde pertransit ad orientalem plagam Getthefer Etthacasin et egreditur in Remmon Ampthar et Noa",
+      "citation": "Joshua 19:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et circuit ad aquilonem et Nathon suntque egressus eius vallis Iepthahel",
+      "citation": "Joshua 19:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et Catheth et Nehalal et Semron et Iedala et Bethleem civitates duodecim et villae earum",
+      "citation": "Joshua 19:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "haec est hereditas tribus filiorum Zabulon per cognationes suas urbes et viculi earum",
+      "citation": "Joshua 19:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Isachar egressa est sors quarta per cognationes suas",
+      "citation": "Joshua 19:17 (Clementine Vulgate)"
+    }
+  ]
+}

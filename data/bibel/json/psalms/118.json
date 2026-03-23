@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 118 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 118,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/117.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/119.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/118.json",
+      "latin": "https://latinprayer.org/latin/psalms/118.json"
+    }
+  },
+  "citation": "Psalmen 118 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Danket dem HERRN, denn er ist freundlich, ja, ewiglich währt seine Gnade!",
+      "citation": "Psalmen 118:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "So bekenne denn Israel: »Ja, ewiglich währt seine Gnade!«",
+      "citation": "Psalmen 118:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "So bekenne denn Aarons Haus: »Ja, ewiglich währt seine Gnade!«",
+      "citation": "Psalmen 118:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "So mögen denn alle Gottesfürcht’gen bekennen: »Ja, ewiglich währt seine Gnade!«",
+      "citation": "Psalmen 118:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Aus meiner Bedrängnis rief ich zum HERRN: da hat der HERR mich erhört, mir weiten Raum geschafft.",
+      "citation": "Psalmen 118:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ist der HERR für mich, so fürchte ich nichts: was können Menschen mir tun?",
+      "citation": "Psalmen 118:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Tritt der HERR für mich zu meiner Hilfe ein, so werde ich siegreich jubeln über meine Feinde.",
+      "citation": "Psalmen 118:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Besser ist’s auf den HERRN vertrauen als auf Menschen sich verlassen;",
+      "citation": "Psalmen 118:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "besser ist’s auf den HERRN vertrauen als auf Fürsten sich verlassen.",
+      "citation": "Psalmen 118:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Die Heidenvölker alle hatten mich umringt: im Namen des HERRN, so vertilgte ich sie;",
+      "citation": "Psalmen 118:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "sie hatten mich umringt, umzingelt: im Namen des HERRN, so vertilgte ich sie;",
+      "citation": "Psalmen 118:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "sie hatten mich umringt wie Bienenschwärme; schnell wie ein Dornenfeuer sind sie erloschen: im Namen des HERRN, so vertilgte ich sie.",
+      "citation": "Psalmen 118:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Man hat mich hart gestoßen, damit ich fallen sollte, doch der HERR hat mir geholfen.",
+      "citation": "Psalmen 118:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Meine Stärke und mein Lobpreis ist der HERR, und er ist mein Retter geworden.",
+      "citation": "Psalmen 118:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Jubel und Siegeslieder erschallen in den Zelten der Gerechten: »Die Hand des HERRN schafft mächtige Taten,",
+      "citation": "Psalmen 118:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "die Hand des HERRN erhöht, die Hand des HERRN schafft mächtige Taten!«",
+      "citation": "Psalmen 118:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Ich werde nicht sterben, nein, ich werde leben und die Taten des HERRN verkünden.",
+      "citation": "Psalmen 118:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Der HERR hat mich hart gezüchtigt, doch dem Tode mich nicht preisgegeben.",
+      "citation": "Psalmen 118:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Öffnet mir die Tore der Gerechtigkeit: ich will durch sie eingehn, dem HERRN zu danken. –",
+      "citation": "Psalmen 118:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Dies ist das Tor des HERRN: Gerechte dürfen hier eingehn. –",
+      "citation": "Psalmen 118:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Ich danke dir, daß du mich erhört hast und bist mir ein Retter geworden.",
+      "citation": "Psalmen 118:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Der Stein, den die Bauleute verworfen haben, der ist zum Eckstein geworden;",
+      "citation": "Psalmen 118:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "vom HERRN ist dies geschehn, in unsern Augen ein Wunder!",
+      "citation": "Psalmen 118:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Dies ist der Tag, den der HERR gemacht hat: laßt uns jubeln und fröhlich an ihm sein! –",
+      "citation": "Psalmen 118:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Ach hilf doch, HERR, ach, HERR, laß wohl gelingen! –",
+      "citation": "Psalmen 118:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Gesegnet sei, der da kommt im Namen des HERRN! Wir segnen euch vom Hause des HERRN aus.",
+      "citation": "Psalmen 118:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Der HERR ist Gott, er hat uns Licht gegeben: schlinget den Reigen, mit Zweigen (geschmückt), bis an die Hörner des Altars!",
+      "citation": "Psalmen 118:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Du bist mein Gott, ich will dir danken; mein Gott, ich will dich erheben!",
+      "citation": "Psalmen 118:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Danket dem HERRN, denn er ist freundlich, ja, ewiglich währt seine Gnade.",
+      "citation": "Psalmen 118:29 (Menge)"
+    }
+  ]
+}

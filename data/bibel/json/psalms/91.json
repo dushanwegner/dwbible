@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 91 — 16 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 91,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/90.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/92.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/91.json",
+      "latin": "https://latinprayer.org/latin/psalms/91.json"
+    }
+  },
+  "citation": "Psalmen 91 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wer da wohnt im Schirm des Höchsten und im Schatten des Allmächtigen weilt,",
+      "citation": "Psalmen 91:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "der spricht zum HERRN: »Meine Zuflucht und meine Burg, mein Gott, auf den ich vertraue!«",
+      "citation": "Psalmen 91:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn er ist’s, der dich rettet aus den Voglers Schlinge, von der unheilvollen Pest.",
+      "citation": "Psalmen 91:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Mit seinen Fittichen deckt er dich, und unter seinen Flügeln bist du geborgen, Schild und Panzer ist seine Treue.",
+      "citation": "Psalmen 91:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Du brauchst dich nicht zu fürchten vor nächtlichem Schrecken, vor dem Pfeil, der bei Tage daherfliegt,",
+      "citation": "Psalmen 91:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "nicht vor der Pest, die im Finstern schleicht, vor der Seuche, die mittags wütet.",
+      "citation": "Psalmen 91:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ob tausend dir zur Seite fallen, zehntausend zu deiner Rechten: an dich kommt’s nicht heran;",
+      "citation": "Psalmen 91:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "nein, lediglich mit eignen Augen wirst du’s schauen und zusehn, wie den Frevlern vergolten wird.",
+      "citation": "Psalmen 91:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ja, du, o HERR, bist meine Zuflucht: den Höchsten hast du zum Schutz dir erwählt.",
+      "citation": "Psalmen 91:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Kein Übel wird dir begegnen, kein Unheilsschlag deinem Zelte nahn;",
+      "citation": "Psalmen 91:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "denn seine Engel wird er für dich entbieten, daß sie dich behüten auf all deinen Wegen;",
+      "citation": "Psalmen 91:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "auf den Armen werden sie dich tragen, damit dein Fuß nicht stoße an einen Stein;",
+      "citation": "Psalmen 91:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "über Löwen und Ottern wirst du schreiten, wirst junge Löwen und Schlangen zertreten.",
+      "citation": "Psalmen 91:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "»Weil er fest an mir hängt, so will ich ihn retten, will ihn schützen, denn er kennt meinen Namen.",
+      "citation": "Psalmen 91:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Ruft er mich an, so will ich ihn erhören; ich steh’ ihm bei in der Not, will frei ihn machen und geehrt.",
+      "citation": "Psalmen 91:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Mit langem Leben will ich ihn sättigen und lasse ihn schauen mein Heil.«",
+      "citation": "Psalmen 91:16 (Menge)"
+    }
+  ]
+}

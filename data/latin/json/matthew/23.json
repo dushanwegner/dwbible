@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 23 — 39 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 23,
+    "verseCount": 39,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/matthew/22.json",
+      "nextChapter": "https://latinprayer.org/latin/matthew/24.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/23.json",
+      "german": "https://latinprayer.org/bibel/matthew/23.json"
+    }
+  },
+  "citation": "Matthew 23 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tunc Iesus locutus est ad turbas et discipulos suos",
+      "citation": "Matthew 23:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dicens super cathedram Mosi sederunt scribae et Pharisaei",
+      "citation": "Matthew 23:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "omnia ergo quaecumque dixerint vobis servate et facite secundum opera vero eorum nolite facere dicunt enim et non faciunt",
+      "citation": "Matthew 23:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "alligant autem onera gravia et inportabilia et inponunt in umeros hominum digito autem suo nolunt ea movere",
+      "citation": "Matthew 23:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "omnia vero opera sua faciunt ut videantur ab hominibus dilatant enim phylacteria sua et magnificant fimbrias",
+      "citation": "Matthew 23:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "amant autem primos recubitus in cenis et primas cathedras in synagogis",
+      "citation": "Matthew 23:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et salutationes in foro et vocari ab hominibus rabbi",
+      "citation": "Matthew 23:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "vos autem nolite vocari rabbi unus enim est magister vester omnes autem vos fratres estis",
+      "citation": "Matthew 23:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et patrem nolite vocare vobis super terram unus enim est Pater vester qui in caelis est",
+      "citation": "Matthew 23:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "nec vocemini magistri quia magister vester unus est Christus",
+      "citation": "Matthew 23:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "qui maior est vestrum erit minister vester",
+      "citation": "Matthew 23:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "qui autem se exaltaverit humiliabitur et qui se humiliaverit exaltabitur",
+      "citation": "Matthew 23:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "vae autem vobis scribae et Pharisaei hypocritae quia clauditis regnum caelorum ante homines vos enim non intratis nec introeuntes sinitis intrare",
+      "citation": "Matthew 23:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "[]",
+      "citation": "Matthew 23:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "vae vobis scribae et Pharisaei hypocritae quia circuitis mare et aridam ut faciatis unum proselytum et cum fuerit factus facitis eum filium gehennae duplo quam vos",
+      "citation": "Matthew 23:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "vae vobis duces caeci qui dicitis quicumque iuraverit per templum nihil est qui autem iuraverit in aurum templi debet",
+      "citation": "Matthew 23:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "stulti et caeci quid enim maius est aurum an templum quod sanctificat aurum",
+      "citation": "Matthew 23:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et quicumque iuraverit in altari nihil est quicumque autem iuraverit in dono quod est super illud debet",
+      "citation": "Matthew 23:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "caeci quid enim maius est donum an altare quod sanctificat donum",
+      "citation": "Matthew 23:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "qui ergo iurat in altare iurat in eo et in omnibus quae super illud sunt",
+      "citation": "Matthew 23:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et qui iuraverit in templo iurat in illo et in eo qui inhabitat in ipso",
+      "citation": "Matthew 23:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et qui iurat in caelo iurat in throno Dei et in eo qui sedet super eum",
+      "citation": "Matthew 23:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "vae vobis scribae et Pharisaei hypocritae quia decimatis mentam et anethum et cyminum et reliquistis quae graviora sunt legis iudicium et misericordiam et fidem haec oportuit facere et illa non omittere",
+      "citation": "Matthew 23:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "duces caeci excolantes culicem camelum autem gluttientes",
+      "citation": "Matthew 23:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "vae vobis scribae et Pharisaei hypocritae quia mundatis quod de foris est calicis et parapsidis intus autem pleni sunt rapina et inmunditia",
+      "citation": "Matthew 23:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "Pharisaee caece munda prius quod intus est calicis et parapsidis ut fiat et id quod de foris est mundum",
+      "citation": "Matthew 23:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "vae vobis scribae et Pharisaei hypocritae quia similes estis sepulchris dealbatis quae a foris parent hominibus speciosa intus vero plena sunt ossibus mortuorum et omni spurcitia",
+      "citation": "Matthew 23:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "sic et vos a foris quidem paretis hominibus iusti intus autem pleni estis hypocrisi et iniquitate",
+      "citation": "Matthew 23:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "vae vobis scribae et Pharisaei hypocritae quia aedificatis sepulchra prophetarum et ornatis monumenta iustorum",
+      "citation": "Matthew 23:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et dicitis si fuissemus in diebus patrum nostrorum non essemus socii eorum in sanguine prophetarum",
+      "citation": "Matthew 23:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "itaque testimonio estis vobismet ipsis quia filii estis eorum qui prophetas occiderunt",
+      "citation": "Matthew 23:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et vos implete mensuram patrum vestrorum",
+      "citation": "Matthew 23:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "serpentes genimina viperarum quomodo fugietis a iudicio gehennae",
+      "citation": "Matthew 23:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "ideo ecce ego mitto ad vos prophetas et sapientes et scribas ex illis occidetis et crucifigetis et ex eis flagellabitis in synagogis vestris et persequemini de civitate in civitatem",
+      "citation": "Matthew 23:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "ut veniat super vos omnis sanguis iustus qui effusus est super terram a sanguine Abel iusti usque ad sanguinem Zacchariae filii Barachiae quem occidistis inter templum et altare",
+      "citation": "Matthew 23:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "amen dico vobis venient haec omnia super generationem istam",
+      "citation": "Matthew 23:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "Hierusalem Hierusalem quae occidis prophetas et lapidas eos qui ad te missi sunt quotiens volui congregare filios tuos quemadmodum gallina congregat pullos suos sub alas et noluisti",
+      "citation": "Matthew 23:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "ecce relinquitur vobis domus vestra deserta",
+      "citation": "Matthew 23:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "dico enim vobis non me videbitis amodo donec dicatis benedictus qui venit in nomine Domini",
+      "citation": "Matthew 23:39 (Clementine Vulgate)"
+    }
+  ]
+}

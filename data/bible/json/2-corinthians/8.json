@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Corinthians, Chapter 8 — 24 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "chapter": 8,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-corinthians/7.json",
+      "nextChapter": "https://latinprayer.org/bible/2-corinthians/9.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-corinthians/8.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/8.json"
+    }
+  },
+  "citation": "2. Corinthians 8 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now we make known unto you, brethren, the grace of God that hath been given in the churches of Macedonia.",
+      "citation": "2. Corinthians 8:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "That in much experience of tribulation, they have had abundance of joy and their very deep poverty hath abounded unto the riches of their simplicity.",
+      "citation": "2. Corinthians 8:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For according to their power (I bear them witness) and beyond their power, they were willing:",
+      "citation": "2. Corinthians 8:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "With much entreaty begging of us the grace and communication of the ministry that is done toward the saints.",
+      "citation": "2. Corinthians 8:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And not as we hoped: but they gave their own selves, first to the Lord, then to us by the will of God;",
+      "citation": "2. Corinthians 8:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Insomuch, that we desired Titus, that, as he had begun, so also he would finish among you this same grace.",
+      "citation": "2. Corinthians 8:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "That as in all things you abound in faith and word and knowledge and all carefulness, moreover also in your charity towards us: so in this grace also you may abound.",
+      "citation": "2. Corinthians 8:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "I speak not as commanding: but by the carefulness of others, approving also the good disposition of your charity.",
+      "citation": "2. Corinthians 8:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For you know the grace of our Lord Jesus Christ, that being rich he became poor for your sakes: that through his poverty you might be rich.",
+      "citation": "2. Corinthians 8:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And herein I give my advice: for this is profitable for you who have begun not only to do but also to be willing, a year ago.",
+      "citation": "2. Corinthians 8:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Now therefore perform ye it also in deed: that as your mind is forward to be willing, so it may be also to perform, out of that which you have.",
+      "citation": "2. Corinthians 8:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For if the will be forward, it is accepted according to that which a man hath: not according to that which he hath not.",
+      "citation": "2. Corinthians 8:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For I mean not that others should be eased and you burdened, but by an equality.",
+      "citation": "2. Corinthians 8:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "In this present time let your abundance supply their want, that their abundance also may supply your want: that there may be an equality,",
+      "citation": "2. Corinthians 8:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "As it is written: He that had much had nothing over; and he that had little had no want.",
+      "citation": "2. Corinthians 8:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And thanks be to God, who hath given the same carefulness for you in the heart of Titus.",
+      "citation": "2. Corinthians 8:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "For indeed he accepted the exhortation: but, being more careful, of his own will he went unto you.",
+      "citation": "2. Corinthians 8:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "We have sent also with him the brother whose praise is in the gospel through all the churches.",
+      "citation": "2. Corinthians 8:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And not that only: but he was also ordained by the churches companion of our travels, for this grace, which is administered by us, to the glory of the Lord and our determined will:",
+      "citation": "2. Corinthians 8:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Avoiding this, lest any man should blame us in this abundance which is administered by us.",
+      "citation": "2. Corinthians 8:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "For we forecast what may be good, not only before God but also before men.",
+      "citation": "2. Corinthians 8:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And we have sent with them our brother also, whom we have often proved diligent in many things, but now much more diligent: with much confidence in you,",
+      "citation": "2. Corinthians 8:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Either for Titus, who is my companion and fellow labourer towards you, or our brethren, the apostles of the churches, the glory of Christ.",
+      "citation": "2. Corinthians 8:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Wherefore shew ye to them, in the sight of the churches, the evidence of your charity and of our boasting on your behalf.",
+      "citation": "2. Corinthians 8:24 (Douay-Rheims)"
+    }
+  ]
+}

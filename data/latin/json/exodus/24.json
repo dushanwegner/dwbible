@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 24 — 18 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 24,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/23.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/25.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/24.json",
+      "german": "https://latinprayer.org/bibel/exodus/24.json"
+    }
+  },
+  "citation": "Exodus 24 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Mosi quoque dixit ascende ad Dominum tu et Aaron Nadab et Abiu et septuaginta senes ex Israhel et adorabitis procul",
+      "citation": "Exodus 24:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "solusque Moses ascendet ad Dominum et illi non adpropinquabunt nec populus ascendet cum eo",
+      "citation": "Exodus 24:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "venit ergo Moses et narravit plebi omnia verba Domini atque iudicia responditque cunctus populus una voce omnia verba Domini quae locutus est faciemus",
+      "citation": "Exodus 24:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "scripsit autem Moses universos sermones Domini et mane consurgens aedificavit altare ad radices montis et duodecim titulos per duodecim tribus Israhel",
+      "citation": "Exodus 24:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "misitque iuvenes de filiis Israhel et obtulerunt holocausta immolaveruntque victimas pacificas Domino vitulos",
+      "citation": "Exodus 24:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "tulit itaque Moses dimidiam partem sanguinis et misit in crateras partem autem residuam fudit super altare",
+      "citation": "Exodus 24:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "adsumensque volumen foederis legit audiente populo qui dixerunt omnia quae locutus est Dominus faciemus et erimus oboedientes",
+      "citation": "Exodus 24:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ille vero sumptum sanguinem respersit in populum et ait hic est sanguis foederis quod pepigit Dominus vobiscum super cunctis sermonibus his",
+      "citation": "Exodus 24:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ascenderuntque Moses et Aaron Nadab et Abiu et septuaginta de senioribus Israhel",
+      "citation": "Exodus 24:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et viderunt Deum Israhel sub pedibus eius quasi opus lapidis sapphirini et quasi caelum cum serenum est",
+      "citation": "Exodus 24:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "nec super eos qui procul recesserant de filiis Israhel misit manum suam videruntque Deum et comederunt ac biberunt",
+      "citation": "Exodus 24:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "dixit autem Dominus ad Mosen ascende ad me in montem et esto ibi daboque tibi tabulas lapideas et legem ac mandata quae scripsi ut doceas eos",
+      "citation": "Exodus 24:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "surrexerunt Moses et Iosue minister eius ascendensque Moses in montem Dei",
+      "citation": "Exodus 24:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "senioribus ait expectate hic donec revertamur ad vos habetis Aaron et Hur vobiscum si quid natum fuerit quaestionis referetis ad eos",
+      "citation": "Exodus 24:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "cumque ascendisset Moses operuit nubes montem",
+      "citation": "Exodus 24:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et habitavit gloria Domini super Sinai tegens illum nube sex diebus septimo autem die vocavit eum de medio caliginis",
+      "citation": "Exodus 24:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "erat autem species gloriae Domini quasi ignis ardens super verticem montis in conspectu filiorum Israhel",
+      "citation": "Exodus 24:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "ingressusque Moses medium nebulae ascendit in montem et fuit ibi quadraginta diebus et quadraginta noctibus",
+      "citation": "Exodus 24:18 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 126 — 6 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 126,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/125.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/127.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/126.json",
+      "german": "https://latinprayer.org/bibel/psalms/126.json"
+    }
+  },
+  "citation": "Psalms 126 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A gradual canticle. When the Lord brought back the captivity of Sion, we became like men comforted.",
+      "citation": "Psalms 126:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Then was our mouth filled with gladness; and our tongue with joy. Then shall they say among the Gentiles: The Lord hath done great things for them.",
+      "citation": "Psalms 126:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The Lord hath done great things for us: we are become joyful.",
+      "citation": "Psalms 126:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Turn again our captivity, O Lord, as a stream in the south.",
+      "citation": "Psalms 126:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "They that sow in tears shall reap in joy.",
+      "citation": "Psalms 126:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Going they went and wept, casting their seeds.",
+      "citation": "Psalms 126:6 (Douay-Rheims)"
+    }
+  ]
+}

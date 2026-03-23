@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebräer, Chapter 12 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebräer",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 12,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/hebrews/11.json",
+      "nextChapter": "https://latinprayer.org/bibel/hebrews/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/hebrews/12.json",
+      "latin": "https://latinprayer.org/latin/hebrews/12.json"
+    }
+  },
+  "citation": "Hebräer 12 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "So wollen denn auch wir, da wir uns von einer solchen Wolke von Zeugen umgeben sehen, alles, was uns beschwert, und (besonders) die uns so leicht umstrickende Sünde ablegen und mit standhafter Ausdauer in dem uns obliegenden Wettkampfe laufen,",
+      "citation": "Hebräer 12:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "indem wir dabei hinblicken auf Jesus, den Anfänger und Vollender des Glaubens, der um den Preis der Freude, die ihn (als Siegeslohn) erwartete, den Kreuzestod erduldet und die Schmach für nichts geachtet, dann sich aber zur Rechten des Thrones Gottes gesetzt hat.",
+      "citation": "Hebräer 12:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ja, denkt an ihn, der ein derartiges Widersprechen von den Sündern gegen sich geduldig ertragen hat, damit ihr (im Lauf) nicht ermattet und euren Mut nicht sinken laßt!",
+      "citation": "Hebräer 12:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denn bis jetzt habt ihr im Kampf gegen die Sünde noch nicht bis aufs Blut Widerstand geleistet",
+      "citation": "Hebräer 12:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "und habt das Mahnwort vergessen, das zu euch wie zu Söhnen spricht: »Mein Sohn, achte die Züchtigung des Herrn nicht gering und verzage nicht, wenn du von ihm zurechtgewiesen wirst;",
+      "citation": "Hebräer 12:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "denn wen der Herr lieb hat, den züchtigt er und geißelt jeden Sohn, den er als den seinigen annimmt.«",
+      "citation": "Hebräer 12:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Haltet standhaft aus, um euch erziehen zu lassen! Gott verfährt mit euch wie mit Söhnen; denn wo wäre wohl ein Sohn, den sein Vater nicht züchtigt?",
+      "citation": "Hebräer 12:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wenn ihr dagegen ohne Züchtigung bliebet, die doch allen (anderen Söhnen) zuteil geworden ist, so wäret ihr ja unechte Kinder und keine Söhne.",
+      "citation": "Hebräer 12:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ferner (bedenkt): wir haben doch unter der Zucht unserer leiblichen Väter gestanden und ihnen Ehrerbietung erwiesen; wollten wir uns da nicht viel eher dem Vater der Geister unterwerfen und dadurch zum Leben gelangen?",
+      "citation": "Hebräer 12:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Denn jene haben doch nur für kurze Zeit nach ihrem Ermessen Zucht (an uns) geübt, er aber zu unserm wahren Besten, damit wir seiner Heiligkeit teilhaftig würden.",
+      "citation": "Hebräer 12:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Jede Züchtigung scheint uns freilich für den Augenblick nicht erfreulich, sondern betrübend zu sein; hinterher aber läßt sie denen, die sich durch sie haben üben lassen, die friedvolle Frucht der Gerechtigkeit erwachsen.",
+      "citation": "Hebräer 12:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Darum »richtet die erschlafften Hände und die ermatteten Knie wieder auf«",
+      "citation": "Hebräer 12:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "und »stellt für eure Füße gerade Bahnen her«, damit das Lahme nicht ganz vom rechten Wege abkomme, sondern vielmehr geheilt werde.",
+      "citation": "Hebräer 12:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Trachtet eifrig nach dem Frieden mit jedermann und nach der Heiligung, ohne die niemand den Herrn schauen wird;",
+      "citation": "Hebräer 12:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "und gebt acht darauf, daß niemand hinter der Gnade Gottes zurückbleibe, daß keine »Wurzel voll Bitterkeit« aufwachse und Unheil anrichte und gar viele durch sie befleckt werden;",
+      "citation": "Hebräer 12:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "daß niemand ein ehebrecherischer oder verworfener Mensch sei wie Esau, der für eine einzige Mahlzeit sein Erstgeburtsrecht verkauft hat.",
+      "citation": "Hebräer 12:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Ihr wißt ja, daß er auch später, als er den Segen zum Erbe erlangen wollte, abgewiesen wurde; denn er fand keinen Raum zu einer Gesinnungsumkehr, obgleich er sie unter Tränen suchte.",
+      "citation": "Hebräer 12:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Denn ihr seid nicht zu einem mit Händen greifbaren und im Feuer lodernden Berge herangetreten, nicht zu Wolkendunkel, Finsternis und Gewittersturm,",
+      "citation": "Hebräer 12:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "nicht zu Posaunenschall und Donnerworten, bei denen die Zuhörer die Bitte aussprachen, es möchte nicht weiter zu ihnen geredet werden –",
+      "citation": "Hebräer 12:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "sie konnten nämlich die Verordnung nicht ertragen: »Selbst ein Tier, das den Berg berührt, soll gesteinigt werden!« –;",
+      "citation": "Hebräer 12:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "ja, so furchtbar war die Erscheinung, daß (sogar) Mose erklärte: »Ich bin voller Furcht und Zittern!«",
+      "citation": "Hebräer 12:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Nein, ihr seid zu dem Berge Zion und zur Stadt des lebendigen Gottes, dem himmlischen Jerusalem, herangetreten und zu vielen Tausenden von Engeln, zu einer Festversammlung",
+      "citation": "Hebräer 12:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "und zur Gemeinde der im Himmel aufgeschriebenen Erstgeborenen und zu Gott, dem Richter über alle, und zu den Geistern der vollendeten Gerechten,",
+      "citation": "Hebräer 12:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "und zu Jesus, dem Mittler des neuen Bundes, und zum Blute der Besprengung, das Besseres redet als (das Blut) Abels.",
+      "citation": "Hebräer 12:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Hütet euch, daß ihr den nicht ablehnt, der (zu euch) redet! Denn wenn jene nicht ungestraft geblieben sind, die den ablehnten, der sich ihnen auf Erden kundgab: wieviel weniger werden wir dann davonkommen, wenn wir uns von dem abwenden, der vom Himmel her (zu uns redet)!",
+      "citation": "Hebräer 12:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Seine Stimme hat damals die Erde erschüttert; jetzt aber hat er diese Verheißung gegeben: »Noch einmal werde ich nicht nur die Erde, sondern auch den Himmel erbeben machen.«",
+      "citation": "Hebräer 12:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Das Wort »noch einmal« weist auf die Umwandlung dessen hin, das erschüttert wird, weil es etwas Geschaffenes ist; es soll eben etwas Bleibendes entstehen, das nicht erschüttert werden kann.",
+      "citation": "Hebräer 12:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Darum wollen wir, weil wir ein unerschütterliches Reich empfangen sollen, dankbar dafür sein; denn dadurch dienen wir Gott so, wie es ihm wohlgefällig ist, mit frommer Scheu und Furcht;",
+      "citation": "Hebräer 12:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "denn auch unser Gott ist ein verzehrendes Feuer.",
+      "citation": "Hebräer 12:29 (Menge)"
+    }
+  ]
+}

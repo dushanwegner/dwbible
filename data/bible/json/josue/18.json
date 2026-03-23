@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Josue, Chapter 18 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Josue",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 24
+    },
+    "chapter": 18,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/josue/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/josue/17.json",
+      "nextChapter": "https://latinprayer.org/bible/josue/19.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/josue/18.json",
+      "german": "https://latinprayer.org/bibel/josue/18.json"
+    }
+  },
+  "citation": "Josue 18 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And all the children of Israel assembled together in Silo, and there they set up the tabernacle of the testimony, and the land was subdued before them.",
+      "citation": "Josue 18:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But there remained seven tribes of the children of Israel, which as yet had not received their possessions.",
+      "citation": "Josue 18:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Josue said to them: How long are you indolent and slack, and go not in to possess the land which the Lord the God of your fathers hath given you?",
+      "citation": "Josue 18:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Choose of every tribe three men, that I may send them, and they may go and compass the land, and mark it out according to the number of each multitude: and bring back to me what they have marked out.",
+      "citation": "Josue 18:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Divide to yourselves the land into seven parts: let Juda be in his bounds on the south side, and the house of Joseph on the north.",
+      "citation": "Josue 18:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The land in the midst between these mark ye out into seven parts; and you shall come hither to me, that I may cast lots for you before the Lord your God.",
+      "citation": "Josue 18:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For the Levites have no part among you, but the priesthood of the Lord is their inheritance. And Gad and Ruben, and the half tribe of Manasses have already received their possessions beyond the Jordan eastward: which Moses the servant of the Lord gave them.",
+      "citation": "Josue 18:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And when the men were risen up, to go to mark out the land, Josue commanded them saying: Go round the land and mark it out, and return to me: that I may cast lots for you before the Lord in Silo.",
+      "citation": "Josue 18:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "So they went and surveying it divided it into seven parts, writing them down in a book. And they returned to Josue, to the camp in Silo.",
+      "citation": "Josue 18:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And he cast lots before the Lord in Silo, and divided the land to the children of Israel into seven parts.",
+      "citation": "Josue 18:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And first came up the lot of the children of Benjamin by their families, to possess the land between the children of Juda, and the children of Joseph.",
+      "citation": "Josue 18:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And their border northward was from the Jordan: going along by the side of Jericho on the north side, and thence going up westward to the mountains, and reaching to the wilderness of Bethaven,",
+      "citation": "Josue 18:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And passing along southward by Luza, the same is Bethel, and it goeth down into Ataroth-addar to the mountain, that is on the south of the nether Beth-horon.",
+      "citation": "Josue 18:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And it bendeth thence going round towards the sea, south of the mountain that looketh towards Beth-horon to the southwest: and the outgoings thereof are into Cariathbaal, which is called also Cariathiarim, a city of the children of Juda This is their coast towards the sea, westward.",
+      "citation": "Josue 18:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "But on the south side the border goeth out from part of Cariathiarim towards the sea, and cometh to the fountain of the waters of Nephtoa.",
+      "citation": "Josue 18:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And it goeth down to that part of the mountain that looketh on the valley of the children of Ennom: and is over against the north quarter in the furthermost part of the valley of Raphaim, and it goeth down into Geennom (that is the valley of Ennom) by the side of the Jebusite to the south: and cometh to the fountain of Rogel,",
+      "citation": "Josue 18:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Passing thence to the north, and going out to Ensemes, that is to say, the fountain of the sun:",
+      "citation": "Josue 18:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And It passeth along to the hills that are over against the ascent of Adommim: and it goeth down to Abenboen, that is, the stone of Boen the son of Ruben: and it passeth on the north side to the champaign countries; and goeth down Into the plain,",
+      "citation": "Josue 18:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And it passeth by Bethhagla northward: and the outgoings thereof are towards the north of the most salt sea at the south end of the Jordan.",
+      "citation": "Josue 18:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Which is the border of it on the east side. This is the possession of the children of Benjamin by their borders round about, and their families.",
+      "citation": "Josue 18:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And their cities were, Jericho and Bethhagla and Vale-Casis,",
+      "citation": "Josue 18:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Betharaba and Samaraim and Bethel,",
+      "citation": "Josue 18:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And Avim and Aphara and Ophera,",
+      "citation": "Josue 18:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "The town Emona and Ophni and Gabee: twelve cities, and their villages.",
+      "citation": "Josue 18:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Gabam and Rama and Beroth,",
+      "citation": "Josue 18:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And Mesphe, and Caphara, and Amosa,",
+      "citation": "Josue 18:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And Recem, Jarephel, and Tharela,",
+      "citation": "Josue 18:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And Sela, Eleph and Jebus, which is Jerusalem, Gabaath and Cariath: fourteen cities, and their villages. This is the possession of the children of Benjamin by their families.",
+      "citation": "Josue 18:28 (Douay-Rheims)"
+    }
+  ]
+}

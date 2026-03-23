@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hiob, Chapter 20 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hiob",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 20,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/job/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/job/19.json",
+      "nextChapter": "https://latinprayer.org/bibel/job/21.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/20.json",
+      "latin": "https://latinprayer.org/latin/job/20.json"
+    }
+  },
+  "citation": "Hiob 20 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Nun nahm Zophar von Naama das Wort und sagte:",
+      "citation": "Hiob 20:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Eben darum veranlassen meine Gedanken mich zu einer Antwort, und eben deswegen bin ich innerlich erregt:",
+      "citation": "Hiob 20:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "eine mich beschimpfende Zurechtweisung muß ich hören! Doch der Geist gibt mir eine Antwort aus meiner Einsicht ein.«",
+      "citation": "Hiob 20:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "»Kennst du nicht die Wahrheit von alters her, seitdem der Mensch seinen Wohnsitz auf der Erde hat,",
+      "citation": "Hiob 20:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "daß das Frohlocken der Frevler von kurzer Dauer ist und die Freude der Ruchlosen nur einen Augenblick währt?",
+      "citation": "Hiob 20:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Sollte auch sein Dünkel sich bis zum Himmel erheben und sein Haupt bis an die Wolken reichen,",
+      "citation": "Hiob 20:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "so vergeht er doch wie sein Unrat für immer, und die ihn gekannt haben, werden fragen: ›Wo ist er geblieben?‹",
+      "citation": "Hiob 20:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wie ein Traum verfliegt er, so daß man ihn nicht mehr findet, und er wird hinweggescheucht wie ein Nachtgesicht:",
+      "citation": "Hiob 20:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "das Auge, das ihn gesehen, erblickt ihn nimmer wieder, und seine Stätte gewahrt ihn nicht mehr.",
+      "citation": "Hiob 20:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Seine Söhne müssen die (durch ihn) Verarmten mit Bitten beschwichtigen und seine eigenen Hände sein Vermögen wieder herausgeben.",
+      "citation": "Hiob 20:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Mögen auch seine Glieder von Jugendkraft strotzen: sie muß sich doch mit ihm in den Staub legen.",
+      "citation": "Hiob 20:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Mag das Böse auch seinem Munde süß schmecken, so daß er es lange unter seiner Zunge birgt,",
+      "citation": "Hiob 20:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "daß er es schonend hegt und es nicht fahren lassen will, sondern es an seinem Gaumen zurückhält,",
+      "citation": "Hiob 20:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "so verwandelt sich doch seine Speise in seinen Eingeweiden: zu Otterngalle wird sie in seinem Leibe.",
+      "citation": "Hiob 20:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Den Reichtum, den er verschlungen hat, muß er wieder ausspeien: aus seinem Bauche treibt Gott ihn wieder heraus.",
+      "citation": "Hiob 20:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Otterngift hat er eingesogen: nun gibt ihm die Zunge der Viper den Tod.",
+      "citation": "Hiob 20:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Nicht darf er seine Lust mehr sehen an den Bächen, an den wogenden Strömen von Honig und Sahne.",
+      "citation": "Hiob 20:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Das Erraffte muß er wieder herausgeben, ohne es verschlucken zu können; wieviel Gut er auch erworben hat, er darf nicht frohlocken.",
+      "citation": "Hiob 20:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Denn er hat die Armen niedergeschlagen und hilflos verkommen lassen, hat Häuser an sich gerissen, wird sie aber nicht häuslich einrichten dürfen;",
+      "citation": "Hiob 20:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "denn er kannte keine Befriedigung in seiner Gier: darum wird er auch von seinen Kostbarkeiten nichts davonbringen.",
+      "citation": "Hiob 20:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Nichts entging seinem Fressen: darum hat sein Wohlstand keine Dauer.",
+      "citation": "Hiob 20:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "In der Fülle seines Überflusses wird ihm enge: die ganze Gewalt des Unheils kommt über ihn.",
+      "citation": "Hiob 20:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Da entfesselt Gott dann, um ihm den Bauch zu füllen, seine Zornesglut gegen ihn und läßt sie als seine Speise auf ihn regnen.",
+      "citation": "Hiob 20:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Flieht er vor der eisernen Rüstung, so durchbohrt ihn der eherne Bogen;",
+      "citation": "Hiob 20:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "er zieht den Pfeil heraus, da fährt’s aus seinem Rücken hervor: ein Blutstrahl schießt aus seiner Galle, Todesschrecken brechen über ihn herein.",
+      "citation": "Hiob 20:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Alles Unheil ist seinen Schätzen aufgespart: ein Feuer, das nicht (von Menschen) angefacht ist, frißt sie und verzehrt, was in seinem Zelt noch übriggeblieben ist.",
+      "citation": "Hiob 20:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Der Himmel deckt Sündenschuld auf, und die Erde erhebt sich gegen ihn.",
+      "citation": "Hiob 20:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Was in seinem Hause zusammengescharrt liegt, wird weggeschleppt, zerrinnt (wie Wasser) am Tage des göttlichen Zorngerichts.",
+      "citation": "Hiob 20:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Das ist des ruchlosen Menschen Teil von seiten Gottes und das vom Allherrn ihm zugesprochene Erbe.«",
+      "citation": "Hiob 20:29 (Menge)"
+    }
+  ]
+}

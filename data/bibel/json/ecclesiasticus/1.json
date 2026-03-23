@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 1 — 27 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 1,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/1.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/1.json"
+    }
+  },
+  "citation": "Jesus Sirach 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Alle Weisheit kommt vom Herrn und ist bei ihm in Ewigkeit.",
+      "citation": "Jesus Sirach 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Den Sand am Meer und die Tropfen des Regens und die Tage der Ewigkeit: – wer kann sie zählen?",
+      "citation": "Jesus Sirach 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Die Höhe des Himmels und die Breite der Erde und das Weltmeer und die Weisheit: – wer kann sie ergründen?",
+      "citation": "Jesus Sirach 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Früher als dieses alles ist die Weisheit geschaffen, und verständige Einsicht ist von Ewigkeit her. b [Die Quelle der Weisheit ist Gottes Wort in Himmelshöhen, und ihre Wege sind die ewigen Gebote.]",
+      "citation": "Jesus Sirach 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Die Wurzel der Weisheit, – wem war sie offenbart? und ihre geheimen Pläne, – wer hat sie erkannt? b [Die Erkenntnis der Weisheit, – wem wird sie kundgetan? und ihre reiche Erfahrung, – wer hat sie verstanden?]",
+      "citation": "Jesus Sirach 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Einer ist weise, furchtbar gar sehr, er, der auf seinem Throne sitzt, der Herr.",
+      "citation": "Jesus Sirach 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Er ist’s, der sie geschaffen und geschaut und gezählt und sie ausgegossen hat über alle seine Werke",
+      "citation": "Jesus Sirach 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "mit Einschluß alles Fleisches, soviel er ihm eben verlieh; doch reichlich hat er sie denen gewährt, die ihn lieben. b [Die Liebe zum Herrn ist herrliche Weisheit; denen er aber erscheint, denen teilt er sie zu, damit sie ihn schauen.]",
+      "citation": "Jesus Sirach 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Die Furcht des Herrn verleiht Ehre und Ruhm und Frohsinn und eine Freudenkrone.",
+      "citation": "Jesus Sirach 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Die Furcht des Herrn erfreut das Herz und gibt Frohsinn, Fröhlichkeit und langes Leben. b [Die Furcht des Herrn ist ein Geschenk vom Herrn, denn sie stellt hin auf die Pfade der Liebe.]",
+      "citation": "Jesus Sirach 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Wer den Herrn fürchtet, dem wird es am Ende wohl ergehn, und am Tage seines Todes wird er gepriesen werden. b [Die Liebe zum Herrn ist herrliche Weisheit; denen er aber erscheint, denen teilt er sie zu, damit sie ihn schauen.]",
+      "citation": "Jesus Sirach 1:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Der Anfang der Weisheit ist die Furcht des Herrn; den Frommen ist sie im Mutterleibe anerschaffen.",
+      "citation": "Jesus Sirach 1:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Bei den Menschen hat sie sich einen ewigen Wohnsitz gegründet und bei deren Nachkommen wird sie beständig bleiben. b [Die Furcht des Herrn ist ein gottseliges Wissen; die Gottseligkeit behütet und macht rechtschaffen das Herz, Freude und Wonne verleiht sie. Dem Gottesfürchtigen wird es wohlergehen, und zur Zeit seines Endes wird er gesegnet sein.]",
+      "citation": "Jesus Sirach 1:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Das Vollmaß der Weisheit ist die Furcht des Herrn; sie macht die Menschen trunken von ihren Früchten.",
+      "citation": "Jesus Sirach 1:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Ihr ganzes Haus füllt sie mit kostbaren Schätzen an und die Vorratskammern mit ihren Erzeugnissen.",
+      "citation": "Jesus Sirach 1:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Die Krone der Weisheit ist die Furcht des Herrn, die da erblühen macht Wohlfahrt und erquickende Gesundheit (und das Rühmen denen weit macht, die ihn lieben).",
+      "citation": "Jesus Sirach 1:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Und er sah sie und zählte sie aus; Erkenntnis und kluge Einsicht strömt sie aus und erhöht den Ruhm derer, die sie festhalten.",
+      "citation": "Jesus Sirach 1:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Die Wurzel der Weisheit ist die Furcht des Herrn, und ihre Zweige sind langes Leben. b [Die Furcht des Herrn hält die Sünde fern; wer aber in ihr bleibt, wird allen Zorn von sich abwenden.]",
+      "citation": "Jesus Sirach 1:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Ungerechter Zorn kann nicht entschuldigt werden; denn der Ausbruch seines Zorns bringt ihn zum Fall.",
+      "citation": "Jesus Sirach 1:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Bis zur rechten Zeit hält der Langmütige an sich, und nachher erwächst ihm daraus Freude.",
+      "citation": "Jesus Sirach 1:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Bis zur rechten Zeit verbirgt er seine Worte, und die Lippen vieler werden seine Klugheit preisen.",
+      "citation": "Jesus Sirach 1:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "In den Schatzkammern der Weisheit sind einsichtsvolle Sprüche vorhanden, aber dem Sünder ist die Gottesfurcht ein Greuel.",
+      "citation": "Jesus Sirach 1:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Wünschest du dir Weisheit, so halte die Gebote, dann wird der Herr sie dir reichlich bescheren;",
+      "citation": "Jesus Sirach 1:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "denn Weisheit und Bildung besteht in der Furcht des Herrn; was ihm aber gefällt, ist die Treue und Sanftmut.",
+      "citation": "Jesus Sirach 1:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Sei nicht ungehorsam gegen die Furcht des Herrn und nahe ihr nicht mit geteiltem Herzen.",
+      "citation": "Jesus Sirach 1:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Tue nicht groß mit ihr vor den Leuten und nimm dich in acht mit deinen Lippen.",
+      "citation": "Jesus Sirach 1:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Überhebe dich nicht, damit du nicht fallest und dir selbst Schande zuziehest und der Herr dein verborgenes Innere ans Licht bringe und dich inmitten der versammelten Gemeinde zu Boden werfe, weil du in Wirklichkeit dich nicht der Gottesfurcht genaht hattest und dein Herz voll Falschheit war.",
+      "citation": "Jesus Sirach 1:27 (Menge)"
+    }
+  ]
+}

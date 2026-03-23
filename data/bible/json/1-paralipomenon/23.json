@@ -1,0 +1,196 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Paralipomenon, Chapter 23 — 32 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Paralipomenon",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 23,
+    "verseCount": 32,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-paralipomenon/22.json",
+      "nextChapter": "https://latinprayer.org/bible/1-paralipomenon/24.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-paralipomenon/23.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/23.json"
+    }
+  },
+  "citation": "1. Paralipomenon 23 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "David being old and full of days, made Solomon his son king over Israel.",
+      "citation": "1. Paralipomenon 23:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he gathered together all the princes of Israel, and the priests and Levites.",
+      "citation": "1. Paralipomenon 23:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And the Levites were numbered from the age of thirty years, and upwards: and there were found of them thirty-eight thousand men.",
+      "citation": "1. Paralipomenon 23:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Of these twenty-four thousand were chosen, and distributed unto the ministry of the house of the Lord: and six thousand were the overseers and judges.",
+      "citation": "1. Paralipomenon 23:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Moreover four thousand were porters: and as many singers singing to the Lord with the instruments, which he had made to sing with.",
+      "citation": "1. Paralipomenon 23:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And David distributed them into courses by the families of the sons of Levi, to wit, of Gerson, and of Caath, and of Merari.",
+      "citation": "1. Paralipomenon 23:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The sons of Gerson were Leedan and Semei.",
+      "citation": "1. Paralipomenon 23:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The sons of Leedan: the chief Jahiel, and Zethan, and Joel, three.",
+      "citation": "1. Paralipomenon 23:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The sons of Semei: Salomith, and Hosiel, and Aran, three: these were the heads of the families of Leedan.",
+      "citation": "1. Paralipomenon 23:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the sons of Semei were Leheth, and Ziza, and Jaus, and Baria: these were the sons of Semei, four.",
+      "citation": "1. Paralipomenon 23:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Leheth was the first, Ziza the second: but Jaus and Baria had not many children, and therefore they were counted in one family, and in one house.",
+      "citation": "1. Paralipomenon 23:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The sons of Caath were Amram, and Isaar, Hebron, and Oziel, four.",
+      "citation": "1. Paralipomenon 23:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The sons of Amram, Aaron, and Moses. And Aaron was separated to minister in the holy of holies, he and his sons for ever, and to burn incense before the Lord, according to his ceremonies, and to bless his name for ever.",
+      "citation": "1. Paralipomenon 23:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "The sons also of Moses, the man of God, were numbered in the tribe of Levi.",
+      "citation": "1. Paralipomenon 23:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The sons of Moses were Gersom and Eliezer:",
+      "citation": "1. Paralipomenon 23:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The sons of Gersom: Subuel the first.",
+      "citation": "1. Paralipomenon 23:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And the sons of Eliezer were: Rohobia the first: and Eliezer had no more sons. But the sons of Rohobia were multiplied exceedingly.",
+      "citation": "1. Paralipomenon 23:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The sons of Isaar: Salomith the first.",
+      "citation": "1. Paralipomenon 23:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The sons of Hebron: Jeriau the first, Amarias the second, Jahaziel the third, Jecmaam the fourth.",
+      "citation": "1. Paralipomenon 23:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The sons of Oziel: Micha the first, Jesia the second.",
+      "citation": "1. Paralipomenon 23:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "The sons of Merari: Moholi, and Musi. The sons of Moholi: Eleazar and Cis.",
+      "citation": "1. Paralipomenon 23:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And Eleazar died, and had no sons but daughters: and the sons of Cis their brethren took them.",
+      "citation": "1. Paralipomenon 23:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The sons of Musi: Moholi, and Eder, and Jerimoth, three.",
+      "citation": "1. Paralipomenon 23:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "These are the sons of Levi in their kindreds and families, princes by their courses, and the number of every head that did the works of the ministry of the house of the Lord from twenty years old and upward.",
+      "citation": "1. Paralipomenon 23:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "For David said: The Lord the God of Israel hath given rest to his people, and a habitation in Jerusalem for ever.",
+      "citation": "1. Paralipomenon 23:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And it shall not be the office of the Levites to carry any more the tabernacle, and all the vessels for the service thereof.",
+      "citation": "1. Paralipomenon 23:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "So according to the last precepts of David, the sons of Levi are to be numbered from twenty years old and upward.",
+      "citation": "1. Paralipomenon 23:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And they are to be under the hand of the sons of Aaron for the service of the house of the Lord, in the porches, and in the chambers, and in the place of purification, and in the sanctuary, and in all the works of the ministry of the temple of the Lord.",
+      "citation": "1. Paralipomenon 23:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And the priests have the charge of the loaves of proposition, and of the sacrifice of fine flour, and of the unleavened cakes, and of the fryingpan, and of the roasting, and of every weight and measure.",
+      "citation": "1. Paralipomenon 23:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And the Levites are to stand in the morning to give thanks, and to sing praises to the Lord: and in like manner in the evening,",
+      "citation": "1. Paralipomenon 23:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "As well in the oblation of the holocausts of the Lord, as in the sabbaths and in the new moons, and the rest of the solemnities, according to the number and ceremonies prescribed for every thing, continually before the Lord.",
+      "citation": "1. Paralipomenon 23:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And let them keep the observances of the tabernacle of the covenant, and the ceremonies of the sanctuary, and the charge of the sons of Aaron their brethren, that they may minister in the house of the Lord.",
+      "citation": "1. Paralipomenon 23:32 (Douay-Rheims)"
+    }
+  ]
+}

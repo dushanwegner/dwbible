@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Romans, Chapter 12 — 21 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 52,
+      "totalChapters": 16
+    },
+    "chapter": 12,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/romans/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/romans/11.json",
+      "nextChapter": "https://latinprayer.org/bible/romans/13.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/romans/12.json",
+      "german": "https://latinprayer.org/bibel/romans/12.json"
+    }
+  },
+  "citation": "Romans 12 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I beseech you therefore, brethren, by the mercy of God, that you present your bodies a living sacrifice, holy, pleasing unto God, your reasonable service.",
+      "citation": "Romans 12:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And be not conformed to this world: but be reformed in the newness of your mind, that you may prove what is the good and the acceptable and the perfect will of God.",
+      "citation": "Romans 12:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For I say, by the grace that is given me, to all that are among you, not to be more wise than it behoveth to be wise, but to be wise unto sobriety and according as God hath divided to every one the measure of faith.",
+      "citation": "Romans 12:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For as in one body we have many members, but all the members have not the same office:",
+      "citation": "Romans 12:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "So we, being many, are one body in Christ; and every one members one of another:",
+      "citation": "Romans 12:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And having different gifts, according to the grace that is given us, either prophecy, to be used according to the rule of faith;",
+      "citation": "Romans 12:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Or ministry, in ministering; or he that teacheth, in doctrine;",
+      "citation": "Romans 12:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He that exhorteth, in exhorting; he that giveth, with simplicity; he that ruleth, with carefulness; he that sheweth mercy, with cheerfulness.",
+      "citation": "Romans 12:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Let love be without dissimulation. Hating that which is evil, cleaving to that which is good,",
+      "citation": "Romans 12:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Loving one another with the charity of brotherhood: with honour preventing one another.",
+      "citation": "Romans 12:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "In carefulness not slothful. In spirit fervent. Serving the Lord.",
+      "citation": "Romans 12:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Rejoicing in hope. Patient in tribulation. Instant in prayer.",
+      "citation": "Romans 12:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Communicating to the necessities of the saints. Pursuing hospitality.",
+      "citation": "Romans 12:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Bless them that persecute you: bless, and curse not.",
+      "citation": "Romans 12:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Rejoice with them that rejoice: weep with them that weep.",
+      "citation": "Romans 12:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Being of one mind one towards another. Not minding high things, but consenting to the humble. Be not wise in your own conceits.",
+      "citation": "Romans 12:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "To no man rendering evil for evil. Providing good things, not only in the sight of God but also in the sight of all men.",
+      "citation": "Romans 12:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "If it be possible, as much as is in you, have peace with all men.",
+      "citation": "Romans 12:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Revenge not yourselves, my dearly beloved; but give place unto wrath, for it is written: Revenge is mine, I will repay, saith the Lord.",
+      "citation": "Romans 12:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "But if the enemy be hungry, give him to eat; if he thirst, give him to drink. For, doing this, thou shalt heap coals of fire upon his head.",
+      "citation": "Romans 12:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Be not overcome by evil: but overcome evil by good.",
+      "citation": "Romans 12:21 (Douay-Rheims)"
+    }
+  ]
+}

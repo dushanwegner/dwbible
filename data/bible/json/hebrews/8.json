@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebrews, Chapter 8 — 13 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 8,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/hebrews/7.json",
+      "nextChapter": "https://latinprayer.org/bible/hebrews/9.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/hebrews/8.json",
+      "german": "https://latinprayer.org/bibel/hebrews/8.json"
+    }
+  },
+  "citation": "Hebrews 8 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now of the things which we have spoken, this is the sum: We have such an high priest who is set on the right hand of the throne of majesty in the heavens,",
+      "citation": "Hebrews 8:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "A minister of the holies and of the true tabernacle, which the Lord hath pitched, and not man.",
+      "citation": "Hebrews 8:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For every high priest is appointed to offer gifts and sacrifices: wherefore it is necessary that he also should have some thing to offer.",
+      "citation": "Hebrews 8:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "If then he were on earth, he would not be a priest: seeing that there would be others to offer gifts according to the law.",
+      "citation": "Hebrews 8:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Who serve unto the example and shadow of heavenly things. As it was answered to Moses, when he was to finish the tabernacle: See (saith he) that thou make all things according to the pattern which was shewn thee on the mount.",
+      "citation": "Hebrews 8:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But now he hath obtained a better ministry, by how much also he is a mediator of a better testament which is established on better promises.",
+      "citation": "Hebrews 8:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For if that former had been faultless, there should not indeed a place have been sought for a second.",
+      "citation": "Hebrews 8:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For, finding fault with them, he saith: Behold the days shall come, saith the Lord: and I will perfect, unto the house of Israel and unto the house of Juda, a new testament:",
+      "citation": "Hebrews 8:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Not according to the testament which I made to their fathers, on the day when I took them by the hand to lead them out of the land of Egypt: because they continued not in my testament: and I regarded them not, saith the Lord.",
+      "citation": "Hebrews 8:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For this is the testament which I will make to the house of Israel after those days, saith the Lord: I will give my laws into their mind: and in their heart will I write them. And I will be their God: and they shall be my people.",
+      "citation": "Hebrews 8:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And they shall not teach every man his neighbour and every man his brother, saying: Know the Lord. For all shall know me, from the least to the greatest of them.",
+      "citation": "Hebrews 8:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Because I will be merciful to their iniquities: and their sins I will remember no more.",
+      "citation": "Hebrews 8:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Now in saying a new, he hath made the former old. And that which decayeth and groweth old is near its end.",
+      "citation": "Hebrews 8:13 (Douay-Rheims)"
+    }
+  ]
+}

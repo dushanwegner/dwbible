@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 8 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 8,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/osee/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/osee/7.json",
+      "nextChapter": "https://latinprayer.org/latin/osee/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/8.json",
+      "german": "https://latinprayer.org/bibel/osee/8.json"
+    }
+  },
+  "citation": "Hosea 8 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in gutture tuo sit tuba quasi aquila super domum Domini pro eo quod transgressi sunt foedus meum et legem meam praevaricati sunt",
+      "citation": "Hosea 8:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "me invocabunt Deus meus cognovimus te Israhel",
+      "citation": "Hosea 8:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "proiecit Israhel bonum inimicus persequetur eum",
+      "citation": "Hosea 8:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ipsi regnaverunt et non ex me principes extiterunt et non cognovi argentum suum et aurum suum fecerunt sibi idola ut interirent",
+      "citation": "Hosea 8:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "proiectus est vitulus tuus Samaria iratus est furor meus in eis usquequo non poterunt emundari",
+      "citation": "Hosea 8:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quia ex Israhel et ipse est artifex fecit illum et non est Deus quoniam in aranearum telas erit vitulus Samariae",
+      "citation": "Hosea 8:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quia ventum seminabunt et turbinem metent culmus stans non est in eis germen non faciet farinam quod si et fecerit alieni comedent eam",
+      "citation": "Hosea 8:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "devoratus est Israhel nunc factus est in nationibus quasi vas inmundum",
+      "citation": "Hosea 8:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quia ipsi ascenderunt ad Assur onager solitarius sibi Ephraim munera dederunt amatoribus",
+      "citation": "Hosea 8:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "sed et cum mercede conduxerint nationes nunc congregabo eos et quiescent paulisper ab onere regis et principum",
+      "citation": "Hosea 8:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quia multiplicavit Ephraim altaria ad peccandum factae sunt ei arae in delictum",
+      "citation": "Hosea 8:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "scribam ei multiplices leges meas quae velut alienae conputatae sunt",
+      "citation": "Hosea 8:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "hostias adfer adfer immolabunt carnes et comedent Dominus non suscipiet eas nunc recordabitur iniquitatis eorum et visitabit peccata eorum ipsi in Aegyptum convertentur",
+      "citation": "Hosea 8:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et oblitus est Israhel factoris sui et aedificavit delubra et Iudas multiplicavit urbes munitas et mittam ignem in civitates eius et devorabit aedes illius",
+      "citation": "Hosea 8:14 (Clementine Vulgate)"
+    }
+  ]
+}

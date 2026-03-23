@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 124 — 8 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 124,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/123.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/125.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/124.json",
+      "latin": "https://latinprayer.org/latin/psalms/124.json"
+    }
+  },
+  "citation": "Psalmen 124 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Wallfahrtslied</em> <em>von David.</em> »Wäre der HERR nicht für uns gewesen« <ul> <li>so bekenne Israel! –,</li> </ul>",
+      "citation": "Psalmen 124:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»wäre der HERR nicht für uns gewesen, als Menschen sich gegen uns erhoben:",
+      "citation": "Psalmen 124:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "dann hätten sie uns lebendig verschlungen, als ihr Zorn gegen uns entbrannt war;",
+      "citation": "Psalmen 124:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "dann hätten die Wasser uns überflutet, ein Wildbach hätte sich über uns ergossen;",
+      "citation": "Psalmen 124:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "dann wären über uns hingegangen die wildwogenden Fluten.«",
+      "citation": "Psalmen 124:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Gepriesen sei der HERR, der uns nicht ihren Zähnen zum Raub hat preisgegeben!",
+      "citation": "Psalmen 124:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Unsre Seele ist entschlüpft wie ein Vogel dem Netz der Vogelsteller: das Netz ist zerrissen, und wir sind frei geworden.",
+      "citation": "Psalmen 124:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Unsre Hilfe steht im Namen des HERRN, der Himmel und Erde geschaffen.",
+      "citation": "Psalmen 124:8 (Menge)"
+    }
+  ]
+}

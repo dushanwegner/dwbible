@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 133 — 3 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 133,
+    "verseCount": 3,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/132.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/134.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/133.json",
+      "latin": "https://latinprayer.org/latin/psalms/133.json"
+    }
+  },
+  "citation": "Psalmen 133 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Wallfahrtslied</em> <em>Davids.</em> Seht, wie schön und wie lieblich ist’s, wenn Brüder auch (friedlich) beisammen wohnen!",
+      "citation": "Psalmen 133:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Das gleicht dem köstlichen Öl auf dem Haupt, das herabtroff in den Bart, in Aarons Bart, der niederwallte auf den Saum seiner Gewandung.",
+      "citation": "Psalmen 133:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Es gleicht dem Hermontau, der niederfällt auf die Berge Zions; denn dorthin hat der HERR den Segen entboten, Leben bis in Ewigkeit.",
+      "citation": "Psalmen 133:3 (Menge)"
+    }
+  ]
+}

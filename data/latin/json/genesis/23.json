@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 23 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 26
+    },
+    "chapter": 23,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/genesis/22.json",
+      "nextChapter": "https://latinprayer.org/latin/genesis/24.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/23.json",
+      "german": "https://latinprayer.org/bibel/genesis/23.json"
+    }
+  },
+  "citation": "Genesis 23 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "vixit autem Sarra centum viginti septem annis",
+      "citation": "Genesis 23:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et mortua est in civitate Arbee quae est Hebron in terra Chanaan venitque Abraham ut plangeret et fleret eam",
+      "citation": "Genesis 23:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cumque surrexisset ab officio funeris locutus est ad filios Heth dicens",
+      "citation": "Genesis 23:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "advena sum et peregrinus apud vos date mihi ius sepulchri vobiscum ut sepeliam mortuum meum",
+      "citation": "Genesis 23:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "responderuntque filii Heth",
+      "citation": "Genesis 23:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "audi nos domine princeps Dei es apud nos in electis sepulchris nostris sepeli mortuum tuum nullusque prohibere te poterit quin in monumento eius sepelias mortuum tuum",
+      "citation": "Genesis 23:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "surrexit Abraham et adoravit populum terrae filios videlicet Heth",
+      "citation": "Genesis 23:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dixitque ad eos si placet animae vestrae ut sepeliam mortuum meum audite me et intercedite apud Ephron filium Soor",
+      "citation": "Genesis 23:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ut det mihi speluncam duplicem quam habet in extrema parte agri sui pecunia digna tradat mihi eam coram vobis in possessionem sepulchri",
+      "citation": "Genesis 23:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "habitabat autem Ephron in medio filiorum Heth responditque ad Abraham cunctis audientibus qui ingrediebantur portam civitatis illius dicens",
+      "citation": "Genesis 23:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "nequaquam ita fiat domine mi sed magis ausculta quod loquor agrum trado tibi et speluncam quae in eo est praesentibus filiis populi mei sepeli mortuum tuum",
+      "citation": "Genesis 23:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "adoravit Abraham coram populo terrae",
+      "citation": "Genesis 23:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et locutus est ad Ephron circumstante plebe quaeso ut audias me dabo pecuniam pro agro suscipe eam et sic sepeliam mortuum meum in eo",
+      "citation": "Genesis 23:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "respondit Ephron",
+      "citation": "Genesis 23:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "domine mi audi terram quam postulas quadringentis argenti siclis valet istud est pretium inter me et te sed quantum est hoc sepeli mortuum tuum",
+      "citation": "Genesis 23:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quod cum audisset Abraham adpendit pecuniam quam Ephron postulaverat audientibus filiis Heth quadringentos siclos argenti et probati monetae publicae",
+      "citation": "Genesis 23:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "confirmatusque est ager quondam Ephronis in quo erat spelunca duplex respiciens Mambre tam ipse quam spelunca et omnes arbores eius in cunctis terminis per circuitum",
+      "citation": "Genesis 23:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "Abrahae in possessionem videntibus filiis Heth et cunctis qui intrabant portam civitatis illius",
+      "citation": "Genesis 23:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "atque ita sepelivit Abraham Sarram uxorem suam in spelunca agri duplici qui respiciebat Mambre haec est Hebron in terra Chanaan",
+      "citation": "Genesis 23:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et confirmatus est ager et antrum quod erat in eo Abrahae in possessionem monumenti a filiis Heth",
+      "citation": "Genesis 23:20 (Clementine Vulgate)"
+    }
+  ]
+}

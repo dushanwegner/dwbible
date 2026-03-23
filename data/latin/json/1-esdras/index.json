@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezra — 5 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezra",
+      "slug": "1-esdras",
+      "testament": "OT",
+      "order": 15,
+      "totalChapters": 5
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-esdras/index.json",
+      "german": "https://latinprayer.org/bibel/1-esdras/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 20,
+      "verseCount": 9,
+      "url": "https://latinprayer.org/latin/1-esdras/20",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/20.json"
+    },
+    {
+      "chapter": 21,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/latin/1-esdras/21",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/21.json"
+    },
+    {
+      "chapter": 22,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/1-esdras/22",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/22.json"
+    },
+    {
+      "chapter": 23,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/latin/1-esdras/23",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/23.json"
+    },
+    {
+      "chapter": 24,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/latin/1-esdras/24",
+      "jsonUrl": "https://latinprayer.org/latin/1-esdras/24.json"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 118 — 29 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 118,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/117.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/119.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/118.json",
+      "german": "https://latinprayer.org/bibel/psalms/118.json"
+    }
+  },
+  "citation": "Psalms 118 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Give praise to the Lord, for he is good: for his mercy endureth for ever.",
+      "citation": "Psalms 118:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Let Israel now say, that he is good: that his mercy endureth for ever.",
+      "citation": "Psalms 118:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Let the house of Aaron now say, that his mercy endureth for ever.",
+      "citation": "Psalms 118:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Let them that fear the Lord now say, that his mercy endureth for ever.",
+      "citation": "Psalms 118:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "In my trouble I called upon the Lord: and the Lord heard me, and enlarged me.",
+      "citation": "Psalms 118:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The Lord is my helper: I will not fear what man can do unto me.",
+      "citation": "Psalms 118:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The Lord is my helper: and I will look over my enemies.",
+      "citation": "Psalms 118:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "It is good to confide in the Lord, rather than to have confidence in man.",
+      "citation": "Psalms 118:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "It is good to trust in the Lord, rather than to trust in princes.",
+      "citation": "Psalms 118:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "All nations compassed me about; and, in the name of the Lord I have been revenged on them.",
+      "citation": "Psalms 118:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Surrounding me they compassed me about: and in the name of the Lord I have been revenged on them.",
+      "citation": "Psalms 118:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "They surrounded me like bees, and they burned like fire among thorns: and in the name of the Lord I was revenged on them.",
+      "citation": "Psalms 118:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Being pushed I was overturned that I might fall: but the Lord supported me.",
+      "citation": "Psalms 118:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "The Lord is my strength and my praise: and he is become my salvation.",
+      "citation": "Psalms 118:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The voice of rejoicing and of salvation is in the tabernacles of the just.",
+      "citation": "Psalms 118:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The right hand of the Lord hath wrought strength: the right hand of the Lord hath exalted me: the right hand of the Lord hath wrought strength.",
+      "citation": "Psalms 118:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "I shall not die, but live: and shall declare the works of the Lord.",
+      "citation": "Psalms 118:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The Lord chastising hath chastised me: but he hath not delivered me over to death.",
+      "citation": "Psalms 118:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Open ye to me the gates of justice: I will go in to them, and give praise to the Lord.",
+      "citation": "Psalms 118:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "This is the gate of the Lord, the just shall enter into it.",
+      "citation": "Psalms 118:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "I will give glory to thee because thou hast heard me: and art become my salvation.",
+      "citation": "Psalms 118:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The stone which the builders rejected; the same is become the head of the corner.",
+      "citation": "Psalms 118:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "This is the Lord's doing, and it is wonderful in our eyes.",
+      "citation": "Psalms 118:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "This is the day which the Lord hath made: let us be glad and rejoice therein.",
+      "citation": "Psalms 118:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "O Lord, save me: O Lord, give good success.",
+      "citation": "Psalms 118:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Blessed be he that cometh in the name of the Lord. We have blessed you out of the house of the Lord.",
+      "citation": "Psalms 118:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "The Lord is God, and he hath shone upon us. Appoint a solemn day, with shady boughs, even to the horn of the altar.",
+      "citation": "Psalms 118:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Thou art my God, and I will praise thee: thou art my God, and I will exalt thee. I will praise thee, because thou hast heard me, and art become my salvation.",
+      "citation": "Psalms 118:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "O praise ye the Lord, for he is good: for his mercy endureth for ever.",
+      "citation": "Psalms 118:29 (Douay-Rheims)"
+    }
+  ]
+}

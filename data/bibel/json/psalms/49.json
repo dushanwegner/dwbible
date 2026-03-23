@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 49 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 49,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/48.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/50.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/49.json",
+      "latin": "https://latinprayer.org/latin/psalms/49.json"
+    }
+  },
+  "citation": "Psalmen 49 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, von den Korahiten</em><em>, ein Psalm.</em>",
+      "citation": "Psalmen 49:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Höret dies, ihr Völker alle, merkt auf, ihr Bewohner der ganzen Welt,",
+      "citation": "Psalmen 49:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "sowohl ihr Söhne des Volks als ihr Herrensöhne, beide, so reich wie arm!",
+      "citation": "Psalmen 49:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Mein Mund soll volle Weisheit reden, und meines Herzens Sinnen soll höchste Einsicht sein:",
+      "citation": "Psalmen 49:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "ich will mein Ohr einer Gleichnisrede leihen, will mein Rätsel eröffnen bei Saitenklang.",
+      "citation": "Psalmen 49:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Warum sollt’ ich mich fürchten in bösen Tagen, wenn die Bosheit meiner Verfolger mich umgibt,",
+      "citation": "Psalmen 49:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "die auf ihr Vermögen vertrauen und mit ihrem großen Reichtum prahlen?",
+      "citation": "Psalmen 49:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Den Bruder loszukaufen vermag ja doch kein Mensch, noch an Gott das Lösegeld für ihn zu zahlen",
+      "citation": "Psalmen 49:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "- denn unerschwinglich hoch ist der Kaufpreis für ihr Leben: er muß davon Abstand nehmen für immer –,",
+      "citation": "Psalmen 49:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "damit er dauernd weiterlebe und die Grube nicht zu sehen bekomme.",
+      "citation": "Psalmen 49:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Nein, er bekommt es zu sehen, daß sterben die Weisen, und Toren und Dumme gleicherweise umkommen und müssen andern ihr Gut hinterlassen:",
+      "citation": "Psalmen 49:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Gräber sind ihre Behausung für immer, ihre Wohnungen von Geschlecht zu Geschlecht, ob sie auch Länder mit ihren Namen benannten.",
+      "citation": "Psalmen 49:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ja, der Mensch – in Herrlichkeit lebt er nicht fort: er gleicht den Tieren, die abgetan werden.",
+      "citation": "Psalmen 49:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Dies ist das Schicksal derer, die voll Zuversicht sind, und der Ausgang derer, die ihren Reden Beifall schenken. SELA.",
+      "citation": "Psalmen 49:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Wie Schafe werden sie ins Totenreich versetzt; der Tod weidet sie, und über sie herrschen die Frommen am Morgen; dem Totenreich zur Vernichtung fällt ihre Gestalt anheim, so daß ihr keine Wohnung bleibt.",
+      "citation": "Psalmen 49:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Aber Gott wird meine Seele erlösen aus des Totenreichs Gewalt, denn er wird mich annehmen. SELA.",
+      "citation": "Psalmen 49:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Drum rege dich nicht auf, wenn jemand reich wird, wenn seines Hauses Herrlichkeit sich mehrt;",
+      "citation": "Psalmen 49:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "denn im Tode nimmt er das alles nicht mit: seine Herrlichkeit fährt nicht mit ihm hinab.",
+      "citation": "Psalmen 49:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Mag er sich auch im Leben glücklich preisen und mag man ihn rühmen, daß es ihm wohlergehe:",
+      "citation": "Psalmen 49:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "er wird doch eingehn zum Geschlecht seiner Väter, die das Tageslicht nimmermehr sehen.",
+      "citation": "Psalmen 49:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Der Mensch, in Herrlichkeit lebend, doch ohne Einsicht, gleicht den Tieren, die abgetan werden.",
+      "citation": "Psalmen 49:21 (Menge)"
+    }
+  ]
+}

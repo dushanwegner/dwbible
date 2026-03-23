@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 14 — 9 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 14,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/osee/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/osee/13.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/14.json",
+      "german": "https://latinprayer.org/bibel/osee/14.json"
+    }
+  },
+  "citation": "Hosea 14 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "pereat Samaria quoniam ad amaritudinem concitavit Dominum suum in gladio pereat parvuli eorum elidantur et fetae eius discindantur",
+      "citation": "Hosea 14:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "convertere Israhel ad Dominum Deum tuum quoniam corruisti in iniquitate tua",
+      "citation": "Hosea 14:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "tollite vobiscum verba et convertimini ad Dominum dicite ei omnem aufer iniquitatem et accipe bonum et reddemus vitulos labiorum nostrorum",
+      "citation": "Hosea 14:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Assur non salvabit nos super equum non ascendemus nec dicemus ultra dii nostri opera manuum nostrarum quia eius qui in te est misereberis pupilli",
+      "citation": "Hosea 14:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "sanabo contritiones eorum diligam eos spontanee quia aversus est furor meus ab eo",
+      "citation": "Hosea 14:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ero quasi ros Israhel germinabit quasi lilium et erumpet radix eius ut Libani",
+      "citation": "Hosea 14:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ibunt rami eius et erit quasi oliva gloria eius et odor eius ut Libani",
+      "citation": "Hosea 14:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "convertentur sedentes in umbra eius vivent tritico et germinabunt quasi vinea memoriale eius sicut vinum Libani",
+      "citation": "Hosea 14:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "Ephraim quid mihi ultra idola ego exaudiam et dirigam eum ego ut abietem virentem ex me fructus tuus inventus est",
+      "citation": "Hosea 14:9 (Clementine Vulgate)"
+    }
+  ]
+}

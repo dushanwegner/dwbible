@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 53 — 12 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 53,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/52.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/54.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/53.json",
+      "german": "https://latinprayer.org/bibel/isaias/53.json"
+    }
+  },
+  "citation": "Isaiah 53 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quis credidit auditui nostro et brachium Domini cui revelatum est",
+      "citation": "Isaiah 53:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et ascendet sicut virgultum coram eo et sicut radix de terra sitienti non est species ei neque decor et vidimus eum et non erat aspectus et desideravimus eum",
+      "citation": "Isaiah 53:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "despectum et novissimum virorum virum dolorum et scientem infirmitatem et quasi absconditus vultus eius et despectus unde nec reputavimus eum",
+      "citation": "Isaiah 53:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "vere languores nostros ipse tulit et dolores nostros ipse portavit et nos putavimus eum quasi leprosum et percussum a Deo et humiliatum",
+      "citation": "Isaiah 53:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ipse autem vulneratus est propter iniquitates nostras adtritus est propter scelera nostra disciplina pacis nostrae super eum et livore eius sanati sumus",
+      "citation": "Isaiah 53:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "omnes nos quasi oves erravimus unusquisque in viam suam declinavit et Dominus posuit in eo iniquitatem omnium nostrum",
+      "citation": "Isaiah 53:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "oblatus est quia ipse voluit et non aperuit os suum sicut ovis ad occisionem ducetur et quasi agnus coram tondente obmutescet et non aperiet os suum",
+      "citation": "Isaiah 53:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "de angustia et de iudicio sublatus est generationem eius quis enarrabit quia abscisus est de terra viventium propter scelus populi mei percussit eum",
+      "citation": "Isaiah 53:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et dabit impios pro sepultura et divitem pro morte sua eo quod iniquitatem non fecerit neque dolus fuerit in ore eius",
+      "citation": "Isaiah 53:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et Dominus voluit conterere eum in infirmitate si posuerit pro peccato animam suam videbit semen longevum et voluntas Domini in manu eius dirigetur",
+      "citation": "Isaiah 53:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "pro eo quod laboravit anima eius videbit et saturabitur in scientia sua iustificabit ipse iustus servus meus multos et iniquitates eorum ipse portabit",
+      "citation": "Isaiah 53:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ideo dispertiam ei plurimos et fortium dividet spolia pro eo quod tradidit in morte animam suam et cum sceleratis reputatus est et ipse peccatum multorum tulit et pro transgressoribus rogavit",
+      "citation": "Isaiah 53:12 (Clementine Vulgate)"
+    }
+  ]
+}

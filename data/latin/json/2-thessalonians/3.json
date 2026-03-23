@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Thessalonians, Chapter 3 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Thessalonians",
+      "slug": "2-thessalonians",
+      "testament": "NT",
+      "order": 60,
+      "totalChapters": 3
+    },
+    "chapter": 3,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-thessalonians/2.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-thessalonians/3.json",
+      "german": "https://latinprayer.org/bibel/2-thessalonians/3.json"
+    }
+  },
+  "citation": "2 Thessalonians 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "de cetero fratres orate pro nobis ut sermo Domini currat et clarificetur sicut et apud vos",
+      "citation": "2 Thessalonians 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et ut liberemur ab inportunis et malis hominibus non enim omnium est fides",
+      "citation": "2 Thessalonians 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "fidelis autem Dominus est qui confirmabit vos et custodiet a malo",
+      "citation": "2 Thessalonians 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "confidimus autem de vobis in Domino quoniam quae praecipimus et facitis et facietis",
+      "citation": "2 Thessalonians 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Dominus autem dirigat corda vestra in caritate Dei et patientia Christi",
+      "citation": "2 Thessalonians 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "denuntiamus autem vobis fratres in nomine Domini nostri Iesu Christi ut subtrahatis vos ab omni fratre ambulante inordinate et non secundum traditionem quam acceperunt a nobis",
+      "citation": "2 Thessalonians 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ipsi enim scitis quemadmodum oporteat imitari nos quoniam non inquieti fuimus inter vos",
+      "citation": "2 Thessalonians 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "neque gratis panem manducavimus ab aliquo sed in labore et fatigatione nocte et die operantes ne quem vestrum gravaremus",
+      "citation": "2 Thessalonians 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "non quasi non habuerimus potestatem sed ut nosmet ipsos formam daremus vobis ad imitandum nos",
+      "citation": "2 Thessalonians 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "nam et cum essemus apud vos hoc denuntiabamus vobis quoniam si quis non vult operari nec manducet",
+      "citation": "2 Thessalonians 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "audimus enim inter vos quosdam ambulare inquiete nihil operantes sed curiose agentes",
+      "citation": "2 Thessalonians 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "his autem qui eiusmodi sunt denuntiamus et obsecramus in Domino Iesu Christo ut cum silentio operantes suum panem manducent",
+      "citation": "2 Thessalonians 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "vos autem fratres nolite deficere benefacientes",
+      "citation": "2 Thessalonians 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quod si quis non oboedit verbo nostro per epistulam hunc notate et non commisceamini cum illo ut confundatur",
+      "citation": "2 Thessalonians 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et nolite quasi inimicum existimare sed corripite ut fratrem",
+      "citation": "2 Thessalonians 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ipse autem Dominus pacis det vobis pacem sempiternam in omni loco Dominus cum omnibus vobis",
+      "citation": "2 Thessalonians 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "salutatio mea manu Pauli quod est signum in omni epistula ita scribo",
+      "citation": "2 Thessalonians 3:17 (Clementine Vulgate)"
+    }
+  ]
+}

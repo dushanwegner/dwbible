@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Song of Solomon, Chapter 3 — 11 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Song of Solomon",
+      "slug": "canticle-of-canticles",
+      "testament": "OT",
+      "order": 24,
+      "totalChapters": 8
+    },
+    "chapter": 3,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/canticle-of-canticles/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/canticle-of-canticles/2.json",
+      "nextChapter": "https://latinprayer.org/latin/canticle-of-canticles/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/canticle-of-canticles/3.json",
+      "german": "https://latinprayer.org/bibel/canticle-of-canticles/3.json"
+    }
+  },
+  "citation": "Song of Solomon 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in lectulo meo per noctes quaesivi quem diligit anima mea quaesivi illum et non inveni",
+      "citation": "Song of Solomon 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "surgam et circuibo civitatem per vicos et plateas quaeram quem diligit anima mea quaesivi illum et non inveni",
+      "citation": "Song of Solomon 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "invenerunt me vigiles qui custodiunt civitatem num quem dilexit anima mea vidistis",
+      "citation": "Song of Solomon 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "paululum cum pertransissem eos inveni quem diligit anima mea tenui eum nec dimittam donec introducam illum in domum matris meae et in cubiculum genetricis meae",
+      "citation": "Song of Solomon 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "adiuro vos filiae Hierusalem per capreas cervosque camporum ne suscitetis neque evigilare faciatis dilectam donec ipsa velit",
+      "citation": "Song of Solomon 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quae est ista quae ascendit per desertum sicut virgula fumi ex aromatibus murrae et turis et universi pulveris pigmentarii",
+      "citation": "Song of Solomon 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "en lectulum Salomonis sexaginta fortes ambiunt ex fortissimis Israhel",
+      "citation": "Song of Solomon 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "omnes tenentes gladios et ad bella doctissimi uniuscuiusque ensis super femur suum propter timores nocturnos",
+      "citation": "Song of Solomon 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ferculum fecit sibi rex Salomon de lignis Libani",
+      "citation": "Song of Solomon 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "columnas eius fecit argenteas reclinatorium aureum ascensum purpureum media caritate constravit propter filias Hierusalem",
+      "citation": "Song of Solomon 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "egredimini et videte filiae Sion regem Salomonem in diademate quo coronavit eum mater sua in die disponsionis illius et in die laetitiae cordis eius",
+      "citation": "Song of Solomon 3:11 (Clementine Vulgate)"
+    }
+  ]
+}

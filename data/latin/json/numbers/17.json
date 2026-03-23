@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 17 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 17,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/numbers/16.json",
+      "nextChapter": "https://latinprayer.org/latin/numbers/18.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/17.json",
+      "german": "https://latinprayer.org/bibel/numbers/17.json"
+    }
+  },
+  "citation": "Numbers 17 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "locutusque est Dominus ad Mosen dicens",
+      "citation": "Numbers 17:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "praecipe Eleazaro filio Aaron sacerdotis ut tollat turibula quae iacent in incendio et ignem huc illucque dispergat quoniam sanctificata sunt",
+      "citation": "Numbers 17:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "in mortibus peccatorum producatque ea in lamminas et adfigat altari eo quod oblatum sit in eis incensum Domino et sanctificata sint ut cernant ea pro signo et monumento filii Israhel",
+      "citation": "Numbers 17:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "tulit ergo Eleazar sacerdos turibula aenea in quibus obtulerant hii quos incendium devoravit et produxit ea in lamminas adfigens altari",
+      "citation": "Numbers 17:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ut haberent postea filii Israhel quibus commonerentur ne quis accedat alienigena et qui non est de semine Aaron ad offerendum incensum Domino ne patiatur sicut passus est Core et omnis congregatio eius loquente Domino ad Mosen",
+      "citation": "Numbers 17:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "murmuravit autem omnis multitudo filiorum Israhel sequenti die contra Mosen et Aaron dicens vos interfecistis populum Domini",
+      "citation": "Numbers 17:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "cumque oreretur seditio et tumultus incresceret",
+      "citation": "Numbers 17:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Moses et Aaron fugerunt ad tabernaculum foederis quod postquam ingressi sunt operuit nubes et apparuit gloria Domini",
+      "citation": "Numbers 17:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dixitque Dominus ad Mosen",
+      "citation": "Numbers 17:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "recedite de medio huius multitudinis etiam nunc delebo eos cumque iacerent in terra",
+      "citation": "Numbers 17:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dixit Moses ad Aaron tolle turibulum et hausto igne de altari mitte incensum desuper pergens cito ad populum ut roges pro eis iam enim egressa est ira a Domino et plaga desaevit",
+      "citation": "Numbers 17:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quod cum fecisset Aaron et cucurrisset ad mediam multitudinem quam iam vastabat incendium obtulit thymiama",
+      "citation": "Numbers 17:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et stans inter mortuos ac viventes pro populo deprecatus est et plaga cessavit",
+      "citation": "Numbers 17:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "fuerunt autem qui percussi sunt quattuordecim milia hominum et septingenti absque his qui perierant in seditione Core",
+      "citation": "Numbers 17:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "reversusque est Aaron ad Mosen ad ostium tabernaculi foederis postquam quievit interitus",
+      "citation": "Numbers 17:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et locutus est Dominus ad Mosen dicens",
+      "citation": "Numbers 17:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "loquere ad filios Israhel et accipe ab eis virgas singulas per cognationes suas a cunctis principibus tribuum virgas duodecim et uniuscuiusque nomen superscribes virgae suae",
+      "citation": "Numbers 17:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "nomen autem Aaron erit in tribu Levi et una virga cunctas eorum familias continebit",
+      "citation": "Numbers 17:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "ponesque eas in tabernaculo foederis coram testimonio ubi loquar ad te",
+      "citation": "Numbers 17:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quem ex his elegero germinabit virga eius et cohibebo a me querimonias filiorum Israhel quibus contra vos murmurant",
+      "citation": "Numbers 17:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "locutusque est Moses ad filios Israhel et dederunt ei omnes principes virgas per singulas tribus fueruntque virgae duodecim absque virga Aaron",
+      "citation": "Numbers 17:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quas cum posuisset Moses coram Domino in tabernaculo testimonii",
+      "citation": "Numbers 17:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "sequenti die regressus invenit germinasse virgam Aaron in domo Levi et turgentibus gemmis eruperant flores qui foliis dilatatis in amigdalas deformati sunt",
+      "citation": "Numbers 17:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "protulit ergo Moses omnes virgas de conspectu Domini ad cunctos filios Israhel videruntque et receperunt singuli virgas suas",
+      "citation": "Numbers 17:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "dixitque Dominus ad Mosen refer virgam Aaron in tabernaculum testimonii ut servetur ibi in signum rebellium filiorum et quiescant querellae eorum a me ne moriantur",
+      "citation": "Numbers 17:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "fecitque Moses sicut praeceperat Dominus",
+      "citation": "Numbers 17:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "dixerunt autem filii Israhel ad Mosen ecce consumpti sumus omnes perivimus",
+      "citation": "Numbers 17:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "quicumque accedit ad tabernaculum Domini moritur num usque ad internicionem cuncti delendi sumus",
+      "citation": "Numbers 17:28 (Clementine Vulgate)"
+    }
+  ]
+}

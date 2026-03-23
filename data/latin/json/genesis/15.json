@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 15 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 26
+    },
+    "chapter": 15,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/genesis/14.json",
+      "nextChapter": "https://latinprayer.org/latin/genesis/16.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/15.json",
+      "german": "https://latinprayer.org/bibel/genesis/15.json"
+    }
+  },
+  "citation": "Genesis 15 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "his itaque transactis factus est sermo Domini ad Abram per visionem dicens noli timere Abram ego protector tuus sum et merces tua magna nimis",
+      "citation": "Genesis 15:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dixitque Abram Domine Deus quid dabis mihi ego vadam absque liberis et filius procuratoris domus meae iste Damascus Eliezer",
+      "citation": "Genesis 15:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "addiditque Abram mihi autem non dedisti semen et ecce vernaculus meus heres meus erit",
+      "citation": "Genesis 15:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "statimque sermo Domini factus est ad eum dicens non erit hic heres tuus sed qui egredietur de utero tuo ipsum habebis heredem",
+      "citation": "Genesis 15:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "eduxitque eum foras et ait illi suspice caelum et numera stellas si potes et dixit ei sic erit semen tuum",
+      "citation": "Genesis 15:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "credidit Domino et reputatum est ei ad iustitiam",
+      "citation": "Genesis 15:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "dixitque ad eum ego Dominus qui eduxi te de Ur Chaldeorum ut darem tibi terram istam et possideres eam",
+      "citation": "Genesis 15:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "at ille ait Domine Deus unde scire possum quod possessurus sim eam",
+      "citation": "Genesis 15:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "respondens Dominus sume inquit mihi vaccam triennem et capram trimam et arietem annorum trium turturem quoque et columbam",
+      "citation": "Genesis 15:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui tollens universa haec divisit per medium et utrasque partes contra se altrinsecus posuit aves autem non divisit",
+      "citation": "Genesis 15:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "descenderuntque volucres super cadavera et abigebat eas Abram",
+      "citation": "Genesis 15:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cumque sol occumberet sopor inruit super Abram et horror magnus et tenebrosus invasit eum",
+      "citation": "Genesis 15:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "dictumque est ad eum scito praenoscens quod peregrinum futurum sit semen tuum in terra non sua et subicient eos servituti et adfligent quadringentis annis",
+      "citation": "Genesis 15:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "verumtamen gentem cui servituri sunt ego iudicabo et post haec egredientur cum magna substantia",
+      "citation": "Genesis 15:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "tu autem ibis ad patres tuos in pace sepultus in senectute bona",
+      "citation": "Genesis 15:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "generatione autem quarta revertentur huc necdum enim conpletae sunt iniquitates Amorreorum usque ad praesens tempus",
+      "citation": "Genesis 15:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "cum ergo occubuisset sol facta est caligo tenebrosa et apparuit clibanus fumans et lampas ignis transiens inter divisiones illas",
+      "citation": "Genesis 15:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "in die illo pepigit Dominus cum Abram foedus dicens semini tuo dabo terram hanc a fluvio Aegypti usque ad fluvium magnum flumen Eufraten",
+      "citation": "Genesis 15:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Cineos et Cenezeos et Cedmoneos",
+      "citation": "Genesis 15:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et Hettheos et Ferezeos Rafaim quoque",
+      "citation": "Genesis 15:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et Amorreos et Chananeos et Gergeseos et Iebuseos",
+      "citation": "Genesis 15:21 (Clementine Vulgate)"
+    }
+  ]
+}

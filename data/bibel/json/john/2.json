@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Johannes, Chapter 2 — 25 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Johannes",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 2,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/john/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/john/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/john/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/john/2.json",
+      "latin": "https://latinprayer.org/latin/john/2.json"
+    }
+  },
+  "citation": "Johannes 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Am dritten Tage darauf fand zu Kana in Galiläa eine Hochzeit statt, und die Mutter Jesu nahm daran teil;",
+      "citation": "Johannes 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "aber auch Jesus wurde mit seinen Jüngern zu der Hochzeit eingeladen.",
+      "citation": "Johannes 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Als es nun an Wein mangelte, sagte die Mutter Jesu zu ihm: »Sie haben keinen Wein (mehr)!«",
+      "citation": "Johannes 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Jesus antwortete ihr: »Was kümmern dich meine Angelegenheiten, Frau? Meine Stunde ist noch nicht gekommen.«",
+      "citation": "Johannes 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Seine Mutter sagte dann zu den Aufwärtern: »Was er euch etwa sagt, das tut.«",
+      "citation": "Johannes 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Nun waren dort sechs steinerne Wassergefäße aufgestellt, wie es die Sitte der jüdischen Reinigung erforderte; jedes von ihnen faßte zwei bis drei große Eimer.",
+      "citation": "Johannes 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da sagte Jesus zu den Aufwärtern: »Füllt die Gefäße mit Wasser!« Sie füllten sie darauf bis oben hin.",
+      "citation": "Johannes 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Dann sagte er zu ihnen: »Schöpft nun davon und bringt es dem Speisemeister!« Sie brachten es hin.",
+      "citation": "Johannes 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Als aber der Speisemeister das zu Wein gewordene Wasser gekostet hatte, ohne zu wissen, woher es gekommen war – die Aufwärter aber, die das Wasser geschöpft hatten, wußten es –, ließ der Speisemeister den Bräutigam rufen",
+      "citation": "Johannes 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "und sagte zu ihm: »Jedermann setzt doch (seinen Gästen) zuerst den guten Wein vor und, wenn sie trunken geworden sind, dann den geringeren; du aber hast den guten Wein bis jetzt zurückbehalten.«",
+      "citation": "Johannes 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Hiermit machte Jesus den Anfang seiner Zeichen zu Kana in Galiläa; er offenbarte dadurch seine (göttliche) Herrlichkeit, und seine Jünger lernten an ihn glauben.",
+      "citation": "Johannes 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Hierauf zog er nach Kapernaum hinab, er, seine Mutter, seine Brüder und seine Jünger; sie blieben dort aber nur wenige Tage;",
+      "citation": "Johannes 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "denn weil das Passah der Juden nahe bevorstand, zog Jesus nach Jerusalem hinauf.",
+      "citation": "Johannes 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Er fand dort im Tempel die Verkäufer von Rindern, Schafen und Tauben und die Geldwechsler sitzen.",
+      "citation": "Johannes 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Da flocht er sich eine Geißel aus Stricken und trieb sie alle samt ihren Schafen und Rindern aus dem Tempel hinaus, verschüttete den Wechslern das Geld und stieß ihnen die Tische um",
+      "citation": "Johannes 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "und rief den Taubenhändlern zu: »Schafft das weg von hier, macht das Haus meines Vaters nicht zu einem Kaufhaus!«",
+      "citation": "Johannes 2:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Da dachten seine Jünger an das Schriftwort: »Der Eifer um dein Haus wird mich verzehren.«",
+      "citation": "Johannes 2:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Nun richteten die Juden die Frage an ihn: »Welches Wunderzeichen läßt du uns sehen (zum Beweis dafür), daß du so vorgehen darfst?«",
+      "citation": "Johannes 2:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Jesus antwortete ihnen mit den Worten: »Brecht diesen Tempel ab, so werde ich ihn in drei Tagen wieder erstehen lassen!«",
+      "citation": "Johannes 2:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Da sagten die Juden: »Sechsundvierzig Jahre lang hat man an diesem Tempel gebaut, und du willst ihn in drei Tagen wieder erstehen lassen?«",
+      "citation": "Johannes 2:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Jesus hatte aber den Tempel seines eigenen Leibes gemeint.",
+      "citation": "Johannes 2:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Als er nun (später) von den Toten auferweckt worden war, dachten seine Jünger an diese seine Worte und kamen zum Glauben an die Schrift und an den Ausspruch, den Jesus (damals) getan hatte.",
+      "citation": "Johannes 2:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Während er sich nun am Passahfest in Jerusalem aufhielt, kamen viele zum Glauben an seinen Namen, weil sie die Wunderzeichen sahen, die er tat.",
+      "citation": "Johannes 2:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Jesus selbst aber vertraute sich ihnen nicht an, weil er alle kannte",
+      "citation": "Johannes 2:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "und von niemand ein Zeugnis über irgendeinen Menschen nötig hatte; denn er erkannte von sich selbst aus, wie es innerlich mit jedem Menschen stand.",
+      "citation": "Johannes 2:25 (Menge)"
+    }
+  ]
+}

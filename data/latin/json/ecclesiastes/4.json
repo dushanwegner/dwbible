@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiastes, Chapter 4 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiastes",
+      "slug": "ecclesiastes",
+      "testament": "OT",
+      "order": 23,
+      "totalChapters": 12
+    },
+    "chapter": 4,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiastes/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiastes/3.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiastes/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiastes/4.json",
+      "german": "https://latinprayer.org/bibel/ecclesiastes/4.json"
+    }
+  },
+  "citation": "Ecclesiastes 4 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "verti me ad alia et vidi calumnias quae sub sole geruntur et lacrimas innocentum et consolatorem neminem nec posse resistere eorum violentiae cunctorum auxilio destitutos",
+      "citation": "Ecclesiastes 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et laudavi magis mortuos quam viventes",
+      "citation": "Ecclesiastes 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et feliciorem utroque iudicavi qui necdum natus est nec vidit mala quae sub sole fiunt",
+      "citation": "Ecclesiastes 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "rursum contemplatus omnes labores hominum et industrias animadverti patere invidiae proximi et in hoc ergo vanitas et cura superflua est",
+      "citation": "Ecclesiastes 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "stultus conplicat manus suas et comedit carnes suas dicens",
+      "citation": "Ecclesiastes 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "melior est pugillus cum requie quam plena utraque manus cum labore et adflictione animi",
+      "citation": "Ecclesiastes 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "considerans repperi et aliam vanitatem sub sole",
+      "citation": "Ecclesiastes 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "unus est et secundum non habet non filium non fratrem et tamen laborare non cessat nec satiantur oculi eius divitiis nec recogitat dicens cui laboro et fraudo animam meam bonis in hoc quoque vanitas est et adflictio pessima",
+      "citation": "Ecclesiastes 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "melius ergo est duos simul esse quam unum habent enim emolumentum societatis suae",
+      "citation": "Ecclesiastes 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "si unus ceciderit ab altero fulcietur vae soli quia cum ruerit non habet sublevantem",
+      "citation": "Ecclesiastes 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et si dormierint duo fovebuntur mutuo unus quomodo calefiet",
+      "citation": "Ecclesiastes 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et si quispiam praevaluerit contra unum duo resistent ei funiculus triplex difficile rumpitur",
+      "citation": "Ecclesiastes 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "melior est puer pauper et sapiens rege sene et stulto qui nescit providere in posterum",
+      "citation": "Ecclesiastes 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quod et de carcere catenisque interdum quis egrediatur ad regnum et alius natus in regno inopia consumatur",
+      "citation": "Ecclesiastes 4:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "vidi cunctos viventes qui ambulant sub sole cum adulescente secundo qui consurgit pro eo",
+      "citation": "Ecclesiastes 4:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "infinitus numerus est populi omnium qui fuerunt ante eum et qui postea futuri sunt non laetabuntur in eo sed et hoc vanitas et adflictio spiritus",
+      "citation": "Ecclesiastes 4:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "custodi pedem tuum ingrediens domum Dei multo enim melior est oboedientia quam stultorum victimae qui nesciunt quid faciant mali",
+      "citation": "Ecclesiastes 4:17 (Clementine Vulgate)"
+    }
+  ]
+}

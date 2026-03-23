@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John, Chapter 2 — 25 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 2,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/john/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/john/1.json",
+      "nextChapter": "https://latinprayer.org/bible/john/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/john/2.json",
+      "german": "https://latinprayer.org/bibel/john/2.json"
+    }
+  },
+  "citation": "John 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the third day, there was a marriage in Cana of Galilee: and the mother of Jesus was there.",
+      "citation": "John 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And Jesus also was invited, and his disciples, to the marriage.",
+      "citation": "John 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And the wine failing, the mother of Jesus saith to him: They have no wine.",
+      "citation": "John 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And Jesus saith to her: Woman, what is that to me and to thee? My hour is not yet come.",
+      "citation": "John 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "His mother saith to the waiters: Whatsoever he shall say to you, do ye.",
+      "citation": "John 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Now there were set there six waterpots of stone, according to the manner of the purifying of the Jews, containing two or three measures apiece.",
+      "citation": "John 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Jesus saith to them: Fill the waterpots with water. And they filled them up to the brim.",
+      "citation": "John 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And Jesus saith to them: Draw out now and carry to the chief steward of the feast. And they carried it.",
+      "citation": "John 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And when the chief steward had tasted the water made wine and knew not whence it was, but the waiters knew who had drawn the water: the chief steward calleth the bridegroom,",
+      "citation": "John 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And saith to him: Every man at first setteth forth good wine, and when men have well drunk, then that which is worse.  But thou hast kept the good wine until now.",
+      "citation": "John 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "This beginning of miracles did Jesus in Cana of Galilee and manifested his glory. And his disciples believed in him.",
+      "citation": "John 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "After this, he went down to Capharnaum, he and his mother and his brethren and his disciples: and they remained there not many days.",
+      "citation": "John 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the pasch of the Jews was at hand: and Jesus went up to Jerusalem.",
+      "citation": "John 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And he found in the temple them that sold oxen and sheep and doves, and the changers of money sitting.",
+      "citation": "John 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And when he had made, as it were, a scourge of little cords, he drove them all out of the temple, the sheep also and the oxen: and the money of the changers he poured out, and the tables he overthrew.",
+      "citation": "John 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And to them that sold doves he said: Take these things hence, and make not the house of my Father a house of traffic.",
+      "citation": "John 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And his disciples remembered, that it was written: The zeal of thy house hath eaten me up.",
+      "citation": "John 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The Jews, therefore, answered, and said to him: What sign dost thou shew unto us, seeing thou dost these things?",
+      "citation": "John 2:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Jesus answered and said to them: Destroy this temple; and in three days I will raise it up.",
+      "citation": "John 2:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The Jews then said: Six and forty years was this temple in building; and wilt thou raise it up in three days?",
+      "citation": "John 2:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "But he spoke of the temple of his body.",
+      "citation": "John 2:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "When therefore he was risen again from the dead, his disciples remembered that he had said this: and they believed the scripture and the word that Jesus had said.",
+      "citation": "John 2:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Now when he was at Jerusalem, at the pasch, upon the festival day, many believed in his name, seeing his signs which he did.",
+      "citation": "John 2:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "But Jesus did not trust himself unto them: for that he knew all men,",
+      "citation": "John 2:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And because he needed not that any should give testimony of man: for he knew what was in man.",
+      "citation": "John 2:25 (Douay-Rheims)"
+    }
+  ]
+}

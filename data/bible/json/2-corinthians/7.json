@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Corinthians, Chapter 7 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "chapter": 7,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-corinthians/6.json",
+      "nextChapter": "https://latinprayer.org/bible/2-corinthians/8.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-corinthians/7.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/7.json"
+    }
+  },
+  "citation": "2. Corinthians 7 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Having therefore these promises, dearly beloved, let us cleanse ourselves from all defilement of the flesh and of the spirit, perfecting sanctification in the fear of God.",
+      "citation": "2. Corinthians 7:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Receive us. We have injured no man: we have corrupted no man: we have overreached no man.",
+      "citation": "2. Corinthians 7:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "I speak not this to your condemnation. For we have said before that you are in our hearts: to die together and to live together.",
+      "citation": "2. Corinthians 7:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Great is my confidence for you: great is my glorying for you.  I am filled with comfort: I exceedingly abound with joy in all our tribulation.",
+      "citation": "2. Corinthians 7:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For also, when we were come into Macedonia, our flesh had no rest: but we suffered all tribulation. Combats without: fears within.",
+      "citation": "2. Corinthians 7:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But God, who comforteth the humble, comforted us by the coming of Titus.",
+      "citation": "2. Corinthians 7:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And not by his coming only, but also by the consolation wherewith he was comforted in you, relating to us your desire, your mourning, your zeal for me: so that I rejoiced the more.",
+      "citation": "2. Corinthians 7:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For although I made you sorrowful by my epistle, I do not repent. And if I did repent, seeing that the same epistle (although but for a time) did make you sorrowful,",
+      "citation": "2. Corinthians 7:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Now I am glad: not because you were made sorrowful, but because you were made sorrowful unto penance. For you were made sorrowful according to God, that you might suffer damage by us in nothing.",
+      "citation": "2. Corinthians 7:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For the sorrow that is according to God worketh penance, steadfast unto salvation: but the sorrow of the world worketh death.",
+      "citation": "2. Corinthians 7:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For behold this selfsame thing, that you were made sorrowful according to God, how great carefulness it worketh in you: yea defence, yea indignation, yea fear, yea desire, yea zeal, yea revenge. In all things you have shewed yourselves to be undefiled in the matter.",
+      "citation": "2. Corinthians 7:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Wherefore although I wrote to you, it was not for his sake that did the wrong, nor for him that suffered it: but to manifest our carefulness that we have for you.",
+      "citation": "2. Corinthians 7:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Before God: therefore we were comforted. But in our consolation we did the more abundantly rejoice for the joy of Titus, because his spirit was refreshed by you all.",
+      "citation": "2. Corinthians 7:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And if I have boasted any thing to him of you, I have not been put to shame: but as we have spoken all things to you in truth, so also our boasting that was made to Titus is found a truth.",
+      "citation": "2. Corinthians 7:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And his bowels are more abundantly towards you: remembering the obedience of you all, how with fear and trembling you received him.",
+      "citation": "2. Corinthians 7:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "I rejoice that in all things I have confidence in you.",
+      "citation": "2. Corinthians 7:16 (Douay-Rheims)"
+    }
+  ]
+}

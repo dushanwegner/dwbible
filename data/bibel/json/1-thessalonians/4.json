@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Thessalonicher, Chapter 4 — 18 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Thessalonicher",
+      "slug": "1-thessalonians",
+      "testament": "NT",
+      "order": 59,
+      "totalChapters": 5
+    },
+    "chapter": 4,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-thessalonians/3.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-thessalonians/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-thessalonians/4.json",
+      "latin": "https://latinprayer.org/latin/1-thessalonians/4.json"
+    }
+  },
+  "citation": "1 Thessalonicher 4 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Weiter nun, liebe Brüder, bitten und ermahnen wir euch in dem Herrn Jesus, daß ihr ganz so, wie ihr es von uns vernommen habt, auf welche Weise ihr wandeln und zu Gottes Wohlgefallen leben müßt, – ihr wandelt ja auch wirklich so –, daß ihr darin immer noch zunehmet;",
+      "citation": "1 Thessalonicher 4:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "ihr wißt ja, welche Weisungen wir euch im Auftrag des Herrn Jesus gegeben haben.",
+      "citation": "1 Thessalonicher 4:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn das ist der Wille Gottes, eure Heiligung, daß ihr die Unzucht meidet,",
+      "citation": "1 Thessalonicher 4:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "daß ein jeder von euch wisse, sein eigenes Gefäß sich zu erwerben in Heiligkeit und Ehrbarkeit,",
+      "citation": "1 Thessalonicher 4:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "nicht in leidenschaftlicher Begierde wie die Heiden, die Gott nicht kennen,",
+      "citation": "1 Thessalonicher 4:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "daß niemand sich Übergriffe zuschulden kommen lasse und in Geschäften seinen Bruder übervorteile; denn ein Rächer ist der Herr über alle solche Verfehlungen, wie wir es euch schon früher gesagt und nachdrücklich bezeugt haben;",
+      "citation": "1 Thessalonicher 4:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Gott hat uns ja nicht zur Unsittlichkeit berufen, sondern zur Heiligung.",
+      "citation": "1 Thessalonicher 4:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Mithin wer (diese Weisungen) mißachtet, der mißachtet damit nicht einen Menschen, sondern Gott, denselben, der euch auch seinen heiligen Geist ins Herz gibt.",
+      "citation": "1 Thessalonicher 4:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Was sodann die Bruderliebe betrifft, so brauchen wir euch über diese nicht brieflich zu unterweisen, denn ihr seid selber von Gott gelehrt worden, einander zu lieben,",
+      "citation": "1 Thessalonicher 4:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "und ihr beweist das auch durch die Tat an allen Brüdern in ganz Mazedonien. Doch ermahnen wir euch, liebe Brüder, darin noch vollkommener zu werden",
+      "citation": "1 Thessalonicher 4:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "und eure Ehre darin zu suchen, daß ihr ein ruhiges Leben führt, euren eigenen Geschäften nachgeht und euch euer Brot mit eurer Hände Arbeit verdient. So haben wir es euch geboten,",
+      "citation": "1 Thessalonicher 4:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "damit ihr im Verkehr mit den Draußenstehenden einen ehrbaren Wandel führt und niemandes Unterstützung nötig habt.",
+      "citation": "1 Thessalonicher 4:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wir wollen euch aber, liebe Brüder, über die Entschlafenen nicht im unklaren lassen, damit ihr nicht betrübt zu sein braucht wie die anderen, die keine Hoffnung haben.",
+      "citation": "1 Thessalonicher 4:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Denn so gewiß wir glauben, daß Jesus gestorben und auferstanden ist, ebenso gewiß wird Gott auch die Entschlafenen durch Jesus mit ihm zusammen (den gleichen Weg) führen.",
+      "citation": "1 Thessalonicher 4:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Denn das sagen wir euch aufgrund eines Wortes des Herrn: Wir, die wir leben, die wir bis zur Ankunft des Herrn übrigbleiben, werden vor den Entschlafenen nichts voraushaben.",
+      "citation": "1 Thessalonicher 4:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Denn der Herr selbst wird, sobald sein Weckruf ergeht, sobald die Stimme des Engelfürsten erschallt und die Posaune Gottes ertönt, vom Himmel herabkommen, und die Toten in Christus werden zuerst auferstehen;",
+      "citation": "1 Thessalonicher 4:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "darauf werden wir, die wir noch leben und übriggeblieben sind, zusammen mit ihnen auf Wolken dem Herrn entgegen in die Luft entrückt werden; und alsdann werden wir allezeit mit dem Herrn vereinigt sein.",
+      "citation": "1 Thessalonicher 4:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "So tröstet euch also untereinander mit diesen Worten!",
+      "citation": "1 Thessalonicher 4:18 (Menge)"
+    }
+  ]
+}

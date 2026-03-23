@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Kolosser, Chapter 2 — 23 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Kolosser",
+      "slug": "colossians",
+      "testament": "NT",
+      "order": 58,
+      "totalChapters": 4
+    },
+    "chapter": 2,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/colossians/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/colossians/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/colossians/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/colossians/2.json",
+      "latin": "https://latinprayer.org/latin/colossians/2.json"
+    }
+  },
+  "citation": "Kolosser 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Ich will euch nämlich wissen lassen, welch schweren Kampf ich für euch und die (Brüder) in Laodizea sowie (überhaupt) für alle, denen ich bis jetzt persönlich noch unbekannt geblieben bin, zu bestehen habe.",
+      "citation": "Kolosser 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Ihre Herzen sollen dadurch ermutigt werden, nachdem sie sich in Liebe fest zusammengeschlossen haben und in den ganzen Reichtum des vollen Verständnisses (eingeführt werden), zur Erkenntnis des Geheimnisses Gottes.",
+      "citation": "Kolosser 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dieses (Geheimnis) ist Christus, in welchem alle Schätze der Weisheit und Erkenntnis verborgen liegen.",
+      "citation": "Kolosser 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ich sage dies aber, damit niemand euch durch Überredungskünste täusche.",
+      "citation": "Kolosser 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn wenn ich auch leiblich abwesend bin, so bin ich doch dem Geist nach bei euch gegenwärtig und sehe mit Freuden eure festgeschlossene Kampfstellung und das gesicherte Bollwerk eures Glaubens an Christus.",
+      "citation": "Kolosser 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Wie ihr nun den Herrn Christus Jesus angenommen habt, so wandelt nun auch in ihm:",
+      "citation": "Kolosser 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "bleibt in ihm festgewurzelt und baut euch in ihm auf und werdet fest im Glauben, wie ihr unterwiesen worden seid, und laßt es an reichlicher Danksagung nicht fehlen.",
+      "citation": "Kolosser 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Gebt wohl acht, daß niemand euch einfängt durch die Philosophie und eitle Täuschung, die sich auf menschliche Überlieferung, auf die Elemente der Welt, gründet und mit Christus nichts zu tun hat.",
+      "citation": "Kolosser 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Denn in ihm wohnt die ganze Fülle der Gottheit leibhaftig,",
+      "citation": "Kolosser 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "und ihr besitzt die ganze Fülle in ihm, der das Haupt jeder Herrschaft und Gewalt ist.",
+      "citation": "Kolosser 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "In ihm habt ihr auch die Beschneidung empfangen, nämlich eine solche, die nicht mit Händen vollzogen ist, nein, die in der Ablegung des Fleischesleibes besteht: die Beschneidung Christi,",
+      "citation": "Kolosser 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "da ihr in der Taufe mit ihm zusammen begraben worden seid. In ihm seid ihr auch mitauferweckt worden durch den Glauben an die Kraftwirkung Gottes, der ihn aus den Toten auferweckt hat.",
+      "citation": "Kolosser 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Auch euch, die ihr durch eure Übertretungen und den unbeschnittenen Zustand eures Fleisches (einst) tot waret, auch euch hat Gott zusammen mit ihm lebendig gemacht, indem er uns alle Übertretungen aus Gnaden vergeben hat,",
+      "citation": "Kolosser 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "dadurch, daß er den durch seine Satzungen gegen uns lautenden Schuldschein, der für unser Heil ein Hindernis bildete, ausgelöscht und ihn weggeschafft hat, indem er ihn ans Kreuz heftete.",
+      "citation": "Kolosser 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Nachdem er dann die Mächte und die Gewalten völlig entwaffnet hatte, stellte er sie öffentlich zur Schau und triumphierte in ihm über sie.",
+      "citation": "Kolosser 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Darum soll niemand um Speisen und Getränke willen oder in bezug auf Fest- oder Neumondsfeier oder Sabbate absprechende Urteile über euch abgeben;",
+      "citation": "Kolosser 2:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "diese Dinge sind ja doch nur der Schatten von dem in der Zukunft Kommenden; das leibhaftige Wesen dagegen gehört Christus an.",
+      "citation": "Kolosser 2:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Niemand soll euch verurteilen, indem er sich in demutsvollem Wesen und in Verehrung der Engel gefällt, sich mit Gesichten brüstet, ohne Grund von seinem fleischlichen Sinn aufgeblasen ist",
+      "citation": "Kolosser 2:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "und sich nicht an das Haupt hält, von dem aus der ganze Leib durch die Gelenke und Bänder unterstützt und zusammengehalten wird und so ein gottgeordnetes Wachstum vollzieht.",
+      "citation": "Kolosser 2:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Wenn ihr mit Christus gestorben seid, los von den Elementen der Welt, was laßt ihr euch da, als ob ihr noch in der Welt lebtet, Satzungen aufbürden,",
+      "citation": "Kolosser 2:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "z.B.: »Das darfst du nicht anfassen und das nicht essen und das nicht anrühren«? –",
+      "citation": "Kolosser 2:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Alles Derartige ist doch dazu bestimmt, durch den Verbrauch der Vernichtung anheimzufallen, und stellt (nur) Menschengebote und Menschenlehren dar,",
+      "citation": "Kolosser 2:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "die zwar im Ruf besonderer Weisheit infolge einer selbsterwählten Frömmigkeit und Demut und schonungsloser Härte gegen den Körper stehen, aber ohne wirklichen Wert sind, indem sie nur zur Befriedigung des Fleisches dienen.",
+      "citation": "Kolosser 2:23 (Menge)"
+    }
+  ]
+}

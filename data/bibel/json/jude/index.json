@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judas — 1 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judas",
+      "slug": "jude",
+      "testament": "NT",
+      "order": 72,
+      "totalChapters": 1
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jude/index.json",
+      "latin": "https://latinprayer.org/latin/jude/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/bibel/jude/1",
+      "jsonUrl": "https://latinprayer.org/bibel/jude/1.json"
+    }
+  ]
+}

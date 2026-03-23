@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 30 — 13 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 30,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/29.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/31.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/30.json",
+      "latin": "https://latinprayer.org/latin/psalms/30.json"
+    }
+  },
+  "citation": "Psalmen 30 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "*Ein Psalm, ein Lied zur Tempelweihe*<em>, von David.</em>",
+      "citation": "Psalmen 30:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Ich will dich erheben, o HERR, denn du hast aus der Tiefe mich gezogen und meinen Feinden die Freude über mich vereitelt.",
+      "citation": "Psalmen 30:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "O HERR, mein Gott, ich schrie zu dir (um Hilfe), da hast du mir Heilung geschafft.",
+      "citation": "Psalmen 30:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "O HERR, du hast meine Seele aus dem Totenreich heraufgeführt, hast mich am Leben erhalten, so daß ich nicht ins Grab bin gesunken.",
+      "citation": "Psalmen 30:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Lobsinget dem HERRN, ihr seine Frommen, und preist seinen heiligen Namen!",
+      "citation": "Psalmen 30:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Denn sein Zorn währt nur einen Augenblick, doch lebenslang seine Gnade: am Abend kehrt Weinen als Gast ein, doch am Morgen herrscht Jubel.",
+      "citation": "Psalmen 30:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ich aber dachte in meiner Sicherheit: »Ich werde nimmermehr wanken!«",
+      "citation": "Psalmen 30:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "O HERR, nach deiner Gnade hattest du fest meinen Berg gegründet; dann aber verbargst du dein Antlitz, und ich erschrak.",
+      "citation": "Psalmen 30:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Da rief ich zu dir, o HERR, und flehte zu meinem Gott:",
+      "citation": "Psalmen 30:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "»Was hast du für Gewinn von meinem Blut, wenn zur Gruft ich fahre? Kann der Staub dich preisen und deine Treue verkünden?",
+      "citation": "Psalmen 30:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "O höre mich, HERR, und erbarme dich mein, sei du, o HERR, ein Helfer!«",
+      "citation": "Psalmen 30:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Du hast mir meine Klage in Reigentanz verwandelt, das Trauerkleid mir gelöst und mit Freude mich gegürtet,",
+      "citation": "Psalmen 30:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "auf daß dir meine Seele lobsinge und nicht schweige: o HERR, mein Gott, in Ewigkeit will ich dir danken!",
+      "citation": "Psalmen 30:13 (Menge)"
+    }
+  ]
+}

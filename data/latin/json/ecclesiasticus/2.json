@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 2 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 2,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/1.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/2.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/2.json"
+    }
+  },
+  "citation": "Sirach 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "fili accedens servituti Dei sta in iustitia et timore et praepara animam tuam ad temptationem",
+      "citation": "Sirach 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "deprime cor tuum et sustine declina aurem et excipe verba intellectus et ne festines in tempus obductionis",
+      "citation": "Sirach 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "sustine sustentationes Dei coniungere Deo et sustine ut crescat in novissimo vita tua",
+      "citation": "Sirach 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "omne quod tibi adplicitum fuerit accipe et in dolore sustine et in humilitate tua habe patientiam",
+      "citation": "Sirach 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quoniam in igne probatur aurum et argentum homines vero receptibiles in camino humiliationis",
+      "citation": "Sirach 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "crede Deo et recuperabit te et dirige viam tuam et spera in illum serva timorem illius et in illo veteresce",
+      "citation": "Sirach 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "metuentes Deum sustinete misericordiam eius et non deflectatis ab illo ne cadatis",
+      "citation": "Sirach 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "qui timetis Deum credite illi et non evacuabitur merces vestra",
+      "citation": "Sirach 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "qui timetis Deum sperate in illum et in oblectatione veniet vobis misericordia",
+      "citation": "Sirach 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui timetis Deum diligite illum et inluminabuntur corda vestra",
+      "citation": "Sirach 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "respicite filii nationes hominum et scitote quis speravit in Dominum et confusus est",
+      "citation": "Sirach 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "permansit in mandatis eius et derelictus est et quis invocavit illum et despexit illum",
+      "citation": "Sirach 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quoniam pius et misericors Deus et remittit in tempore tribulationis peccata omnibus exquirentibus se in veritate",
+      "citation": "Sirach 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "vae duplici corde et labiis scelestis et manibus malefacientibus et peccatori terram ingredienti duabus viis",
+      "citation": "Sirach 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "vae dissolutis corde qui non credunt Deo ideo non protegentur ab eo",
+      "citation": "Sirach 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "vae his qui perdiderunt sustinentiam qui dereliquerunt vias rectas et deverterunt in vias pravas",
+      "citation": "Sirach 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et quid facietis cum inspicere coeperit Deus",
+      "citation": "Sirach 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "qui timent Dominum non erunt incredibiles verbo illius et qui diligunt illum conservabunt viam illius",
+      "citation": "Sirach 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "qui timent Dominum inquirent quae beneplacita sunt illi et qui diligunt eum replebuntur lege ipsius",
+      "citation": "Sirach 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "qui timent Dominum parabunt corda sua et in conspectu illius sanctificabunt animas suas",
+      "citation": "Sirach 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "qui timent Dominum custodiunt mandata illius et patientiam habebunt usque ad inspectionem illius",
+      "citation": "Sirach 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "dicentes si paenitentiam non egerimus incidemus in Dei manus et non in manus hominum",
+      "citation": "Sirach 2:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "secundum enim magnitudinem illius sic et misericordia ipsius cum ipso",
+      "citation": "Sirach 2:23 (Clementine Vulgate)"
+    }
+  ]
+}

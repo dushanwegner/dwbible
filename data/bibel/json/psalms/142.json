@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 142 — 8 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 142,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/141.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/143.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/142.json",
+      "latin": "https://latinprayer.org/latin/psalms/142.json"
+    }
+  },
+  "citation": "Psalmen 142 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Lehrgedicht</em> <em>Davids, als er sich in der Höhle befand</em>, <em>ein Gebet.</em>",
+      "citation": "Psalmen 142:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Laut schrei’ ich zum HERRN, laut fleh’ ich zum HERRN,",
+      "citation": "Psalmen 142:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "ich schütte meine Klage vor ihm aus, tue kund vor ihm meine Not.",
+      "citation": "Psalmen 142:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wenn mein Geist in mir verschmachtet, du kennst doch meinen Lebenspfad. Auf dem Wege, den ich wandeln will, hat man mir heimlich ein Fangnetz ausgespannt.",
+      "citation": "Psalmen 142:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Blick’ ich nach rechts und halte Umschau: ach, da ist keiner, der mich versteht! Verschlossen ist mir jede Zuflucht: niemand fragt nach mir!",
+      "citation": "Psalmen 142:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ich schreie, HERR, zu dir, ich sage: »Du bist meine Zuflucht, mein Anteil im Lande der Lebenden!«",
+      "citation": "Psalmen 142:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ach, merk’ auf mein Flehn, denn ich bin gar schwach geworden! Rette mich vor meinen Verfolgern, denn sie sind mir zu stark!",
+      "citation": "Psalmen 142:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Führe mich aus der Umkreisung hinaus, damit ich deinen Namen preise! Die Gerechten werden bei mir erwarten, daß du mir wohltust.",
+      "citation": "Psalmen 142:8 (Menge)"
+    }
+  ]
+}

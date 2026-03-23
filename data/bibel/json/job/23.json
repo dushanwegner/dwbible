@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hiob, Chapter 23 — 17 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hiob",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 23,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/job/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/job/22.json",
+      "nextChapter": "https://latinprayer.org/bibel/job/24.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/23.json",
+      "latin": "https://latinprayer.org/latin/job/23.json"
+    }
+  },
+  "citation": "Hiob 23 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da antwortete Hiob folgendermaßen:",
+      "citation": "Hiob 23:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Auch jetzt noch gilt meine Klage euch als Trotz: schwer lastet seine Hand auf meinem Seufzen.",
+      "citation": "Hiob 23:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "O daß ich ihn zu finden wüßte, daß ich gelangen könnte bis zu seiner Wohnstätte!",
+      "citation": "Hiob 23:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ich wollte meine Sache vor ihm darlegen und meinen Mund mit Beweisgründen füllen;",
+      "citation": "Hiob 23:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "ich erführe dann, was er mir entgegnete, und würde vernehmen, was er mir zu sagen hat.",
+      "citation": "Hiob 23:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Würde er dann wohl mit der ganzen Fülle seiner Macht mit mir streiten? Nein, nur seine Aufmerksamkeit würde er mir zuwenden.",
+      "citation": "Hiob 23:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da würde sich dann ein Rechtschaffener vor ihm verantworten, und für immer würde ich von meinem Richter freikommen.",
+      "citation": "Hiob 23:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Doch ach! Gehe ich nach Osten, so ist er nicht da, und gehe ich nach Westen, so gewahre ich ihn nicht;",
+      "citation": "Hiob 23:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "wirkt er im Norden, so erblicke ich ihn nicht, biegt er nach Süden ab, so sehe ich ihn nicht.",
+      "citation": "Hiob 23:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Er kennt ja doch den von mir eingehaltenen Weg, und prüfte er mich – wie Gold aus der Schmelze würde ich hervorgehen!",
+      "citation": "Hiob 23:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Denn an seine Spur hat mein Fuß sich angeschlossen; den von ihm gewiesenen Weg habe ich eingehalten, ohne davon abzuweichen;",
+      "citation": "Hiob 23:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "von dem Gebot seiner Lippen bin ich nicht abgegangen: in meinem Busen habe ich die Weisungen seines Mundes geborgen.",
+      "citation": "Hiob 23:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Doch er bleibt sich immer gleich – wer kann ihm wehren? und was sein Sinn einmal will, das führt er auch aus.",
+      "citation": "Hiob 23:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "So wird er denn auch vollführen, was er mir bestimmt hat, und dergleichen hat er noch vieles im Sinn.",
+      "citation": "Hiob 23:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Darum bebe ich vor seinem Anblick: überdenke ich’s, so graut mir vor ihm!",
+      "citation": "Hiob 23:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Ja, Gott hat mein Herz verzagt gemacht und der Allmächtige mich mit Angst erfüllt;",
+      "citation": "Hiob 23:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "denn nicht wegen Finsternis fühle ich mich vernichtet und nicht wegen meiner Person, die er mit Dunkel umhüllt hat.«",
+      "citation": "Hiob 23:17 (Menge)"
+    }
+  ]
+}

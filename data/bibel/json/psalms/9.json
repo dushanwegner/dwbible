@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 9 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 9,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/8.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/9.json",
+      "latin": "https://latinprayer.org/latin/psalms/9.json"
+    }
+  },
+  "citation": "Psalmen 9 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, nach (der Singweise = Melodie) »stirb für den Sohn!«; ein Psalm von David.</em>",
+      "citation": "Psalmen 9:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Preisen will ich den HERRN von ganzem Herzen, verkünden all deine Wundertaten,",
+      "citation": "Psalmen 9:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "ich will deiner mich freun und frohlocken, will lobsingen deinem Namen, du Höchster,",
+      "citation": "Psalmen 9:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "weil meine Feinde haben rückwärts weichen müssen: sie sind gestrauchelt und umgekommen vor dir.",
+      "citation": "Psalmen 9:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn du hast mein Recht und meine Sache geführt, hast auf dem Throne gesessen als gerechter Richter;",
+      "citation": "Psalmen 9:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "du hast die Heiden bedroht, die Frevler vernichtet, ihren Namen ausgelöscht für immer und ewig:",
+      "citation": "Psalmen 9:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Der Feind ist dahin, zertrümmert für immer; auch Städte hast du zerstört, ihr Gedächtnis ist untergegangen.",
+      "citation": "Psalmen 9:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Der HERR aber thront in Ewigkeit; zum Gericht hat er aufgestellt seinen Stuhl;",
+      "citation": "Psalmen 9:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "und er, er richtet den Erdkreis mit Gerechtigkeit, spricht das Urteil den Völkern nach Gebühr.",
+      "citation": "Psalmen 9:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "So ist denn der HERR eine Burg den Bedrückten, eine Burg für die Zeiten der Drangsal.",
+      "citation": "Psalmen 9:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Drum vertrauen auf dich, die deinen Namen kennen; denn du läßt nicht von denen, die dich, HERR, suchen.",
+      "citation": "Psalmen 9:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Lobsinget dem HERRN, der auf Zion thront, verkündet unter den Völkern seine Taten!",
+      "citation": "Psalmen 9:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Denn als Rächer der Blutschuld hat er ihrer gedacht, hat das Schreien der Elenden nicht vergessen.",
+      "citation": "Psalmen 9:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Sei mir gnädig, o HERR, sieh an, was ich leide durch meine Feinde! Du bist’s, der den Pforten des Todes mich entreißt,",
+      "citation": "Psalmen 9:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "auf daß ich verkünde alle deine Ruhmestaten, in den Toren der Tochter Zion ob deiner Hilfe juble!",
+      "citation": "Psalmen 9:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Versunken sind die Heiden in die Grube, die sie gegraben, im Netz, das sie heimlich gestellt, hat ihr eigner Fuß sich verstrickt.",
+      "citation": "Psalmen 9:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Kundgetan hat sich der HERR, hat Gericht gehalten: durch das Eingreifen seiner Hände ist der Frevler gefangen. SAITENSPIEL. SELA.",
+      "citation": "Psalmen 9:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Die Frevler fahren zur Unterwelt hinab, alle Heidenvölker, die Gottes vergessen;",
+      "citation": "Psalmen 9:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "denn nicht auf ewig bleibt der Arme vergessen, und der Elenden Hoffnung geht nicht für immer verloren.",
+      "citation": "Psalmen 9:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Steh auf, o HERR! Laß Menschen nicht trotzig schalten, laß die Heiden gerichtet werden vor dir!",
+      "citation": "Psalmen 9:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Lege doch, HERR, einen Schrecken auf sie! Laß die Heiden erkennen, daß Menschen sie sind! SELA.",
+      "citation": "Psalmen 9:21 (Menge)"
+    }
+  ]
+}

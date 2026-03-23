@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Zechariah, Chapter 5 — 11 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Zechariah",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 5,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/zacharias/4.json",
+      "nextChapter": "https://latinprayer.org/latin/zacharias/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/zacharias/5.json",
+      "german": "https://latinprayer.org/bibel/zacharias/5.json"
+    }
+  },
+  "citation": "Zechariah 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et conversus sum et levavi oculos meos et vidi et ecce volumen volans",
+      "citation": "Zechariah 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et dixit ad me quid tu vides et dixi ego video volumen volans longitudo eius viginti cubitorum et latitudo eius decem cubitorum",
+      "citation": "Zechariah 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dixit ad me haec est maledictio quae egreditur super faciem omnis terrae quia omnis fur sicut ibi scriptum est iudicabitur et omnis iurans ex hoc similiter iudicabitur",
+      "citation": "Zechariah 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "educam illud dicit Dominus exercituum et veniet ad domum furis et ad domum iurantis in nomine meo mendaciter et commorabitur in medio domus eius et consumet eam et ligna eius et lapides eius",
+      "citation": "Zechariah 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et egressus est angelus qui loquebatur in me et dixit ad me leva oculos tuos et vide quid est hoc quod egreditur",
+      "citation": "Zechariah 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et dixi quidnam est et ait haec est amphora egrediens et dixit haec est oculus eorum in universa terra",
+      "citation": "Zechariah 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et ecce talentum plumbi portabatur et ecce mulier una sedens in medio amphorae",
+      "citation": "Zechariah 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et dixit haec est impietas et proiecit eam in medio amphorae et misit massam plumbeam in os eius",
+      "citation": "Zechariah 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et levavi oculos meos et vidi et ecce duae mulieres egredientes et spiritus in alis earum et habebant alas quasi alas milvi et levaverunt amphoram inter terram et caelum",
+      "citation": "Zechariah 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et dixi ad angelum qui loquebatur in me quo istae deferunt amphoram",
+      "citation": "Zechariah 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dixit ad me ut aedificetur ei domus in terra Sennaar et stabiliatur et ponatur ibi super basem suam",
+      "citation": "Zechariah 5:11 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John, Chapter 14 — 31 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 14,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/john/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/john/13.json",
+      "nextChapter": "https://latinprayer.org/latin/john/15.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/john/14.json",
+      "german": "https://latinprayer.org/bibel/john/14.json"
+    }
+  },
+  "citation": "John 14 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "non turbetur cor vestrum creditis in Deum et in me credite",
+      "citation": "John 14:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in domo Patris mei mansiones multae sunt si quo minus dixissem vobis quia vado parare vobis locum",
+      "citation": "John 14:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et si abiero et praeparavero vobis locum iterum venio et accipiam vos ad me ipsum ut ubi sum ego et vos sitis",
+      "citation": "John 14:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et quo ego vado scitis et viam scitis",
+      "citation": "John 14:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "dicit ei Thomas Domine nescimus quo vadis et quomodo possumus viam scire",
+      "citation": "John 14:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dicit ei Iesus ego sum via et veritas et vita nemo venit ad Patrem nisi per me",
+      "citation": "John 14:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "si cognovissetis me et Patrem meum utique cognovissetis et amodo cognoscitis eum et vidistis eum",
+      "citation": "John 14:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dicit ei Philippus Domine ostende nobis Patrem et sufficit nobis",
+      "citation": "John 14:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dicit ei Iesus tanto tempore vobiscum sum et non cognovistis me Philippe qui vidit me vidit et Patrem quomodo tu dicis ostende nobis Patrem",
+      "citation": "John 14:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "non credis quia ego in Patre et Pater in me est verba quae ego loquor vobis a me ipso non loquor Pater autem in me manens ipse facit opera",
+      "citation": "John 14:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "non creditis quia ego in Patre et Pater in me est",
+      "citation": "John 14:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "alioquin propter opera ipsa credite amen amen dico vobis qui credit in me opera quae ego facio et ipse faciet et maiora horum faciet quia ego ad Patrem vado",
+      "citation": "John 14:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et quodcumque petieritis in nomine meo hoc faciam ut glorificetur Pater in Filio",
+      "citation": "John 14:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "si quid petieritis me in nomine meo hoc faciam",
+      "citation": "John 14:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "si diligitis me mandata mea servate",
+      "citation": "John 14:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et ego rogabo Patrem et alium paracletum dabit vobis ut maneat vobiscum in aeternum",
+      "citation": "John 14:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Spiritum veritatis quem mundus non potest accipere quia non videt eum nec scit eum vos autem cognoscitis eum quia apud vos manebit et in vobis erit",
+      "citation": "John 14:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "non relinquam vos orfanos veniam ad vos",
+      "citation": "John 14:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "adhuc modicum et mundus me iam non videt vos autem videtis me quia ego vivo et vos vivetis",
+      "citation": "John 14:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in illo die vos cognoscetis quia ego sum in Patre meo et vos in me et ego in vobis",
+      "citation": "John 14:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "qui habet mandata mea et servat ea ille est qui diligit me qui autem diligit me diligetur a Patre meo et ego diligam eum et manifestabo ei me ipsum",
+      "citation": "John 14:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "dicit ei Iudas non ille Scariotis Domine quid factum est quia nobis manifestaturus es te ipsum et non mundo",
+      "citation": "John 14:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "respondit Iesus et dixit ei si quis diligit me sermonem meum servabit et Pater meus diliget eum et ad eum veniemus et mansiones apud eum faciemus",
+      "citation": "John 14:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "qui non diligit me sermones meos non servat et sermonem quem audistis non est meus sed eius qui misit me Patris",
+      "citation": "John 14:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "haec locutus sum vobis apud vos manens",
+      "citation": "John 14:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "paracletus autem Spiritus Sanctus quem mittet Pater in nomine meo ille vos docebit omnia et suggeret vobis omnia quaecumque dixero vobis",
+      "citation": "John 14:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "pacem relinquo vobis pacem meam do vobis non quomodo mundus dat ego do vobis non turbetur cor vestrum neque formidet",
+      "citation": "John 14:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "audistis quia ego dixi vobis vado et venio ad vos si diligeretis me gauderetis utique quia vado ad Patrem quia Pater maior me est",
+      "citation": "John 14:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et nunc dixi vobis priusquam fiat ut cum factum fuerit credatis",
+      "citation": "John 14:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "iam non multa loquar vobiscum venit enim princeps mundi huius et in me non habet quicquam",
+      "citation": "John 14:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "sed ut cognoscat mundus quia diligo Patrem et sicut mandatum dedit mihi Pater sic facio surgite eamus hinc",
+      "citation": "John 14:31 (Clementine Vulgate)"
+    }
+  ]
+}

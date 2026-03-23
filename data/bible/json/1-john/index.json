@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. John — 5 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. John",
+      "slug": "1-john",
+      "testament": "NT",
+      "order": 69,
+      "totalChapters": 5
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-john/index.json",
+      "german": "https://latinprayer.org/bibel/1-john/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 10,
+      "url": "https://latinprayer.org/bible/1-john/1",
+      "jsonUrl": "https://latinprayer.org/bible/1-john/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bible/1-john/2",
+      "jsonUrl": "https://latinprayer.org/bible/1-john/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/bible/1-john/3",
+      "jsonUrl": "https://latinprayer.org/bible/1-john/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bible/1-john/4",
+      "jsonUrl": "https://latinprayer.org/bible/1-john/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bible/1-john/5",
+      "jsonUrl": "https://latinprayer.org/bible/1-john/5.json"
+    }
+  ]
+}

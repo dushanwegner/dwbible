@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 13 — 10 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 13,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/12.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/13.json",
+      "german": "https://latinprayer.org/bibel/psalms/13.json"
+    }
+  },
+  "citation": "Psalms 13 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 2,
+      "text": "quamdiu ponam consilia in anima mea dolorem in corde meo per diem",
+      "citation": "Psalms 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "usquequo exaltabitur inimicus meus super me",
+      "citation": "Psalms 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "usquequo ponam consilia in anima mea dolorem in corde meo per diem",
+      "citation": "Psalms 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "usquequo exaltabitur inimicus meus super me",
+      "citation": "Psalms 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "respice exaudi me Domine Deus meus inlumina oculos meos ne umquam obdormiam in mortem",
+      "citation": "Psalms 13:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "convertere exaudi me Domine Deus meus inlumina oculos meos ne umquam obdormiam in mortem",
+      "citation": "Psalms 13:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nequando dicat inimicus meus praevalui adversus eum qui tribulant me exultabunt si motus fuero",
+      "citation": "Psalms 13:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nequando dicat inimicus meus praevalui adversus eum hostes mei exultabunt cum motus fuero",
+      "citation": "Psalms 13:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ego autem in misericordia tua speravi exultabit cor meum in salutari tuo cantabo Domino qui bona tribuit mihi et psallam nomini Domini altissimi",
+      "citation": "Psalms 13:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ego autem in misericordia tua confido exultabit cor meum in salutari tuo cantabo Domino quia reddidit mihi",
+      "citation": "Psalms 13:5 (Clementine Vulgate)"
+    }
+  ]
+}

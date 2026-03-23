@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Song of Solomon, Chapter 7 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Song of Solomon",
+      "slug": "canticle-of-canticles",
+      "testament": "OT",
+      "order": 24,
+      "totalChapters": 8
+    },
+    "chapter": 7,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/canticle-of-canticles/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/canticle-of-canticles/6.json",
+      "nextChapter": "https://latinprayer.org/latin/canticle-of-canticles/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/canticle-of-canticles/7.json",
+      "german": "https://latinprayer.org/bibel/canticle-of-canticles/7.json"
+    }
+  },
+  "citation": "Song of Solomon 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "revertere revertere Sulamitis revertere revertere ut intueamur te",
+      "citation": "Song of Solomon 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quid videbis in Sulamiten nisi choros castrorum quam pulchri sunt gressus tui in calciamentis filia principis iunctura feminum tuorum sicut monilia quae fabricata sunt manu artificis",
+      "citation": "Song of Solomon 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "umbilicus tuus crater tornatilis numquam indigens poculis venter tuus sicut acervus tritici vallatus liliis",
+      "citation": "Song of Solomon 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "duo ubera tua sicut duo hinuli gemelli capreae",
+      "citation": "Song of Solomon 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "collum tuum sicut turris eburnea oculi tui sicut piscinae in Esebon quae sunt in porta filiae multitudinis nasus tuus sicut turris Libani quae respicit contra Damascum",
+      "citation": "Song of Solomon 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "caput tuum ut Carmelus et comae capitis tui sicut purpura regis vincta canalibus",
+      "citation": "Song of Solomon 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quam pulchra es et quam decora carissima in deliciis",
+      "citation": "Song of Solomon 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "statura tua adsimilata est palmae et ubera tua botris",
+      "citation": "Song of Solomon 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dixi ascendam in palmam adprehendam fructus eius et erunt ubera tua sicut botri vineae et odor oris tui sicut malorum",
+      "citation": "Song of Solomon 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "guttur tuum sicut vinum optimum dignum dilecto meo ad potandum labiisque et dentibus illius ruminandum",
+      "citation": "Song of Solomon 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ego dilecto meo et ad me conversio eius",
+      "citation": "Song of Solomon 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "veni dilecte mi egrediamur in agrum commoremur in villis",
+      "citation": "Song of Solomon 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "mane surgamus ad vineas videamus si floruit vinea si flores fructus parturiunt si floruerunt mala punica ibi dabo tibi ubera mea",
+      "citation": "Song of Solomon 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "mandragorae dederunt odorem in portis nostris omnia poma nova et vetera dilecte mi servavi tibi",
+      "citation": "Song of Solomon 7:14 (Clementine Vulgate)"
+    }
+  ]
+}

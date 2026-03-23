@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 18 — 26 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 18,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/exodus/17.json",
+      "nextChapter": "https://latinprayer.org/bible/exodus/19.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/exodus/18.json",
+      "german": "https://latinprayer.org/bibel/exodus/18.json"
+    }
+  },
+  "citation": "Exodus 18 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And when Jethro the priest of Madian, the kinsman of Moses, had heard all the things that God had done to Moses, and to Israel his people, and that the Lord had brought forth Israel out of Egypt:",
+      "citation": "Exodus 18:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "He took Sephora, the wife of Moses, whom he had sent back:",
+      "citation": "Exodus 18:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And her two sons, of whom one was called Gersam: his father saying, I have been a stranger in a foreign country.",
+      "citation": "Exodus 18:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And the other Eliezer: For the God of my father, said he, is my helper, and hath delivered me from the sword of Pharao.",
+      "citation": "Exodus 18:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And Jethro, the kinsman of Moses, came with his sons, and his wife to Moses into the desert, where he was camped by the mountain of God.",
+      "citation": "Exodus 18:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And he sent word to Moses, saying: I Jethro, thy kinsman, come to thee, and thy wife, and thy two sons with her.",
+      "citation": "Exodus 18:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And he went out to meet his kinsman, and worshipped and kissed him: and they saluted one another with words of peace. And when he was come into the tent,",
+      "citation": "Exodus 18:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Moses told his kinsman all that the Lord had done to Pharao, and the Egyptians in favour of Israel: and all the labour which had befallen them in the journey, and that the Lord had delivered them.",
+      "citation": "Exodus 18:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And Jethro rejoiced for all the good things that the Lord had done to Israel, because he had delivered them out of the hands of the Egyptians.",
+      "citation": "Exodus 18:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And he said: Blessed is the Lord, who hath delivered his people out of the hand of Egypt.",
+      "citation": "Exodus 18:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Now I know, that the Lord is great above all gods; because they dealt proudly against them.",
+      "citation": "Exodus 18:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "So Jethro, the kinsman of Moses, offered holocausts and sacrifices to God: and Aaron and all the ancients of Israel came, to eat bread with him before God.",
+      "citation": "Exodus 18:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the next day Moses sat to judge the people, who stood by Moses from morning until night.",
+      "citation": "Exodus 18:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And when his kinsman had seen all things that he did among the people, he said: What is it that thou dost among the people? Why sittest thou alone, and all the people wait from morning till night?",
+      "citation": "Exodus 18:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And Moses answered him: The people come to me to seek the judgment of God?",
+      "citation": "Exodus 18:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And when any controversy falleth out among them, they come to me to judge between them, and to shew the precepts of God, and his laws.",
+      "citation": "Exodus 18:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But he said: The thing thou dost is not good.",
+      "citation": "Exodus 18:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "But hear my words and counsels, and God shall be with thee. Be thou to the people in those things that pertain to God, to bring their words to him:",
+      "citation": "Exodus 18:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And to shew the people the ceremonies, and the manner of worshipping; and the way wherein they ought to walk, and the work that they ought to do.",
+      "citation": "Exodus 18:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And provide out of all the people able men, such as fear God, in whom there is truth, and that hate avarice, and appoint of them rulers of thousands, and of hundreds, and of fifties, and of tens,",
+      "citation": "Exodus 18:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Who may judge the people at all times: and when any great matter soever shall fall out, let them refer it to thee, and let them judge the lesser matters only: that so it may be lighter for thee, the burden being shared out unto others.",
+      "citation": "Exodus 18:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "If thou dost this, thou shalt fulfil the commandment of God, and shalt be able to bear his precepts: and all this people shall return to their places with peace.",
+      "citation": "Exodus 18:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And when Moses heard this, he did all things that he had suggested unto him.",
+      "citation": "Exodus 18:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And choosing able men out of all Israel, he appointed them rulers of the people, rulers over thousands, and over hundreds, and over fifties, and over tens.",
+      "citation": "Exodus 18:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And they judged the people at all times: and whatsoever was of greater difficulty they referred to him, and they judged the easier cases only.",
+      "citation": "Exodus 18:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And he let his kinsman depart: and he returned and went into his own country.",
+      "citation": "Exodus 18:27 (Douay-Rheims)"
+    }
+  ]
+}

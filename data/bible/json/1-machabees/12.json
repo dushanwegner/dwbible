@@ -1,0 +1,306 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Machabees, Chapter 12 — 54 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Machabees",
+      "slug": "1-machabees",
+      "testament": "OT",
+      "order": 45,
+      "totalChapters": 16
+    },
+    "chapter": 12,
+    "verseCount": 54,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-machabees/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-machabees/11.json",
+      "nextChapter": "https://latinprayer.org/bible/1-machabees/13.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-machabees/12.json",
+      "german": "https://latinprayer.org/bibel/1-machabees/12.json"
+    }
+  },
+  "citation": "1. Machabees 12 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And Jonathan saw that the time served him, and he chose certain men, and sent them to Rome, to confirm and to renew the amity with them:",
+      "citation": "1. Machabees 12:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he sent letters to the Spartans, and to other places, according to the same form.",
+      "citation": "1. Machabees 12:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And they went to Rome, and entered into the senate house, and said: Jonathan, the high priest, and the nation of the Jews, have sent us to renew the amity, and alliance, as it was before.",
+      "citation": "1. Machabees 12:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And they gave them letters to their governors in every place, to conduct them into the land of Juda with peace.",
+      "citation": "1. Machabees 12:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And this is a copy of the letters which Jonathan wrote to the Spartans:",
+      "citation": "1. Machabees 12:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Jonathan, the high priest, and the ancients of the nation, and the priests, and the rest of the people of the Jews, to the Spartans, their brethren, greeting.",
+      "citation": "1. Machabees 12:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "There were letters sent long ago to Onias the high priest, from Arius, who reigned then among you to signify that you are our brethren, as the copy here underwritten doth specify.",
+      "citation": "1. Machabees 12:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And Onias received the ambassador with honour and received the letters, wherein there was mention made of the alliance, and amity.",
+      "citation": "1. Machabees 12:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "We, though we needed none of these things having for our comfort the holy books that are in our hands,",
+      "citation": "1. Machabees 12:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Chose rather to send to you to renew the brotherhood and friendship, lest we should become stranger to you altogether: for there is a long time passed since you sent to us.",
+      "citation": "1. Machabees 12:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "We, therefore, at all times without ceasing, both in our festivals, and other days wherein it is convenient, remember you in the sacrifices that we offer, and in our observances, as it is meet and becoming to remember brethren.",
+      "citation": "1. Machabees 12:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And we rejoice at your glory.",
+      "citation": "1. Machabees 12:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But we have had many troubles and wars on every side; and the kings that are round about us have fought against us.",
+      "citation": "1. Machabees 12:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But we would not be troublesome to you, nor to the rest of our allies and friends, in these wars.",
+      "citation": "1. Machabees 12:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For we have had help from heaven, and we have been delivered, and our enemies are humbled.",
+      "citation": "1. Machabees 12:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "We have chosen, therefore, Numenius the son of Antiochus, and Antipater, the son of Jason, and have sent them to the Romans, to renew with them the former amity and alliance.",
+      "citation": "1. Machabees 12:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And we have commanded them to go also to you, and salute you, and to deliver you our letters, concerning the renewing of our brotherhood.",
+      "citation": "1. Machabees 12:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And now you shall do well to give us an answer hereto.",
+      "citation": "1. Machabees 12:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And this is the copy of the letter which he had sent to Onias:",
+      "citation": "1. Machabees 12:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Arius, king of the Spartans, to Onias, the high priest, greeting.",
+      "citation": "1. Machabees 12:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "It is found in writing concerning the Spartans, and the Jews, that they are brethren, and that they are of the stock of Abraham.",
+      "citation": "1. Machabees 12:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And now since this is come to our knowledge, you do well to write to us of your prosperity.",
+      "citation": "1. Machabees 12:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And we also have written back to you, That our cattle, and our possessions, are yours: and yours, ours. We, therefore, have commanded that these things should be told you.",
+      "citation": "1. Machabees 12:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Now Jonathan heard that the generals of Demetrius were come again with a greater army than before to fight against him.",
+      "citation": "1. Machabees 12:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "So he went out from Jerusalem, and met them in the land of Amath: for he gave them no time to enter into his country.",
+      "citation": "1. Machabees 12:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And he sent spies into their camp, and they came back, and brought him word that they designed to come upon them in the night.",
+      "citation": "1. Machabees 12:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And when the sun was set, Jonathan commanded his men to watch, and to be in arms all night long ready to fight, and he set sentinels round about the camp.",
+      "citation": "1. Machabees 12:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And the enemies heard that Jonathan and his men were ready for battle: and they were struck with fear and dread in their heart: and they kindled fires in their camp.",
+      "citation": "1. Machabees 12:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "But Jonathan, and they that were with him, knew it not till the morning: for they saw the lights burning.",
+      "citation": "1. Machabees 12:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And Jonathan pursued after them, but overtook them not: for they had passed the river Eleutherus.",
+      "citation": "1. Machabees 12:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And Jonathan turned upon the Arabians, that are called Zabadeans: and he defeated them, and took the spoils of them.",
+      "citation": "1. Machabees 12:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And he went forward, and came to Damascus, and passed through all that country.",
+      "citation": "1. Machabees 12:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Simon also went forth, and came as far as Ascalon, and the neighbouring fortresses, and he turned aside to Joppe, and took possession of it,",
+      "citation": "1. Machabees 12:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "(For he heard that they designed to deliver the hold to them that took part with Demetrius) and he put a garrison there to keep it.",
+      "citation": "1. Machabees 12:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And Jonathan came back, and called together the ancients of the people; and he took a resolution with them to build fortresses in Judea,",
+      "citation": "1. Machabees 12:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And to build up walls in Jerusalem, and raise a mount between the castle and the city, to separate it from the city, that so it might have no communication, and that they might neither buy nor sell.",
+      "citation": "1. Machabees 12:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And they came together to build up the city: for the wall that was upon the brook, towards the east, was broken down, and he repaired that which is called Caphetetha:",
+      "citation": "1. Machabees 12:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And Simon built Adiada in Sephela, and fortified it, and set up gates and bars.",
+      "citation": "1. Machabees 12:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "Now when Tryphon had conceived a design to make himself king of Asia and to take the crown, and to stretch out his hand against king Antiochus:",
+      "citation": "1. Machabees 12:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Fearing lest Jonathan would not suffer him, but would fight against him: he sought to seize upon him, and to kill him. So he rose up and came to Bethsan.",
+      "citation": "1. Machabees 12:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And Jonathan went out to meet him with forty thousand men chosen for battle, and came to Bethsan.",
+      "citation": "1. Machabees 12:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "Now when Tryphon saw that Jonathan came with a great army, he durst not stretch forth his hand against him.",
+      "citation": "1. Machabees 12:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "But received him with honour, and commended him to all his friends, and gave him presents: and he commanded his troops to obey him, as himself.",
+      "citation": "1. Machabees 12:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "And he said to Jonathan: Why hast thou troubled all the people, whereas we have no war?",
+      "citation": "1. Machabees 12:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "Now, therefore, send them back to their own houses: and choose thee a few men that may be with thee, and come with me to Ptolemais, and I will deliver it to thee, and the rest of the strong holds, and the army, and all that have any charge, and I will return and go away: for this is the cause of my coming.",
+      "citation": "1. Machabees 12:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "And Jonathan believed him, and did as he said: and sent away his army, and they departed into the land of Juda:",
+      "citation": "1. Machabees 12:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "But he kept with him three thousand men: of whom he sent two thousand into Galilee, and one thousand went with him.",
+      "citation": "1. Machabees 12:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "Now as soon as Jonathan entered into Ptolemais, they of Ptolemais shut the gates of the city, and took him: and all them that came in with him they slew with the sword.",
+      "citation": "1. Machabees 12:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "Then Tryphon sent an army and horsemen into Galilee, and into the great plain, to destroy all Jonathan's company.",
+      "citation": "1. Machabees 12:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "But they, when they understood that Jonathan, and all that were with him, were taken and slain, encouraged one another, and went out ready for battle.",
+      "citation": "1. Machabees 12:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "Then they that had come after them, seeing that they stood for their lives, returned back.",
+      "citation": "1. Machabees 12:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "Whereupon they all came peaceably into the land of Juda and they bewailed Jonathan, and them that had been with him, exceedingly: and Israel mourned with great lamentation.",
+      "citation": "1. Machabees 12:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "Then all the heathens that were round about them, sought to destroy them. For they said:",
+      "citation": "1. Machabees 12:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "They have no prince, nor any to help them: now therefore, let us make war upon them, and take away the memory of them from amongst men.",
+      "citation": "1. Machabees 12:53 (Douay-Rheims)"
+    }
+  ]
+}

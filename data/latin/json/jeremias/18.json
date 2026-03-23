@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 18 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 18,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/17.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/19.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/18.json",
+      "german": "https://latinprayer.org/bibel/jeremias/18.json"
+    }
+  },
+  "citation": "Jeremiah 18 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "verbum quod factum est ad Hieremiam a Domino dicens",
+      "citation": "Jeremiah 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "surge et descende in domum figuli et ibi audies verba mea",
+      "citation": "Jeremiah 18:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et descendi in domum figuli et ecce ipse faciebat opus super rotam",
+      "citation": "Jeremiah 18:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dissipatum est vas quod ipse faciebat e luto manibus suis conversusque fecit illud vas alterum sicut placuerat in oculis eius ut faceret",
+      "citation": "Jeremiah 18:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et factum est verbum Domini ad me dicens",
+      "citation": "Jeremiah 18:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "numquid sicut figulus iste non potero facere vobis domus Israhel ait Dominus ecce sicut lutum in manu figuli sic vos in manu mea domus Israhel",
+      "citation": "Jeremiah 18:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "repente loquar adversum gentem et adversum regnum ut eradicem et destruam et disperdam illud",
+      "citation": "Jeremiah 18:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "si paenitentiam egerit gens illa a malo suo quod locutus sum adversum eam agam et ego paenitentiam super malo quod cogitavi ut facerem ei",
+      "citation": "Jeremiah 18:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et subito loquar de gente et regno ut aedificem et ut plantem illud",
+      "citation": "Jeremiah 18:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "si fecerit malum in oculis meis ut non audiat vocem meam paenitentiam agam super bono quod locutus sum ut facerem ei",
+      "citation": "Jeremiah 18:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "nunc ergo dic viro Iudae et habitatoribus Hierusalem dicens haec dicit Dominus ecce ego fingo contra vos malum et cogito contra vos cogitationem revertatur unusquisque a via sua mala et dirigite vias vestras et studia vestra",
+      "citation": "Jeremiah 18:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "qui dixerunt desperavimus post cogitationes enim nostras ibimus et unusquisque pravitatem cordis sui mali faciemus",
+      "citation": "Jeremiah 18:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ideo haec dicit Dominus interrogate gentes quis audivit talia horribilia quae fecit nimis virgo Israhel",
+      "citation": "Jeremiah 18:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "numquid deficiet de petra agri nix Libani aut evelli possunt aquae erumpentes frigidae et defluentes",
+      "citation": "Jeremiah 18:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quia oblitus est mei populus meus frustra libantes et inpingentes in viis suis in semitis saeculi ut ambularent per eas in itinere non trito",
+      "citation": "Jeremiah 18:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ut fieret terra eorum in desolationem et in sibilum sempiternum omnis qui praeterit per eam obstupescet et movebit caput suum",
+      "citation": "Jeremiah 18:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sicut ventus urens dispergam eos coram inimico dorsum et non faciem ostendam eis in die perditionis eorum",
+      "citation": "Jeremiah 18:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et dixerunt venite et cogitemus contra Hieremiam cogitationes non enim peribit lex a sacerdote neque consilium a sapiente nec sermo a propheta venite et percutiamus eum lingua et non adtendamus ad universos sermones eius",
+      "citation": "Jeremiah 18:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "adtende Domine ad me et audi vocem adversariorum meorum",
+      "citation": "Jeremiah 18:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "numquid redditur pro bono malum quia foderunt foveam animae meae recordare quod steterim in conspectu tuo ut loquerer pro eis bonum et averterem indignationem tuam ab eis",
+      "citation": "Jeremiah 18:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "propterea da filios eorum in famem et deduc eos in manus gladii fiant uxores eorum absque liberis et viduae et viri earum interficiantur morte iuvenes eorum confodiantur gladio in proelio",
+      "citation": "Jeremiah 18:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "audiatur clamor de domibus eorum adduces enim super eos latronem repente quia foderunt foveam ut caperent me et laqueos absconderunt pedibus meis",
+      "citation": "Jeremiah 18:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "tu autem Domine scis omne consilium eorum adversum me in mortem ne propitieris iniquitati eorum et peccatum eorum a facie tua non deleatur fiant corruentes in conspectu tuo in tempore furoris tui abutere eis",
+      "citation": "Jeremiah 18:23 (Clementine Vulgate)"
+    }
+  ]
+}

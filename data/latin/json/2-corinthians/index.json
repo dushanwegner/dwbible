@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Corinthians — 13 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-corinthians/index.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/latin/2-corinthians/1",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/latin/2-corinthians/2",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/2-corinthians/3",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/2-corinthians/4",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/latin/2-corinthians/5",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/2-corinthians/6",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/latin/2-corinthians/7",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/latin/2-corinthians/8",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/2-corinthians/9",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/2-corinthians/10",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/latin/2-corinthians/11",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/latin/2-corinthians/12",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 12,
+      "url": "https://latinprayer.org/latin/2-corinthians/13",
+      "jsonUrl": "https://latinprayer.org/latin/2-corinthians/13.json"
+    }
+  ]
+}

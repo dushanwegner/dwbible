@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 31 — 9 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 31,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/isaias/30.json",
+      "nextChapter": "https://latinprayer.org/bibel/isaias/32.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/31.json",
+      "latin": "https://latinprayer.org/latin/isaias/31.json"
+    }
+  },
+  "citation": "Jesaja 31 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wehe denen, die nach Ägypten hinabziehen, um Hilfe (zu erlangen) und sich auf Kriegsrosse zu stützen! Die ihr Vertrauen auf Streitwagen setzen, weil ihrer so viele sind, und auf Rosse, weil ihre Zahl so groß ist, aber auf den Heiligen Israels nicht schauen und den HERRN nicht befragen!",
+      "citation": "Jesaja 31:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Doch auch er ist weise und läßt Unheil kommen und nimmt seine Drohworte nicht zurück; nein, aufstehen wird er gegen das Haus der Frevler und gegen die Helferschaft von Übeltätern.",
+      "citation": "Jesaja 31:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn die Ägypter sind Menschen und nicht Gott, und ihre Rosse sind Fleisch und nicht Geist; streckt der HERR seine Hand aus, so stürzt der Beschützer, und der Schützling kommt zu Fall, so daß sie alle miteinander vernichtet werden.",
+      "citation": "Jesaja 31:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denn so hat der HERR zu mir gesprochen: »Gleichwie der Löwe, der Jungleu, über seinem Raube brummt – die volle Zahl der Hirten hat man gegen ihn aufgeboten, aber vor ihrem Geschrei erschrickt er nicht, und trotz ihres Getümmels wird ihm nicht bange –, so wird der HERR der Heerscharen herabfahren zur Heerfahrt auf den Berg Zion und auf dessen Anhöhe.",
+      "citation": "Jesaja 31:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Wie flatternde Vögel, so wird der HERR der Heerscharen Jerusalem beschirmen, ja beschirmen und erretten, verschonen und befreien.",
+      "citation": "Jesaja 31:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Kehret doch zurück zu ihm, von dem ihr so tief abgefallen seid, ihr Kinder Israel!",
+      "citation": "Jesaja 31:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Denn an jenem Tage wird ein jeder von ihnen seine silbernen und seine goldenen Götzen verabscheuen, die eure Hände euch zur Sünde angefertigt haben;",
+      "citation": "Jesaja 31:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "und Assyrien wird fallen durch das Schwert eines Nicht-Mannes, und das Schwert eines Nicht-Menschen wird es fressen; und ergreift es die Flucht vor dem Schwert, so werden seine Jünglinge der Knechtschaft verfallen;",
+      "citation": "Jesaja 31:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "sein Fels aber wird vor Grauen vergehen, und seine Fürsten werden von den Fahnen weggeschreckt werden« – so lautet der Ausspruch des HERRN, der einen Feuerherd in Zion hat und einen Ofen in Jerusalem.",
+      "citation": "Jesaja 31:9 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Corinthians, Chapter 3 — 23 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Corinthians",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 53,
+      "totalChapters": 16
+    },
+    "chapter": 3,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-corinthians/2.json",
+      "nextChapter": "https://latinprayer.org/bible/1-corinthians/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-corinthians/3.json",
+      "german": "https://latinprayer.org/bibel/1-corinthians/3.json"
+    }
+  },
+  "citation": "1. Corinthians 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And I, brethren, could not speak to you as unto spiritual, but as unto carnal. As unto little ones in Christ.",
+      "citation": "1. Corinthians 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "I gave you milk to drink, not meat: for you were not able as yet. But neither indeed are you now able: for you are yet carnal.",
+      "citation": "1. Corinthians 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For, whereas there is among you envying and contention, are you not carnal and walk you not according to man?",
+      "citation": "1. Corinthians 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For while one saith: I indeed am of Paul: and another: I am of Apollo: are you not men? What then is Apollo and what is Paul?",
+      "citation": "1. Corinthians 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The ministers of him whom you have believed: and to every one as the Lord hath given.",
+      "citation": "1. Corinthians 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "I have planted, Apollo watered: but God gave the increase.",
+      "citation": "1. Corinthians 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Therefore, neither he that planteth is any thing, nor he that watereth: but God that giveth the increase.",
+      "citation": "1. Corinthians 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Now he that planteth and he that watereth, are one. And every man shall receive his own reward, according to his own labour.",
+      "citation": "1. Corinthians 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For we are God's coadjutors. You are God's husbandry: you are God's building.",
+      "citation": "1. Corinthians 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "According to the grace of God that is given to me, as a wise architect, I have laid the foundation: and another buildeth thereon. But let every man take heed how he buildeth thereupon.",
+      "citation": "1. Corinthians 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For other foundation no man can lay, but that which is laid: which is Christ Jesus.",
+      "citation": "1. Corinthians 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Now, if any man build upon this foundation, gold, silver, precious stones, wood, hay, stubble:",
+      "citation": "1. Corinthians 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Every man's work shall be manifest. For the day of the Lord shall declare it, because it shall be revealed in fire. And the fire shall try every man's work, of what sort it is.",
+      "citation": "1. Corinthians 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "If any man's work abide, which he hath built thereupon, he shall receive a reward.",
+      "citation": "1. Corinthians 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "If any mans work burn, he shall suffer loss: but he himself shall be saved, yet so as by fire.",
+      "citation": "1. Corinthians 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Know you not that you are the temple of God and that the Spirit of God dwelleth in you?",
+      "citation": "1. Corinthians 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But if any man violate the temple of God, him shall God destroy. For the temple of God is holy, which you are.",
+      "citation": "1. Corinthians 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Let no man deceive himself. If any man among you seem to be wise in this world, let him become a fool, that he may be wise.",
+      "citation": "1. Corinthians 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For the wisdom of this world is foolishness with God. For it is written: I will catch the wise in their own craftiness.",
+      "citation": "1. Corinthians 3:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And again: The Lord knoweth the thoughts of the wise, that they are vain.",
+      "citation": "1. Corinthians 3:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Let no man therefore glory in men.",
+      "citation": "1. Corinthians 3:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "For all things are yours, whether it be Paul or Apollo or Cephas, or the world, or life, or death, or things present, or things to come. For all are yours.",
+      "citation": "1. Corinthians 3:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And you are Christ's. And Christ is God's.",
+      "citation": "1. Corinthians 3:23 (Douay-Rheims)"
+    }
+  ]
+}

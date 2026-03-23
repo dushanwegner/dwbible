@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Titus — 24 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Titus",
+      "slug": "titus",
+      "testament": "NT",
+      "order": 63,
+      "totalChapters": 24
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/titus/index.json",
+      "german": "https://latinprayer.org/bibel/titus/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 27,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/latin/titus/27",
+      "jsonUrl": "https://latinprayer.org/latin/titus/27.json"
+    },
+    {
+      "chapter": 28,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/latin/titus/28",
+      "jsonUrl": "https://latinprayer.org/latin/titus/28.json"
+    },
+    {
+      "chapter": 29,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/titus/29",
+      "jsonUrl": "https://latinprayer.org/latin/titus/29.json"
+    },
+    {
+      "chapter": 30,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/latin/titus/30",
+      "jsonUrl": "https://latinprayer.org/latin/titus/30.json"
+    },
+    {
+      "chapter": 31,
+      "verseCount": 55,
+      "url": "https://latinprayer.org/latin/titus/31",
+      "jsonUrl": "https://latinprayer.org/latin/titus/31.json"
+    },
+    {
+      "chapter": 32,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/latin/titus/32",
+      "jsonUrl": "https://latinprayer.org/latin/titus/32.json"
+    },
+    {
+      "chapter": 33,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/latin/titus/33",
+      "jsonUrl": "https://latinprayer.org/latin/titus/33.json"
+    },
+    {
+      "chapter": 34,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/titus/34",
+      "jsonUrl": "https://latinprayer.org/latin/titus/34.json"
+    },
+    {
+      "chapter": 35,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/latin/titus/35",
+      "jsonUrl": "https://latinprayer.org/latin/titus/35.json"
+    },
+    {
+      "chapter": 36,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/latin/titus/36",
+      "jsonUrl": "https://latinprayer.org/latin/titus/36.json"
+    },
+    {
+      "chapter": 37,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/latin/titus/37",
+      "jsonUrl": "https://latinprayer.org/latin/titus/37.json"
+    },
+    {
+      "chapter": 38,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/latin/titus/38",
+      "jsonUrl": "https://latinprayer.org/latin/titus/38.json"
+    },
+    {
+      "chapter": 39,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/titus/39",
+      "jsonUrl": "https://latinprayer.org/latin/titus/39.json"
+    },
+    {
+      "chapter": 40,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/titus/40",
+      "jsonUrl": "https://latinprayer.org/latin/titus/40.json"
+    },
+    {
+      "chapter": 41,
+      "verseCount": 57,
+      "url": "https://latinprayer.org/latin/titus/41",
+      "jsonUrl": "https://latinprayer.org/latin/titus/41.json"
+    },
+    {
+      "chapter": 42,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/latin/titus/42",
+      "jsonUrl": "https://latinprayer.org/latin/titus/42.json"
+    },
+    {
+      "chapter": 43,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/titus/43",
+      "jsonUrl": "https://latinprayer.org/latin/titus/43.json"
+    },
+    {
+      "chapter": 44,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/titus/44",
+      "jsonUrl": "https://latinprayer.org/latin/titus/44.json"
+    },
+    {
+      "chapter": 45,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/latin/titus/45",
+      "jsonUrl": "https://latinprayer.org/latin/titus/45.json"
+    },
+    {
+      "chapter": 46,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/titus/46",
+      "jsonUrl": "https://latinprayer.org/latin/titus/46.json"
+    },
+    {
+      "chapter": 47,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/titus/47",
+      "jsonUrl": "https://latinprayer.org/latin/titus/47.json"
+    },
+    {
+      "chapter": 48,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/latin/titus/48",
+      "jsonUrl": "https://latinprayer.org/latin/titus/48.json"
+    },
+    {
+      "chapter": 49,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/latin/titus/49",
+      "jsonUrl": "https://latinprayer.org/latin/titus/49.json"
+    },
+    {
+      "chapter": 50,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/latin/titus/50",
+      "jsonUrl": "https://latinprayer.org/latin/titus/50.json"
+    }
+  ]
+}

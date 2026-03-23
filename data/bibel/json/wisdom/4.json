@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Weisheit, Chapter 4 — 20 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Weisheit",
+      "slug": "wisdom",
+      "testament": "OT",
+      "order": 25,
+      "totalChapters": 19
+    },
+    "chapter": 4,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/wisdom/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/wisdom/3.json",
+      "nextChapter": "https://latinprayer.org/bibel/wisdom/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/wisdom/4.json",
+      "latin": "https://latinprayer.org/latin/wisdom/4.json"
+    }
+  },
+  "citation": "Weisheit 4 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Besser ist Kinderlosigkeit im Verein mit Tugend; denn Unsterblichkeit wohnt ihrem Nachruhm bei, weil sie sowohl bei Gott als bei den Menschen bekannt ist.",
+      "citation": "Weisheit 4:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Solange sie da ist, eifert man ihr nach, und ist sie geschwunden, so sehnt man sich nach ihr, und in der Ewigkeit schreitet sie, mit dem Kranze auf dem Haupte, als Siegerin einher, nachdem sie im Wettkampfe fleckenloser Bestrebungen gesiegt hat.",
+      "citation": "Weisheit 4:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Aber die große Kinderschar der Gottlosen bringt ihnen keinen Gewinn; aus unechten Schößlingen bestehend, treibt sie keine Wurzel in die Tiefe und faßt keinen festen Stand im Erdgrunde.",
+      "citation": "Weisheit 4:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denn wenn sie auch eine Zeit lang mit den Zweigen hoch emporschießt, so wird doch das täuschend zum Vorschein Gekommene vom Wind hin und her geschüttelt und von der Gewalt der Stürme entwurzelt.",
+      "citation": "Weisheit 4:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ringsum werden die unentwickelten Zweige abgebrochen, ihre Früchte bleiben unbrauchbar, ungenießbar und zu nichts tauglich;",
+      "citation": "Weisheit 4:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "denn Kinder, die aus gesetzwidrigem Beischlaf hervorgegangen sind, legen gegen ihre Eltern das Zeugnis der Schlechtigkeit ab, wenn’s zu deren Prüfung kommt.",
+      "citation": "Weisheit 4:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Der Gerechte dagegen, auch wenn er frühzeitig stirbt, ist in der Ruhe;",
+      "citation": "Weisheit 4:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "denn nicht das langdauernde Alter ist der Ehre wert und wird nicht nach der Zahl der Jahre gemessen;",
+      "citation": "Weisheit 4:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "nein, das wahre graue Haar ist für die Menschen die Einsicht und das wahre Greisenalter ein fleckenloses Leben.",
+      "citation": "Weisheit 4:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Weil er sich Gottes Wohlgefallen erworben hatte, wurde er entrückt;",
+      "citation": "Weisheit 4:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "er wurde entführt, damit nicht die Schlechtigkeit seinen Sinn verdürbe und Arglist seine Seele verführte.",
+      "citation": "Weisheit 4:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Denn das Blendwerk der Schlechtigkeit verdunkelt das Gute, und der Taumel der Sinnenlust wandelt auch ein unschuldiges Herz um.",
+      "citation": "Weisheit 4:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wer in kurzer Zeit zur Vollendung gelangt ist, hat lange Zeiten erfüllt;",
+      "citation": "Weisheit 4:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "denn wohlgefällig war seine Seele dem Herrn, darum eilte sie hinweg aus der Mitte der Bösen.",
+      "citation": "Weisheit 4:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Die Leute sahen es wohl, verstanden es aber nicht und nahmen die Tatsache nicht zu Herzen, daß Gnade und Erbarmen bei seinen Auserwählten ist und Hilfeleistung bei seinen Frommen.",
+      "citation": "Weisheit 4:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Der Gerechte aber, der das Leiden bestanden hat, wird die Verurteilung der noch lebenden Gottlosen herbeiführen und ebenso die früh zur Vollendung gelangte Jugend die Verurteilung des an Jahren reichen Greisenalters der Ungerechten.",
+      "citation": "Weisheit 4:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Denn sie werden das Ende des Weisen wahrnehmen, doch nicht erkennen, was Gott über ihn beschlossen und warum der Herr ihn in Sicherheit gebracht hat.",
+      "citation": "Weisheit 4:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Sie werden es wahrnehmen, doch es unbeachtet lassen; sie selbst aber wird der Herr verlachen; und sie werden darnach zu einem verachteten Leichnam werden und zum Gegenstand des Spottes unter den Toten ewiglich.",
+      "citation": "Weisheit 4:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Denn er wird sie kopfüber hinabstürzen, während sie lautlos (vor Schrecken) dastehen, und sie von Grund aus erschüttern; sie werden völlig verwüstet werden und Qualen erleiden, und das Andenken an sie wird erlöschen.",
+      "citation": "Weisheit 4:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Zitternd werden sie herankommen, wenn ihre Sünden zusammengerechnet werden, und ihre Missetaten werden als Ankläger sie unwiderleglich überführen.",
+      "citation": "Weisheit 4:20 (Menge)"
+    }
+  ]
+}

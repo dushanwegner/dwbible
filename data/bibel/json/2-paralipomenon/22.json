@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Chronik, Chapter 22 — 12 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Chronik",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "order": 14,
+      "totalChapters": 36
+    },
+    "chapter": 22,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/2-paralipomenon/21.json",
+      "nextChapter": "https://latinprayer.org/bibel/2-paralipomenon/23.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-paralipomenon/22.json",
+      "latin": "https://latinprayer.org/latin/2-paralipomenon/22.json"
+    }
+  },
+  "citation": "2 Chronik 22 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Darauf machten die Bewohner Jerusalems seinen jüngsten Sohn Ahasja an seiner Statt zum König; denn alle älteren Söhne hatte die Streifschar ermordet, die mit den Arabern in das Lager eingedrungen war, und so wurde Ahasja König, der Sohn des Königs Joram von Juda.",
+      "citation": "2 Chronik 22:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Im Alter von zweiundzwanzig Jahren kam er auf den Thron und regierte ein Jahr in Jerusalem; seine Mutter hieß Athalja und war die Enkelin Omris.",
+      "citation": "2 Chronik 22:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Auch er wandelte auf den Wegen des Hauses Ahabs; denn seine Mutter war für ihn eine Beraterin zu gottlosem Handeln.",
+      "citation": "2 Chronik 22:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "So tat er denn, was dem HERRN mißfiel, wie das Haus Ahabs; denn dessen Angehörige waren nach seines Vaters Tode seine Ratgeber, zum Unheil für ihn.",
+      "citation": "2 Chronik 22:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Auf ihren Rat hin unternahm er auch mit Joram, dem Sohne des Königs Ahab von Israel, einen Feldzug gegen den König Hasael von Syrien nach Ramoth in Gilead. Als aber die Syrer Joram verwundet hatten,",
+      "citation": "2 Chronik 22:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "kehrte dieser zurück, um sich in Jesreel von den Wunden heilen zu lassen, die man ihm bei Rama beigebracht hatte, als er gegen Hasael, den König von Syrien, zu Felde gezogen war. Darauf kam Ahasja, der König von Juda, der Sohn Jorams (von Juda), um Joram, den Sohn Ahabs, in Jesreel zu besuchen, weil dieser dort krank lag.",
+      "citation": "2 Chronik 22:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Das war aber von Gott zum Untergang Ahasjas verhängt, daß er sich zu Joram begab. Denn als er nach seiner Ankunft dort mit Joram gegen Jehu, den Sohn Nimsis, zog, den der HERR hatte salben lassen, damit er das Haus Ahabs ausrotte,",
+      "citation": "2 Chronik 22:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "da begab es sich, als Jehu das Strafgericht am Hause Ahabs vollzog, daß er die Fürsten von Juda und die Neffen Ahasjas, die in Ahasjas Diensten standen, antraf und sie niederhauen ließ.",
+      "citation": "2 Chronik 22:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Als er dann auch nach Ahasja suchen ließ, der sich in Samaria versteckt hielt, und man ihn nach seiner Festnahme zu Jehu brachte, ließ dieser ihn töten. Doch begrub man ihn alsdann, weil man bedachte, daß er ein Sohn Josaphats sei, der sich zum HERRN mit ganzem Herzen gehalten hatte. Aber in der Familie Ahasjas war niemand mehr vorhanden, der fähig gewesen wäre, den Thron zu besteigen.",
+      "citation": "2 Chronik 22:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Als aber Athalja, die Mutter Ahasjas, erfuhr, daß ihr Sohn tot war, machte sie sich daran, alle, die zur königlichen Familie des Hauses Juda gehörten, umzubringen.",
+      "citation": "2 Chronik 22:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Aber Josabath, die Tochter des Königs Joram, nahm Joas, den Sohn Ahasjas, und schaffte ihn aus der Mitte der Königssöhne, die getötet werden sollten, heimlich beiseite, indem sie ihn samt seiner Amme in die Bettzeugkammer brachte. So verbarg ihn Josabath, die Tochter des Königs Joram, die Frau des Priesters Jojada – sie war nämlich die Schwester Ahasjas – vor Athalja, so daß diese ihn nicht ermorden konnte.",
+      "citation": "2 Chronik 22:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Er blieb dann sechs Jahre lang bei ihnen im Hause Gottes versteckt, während Athalja das Land regierte.",
+      "citation": "2 Chronik 22:12 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judges, Chapter 10 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judges",
+      "slug": "judges",
+      "testament": "OT",
+      "order": 7,
+      "totalChapters": 21
+    },
+    "chapter": 10,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/judges/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/judges/9.json",
+      "nextChapter": "https://latinprayer.org/bible/judges/11.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/judges/10.json",
+      "german": "https://latinprayer.org/bibel/judges/10.json"
+    }
+  },
+  "citation": "Judges 10 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "After Abimelech, there arose a ruler in Israel, Thola, son of Phua, the uncle of Abimelech, a man of Issachar, who dwelt in Samir of mount Ephraim:",
+      "citation": "Judges 10:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he judged Israel three and twenty years, and he died, and was buried in Samir.",
+      "citation": "Judges 10:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "To him succeeded Jair, the Galaadite, who judged Israel for two and twenty years,",
+      "citation": "Judges 10:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Having thirty sons, that rode on thirty ass colts, and were princes of thirty cities, which from his name were called Havoth Jair, that is, the towns of Jair, until this present day, in the land of Galaad.",
+      "citation": "Judges 10:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And Jair died, and was buried in the place which is called Camon.",
+      "citation": "Judges 10:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But the children of Israel, adding new sins to their old ones, did evil in the sight of the Lord, and served idols, Baalim and Astaroth, and the gods of Syria, and of Sidon, and of Moab, and of the children of Ammon, and of the Philistines: and they left the Lord, and did not serve him.",
+      "citation": "Judges 10:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the Lord being angry with them, delivered them into the hands of the Philistines, and of the children of Ammon.",
+      "citation": "Judges 10:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And they were afflicted, and grievously oppressed for eighteen years, all they that dwelt beyond the Jordan in the land of the Amorrhite, who is in Galaad:",
+      "citation": "Judges 10:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Insomuch that the children of Ammon, passing over the Jordan, wasted Juda, and Benjamin, and Ephraim: and Israel was distressed exceedingly.",
+      "citation": "Judges 10:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And they cried to the Lord, and said, We have sinned against thee, because we have forsaken the Lord our God, and have served Baalim.",
+      "citation": "Judges 10:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the Lord said to them: Did not the Egyptians, and the Amorrhites, and the children of Ammon, and the Philistines,",
+      "citation": "Judges 10:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The Sidonians also, and Amalec, and Chanaan, oppress you, and you cried to me, and I delivered you out of their hand?",
+      "citation": "Judges 10:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And yet you have forsaken me, and have worshipped strange gods: therefore I will deliver you no more:",
+      "citation": "Judges 10:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Go, and call upon the gods which you have chosen: let them deliver you in the time of distress.",
+      "citation": "Judges 10:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And the children of Israel said to the Lord: We have sinned, do thou unto us whatsoever pleaseth thee: only deliver us this time.",
+      "citation": "Judges 10:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And saying these things, they cast away out of their coasts all the idols of strange gods, and served the Lord their God: and he was touched with their miseries.",
+      "citation": "Judges 10:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And the children of Ammon shouting together, pitched their tents in Galaad: against whom the children of Israel assembled themselves together, and camped in Maspha.",
+      "citation": "Judges 10:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And the princes of Galaad said one to another: Whosoever of us shall first begin to fight against the children of Ammon, he shall be the leader of the people of Galaad.",
+      "citation": "Judges 10:18 (Douay-Rheims)"
+    }
+  ]
+}

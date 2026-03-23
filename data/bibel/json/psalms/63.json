@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 63 — 12 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 63,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/62.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/64.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/63.json",
+      "latin": "https://latinprayer.org/latin/psalms/63.json"
+    }
+  },
+  "citation": "Psalmen 63 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Psalm Davids, als er in der Wüste Juda war</em>.",
+      "citation": "Psalmen 63:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "O Gott, du bist mein Gott: dich suche ich, es dürstet nach dir meine Seele; es lechzt nach dir mein Leib wie dürres, schmachtendes, wasserloses Land.",
+      "citation": "Psalmen 63:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "So hab’ ich nach dir im Heiligtum ausgeschaut, um deine Macht und Herrlichkeit zu erblicken;",
+      "citation": "Psalmen 63:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "denn deine Gnade ist besser als das Leben: meine Lippen sollen dich rühmen.",
+      "citation": "Psalmen 63:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "So will ich dich preisen mein Leben lang, in deinem Namen meine Hände erheben.",
+      "citation": "Psalmen 63:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Wie an Mark und Fett ersättigt sich meine Seele, und mit jubelnden Lippen lobpreist mein Mund,",
+      "citation": "Psalmen 63:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "so oft ich deiner gedenke auf meinem Lager, in den Stunden der Nacht über dich sinne;",
+      "citation": "Psalmen 63:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "denn du bist mir ein Helfer gewesen, und im Schatten deiner Flügel darf ich jubeln.",
+      "citation": "Psalmen 63:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Meine Seele klammert sich an dich, aufrecht hält mich deine rechte Hand.",
+      "citation": "Psalmen 63:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Doch sie, die nach dem Leben mir trachten, mich zu verderben, sie werden in der Erde unterste Tiefen fahren.",
+      "citation": "Psalmen 63:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Man wird sie der Schärfe des Schwerts überliefern; die Beute der Schakale werden sie sein.",
+      "citation": "Psalmen 63:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Der König dagegen wird Gottes sich freuen: Ruhm wird ernten ein jeder, der bei ihm schwört; den Lügnern dagegen wird der Mund gestopft werden.",
+      "citation": "Psalmen 63:12 (Menge)"
+    }
+  ]
+}

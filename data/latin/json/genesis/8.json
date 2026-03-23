@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 8 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 26
+    },
+    "chapter": 8,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/genesis/7.json",
+      "nextChapter": "https://latinprayer.org/latin/genesis/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/8.json",
+      "german": "https://latinprayer.org/bibel/genesis/8.json"
+    }
+  },
+  "citation": "Genesis 8 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "recordatus autem Deus Noe cunctarumque animantium et omnium iumentorum quae erant cum eo in arca adduxit spiritum super terram et inminutae sunt aquae",
+      "citation": "Genesis 8:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et clausi sunt fontes abyssi et cataractae caeli et prohibitae sunt pluviae de caelo",
+      "citation": "Genesis 8:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "reversaeque aquae de terra euntes et redeuntes et coeperunt minui post centum quinquaginta dies",
+      "citation": "Genesis 8:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "requievitque arca mense septimo vicesima septima die mensis super montes Armeniae",
+      "citation": "Genesis 8:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "at vero aquae ibant et decrescebant usque ad decimum mensem decimo enim mense prima die mensis apparuerunt cacumina montium",
+      "citation": "Genesis 8:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "cumque transissent quadraginta dies aperiens Noe fenestram arcae quam fecerat dimisit corvum",
+      "citation": "Genesis 8:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui egrediebatur et revertebatur donec siccarentur aquae super terram",
+      "citation": "Genesis 8:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "emisit quoque columbam post eum ut videret si iam cessassent aquae super faciem terrae",
+      "citation": "Genesis 8:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quae cum non invenisset ubi requiesceret pes eius reversa est ad eum in arcam aquae enim erant super universam terram extenditque manum et adprehensam intulit in arcam",
+      "citation": "Genesis 8:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "expectatis autem ultra septem diebus aliis rursum dimisit columbam ex arca",
+      "citation": "Genesis 8:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "at illa venit ad eum ad vesperam portans ramum olivae virentibus foliis in ore suo intellexit ergo Noe quod cessassent aquae super terram",
+      "citation": "Genesis 8:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "expectavitque nihilominus septem alios dies et emisit columbam quae non est reversa ultra ad eum",
+      "citation": "Genesis 8:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "igitur sescentesimo primo anno primo mense prima die mensis inminutae sunt aquae super terram et aperiens Noe tectum arcae aspexit viditque quod exsiccata esset superficies terrae",
+      "citation": "Genesis 8:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "mense secundo septima et vicesima die mensis arefacta est terra",
+      "citation": "Genesis 8:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "locutus est autem Deus ad Noe dicens",
+      "citation": "Genesis 8:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "egredere de arca tu et uxor tua filii tui et uxores filiorum tuorum tecum",
+      "citation": "Genesis 8:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "cuncta animantia quae sunt apud te ex omni carne tam in volatilibus quam in bestiis et in universis reptilibus quae reptant super terram educ tecum et ingredimini super terram crescite et multiplicamini super eam",
+      "citation": "Genesis 8:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "egressus est ergo Noe et filii eius uxor illius et uxores filiorum eius cum eo",
+      "citation": "Genesis 8:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "sed et omnia animantia iumenta et reptilia quae repunt super terram secundum genus suum arcam egressa sunt",
+      "citation": "Genesis 8:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "aedificavit autem Noe altare Domino et tollens de cunctis pecoribus et volucribus mundis obtulit holocausta super altare",
+      "citation": "Genesis 8:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "odoratusque est Dominus odorem suavitatis et ait ad eum nequaquam ultra maledicam terrae propter homines sensus enim et cogitatio humani cordis in malum prona sunt ab adulescentia sua non igitur ultra percutiam omnem animantem sicut feci",
+      "citation": "Genesis 8:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "cunctis diebus terrae sementis et messis frigus et aestus aestas et hiemps nox et dies non requiescent",
+      "citation": "Genesis 8:22 (Clementine Vulgate)"
+    }
+  ]
+}

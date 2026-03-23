@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Chronicles, Chapter 18 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Chronicles",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 18,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-paralipomenon/17.json",
+      "nextChapter": "https://latinprayer.org/latin/1-paralipomenon/19.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-paralipomenon/18.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/18.json"
+    }
+  },
+  "citation": "1 Chronicles 18 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "factum est autem post haec ut percuteret David Philisthim et humiliaret eos et tolleret Geth et filias eius de manu Philisthim",
+      "citation": "1 Chronicles 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "percuteretque Moab et fierent Moabitae servi David offerentes ei munera",
+      "citation": "1 Chronicles 18:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "eo tempore percussit David etiam Adadezer regem Suba regionis Emath quando perrexit ut dilataret imperium suum usque ad flumen Eufraten",
+      "citation": "1 Chronicles 18:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "cepit ergo David mille quadrigas eius et septem milia equites ac viginti milia virorum peditum subnervavitque omnes equos curruum exceptis centum quadrigis quas reservavit sibi",
+      "citation": "1 Chronicles 18:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "supervenit autem et Syrus damascenus ut auxilium praeberet Adadezer regi Suba sed et huius percussit David viginti duo milia virorum",
+      "citation": "1 Chronicles 18:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et posuit milites in Damasco ut Syria quoque serviret sibi et offerret munera adiuvitque eum Dominus in cunctis ad quae perrexerat",
+      "citation": "1 Chronicles 18:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "tulit quoque David faretras aureas quas habuerant servi Adadezer et adtulit eas in Hierusalem",
+      "citation": "1 Chronicles 18:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "necnon de Thebath et Chun urbibus Adadezer aeris plurimum de quo fecit Salomon mare aeneum et columnas et vasa aenea",
+      "citation": "1 Chronicles 18:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quod cum audisset Thou rex Emath percussisse videlicet David omnem exercitum Adadezer regis Suba",
+      "citation": "1 Chronicles 18:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "misit Aduram filium suum ad regem David ut postularet ab eo pacem et congratularetur ei eo quod expugnasset et percussisset Adadezer adversarius quippe Thou erat Adadezer",
+      "citation": "1 Chronicles 18:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sed et omnia vasa aurea et argentea et aenea consecravit rex David Domino cum argento et auro quod tulerat ex universis gentibus tam de Idumea et Moab et filiis Ammon quam de Philisthim et Amalech",
+      "citation": "1 Chronicles 18:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Abisai vero filius Sarviae percussit Edom in valle Salinarum decem et octo milia",
+      "citation": "1 Chronicles 18:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et constituit in Edom praesidium ut serviret Idumea David salvavitque Dominus David in cunctis ad quae perrexerat",
+      "citation": "1 Chronicles 18:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "regnavit ergo David super universum Israhel et faciebat iudicium atque iustitiam cuncto populo suo",
+      "citation": "1 Chronicles 18:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "porro Ioab filius Sarviae erat super exercitum et Iosaphat filius Ahilud a commentariis",
+      "citation": "1 Chronicles 18:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "Sadoc autem filius Ahitob et Ahimelech filius Abiathar sacerdotes et Susa scriba",
+      "citation": "1 Chronicles 18:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Banaias vero filius Ioiada super legiones Cherethi et Felethi porro filii David primi ad manum regis",
+      "citation": "1 Chronicles 18:17 (Clementine Vulgate)"
+    }
+  ]
+}

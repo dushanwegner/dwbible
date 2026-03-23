@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 40 — 31 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 40,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/39.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/41.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/40.json",
+      "german": "https://latinprayer.org/bibel/isaias/40.json"
+    }
+  },
+  "citation": "Isaias 40 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Be comforted, be comforted, my people, saith your God.",
+      "citation": "Isaias 40:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Speak ye to the heart of Jerusalem, and call to her: for her evil is come to an end, her iniquity is forgiven: she hath received of the hand of the Lord double for all her sins.",
+      "citation": "Isaias 40:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The voice of one crying in the desert: Prepare ye the way of the Lord, make straight in the wilderness the paths of our God.",
+      "citation": "Isaias 40:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Every valley shall be exalted, and every mountain and hill shall be made low, and the crooked shall become straight, and the rough ways plain.",
+      "citation": "Isaias 40:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the glory of the Lord shall be revealed, and all flesh together shall see, that the mouth of the Lord hath spoken.",
+      "citation": "Isaias 40:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The voice of one, saying: Cry. And I said: What shall I cry?  All flesh is grass, and all the glory thereof as the flower of the field.",
+      "citation": "Isaias 40:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The grass is withered, and the flower is fallen, because the spirit of the Lord hath blown upon it. Indeed the people is grass:",
+      "citation": "Isaias 40:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The grass is withered, and the flower is fallen: but the word of our Lord endureth for ever.",
+      "citation": "Isaias 40:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Get thee up upon a high mountain, thou that bringest good tidings to Sion: lift up thy voice with strength, thou that bringest good tidings to Jerusalem: lift it up, fear not. Say to the cities of Juda: Behold your God:",
+      "citation": "Isaias 40:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Behold the Lord God shall come with strength, and his arm shall rule: Behold his reward is with him and his work is before him.",
+      "citation": "Isaias 40:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "He shall feed his flock like a shepherd: he shall gather together the lambs with his arm, and shall take them up in his bosom, and he himself shall carry them that are with young.",
+      "citation": "Isaias 40:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Who hath measured the waters in the hollow of his hand, and weighed the heavens with his palm? who hath poised with three fingers the bulk of the earth, and weighed the mountains in scales, and the hills in a balance?",
+      "citation": "Isaias 40:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Who hath forwarded the spirit of the Lord? or who hath been his counsellor, and hath taught him?",
+      "citation": "Isaias 40:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "With whom hath he consulted, and who hath instructed him, and taught him the path of justice, and taught him knowledge, and shewed him the way of understanding?",
+      "citation": "Isaias 40:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Behold the Gentiles are as a drop of a bucket, and are counted as the smallest grain of a balance: behold the islands are as a little dust.",
+      "citation": "Isaias 40:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And Libanus shall not be enough to burn, nor the beasts thereof sufficient for a burnt offering.",
+      "citation": "Isaias 40:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "All nations are before him as if they had no being at all, and are counted to him as nothing, and vanity.",
+      "citation": "Isaias 40:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "To whom then have you likened God? or what image will you make for him?",
+      "citation": "Isaias 40:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Hath the workman cast a graven statue? or hath the goldsmith formed it with gold, or the silversmith with plates of silver?",
+      "citation": "Isaias 40:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "He hath chosen strong wood, and that will not rot: the skilful workman seeketh how he may set up an idol that may not be moved.",
+      "citation": "Isaias 40:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Do you not know? hath it not been heard? hath it not been told you from the beginning? have you not understood the foundations of the earth?",
+      "citation": "Isaias 40:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "It is he that sitteth upon the globe of the earth, and the inhabitants thereof are as locusts: he that stretcheth out the heavens as nothing, and spreadeth them out as a tent to dwell in.",
+      "citation": "Isaias 40:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "He that bringeth the searchers of secrets to nothing, that hath made the judges of the earth as vanity.",
+      "citation": "Isaias 40:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And surely their stock was neither planted, nor sown, nor rooted in the earth: suddenly he hath blown upon them, and they are withered, and a whirlwind shall take them away as stubble.",
+      "citation": "Isaias 40:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And to whom have ye likened me, or made me equal, saith the Holy One?",
+      "citation": "Isaias 40:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Lift up your eyes on high, and see who hath created these things: who bringeth out their host by number, and calleth them all by their names: by the greatness of his might, and strength, and power, not one of them was missing.",
+      "citation": "Isaias 40:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Why sayest thou, O Jacob, and speakest, O Israel: My way is hid from the Lord, and my judgment is passed over from my God?",
+      "citation": "Isaias 40:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Knowest thou not, or hast thou not heard? the Lord is the everlasting God, who hath created the ends of the earth: he shall not faint, nor labour, neither is there any searching out of his wisdom.",
+      "citation": "Isaias 40:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "It is he that giveth strength to the weary, and increaseth force and might to them that are not.",
+      "citation": "Isaias 40:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "You shall faint, and labour, and young men shall fall by infirmity.",
+      "citation": "Isaias 40:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "But they that hope in the Lord shall renew their strength, they shall take wings as eagles, they shall run and not be weary, they shall walk and not faint.",
+      "citation": "Isaias 40:31 (Douay-Rheims)"
+    }
+  ]
+}

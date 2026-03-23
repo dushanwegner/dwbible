@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 76 — 13 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 76,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/75.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/77.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/76.json",
+      "latin": "https://latinprayer.org/latin/psalms/76.json"
+    }
+  },
+  "citation": "Psalmen 76 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, mit Saitenspiel; ein Psalm von Asaph</em>, <em>ein Lied.</em>",
+      "citation": "Psalmen 76:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Allbekannt ist Gott in Juda, in Israel ist groß sein Name;",
+      "citation": "Psalmen 76:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "in Salem erstand seine Hütte und seine Wohnstatt in Zion.",
+      "citation": "Psalmen 76:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Allda hat er zerbrochen des Bogens Blitze, Schild und Schwert und jegliche Kriegswehr. SELA.",
+      "citation": "Psalmen 76:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ruhmvoll bist du, herrlich von den ewigen Bergen her.",
+      "citation": "Psalmen 76:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ausgeplündert wurden die tapferen Streiter, sanken hin in ihren Todesschlaf, und all den Helden versagte der Arm:",
+      "citation": "Psalmen 76:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "vor deinem Drohruf, du Gott Jakobs, sanken in Betäubung so Wagen wie Rosse.",
+      "citation": "Psalmen 76:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Ja du bist furchtbar, und wer kann bestehn vor dir, sobald dein Zorn entbrannt ist?",
+      "citation": "Psalmen 76:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Vom Himmel her kündigtest du das Gericht an: da erschrak die Erde und wurde still,",
+      "citation": "Psalmen 76:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "als Gott sich erhob zum Gerichtsvollzug, um allen Bedrückten auf Erden zu helfen. SELA.",
+      "citation": "Psalmen 76:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Denn der Menschen Grimm wird dir zum Lobpreis, wenn zuletzt du dich gürtest mit Zornesflammen.",
+      "citation": "Psalmen 76:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Bringt Gelübde dar und erfüllt sie dem HERRN, eurem Gott: alle, die ihn rings umgeben, müssen Geschenke dem Schrecklichen bringen,",
+      "citation": "Psalmen 76:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "ihm, der den Hochmut der Fürsten dämpft und furchtbar ist den Königen der Erde.",
+      "citation": "Psalmen 76:13 (Menge)"
+    }
+  ]
+}

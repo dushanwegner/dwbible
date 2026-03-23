@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 36 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 36,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/35.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/37.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/36.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/36.json"
+    }
+  },
+  "citation": "Sirach 36 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "miserere nostri Deus omnium et respice nos et ostende nobis lucem miserationum tuarum",
+      "citation": "Sirach 36:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et inmitte timorem tuum super gentes quae non exquisierunt te et cognoscant quia non est Deus nisi tu ut enarrent magnalia tua",
+      "citation": "Sirach 36:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "adleva manum tuam super gentes alienas ut videant potentiam tuam",
+      "citation": "Sirach 36:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sicut enim in conspectu eorum sanctificatus es in nobis sic in conspectu nostro magnificaberis in illis",
+      "citation": "Sirach 36:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ut cognoscant te sicut et nos agnovimus quoniam non est Deus praeter te Domine",
+      "citation": "Sirach 36:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "innova signa et inmuta mirabilia",
+      "citation": "Sirach 36:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "glorifica manum et brachium dextrum",
+      "citation": "Sirach 36:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "excita furorem et effunde iram",
+      "citation": "Sirach 36:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "extolle adversarium et adflige inimicum",
+      "citation": "Sirach 36:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "festina tempus et memento finis ut enarrent mirabilia tua",
+      "citation": "Sirach 36:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in ira flammae devoretur qui salvatur et qui pessimant plebem tuam inveniant perditionem",
+      "citation": "Sirach 36:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "contere caput principum inimicorum dicentium non est alius praeter nos",
+      "citation": "Sirach 36:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "congrega omnes tribus Iacob et cognoscant quia non est Deus nisi tu ut enarrent magnalia tua et hereditabis eos sicut ab initio",
+      "citation": "Sirach 36:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "miserere plebi tuae super quam invocatum est nomen tuum et Israhel quem coaequasti primogenito tuo",
+      "citation": "Sirach 36:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "miserere civitati sanctificationis tuae Hierusalem civitati requiei tuae",
+      "citation": "Sirach 36:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "reple Sion inenarrabilibus verbis tuis et gloria tua populum tuum",
+      "citation": "Sirach 36:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "da testimonium quia ab initio creaturae tuae sunt et suscita precationes quas locuti sunt in nomine tuo prophetae priores",
+      "citation": "Sirach 36:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "da mercedem sustinentibus te ut prophetae tui fideles inveniantur et exaudi orationes servorum tuorum",
+      "citation": "Sirach 36:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "secundum benedictionem Aaron de populo tuo et dirige nos in via iustitiae et sciant omnes qui inhabitant terram quia tu es Deus conspector saeculorum",
+      "citation": "Sirach 36:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "omnem escam manducabit venter et est cibus cibo melior",
+      "citation": "Sirach 36:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "fauces contingit cibum ferae et cor sensatum verba mendacia",
+      "citation": "Sirach 36:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "cor pravum dabit tristitiam et homo peritus resistet illi",
+      "citation": "Sirach 36:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "omnem masculum excipiet mulier et est filia melior filiae",
+      "citation": "Sirach 36:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "species mulieris exhilarat faciem viri sui et super omnem concupiscentiam hominis superducit desiderium",
+      "citation": "Sirach 36:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "si est lingua curationis et mitigationis misericordiae non est vir illius contra filios hominum",
+      "citation": "Sirach 36:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "qui possidet mulierem inchoat possessionem adiutorium contra illum est et columna ut requies",
+      "citation": "Sirach 36:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "ubi non est sepis diripietur possessio et ubi non est mulier gemescit egens",
+      "citation": "Sirach 36:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "cui credit qui non habet nidum et deflectens ubicumque obscuraverit quasi succinctus latro exiliens de civitate in civitatem",
+      "citation": "Sirach 36:28 (Clementine Vulgate)"
+    }
+  ]
+}

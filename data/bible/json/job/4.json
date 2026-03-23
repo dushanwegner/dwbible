@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 4 — 21 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 4,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/3.json",
+      "nextChapter": "https://latinprayer.org/bible/job/5.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/4.json",
+      "german": "https://latinprayer.org/bibel/job/4.json"
+    }
+  },
+  "citation": "Job 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Then Eliphaz, the Themanite, answered, and said:",
+      "citation": "Job 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "If we begin to speak to thee, perhaps thou wilt take it ill; but who can withhold the words he hath conceived?",
+      "citation": "Job 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Behold thou hast taught many, and thou hast strengthened the weary hands:",
+      "citation": "Job 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Thy words have confirmed them that were staggering, and thou hast strengthened the trembling knees:",
+      "citation": "Job 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But now the scourge is come upon thee, and thou faintest: It hath touched thee, and thou art troubled.",
+      "citation": "Job 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Where is thy fear, thy fortitude, thy patience, and the perfection of thy ways?",
+      "citation": "Job 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Remember, I pray thee, who ever perished being innocent? or when were the just destroyed?",
+      "citation": "Job 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "On the contrary, I have seen those who work iniquity, and sow sorrows, and reap them,",
+      "citation": "Job 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Perishing by the blast of God, and consumed by the spirit of his wrath.",
+      "citation": "Job 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The roaring of the lion, and the voice of the lioness, and the teeth of the whelps of lions, are broken:",
+      "citation": "Job 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The tiger hath perished for want of prey, and the young lions are scattered abroad.",
+      "citation": "Job 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Now there was a word spoken to me in private, and my ears by stealth, as it were, received the veins of its whisper.",
+      "citation": "Job 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "In the horror of a vision by night, when deep sleep is wont to hold men,",
+      "citation": "Job 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Fear seized upon me, and trembling, and all my bones were affrighted:",
+      "citation": "Job 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And when a spirit passed before me, the hair of my flesh stood up.",
+      "citation": "Job 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "There stood one whose countenance I knew not, an image before my eyes, and I heard the voice, as it were, of a gentle wind.",
+      "citation": "Job 4:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Shall man be justified in comparison of God, or shall a man be more pure than his maker?",
+      "citation": "Job 4:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Behold, they that serve him are not steadfast, and in his angels he found wickedness:",
+      "citation": "Job 4:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "How much more shall they that dwell in houses of clay, who have an earthly foundation, be consumed as with the moth?",
+      "citation": "Job 4:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "From morning till evening they shall be cut down: and because no one understandeth, they shall perish for ever.",
+      "citation": "Job 4:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And they that shall be left, shall be taken away from them: they shall die, and not in wisdom.",
+      "citation": "Job 4:21 (Douay-Rheims)"
+    }
+  ]
+}

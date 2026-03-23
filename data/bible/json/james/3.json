@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "James, Chapter 3 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "James",
+      "slug": "james",
+      "testament": "NT",
+      "order": 66,
+      "totalChapters": 5
+    },
+    "chapter": 3,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/james/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/james/2.json",
+      "nextChapter": "https://latinprayer.org/bible/james/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/james/3.json",
+      "german": "https://latinprayer.org/bibel/james/3.json"
+    }
+  },
+  "citation": "James 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Be ye not many masters, my brethren, knowing that you receive the greater judgment.",
+      "citation": "James 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For in many things we all offend. If any man offend not in word, the same is a perfect man. He is able also with a bridle to lead about the whole body.",
+      "citation": "James 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For if we put bits into the mouths of horses, that they may obey us: and we turn about their whole body.",
+      "citation": "James 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Behold also ships, whereas they are great and are driven by strong winds, yet are they turned about with a small helm, whithersoever the force of the governor willeth.",
+      "citation": "James 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Even so the tongue is indeed a little member and boasteth great things. Behold how small a fire kindleth a great wood.",
+      "citation": "James 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the tongue is a fire, a world of iniquity. The tongue is placed among our members, which defileth the whole body and inflameth the wheel of our nativity, being set on fire by hell.",
+      "citation": "James 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For every nature of beasts and of birds and of serpents and of the rest is tamed and hath been tamed, by the nature of man.",
+      "citation": "James 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But the tongue no man can tame, an unquiet evil, full of deadly poison.",
+      "citation": "James 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "By it we bless God and the Father: and by it we curse men who are made after the likeness of God.",
+      "citation": "James 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Out of the same mouth proceedeth blessing and cursing. My brethren, these things ought not so to be.",
+      "citation": "James 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Doth a fountain send forth, out of the same hole, sweet and bitter water?",
+      "citation": "James 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Can the fig tree, my brethren, bear grapes? Or the vine, figs? So neither can the salt water yield sweet.",
+      "citation": "James 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Who is a wise man and endued with knowledge, among you? Let him shew, by a good contestation, his work in the meekness of wisdom.",
+      "citation": "James 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But if you have bitter zeal, and there be contention in your hearts: glory not and be not liars against the truth.",
+      "citation": "James 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For this is not wisdom, descending from above: but earthly, sensual, devilish.",
+      "citation": "James 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "For where envying and contention is: there is inconstancy and every evil work.",
+      "citation": "James 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But the wisdom that is from above, first indeed is chaste, then peaceable, modest, easy to be persuaded, consenting to the good, full of mercy and good fruits, without judging, without dissimulation.",
+      "citation": "James 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And the fruit of justice is sown in peace, to them that make peace.",
+      "citation": "James 3:18 (Douay-Rheims)"
+    }
+  ]
+}

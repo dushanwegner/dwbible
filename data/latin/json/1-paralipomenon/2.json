@@ -1,0 +1,311 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Chronicles, Chapter 2 — 55 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Chronicles",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 2,
+    "verseCount": 55,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-paralipomenon/1.json",
+      "nextChapter": "https://latinprayer.org/latin/1-paralipomenon/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-paralipomenon/2.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/2.json"
+    }
+  },
+  "citation": "1 Chronicles 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "filii autem Israhel Ruben Symeon Levi Iuda Isachar et Zabulon",
+      "citation": "1 Chronicles 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Dan Ioseph Beniamin Nepthali Gad Aser",
+      "citation": "1 Chronicles 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "filii Iuda Her Aunan Sela tres nati sunt ei de filia Sue Chananitidis fuit autem Her primogenitus Iuda malus coram Domino et occidit eum",
+      "citation": "1 Chronicles 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Thamar autem nurus eius peperit ei Phares et Zara omnes ergo filii Iuda quinque",
+      "citation": "1 Chronicles 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "filii autem Phares Esrom et Hamul",
+      "citation": "1 Chronicles 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "filii quoque Zarae Zamri et Ethan et Eman Chalchal quoque et Darda simul quinque",
+      "citation": "1 Chronicles 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "filii Carmi Achar qui turbavit Israhel et peccavit in furto anathematis",
+      "citation": "1 Chronicles 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "filii Ethan Azarias",
+      "citation": "1 Chronicles 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "filii autem Esrom qui nati sunt ei Ieremahel et Ram et Chalubi",
+      "citation": "1 Chronicles 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "porro Ram genuit Aminadab Aminadab autem genuit Naasson principem filiorum Iuda",
+      "citation": "1 Chronicles 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Naasson quoque genuit Salma de quo ortus est Boez",
+      "citation": "1 Chronicles 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Boez vero genuit Obed qui et ipse genuit Isai",
+      "citation": "1 Chronicles 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "Isai autem genuit primogenitum Heliab secundum Abinadab tertium Samaa",
+      "citation": "1 Chronicles 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quartum Nathanahel quintum Raddai",
+      "citation": "1 Chronicles 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "sextum Asom septimum David",
+      "citation": "1 Chronicles 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quorum sorores fuerunt Sarvia et Abigail filii Sarviae Abisai Ioab et Asahel tres",
+      "citation": "1 Chronicles 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Abigail autem genuit Amasa cuius pater fuit Iether Ismahelites",
+      "citation": "1 Chronicles 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "Chaleb vero filius Esrom accepit uxorem nomine Azuba de qua genuit Ierioth fueruntque filii eius Iesar et Sobab et Ardon",
+      "citation": "1 Chronicles 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "cumque mortua fuisset Azuba accepit uxorem Chaleb Ephrath quae peperit ei Ur",
+      "citation": "1 Chronicles 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "porro Ur genuit Uri et Uri genuit Beselehel",
+      "citation": "1 Chronicles 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "post haec ingressus est Esrom ad filiam Machir patris Galaad et accepit eam cum esset annorum sexaginta quae peperit ei Segub",
+      "citation": "1 Chronicles 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "sed et Segub genuit Iair et possedit viginti tres civitates in terra Galaad",
+      "citation": "1 Chronicles 2:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "cepitque Gessur et Aram oppida Iair et Canath et viculos eius sexaginta civitatum omnes isti filii Machir patris Galaad",
+      "citation": "1 Chronicles 2:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "cum autem mortuus esset Esrom ingressus est Chaleb ad Ephrata habuit quoque Esrom uxorem Abia quae peperit ei Assur patrem Thecue",
+      "citation": "1 Chronicles 2:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "nati sunt autem filii Hieramehel primogeniti Esrom Ram primogenitus eius et Buna et Aran et Asom et Ahia",
+      "citation": "1 Chronicles 2:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "duxit quoque uxorem alteram Hieramehel nomine Atara quae fuit mater Onam",
+      "citation": "1 Chronicles 2:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "sed et filii Ram primogeniti Hieramehel fuerunt Moos et Iamin et Achar",
+      "citation": "1 Chronicles 2:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "Onam autem habuit filios Semmei et Iada filii autem Semmei Nadab et Abisur",
+      "citation": "1 Chronicles 2:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "nomen vero uxoris Abisur Abiail quae peperit Ahobban et Molid",
+      "citation": "1 Chronicles 2:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "filii autem Nadab fuerunt Saled et Apphaim mortuus est autem Saled absque liberis",
+      "citation": "1 Chronicles 2:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "filius vero Apphaim Iesi qui Iesi genuit Sesan porro Sesan genuit Oholi",
+      "citation": "1 Chronicles 2:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "filii autem Iada fratris Semmei Iether et Ionathan sed et Iether mortuus est absque liberis",
+      "citation": "1 Chronicles 2:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "porro Ionathan genuit Phaleth et Ziza isti fuerunt filii Hieramehel",
+      "citation": "1 Chronicles 2:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "Sesan autem non habuit filios sed filias et servum aegyptium nomine Ieraa",
+      "citation": "1 Chronicles 2:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "deditque ei filiam suam uxorem quae peperit ei Eththei",
+      "citation": "1 Chronicles 2:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "Eththei autem genuit Nathan et Nathan genuit Zabad",
+      "citation": "1 Chronicles 2:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "Zabad quoque genuit Ophlal et Ophlal genuit Obed",
+      "citation": "1 Chronicles 2:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "Obed genuit Ieu Ieu genuit Azariam",
+      "citation": "1 Chronicles 2:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "Azarias genuit Helles Helles genuit Elasa",
+      "citation": "1 Chronicles 2:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "Elasa genuit Sisamoi Sisamoi genuit Sellum",
+      "citation": "1 Chronicles 2:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "Sellum genuit Icamian Icamian genuit Elisama",
+      "citation": "1 Chronicles 2:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "filii autem Chaleb fratris Hieramehel Mosa primogenitus eius ipse est pater Ziph et filii Maresa patris Hebron",
+      "citation": "1 Chronicles 2:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "porro filii Hebron Core et Thapphu et Recem et Samma",
+      "citation": "1 Chronicles 2:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "Samma autem genuit Raam patrem Iercaam et Recem genuit Semmei",
+      "citation": "1 Chronicles 2:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "filius Semmei Maon et Maon pater Bethsur",
+      "citation": "1 Chronicles 2:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "Epha autem concubina Chaleb peperit Arran et Musa et Gezez porro Arran genuit Gezez",
+      "citation": "1 Chronicles 2:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "filii Iadai Regom et Iotham et Gesum et Phaleth et Epha et Saaph",
+      "citation": "1 Chronicles 2:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "concubina Chaleb Maacha peperit Saber et Tharana",
+      "citation": "1 Chronicles 2:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "genuit autem Saaph pater Madmena Sue patrem Machbena et patrem Gabaa filia vero Chaleb fuit Achsa",
+      "citation": "1 Chronicles 2:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "hii erant filii Chaleb filii Ur primogeniti Ephrata Sobal pater Cariathiarim",
+      "citation": "1 Chronicles 2:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "Salma pater Bethleem Ariph pater Bethgader",
+      "citation": "1 Chronicles 2:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "fuerunt autem filii Sobal patris Cariathiarim qui videbat dimidium requietionum",
+      "citation": "1 Chronicles 2:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "et de cognatione Cariathiarim Iethrei et Apphutei et Semathei et Maserei ex his egressi sunt Saraitae et Esthaolitae",
+      "citation": "1 Chronicles 2:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "filii Salma Bethleem et Netophathi coronae domus Ioab et dimidium requietionis Sarai",
+      "citation": "1 Chronicles 2:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "cognationes quoque scribarum habitantium in Iabis canentes atque resonantes et in tabernaculis commorantes hii sunt Cinei qui venerunt de calore patris domus Rechab",
+      "citation": "1 Chronicles 2:55 (Clementine Vulgate)"
+    }
+  ]
+}

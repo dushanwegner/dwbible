@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 120 — 7 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 120,
+    "verseCount": 7,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/119.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/121.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/120.json",
+      "latin": "https://latinprayer.org/latin/psalms/120.json"
+    }
+  },
+  "citation": "Psalmen 120 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Wallfahrtslied</em></em>. Ich rief zum HERRN in meiner Not: da erhörte er mich.",
+      "citation": "Psalmen 120:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "O HERR, errette mich von der Lügenlippe, von der trügerischen Zunge!",
+      "citation": "Psalmen 120:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Was wird Er dir jetzt und in Zukunft bescheren, du trügerische Zunge?",
+      "citation": "Psalmen 120:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Geschärfte Kriegerpfeile samt Kohlen vom Ginsterstrauch!",
+      "citation": "Psalmen 120:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Wehe mir, daß ich als Fremdling in Mesech weile, daß ich wohne bei den Zelten von Kedar!",
+      "citation": "Psalmen 120:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Lange genug schon weile ich hier bei Leuten, die den Frieden hassen.",
+      "citation": "Psalmen 120:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ich bin ganz friedlich gestimmt, doch was ich auch rede: sie gehen auf Krieg aus.",
+      "citation": "Psalmen 120:7 (Menge)"
+    }
+  ]
+}

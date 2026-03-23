@@ -1,0 +1,291 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 12 — 51 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 12,
+    "verseCount": 51,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/11.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/12.json",
+      "german": "https://latinprayer.org/bibel/exodus/12.json"
+    }
+  },
+  "citation": "Exodus 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "dixit quoque Dominus ad Mosen et Aaron in terra Aegypti",
+      "citation": "Exodus 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "mensis iste vobis principium mensuum primus erit in mensibus anni",
+      "citation": "Exodus 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "loquimini ad universum coetum filiorum Israhel et dicite eis decima die mensis huius tollat unusquisque agnum per familias et domos suas",
+      "citation": "Exodus 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sin autem minor est numerus ut sufficere possit ad vescendum agnum adsumet vicinum suum qui iunctus est domui eius iuxta numerum animarum quae sufficere possunt ad esum agni",
+      "citation": "Exodus 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "erit autem agnus absque macula masculus anniculus iuxta quem ritum tolletis et hedum",
+      "citation": "Exodus 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et servabitis eum usque ad quartamdecimam diem mensis huius immolabitque eum universa multitudo filiorum Israhel ad vesperam",
+      "citation": "Exodus 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et sument de sanguine ac ponent super utrumque postem et in superliminaribus domorum in quibus comedent illum",
+      "citation": "Exodus 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et edent carnes nocte illa assas igni et azymos panes cum lactucis agrestibus",
+      "citation": "Exodus 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "non comedetis ex eo crudum quid nec coctum aqua sed assum tantum igni caput cum pedibus eius et intestinis vorabitis",
+      "citation": "Exodus 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "nec remanebit ex eo quicquam usque mane si quid residui fuerit igne conburetis",
+      "citation": "Exodus 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sic autem comedetis illum renes vestros accingetis calciamenta habebitis in pedibus tenentes baculos in manibus et comedetis festinantes est enim phase id est transitus Domini",
+      "citation": "Exodus 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et transibo per terram Aegypti nocte illa percutiamque omne primogenitum in terra Aegypti ab homine usque ad pecus et in cunctis diis Aegypti faciam iudicia ego Dominus",
+      "citation": "Exodus 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "erit autem sanguis vobis in signum in aedibus in quibus eritis et videbo sanguinem ac transibo vos nec erit in vobis plaga disperdens quando percussero terram Aegypti",
+      "citation": "Exodus 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "habebitis autem hanc diem in monumentum et celebrabitis eam sollemnem Domino in generationibus vestris cultu sempiterno",
+      "citation": "Exodus 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "septem diebus azyma comedetis in die primo non erit fermentum in domibus vestris quicumque comederit fermentatum peribit anima illa de Israhel a primo die usque ad diem septimum",
+      "citation": "Exodus 12:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "dies prima erit sancta atque sollemnis et dies septima eadem festivitate venerabilis nihil operis facietis in eis exceptis his quae ad vescendum pertinent",
+      "citation": "Exodus 12:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et observabitis azyma in eadem enim ipsa die educam exercitum vestrum de terra Aegypti et custodietis diem istum in generationes vestras ritu perpetuo",
+      "citation": "Exodus 12:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "primo mense quartadecima die mensis ad vesperam comedetis azyma usque ad diem vicesimam primam eiusdem mensis ad vesperam",
+      "citation": "Exodus 12:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "septem diebus fermentum non invenietur in domibus vestris qui comederit fermentatum peribit anima eius de coetu Israhel tam de advenis quam de indigenis terrae",
+      "citation": "Exodus 12:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "omne fermentatum non comedetis in cunctis habitaculis vestris edetis azyma",
+      "citation": "Exodus 12:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "vocavit autem Moses omnes seniores filiorum Israhel et dixit ad eos ite tollentes animal per familias vestras immolate phase",
+      "citation": "Exodus 12:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "fasciculumque hysopi tinguite sanguine qui est in limine et aspergite ex eo superliminare et utrumque postem nullus vestrum egrediatur ostium domus suae usque mane",
+      "citation": "Exodus 12:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "transibit enim Dominus percutiens Aegyptios cumque viderit sanguinem in superliminari et in utroque poste transcendet ostium et non sinet percussorem ingredi domos vestras et laedere",
+      "citation": "Exodus 12:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "custodi verbum istud legitimum tibi et filiis tuis usque in aeternum",
+      "citation": "Exodus 12:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "cumque introieritis terram quam Dominus daturus est vobis ut pollicitus est observabitis caerimonias istas",
+      "citation": "Exodus 12:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et cum dixerint vobis filii vestri quae est ista religio",
+      "citation": "Exodus 12:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "dicetis eis victima transitus Domini est quando transivit super domos filiorum Israhel in Aegypto percutiens Aegyptios et domos nostras liberans incurvatusque populus adoravit",
+      "citation": "Exodus 12:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et egressi filii Israhel fecerunt sicut praeceperat Dominus Mosi et Aaron",
+      "citation": "Exodus 12:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "factum est autem in noctis medio percussit Dominus omne primogenitum in terra Aegypti a primogenito Pharaonis qui sedebat in solio eius usque ad primogenitum captivae quae erat in carcere et omne primogenitum iumentorum",
+      "citation": "Exodus 12:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "surrexitque Pharao nocte et omnes servi eius cunctaque Aegyptus et ortus est clamor magnus in Aegypto neque enim erat domus in qua non iaceret mortuus",
+      "citation": "Exodus 12:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "vocatisque Mosen et Aaron nocte ait surgite egredimini a populo meo et vos et filii Israhel ite immolate Domino sicut dicitis",
+      "citation": "Exodus 12:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "oves vestras et armenta adsumite ut petieratis et abeuntes benedicite mihi",
+      "citation": "Exodus 12:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "urguebantque Aegyptii populum de terra exire velociter dicentes omnes moriemur",
+      "citation": "Exodus 12:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "tulit igitur populus conspersam farinam antequam fermentaretur et ligans in palliis posuit super umeros suos",
+      "citation": "Exodus 12:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "feceruntque filii Israhel sicut praeceperat Moses et petierunt ab Aegyptiis vasa argentea et aurea vestemque plurimam",
+      "citation": "Exodus 12:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "dedit autem Dominus gratiam populo coram Aegyptiis ut commodarent eis et spoliaverunt Aegyptios",
+      "citation": "Exodus 12:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "profectique sunt filii Israhel de Ramesse in Soccoth sescenta ferme milia peditum virorum absque parvulis",
+      "citation": "Exodus 12:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "sed et vulgus promiscuum innumerabile ascendit cum eis oves et armenta et animantia diversi generis multa nimis",
+      "citation": "Exodus 12:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "coxeruntque farinam quam dudum conspersam de Aegypto tulerant et fecerunt subcinericios panes azymos neque enim poterant fermentari cogentibus exire Aegyptiis et nullam facere sinentibus moram nec pulmenti quicquam occurrerant praeparare",
+      "citation": "Exodus 12:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "habitatio autem filiorum Israhel qua manserant in Aegypto fuit quadringentorum triginta annorum",
+      "citation": "Exodus 12:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "quibus expletis eadem die egressus est omnis exercitus Domini de terra Aegypti",
+      "citation": "Exodus 12:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "nox est ista observabilis Domini quando eduxit eos de terra Aegypti hanc observare debent omnes filii Israhel in generationibus suis",
+      "citation": "Exodus 12:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "dixitque Dominus ad Mosen et Aaron haec est religio phase omnis alienigena non comedet ex eo",
+      "citation": "Exodus 12:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "omnis autem servus empticius circumcidetur et sic comedet",
+      "citation": "Exodus 12:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "advena et mercennarius non edent ex eo",
+      "citation": "Exodus 12:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "in una domo comedetur nec efferetis de carnibus eius foras nec os illius confringetis",
+      "citation": "Exodus 12:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "omnis coetus filiorum Israhel faciet illud",
+      "citation": "Exodus 12:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "quod si quis peregrinorum in vestram voluerit transire coloniam et facere phase Domini circumcidetur prius omne masculinum eius et tunc rite celebrabit eritque sicut indigena terrae si quis autem circumcisus non fuerit non vescetur ex eo",
+      "citation": "Exodus 12:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "eadem lex erit indigenae et colono qui peregrinatur apud vos",
+      "citation": "Exodus 12:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "fecerunt omnes filii Israhel sicut praeceperat Dominus Mosi et Aaron",
+      "citation": "Exodus 12:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "et in eadem die eduxit Dominus filios Israhel de terra Aegypti per turmas suas",
+      "citation": "Exodus 12:51 (Clementine Vulgate)"
+    }
+  ]
+}

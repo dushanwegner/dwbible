@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joel, Chapter 8 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joel",
+      "slug": "joel",
+      "testament": "OT",
+      "order": 34,
+      "totalChapters": 9
+    },
+    "chapter": 8,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/joel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/joel/7.json",
+      "nextChapter": "https://latinprayer.org/latin/joel/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/joel/8.json",
+      "german": "https://latinprayer.org/bibel/joel/8.json"
+    }
+  },
+  "citation": "Joel 8 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "haec ostendit mihi Dominus Deus et ecce uncinus pomorum",
+      "citation": "Joel 8:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et dixit quid tu vides Amos et dixi uncinum pomorum et dixit Dominus ad me venit finis super populum meum Israhel non adiciam ultra ut pertranseam eum",
+      "citation": "Joel 8:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et stridebunt cardines templi in die illa dicit Dominus Deus multi morientur in omni loco proicietur silentium",
+      "citation": "Joel 8:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "audite hoc qui conteritis pauperem et deficere facitis egenos terrae",
+      "citation": "Joel 8:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "dicentes quando transibit mensis et venundabimus merces et sabbatum et aperiemus frumentum ut inminuamus mensuram et augeamus siclum et subponamus stateras dolosas",
+      "citation": "Joel 8:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ut possideamus in argento egenos et pauperes pro calciamentis et quisquilias frumenti vendamus",
+      "citation": "Joel 8:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "iuravit Dominus in superbia Iacob si oblitus fuero usque ad finem omnia opera eorum",
+      "citation": "Joel 8:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "numquid super isto non commovebitur terra et lugebit omnis habitator eius et ascendet quasi fluvius universus et eicietur et defluet quasi rivus Aegypti",
+      "citation": "Joel 8:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et erit in die illa dicit Dominus occidet sol meridie et tenebrescere faciam terram in die luminis",
+      "citation": "Joel 8:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et convertam festivitates vestras in luctum et omnia cantica vestra in planctum et inducam super omne dorsum vestrum saccum et super omne caput calvitium et ponam eam quasi luctum unigeniti et novissima eius quasi diem amarum",
+      "citation": "Joel 8:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ecce dies veniunt dicit Dominus et mittam famem in terram non famem panis neque sitim aquae sed audiendi verbum Domini",
+      "citation": "Joel 8:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et commovebuntur a mari usque ad mare et ab aquilone usque ad orientem circumibunt quaerentes verbum Domini et non invenient",
+      "citation": "Joel 8:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "in die illa deficient virgines pulchrae et adulescentes in siti",
+      "citation": "Joel 8:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "qui iurant in delicto Samariae et dicunt vivit deus tuus Dan et vivit via Bersabee et cadent et non resurgent ultra",
+      "citation": "Joel 8:14 (Clementine Vulgate)"
+    }
+  ]
+}

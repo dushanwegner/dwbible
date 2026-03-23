@@ -1,0 +1,261 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Mark, Chapter 1 — 45 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Mark",
+      "slug": "mark",
+      "testament": "NT",
+      "order": 48,
+      "totalChapters": 16
+    },
+    "chapter": 1,
+    "verseCount": 45,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/mark/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bible/mark/2.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/mark/1.json",
+      "german": "https://latinprayer.org/bibel/mark/1.json"
+    }
+  },
+  "citation": "Mark 1 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The beginning of the gospel of Jesus Christ, the Son of God.",
+      "citation": "Mark 1:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "As it is written in Isaias the prophet: Behold I send my angel before thy face, who shall prepare the way before thee.",
+      "citation": "Mark 1:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "A voice of one crying in the desert: Prepare ye the way of the Lord; make straight his paths.",
+      "citation": "Mark 1:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "John was in the desert, baptizing and preaching the baptism of penance, unto remission of sins.",
+      "citation": "Mark 1:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And there went out to him all the country of Judea and all they of Jerusalem and were baptized by him in the river of Jordan, confessing their sins.",
+      "citation": "Mark 1:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And John was clothed camel's hair, and a leathern girdle about his loins: and he ate locusts and wild honey.",
+      "citation": "Mark 1:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And he preached, saying: There cometh after me one mightier than I, the latchet of whose shoes I am not worthy to stoop down and loose.",
+      "citation": "Mark 1:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "I have baptized you with water: but he shall baptize you with the Holy Ghost.",
+      "citation": "Mark 1:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And it came to pass, in those days, Jesus came from Nazareth of Galilee and was baptized by John in Jordan.",
+      "citation": "Mark 1:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And forthwith coming up out of the water, he saw the heavens open and the Spirit as a dove descending and remaining on him.",
+      "citation": "Mark 1:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And there came a voice from heaven: Thou art my beloved Son; in thee I am well pleased.",
+      "citation": "Mark 1:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And immediately the Spirit drove him out into the desert.",
+      "citation": "Mark 1:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And he was in the desert forty days and forty nights, and was tempted by Satan. And he was with beasts: and the angels ministered to him.",
+      "citation": "Mark 1:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And after that John was delivered up, Jesus came in Galilee, preaching the gospel of the kingdom of God,",
+      "citation": "Mark 1:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And saying: The time is accomplished and the kingdom of God is at hand. Repent and believe the gospel:",
+      "citation": "Mark 1:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And passing by the sea of Galilee, he saw Simon and Andrew his brother, casting nets into the sea for they were fishermen.",
+      "citation": "Mark 1:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And Jesus said to them: Come after me; and I will make you to become fishers of men.",
+      "citation": "Mark 1:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And immediately leaving their nets, they followed him.",
+      "citation": "Mark 1:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And going on from thence a little farther, he saw James the son of Zebedee and John his brother, who also were mending their nets in the ship:",
+      "citation": "Mark 1:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And forthwith he called them. And leaving their father Zebedee in the ship with his hired men, they followed him.",
+      "citation": "Mark 1:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And they entered into Capharnaum: and forthwith upon the sabbath days going into the synagogue, he taught them.",
+      "citation": "Mark 1:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And they were astonished at his doctrine. For he was teaching them as one having power, and not as the scribes.",
+      "citation": "Mark 1:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And there was in their synagogue a man with an unclean spirit; and he cried out,",
+      "citation": "Mark 1:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Saying: What have we to do with thee, Jesus of Nazareth?  Art thou come to destroy us? I know who thou art, the Holy One of God.",
+      "citation": "Mark 1:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And Jesus threatened him, saying: Speak no more, and go out of the man.",
+      "citation": "Mark 1:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And the unclean spirit, tearing him and crying out with a loud voice, went out of him.",
+      "citation": "Mark 1:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And they were all amazed insomuch that they questioned among themselves, saying: What thing is this? What is this new doctrine? For with power he commandeth even the unclean spirits: and they obey him.",
+      "citation": "Mark 1:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And the fame of him was spread forthwith into all the country of Galilee.",
+      "citation": "Mark 1:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And immediately going out of the synagogue they came into the house of Simon and Andrew, with James and John.",
+      "citation": "Mark 1:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And Simon's wife's mother lay in a fit of a fever: and forthwith they tell him of her.",
+      "citation": "Mark 1:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And coming to her, he lifted her up, taking her by the hand; and immediately the fever left her, and she ministered unto them.",
+      "citation": "Mark 1:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And when it was evening, after sunset, they brought to him all that were ill and that were possessed with devils.",
+      "citation": "Mark 1:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And all the city was gathered together at the door.",
+      "citation": "Mark 1:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And he healed many that were troubled with divers diseases.  And he cast out many devils: and he suffered them not to speak, because they knew him.",
+      "citation": "Mark 1:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And rising very early, going out, he went into a desert place: and there he prayed.",
+      "citation": "Mark 1:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And Simon and they that were with him followed after him.",
+      "citation": "Mark 1:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And when they had found him, they said to him: All seek for thee.",
+      "citation": "Mark 1:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And he saith to them: Let us go into the neighbouring towns and cities, that I may preach there also; for to this purpose am I come.",
+      "citation": "Mark 1:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And he was preaching in their synagogues and in all Galilee and casting out devils.",
+      "citation": "Mark 1:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And there came a leper to him, beseeching him and kneeling down, said to him: If thou wilt thou canst make me clean.",
+      "citation": "Mark 1:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And Jesus, having compassion on him, stretched forth his hand and touching him saith to him: I will. Be thou made clean.",
+      "citation": "Mark 1:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And when he had spoken, immediately the leprosy departed from him: and he was made clean.",
+      "citation": "Mark 1:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And he strictly charged him and forthwith sent him away.",
+      "citation": "Mark 1:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "And he saith to him: See thou tell no one; but go, shew thyself to the high priest and offer for thy cleansing the things that Moses commanded, for a testimony to them.",
+      "citation": "Mark 1:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "But he being gone out, began to publish and to blaze abroad the word: so that he could not openly go into the city, but was without in desert places. And they flocked to him from all sides.",
+      "citation": "Mark 1:45 (Douay-Rheims)"
+    }
+  ]
+}

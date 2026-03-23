@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joel — 4 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joel",
+      "slug": "joel",
+      "testament": "OT",
+      "order": 34,
+      "totalChapters": 4
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/joel/index.json",
+      "german": "https://latinprayer.org/bibel/joel/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/bible/joel/1",
+      "jsonUrl": "https://latinprayer.org/bible/joel/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/bible/joel/2",
+      "jsonUrl": "https://latinprayer.org/bible/joel/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 5,
+      "url": "https://latinprayer.org/bible/joel/3",
+      "jsonUrl": "https://latinprayer.org/bible/joel/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bible/joel/4",
+      "jsonUrl": "https://latinprayer.org/bible/joel/4.json"
+    }
+  ]
+}

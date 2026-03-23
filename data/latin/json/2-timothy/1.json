@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Timothy, Chapter 1 — 16 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Timothy",
+      "slug": "2-timothy",
+      "testament": "NT",
+      "order": 62,
+      "totalChapters": 7
+    },
+    "chapter": 1,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-timothy/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/2-timothy/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-timothy/1.json",
+      "german": "https://latinprayer.org/bibel/2-timothy/1.json"
+    }
+  },
+  "citation": "2 Timothy 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Paulus servus Dei apostolus autem Iesu Christi secundum fidem electorum Dei et agnitionem veritatis quae secundum pietatem est",
+      "citation": "2 Timothy 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in spem vitae aeternae quam promisit qui non mentitur Deus ante tempora saecularia",
+      "citation": "2 Timothy 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "manifestavit autem temporibus suis verbum suum in praedicatione quae credita est mihi secundum praeceptum salvatoris nostri Dei",
+      "citation": "2 Timothy 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Tito dilecto filio secundum communem fidem gratia et pax a Deo Patre et Christo Iesu salvatore nostro",
+      "citation": "2 Timothy 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "huius rei gratia reliqui te Cretae ut ea quae desunt corrigas et constituas per civitates presbyteros sicut ego tibi disposui",
+      "citation": "2 Timothy 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "si quis sine crimine est unius uxoris vir filios habens fideles non in accusatione luxuriae aut non subditos",
+      "citation": "2 Timothy 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "oportet enim episcopum sine crimine esse sicut Dei dispensatorem non superbum non iracundum non vinolentum non percussorem non turpilucri cupidum",
+      "citation": "2 Timothy 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sed hospitalem benignum sobrium iustum sanctum continentem",
+      "citation": "2 Timothy 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "amplectentem eum qui secundum doctrinam est fidelem sermonem ut potens sit et exhortari in doctrina sana et eos qui contradicunt arguere",
+      "citation": "2 Timothy 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "sunt enim multi et inoboedientes vaniloqui et seductores maxime qui de circumcisione sunt",
+      "citation": "2 Timothy 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quos oportet redargui qui universas domos subvertunt docentes quae non oportet turpis lucri gratia",
+      "citation": "2 Timothy 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "dixit quidam ex illis proprius ipsorum propheta Cretenses semper mendaces malae bestiae ventres pigri",
+      "citation": "2 Timothy 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "testimonium hoc verum est quam ob causam increpa illos dure ut sani sint in fide",
+      "citation": "2 Timothy 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "non intendentes iudaicis fabulis et mandatis hominum aversantium se a veritate",
+      "citation": "2 Timothy 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "omnia munda mundis coinquinatis autem et infidelibus nihil mundum sed inquinatae sunt eorum et mens et conscientia",
+      "citation": "2 Timothy 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "confitentur se nosse Deum factis autem negant cum sunt abominati et incredibiles et ad omne opus bonum reprobi",
+      "citation": "2 Timothy 1:16 (Clementine Vulgate)"
+    }
+  ]
+}

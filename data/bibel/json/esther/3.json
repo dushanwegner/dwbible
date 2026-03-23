@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Esther, Chapter 3 — 15 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Esther",
+      "slug": "esther",
+      "testament": "OT",
+      "order": 19,
+      "totalChapters": 10
+    },
+    "chapter": 3,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/esther/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/esther/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/esther/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/esther/3.json",
+      "latin": "https://latinprayer.org/latin/esther/3.json"
+    }
+  },
+  "citation": "Esther 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Nach diesen Begebenheiten erhob der König Ahasveros den Agagiten Haman, den Sohn Hammedathas, zu den höchsten Ehren und Würden und wies ihm seinen Stuhl über dem aller Fürsten in seiner Umgebung an.",
+      "citation": "Esther 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "So mußten denn alle Diener des Königs, die sich am königlichen Hofe befanden, die Knie vor Haman beugen und sich vor ihm niederwerfen; denn so hatte der König es ihm zu Ehren befohlen. Mardochai aber beugte die Knie nicht und warf sich auch nicht nieder.",
+      "citation": "Esther 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Da fragten ihn die Diener des Königs, die am Hofe des Königs waren, warum er den Befehl des Königs unbeachtet lasse.",
+      "citation": "Esther 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als sie diese Frage Tag für Tag an ihn richteten, ohne daß er auf sie hörte, meldeten sie es dem Haman, um zu sehen, ob die Rechtfertigung Mardochais anerkannt werden würde; er hatte ihnen nämlich mitgeteilt, daß er ein Jude sei.",
+      "citation": "Esther 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Als nun Haman selbst sah, daß Mardochai vor ihm die Knie nicht beugte und sich nicht niederwarf, geriet er in die höchste Wut;",
+      "citation": "Esther 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "doch da er es unter seiner Würde hielt, an Mardochai allein die Hand zu legen – man hatte ihm nämlich mitgeteilt, welchem Volke Mardochai angehöre –, so faßte er den Plan, alle Juden, die im ganzen Reiche des Ahasveros lebten, zugleich mit Mardochai auszurotten.",
+      "citation": "Esther 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Im ersten Monat – das ist der Monat Nisan –, im zwölften Regierungsjahr des Königs Ahasveros, warf man das Pur, d.h. das Los, in Gegenwart Hamans von einem Tage zum andern und von einem Monat zum andern bis zum zwölften Monat, das ist der Monat Adar (und das Los fiel auf den dreizehnten Tag).",
+      "citation": "Esther 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Dann sagte Haman zum König Ahasveros: »Da ist ein einzigartiges Volk, das unter den Völkern in allen Provinzen deines Reiches zerstreut und abgesondert lebt und dessen Gesetze von denen aller anderen Völker abweichen; da sie sich nun nach den Gesetzen des Königs nicht richten, so ist es für den König nicht geziemend, sie ruhig gewähren zu lassen.",
+      "citation": "Esther 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Wenn es dem König genehm ist, so möge ihre Ausrottung durch einen schriftlichen Erlaß verfügt werden; ich werde dann auch zehntausend Talente Silber in die Hände der Schatzmeister darwägen können, damit diese sie in die königlichen Schatzhäuser abführen.«",
+      "citation": "Esther 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Da zog der König seinen Siegelring von der Hand und reichte ihn dem Agagiten Haman, dem Sohne Hammedathas, dem Judenfeinde,",
+      "citation": "Esther 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "indem er zu ihm sagte: »Das Geld sei dir überlassen und das Volk ebenso: du magst mit ihm nach deinem Belieben verfahren.«",
+      "citation": "Esther 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Da wurden die königlichen Staatsschreiber am dreizehnten Tage des ersten Monats berufen, und es wurde genau nach der Weisung Hamans an die königlichen Landpfleger und die Statthalter der einzelnen Provinzen und an die Fürsten eines jeden Volkes mit der Schrift jeder einzelnen Provinz und in der besonderen Sprache jedes Volkes eine schriftliche Verfügung im Namen des Königs Ahasveros erlassen und mit dem Siegelringe des Königs untersiegelt.",
+      "citation": "Esther 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Die Schreiben wurden dann durch die Eilboten in alle Provinzen des Königs versandt, daß alle Juden, jung und alt, Kinder und Weiber, an einem Tage, nämlich am dreizehnten des zwölften Monats – das ist der Monat Adar –, ausgerottet, ermordet und umgebracht werden sollten; ihr Vermögen solle der Plünderung anheimfallen.",
+      "citation": "Esther 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Damit aber die Verfügung in jeder einzelnen Provinz erlassen würde, ward eine Abschrift des Schreibens allen Völkern bekanntgemacht, damit sie sich auf den genannten Tag bereithielten.",
+      "citation": "Esther 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Die Eilboten machten sich nach dem Befehl des Königs eilends auf den Weg, während der Erlaß in der Residenz Susa veröffentlicht wurde. Der König und Haman aber setzten sich hin, um zu zechen, während in der Stadt Susa Bestürzung herrschte.",
+      "citation": "Esther 3:15 (Menge)"
+    }
+  ]
+}

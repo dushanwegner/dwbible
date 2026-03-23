@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 11 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 11,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/job/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/job/10.json",
+      "nextChapter": "https://latinprayer.org/latin/job/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/11.json",
+      "german": "https://latinprayer.org/bibel/job/11.json"
+    }
+  },
+  "citation": "Job 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "respondens autem Sophar Naamathites dixit",
+      "citation": "Job 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "numquid qui multa loquitur non et audiet aut vir verbosus iustificabitur",
+      "citation": "Job 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "tibi soli tacebunt homines et cum ceteros inriseris a nullo confutaberis",
+      "citation": "Job 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "dixisti enim purus est sermo meus et mundus sum in conspectu tuo",
+      "citation": "Job 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "atque utinam Deus loqueretur tecum et aperiret labia sua tibi",
+      "citation": "Job 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ut ostenderet tibi secreta sapientiae et quod multiplex esset lex eius et intellegeres quod multo minora exigaris a Deo quam meretur iniquitas tua",
+      "citation": "Job 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "forsitan vestigia Dei conprehendes et usque ad perfectum Omnipotentem repperies",
+      "citation": "Job 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "excelsior caelo est et quid facies profundior inferno et unde cognosces",
+      "citation": "Job 11:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "longior terrae mensura eius et latior mari",
+      "citation": "Job 11:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "si subverterit omnia vel in unum coartaverit quis contradicet ei",
+      "citation": "Job 11:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ipse enim novit hominum vanitatem et videns iniquitatem nonne considerat",
+      "citation": "Job 11:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "vir vanus in superbiam erigitur et tamquam pullum onagri se liberum natum putat",
+      "citation": "Job 11:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "tu autem firmasti cor tuum et expandisti ad eum manus tuas",
+      "citation": "Job 11:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "si iniquitatem quod est in manu tua abstuleris a te et non manserit in tabernaculo tuo iniustitia",
+      "citation": "Job 11:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "tum levare poteris faciem tuam absque macula et eris stabilis et non timebis",
+      "citation": "Job 11:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "miseriae quoque oblivisceris et quasi aquarum quae praeterierint recordaberis",
+      "citation": "Job 11:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et quasi meridianus fulgor consurget tibi ad vesperam et cum te consumptum putaveris orieris ut lucifer",
+      "citation": "Job 11:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et habebis fiduciam proposita tibi spe et defossus securus dormies",
+      "citation": "Job 11:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "requiesces et non erit qui te exterreat et deprecabuntur faciem tuam plurimi",
+      "citation": "Job 11:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "oculi autem impiorum deficient et effugium peribit ab eis et spes eorum abominatio animae",
+      "citation": "Job 11:20 (Clementine Vulgate)"
+    }
+  ]
+}

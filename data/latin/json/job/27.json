@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 27 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 27,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/job/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/job/26.json",
+      "nextChapter": "https://latinprayer.org/latin/job/28.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/27.json",
+      "german": "https://latinprayer.org/bibel/job/27.json"
+    }
+  },
+  "citation": "Job 27 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "addidit quoque Iob adsumens parabolam suam et dixit",
+      "citation": "Job 27:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "vivit Deus qui abstulit iudicium meum et Omnipotens qui ad amaritudinem adduxit animam meam",
+      "citation": "Job 27:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia donec superest halitus in me et spiritus Dei in naribus meis",
+      "citation": "Job 27:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "non loquentur labia mea iniquitatem nec lingua mea meditabitur mendacium",
+      "citation": "Job 27:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "absit a me ut iustos vos esse iudicem donec deficiam non recedam ab innocentia mea",
+      "citation": "Job 27:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "iustificationem meam quam coepi tenere non deseram nec enim reprehendit me cor meum in omni vita mea",
+      "citation": "Job 27:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "sit ut impius inimicus meus et adversarius meus quasi iniquus",
+      "citation": "Job 27:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quae enim spes est hypocritae si avare rapiat et non liberet Deus animam eius",
+      "citation": "Job 27:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "numquid clamorem eius Deus audiet cum venerit super illum angustia",
+      "citation": "Job 27:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "aut poterit in Omnipotente delectari et invocare Deum in omni tempore",
+      "citation": "Job 27:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "docebo vos per manum Dei quae Omnipotens habeat nec abscondam",
+      "citation": "Job 27:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ecce vos omnes nostis et quid sine causa vana loquimini",
+      "citation": "Job 27:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "haec est pars hominis impii apud Deum et hereditas violentorum quam ab Omnipotente suscipient",
+      "citation": "Job 27:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "si multiplicati fuerint filii eius in gladio erunt et nepotes eius non saturabuntur pane",
+      "citation": "Job 27:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "qui reliqui fuerint ex eo sepelientur in interitu et viduae illius non plorabunt",
+      "citation": "Job 27:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "si conportaverit quasi terram argentum et sicut lutum praeparaverit vestimenta",
+      "citation": "Job 27:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "praeparabit quidem sed iustus vestietur illis et argentum innocens dividet",
+      "citation": "Job 27:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "aedificavit sicut tinea domum suam et sicut custos fecit umbraculum",
+      "citation": "Job 27:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "dives cum dormierit nihil secum auferet aperit oculos suos et nihil inveniet",
+      "citation": "Job 27:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "adprehendit eum quasi aqua inopia nocte opprimet eum tempestas",
+      "citation": "Job 27:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "tollet eum ventus urens et auferet et velut turbo rapiet eum de loco suo",
+      "citation": "Job 27:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et mittet super eum et non parcet de manu eius fugiens fugiet",
+      "citation": "Job 27:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "stringet super eum manus suas et sibilabit super illum intuens locum eius",
+      "citation": "Job 27:23 (Clementine Vulgate)"
+    }
+  ]
+}

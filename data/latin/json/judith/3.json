@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judith, Chapter 3 — 15 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "order": 18,
+      "totalChapters": 17
+    },
+    "chapter": 3,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/judith/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/judith/2.json",
+      "nextChapter": "https://latinprayer.org/latin/judith/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judith/3.json",
+      "german": "https://latinprayer.org/bibel/judith/3.json"
+    }
+  },
+  "citation": "Judith 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tunc miserunt legatos suos universarum urbium et provinciarum reges ac principes Syriae scilicet Mesopotamiae et Syriae Sobal et Lybiae atque Ciliciae qui venientes ad Holofernem dixerunt",
+      "citation": "Judith 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "desinat indignatio tua circa nos melius est enim ut viventes serviamus Nabuchodonosor regi magno et subditi simus tibi quam morientes cum interitu nostro ipsi servitutis nostrae damna patiamini",
+      "citation": "Judith 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "omnis civitas nostra omnisque possessio omnes colles et montes et campi armenta boum greges ovium caprarumque equorum camelorumque et universae facultates nostrae atque familiae in conspectu tuo sunt",
+      "citation": "Judith 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sint omnia sub lege tua",
+      "citation": "Judith 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "nos iam et filii nostri servi tui sumus",
+      "citation": "Judith 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "veni nobis pacificus dominus et utere servitia nostra sicut placuerit tibi",
+      "citation": "Judith 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "tunc descendit de montibus cum equitibus in virtute magna et obtinuit omnem civitatem et omnem inhabitantem terram",
+      "citation": "Judith 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "de universis autem urbibus adsumpsit sibi auxiliarios viros fortes et electos ad bellum",
+      "citation": "Judith 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "tantusque metus provinciis illius incubuit ut universarum urbium habitatores principes et honorati simul cum populis exirent in obviam venienti",
+      "citation": "Judith 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "excipientes eum cum coronis et lampadibus ducentes choros in tibiis et tympanis",
+      "citation": "Judith 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "nec ista tamen facientes ferocitatem eius pectoris mitigare potuerunt",
+      "citation": "Judith 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nam et civitates eorum destruxit et lucos eorum excidit",
+      "citation": "Judith 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "praeceperat enim illi Nabuchodonosor rex ut omnes deos terrae exterminaret videlicet ut ipse solus diceretur deus ab his nationibus quae potuissent Holofernis potentia subiugari",
+      "citation": "Judith 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "pertransiens autem Syriam Subal et omnem Apamiam omnemque Mesopotamiam venit ad Idumeos in terra Gabaa",
+      "citation": "Judith 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "accepitque civitates eorum et sedit ibi per triginta dies in quibus diebus adunari praecepit universum exercitum virtutis suae",
+      "citation": "Judith 3:15 (Clementine Vulgate)"
+    }
+  ]
+}

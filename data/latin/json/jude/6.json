@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jude, Chapter 6 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jude",
+      "slug": "jude",
+      "testament": "NT",
+      "order": 72,
+      "totalChapters": 23
+    },
+    "chapter": 6,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jude/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jude/5.json",
+      "nextChapter": "https://latinprayer.org/latin/jude/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jude/6.json",
+      "german": "https://latinprayer.org/bibel/jude/6.json"
+    }
+  },
+  "citation": "Jude 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et vidi quod aperuisset agnus unum de septem signaculis et audivi unum de quattuor animalibus dicentem tamquam vocem tonitrui veni",
+      "citation": "Jude 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et vidi et ecce equus albus et qui sedebat super illum habebat arcum et data est ei corona et exivit vincens ut vinceret",
+      "citation": "Jude 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et cum aperuisset sigillum secundum audivi secundum animal dicens veni",
+      "citation": "Jude 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et exivit alius equus rufus et qui sedebat super illum datum est ei ut sumeret pacem de terra et ut invicem se interficiant et datus est illi gladius magnus",
+      "citation": "Jude 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et cum aperuisset sigillum tertium audivi tertium animal dicens veni et vidi et ecce equus niger et qui sedebat super eum habebat stateram in manu sua",
+      "citation": "Jude 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et audivi tamquam vocem in medio quattuor animalium dicentem bilibris tritici denario et tres bilibres hordei denario et vinum et oleum ne laeseris",
+      "citation": "Jude 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et cum aperuisset sigillum quartum audivi vocem quarti animalis dicentis veni et vidi",
+      "citation": "Jude 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et ecce equus pallidus et qui sedebat desuper nomen illi Mors et inferus sequebatur eum et data est illi potestas super quattuor partes terrae interficere gladio fame et morte et bestiis terrae",
+      "citation": "Jude 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et cum aperuisset quintum sigillum vidi subtus altare animas interfectorum propter verbum Dei et propter testimonium quod habebant",
+      "citation": "Jude 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et clamabant voce magna dicentes usquequo Domine sanctus et verus non iudicas et vindicas sanguinem nostrum de his qui habitant in terra",
+      "citation": "Jude 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et datae sunt illis singulae stolae albae et dictum est illis ut requiescerent tempus adhuc modicum donec impleantur conservi eorum et fratres eorum qui interficiendi sunt sicut et illi",
+      "citation": "Jude 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et vidi cum aperuisset sigillum sextum et terraemotus factus est magnus et sol factus est niger tamquam saccus cilicinus et luna tota facta est sicut sanguis",
+      "citation": "Jude 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et stellae caeli ceciderunt super terram sicut ficus mittit grossos suos cum vento magno movetur",
+      "citation": "Jude 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et caelum recessit sicut liber involutus et omnis mons et insulae de locis suis motae sunt",
+      "citation": "Jude 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et reges terrae et principes et tribuni et divites et fortes et omnis servus et liber absconderunt se in speluncis et petris montium",
+      "citation": "Jude 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et dicunt montibus et petris cadite super nos et abscondite nos a facie sedentis super thronum et ab ira agni",
+      "citation": "Jude 6:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quoniam venit dies magnus irae ipsorum et quis poterit stare",
+      "citation": "Jude 6:17 (Clementine Vulgate)"
+    }
+  ]
+}

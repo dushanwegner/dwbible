@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 11 — 9 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 11,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/10.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/12.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/11.json",
+      "german": "https://latinprayer.org/bibel/psalms/11.json"
+    }
+  },
+  "citation": "Psalms 11 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Unto the end. A psalm to David.",
+      "citation": "Psalms 11:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "In the Lord I put my trust: how then do you say to my soul: Get thee away from hence to the mountain, like a sparrow.",
+      "citation": "Psalms 11:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end: for the octave, a psalm for David.",
+      "citation": "Psalms 11:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For, lo, the wicked have bent their bow: they have prepared their arrows in the quiver, to shoot in the dark the upright of heart.",
+      "citation": "Psalms 11:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For they have destroyed the things which thou hast made: but what has the just man done?",
+      "citation": "Psalms 11:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The Lord is in his holy temple, the Lord's throne is in heaven. His eyes look on the poor man: his eyelids examine the sons of men.",
+      "citation": "Psalms 11:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The Lord trieth the just and the wicked: but he that loveth iniquity, hateth his own soul.",
+      "citation": "Psalms 11:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "He shall rain snares upon sinners: fire and brimstone, and storms of winds, shall be the portion of their cup.",
+      "citation": "Psalms 11:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For the Lord is just, and hath loved justice: his countenance hath beheld righteousness.",
+      "citation": "Psalms 11:7 (Douay-Rheims)"
+    }
+  ]
+}

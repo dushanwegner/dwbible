@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezechiel, Chapter 19 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezechiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 19,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ezechiel/18.json",
+      "nextChapter": "https://latinprayer.org/bible/ezechiel/20.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ezechiel/19.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/19.json"
+    }
+  },
+  "citation": "Ezechiel 19 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Moreover take thou up a lamentation for the princes of Israel,",
+      "citation": "Ezechiel 19:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And say: Why did thy mother the lioness lie down among the lions, and bring up her whelps in the midst of young lions?",
+      "citation": "Ezechiel 19:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And she brought out one of her whelps, and he became a lion: and he learned to catch the prey, and to devour men.",
+      "citation": "Ezechiel 19:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And the nations heard of him, and took him, but not without receiving wounds: and they brought him in chains into the land of Egypt.",
+      "citation": "Ezechiel 19:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But she seeing herself weakened, and that her hope was lost, took one of her young lions, and set him up for a lion.",
+      "citation": "Ezechiel 19:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And he went up and down among the lions, and became a lion: and he learned to catch the prey, and to devour men.",
+      "citation": "Ezechiel 19:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "He learned to make widows, and to lay waste their cities: and the land became desolate, and the fulness thereof by the noise of his roaring.",
+      "citation": "Ezechiel 19:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the nations came together against him on every side out of the provinces, and they spread their net over him, in their wounds he was taken.",
+      "citation": "Ezechiel 19:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And they put him into a cage, they brought him in chains to the king of Babylon: and they cast him into prison, that his voice should no more be heard upon the mountains of Israel.",
+      "citation": "Ezechiel 19:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Thy mother is like a vine in thy blood planted by the water: her fruit and her branches have grown out of many waters.",
+      "citation": "Ezechiel 19:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And she hath strong rods to make sceptres for them that bear rule, and her stature was exalted among the branches: and she saw her height in the multitude of her branches.",
+      "citation": "Ezechiel 19:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "But she was plucked up in wrath, and cast on the ground, and the burning wind dried up her fruit: her strong rods are withered, and dried up: the fire hath devoured her.",
+      "citation": "Ezechiel 19:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And now she is transplanted into the desert, in a land not passable, and dry.",
+      "citation": "Ezechiel 19:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And a fire is gone out from a rod of her branches, which hath devoured her fruit: so that she now hath no strong rod, to be a sceptre of rulers. This is a lamentation, and it shall be for a lamentation.",
+      "citation": "Ezechiel 19:14 (Douay-Rheims)"
+    }
+  ]
+}

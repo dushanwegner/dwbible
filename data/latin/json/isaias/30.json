@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 30 — 33 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 30,
+    "verseCount": 33,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/29.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/31.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/30.json",
+      "german": "https://latinprayer.org/bibel/isaias/30.json"
+    }
+  },
+  "citation": "Isaiah 30 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "vae filii desertores dicit Dominus ut faceretis consilium et non ex me et ordiremini telam et non per spiritum meum ut adderetur peccatum super peccatum",
+      "citation": "Isaiah 30:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui ambulatis ut descendatis in Aegyptum et os meum non interrogastis sperantes auxilium in fortitudine Pharao et habentes fiduciam in umbra Aegypti",
+      "citation": "Isaiah 30:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et erit vobis fortitudo Pharaonis in confusionem et fiducia umbrae Aegypti in ignominiam",
+      "citation": "Isaiah 30:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "erant enim in Tanis principes tui et nuntii tui usque ad Anes pervenerunt",
+      "citation": "Isaiah 30:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "omnes confusi sunt super populo qui eis prodesse non potuit non fuerunt in auxilium et in aliquam utilitatem sed in confusionem et obprobrium",
+      "citation": "Isaiah 30:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "onus iumentorum austri in terra tribulationis et angustiae leaena et leo ex eis vipera et regulus volans portantes super umeros iumentorum divitias suas et super gibbum camelorum thesauros suos ad populum qui eis prodesse non poterit",
+      "citation": "Isaiah 30:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Aegyptus enim frustra et vane auxiliabitur ideo clamavi super hoc superbia tantum est quiesce",
+      "citation": "Isaiah 30:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "nunc ingressus scribe eis super buxum et in libro diligenter exara illud et erit in die novissimo in testimonium usque ad aeternum",
+      "citation": "Isaiah 30:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "populus enim ad iracundiam provocans est et filii mendaces filii nolentes audire legem Domini",
+      "citation": "Isaiah 30:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui dicunt videntibus nolite videre et aspicientibus nolite aspicere nobis ea quae recta sunt loquimini nobis placentia videte nobis errores",
+      "citation": "Isaiah 30:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "auferte a me viam declinate a me semitam cesset a facie nostra Sanctus Israhel",
+      "citation": "Isaiah 30:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "propterea haec dicit Sanctus Israhel pro eo quod reprobastis verbum hoc et sperastis in calumniam et tumultum et innixi estis super eo",
+      "citation": "Isaiah 30:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "propterea erit vobis iniquitas haec sicut interruptio cadens et requisita in muro excelso quoniam subito dum non speratur veniet contritio eius",
+      "citation": "Isaiah 30:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et comminuetur sicut conteritur lagoena figuli contritione pervalida et non invenietur de fragmentis eius testa in qua portetur igniculus de incendio aut hauriatur parum aquae de fovea",
+      "citation": "Isaiah 30:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quia haec dicit Dominus Deus Sanctus Israhel si revertamini et quiescatis salvi eritis in silentio et in spe erit fortitudo vestra et noluistis",
+      "citation": "Isaiah 30:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et dixistis nequaquam sed ad equos fugiemus ideo fugietis et super veloces ascendemus ideo veloces erunt qui persequentur vos",
+      "citation": "Isaiah 30:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "mille homines a facie terroris unius et a facie terroris quinque fugietis donec relinquamini quasi malus navis in vertice montis et quasi signum super collem",
+      "citation": "Isaiah 30:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "propterea expectat Dominus ut misereatur vestri et ideo exaltabitur parcens vobis quia Deus iudicii Dominus beati omnes qui expectant eum",
+      "citation": "Isaiah 30:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "populus enim Sion habitabit in Hierusalem plorans nequaquam plorabis miserans miserebitur tui ad vocem clamoris tui statim ut audierit respondebit tibi",
+      "citation": "Isaiah 30:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et dabit vobis Dominus panem artum et aquam brevem et non faciet avolare a te ultra doctorem tuum et erunt oculi tui videntes praeceptorem tuum",
+      "citation": "Isaiah 30:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et aures tuae audient verbum post tergum monentis haec via ambulate in ea neque ad dexteram neque ad sinistram",
+      "citation": "Isaiah 30:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et contaminabis lamminas sculptilium argenti tui et vestimentum conflatilis auri tui et disperges ea sicut inmunditiam menstruatae egredere dices ei",
+      "citation": "Isaiah 30:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et dabitur pluvia semini tuo ubicumque seminaveris in terra et panis frugum terrae erit uberrimus et pinguis pascetur in possessione tua in die illo agnus spatiose",
+      "citation": "Isaiah 30:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et tauri tui et pulli asinorum qui operantur terram commixtum migma comedent sic in area ut ventilatum est",
+      "citation": "Isaiah 30:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et erunt super omnem montem excelsum et super omnem collem elevatum rivi currentium aquarum in die interfectionis multorum cum ceciderint turres",
+      "citation": "Isaiah 30:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et erit lux lunae sicut lux solis et lux solis erit septempliciter sicut lux septem dierum in die qua alligaverit Dominus vulnus populi sui et percussuram plagae eius sanaverit",
+      "citation": "Isaiah 30:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "ecce nomen Domini venit de longinquo ardens furor eius et gravis ad portandum labia eius repleta sunt indignatione et lingua eius quasi ignis devorans",
+      "citation": "Isaiah 30:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "spiritus eius velut torrens inundans usque ad medium colli ad perdendas gentes in nihilum et frenum erroris quod erat in maxillis populorum",
+      "citation": "Isaiah 30:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "canticum erit vobis sicut nox sanctificatae sollemnitatis et laetitia cordis sicut qui pergit cum tibia ut intret in montem Domini ad Fortem Israhel",
+      "citation": "Isaiah 30:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et auditam faciet Dominus gloriam vocis suae et terrorem brachii sui ostendet in comminatione furoris et flamma ignis devorantis adlidet in turbine et in lapide grandinis",
+      "citation": "Isaiah 30:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "a voce enim Domini pavebit Assur virga percussus",
+      "citation": "Isaiah 30:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et erit transitus virgae fundatus quam requiescere faciet Dominus super eum in tympanis et in citharis et in bellis praecipuis expugnabit eos",
+      "citation": "Isaiah 30:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "praeparata est enim ab heri Thofeth a rege praeparata profunda et dilatata nutrimenta eius ignis et ligna multa flatus Domini sicut torrens sulphuris succendens eam",
+      "citation": "Isaiah 30:33 (Clementine Vulgate)"
+    }
+  ]
+}

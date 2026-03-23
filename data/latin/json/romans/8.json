@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Romans, Chapter 8 — 39 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 52,
+      "totalChapters": 16
+    },
+    "chapter": 8,
+    "verseCount": 39,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/romans/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/romans/7.json",
+      "nextChapter": "https://latinprayer.org/latin/romans/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/romans/8.json",
+      "german": "https://latinprayer.org/bibel/romans/8.json"
+    }
+  },
+  "citation": "Romans 8 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "nihil ergo nunc damnationis est his qui sunt in Christo Iesu qui non secundum carnem ambulant",
+      "citation": "Romans 8:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "lex enim Spiritus vitae in Christo Iesu liberavit me a lege peccati et mortis",
+      "citation": "Romans 8:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "nam quod inpossibile erat legis in quo infirmabatur per carnem Deus Filium suum mittens in similitudinem carnis peccati et de peccato damnavit peccatum in carne",
+      "citation": "Romans 8:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ut iustificatio legis impleretur in nobis qui non secundum carnem ambulamus sed secundum Spiritum",
+      "citation": "Romans 8:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "qui enim secundum carnem sunt quae carnis sunt sapiunt qui vero secundum Spiritum quae sunt Spiritus sentiunt",
+      "citation": "Romans 8:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nam prudentia carnis mors prudentia autem Spiritus vita et pax",
+      "citation": "Romans 8:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quoniam sapientia carnis inimicitia est in Deum legi enim Dei non subicitur nec enim potest",
+      "citation": "Romans 8:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "qui autem in carne sunt Deo placere non possunt",
+      "citation": "Romans 8:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "vos autem in carne non estis sed in Spiritu si tamen Spiritus Dei habitat in vobis si quis autem Spiritum Christi non habet hic non est eius",
+      "citation": "Romans 8:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "si autem Christus in vobis est corpus quidem mortuum est propter peccatum spiritus vero vita propter iustificationem",
+      "citation": "Romans 8:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quod si Spiritus eius qui suscitavit Iesum a mortuis habitat in vobis qui suscitavit Iesum Christum a mortuis vivificabit et mortalia corpora vestra propter inhabitantem Spiritum eius in vobis",
+      "citation": "Romans 8:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ergo fratres debitores sumus non carni ut secundum carnem vivamus",
+      "citation": "Romans 8:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "si enim secundum carnem vixeritis moriemini si autem Spiritu facta carnis mortificatis vivetis",
+      "citation": "Romans 8:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quicumque enim Spiritu Dei aguntur hii filii sunt Dei",
+      "citation": "Romans 8:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "non enim accepistis spiritum servitutis iterum in timore sed accepistis Spiritum adoptionis filiorum in quo clamamus Abba Pater",
+      "citation": "Romans 8:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ipse Spiritus testimonium reddit spiritui nostro quod sumus filii Dei",
+      "citation": "Romans 8:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "si autem filii et heredes heredes quidem Dei coheredes autem Christi si tamen conpatimur ut et conglorificemur",
+      "citation": "Romans 8:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "existimo enim quod non sunt condignae passiones huius temporis ad futuram gloriam quae revelabitur in nobis",
+      "citation": "Romans 8:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "nam expectatio creaturae revelationem filiorum Dei expectat",
+      "citation": "Romans 8:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "vanitati enim creatura subiecta est non volens sed propter eum qui subiecit in spem",
+      "citation": "Romans 8:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quia et ipsa creatura liberabitur a servitute corruptionis in libertatem gloriae filiorum Dei",
+      "citation": "Romans 8:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "scimus enim quod omnis creatura ingemescit et parturit usque adhuc",
+      "citation": "Romans 8:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "non solum autem illa sed et nos ipsi primitias Spiritus habentes et ipsi intra nos gemimus adoptionem filiorum expectantes redemptionem corporis nostri",
+      "citation": "Romans 8:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "spe enim salvi facti sumus spes autem quae videtur non est spes nam quod videt quis quid sperat",
+      "citation": "Romans 8:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "si autem quod non videmus speramus per patientiam expectamus",
+      "citation": "Romans 8:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "similiter autem et Spiritus adiuvat infirmitatem nostram nam quid oremus sicut oportet nescimus sed ipse Spiritus postulat pro nobis gemitibus inenarrabilibus",
+      "citation": "Romans 8:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "qui autem scrutatur corda scit quid desideret Spiritus quia secundum Deum postulat pro sanctis",
+      "citation": "Romans 8:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "scimus autem quoniam diligentibus Deum omnia cooperantur in bonum his qui secundum propositum vocati sunt sancti",
+      "citation": "Romans 8:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "nam quos praescivit et praedestinavit conformes fieri imaginis Filii eius ut sit ipse primogenitus in multis fratribus",
+      "citation": "Romans 8:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "quos autem praedestinavit hos et vocavit et quos vocavit hos et iustificavit quos autem iustificavit illos et glorificavit",
+      "citation": "Romans 8:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "quid ergo dicemus ad haec si Deus pro nobis quis contra nos",
+      "citation": "Romans 8:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "qui etiam Filio suo non pepercit sed pro nobis omnibus tradidit illum quomodo non etiam cum illo omnia nobis donabit",
+      "citation": "Romans 8:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "quis accusabit adversus electos Dei Deus qui iustificat",
+      "citation": "Romans 8:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "quis est qui condemnet Christus Iesus qui mortuus est immo qui resurrexit qui et est ad dexteram Dei qui etiam interpellat pro nobis",
+      "citation": "Romans 8:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "quis nos separabit a caritate Christi tribulatio an angustia an persecutio an fames an nuditas an periculum an gladius",
+      "citation": "Romans 8:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "sicut scriptum est quia propter te mortificamur tota die aestimati sumus ut oves occisionis",
+      "citation": "Romans 8:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "sed in his omnibus superamus propter eum qui dilexit nos",
+      "citation": "Romans 8:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "certus sum enim quia neque mors neque vita neque angeli neque principatus neque instantia neque futura neque fortitudines",
+      "citation": "Romans 8:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "neque altitudo neque profundum neque creatura alia poterit nos separare a caritate Dei quae est in Christo Iesu Domino nostro",
+      "citation": "Romans 8:39 (Clementine Vulgate)"
+    }
+  ]
+}

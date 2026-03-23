@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 7 — 18 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 7,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/6.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/7.json",
+      "latin": "https://latinprayer.org/latin/psalms/7.json"
+    }
+  },
+  "citation": "Psalmen 7 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Bittgebet</em><em> Davids, das er dem Herrn wegen der Worte des Benjaminiten Kusch sang</em>.",
+      "citation": "Psalmen 7:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "HERR, mein Gott, bei dir such’ ich Zuflucht: hilf mir von allen meinen Verfolgern und rette mich,",
+      "citation": "Psalmen 7:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "daß der Feind mich nicht wie ein Löwe zerreiße und zerfleische, weil kein Retter da ist!",
+      "citation": "Psalmen 7:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "O HERR mein Gott! Hab’ ich solches verübt, klebt Unrecht an meinen Händen,",
+      "citation": "Psalmen 7:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "hab’ ich dem, der in Frieden mit mir lebte, Böses getan – ach nein, ich rettete ja, die mich grundlos bedrängten –:",
+      "citation": "Psalmen 7:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "so möge der Feind mich verfolgen und einholen, möge mein Leben zu Boden niedertreten und strecke meine Ehre in den Staub! SELA.",
+      "citation": "Psalmen 7:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Steh auf, o HERR, in deinem Zorn! Erhebe dich gegen die Wut meiner Dränger! Werde wach mir zum Heil, du hast ja Gericht verordnet!",
+      "citation": "Psalmen 7:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Laß die ganze Versammlung der Völker dich umringen, und über ihr kehre zurück zur Höhe!",
+      "citation": "Psalmen 7:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Der HERR ist Richter über die Völker: schaffe mir Recht, o HERR, nach meiner Gerechtigkeit und nach meines Herzens Unschuld!",
+      "citation": "Psalmen 7:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Mache der Gottlosen Bosheit ein Ende und hilf dem Gerechten zu festem Stand, du Prüfer der Herzen und Nieren, gerechter Gott!",
+      "citation": "Psalmen 7:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Meinen Schild hält Gott, der Helfer der in ihrem Herzen Redlichen.",
+      "citation": "Psalmen 7:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Gott ist ein gerechter Richter und ein Gott, der täglich droht.",
+      "citation": "Psalmen 7:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wahrlich, wiederum schärft er sein Schwert, hält seinen Bogen gespannt und zielt",
+      "citation": "Psalmen 7:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "und richtet Todesgeschosse auf ihn, seine Pfeile, die er zu Brandpfeilen macht.",
+      "citation": "Psalmen 7:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Seht: da brütet er über Trug, geht schwanger mit Unheil und gebiert Lüge;",
+      "citation": "Psalmen 7:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "eine Grube hat er gegraben und ausgescharrt, stürzt selbst aber in die Grube, die er angelegt.",
+      "citation": "Psalmen 7:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Das Unheil, das er geplant, fällt ihm aufs eigne Haupt, sein Frevel fährt auf seinen eignen Scheitel nieder.",
+      "citation": "Psalmen 7:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Preisen will ich den HERRN nach seiner Gerechtigkeit und lobsingen dem Namen des HERRN, des Höchsten.",
+      "citation": "Psalmen 7:18 (Menge)"
+    }
+  ]
+}

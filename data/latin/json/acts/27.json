@@ -1,0 +1,256 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Acts, Chapter 27 — 44 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 51,
+      "totalChapters": 28
+    },
+    "chapter": 27,
+    "verseCount": 44,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/acts/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/acts/26.json",
+      "nextChapter": "https://latinprayer.org/latin/acts/28.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/acts/27.json",
+      "german": "https://latinprayer.org/bibel/acts/27.json"
+    }
+  },
+  "citation": "Acts 27 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ut autem iudicatum est eum navigare in Italiam et tradi Paulum cum reliquis custodiis centurioni nomine Iulio cohortis Augustae",
+      "citation": "Acts 27:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ascendentes autem navem hadrumetinam incipientem navigare circa Asiae loca sustulimus perseverante nobiscum Aristarcho Macedone Thessalonicense",
+      "citation": "Acts 27:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "sequenti autem die devenimus Sidonem humane autem tractans Iulius Paulum permisit ad amicos ire et curam sui agere",
+      "citation": "Acts 27:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et inde cum sustulissemus subnavigavimus Cypro propterea quod essent venti contrarii",
+      "citation": "Acts 27:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et pelagus Ciliciae et Pamphiliae navigantes venimus Lystram quae est Lyciae",
+      "citation": "Acts 27:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et ibi inveniens centurio navem alexandrinam navigantem in Italiam transposuit nos in eam",
+      "citation": "Acts 27:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et cum multis diebus tarde navigaremus et vix devenissemus contra Cnidum prohibente nos vento adnavigavimus Cretae secundum Salmonem",
+      "citation": "Acts 27:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et vix iuxta navigantes venimus in locum quendam qui vocatur Boni portus cui iuxta erat civitas Thalassa",
+      "citation": "Acts 27:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "multo autem tempore peracto et cum iam non esset tuta navigatio eo quod et ieiunium iam praeterisset consolabatur Paulus",
+      "citation": "Acts 27:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "dicens eis viri video quoniam cum iniuria et multo damno non solum oneris et navis sed etiam animarum nostrarum incipit esse navigatio",
+      "citation": "Acts 27:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "centurio autem gubernatori et nauclerio magis credebat quam his quae a Paulo dicebantur",
+      "citation": "Acts 27:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et cum aptus portus non esset ad hiemandum plurimi statuerunt consilium navigare inde si quo modo possent devenientes Phoenice hiemare portum Cretae respicientem ad africum et ad chorum",
+      "citation": "Acts 27:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "adspirante autem austro aestimantes propositum se tenere cum sustulissent de Asson legebant Cretam",
+      "citation": "Acts 27:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "non post multum autem misit se contra ipsam ventus typhonicus qui vocatur euroaquilo",
+      "citation": "Acts 27:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "cumque arrepta esset navis et non posset conari in ventum data nave flatibus ferebamur",
+      "citation": "Acts 27:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "insulam autem quandam decurrentes quae vocatur Caudam potuimus vix obtinere scapham",
+      "citation": "Acts 27:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "qua sublata adiutoriis utebantur accingentes navem timentes ne in Syrtim inciderent submisso vase sic ferebantur",
+      "citation": "Acts 27:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "valide autem nobis tempestate iactatis sequenti die iactum fecerunt",
+      "citation": "Acts 27:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et tertia die suis manibus armamenta navis proiecerunt",
+      "citation": "Acts 27:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "neque sole autem neque sideribus apparentibus per plures dies et tempestate non exigua inminente iam ablata erat spes omnis salutis nostrae",
+      "citation": "Acts 27:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et cum multa ieiunatio fuisset tunc stans Paulus in medio eorum dixit oportebat quidem o viri audito me non tollere a Creta lucrique facere iniuriam hanc et iacturam",
+      "citation": "Acts 27:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et nunc suadeo vobis bono animo esse amissio enim nullius animae erit ex vobis praeterquam navis",
+      "citation": "Acts 27:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "adstitit enim mihi hac nocte angelus Dei cuius sum ego et cui deservio",
+      "citation": "Acts 27:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "dicens ne timeas Paule Caesari te oportet adsistere et ecce donavit tibi Deus omnes qui navigant tecum",
+      "citation": "Acts 27:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "propter quod bono animo estote viri credo enim Deo quia sic erit quemadmodum dictum est mihi",
+      "citation": "Acts 27:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "in insulam autem quandam oportet nos devenire",
+      "citation": "Acts 27:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "sed posteaquam quartadecima nox supervenit navigantibus nobis in Hadria circa mediam noctem suspicabantur nautae apparere sibi aliquam regionem",
+      "citation": "Acts 27:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "qui submittentes invenerunt passus viginti et pusillum inde separati invenerunt passus quindecim",
+      "citation": "Acts 27:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "timentes autem ne in aspera loca incideremus de puppi mittentes anchoras quattuor optabant diem fieri",
+      "citation": "Acts 27:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "nautis vero quaerentibus fugere de navi cum misissent scapham in mare sub obtentu quasi a prora inciperent anchoras extendere",
+      "citation": "Acts 27:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "dixit Paulus centurioni et militibus nisi hii in navi manserint vos salvi fieri non potestis",
+      "citation": "Acts 27:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "tunc absciderunt milites funes scaphae et passi sunt eam excidere",
+      "citation": "Acts 27:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "et cum lux inciperet fieri rogabat Paulus omnes sumere cibum dicens quartadecima hodie die expectantes ieiuni permanetis nihil accipientes",
+      "citation": "Acts 27:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "propter quod rogo vos accipere cibum pro salute vestra quia nullius vestrum capillus de capite peribit",
+      "citation": "Acts 27:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et cum haec dixisset sumens panem gratias egit Deo in conspectu omnium et cum fregisset coepit manducare",
+      "citation": "Acts 27:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "animaequiores autem facti omnes et ipsi adsumpserunt cibum",
+      "citation": "Acts 27:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "eramus vero universae animae in navi ducentae septuaginta sex",
+      "citation": "Acts 27:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "et satiati cibo adleviabant navem iactantes triticum in mare",
+      "citation": "Acts 27:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "cum autem dies factus esset terram non agnoscebant sinum vero quendam considerabant habentem litus in quem cogitabant si possent eicere navem",
+      "citation": "Acts 27:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "et cum anchoras abstulissent committebant se mari simul laxantes iuncturas gubernaculorum et levato artemone secundum flatum aurae tendebant ad litus",
+      "citation": "Acts 27:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et cum incidissemus in locum bithalassum inpegerunt navem et prora quidem fixa manebat inmobilis puppis vero solvebatur a vi maris",
+      "citation": "Acts 27:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "militum autem consilium fuit ut custodias occiderent ne quis cum enatasset effugeret",
+      "citation": "Acts 27:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "centurio autem volens servare Paulum prohibuit fieri iussitque eos qui possent natare mittere se primos et evadere et ad terram exire",
+      "citation": "Acts 27:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et ceteros alios in tabulis ferebant quosdam super ea quae de navi essent et sic factum est ut omnes animae evaderent ad terram",
+      "citation": "Acts 27:44 (Clementine Vulgate)"
+    }
+  ]
+}

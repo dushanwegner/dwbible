@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 3 — 24 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 3,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/genesis/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/genesis/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/3.json",
+      "latin": "https://latinprayer.org/latin/genesis/3.json"
+    }
+  },
+  "citation": "Genesis 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Nun war die Schlange listiger als alle Tiere des Feldes, die Gott der HERR geschaffen hatte; die sagte zum Weibe: »Sollte Gott wirklich gesagt haben: ›Ihr dürft von allen Bäumen des Gartens nicht essen!‹«",
+      "citation": "Genesis 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da antwortete das Weib der Schlange: »Von den Früchten der Bäume im Garten dürfen wir essen;",
+      "citation": "Genesis 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "nur von den Früchten des Baumes, der mitten im Garten steht, hat Gott gesagt: ›Ihr dürft von ihnen nicht essen, ja sie nicht einmal anrühren, sonst müßt ihr sterben!‹«",
+      "citation": "Genesis 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Da erwiderte die Schlange dem Weibe: »Ihr werdet sicherlich nicht sterben;",
+      "citation": "Genesis 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "sondern Gott weiß wohl, daß, sobald ihr davon eßt, euch die Augen aufgehen werden und ihr wie Gott selbst sein werdet, indem ihr erkennt, was gut und was böse ist.«",
+      "citation": "Genesis 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Da nun das Weib sah, daß von dem Baume gut zu essen sei und daß er eine Lust für die Augen und ein begehrenswerter Baum sei, weil man durch ihn klug werden könne, so nahm sie eine von seinen Früchten und aß und gab auch ihrem Manne, der bei ihr war, und der aß auch.",
+      "citation": "Genesis 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da gingen ihnen beiden die Augen auf, und sie nahmen wahr, daß sie nackt waren; darum hefteten sie Blätter vom Feigenbaum zusammen und machten sich Schürze daraus.",
+      "citation": "Genesis 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Als sie dann aber die Stimme Gottes des HERRN hörten, der in der Abendkühle im Garten sich erging, versteckten sie sich, der Mann (Adam) und sein Weib, vor Gott dem HERRN unter den Bäumen des Gartens.",
+      "citation": "Genesis 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Aber Gott der HERR rief nach dem Mann mit den Worten: »Wo bist du?«",
+      "citation": "Genesis 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Da antwortete er: »Als ich deine Stimme im Garten hörte, fürchtete ich mich, weil ich nackt bin; darum habe ich mich versteckt.«",
+      "citation": "Genesis 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da fragte Gott: »Wer hat dir gesagt, daß du nackt bist? Du hast doch nicht etwa von dem Baume gegessen, von dem zu essen ich dir verboten habe?«",
+      "citation": "Genesis 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Da antwortete Adam: »Das Weib, das du mir beigesellt hast, die hat mir von dem Baume gegeben, da habe ich gegessen.«",
+      "citation": "Genesis 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Da sagte Gott der HERR zu dem Weibe: »Warum hast du das getan?« Das Weib antwortete: »Die Schlange hat mich verführt; da habe ich gegessen.«",
+      "citation": "Genesis 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Da sagte Gott der HERR zu der Schlange: »Weil du das getan hast, sollst du verflucht sein vor allen Tieren, zahmen und wilden! Auf dem Bauche sollst du kriechen und Staub fressen dein Leben lang!",
+      "citation": "Genesis 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Und ich will Feindschaft setzen zwischen dir und dem Weibe und zwischen deinem Samen und ihrem Samen: er wird dir nach dem Kopfe treten, und du wirst ihm nach der Ferse schnappen.«",
+      "citation": "Genesis 3:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Zum Weibe aber sagte er: »Viele Mühsal will ich dir bereiten, wenn du Mutter wirst: mit Schmerzen sollst du Kinder gebären und doch nach deinem Manne Verlangen tragen; er aber soll dein Herr sein!«",
+      "citation": "Genesis 3:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Zu dem Manne aber sagte er: »Weil du der Aufforderung deines Weibes nachgekommen bist und von dem Baume gegessen hast, von dem zu essen ich dir ausdrücklich verboten hatte, so soll der Ackerboden verflucht sein um deinetwillen: mit Mühsal sollst du dich von ihm nähren dein Leben lang!",
+      "citation": "Genesis 3:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Dornen und Gestrüpp soll er dir wachsen lassen, und du sollst dich vom Gewächs des Feldes nähren!",
+      "citation": "Genesis 3:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Im Schweiße deines Angesichts sollst du dein Brot essen, bis du zum Erdboden zurückkehrst, von dem du genommen bist; denn Staub bist du, und zu Staub mußt du wieder werden!«",
+      "citation": "Genesis 3:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Adam gab dann seinem Weibe den Namen Eva; denn sie ist die Stammutter aller Lebenden geworden.",
+      "citation": "Genesis 3:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Darauf machte Gott der HERR dem Manne und seinem Weibe Röcke von Fellen und bekleidete sie (damit).",
+      "citation": "Genesis 3:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Und Gott der HERR sagte: »Der Mensch ist jetzt ja geworden wie unsereiner, insofern er gut und böse zu unterscheiden weiß. Nun aber – daß er nur nicht seine Hand ausstreckt und auch (Früchte) vom Baume des Lebens nimmt und (sie) ißt und unsterblich wird!«",
+      "citation": "Genesis 3:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "So stieß ihn denn Gott der HERR aus dem Garten Eden hinaus, damit er den Erdboden bestelle, von dem er genommen war;",
+      "citation": "Genesis 3:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "und als er den Menschen hinausgetrieben hatte, ließ er östlich vom Garten Eden die Cherube sich lagern und die Flamme des kreisenden Schwertes, damit sie den Zugang zum Baume des Lebens bewachten.",
+      "citation": "Genesis 3:24 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebrews, Chapter 12 — 29 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 12,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/hebrews/11.json",
+      "nextChapter": "https://latinprayer.org/latin/hebrews/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/hebrews/12.json",
+      "german": "https://latinprayer.org/bibel/hebrews/12.json"
+    }
+  },
+  "citation": "Hebrews 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ideoque et nos tantam habentes inpositam nubem testium deponentes omne pondus et circumstans nos peccatum per patientiam curramus propositum nobis certamen",
+      "citation": "Hebrews 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "aspicientes in auctorem fidei et consummatorem Iesum qui pro proposito sibi gaudio sustinuit crucem confusione contempta atque in dextera sedis Dei sedit",
+      "citation": "Hebrews 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "recogitate enim eum qui talem sustinuit a peccatoribus adversum semet ipsos contradictionem ut ne fatigemini animis vestris deficientes",
+      "citation": "Hebrews 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nondum usque ad sanguinem restitistis adversus peccatum repugnantes",
+      "citation": "Hebrews 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et obliti estis consolationis quae vobis tamquam filiis loquitur dicens fili mi noli neglegere disciplinam Domini neque fatigeris dum ab eo argueris",
+      "citation": "Hebrews 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quem enim diligit Dominus castigat flagellat autem omnem filium quem recipit",
+      "citation": "Hebrews 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in disciplina perseverate tamquam filiis vobis offert Deus quis enim filius quem non corripit pater",
+      "citation": "Hebrews 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quod si extra disciplinam estis cuius participes facti sunt omnes ergo adulteri et non filii estis",
+      "citation": "Hebrews 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "deinde patres quidem carnis nostrae habuimus eruditores et reverebamur non multo magis obtemperabimus Patri spirituum et vivemus",
+      "citation": "Hebrews 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et illi quidem in tempore paucorum dierum secundum voluntatem suam erudiebant nos hic autem ad id quod utile est in recipiendo sanctificationem eius",
+      "citation": "Hebrews 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "omnis autem disciplina in praesenti quidem videtur non esse gaudii sed maeroris postea autem fructum pacatissimum exercitatis per eam reddit iustitiae",
+      "citation": "Hebrews 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "propter quod remissas manus et soluta genua erigite",
+      "citation": "Hebrews 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et gressus rectos facite pedibus vestris ut non claudicans erret magis autem sanetur",
+      "citation": "Hebrews 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "pacem sequimini cum omnibus et sanctimoniam sine qua nemo videbit Dominum",
+      "citation": "Hebrews 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "contemplantes ne quis desit gratiae Dei ne qua radix amaritudinis sursum germinans inpediat et per illam inquinentur multi",
+      "citation": "Hebrews 12:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ne quis fornicator aut profanus ut Esau qui propter unam escam vendidit primitiva sua",
+      "citation": "Hebrews 12:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "scitote enim quoniam et postea cupiens hereditare benedictionem reprobatus est non enim invenit paenitentiae locum quamquam cum lacrimis inquisisset eam",
+      "citation": "Hebrews 12:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "non enim accessistis ad tractabilem et accensibilem ignem et turbinem et caliginem et procellam",
+      "citation": "Hebrews 12:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et tubae sonum et vocem verborum quam qui audierunt excusaverunt se ne eis fieret verbum",
+      "citation": "Hebrews 12:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "non enim portabant quod dicebatur et si bestia tetigerit montem lapidabitur",
+      "citation": "Hebrews 12:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et ita terribile erat quod videbatur Moses dixit exterritus sum et tremebundus",
+      "citation": "Hebrews 12:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "sed accessistis ad Sion montem et civitatem Dei viventis Hierusalem caelestem et multorum milium angelorum frequentiae",
+      "citation": "Hebrews 12:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et ecclesiam primitivorum qui conscripti sunt in caelis et iudicem omnium Deum et spiritus iustorum perfectorum",
+      "citation": "Hebrews 12:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et testamenti novi mediatorem Iesum et sanguinis sparsionem melius loquentem quam Abel",
+      "citation": "Hebrews 12:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "videte ne recusetis loquentem si enim illi non effugerunt recusantes eum qui super terram loquebatur multo magis nos qui de caelis loquentem nobis avertimur",
+      "citation": "Hebrews 12:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "cuius vox movit terram tunc modo autem repromittit dicens adhuc semel ego movebo non solum terram sed et caelum",
+      "citation": "Hebrews 12:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "quod autem adhuc semel dicit declarat mobilium translationem tamquam factorum ut maneant ea quae sunt inmobilia",
+      "citation": "Hebrews 12:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "itaque regnum inmobile suscipientes habemus gratiam per quam serviamus placentes Deo cum metu et reverentia",
+      "citation": "Hebrews 12:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "etenim Deus noster ignis consumens est",
+      "citation": "Hebrews 12:29 (Clementine Vulgate)"
+    }
+  ]
+}

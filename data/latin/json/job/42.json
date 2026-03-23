@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 42 — 15 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 42,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/job/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/job/41.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/42.json",
+      "german": "https://latinprayer.org/bibel/job/42.json"
+    }
+  },
+  "citation": "Job 42 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "respondens autem Iob Domino dixit",
+      "citation": "Job 42:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "scio quia omnia potes et nulla te latet cogitatio",
+      "citation": "Job 42:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quis est iste qui celat consilium absque scientia ideo insipienter locutus sum et quae ultra modum excederent scientiam meam",
+      "citation": "Job 42:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "audi et ego loquar interrogabo et ostende mihi",
+      "citation": "Job 42:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "auditu auris audivi te nunc autem oculus meus videt te",
+      "citation": "Job 42:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "idcirco ipse me reprehendo et ago paenitentiam in favilla et cinere",
+      "citation": "Job 42:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "postquam autem locutus est Dominus verba haec ad Iob dixit ad Eliphaz Themaniten iratus est furor meus in te et in duos amicos tuos quoniam non estis locuti coram me rectum sicut servus meus Iob",
+      "citation": "Job 42:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sumite igitur vobis septem tauros et septem arietes et ite ad servum meum Iob et offerte holocaustum pro vobis Iob autem servus meus orabit pro vobis faciem eius suscipiam ut non vobis inputetur stultitia neque enim locuti estis ad me recta sicut servus meus Iob",
+      "citation": "Job 42:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "abierunt ergo Eliphaz Themanites et Baldad Suites et Sophar Naamathites et fecerunt sicut locutus fuerat ad eos Dominus et suscepit Dominus faciem Iob",
+      "citation": "Job 42:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "Dominus quoque conversus est ad paenitentiam Iob cum oraret ille pro amicis suis et addidit Dominus omnia quaecumque fuerant Iob duplicia",
+      "citation": "Job 42:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "venerunt autem ad eum omnes fratres sui et universae sorores suae et cuncti qui noverant eum prius et comederunt cum eo panem in domo eius et moverunt super eum caput et consolati sunt eum super omni malo quod intulerat Dominus super eum et dederunt ei unusquisque ovem unam et inaurem auream unam",
+      "citation": "Job 42:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Dominus autem benedixit novissimis Iob magis quam principio eius et facta sunt ei quattuordecim milia ovium et sex milia camelorum et mille iuga boum et mille asinae",
+      "citation": "Job 42:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et fuerunt ei septem filii et filiae tres",
+      "citation": "Job 42:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et vocavit nomen unius Diem et nomen secundae Cassia et nomen tertiae Cornu stibii",
+      "citation": "Job 42:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "non sunt autem inventae mulieres speciosae sicut filiae Iob in universa terra deditque eis pater suus hereditatem inter fratres earum",
+      "citation": "Job 42:15 (Clementine Vulgate)"
+    }
+  ]
+}

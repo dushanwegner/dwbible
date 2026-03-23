@@ -1,0 +1,226 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Titus, Chapter 42 — 38 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Titus",
+      "slug": "titus",
+      "testament": "NT",
+      "order": 63,
+      "totalChapters": 24
+    },
+    "chapter": 42,
+    "verseCount": 38,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/titus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/titus/41.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/titus/42.json",
+      "german": "https://latinprayer.org/bibel/titus/42.json"
+    }
+  },
+  "citation": "Titus 42 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "audiens autem Iacob quod alimenta venderentur in Aegypto dixit filiis suis quare neglegitis",
+      "citation": "Titus 42:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "audivi quod triticum venundetur in Aegypto descendite et emite nobis necessaria ut possimus vivere et non consumamur inopia",
+      "citation": "Titus 42:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "descendentes igitur fratres Ioseph decem ut emerent frumenta in Aegypto",
+      "citation": "Titus 42:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Beniamin domi retento ab Iacob qui dixerat fratribus eius ne forte in itinere quicquam patiatur mali",
+      "citation": "Titus 42:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ingressi sunt terram Aegypti cum aliis qui pergebant ad emendum erat autem fames in terra Chanaan",
+      "citation": "Titus 42:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et Ioseph princeps Aegypti atque ad illius nutum frumenta populis vendebantur cumque adorassent eum fratres sui",
+      "citation": "Titus 42:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et agnovisset eos quasi ad alienos durius loquebatur interrogans eos unde venistis qui responderunt de terra Chanaan ut emamus victui necessaria",
+      "citation": "Titus 42:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et tamen fratres ipse cognoscens non est agnitus ab eis",
+      "citation": "Titus 42:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "recordatusque somniorum quae aliquando viderat ait exploratores estis ut videatis infirmiora terrae venistis",
+      "citation": "Titus 42:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui dixerunt non est ita domine sed servi tui venerunt ut emerent cibos",
+      "citation": "Titus 42:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "omnes filii unius viri sumus pacifici venimus nec quicquam famuli tui machinantur mali",
+      "citation": "Titus 42:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quibus ille respondit aliter est inmunita terrae huius considerare venistis",
+      "citation": "Titus 42:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et illi duodecim inquiunt servi tui fratres sumus filii viri unius in terra Chanaan minimus cum patre nostro est alius non est super",
+      "citation": "Titus 42:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "hoc est ait quod locutus sum exploratores estis",
+      "citation": "Titus 42:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "iam nunc experimentum vestri capiam per salutem Pharaonis non egrediemini hinc donec veniat frater vester minimus",
+      "citation": "Titus 42:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "mittite e vobis unum et adducat eum vos autem eritis in vinculis donec probentur quae dixistis utrum falsa an vera sint alioquin per salutem Pharaonis exploratores estis",
+      "citation": "Titus 42:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "tradidit ergo eos custodiae tribus diebus",
+      "citation": "Titus 42:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "die autem tertio eductis de carcere ait facite quod dixi et vivetis Deum enim timeo",
+      "citation": "Titus 42:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "si pacifici estis frater vester unus ligetur in carcere vos autem abite et ferte frumenta quae emistis in domos vestras",
+      "citation": "Titus 42:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et fratrem vestrum minimum ad me adducite ut possim vestros probare sermones et non moriamini fecerunt ut dixerat",
+      "citation": "Titus 42:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et locuti sunt invicem merito haec patimur quia peccavimus in fratrem nostrum videntes angustiam animae illius cum deprecaretur nos et non audivimus idcirco venit super nos ista tribulatio",
+      "citation": "Titus 42:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "e quibus unus Ruben ait numquid non dixi vobis nolite peccare in puerum et non audistis me en sanguis eius exquiritur",
+      "citation": "Titus 42:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "nesciebant autem quod intellegeret Ioseph eo quod per interpretem loquebatur ad eos",
+      "citation": "Titus 42:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "avertitque se parumper et flevit et reversus locutus est ad eos",
+      "citation": "Titus 42:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "tollens Symeon et ligans illis praesentibus iussitque ministris ut implerent saccos eorum tritico et reponerent pecunias singulorum in sacculis suis datis supra cibariis in via qui fecerunt ita",
+      "citation": "Titus 42:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "at illi portantes frumenta in asinis profecti sunt",
+      "citation": "Titus 42:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "apertoque unus sacco ut daret iumento pabulum in diversorio contemplatus pecuniam in ore sacculi",
+      "citation": "Titus 42:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "dixit fratribus suis reddita est mihi pecunia en habetur in sacco et obstupefacti turbatique dixerunt mutuo quidnam est hoc quod fecit nobis Deus",
+      "citation": "Titus 42:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "veneruntque ad Iacob patrem suum in terra Chanaan et narraverunt ei omnia quae accidissent sibi dicentes",
+      "citation": "Titus 42:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "locutus est nobis dominus terrae dure et putavit nos exploratores provinciae",
+      "citation": "Titus 42:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "cui respondimus pacifici sumus nec ullas molimur insidias",
+      "citation": "Titus 42:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "duodecim fratres uno patre geniti sumus unus non est super minimus cum patre versatur in terra Chanaan",
+      "citation": "Titus 42:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "qui ait nobis sic probabo quod pacifici sitis fratrem vestrum unum dimittite apud me et cibaria domibus vestris necessaria sumite et abite",
+      "citation": "Titus 42:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "fratremque vestrum minimum adducite ad me ut sciam quod non sitis exploratores et istum qui tenetur in vinculis recipere possitis ac deinceps emendi quae vultis habeatis licentiam",
+      "citation": "Titus 42:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "his dictis cum frumenta effunderent singuli reppererunt in ore saccorum ligatas pecunias exterritisque simul omnibus",
+      "citation": "Titus 42:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "dixit pater Iacob absque liberis me esse fecistis Ioseph non est super Symeon tenetur in vinculis Beniamin auferetis in me haec mala omnia reciderunt",
+      "citation": "Titus 42:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "cui respondit Ruben duos filios meos interfice si non reduxero illum tibi trade in manu mea et ego eum restituam",
+      "citation": "Titus 42:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "at ille non descendet inquit filius meus vobiscum frater eius mortuus est ipse solus remansit si quid ei adversi acciderit in terra ad quam pergitis deducetis canos meos cum dolore ad inferos",
+      "citation": "Titus 42:38 (Clementine Vulgate)"
+    }
+  ]
+}

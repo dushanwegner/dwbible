@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Deuteronomy, Chapter 18 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Deuteronomy",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "totalChapters": 34
+    },
+    "chapter": 18,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/deuteronomy/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/deuteronomy/17.json",
+      "nextChapter": "https://latinprayer.org/latin/deuteronomy/19.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/deuteronomy/18.json",
+      "german": "https://latinprayer.org/bibel/deuteronomy/18.json"
+    }
+  },
+  "citation": "Deuteronomy 18 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "non habebunt sacerdotes et Levitae et omnes qui de eadem tribu sunt partem et hereditatem cum reliquo Israhel quia sacrificia Domini et oblationes eius comedent",
+      "citation": "Deuteronomy 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et nihil aliud accipient de possessione fratrum suorum Dominus enim ipse est hereditas eorum sicut locutus est illis",
+      "citation": "Deuteronomy 18:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "hoc erit iudicium sacerdotum a populo et ab his qui offerunt victimas sive bovem sive ovem immolaverint dabunt sacerdoti armum ac ventriculum",
+      "citation": "Deuteronomy 18:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "primitias frumenti vini et olei et lanarum partem ex ovium tonsione",
+      "citation": "Deuteronomy 18:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ipsum enim elegit Dominus Deus tuus de cunctis tribubus tuis ut stet et ministret nomini Domini ipse et filii eius in sempiternum",
+      "citation": "Deuteronomy 18:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "si exierit Levites de una urbium tuarum ex omni Israhel in qua habitat et voluerit venire desiderans locum quem elegerit Dominus",
+      "citation": "Deuteronomy 18:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ministrabit in nomine Dei sui sicut omnes fratres eius Levitae qui stabunt eo tempore coram Domino",
+      "citation": "Deuteronomy 18:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "partem ciborum eandem accipiet quam et ceteri excepto eo quod in urbe sua ex paterna ei successione debetur",
+      "citation": "Deuteronomy 18:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quando ingressus fueris terram quam Dominus Deus tuus dabit tibi cave ne imitari velis abominationes illarum gentium",
+      "citation": "Deuteronomy 18:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "nec inveniatur in te qui lustret filium suum aut filiam ducens per ignem aut qui ariolos sciscitetur et observet somnia atque auguria ne sit maleficus",
+      "citation": "Deuteronomy 18:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ne incantator ne pythones consulat ne divinos et quaerat a mortuis veritatem",
+      "citation": "Deuteronomy 18:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "omnia enim haec abominatur Dominus et propter istiusmodi scelera delebit eos in introitu tuo",
+      "citation": "Deuteronomy 18:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "perfectus eris et absque macula cum Domino Deo tuo",
+      "citation": "Deuteronomy 18:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "gentes istae quarum possidebis terram augures et divinos audiunt tu autem a Domino Deo tuo aliter institutus es",
+      "citation": "Deuteronomy 18:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "prophetam de gente tua et de fratribus tuis sicut me suscitabit tibi Dominus Deus tuus ipsum audies",
+      "citation": "Deuteronomy 18:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ut petisti a Domino Deo tuo in Horeb quando contio congregata est atque dixisti ultra non audiam vocem Domini Dei mei et ignem hunc maximum amplius non videbo ne moriar",
+      "citation": "Deuteronomy 18:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et ait Dominus mihi bene omnia sunt locuti",
+      "citation": "Deuteronomy 18:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "prophetam suscitabo eis de medio fratrum suorum similem tui et ponam verba mea in ore eius loqueturque ad eos omnia quae praecepero illi",
+      "citation": "Deuteronomy 18:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "qui autem verba eius quae loquetur in nomine meo audire noluerit ego ultor existam",
+      "citation": "Deuteronomy 18:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "propheta autem qui arrogantia depravatus voluerit loqui in nomine meo quae ego non praecepi illi ut diceret aut ex nomine alienorum deorum interficietur",
+      "citation": "Deuteronomy 18:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quod si tacita cogitatione responderis quomodo possum intellegere verbum quod non est locutus Dominus",
+      "citation": "Deuteronomy 18:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "hoc habebis signum quod in nomine Domini propheta ille praedixerit et non evenerit hoc Dominus non locutus est sed per tumorem animi sui propheta confinxit et idcirco non timebis eum",
+      "citation": "Deuteronomy 18:22 (Clementine Vulgate)"
+    }
+  ]
+}

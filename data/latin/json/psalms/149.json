@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 149 — 18 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 149,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/148.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/150.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/149.json",
+      "german": "https://latinprayer.org/bibel/psalms/149.json"
+    }
+  },
+  "citation": "Psalms 149 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "alleluia cantate Domino canticum novum laus eius in ecclesia sanctorum",
+      "citation": "Psalms 149:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "alleluia cantate Domino canticum novum laus eius in congregatione sanctorum",
+      "citation": "Psalms 149:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "laetetur Israhel in eo qui fecit eum et filii Sion exultent in rege suo",
+      "citation": "Psalms 149:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "laetetur Israhel in factore suo filii Sion exultent in rege suo",
+      "citation": "Psalms 149:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "laudent nomen eius in choro in tympano et psalterio psallant ei",
+      "citation": "Psalms 149:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "laudent nomen eius in choro in tympano et cithara cantent ei",
+      "citation": "Psalms 149:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia beneplacitum est Domino in populo suo et exaltabit mansuetos in salute",
+      "citation": "Psalms 149:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia conplacet sibi Dominus in populo suo exaltabit mansuetos in Iesu",
+      "citation": "Psalms 149:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "exultabunt sancti in gloria laetabuntur in cubilibus suis",
+      "citation": "Psalms 149:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "exultabunt sancti in gloria laudabunt in cubilibus suis",
+      "citation": "Psalms 149:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "exaltationes Dei in gutture eorum et gladii ancipites in manibus eorum",
+      "citation": "Psalms 149:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "exaltationes Dei in gutture eorum et gladii ancipites in manibus eorum",
+      "citation": "Psalms 149:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ad faciendam vindictam in nationibus increpationes in populis",
+      "citation": "Psalms 149:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ad faciendam vindictam in gentibus increpationes in populis",
+      "citation": "Psalms 149:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ad alligandos reges eorum in conpedibus et nobiles eorum in manicis ferreis",
+      "citation": "Psalms 149:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ut alligent reges eorum catenis et inclitos eorum conpedibus ferreis",
+      "citation": "Psalms 149:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ut faciant in eis iudicium conscriptum gloria haec est omnibus sanctis eius",
+      "citation": "Psalms 149:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ut faciant in eis iudicium scriptum decor est omnium sanctorum eius alleluia",
+      "citation": "Psalms 149:9 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 3 — 26 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 3,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/2.json",
+      "nextChapter": "https://latinprayer.org/bible/job/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/3.json",
+      "german": "https://latinprayer.org/bibel/job/3.json"
+    }
+  },
+  "citation": "Job 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "After this, Job opened his mouth, and cursed his day,",
+      "citation": "Job 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he said:",
+      "citation": "Job 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Let the day perish wherein I was born, and the night in which it was said: A man child is conceived.",
+      "citation": "Job 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Let that day be turned into darkness, let not God regard it from above, and let not the light shine upon it.",
+      "citation": "Job 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Let darkness, and the shadow of death, cover it, let a mist overspread it, and let it be wrapped up in bitterness.",
+      "citation": "Job 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Let a darksome whirlwind seize upon that night, let it not be counted in the days of the year, nor numbered in the months.",
+      "citation": "Job 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Let that night be solitary, and not worthy of praise.",
+      "citation": "Job 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Let them curse it who curse the day, who are ready to raise up a leviathan:",
+      "citation": "Job 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Let the stars be darkened with the mist thereof: let it expect light, and not see it, nor the rising of the dawning of the day:",
+      "citation": "Job 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Because it shut not up the doors of the womb that bore me, nor took away evils from my eyes.",
+      "citation": "Job 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Why did I not die in the womb? why did I not perish when I came out of the belly?",
+      "citation": "Job 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Why received upon the knees? why suckled at the breasts?",
+      "citation": "Job 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For now I should have been asleep and still, and should have rest in my sleep:",
+      "citation": "Job 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "With kings and consuls of the earth, who build themselves solitudes:",
+      "citation": "Job 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Or with princes, that possess gold, and fill their houses with silver:",
+      "citation": "Job 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Or as a hidden untimely birth, I should not be; or as they that, being conceived, have not seen the light.",
+      "citation": "Job 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "There the wicked cease from tumult, and there the wearied in strength are at rest.",
+      "citation": "Job 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And they sometime bound together without disquiet, have not heard the voice of the oppressor.",
+      "citation": "Job 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The small and great are there, and the servant is free from his master.",
+      "citation": "Job 3:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Why is light given to him that is in misery, and life to them that are in bitterness of soul?",
+      "citation": "Job 3:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "That look for death, and it cometh not, as they that dig for a treasure:",
+      "citation": "Job 3:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And they rejoice exceedingly when they have found the grave?",
+      "citation": "Job 3:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "To a man whose way is hidden, and God hath surrounded him with darkness?",
+      "citation": "Job 3:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Before I eat I sigh: and as overflowing waters, so is my roaring:",
+      "citation": "Job 3:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "For the fear which I feared, hath come upon me: and that which I was afraid of, hath befallen me.",
+      "citation": "Job 3:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Have I not dissembled? have I not kept silence?  have I not been quiet? and indignation is come upon me.",
+      "citation": "Job 3:26 (Douay-Rheims)"
+    }
+  ]
+}

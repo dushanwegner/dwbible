@@ -1,0 +1,306 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Könige, Chapter 22 — 54 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Könige",
+      "slug": "3-kings",
+      "testament": "OT",
+      "order": 11,
+      "totalChapters": 22
+    },
+    "chapter": 22,
+    "verseCount": 54,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/3-kings/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/3-kings/21.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/3-kings/22.json",
+      "latin": "https://latinprayer.org/latin/3-kings/22.json"
+    }
+  },
+  "citation": "1 Könige 22 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Drei Jahre vergingen ruhig, ohne daß Krieg zwischen Syrien und Israel stattfand.",
+      "citation": "1 Könige 22:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Im dritten Jahre aber, als Josaphat, der König von Juda, zum König von Israel (auf Besuch) gekommen war,",
+      "citation": "1 Könige 22:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "sagte der König von Israel zu seinen Dienern: »Ihr wißt doch wohl, daß Ramoth in Gilead uns gehört? Wir aber sitzen hier müßig, anstatt es dem König von Syrien zu entreißen!«",
+      "citation": "1 Könige 22:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als er hierauf an Josaphat die Frage richtete: »Willst du mit mir gegen Ramoth in Gilead zu Felde ziehen?«, antwortete ihm Josaphat: »Ich will sein wie du: mein Volk wie dein Volk, meine Rosse wie deine Rosse!«",
+      "citation": "1 Könige 22:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Als Josaphat dann dem König von Israel riet, zunächst doch den Willen des HERRN zu erforschen,",
+      "citation": "1 Könige 22:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "ließ der König von Israel die Propheten zusammenkommen, ungefähr vierhundert Mann, und fragte sie: »Soll ich gegen Ramoth in Gilead zu Felde ziehen, oder soll ich es unterlassen?« Sie antworteten: »Ziehe hin, denn der HERR wird es dem König in die Hand geben.«",
+      "citation": "1 Könige 22:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da fragte Josaphat: »Gibt es hier sonst keinen Propheten des HERRN mehr, durch den wir Auskunft erhalten könnten?«",
+      "citation": "1 Könige 22:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Der König von Israel erwiderte dem Josaphat: »Es ist wohl noch einer da, durch den wir den HERRN befragen könnten, aber ich habe nicht gern mit ihm zu tun; denn er weissagt mir niemals Gutes, sondern immer nur Unglück: Micha, der Sohn Jimlas.« Aber Josaphat entgegnete: »Der König wolle nicht so reden!«",
+      "citation": "1 Könige 22:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Da rief der König von Israel einen Kammerherrn und befahl ihm, schleunigst Micha, den Sohn Jimlas, zu holen.",
+      "citation": "1 Könige 22:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Während nun der König von Israel und der König Josaphat von Juda ein jeder auf seinem Throne in ihren Königsgewändern auf dem Platz am Eingang des Stadttores von Samaria dasaßen und alle Propheten vor ihnen weissagten,",
+      "citation": "1 Könige 22:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "machte sich Zedekia, der Sohn Kenaanas, eiserne Hörner und rief aus: »So spricht der HERR: ›Mit solchen (Hörnern) wirst du die Syrer niederstoßen, bis du sie vernichtet hast!‹«",
+      "citation": "1 Könige 22:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Ebenso weissagten auch alle anderen Propheten, indem sie riefen: »Ziehe hin gegen Ramoth in Gilead: du wirst Glück haben! Denn der HERR wird es dem König in die Hand fallen lassen.«",
+      "citation": "1 Könige 22:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Der Bote aber, der hingegangen war, um Micha zu holen, sagte zu ihm: »Wisse: die (übrigen) Propheten haben dem Könige einstimmig Glück verheißen; schließe dich doch ihrem einmütigen Ausspruch an und prophezeie ebenfalls Glück!«",
+      "citation": "1 Könige 22:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Micha aber antwortete: »So wahr der HERR lebt: nur was der HERR mir eingeben wird, das werde ich verkünden!«",
+      "citation": "1 Könige 22:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Als er nun zum Könige kam, fragte dieser ihn: »Micha, sollen wir gegen Ramoth in Gilead zu Felde ziehen, oder sollen wir es unterlassen?« Er antwortete ihm: »Ziehe hin, du wirst Glück haben! Denn der HERR wird es dem Könige in die Hand fallen lassen.«",
+      "citation": "1 Könige 22:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Da entgegnete ihm der König: »Wie oft soll ich dich noch beschwören, mir nichts zu verkünden als nur die reine Wahrheit im Namen des HERRN?«",
+      "citation": "1 Könige 22:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Da sagte Micha: »Ich habe ganz Israel zerstreut auf den Bergen gesehen wie Schafe, die keinen Hirten haben; der HERR aber sagte: ›Diese haben keinen Herrscher mehr: ein jeder von ihnen möge in Frieden nach Hause zurückkehren!‹«",
+      "citation": "1 Könige 22:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Da sagte der König von Israel zu Josaphat: »Habe ich dir nicht gesagt, daß er mir niemals Glück, sondern immer nur Unheil prophezeit?«",
+      "citation": "1 Könige 22:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Micha aber fuhr fort: »Darum vernimm das Wort des HERRN! Ich habe den HERRN auf seinem Throne sitzen sehen, während das ganze himmlische Heer zur Rechten und zur Linken neben ihm stand.",
+      "citation": "1 Könige 22:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Und der HERR fragte: ›Wer will Ahab betören, daß er zu Felde ziehe und bei Ramoth in Gilead falle?‹ Da erwiderte der eine dies, der andere das,",
+      "citation": "1 Könige 22:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "bis endlich der Geist vortrat und sich vor den HERRN stellte und sagte: ›Ich will ihn betören.‹ Der HERR fragte ihn: ›Auf welche Weise?‹",
+      "citation": "1 Könige 22:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Da antwortete er: ›Ich will hingehen und zum Lügengeist im Munde aller seiner Propheten werden.‹ Da sagte der HERR: ›Du sollst ihn betören, und es wird dir auch gelingen: gehe hin und mache es so.‹",
+      "citation": "1 Könige 22:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Nun denn, siehe, der HERR hat allen diesen deinen Propheten einen Lügengeist in den Mund gelegt; denn der HERR hat Unglück für dich beschlossen.«",
+      "citation": "1 Könige 22:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Da trat Zedekia, der Sohn Kenaanas, auf Micha zu und gab ihm einen Backenstreich mit den Worten: »Wie? Ist etwa der Geist des HERRN von mir gewichen, um mit dir zu reden?«",
+      "citation": "1 Könige 22:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Micha entgegnete: »Du wirst es an jenem Tage erfahren, an dem du dich aus einem Gemach in das andere begeben wirst, um dich zu verstecken.«",
+      "citation": "1 Könige 22:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Hierauf befahl der König von Israel (dem Kammerherrn): »Nimm Micha fest und führe ihn zu dem Stadthauptmann Amon und zu dem königlichen Prinzen Joas zurück",
+      "citation": "1 Könige 22:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "und melde dort: ›So hat der König befohlen: Setzt diesen Menschen ins Gefängnis und erhaltet ihn notdürftig mit Brot und Wasser am Leben, bis ich wohlbehalten heimkehre!‹«",
+      "citation": "1 Könige 22:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Micha antwortete: »Wenn du wirklich wohlbehalten heimkehrst, dann hat der HERR nicht in mir geredet.« Er fügte dann noch hinzu: »Hört dies, ihr Völker alle!«",
+      "citation": "1 Könige 22:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Als hierauf der König von Israel und der König Josaphat von Juda gegen Ramoth in Gilead zu Felde gezogen waren,",
+      "citation": "1 Könige 22:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "sagte der König von Israel zu Josaphat: »Ich will mich verkleiden und so in die Schlacht gehen; du aber magst deine gewöhnliche Kleidung anbehalten.« So nahm denn der König von Israel verkleidet an der Schlacht teil.",
+      "citation": "1 Könige 22:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Der König von Syrien hatte aber den zweiunddreißig Befehlshabern seiner Kriegswagen den bestimmten Befehl erteilt: »Ihr sollt niemand angreifen, er sei gering oder vornehm, sondern nur den König von Israel!«",
+      "citation": "1 Könige 22:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Als nun die Befehlshaber der Kriegswagen Josaphat zu Gesicht bekamen, dachten sie, daß es gewiß der König von Israel sei, und wandten sich gegen ihn, um ihn anzugreifen. Da erhob Josaphat ein Geschrei;",
+      "citation": "1 Könige 22:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "und sobald die Befehlshaber der Wagen erkannt hatten, daß er nicht der König von Israel sei, wandten sie sich von ihm ab.",
+      "citation": "1 Könige 22:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Ein Mann aber spannte seinen Bogen aufs Geratewohl und traf den König von Israel zwischen dem Ringelgurt und dem Panzer. Da befahl er seinem Wagenlenker: »Wende um und bringe mich vom Schlachtfeld weg, denn ich bin verwundet!«",
+      "citation": "1 Könige 22:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Da aber der Kampf an jenem Tage immer heftiger wurde, blieb der König dann doch den Syrern gegenüber aufrecht im Wagen stehen, bis er am Abend starb; das Blut war aus der Schußwunde ins Innere des Wagens geflossen.",
+      "citation": "1 Könige 22:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Da erscholl gegen Sonnenuntergang der laute Ruf durch das Lager: »Jeder (kehre heim) in seine Stadt und jeder in sein Land! Denn der König ist tot!«",
+      "citation": "1 Könige 22:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "Als man dann nach Samaria gekommen war, begruben sie den König in Samaria;",
+      "citation": "1 Könige 22:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "und als man den Wagen am Teich von Samaria abspülte, leckten die Hunde sein Blut [und die Dirnen wuschen sich damit], wie der HERR es zuvor angekündigt hatte.",
+      "citation": "1 Könige 22:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Die übrige Geschichte Ahabs aber sowie alle seine Taten und das Elfenbeinhaus, das er gebaut, und sämtliche Städte, die er befestigt hat, das findet sich bekanntlich aufgezeichnet im Buch der Denkwürdigkeiten der Könige von Israel. –",
+      "citation": "1 Könige 22:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "Als Ahab sich aber zu seinen Vätern gelegt hatte, folgte ihm sein Sohn Ahasja in der Regierung nach.",
+      "citation": "1 Könige 22:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "Josaphat, der Sohn Asas, wurde König über Juda im vierten Jahre der Regierung des Königs Ahab von Israel.",
+      "citation": "1 Könige 22:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "Fünfunddreißig Jahre war Josaphat beim Regierungsantritt alt, und fünfundzwanzig Jahre regierte er in Jerusalem. Seine Mutter hieß Asuba und war eine Tochter Silhis.",
+      "citation": "1 Könige 22:42 (Menge)"
+    },
+    {
+      "verse": 43,
+      "text": "Er wandelte ganz auf dem Wege seines Vaters Asa, ohne davon abzuweichen, so daß er tat, was dem HERRN wohlgefiel.",
+      "citation": "1 Könige 22:43 (Menge)"
+    },
+    {
+      "verse": 44,
+      "text": "Nur der Höhendienst wurde nicht beseitigt: das Volk brachte immer noch Schlacht- und Rauchopfer auf den Höhen dar.",
+      "citation": "1 Könige 22:44 (Menge)"
+    },
+    {
+      "verse": 45,
+      "text": "Mit dem König von Israel aber lebte Josaphat in Frieden.",
+      "citation": "1 Könige 22:45 (Menge)"
+    },
+    {
+      "verse": 46,
+      "text": "Die übrige Geschichte Josaphats aber und seine tapferen Taten, die er ausgeführt, und wie er Krieg geführt hat, das findet sich bekanntlich bereits aufgezeichnet im Buche der Denkwürdigkeiten der Könige von Juda.",
+      "citation": "1 Könige 22:46 (Menge)"
+    },
+    {
+      "verse": 47,
+      "text": "Auch den Rest der Heiligtumsbuhler, der unter der Regierung seines Vaters Asa noch übriggeblieben war, schaffte er aus dem Lande weg.",
+      "citation": "1 Könige 22:47 (Menge)"
+    },
+    {
+      "verse": 48,
+      "text": "In Edom gab es damals keinen König; als König galt der (judäische) Statthalter.",
+      "citation": "1 Könige 22:48 (Menge)"
+    },
+    {
+      "verse": 49,
+      "text": "Josaphat hatte Tharsisschiffe bauen lassen, die nach Ophir fahren und Gold holen sollten; aber man fuhr nicht dahin, weil die Schiffe bei Ezjon-Geber scheiterten.",
+      "citation": "1 Könige 22:49 (Menge)"
+    },
+    {
+      "verse": 50,
+      "text": "Damals machte Ahasja, der Sohn Ahabs, dem Josaphat den Vorschlag: »Laß meine Leute die Fahrt zur See mit den deinigen mitmachen!«, aber Josaphat ging nicht darauf ein.",
+      "citation": "1 Könige 22:50 (Menge)"
+    },
+    {
+      "verse": 51,
+      "text": "Als Josaphat sich dann zu seinen Vätern gelegt und man ihn bei seinen Vätern in der Stadt seines Ahnherrn David begraben hatte, folgte ihm sein Sohn Joram in der Regierung nach.",
+      "citation": "1 Könige 22:51 (Menge)"
+    },
+    {
+      "verse": 52,
+      "text": "Ahasja, der Sohn Ahabs, wurde König über Israel zu Samaria im siebzehnten Jahre der Regierung des Königs Josaphat von Juda und regierte zwei Jahre über Israel.",
+      "citation": "1 Könige 22:52 (Menge)"
+    },
+    {
+      "verse": 53,
+      "text": "Er tat, was dem HERRN mißfiel, und wandelte auf dem Wege seines Vaters und seiner Mutter und auf dem Wege Jerobeams, des Sohnes Nebats, der Israel zur Sünde verführt hatte.",
+      "citation": "1 Könige 22:53 (Menge)"
+    },
+    {
+      "verse": 54,
+      "text": "Er diente dem Baal und betete ihn an und erzürnte dadurch den HERRN, den Gott Israels, ganz wie sein Vater getan hatte.",
+      "citation": "1 Könige 22:54 (Menge)"
+    }
+  ]
+}

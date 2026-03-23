@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Thessalonians, Chapter 2 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Thessalonians",
+      "slug": "2-thessalonians",
+      "testament": "NT",
+      "order": 60,
+      "totalChapters": 3
+    },
+    "chapter": 2,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-thessalonians/1.json",
+      "nextChapter": "https://latinprayer.org/latin/2-thessalonians/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-thessalonians/2.json",
+      "german": "https://latinprayer.org/bibel/2-thessalonians/2.json"
+    }
+  },
+  "citation": "2 Thessalonians 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "rogamus autem vos fratres per adventum Domini nostri Iesu Christi et nostrae congregationis in ipsum",
+      "citation": "2 Thessalonians 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ut non cito moveamini a sensu neque terreamini neque per spiritum neque per sermonem neque per epistulam tamquam per nos quasi instet dies Domini",
+      "citation": "2 Thessalonians 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ne quis vos seducat ullo modo quoniam nisi venerit discessio primum et revelatus fuerit homo peccati filius perditionis",
+      "citation": "2 Thessalonians 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "qui adversatur et extollitur supra omne quod dicitur Deus aut quod colitur ita ut in templo Dei sedeat ostendens se quia sit Deus",
+      "citation": "2 Thessalonians 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "non retinetis quod cum adhuc essem apud vos haec dicebam vobis",
+      "citation": "2 Thessalonians 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et nunc quid detineat scitis ut reveletur in suo tempore",
+      "citation": "2 Thessalonians 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "nam mysterium iam operatur iniquitatis tantum ut qui tenet nunc donec de medio fiat",
+      "citation": "2 Thessalonians 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et tunc revelabitur ille iniquus quem Dominus Iesus interficiet spiritu oris sui et destruet inlustratione adventus sui",
+      "citation": "2 Thessalonians 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "eum cuius est adventus secundum operationem Satanae in omni virtute et signis et prodigiis mendacibus",
+      "citation": "2 Thessalonians 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et in omni seductione iniquitatis his qui pereunt eo quod caritatem veritatis non receperunt ut salvi fierent",
+      "citation": "2 Thessalonians 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ideo mittit illis Deus operationem erroris ut credant mendacio",
+      "citation": "2 Thessalonians 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ut iudicentur omnes qui non crediderunt veritati sed consenserunt iniquitati",
+      "citation": "2 Thessalonians 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "nos autem debemus gratias agere Deo semper pro vobis fratres dilecti a Deo quod elegerit nos Deus primitias in salutem in sanctificatione Spiritus et fide veritatis",
+      "citation": "2 Thessalonians 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ad quod et vocavit vos per evangelium nostrum in adquisitionem gloriae Domini nostri Iesu Christi",
+      "citation": "2 Thessalonians 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "itaque fratres state et tenete traditiones quas didicistis sive per sermonem sive per epistulam nostram",
+      "citation": "2 Thessalonians 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ipse autem Dominus noster Iesus Christus et Deus et Pater noster qui dilexit nos et dedit consolationem aeternam et spem bonam in gratia",
+      "citation": "2 Thessalonians 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "exhortetur corda vestra et confirmet in omni opere et sermone bono",
+      "citation": "2 Thessalonians 2:17 (Clementine Vulgate)"
+    }
+  ]
+}

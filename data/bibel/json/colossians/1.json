@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Kolosser, Chapter 1 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Kolosser",
+      "slug": "colossians",
+      "testament": "NT",
+      "order": 58,
+      "totalChapters": 4
+    },
+    "chapter": 1,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/colossians/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bibel/colossians/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/colossians/1.json",
+      "latin": "https://latinprayer.org/latin/colossians/1.json"
+    }
+  },
+  "citation": "Kolosser 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Ich, Paulus, ein Apostel Christi Jesu durch Gottes Willen, und der Bruder Timotheus",
+      "citation": "Kolosser 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "senden unsern Gruß den in Kolossä lebenden heiligen und gläubigen Brüdern in Christus Jesus: Gnade sei mit euch und Friede von Gott, unserm Vater!",
+      "citation": "Kolosser 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wir danken Gott, dem Vater unsers Herrn Jesus Christus, allezeit in unsern Gebeten für euch,",
+      "citation": "Kolosser 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "da wir von eurem Glaubensstand in Christus Jesus und von der Liebe, die ihr zu allen Heiligen hegt, gehört haben,",
+      "citation": "Kolosser 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "(und zwar danken wir Gott) um des Hoffnungsgutes willen, das für euch im Himmel aufbewahrt liegt. Von diesem habt ihr schon im voraus Kunde erhalten durch das Wort der Wahrheit, nämlich der Heilsbotschaft,",
+      "citation": "Kolosser 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "die bei euch Eingang gefunden hat, wie sie ja auch in der ganzen Welt (verbreitet) ist und ebenso Frucht bringt und wächst wie auch bei euch seit dem Tage, an dem ihr sie vernommen und die Gnade Gottes in Wahrheit erkannt habt.",
+      "citation": "Kolosser 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ihr habt ja die betreffende Unterweisung von unserm geliebten Mitknecht Epaphras empfangen, der als unser Vertreter ein treuer Diener Christi ist",
+      "citation": "Kolosser 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "und uns auch von eurer durch den Geist gewirkten Liebe berichtet hat.",
+      "citation": "Kolosser 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Deshalb hören auch wir seit dem Tage, an dem wir es vernommen haben, nicht auf, für euch zu beten und (Gott) zu bitten, daß ihr mit der Erkenntnis seines Willens in aller geistgewirkten Weisheit und Einsicht erfüllt werden möchtet,",
+      "citation": "Kolosser 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "damit ihr so, wie es des Herrn würdig ist, zu seinem völligen Wohlgefallen wandelt. Ja, möchtet ihr in jedem guten Werke Frucht bringen und in der Erkenntnis Gottes wachsen!",
+      "citation": "Kolosser 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Möchtet ihr mit aller Kraft, wie es der Macht seiner Herrlichkeit entspricht, zu aller Standhaftigkeit und Ausdauer ausgerüstet werden",
+      "citation": "Kolosser 1:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "und mit Freuden dem Vater Dank sagen, der uns zur Teilnahme am Erbe der Heiligen im Licht tüchtig gemacht hat!",
+      "citation": "Kolosser 1:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Er hat uns ja aus der Gewalt der Finsternis gerettet und uns in das Reich des Sohnes seiner Liebe versetzt.",
+      "citation": "Kolosser 1:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "In diesem haben wir die Erlösung, nämlich die Vergebung der Sünden;",
+      "citation": "Kolosser 1:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "er ist ja das Ebenbild des unsichtbaren Gottes, der Erstgeborene aller Schöpfung;",
+      "citation": "Kolosser 1:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "denn in ihm ist alles geschaffen worden, was im Himmel und auf der Erde ist, das Sichtbare wie das Unsichtbare, mögen es Throne oder Herrschaften, Mächte oder Gewalten sein: alles ist durch ihn und für ihn geschaffen worden,",
+      "citation": "Kolosser 1:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "und er ist vor allem, und alles hat in ihm seinen Bestand.",
+      "citation": "Kolosser 1:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Ferner ist er das Haupt des Leibes, nämlich der Gemeinde: er ist der Anfang, der Erstgeborene aus den Toten, er, der in allen Beziehungen den Vorrang haben sollte.",
+      "citation": "Kolosser 1:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Denn es war (Gottes) Ratschluß, in ihm die ganze Fülle wohnen zu lassen",
+      "citation": "Kolosser 1:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "und durch ihn alles mit sich zu versöhnen – nachdem er durch sein am Kreuz vergossenes Blut Frieden gestiftet hat –, durch ihn (zu versöhnen) sowohl das, was auf der Erde, als auch das, was in den Himmeln ist.",
+      "citation": "Kolosser 1:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Auch euch, die ihr einst (gott)entfremdet und feindlichen Sinnes in euren bösen Werken waret, –",
+      "citation": "Kolosser 1:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "jetzt aber hat er euch in seinem Fleischesleibe durch seinen Tod versöhnt, um euch als heilig, untadelig und unanklagbar vor ihm darzustellen,",
+      "citation": "Kolosser 1:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "wofern ihr im Glauben fest gegründet und unerschütterlich beharrt und euch nicht von der Hoffnung abbringen laßt, die in der Heilsbotschaft beschlossen liegt. Diese (Botschaft) habt ihr vernommen: sie ist ja in der ganzen Schöpfung unter dem Himmel verkündigt worden, und ich, Paulus, bin ihr Diener geworden.",
+      "citation": "Kolosser 1:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Jetzt freue ich mich der Leiden, die ich für euch zu erdulden habe, und ergänze das, was an den Trübsalen Christi noch fehlt, in meinem Fleisch für seinen Leib, das heißt für die Gemeinde,",
+      "citation": "Kolosser 1:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "deren Diener ich infolge des Haushalteramts geworden bin, das mir von Gott im Hinblick auf euch übertragen worden ist, um das Wort Gottes vollkommen auszurichten,",
+      "citation": "Kolosser 1:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "nämlich das Geheimnis, das, seitdem es Weltzeiten und Menschengeschlechter gibt, verborgen gewesen, jetzt aber seinen Heiligen geoffenbart worden ist.",
+      "citation": "Kolosser 1:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Denn ihnen hat Gott kundtun wollen, welche Fülle von Herrlichkeit dieses Geheimnis (gerade) unter den Heidenvölkern in sich berge. Dieser Reichtum besteht darin, daß Christus in euch ist, als die Hoffnung auf die (künftige) Herrlichkeit.",
+      "citation": "Kolosser 1:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Und er ist es, den wir verkündigen, indem wir jedermann ermahnen und jedermann in aller Weisheit unterweisen, um einem jeden zur Vollkommenheit in Christus zu verhelfen.",
+      "citation": "Kolosser 1:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Um dieses zu erreichen, arbeite ich auch angestrengt und kämpfe vermöge seiner Kraft, die sich machtvoll in mir wirksam erweist.",
+      "citation": "Kolosser 1:29 (Menge)"
+    }
+  ]
+}

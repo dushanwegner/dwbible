@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 23 — 35 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 23,
+    "verseCount": 35,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/proverbs/22.json",
+      "nextChapter": "https://latinprayer.org/latin/proverbs/24.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/23.json",
+      "german": "https://latinprayer.org/bibel/proverbs/23.json"
+    }
+  },
+  "citation": "Proverbs 23 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quando sederis ut comedas cum principe diligenter adtende quae posita sunt ante faciem tuam",
+      "citation": "Proverbs 23:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et statue cultrum in gutture tuo si tamen habes in potestate animam tuam",
+      "citation": "Proverbs 23:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ne desideres de cibis eius in quo est panis mendacii",
+      "citation": "Proverbs 23:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "noli laborare ut diteris sed prudentiae tuae pone modum",
+      "citation": "Proverbs 23:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ne erigas oculos tuos ad opes quas habere non potes quia facient sibi pinnas quasi aquilae et avolabunt in caelum",
+      "citation": "Proverbs 23:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ne comedas cum homine invido et ne desideres cibos eius",
+      "citation": "Proverbs 23:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quoniam in similitudinem arioli et coniectoris aestimat quod ignorat comede et bibe dicet tibi et mens eius non est tecum",
+      "citation": "Proverbs 23:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "cibos quos comederas evomes et perdes pulchros sermones tuos",
+      "citation": "Proverbs 23:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "in auribus insipientium ne loquaris quia despicient doctrinam eloquii tui",
+      "citation": "Proverbs 23:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ne adtingas terminos parvulorum et agrum pupillorum ne introeas",
+      "citation": "Proverbs 23:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "propinquus enim eorum Fortis est et ipse iudicabit contra te causam illorum",
+      "citation": "Proverbs 23:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ingrediatur ad doctrinam cor tuum et aures tuae ad verba scientiae",
+      "citation": "Proverbs 23:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "noli subtrahere a puero disciplinam si enim percusseris eum virga non morietur",
+      "citation": "Proverbs 23:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "tu virga percuties eum et animam eius de inferno liberabis",
+      "citation": "Proverbs 23:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "fili mi si sapiens fuerit animus tuus gaudebit tecum cor meum",
+      "citation": "Proverbs 23:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et exultabunt renes mei cum locuta fuerint rectum labia tua",
+      "citation": "Proverbs 23:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "non aemuletur cor tuum peccatores sed in timore Domini esto tota die",
+      "citation": "Proverbs 23:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quia habebis spem in novissimo et praestolatio tua non auferetur",
+      "citation": "Proverbs 23:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "audi fili mi et esto sapiens et dirige in via animum tuum",
+      "citation": "Proverbs 23:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "noli esse in conviviis potatorum nec in comesationibus eorum qui carnes ad vescendum conferunt",
+      "citation": "Proverbs 23:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quia vacantes potibus et dantes symbola consumentur et vestietur pannis dormitatio",
+      "citation": "Proverbs 23:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "audi patrem tuum qui genuit te et ne contemnas cum senuerit mater tua",
+      "citation": "Proverbs 23:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "veritatem eme et noli vendere sapientiam et doctrinam et intellegentiam",
+      "citation": "Proverbs 23:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "exultat gaudio pater iusti qui sapientem genuit laetabitur in eo",
+      "citation": "Proverbs 23:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "gaudeat pater tuus et mater tua et exultet quae genuit te",
+      "citation": "Proverbs 23:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "praebe fili mi cor tuum mihi et oculi tui vias meas custodiant",
+      "citation": "Proverbs 23:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "fovea enim profunda est meretrix et puteus angustus aliena",
+      "citation": "Proverbs 23:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "insidiatur in via quasi latro et quos incautos viderit interficit",
+      "citation": "Proverbs 23:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "cui vae cuius patri vae cui rixae cui foveae cui sine causa vulnera cui suffusio oculorum",
+      "citation": "Proverbs 23:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "nonne his qui morantur in vino et student calicibus epotandis",
+      "citation": "Proverbs 23:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "ne intuearis vinum quando flavescit cum splenduerit in vitro color eius ingreditur blande",
+      "citation": "Proverbs 23:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "sed in novissimo mordebit ut coluber et sicut regulus venena diffundet",
+      "citation": "Proverbs 23:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "oculi tui videbunt extraneas et cor tuum loquetur perversa",
+      "citation": "Proverbs 23:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et eris sicut dormiens in medio mari et quasi sopitus gubernator amisso clavo",
+      "citation": "Proverbs 23:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et dices verberaverunt me sed non dolui traxerunt me et ego non sensi quando evigilabo et rursum vina repperiam",
+      "citation": "Proverbs 23:35 (Clementine Vulgate)"
+    }
+  ]
+}

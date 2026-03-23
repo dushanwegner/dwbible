@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 35 — 58 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 35,
+    "verseCount": 58,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/34.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/36.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/35.json",
+      "german": "https://latinprayer.org/bibel/psalms/35.json"
+    }
+  },
+  "citation": "Psalms 35 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "huic David iudica Domine nocentes me expugna expugnantes me",
+      "citation": "Psalms 35:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in finem servo Domini David",
+      "citation": "Psalms 35:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "David iudica Domine adversarios meos pugna contra pugnantes me",
+      "citation": "Psalms 35:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "pro victoria servi Domini David",
+      "citation": "Psalms 35:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "adprehende arma et scutum et exsurge in adiutorium mihi",
+      "citation": "Psalms 35:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "adprehende scutum et hastam et consurge in auxilium meum",
+      "citation": "Psalms 35:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "effunde frameam et conclude adversus eos qui persequuntur me dic animae meae salus tua ego sum",
+      "citation": "Psalms 35:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "evagina gladium et praeoccupa ex adverso persequentem me dic animae meae salus tua ego sum",
+      "citation": "Psalms 35:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "confundantur et revereantur quaerentes animam meam avertantur retrorsum et confundantur cogitantes mihi mala",
+      "citation": "Psalms 35:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "confundantur et revereantur qui quaerunt animam meam convertantur retrorsum et confundantur qui cogitant malum mihi",
+      "citation": "Psalms 35:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "fiant tamquam pulvis ante faciem venti et angelus Domini coartans eos",
+      "citation": "Psalms 35:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "fiant sicut pulvis ante faciem venti et angelus Domini inpellat",
+      "citation": "Psalms 35:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "fiat via illorum tenebrae et lubricum et angelus Domini persequens eos",
+      "citation": "Psalms 35:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "sit via eorum tenebrae et lubricum et angelus Domini persequatur eos",
+      "citation": "Psalms 35:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quoniam gratis absconderunt mihi interitum laquei sui supervacue exprobraverunt animam meam",
+      "citation": "Psalms 35:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quia frustra absconderunt mihi insidias retis sui sine causa foderunt animae meae",
+      "citation": "Psalms 35:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "veniat illi laqueus quem ignorat et captio quam abscondit conprehendat eum et in laqueo cadat in ipso",
+      "citation": "Psalms 35:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "veniat ei calamitas quam ignorat et rete suum quod abscondit conprehendat eum et cadat in laqueum",
+      "citation": "Psalms 35:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "anima autem mea exultabit in Domino delectabitur super salutari suo",
+      "citation": "Psalms 35:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "anima autem mea exultabit in Domino et laetabitur in salute sua",
+      "citation": "Psalms 35:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "omnia ossa mea dicent Domine quis similis tui eripiens inopem de manu fortiorum eius egenum et pauperem a diripientibus eum",
+      "citation": "Psalms 35:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "omnia ossa mea dicent Domine quis similis tui eruens inopem a validiore et pauperem et mendicum a violento",
+      "citation": "Psalms 35:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "surgentes testes iniqui quae ignorabam interrogabant me",
+      "citation": "Psalms 35:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "surgentes testes iniqui quae nesciebam interrogabant me",
+      "citation": "Psalms 35:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "retribuebant mihi mala pro bonis sterilitatem animae meae",
+      "citation": "Psalms 35:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "reddebant mihi mala pro bono sterilitatem animae meae",
+      "citation": "Psalms 35:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ego autem cum mihi molesti essent induebar cilicio humiliabam in ieiunio animam meam et oratio mea in sinum meum convertetur",
+      "citation": "Psalms 35:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ego autem cum infirmarer ab eis induebar cilicio humiliabam in ieiunio animam meam et oratio mea ad sinum meum revertetur",
+      "citation": "Psalms 35:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quasi proximum quasi fratrem nostrum sic conplacebam quasi lugens et contristatus sic humiliabar",
+      "citation": "Psalms 35:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quasi ad amicum quasi ad fratrem meum sic ambulabam quasi lugens mater tristis incurvabar",
+      "citation": "Psalms 35:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et adversum me laetati sunt et convenerunt congregata sunt super me flagella et ignoravi",
+      "citation": "Psalms 35:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et in infirmitate mea laetabantur et congregabantur collecti sunt adversum me percutientes et nesciebam",
+      "citation": "Psalms 35:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "dissipati sunt nec conpuncti temptaverunt me subsannaverunt me subsannatione frenduerunt super me dentibus suis",
+      "citation": "Psalms 35:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "scindentes et non tacentes in simulatione verborum fictorum frendebant contra me dentibus suis",
+      "citation": "Psalms 35:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Domine quando respicies restitue animam meam a malignitate eorum a leonibus unicam meam",
+      "citation": "Psalms 35:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Domine quanta aspicies converte animam meam a calamitatibus suis a leonibus solitariam meam",
+      "citation": "Psalms 35:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "confitebor tibi in ecclesia magna in populo gravi laudabo te",
+      "citation": "Psalms 35:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "confitebor tibi in ecclesia grandi in populo forti laudabo te",
+      "citation": "Psalms 35:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "non supergaudeant mihi qui adversantur mihi inique qui oderunt me gratis et annuunt oculis",
+      "citation": "Psalms 35:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "non laetentur super me inimici mei mendaces odientes me frustra coniventes oculo",
+      "citation": "Psalms 35:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quoniam mihi quidem pacifice loquebantur et in iracundia * terrae loquentes; dolos cogitabant",
+      "citation": "Psalms 35:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "non enim pacem loquuntur sed in rapina terrae verba fraudulenta concinnant",
+      "citation": "Psalms 35:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et dilataverunt super me os suum dixerunt euge euge viderunt oculi nostri",
+      "citation": "Psalms 35:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et dilataverunt super me os suum dixerunt va va vidit oculus noster",
+      "citation": "Psalms 35:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "vidisti Domine ne sileas Domine ne discedas a me",
+      "citation": "Psalms 35:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "vidisti Domine ne taceas Domine ne elongeris a me",
+      "citation": "Psalms 35:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "exsurge et intende iudicio meo Deus meus et Dominus meus in causam meam",
+      "citation": "Psalms 35:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "consurge et evigila in iudicium meum Deus meus et Domine in causam meam",
+      "citation": "Psalms 35:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "iudica me secundum iustitiam tuam Domine Deus meus et non supergaudeant mihi",
+      "citation": "Psalms 35:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "iudica me secundum iustitiam meam Domine Deus meus et ne insultent mihi",
+      "citation": "Psalms 35:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "non dicant in cordibus suis euge euge animae nostrae nec dicant devoravimus eum",
+      "citation": "Psalms 35:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "ne dicant in corde suo va va va animae nostrae ne dicant absorbuimus eum",
+      "citation": "Psalms 35:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "erubescant et revereantur simul qui gratulantur malis meis induantur confusione et reverentia qui magna loquuntur super me",
+      "citation": "Psalms 35:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "confundantur et revereantur pariter qui laetantur in adflictione mea induantur confusione et verecundia qui magnificantur super me",
+      "citation": "Psalms 35:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "exultent et laetentur qui volunt iustitiam meam et dicant semper magnificetur Dominus qui volunt pacem servi eius",
+      "citation": "Psalms 35:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "laudent et laetentur qui volunt iustitiam meam et dicant semper magnificetur Dominus qui vult pacem servi sui",
+      "citation": "Psalms 35:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et lingua mea meditabitur iustitiam tuam tota die laudem tuam",
+      "citation": "Psalms 35:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et lingua mea meditabitur iustitiam tuam tota die laudem tuam",
+      "citation": "Psalms 35:28 (Clementine Vulgate)"
+    }
+  ]
+}

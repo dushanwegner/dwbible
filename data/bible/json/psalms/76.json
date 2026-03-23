@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 76 — 13 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 76,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/75.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/77.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/76.json",
+      "german": "https://latinprayer.org/bibel/psalms/76.json"
+    }
+  },
+  "citation": "Psalms 76 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "In Judea God is known: his name is great in Israel.",
+      "citation": "Psalms 76:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, for Idithun, a psalm of Asaph.",
+      "citation": "Psalms 76:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And his place is in peace: and his abode in Sion:",
+      "citation": "Psalms 76:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "There hath he broken the powers of bows, the shield, the sword, and the battle.",
+      "citation": "Psalms 76:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Thou enlightenest wonderfully from the everlasting hills.",
+      "citation": "Psalms 76:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "All the foolish of heart were troubled. They have slept their sleep; and all the men of riches have found nothing in their hands.",
+      "citation": "Psalms 76:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "At thy rebuke, O God of Jacob, they have all slumbered that mounted on horseback.",
+      "citation": "Psalms 76:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Thou art terrible, and who shall resist thee? from that time thy wrath.",
+      "citation": "Psalms 76:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Thou hast caused judgment to be heard from heaven: the earth trembled and was still,",
+      "citation": "Psalms 76:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "When God arose in judgment, to save all the meek of the earth.",
+      "citation": "Psalms 76:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For the thought of man shall give praise to thee: and the remainders of the thought shall keep holiday to thee.",
+      "citation": "Psalms 76:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Vow ye, and pay to the Lord your God: all you that are round about him bring presents. To him that is terrible,",
+      "citation": "Psalms 76:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Even to him who taketh away the spirit of princes: to the terrible with the kings of the earth.",
+      "citation": "Psalms 76:12 (Douay-Rheims)"
+    }
+  ]
+}

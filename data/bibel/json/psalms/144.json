@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 144 — 15 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 144,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/143.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/145.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/144.json",
+      "latin": "https://latinprayer.org/latin/psalms/144.json"
+    }
+  },
+  "citation": "Psalmen 144 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Von David.</em> Gepriesen sei der HERR, mein Fels, der meine Hände tüchtig gemacht zum Kampf, meine Finger geschickt zum Kriege,",
+      "citation": "Psalmen 144:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "mein Wohltäter und meine Burg, meine Feste und mein Retter, mein Schild und der, auf den ich vertraue; Völker hat er mir unterworfen!",
+      "citation": "Psalmen 144:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "HERR, was ist der Mensch, daß du ihn beachtest, des Menschen Sohn, daß du seiner gedenkst?",
+      "citation": "Psalmen 144:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Der Mensch gleicht einem Hauch, seine Tage sind wie ein Schatten, der vorüberfliegt.",
+      "citation": "Psalmen 144:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "HERR, neige deinen Himmel und fahre herab, rühre die Berge an, daß sie rauchen!",
+      "citation": "Psalmen 144:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Schleudre Blitze und zerstreue sie, schieß deine Pfeile ab und laß sie zerstieben!",
+      "citation": "Psalmen 144:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Strecke deine Hände aus der Höhe herab, reiß mich heraus und rette mich aus gewaltigen Fluten, aus der Hand der Söhne der Fremde,",
+      "citation": "Psalmen 144:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "deren Lippen Lügen reden und deren Rechte mit Täuschung umgeht.",
+      "citation": "Psalmen 144:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Gott, ein neues Lied will (alsdann) ich dir singen, auf zehnsaitiger Harfe dir spielen:",
+      "citation": "Psalmen 144:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "dir, der den Königen Sieg verleiht, der David, seinen Knecht, entrissen dem mörderischen Schwert.",
+      "citation": "Psalmen 144:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Reiß mich heraus und rette mich aus der Hand der Söhne der Fremde, deren Lippen Lügen reden und deren Rechte mit Täuschung umgeht! –",
+      "citation": "Psalmen 144:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "O gib, daß unsere Söhne in ihrer Jugendkraft hochgewachsenen Setzlingen gleichen! Daß unsre Töchter seien wie schöngemeißelte Ecksäulen an prächtig gebauten Palästen!",
+      "citation": "Psalmen 144:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Daß unsre Speicher, wohlgefüllt, spenden einen Vorrat nach dem andern! Daß unser Kleinvieh sich tausendfach mehre, zehntausendfach auf unsern Triften!",
+      "citation": "Psalmen 144:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Daß unsre Rinder trächtig seien ohne Mißgeschick und ohne Fehlgeburt, keine Spaltung im Volk und kein Wehgeschrei auf unsern Straßen!",
+      "citation": "Psalmen 144:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Glückselig das Volk, dem es so ergeht! Glückselig das Volk, dessen Gott der HERR ist!",
+      "citation": "Psalmen 144:15 (Menge)"
+    }
+  ]
+}

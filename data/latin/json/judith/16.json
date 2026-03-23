@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judith, Chapter 16 — 30 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "order": 18,
+      "totalChapters": 17
+    },
+    "chapter": 16,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/judith/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/judith/15.json",
+      "nextChapter": "https://latinprayer.org/latin/judith/17.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judith/16.json",
+      "german": "https://latinprayer.org/bibel/judith/16.json"
+    }
+  },
+  "citation": "Judith 16 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tunc cantavit canticum hoc Domino Iudith dicens",
+      "citation": "Judith 16:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "incipite Domino in tympanis cantate Deo in cymbalis modulamini illi psalmum novum exaltate et invocate nomen eius",
+      "citation": "Judith 16:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "Dominus conterens bella Dominus nomen est illi",
+      "citation": "Judith 16:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "qui posuit castra sua in medio populi sui ut eriperet nos de manu omnium inimicorum nostrorum",
+      "citation": "Judith 16:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "venit Assur ex montibus ab aquilone in multitudine fortitudinis suae cuius multitudo obturavit torrentes et equi eorum cooperuerunt valles",
+      "citation": "Judith 16:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dixit se incensurum fines meos et iuvenes meos occisurum gladio infantes meos dare in praedam et virgines in captivitatem",
+      "citation": "Judith 16:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Dominus autem omnipotens nocuit eum et tradidit eum in manus feminae et confudit eum",
+      "citation": "Judith 16:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "non enim cecidit potens eorum a iuvenibus nec filii Titan percusserunt eum nec excelsi gigantes inposuerunt se illi sed Iudith filia Merari in specie faciei suae dissolvit eum",
+      "citation": "Judith 16:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "exuit enim se vestimenta viduitatis et induit se vestimenta laetitiae in exultatione filiorum Israhel",
+      "citation": "Judith 16:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "unxit faciem suam unguento conligavit cincinnos suos mitra ad decipiendum illum",
+      "citation": "Judith 16:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sandalia eius rapuerunt oculos eius pulchritudo eius captivam fecit animam eius amputavit pugione cervicem eius",
+      "citation": "Judith 16:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "horruerunt Persae constantiam eius et Medi audaciam eius",
+      "citation": "Judith 16:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "tunc ululaverunt castra Assyriorum quando apparuerunt humiles mei arescentes in siti",
+      "citation": "Judith 16:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "filii puellarum conpunxerunt eos et sicut pueros fugientes occiderunt eos perierunt in proelio a facie Domini mei",
+      "citation": "Judith 16:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "hymnum cantemus Domino hymnum novum cantemus Deo nostro",
+      "citation": "Judith 16:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "Adonai Domine magnus es tu et praeclarus in virtute et quem superare nemo potest",
+      "citation": "Judith 16:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "tibi serviat omnis creatura tua quia dixisti et facta sunt misisti spiritum tuum et creata sunt et non est qui resistat voci tuae",
+      "citation": "Judith 16:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "montes a fundamentis movebuntur cum aquis petrae sicut cera liquescent ante faciem tuam",
+      "citation": "Judith 16:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "qui autem timent te magni erunt apud te prae omnia",
+      "citation": "Judith 16:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "vae genti insurgenti super genus meum Dominus enim omnipotens vindicabit in eis in die iudicii visitabit illos",
+      "citation": "Judith 16:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "dabit enim ignem et vermes in carnes eorum ut urantur et sentiant usque in sempiternum",
+      "citation": "Judith 16:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et factum est post haec omnis populus post victoriam venit ad Hierusalem adorare Dominum et mox ut purificati sunt obtulerunt omnes holocausta et vota et repromissiones suas",
+      "citation": "Judith 16:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "porro Iudith universa vasa bellica Holofernis quae dedit illi populus et conopeum quod ipsa sustulerat in anathema oblivionis",
+      "citation": "Judith 16:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "erat autem populus iucundus secundum faciem sanctorum et per tres menses gaudium huius victoriae celebratum est cum Iudith",
+      "citation": "Judith 16:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "post dies autem illos unusquisque rediit in sua et Iudith magna facta est in Bethulia et praeclarior erat universae terrae Israhel",
+      "citation": "Judith 16:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "erat etiam virtuti castitatis adiuncta ita ut non cognosceret virum omnibus diebus vitae suae ex quo defunctus est Manasses vir eius",
+      "citation": "Judith 16:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "erat autem diebus festis procedens cum gloria magna",
+      "citation": "Judith 16:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "mansit autem in domo viri sui annos centum quinque et dimisit abram suam liberam et defuncta est ac sepulta cum viro suo in Bethuliam",
+      "citation": "Judith 16:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "luxitque illam omnis populus diebus septem",
+      "citation": "Judith 16:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "in omni autem spatio vitae eius non fuit qui perturbaret Israhel et post mortem eius annis multis Laodiceans",
+      "citation": "Judith 16:30 (Clementine Vulgate)"
+    }
+  ]
+}

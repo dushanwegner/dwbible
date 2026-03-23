@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Samuel, Chapter 5 — 12 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Samuel",
+      "slug": "1-kings-samuel",
+      "testament": "OT",
+      "order": 9,
+      "totalChapters": 31
+    },
+    "chapter": 5,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-kings-samuel/4.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-kings-samuel/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-kings-samuel/5.json",
+      "latin": "https://latinprayer.org/latin/1-kings-samuel/5.json"
+    }
+  },
+  "citation": "1 Samuel 5 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Die Philister aber hatten die Lade Gottes erbeutet und brachten sie von Eben-Eser nach Asdod;",
+      "citation": "1 Samuel 5:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "dort nahmen die Philister die Lade Gottes, brachten sie in den Tempel Dagons und stellten sie neben Dagon hin.",
+      "citation": "1 Samuel 5:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Als aber die Einwohner von Asdod am nächsten Morgen früh in den Tempel Dagons kamen, fanden sie Dagon vor der Lade des HERRN am Boden auf dem Angesicht liegen. Da nahmen sie Dagon und stellten ihn wieder an seinen Platz.",
+      "citation": "1 Samuel 5:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als sie aber am folgenden Tage frühmorgens kamen, fanden sie Dagon wieder auf seinem Angesicht am Boden vor der Lade des HERRN liegen, und zwar lagen der Kopf Dagons und seine beiden Hände abgetrennt auf der Schwelle des Tempels; nur sein Fischrumpf war neben ihr noch übriggeblieben.",
+      "citation": "1 Samuel 5:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Daher treten in Asdod die Priester Dagons und alle, die in den Dagontempel hineingehen, nicht auf die Schwelle Dagons bis auf den heutigen Tag.",
+      "citation": "1 Samuel 5:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Hierauf legte sich die Hand des HERRN schwer auf die Einwohner von Asdod; er setzte sie in Schrecken und suchte die Stadt und ihr Gebiet mit Pestbeulen heim.",
+      "citation": "1 Samuel 5:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Als nun die Leute von Asdod diese ihre schlimme Lage erkannten, sagten sie: »Die Lade des Gottes Israels darf nicht bei uns bleiben! Denn seine Hand lastet schwer auf uns und unserm Gott Dagon.«",
+      "citation": "1 Samuel 5:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Da beriefen sie durch Boten sämtliche Fürsten der Philister in ihre Stadt zusammen und fragten: »Was sollen wir mit der Lade des Gottes Israels machen?« Da antworteten jene: »Nach Gath soll die Lade des Gottes Israels überführt werden!«, und sie ließen sie auch wirklich dorthin bringen.",
+      "citation": "1 Samuel 5:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Aber als sie dorthin geschafft worden war, kam die Hand des HERRN über die Stadt mit einer ganz gewaltigen Bestürzung, und er schlug auch hier die Leute der Stadt, junge und alte, so daß Pestbeulen an ihnen zum Ausbruch kamen.",
+      "citation": "1 Samuel 5:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Als man dann die Lade Gottes nach Ekron gebracht hatte, schrien die Einwohner der Stadt nach Ankunft der Lade Gottes in Ekron: »Man hat die Lade des Gottes Israels zu uns hergebracht, um uns und unsere Einwohnerschaft umzubringen!«",
+      "citation": "1 Samuel 5:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da ließen sie wiederum alle Fürsten der Philister durch Boten zusammenrufen und baten: »Schickt die Lade des Gottes der Israeliten wieder zurück an den Ort, wohin sie gehört, damit sie nicht uns und unser Volk umbringt!« Denn es war ein tödlicher Schrecken über die ganze Stadt gekommen: überaus schwer lastete die Hand Gottes auf ihr;",
+      "citation": "1 Samuel 5:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "denn die Leute, die nicht starben, litten qualvoll an Pestbeulen, und das Wehgeschrei der Stadt stieg zum Himmel empor.",
+      "citation": "1 Samuel 5:12 (Menge)"
+    }
+  ]
+}

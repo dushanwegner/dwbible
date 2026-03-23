@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Timothy, Chapter 3 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Timothy",
+      "slug": "2-timothy",
+      "testament": "NT",
+      "order": 62,
+      "totalChapters": 4
+    },
+    "chapter": 3,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-timothy/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-timothy/2.json",
+      "nextChapter": "https://latinprayer.org/bible/2-timothy/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-timothy/3.json",
+      "german": "https://latinprayer.org/bibel/2-timothy/3.json"
+    }
+  },
+  "citation": "2. Timothy 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Know also this, that in the last days shall come dangerous times.",
+      "citation": "2. Timothy 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Men shall be lovers of themselves, covetous, haughty, proud, blasphemers, disobedient to parents, ungrateful, wicked,",
+      "citation": "2. Timothy 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Without affection, without peace, slanderers, incontinent, unmerciful, without kindness,",
+      "citation": "2. Timothy 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Traitors, stubborn, puffed up, and lovers of pleasure more than of God:",
+      "citation": "2. Timothy 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Having an appearance indeed of godliness but denying the power thereof. Now these avoid.",
+      "citation": "2. Timothy 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For of these sort are they who creep into houses and lead captive silly women laden with sins, who are led away with divers desires:",
+      "citation": "2. Timothy 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Ever learning, and never attaining to the knowledge of the truth.",
+      "citation": "2. Timothy 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Now as Jannes and Mambres resisted Moses, so these also resist the truth, men corrupted in mind, reprobate concerning the faith.",
+      "citation": "2. Timothy 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But they shall proceed no farther: for their folly shall be manifest to all men, as theirs also was.",
+      "citation": "2. Timothy 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But thou hast fully known my doctrine, manner of life, purpose, faith, longsuffering, love, patience,",
+      "citation": "2. Timothy 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Persecutions, afflictions: such as came upon me at Antioch, at Iconium and at Lystra: what persecutions I endured, and out of them all the Lord delivered me.",
+      "citation": "2. Timothy 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And all that will live godly in Christ Jesus shall suffer persecution.",
+      "citation": "2. Timothy 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But evil men and seducers shall grow worse and worse: erring, and driving into error,",
+      "citation": "2. Timothy 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But continue thou in those things which thou hast learned and which have been committed to thee. Knowing of whom thou hast learned them:",
+      "citation": "2. Timothy 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And because from thy infancy thou hast known the holy scriptures which can instruct thee to salvation by the faith which is in Christ Jesus.",
+      "citation": "2. Timothy 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "All scripture, inspired of God, is profitable to teach, to reprove, to correct, to instruct in justice:",
+      "citation": "2. Timothy 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "That the man of God may be perfect, furnished to every good work.",
+      "citation": "2. Timothy 3:17 (Douay-Rheims)"
+    }
+  ]
+}

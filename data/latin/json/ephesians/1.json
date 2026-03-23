@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ephesians, Chapter 1 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ephesians",
+      "slug": "ephesians",
+      "testament": "NT",
+      "order": 56,
+      "totalChapters": 6
+    },
+    "chapter": 1,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ephesians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/ephesians/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ephesians/1.json",
+      "german": "https://latinprayer.org/bibel/ephesians/1.json"
+    }
+  },
+  "citation": "Ephesians 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Paulus apostolus Christi Iesu per voluntatem Dei sanctis omnibus qui sunt Ephesi et fidelibus in Christo Iesu",
+      "citation": "Ephesians 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "gratia vobis et pax a Deo Patre nostro et Domino Iesu Christo",
+      "citation": "Ephesians 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "benedictus Deus et Pater Domini nostri Iesu Christi qui benedixit nos in omni benedictione spiritali in caelestibus in Christo",
+      "citation": "Ephesians 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sicut elegit nos in ipso ante mundi constitutionem ut essemus sancti et inmaculati in conspectu eius in caritate",
+      "citation": "Ephesians 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "qui praedestinavit nos in adoptionem filiorum per Iesum Christum in ipsum secundum propositum voluntatis suae",
+      "citation": "Ephesians 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "in laudem gloriae gratiae suae in qua gratificavit nos in dilecto",
+      "citation": "Ephesians 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in quo habemus redemptionem per sanguinem eius remissionem peccatorum secundum divitias gratiae eius",
+      "citation": "Ephesians 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quae superabundavit in nobis in omni sapientia et prudentia",
+      "citation": "Ephesians 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ut notum faceret nobis sacramentum voluntatis suae secundum bonum placitum eius quod proposuit in eo",
+      "citation": "Ephesians 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in dispensationem plenitudinis temporum instaurare omnia in Christo quae in caelis et quae in terra sunt in ipso",
+      "citation": "Ephesians 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in quo etiam sorte vocati sumus praedestinati secundum propositum eius qui omnia operatur secundum consilium voluntatis suae",
+      "citation": "Ephesians 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ut simus in laudem gloriae eius qui ante speravimus in Christo",
+      "citation": "Ephesians 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "in quo et vos cum audissetis verbum veritatis evangelium salutis vestrae in quo et credentes signati estis Spiritu promissionis Sancto",
+      "citation": "Ephesians 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "qui est pignus hereditatis nostrae in redemptionem adquisitionis in laudem gloriae ipsius",
+      "citation": "Ephesians 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "propterea et ego audiens fidem vestram quae est in Domino Iesu et dilectionem in omnes sanctos",
+      "citation": "Ephesians 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "non cesso gratias agens pro vobis memoriam vestri faciens in orationibus meis",
+      "citation": "Ephesians 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "ut Deus Domini nostri Iesu Christi Pater gloriae det vobis spiritum sapientiae et revelationis in agnitione eius",
+      "citation": "Ephesians 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "inluminatos oculos cordis vestri ut sciatis quae sit spes vocationis eius quae divitiae gloriae hereditatis eius in sanctis",
+      "citation": "Ephesians 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et quae sit supereminens magnitudo virtutis eius in nos qui credidimus secundum operationem potentiae virtutis eius",
+      "citation": "Ephesians 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quam operatus est in Christo suscitans illum a mortuis et constituens ad dexteram suam in caelestibus",
+      "citation": "Ephesians 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "supra omnem principatum et potestatem et virtutem et dominationem et omne nomen quod nominatur non solum in hoc saeculo sed et in futuro",
+      "citation": "Ephesians 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et omnia subiecit sub pedibus eius et ipsum dedit caput supra omnia ecclesiae",
+      "citation": "Ephesians 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "quae est corpus ipsius plenitudo eius qui omnia in omnibus adimpletur",
+      "citation": "Ephesians 1:23 (Clementine Vulgate)"
+    }
+  ]
+}

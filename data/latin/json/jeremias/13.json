@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 13 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 13,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/12.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/13.json",
+      "german": "https://latinprayer.org/bibel/jeremias/13.json"
+    }
+  },
+  "citation": "Jeremiah 13 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "haec dicit Dominus ad me vade et posside tibi lumbare lineum et pones illud super lumbos tuos et in aquam non inferes illud",
+      "citation": "Jeremiah 13:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et possedi lumbare iuxta verbum Domini et posui circa lumbos meos",
+      "citation": "Jeremiah 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et factus est sermo Domini ad me secundo dicens",
+      "citation": "Jeremiah 13:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "tolle lumbare quod possedisti quod est circa lumbos tuos et surgens vade ad Eufraten et absconde illud ibi in foramine petrae",
+      "citation": "Jeremiah 13:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et abii et abscondi illud in Eufraten sicut praeceperat mihi Dominus",
+      "citation": "Jeremiah 13:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et factum est post dies plurimos dixit Dominus ad me surge vade ad Eufraten et tolle inde lumbare quod praecepi tibi ut absconderes illud ibi",
+      "citation": "Jeremiah 13:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et abii ad Eufraten et fodi et tuli lumbare de loco ubi absconderam illud et ecce conputruerat lumbare ita ut nullo usui aptum esset",
+      "citation": "Jeremiah 13:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et factum est verbum Domini ad me dicens",
+      "citation": "Jeremiah 13:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "haec dicit Dominus sic putrescere faciam superbiam Iuda et superbiam Hierusalem multam",
+      "citation": "Jeremiah 13:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "populum istum pessimum qui nolunt audire verba mea et ambulant in pravitate cordis sui abieruntque post deos alienos ut servirent eis et adorarent eos et erunt sicut lumbare istud quod nullo usui aptum est",
+      "citation": "Jeremiah 13:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sicut enim adheret lumbare ad lumbos viri sic adglutinavi mihi omnem domum Israhel et omnem domum Iuda dicit Dominus ut esset mihi in populum et in nomen et in laudem et in gloriam et non audierunt",
+      "citation": "Jeremiah 13:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "dices ergo ad eos sermonem istum haec dicit Dominus Deus Israhel omnis laguncula implebitur vino et dicent ad te numquid ignoramus quia omnis laguncula implebitur vino",
+      "citation": "Jeremiah 13:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et dices ad eos haec dicit Dominus ecce ego implebo omnes habitatores terrae huius et reges qui sedent de stirpe David super thronum eius et sacerdotes et prophetas et omnes habitatores Hierusalem ebrietate",
+      "citation": "Jeremiah 13:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et dispergam eos virum a fratre suo et patres et filios pariter ait Dominus non parcam et non concedam neque miserebor ut non disperdam eos",
+      "citation": "Jeremiah 13:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "audite et auribus percipite nolite elevari quia Dominus locutus est",
+      "citation": "Jeremiah 13:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "date Domino Deo vestro gloriam antequam contenebrescat et antequam offendant pedes vestri ad montes caligosos expectabitis lucem et ponet eam in umbram mortis et in caliginem",
+      "citation": "Jeremiah 13:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quod si hoc non audieritis in abscondito plorabit anima mea a facie superbiae plorans plorabit et deducet oculus meus lacrimam quia captus est grex Domini",
+      "citation": "Jeremiah 13:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "dic regi et dominatrici humiliamini sedete quoniam descendit de capite vestro corona gloriae vestrae",
+      "citation": "Jeremiah 13:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "civitates austri clausae sunt et non est qui aperiat translata est omnis Iudaea transmigratione perfecta",
+      "citation": "Jeremiah 13:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "levate oculos vestros et videte qui venitis ab aquilone ubi est grex qui datus est tibi pecus inclitum tuum",
+      "citation": "Jeremiah 13:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quid dices cum visitaverit te tu enim docuisti eos adversum te et erudisti in caput tuum numquid non dolores adprehendent te quasi mulierem parturientem",
+      "citation": "Jeremiah 13:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quod si dixeris in corde tuo quare venerunt mihi haec propter multitudinem iniquitatis tuae revelata sunt verecundiora tua pollutae sunt plantae tuae",
+      "citation": "Jeremiah 13:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "si mutare potest Aethiops pellem suam aut pardus varietates suas et vos poteritis bene facere cum didiceritis malum",
+      "citation": "Jeremiah 13:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et disseminabo eos quasi stipulam quae vento raptatur in deserto",
+      "citation": "Jeremiah 13:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "haec sors tua parsque mensurae tuae a me dicit Dominus quia oblita es mei et confisa es in mendacio",
+      "citation": "Jeremiah 13:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "unde et ego nudavi femora tua contra faciem tuam et apparuit ignominia tua",
+      "citation": "Jeremiah 13:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "adulteria tua et hinnitus tuus scelus fornicationis tuae super colles in agro vidi abominationes tuas vae tibi Hierusalem non mundaberis post me usquequo adhuc",
+      "citation": "Jeremiah 13:27 (Clementine Vulgate)"
+    }
+  ]
+}

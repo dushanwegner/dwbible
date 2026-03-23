@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremia, Chapter 45 — 5 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremia",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 45,
+    "verseCount": 5,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/jeremias/44.json",
+      "nextChapter": "https://latinprayer.org/bibel/jeremias/46.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/45.json",
+      "latin": "https://latinprayer.org/latin/jeremias/45.json"
+    }
+  },
+  "citation": "Jeremia 45 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "(Dies ist) das Wort, das der Prophet Jeremia an Baruch, den Sohn Nerijas richtete, als dieser im vierten Regierungsjahre Jojakims, des Sohnes Josias, des Königs von Juda, die betreffenden Worte so, wie Jeremia sie ihm vorsagte, in ein Buch niedergeschrieben hatte; das Wort lautete:",
+      "citation": "Jeremia 45:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»So hat der HERR, der Gott Israels, in bezug auf dich, Baruch, gesprochen:",
+      "citation": "Jeremia 45:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "›Du klagst: O wehe mir! Der HERR fügt noch Kummer zu meinem Schmerz hinzu! Müde bin ich von allem Seufzen und finde keine Ruhe!‹",
+      "citation": "Jeremia 45:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Sage zu ihm: ›So hat der HERR gesprochen: Wisse wohl: was ich selbst gebaut habe, das breche ich wieder ab, und was ich gepflanzt habe, das reiße ich wieder aus [und zwar betrifft dies die ganze Erde];",
+      "citation": "Jeremia 45:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "und da willst du Großes für dich verlangen? Verlange es nicht! Denn bedenke wohl: ich verhänge Unglück über alles Fleisch‹, – so lautet der Ausspruch des HERRN –; ›dir aber gewähre ich, mit dem Leben davonzukommen an allen Orten, wohin du dich begeben wirst!‹«",
+      "citation": "Jeremia 45:5 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joshua, Chapter 7 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joshua",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 19
+    },
+    "chapter": 7,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/josue/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/josue/6.json",
+      "nextChapter": "https://latinprayer.org/latin/josue/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/josue/7.json",
+      "german": "https://latinprayer.org/bibel/josue/7.json"
+    }
+  },
+  "citation": "Joshua 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "filii autem Israhel praevaricati sunt mandatum et usurpaverunt de anathemate nam Achan filius Charmi filii Zabdi filii Zare de tribu Iuda tulit aliquid de anathemate iratusque est Dominus contra filios Israhel",
+      "citation": "Joshua 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cumque mitteret Iosue de Hiericho viros contra Ahi quae est iuxta Bethaven ad orientalem plagam oppidi Bethel dixit eis ascendite et explorate terram qui praecepta conplentes exploraverunt Ahi",
+      "citation": "Joshua 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et reversi dixerunt ei non ascendat omnis populus sed duo vel tria milia virorum pergant et deleant civitatem quare omnis populus frustra vexatur contra hostes paucissimos",
+      "citation": "Joshua 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ascenderunt ergo tria milia pugnatores qui statim terga vertentes",
+      "citation": "Joshua 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "percussi sunt a viris urbis Ahi et corruerunt ex eis triginta et sex homines persecutique sunt eos adversarii de porta usque Sabarim et ceciderunt per prona fugientes pertimuitque cor populi et instar aquae liquefactum est",
+      "citation": "Joshua 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "Iosue vero scidit vestimenta sua et cecidit pronus in terram coram arca Domini usque ad vesperum tam ipse quam omnes senes Israhel miseruntque pulverem super capita sua",
+      "citation": "Joshua 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et dixit Iosue heu Domine Deus quid voluisti transducere populum istum Iordanem fluvium ut traderes nos in manus Amorrei et perderes utinam ut coepimus mansissemus trans Iordanem",
+      "citation": "Joshua 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "mi Domine Deus quid dicam videns Israhelem hostibus suis terga vertentem",
+      "citation": "Joshua 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "audient Chananei et omnes habitatores terrae ac pariter conglobati circumdabunt nos atque delebunt nomen nostrum de terra et quid facies magno nomini tuo",
+      "citation": "Joshua 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "dixitque Dominus ad Iosue surge cur iaces pronus in terra",
+      "citation": "Joshua 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "peccavit Israhel et praevaricatus est pactum meum tuleruntque de anathemate et furati sunt atque mentiti et absconderunt inter vasa sua",
+      "citation": "Joshua 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nec poterit Israhel stare ante hostes suos eosque fugiet quia pollutus est anathemate non ero ultra vobiscum donec conteratis eum qui huius sceleris reus est",
+      "citation": "Joshua 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "surge sanctifica populum et dic eis sanctificamini in crastinum haec enim dicit Dominus Deus Israhel anathema in medio tui est Israhel non poteris stare coram hostibus tuis donec deleatur ex te qui hoc contaminatus est scelere",
+      "citation": "Joshua 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "accedetisque mane singuli per tribus vestras et quamcumque tribum sors invenerit accedet per cognationes suas et cognatio per domos domusque per viros",
+      "citation": "Joshua 7:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et quicumque ille in hoc facinore fuerit deprehensus conburetur igni cum omni substantia sua quoniam praevaricatus est pactum Domini et fecit nefas in Israhel",
+      "citation": "Joshua 7:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "surgens itaque Iosue mane adplicavit Israhel per tribus suas et inventa est tribus Iuda",
+      "citation": "Joshua 7:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quae cum iuxta familias suas esset oblata inventa est familia Zarai illam quoque per viros offerens repperit Zabdi",
+      "citation": "Joshua 7:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "cuius domum in singulos dividens viros invenit Achan filium Charmi filii Zabdi filii Zare de tribu Iuda",
+      "citation": "Joshua 7:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et ait ad Achan fili mi da gloriam Domino Deo Israhel et confitere atque indica mihi quid feceris ne abscondas",
+      "citation": "Joshua 7:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "responditque Achan Iosue et dixit ei vere ego peccavi Domino Deo Israhel et sic et sic feci",
+      "citation": "Joshua 7:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "vidi enim inter spolia pallium coccineum valde bonum et ducentos siclos argenti regulamque auream quinquaginta siclorum et concupiscens abstuli et abscondi in terra contra medium tabernaculi mei argentumque fossa humo operui",
+      "citation": "Joshua 7:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "misit ergo Iosue ministros qui currentes ad tabernaculum illius reppererunt cuncta abscondita in eodem loco et argentum simul",
+      "citation": "Joshua 7:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "auferentesque de tentorio tulerunt ea ad Iosue et ad omnes filios Israhel proieceruntque ante Dominum",
+      "citation": "Joshua 7:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "tollens itaque Iosue Achan filium Zare argentumque et pallium et auream regulam filiosque eius et filias boves et asinos et oves ipsumque tabernaculum et cunctam supellectilem et omnis Israhel cum eo duxerunt eos ad vallem Achor",
+      "citation": "Joshua 7:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "ubi dixit Iosue quia turbasti nos exturbet te Dominus in die hac lapidavitque eum omnis Israhel et cuncta quae illius erant igne consumpta sunt",
+      "citation": "Joshua 7:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "congregaverunt quoque super eum acervum magnum lapidum qui permanet usque in praesentem diem et aversus est furor Domini ab eis vocatumque est nomen loci illius vallis Achor usque hodie",
+      "citation": "Joshua 7:26 (Clementine Vulgate)"
+    }
+  ]
+}

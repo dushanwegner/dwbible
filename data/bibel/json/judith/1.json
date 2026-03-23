@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judith, Chapter 1 — 16 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "order": 18,
+      "totalChapters": 16
+    },
+    "chapter": 1,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/judith/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bibel/judith/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judith/1.json",
+      "latin": "https://latinprayer.org/latin/judith/1.json"
+    }
+  },
+  "citation": "Judith 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Im zwölften Jahre der Regierung Nabuchodonosors, der als König über die Assyrer in der großen Stadt Ninive herrschte, in den Tagen Arphaxads, der über die Meder in Ekbatana herrschte, –",
+      "citation": "Judith 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "dieser hatte rings um Ekbatana Mauern von Quadersteinen, drei Ellen breit und sechs Ellen lang, erbaut und die Höhe der Mauer auf siebenzig und ihre Breite auf fünfzig Ellen bemessen;",
+      "citation": "Judith 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "ihre Türme hatte er auf den Stadttoren hundert Ellen hoch errichtet und sie am Grunde in einer Breite von sechzig Ellen aufgeführt;",
+      "citation": "Judith 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "ihre Tore hatte er zu einer Höhe von siebenzig Ellen und zu einer Breite von vierzig Ellen angelegt, damit seine gewaltige Heeresmacht und die Scharen seines Fußvolkes in geschlossenen Reihen hindurchziehen könnten –:",
+      "citation": "Judith 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "in jener Zeit zog der König Nabuchodonosor gegen den König Arphaxad zu Felde in der großen Ebene, die im Gebiete von Ragau liegt.",
+      "citation": "Judith 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Da stießen zu ihm alle Bewohner des Berglandes und alle Anwohner des Euphrat, des Tigris und des Hydaspes und die Mannschaften aus der Tiefebene Ariochs, des Königs der Elymäer; so vereinigten sich denn viele Völker zum Kampfe gegen die Söhne Cheleuds.",
+      "citation": "Judith 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da sandte Nabuchodonosor, der König der Assyrer, Boten an alle Bewohner Persiens und an alle Bewohner der westlichen Länder, nämlich an die Bewohner von Cilicien und Damaskus, vom Libanon und Antilibanon und an die Bewohner der Meeresküste,",
+      "citation": "Judith 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "sowie an die Völker am Karmel und in Gilead, in Ober-Galiläa und in der großen Ebene Esdrelom,",
+      "citation": "Judith 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "sodann an alle in Samaria und den dortigen Städten und jenseits des Jordans bis nach Jerusalem und Betane, Chellus und Kades, bis an den Bach Ägyptens, nach Taphne, Ramesse und bis zum ganzen Lande Gesem,",
+      "citation": "Judith 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "bis über Tanis und Memphis hinaus, und an alle Bewohner Ägyptens bis an die Grenzen von Äthiopien.",
+      "citation": "Judith 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Aber alle Bewohner aller dieser Länder ließen den Befehl des Assyrerkönigs Nabuchodonosor unbeachtet und leisteten ihm keine Heeresfolge, weil sie ihn nicht fürchteten, sondern in ihm nur einen gewöhnlichen Menschen ihresgleichen sahen; sie schickten also seine Gesandten unverrichteter Sache und unter schnöder Mißachtung zurück.",
+      "citation": "Judith 1:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Da ergrimmte Nabuchodonosor gewaltig gegen alle diese Länder und schwor bei seinem Throne und seiner Herrschaft, an allen Gebieten von Cilicien, Damaskus und Syrien Rache zu nehmen und mit seinem Schwert auch alle Bewohner des Landes Moab, sowie die Ammoniter und das ganze jüdische Land und alle Bewohner Ägyptens bis zum Gebiet der beiden Nilarme auszurotten.",
+      "citation": "Judith 1:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Er zog also mit seinem Heere gegen den König Arphaxad zu Felde im 17. Jahre seiner Regierung, besiegte ihn in der Schlacht und schlug die ganze Streitmacht Arphaxads, auch seine gesamte Reiterei und alle seine Kriegswagen in die Flucht;",
+      "citation": "Judith 1:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "er eroberte dann seine Städte und zog bis vor Ekbatana, dessen Türme er in seine Gewalt brachte, dessen Straßen er verwüstete und dessen Herrlichkeit er ein schmähliches Ende bereitete.",
+      "citation": "Judith 1:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Hierauf nahm er den Arphaxad in den Bergen von Ragau gefangen, durchbohrte ihn mit seinen Wurfspießen und brachte ihn so noch an demselben Tage ums Leben.",
+      "citation": "Judith 1:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Schließlich kehrte er nach Ninive zurück, er und alle seine Hilfsvölker, eine gewaltige Menge von Kriegsvolk; er ließ es sich dort wohl sein und schmauste mit seinem Heere 120 Tage lang.",
+      "citation": "Judith 1:16 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 105 — 90 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 105,
+    "verseCount": 90,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/104.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/106.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/105.json",
+      "german": "https://latinprayer.org/bibel/psalms/105.json"
+    }
+  },
+  "citation": "Psalms 105 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "alleluia confitemini Domino et invocate nomen eius adnuntiate inter gentes opera eius",
+      "citation": "Psalms 105:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "alleluia confitemini Domino invocate nomen eius notas facite populis cogitationes eius",
+      "citation": "Psalms 105:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cantate ei et psallite ei narrate omnia mirabilia eius",
+      "citation": "Psalms 105:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "canite ei et psallite illi loquimini in universis mirabilibus eius",
+      "citation": "Psalms 105:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "laudamini in nomine sancto eius laetetur cor quaerentium Dominum",
+      "citation": "Psalms 105:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "exultate in nomine sancto eius laetetur cor quaerentium Dominum",
+      "citation": "Psalms 105:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quaerite Dominum et confirmamini quaerite faciem eius semper",
+      "citation": "Psalms 105:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quaerite Dominum et virtutem eius quaerite faciem eius iugiter",
+      "citation": "Psalms 105:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "mementote mirabilium eius quae fecit prodigia eius et iudicia oris eius",
+      "citation": "Psalms 105:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "recordamini mirabilium eius quae fecit signorum et iudiciorum oris eius",
+      "citation": "Psalms 105:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "semen Abraham servi eius filii Iacob electi eius",
+      "citation": "Psalms 105:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "semen Abraham servi eius filii Iacob electi eius",
+      "citation": "Psalms 105:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ipse Dominus Deus noster in universa terra iudicia eius",
+      "citation": "Psalms 105:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ipse Dominus Deus noster in universa terra iudicia eius",
+      "citation": "Psalms 105:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "memor fuit in saeculum testamenti sui verbi quod mandavit in mille generationes",
+      "citation": "Psalms 105:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "recordatus est in aeternum pacti sui verbi quod praecepit in mille generationes",
+      "citation": "Psalms 105:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quod disposuit ad Abraham et iuramenti sui ad Isaac",
+      "citation": "Psalms 105:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quod pepigit cum Abraham et iuramenti sui cum Isaac",
+      "citation": "Psalms 105:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et statuit illud Iacob in praeceptum et Israhel in testamentum aeternum",
+      "citation": "Psalms 105:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et firmavit illud cum Iacob in lege cum Israhel pactum sempiternum",
+      "citation": "Psalms 105:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dicens tibi dabo terram Chanaan funiculum hereditatis vestrae",
+      "citation": "Psalms 105:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dicens tibi dabo terram Chanaan funiculum hereditatis vestrae",
+      "citation": "Psalms 105:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cum essent numero breves paucissimos et incolas eius",
+      "citation": "Psalms 105:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cum essent viri pauci modici et advenae in ea",
+      "citation": "Psalms 105:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et pertransierunt de gente in gentem et de regno ad populum alterum",
+      "citation": "Psalms 105:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et transierunt de gente in gentem de regno ad populum alterum",
+      "citation": "Psalms 105:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "non reliquit hominem nocere eis et corripuit pro eis reges",
+      "citation": "Psalms 105:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "non dimisit hominem ut noceret eis et corripuit pro eis reges",
+      "citation": "Psalms 105:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "nolite tangere christos meos et in prophetis meis nolite malignari",
+      "citation": "Psalms 105:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "nolite tangere christos meos et prophetas meos nolite adfligere",
+      "citation": "Psalms 105:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et vocavit famem super terram omne firmamentum panis contrivit",
+      "citation": "Psalms 105:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et vocavit famem super terram omnem virgam panis contrivit",
+      "citation": "Psalms 105:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "misit ante eos virum in servum venundatus est Ioseph",
+      "citation": "Psalms 105:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "misit ante faciem eorum virum in servum venundatus est Ioseph",
+      "citation": "Psalms 105:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "humiliaverunt in conpedibus pedes eius ferrum pertransiit anima eius",
+      "citation": "Psalms 105:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "adflixerunt in conpede pedes eius in ferrum venit anima eius",
+      "citation": "Psalms 105:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "donec veniret verbum eius eloquium Domini inflammavit eum",
+      "citation": "Psalms 105:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "usque ad tempus donec veniret sermo eius eloquium Domini probavit eum",
+      "citation": "Psalms 105:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "misit rex et solvit eum princeps populorum et dimisit eum",
+      "citation": "Psalms 105:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "misit rex et solvit eum princeps populorum et dimisit illum",
+      "citation": "Psalms 105:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "constituit eum dominum domus suae et principem omnis possessionis suae",
+      "citation": "Psalms 105:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "posuit eum dominum domus suae et principem in omni possessione sua",
+      "citation": "Psalms 105:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "ut erudiret principes eius sicut semet ipsum et senes eius prudentiam doceret",
+      "citation": "Psalms 105:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "ut erudiret principes eius secundum voluntatem suam et senes eius sapientiam doceret",
+      "citation": "Psalms 105:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et intravit Israhel in Aegyptum et Iacob accola fuit in terra Cham",
+      "citation": "Psalms 105:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et ingressus est Israhel Aegyptum et Iacob advena fuit in terra Ham",
+      "citation": "Psalms 105:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et auxit populum eius vehementer et firmavit eum super inimicos eius",
+      "citation": "Psalms 105:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et crescere fecit populum suum nimis et roboravit eum super hostes eius",
+      "citation": "Psalms 105:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "convertit cor eorum ut odirent populum eius ut dolum facerent in servos eius",
+      "citation": "Psalms 105:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "convertit cor eorum ut odio haberent populum eius ut dolose agerent contra servos illius",
+      "citation": "Psalms 105:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "misit Mosen servum suum Aaron quem elegit ipsum",
+      "citation": "Psalms 105:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "misit Mosen servum suum Aaron quem elegit sibi",
+      "citation": "Psalms 105:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "posuit in eis verba signorum suorum et prodigiorum in terra Cham",
+      "citation": "Psalms 105:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "posuit in eis verba signorum suorum et portentorum in terra Ham",
+      "citation": "Psalms 105:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "misit tenebras et obscuravit et non exacerbavit sermones suos",
+      "citation": "Psalms 105:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "misit tenebras et contenebravit et non fuerunt increduli verbis eius",
+      "citation": "Psalms 105:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "convertit aquas eorum in sanguinem et occidit pisces eorum",
+      "citation": "Psalms 105:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "commutavit aquas eorum in sanguinem et occidit pisces eorum",
+      "citation": "Psalms 105:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "dedit terra eorum ranas in penetrabilibus regum ipsorum",
+      "citation": "Psalms 105:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "ebullivit terra eorum ranas in cubiculis regum eorum",
+      "citation": "Psalms 105:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "dixit et venit cynomia et scinifes in omnibus finibus eorum",
+      "citation": "Psalms 105:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "dixit et venit musca omnimoda scinifes in universis terminis eorum",
+      "citation": "Psalms 105:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "posuit pluvias eorum grandinem ignem conburentem in terra ipsorum",
+      "citation": "Psalms 105:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "dedit pluvias eorum grandinem ignem flammantem in terra eorum",
+      "citation": "Psalms 105:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "et percussit vineas eorum et ficulneas eorum et contrivit lignum finium eorum",
+      "citation": "Psalms 105:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "et percussit vineam eorum et ficum eorum et confregit lignum finium eorum",
+      "citation": "Psalms 105:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "dixit et venit lucusta et bruchus cuius non erat numerus",
+      "citation": "Psalms 105:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "dixit et venit lucusta et bruchus cuius non erat numerus",
+      "citation": "Psalms 105:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et comedit omne faenum in terra eorum et comedit omnem fructum terrae eorum",
+      "citation": "Psalms 105:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et comedit omne faenum terrae eorum et devoravit fructum terrae eorum",
+      "citation": "Psalms 105:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "et percussit omne primogenitum in terra eorum primitias omnis laboris eorum",
+      "citation": "Psalms 105:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "et percussit omne primogenitum in terra eorum primitias universi partus eorum",
+      "citation": "Psalms 105:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et eduxit eos in argento et auro et non erat in tribubus eorum infirmus",
+      "citation": "Psalms 105:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et eduxit eos cum argento et auro et non erat in tribubus eorum infirmus",
+      "citation": "Psalms 105:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "laetata est Aegyptus in profectione eorum quia incubuit timor eorum super eos",
+      "citation": "Psalms 105:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "laetata est Aegyptus cum egrederentur quoniam inruerat terror eorum super eos",
+      "citation": "Psalms 105:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "expandit nubem in protectionem eorum et ignem ut luceret eis per noctem",
+      "citation": "Psalms 105:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "expandit nubem in tentorium et ignem ut luceret nocte",
+      "citation": "Psalms 105:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "petierunt et venit coturnix et panem caeli saturavit eos",
+      "citation": "Psalms 105:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "petierunt et adduxit ortygometran et pane caelesti saturavit eos",
+      "citation": "Psalms 105:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "disrupit petram et fluxerunt aquae abierunt in sicco flumina",
+      "citation": "Psalms 105:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "aperuit petram et fluxerunt aquae cucurrerunt in aridis flumina",
+      "citation": "Psalms 105:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "quoniam memor fuit verbi sancti sui quod habuit ad Abraham puerum suum",
+      "citation": "Psalms 105:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "quia recordatus est verbi sancti sui cum Abraham servo suo",
+      "citation": "Psalms 105:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "et eduxit populum suum in exultatione %et; electos suos in laetitia",
+      "citation": "Psalms 105:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "et eduxit populum suum in laetitia laudantes electos suos",
+      "citation": "Psalms 105:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et dedit illis regiones gentium et labores populorum possederunt",
+      "citation": "Psalms 105:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et dedit eis terras gentium et laborem tribuum possederunt",
+      "citation": "Psalms 105:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "ut custodiant iustificationes eius et legem eius requirant",
+      "citation": "Psalms 105:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "ut custodirent caerimonias eius et leges eius servarent alleluia",
+      "citation": "Psalms 105:45 (Clementine Vulgate)"
+    }
+  ]
+}

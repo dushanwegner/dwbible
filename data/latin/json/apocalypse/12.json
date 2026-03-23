@@ -1,0 +1,291 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Revelation, Chapter 12 — 51 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Revelation",
+      "slug": "apocalypse",
+      "testament": "NT",
+      "order": 73,
+      "totalChapters": 35
+    },
+    "chapter": 12,
+    "verseCount": 51,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/apocalypse/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/apocalypse/11.json",
+      "nextChapter": "https://latinprayer.org/latin/apocalypse/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/apocalypse/12.json",
+      "german": "https://latinprayer.org/bibel/apocalypse/12.json"
+    }
+  },
+  "citation": "Revelation 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et factum est dum loqueretur leo verba haec ad aquilam, et vidi,",
+      "citation": "Revelation 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et ecce quod superaverat caput et non conparuit, et alae duae quae ad eum transierunt et erectae sunt ut regnarent, et erat regnum eorum exile et tumultu plenum.",
+      "citation": "Revelation 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et vidi et ecce ipsa non apparescebant, et omne corpus aquilae incendebatur, et expavescebat terra valde. et ego a multo excessu mentis et a magno timore vigilavi, et dixi spiritui meo:",
+      "citation": "Revelation 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ecce tu mihi praestitisti haec, in eo quod scrutas vias Altissimi.",
+      "citation": "Revelation 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ecce adhuc fatigatus sum animo et spiritu meo invalidus sum valde, et nec modica est in me virtus a multo timore quem expavi nocte hac.",
+      "citation": "Revelation 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nunc ergo orabo Altissimum, ut me confortet usque in finem.",
+      "citation": "Revelation 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et dixi: Dominator Domine, si inveni gratiam ante oculos tuos, et si iustificatus sum apud te prae multis, et si certum ascendit deprecatio mea ante faciem tuam,",
+      "citation": "Revelation 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "conforta me et ostende servo tuo mihi interpretationem et distinctionem visus horribilis huius, ut plenissime consoles animam meam.",
+      "citation": "Revelation 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dignum enim me habuisti ostendere mihi temporum finem et temporum novissima. et dixit ad me:",
+      "citation": "Revelation 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "haec est interpretatio visionis huius quam vidisti:",
+      "citation": "Revelation 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "aquilam quam vidisti ascendentem de mari, hoc est regnum quartum, quod visum est in visu Danihelo fratri tuo,",
+      "citation": "Revelation 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "sed non est illi interpretatum, quomodo ego nunc tibi interpretor vel interpretavi.",
+      "citation": "Revelation 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ecce dies veniunt, et exsurget regnum super terram et erit timoratior omnium regnorum quae fuerunt ante eam.",
+      "citation": "Revelation 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "regnabunt autem in ea duodecim reges, unus post unum.",
+      "citation": "Revelation 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "nam secundus qui incipiet regnare, ipse tenebit amplius tempus prae duodecim.",
+      "citation": "Revelation 12:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "haec est interpretatio duodecim alarum quas vidisti.",
+      "citation": "Revelation 12:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et quoniam audisti vocem quae locuta est non de capitibus eius exientem, sed de medio corpore eius.",
+      "citation": "Revelation 12:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "haec est interpretatio, quoniam post tempus regni illius nascentur contentiones non modicae, et periclitabitur ut cadat, et non cadet tunc, sed iterum constituetur in suum initium.",
+      "citation": "Revelation 12:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et quoniam vidisti subalares octo coherentes alis eius,",
+      "citation": "Revelation 12:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "haec est interpretatio: exsurgent enim in ipso octo reges, quorum erunt tempora levia et anni citati, et duo quidem ex ipsis perient",
+      "citation": "Revelation 12:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "adpropinquante tempore medio, quattuor autem servabuntur in tempore, cum incipiet adpropinquare tempus eius ut finiatur, duo vero in finem servabuntur.",
+      "citation": "Revelation 12:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et quoniam vidisti tria capita quiescentia,",
+      "citation": "Revelation 12:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "haec est interpretatio: in novissimis eius suscitabit Altissimus tria regna et renovabit in ea multa, et dominabunt terram",
+      "citation": "Revelation 12:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et qui inhabitant in ea cum labore multo super omnes qui fuerunt ante hos. propter hoc ipsi vocati sunt capita aquilae.",
+      "citation": "Revelation 12:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "isti enim erunt qui recapitulabunt impietates eius et qui perficient novissima eius.",
+      "citation": "Revelation 12:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et quoniam vidisti caput maius non apparescentem, quoniam unus ex eis super lectum suum morietur, et tamen cum tormentis.",
+      "citation": "Revelation 12:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "nam duo qui perseveraverunt, gladius eos comedet.",
+      "citation": "Revelation 12:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "unius enim gladius comedet qui cum eo, sed tamen et hic gladio in novissimis cadet.",
+      "citation": "Revelation 12:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et quoniam vidisti duas subalares treicientes super caput quod est a dextera parte,",
+      "citation": "Revelation 12:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "haec est interpretatio: hii sunt quos conservavit Altissimus in finem suam, hoc erat regnum exile et turbationis plenum,",
+      "citation": "Revelation 12:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "sicut vidisti. et leonem quem vidisti de silva evigilantem mugientem et loquentem ad aquilam et arguentem eam iniustitias ipsius per omnes sermones eius, sicut audisti.",
+      "citation": "Revelation 12:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "hic est unctus, quem reservavit Altissimus in finem ad eos et impietates ipsorum. arguet illos de iniustitiis ipsorum et infulciet coram ipsis spretiones eorum.",
+      "citation": "Revelation 12:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "statuet enim eos primum in iudicium vivos, et erit cum arguerit eos, tunc corrumpet eos.",
+      "citation": "Revelation 12:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "nam residuum populum meum liberabit cum misericordia, qui salvati sunt super fines meos, et iucundabit eos, quoadusque veniat finis, dies iudicii, de quo locutus sum tibi ab initio.",
+      "citation": "Revelation 12:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "hoc somnium quod vidisti, et haec interpretatio eius.",
+      "citation": "Revelation 12:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "tu ergo solus dignus fuisti scire Altissimi secretum hoc.",
+      "citation": "Revelation 12:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "scribe ergo omnia ista in libro quae vidisti, et pones ea in loco abscondito.",
+      "citation": "Revelation 12:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "et docebis ea sapientes de populo tuo, quorum scis corda posse capere et servare secreta haec.",
+      "citation": "Revelation 12:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "tu autem adhuc sustine hic alios dies septem, ut tibi ostendatur quicquid visum fuerit Altissimo ostendere tibi.",
+      "citation": "Revelation 12:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "et profectus est a me. et factum est cum audisset omnis populus, quoniam pertransierunt septem dies, et ego non fuissem reversus in civitatem, et congregavit se omnis a minimo usque ad maximum et venit ad me, et dixerunt mihi dicentes:",
+      "citation": "Revelation 12:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "quid peccavimus tibi et quid iniuste egimus in te, quoniam derelinquens nos sedisti in loco hoc?",
+      "citation": "Revelation 12:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "tu enim nobis superasti ex omnibus prophetis, sicut botrus de vindemia et sicut lucerna in loco obscuro, et sicut portus navi salvatae a tempestate.",
+      "citation": "Revelation 12:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "aut non sufficiunt nobis mala quae contigerunt?",
+      "citation": "Revelation 12:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "si ergo tu nos dereliqueris, quanto erat nobis melius, si essemus succensi et nos incendio Sion.",
+      "citation": "Revelation 12:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "nec enim nos meliores sumus eorum, qui ibi mortui sunt. et ploraverunt voce magna. et respondi ad eos et dixi:",
+      "citation": "Revelation 12:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "confide, Israhel, et noli tristari, tu domus Iacob.",
+      "citation": "Revelation 12:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "est enim memoria vestri coram Altissimo, et Fortis non est oblitus vestri in contentione.",
+      "citation": "Revelation 12:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "ego enim non dereliqui vos neque excessi a vobis, sed veni in hunc locum, ut deprecarer pro desolatione Sion, et ut quaererem misericordiam pro humilitate sanctificationis vestrae.",
+      "citation": "Revelation 12:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "et nunc ite unusquisque vestrum in domum suam, et ego veniam ad vos post dies istos.",
+      "citation": "Revelation 12:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "et profectus est populus, sicut dixi, ei in civitatem.",
+      "citation": "Revelation 12:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "ego autem sedi in campo septem diebus, sicut mihi mandavit, et manducabam de floribus solummodo agri, de herbis facta est mihi esca in diebus illis.",
+      "citation": "Revelation 12:51 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 4 — 9 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 4,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/3.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/4.json",
+      "latin": "https://latinprayer.org/latin/psalms/4.json"
+    }
+  },
+  "citation": "Psalmen 4 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, mit Saitenspiel; ein Psalm von David.</em>",
+      "citation": "Psalmen 4:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wenn ich rufe, erhöre mich, du Gott meiner Gerechtigkeit! In Bedrängnis hast du mir (immer) Raum geschafft: sei mir gnädig und höre mein Gebet!",
+      "citation": "Psalmen 4:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ihr Herrensöhne, wie lange noch soll meine Ehre geschändet werden? Wie lange noch wollt ihr an Eitlem hangen, auf Lügen ausgehn? SELA.",
+      "citation": "Psalmen 4:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Erkennt doch, daß der HERR den ihm Getreuen sich auserkoren: der HERR vernimmt’s, wenn ich zu ihm rufe.",
+      "citation": "Psalmen 4:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Seid zornerregt, doch versündigt euch nicht! Denkt nach im stillen auf eurem Lager und schweigt! SELA.",
+      "citation": "Psalmen 4:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Bringt Opfer der Gerechtigkeit dar und vertraut auf den HERRN!",
+      "citation": "Psalmen 4:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Es sagen gar viele: »Wer läßt Gutes uns schauen?« Erhebe über uns, o HERR, das Licht deines Angesichts!",
+      "citation": "Psalmen 4:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Du hast mir größere Freude ins Herz gegeben als ihnen zur Zeit, wo sie Korn und Wein in Fülle haben.",
+      "citation": "Psalmen 4:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "In Frieden will ich beides, mich niederlegen und schlafen; denn du allein, HERR, läßt mich in Sicherheit wohnen.",
+      "citation": "Psalmen 4:9 (Menge)"
+    }
+  ]
+}

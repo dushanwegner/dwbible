@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 39 — 8 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 39,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/38.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/40.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/39.json",
+      "german": "https://latinprayer.org/bibel/isaias/39.json"
+    }
+  },
+  "citation": "Isaias 39 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "At that time Merodach Baladan, the son of Baladan king of Babylon, sent letters and presents to Ezechias: for he had heard that he had been sick and was recovered.",
+      "citation": "Isaias 39:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And Ezechias rejoiced at their coming, and he shewed them the storehouses of his aromatical spices, and of the silver, and of the gold, and of the sweet odours, and of the precious ointment, and all the storehouses of his furniture, and all things that were found in his treasures. There was nothing in his house, nor in all his dominion that Ezechias shewed them not.",
+      "citation": "Isaias 39:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Then Isaias the prophet came to king Ezechias, and said to him: What said these men, and from whence came they to thee? And Ezechias said: From a far country they came to me, from Babylon.",
+      "citation": "Isaias 39:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he said: What saw they in thy house? And Ezechias said: All things that are in my house have they seen, there was not any thing which I have not shewn them in my treasures.",
+      "citation": "Isaias 39:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And Isaias said to Ezechias: Hear the word of the Lord of hosts.",
+      "citation": "Isaias 39:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Behold the days shall come that all that is in thy house, and that thy fathers have laid up in store until this day, shall be carried away into Babylon: there shall not any thing be left, saith the Lord.",
+      "citation": "Isaias 39:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And of thy children, that shall issue from thee, whom thou shalt beget, they shall take away, and they shall be eunuchs in the palace of the king of Babylon.",
+      "citation": "Isaias 39:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And Ezechias said to Isaias: The word of the Lord, which he hath spoken, is good. And he said: Only let peace and truth be in my days.",
+      "citation": "Isaias 39:8 (Douay-Rheims)"
+    }
+  ]
+}

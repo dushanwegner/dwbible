@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 38 — 39 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 38,
+    "verseCount": 39,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/37.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/39.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/38.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/38.json"
+    }
+  },
+  "citation": "Sirach 38 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "honora medicum propter necessitatem etenim illum creavit Altissimus",
+      "citation": "Sirach 38:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "a Deo est omnis medella et a rege accipiet dationem",
+      "citation": "Sirach 38:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "disciplina medici exaltabit caput illius et in conspectu magnatorum conlaudabitur",
+      "citation": "Sirach 38:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Altissimus creavit de terra medicinam et vir prudens non abhorrebit illi",
+      "citation": "Sirach 38:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "nonne a ligno indulcata est amara aqua",
+      "citation": "Sirach 38:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ad agnitionem hominum virtutis illorum et dedit homini scientiam Altissimus honorari in mirabilibus suis",
+      "citation": "Sirach 38:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in his curans mitigavit dolorem et unguentarius facit pigmentum suavitatis et unctiones conficiet suavitatis et non consummabuntur opera eius",
+      "citation": "Sirach 38:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "pax enim Dei super faciem terrae",
+      "citation": "Sirach 38:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "fili in tua infirmitate non despicias sed ora ad Dominum et ipse curabit te",
+      "citation": "Sirach 38:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "averte a delicto et dirige manus et ab omni delicto munda cor tuum",
+      "citation": "Sirach 38:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "da suavitatem et memoriam similaginis et inpingua oblationem et da locum medico",
+      "citation": "Sirach 38:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "etenim illum Dominus creavit et non discedat a te quoniam opera eius sunt necessaria",
+      "citation": "Sirach 38:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "est enim tempus quando in manus eorum incurras",
+      "citation": "Sirach 38:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ipsi vero Dominum deprecabuntur ut dirigat requiem eorum et sanitatem propter conversationem illorum",
+      "citation": "Sirach 38:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "qui delinquit in conspectu eius qui fecit eum incidat in manus medici",
+      "citation": "Sirach 38:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "fili in mortuum produc lacrimas et quasi dira passus incipe plorare et secundum iudicium contine corpus illius et non despicias sepulturam illius",
+      "citation": "Sirach 38:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "propter delaturam amare fer luctum illius uno die et consolare propter tristitiam",
+      "citation": "Sirach 38:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "[]",
+      "citation": "Sirach 38:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "a tristitia enim festinat mors et cooperiet virtutem et tristitia cordis flectet cervicem",
+      "citation": "Sirach 38:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in abductione permanet tristitia et substantia inopis secundum cor eius",
+      "citation": "Sirach 38:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "non dederis in tristitia cor tuum sed repelle eam a te et memento novissimorum",
+      "citation": "Sirach 38:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "noli oblivisci neque enim est conversio et huic nihil proderis et te ipsum pessimabis",
+      "citation": "Sirach 38:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "memor esto iudicii mei sic enim erit et tuum mihi heri et tibi hodie",
+      "citation": "Sirach 38:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "in requie mortui requiescere fac memoriam eius et consolare illum in exitu spiritus sui",
+      "citation": "Sirach 38:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "sapientiam scribe in tempore vacuitatis et qui minoratur actu sapientiam percipiet qua sapientia replebitur",
+      "citation": "Sirach 38:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "qui tenet aratrum et non gloriatur in iaculo stimulo boves agit et conversatur in operibus eorum et narratio eius in filiis taurorum",
+      "citation": "Sirach 38:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "cor suum dabit ad versandos sulcos et vigilia eius in sagina vaccarum",
+      "citation": "Sirach 38:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "sic omnis faber et architectus qui noctem tamquam diem transigit qui sculpit signacula sculptilia et adsiduitas eius variat picturam cor suum dabit in similitudinem picturae et vigilia sua perficit opus",
+      "citation": "Sirach 38:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "sic faber ferrarius sedens iuxta incudem et considerans opus ferri vapor ignis uret carnes eius et in calore fornacis concertatur",
+      "citation": "Sirach 38:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "vox mallei innovabit aurem eius et contra similitudinem vasi oculi eius",
+      "citation": "Sirach 38:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "cor suum dabit in consummationem operum et vigilia sua ornabit in consummatione",
+      "citation": "Sirach 38:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "sic figulus sedens ad opus suum convertens pedibus suis rotam qui in sollicitudine positus est semper propter opus suum et innumera est omnis operatio eius",
+      "citation": "Sirach 38:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "in brachio suo formabit lutum et ante pedes suos curvabit virtutem suam",
+      "citation": "Sirach 38:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "cor suum dabit ut consummet linitionem et vigilia sua mundabit fornacem",
+      "citation": "Sirach 38:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "omnes hi in manibus suis speraverunt et unusquisque in arte sua sapiens est",
+      "citation": "Sirach 38:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "sine his omnibus non aedificatur civitas",
+      "citation": "Sirach 38:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et non inhabitabunt nec inambulabunt et in ecclesiam non transilient",
+      "citation": "Sirach 38:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "super sellam iudicis non sedebunt et testamentum iudicii non intellegent neque palam facient disciplinam et iudicium et in parabolis non invenientur",
+      "citation": "Sirach 38:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "sed creaturam aevi confirmabunt et deprecatio illorum in operatione artis adcommodantes animam suam et conquirentes in lege Altissimi",
+      "citation": "Sirach 38:39 (Clementine Vulgate)"
+    }
+  ]
+}

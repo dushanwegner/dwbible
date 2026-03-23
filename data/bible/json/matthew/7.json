@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 7 — 29 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 7,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/matthew/6.json",
+      "nextChapter": "https://latinprayer.org/bible/matthew/8.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/matthew/7.json",
+      "german": "https://latinprayer.org/bibel/matthew/7.json"
+    }
+  },
+  "citation": "Matthew 7 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Judge not, that you may not be judged.",
+      "citation": "Matthew 7:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For with what judgment you judge, you shall be judged: and with what measure you mete, it shall be measured to you again.",
+      "citation": "Matthew 7:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And why seest thou the mote that is in thy brother's eye; and seest not the beam that is in thy own eye?",
+      "citation": "Matthew 7:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Or how sayest thou to thy brother: Let me cast the mote out of thy eye; and behold a beam is in thy own eye?",
+      "citation": "Matthew 7:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Thou hypocrite, cast out first the beam out of thy own eye, and then shalt thou see to cast out the mote out of thy brother's eye.",
+      "citation": "Matthew 7:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Give not that which is holy to dogs; neither cast ye your pearls before swine, lest perhaps they trample them under their feet, and turning upon you, they tear you.",
+      "citation": "Matthew 7:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Ask, and it shall be given you: seek, and you shall find: knock, and it shall be opened to you.",
+      "citation": "Matthew 7:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For every one that asketh, receiveth: and he that seeketh, findeth: and to him that knocketh, it shall be opened.",
+      "citation": "Matthew 7:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Or what man is there among you, of whom if his son shall ask bread, will he reach him a stone?",
+      "citation": "Matthew 7:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Or if he shall ask him a fish, will he reach him a serpent?",
+      "citation": "Matthew 7:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "If you then being evil, know how to give good gifts to your children: how much more will your Father who is in heaven, give good things to them that ask him?",
+      "citation": "Matthew 7:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "All things therefore whatsoever you would that men should do to you, do you also to them. For this is the law and the prophets.",
+      "citation": "Matthew 7:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Enter ye in at the narrow gate: for wide is the gate, and broad is the way that leadeth to destruction, and many there are who go in thereat.",
+      "citation": "Matthew 7:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "How narrow is the gate, and strait is the way that leadeth to life: and few there are that find it!",
+      "citation": "Matthew 7:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Beware of false prophets, who come to you in the clothing of sheep, but inwardly they are ravening wolves.",
+      "citation": "Matthew 7:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "By their fruits you shall know them. Do men gather grapes of thorns, or figs of thistles?",
+      "citation": "Matthew 7:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Even so every good tree bringeth forth good fruit, and the evil tree bringeth forth evil fruit.",
+      "citation": "Matthew 7:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "A good tree cannot bring forth evil fruit, neither can an evil tree bring forth good fruit.",
+      "citation": "Matthew 7:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Every tree that bringeth not forth good fruit, shall be cut down, and shall be cast into the fire.",
+      "citation": "Matthew 7:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Wherefore by their fruits you shall know them.",
+      "citation": "Matthew 7:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Not every one that saith to me, Lord, Lord, shall enter into the kingdom of heaven: but he that doth the will of my Father who is in heaven, he shall enter into the kingdom of heaven.",
+      "citation": "Matthew 7:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Many will say to me in that day: Lord, Lord, have not we prophesied in thy name, and cast out devils in thy name, and done many miracles in thy name?",
+      "citation": "Matthew 7:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And then will I profess unto them, I never knew you: depart from me, you that work iniquity.",
+      "citation": "Matthew 7:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Every one therefore that heareth these my words, and doth them, shall be likened to a wise man that built his house upon a rock,",
+      "citation": "Matthew 7:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And the rain fell, and the floods came, and the winds blew, and they beat upon that house, and it fell not, for it was founded on a rock.",
+      "citation": "Matthew 7:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And every one that heareth these my words and doth them not, shall be like a foolish man that built his house upon the sand,",
+      "citation": "Matthew 7:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And the rain fell, and the floods came, and the winds blew, and they beat upon that house, and it fell, and great was the fall thereof.",
+      "citation": "Matthew 7:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And it came to pass when Jesus had fully ended these words, the people were in admiration at his doctrine.",
+      "citation": "Matthew 7:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "For he was teaching them as one having power, and not as the scribes and Pharisees.",
+      "citation": "Matthew 7:29 (Douay-Rheims)"
+    }
+  ]
+}

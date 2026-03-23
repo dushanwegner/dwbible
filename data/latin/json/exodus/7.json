@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 7 — 29 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 7,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/6.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/7.json",
+      "german": "https://latinprayer.org/bibel/exodus/7.json"
+    }
+  },
+  "citation": "Exodus 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "dixitque Dominus ad Mosen ecce constitui te Deum Pharaonis Aaron frater tuus erit propheta tuus",
+      "citation": "Exodus 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "tu loqueris omnia quae mando tibi ille loquetur ad Pharaonem ut dimittat filios Israhel de terra sua",
+      "citation": "Exodus 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "sed ego indurabo cor eius et multiplicabo signa et ostenta mea in terra Aegypti",
+      "citation": "Exodus 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et non audiet vos inmittamque manum meam super Aegyptum et educam exercitum et populum meum filios Israhel de terra Aegypti per iudicia maxima",
+      "citation": "Exodus 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et scient Aegyptii quod ego sim Dominus qui extenderim manum meam super Aegyptum et eduxerim filios Israhel de medio eorum",
+      "citation": "Exodus 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "fecit itaque Moses et Aaron sicut praeceperat Dominus ita egerunt",
+      "citation": "Exodus 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "erat autem Moses octoginta annorum et Aaron octoginta trium quando locuti sunt ad Pharaonem",
+      "citation": "Exodus 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dixitque Dominus ad Mosen et Aaron",
+      "citation": "Exodus 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "cum dixerit vobis Pharao ostendite signa dices ad Aaron tolle virgam tuam et proice eam coram Pharao ac vertatur in colubrum",
+      "citation": "Exodus 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ingressi itaque Moses et Aaron ad Pharaonem fecerunt sicut praeceperat Dominus tulitque Aaron virgam coram Pharao et servis eius quae versa est in colubrum",
+      "citation": "Exodus 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "vocavit autem Pharao sapientes et maleficos et fecerunt etiam ipsi per incantationes aegyptias et arcana quaedam similiter",
+      "citation": "Exodus 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "proieceruntque singuli virgas suas quae versae sunt in dracones sed devoravit virga Aaron virgas eorum",
+      "citation": "Exodus 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "induratumque est cor Pharaonis et non audivit eos sicut praeceperat Dominus",
+      "citation": "Exodus 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dixit autem Dominus ad Mosen ingravatum est cor Pharaonis non vult dimittere populum",
+      "citation": "Exodus 7:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "vade ad eum mane ecce egredietur ad aquas et stabis in occursum eius super ripam fluminis et virgam quae conversa est in draconem tolles in manu tua",
+      "citation": "Exodus 7:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "dicesque ad eum Dominus Deus Hebraeorum misit me ad te dicens dimitte populum meum ut mihi sacrificet in deserto et usque ad praesens audire noluisti",
+      "citation": "Exodus 7:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "haec igitur dicit Dominus in hoc scies quod Dominus sim ecce percutiam virga quae in manu mea est aquam fluminis et vertetur in sanguinem",
+      "citation": "Exodus 7:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "pisces quoque qui sunt in fluvio morientur et conputrescent aquae et adfligentur Aegyptii bibentes aquam fluminis",
+      "citation": "Exodus 7:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "dixit quoque Dominus ad Mosen dic ad Aaron tolle virgam tuam et extende manum tuam super aquas Aegypti et super fluvios eorum et rivos ac paludes et omnes lacus aquarum ut vertantur in sanguinem et sit cruor in omni terra Aegypti tam in ligneis vasis quam in saxeis",
+      "citation": "Exodus 7:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "feceruntque ita Moses et Aaron sicut praeceperat Dominus et elevans virgam percussit aquam fluminis coram Pharao et servis eius quae versa est in sanguinem",
+      "citation": "Exodus 7:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et pisces qui erant in flumine mortui sunt conputruitque fluvius et non poterant Aegyptii bibere aquam fluminis et fuit sanguis in tota terra Aegypti",
+      "citation": "Exodus 7:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "feceruntque similiter malefici Aegyptiorum incantationibus suis et induratum est cor Pharaonis nec audivit eos sicut praeceperat Dominus",
+      "citation": "Exodus 7:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "avertitque se et ingressus est domum suam nec adposuit cor etiam hac vice",
+      "citation": "Exodus 7:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "foderunt autem omnes Aegyptii per circuitum fluminis aquam ut biberent non enim poterant bibere de aqua fluminis",
+      "citation": "Exodus 7:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "impletique sunt septem dies postquam percussit Dominus fluvium",
+      "citation": "Exodus 7:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "dixitque Dominus ad Mosen ingredere ad Pharao et dices ad eum haec dicit Dominus dimitte populum meum ut sacrificet mihi",
+      "citation": "Exodus 7:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "sin autem nolueris dimittere ecce ego percutiam omnes terminos tuos ranis",
+      "citation": "Exodus 7:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et ebulliet fluvius ranas quae ascendent et ingredientur domum tuam et cubiculum lectuli tui et super stratum tuum et in domos servorum tuorum et in populum tuum et in furnos tuos et in reliquias ciborum tuorum",
+      "citation": "Exodus 7:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et ad te et ad populum tuum et ad omnes servos tuos intrabunt ranae",
+      "citation": "Exodus 7:29 (Clementine Vulgate)"
+    }
+  ]
+}

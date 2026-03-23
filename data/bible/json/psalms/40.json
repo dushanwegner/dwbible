@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 40 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 40,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/39.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/41.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/40.json",
+      "german": "https://latinprayer.org/bibel/psalms/40.json"
+    }
+  },
+  "citation": "Psalms 40 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "With expectation I have waited for the Lord, and he was attentive to me.",
+      "citation": "Psalms 40:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, a psalm for David himself.",
+      "citation": "Psalms 40:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he heard my prayers, and brought me out of the pit of misery and the mire of dregs. And he set my feet upon a rock, and directed my steps.",
+      "citation": "Psalms 40:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he put a new canticle into my mouth, a song to our God. Many shall see, and shall fear: and they shall hope in the Lord.",
+      "citation": "Psalms 40:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Blessed is the man whose trust is in the name of the Lord; and who hath not had regard to vanities, and lying follies.",
+      "citation": "Psalms 40:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Thou hast multiplied thy wonderful works, O Lord my God: and in thy thoughts there is no one like to thee. I have declared and I have spoken they are multiplied above number.",
+      "citation": "Psalms 40:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Sacrifice and oblation thou didst not desire; but thou hast pierced ears for me. Burnt offering and sin offering thou didst not require:",
+      "citation": "Psalms 40:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Then said I, Behold I come. In the head of the book it is written of me",
+      "citation": "Psalms 40:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "That I should do thy will: O my God, I have desired it, and thy law in the midst of my heart.",
+      "citation": "Psalms 40:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "I have declared thy justice in a great church, lo, I will not restrain my lips: O Lord, thou knowest it.",
+      "citation": "Psalms 40:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "I have not hid thy justice within my heart: I have declared thy truth and thy salvation. I have not concealed thy mercy and thy truth from a great council.",
+      "citation": "Psalms 40:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Withhold not thou, O Lord, thy tender mercies from me: thy mercy and thy truth have always upheld me.",
+      "citation": "Psalms 40:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For evils without number have surrounded me; my iniquities have overtaken me, and I was not able to see. They are multiplied above the hairs of my head: and my heart hath forsaken me.",
+      "citation": "Psalms 40:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Be pleased, O Lord, to deliver me: look down, O Lord, to help me.",
+      "citation": "Psalms 40:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Let them be confounded and ashamed together, that seek after my soul to take it away. Let them be turned backward and be ashamed that desire evils to me.",
+      "citation": "Psalms 40:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Let them immediately bear their confusion, that say to me: 'Tis well, 'tis well.",
+      "citation": "Psalms 40:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Let all that seek thee rejoice and be glad in thee: and let such as love thy salvation say always: The Lord be magnified.",
+      "citation": "Psalms 40:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But I am a beggar and poor: the Lord is careful for me. Thou art my helper and my protector: O my God, be not slack.",
+      "citation": "Psalms 40:17 (Douay-Rheims)"
+    }
+  ]
+}

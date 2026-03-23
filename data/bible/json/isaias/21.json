@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 21 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 21,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/20.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/22.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/21.json",
+      "german": "https://latinprayer.org/bibel/isaias/21.json"
+    }
+  },
+  "citation": "Isaias 21 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The burden of the desert of the sea. As whirlwinds come from the south, it cometh from the desert from a terrible land.",
+      "citation": "Isaias 21:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "A grievous vision is told me: he that is unfaithful dealeth unfaithfully: and he that is a spoiler, spoileth. Go up, O Elam, besiege, O Mede: I have made all the mourning thereof to cease.",
+      "citation": "Isaias 21:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Therefore are my loins filled with pain, anguish hath taken hold of me, as the anguish of a woman in labour: I fell down at the hearing of it, I was troubled at the seeing of it.",
+      "citation": "Isaias 21:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "My heart failed, darkness amazed me: Babylon my beloved is become a wonder to me.",
+      "citation": "Isaias 21:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Prepare the table, behold in the watchtower them that eat and drink: arise, ye princes, take up the shield.",
+      "citation": "Isaias 21:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For thus hath the Lord said to me: Go, and set a watchman: and whatsoever he shall see, let him tell.",
+      "citation": "Isaias 21:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And he saw a chariot with two horsemen, a rider upon an ass, and a rider upon a camel: and he beheld them diligently with much heed.",
+      "citation": "Isaias 21:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And a lion cried out: I am upon the watchtower of the Lord, standing continually by day: and I am upon my ward, standing whole nights.",
+      "citation": "Isaias 21:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Behold this man cometh, the rider upon the chariot with two horsemen, and he answered, and said: Babylon is fallen, she is fallen, and all the graven gods thereof are broken unto the ground.",
+      "citation": "Isaias 21:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "O my thrashing, and the children of my floor, that which I have heard of the Lord of hosts, the God of Israel, I have declared unto you.",
+      "citation": "Isaias 21:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The burden of Duma calleth to me out of Seir: Watchman, what of the night? watchman, what of the night?",
+      "citation": "Isaias 21:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The watchman said: The morning cometh, also the night: if you seek, seek: return, come.",
+      "citation": "Isaias 21:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The burden in Arabia. In the forest at evening you shall sleep, in the paths of Dedanim.",
+      "citation": "Isaias 21:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Meeting the thirsty bring him water, you that inhabit the land of the south, meet with bread him that fleeth.",
+      "citation": "Isaias 21:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For they are fled from before the swords, from the sword that hung over them, from the bent bow, from the face of a grievous battle.",
+      "citation": "Isaias 21:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "For thus saith the Lord to me: Within a year, according to the years of a hireling, all the glory of Cedar shall be taken away.",
+      "citation": "Isaias 21:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And the residue of the number of strong archers of the children of Cedar shall be diminished: for the Lord the God of Israel hath spoken it.",
+      "citation": "Isaias 21:17 (Douay-Rheims)"
+    }
+  ]
+}

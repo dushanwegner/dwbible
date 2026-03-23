@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 2 — 23 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 2,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/1.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/2.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/2.json"
+    }
+  },
+  "citation": "Ecclesiasticus 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Son, when thou comest to the service of God, stand in justice and in fear, and prepare thy soul for temptation.",
+      "citation": "Ecclesiasticus 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Humble thy heart, and endure: incline thy ear, and receive the words of understanding: and make not haste in the time of clouds.",
+      "citation": "Ecclesiasticus 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Wait on God with patience: join thyself to God, and endure, that thy life may be increased in the latter end.",
+      "citation": "Ecclesiasticus 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Take all that shall be brought upon thee: and in thy sorrow endure, and in thy humiliation keep patience.",
+      "citation": "Ecclesiasticus 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For gold and silver are tried in the fire, but acceptable men in the furnace of humiliation.",
+      "citation": "Ecclesiasticus 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Believe God, and he will recover thee: and direct thy way, and trust in him. Keep his fear, and grow old therein.",
+      "citation": "Ecclesiasticus 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Ye that fear the Lord, wait for his mercy: and go not aside from him lest ye fall.",
+      "citation": "Ecclesiasticus 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Ye that fear the Lord, believe him: and your reward shall not be made void.",
+      "citation": "Ecclesiasticus 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Ye that fear the Lord hope in him, and mercy shall come to you for your delight.",
+      "citation": "Ecclesiasticus 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Ye that fear the Lord, love him, and your hearts shall be enlightened.",
+      "citation": "Ecclesiasticus 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "My children behold the generations of men: and know ye that no one hath hoped in the Lord, and hath been confounded.",
+      "citation": "Ecclesiasticus 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For who hath continued in his commandment, and hath been forsaken? or who hath called upon him, and he despised him?",
+      "citation": "Ecclesiasticus 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For God is compassionate and merciful, and will forgive sins in the day of tribulation: and he is a protector to all that seek him in truth.",
+      "citation": "Ecclesiasticus 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Woe to them that are of a double heart and to wicked lips, and to the hands that do evil, and to the sinner that goeth on the earth two ways.",
+      "citation": "Ecclesiasticus 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Woe to them that are fainthearted, who believe not God: and therefore they shall not be protected by him.",
+      "citation": "Ecclesiasticus 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Woe to them that have lost patience, and that have forsaken the right ways, and have gone aside into crooked ways.",
+      "citation": "Ecclesiasticus 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And what will they do, when the Lord shall begin to examine?",
+      "citation": "Ecclesiasticus 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "They that fear the Lord, will not be incredulous to his word: and they that love him, will keep his way.",
+      "citation": "Ecclesiasticus 2:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "They that fear the Lord, will seek after the things that are well pleasing to him: and they that love him, shall be filled with his law.",
+      "citation": "Ecclesiasticus 2:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "They that fear the Lord, will prepare their hearts, and in his sight will sanctify their souls,",
+      "citation": "Ecclesiasticus 2:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "They that fear the Lord, keep his commandments, and will have patience even until his visitation,",
+      "citation": "Ecclesiasticus 2:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Saying: If we do not penance, we shall fall into the hands of the Lord, and not into the hands of men.",
+      "citation": "Ecclesiasticus 2:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "For according to his greatness, so also is his mercy with him.",
+      "citation": "Ecclesiasticus 2:23 (Douay-Rheims)"
+    }
+  ]
+}

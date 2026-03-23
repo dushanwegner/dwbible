@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Thessalonians, Chapter 4 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Thessalonians",
+      "slug": "1-thessalonians",
+      "testament": "NT",
+      "order": 59,
+      "totalChapters": 5
+    },
+    "chapter": 4,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-thessalonians/3.json",
+      "nextChapter": "https://latinprayer.org/bible/1-thessalonians/5.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-thessalonians/4.json",
+      "german": "https://latinprayer.org/bibel/1-thessalonians/4.json"
+    }
+  },
+  "citation": "1. Thessalonians 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "For the rest therefore, brethren, pray and beseech you in the Lord Jesus that, as you have received from us, how you ought to walk and to please God, so also you would walk, that you may abound the more.",
+      "citation": "1. Thessalonians 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For you know what precepts I have given to you by the Lord Jesus.",
+      "citation": "1. Thessalonians 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For this is the will of God, your sanctification: That you should abstain from fornication:",
+      "citation": "1. Thessalonians 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "That every one of you should know how to possess his vessel in sanctification and honour,",
+      "citation": "1. Thessalonians 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Not in the passion of lust, like the Gentiles that know not God:",
+      "citation": "1. Thessalonians 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And that no man overreach nor circumvent his brother in business: because the Lord is the avenger of all these things, as we have told you before and have testified.",
+      "citation": "1. Thessalonians 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For God hath not called us unto uncleanness, but unto sanctification.",
+      "citation": "1. Thessalonians 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Therefore, he that despiseth these things, despiseth not man, but God, who also hath given his holy Spirit in us.",
+      "citation": "1. Thessalonians 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But as touching the charity of brotherhood, we have no need to write to you: for yourselves have learned of God to love one another.",
+      "citation": "1. Thessalonians 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For indeed you do it towards all the brethren in all Macedonia. But we entreat you, brethren, that you abound more:",
+      "citation": "1. Thessalonians 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And that you use your endeavour to be quiet: and that you do your own business and work with your own hands, as we commanded you: and that you walk honestly towards them that are without: and that you want nothing of any man's.",
+      "citation": "1. Thessalonians 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And we will not have you ignorant brethren, concerning them that are asleep, that you be not sorrowful, even as others who have no hope.",
+      "citation": "1. Thessalonians 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For if we believe that Jesus died and rose again: even so them who have slept through Jesus, will God bring with him.",
+      "citation": "1. Thessalonians 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For this we say unto you in the word of the Lord, that we who are alive, who remain unto the coming of the Lord, shall not prevent them who have slept.",
+      "citation": "1. Thessalonians 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For the Lord himself shall come down from heaven with commandment and with the voice of an archangel and with the trumpet of God: and the dead who are in Christ shall rise first.",
+      "citation": "1. Thessalonians 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Then we who are alive, who are left, shall be taken up together with them in the clouds to meet Christ, into the air: and so shall we be always with the Lord.",
+      "citation": "1. Thessalonians 4:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Wherefore, comfort ye one another with these words.",
+      "citation": "1. Thessalonians 4:17 (Douay-Rheims)"
+    }
+  ]
+}

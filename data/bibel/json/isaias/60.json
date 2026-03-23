@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 60 — 22 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 60,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/isaias/59.json",
+      "nextChapter": "https://latinprayer.org/bibel/isaias/61.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/60.json",
+      "latin": "https://latinprayer.org/latin/isaias/60.json"
+    }
+  },
+  "citation": "Jesaja 60 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Mache dich auf, werde licht! Denn dein Licht ist gekommen, und die Herrlichkeit des HERRN ist über dir erstrahlt.",
+      "citation": "Jesaja 60:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Denn wohl bedeckt Finsternis die Erde und Dunkel die Völker, aber über dir strahlt der HERR wie eine Sonne auf, und seine Herrlichkeit wird sichtbar über dir.",
+      "citation": "Jesaja 60:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Völker wallen zu deinem Licht hin und Könige zu dem Glanz, in dem du strahlst.",
+      "citation": "Jesaja 60:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Hebe ringsum deine Augen empor und blicke hin! Sie alle haben sich versammelt und kommen zu dir: deine Söhne kommen aus der Ferne, und deine Töchter werden auf den Armen getragen.",
+      "citation": "Jesaja 60:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da wirst du dann, sobald du das siehst, vor Freude strahlen, und dein Herz wird pochen und sich weit auftun; denn der Reichtum des Meeres wird sich dir zuwenden, die Schätze der Völker dir zuströmen.",
+      "citation": "Jesaja 60:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ein Gewimmel von Dromedaren wird dich bedecken, die jungen Kamele von Midian und Epha; allesamt werden sie aus Saba herkommen, Gold und Weihrauch bringen und die Ruhmestaten des HERRN verkünden.",
+      "citation": "Jesaja 60:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Alle Herden von Kedar werden sich für dich sammeln, die Widder von Nebajoth dir zu Diensten stehen: mir zum Wohlgefallen werden sie auf meinen Altar gebracht werden, und so mache ich meinen glanzvollen Tempel noch glänzender.",
+      "citation": "Jesaja 60:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wer sind diese da, die wie eine Wolke dahergeflogen kommen und wie Tauben zu ihren Schlägen?",
+      "citation": "Jesaja 60:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ja, auf mich harren die Meeresländer, und die Tharsisschiffe segeln voran, um deine Söhne aus der Ferne herzubringen; ihr Silber und ihr Gold führen sie mit sich für den Namen des HERRN, deines Gottes, und für den Heiligen Israels, weil er dich zu hohen Ehren bringt.",
+      "citation": "Jesaja 60:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Die Söhne fremden Stammes werden deine Mauern aufbauen und ihre Könige dir dienstbar sein; denn in meinem Grimm habe ich dich (allerdings) geschlagen, aber in meiner Gnade mich deiner wieder erbarmt.",
+      "citation": "Jesaja 60:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Deine Tore werden beständig offen stehen, bei Tag und bei Nacht unverschlossen bleiben, um in dich einzulassen den Reichtum der Völker und ihre Könige, die im Triumph aufgeführt werden.",
+      "citation": "Jesaja 60:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Denn jedes Volk und jedes Reich, die dir nicht dienen wollen, sollen untergehen, und die Heidenvölker überhaupt völliger Vernichtung anheimfallen.",
+      "citation": "Jesaja 60:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Die Prachtbäume des Libanons sollen zu dir gebracht werden, Zypressen, Platanen und Edeltannen zumal, um die Stätte meines Heiligtums zu zieren; denn ich will die Stätte ehren, wo meine Füße ruhen.",
+      "citation": "Jesaja 60:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Es sollen auch die Söhne deiner (früheren) Bedrücker tiefgebückt zu dir kommen, und alle deine Verächter sich zu deinen Fußsohlen niederwerfen und dich ›die Stadt des HERRN‹ nennen, ›das Zion des Heiligen Israels‹.",
+      "citation": "Jesaja 60:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Statt daß du verlassen und verhaßt warst, so daß niemand dich aufsuchte, will ich dich zu ewigem Stolz machen, zum Entzücken für alle künftigen Geschlechter.",
+      "citation": "Jesaja 60:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Und du wirst die Milch der Völker schlürfen und dich an der Brust der Könige nähren und sollst erkennen, daß ich, der HERR, dein Retter bin und daß dein Erlöser der starke Held Jakobs ist.",
+      "citation": "Jesaja 60:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Anstatt des Kupfers will ich Gold herbringen und anstatt des Eisens Silber herbeischaffen, statt des Holzes Kupfer und statt der Steine Eisen. Und ich will zu deiner Obrigkeit den Frieden machen und zu deiner Regierung die Gerechtigkeit.",
+      "citation": "Jesaja 60:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Nicht wird man künftig von Gewalttaten in deinem Lande hören, von Verheerung und Verwüstung innerhalb deiner Grenzen, sondern deine Mauern wirst du ›Heil‹ nennen und deine Tore als ›Ruhm‹ bezeichnen.",
+      "citation": "Jesaja 60:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Nicht mehr wird dir künftig am Tage die Sonne als Leuchte dienen, noch bei Nacht der Mond dir zur Erhellung scheinen; nein, der HERR wird dir zum ewigen Licht dienen und dein Gott zu deiner herrlichen Zier.",
+      "citation": "Jesaja 60:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Nicht mehr wird künftig deine Sonne untergehen, noch dein Mond den Schein verlieren; denn der HERR wird dir zum ewigen Licht werden, und die Tage deiner Trauer sollen zu Ende sein.",
+      "citation": "Jesaja 60:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Dann wird dein Volk in seiner Gesamtheit aus Gerechten bestehen; ewiglich werden sie das Land besitzen als der Sproß der von mir angelegten Pflanzung, als das Werk meiner Hände, zu meiner Verherrlichung:",
+      "citation": "Jesaja 60:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "der Kleinste wird zu einer Tausendschaft werden und der Geringste zu einem starken Stamm: ich, der HERR, habe es verheißen und werde es zu seiner Zeit eilends verwirklichen.",
+      "citation": "Jesaja 60:22 (Menge)"
+    }
+  ]
+}

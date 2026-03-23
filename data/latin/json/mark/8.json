@@ -1,0 +1,226 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Mark, Chapter 8 — 38 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Mark",
+      "slug": "mark",
+      "testament": "NT",
+      "order": 48,
+      "totalChapters": 16
+    },
+    "chapter": 8,
+    "verseCount": 38,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/mark/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/mark/7.json",
+      "nextChapter": "https://latinprayer.org/latin/mark/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/mark/8.json",
+      "german": "https://latinprayer.org/bibel/mark/8.json"
+    }
+  },
+  "citation": "Mark 8 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in illis diebus iterum cum turba multa esset nec haberent quod manducarent convocatis discipulis ait illis",
+      "citation": "Mark 8:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "misereor super turba quia ecce iam triduo sustinent me nec habent quod manducent",
+      "citation": "Mark 8:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et si dimisero eos ieiunos in domum suam deficient in via quidam enim ex eis de longe venerunt",
+      "citation": "Mark 8:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et responderunt ei discipuli sui unde istos poterit quis hic saturare panibus in solitudine",
+      "citation": "Mark 8:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et interrogavit eos quot panes habetis qui dixerunt septem",
+      "citation": "Mark 8:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et praecepit turbae discumbere supra terram et accipiens septem panes gratias agens fregit et dabat discipulis suis ut adponerent et adposuerunt turbae",
+      "citation": "Mark 8:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et habebant pisciculos paucos et ipsos benedixit et iussit adponi",
+      "citation": "Mark 8:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et manducaverunt et saturati sunt et sustulerunt quod superaverat de fragmentis septem sportas",
+      "citation": "Mark 8:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "erant autem qui manducaverunt quasi quattuor milia et dimisit eos",
+      "citation": "Mark 8:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et statim ascendens navem cum discipulis suis venit in partes Dalmanutha",
+      "citation": "Mark 8:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et exierunt Pharisaei et coeperunt conquirere cum eo quaerentes ab illo signum de caelo temptantes eum",
+      "citation": "Mark 8:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et ingemescens spiritu ait quid generatio ista quaerit signum amen dico vobis si dabitur generationi isti signum",
+      "citation": "Mark 8:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et dimittens eos ascendens iterum abiit trans fretum",
+      "citation": "Mark 8:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et obliti sunt sumere panes et nisi unum panem non habebant secum in navi",
+      "citation": "Mark 8:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et praecipiebat eis dicens videte cavete a fermento Pharisaeorum et fermento Herodis",
+      "citation": "Mark 8:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et cogitabant ad alterutrum dicentes quia panes non habemus",
+      "citation": "Mark 8:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quo cognito Iesus ait illis quid cogitatis quia panes non habetis nondum cognoscitis nec intellegitis adhuc caecatum habetis cor vestrum",
+      "citation": "Mark 8:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "oculos habentes non videtis et aures habentes non auditis nec recordamini",
+      "citation": "Mark 8:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quando quinque panes fregi in quinque milia et quot cofinos fragmentorum plenos sustulistis dicunt ei duodecim",
+      "citation": "Mark 8:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quando et septem panes in quattuor milia quot sportas fragmentorum tulistis et dicunt ei septem",
+      "citation": "Mark 8:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et dicebat eis quomodo nondum intellegitis",
+      "citation": "Mark 8:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et veniunt Bethsaida et adducunt ei caecum et rogabant eum ut illum tangeret",
+      "citation": "Mark 8:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et adprehendens manum caeci eduxit eum extra vicum et expuens in oculos eius inpositis manibus suis interrogavit eum si aliquid videret",
+      "citation": "Mark 8:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et aspiciens ait video homines velut arbores ambulantes",
+      "citation": "Mark 8:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "deinde iterum inposuit manus super oculos eius et coepit videre et restitutus est ita ut videret clare omnia",
+      "citation": "Mark 8:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et misit illum in domum suam dicens vade in domum tuam et si in vicum introieris nemini dixeris",
+      "citation": "Mark 8:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et egressus est Iesus et discipuli eius in castella Caesareae Philippi et in via interrogabat discipulos suos dicens eis quem me dicunt esse homines",
+      "citation": "Mark 8:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "qui responderunt illi dicentes Iohannem Baptistam alii Heliam alii vero quasi unum de prophetis",
+      "citation": "Mark 8:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "tunc dicit illis vos vero quem me dicitis esse respondens Petrus ait ei tu es Christus",
+      "citation": "Mark 8:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et comminatus est eis ne cui dicerent de illo",
+      "citation": "Mark 8:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "et coepit docere illos quoniam oportet Filium hominis multa pati et reprobari a senioribus et a summis sacerdotibus et scribis et occidi et post tres dies resurgere",
+      "citation": "Mark 8:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et palam verbum loquebatur et adprehendens eum Petrus coepit increpare eum",
+      "citation": "Mark 8:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "qui conversus et videns discipulos suos comminatus est Petro dicens vade retro me Satana quoniam non sapis quae Dei sunt sed quae sunt hominum",
+      "citation": "Mark 8:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et convocata turba cum discipulis suis dixit eis si quis vult post me sequi deneget se ipsum et tollat crucem suam et sequatur me",
+      "citation": "Mark 8:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "qui enim voluerit animam suam salvam facere perdet eam qui autem perdiderit animam suam propter me et evangelium salvam eam faciet",
+      "citation": "Mark 8:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "quid enim proderit homini si lucretur mundum totum et detrimentum faciat animae suae",
+      "citation": "Mark 8:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "aut quid dabit homo commutationem pro anima sua",
+      "citation": "Mark 8:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "qui enim me confusus fuerit et mea verba in generatione ista adultera et peccatrice et Filius hominis confundetur eum cum venerit in gloria Patris sui cum angelis sanctis",
+      "citation": "Mark 8:38 (Clementine Vulgate)"
+    }
+  ]
+}

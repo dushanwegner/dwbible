@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Wisdom, Chapter 16 — 29 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Wisdom",
+      "slug": "wisdom",
+      "testament": "OT",
+      "order": 25,
+      "totalChapters": 19
+    },
+    "chapter": 16,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/wisdom/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/wisdom/15.json",
+      "nextChapter": "https://latinprayer.org/latin/wisdom/17.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/wisdom/16.json",
+      "german": "https://latinprayer.org/bibel/wisdom/16.json"
+    }
+  },
+  "citation": "Wisdom 16 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "propter hoc per his similia passi sunt digne tormenta et per multitudinem bestiarum exterminati sunt",
+      "citation": "Wisdom 16:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "pro quibus tormentis bene disposuisti populum tuum quibus dedisti concupiscentiam delectamenti sui novum saporem escam parans eis ortygometram",
+      "citation": "Wisdom 16:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ut illi quidem concupiscentes escam propter ea quae illis ostensa et missa sunt etiam a necessaria concupiscentia averterentur hi autem in brevi inopes facti novam gustaverunt escam",
+      "citation": "Wisdom 16:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "oportebat enim illis quidem sine excusatione supervenire interitum exercentibus tyrannidem his autem tantum ostendere quemadmodum inimici illorum exterminabantur",
+      "citation": "Wisdom 16:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "etenim cum supervenit illis saeva bestiarum ira morsibus perversarum colubrarum exterminabantur",
+      "citation": "Wisdom 16:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "non in perpetuum permansit ira tua sed ad correptionem in brevi turbati sunt signum habentes salutis ad commemorationem mandati legis tuae",
+      "citation": "Wisdom 16:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui enim conversus est non per hoc quod videbat sanabatur sed per te omnium salvatorem",
+      "citation": "Wisdom 16:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et in hoc autem ostendisti inimicis nostris quia tu es qui liberas ab omni malo",
+      "citation": "Wisdom 16:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "illos enim lucustarum et muscarum occiderunt morsus et non est inventa sanitas animae illorum quia digni erant ab huiusmodi exterminari",
+      "citation": "Wisdom 16:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "filios autem tuos nec draconum venenatorum vicerunt dentes misericordia enim tua adveniens sanabat illos",
+      "citation": "Wisdom 16:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in memoria enim sermonum tuorum examinabantur et salvabantur ne in altam incidentes oblivionem non possent tuo uti adiutorio",
+      "citation": "Wisdom 16:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "etenim neque herba neque malagma sanavit illos sed tuus Domine sermo qui sanat omnia",
+      "citation": "Wisdom 16:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "tu enim vitae et mortis habes potestatem et deducis ad portas mortis et reducis",
+      "citation": "Wisdom 16:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "homo autem occidit quidem per malitiam animam suam et cum exibit spiritus non revertetur nec revocabit animam quae recepta est",
+      "citation": "Wisdom 16:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "sed tuam manum effugere inpossibile est",
+      "citation": "Wisdom 16:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "negantes enim nosse te impii per fortitudinem brachii tui flagellati sunt novis aquis et grandinibus et pluviis persecutionem passi et per ignem consummati",
+      "citation": "Wisdom 16:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quod enim mirabile erat in aqua quae omnia extinguit plus ignis valebat vindex est enim orbis iustorum",
+      "citation": "Wisdom 16:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quodam enim tempore mansuetabatur ignis ne conburerentur quae ad impios missa erant animalia sed ut ipsi videntes scirent quoniam Dei iudicio patiuntur persecutionem",
+      "citation": "Wisdom 16:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et quodam tempore in aqua super virtutem ignis ardebat ut iniquae terrae nationem exterminaret",
+      "citation": "Wisdom 16:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "pro quibus angelorum esca nutristi populum tuum et paratum panem e caelo praestitisti illis sine labore omne delectamentum in se habentem et omnis saporis suavitatem",
+      "citation": "Wisdom 16:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "substantia enim tua dulcedinem tuam quam in filios habes ostendebat et serviens uniuscuiusque voluntati ad quod quis volebat convertebatur",
+      "citation": "Wisdom 16:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "nix autem et glacies sustinebant vim ignis et non tabescebant ut scirent quoniam fructus inimicorum exterminabat ignis ardens in grandine et pluvia coruscans",
+      "citation": "Wisdom 16:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "hoc autem iterum ut nutrirentur iusti etiam suae virtutis oblitus est",
+      "citation": "Wisdom 16:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "creatura enim tibi factori deserviens excandescit in tormentum adversus iniustos et lenior fit ad benefaciendum pro his qui in te confidunt",
+      "citation": "Wisdom 16:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "propter hoc et tunc in omnia transfigurata omnium nutrici gratiae tuae deserviebant ad voluntatem horum qui a te desiderati sunt",
+      "citation": "Wisdom 16:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "ut scirent filii tui quos dilexisti Domine quoniam non nativitatis fructus pascunt homines sed sermo tuus hos qui in te crediderint conservat",
+      "citation": "Wisdom 16:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "quod enim ab igni non poterat exterminari statim ab exiguo radio solis calefactum tabescebat",
+      "citation": "Wisdom 16:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "ut notum omnibus esset quoniam oportet praevenire solem ad benedictionem tuam et ad orientem lucis tibi adorare",
+      "citation": "Wisdom 16:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "ingrati enim fides tamquam hibernalis glacies tabescit et disperiet tamquam aqua supervacua",
+      "citation": "Wisdom 16:29 (Clementine Vulgate)"
+    }
+  ]
+}

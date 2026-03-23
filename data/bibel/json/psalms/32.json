@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 32 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 32,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/31.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/33.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/32.json",
+      "latin": "https://latinprayer.org/latin/psalms/32.json"
+    }
+  },
+  "citation": "Psalmen 32 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Von David; ein Lehrgedicht</em>. Wohl dem, dessen Missetat vergeben und dessen Sünde zugedeckt ist!",
+      "citation": "Psalmen 32:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wohl dem Menschen, dem der HERR die Schuld nicht zurechnet und in dessen Geist kein Trug wohnt!",
+      "citation": "Psalmen 32:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Solange ich Schweigen übte, verzehrte sich mein Leib, weil es unaufhörlich in mir schrie;",
+      "citation": "Psalmen 32:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "denn bei Tag und bei Nacht lag schwer auf mir deine Hand: mein Lebenssaft verdorrte wie durch Sommergluten. SELA.",
+      "citation": "Psalmen 32:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da bekannte ich dir meine Sünde und verhehlte meine Verschuldung nicht; ich sagte: »Bekennen will ich dem HERRN meine Missetaten!« Da hast du mir meine Sündenschuld vergeben. SELA.",
+      "citation": "Psalmen 32:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Darum möge jeder Fromme zu dir beten, solange du dich finden läßt; wenn dann gewaltige Fluten daherstürzen – ihn werden sie nicht erreichen.",
+      "citation": "Psalmen 32:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Du bist mir ein Schirm, bewahrst mich vor Unheil: mit Rettungsjubel du wirst mich umgeben. SELA.",
+      "citation": "Psalmen 32:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "»Ich will dich unterweisen und dich lehren den Weg, den du wandeln sollst; ich will dich beraten, mein Auge auf dich richten.",
+      "citation": "Psalmen 32:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Seid nicht dem Roß, dem Maultier gleich, die keinen Verstand besitzen; mit Zaum und Gebiß mußt du brechen ihren Trotz, sonst kommen sie nicht zu dir.«",
+      "citation": "Psalmen 32:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Zahlreich sind die Leiden des Gottlosen; doch wer auf den HERRN vertraut, den wird er mit Gnade umgeben.",
+      "citation": "Psalmen 32:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Freuet euch des HERRN und frohlockt, ihr Gerechten, und jubelt, ihr redlich Gesinnten alle!",
+      "citation": "Psalmen 32:11 (Menge)"
+    }
+  ]
+}

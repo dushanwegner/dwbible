@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Habakkuk, Chapter 2 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Habakkuk",
+      "slug": "habacuc",
+      "testament": "OT",
+      "order": 40,
+      "totalChapters": 3
+    },
+    "chapter": 2,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/habacuc/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/habacuc/1.json",
+      "nextChapter": "https://latinprayer.org/latin/habacuc/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/habacuc/2.json",
+      "german": "https://latinprayer.org/bibel/habacuc/2.json"
+    }
+  },
+  "citation": "Habakkuk 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "super custodiam meam stabo et figam gradum super munitionem et contemplabor ut videam quid dicatur mihi et quid respondeam ad arguentem me",
+      "citation": "Habakkuk 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et respondit mihi Dominus et dixit scribe visum et explana eum super tabulas ut percurrat qui legerit eum",
+      "citation": "Habakkuk 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia adhuc visus procul et apparebit in finem et non mentietur si moram fecerit expecta illum quia veniens veniet et non tardabit",
+      "citation": "Habakkuk 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ecce qui incredulus est non erit recta anima eius in semet ipso iustus autem in fide sua vivet",
+      "citation": "Habakkuk 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et quomodo vinum potantem decipit sic erit vir superbus et non decorabitur qui dilatavit quasi infernus animam suam et ipse quasi mors et non adimpletur et congregabit ad se omnes gentes et coacervabit ad se omnes populos",
+      "citation": "Habakkuk 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "numquid non omnes isti super eum parabolam sument et loquellam enigmatum eius et dicetur vae ei qui multiplicat non sua usquequo et adgravat contra se densum lutum",
+      "citation": "Habakkuk 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "numquid non repente consurgent qui mordeant te et suscitabuntur lacerantes te et eris in rapinam eis",
+      "citation": "Habakkuk 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quia tu spoliasti gentes multas spoliabunt te omnes qui reliqui fuerint de populis propter sanguinem hominis et iniquitatem terrae civitatis et omnium habitantium in ea",
+      "citation": "Habakkuk 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "vae qui congregat avaritiam malam domui suae ut sit in excelso nidus eius et liberari se putat de manu mali",
+      "citation": "Habakkuk 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cogitasti confusionem domui tuae concidisti populos multos et peccavit anima tua",
+      "citation": "Habakkuk 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quia lapis de pariete clamabit et lignum quod inter iuncturas aedificiorum est respondebit",
+      "citation": "Habakkuk 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "vae qui aedificat civitatem in sanguinibus et praeparat urbem in iniquitate",
+      "citation": "Habakkuk 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "numquid non haec a Domino sunt exercituum laborabunt enim populi in multo igni et gentes in vacuum et deficient",
+      "citation": "Habakkuk 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quia replebitur terra ut cognoscat gloriam Domini quasi aquae operientes mare",
+      "citation": "Habakkuk 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "vae qui potum dat amico suo mittens fel suum et inebrians ut aspiciat nuditatem eius",
+      "citation": "Habakkuk 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "repletus est ignominia pro gloria bibe tu quoque et consopire circumdabit te calix dexterae Domini et vomitus ignominiae super gloriam tuam",
+      "citation": "Habakkuk 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quia iniquitas Libani operiet te et vastitas animalium deterrebit eos de sanguinibus hominis et iniquitate terrae et civitatis et omnium habitantium in ea",
+      "citation": "Habakkuk 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quid prodest sculptile quia sculpsit illud fictor suus conflatile et imaginem falsam quia speravit in figmento fictor eius ut faceret simulacra muta",
+      "citation": "Habakkuk 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "vae qui dicit ligno expergiscere surge lapidi tacenti numquid ipse docere poterit ecce iste coopertus est auro et argento et omnis spiritus non est in visceribus eius",
+      "citation": "Habakkuk 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "Dominus autem in templo sancto suo sileat a facie eius omnis terra",
+      "citation": "Habakkuk 2:20 (Clementine Vulgate)"
+    }
+  ]
+}

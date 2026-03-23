@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiastes, Chapter 9 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiastes",
+      "slug": "ecclesiastes",
+      "testament": "OT",
+      "order": 23,
+      "totalChapters": 12
+    },
+    "chapter": 9,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiastes/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiastes/8.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiastes/10.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiastes/9.json",
+      "german": "https://latinprayer.org/bibel/ecclesiastes/9.json"
+    }
+  },
+  "citation": "Ecclesiastes 9 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "All these things have I considered in my heart, that I might carefully understand them: there are just men and wise men, and their works are in the hand of God: and yet man knoweth not whether he be worthy of love, or hatred:",
+      "citation": "Ecclesiastes 9:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But all things are kept uncertain for the time to come, because all things equally happen to the just and to the wicked, to the good and to the evil, to the clean and to the unclean, to him that offereth victims, and to him that despiseth sacrifices. As the good is, so also is the sinner: as the perjured, so he also that sweareth truth.",
+      "citation": "Ecclesiastes 9:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "This is a very great evil among all things that are done under the sun, that the same things happen to all men: whereby also the hearts of the children of men are filled with evil, and with contempt while they live, and afterwards they shall be brought down to hell.",
+      "citation": "Ecclesiastes 9:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "There is no man that liveth always, or that hopeth for this: a living dog is better than a dead lion.",
+      "citation": "Ecclesiastes 9:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For the living know that they shall die, but the dead know nothing more, neither have they a reward any more: for the memory of them is forgotten.",
+      "citation": "Ecclesiastes 9:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Their love also, and their hatred, and their envy are all perished, neither have they any part in this world, and in the work that is done under the sun.",
+      "citation": "Ecclesiastes 9:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Go then, and eat thy bread with joy, and drink thy wine with gladness: because thy works please God.",
+      "citation": "Ecclesiastes 9:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "At all times let thy garments be white, and let not oil depart from thy head.",
+      "citation": "Ecclesiastes 9:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Live joyfully with the wife whom thou lovest, all the days of thy unsteady life, which are given to thee under the sun, all the time of thy vanity: for this is thy portion in life, and in thy labour wherewith thou labourest under the sun.",
+      "citation": "Ecclesiastes 9:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Whatsoever thy hand is able to do, do it earnestly: for neither work, nor reason, nor wisdom, nor knowledge shall be in hell, whither thou art hastening.",
+      "citation": "Ecclesiastes 9:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "I turned me to another thing, and I saw that under the sun, the race is not to the swift, nor the battle to the strong, nor bread to the wise, nor riches to the learned, nor favour to the skilful: but time and chance in all.",
+      "citation": "Ecclesiastes 9:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Man knoweth not his own end: but as fishes are taken with the hook, and as birds are caught with the snare, so men are taken in the evil time, when it shall suddenly come upon them.",
+      "citation": "Ecclesiastes 9:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "This wisdom also I have seen under the sun, and it seemed to me to be very great:",
+      "citation": "Ecclesiastes 9:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "A little city, and few men in it: there came against it a great king, and invested it, and built bulwarks round about it, and the siege was perfect.",
+      "citation": "Ecclesiastes 9:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Now there was found in it a man poor and wise, and he delivered the city by his wisdom, and no man afterward remembered that poor man.",
+      "citation": "Ecclesiastes 9:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And I said that wisdom is better than strength: how then is the wisdom of the poor man slighted, and his words not heard?",
+      "citation": "Ecclesiastes 9:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The words of the wise are heard in silence, more than the cry of a prince among fools.",
+      "citation": "Ecclesiastes 9:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Better is wisdom, than weapons of war: and he that shall offend in one, shall lose many good things.",
+      "citation": "Ecclesiastes 9:18 (Douay-Rheims)"
+    }
+  ]
+}

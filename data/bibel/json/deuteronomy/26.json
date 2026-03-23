@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Deuteronomium, Chapter 26 — 19 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Deuteronomium",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "totalChapters": 34
+    },
+    "chapter": 26,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/deuteronomy/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/deuteronomy/25.json",
+      "nextChapter": "https://latinprayer.org/bibel/deuteronomy/27.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/deuteronomy/26.json",
+      "latin": "https://latinprayer.org/latin/deuteronomy/26.json"
+    }
+  },
+  "citation": "Deuteronomium 26 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Wenn du nun in das Land gekommen bist, das der HERR, dein Gott, dir zu eigen geben wird, und du es in Besitz genommen hast und in ihm wohnst,",
+      "citation": "Deuteronomium 26:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "so sollst du einen Teil von den Erstlingen aller Feldfrüchte, die du von deinem Lande, das der HERR, dein Gott, dir geben wird, geerntet hast, nehmen und sie in einen Korb legen und dich damit an die Stätte begeben, die der HERR, dein Gott, erwählen wird, um seinen Namen daselbst wohnen zu lassen.",
+      "citation": "Deuteronomium 26:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dort sollst du dann zu dem Priester treten, der zu jener Zeit im Amt sein wird, und zu ihm sagen: ›Ich bezeuge heute dem HERRN, deinem Gott, daß ich wirklich in das Land gekommen bin, dessen Verleihung an uns der HERR unsern Vätern zugeschworen hat.‹",
+      "citation": "Deuteronomium 26:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Hierauf soll der Priester den Korb aus deiner Hand nehmen und ihn vor den Altar des HERRN, deines Gottes, hinstellen.",
+      "citation": "Deuteronomium 26:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Du aber sollst dann vor dem HERRN, deinem Gott, folgende Worte aussprechen: ›Ein umherirrender Aramäer war mein Stammvater; mit einer Mannschaft von wenigen Leuten zog er nach Ägypten hinab und lebte dort als Fremdling, wuchs dort aber zu einem großen, starken und zahlreichen Volk heran.",
+      "citation": "Deuteronomium 26:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Weil aber die Ägypter uns mißhandelten und bedrückten und uns harte Zwangsarbeit auferlegten,",
+      "citation": "Deuteronomium 26:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "schrien wir zum HERRN, dem Gott unserer Väter, um Hilfe, und der HERR erhörte unser Flehen und sah unser Elend, unsere Mühsal und Bedrängnis;",
+      "citation": "Deuteronomium 26:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "und der HERR führte uns mit starker Hand und hocherhobenem Arm, mit schreckenerregender Macht und unter Zeichen und Wundern aus Ägypten hinaus;",
+      "citation": "Deuteronomium 26:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "er brachte uns an diesen Ort und gab uns dieses Land, ein Land, das von Milch und Honig überfließt.",
+      "citation": "Deuteronomium 26:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Und nun bringe ich hier die Erstlinge von den Früchten des Feldes, das du, HERR, mir gegeben hast.‹ Dann stelle sie vor den HERRN, deinen Gott, hin, wirf dich vor dem HERRN, deinem Gott, anbetend nieder",
+      "citation": "Deuteronomium 26:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "und erfreue dich mit den Leviten und den Fremdlingen, die in deiner Mitte wohnen, an all dem Guten, das der HERR, dein Gott, dir und deinem Hause gegeben hat.«",
+      "citation": "Deuteronomium 26:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "»Wenn du im dritten Jahre, dem Zehntjahr, den gesamten Zehnten von deinem Ernteertrag vollständig entrichtet und ihn den Leviten, den Fremdlingen, den Waisen und Witwen übergeben hast, damit sie ihn in deinen Ortschaften verzehren und sich satt essen,",
+      "citation": "Deuteronomium 26:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "so sollst du vor dem HERRN, deinem Gott, so sprechen: ›Ich habe die heilige Abgabe aus meinem Hause hinausgeschafft und sie den Leviten und Fremdlingen, den Waisen und Witwen genau so übergeben, wie du mir geboten hast: ich habe keines von deinen Geboten übertreten noch vergessen.",
+      "citation": "Deuteronomium 26:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ich habe nichts davon gegessen in meiner Trauer und nichts davon weggeschafft, während ich unrein war, und habe nichts davon für eine Totenspeisung verwandt, nein, ich bin den Weisungen des HERRN, meines Gottes, nachgekommen und habe mich genau an seine Gebote gehalten.",
+      "citation": "Deuteronomium 26:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Blicke von deiner heiligen Wohnung, vom Himmel, herab und segne dein Volk Israel und das Land, das du uns gegeben hast, wie du unsern Vätern zugeschworen hast, ein Land, das von Milch und Honig überfließt!‹«",
+      "citation": "Deuteronomium 26:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "»Am heutigen Tage gebietet dir der HERR, dein Gott, diese Satzungen und Verordnungen zu befolgen: so beobachte und befolge sie denn von ganzem Herzen und mit ganzer Seele!",
+      "citation": "Deuteronomium 26:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Du hast dir heute vom HERRN verkünden lassen, daß er dein Gott sein wolle und daß es dir zukomme, auf seinen Wegen zu wandeln, seine Satzungen, Vorschriften und Verordnungen zu beobachten und seinen Weisungen zu gehorchen.",
+      "citation": "Deuteronomium 26:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Der HERR aber hat dich heute die Erklärung aussprechen lassen, daß du sein Eigentumsvolk sein wollest, wie er dir geboten hat, und daß es dir zukomme, alle seine Gebote zu beobachten,",
+      "citation": "Deuteronomium 26:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "und daß er dich über alle Völker, die er geschaffen hat, zu Ruhm und Ehre und Ansehen erhöhen wolle und daß du ein dem HERRN, deinem Gott, geheiligtes Volk sein wollest, wie er dir geboten hat.«",
+      "citation": "Deuteronomium 26:19 (Menge)"
+    }
+  ]
+}

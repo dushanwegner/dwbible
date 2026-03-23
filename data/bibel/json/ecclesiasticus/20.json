@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 20 — 30 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 20,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/19.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/21.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/20.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/20.json"
+    }
+  },
+  "citation": "Jesus Sirach 20 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Es gibt eine Zurechtweisung, die zur Unzeit geschieht, und mancher schweigt, und der ist klug.",
+      "citation": "Jesus Sirach 20:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wie viel besser ist’s, zur Rede zu stellen als (schweigend) zu grollen! und wer sein Unrecht offen zugesteht, entgeht dem Schaden. b [Wie schön ist’s, Reue an den Tag zu legen, wenn man zur Rede gestellt wird! Denn so meidet man freiwillige Verfehlungen.]",
+      "citation": "Jesus Sirach 20:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wie die Begierde des Entmannten, ein Mädchen zu entjungfern, so handelt der (verfehlt), welcher das Recht mit Gewalt durchsetzen will.",
+      "citation": "Jesus Sirach 20:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Mancher schweigt und wird als weise erfunden, und mancher ist verhaßt infolge seiner großen Geschwätzigkeit.",
+      "citation": "Jesus Sirach 20:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Mancher schweigt, weil er keine Antwort zur Hand hat, und mancher schweigt, weil er die rechte Zeit kennt.",
+      "citation": "Jesus Sirach 20:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ein weiser Mann schweigt bis zur rechten Zeit, aber der Prahler und der Dumme läßt die rechte Zeit unbeachtet.",
+      "citation": "Jesus Sirach 20:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wer viele Worte macht, erregt Abscheu, und wer hochmütig auftritt, macht sich verhaßt.",
+      "citation": "Jesus Sirach 20:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Zuweilen liegt Glück für einen Mann im Unglück, und ein Gewinn dient manchmal zum Verlust.",
+      "citation": "Jesus Sirach 20:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Es gibt Geschenke, die dir nichts nützen, und für manche Geschenke erhält man doppelte Vergeltung.",
+      "citation": "Jesus Sirach 20:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Erneidrigung kann eintreten infolge von glänzender Stellung, und mancher hebt sein Haupt aus der Niedrigkeit empor.",
+      "citation": "Jesus Sirach 20:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Mancher kauft viel um geringen Preis und muß es nachher siebenfach bezahlen.",
+      "citation": "Jesus Sirach 20:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Der Weise macht sich durch seine Reden beliebt, aber die Gunstbeweise der Toren sind erfolglos verschwendet.",
+      "citation": "Jesus Sirach 20:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Die Gabe eines Toren nützt dir nichts, denn statt eines Auges hat er deren viele;",
+      "citation": "Jesus Sirach 20:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "er gibt nur wenig und rückt dir viel vor und sperrt seinen Mund auf wie ein Ausrufer; heute gibt er ein Darlehen und fordert es morgen zurück: hassenswert ist solch ein Mensch!",
+      "citation": "Jesus Sirach 20:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Der Tor sagt: »Ich habe keinen Freund, und niemand dankt mir für meine Wohltaten; die mein Brot essen, sind lässig mit ihrer Zunge«:",
+      "citation": "Jesus Sirach 20:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "wie oft und wie viele werden ihn auslachen!",
+      "citation": "Jesus Sirach 20:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Besser ein Fehltritt auf dem Fußboden als mit der Zunge; ebenso tritt der Sturz der Bösen gar schnell ein.",
+      "citation": "Jesus Sirach 20:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Wie ein widerwärtiger (oder unartiger) Mensch ist eine unzeitige Rede; im Munde der Ungebildeten findet sie sich allezeit.",
+      "citation": "Jesus Sirach 20:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Ein Sinnspruch, der aus dem Munde des Toren kommt, findet keinen Anklang, denn er spricht ihn nie zu rechter Zeit aus.",
+      "citation": "Jesus Sirach 20:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Mancher wird durch Armut vom Sündigen abgehalten; so hat er denn bei seinem ruhigen Leben keine Gewissensbisse.",
+      "citation": "Jesus Sirach 20:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Mancher richtet sich selbst zugrunde aus Schamgefühl und stürzt sich selbst infolge törichter Verstellung ins Verderben;",
+      "citation": "Jesus Sirach 20:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Mnacher gibt seinem Freunde aus Scham (leere) Versprechungen und macht ihn sich dadurch unnötigerweise zum Feinde.",
+      "citation": "Jesus Sirach 20:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Ein häßlicher Schandfleck am Menschen ist die Lüge; im Munde der Ungebildeten findet sie sich allezeit;",
+      "citation": "Jesus Sirach 20:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "besser ist noch ein Dieb als ein immerfort Lügender; beide aber bringen Verderben über sich.",
+      "citation": "Jesus Sirach 20:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Das Ende eines lügenhaften Menschen ist ehrlos, und die Schande, die ihn trifft, bleibt für immer an ihm haften.",
+      "citation": "Jesus Sirach 20:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Der Weise bringt sich durch seine Reden zu Ehren, und ein kluger Mann gefällt den Großen.",
+      "citation": "Jesus Sirach 20:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Wer den Acker bebaut, türmt seinen Garbenhaufen hoch empor; und wer den Großen gefällt, kann Verfehlungen gutmachen.",
+      "citation": "Jesus Sirach 20:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Geschenke und Gaben machen die Augen (auch) der Weisen blind und hemmen, wie ein Knebel im Munde, die (gerechten) Vorwürfe.",
+      "citation": "Jesus Sirach 20:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Verborgene Weisheit und ein vergrabener Schatz – was nützen sie beide?",
+      "citation": "Jesus Sirach 20:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Besser ein Mensch, der seine Torheit verbirgt, als ein Mensch, der seine Weisheit geheimhält. b [Besser ist unermüdliche Ausdauer im Suchen des Herrn als ein herrenloser Fuhrmann des eigenen Lebens.]",
+      "citation": "Jesus Sirach 20:30 (Menge)"
+    }
+  ]
+}

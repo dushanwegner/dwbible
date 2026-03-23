@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Petrus, Chapter 2 — 25 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Petrus",
+      "slug": "1-peter",
+      "testament": "NT",
+      "order": 67,
+      "totalChapters": 5
+    },
+    "chapter": 2,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-peter/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-peter/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-peter/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-peter/2.json",
+      "latin": "https://latinprayer.org/latin/1-peter/2.json"
+    }
+  },
+  "citation": "1 Petrus 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "So legt also alle Bosheit und alle Falschheit, die Heuchelei, den Neid und alle Verleumdungssucht ab",
+      "citation": "1 Petrus 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "und tragt wie neugeborene Kinder nach der geistigen lauteren Milch Verlangen, damit ihr durch sie zur Errettung heranwachst,",
+      "citation": "1 Petrus 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "wenn ihr wirklich »geschmeckt habt, daß der Herr freundlich ist«.",
+      "citation": "1 Petrus 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wenn ihr zu ihm, dem lebendigen Stein, herantretet, der von den Menschen zwar als unbrauchbar verworfen, bei Gott aber als ein auserwähltes Kleinod gilt,",
+      "citation": "1 Petrus 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "so werdet auch ihr selbst als lebendige Bausteine zu einem geistlichen Hause, zu einer heiligen Priesterschaft aufgebaut, um geistliche Opfer darzubringen, die Gott durch Jesus Christus wohlgefällig sind.",
+      "citation": "1 Petrus 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "In der Schrift heißt es ja: »Seht, ich lege in Zion einen auserwählten Stein, einen kostbaren Eckstein; und wer auf ihn sein Vertrauen setzt, wird nimmermehr zuschanden werden.«",
+      "citation": "1 Petrus 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Euch also, die ihr Vertrauen besitzt, wird das kostbare Gut zuteil; für die Ungläubigen aber ist »der Stein, den die Bauleute verworfen haben – gerade der ist zum Eckstein geworden«",
+      "citation": "1 Petrus 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "und damit »zu einem Stein des Anstoßes« und »zum Felsen des Ärgernisses«; sie stoßen sich an ihm in ihrem Ungehorsam gegen das Wort, wozu sie auch bestimmt sind.",
+      "citation": "1 Petrus 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ihr dagegen seid »das auserwählte Geschlecht, die königliche Priesterschaft, die heilige Volksgemeinschaft, das zum Eigentum erkorene Volk«, und sollt die Tugenden dessen verkünden, der euch aus der Finsternis in sein wunderbares Licht berufen hat,",
+      "citation": "1 Petrus 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "euch, die ihr vordem »ein Nicht-Volk« waret, jetzt aber »das Volk Gottes« seid, einst »ohne Gottes Erbarmen«, jetzt aber »reich an Gotteserbarmen«.",
+      "citation": "1 Petrus 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Geliebte, ich ermahne euch: Enthaltet euch, da ihr ja »Fremdlinge und Beisassen« seid, der fleischlichen Begierden, die im Kampf gegen die Seele liegen;",
+      "citation": "1 Petrus 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "führt einen guten Wandel unter den Heiden, damit sie in allem, worin sie euch (jetzt) als Übeltäter verlästern, bei genauer Prüfung auf Grund eurer guten Werke Gott preisen am »Tage der Gnadenheimsuchung«.",
+      "citation": "1 Petrus 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Seid jeder menschlichen Ordnung um des Herrn willen untertan, es sei dem König als dem obersten Herrn",
+      "citation": "1 Petrus 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "oder den Statthaltern als denen, die von ihm zur Bestrafung der Übeltäter und Belobigung der recht Handelnden entsandt werden.",
+      "citation": "1 Petrus 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Denn so ist es der Wille Gottes, daß ihr durch Gutestun den Unverstand der törichten Menschen zum Schweigen bringt,",
+      "citation": "1 Petrus 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "und zwar als (wahrhaft) Freie und nicht als solche, welche die Freiheit zum Deckmantel der Bosheit machen, sondern als Knechte Gottes.",
+      "citation": "1 Petrus 2:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Erweiset jedermann die schuldige Ehre, habt die Brüder lieb, »fürchtet Gott, ehret den König«!",
+      "citation": "1 Petrus 2:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Ihr Dienstleute, seid in aller Furcht euren Herren untertan, nicht nur den gütigen und nachsichtigen, sondern auch den verkehrten;",
+      "citation": "1 Petrus 2:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "denn das ist Gnade, wenn jemand im Gedanken an Gott Trübsale geduldig erträgt, sofern er unschuldig leidet.",
+      "citation": "1 Petrus 2:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Denn was ist das für ein Ruhm, wenn ihr (die Schläge) geduldig aushaltet, wo ihr euch vergeht und dann gezüchtigt werdet? Aber wenn ihr geduldig aushaltet, wo ihr trotz eures guten Verhaltens leiden müßt, das ist Gnade bei Gott.",
+      "citation": "1 Petrus 2:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Denn dazu seid ihr berufen worden, weil auch Christus für euch gelitten und euch (dadurch) ein Vorbild hinterlassen hat, damit ihr seinen Fußtapfen nachfolget.",
+      "citation": "1 Petrus 2:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Er hat keine Sünde getan, auch ist kein Trug in seinem Munde gefunden worden;",
+      "citation": "1 Petrus 2:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "er hat, wenn er geschmäht wurde, nicht wieder geschmäht und, als er litt, keine Drohungen ausgestoßen, sondern es dem anheimgestellt, der gerecht richtet.",
+      "citation": "1 Petrus 2:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Er hat unsere Sünden selber mit seinem Leibe an das (Marter-) Holz hinaufgetragen, damit wir, von den Sünden freigemacht, der Gerechtigkeit leben möchten: durch seine Wunden seid ihr geheilt worden.",
+      "citation": "1 Petrus 2:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Denn ihr ginget (einst) wie Schafe in der Irre; jetzt aber seid ihr zu dem Hirten und Hüter eurer Seelen bekehrt worden.",
+      "citation": "1 Petrus 2:25 (Menge)"
+    }
+  ]
+}

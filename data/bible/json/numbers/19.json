@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 19 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 19,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/numbers/18.json",
+      "nextChapter": "https://latinprayer.org/bible/numbers/20.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/numbers/19.json",
+      "german": "https://latinprayer.org/bibel/numbers/19.json"
+    }
+  },
+  "citation": "Numbers 19 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke to Moses and Aaron, saying:",
+      "citation": "Numbers 19:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "This is the observance of the victim, which the Lord hath ordained. Command the children of Israel, that they bring unto thee a red cow of full age, in which there is no blemish, and which hath not carried the yoke:",
+      "citation": "Numbers 19:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And you shall deliver her to Eleazar the priest, who shall bring her forth without the camp, and shall immolate her in the sight of all:",
+      "citation": "Numbers 19:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And dipping his finger in her blood, shall sprinkle it over against the door of the tabernacle seven times,",
+      "citation": "Numbers 19:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And shall burn her in the sight of all delivering up to the fire her skin, and her flesh, and her blood, and her dung.",
+      "citation": "Numbers 19:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The priest shall also take cedar wood, and hyssop, and scarlet twice dyed, and cast it into the flame, with which the cow is consumed.",
+      "citation": "Numbers 19:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And then after washing his garments, and body, he shall enter into the camp, and shall be unclean until the evening.",
+      "citation": "Numbers 19:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He also that hath burned her, shall wash his garments, and his body, and shall be unclean until the evening.",
+      "citation": "Numbers 19:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And a man that is clean shall gather up the ashes of the cow, and shall pour them forth without the camp in a most clean place, that they may be reserved for the multitude of the children of Israel, and for a water of aspersion: because the cow was burnt for sin.",
+      "citation": "Numbers 19:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And when he that carried the ashes of the cow, hath washed his garments, he shall be unclean until the evening. The children of Israel, and the strangers that dwell among them, shall observe this for a holy thing by a perpetual ordinance.",
+      "citation": "Numbers 19:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "He that toucheth the corpse of a man, and is therefore unclean seven days,",
+      "citation": "Numbers 19:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Shall be sprinkled with this water on the third day, and on the seventh, and so shall be cleansed. If he were not sprinkled on the third day, he cannot be cleansed on the seventh.",
+      "citation": "Numbers 19:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Every one that toucheth the corpse of a man, and is not sprinkled with this mixture, shall profane the tabernacle of the Lord, and shall perish out of Israel: because he was not sprinkled with the water of expiation, he shall be unclean, and his uncleanness shall remain upon him.",
+      "citation": "Numbers 19:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "This is the law of a man that dieth in a tent: All that go into his tent and all the vessels that are there, shall be unclean seven days.",
+      "citation": "Numbers 19:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The vessel that hath no cover, nor binding over it, shall be unclean.",
+      "citation": "Numbers 19:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "If any man in the field touch the corpse of a man that was slain, or that died of himself, or his bone, or his grave, he shall be unclean seven days.",
+      "citation": "Numbers 19:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And they shall take of the ashes of the burning and of the sin offering, and shall pour living waters upon them into a vessel.",
+      "citation": "Numbers 19:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And a man that is clean shall dip hyssop in them, and shall sprinkle therewith all the tent, and all the furniture, and the men that are defiled with touching any such thing:",
+      "citation": "Numbers 19:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And in this manner he that is clean shall purify the unclean on the third and on the seventh day. And being expiated the seventh day, he shall wash both himself and his garments, and be unclean until the evening.",
+      "citation": "Numbers 19:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "If any man be not expiated after this rite, his soul shall perish out of the midst of the church: because he hath profaned the sanctuary of the Lord, and was not sprinkled with the water of purification.",
+      "citation": "Numbers 19:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "This precept shall be an ordinance for ever. He also that sprinkled the water, shall wash his garments. Every one that shall touch the waters of expiation, shall be unclean until the evening.",
+      "citation": "Numbers 19:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Whatsoever a person toucheth who is unclean, he shall make it unclean: and the person that toucheth any of these things, shall be unclean until the evening.",
+      "citation": "Numbers 19:22 (Douay-Rheims)"
+    }
+  ]
+}

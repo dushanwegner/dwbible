@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 70 — 5 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 70,
+    "verseCount": 5,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/69.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/71.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/70.json",
+      "german": "https://latinprayer.org/bibel/psalms/70.json"
+    }
+  },
+  "citation": "Psalms 70 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "O God, come to my assistance; O Lord, make haste to help me.",
+      "citation": "Psalms 70:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Let them be confounded and ashamed that seek my soul:",
+      "citation": "Psalms 70:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Let them be turned backward, and blush for shame that desire evils to me: Let them be presently turned away blushing for shame that say to me: 'Tis well, 'tis well.",
+      "citation": "Psalms 70:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Let all that seek thee rejoice and be glad in thee; and let such as love thy salvation say always: The Lord be magnified.",
+      "citation": "Psalms 70:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But I am needy and poor; O God, help me. Thou art my helper and my deliverer: O lord, make no delay.",
+      "citation": "Psalms 70:5 (Douay-Rheims)"
+    }
+  ]
+}

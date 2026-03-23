@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 48 — 15 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 48,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/47.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/49.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/48.json",
+      "german": "https://latinprayer.org/bibel/psalms/48.json"
+    }
+  },
+  "citation": "Psalms 48 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Great is the Lord, and exceedingly to be praised in the city of our God, in his holy mountain.",
+      "citation": "Psalms 48:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, a psalm for the sons of Core.",
+      "citation": "Psalms 48:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "With the joy of the whole earth is mount Sion founded, on the sides of the north, the city of the great king.",
+      "citation": "Psalms 48:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "In her houses shall God be known, when he shall protect her.",
+      "citation": "Psalms 48:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For behold the kings of the earth assembled themselves: they gathered together.",
+      "citation": "Psalms 48:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "So they saw, and they wondered, they were troubled, they were moved:",
+      "citation": "Psalms 48:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Trembling took hold of them. There were pains as of a woman in labour.",
+      "citation": "Psalms 48:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "With a vehement wind thou shalt break in pieces the ships of Tharsis.",
+      "citation": "Psalms 48:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "As we have heard, so have we seen, in the city of the Lord of hosts, in the city of our God: God hath founded it for ever.",
+      "citation": "Psalms 48:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "We have received thy mercy, O God, in the midst of thy temple.",
+      "citation": "Psalms 48:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "According to thy name, O God, so also is thy praise unto the ends of the earth: thy right hand is full of justice.",
+      "citation": "Psalms 48:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Let mount Sion rejoice, and the daughters of Juda be glad; because of thy judgments, O Lord.",
+      "citation": "Psalms 48:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Surround Sion, and encompass her: tell lye in her towers.",
+      "citation": "Psalms 48:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Set your hearts on her strength; and distribute her houses, that ye may relate it in another generation.",
+      "citation": "Psalms 48:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For this is God, our God unto eternity, and for ever and ever: he shall rule us for evermore.",
+      "citation": "Psalms 48:14 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Acts, Chapter 21 — 40 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 51,
+      "totalChapters": 28
+    },
+    "chapter": 21,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/acts/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/acts/20.json",
+      "nextChapter": "https://latinprayer.org/latin/acts/22.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/acts/21.json",
+      "german": "https://latinprayer.org/bibel/acts/21.json"
+    }
+  },
+  "citation": "Acts 21 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "cum autem factum esset ut navigaremus abstracti ab eis recto cursu venimus Cho et sequenti die Rhodum et inde Patara",
+      "citation": "Acts 21:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et cum invenissemus navem transfretantem in Foenicen ascendentes navigavimus",
+      "citation": "Acts 21:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cum paruissemus autem Cypro et relinquentes eam ad sinistram navigabamus in Syriam et venimus Tyrum ibi enim navis erat expositura onus",
+      "citation": "Acts 21:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "inventis autem discipulis mansimus ibi diebus septem qui Paulo dicebant per Spiritum ne ascenderet Hierosolymam",
+      "citation": "Acts 21:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et explicitis diebus profecti ibamus deducentibus nos omnibus cum uxoribus et filiis usque foras civitatem et positis genibus in litore oravimus",
+      "citation": "Acts 21:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et cum valefecissemus invicem ascendimus in navem illi autem redierunt in sua",
+      "citation": "Acts 21:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "nos vero navigatione explicita a Tyro descendimus Ptolomaida et salutatis fratribus mansimus die una apud illos",
+      "citation": "Acts 21:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "alia autem die profecti venimus Caesaream et intrantes in domum Philippi evangelistae qui erat de septem mansimus apud eum",
+      "citation": "Acts 21:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "huic autem erant filiae quattuor virgines prophetantes",
+      "citation": "Acts 21:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et cum moraremur per dies aliquot supervenit quidam a Iudaea propheta nomine Agabus",
+      "citation": "Acts 21:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "is cum venisset ad nos tulit zonam Pauli et alligans sibi pedes et manus dixit haec dicit Spiritus Sanctus virum cuius est zona haec sic alligabunt in Hierusalem Iudaei et tradent in manus gentium",
+      "citation": "Acts 21:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quod cum audissemus rogabamus nos et qui loci illius erant ne ascenderet Hierosolymam",
+      "citation": "Acts 21:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "tunc respondit Paulus et dixit quid facitis flentes et adfligentes cor meum ego enim non solum alligari sed et mori in Hierusalem paratus sum propter nomen Domini Iesu",
+      "citation": "Acts 21:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et cum ei suadere non possemus quievimus dicentes Domini voluntas fiat",
+      "citation": "Acts 21:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "post dies autem istos praeparati ascendebamus Hierusalem",
+      "citation": "Acts 21:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "venerunt autem et ex discipulis a Caesarea nobiscum adducentes apud quem hospitaremur Mnasonem quendam Cyprium antiquum discipulum",
+      "citation": "Acts 21:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et cum venissemus Hierosolymam libenter exceperunt nos fratres",
+      "citation": "Acts 21:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "sequenti autem die introibat Paulus nobiscum ad Iacobum omnesque collecti sunt seniores",
+      "citation": "Acts 21:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quos cum salutasset narrabat per singula quae fecisset Deus in gentibus per ministerium ipsius",
+      "citation": "Acts 21:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "at illi cum audissent magnificabant Deum dixeruntque ei vides frater quot milia sint in Iudaeis qui crediderunt et omnes aemulatores sunt legis",
+      "citation": "Acts 21:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "audierunt autem de te quia discessionem doceas a Mose eorum qui per gentes sunt Iudaeorum dicens non debere circumcidere eos filios suos neque secundum consuetudinem ingredi",
+      "citation": "Acts 21:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quid ergo est utique oportet convenire multitudinem audient enim te supervenisse",
+      "citation": "Acts 21:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "hoc ergo fac quod tibi dicimus sunt nobis viri quattuor votum habentes super se",
+      "citation": "Acts 21:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "his adsumptis sanctifica te cum illis et inpende in illis ut radant capita et scient omnes quia quae de te audierunt falsa sunt sed ambulas et ipse custodiens legem",
+      "citation": "Acts 21:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "de his autem qui crediderunt ex gentibus nos scripsimus iudicantes ut abstineant se ab idolis immolato et sanguine et suffocato et fornicatione",
+      "citation": "Acts 21:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "tunc Paulus adsumptis viris postera die purificatus cum illis intravit in templum adnuntians expletionem dierum purificationis donec offerretur pro unoquoque eorum oblatio",
+      "citation": "Acts 21:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "dum autem septem dies consummarentur hii qui de Asia erant Iudaei cum vidissent eum in templo concitaverunt omnem populum et iniecerunt ei manus clamantes",
+      "citation": "Acts 21:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "viri israhelitae adiuvate hic est homo qui adversus populum et legem et locum hunc omnes ubique docens insuper et gentiles induxit in templum et violavit sanctum locum istum",
+      "citation": "Acts 21:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "viderant enim Trophimum Ephesium in civitate cum ipso quem aestimaverunt quoniam in templum induxisset Paulus",
+      "citation": "Acts 21:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "commotaque est civitas tota et facta est concursio populi et adprehendentes Paulum trahebant eum extra templum et statim clausae sunt ianuae",
+      "citation": "Acts 21:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "quaerentibus autem eum occidere nuntiatum est tribuno cohortis quia tota confunditur Hierusalem",
+      "citation": "Acts 21:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "qui statim adsumptis militibus et centurionibus decucurrit ad illos qui cum vidissent tribunum et milites cessaverunt percutere Paulum",
+      "citation": "Acts 21:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "tunc accedens tribunus adprehendit eum et iussit alligari catenis duabus et interrogabat quis esset et quid fecisset",
+      "citation": "Acts 21:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "alii autem aliud clamabant in turba et cum non posset certum cognoscere prae tumultu iussit duci eum in castra",
+      "citation": "Acts 21:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et cum venisset ad gradus contigit ut portaretur a militibus propter vim populi",
+      "citation": "Acts 21:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "sequebatur enim multitudo populi clamans tolle eum",
+      "citation": "Acts 21:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et cum coepisset induci in castra Paulus dicit tribuno si licet mihi loqui aliquid ad te qui dixit graece nosti",
+      "citation": "Acts 21:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "nonne tu es Aegyptius qui ante hos dies tumultum concitasti et eduxisti in desertum quattuor milia virorum sicariorum",
+      "citation": "Acts 21:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et dixit ad eum Paulus ego homo sum quidem iudaeus a Tarso Ciliciae non ignotae civitatis municeps rogo autem te permitte mihi loqui ad populum",
+      "citation": "Acts 21:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "et cum ille permisisset Paulus stans in gradibus annuit manu ad plebem et magno silentio facto adlocutus est hebraea lingua dicens",
+      "citation": "Acts 21:40 (Clementine Vulgate)"
+    }
+  ]
+}

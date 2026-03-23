@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezechiel, Chapter 13 — 23 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezechiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 13,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ezechiel/12.json",
+      "nextChapter": "https://latinprayer.org/bible/ezechiel/14.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ezechiel/13.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/13.json"
+    }
+  },
+  "citation": "Ezechiel 13 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the word of the Lord came to me, saying:",
+      "citation": "Ezechiel 13:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Son of man, prophesy thou against the prophets of Israel that prophesy: and thou shalt say to them that prophesy out of their own heart: Hear ye the word of the Lord:",
+      "citation": "Ezechiel 13:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Thus saith the Lord God: Woe to the foolish prophets that follow their own spirit, and see nothing.",
+      "citation": "Ezechiel 13:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Thy prophets, O Israel, were like foxes in the deserts.",
+      "citation": "Ezechiel 13:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "You have not gone up to face the enemy, nor have you set up a wall for the house of Israel, to stand in battle in the day of the Lord.",
+      "citation": "Ezechiel 13:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "They see vain things, and they foretell lies, saying: The Lord saith: whereas the Lord hath not sent them: and they have persisted to confirm what they have said.",
+      "citation": "Ezechiel 13:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Have you not seen a vain vision and spoken a lying divination: and you say: The Lord saith: whereas I have not spoken.",
+      "citation": "Ezechiel 13:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Therefore thus saith the Lord God: Because you have spoken vain things, and have seen lies: therefore behold I come against you, saith the Lord God.",
+      "citation": "Ezechiel 13:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And my hand shall be upon the prophets that see vain things, and that divine lies: they shall not be in the council of my people, nor shall they be written in the writing of the house of Israel, neither shall they enter into the land of Israel, and you shall know that I am the Lord God.",
+      "citation": "Ezechiel 13:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Because they have deceived my people, saying: Peace, and there is no peace: and the people built up a wall, and they daubed it with dirt without straw.",
+      "citation": "Ezechiel 13:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Say to them that daub without tempering, that it shall fall: for there shall be an overflowing shower, and I will cause great hailstones to fall violently from above, and a stormy wind to throw it down.",
+      "citation": "Ezechiel 13:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Behold, when the wall is fallen: shall it not be said to you: Where is the daubing wherewith you have daubed it?",
+      "citation": "Ezechiel 13:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Therefore thus saith the Lord God: Lo, I will cause a stormy wind to break forth in my indignation, and there shall be an overflowing shower in my anger: and great hailstones in my wrath to consume.",
+      "citation": "Ezechiel 13:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And I will break down the wall that you have daubed with untempered mortar: and I will make it even with the ground, and the foundation thereof shall be laid bare: and it shall fall, and shall be consumed in the midst thereof: and you shall know that I am the Lord.",
+      "citation": "Ezechiel 13:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And I will accomplish my wrath upon the wall, and upon them that daub it without tempering the mortar, and I will say to you: The wall is no more, and they that daub it are no more.",
+      "citation": "Ezechiel 13:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Even the prophets of Israel that prophesy to Jerusalem, and that see visions of peace for her: and there is no peace, saith the Lord God.",
+      "citation": "Ezechiel 13:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And thou, son of man, set thy face against the daughters of thy people that prophesy out of their own heart: and do thou prophesy against them,",
+      "citation": "Ezechiel 13:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And say: Thus saith the Lord God: Woe to them that sew cushions under every elbow: and make pillows for the heads of persons of every age to catch souls: and when they caught the souls of my people, they gave life to their souls.",
+      "citation": "Ezechiel 13:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And they violated me among my people, for a handful of barley, and a piece of bread, to kill souls which should not die, and to save souls alive which should not live, telling lies to my people that believe lies.",
+      "citation": "Ezechiel 13:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Therefore thus saith the Lord God: Behold I declare against your cushions, wherewith you catch flying souls: and I will tear them off from your arms: and I will let go the soul that you catch, the souls that should fly.",
+      "citation": "Ezechiel 13:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And I will tear your pillows, and will deliver my people out of your hand, neither shall they be any more in your hands to be a prey: and you shall know that I am the Lord.",
+      "citation": "Ezechiel 13:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Because with lies you have made the heart of the just to mourn, whom I have not made sorrowful: and have strengthened the hands of the wicked, that he should not return from his evil way, and live.",
+      "citation": "Ezechiel 13:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Therefore you shall not see vain things, nor divine divinations any more, and I will deliver my people out of your hand: and you shall know that I am the Lord.",
+      "citation": "Ezechiel 13:23 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 5 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 5,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/4.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/5.json",
+      "german": "https://latinprayer.org/bibel/psalms/5.json"
+    }
+  },
+  "citation": "Psalms 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in finem pro ea quae hereditatem consequitur psalmus David",
+      "citation": "Psalms 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori pro hereditatibus canticum David",
+      "citation": "Psalms 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "verba mea auribus percipe Domine intellege clamorem meum",
+      "citation": "Psalms 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "verba mea audi Domine intellege murmur meum",
+      "citation": "Psalms 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "intende voci orationis meae rex meus et Deus meus",
+      "citation": "Psalms 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "rex meus et Deus meus",
+      "citation": "Psalms 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quoniam ad te orabo Domine mane exaudies vocem meam",
+      "citation": "Psalms 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia te deprecor Domine mane audies vocem meam",
+      "citation": "Psalms 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "mane adstabo tibi et videbo quoniam non deus volens iniquitatem tu es",
+      "citation": "Psalms 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "mane praeparabor ad te et contemplabor quoniam non es deus volens iniquitatem tu",
+      "citation": "Psalms 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "neque habitabit iuxta te malignus neque permanebunt iniusti ante oculos tuos",
+      "citation": "Psalms 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nec habitabit iuxta te malignus non stabunt iniqui in conspectu oculorum tuorum",
+      "citation": "Psalms 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "odisti omnes qui operantur iniquitatem perdes %omnes; qui loquuntur mendacium virum sanguinum et dolosum abominabitur Dominus",
+      "citation": "Psalms 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "odisti omnes operantes iniquitatem perdes loquentes mendacium virum sanguinum et dolosum abominabitur Dominus",
+      "citation": "Psalms 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ego autem in multitudine misericordiae tuae introibo in domum tuam adorabo ad templum sanctum tuum in timore tuo",
+      "citation": "Psalms 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ego autem in multitudine misericordiae tuae introibo in domum tuam adorabo in templo sancto tuo in timore tuo",
+      "citation": "Psalms 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "Domine deduc me in iustitia tua propter inimicos meos dirige in conspectu meo viam tuam",
+      "citation": "Psalms 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "Domine deduc me in iustitia tua propter insidiatores meos dirige ante faciem meam viam tuam",
+      "citation": "Psalms 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quoniam non est in ore eorum veritas cor eorum vanum est",
+      "citation": "Psalms 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "non est enim in ore eorum rectum interiora eorum insidiae",
+      "citation": "Psalms 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sepulchrum patens est guttur eorum linguis suis dolose agebant iudica illos Deus decidant a cogitationibus suis secundum multitudinem impietatum eorum expelle eos quoniam inritaverunt te Domine",
+      "citation": "Psalms 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sepulchrum patens guttur eorum linguam suam levificant condemna eos Deus decidant a consiliis suis iuxta multitudinem scelerum eorum expelle eos quoniam provocaverunt te",
+      "citation": "Psalms 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et laetentur omnes qui sperant in te in aeternum exultabunt et habitabis in eis et gloriabuntur in te omnes qui diligunt nomen tuum",
+      "citation": "Psalms 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et laetentur omnes qui sperant in te in perpetuum laudabunt et proteges eos et laetabuntur in te qui diligunt nomen tuum",
+      "citation": "Psalms 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quoniam tu benedices iusto Domine ut scuto bonae voluntatis coronasti nos",
+      "citation": "Psalms 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quia tu benedices iusto Domine ut scuto placabilitatis coronabis eum",
+      "citation": "Psalms 5:13 (Clementine Vulgate)"
+    }
+  ]
+}

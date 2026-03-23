@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Maccabees, Chapter 13 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Maccabees",
+      "slug": "2-machabees",
+      "testament": "OT",
+      "order": 46,
+      "totalChapters": 15
+    },
+    "chapter": 13,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-machabees/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-machabees/12.json",
+      "nextChapter": "https://latinprayer.org/latin/2-machabees/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-machabees/13.json",
+      "german": "https://latinprayer.org/bibel/2-machabees/13.json"
+    }
+  },
+  "citation": "2 Maccabees 13 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "anno centesimo quadragesimo nono cognovit Iudas Antiochum Eupatoris venire cum multitudine adversus Iudaeam",
+      "citation": "2 Maccabees 13:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et cum eo Lysiam procuratorem et praepositum negotiorum secum habentem peditum centum decem milia et equitum quinque milia et elefantos viginti duo currus cum falcibus trecentos",
+      "citation": "2 Maccabees 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "commiscuit autem se illis et Menelaus et cum multa fallacia deprecabatur Antiochum non pro patriae salute sed sperans se constitui in principatum",
+      "citation": "2 Maccabees 13:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sed Rex regum suscitavit animos Antiochi in peccatorem et suggerente Lysia hunc esse causam omnium malorum iussit ut eis est consuetudo conprehensum in eodem loco necari",
+      "citation": "2 Maccabees 13:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "erat autem in eodem loco turris quinquaginta cubitorum aggestum undique habens cineris haec prospectum habebat in praeceps",
+      "citation": "2 Maccabees 13:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "inde in cinerem deici iussit sacrilegum omnibus eum propellentibus ad interitum",
+      "citation": "2 Maccabees 13:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et tali lege praevaricatorem legis contigit mori nec terrae dari Menelaum",
+      "citation": "2 Maccabees 13:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et quidem satis iuste nam quia multa erga aram Dei delicta commisit cuius ignis et cinis erat sanctus ipse in cineris morte damnatus est",
+      "citation": "2 Maccabees 13:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sed rex mente effrenatus veniebat nequiorem se Iudaeis ostensurus",
+      "citation": "2 Maccabees 13:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quibus Iudas cognitis praecepit populo ut die ac nocte Dominum invocarent quo sicut semper et nunc adiuvaret eos",
+      "citation": "2 Maccabees 13:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quippe qui lege et patria sanctoque templo privari vererentur ac populum qui nuper paululum respirasset ne sineret blasphemis rursum nationibus subdi",
+      "citation": "2 Maccabees 13:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "omnibus itaque id simul facientibus et petentibus a Domino misericordiam cum fletu et ieiuniis per triduum continuum prostratis hortatus est eos Iudas ut se praepararent",
+      "citation": "2 Maccabees 13:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ipse vero cum senioribus cogitavit priusquam rex admoveret exercitum ad Iudaeam et obtineret civitatem exire et Domini iudicio committere exitum rei",
+      "citation": "2 Maccabees 13:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dans itaque potestatem omnium Deo mundi creatori et hortatus suos ut fortiter dimicarent et usque ad mortem pro legibus templo civitate patria et civibus starent circa Modin exercitum constituit",
+      "citation": "2 Maccabees 13:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et dato signo suis Dei victoria iuvenibus fortissimis electis nocte adgressus aulam regiam in castris interfecit viros quattuor milia et maximum elefantorum cum his qui superpositi erant",
+      "citation": "2 Maccabees 13:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "summoque metu ac perturbatione hostium replentes rebus prospere gestis abierunt",
+      "citation": "2 Maccabees 13:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "hoc autem factum est die inlucescente adiuvante eum Domini protectione",
+      "citation": "2 Maccabees 13:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "sed rex accepto gustu audaciae Iudaeorum arte difficultates locorum temptabat",
+      "citation": "2 Maccabees 13:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et Bethsurae quod erat Iudaeorum praesidium munitum castra admovebat sed fugabatur inpingebat minuebatur",
+      "citation": "2 Maccabees 13:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "his autem qui intus erant Iudas necessaria mittebat",
+      "citation": "2 Maccabees 13:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "enuntiavit autem mysteria hostibus Rhodocus quidam de iudaico exercitu qui requisitus conprehensus conclusus est",
+      "citation": "2 Maccabees 13:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "iterum rex sermonem habuit ad eos qui erant in Bethsuris dextram dedit accepit abiit",
+      "citation": "2 Maccabees 13:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "commisit cum Iuda superatus est ut autem cognovit rebellasse Philippum Antiochiae qui relictus erat super negotia mente consternatus Iudaeos deprecans subditusque eis iurat de omnibus quibus iustum visum est et reconciliatus obtulit sacrificium honorificavit templum et munera posuit",
+      "citation": "2 Maccabees 13:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "Macchabeum amplexus est et fecit eum ab Ptolomaide usque Gerrenos ducem et principem",
+      "citation": "2 Maccabees 13:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "ut autem venit Ptolomaidam graviter ferebant Ptolomenses amicitiae conventionem indignantes ne forte foedus inrumperent",
+      "citation": "2 Maccabees 13:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "tunc ascendit Lysias tribunal et exposuit rationem et populum sedavit regressusque est Antiochiam et hoc modo regi profectio et reditus processit",
+      "citation": "2 Maccabees 13:26 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 26 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 26,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/job/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/job/25.json",
+      "nextChapter": "https://latinprayer.org/latin/job/27.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/26.json",
+      "german": "https://latinprayer.org/bibel/job/26.json"
+    }
+  },
+  "citation": "Job 26 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "respondens autem Iob dixit",
+      "citation": "Job 26:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cuius adiutor es numquid inbecilli et sustentas brachium eius qui non est fortis",
+      "citation": "Job 26:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cui dedisti consilium forsitan illi qui non habet sapientiam et prudentiam tuam ostendisti plurimam",
+      "citation": "Job 26:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quem docere voluisti nonne eum qui fecit spiramen tuum",
+      "citation": "Job 26:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ecce gigantes gemunt sub aquis et qui habitant cum eis",
+      "citation": "Job 26:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nudus est inferus coram illo et nullum est operimentum perditioni",
+      "citation": "Job 26:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui extendit aquilonem super vacuum et adpendit terram super nihili",
+      "citation": "Job 26:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "qui ligat aquas in nubibus suis ut non erumpant pariter deorsum",
+      "citation": "Job 26:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "qui tenet vultum solii sui et expandit super illud nebulam suam",
+      "citation": "Job 26:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "terminum circumdedit aquis usque dum finiantur lux et tenebrae",
+      "citation": "Job 26:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "columnae caeli contremescunt et pavent ad nutum eius",
+      "citation": "Job 26:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "in fortitudine illius repente maria congregata sunt et prudentia eius percussit superbum",
+      "citation": "Job 26:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "spiritus eius ornavit caelos et obsetricante manu eius eductus est coluber tortuosus",
+      "citation": "Job 26:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ecce haec ex parte dicta sunt viarum eius et cum vix parvam stillam sermonis eius audierimus quis poterit tonitruum magnitudinis illius intueri",
+      "citation": "Job 26:14 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hiob, Chapter 11 — 20 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hiob",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 11,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/job/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/job/10.json",
+      "nextChapter": "https://latinprayer.org/bibel/job/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/11.json",
+      "latin": "https://latinprayer.org/latin/job/11.json"
+    }
+  },
+  "citation": "Hiob 11 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da nahm Zophar von Naama das Wort und sagte:",
+      "citation": "Hiob 11:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Soll (dieser) Wortschwall ohne Antwort bleiben und dieser Zungenheld recht behalten?",
+      "citation": "Hiob 11:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dein Gerede sollte Männer zum Schweigen bringen, und du solltest höhnen dürfen, ohne von jemand widerlegt zu werden?!«",
+      "citation": "Hiob 11:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Du hast ja doch behauptet: ›Meine Darlegung ist richtig‹, und: ›Ich stehe unsträflich in deinen Augen da!‹",
+      "citation": "Hiob 11:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ach, möchte Gott doch reden und seine Lippen gegen dich auftun",
+      "citation": "Hiob 11:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "und dir die verborgenen Tiefen der Weisheit offenbaren, daß sie allseitig an wahrem Wissen sind! Dann würdest du erkennen, daß Gott dir einen Teil deiner Sündenschuld noch zugute hält.",
+      "citation": "Hiob 11:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Kannst du den Urgrund der Gottheit erreichen oder bis zur Vollkommenheit des Allmächtigen vordringen?",
+      "citation": "Hiob 11:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Himmelhoch ist sie – was kannst du denn erreichen? Tiefer als das Totenreich ist sie – wie weit reicht denn dein Wissen?",
+      "citation": "Hiob 11:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Länger als die Erde ist ihr Maß und breiter als das Meer.",
+      "citation": "Hiob 11:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Wenn er daherfährt und in Verhaft nimmt und zur Gerichtsverhandlung ruft – wer will ihm da wehren?",
+      "citation": "Hiob 11:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Denn er kennt die nichtswürdigen Leute und nimmt das Unrecht wahr, ohne besonderer Aufmerksamkeit zu bedürfen.«",
+      "citation": "Hiob 11:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "»Da muß selbst ein Hohlkopf zu Verstand kommen und ein Wildeselfüllen zum Menschen umgeboren werden.",
+      "citation": "Hiob 11:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wenn du nun dein Herz in die rechte Verfassung setzen und deine Hände zu ihm ausbreiten wolltest –",
+      "citation": "Hiob 11:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "klebt eine Schuld an deiner Hand, so entferne sie und laß in deinen Zelten kein Unrecht wohnen! –:",
+      "citation": "Hiob 11:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "ja, dann könntest du dein Angesicht vorwurfsfrei erheben und würdest wie aus Erz gegossen dastehen, frei von aller Furcht;",
+      "citation": "Hiob 11:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "ja, dann würdest du dein Leiden vergessen, würdest daran zurückdenken wie an Wasser, das sich verlaufen hat.",
+      "citation": "Hiob 11:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Heller als der Mittag würde das Leben dir aufgehen; mag auch einmal Dunkel dich umgeben, wie lichter Morgen würde es werden.",
+      "citation": "Hiob 11:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Du würdest dich dessen getrösten, daß noch Hoffnung vorhanden sei, und wenn du Umschau hieltest, getrost dich zum Schlafen niederlegen;",
+      "citation": "Hiob 11:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "du würdest dich lagern, ohne von jemand aufgeschreckt zu werden, und viele würden sich um deine Gunst bemühen.",
+      "citation": "Hiob 11:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Dagegen die Augen der Frevler erlöschen: für sie ist jede Möglichkeit zum Entfliehen verloren, und ihre (einzige) Hoffnung ist – die Seele auszuhauchen!«",
+      "citation": "Hiob 11:20 (Menge)"
+    }
+  ]
+}

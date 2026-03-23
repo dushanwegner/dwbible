@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Tobit, Chapter 2 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Tobit",
+      "slug": "tobias",
+      "testament": "OT",
+      "order": 17,
+      "totalChapters": 14
+    },
+    "chapter": 2,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/tobias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/tobias/1.json",
+      "nextChapter": "https://latinprayer.org/latin/tobias/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/tobias/2.json",
+      "german": "https://latinprayer.org/bibel/tobias/2.json"
+    }
+  },
+  "citation": "Tobit 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "post haec vero cum esset dies festus Domini et factum esset prandium bonum in domo Tobis",
+      "citation": "Tobit 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dixit filio suo vade et adduc aliquos ex tribu nostra timentes Deum et epulentur nobiscum",
+      "citation": "Tobit 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cumque abisset reversus nuntiat unum ex filiis Israhel iugulatum iacere in platea statimque exiliens de accubitu suo relinquens prandium ieiunus pervenit ad corpus",
+      "citation": "Tobit 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "tollensque illud portavit ad domum suam occulte ut dum sol occubuisset caute sepeliret eum",
+      "citation": "Tobit 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "cumque occultasset corpus manducavit panem cum luctu et tremore",
+      "citation": "Tobit 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "memorans illum sermonem quem dixit Dominus per Amos prophetam dies festi vestri convertentur in lamentationem et luctum",
+      "citation": "Tobit 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "cum vero sol occubuisset abiit et sepelevit eum",
+      "citation": "Tobit 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "arguebant autem illum omnes proximi sui dicentes iam huius rei causa interfici iussus es et vix effugisti mortis imperium et iterum sepelis mortuos",
+      "citation": "Tobit 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sed Tobias plus timens Deum quam regem rapiebat corpora occisorum et occultabat in domo sua et mediis noctibus sepeliebat ea",
+      "citation": "Tobit 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "contigit autem ut quadam die fatigatus a sepultura veniens domum iactasset se iuxta parietem et obdormisset",
+      "citation": "Tobit 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ex nido hirundinum dormienti illi calida stercora insiderent super oculos eius fieretque caecus",
+      "citation": "Tobit 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "hanc autem temptationem ideo permisit Dominus evenire illi ut posteris daretur exemplum patientiae eius sicut et sancti Iob",
+      "citation": "Tobit 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "nam cum ab infantia sua semper Deum timuerit et mandata eius custodierit non est contristatus contra Deum quod plaga caecitatis evenerit ei",
+      "citation": "Tobit 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sed inmobilis in Dei timore permansit agens gratias Deo omnibus diebus vitae suae",
+      "citation": "Tobit 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "nam sicut beato Iob insultabant reges ita isti parentes et cognati eius et inridebant vitam eius dicentes",
+      "citation": "Tobit 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ubi est spes tua pro qua elemosynas et sepulturas faciebas",
+      "citation": "Tobit 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Tobias vero increpabat eos dicens nolite ita loqui",
+      "citation": "Tobit 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quoniam filii sanctorum sumus et vitam illam expectamus quam Deus daturus est his qui fidem suam numquam mutant ab eo",
+      "citation": "Tobit 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Anna vero uxor eius ibat ad textrinum opus cotidie et de labore manuum suarum victum quem consequi poterat deferebat",
+      "citation": "Tobit 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "unde factum est ut hedum caprarum accipiens detulisset domi",
+      "citation": "Tobit 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "cuius cum vocem balantis vir eius audisset dixit videte ne forte furtivus sit reddite eum dominis suis quia non licet nobis ex furto aliquid aut edere aut contingere",
+      "citation": "Tobit 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "ad haec uxor eius irata respondit manifeste vana facta est spes tua et elemosynae tuae modo paruerunt",
+      "citation": "Tobit 2:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "atque his et aliis huiusmodi verbis exprobrabat ei",
+      "citation": "Tobit 2:23 (Clementine Vulgate)"
+    }
+  ]
+}

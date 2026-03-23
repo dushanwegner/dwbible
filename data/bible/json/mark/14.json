@@ -1,0 +1,396 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Mark, Chapter 14 — 72 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Mark",
+      "slug": "mark",
+      "testament": "NT",
+      "order": 48,
+      "totalChapters": 16
+    },
+    "chapter": 14,
+    "verseCount": 72,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/mark/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/mark/13.json",
+      "nextChapter": "https://latinprayer.org/bible/mark/15.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/mark/14.json",
+      "german": "https://latinprayer.org/bibel/mark/14.json"
+    }
+  },
+  "citation": "Mark 14 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now the feast of the pasch and of the Azymes was after two days: and the chief priests and the scribes sought how they might by some wile lay hold on him and kill him.",
+      "citation": "Mark 14:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But they said: Not on the festival day, lest there should be a tumult among the people.",
+      "citation": "Mark 14:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And when he was in Bethania, in the house of Simon the leper, and was at meat, there came a woman having an alabaster box of ointment of precious spikenard. And breaking the alabaster box, she poured it out upon his head.",
+      "citation": "Mark 14:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Now there were some that had indignation within themselves and said: Why was this waste of the ointment made?",
+      "citation": "Mark 14:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For this ointment might have been sold for more than three hundred pence and given to the poor. And they murmured against her.",
+      "citation": "Mark 14:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But Jesus said: Let her alone. Why do You molest her? She hath wrought a good work upon me.",
+      "citation": "Mark 14:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For the poor you have always with you: and whensoever you will, you may do them good: but me you have not always.",
+      "citation": "Mark 14:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "She hath done what she could: she is come beforehand to anoint my body for the burial.",
+      "citation": "Mark 14:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Amen, I say to you, wheresoever this gospel shall be preached in the whole world, that also which she hath done shall be told for a memorial of her.",
+      "citation": "Mark 14:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And Judas Iscariot, one of the twelve, went to the chief priests, to betray him to them.",
+      "citation": "Mark 14:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Who hearing it were glad: and they promised him they would give him money. And he sought how he might conveniently betray him.",
+      "citation": "Mark 14:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Now on the first day of the unleavened bread, when they sacrificed the pasch, the disciples say to him: Whither wilt thou that we go and prepare for thee to eat the pasch?",
+      "citation": "Mark 14:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And he sendeth two of his disciples and saith to them: Go ye into the city; and there shall meet you a man carrying a pitcher of water. Follow him.",
+      "citation": "Mark 14:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And whithersoever he shall go in, say to the master of the house, The master saith, Where is my refectory, where I may eat the pasch with my disciples?",
+      "citation": "Mark 14:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And he will shew you a large dining room furnished. And there prepare ye for us.",
+      "citation": "Mark 14:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And his disciples went their way and came into the city.  And they found as he had told them: and they prepared the pasch.",
+      "citation": "Mark 14:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And when evening was come, he cometh with the twelve.",
+      "citation": "Mark 14:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And when they were at table and eating, Jesus saith: Amen I say to you, one of you that eateth with me shall betray me.",
+      "citation": "Mark 14:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "But they began to be sorrowful and to say to him, one by one: Is it I?",
+      "citation": "Mark 14:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Who saith to them: One of the twelve, who dippeth with me his hand in the dish.",
+      "citation": "Mark 14:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And the Son of man indeed goeth, as it is written of him: but woe to that man by whom the Son of man shall be betrayed.  It were better for him, if that man had not been born.",
+      "citation": "Mark 14:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And whilst they were eating, Jesus took bread; and blessing, broke and gave to them and said: Take ye. This is my body.",
+      "citation": "Mark 14:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And having taken the chalice, giving thanks, he gave it to them. And they all drank of it.",
+      "citation": "Mark 14:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And he said to them: This is my blood of the new testament, which shall be shed for many.",
+      "citation": "Mark 14:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Amen I say to you that I will drink no more of the fruit of the vine until that day when I shall drink it new in the kingdom of God.",
+      "citation": "Mark 14:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And when they had sung an hymn, they went forth to the mount of Olives.",
+      "citation": "Mark 14:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And Jesus saith to them: You will all be scandalized in my regard this night. For it is written: I will strike the shepherd, and the sheep shall be dispersed.",
+      "citation": "Mark 14:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "But after I shall be risen again, I will go before you into Galilee.",
+      "citation": "Mark 14:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "But Peter saith to him: Although all shall be scandalized in thee, yet not I.",
+      "citation": "Mark 14:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And Jesus saith to him: Amen I say to thee, to-day, even in this night, before the cock crow twice, thou shalt deny me thrice.",
+      "citation": "Mark 14:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "But he spoke the more vehemently: Although I should die together with thee, I will not deny thee. And in like manner also said they all.",
+      "citation": "Mark 14:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And they came to a farm called Gethsemani. And he saith to his disciples: Sit you here, while I pray.",
+      "citation": "Mark 14:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And he taketh Peter and James and John with him: and he began to fear and to be heavy.",
+      "citation": "Mark 14:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And he saith to them: My soul is sorrowful even unto death.  Stay you here and watch.",
+      "citation": "Mark 14:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And when he was gone forward a little, he fell flat on the ground: and he prayed that, if it might be, the hour might pass from him.",
+      "citation": "Mark 14:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And he saith: Abba, Father, all things are possible to thee: remove this chalice from me; but not what I will, but what thou wilt.",
+      "citation": "Mark 14:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And he cometh and findeth them sleeping. And he saith to Peter: Simon, sleepest thou? Couldst thou not watch one hour?",
+      "citation": "Mark 14:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Watch ye: and pray that you enter not into temptation. The spirit indeed is willing, but the flesh is weak.",
+      "citation": "Mark 14:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And going away again, he prayed, saying the same words.",
+      "citation": "Mark 14:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And when he returned, he found them again asleep (for their eyes were heavy): and they knew not what to answer him.",
+      "citation": "Mark 14:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And he cometh the third time and saith to them: Sleep ye now and take your rest. It is enough. The hour is come: behold the Son of man shall be betrayed into the hands of sinners.",
+      "citation": "Mark 14:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "Rise up: let us go. Behold, he that will betray me is at hand.",
+      "citation": "Mark 14:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And while he was yet speaking, cometh Judas Iscariot, one of the twelve: and with him a great multitude with swords and staves, from the chief priests and the scribes and the ancients.",
+      "citation": "Mark 14:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "And he that betrayed him had given them a sign, saying: Whomsoever I shall kiss, that is he. Lay hold on him: and lead him away carefully.",
+      "citation": "Mark 14:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "And when he was come, immediately going up to him he saith: Hail, Rabbi! And he kissed him.",
+      "citation": "Mark 14:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "But they laid hands on him and held him.",
+      "citation": "Mark 14:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "And one of them that stood by, drawing a sword, struck a servant of the chief priest and cut off his ear.",
+      "citation": "Mark 14:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "And Jesus answering, said to them: Are you come out as to a robber, with swords and staves to apprehend me?",
+      "citation": "Mark 14:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "I was daily with you in the temple teaching: and you did not lay hands on me. But that the scriptures may be fulfilled.",
+      "citation": "Mark 14:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "Then his disciples, leaving him, all fled away.",
+      "citation": "Mark 14:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "And a certain young man followed him, having a linen cloth cast about his naked body. And they laid hold on him.",
+      "citation": "Mark 14:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "But he, casting off the linen cloth, fled from them naked.",
+      "citation": "Mark 14:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "And they brought Jesus to the high priest. And all the priests and the scribes and the ancients assembled together.",
+      "citation": "Mark 14:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "And Peter followed him afar off, even into the court of the high priest. And he sat with the servants at the fire and warmed himself.",
+      "citation": "Mark 14:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "And the chief priests and all the council sought for evidence against Jesus, that they might put him to death: and found none.",
+      "citation": "Mark 14:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "For many bore false witness against him: and their evidences were not agreeing.",
+      "citation": "Mark 14:56 (Douay-Rheims)"
+    },
+    {
+      "verse": 57,
+      "text": "And some rising up, bore false witness against him, saying:",
+      "citation": "Mark 14:57 (Douay-Rheims)"
+    },
+    {
+      "verse": 58,
+      "text": "We heard him say, I Will destroy this temple made with hands and within three days I will build another not made with hands.",
+      "citation": "Mark 14:58 (Douay-Rheims)"
+    },
+    {
+      "verse": 59,
+      "text": "And their witness did not agree.",
+      "citation": "Mark 14:59 (Douay-Rheims)"
+    },
+    {
+      "verse": 60,
+      "text": "And the high priest rising up in the midst, asked Jesus, saying: Answerest thou nothing to the things that are laid to thy charge by these men?",
+      "citation": "Mark 14:60 (Douay-Rheims)"
+    },
+    {
+      "verse": 61,
+      "text": "But he held his peace and answered nothing. Again the high priest asked him and said to him: Art thou the Christ, the Son of the Blessed God?",
+      "citation": "Mark 14:61 (Douay-Rheims)"
+    },
+    {
+      "verse": 62,
+      "text": "And Jesus said to him: I am. And you shall see the Son of man sitting on the right hand of the power of God and coming with the clouds of heaven.",
+      "citation": "Mark 14:62 (Douay-Rheims)"
+    },
+    {
+      "verse": 63,
+      "text": "Then the high priest rending his garments, saith: What need we any further witnesses?",
+      "citation": "Mark 14:63 (Douay-Rheims)"
+    },
+    {
+      "verse": 64,
+      "text": "You have heard the blasphemy. What think you? Who all condemned him to be guilty of death.",
+      "citation": "Mark 14:64 (Douay-Rheims)"
+    },
+    {
+      "verse": 65,
+      "text": "And some began to spit on him and to cover his face and to buffet him and to say unto him: Prophesy. And the servants struck him with the palms their hands.",
+      "citation": "Mark 14:65 (Douay-Rheims)"
+    },
+    {
+      "verse": 66,
+      "text": "Now when Peter was in the court below, there cometh one of the maid-servants of the high priest.",
+      "citation": "Mark 14:66 (Douay-Rheims)"
+    },
+    {
+      "verse": 67,
+      "text": "And when she had seen Peter warming himself looking on him, she saith: Thou also wast with Jesus of Nazareth.",
+      "citation": "Mark 14:67 (Douay-Rheims)"
+    },
+    {
+      "verse": 68,
+      "text": "But he denied, saying: I neither know nor understand what thou sayest. And he went forth before the court; and the cock crew.",
+      "citation": "Mark 14:68 (Douay-Rheims)"
+    },
+    {
+      "verse": 69,
+      "text": "And again a maid-servant seeing him, began to say to the standers by: This is one of them.",
+      "citation": "Mark 14:69 (Douay-Rheims)"
+    },
+    {
+      "verse": 70,
+      "text": "But he denied again. And after a, while they that stood by said again to Peter: Surely thou art one of them; for thou art also a Galilean.",
+      "citation": "Mark 14:70 (Douay-Rheims)"
+    },
+    {
+      "verse": 71,
+      "text": "But he began o curse and to swear, saying: I know not this man of whom you speak.",
+      "citation": "Mark 14:71 (Douay-Rheims)"
+    },
+    {
+      "verse": 72,
+      "text": "And immediately the cock crew again. And Peter remembered the word that Jesus had said unto him: Before the cock crow twice, thou shalt thrice deny me. And he began to weep,",
+      "citation": "Mark 14:72 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Luke, Chapter 7 — 50 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Luke",
+      "slug": "luke",
+      "testament": "NT",
+      "order": 49,
+      "totalChapters": 24
+    },
+    "chapter": 7,
+    "verseCount": 50,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/luke/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/luke/6.json",
+      "nextChapter": "https://latinprayer.org/bible/luke/8.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/luke/7.json",
+      "german": "https://latinprayer.org/bibel/luke/7.json"
+    }
+  },
+  "citation": "Luke 7 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And when he had finished all his words in the hearing of the people, he entered into Capharnaum.",
+      "citation": "Luke 7:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And the servant of a certain centurion who was dear to him, being sick, was ready to die.",
+      "citation": "Luke 7:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And when he had heard of Jesus, he sent unto him the ancients of the Jews, desiring him to come and heal his servant.",
+      "citation": "Luke 7:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And when they came to Jesus, they besought him earnestly, saying to him: He is worthy that thou shouldest do this for him.",
+      "citation": "Luke 7:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For he loveth our nation: and he hath built us a synagogue.",
+      "citation": "Luke 7:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Jesus went with them. And when he was now not far from the house, the centurion sent his friends to him, saying: Lord, trouble not thyself; for I am not worthy that thou shouldst enter under my roof.",
+      "citation": "Luke 7:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For which cause neither did I think myself worthy to come to thee: but say the word, and my servant shall be healed.",
+      "citation": "Luke 7:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "For I also am a man subject to authority, having under me soldiers: and I say to one, Go, and he goeth: and to another, Come, and he cometh; and to my servant, Do this, and he doth it.",
+      "citation": "Luke 7:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Which Jesus hearing, marvelled: and turning about to the multitude that followed him, he said: Amen I say to you, I have not found so great faith, not even in Israel.",
+      "citation": "Luke 7:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And they who were sent, being returned to the house, found the servant whole who had been sick.",
+      "citation": "Luke 7:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And it came to pass afterwards that he went into a city that is called Naim: and there went with him his disciples and a great multitude.",
+      "citation": "Luke 7:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And when he came nigh to the gate of the city, behold a dead man was carried out, the only son of his mother: and she was a widow. And a great multitude of the city was with her.",
+      "citation": "Luke 7:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Whom when the Lord had seen, being moved with mercy towards her, he said to her: Weep not.",
+      "citation": "Luke 7:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And he came near and touched the bier. And they that carried it stood still. And he said: Young man, I say to thee, arise.",
+      "citation": "Luke 7:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And he that was dead sat up and begun to speak. And he gave him to his mother.",
+      "citation": "Luke 7:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And there came a fear upon them all: and they glorified God saying: A great prophet is risen up among us: and, God hath visited his people.",
+      "citation": "Luke 7:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And this rumour of him went forth throughout all Judea and throughout all the country round about.",
+      "citation": "Luke 7:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And John's disciples told him of all these things.",
+      "citation": "Luke 7:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And John called to him two of his disciples and sent them to Jesus, saying: Art thou he that art to come? Or look we for another?",
+      "citation": "Luke 7:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And when the men were come unto him, they said: John the Baptist hath sent us to thee, saying: Art thou he that art to come? Or look we for another?",
+      "citation": "Luke 7:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "(And in that same hour, he cured many of their diseases and hurts and evil spirits: and to many that were blind he gave sight.)",
+      "citation": "Luke 7:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And answering, he said to them: Go and relate to John what you have heard and seen: the blind see, the lame walk, the lepers are made clean, the deaf hear, the dead rise again, to the poor the gospel is preached.",
+      "citation": "Luke 7:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And blessed is he whosoever shall not be scandalized in me.",
+      "citation": "Luke 7:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And when the messengers of John were departed, he began to speak to the multitudes concerning John. What went ye out into the desert to see? A reed shaken with the wind?",
+      "citation": "Luke 7:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "But what went you out to see? A man clothed in soft garments? Behold they that are in costly apparel and live delicately are in the houses of kings.",
+      "citation": "Luke 7:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "But what went you out to see? A prophet? Yea, I say to you, and more than a prophet.",
+      "citation": "Luke 7:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "This is he of whom it is written: Behold I send my angel before thy face, who shall prepare thy way before thee.",
+      "citation": "Luke 7:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "For I say to you: Amongst those that are born of men, there is not a greater prophet than John the Baptist. But he that is the lesser in the kingdom of God is greater than he.",
+      "citation": "Luke 7:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And all the people hearing, and the publicans, justified God, being baptized with John's baptism.",
+      "citation": "Luke 7:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "But the Pharisees and the lawyers despised the counsel of God against themselves, being not baptized by him.",
+      "citation": "Luke 7:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And the Lord said: Whereunto then shall I liken the men of this generation? And to what are they like?",
+      "citation": "Luke 7:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "They are like to children sitting in the marketplace and speaking one to another and saying: We have piped to you, and you have not danced: we have mourned, and you have not wept.",
+      "citation": "Luke 7:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "For John the Baptist came neither eating bread nor drinking wine. And you say: He hath a devil.",
+      "citation": "Luke 7:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "The Son of man is come eating and drinking. And you say: Behold a man that is a glutton and a drinker of wine, a friend of publicans and sinners.",
+      "citation": "Luke 7:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And wisdom is justified by all her children.",
+      "citation": "Luke 7:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And one of the Pharisees desired him to eat with him. And he went into the house of the Pharisee and sat down to meat.",
+      "citation": "Luke 7:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And behold a woman that was in the city, a sinner, when she knew that he sat at meat in the Pharisee's house, brought an alabaster box of ointment.",
+      "citation": "Luke 7:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And standing behind at his feet, she began to wash his feet with tears and wiped them with the hairs of her head and kissed his feet and anointed them with the ointment.",
+      "citation": "Luke 7:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And the Pharisee, who had invited him, seeing it, spoke within himself, saying: This man, if he were if a prophet, would know surely who and what manner of woman this is that toucheth him, that she is a sinner.",
+      "citation": "Luke 7:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And Jesus answering, said to him: Simon, I have somewhat to say to thee. But he said: Master, say it.",
+      "citation": "Luke 7:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "A certain creditor had two debtors: the one owed five hundred pence and the other fifty.",
+      "citation": "Luke 7:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And whereas they had not wherewith to pay, he forgave them both. Which therefore of the two loveth him most?",
+      "citation": "Luke 7:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "Simon answering, said: I suppose that he to whom he forgave most. And he said to him: Thou hast judged rightly.",
+      "citation": "Luke 7:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "And turning to the woman, he said unto Simon: Dost thou see this woman? I entered into thy house: thou gavest me no water for my feet. But she with tears hath washed my feet; and with her hairs hath wiped them.",
+      "citation": "Luke 7:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "Thou gavest me no kiss. But she, since she cane in, hath not ceased to kiss my feet.",
+      "citation": "Luke 7:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "My head with oil thou didst not anoint. But she with ointment hath anointed my feet.",
+      "citation": "Luke 7:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "Wherefore, I say to thee: Many sins are forgiven her, because she hath loved much. But to whom less is forgiven, he loveth less.",
+      "citation": "Luke 7:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "And he said to her: Thy sins are forgiven thee.",
+      "citation": "Luke 7:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "And they that sat at meat with him began to say within themselves: Who is this that forgiveth sins also?",
+      "citation": "Luke 7:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "And he said to the woman: Thy faith hath made thee safe.  Go in peace.",
+      "citation": "Luke 7:50 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 23 — 6 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 23,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/22.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/24.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/23.json",
+      "latin": "https://latinprayer.org/latin/psalms/23.json"
+    }
+  },
+  "citation": "Psalmen 23 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Psalm von David.</em> Der HERR ist mein Hirt: mir mangelt nichts.",
+      "citation": "Psalmen 23:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Auf grünen Auen läßt er mich lagern, zum Lagerplatz am Bache führt er mich.",
+      "citation": "Psalmen 23:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Er erquickt meine Seele; er leitet mich auf rechten Pfaden um seines Namens willen.",
+      "citation": "Psalmen 23:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Müßt’ ich auch wandern in finsterm Tal: ich fürchte kein Unglück, denn du bist bei mir: dein Hirtenstab und dein Stecken, die sind mein Trost.",
+      "citation": "Psalmen 23:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Du deckst mir reichlich den Tisch vor den Augen meiner Feinde; du salbst mir das Haupt mit Öl und schenkst mir den Becher voll ein.",
+      "citation": "Psalmen 23:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Nur Gutes und Liebes werden mich begleiten mein ganzes Leben hindurch, und heimkehren werd’ ich zum Hause des HERRN für eine lange Reihe von Tagen.",
+      "citation": "Psalmen 23:6 (Menge)"
+    }
+  ]
+}

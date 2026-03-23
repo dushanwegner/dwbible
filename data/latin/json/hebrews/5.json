@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebrews, Chapter 5 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 5,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/hebrews/4.json",
+      "nextChapter": "https://latinprayer.org/latin/hebrews/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/hebrews/5.json",
+      "german": "https://latinprayer.org/bibel/hebrews/5.json"
+    }
+  },
+  "citation": "Hebrews 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "omnis namque pontifex ex hominibus adsumptus pro hominibus constituitur in his quae sunt ad Deum ut offerat dona et sacrificia pro peccatis",
+      "citation": "Hebrews 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui condolere possit his qui ignorant et errant quoniam et ipse circumdatus est infirmitate",
+      "citation": "Hebrews 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et propter eam debet quemadmodum et pro populo ita etiam pro semet ipso offerre pro peccatis",
+      "citation": "Hebrews 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nec quisquam sumit sibi honorem sed qui vocatur a Deo tamquam Aaron",
+      "citation": "Hebrews 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "sic et Christus non semet ipsum clarificavit ut pontifex fieret sed qui locutus est ad eum Filius meus es tu ego hodie genui te",
+      "citation": "Hebrews 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quemadmodum et in alio dicit tu es sacerdos in aeternum secundum ordinem Melchisedech",
+      "citation": "Hebrews 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui in diebus carnis suae preces supplicationesque ad eum qui possit salvum illum a morte facere cum clamore valido et lacrimis offerens et exauditus pro sua reverentia",
+      "citation": "Hebrews 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et quidem cum esset Filius didicit ex his quae passus est oboedientiam",
+      "citation": "Hebrews 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et consummatus factus est omnibus obtemperantibus sibi causa salutis aeternae",
+      "citation": "Hebrews 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "appellatus a Deo pontifex iuxta ordinem Melchisedech",
+      "citation": "Hebrews 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "de quo grandis nobis sermo et ininterpretabilis ad dicendum quoniam inbecilles facti estis ad audiendum",
+      "citation": "Hebrews 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "etenim cum deberetis magistri esse propter tempus rursum indigetis ut vos doceamini quae sint elementa exordii sermonum Dei et facti estis quibus lacte opus sit non solido cibo",
+      "citation": "Hebrews 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "omnis enim qui lactis est particeps expers est sermonis iustitiae parvulus enim est",
+      "citation": "Hebrews 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "perfectorum autem est solidus cibus eorum qui pro consuetudine exercitatos habent sensus ad discretionem boni ac mali",
+      "citation": "Hebrews 5:14 (Clementine Vulgate)"
+    }
+  ]
+}

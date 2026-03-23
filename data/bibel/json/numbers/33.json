@@ -1,0 +1,316 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numeri, Chapter 33 — 56 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numeri",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 33,
+    "verseCount": 56,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/numbers/32.json",
+      "nextChapter": "https://latinprayer.org/bibel/numbers/34.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/33.json",
+      "latin": "https://latinprayer.org/latin/numbers/33.json"
+    }
+  },
+  "citation": "Numeri 33 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Folgendes sind die einzelnen Züge der Israeliten, in denen sie aus Ägypten nach ihren Heerscharen unter der Führung Moses und Aarons ausgezogen sind.",
+      "citation": "Numeri 33:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Mose hatte nämlich auf Befehl des HERRN die Orte aufgeschrieben, von denen ihre Auszüge erfolgt waren; und folgendes sind ihre Züge von einem Aufbruchsort zum andern:",
+      "citation": "Numeri 33:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Sie brachen von Ramses am fünfzehnten Tage des ersten Monats auf; am Tage nach dem Passah zogen die Israeliten mit hoch erhobener Hand vor den Augen aller Ägypter aus,",
+      "citation": "Numeri 33:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "während die Ägypter alle Erstgeborenen begruben, die der HERR unter ihnen hatte sterben lassen; denn der HERR hatte auch an ihren Göttern ein Strafgericht vollzogen.",
+      "citation": "Numeri 33:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Die Israeliten brachen also von Ramses auf und lagerten in Sukkoth.",
+      "citation": "Numeri 33:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Von Sukkoth zogen sie dann weiter und lagerten in Etham, das am Rande der Wüste liegt.",
+      "citation": "Numeri 33:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Von Etham zogen sie weiter und wandten sich nach Pi-Hahiroth, das Baal-Zephon gegenüber liegt, und lagerten östlich von Migdol.",
+      "citation": "Numeri 33:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Von Pi-Hahiroth brachen sie auf und zogen mitten durch das Meer nach der Wüste hin; sie wanderten dann drei Tagereisen weit in der Wüste Etham und lagerten in Mara.",
+      "citation": "Numeri 33:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Von Mara zogen sie weiter und kamen nach Elim; dort waren zwölf Wasserquellen und siebzig Palmbäume, und sie lagerten daselbst.",
+      "citation": "Numeri 33:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Von Elim zogen sie weiter und lagerten am Schilfmeer.",
+      "citation": "Numeri 33:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Vom Schilfmeer zogen sie weiter und lagerten in der Wüste Sin.",
+      "citation": "Numeri 33:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Aus der Wüste Sin zogen sie weiter und lagerten in Dophka.",
+      "citation": "Numeri 33:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Von Dophka zogen sie weiter und lagerten in Alus.",
+      "citation": "Numeri 33:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Von Alus zogen sie weiter und lagerten in Rephidim; dort hatte das Volk kein Wasser zu trinken.",
+      "citation": "Numeri 33:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Von Rephidim zogen sie weiter und lagerten in der Wüste Sinai.",
+      "citation": "Numeri 33:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Aus der Wüste Sinai zogen sie weiter und lagerten bei den Lustgräbern.",
+      "citation": "Numeri 33:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Von den Lustgräbern zogen sie weiter und lagerten in Hazeroth.",
+      "citation": "Numeri 33:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Von Hazeroth zogen sie weiter und lagerten in Rithma.",
+      "citation": "Numeri 33:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Von Rithma zogen sie weiter und lagerten in Rimmon-Perez.",
+      "citation": "Numeri 33:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Von Rimmon-Perez zogen sie weiter und lagerten in Libna.",
+      "citation": "Numeri 33:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Von Libna zogen sie weiter und lagerten in Rissa.",
+      "citation": "Numeri 33:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Von Rissa zogen sie weiter und lagerten in Kehelatha.",
+      "citation": "Numeri 33:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Von Kehelatha zogen sie weiter und lagerten am Berge Sepher.",
+      "citation": "Numeri 33:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Vom Berge Sepher zogen sie weiter und lagerten in Harada.",
+      "citation": "Numeri 33:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Von Harada zogen sie weiter und lagerten in Makheloth.",
+      "citation": "Numeri 33:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Von Makheloth zogen sie weiter und lagerten in Thahath.",
+      "citation": "Numeri 33:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Von Thahath zogen sie weiter und lagerten in Therah.",
+      "citation": "Numeri 33:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Von Therah zogen sie weiter und lagerten in Mithka.",
+      "citation": "Numeri 33:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Von Mithka zogen sie weiter und lagerten in Hasmona.",
+      "citation": "Numeri 33:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Von Hasmona zogen sie weiter und lagerten in Moseroth.",
+      "citation": "Numeri 33:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Von Moseroth zogen sie weiter und lagerten in Bene-Jaakan.",
+      "citation": "Numeri 33:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Von Bene-Jaakan zogen sie weiter und lagerten in Hor-Hagidgad.",
+      "citation": "Numeri 33:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Von Hor-Hagidgad zogen sie weiter und lagerten in Jotbatha.",
+      "citation": "Numeri 33:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Von Jotbatha zogen sie weiter und lagerten in Abrona.",
+      "citation": "Numeri 33:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Von Abrona zogen sie weiter und lagerten in Ezjon-Geber.",
+      "citation": "Numeri 33:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Von Ezjon-Geber zogen sie weiter und lagerten in der Wüste Zin, das ist Kades.",
+      "citation": "Numeri 33:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "Von Kades zogen sie weiter und lagerten am Berge Hor, an der Grenze des Landes der Edomiter.",
+      "citation": "Numeri 33:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "Da stieg der Priester Aaron nach dem Befehl des HERRN auf den Berg Hor hinauf und starb daselbst im vierzigsten Jahr nach dem Auszug der Israeliten aus dem Lande Ägypten am ersten Tage des fünften Monats;",
+      "citation": "Numeri 33:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Aaron war aber 123 Jahre alt, als er auf dem Berge Hor starb.",
+      "citation": "Numeri 33:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "[Und der Kanaanäer, der König von Arad, der im südlichen Teile des Landes Kanaan wohnte, hörte vom Heranrücken der Israeliten.]",
+      "citation": "Numeri 33:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "Vom Berge Hor zogen sie dann weiter und lagerten in Zalmona.",
+      "citation": "Numeri 33:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "Von Zalmona zogen sie weiter und lagerten in Phunon.",
+      "citation": "Numeri 33:42 (Menge)"
+    },
+    {
+      "verse": 43,
+      "text": "Von Phunon zogen sie weiter und lagerten in Oboth.",
+      "citation": "Numeri 33:43 (Menge)"
+    },
+    {
+      "verse": 44,
+      "text": "Von Oboth zogen sie weiter und lagerten in Ijje-Abarim an der Grenze des Moabiterlandes.",
+      "citation": "Numeri 33:44 (Menge)"
+    },
+    {
+      "verse": 45,
+      "text": "Von Ijjim zogen sie weiter und lagerten in Dibon-Gad.",
+      "citation": "Numeri 33:45 (Menge)"
+    },
+    {
+      "verse": 46,
+      "text": "Von Dibon-Gad zogen sie weiter und lagerten in Almon-Diblathaim.",
+      "citation": "Numeri 33:46 (Menge)"
+    },
+    {
+      "verse": 47,
+      "text": "Von Almon-Diblathaim zogen sie weiter und lagerten am Gebirge Abarim östlich vom Nebo.",
+      "citation": "Numeri 33:47 (Menge)"
+    },
+    {
+      "verse": 48,
+      "text": "Vom Gebirge Abarim zogen sie weiter und lagerten sich in den Steppen der Moabiter am Jordan, Jericho gegenüber;",
+      "citation": "Numeri 33:48 (Menge)"
+    },
+    {
+      "verse": 49,
+      "text": "und zwar lagerten sie am Jordan von Beth-Jesimoth bis Abel-Sittim in den Steppen der Moabiter.",
+      "citation": "Numeri 33:49 (Menge)"
+    },
+    {
+      "verse": 50,
+      "text": "Der HERR gebot dann dem Mose in den Steppen der Moabiter am Jordan, Jericho gegenüber: »Teile den Israeliten folgende Verordnungen mit:",
+      "citation": "Numeri 33:50 (Menge)"
+    },
+    {
+      "verse": 51,
+      "text": "Wenn ihr über den Jordan in das Land Kanaan hinübergezogen seid,",
+      "citation": "Numeri 33:51 (Menge)"
+    },
+    {
+      "verse": 52,
+      "text": "sollt ihr alle Bewohner des Landes vor euch her austreiben und alle ihre Götzenbilder vernichten; auch alle ihre Gußbilder sollt ihr vernichten und alle ihre Höhen zerstören.",
+      "citation": "Numeri 33:52 (Menge)"
+    },
+    {
+      "verse": 53,
+      "text": "Ihr sollt dann das Land in Besitz nehmen und darin wohnen; denn euch habe ich das Land als Eigentum verliehen.",
+      "citation": "Numeri 33:53 (Menge)"
+    },
+    {
+      "verse": 54,
+      "text": "Und zwar sollt ihr euch das Land durch das Los als Erbbesitz zuteilen entsprechend euren Stämmen: den größeren Stämmen sollt ihr einen größeren Erbbesitz geben und den kleineren einen weniger großen Erbbesitz zuteilen; doch wohin immer einem jeden das Los fällt, da soll es ihm als Eigentum zuteil werden: nach euren väterlichen Stämmen sollt ihr euch das Land als Erbbesitz zuteilen.",
+      "citation": "Numeri 33:54 (Menge)"
+    },
+    {
+      "verse": 55,
+      "text": "Wenn ihr aber die Bewohner des Landes nicht vor euch her austreibt, so werden die, welche ihr von ihnen übriglaßt, zu Dornen in euren Augen und zu Stacheln in euren Seiten werden und euch in dem Lande, in dem ihr wohnen werdet, bedrängen.",
+      "citation": "Numeri 33:55 (Menge)"
+    },
+    {
+      "verse": 56,
+      "text": "Die Folge wird dann sein, daß ich euch das Geschick widerfahren lasse, das ich ihnen zugedacht hatte.«",
+      "citation": "Numeri 33:56 (Menge)"
+    }
+  ]
+}

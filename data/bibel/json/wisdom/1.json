@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Weisheit, Chapter 1 — 16 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Weisheit",
+      "slug": "wisdom",
+      "testament": "OT",
+      "order": 25,
+      "totalChapters": 19
+    },
+    "chapter": 1,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/wisdom/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bibel/wisdom/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/wisdom/1.json",
+      "latin": "https://latinprayer.org/latin/wisdom/1.json"
+    }
+  },
+  "citation": "Weisheit 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Gewinnt die Gerechtigkeit lieb, ihr Herrscher auf Erden! denkt an den Herrn in Aufrichtigkeit und sucht ihn in Einfalt des Herzens!",
+      "citation": "Weisheit 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Denn er läßt sich finden von denen, die ihn nicht versuchen, und offenbart sich denen, die ihm nicht mißtrauen.",
+      "citation": "Weisheit 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn verkehrte Gedanken führen von Gott ab, und seine Allmacht, wenn sie angezweifelt wird, straft die Toren",
+      "citation": "Weisheit 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denn in eine bösgesinnte Seele kehrt die Weisheit nicht ein und nimmt ihre Wohnung nicht in einem der Sünde dienstbaren Leibe.",
+      "citation": "Weisheit 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn der heilige Geist der Zucht meidet die Falschheit; er hält sich fern von törichten Gedanken und wird verscheucht, wenn Ungerechtigkeit aufkommt.",
+      "citation": "Weisheit 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Denn ein menschenfreundlicher Geist ist die Weisheit und läßt auch den Gotteslästerer nicht ungestraft ob der Schuld seiner Lippen; denn Gott ist Zeuge seiner Nieren, er ist der wahrhaftige Beobachter seines Herzens und der Hörer seiner Reden.",
+      "citation": "Weisheit 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Denn der Geist des Herrn erfüllt den Erdkreis, und er, der das All umfaßt, hat Kenntnis von jedem gesprochenen Wort.",
+      "citation": "Weisheit 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Darum bleibt keiner verborgen, der Unrechtes redet, und die strafende Gerechtigkeit geht an ihm nicht vorüber.",
+      "citation": "Weisheit 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Denn über die Anschläge des Gottlosen findet eine Untersuchung statt, und die Kunde von seinen Reden kommt vor den Herrn zur Bestrafung seiner Verfehlungen;",
+      "citation": "Weisheit 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "denn sein eifersüchtiges Ohr hört alles, und auch das leiseste Murren bleibt ihm nicht verborgen.",
+      "citation": "Weisheit 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Hütet euch also vor unnützem Murren und bewahrt die Zunge vor Lästerrede; denn auch heimliches Gerede geht nicht ungestraft hin, und ein lügnerischer Mund vernichtet die Seele.",
+      "citation": "Weisheit 1:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Trachtet nicht nach dem Tode durch die Verirrung eures Lebens und zieht nicht das Verderben durch euer eigenes Tun herbei;",
+      "citation": "Weisheit 1:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "denn Gott hat den Tod nicht geschaffen und hat keine Freude am Untergang der Lebenden.",
+      "citation": "Weisheit 1:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Denn alle Dinge hat er zum Sein geschaffen, und alles in der Welt Erzeugte ist zum Heil da; in keinem findet sich das Gift des Verderbens, und das Totenreich hat nicht die Herrschaft auf Erden.",
+      "citation": "Weisheit 1:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Denn die Gerechtigkeit ist unsterblich, [die Ungerechtigkeit aber führt den Tod herbei].",
+      "citation": "Weisheit 1:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Die Gottlosen aber rufen den Tod herbei durch ihre Taten und Reden; sie halten ihn für einen Freund und verzehren sich in Sehnsucht nach ihm, sie schließen einen Bund mit ihm, weil sie es wert sind, ihm als Beute zuzufallen.",
+      "citation": "Weisheit 1:16 (Menge)"
+    }
+  ]
+}

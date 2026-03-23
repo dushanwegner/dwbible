@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Acts, Chapter 16 — 40 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 51,
+      "totalChapters": 28
+    },
+    "chapter": 16,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/acts/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/acts/15.json",
+      "nextChapter": "https://latinprayer.org/bible/acts/17.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/acts/16.json",
+      "german": "https://latinprayer.org/bibel/acts/16.json"
+    }
+  },
+  "citation": "Acts 16 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And he came to Derbe and Lystra. And behold, there was a certain disciple there named Timothy, the son of a Jewish woman that believed: but his father was a Gentile.",
+      "citation": "Acts 16:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "To this man the brethren that were in Lystra and Iconium gave a good testimony.",
+      "citation": "Acts 16:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Him Paul would have to go along with him: and taking him, he circumcised him, because of the Jews who were in those places. For they all knew that his father was a Gentile.",
+      "citation": "Acts 16:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And as they passed through the cities, they delivered unto them the decrees for to keep, that were decreed by the apostles and ancients who were at Jerusalem.",
+      "citation": "Acts 16:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the churches were confirmed in faith and increased in number daily.",
+      "citation": "Acts 16:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And when they had passed through Phrygia and the country of Galatia, they were forbidden by the Holy Ghost to preach the word in Asia.",
+      "citation": "Acts 16:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And when they were come into Mysia, they attempted to go into Bithynia: and the Spirit of Jesus suffered them not.",
+      "citation": "Acts 16:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And when they had passed through Mysia, they went down to Troas.",
+      "citation": "Acts 16:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And a vision was shewed to Paul in the night, which was a man of Macedonia standing and beseeching him and saying: Pass over into Macedonia and help us.",
+      "citation": "Acts 16:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And as soon as he had seen the vision, immediately we sought to go into Macedonia: being assured that God had called us to preach the gospel to them.",
+      "citation": "Acts 16:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And sailing from Troas, we came with a straight course to Samothracia, and the day following to Neapolis.",
+      "citation": "Acts 16:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And from thence to Philippi, which is the chief city of part of Macedonia, a colony. And we were in this city some days conferring together.",
+      "citation": "Acts 16:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And upon the Sabbath day, we went forth without the gate by a river side, where it seemed that there was prayer: and sitting down, we spoke to the women that were assembled.",
+      "citation": "Acts 16:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And a certain woman named Lydia, a seller of purple, of the city of Thyatira, one that worshipped God, did hear: whose heart the Lord opened to attend to those things which were said by Paul.",
+      "citation": "Acts 16:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And when she was baptized, and her household, she besought us, saying: If you have judged me to be faithful to the Lord, come into my house and abide there. And she constrained us.",
+      "citation": "Acts 16:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And it came to pass, as we went to prayer, a certain girl having a pythonical spirit met us, who brought to her masters much gain by divining.",
+      "citation": "Acts 16:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "This same following Paul and us, cried out, saying: These men are the servants of the Most High God, who preach unto you the way of salvation.",
+      "citation": "Acts 16:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And this she did many days. But Paul being grieved, turned and said to the spirit: I command thee, in the name of Jesus Christ, to go from her. And he went out the same hour.",
+      "citation": "Acts 16:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "But her masters, seeing that the hope of their gain was gone, apprehending Paul and Silas, brought them into the market place to the rulers.",
+      "citation": "Acts 16:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And presenting them to the magistrates, they said: These men disturb our city, being Jews:",
+      "citation": "Acts 16:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And preach a fashion which it is not lawful for us to receive nor observe, being Romans.",
+      "citation": "Acts 16:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And the people ran together against them: and the magistrates, rending off their clothes, commanded them to be beaten with rods.",
+      "citation": "Acts 16:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And when they had laid many stripes upon them, they cast them into prison, charging the gaoler to keep them diligently.",
+      "citation": "Acts 16:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Who having received such a charge, thrust them into the inner prison and made their feet fast in the stocks.",
+      "citation": "Acts 16:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And at midnight, Paul and Silas, praying, praised God. And they that were in prison heard them.",
+      "citation": "Acts 16:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And suddenly there was a great earthquake, so that the foundations of the prison were shaken. And immediately all the doors were opened and the bands of all were loosed.",
+      "citation": "Acts 16:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And the keeper of the prison, awakening out of his sleep and seeing the doors of the prison open, drawing his sword, would have killed himself, supposing that the prisoners had been fled.",
+      "citation": "Acts 16:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "But Paul cried with a loud voice, saying: Do thyself no harm, for we all are here.",
+      "citation": "Acts 16:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Then calling for a light, he went in: and trembling, fell down at the feet of Paul and Silas.",
+      "citation": "Acts 16:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And bringing them out, he said: Masters, what must I do, that I may be saved?",
+      "citation": "Acts 16:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "But they said: believe in the Lord Jesus: and thou shalt be saved, and thy house.",
+      "citation": "Acts 16:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And they preached the word of the Lord to him and to all that were in his house.",
+      "citation": "Acts 16:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And he, taking them the same hour of the night, washed their stripes: and himself was baptized, and all his house immediately.",
+      "citation": "Acts 16:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And when he had brought them into his own house, he laid the table for them: and rejoiced with all his house, believing God.",
+      "citation": "Acts 16:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And when the day was come, the magistrates sent the serjeants, saying: Let those men go.",
+      "citation": "Acts 16:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And the keeper of the prison told these words to Paul: The magistrates have sent to let you go. Now therefore depart.  And go in peace.",
+      "citation": "Acts 16:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "But Paul said to them: They have beaten us publicly, uncondemned, men that are Romans, and have cast us into prison.  And now do they thrust us out privately? Not so: but let them come.",
+      "citation": "Acts 16:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And let us out themselves. And the serjeants told these words to the magistrates. And they were afraid: hearing that they were Romans.",
+      "citation": "Acts 16:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And coming, they besought them: and bringing them out, they desired them to depart out of the city.",
+      "citation": "Acts 16:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And they went out of the prison and entered into the house of Lydia: and having seen the brethren, they comforted them and departed.",
+      "citation": "Acts 16:40 (Douay-Rheims)"
+    }
+  ]
+}

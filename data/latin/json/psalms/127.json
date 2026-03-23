@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 127 — 10 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 127,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/126.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/128.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/127.json",
+      "german": "https://latinprayer.org/bibel/psalms/127.json"
+    }
+  },
+  "citation": "Psalms 127 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "canticum graduum Salomonis nisi Dominus aedificaverit domum in vanum laboraverunt qui aedificant eam nisi Dominus custodierit civitatem frustra vigilavit qui custodit",
+      "citation": "Psalms 127:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "canticum graduum Salomonis nisi Dominus aedificaverit domum in vanum laboraverunt qui aedificant eam nisi Dominus custodierit civitatem frustra vigilat qui custodit eam",
+      "citation": "Psalms 127:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "vanum est vobis ante lucem surgere surgere postquam sederitis qui manducatis panem doloris cum dederit dilectis suis somnum",
+      "citation": "Psalms 127:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "frustra vobis est de mane consurgere postquam sederitis qui manducatis panem idolorum sic dabit diligentibus se somnum",
+      "citation": "Psalms 127:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ecce hereditas Domini filii mercis fructus ventris",
+      "citation": "Psalms 127:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ecce hereditas Domini filii mercis fructus ventris",
+      "citation": "Psalms 127:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sicut sagittae in manu potentis ita filii excussorum",
+      "citation": "Psalms 127:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sicut sagittae in manu potentis ita filii iuventutis",
+      "citation": "Psalms 127:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "beatus vir qui implebit desiderium suum ex ipsis non confundentur cum loquentur inimicis suis in porta",
+      "citation": "Psalms 127:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "beatus vir qui implevit faretram suam ex ipsis non confundentur cum loquentur inimicis in porta",
+      "citation": "Psalms 127:5 (Clementine Vulgate)"
+    }
+  ]
+}

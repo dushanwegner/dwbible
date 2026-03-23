@@ -1,0 +1,266 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Esdras / Nehemias, Chapter 12 — 46 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Esdras / Nehemias",
+      "slug": "2-esdras-nehemias",
+      "testament": "OT",
+      "order": 16,
+      "totalChapters": 13
+    },
+    "chapter": 12,
+    "verseCount": 46,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-esdras-nehemias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-esdras-nehemias/11.json",
+      "nextChapter": "https://latinprayer.org/bible/2-esdras-nehemias/13.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-esdras-nehemias/12.json",
+      "german": "https://latinprayer.org/bibel/2-esdras-nehemias/12.json"
+    }
+  },
+  "citation": "2. Esdras / Nehemias 12 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now these are the priests and the Levites, that went up with Zorobabel the son of Salathiel, and Josue: Saraia, Jeremias, Esdras,",
+      "citation": "2. Esdras / Nehemias 12:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Amaria, Melluch, Hattus,",
+      "citation": "2. Esdras / Nehemias 12:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Sebenias, Rheum, Merimuth,",
+      "citation": "2. Esdras / Nehemias 12:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Addo, Genthon, Abia,",
+      "citation": "2. Esdras / Nehemias 12:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Miamin, Madia, Belga,",
+      "citation": "2. Esdras / Nehemias 12:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Semeia, and Joiarib, Idaia, Sellum Amoc, Helcias,",
+      "citation": "2. Esdras / Nehemias 12:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Idaia. These were the chief of the priests, and of their brethren in the days of Josue.",
+      "citation": "2. Esdras / Nehemias 12:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the Levites, Jesua, Bennui, Cedmihel, Sarebia, Juda, Mathanias, they and their brethren were over the hymns:",
+      "citation": "2. Esdras / Nehemias 12:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And Becbecia, and Hanni, and their brethren every one in his office.",
+      "citation": "2. Esdras / Nehemias 12:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And Josue begot Joacim, and Joacim begot Eliasib, and Eliasib begot Joiada,",
+      "citation": "2. Esdras / Nehemias 12:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Joiada begot Jonathan and Jonathan begot Jeddoa.",
+      "citation": "2. Esdras / Nehemias 12:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And in the days of Joacim the priests and heads of the families were: Of Saraia, Maraia: of Jeremias, Hanania:",
+      "citation": "2. Esdras / Nehemias 12:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Of Esdras, Mosollam: and of Amaria, Johanan:",
+      "citation": "2. Esdras / Nehemias 12:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Of Milicho, Jonathan: of Sebenia, Joseph:",
+      "citation": "2. Esdras / Nehemias 12:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Of Haram, Edna: of Maraioth, Helci:",
+      "citation": "2. Esdras / Nehemias 12:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Of Adaia, Zacharia: of Genthon, Mosollam:",
+      "citation": "2. Esdras / Nehemias 12:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Of Abia, Zechri: of Miamin and Moadia, Phelti:",
+      "citation": "2. Esdras / Nehemias 12:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Of Belga, Sammua of Semaia, Jonathan:",
+      "citation": "2. Esdras / Nehemias 12:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Of Joiarib, Mathanai: of Jodaia, Azzi:",
+      "citation": "2. Esdras / Nehemias 12:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Of Sellai, Celai: of Amoc, Heber:",
+      "citation": "2. Esdras / Nehemias 12:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Of Helcias, Hasebia: of Idaia, Nathanael.",
+      "citation": "2. Esdras / Nehemias 12:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The Levites the chiefs of the families in the days of Eliasib, and Joiada, and Johanan, and Jeddoa, were recorded, and the priests in the reign of Darius the Persian.",
+      "citation": "2. Esdras / Nehemias 12:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The sons of Levi, heads of the families were written in the book of Chronicles, even unto the days of Jonathan the son of Eliasib.",
+      "citation": "2. Esdras / Nehemias 12:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Now the chief of the Levites were Hasebia, Serebia, and Josue the son of Cedmihel: and their brethren by their courses, to praise and to give thanks according to the commandment of David the man of God, and to wait equally in order.",
+      "citation": "2. Esdras / Nehemias 12:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Mathania, and Becbecia, Obedia, and Mosollam, Telmon, Accub, were keepers of the gates and of the entrances before the gates.",
+      "citation": "2. Esdras / Nehemias 12:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "These were in the days of Joacim the son of Josue, the son of Josedec, and in the days of Nehemias the governor, and of Esdras the priest and scribe.",
+      "citation": "2. Esdras / Nehemias 12:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And at the dedication of the wall of Jerusalem they sought the Levites out of all their places, to bring them to Jerusalem, and to keep the dedication, and to rejoice with thanksgiving, and with singing, and with cymbals, and psalteries and harps.",
+      "citation": "2. Esdras / Nehemias 12:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And the sons of the singing men were gathered together out of the plain country about Jerusalem, and out of the villages of Nethuphati,",
+      "citation": "2. Esdras / Nehemias 12:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And from the house of Galgal, and from the countries of Geba and Azmaveth: for the singing men had built themselves villages round about Jerusalem.",
+      "citation": "2. Esdras / Nehemias 12:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And the priests and the Levites were purified, and they purified the people, and the gates, and the wall.",
+      "citation": "2. Esdras / Nehemias 12:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And I made the princes of Juda go up upon the wall, and I appointed two great choirs to give praise. And they went on the right hand upon the wall toward the dung gate.",
+      "citation": "2. Esdras / Nehemias 12:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And after them went Osaias, and half of the princes of Juda,",
+      "citation": "2. Esdras / Nehemias 12:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And Azarias, Esdras, and Mosollam, Judas, and Benjamin, and Semeia, and Jeremias.",
+      "citation": "2. Esdras / Nehemias 12:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And of the sons of the priests with trumpets, Zacharias the son of Jonathan, the son of Semeia, the son of Mathania, the son of Michaia, the son of Zechur, the son of Asaph,",
+      "citation": "2. Esdras / Nehemias 12:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And his brethren Semeia, and Azareel, Malalai, Galalai, Maai, Nathanael, and Judas, and Hanani, with the musical instruments of David the man of God: and Esdras the scribe before them at the fountain gate.",
+      "citation": "2. Esdras / Nehemias 12:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And they went up over against them by the stairs of the city of David, at the going up of the wall of the house of David, and to the water gate eastward:",
+      "citation": "2. Esdras / Nehemias 12:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And the second choir of them that gave thanks went on the opposite side, and I after them, and the half of the people upon the wall, and upon the tower of the furnaces, even to the broad wall,",
+      "citation": "2. Esdras / Nehemias 12:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And above the gate of Ephraim, and above the old gate, and above the fish gate and the tower of Hananeel, and the tower of Emath, and even to the flock gate: and they stood still in the watch gate.",
+      "citation": "2. Esdras / Nehemias 12:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And the two choirs of them that gave praise stood still at the house of God, and I and the half of the magistrates with me.",
+      "citation": "2. Esdras / Nehemias 12:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And the priests, Eliachim, Maasia, Miamin, Michea, Elioenai, Zacharia, Hanania with trumpets,",
+      "citation": "2. Esdras / Nehemias 12:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And Maasia, and Semeia, and Eleazar, and Azzi, and Johanan, and Melchia, and Elam, and Ezer. And the singers sung loud, and Jezraia was their overseer:",
+      "citation": "2. Esdras / Nehemias 12:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And they sacrificed on that day great sacrifices, and they rejoiced: for God had made them joyful with great joy: their wives also and their children rejoiced, and the joy of Jerusalem was heard afar off.",
+      "citation": "2. Esdras / Nehemias 12:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "They appointed also in that day men over the storehouses of the treasure, for the libations, and for the firstfruits, and for the tithes, that the rulers of the city might bring them in by them in honour of thanksgiving, for the priests and Levites: for Juda was joyful in the priests and Levites that assisted.",
+      "citation": "2. Esdras / Nehemias 12:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "And they kept the watch of their God, and the observance of expiation, and the singing men, and the porters, according to the commandment of David, and of Solomon his son.",
+      "citation": "2. Esdras / Nehemias 12:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "For in the days of David and Asaph from the beginning there were chief singers appointed, to praise with canticles, and give thanks to God.",
+      "citation": "2. Esdras / Nehemias 12:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "And all Israel, in the days of Zorobabel, and in the days of Nehemias gave portions to the singing men, and to the porters, day by day, and they sanctified the Levites, and the Levites sanctified the sons of Aaron.",
+      "citation": "2. Esdras / Nehemias 12:47 (Douay-Rheims)"
+    }
+  ]
+}

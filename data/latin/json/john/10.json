@@ -1,0 +1,246 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John, Chapter 10 — 42 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 10,
+    "verseCount": 42,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/john/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/john/9.json",
+      "nextChapter": "https://latinprayer.org/latin/john/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/john/10.json",
+      "german": "https://latinprayer.org/bibel/john/10.json"
+    }
+  },
+  "citation": "John 10 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "amen amen dico vobis qui non intrat per ostium in ovile ovium sed ascendit aliunde ille fur est et latro",
+      "citation": "John 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui autem intrat per ostium pastor est ovium",
+      "citation": "John 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "huic ostiarius aperit et oves vocem eius audiunt et proprias oves vocat nominatim et educit eas",
+      "citation": "John 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et cum proprias oves emiserit ante eas vadit et oves illum sequuntur quia sciunt vocem eius",
+      "citation": "John 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "alienum autem non sequuntur sed fugient ab eo quia non noverunt vocem alienorum",
+      "citation": "John 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "hoc proverbium dixit eis Iesus illi autem non cognoverunt quid loqueretur eis",
+      "citation": "John 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "dixit ergo eis iterum Iesus amen amen dico vobis quia ego sum ostium ovium",
+      "citation": "John 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "omnes quotquot venerunt fures sunt et latrones sed non audierunt eos oves",
+      "citation": "John 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ego sum ostium per me si quis introierit salvabitur et ingredietur et egredietur et pascua inveniet",
+      "citation": "John 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "fur non venit nisi ut furetur et mactet et perdat ego veni ut vitam habeant et abundantius habeant",
+      "citation": "John 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ego sum pastor bonus bonus pastor animam suam dat pro ovibus",
+      "citation": "John 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "mercennarius et qui non est pastor cuius non sunt oves propriae videt lupum venientem et dimittit oves et fugit et lupus rapit et dispergit oves",
+      "citation": "John 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "mercennarius autem fugit quia mercennarius est et non pertinet ad eum de ovibus",
+      "citation": "John 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ego sum pastor bonus et cognosco meas et cognoscunt me meae",
+      "citation": "John 10:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "sicut novit me Pater et ego agnosco Patrem et animam meam pono pro ovibus",
+      "citation": "John 10:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et alias oves habeo quae non sunt ex hoc ovili et illas oportet me adducere et vocem meam audient et fiet unum ovile unus pastor",
+      "citation": "John 10:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "propterea me Pater diligit quia ego pono animam meam ut iterum sumam eam",
+      "citation": "John 10:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "nemo tollit eam a me sed ego pono eam a me ipso potestatem habeo ponendi eam et potestatem habeo iterum sumendi eam hoc mandatum accepi a Patre meo",
+      "citation": "John 10:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "dissensio iterum facta est inter Iudaeos propter sermones hos",
+      "citation": "John 10:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "dicebant autem multi ex ipsis daemonium habet et insanit quid eum auditis",
+      "citation": "John 10:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "alii dicebant haec verba non sunt daemonium habentis numquid daemonium potest caecorum oculos aperire",
+      "citation": "John 10:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "facta sunt autem encenia in Hierosolymis et hiemps erat",
+      "citation": "John 10:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et ambulabat Iesus in templo in porticu Salomonis",
+      "citation": "John 10:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "circumdederunt ergo eum Iudaei et dicebant ei quousque animam nostram tollis si tu es Christus dic nobis palam",
+      "citation": "John 10:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "respondit eis Iesus loquor vobis et non creditis opera quae ego facio in nomine Patris mei haec testimonium perhibent de me",
+      "citation": "John 10:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "sed vos non creditis quia non estis ex ovibus meis",
+      "citation": "John 10:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "oves meae vocem meam audiunt et ego cognosco eas et sequuntur me",
+      "citation": "John 10:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et ego vitam aeternam do eis et non peribunt in aeternum et non rapiet eas quisquam de manu mea",
+      "citation": "John 10:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "Pater meus quod dedit mihi maius omnibus est et nemo potest rapere de manu Patris mei",
+      "citation": "John 10:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "ego et Pater unum sumus",
+      "citation": "John 10:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "sustulerunt lapides Iudaei ut lapidarent eum",
+      "citation": "John 10:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "respondit eis Iesus multa opera bona ostendi vobis ex Patre meo propter quod eorum opus me lapidatis",
+      "citation": "John 10:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "responderunt ei Iudaei de bono opere non lapidamus te sed de blasphemia et quia tu homo cum sis facis te ipsum Deum",
+      "citation": "John 10:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "respondit eis Iesus nonne scriptum est in lege vestra quia ego dixi dii estis",
+      "citation": "John 10:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "si illos dixit deos ad quos sermo Dei factus est et non potest solvi scriptura",
+      "citation": "John 10:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "quem Pater sanctificavit et misit in mundum vos dicitis quia blasphemas quia dixi Filius Dei sum",
+      "citation": "John 10:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "si non facio opera Patris mei nolite credere mihi",
+      "citation": "John 10:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "si autem facio et si mihi non vultis credere operibus credite ut cognoscatis et credatis quia in me est Pater et ego in Patre",
+      "citation": "John 10:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "quaerebant ergo eum prendere et exivit de manibus eorum",
+      "citation": "John 10:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "et abiit iterum trans Iordanen in eum locum ubi erat Iohannes baptizans primum et mansit illic",
+      "citation": "John 10:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et multi venerunt ad eum et dicebant quia Iohannes quidem signum fecit nullum",
+      "citation": "John 10:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "omnia autem quaecumque dixit Iohannes de hoc vera erant et multi crediderunt in eum",
+      "citation": "John 10:42 (Clementine Vulgate)"
+    }
+  ]
+}

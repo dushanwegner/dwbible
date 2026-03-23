@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hiob, Chapter 35 — 16 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hiob",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 35,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/job/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/job/34.json",
+      "nextChapter": "https://latinprayer.org/bibel/job/36.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/35.json",
+      "latin": "https://latinprayer.org/latin/job/35.json"
+    }
+  },
+  "citation": "Hiob 35 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Elihu hob dann wieder an und sagte:",
+      "citation": "Hiob 35:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Hältst du das für recht, nennst du das ›meine Gerechtigkeit vor Gott‹,",
+      "citation": "Hiob 35:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "daß du fragst: ›Was nützt sie mir?‹ und: ›Was habe ich mehr davon, als wenn ich sündigte?‹",
+      "citation": "Hiob 35:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ich will dir darauf die Antwort geben, dir und zugleich deinen Freunden neben dir.",
+      "citation": "Hiob 35:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Blicke zum Himmel empor und sieh ihn an und schaue zu den Wolken hinauf, die hoch über dir sind:",
+      "citation": "Hiob 35:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "wenn du sündigst, was tust du ihm damit zuleide? Und sind deine Übertretungen zahlreich, welchen Schaden fügst du ihm damit zu?",
+      "citation": "Hiob 35:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Und so auch: wenn du gerecht bist, welches Geschenk machst du ihm damit, oder was empfängt er aus deiner Hand?",
+      "citation": "Hiob 35:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Nur den Menschen, wie du einer bist, geht dein Freveln an, und nur dir, dem Menschensohn, kommt dein Gerechtsein zugute.«",
+      "citation": "Hiob 35:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "»Man schreit wohl über die Menge der Bedrückungen, klagt laut über die Gewalttätigkeit der Großen,",
+      "citation": "Hiob 35:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "doch keiner sagt: ›Wo ist Gott, mein Schöpfer, der Lobgesänge schenkt in der Nacht,",
+      "citation": "Hiob 35:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "der uns Belehrung verleiht wie keinem Tiere des Feldes und uns höhere Weisheit gewinnen läßt als die Vögel des Himmels?‹",
+      "citation": "Hiob 35:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Da schreit man denn, ohne Erhörung bei ihm zu finden, wegen des Übermuts der Bösen.",
+      "citation": "Hiob 35:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Jawohl: auf eitles Klagen hört Gott nicht, sondern der Allmächtige läßt es unbeachtet.",
+      "citation": "Hiob 35:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Nun sagst du aber gar, du sehest ihn nicht; deine Sache liege ihm vor, du wartest aber vergeblich auf seine Entscheidung!",
+      "citation": "Hiob 35:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Und nun, da sein Zorn noch nicht gestraft und er sich um Torheit nicht sonderlich gekümmert hat,",
+      "citation": "Hiob 35:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "da reißt Hiob seinen Mund zu leerem Gerede auf und ergeht sich ohne Einsicht in vermessenen Worten!«",
+      "citation": "Hiob 35:16 (Menge)"
+    }
+  ]
+}

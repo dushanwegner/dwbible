@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Kings / Samuel — 24 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Kings / Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "order": 10,
+      "totalChapters": 24
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-kings-samuel/index.json",
+      "german": "https://latinprayer.org/bibel/2-kings-samuel/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 27,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/1",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/2",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 39,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/3",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 12,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/4",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/5",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/6",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/7",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/8",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 13,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/9",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/10",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 27,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/11",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/12",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/13",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/14",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/15",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/16",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/16.json"
+    },
+    {
+      "chapter": 17,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/17",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/17.json"
+    },
+    {
+      "chapter": 18,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/18",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/18.json"
+    },
+    {
+      "chapter": 19,
+      "verseCount": 44,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/19",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/19.json"
+    },
+    {
+      "chapter": 20,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/20",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/20.json"
+    },
+    {
+      "chapter": 21,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/21",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/21.json"
+    },
+    {
+      "chapter": 22,
+      "verseCount": 51,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/22",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/22.json"
+    },
+    {
+      "chapter": 23,
+      "verseCount": 39,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/23",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/23.json"
+    },
+    {
+      "chapter": 24,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/bible/2-kings-samuel/24",
+      "jsonUrl": "https://latinprayer.org/bible/2-kings-samuel/24.json"
+    }
+  ]
+}

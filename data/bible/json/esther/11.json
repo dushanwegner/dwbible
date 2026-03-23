@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Esther, Chapter 11 — 12 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Esther",
+      "slug": "esther",
+      "testament": "OT",
+      "order": 19,
+      "totalChapters": 16
+    },
+    "chapter": 11,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/esther/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/esther/10.json",
+      "nextChapter": "https://latinprayer.org/bible/esther/12.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/esther/11.json",
+      "german": "https://latinprayer.org/bibel/esther/11.json"
+    }
+  },
+  "citation": "Esther 11 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "In the fourth year of the reign of Ptolemy and Cleopatra, Dositheus, who said he was a priest, and of the Levitical race, and Ptolemy his son brought this epistle of Phurim, which they said Lysimachus the son of Ptolemy had interpreted in Jerusalem.",
+      "citation": "Esther 11:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "In the second year of the reign of Artaxerxes the great, in the first day of the month Nisan, Mardochai the son of Jair, the son of Semei, the son of Cis, of the tribe of Benjamin:",
+      "citation": "Esther 11:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "A Jew who dwelt in the city of Susan, a great man and among the first of the king's court, had a dream.",
+      "citation": "Esther 11:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Now he was of the number of the captives, whom Nabuchodonosor king of Babylon had carried away from Jerusalem with Jechonias king of Juda:",
+      "citation": "Esther 11:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And this was his dream: Behold there were voices, and tumults, and thunders, and earthquakes, and a disturbance upon the earth.",
+      "citation": "Esther 11:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And behold two great dragons came forth ready to fight one against another.",
+      "citation": "Esther 11:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And at their cry all nations were stirred up to fight against the nation of the just.",
+      "citation": "Esther 11:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And that was a day of darkness and danger, of tribulation and distress, and great fear upon the earth.",
+      "citation": "Esther 11:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the nation of the just was troubled fearing their own evils, and was prepared for death.",
+      "citation": "Esther 11:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And they cried to God: and as they were crying, a little fountain grew into a very great river, and abounded into many waters.",
+      "citation": "Esther 11:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The light and the sun rose up, and the humble were exalted, and they devoured the glorious.",
+      "citation": "Esther 11:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And when Mardochai had seen this, and arose out of his bed, he was thinking what God would do: and he kept it fixed in his mind, desirous to know what the dream should signify.",
+      "citation": "Esther 11:12 (Douay-Rheims)"
+    }
+  ]
+}

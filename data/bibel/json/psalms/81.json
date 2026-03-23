@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 81 — 17 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 81,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/80.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/82.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/81.json",
+      "latin": "https://latinprayer.org/latin/psalms/81.json"
+    }
+  },
+  "citation": "Psalmen 81 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, nach der Keltertreterweise; von Asaph</em>.",
+      "citation": "Psalmen 81:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Singt jubelnd dem Gott, der unsre Stärke ist, jauchzet dem Gott Jakobs!",
+      "citation": "Psalmen 81:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Stimmt Lobgesang an und laßt die Pauken erschallen, die liebliche Zither mitsamt der Harfe!",
+      "citation": "Psalmen 81:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Stoßt am Neumond in die Posaune, beim Vollmond zur Feier unsres Festes!",
+      "citation": "Psalmen 81:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn so ist es Satzung für Israel, ein Gebot des Gottes Jakobs;",
+      "citation": "Psalmen 81:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "als Gesetz hat er’s für Joseph verordnet, als er auszog gegen Ägyptenland. – Eine Sprache, die ich bisher nicht gekannt, vernehme ich:",
+      "citation": "Psalmen 81:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "»Ich hab’ seine Schulter der Last entzogen, seine Hände sind des Tragkorbs ledig geworden.",
+      "citation": "Psalmen 81:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Als du riefst in der Drangsal, erlöste ich dich, erhörte dich in der Hülle der Donnerwolke, prüfte dich am Haderwasser. SELA.",
+      "citation": "Psalmen 81:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "›Höre, mein Volk, ich will dich warnen! o Israel, möchtest du mir doch gehorchen!",
+      "citation": "Psalmen 81:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Kein fremder Gott soll unter dir sein, vor keinem Gott des Auslands darfst du dich niederwerfen!",
+      "citation": "Psalmen 81:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Ich, der HERR, bin dein Gott, der dich heraufgeführt aus Ägyptenland: tu deinen Mund weit auf, so will ich ihn füllen!‹",
+      "citation": "Psalmen 81:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Doch mein Volk hat nicht gehört auf meine Stimme, und Israel ist mir nicht zu Willen gewesen.",
+      "citation": "Psalmen 81:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Da hab ich sie preisgegeben dem Starrsinn ihres Herzens: sie sollten nach ihren eignen Gedanken wandeln.",
+      "citation": "Psalmen 81:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "O wollte mein Volk doch mir gehorchen, Israel doch wandeln auf meinen Wegen!",
+      "citation": "Psalmen 81:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Wie bald würde ich ihre Feinde beugen und gegen ihre Dränger kehren meine Hand!",
+      "citation": "Psalmen 81:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Die da hassen den HERRN, die müßten ihm schmeicheln, und ihre Gerichtszeit sollte ewig währen.",
+      "citation": "Psalmen 81:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Doch ihn wollt’ ich nähren mit dem Mark des Weizens, dich sättigen aus dem Felsen mit Honig.«",
+      "citation": "Psalmen 81:17 (Menge)"
+    }
+  ]
+}

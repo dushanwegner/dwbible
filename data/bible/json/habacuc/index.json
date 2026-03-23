@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Habacuc — 3 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Habacuc",
+      "slug": "habacuc",
+      "testament": "OT",
+      "order": 40,
+      "totalChapters": 3
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/habacuc/index.json",
+      "german": "https://latinprayer.org/bibel/habacuc/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bible/habacuc/1",
+      "jsonUrl": "https://latinprayer.org/bible/habacuc/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/bible/habacuc/2",
+      "jsonUrl": "https://latinprayer.org/bible/habacuc/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/bible/habacuc/3",
+      "jsonUrl": "https://latinprayer.org/bible/habacuc/3.json"
+    }
+  ]
+}

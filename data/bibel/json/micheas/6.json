@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Micha, Chapter 6 — 16 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Micha",
+      "slug": "micheas",
+      "testament": "OT",
+      "order": 38,
+      "totalChapters": 7
+    },
+    "chapter": 6,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/micheas/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/micheas/5.json",
+      "nextChapter": "https://latinprayer.org/bibel/micheas/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/micheas/6.json",
+      "latin": "https://latinprayer.org/latin/micheas/6.json"
+    }
+  },
+  "citation": "Micha 6 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Höret doch, was der HERR gesprochen hat: »Auf! Erhebe die Anklage angesichts der Berge und laß die Anhöhen deine Stimme vernehmen!«",
+      "citation": "Micha 6:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Höret, ihr Berge, die Anklage des HERRN und merkt auf, ihr Grundfesten der Erde! Denn einen Rechtsstreit hat der HERR mit seinem Volke, und mit Israel will er sich auseinandersetzen:",
+      "citation": "Micha 6:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "»Mein Volk, was habe ich dir zuleide getan und womit dich gekränkt? Lege Zeugnis gegen mich ab!",
+      "citation": "Micha 6:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ich habe dich doch aus dem Lande Ägypten hergeführt und dich aus dem Diensthause freigemacht, ich habe Mose, Aaron und Mirjam (als Führer) vor dir hergehen lassen.",
+      "citation": "Micha 6:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Mein Volk, denke doch daran, was Balak, der Moabiterkönig, im Sinn gehabt und was Bileam, der Sohn Beors, ihm geantwortet hat, und an die Ereignisse auf dem Zuge von Sittim bis Gilgal, damit du die Gnadenerweise des HERRN erkennst!«",
+      "citation": "Micha 6:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "»Womit soll ich vor den HERRN treten, mich beugen vor dem Gott der Höhe? Soll ich mit Brandopfertieren vor ihn treten, mit einjährigen Kälbern?",
+      "citation": "Micha 6:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Hat der HERR Wohlgefallen an Tausenden von Widdern, an Zehntausenden von Bächen Öls? Oder soll ich meinen Erstgeborenen als Schuldopfer für mich hingeben, die Frucht meines Leibes als Sündopfer für mein Leben?«",
+      "citation": "Micha 6:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Er hat dir kundgetan, o Mensch, was gut ist; und was fordert der HERR anderes von dir, als Gerechtigkeit zu üben und dich der Liebe zu befleißigen und demütig zu wandeln mit deinem Gott?",
+      "citation": "Micha 6:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Horch! Der HERR ruft der Stadt zu – und Weisheit ist es, deinen Namen zu fürchten –; vernehmt (Landvolk und Stadtgemeinde) die Zuchtrute und den, der sie bestellt hat!",
+      "citation": "Micha 6:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "»Ist immer noch unrecht erworbenes Gut im Hause des Gottlosen und das fluchwürdige, schwindsüchtige Getreidemaß?",
+      "citation": "Micha 6:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Kann ich Straflosigkeit üben bei unrichtiger Waage und bei einem Beutel mit falschen Gewichtstücken?",
+      "citation": "Micha 6:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Die Reichen in der Stadt sind voll von Gewalttätigkeit, ihre Bewohner reden Lügen, und ihre Zunge ist Trug in ihrem Munde.",
+      "citation": "Micha 6:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "So will denn auch ich dir unheilbar tiefe Wunden schlagen, dich vernichten um deiner Sünden willen:",
+      "citation": "Micha 6:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "du sollst essen, aber nicht satt werden, so daß dein Hunger ungestillt bleibt; schaffst du etwas beiseite, so sollst du es doch nicht retten, und was du gerettet hast, das will ich dem Schwerte preisgeben.",
+      "citation": "Micha 6:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Du wirst säen, aber nicht ernten, wirst Oliven pressen, aber mit Öl dich nicht salben, und Trauben keltern, aber keinen Wein davon trinken.",
+      "citation": "Micha 6:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Denn du hast die Lehren Omris befolgt und das ganze Treiben des Hauses Ahabs; und ihr seid nach ihren Ratschlägen gewandelt, damit ich dich zum abschreckenden Beispiel mache und deine Bewohnerschaft zum Gespött, und damit ihr den Hohn der Völker tragt!«",
+      "citation": "Micha 6:16 (Menge)"
+    }
+  ]
+}

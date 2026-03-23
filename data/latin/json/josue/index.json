@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joshua — 19 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joshua",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 19
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/josue/index.json",
+      "german": "https://latinprayer.org/bibel/josue/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/josue/1",
+      "jsonUrl": "https://latinprayer.org/latin/josue/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/latin/josue/2",
+      "jsonUrl": "https://latinprayer.org/latin/josue/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/latin/josue/3",
+      "jsonUrl": "https://latinprayer.org/latin/josue/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/latin/josue/4",
+      "jsonUrl": "https://latinprayer.org/latin/josue/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/latin/josue/5",
+      "jsonUrl": "https://latinprayer.org/latin/josue/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 27,
+      "url": "https://latinprayer.org/latin/josue/6",
+      "jsonUrl": "https://latinprayer.org/latin/josue/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/latin/josue/7",
+      "jsonUrl": "https://latinprayer.org/latin/josue/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/josue/8",
+      "jsonUrl": "https://latinprayer.org/latin/josue/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 27,
+      "url": "https://latinprayer.org/latin/josue/9",
+      "jsonUrl": "https://latinprayer.org/latin/josue/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 44,
+      "url": "https://latinprayer.org/latin/josue/10",
+      "jsonUrl": "https://latinprayer.org/latin/josue/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/josue/11",
+      "jsonUrl": "https://latinprayer.org/latin/josue/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/latin/josue/12",
+      "jsonUrl": "https://latinprayer.org/latin/josue/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/latin/josue/13",
+      "jsonUrl": "https://latinprayer.org/latin/josue/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/josue/14",
+      "jsonUrl": "https://latinprayer.org/latin/josue/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 63,
+      "url": "https://latinprayer.org/latin/josue/15",
+      "jsonUrl": "https://latinprayer.org/latin/josue/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 10,
+      "url": "https://latinprayer.org/latin/josue/16",
+      "jsonUrl": "https://latinprayer.org/latin/josue/16.json"
+    },
+    {
+      "chapter": 17,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/josue/17",
+      "jsonUrl": "https://latinprayer.org/latin/josue/17.json"
+    },
+    {
+      "chapter": 18,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/latin/josue/18",
+      "jsonUrl": "https://latinprayer.org/latin/josue/18.json"
+    },
+    {
+      "chapter": 19,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/latin/josue/19",
+      "jsonUrl": "https://latinprayer.org/latin/josue/19.json"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 126 — 6 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 126,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/125.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/127.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/126.json",
+      "latin": "https://latinprayer.org/latin/psalms/126.json"
+    }
+  },
+  "citation": "Psalmen 126 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Wallfahrtslied</em>. Als der HERR einst Zions Mißgeschick wandte, da war’s uns, als träumten wir.",
+      "citation": "Psalmen 126:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Damals war unser Mund voll Lachens und unsre Zunge voll Jubels; damals sagte man unter den Heiden: »Der HERR hat Großes an ihnen getan!«",
+      "citation": "Psalmen 126:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ja, Großes hatte der HERR an uns getan: wie waren wir fröhlich!",
+      "citation": "Psalmen 126:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wende, o HERR, unser Mißgeschick gleich den Bächen im Mittagsland!",
+      "citation": "Psalmen 126:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Die mit Tränen säen, werden mit Jubel ernten.",
+      "citation": "Psalmen 126:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Wohl schreitet man weinend dahin, wenn man trägt den Samen zur Aussaat; doch jubelnd kehrt man heim, mit Garben beladen.",
+      "citation": "Psalmen 126:6 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 91 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 91,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/90.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/92.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/91.json",
+      "german": "https://latinprayer.org/bibel/psalms/91.json"
+    }
+  },
+  "citation": "Psalms 91 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The praise of a canticle for David. He that dwelleth in the aid of the most High, shall abide under the protection of the God of Jacob.",
+      "citation": "Psalms 91:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "A psalm of a canticle on the sabbath day.",
+      "citation": "Psalms 91:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "He shall say to the Lord: Thou art my protector, and my refuge: my God, in him will I trust.",
+      "citation": "Psalms 91:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For he hath delivered me from the snare of the hunters: and from the sharp word.",
+      "citation": "Psalms 91:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "He will overshadow thee with his shoulders: and under his wings thou shalt trust.",
+      "citation": "Psalms 91:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "His truth shall compass thee with a shield: thou shalt not be afraid of the terror of the night.",
+      "citation": "Psalms 91:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Of the arrow that flieth in the day, of the business that walketh about in the dark: of invasion, or of the noonday devil.",
+      "citation": "Psalms 91:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "A thousand shall fall at thy side, and ten thousand at thy right hand: but it shall not come nigh thee.",
+      "citation": "Psalms 91:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But thou shalt consider with thy eyes: and shalt see the reward of the wicked.",
+      "citation": "Psalms 91:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Because thou, O Lord, art my hope: thou hast made the most High thy refuge.",
+      "citation": "Psalms 91:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "There shall no evil come to thee: nor shall the scourge come near thy dwelling.",
+      "citation": "Psalms 91:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For he hath given his angels charge over thee; to keep thee in all thy ways.",
+      "citation": "Psalms 91:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "In their hands they shall bear thee up: lest thou dash thy foot against a stone.",
+      "citation": "Psalms 91:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thou shalt walk upon the asp and the basilisk: and thou shalt trample under foot the lion and the dragon.",
+      "citation": "Psalms 91:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Because he hoped in me I will deliver him: I will protect him because he hath known my name.",
+      "citation": "Psalms 91:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "He shall cry to me, and I will hear him: I am with him in tribulation, I will deliver him, and I will glorify him.",
+      "citation": "Psalms 91:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "I will fill him with length of days; and I will shew him my salvation.",
+      "citation": "Psalms 91:16 (Douay-Rheims)"
+    }
+  ]
+}

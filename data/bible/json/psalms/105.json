@@ -1,0 +1,261 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 105 — 45 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 105,
+    "verseCount": 45,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/104.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/106.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/105.json",
+      "german": "https://latinprayer.org/bibel/psalms/105.json"
+    }
+  },
+  "citation": "Psalms 105 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Give glory to the Lord, and call upon his name: declare his deeds among the Gentiles.",
+      "citation": "Psalms 105:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Sing to him, yea sing praises to him: relate all his wondrous works.",
+      "citation": "Psalms 105:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Glory ye in his holy name: let the heart of them rejoice that seek the Lord.",
+      "citation": "Psalms 105:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Seek ye the lord, and be strengthened: seek his face evermore.",
+      "citation": "Psalms 105:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Remember his marvellous works which he hath done; his wonders, and the judgments of his mouth.",
+      "citation": "Psalms 105:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "O ye seed of Abraham his servant; ye sons of Jacob his chosen.",
+      "citation": "Psalms 105:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "He is the Lord our God: his judgments are in all the earth.",
+      "citation": "Psalms 105:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He hath remembered his covenant for ever: the word which he commanded to a thousand generations.",
+      "citation": "Psalms 105:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Which he made to Abraham; and his oath to Isaac:",
+      "citation": "Psalms 105:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And he appointed the same to Jacob for a law, and to Israel for an everlasting testament:",
+      "citation": "Psalms 105:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Saying: To thee will I give the land of Chanaan, the lot of your inheritance.",
+      "citation": "Psalms 105:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "When they were but a small number: yea very few, and sojourners therein:",
+      "citation": "Psalms 105:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And they passed from nation to nation, and from one kingdom to another people.",
+      "citation": "Psalms 105:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "He suffered no man to hurt them: and he reproved kings for their sakes.",
+      "citation": "Psalms 105:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Touch ye not my anointed: and do no evil to my prophets.",
+      "citation": "Psalms 105:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And he called a famine upon the land: and he broke in pieces all the support of bread.",
+      "citation": "Psalms 105:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "He sent a man before them: Joseph, who was sold for a slave.",
+      "citation": "Psalms 105:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "They humbled his feet in fetters: the iron pierced his soul,",
+      "citation": "Psalms 105:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Until his word came. The word of the Lord inflamed him.",
+      "citation": "Psalms 105:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The king sent, and he released him: the ruler of the people, and he set him at liberty.",
+      "citation": "Psalms 105:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "He made him master of his house, and ruler of all his possession.",
+      "citation": "Psalms 105:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "That he might instruct his princes as himself, and teach his ancients wisdom.",
+      "citation": "Psalms 105:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And Israel went into Egypt: and Jacob was a sojourner in the land of Cham.",
+      "citation": "Psalms 105:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And he increased his people exceedingly: and strengthened them over their enemies.",
+      "citation": "Psalms 105:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "He turned their heart to hate his people: and to deal deceitfully with his servants.",
+      "citation": "Psalms 105:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "He sent Moses his servant: Aaron the man whom he had chosen.",
+      "citation": "Psalms 105:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "He gave them power to shew them signs, and his wonders in the land of Cham.",
+      "citation": "Psalms 105:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "He sent darkness, and made it obscure: and grieved not his words.",
+      "citation": "Psalms 105:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "He turned their waters into blood, and destroyed their fish.",
+      "citation": "Psalms 105:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Their land brought forth frogs, in the inner chambers of their kings.",
+      "citation": "Psalms 105:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "He spoke, and there came divers sorts of flies and sciniphs in all their coasts.",
+      "citation": "Psalms 105:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "He gave them hail for rain, a burning fire in the land.",
+      "citation": "Psalms 105:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And he destroyed their vineyards and their fig trees: and he broke in pieces the trees of their coasts.",
+      "citation": "Psalms 105:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "He spoke, and the locust came, and the bruchus, of which there was no number.",
+      "citation": "Psalms 105:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And they devoured all the grass in their land, and consumed all the fruit of their ground.",
+      "citation": "Psalms 105:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And he slew all the firstborn in their land: the firstfruits of all their labour.",
+      "citation": "Psalms 105:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And he brought them out with silver and gold: and there was not among their tribes one that was feeble.",
+      "citation": "Psalms 105:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Egypt was glad when they departed: for the fear of them lay upon them.",
+      "citation": "Psalms 105:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "He spread a cloud for their protection, and fire to give them light in the night.",
+      "citation": "Psalms 105:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "They asked, and the quail came: and he filled them with the bread of heaven.",
+      "citation": "Psalms 105:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "He opened the rock, and waters flowed: rivers ran down in the dry land.",
+      "citation": "Psalms 105:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "Because he remembered his holy word, which he had spoken to his servant Abraham.",
+      "citation": "Psalms 105:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And he brought forth his people with joy, and his chosen with gladness.",
+      "citation": "Psalms 105:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "And he gave them the lands of the Gentiles: and they possessed the labours of the people:",
+      "citation": "Psalms 105:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "That they might observe his justifications, and seek after his law.",
+      "citation": "Psalms 105:45 (Douay-Rheims)"
+    }
+  ]
+}

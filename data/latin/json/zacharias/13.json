@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Zechariah, Chapter 13 — 9 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Zechariah",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 13,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/zacharias/12.json",
+      "nextChapter": "https://latinprayer.org/latin/zacharias/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/zacharias/13.json",
+      "german": "https://latinprayer.org/bibel/zacharias/13.json"
+    }
+  },
+  "citation": "Zechariah 13 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in die illa erit fons patens domus David et habitantibus Hierusalem in ablutionem peccatoris et menstruatae",
+      "citation": "Zechariah 13:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et erit in die illa dicit Dominus exercituum disperdam nomina idolorum de terra et non memorabuntur ultra et prophetas et spiritum inmundum auferam de terra",
+      "citation": "Zechariah 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et erit cum prophetaverit quispiam ultra dicent ei pater eius et mater eius qui genuerunt eum non vives quia mendacium locutus es in nomine Domini et configent eum pater eius et mater eius genitores eius cum prophetaverit",
+      "citation": "Zechariah 13:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et erit in die illa confundentur prophetae unusquisque ex visione sua cum prophetaverit nec operientur pallio saccino ut mentiantur",
+      "citation": "Zechariah 13:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "sed dicet non sum propheta homo agricola ego sum quoniam Adam exemplum meum ab adulescentia mea",
+      "citation": "Zechariah 13:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et dicetur ei quid sunt plagae istae in medio manuum tuarum et dicet his plagatus sum in domo eorum qui diligebant me",
+      "citation": "Zechariah 13:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "framea suscitare super pastorem meum et super virum coherentem mihi dicit Dominus exercituum percute pastorem et dispergantur oves et convertam manum meam ad parvulos",
+      "citation": "Zechariah 13:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et erunt in omni terra dicit Dominus partes duae in ea disperdentur et deficient et tertia pars relinquetur in ea",
+      "citation": "Zechariah 13:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et ducam tertiam partem per ignem et uram eas sicut uritur argentum et probabo eos sicut probatur aurum ipse vocabit nomen meum et ego exaudiam eum dicam populus meus es et ipse dicet Dominus Deus meus",
+      "citation": "Zechariah 13:9 (Clementine Vulgate)"
+    }
+  ]
+}

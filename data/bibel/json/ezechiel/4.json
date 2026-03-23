@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hesekiel, Chapter 4 — 17 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hesekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 4,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ezechiel/3.json",
+      "nextChapter": "https://latinprayer.org/bibel/ezechiel/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ezechiel/4.json",
+      "latin": "https://latinprayer.org/latin/ezechiel/4.json"
+    }
+  },
+  "citation": "Hesekiel 4 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Du aber, Menschensohn, nimm dir einen Ziegelstein, lege ihn vor dich hin und ritze auf ihm eine Stadt ein, nämlich Jerusalem.",
+      "citation": "Hesekiel 4:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Dann eröffne die Belagerung gegen sie: errichte Belagerungswerke gegen sie, schütte gegen sie einen Wall auf, schlage Heerlager gegen sie auf und stelle Sturmböcke ringsum gegen sie auf.",
+      "citation": "Hesekiel 4:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Darauf hole dir eine eiserne Platte und stelle sie als eiserne Mauer zwischen dich und die Stadt hin; dann richte deine Blicke unverwandt gegen sie: so soll sie sich im Belagerungszustand befinden, und du sollst sie belagern: ein Wahrzeichen soll dies für das Haus Israel sein!«",
+      "citation": "Hesekiel 4:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "»Sodann lege du dich auf deine linke Seite und trage die Verschuldung des Hauses Israel auf ihr; nach der Zahl der Tage, die du auf ihr liegst, sollst du ihre Verschuldung tragen.",
+      "citation": "Hesekiel 4:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ich aber will dir die Jahre ihrer Verschuldung in einer gleichgroßen Anzahl von Tagen auflegen, nämlich 390 Tage: so lange sollst du die Verschuldung des Hauses Israel tragen.",
+      "citation": "Hesekiel 4:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Wenn du dann mit diesen Tagen zu Ende bist, so lege dich zum zweitenmal auf deine rechte Seite und trage die Verschuldung des Hauses Juda vierzig Tage lang: für jedes Jahr lege ich dir einen Tag auf.",
+      "citation": "Hesekiel 4:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Dabei sollst du deine Blicke und deinen entblößten Arm unverwandt auf die Belagerung Jerusalems richten und gegen die Stadt weissagen.",
+      "citation": "Hesekiel 4:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Und wisse wohl: ich will dir Fesseln anlegen, daß du dich nicht von einer Seite auf die andere umwenden kannst, bis du mit den Tagen deiner Belagerung zu Ende bist.«",
+      "citation": "Hesekiel 4:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "»Du aber nimm dir Weizen und Gerste, Bohnen und Linsen, Hirse und Spelt, tu sie zusammen in ein einziges Gefäß und bereite dir Brot daraus nach der Zahl der Tage, während derer du auf deiner Seite liegen mußt: 390 Tage lang sollst du das essen;",
+      "citation": "Hesekiel 4:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "und zwar soll die Speise, die du zu dir nimmst, abgewogen täglich zwanzig Schekel betragen, und du sollst sie auf mehrere Mahlzeiten verteilen.",
+      "citation": "Hesekiel 4:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Auch das Wasser sollst du abgemessen trinken, jedesmal ein Sechstel Hin; auch dieses sollst du in Zwischenräumen genießen.",
+      "citation": "Hesekiel 4:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Und zwar sollst du (das Brot) wie Gerstenbrotkuchen zubereitet essen und diese vor ihren Augen auf Ballen von Menschenkot backen.",
+      "citation": "Hesekiel 4:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "(Und du sollst sagen:) ›So hat der HERR gesprochen: Ebenso sollen die Kinder Israel ihr Brot unrein essen unter den Heidenvölkern, unter die ich sie verstoßen werde.‹«",
+      "citation": "Hesekiel 4:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Da entgegnete ich: »Ach, HERR, mein Gott! Siehe, mein Inneres ist noch niemals durch Unreines befleckt worden, und von verendeten oder zerrissenen Tieren habe ich seit meiner Jugend bis jetzt niemals etwas genossen, und abscheuliches Fleisch ist noch nie in meinen Mund gekommen.«",
+      "citation": "Hesekiel 4:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Da antwortete er mir: »Nun gut! Ich will dir Rindermist statt des Menschenkotes gestatten: auf diesem magst du das Brot für dich bereiten.«",
+      "citation": "Hesekiel 4:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Dann fuhr er fort: »Menschensohn, wisse wohl: ich will den Stab des Brotes in Jerusalem zerbrechen, so daß sie das Brot abgewogen und mit Angst essen müssen und das Wasser abgemessen und mit Entsetzen trinken,",
+      "citation": "Hesekiel 4:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "weil es ihnen an Brot und Wasser mangeln soll und damit sie einer wie der andere verzweifeln und infolge ihrer Verschuldung verschmachten.«",
+      "citation": "Hesekiel 4:17 (Menge)"
+    }
+  ]
+}

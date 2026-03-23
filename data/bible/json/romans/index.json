@@ -1,0 +1,123 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Romans — 16 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 52,
+      "totalChapters": 16
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/romans/index.json",
+      "german": "https://latinprayer.org/bibel/romans/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/bible/romans/1",
+      "jsonUrl": "https://latinprayer.org/bible/romans/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bible/romans/2",
+      "jsonUrl": "https://latinprayer.org/bible/romans/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/bible/romans/3",
+      "jsonUrl": "https://latinprayer.org/bible/romans/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/bible/romans/4",
+      "jsonUrl": "https://latinprayer.org/bible/romans/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bible/romans/5",
+      "jsonUrl": "https://latinprayer.org/bible/romans/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/bible/romans/6",
+      "jsonUrl": "https://latinprayer.org/bible/romans/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/bible/romans/7",
+      "jsonUrl": "https://latinprayer.org/bible/romans/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 39,
+      "url": "https://latinprayer.org/bible/romans/8",
+      "jsonUrl": "https://latinprayer.org/bible/romans/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/bible/romans/9",
+      "jsonUrl": "https://latinprayer.org/bible/romans/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bible/romans/10",
+      "jsonUrl": "https://latinprayer.org/bible/romans/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/bible/romans/11",
+      "jsonUrl": "https://latinprayer.org/bible/romans/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bible/romans/12",
+      "jsonUrl": "https://latinprayer.org/bible/romans/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bible/romans/13",
+      "jsonUrl": "https://latinprayer.org/bible/romans/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/bible/romans/14",
+      "jsonUrl": "https://latinprayer.org/bible/romans/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/bible/romans/15",
+      "jsonUrl": "https://latinprayer.org/bible/romans/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 27,
+      "url": "https://latinprayer.org/bible/romans/16",
+      "jsonUrl": "https://latinprayer.org/bible/romans/16.json"
+    }
+  ]
+}

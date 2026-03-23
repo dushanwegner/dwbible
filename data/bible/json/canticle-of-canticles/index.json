@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Canticle of Canticles — 8 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Canticle of Canticles",
+      "slug": "canticle-of-canticles",
+      "testament": "OT",
+      "order": 24,
+      "totalChapters": 8
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/canticle-of-canticles/index.json",
+      "german": "https://latinprayer.org/bibel/canticle-of-canticles/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/bible/canticle-of-canticles/1",
+      "jsonUrl": "https://latinprayer.org/bible/canticle-of-canticles/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bible/canticle-of-canticles/2",
+      "jsonUrl": "https://latinprayer.org/bible/canticle-of-canticles/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/bible/canticle-of-canticles/3",
+      "jsonUrl": "https://latinprayer.org/bible/canticle-of-canticles/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/bible/canticle-of-canticles/4",
+      "jsonUrl": "https://latinprayer.org/bible/canticle-of-canticles/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/bible/canticle-of-canticles/5",
+      "jsonUrl": "https://latinprayer.org/bible/canticle-of-canticles/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 12,
+      "url": "https://latinprayer.org/bible/canticle-of-canticles/6",
+      "jsonUrl": "https://latinprayer.org/bible/canticle-of-canticles/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bible/canticle-of-canticles/7",
+      "jsonUrl": "https://latinprayer.org/bible/canticle-of-canticles/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bible/canticle-of-canticles/8",
+      "jsonUrl": "https://latinprayer.org/bible/canticle-of-canticles/8.json"
+    }
+  ]
+}

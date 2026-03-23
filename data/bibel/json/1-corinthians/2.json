@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Korinther, Chapter 2 — 16 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Korinther",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 53,
+      "totalChapters": 16
+    },
+    "chapter": 2,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-corinthians/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-corinthians/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-corinthians/2.json",
+      "latin": "https://latinprayer.org/latin/1-corinthians/2.json"
+    }
+  },
+  "citation": "1 Korinther 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "So bin denn auch ich, als ich zu euch kam, liebe Brüder, nicht in der Absicht gekommen, euch mit überwältigender Redekunst oder Weisheit das Zeugnis Gottes zu verkündigen;",
+      "citation": "1 Korinther 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "nein, ich hatte mir vorgenommen, kein anderes Wissen bei euch zu zeigen als das von Jesus Christus, und zwar dem Gekreuzigten.",
+      "citation": "1 Korinther 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dabei trat ich mit (dem Gefühl der) Schwachheit und mit Furcht und großer Ängstlichkeit bei euch auf,",
+      "citation": "1 Korinther 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "und meine Rede und meine Predigt erfolgte nicht mit eindrucksvollen Weisheitsworten, sondern mit dem Ausweis von Geist und Kraft;",
+      "citation": "1 Korinther 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "denn euer Glaube sollte nicht auf Menschenweisheit, sondern auf Gotteskraft beruhen.",
+      "citation": "1 Korinther 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Was wir aber vortragen, ist dennoch Weisheit – bei den Vollkommenen, jedoch nicht die Weisheit dieser Weltzeit, auch nicht die der Machthaber dieser Weltzeit, die dem Untergang verfallen:",
+      "citation": "1 Korinther 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "nein, wir tragen Gottes geheimnisvolle, verborgene Weisheit vor, die Gott vor allen Weltzeiten zu unserer Verherrlichung vorherbestimmt hat.",
+      "citation": "1 Korinther 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Diese (Weisheit) hat keiner von den Machthabern dieser Weltzeit erkannt; denn hätten sie sie erkannt, so hätten sie den Herrn der Herrlichkeit nicht ans Kreuz geschlagen;",
+      "citation": "1 Korinther 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "vielmehr (predigen wir so), wie geschrieben steht: »Was kein Auge gesehen und kein Ohr gehört hat und wovon keines Menschen Herz eine Ahnung gehabt hat, nämlich das, was Gott denen bereitet hat, die ihn lieben.«",
+      "citation": "1 Korinther 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Uns aber hat Gott dies durch den Geist geoffenbart; denn der Geist erforscht alles, selbst die Tiefen Gottes.",
+      "citation": "1 Korinther 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Denn wer von den Menschen kennt das innere Wesen eines Menschen? Doch nur der Geist, der in dem betreffenden Menschen wohnt. Ebenso hat auch niemand das innere Wesen Gottes erkannt als nur der Geist Gottes.",
+      "citation": "1 Korinther 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wir aber haben nicht den Geist der Welt empfangen, sondern den Geist, der aus Gott ist, um das zu erkennen, was uns von Gott aus Gnaden geschenkt worden ist.",
+      "citation": "1 Korinther 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Und davon reden wir auch, (aber) nicht mit Worten, wie menschliche Weisheit sie lehrt, sondern mit solchen, wie der Geist sie lehrt, indem wir geistgewirkten Inhalt mit geistgewirkter Sprache verbinden.",
+      "citation": "1 Korinther 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Der seelische Mensch aber nimmt nichts an, was vom Geiste Gottes kommt, denn es gilt ihm als Torheit, und er ist nicht imstande, es zu verstehen, weil es geistlich beurteilt werden muß.",
+      "citation": "1 Korinther 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Der Geistesmensch dagegen beurteilt alles zutreffend, während er selbst von niemand zutreffend beurteilt wird.",
+      "citation": "1 Korinther 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "»Denn wer hat den Sinn des Herrn erkannt, daß er ihn unterweisen könnte?« Wir aber haben den Sinn Christi.",
+      "citation": "1 Korinther 2:16 (Menge)"
+    }
+  ]
+}

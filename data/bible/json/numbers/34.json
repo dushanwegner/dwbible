@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 34 — 29 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 34,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/numbers/33.json",
+      "nextChapter": "https://latinprayer.org/bible/numbers/35.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/numbers/34.json",
+      "german": "https://latinprayer.org/bibel/numbers/34.json"
+    }
+  },
+  "citation": "Numbers 34 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 34:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Command the children of Israel, and thou shalt say to them: When you are entered into the land of Chanaan, and it shall be fallen into your possession by lot, it shall be bounded by these limits:",
+      "citation": "Numbers 34:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The south side shall begin from the wilderness of Sin, which is by Edom: and shall have the most salt sea for its furthest limits eastward:",
+      "citation": "Numbers 34:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Which limits shall go round on the south side by the ascent of the Scorpion and so into Senna, and reach toward the south as far as Cadesbarne, from whence the frontiers shall go out to the town called Adar, and shall reach as far as Asemona.",
+      "citation": "Numbers 34:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the limits shall fetch a compass from Asemona to the torrent of Egypt, and shall end in the shore of the great sea.",
+      "citation": "Numbers 34:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the west side shall begin from the great sea, and the same shall be the end thereof.",
+      "citation": "Numbers 34:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But toward the north side the borders shall begin from the great sea, reaching to the most high mountain,",
+      "citation": "Numbers 34:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "From which they shall come to Emath, as far as the borders of Sedada:",
+      "citation": "Numbers 34:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the limits shall go as far as Zephrona, and the village of Enan. These shall be the borders on the north side.",
+      "citation": "Numbers 34:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "From thence they shall mark out the grounds towards the east side from the village of Enan unto Sephama.",
+      "citation": "Numbers 34:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And from Sephama the bounds shall go down to Rebla over against the fountain of Daphnis: from thence they shall come eastward to the sea of Cenereth,",
+      "citation": "Numbers 34:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And shall reach as far as the Jordan, and at the last shall be closed in by the most salt sea. This shall be your land with its borders round about.",
+      "citation": "Numbers 34:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And Moses commanded the children of Israel, saying: This shall be the land which you shall possess by lot, and which the Lord hath commanded to be given to the nine tribes, and to the half tribe.",
+      "citation": "Numbers 34:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For the tribe of the children of Ruben by their families, and the tribe of the children of Gad according to the number of their kindreds, and half of the tribe of Manasses,",
+      "citation": "Numbers 34:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "That is, two tribes and a half, have received their portion beyond the Jordan over against Jericho at the east side.",
+      "citation": "Numbers 34:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And the Lord said to Moses:",
+      "citation": "Numbers 34:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "These are the names of the men, that shall divide the land unto you: Eleazar the priest, and Josue the son of Nun,",
+      "citation": "Numbers 34:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And one prince of every tribe,",
+      "citation": "Numbers 34:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Whose names are these: Of the tribe of Juda, Caleb the son of Jephone.",
+      "citation": "Numbers 34:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Of the tribe of Simeon, Samuel the son of Ammiud.",
+      "citation": "Numbers 34:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Of the tribe of Benjamin, Elidad the son of Chaselon.",
+      "citation": "Numbers 34:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Of the tribe of the children of Dan, Bocci the son of Jogli.",
+      "citation": "Numbers 34:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Of the children of Joseph of the tribe of Manasses, Hanniel the son of Ephod.",
+      "citation": "Numbers 34:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Of the tribe of Ephraim, Camuel the son of Sephtan.",
+      "citation": "Numbers 34:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Of the tribe of Zabulon, Elisaphan the son of Pharnach.",
+      "citation": "Numbers 34:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Of the tribe of Issachar, Phaltiel the prince, the son of Ozan.",
+      "citation": "Numbers 34:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Of the tribe of Aser, Ahiud the son of Salomi.",
+      "citation": "Numbers 34:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Of the tribe of Nephtali: Phedael the son of Ammiud.",
+      "citation": "Numbers 34:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "These are they Whom the Lord hath commanded to divide the land of Chanaan to the children of Israel.",
+      "citation": "Numbers 34:29 (Douay-Rheims)"
+    }
+  ]
+}

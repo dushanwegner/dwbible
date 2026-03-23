@@ -1,0 +1,221 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 69 — 37 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 69,
+    "verseCount": 37,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/68.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/70.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/69.json",
+      "latin": "https://latinprayer.org/latin/psalms/69.json"
+    }
+  },
+  "citation": "Psalmen 69 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, nach (der Singweise = Melodie) »Lilien«, von David.</em>",
+      "citation": "Psalmen 69:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Hilf mir, o Gott, denn die Wasser gehen mir bis ans Leben!",
+      "citation": "Psalmen 69:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ich versinke im tiefen Schlamm, wo kein Grund ist; in Wassertiefen bin ich geraten, und die Flut überströmt mich.",
+      "citation": "Psalmen 69:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Müde bin ich von (allem) Schreien, meine Kehle ist heiser; erloschen sind mir die Augen, während ich harre auf meinen Gott.",
+      "citation": "Psalmen 69:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Größer als die Zahl der Haare auf meinem Haupt ist die Zahl derer, die ohne Ursach’ mich hassen; mächtig sind meine Gegner, die ohne Grund mich befeinden: wo ich gar nicht geraubt, da soll Ersatz ich leisten!",
+      "citation": "Psalmen 69:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Du, o Gott, du weißt um meine Torheit, und meine Vergehen sind dir nicht verborgen.",
+      "citation": "Psalmen 69:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Laß nicht enttäuscht an mir werden, die auf dich hoffen, o Gott, o HERR der Heerscharen! Laß nicht beschämt an mir werden, die dich, Gott Israels, suchen!",
+      "citation": "Psalmen 69:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Denn um deinetwillen trage ich Schmach, (für dich) bedeckt Beschämung mein Antlitz;",
+      "citation": "Psalmen 69:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "ein Fremdling bin ich meinen Brüdern geworden und unbekannt den Söhnen meiner Mutter.",
+      "citation": "Psalmen 69:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Denn der Eifer um dein Haus hat mich verzehrt, und die Schmähungen derer, die dich schmähen, haben mich getroffen.",
+      "citation": "Psalmen 69:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Ich weinte und kasteite mich durch Fasten, doch es brachte mir nur Beschimpfung ein;",
+      "citation": "Psalmen 69:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "als ein Trauergewand zu meinem Kleid ich machte, da wurde ich ihnen zum Spottlied;",
+      "citation": "Psalmen 69:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "es schwatzten von mir die Leute auf dem Markt, und Schmachlieder sangen von mir die Zecher beim Wein.",
+      "citation": "Psalmen 69:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ich aber richte mein Gebet an dich, o HERR, zur Zeit, da dir es wohlgefällig ist; o Gott, nach deiner großen Gnade erhöre mich, nach deiner heilspendenden Treue!",
+      "citation": "Psalmen 69:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Zieh mich heraus aus dem Schlamm, daß ich nicht versinke, laß Rettung mich finden von meinen Hassern und aus den Wassertiefen!",
+      "citation": "Psalmen 69:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Laß die Wasserflut mich nicht überströmen und die Tiefe mich nicht verschlingen und den Abgrund seinen Schlund nicht über mir schließen!",
+      "citation": "Psalmen 69:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Erhöre mich, HERR, denn deine Güte ist köstlich! Nach deinem großen Erbarmen wende dich mir zu",
+      "citation": "Psalmen 69:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "und verbirg dein Angesicht nicht vor deinem Knecht, denn ich bin in Not: erhöre mich eiligst!",
+      "citation": "Psalmen 69:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Nahe dich meiner Seele, erlöse sie, um meiner Feinde willen mach mich frei!",
+      "citation": "Psalmen 69:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Du weißt um meine Schmach, um meine Schande und Beschimpfung; meine Feinde sind alle dir wohlbekannt.",
+      "citation": "Psalmen 69:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Die Schmach hat mir das Herz gebrochen, so daß ich verzweifle; ich hoffte auf Mitleid, aber vergebens, und auf Tröster, doch ich habe keine gefunden;",
+      "citation": "Psalmen 69:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "nein, sie haben mir Gift in die Speise getan und Essig mich trinken lassen für meinen Durst.",
+      "citation": "Psalmen 69:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Möge ihr Tisch vor ihnen zum Fangnetz werden und ihnen, den Sichren, zum Fallstrick!",
+      "citation": "Psalmen 69:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Laß ihre Augen dunkel werden, daß sie nicht sehen, und ihre Hüften laß immerdar wanken!",
+      "citation": "Psalmen 69:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Gieße über sie deinen Grimm aus, und deines Zornes Glut erreiche sie!",
+      "citation": "Psalmen 69:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Ihre Behausung müsse zur Öde werden, in ihren Zelten kein Bewohner sein!",
+      "citation": "Psalmen 69:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Denn den du selbst geschlagen hast, verfolgen sie, und vom Weh der durch dich Verwundeten schwatzen sie.",
+      "citation": "Psalmen 69:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Füge noch Schuld zu ihrer Verschuldung hinzu und laß sie nicht kommen zur Gerechtigkeit vor dir!",
+      "citation": "Psalmen 69:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Sie müssen ausgelöscht werden aus dem Buche des Lebens und nicht eingeschrieben werden mit den Gerechten!",
+      "citation": "Psalmen 69:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Doch ich bin elend und schmerzbeladen: deine Hilfe, Gott, möge mich sicherstellen!",
+      "citation": "Psalmen 69:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Ich will den Namen Gottes preisen in Liedern, will hoch ihn rühmen mit Danksagung;",
+      "citation": "Psalmen 69:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "das wird dem HERRN willkommner sein als Rinder, als Farren mit Hörnern und gespaltnen Hufen.",
+      "citation": "Psalmen 69:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Wenn die Bedrückten es sehen, so werden sie sich freuen: ihr, die ihr Gott sucht: euer Herz lebe auf!",
+      "citation": "Psalmen 69:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Denn der HERR erhört die Armen, und seine Gefangenen läßt er nicht unbeachtet.",
+      "citation": "Psalmen 69:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Es mögen ihn preisen Himmel und Erde, die Meere und alles, was in ihnen sich regt!",
+      "citation": "Psalmen 69:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Denn Gott wird Zion retten und Judas Städte wieder erbaun, daß man daselbst wohne und das Land besitze;",
+      "citation": "Psalmen 69:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "und der Nachwuchs seiner Knechte wird es erben, und die seinen Namen lieben, werden darin wohnen.",
+      "citation": "Psalmen 69:37 (Menge)"
+    }
+  ]
+}

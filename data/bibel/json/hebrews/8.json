@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebräer, Chapter 8 — 13 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebräer",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 8,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/hebrews/7.json",
+      "nextChapter": "https://latinprayer.org/bibel/hebrews/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/hebrews/8.json",
+      "latin": "https://latinprayer.org/latin/hebrews/8.json"
+    }
+  },
+  "citation": "Hebräer 8 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Die Hauptsache aber bei der vorliegenden Darlegung ist folgendes: Einen solchen Hohenpriester haben wir, der sich im Himmel zur Rechten des Thrones der göttlichen Erhabenheit gesetzt hat,",
+      "citation": "Hebräer 8:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "und zwar als Verwalter des Heiligtums, nämlich des wahren Zeltes, das der Herr, nicht ein Mensch errichtet hat.",
+      "citation": "Hebräer 8:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn jeder Hohepriester wird zu dem Zweck bestellt, unblutige und blutige Opfer darzubringen; daher muß auch dieser etwas darzubringen haben.",
+      "citation": "Hebräer 8:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Befände er sich nun auf der Erde, so würde er nicht einmal Priester sein, weil hier ja bereits Priester vorhanden sind, welche die Gaben nach dem (mosaischen) Gesetz darbringen.",
+      "citation": "Hebräer 8:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Diese versehen freilich den Dienst nur an einer Nachbildung und einem Schattenbild der himmlischen Dinge entsprechend der göttlichen Weisung, die Mose erhielt, als er das Zelt herstellen sollte; denn »Gib wohl acht«, sagt der Herr zu ihm, »daß du alles nach dem Vorbild anfertigst, das dir auf dem Berge gezeigt worden ist«.",
+      "citation": "Hebräer 8:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Nun aber hat er einen um so vorzüglicheren Priesterdienst erlangt, als er auch Mittler eines besseren Bundes ist, der auf der Grundlage besserer Verheißungen festgesetzt worden ist.",
+      "citation": "Hebräer 8:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wenn nämlich jener erste (Bund) tadellos gewesen wäre, so würde nicht die Möglichkeit, einen zweiten (Bund) zu schließen, gesucht werden.",
+      "citation": "Hebräer 8:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Denn einen Tadel spricht (Gott) gegen sie (die Israeliten) aus mit den Worten: »Wisset wohl: es kommen Tage« – so lautet der Ausspruch des Herrn –, »da will ich mit dem Hause Israel und mit dem Hause Juda einen neuen Bund aufrichten,",
+      "citation": "Hebräer 8:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "nicht einen solchen Bund, wie ich ihn mit ihren Vätern damals geschlossen habe, als ich sie bei der Hand nahm, um sie aus dem Lande Ägypten wegzuführen; denn sie sind meinem Bunde nicht treu geblieben, und auch ich habe mich nicht (mehr) um sie gekümmert« – so lautet der Ausspruch des Herrn –.",
+      "citation": "Hebräer 8:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "»Nein, darin soll der Bund bestehen, den ich mit dem Hause Israel nach jenen Tagen schließen werde« – so lautet der Ausspruch des Herrn –: »Ich will meine Gesetze in ihren Sinn hineinlegen und sie ihnen ins Herz schreiben und will dann ihr Gott sein, und sie sollen mein Volk sein.",
+      "citation": "Hebräer 8:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Dann braucht niemand mehr seinem Mitbürger und niemand seinem Bruder Belehrung zu erteilen und ihm vorzuhalten: ›Lerne den Herrn kennen!‹ Denn sie werden mich allesamt kennen vom Kleinsten bis zum Größten unter ihnen.",
+      "citation": "Hebräer 8:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Denn ihren Übertretungen gegenüber werde ich Nachsicht üben und ihrer Sünden nicht mehr gedenken.«",
+      "citation": "Hebräer 8:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Indem er hier von einem »neuen« (Bunde) redet, hat er den ersten für veraltet erklärt; was aber veraltet ist und sich überlebt hat, das geht dem Untergang entgegen.",
+      "citation": "Hebräer 8:13 (Menge)"
+    }
+  ]
+}

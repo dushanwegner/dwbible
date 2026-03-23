@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sprüche, Chapter 2 — 22 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sprüche",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 2,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/proverbs/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/proverbs/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/2.json",
+      "latin": "https://latinprayer.org/latin/proverbs/2.json"
+    }
+  },
+  "citation": "Sprüche 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Mein Sohn, wenn du meine Lehren annimmst und meine Weisungen bei dir verwahrst,",
+      "citation": "Sprüche 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "indem du dein Ohr auf Weisheit lauschen läßt und dein Herz der Einsicht zuwendest,",
+      "citation": "Sprüche 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "ja, wenn du nach der Verständigkeit rufst und deine Stimme laut nach der Einsicht erschallen läßt,",
+      "citation": "Sprüche 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "wenn du nach ihr suchst wie nach Silber und ihr nachspürst wie verborgenen Schätzen:",
+      "citation": "Sprüche 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "dann wirst du die Furcht vor dem HERRN verstehen lernen und die Erkenntnis Gottes gewinnen –",
+      "citation": "Sprüche 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "denn der HERR ist’s, der Weisheit verleiht: aus seinem Munde kommt Erkenntnis und Einsicht;",
+      "citation": "Sprüche 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "er hält für die Rechtschaffenen Glück in Bereitschaft und ist ein Schild für die, welche unsträflich wandeln,",
+      "citation": "Sprüche 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "indem er die Pfade des Rechts behütet und über dem Ergehen seiner Frommen wacht –;",
+      "citation": "Sprüche 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "dann wirst du Verständnis gewinnen für Gerechtigkeit und Recht, für Rechtschaffenheit (und überhaupt) für jegliche Bahn des Guten.",
+      "citation": "Sprüche 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Denn Weisheit wird in dein Herz einziehen und Erkenntnis deiner Seele erfreulich sein;",
+      "citation": "Sprüche 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Besonnenheit wird über dich wachen und Einsicht dich behüten,",
+      "citation": "Sprüche 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "indem sie dich vor dem Wege der Bösen bewahrt, vor den Menschen, die Verkehrtes reden,",
+      "citation": "Sprüche 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "vor denen, welche die geraden Pfade verlassen, um auf den Wegen der Finsternis zu wandeln;",
+      "citation": "Sprüche 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "die ihre Freude daran haben, Böses zu verüben, und über boshafte Verkehrtheit frohlocken;",
+      "citation": "Sprüche 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "deren Pfade krumm sind und die in ihren Bahnen auf Abwege geraten –;",
+      "citation": "Sprüche 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "indem sie dich vom Eheweibe eines anderen fernhält, von der fremden Frau, die glatte Reden führt,",
+      "citation": "Sprüche 2:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "die den trauten Freund ihrer Jugend verlassen und den vor ihrem Gott geschlossenen Ehebund vergessen hat;",
+      "citation": "Sprüche 2:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "denn zum Tode sinkt ihr Pfad hinab, und zum Schattenreich (führen) ihre Bahnen;",
+      "citation": "Sprüche 2:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "keiner von denen, die zu ihr eingehen, kehrt zurück, und keiner erreicht die Pfade des Lebens –;",
+      "citation": "Sprüche 2:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "damit du auf dem Wege der Guten wandelst und die Pfade der Gerechten einhältst.",
+      "citation": "Sprüche 2:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Denn die Rechtschaffenen werden das Land bewohnen und die Unsträflichen darin übrigbleiben;",
+      "citation": "Sprüche 2:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "die Gottlosen aber werden aus dem Lande ausgerottet und die Treulosen aus ihm entwurzelt.",
+      "citation": "Sprüche 2:22 (Menge)"
+    }
+  ]
+}

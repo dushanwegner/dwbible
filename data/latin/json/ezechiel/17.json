@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezekiel, Chapter 17 — 24 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 17,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ezechiel/16.json",
+      "nextChapter": "https://latinprayer.org/latin/ezechiel/18.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ezechiel/17.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/17.json"
+    }
+  },
+  "citation": "Ezekiel 17 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et factum est verbum Domini ad me dicens",
+      "citation": "Ezekiel 17:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "fili hominis propone enigma et narra parabolam ad domum Israhel",
+      "citation": "Ezekiel 17:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dices haec dicit Dominus Deus aquila grandis magnarum alarum longo membrorum ductu plena plumis et varietate venit ad Libanum et tulit medullam cedri",
+      "citation": "Ezekiel 17:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "summitatem frondium eius avellit et transportavit eam in terram Chanaan in urbem negotiatorum posuit illam",
+      "citation": "Ezekiel 17:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et tulit de semente terrae et posuit illud in terra pro semine ut firmaret radicem super aquas multas in superficie posuit illud",
+      "citation": "Ezekiel 17:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "cumque germinasset crevit in vineam latiorem humili statura respicientibus ramis eius ad eam et radices eius sub illa erunt facta est ergo vinea et fructificavit in palmites et emisit propagines",
+      "citation": "Ezekiel 17:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et facta est aquila altera grandis magnis alis multisque plumis et ecce vinea ista quasi mittens radices suas ad eam palmites suos extendit ad illam ut inrigaret eam de areolis germinis sui",
+      "citation": "Ezekiel 17:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "in terra bona super aquas multas plantata est ut faciat frondes et portet fructum et sit in vineam grandem",
+      "citation": "Ezekiel 17:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dic haec dicit Dominus Deus ergone prosperabitur nonne radices eius evellet et fructum eius distringet et siccabit omnes palmites germinis eius et arescet et non in brachio grandi neque in populo multo ut evelleret eam radicitus",
+      "citation": "Ezekiel 17:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ecce plantata est ergone prosperabitur nonne cum tetigerit eam ventus urens siccabitur et in areis germinis sui arescet",
+      "citation": "Ezekiel 17:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et factum est verbum Domini ad me dicens",
+      "citation": "Ezekiel 17:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "dic ad domum exasperantem nescitis quid ista significent dic ecce venit rex Babylonis Hierusalem et adsumet regem et principes eius et adducet eos ad semet ipsum in Babylonem",
+      "citation": "Ezekiel 17:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et tollet de semine regni ferietque cum eo foedus et accipiet ab eo iusiurandum sed et fortes terrae tollet",
+      "citation": "Ezekiel 17:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ut sit regnum humile et non elevetur sed custodiat pactum eius et servet illud",
+      "citation": "Ezekiel 17:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "qui recedens ab eo misit nuntios ad Aegyptum ut daret sibi equos et populum multum numquid prosperabitur vel consequetur salutem qui fecit haec et qui dissolvit pactum numquid effugiet",
+      "citation": "Ezekiel 17:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "vivo ego dicit Dominus Deus quoniam in loco regis qui constituit eum regem cuius fecit irritum iuramentum et solvit pactum quod habebat cum eo in medio Babylonis morietur",
+      "citation": "Ezekiel 17:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et non in exercitu grandi neque in populo multo faciet contra eum Pharao proelium in iactu aggeris et in extructione vallorum ut interficiat animas multas",
+      "citation": "Ezekiel 17:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "spreverat enim iuramentum ut solveret foedus et ecce dedit manum suam et cum omnia haec fecerit non effugiet",
+      "citation": "Ezekiel 17:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "propterea haec dicit Dominus Deus vivo ego quoniam iuramentum quod sprevit et foedus quod praevaricatus est ponam in caput eius",
+      "citation": "Ezekiel 17:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et expandam super eum rete meum et conprehendetur sagena mea et adducam eum in Babylonem et iudicabo illum ibi in praevaricatione qua despexit me",
+      "citation": "Ezekiel 17:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et omnes profugi eius cum universo agmine gladio cadent residui autem in omnem ventum dispergentur et scietis quia ego Dominus locutus sum",
+      "citation": "Ezekiel 17:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "haec dicit Dominus Deus et sumam ego de medulla cedri sublimis et ponam de vertice ramorum eius tenerum distringam et plantabo super montem excelsum et eminentem",
+      "citation": "Ezekiel 17:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "in monte sublimi Israhel plantabo illud et erumpet in germen et faciet fructum et erit in cedrum magnam et habitabunt sub eo omnes volucres universum volatile sub umbra frondium eius nidificabit",
+      "citation": "Ezekiel 17:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et scient omnia ligna regionis quia ego Dominus humiliavi lignum sublime et exaltavi lignum humile et siccavi lignum viride et frondere feci lignum aridum ego Dominus locutus sum et feci",
+      "citation": "Ezekiel 17:24 (Clementine Vulgate)"
+    }
+  ]
+}

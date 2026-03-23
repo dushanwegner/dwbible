@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 63 — 20 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 63,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/62.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/64.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/63.json",
+      "german": "https://latinprayer.org/bibel/isaias/63.json"
+    }
+  },
+  "citation": "Isaias 63 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Who is this that cometh from Edom, with dyed garments from Bosra, this beautiful one in his robe, walking in the greatness of his strength. I, that speak justice, and am a defender to save.",
+      "citation": "Isaias 63:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Why then is thy apparel red, and thy garments like theirs that tread in the winepress?",
+      "citation": "Isaias 63:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "I have trodden the winepress alone, and of the Gentiles there is not a man with me: I have trampled on them in my indignation, and have trodden them down in my wrath, and their blood is sprinkled upon my garments, and I have stained all my apparel.",
+      "citation": "Isaias 63:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For the day of vengeance is in my heart, the year of my redemption is come.",
+      "citation": "Isaias 63:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "I looked about, and there was none to help: I sought, and there was none to give aid: and my own arm hath saved for me, and my indignation itself hath helped me.",
+      "citation": "Isaias 63:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And I have trodden down the people in my wrath, and have made them drunk in my indignation, and have brought down their strength to the earth.",
+      "citation": "Isaias 63:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "I will remember the tender mercies of the Lord, the praise of the Lord for all the things that the Lord hath bestowed upon us, and for the multitude of his good things to the house of Israel, which he hath given them according to his kindness, and according to the multitude of his mercies.",
+      "citation": "Isaias 63:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And he said: Surely they are my people, children that will not deny: so he became their saviour.",
+      "citation": "Isaias 63:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "In all their affliction he was not troubled, and the angel of his presence saved them: in his love, and in his mercy he redeemed them, and he carried them and lifted them up all the days of old.",
+      "citation": "Isaias 63:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But they provoked to wrath, and afflicted the spirit of his Holy One: and he was turned to be their enemy, and he fought against them.",
+      "citation": "Isaias 63:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And he remembered the days of old of Moses, and of his people: Where is he that brought them up out of the sea, with the shepherds of his flock? where is he that put in the midst of them the spirit of his Holy One?",
+      "citation": "Isaias 63:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "He that brought out Moses by the right hand, by the arm of his majesty: that divided the waters before them, to make himself an everlasting name.",
+      "citation": "Isaias 63:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "He that led them out through the deep, as a horse in the wilderness that stumbleth not.",
+      "citation": "Isaias 63:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "As a beast that goeth down in the field, the spirit of the Lord was their leader: so didst thou lead thy people to make thyself a glorious name.",
+      "citation": "Isaias 63:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Look down from heaven, and behold from thy holy habitation and the place of thy glory: where is thy zeal, and thy strength, the multitude of thy bowels, and of thy mercies? they have held back themselves from me.",
+      "citation": "Isaias 63:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "For thou art our father, and Abraham hath not known us, and Israel hath been ignorant of us: thou, O Lord, art our father, our redeemer, from everlasting is thy name.",
+      "citation": "Isaias 63:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Why hast thou made us to err, O Lord, from thy ways: why hast thou hardened our heart, that we should not fear thee?  return for the sake of thy servants, the tribes of thy inheritance.",
+      "citation": "Isaias 63:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "They have possessed thy holy people as nothing: our enemies have trodden down thy sanctuary.",
+      "citation": "Isaias 63:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "We are become as in the beginning, when thou didst not rule over us, and when we were not called by thy name.",
+      "citation": "Isaias 63:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "O that thou wouldst rend the heavens, and wouldst come down: the mountains would melt away at thy presence.",
+      "citation": "Isaias 63:19 (Douay-Rheims)"
+    }
+  ]
+}

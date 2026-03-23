@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 53 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 53,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/52.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/54.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/53.json",
+      "german": "https://latinprayer.org/bibel/psalms/53.json"
+    }
+  },
+  "citation": "Psalms 53 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "corrupti sunt et abominabiles facti sunt in iniquitatibus non est qui faciat bonum",
+      "citation": "Psalms 53:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "corrupti sunt et abominabiles facti sunt in iniquitate non est qui faciat bonum",
+      "citation": "Psalms 53:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Deus de caelo prospexit in filios hominum ut videat si est intellegens %aut; requirens Deum",
+      "citation": "Psalms 53:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cum venissent Ziphei et dixissent ad Saul nonne David absconditus est apud nos",
+      "citation": "Psalms 53:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Deus de caelo prospexit super filios hominum ut videret si esset intellegens requirens Deum",
+      "citation": "Psalms 53:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quando venerunt Ziphei et dixerunt Saul nonne David absconditus est apud nos",
+      "citation": "Psalms 53:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "omnes declinaverunt simul inutiles facti sunt non est qui faciat bonum non est usque ad unum",
+      "citation": "Psalms 53:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "omnes aversi sunt pariter adheserunt non est qui faciat bonum non est usque ad unum",
+      "citation": "Psalms 53:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nonne scient %omnes; qui operantur iniquitatem qui devorant plebem meam ut cibum panis",
+      "citation": "Psalms 53:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "numquid non cognoverunt qui operantur iniquitatem qui comedunt populum meum ut cibum panis",
+      "citation": "Psalms 53:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Deum non invocaverunt illic trepidabunt timore ubi non fuit timor quoniam Deus dissipavit ossa eorum qui hominibus placent confusi sunt quoniam Deus sprevit eos",
+      "citation": "Psalms 53:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Deum non invocaverunt ibi timuerunt timore ubi non est timor quoniam Deus dispersit ossa circumdantium te confunderis quia Deus proiecit eos",
+      "citation": "Psalms 53:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quis dabit ex Sion salutare Israhel dum convertit Deus captivitatem plebis suae exultabit Iacob et laetabitur Israhel",
+      "citation": "Psalms 53:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quis dabit ex Sion salutare Israhel cum reduxerit Deus captivitatem populi sui exultabit Iacob laetabitur Israhel",
+      "citation": "Psalms 53:6 (Clementine Vulgate)"
+    }
+  ]
+}

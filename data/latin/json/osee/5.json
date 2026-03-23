@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 5 — 15 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 5,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/osee/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/osee/4.json",
+      "nextChapter": "https://latinprayer.org/latin/osee/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/5.json",
+      "german": "https://latinprayer.org/bibel/osee/5.json"
+    }
+  },
+  "citation": "Hosea 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "audite hoc sacerdotes et adtendite domus Israhel et domus regis auscultate quia vobis iudicium est quoniam laqueus facti estis speculationi et rete expansum super Thabor",
+      "citation": "Hosea 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et victimas declinastis in profundum et ego eruditor omnium eorum",
+      "citation": "Hosea 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ego scio Ephraim et Israhel non est absconditus a me quia nunc fornicatus est Ephraim contaminatus est Israhel",
+      "citation": "Hosea 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "non dabunt cogitationes suas ut revertantur ad Dominum suum quia spiritus fornicationis in medio eorum et Dominum non cognoverunt",
+      "citation": "Hosea 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et respondebit arrogantia Israhel in facie eius et Israhel et Ephraim ruent in iniquitate sua ruet etiam Iudas cum eis",
+      "citation": "Hosea 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "in gregibus suis et in armentis suis vadent ad quaerendum Dominum et non invenient ablatus est ab eis",
+      "citation": "Hosea 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in Domino praevaricati sunt quia filios alienos genuerunt nunc devorabit eos mensis cum partibus suis",
+      "citation": "Hosea 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "clangite bucina in Gabaa tuba in Rama ululate in Bethaven post tergum tuum Beniamin",
+      "citation": "Hosea 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "Ephraim in desolatione erit in die correptionis in tribubus Israhel ostendi fidem",
+      "citation": "Hosea 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "facti sunt principes Iuda quasi adsumentes terminum super eos effundam quasi aquam iram meam",
+      "citation": "Hosea 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "calumniam patiens Ephraim fractus iudicio quoniam coepit abire post sordem",
+      "citation": "Hosea 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et ego quasi tinea Ephraim et quasi putredo domui Iuda",
+      "citation": "Hosea 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et vidit Ephraim languorem suum et Iudas vinculum suum et abiit Ephraim ad Assur et misit ad regem ultorem et ipse non poterit sanare vos nec solvere poterit a vobis vinculum",
+      "citation": "Hosea 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quoniam ego quasi leaena Ephraim et quasi catulus leonis domui Iuda ego ego capiam et vadam tollam et non est qui eruat",
+      "citation": "Hosea 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "vadens revertar ad locum meum donec deficiatis et quaeratis faciem meam",
+      "citation": "Hosea 5:15 (Clementine Vulgate)"
+    }
+  ]
+}

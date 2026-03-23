@@ -1,0 +1,366 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthäus, Chapter 27 — 66 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthäus",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 27,
+    "verseCount": 66,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/matthew/26.json",
+      "nextChapter": "https://latinprayer.org/bibel/matthew/28.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/27.json",
+      "latin": "https://latinprayer.org/latin/matthew/27.json"
+    }
+  },
+  "citation": "Matthäus 27 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als es hierauf Tag geworden war, faßten alle Hohenpriester und die Ältesten des Volkes einen Beschluß gegen Jesus, um seine Hinrichtung zu erreichen.",
+      "citation": "Matthäus 27:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Sie ließen ihn dann fesseln und abführen und übergaben ihn dem Statthalter Pontius Pilatus.",
+      "citation": "Matthäus 27:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Als jetzt Judas, sein Verräter, erkannte, daß er (Jesus) verurteilt worden war, bereute er seine Tat. Und er brachte die dreißig Silberstücke den Hohenpriestern und Ältesten zurück",
+      "citation": "Matthäus 27:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "mit den Worten: »Ich habe unrecht getan, daß ich unschuldiges Blut überantwortet habe!« Sie aber erwiderten: »Was geht das uns an? Da sieh du selber zu!«",
+      "citation": "Matthäus 27:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da warf er das Geld in das Tempelhaus und machte sich davon, ging hin und erhängte sich.",
+      "citation": "Matthäus 27:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Die Hohenpriester aber nahmen das Geld und sagten: »Es geht nicht an, daß wir es in den Tempelschatz tun, denn es ist Blutgeld.«",
+      "citation": "Matthäus 27:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Nachdem sie dann einen Beschluß gefaßt hatten, kauften sie für das Geld den ›Töpferacker‹ zum Begräbnisplatz für die Fremden;",
+      "citation": "Matthäus 27:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "daher führt jener Acker den Namen ›Blutacker‹ (hebräisch Hakeldama) bis auf den heutigen Tag.",
+      "citation": "Matthäus 27:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Damals erfüllte sich das Wort des Propheten Jeremia: »Sie nahmen die dreißig Silberstücke, den Geldbetrag für den so Gewerteten, auf den man von seiten der Israeliten einen solchen Preis ausgesetzt hatte,",
+      "citation": "Matthäus 27:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "und gaben sie für den Töpferacker, wie der Herr es mir geboten hatte.«",
+      "citation": "Matthäus 27:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Jesus aber wurde dem Statthalter vorgeführt, und dieser befragte ihn mit den Worten: »Bist du der König der Juden?« Jesus antwortete: »Ja, ich bin es.«",
+      "citation": "Matthäus 27:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Während er dann von den Hohenpriestern und Ältesten angeklagt wurde, gab er keine Antwort.",
+      "citation": "Matthäus 27:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Da fragte ihn Pilatus: »Hörst du nicht, was sie alles gegen dich aussagen?«",
+      "citation": "Matthäus 27:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Doch er antwortete ihm auf keine einzige Frage, so daß der Statthalter sich sehr verwunderte.",
+      "citation": "Matthäus 27:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "An jedem (Passah-) Fest aber pflegte der Statthalter dem Volke einen Gefangenen nach ihrer Wahl freizugeben.",
+      "citation": "Matthäus 27:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Man hatte aber damals einen berüchtigten Gefangenen namens Barabbas (in Haft).",
+      "citation": "Matthäus 27:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Als die Menge nun versammelt war, fragte Pilatus sie: »Wen soll ich euch freigeben, Barabbas oder Jesus, den man Christus nennt?«",
+      "citation": "Matthäus 27:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Er wußte nämlich wohl, daß sie ihn aus Neid überantwortet hatten.",
+      "citation": "Matthäus 27:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Während er aber auf dem Richterstuhl saß, schickte seine Frau zu ihm und ließ ihm sagen: »Habe du mit diesem Gerechten nichts zu schaffen! Denn ich habe heute nacht im Traum viel um seinetwillen ausgestanden.«",
+      "citation": "Matthäus 27:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Die Hohenpriester und Ältesten aber redeten auf das Volk ein, sie möchten sich den Barabbas erbitten, Jesus dagegen hinrichten lassen.",
+      "citation": "Matthäus 27:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Da richtete der Statthalter (nochmals) die Frage an sie: »Wen von den beiden soll ich euch freigeben?« Sie riefen: »Barabbas!«",
+      "citation": "Matthäus 27:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Pilatus fragte sie weiter: »Was soll ich denn mit Jesus machen, den man Christus nennt?« Sie riefen alle: »Ans Kreuz mit ihm!«",
+      "citation": "Matthäus 27:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Der Statthalter entgegnete ihnen: »Was hat er denn Böses getan?« Sie schrien nur noch lauter: »Ans Kreuz mit ihm!«",
+      "citation": "Matthäus 27:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Als nun Pilatus einsah, daß er nichts erreichte, der Lärm vielmehr immer größer wurde, ließ er sich Wasser reichen, wusch sich vor dem Volk die Hände und sagte: »Ich bin am Blut dieses Gerechten unschuldig; seht ihr zu!«",
+      "citation": "Matthäus 27:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Da antwortete das gesamte Volk mit dem Ruf: »Sein Blut (komme) über uns und über unsere Kinder!«",
+      "citation": "Matthäus 27:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Daraufhin gab er ihnen den Barabbas frei, Jesus aber ließ er geißeln und überwies ihn dann (den Soldaten) zur Kreuzigung.",
+      "citation": "Matthäus 27:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Hierauf nahmen die Soldaten des Statthalters Jesus mit sich in die Statthalterei und riefen dort die ganze Kohorte gegen ihn zusammen.",
+      "citation": "Matthäus 27:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Dann entkleideten sie ihn und legten ihm einen scharlachroten Mantel um,",
+      "citation": "Matthäus 27:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "flochten aus Dornen eine Krone, die sie ihm aufs Haupt setzten, und (gaben) ihm ein Rohr in die rechte Hand; darauf warfen sie sich vor ihm auf die Knie nieder und verhöhnten ihn mit den Worten: »Sei gegrüßt, Judenkönig!«",
+      "citation": "Matthäus 27:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Auch spien sie ihn an, nahmen das Rohr und schlugen ihn damit aufs Haupt.",
+      "citation": "Matthäus 27:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Nachdem sie ihn so verspottet hatten, nahmen sie ihm den Mantel wieder ab und legten ihm seine eigenen Kleider an; dann führten sie ihn zur Kreuzigung ab.",
+      "citation": "Matthäus 27:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Während sie aber (zur Stadt) hinauszogen, trafen sie einen Mann aus Cyrene namens Simon an; diesen zwangen sie, ihm das Kreuz zu tragen.",
+      "citation": "Matthäus 27:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Als sie dann auf einem Platz namens Golgatha, das bedeutet Schädelstätte, angekommen waren,",
+      "citation": "Matthäus 27:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "gaben sie ihm Wein zu trinken, der mit Galle vermischt war; doch als er ihn gekostet hatte, wollte er ihn nicht trinken.",
+      "citation": "Matthäus 27:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Nachdem sie ihn dann gekreuzigt hatten, verteilten sie seine Kleidungsstücke unter sich, indem sie das Los um sie warfen,",
+      "citation": "Matthäus 27:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "setzten sich hierauf nieder und bewachten ihn dort.",
+      "citation": "Matthäus 27:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "Über seinem Haupt hatten sie eine Inschrift angebracht, die seine Schuld angeben sollte; sie lautete: »Dieser ist Jesus, der König der Juden.«",
+      "citation": "Matthäus 27:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "Sodann wurden zwei Räuber mit ihm gekreuzigt, der eine zu seiner Rechten, der andere zu seiner Linken.",
+      "citation": "Matthäus 27:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Die Vorübergehenden aber schmähten ihn, wobei sie den Kopf schüttelten",
+      "citation": "Matthäus 27:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "und ausriefen: »Du wolltest ja den Tempel abbrechen und ihn in drei Tagen wieder aufbauen! Hilf dir nun selbst, wenn du Gottes Sohn bist, und steige vom Kreuz herab!«",
+      "citation": "Matthäus 27:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "Ebenso verhöhnten ihn auch die Hohenpriester samt den Schriftgelehrten und Ältesten mit den Worten:",
+      "citation": "Matthäus 27:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "»Anderen hat er geholfen, sich selber kann er nicht helfen! Er ist der König von Israel: so steige er jetzt vom Kreuz herab, dann wollen wir an ihn glauben!",
+      "citation": "Matthäus 27:42 (Menge)"
+    },
+    {
+      "verse": 43,
+      "text": "Er hat auf Gott vertraut: der rette ihn jetzt, wenn er ihm wohlwill! Er hat ja doch behauptet: ›Ich bin Gottes Sohn.‹«",
+      "citation": "Matthäus 27:43 (Menge)"
+    },
+    {
+      "verse": 44,
+      "text": "In der gleichen Weise schmähten ihn auch die Räuber, die mit ihm gekreuzigt waren.",
+      "citation": "Matthäus 27:44 (Menge)"
+    },
+    {
+      "verse": 45,
+      "text": "Aber von der sechsten Stunde an trat eine Finsternis über das ganze Land ein bis zur neunten Stunde.",
+      "citation": "Matthäus 27:45 (Menge)"
+    },
+    {
+      "verse": 46,
+      "text": "Um die neunte Stunde aber rief Jesus mit lauter Stimme aus: »Eli, Eli, lema sabachthani?«, das heißt: »Mein Gott, mein Gott, warum hast du mich verlassen?«.",
+      "citation": "Matthäus 27:46 (Menge)"
+    },
+    {
+      "verse": 47,
+      "text": "Als einige von den dort Stehenden dies hörten, sagten sie: »Der ruft den Elia!«",
+      "citation": "Matthäus 27:47 (Menge)"
+    },
+    {
+      "verse": 48,
+      "text": "Und sogleich lief einer von ihnen hin, nahm einen Schwamm, tränkte ihn mit Essig, steckte ihn an ein Rohr und wollte Jesus trinken lassen.",
+      "citation": "Matthäus 27:48 (Menge)"
+    },
+    {
+      "verse": 49,
+      "text": "Die anderen aber sagten: »Laß das! Wir wollen doch sehen, ob Elia wirklich kommt, um ihm zu helfen.«",
+      "citation": "Matthäus 27:49 (Menge)"
+    },
+    {
+      "verse": 50,
+      "text": "Jesus aber stieß noch einmal einen lauten Schrei aus und gab dann seinen Geist auf.",
+      "citation": "Matthäus 27:50 (Menge)"
+    },
+    {
+      "verse": 51,
+      "text": "Da zerriß der Vorhang im Tempel von oben bis unten in zwei Stücke, die Erde erbebte und die Felsen zersprangen,",
+      "citation": "Matthäus 27:51 (Menge)"
+    },
+    {
+      "verse": 52,
+      "text": "die Gräber taten sich auf, und viele Leiber der entschlafenen Heiligen wurden auferweckt,",
+      "citation": "Matthäus 27:52 (Menge)"
+    },
+    {
+      "verse": 53,
+      "text": "kamen nach seiner Auferstehung aus ihren Gräbern hervor, gingen in die heilige Stadt hinein und erschienen vielen.",
+      "citation": "Matthäus 27:53 (Menge)"
+    },
+    {
+      "verse": 54,
+      "text": "Als aber der Hauptmann und seine Leute, die Jesus zu bewachen hatten, das Erdbeben und was (sonst noch) geschah, sahen, gerieten sie in große Furcht und sagten: »Dieser ist wirklich Gottes Sohn gewesen!«",
+      "citation": "Matthäus 27:54 (Menge)"
+    },
+    {
+      "verse": 55,
+      "text": "Es waren dort aber auch viele Frauen zugegen, die von weitem zuschauten; sie waren Jesus aus Galiläa nachgefolgt und hatten ihm Dienste geleistet.",
+      "citation": "Matthäus 27:55 (Menge)"
+    },
+    {
+      "verse": 56,
+      "text": "Unter ihnen befanden sich Maria von Magdala und Maria, die Mutter des Jakobus und des Joseph, und die Mutter der Söhne des Zebedäus.",
+      "citation": "Matthäus 27:56 (Menge)"
+    },
+    {
+      "verse": 57,
+      "text": "Als es dann Spätnachmittag geworden war, kam ein reicher Mann von Arimathäa namens Joseph, der gleichfalls ein Jünger Jesu geworden war;",
+      "citation": "Matthäus 27:57 (Menge)"
+    },
+    {
+      "verse": 58,
+      "text": "dieser begab sich zu Pilatus und bat ihn um den Leichnam Jesu. Da gab Pilatus den Befehl, man solle ihm den Leichnam übergeben.",
+      "citation": "Matthäus 27:58 (Menge)"
+    },
+    {
+      "verse": 59,
+      "text": "Joseph nahm nun den Leichnam, wickelte ihn in reine Leinwand",
+      "citation": "Matthäus 27:59 (Menge)"
+    },
+    {
+      "verse": 60,
+      "text": "und legte ihn in das neue Grab, das er für sich selbst im Felsen hatte aushauen lassen; dann wälzte er einen großen Stein vor den Eingang des Grabes und entfernte sich.",
+      "citation": "Matthäus 27:60 (Menge)"
+    },
+    {
+      "verse": 61,
+      "text": "Es waren aber dort Maria von Magdala und die andere Maria zugegen; die saßen dem Grabe gegenüber. –",
+      "citation": "Matthäus 27:61 (Menge)"
+    },
+    {
+      "verse": 62,
+      "text": "Am nächsten Tage aber, der auf den Rüsttag folgte, versammelten sich die Hohenpriester und Pharisäer bei Pilatus",
+      "citation": "Matthäus 27:62 (Menge)"
+    },
+    {
+      "verse": 63,
+      "text": "und sagten: »Herr, es ist uns eingefallen, daß jener Betrüger bei seinen Lebzeiten angekündigt hat: ›Nach drei Tagen werde ich auferweckt.‹",
+      "citation": "Matthäus 27:63 (Menge)"
+    },
+    {
+      "verse": 64,
+      "text": "Gib also Befehl, daß das Grab bis zum dritten Tag sicher bewacht wird; sonst könnten seine Jünger kommen, könnten ihn stehlen und dann zum Volke sagen: ›Er ist von den Toten auferweckt worden‹; dann würde der letzte Betrug noch schlimmer sein als der erste.«",
+      "citation": "Matthäus 27:64 (Menge)"
+    },
+    {
+      "verse": 65,
+      "text": "Pilatus antwortete ihnen: »Ihr sollt eine Wachmannschaft haben; geht hin und verwahrt (das Grab) sicher, so gut ihr könnt!«",
+      "citation": "Matthäus 27:65 (Menge)"
+    },
+    {
+      "verse": 66,
+      "text": "Da gingen sie hin und sicherten das Grab unter Hinzuziehung der Wachmannschaft, nachdem sie den Stein versiegelt hatten.",
+      "citation": "Matthäus 27:66 (Menge)"
+    }
+  ]
+}

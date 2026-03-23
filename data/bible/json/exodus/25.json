@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 25 — 40 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 25,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/exodus/24.json",
+      "nextChapter": "https://latinprayer.org/bible/exodus/26.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/exodus/25.json",
+      "german": "https://latinprayer.org/bibel/exodus/25.json"
+    }
+  },
+  "citation": "Exodus 25 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Exodus 25:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Speak to the children of Israel, that they bring firstfruits to me: of every man that offereth of his own accord, you shall take them.",
+      "citation": "Exodus 25:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And these are the things you must take: Gold, and silver, and brass,",
+      "citation": "Exodus 25:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Violet and purple, and scarlet twice dyed, and fine linen, and goats' hair,",
+      "citation": "Exodus 25:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And rams' skins dyed red, and violet skins, and setim wood:",
+      "citation": "Exodus 25:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Oil to make lights: spices for ointment, and for sweetsmelling incense:",
+      "citation": "Exodus 25:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Onyx stones, and precious stones to adorn the ephod and the rational.",
+      "citation": "Exodus 25:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And they shall make me a sanctuary, and I will dwell in the midst of them:",
+      "citation": "Exodus 25:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "According to all the likeness of the tabernacle which I will shew thee, and of all the vessels for the service thereof: and thus you shall make it:",
+      "citation": "Exodus 25:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Frame an ark of setim wood, the length whereof shall be of two cubits and a half; the breadth, a cubit and a half; the height, likewise, a cubit and a half.",
+      "citation": "Exodus 25:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And thou shalt overlay it with the purest gold, within and without; and over it thou shalt make a golden crown round about:",
+      "citation": "Exodus 25:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And four golden rings, which thou shalt put at the four corners of the ark: let two rings be on the one side, and two on the other.",
+      "citation": "Exodus 25:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thou shalt make bars also of setim wood, and shalt overlay them with gold.",
+      "citation": "Exodus 25:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And thou shalt put them in through the rings that are in the sides of the ark, that it may be carried on them:",
+      "citation": "Exodus 25:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And they shall be always in the rings, neither shall they at any time be drawn out of them.",
+      "citation": "Exodus 25:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And thou shalt put in the ark the testimony which I will give thee.",
+      "citation": "Exodus 25:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Thou shalt make also a propitiatory of the purest gold: the length thereof shall be two cubits and a half, and the breadth a cubit and a half.",
+      "citation": "Exodus 25:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Thou shalt make also two cherubims of beaten gold, on the two sides of the oracle.",
+      "citation": "Exodus 25:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Let one cherub be on the one side, and the other on the other.",
+      "citation": "Exodus 25:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Let them cover both sides of the propitiatory, spreading their wings, and covering the oracle, and let them look one towards the other, their faces being turned towards the propitiatory wherewith the ark is to be covered.",
+      "citation": "Exodus 25:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "In which thou shalt put the testimony that I will give thee.",
+      "citation": "Exodus 25:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Thence will I give orders, and will speak to thee over the propitiatory, and from the midst of the two cherubims, which shall be upon the ark of the testimony, all things which I will command the children of Israel by thee.",
+      "citation": "Exodus 25:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Thou shalt make a table also of setim wood, of two cubits in length, and a cubit in breadth, and a cubit and a half in height.",
+      "citation": "Exodus 25:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And thou shalt overlay it with the purest gold: and thou shalt make to it a golden ledge round about.",
+      "citation": "Exodus 25:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And to the ledge itself a polished crown, four inches high; and over the same another little golden crown.",
+      "citation": "Exodus 25:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Thou shalt prepare also four golden rings, and shalt put them in the four corners of the same table, over each foot.",
+      "citation": "Exodus 25:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Under the crown shall the golden rings be, that the bars may be put through them, and the table may be carried.",
+      "citation": "Exodus 25:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "The bars also themselves thou shalt make of setim wood, and shalt overlay them with gold, to bear up the table.",
+      "citation": "Exodus 25:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Thou shalt prepare also dishes, and bowls, censers, and cups, wherein the libations are to be offered, of the purest gold.",
+      "citation": "Exodus 25:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And thou shalt set upon the table loaves of proposition in my sight always.",
+      "citation": "Exodus 25:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Thou shalt make also a candlestick of beaten work, of the finest gold, the shaft thereof, and the branches, the cups, and the bowls, and the lilies going forth from it.",
+      "citation": "Exodus 25:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "Six branches shall come out of the sides, three out of one side, and three out of the other.",
+      "citation": "Exodus 25:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Three cups as it were nuts to every branch, and a bowl withal, and a lily: and three cups likewise of the fashion of nuts in the other branch, and a bowl withal, and a lily. Such shall be the work of the six branches, that are to come out from the shaft:",
+      "citation": "Exodus 25:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And in the candlestick itself shall be four cups in the manner of a nut, and at every one bowls and lilies.",
+      "citation": "Exodus 25:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "Bowls under two branches in three places, which together make six, coming forth out of one shaft.",
+      "citation": "Exodus 25:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And both the bowls and the branches shall be of the same beaten work of the purest gold.",
+      "citation": "Exodus 25:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "Thou shalt make also seven lamps, and shalt set them upon the candlestick, to give light over against.",
+      "citation": "Exodus 25:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "The snuffers also, and where the snuffings shall be put out, shall be made of the purest gold.",
+      "citation": "Exodus 25:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "The whole weight of the candlestick, with all the furniture thereof, shall be a talent of the purest gold.",
+      "citation": "Exodus 25:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Look, and make it according to the pattern that was shewn thee in the mount.",
+      "citation": "Exodus 25:40 (Douay-Rheims)"
+    }
+  ]
+}

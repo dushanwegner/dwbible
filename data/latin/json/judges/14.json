@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judges, Chapter 14 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judges",
+      "slug": "judges",
+      "testament": "OT",
+      "order": 7,
+      "totalChapters": 21
+    },
+    "chapter": 14,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/judges/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/judges/13.json",
+      "nextChapter": "https://latinprayer.org/latin/judges/15.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judges/14.json",
+      "german": "https://latinprayer.org/bibel/judges/14.json"
+    }
+  },
+  "citation": "Judges 14 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "descendit igitur Samson in Thamnatha vidensque ibi mulierem de filiabus Philisthim",
+      "citation": "Judges 14:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ascendit et nuntiavit patri suo et matri dicens vidi mulierem in Thamnatha de filiabus Philisthinorum quam quaeso ut mihi accipiatis uxorem",
+      "citation": "Judges 14:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cui dixerunt pater et mater sua numquid non est mulier in filiabus fratrum tuorum et in omni populo meo quia vis accipere uxorem de Philisthim qui incircumcisi sunt dixitque Samson ad patrem suum hanc mihi accipe quia placuit oculis meis",
+      "citation": "Judges 14:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "parentes autem eius nesciebant quod res a Domino fieret et quaereret occasionem contra Philisthim eo enim tempore Philisthim dominabantur Israheli",
+      "citation": "Judges 14:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "descendit itaque Samson cum patre suo et matre in Thamnatha cumque venissent ad vineas oppidi apparuit catulus leonis saevus rugiens et occurrit ei",
+      "citation": "Judges 14:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "inruit autem spiritus Domini in Samson et dilaceravit leonem quasi hedum in frusta concerperet nihil omnino habens in manu et hoc patri et matri noluit indicare",
+      "citation": "Judges 14:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "descenditque et locutus est mulieri quae placuerat oculis eius",
+      "citation": "Judges 14:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et post aliquot dies revertens ut acciperet eam declinavit ut videret cadaver leonis et ecce examen apium in ore leonis erat ac favus mellis",
+      "citation": "Judges 14:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quem cum sumpsisset in manibus comedebat in via veniensque ad patrem suum et matrem dedit eis partem qui et ipsi comederunt nec tamen eis voluit indicare quod mel de corpore leonis adsumpserat",
+      "citation": "Judges 14:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "descendit itaque pater eius ad mulierem et fecit filio suo Samson convivium sic enim iuvenes facere consuerant",
+      "citation": "Judges 14:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "cum igitur cives loci vidissent eum dederunt ei sodales triginta qui essent cum eo",
+      "citation": "Judges 14:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quibus locutus est Samson proponam vobis problema quod si solveritis mihi intra septem dies convivii dabo vobis triginta sindones et totidem tunicas",
+      "citation": "Judges 14:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sin autem non potueritis solvere vos dabitis mihi triginta sindones et eiusdem numeri tunicas qui responderunt ei propone problema ut audiamus",
+      "citation": "Judges 14:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dixitque eis de comedente exivit cibus et de forte est egressa dulcedo nec potuerunt per tres dies propositionem solvere",
+      "citation": "Judges 14:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "cumque adesset dies septimus dixerunt ad uxorem Samson blandire viro tuo et suade ei ut indicet tibi quid significet problema quod si facere nolueris incendimus et te et domum patris tui an idcirco nos vocastis ad nuptias ut spoliaretis",
+      "citation": "Judges 14:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quae fundebat apud Samson lacrimas et querebatur dicens odisti me et non diligis idcirco problema quod proposuisti filiis populi mei non vis mihi exponere at ille respondit patri meo et matri nolui dicere et tibi indicare potero",
+      "citation": "Judges 14:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "septem igitur diebus convivii flebat apud eum tandemque die septimo cum ei molesta esset exposuit quae statim indicavit civibus suis",
+      "citation": "Judges 14:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et illi dixerunt ei die septimo ante solis occubitum quid dulcius melle et quid leone fortius qui ait ad eos si non arassetis in vitula mea non invenissetis propositionem meam",
+      "citation": "Judges 14:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "inruit itaque in eo spiritus Domini descenditque Ascalonem et percussit ibi triginta viros quorum ablatas vestes dedit his qui problema solverant iratusque nimis ascendit in domum patris sui",
+      "citation": "Judges 14:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "uxor autem eius accepit maritum unum de amicis eius et pronubis",
+      "citation": "Judges 14:20 (Clementine Vulgate)"
+    }
+  ]
+}

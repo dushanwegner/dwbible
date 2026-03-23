@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 34 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 34,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/33.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/35.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/34.json",
+      "german": "https://latinprayer.org/bibel/psalms/34.json"
+    }
+  },
+  "citation": "Psalms 34 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I will bless the Lord at all times, his praise shall be always in my mouth.",
+      "citation": "Psalms 34:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "In the Lord shall my soul be praised: let the meek hear and rejoice.",
+      "citation": "Psalms 34:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "O magnify the Lord with me; and let us extol his name together.",
+      "citation": "Psalms 34:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "I sought the Lord, and he heard me; and he delivered me from all my troubles.",
+      "citation": "Psalms 34:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Come ye to him and be enlightened: and your faces shall not be confounded.",
+      "citation": "Psalms 34:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "This poor man cried, and the Lord heard him: and saved him out of all his troubles.",
+      "citation": "Psalms 34:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The angel of the Lord shall encamp round about them that fear him: and shall deliver them.",
+      "citation": "Psalms 34:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "O taste, and see that the Lord is sweet: blessed is the man that hopeth in him.",
+      "citation": "Psalms 34:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Fear the Lord, all ye his saints: for there is no want to them that fear him.",
+      "citation": "Psalms 34:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The rich have wanted, and have suffered hunger: but they that seek the Lord shall not be deprived of any good.",
+      "citation": "Psalms 34:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Come, children, hearken to me: I will teach you the fear of the Lord.",
+      "citation": "Psalms 34:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Who is the man that desireth life: who liveth to see good days?",
+      "citation": "Psalms 34:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Keep thy tongue form evil, and thy lips from speaking guile.",
+      "citation": "Psalms 34:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Turn away from evil and do good: seek after peace and pursue it.",
+      "citation": "Psalms 34:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The eyes of the Lord are upon the just: and his ears unto their prayers.",
+      "citation": "Psalms 34:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "But the countenance of the Lord is against them that do evil things: to cut off the remembrance of them from the earth.",
+      "citation": "Psalms 34:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "The just cried, and the Lord heard them: and delivered them out of all their troubles.",
+      "citation": "Psalms 34:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The Lord is nigh unto them that are of a contrite heart: and he will save the humble of spirit.",
+      "citation": "Psalms 34:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Many are the afflictions of the just; but out of them all will the Lord deliver them.",
+      "citation": "Psalms 34:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The Lord is nigh unto them that are of a contrite heart: and he will save the humble of spirit.",
+      "citation": "Psalms 34:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "The death of the wicked is very evil: and they that hate the just shall be guilty.",
+      "citation": "Psalms 34:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The Lord will redeem the souls of his servants: and none of them that trust in him shall offend.",
+      "citation": "Psalms 34:22 (Douay-Rheims)"
+    }
+  ]
+}

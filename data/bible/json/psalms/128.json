@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 128 — 6 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 128,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/127.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/129.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/128.json",
+      "german": "https://latinprayer.org/bibel/psalms/128.json"
+    }
+  },
+  "citation": "Psalms 128 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A gradual canticle. Blessed are all they that fear the Lord: that walk in his ways.",
+      "citation": "Psalms 128:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For thou shalt eat the labours of thy hands: blessed art thou, and it shall be well with thee.",
+      "citation": "Psalms 128:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Thy wife as a fruitful vine, on the sides of thy house. Thy children as olive plants, round about thy table.",
+      "citation": "Psalms 128:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Behold, thus shall the man be blessed that feareth the Lord.",
+      "citation": "Psalms 128:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "May the Lord bless thee out of Sion: and mayst thou see the good things of Jerusalem all the days of thy life.",
+      "citation": "Psalms 128:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And mayst thou see thy children's children, peace upon Israel.",
+      "citation": "Psalms 128:6 (Douay-Rheims)"
+    }
+  ]
+}

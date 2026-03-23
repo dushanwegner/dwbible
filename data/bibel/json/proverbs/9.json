@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sprüche, Chapter 9 — 18 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sprüche",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 9,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/proverbs/8.json",
+      "nextChapter": "https://latinprayer.org/bibel/proverbs/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/9.json",
+      "latin": "https://latinprayer.org/latin/proverbs/9.json"
+    }
+  },
+  "citation": "Sprüche 9 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Die Weisheit hat sich ihr Haus gebaut, hat ihre sieben Säulen aufgerichtet;",
+      "citation": "Sprüche 9:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "sie hat ihr Schlachtvieh geschlachtet, ihren Wein gemischt, auch ihre Tafel zugerüstet;",
+      "citation": "Sprüche 9:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "sie hat ihre Mägde ausgesandt und läßt oben auf den höchsten Punkten der Stadt die Einladung ergehen:",
+      "citation": "Sprüche 9:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "»Wer einfältig ist, kehre hier ein!« Und den Unverständigen läßt sie sagen:",
+      "citation": "Sprüche 9:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "»Kommt her, eßt von meinem Brot und trinkt von dem Wein, den ich gemischt habe!",
+      "citation": "Sprüche 9:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Laßt die Torheit fahren, damit ihr lebt, und geht einher auf dem Wege der Einsicht!« –",
+      "citation": "Sprüche 9:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wer einen Spötter zurechtweist, zieht sich Beschimpfung zu, und wer einen Gottlosen tadelt, hat Schande davon.",
+      "citation": "Sprüche 9:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Tadle den Spötter nicht, sonst wird er dich hassen; tadle den Weisen, so wird er dich liebgewinnen.",
+      "citation": "Sprüche 9:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Gib dem Weisen, so wird er noch weiser werden; belehre den Gerechten, so wird er an Wissen zunehmen.",
+      "citation": "Sprüche 9:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Die Furcht des HERRN ist der Anfang der Weisheit, und die Erkenntnis des heiligen (Gottes) ist Einsicht. –",
+      "citation": "Sprüche 9:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "»Denn durch mich werden deiner Tage viele werden und die Jahre deines Lebens sich mehren.",
+      "citation": "Sprüche 9:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wenn du weise bist, so bist du es zu deinem eigenen Besten; bist du aber ein Spötter, so hast du es allein zu tragen.«",
+      "citation": "Sprüche 9:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Frau Torheit ist ein leidenschaftliches Geschöpf, die reine Beschränktheit und kennt keine Scham;",
+      "citation": "Sprüche 9:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "sie sitzt am Eingang ihres Hauses, auf einem Thron hoch oben in der Stadt,",
+      "citation": "Sprüche 9:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "um die des Weges Vorübergehenden einzuladen, alle, die auf ihren Pfaden geradeaus wandeln:",
+      "citation": "Sprüche 9:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "»Wer einfältig ist, der kehre hier ein!« Und zu den Unverständigen sagt sie:",
+      "citation": "Sprüche 9:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "»Gestohlenes Wasser ist süß, und heimlich verzehrtes Brot schmeckt köstlich!«",
+      "citation": "Sprüche 9:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Und er bedenkt nicht, daß die Totengeister dort hausen, daß in den Tiefen des Totenreichs die von ihr beherbergten Gäste weilen.",
+      "citation": "Sprüche 9:18 (Menge)"
+    }
+  ]
+}

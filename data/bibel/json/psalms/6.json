@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 6 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 6,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/5.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/6.json",
+      "latin": "https://latinprayer.org/latin/psalms/6.json"
+    }
+  },
+  "citation": "Psalmen 6 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "*Dem Musikmeister, mit Saitenspiel*<em>, im Basston; ein Psalm von David.</em>",
+      "citation": "Psalmen 6:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "HERR, nicht in deinem Zorne strafe mich und nicht in deinem Ingrimm züchtige mich!",
+      "citation": "Psalmen 6:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Sei mir gnädig, o HERR, denn ich bin am Verschmachten! Heile mich, HERR, denn meine Gebeine sind erschrocken,",
+      "citation": "Psalmen 6:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "und meine Seele ist voller Angst! Du aber, o HERR, – wie lange noch (willst du fern sein)?",
+      "citation": "Psalmen 6:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Kehre doch wieder, o HERR, errette meine Seele! Hilf mir um deiner Gnade willen!",
+      "citation": "Psalmen 6:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Denn im Tode gedenkt man deiner nicht: im Totenreich – wer singt da dein Lob?",
+      "citation": "Psalmen 6:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Erschöpft bin ich von all meinem Seufzen; in jeder Nacht netz’ ich mein Bett (mit Zähren), mache mein Lager zu einer Tränenflut.",
+      "citation": "Psalmen 6:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Geschwunden ist mein Augenlicht vor Gram, gealtert (vom Weinen) ob all meinen Feinden.",
+      "citation": "Psalmen 6:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Hinweg von mir, ihr Übeltäter alle! Denn der HERR hat mein lautes Weinen gehört;",
+      "citation": "Psalmen 6:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "gehört hat der HERR mein Flehen: der HERR nimmt mein Gebet an.",
+      "citation": "Psalmen 6:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Alle meine Feinde werden zuschanden werden und ganz bestürzt dastehn: mit Schanden müssen sie abziehn augenblicklich!",
+      "citation": "Psalmen 6:11 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 6 — 36 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 6,
+    "verseCount": 36,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/5.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/6.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/6.json"
+    }
+  },
+  "citation": "Jesus Sirach 6 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Gib dich nicht völlig dem Willen deiner Leidenschaft hin, damit sie nicht wie ein Stier deine Kraft abweide.",
+      "citation": "Jesus Sirach 6:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Deine Blätter wird sie abfressen und deine Früchte verzehren und dich stehen lassen wie einen dürren Baum (g).",
+      "citation": "Jesus Sirach 6:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Böse Leidenschaft richtet ihren Besitzer zugrunde und macht ihn zur Schadenfreude (oder zum Gespött) seiner Feinde.",
+      "citation": "Jesus Sirach 6:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Eine freundlich redende Kehle gewinnt viele Freunde, und eine wohlredende Zunge bekommt viele Heilsgrüße (oder Friedenswünsche).",
+      "citation": "Jesus Sirach 6:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Groß sei die Zahl derer, die in Frieden mit dir leben, aber dein Vertrauter sei nur einer von tausend.",
+      "citation": "Jesus Sirach 6:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Erwirbst du dir einen Freund, so erwirb ihn unter Erprobung und schenke ihm nicht zu schnell dein Vertrauen.",
+      "citation": "Jesus Sirach 6:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Denn mancher ist ein Freund, solange es ihm zusagt, und bleibt es nicht zur Zeit deines Unglücks;",
+      "citation": "Jesus Sirach 6:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "und mancher Freund verwandelt sich in einen Feind und bringt den dich entehrenden Streit unter die Leute.",
+      "citation": "Jesus Sirach 6:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Und mancher ist ein Freund als Tischgenosse, ist aber nicht zu finden zur Zeit deines Unglücks;",
+      "citation": "Jesus Sirach 6:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "solange es dir gut geht, stellt er sich dir völlig gleich und tritt deinem Gesinde gegenüber als Herr auf (h);",
+      "citation": "Jesus Sirach 6:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "kommst du aber herunter, so tritt er gegen dich und läßt sich vor deinen Augen nicht mehr sehen.",
+      "citation": "Jesus Sirach 6:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Von deinen Feinden halte dich fern, und vor deinen Freunden sei auf der Hut.",
+      "citation": "Jesus Sirach 6:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ein treuer Freund ist ein starker Schutz; wer ihn gefunden, hat einen Schatz gefunden.",
+      "citation": "Jesus Sirach 6:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ein treuer Freund ist nicht zu bezahlen, und sein Wert läßt sich auf der Wage nicht feststellen.",
+      "citation": "Jesus Sirach 6:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Ein treuer Freund ist eine lebenspendende Arznei, und wer den Herrn fürchtet, erlangt ihn.",
+      "citation": "Jesus Sirach 6:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Der Gottesfürchtige lenkt seine Freundschaft richtig, denn so, wie er selbst, ist auch sein Genosse.",
+      "citation": "Jesus Sirach 6:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Mein Sohn, von Jugend auf erwähle dir Zucht, so wirst du bis ins Greisenalter die Weisheit gewinnen;",
+      "citation": "Jesus Sirach 6:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "wie der Pflüger und der Sämann tritt an sie heran, so darfst du auf ihre herrlichen Früchte hoffen; denn von der Beschäftigung mit ihr wirst du nur kurze Zeit Mühe haben und bald schon ihre Früchte genießen.",
+      "citation": "Jesus Sirach 6:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Wie so ganz ungangbar erscheint sie den Ungebildeten, und ein Unverständiger hält es bei ihr nicht aus;",
+      "citation": "Jesus Sirach 6:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "wie ein Übungsstein lastet sie schwer auf ihm und es währt nicht lange, so wirft er sie weg;",
+      "citation": "Jesus Sirach 6:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "denn die Weisheit ist, wie schon ihr Name besagt, und nicht vielen ist sie offenbar; (denen aber, die sie kennen, verbleibt sie, bis sie Gott schauen).",
+      "citation": "Jesus Sirach 6:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Höre, mein Sohn, und nimm meine Meinung an und weise meinen Rat nicht ab;",
+      "citation": "Jesus Sirach 6:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "und stecke deine Füße in ihre Fesseln hinein und deinen Hals in ihr Halseisen;",
+      "citation": "Jesus Sirach 6:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "beuge deinen Rücken unter sie und nimm sie auf dich und sträube dich nicht gegen ihre Bande.",
+      "citation": "Jesus Sirach 6:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Mit ganzem Herzen tritt an sie heran und halte ihre Wege mit all deiner Kraft ein.",
+      "citation": "Jesus Sirach 6:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Spüre ihr nach und suche sie, so wird sie dir bekannt werden, und hast du sie ergriffen, so laß sie nicht wieder los;",
+      "citation": "Jesus Sirach 6:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "denn zuletzt wirst du Erquickung (oder Ruhe) bei ihr finden, und sie wird sich dir in Freude verwandeln.",
+      "citation": "Jesus Sirach 6:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Alsdann werden ihre Fesseln zum starken Schutz für dich werden und ihr Halseisen zu einem Prachtgewand (oder Ehrenkleid):",
+      "citation": "Jesus Sirach 6:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "denn ein goldener Schmuck ist an ihr (oder auf ihrem Haupte?), und ihre Bande sind ein Purpurgewebe.",
+      "citation": "Jesus Sirach 6:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Als Prachtgewand wirst du sie dir anlegen und als Freudenkrone sie dir aufs Haupt setzen.",
+      "citation": "Jesus Sirach 6:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Wenn du bereit bist, mein Sohn, so wirst du Unterweisung erhalten, und wenn du dein Herz darauf richtest, so wirst du klug werden;",
+      "citation": "Jesus Sirach 6:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "wenn du mit Lust und Liebe zuhörst, so wirst du es in dich aufnehmen, und wenn du dein Ohr hinkehrst, wirst du weise werden.",
+      "citation": "Jesus Sirach 6:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Wo viele Greise versammelt sind, da stelle dich ein, und wer weise ist, dem schließe dich an;",
+      "citation": "Jesus Sirach 6:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "jeden Vortrag über göttliche Dinge höre gern an, und einsichtsvolle Sprüche laß dir nicht entgehen;",
+      "citation": "Jesus Sirach 6:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "siehst du einen verständigen Mann, so suche ihn schon frühmorgens auf, und dein Fuß betrete immer wieder die Schwellen seiner Türen.",
+      "citation": "Jesus Sirach 6:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Denke nach über die Verordnungen des Herrn, und über seine Gebote sinne allezeit nach; er ist’s der dein Herz fest machen wird, und dein Verlangen nach Weisheit wird dir gewährt werden (h).",
+      "citation": "Jesus Sirach 6:36 (Menge)"
+    }
+  ]
+}

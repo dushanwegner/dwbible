@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 29 — 35 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 29,
+    "verseCount": 35,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/genesis/28.json",
+      "nextChapter": "https://latinprayer.org/bible/genesis/30.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/genesis/29.json",
+      "german": "https://latinprayer.org/bibel/genesis/29.json"
+    }
+  },
+  "citation": "Genesis 29 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Then Jacob went on in his journey, and came into the east country.",
+      "citation": "Genesis 29:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he saw a well in the field, and three flocks of sheep lying by it: for the beasts were watered out of it, and the mouth thereof was closed with a great stone.",
+      "citation": "Genesis 29:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And the custom was, when all the sheep were gathered together, to roll away the stone, and after the sheep were watered, to put it on the mouth of the well again.",
+      "citation": "Genesis 29:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he said to the shepherds: Brethren, whence are you? They answered: Of Haran.",
+      "citation": "Genesis 29:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And he asked them, saying: Know you Laban, the son of Nachor? They said: We know him.",
+      "citation": "Genesis 29:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "He said: Is he in health? He is in health, say they: and behold, Rachel, his daughter, cometh with his flock.",
+      "citation": "Genesis 29:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And Jacob said: There is yet much day remaining, neither is it time to bring the flocks into the folds again: first give the sheep drink, and so lead them back to feed.",
+      "citation": "Genesis 29:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "They answered: We cannot, till all the cattle be gathered together, and we remove the stone from the well's mouth, that we may water the flocks.",
+      "citation": "Genesis 29:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "They were yet speaking, and behold Rachel came with her father's sheep; for she fed the flock.",
+      "citation": "Genesis 29:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And when Jacob saw her, and knew her to be his cousin german, and that they were the sheep of Laban, his uncle: he removed the stone wherewith the well was closed.",
+      "citation": "Genesis 29:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And having watered the flock, he kissed her: and lifting up his voice wept.",
+      "citation": "Genesis 29:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And he told her that he was her father's brother, and the son of Rebecca: but she went in haste and told her father.",
+      "citation": "Genesis 29:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Who, when he heard that Jacob his sister's son was come, ran forth to meet him: and embracing him, and heartily kissing him, brought him into his house. And when he had heard the causes of his journey,",
+      "citation": "Genesis 29:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "He answered: Thou art my bone and my flesh. And after the days of one month were expired,",
+      "citation": "Genesis 29:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "He said to him: Because thou art my brother, shalt thou serve me without wages? Tell me what wages thou wilt have.",
+      "citation": "Genesis 29:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Now he had two daughters, the name of the elder was Lia; and the younger was called Rachel.",
+      "citation": "Genesis 29:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But Lia was blear-eyed: Rachel was well favoured, and of a beautiful countenance.",
+      "citation": "Genesis 29:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And Jacob being in love with her, said: I will serve thee seven years for Rachel, thy younger daughter.",
+      "citation": "Genesis 29:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Laban answered: It is better that I give her to thee than to another man; stay with me.",
+      "citation": "Genesis 29:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "So Jacob served seven years for Rachel: and they seemed but a few days, because of the greatness of his love.",
+      "citation": "Genesis 29:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And he said to Laban: Give me my wife; for now the time is fulfilled, that I may go in unto her.",
+      "citation": "Genesis 29:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And he, having invited a great number of his friends to the feast, made the marriage.",
+      "citation": "Genesis 29:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And at night he brought in Lia, his daughter, to him,",
+      "citation": "Genesis 29:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Giving his daughter a handmaid, named Zelpha. Now when Jacob had gone in to her according to custom, when morning was come he saw it was Lia.",
+      "citation": "Genesis 29:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And he said to his father-in-law: What is it that thou didst mean to do? did not I serve thee for Rachel? why hast thou deceived me?",
+      "citation": "Genesis 29:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Laban answered: It is not the custom in this place, to give the younger in marriage first.",
+      "citation": "Genesis 29:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Make up the week of days of this match: and I will give thee her also, for the service that thou shalt render me other seven years.",
+      "citation": "Genesis 29:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "He yielded to his pleasure: and after the week was past, he married Rachel:",
+      "citation": "Genesis 29:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "To whom her father gave Bala, for her servant.",
+      "citation": "Genesis 29:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And having at length obtained the marriage he wished for, he preferred the love of the latter before the former, and served with him other seven years.",
+      "citation": "Genesis 29:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And the Lord seeing that he despised Lia, opened her womb, but her sister remained barren.",
+      "citation": "Genesis 29:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And she conceived and bore a son, and called his name Ruben, saying: The Lord saw my affliction: now my husband will love me.",
+      "citation": "Genesis 29:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And again she conceived and bore a son, and said: Because the Lord heard that I was despised, he hath given this also to me: and she called his name Simeon.",
+      "citation": "Genesis 29:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And she conceived the third time, and bore another son, and said: Now also my husband will be joined to me, because I have borne him three sons: and therefore she called his name Levi.",
+      "citation": "Genesis 29:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "The fourth time she conceived and bore a son, and said: Now will I praise the Lord: and for this she called him Juda. And she left bearing.",
+      "citation": "Genesis 29:35 (Douay-Rheims)"
+    }
+  ]
+}

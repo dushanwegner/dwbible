@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Klagelieder — 5 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Klagelieder",
+      "slug": "lamentations",
+      "testament": "OT",
+      "order": 29,
+      "totalChapters": 5
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/lamentations/index.json",
+      "latin": "https://latinprayer.org/latin/lamentations/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/bibel/lamentations/1",
+      "jsonUrl": "https://latinprayer.org/bibel/lamentations/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/bibel/lamentations/2",
+      "jsonUrl": "https://latinprayer.org/bibel/lamentations/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 66,
+      "url": "https://latinprayer.org/bibel/lamentations/3",
+      "jsonUrl": "https://latinprayer.org/bibel/lamentations/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/bibel/lamentations/4",
+      "jsonUrl": "https://latinprayer.org/bibel/lamentations/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/bibel/lamentations/5",
+      "jsonUrl": "https://latinprayer.org/bibel/lamentations/5.json"
+    }
+  ]
+}

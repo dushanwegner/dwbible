@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Daniel, Chapter 14 — 1 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Daniel",
+      "slug": "daniel",
+      "testament": "OT",
+      "order": 32,
+      "totalChapters": 13
+    },
+    "chapter": 14,
+    "verseCount": 1,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/daniel/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/daniel/13.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/daniel/14.json",
+      "german": "https://latinprayer.org/bibel/daniel/14.json"
+    }
+  },
+  "citation": "Daniel 14 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 42,
+      "text": "Then the king said: Let all the inhabitants of the whole earth fear the God of Daniel: for he is the Saviour, working signs, and wonders in the earth: who hath delivered Daniel out of the lions' den.",
+      "citation": "Daniel 14:42 (Douay-Rheims)"
+    }
+  ]
+}

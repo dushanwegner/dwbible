@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 15 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 15,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/14.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/16.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/15.json",
+      "german": "https://latinprayer.org/bibel/exodus/15.json"
+    }
+  },
+  "citation": "Exodus 15 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tunc cecinit Moses et filii Israhel carmen hoc Domino et dixerunt cantemus Domino gloriose enim magnificatus est equum et ascensorem deiecit in mare",
+      "citation": "Exodus 15:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "fortitudo mea et laus mea Dominus et factus est mihi in salutem iste Deus meus et glorificabo eum Deus patris mei et exaltabo eum",
+      "citation": "Exodus 15:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "Dominus quasi vir pugnator Omnipotens nomen eius",
+      "citation": "Exodus 15:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "currus Pharaonis et exercitum eius proiecit in mare electi principes eius submersi sunt in mari Rubro",
+      "citation": "Exodus 15:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "abyssi operuerunt eos descenderunt in profundum quasi lapis",
+      "citation": "Exodus 15:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dextera tua Domine magnifice in fortitudine dextera tua Domine percussit inimicum",
+      "citation": "Exodus 15:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et in multitudine gloriae tuae deposuisti adversarios meos misisti iram tuam quae devoravit eos ut stipulam",
+      "citation": "Exodus 15:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et in spiritu furoris tui congregatae sunt aquae stetit unda fluens congregatae sunt abyssi in medio mari",
+      "citation": "Exodus 15:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dixit inimicus persequar et conprehendam dividam spolia implebitur anima mea evaginabo gladium meum interficiet eos manus mea",
+      "citation": "Exodus 15:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "flavit spiritus tuus et operuit eos mare submersi sunt quasi plumbum in aquis vehementibus",
+      "citation": "Exodus 15:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quis similis tui in fortibus Domine quis similis tui magnificus in sanctitate terribilis atque laudabilis et faciens mirabilia",
+      "citation": "Exodus 15:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "extendisti manum tuam et devoravit eos terra",
+      "citation": "Exodus 15:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "dux fuisti in misericordia tua populo quem redemisti et portasti eum in fortitudine tua ad habitaculum sanctum tuum",
+      "citation": "Exodus 15:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "adtenderunt populi et irati sunt dolores obtinuerunt habitatores Philisthim",
+      "citation": "Exodus 15:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "tunc conturbati sunt principes Edom robustos Moab obtinuit tremor obriguerunt omnes habitatores Chanaan",
+      "citation": "Exodus 15:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "inruat super eos formido et pavor in magnitudine brachii tui fiant inmobiles quasi lapis donec pertranseat populus tuus Domine donec pertranseat populus tuus iste quem possedisti",
+      "citation": "Exodus 15:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "introduces eos et plantabis in monte hereditatis tuae firmissimo habitaculo tuo quod operatus es Domine sanctuarium Domine quod firmaverunt manus tuae",
+      "citation": "Exodus 15:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "Dominus regnabit in aeternum et ultra",
+      "citation": "Exodus 15:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "ingressus est enim equus Pharao cum curribus et equitibus eius in mare et reduxit super eos Dominus aquas maris filii autem Israhel ambulaverunt per siccum in medio eius",
+      "citation": "Exodus 15:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "sumpsit ergo Maria prophetis soror Aaron tympanum in manu egressaeque sunt omnes mulieres post eam cum tympanis et choris",
+      "citation": "Exodus 15:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quibus praecinebat dicens cantemus Domino gloriose enim magnificatus est equum et ascensorem eius deiecit in mare",
+      "citation": "Exodus 15:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "tulit autem Moses Israhel de mari Rubro et egressi sunt in desertum Sur ambulaveruntque tribus diebus per solitudinem et non inveniebant aquam",
+      "citation": "Exodus 15:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et venerunt in Marath nec poterant bibere aquas de Mara eo quod essent amarae unde et congruum loco nomen inposuit vocans illud Mara id est amaritudinem",
+      "citation": "Exodus 15:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et murmuravit populus contra Mosen dicens quid bibemus",
+      "citation": "Exodus 15:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "at ille clamavit ad Dominum qui ostendit ei lignum quod cum misisset in aquas in dulcedinem versae sunt ibi constituit ei praecepta atque iudicia et ibi temptavit eum",
+      "citation": "Exodus 15:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "dicens si audieris vocem Domini Dei tui et quod rectum est coram eo feceris et oboedieris mandatis eius custodierisque omnia praecepta illius cunctum languorem quem posui in Aegypto non inducam super te ego enim Dominus sanator tuus",
+      "citation": "Exodus 15:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "venerunt autem in Helim ubi erant duodecim fontes aquarum et septuaginta palmae et castrametati sunt iuxta aquas",
+      "citation": "Exodus 15:27 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 108 — 13 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 108,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/107.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/109.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/108.json",
+      "german": "https://latinprayer.org/bibel/psalms/108.json"
+    }
+  },
+  "citation": "Psalms 108 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "My heart is ready, O God, my heart is ready: I will sing, and will give praise, with my glory.",
+      "citation": "Psalms 108:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Arise, my glory; arise, psaltery and harp: I will arise in the morning early.",
+      "citation": "Psalms 108:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "I will praise thee, O Lord, among the people: and I will sing unto thee among the nations.",
+      "citation": "Psalms 108:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For thy mercy is great above the heavens: and thy truth even unto the clouds.",
+      "citation": "Psalms 108:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Be thou exalted, O God, above the heavens, and thy glory over all the earth:",
+      "citation": "Psalms 108:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "That thy beloved may be delivered. Save with thy right hand and hear me.",
+      "citation": "Psalms 108:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "God hath spoken in his holiness. I will rejoice, and I will divide Sichem and I will mete out the vale of tabernacles.",
+      "citation": "Psalms 108:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Galaad is mine: and Manasses is mine and Ephraim the protection of my head. Juda is my king:",
+      "citation": "Psalms 108:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Moab the pot of my hope. Over Edom I will stretch out my shoe: the aliens are become my friends.",
+      "citation": "Psalms 108:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Who will bring me into the strong city? who will lead me into Edom?",
+      "citation": "Psalms 108:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Wilt not thou, O God, who hast cast us off? and wilt not thou, O God, go forth with our armies?",
+      "citation": "Psalms 108:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "O grant us help from trouble: for vain is the help of man.",
+      "citation": "Psalms 108:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Through God we shall do mightily: and he will bring our enemies to nothing.",
+      "citation": "Psalms 108:13 (Douay-Rheims)"
+    }
+  ]
+}

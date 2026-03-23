@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jakobus, Chapter 3 — 18 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jakobus",
+      "slug": "james",
+      "testament": "NT",
+      "order": 66,
+      "totalChapters": 5
+    },
+    "chapter": 3,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/james/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/james/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/james/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/james/3.json",
+      "latin": "https://latinprayer.org/latin/james/3.json"
+    }
+  },
+  "citation": "Jakobus 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Drängt euch nicht zum Lehrerberuf, meine Brüder! Bedenkt wohl, daß wir (Lehrer) ein um so strengeres Urteil empfangen werden.",
+      "citation": "Jakobus 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wir fehlen ja allesamt vielfach; wer sich beim Reden nicht verfehlt, der ist ein vollkommener Mann und vermag auch den ganzen Leib im Zaume zu halten.",
+      "citation": "Jakobus 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wenn wir den Pferden die Zäume ins Maul legen, um sie uns gehorsam zu machen, so haben wir damit auch ihren ganzen Leib in der Gewalt.",
+      "citation": "Jakobus 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Seht, auch die Schiffe, die doch so groß sind und von starken Winden getrieben werden, lassen sich durch ein ganz kleines Steuerruder dahin lenken, wohin das Belieben des Steuermannes sie haben will.",
+      "citation": "Jakobus 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "So ist auch die Zunge nur ein kleines Glied und kann sich doch großer Dinge rühmen. Seht, wie klein ist das Feuer und wie groß der Wald, den es in Brand setzt!",
+      "citation": "Jakobus 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Auch die Zunge ist ein Feuer; als der Inbegriff der Ungerechtigkeit steht die Zunge unter unsern Gliedern da, sie, die den ganzen Leib befleckt, die sowohl das (rollende) Rad des Seins in Brand setzt als auch (selbst) von der Hölle in Brand gesetzt wird.",
+      "citation": "Jakobus 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Denn jede Art der vierfüßigen Tiere und Vögel, der Schlangen und Seetiere wird von der menschlichen Natur gebändigt und ist von ihr gebändigt worden;",
+      "citation": "Jakobus 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "aber die Zunge vermag kein Mensch zu bändigen, dies ruhelose Übel, voll todbringenden Giftes.",
+      "citation": "Jakobus 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Mit ihr segnen wir den Herrn und Vater, und mit ihr fluchen wir den Menschen, die doch nach Gottes Bild geschaffen sind:",
+      "citation": "Jakobus 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "aus demselben Munde gehen Segen und Fluch hervor. Das darf nicht so sein, meine Brüder.",
+      "citation": "Jakobus 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Läßt etwa eine Quelle aus derselben Öffnung süßes und bitteres Wasser sprudeln?",
+      "citation": "Jakobus 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Kann etwa, meine Brüder, ein Feigenbaum Oliven tragen oder ein Weinstock Feigen? Ebensowenig kann eine Salzquelle süßes Wasser geben.",
+      "citation": "Jakobus 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wer ist weise und einsichtsvoll unter euch? Der beweise durch seinen guten Wandel seine Werke in sanftmütiger Weisheit!",
+      "citation": "Jakobus 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Wenn ihr aber bittere Eifersucht und Zanksucht in eurem Herzen hegt, so rühmt euch nicht lügnerisch im Widerspruch mit der Wahrheit.",
+      "citation": "Jakobus 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Das ist nicht die Weisheit, die von oben her kommt, sondern ist eine irdische, sinnliche, teuflische.",
+      "citation": "Jakobus 3:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Denn wo Eifersucht und Zanksucht herrschen, da gibt’s Unfrieden und alle Arten bösen Tuns.",
+      "citation": "Jakobus 3:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Die Weisheit dagegen, die von oben kommt, ist fürs erste lauter, sodann friedfertig, freundlich, nachgiebig, reich an Erbarmen und guten Früchten, frei von Zweifel und ohne Heuchelei.",
+      "citation": "Jakobus 3:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "(Der Same) aber, (der) die Frucht der Gerechtigkeit (hervorbringt), wird in Frieden für die gesät, die Frieden stiften.",
+      "citation": "Jakobus 3:18 (Menge)"
+    }
+  ]
+}

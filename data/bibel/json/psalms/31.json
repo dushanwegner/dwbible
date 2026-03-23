@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 31 — 25 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 31,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/30.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/32.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/31.json",
+      "latin": "https://latinprayer.org/latin/psalms/31.json"
+    }
+  },
+  "citation": "Psalmen 31 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister; ein Psalm von David.</em>",
+      "citation": "Psalmen 31:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Bei dir, HERR, suche ich Zuflucht: laß mich nimmer enttäuscht werden! Nach deiner Gerechtigkeit errette mich!",
+      "citation": "Psalmen 31:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Neige dein Ohr mir zu, eile zu meiner Rettung herbei, sei mir ein schützender Fels, eine feste Burg, mir zu helfen!",
+      "citation": "Psalmen 31:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Du bist ja doch mein Fels und meine Burg, um deines Namens willen wirst du mich führen und leiten,",
+      "citation": "Psalmen 31:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "mich befrein aus dem Netz, das man heimlich mir gestellt; denn du bist meine Schutzwehr.",
+      "citation": "Psalmen 31:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "In deine Hand befehl’ ich meinen Geist: du wirst mich erlösen, o HERR, du treuer Gott.",
+      "citation": "Psalmen 31:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Du hassest, die sich an nichtige Götzen halten, doch ich vertraue auf den HERRN.",
+      "citation": "Psalmen 31:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Ich will jubeln und fröhlich sein ob deiner Gnade, daß du mein Elend hast angeschaut, auf die Angst meiner Seele geachtet",
+      "citation": "Psalmen 31:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "und mich der Gewalt des Feindes nicht preisgegeben, nein, meine Füße gestellt hast auf weiten Raum.",
+      "citation": "Psalmen 31:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Sei mir gnädig, o HERR, denn ich bin in Bedrängnis; getrübt vor Gram ist mir mein Auge, meine Seele und mein Leib;",
+      "citation": "Psalmen 31:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "denn in Kummer verzehrt sich mein Leben und meine Jahre in Seufzen; erschöpft durch mein Verschulden ist meine Kraft, und verfallen sind meine Gebeine.",
+      "citation": "Psalmen 31:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Für alle meine Feinde bin ich zum Hohn geworden, von meinen Nachbarn gemieden und ein Schrecken für meine Bekannten: wer mich sieht auf der Straße, flieht scheu vor mir.",
+      "citation": "Psalmen 31:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Entschwunden bin ich wie ein Toter dem Gedenken, bin geworden wie ein zerbrochnes Gefäß.",
+      "citation": "Psalmen 31:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ich habe ja viele zischeln gehört: »Grauen ringsum!« Wenn sie vereint sich gegen mich beraten, sinnen sie darauf, mir das Leben zu rauben.",
+      "citation": "Psalmen 31:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Doch ich vertraue auf dich, o HERR; ich sage: »Nur du bist mein Gott.«",
+      "citation": "Psalmen 31:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "In deiner Hand steht meine Zeit: rette mich aus der Hand meiner Feinde und meiner Verfolger!",
+      "citation": "Psalmen 31:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Laß leuchten dein Angesicht über deinem Knecht, hilf mir durch deine Gnade!",
+      "citation": "Psalmen 31:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "HERR, laß mich nicht enttäuscht werden, denn ich rufe dich an! Laß die Frevler enttäuscht werden, laß sie, zum Schweigen gebracht, in die Unterwelt fahren!",
+      "citation": "Psalmen 31:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Verstummen müssen die Lügenlippen, die Freches reden gegen den Gerechten in Hochmut und Verachtung!",
+      "citation": "Psalmen 31:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Wie groß ist deine Güte, die du vorbehältst denen, die dich fürchten, die du denen erzeigst, die ihre Zuflucht offen vor aller Welt zu dir nehmen!",
+      "citation": "Psalmen 31:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Du schirmst sie mit deines Angesichts Schirm vor den Bosheitsplänen der Menschen, birgst sie in einer Hütte vor der Anfeindung der Zungen.",
+      "citation": "Psalmen 31:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Gepriesen sei der HERR, daß er mir seine Gnade wunderbar hat erwiesen in einer festen Stadt!",
+      "citation": "Psalmen 31:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Ich zwar hatte gedacht in meiner Verzagtheit, ich sei verstoßen fern von deinen Augen; doch du hast mein lautes Flehen gehört, als ich zu dir rief.",
+      "citation": "Psalmen 31:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Liebet den HERRN, ihr seine Frommen alle! Die Treuen behütet der HERR, vergilt aber reichlich dem, der Hochmut übt.",
+      "citation": "Psalmen 31:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Seid stark, und euer Herz sei unverzagt, ihr alle, die ihr harret des HERRN!",
+      "citation": "Psalmen 31:25 (Menge)"
+    }
+  ]
+}

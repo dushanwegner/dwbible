@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 145 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 145,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/144.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/146.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/145.json",
+      "latin": "https://latinprayer.org/latin/psalms/145.json"
+    }
+  },
+  "citation": "Psalmen 145 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Loblied von David.</em> Ich will dich erheben, mein Gott, du König, und deinen Namen preisen immer und ewig!",
+      "citation": "Psalmen 145:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "An jedem Tage will ich dich preisen und deinen Namen rühmen immer und ewig!",
+      "citation": "Psalmen 145:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Groß ist der HERR und hoch zu rühmen, und seine Größe ist unausforschlich.",
+      "citation": "Psalmen 145:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ein Geschlecht wird dem andern rühmen deine Werke und kundtun deine gewaltigen Taten.",
+      "citation": "Psalmen 145:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Von der herrlichen Pracht deiner Hoheit will ich reden, und von deinen Wundertaten (will ich singen).",
+      "citation": "Psalmen 145:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Von der Macht deines furchtbaren Waltens wird man reden, und deine Größe – davon will ich erzählen!",
+      "citation": "Psalmen 145:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Den Ruhm deiner reichen Güte wird man verkünden und jubelnd preisen deine Gerechtigkeit.",
+      "citation": "Psalmen 145:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Gnädig und barmherzig ist der HERR, langmütig und reich an Güte.",
+      "citation": "Psalmen 145:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Der HERR ist gütig gegen alle, und sein Erbarmen umfaßt alle seine Werke.",
+      "citation": "Psalmen 145:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Alle deine Werke werden dich loben, HERR, und deine Frommen dich preisen;",
+      "citation": "Psalmen 145:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "die Herrlichkeit deines Königtums werden sie rühmen und reden von deiner Macht,",
+      "citation": "Psalmen 145:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "um den Menschenkindern kundzutun seine mächtigen Taten und die herrliche Pracht seines Königtums.",
+      "citation": "Psalmen 145:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Dein Reich ist ein Reich für alle Ewigkeiten, und deine Herrschaft besteht durch alle Geschlechter. Getreu ist der HERR in seinen Worten und heilig in all seinem Tun.",
+      "citation": "Psalmen 145:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Der HERR stützt alle Fallenden und richtet alle Gebeugten auf.",
+      "citation": "Psalmen 145:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Aller Augen warten auf dich, und du gibst ihnen ihre Speise zu seiner Zeit;",
+      "citation": "Psalmen 145:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "du tust deine Hand auf und sättigst alles, was lebt, mit Wohlgefallen.",
+      "citation": "Psalmen 145:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Gerecht ist der HERR in all seinem Walten und liebreich in all seinem Tun.",
+      "citation": "Psalmen 145:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Der HERR ist nahe allen, die ihn anrufen, allen, die ihn in Treue anrufen;",
+      "citation": "Psalmen 145:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "er erfüllt das Begehren derer, die ihn fürchten, er hört ihr Schreien und hilft ihnen.",
+      "citation": "Psalmen 145:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Der HERR behütet alle, die ihn lieben, doch alle Frevler rottet er aus.",
+      "citation": "Psalmen 145:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Mein Mund soll verkünden den Lobpreis des HERRN, und alles Fleisch soll preisen seinen heiligen Namen immer und ewig!",
+      "citation": "Psalmen 145:21 (Menge)"
+    }
+  ]
+}

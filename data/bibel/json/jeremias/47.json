@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremia, Chapter 47 — 7 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremia",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 47,
+    "verseCount": 7,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/jeremias/46.json",
+      "nextChapter": "https://latinprayer.org/bibel/jeremias/48.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/47.json",
+      "latin": "https://latinprayer.org/latin/jeremias/47.json"
+    }
+  },
+  "citation": "Jeremia 47 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "(Dies ist) das Wort des HERRN, das an den Propheten Jeremia in betreff der Philister ergangen ist, bevor der Pharao Gaza erobert hatte:",
+      "citation": "Jeremia 47:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "So hat der HERR gesprochen: Sehet, Wasser fluten heran von Norden her und werden zu einem überwallenden Wildbach! Sie überschwemmen das Land und alles, was darin ist, die Städte samt ihren Bewohnern, so daß die Menschen laut schreien und alle Bewohner des Landes heulen!",
+      "citation": "Jeremia 47:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Vor dem dröhnenden Hufschlag seiner Hengste, vor dem Rasseln seiner Kriegswagen, dem Rollen seiner Räder wenden Väter sich nicht nach ihren Kindern um, weil die Angst ihre Arme lähmt;",
+      "citation": "Jeremia 47:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "denn der Tag ist gekommen, der allen Philistern den Untergang bringt und für Tyrus und Sidon den letzten Helfer ausrottet, der noch übriggeblieben ist; denn der HERR will die Philister vernichten, die Abkömmlinge der von der Insel Kaphtor Gekommenen.",
+      "citation": "Jeremia 47:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Gaza hat sich kahl geschoren, zerstört ist Askalon; o Überrest der Enakiter, wie lange wirst du dich noch blutig ritzen müssen!",
+      "citation": "Jeremia 47:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Wehe, Schwert des HERRN! Wann wirst du endlich zur Ruhe kommen? Fahre in deine Scheide zurück, mache ein Ende und halte dich still!",
+      "citation": "Jeremia 47:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Aber wie sollte es zur Ruhe kommen, da doch der HERR es entboten hat? Gegen Askalon und gegen das ganze Gestade des Meeres, dorthin hat er es beordert!",
+      "citation": "Jeremia 47:7 (Menge)"
+    }
+  ]
+}

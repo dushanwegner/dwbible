@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Kings, Chapter 22 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Kings",
+      "slug": "4-kings",
+      "testament": "OT",
+      "order": 12,
+      "totalChapters": 25
+    },
+    "chapter": 22,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/4-kings/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/4-kings/21.json",
+      "nextChapter": "https://latinprayer.org/latin/4-kings/23.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/4-kings/22.json",
+      "german": "https://latinprayer.org/bibel/4-kings/22.json"
+    }
+  },
+  "citation": "2 Kings 22 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "octo annorum erat Iosias cum regnare coepisset et triginta uno anno regnavit in Hierusalem nomen matris eius Idida filia Phadaia de Besecath",
+      "citation": "2 Kings 22:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "fecitque quod placitum erat coram Domino et ambulavit per omnes vias David patris sui non declinavit ad dextram sive ad sinistram",
+      "citation": "2 Kings 22:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "anno autem octavodecimo regis Iosiae misit rex Saphan filium Aslia filii Mesullam scribam templi Domini dicens ei",
+      "citation": "2 Kings 22:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "vade ad Helciam sacerdotem magnum ut confletur pecunia quae inlata est in templum Domini quam collegerunt ianitores a populo",
+      "citation": "2 Kings 22:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "deturque fabris per praepositos in domo Domini qui et distribuent eam his qui operantur in templo Domini ad instauranda sarta tecta templi",
+      "citation": "2 Kings 22:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "tignariis videlicet et cementariis et his qui interrupta conponunt et ut emantur ligna et lapides de lapidicinis ad instaurandum templum",
+      "citation": "2 Kings 22:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "verumtamen non supputetur eis argentum quod accipiunt sed in potestate habeant et in fide",
+      "citation": "2 Kings 22:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dixit autem Helcias pontifex ad Saphan scribam librum legis repperi in domo Domini deditque Helcias volumen Saphan qui et legit illud",
+      "citation": "2 Kings 22:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "venit quoque Saphan scriba ad regem et renuntiavit ei quod praeceperat et ait conflaverunt servi tui pecuniam quae repperta est in domo Domini et dederunt ut distribueretur fabris a praefectis operum templi Domini",
+      "citation": "2 Kings 22:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "narravitque Saphan scriba regi dicens librum dedit mihi Helcias sacerdos quem cum legisset Saphan coram rege",
+      "citation": "2 Kings 22:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et audisset rex verba libri legis Domini scidit vestimenta sua",
+      "citation": "2 Kings 22:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et praecepit Helciae sacerdoti et Ahicham filio Saphan et Achobor filio Micha et Saphan scribae et Asaiae servo regis dicens",
+      "citation": "2 Kings 22:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ite et consulite Dominum super me et super populo et super omni Iuda de verbis voluminis istius quod inventum est magna enim ira Domini succensa est contra nos quia non audierunt patres nostri verba libri huius ut facerent omne quod scriptum est nobis",
+      "citation": "2 Kings 22:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ierunt itaque Helcias sacerdos et Ahicham et Achobor et Saphan et Asaia ad Oldam propheten uxorem Sellum filii Thecue filii Araas custodis vestium quae habitabat in Hierusalem in secunda locutique sunt ad eam",
+      "citation": "2 Kings 22:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et illa respondit eis haec dicit Dominus Deus Israhel dicite viro qui misit vos ad me",
+      "citation": "2 Kings 22:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "haec dicit Dominus ecce ego adducam mala super locum hunc et super habitatores eius omnia verba legis quae legit rex Iuda",
+      "citation": "2 Kings 22:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quia dereliquerunt me et sacrificaverunt diis alienis inritantes me in cunctis operibus manuum suarum et succendetur indignatio mea in loco hoc et non extinguetur",
+      "citation": "2 Kings 22:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "regi autem Iuda qui misit vos ut consuleretis Dominum sic dicetis haec dicit Dominus Deus Israhel pro eo quod audisti verba voluminis",
+      "citation": "2 Kings 22:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et perterritum est cor tuum et humiliatus es coram Domino auditis sermonibus contra locum istum et habitatores eius quo videlicet fierent in stuporem et in maledictum et scidisti vestimenta tua et flevisti coram me et ego audivi ait Dominus",
+      "citation": "2 Kings 22:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "idcirco colligam te ad patres tuos et colligeris ad sepulchrum tuum in pace ut non videant oculi tui omnia mala quae inducturus sum super locum istum",
+      "citation": "2 Kings 22:20 (Clementine Vulgate)"
+    }
+  ]
+}

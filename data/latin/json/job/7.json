@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 7 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 7,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/job/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/job/6.json",
+      "nextChapter": "https://latinprayer.org/latin/job/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/7.json",
+      "german": "https://latinprayer.org/bibel/job/7.json"
+    }
+  },
+  "citation": "Job 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "militia est vita hominis super terram et sicut dies mercennarii dies eius",
+      "citation": "Job 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "sicut servus desiderat umbram et sicut mercennarius praestolatur finem operis sui",
+      "citation": "Job 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "sic et ego habui menses vacuos et noctes laboriosas enumeravi mihi",
+      "citation": "Job 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "si dormiero dico quando consurgam et rursum expectabo vesperam et replebor doloribus usque ad tenebras",
+      "citation": "Job 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "induta est caro mea putredine et sordibus pulveris cutis mea aruit et contracta est",
+      "citation": "Job 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dies mei velocius transierunt quam a texente tela succiditur et consumpti sunt absque ulla spe",
+      "citation": "Job 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "memento quia ventus est vita mea et non revertetur oculus meus ut videat bona",
+      "citation": "Job 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "nec aspiciet me visus hominis oculi tui in me et non subsistam",
+      "citation": "Job 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sicut consumitur nubes et pertransit sic qui descenderit ad inferos non ascendet",
+      "citation": "Job 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "nec revertetur ultra in domum suam neque cognoscet eum amplius locus eius",
+      "citation": "Job 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quapropter et ego non parcam ori meo loquar in tribulatione spiritus mei confabulabor cum amaritudine animae meae",
+      "citation": "Job 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "numquid mare sum ego aut cetus quia circumdedisti me carcere",
+      "citation": "Job 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "si dixero consolabitur me lectulus meus et relevabor loquens mecum in strato meo",
+      "citation": "Job 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "terrebis me per somnia et per visiones horrore concuties",
+      "citation": "Job 7:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quam ob rem elegit suspendium anima mea et mortem ossa mea",
+      "citation": "Job 7:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "desperavi nequaquam ultra iam vivam parce mihi nihil enim sunt dies mei",
+      "citation": "Job 7:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quid est homo quia magnificas eum aut quia ponis erga eum cor tuum",
+      "citation": "Job 7:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "visitas eum diluculo et subito probas illum",
+      "citation": "Job 7:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "usquequo non parces mihi nec dimittis me ut gluttiam salivam meam",
+      "citation": "Job 7:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "peccavi quid faciam tibi o custos hominum quare posuisti me contrarium tibi et factus sum mihimet ipsi gravis",
+      "citation": "Job 7:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "cur non tolles peccatum meum et quare non auferes iniquitatem meam ecce nunc in pulvere dormiam et si mane me quaesieris non subsistam",
+      "citation": "Job 7:21 (Clementine Vulgate)"
+    }
+  ]
+}

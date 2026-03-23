@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 12 — 6 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 12,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/11.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/13.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/12.json",
+      "german": "https://latinprayer.org/bibel/isaias/12.json"
+    }
+  },
+  "citation": "Isaias 12 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And thou shalt say in that day: I will give thanks to thee, O Lord, for thou wast angry with me: thy wrath is turned away, and thou hast comforted me.",
+      "citation": "Isaias 12:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Behold, God is my saviour, I will deal confidently, and will not fear: because the Lord is my strength, and my praise, and he is become my salvation.",
+      "citation": "Isaias 12:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Thou shall draw waters with joy out of the saviour's fountains:",
+      "citation": "Isaias 12:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And you shall say in that day: Praise ye the Lord, and call upon his name: make his works known among the people: remember that his name is high.",
+      "citation": "Isaias 12:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Sing ye to the Lord, for he hath done great things: shew this forth in all the earth.",
+      "citation": "Isaias 12:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Rejoice, and praise, O thou habitation of Sion: for great is he that is in the midst of thee, the Holy One of Israel.",
+      "citation": "Isaias 12:6 (Douay-Rheims)"
+    }
+  ]
+}

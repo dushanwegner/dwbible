@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiastes, Chapter 1 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiastes",
+      "slug": "ecclesiastes",
+      "testament": "OT",
+      "order": 23,
+      "totalChapters": 12
+    },
+    "chapter": 1,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiastes/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bible/ecclesiastes/2.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiastes/1.json",
+      "german": "https://latinprayer.org/bibel/ecclesiastes/1.json"
+    }
+  },
+  "citation": "Ecclesiastes 1 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The words of Ecclesiastes, the son of David, king of Jerusalem.",
+      "citation": "Ecclesiastes 1:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Vanity of vanities, said Ecclesiastes: vanity of vanities, and all is vanity.",
+      "citation": "Ecclesiastes 1:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "What hath a man more of all his labour, that he taketh under the sun?",
+      "citation": "Ecclesiastes 1:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "One generation passeth away, and another generation cometh: but the earth standeth for ever.",
+      "citation": "Ecclesiastes 1:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The sun riseth, and goeth down, and returneth to his place: and there rising again,",
+      "citation": "Ecclesiastes 1:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Maketh his round by the south, and turneth again to the north: the spirit goeth forward surveying all places round about, and returneth to his circuits.",
+      "citation": "Ecclesiastes 1:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "All the rivers run into the sea, yet the sea doth not overflow: unto the place from whence the rivers come, they return, to flow again.",
+      "citation": "Ecclesiastes 1:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "All things are hard: man cannot explain them by word. The eye is not filled with seeing, neither is the ear filled with hearing.",
+      "citation": "Ecclesiastes 1:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "What is it that hath been? the same thing that shall be. What is it that hath been done? the same that shall be done.",
+      "citation": "Ecclesiastes 1:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Nothing under the sun is new, neither is any man able to say: Behold this is new: for it hath already gone before in the ages that were before us.",
+      "citation": "Ecclesiastes 1:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "There is no remembrance of former things: nor indeed of those things which hereafter are to come, shall there be any remembrance with them that shall be in the latter end.",
+      "citation": "Ecclesiastes 1:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "I Ecclesiastes was king over Israel in Jerusalem,",
+      "citation": "Ecclesiastes 1:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And I proposed in my mind to seek and search out wisely concerning all things that are done under the sun. This painful occupation hath God given to the children of men, to be exercised therein.",
+      "citation": "Ecclesiastes 1:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "I have seen all things that are done under the sun, and behold all is vanity, and vexation of spirit.",
+      "citation": "Ecclesiastes 1:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The perverse are hard to be corrected, and the number of fools is infinite.",
+      "citation": "Ecclesiastes 1:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "I have spoken in my heart, saying: Behold I am become great, and have gone beyond all in wisdom, that were before me in Jerusalem: and my mind hath contemplated many things wisely, and I have learned.",
+      "citation": "Ecclesiastes 1:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And I have given my heart to know prudence, and learning, and errors, and folly: and I have perceived that in these also there was labour, and vexation of spirit,",
+      "citation": "Ecclesiastes 1:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Because in much wisdom there is much indignation: and he that addeth knowledge, addeth also labour.",
+      "citation": "Ecclesiastes 1:18 (Douay-Rheims)"
+    }
+  ]
+}

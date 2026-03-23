@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numeri, Chapter 11 — 35 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numeri",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 11,
+    "verseCount": 35,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/numbers/10.json",
+      "nextChapter": "https://latinprayer.org/bibel/numbers/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/11.json",
+      "latin": "https://latinprayer.org/latin/numbers/11.json"
+    }
+  },
+  "citation": "Numeri 11 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da erging sich das Volk in lauten Klagen über sein Ungemach vor den Ohren des HERRN. Als der HERR es hörte, entbrannte sein Zorn, und das Feuer des HERRN zündete unter ihnen und richtete am Ende des Lagers Verheerung an.",
+      "citation": "Numeri 11:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da schrie das Volk zu Mose, und dieser betete zum HERRN: da erlosch das Feuer.",
+      "citation": "Numeri 11:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Man gab deshalb diesem Orte den Namen Thabera, weil dort das Feuer des HERRN gegen sie aufgelodert war.",
+      "citation": "Numeri 11:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Das Gesindel aber, das sich unter ihnen befand, wurde lüstern; da fingen auch die Israeliten wieder an zu jammern und klagten: »Wer gibt uns Fleisch zu essen?",
+      "citation": "Numeri 11:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Wir denken an die Fische zurück, die wir in Ägypten umsonst zu essen hatten, an die Gurken und Melonen, an den Lauch, die Zwiebeln und den Knoblauch!",
+      "citation": "Numeri 11:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Jetzt aber sind wir ganz ausgehungert; gar nichts ist da! Nichts bekommen wir zu sehen als das Manna!«",
+      "citation": "Numeri 11:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Das Manna aber sah aus wie Koriandersamen und glich dem Bedolachharz.",
+      "citation": "Numeri 11:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Das Volk streifte umher und las es auf; hierauf zermahlten sie es mit Handmühlen oder zerstießen es in Mörsern, kochten es dann in Töpfen oder bereiteten Kuchen daraus; es schmeckte wie Ölbackwerk.",
+      "citation": "Numeri 11:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Wenn der Tau nachts auf das Lager herabfiel, fiel das Manna mit auf ihn herab.",
+      "citation": "Numeri 11:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Als nun Mose das Volk in allen Familien wehklagen hörte, einen jeden am Eingang seines Zeltes, und der Zorn des HERRN heftig entbrannt war, da regte sich der Unwille in Mose,",
+      "citation": "Numeri 11:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "so daß er zum HERRN sagte: »Warum verfährst du so übel mit deinem Knecht, und warum nimmst du so wenig Rücksicht auf mich, daß du die Last (der Sorge) für dieses ganze Volk auf mich legst?",
+      "citation": "Numeri 11:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Habe ich denn Mutterpflichten gegen dieses ganze Volk zu erfüllen, oder habe ich es in die Welt gesetzt, daß du zu mir sagen dürftest: ›Trage es auf deinen Armen, wie die Wärterin den Säugling trägt, und bringe es in das Land, das du ihren Vätern zugeschworen hast?‹",
+      "citation": "Numeri 11:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Woher soll ich Fleisch nehmen, um es diesem ganzen Volke zu geben? Mir jammern sie ja ihre Not vor und rufen: ›Gib uns Fleisch zu essen!‹",
+      "citation": "Numeri 11:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ich allein vermag die Last (der Sorge) für dieses ganze Volk nicht zu tragen; sie ist für mich zu schwer!",
+      "citation": "Numeri 11:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Willst du trotzdem so mit mir verfahren, so bringe mich doch lieber gleich um, wenn du es gut mit mir meinst, damit ich mein Unglück nicht länger anzusehen brauche!«",
+      "citation": "Numeri 11:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Da antwortete der HERR dem Mose: »Versammle mir siebzig Männer aus den Ältesten der Israeliten, von denen du weißt, daß sie wirklich Älteste des Volkes und seine Obmänner sind; führe sie dann zum Offenbarungszelt und laß sie sich dort neben dir aufstellen.",
+      "citation": "Numeri 11:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Ich will dann herabkommen und dort zu dir reden und will von dem Geist, der auf dir ruht, etwas nehmen und es ihnen mitteilen, damit sie im Verein mit dir die Last (der Sorge) für das Volk tragen und du sie nicht mehr allein zu tragen brauchst.",
+      "citation": "Numeri 11:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Zu dem Volke aber sollst du sagen: ›Heiligt euch für morgen! Da sollt ihr Fleisch zu essen bekommen; denn ihr habt vor den Ohren des HERRN gejammert und ausgerufen: Wer gibt uns Fleisch zu essen? In Ägypten hatten wir es so gut! Darum wird der HERR euch Fleisch geben, damit ihr zu essen habt.",
+      "citation": "Numeri 11:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Nicht nur einen Tag sollt ihr es zu essen haben, auch nicht nur zwei oder fünf oder zehn oder zwanzig Tage:",
+      "citation": "Numeri 11:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "nein, einen ganzen Monat lang, bis ihr es nicht mehr riechen könnt und es euch zum Ekel wird! Denn ihr habt den HERRN, der in eurer Mitte weilt, mißachtet und vor ihm gejammert und geklagt: Warum sind wir nur aus Ägypten weggezogen!‹«",
+      "citation": "Numeri 11:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Da erwiderte Mose: »Sechshunderttausend Mann zu Fuß zählt das Volk, unter dem ich lebe, und doch sagst du: ›Fleisch will ich ihnen geben, daß sie einen ganzen Monat lang zu essen haben‹?",
+      "citation": "Numeri 11:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Können so viele Stück Kleinvieh und Rinder für sie geschlachtet werden, daß es für sie ausreicht? Oder sollen alle Fische des Meeres für sie eingefangen werden, daß es für sie ausreicht?«",
+      "citation": "Numeri 11:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Da antwortete der HERR dem Mose: »Ist etwa der Arm des HERRN zu kurz? Jetzt sollst du sehen, ob mein Wort sich dir erfüllt oder nicht!«",
+      "citation": "Numeri 11:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Hierauf ging Mose hinaus und teilte dem Volk die Worte des HERRN mit; dann berief er siebzig Männer aus den Ältesten des Volkes und ließ sie sich rings um das (heilige) Zelt aufstellen.",
+      "citation": "Numeri 11:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Da fuhr der HERR in der Wolke herab und redete zu ihm, nahm dann etwas von dem Geist, der auf ihm ruhte, und teilte ihn den siebzig Ältesten zu. Sobald nun der Geist auf sie gekommen war, gerieten sie in prophetische Begeisterung, später aber nicht wieder.",
+      "citation": "Numeri 11:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Es waren aber zwei Männer im Lager zurückgeblieben, von denen der eine Eldad hieß, der andere Medad; auch auf diese ließ der Geist sich nieder – sie gehörten nämlich zu der Zahl der Aufgeschriebenen, waren aber nicht ans Zelt hinausgegangen –; diese gerieten nun im Lager in prophetische Begeisterung.",
+      "citation": "Numeri 11:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Da kam ein Jüngling gelaufen und meldete dem Mose: »Eldad und Medad sind im Lager in prophetische Begeisterung geraten!«",
+      "citation": "Numeri 11:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Da brach Josua, der Sohn Nuns, der schon von seiner Jünglingszeit an der Diener Moses gewesen war, in die Worte aus: »O Mose, mein Herr, gebiete ihnen Einhalt!«",
+      "citation": "Numeri 11:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Aber Mose entgegnete ihm: »Gerätst du aus Sorge für mich in solchen Eifer? Möchte doch das ganze Volk des HERRN zu Propheten werden, daß der HERR seinen Geist auf sie kommen ließe!«",
+      "citation": "Numeri 11:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Hierauf begab sich Mose mit den Ältesten der Israeliten ins Lager zurück.",
+      "citation": "Numeri 11:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Da erhob sich ein vom HERRN gesandter Wind, der führte Wachteln vom Meere herüber und ließ sie auf das Lager hineinfallen, ungefähr eine Tagereise weit nach allen Seiten rings um das Lager, und sie flogen nur etwa zwei Ellen hoch über der Erde.",
+      "citation": "Numeri 11:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Da machte sich das Volk jenen ganzen Tag und die ganze Nacht und den ganzen folgenden Tag daran und sammelte Wachteln; wer auch nur wenig sammelte, brachte es doch auf zehn Homer; dann breiteten sie sich diese (zum Dörren) weithin aus rings um das Lager her.",
+      "citation": "Numeri 11:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Als sie aber das Fleisch noch zwischen ihren Zähnen hatten, noch ehe es verzehrt war, da entbrannte der Zorn des HERRN gegen das Volk, und der HERR ließ ein verheerendes Sterben unter dem Volke ausbrechen.",
+      "citation": "Numeri 11:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Daher gab man diesem Orte den Namen Kibroth Hattaawa, weil man dort die Leute begraben hatte, die ihrem Gelüst gefrönt hatten. –",
+      "citation": "Numeri 11:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Von den Lustgräbern zog das Volk dann weiter nach Hazeroth, woselbst sie längere Zeit blieben.",
+      "citation": "Numeri 11:35 (Menge)"
+    }
+  ]
+}

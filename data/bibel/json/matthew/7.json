@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthäus, Chapter 7 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthäus",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 7,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/matthew/6.json",
+      "nextChapter": "https://latinprayer.org/bibel/matthew/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/7.json",
+      "latin": "https://latinprayer.org/latin/matthew/7.json"
+    }
+  },
+  "citation": "Matthäus 7 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Richtet nicht, damit ihr nicht gerichtet werdet!",
+      "citation": "Matthäus 7:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Denn mit demselben Gericht, mit dem ihr richtet, werdet ihr wieder gerichtet werden, und mit demselben Maße, mit dem ihr meßt, wird euch wieder gemessen werden.",
+      "citation": "Matthäus 7:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Was siehst du aber den Splitter im Auge deines Bruders, während du den Balken in deinem eigenen Auge nicht wahrnimmst?",
+      "citation": "Matthäus 7:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Oder wie darfst du zu deinem Bruder sagen: ›Laß mich den Splitter aus deinem Auge ziehen‹? Und dabei steckt der Balken in deinem Auge!",
+      "citation": "Matthäus 7:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Du Heuchler, ziehe zuerst den Balken aus deinem Auge, dann magst du zusehen, wie du den Splitter aus deines Bruders Auge ziehst. –",
+      "citation": "Matthäus 7:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Gebt das Heilige nicht den Hunden preis und werft eure Perlen nicht den Schweinen vor, damit diese sie nicht mit ihren Füßen zertreten und sich umwenden und euch zerreißen.«",
+      "citation": "Matthäus 7:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "»Bittet, so wird euch gegeben werden; suchet, so werdet ihr finden; klopfet an, so wird euch aufgetan werden!",
+      "citation": "Matthäus 7:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Denn wer da bittet, der empfängt, und wer da sucht, der findet, und wer anklopft, dem wird aufgetan werden.",
+      "citation": "Matthäus 7:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Oder wo wäre jemand unter euch, der seinem Sohne, wenn er ihn um Brot bittet, einen Stein reichte?",
+      "citation": "Matthäus 7:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Oder der, wenn er ihn um einen Fisch bittet, ihm eine Schlange gäbe?",
+      "citation": "Matthäus 7:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Wenn nun ihr, die ihr doch böse seid, euren Kindern gute Gaben zu geben versteht; wieviel mehr wird euer Vater im Himmel denen Gutes geben, die ihn bitten!«",
+      "citation": "Matthäus 7:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "»Alles nun, was ihr von den Menschen erwartet, das erweist auch ihr ihnen ebenso; denn darin besteht (die Erfüllung) des Gesetzes und der Propheten. –",
+      "citation": "Matthäus 7:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Gehet (in das Reich Gottes) durch die enge Pforte ein; denn weit ist die Pforte und breit der Weg, der ins Verderben führt, und es sind ihrer viele, die auf ihm hineingehen.",
+      "citation": "Matthäus 7:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Eng ist dagegen die Pforte und schmal der Weg, der ins Leben führt, und nur wenige sind es, die ihn finden.«",
+      "citation": "Matthäus 7:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "»Hütet euch vor den falschen Propheten, die in Schafskleidern zu euch kommen, im Inneren aber räuberische Wölfe sind.",
+      "citation": "Matthäus 7:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "An ihren Früchten werdet ihr sie erkennen. Kann man etwa Trauben lesen von Dornbüschen oder Feigen von Disteln?",
+      "citation": "Matthäus 7:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "So bringt jeder gute Baum gute Früchte, ein fauler Baum aber bringt schlechte Früchte;",
+      "citation": "Matthäus 7:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "ein guter Baum kann keine schlechten Früchte bringen, und ein fauler Baum kann keine guten Früchte bringen.",
+      "citation": "Matthäus 7:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Jeder Baum, der nicht gute Früchte bringt, wird abgehauen und ins Feuer geworfen.",
+      "citation": "Matthäus 7:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Also: an ihren Früchten werdet ihr sie erkennen.«",
+      "citation": "Matthäus 7:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "»Nicht alle, die ›Herr, Herr‹ zu mir sagen, werden (darum schon) ins Himmelreich eingehen, sondern nur, wer den Willen meines himmlischen Vaters tut.",
+      "citation": "Matthäus 7:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Viele werden an jenem Tage zu mir sagen: ›Herr, Herr, haben wir nicht kraft deines Namens prophetisch geredet und kraft deines Namens böse Geister ausgetrieben und kraft deines Namens viele Wundertaten vollführt?‹",
+      "citation": "Matthäus 7:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Aber dann werde ich ihnen erklären: ›Niemals habe ich euch gekannt; hinweg von mir, ihr Täter der Gesetzlosigkeit!‹",
+      "citation": "Matthäus 7:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Darum wird jeder, der diese meine Worte hört und nach ihnen tut, einem klugen Manne gleichen, der sein Haus auf Felsengrund gebaut hat.",
+      "citation": "Matthäus 7:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Da strömte der Platzregen herab, es kamen die Wasserströme, es wehten die Winde und stießen an jenes Haus; doch es stürzte nicht ein, denn es war auf den Felsen gegründet.",
+      "citation": "Matthäus 7:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Wer jedoch diese meine Worte hört und nicht nach ihnen tut, der gleicht einem törichten Manne, der sein Haus auf den Sand gebaut hat.",
+      "citation": "Matthäus 7:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Da strömte der Platzregen herab, es kamen die Wasserströme, es wehten die Winde und stürmten gegen jenes Haus: da stürzte es ein, und sein Zusammensturz war gewaltig.«",
+      "citation": "Matthäus 7:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Als Jesus diese Rede beendet hatte, waren die Volksscharen über seine Lehre ganz betroffen;",
+      "citation": "Matthäus 7:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "denn er lehrte sie wie einer, der (göttliche) Vollmacht hat, ganz anders als ihre Schriftgelehrten.",
+      "citation": "Matthäus 7:29 (Menge)"
+    }
+  ]
+}

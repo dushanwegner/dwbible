@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 14 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 14,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/13.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/15.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/14.json",
+      "german": "https://latinprayer.org/bibel/psalms/14.json"
+    }
+  },
+  "citation": "Psalms 14 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in finem psalmus David dixit insipiens in corde suo non est Deus corrupti sunt et abominabiles facti sunt in studiis %suis; non est qui faciat bonum %non est usque ad unum;",
+      "citation": "Psalms 14:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori David dixit stultus in corde suo non est Deus corrupti sunt et abominabiles facti sunt studiose non est qui faciat bonum",
+      "citation": "Psalms 14:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Dominus de caelo prospexit super filios hominum ut videat si est intellegens %aut; requirens Deum",
+      "citation": "Psalms 14:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Dominus de caelo prospexit super filios hominum ut videret si esset intellegens requirens Deum",
+      "citation": "Psalms 14:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "omnes declinaverunt simul inutiles facti sunt non est qui faciat bonum non est usque ad unum = sepulchrum patens est guttur eorum = linguis suis dolose agebant = venenum aspidum sub labiis eorum = quorum os maledictione et amaritudine plenum est = veloces pedes eorum ad effundendum sanguinem = contritio et infelicitas in viis eorum = et viam pacis non cognoverunt % non est timor Dei ante oculos eorum;",
+      "citation": "Psalms 14:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "omnes recesserunt simul conglutinati sunt non est qui faciat bonum non est usque ad unum",
+      "citation": "Psalms 14:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nonne cognoscent omnes qui operantur iniquitatem qui devorant plebem meam sicut escam panis",
+      "citation": "Psalms 14:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nonne cognoscent omnes qui operantur iniquitatem qui devorant populum meum ut cibum panis",
+      "citation": "Psalms 14:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Dominum non invocaverunt illic trepidaverunt timore %ubi non erat timor;",
+      "citation": "Psalms 14:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Dominum non invocaverunt ibi timebunt formidine",
+      "citation": "Psalms 14:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quoniam Deus in generatione iusta consilium inopis confudistis quoniam Dominus spes eius est",
+      "citation": "Psalms 14:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quoniam Deus in generatione iusta est consilium pauperum confudistis quoniam Dominus spes eius est",
+      "citation": "Psalms 14:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quis dabit ex Sion salutare Israhel cum averterit Dominus captivitatem plebis suae exultabit Iacob et laetabitur Israhel",
+      "citation": "Psalms 14:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quis dabit de Sion salutem Israhel quando reduxerit Dominus captivitatem populi sui exultabit Iacob et laetabitur Israhel",
+      "citation": "Psalms 14:7 (Clementine Vulgate)"
+    }
+  ]
+}

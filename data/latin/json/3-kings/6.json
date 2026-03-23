@@ -1,0 +1,226 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Kings, Chapter 6 — 38 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Kings",
+      "slug": "3-kings",
+      "testament": "OT",
+      "order": 11,
+      "totalChapters": 22
+    },
+    "chapter": 6,
+    "verseCount": 38,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/3-kings/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/3-kings/5.json",
+      "nextChapter": "https://latinprayer.org/latin/3-kings/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/3-kings/6.json",
+      "german": "https://latinprayer.org/bibel/3-kings/6.json"
+    }
+  },
+  "citation": "1 Kings 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "factum est igitur quadringentesimo et octogesimo anno egressionis filiorum Israhel de terra Aegypti in anno quarto mense zio ipse est mensis secundus regis Salomonis super Israhel aedificare coepit domum Domino",
+      "citation": "1 Kings 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "domus autem quam aedificabat rex Salomon Domino habebat sexaginta cubitos in longitudine et viginti cubitos in latitudine et triginta cubitos in altitudine",
+      "citation": "1 Kings 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et porticus erat ante templum viginti cubitorum longitudinis iuxta mensuram latitudinis templi et habebat decem cubitos latitudinis ante faciem templi",
+      "citation": "1 Kings 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "fecitque in templo fenestras obliquas",
+      "citation": "1 Kings 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et aedificavit super parietem templi tabulata per gyrum in parietibus domus per circuitum templi et oraculi et fecit latera in circuitu",
+      "citation": "1 Kings 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "tabulatum quod subter erat quinque cubitos habebat latitudinis et medium tabulatum sex cubitorum latitudinis et tertium tabulatum septem habens cubitos latitudinis trabes autem posuit in domo per circuitum forinsecus ut non hererent muris templi",
+      "citation": "1 Kings 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "domus autem cum aedificaretur lapidibus dedolatis atque perfectis aedificata est et malleus et securis et omne ferramentum non sunt audita in domo cum aedificaretur",
+      "citation": "1 Kings 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ostium lateris medii in parte erat domus dexterae et per cocleam ascendebant in medium cenaculum et a medio in tertium",
+      "citation": "1 Kings 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et aedificavit domum et consummavit eam texit quoque domum laquearibus cedrinis",
+      "citation": "1 Kings 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et aedificavit tabulatum super omnem domum quinque cubitis altitudinis et operuit domum lignis cedrinis",
+      "citation": "1 Kings 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et factus est sermo Domini ad Salomonem dicens",
+      "citation": "1 Kings 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "domus haec quam aedificas si ambulaveris in praeceptis meis et iudicia mea feceris et custodieris omnia mandata mea gradiens per ea firmabo sermonem meum tibi quem locutus sum ad David patrem tuum",
+      "citation": "1 Kings 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et habitabo in medio filiorum Israhel et non derelinquam populum meum Israhel",
+      "citation": "1 Kings 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "igitur aedificavit Salomon domum et consummavit eam",
+      "citation": "1 Kings 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et aedificavit parietes domus intrinsecus tabulatis cedrinis a pavimento domus usque ad summitatem parietum et usque ad laquearia operuit lignis intrinsecus et texit pavimentum domus tabulis abiegnis",
+      "citation": "1 Kings 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "aedificavitque viginti cubitorum ad posteriorem partem templi tabulata cedrina a pavimento usque ad superiora et fecit interiorem domum oraculi in sanctum sanctorum",
+      "citation": "1 Kings 6:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "porro quadraginta cubitorum erat ipsum templum pro foribus oraculi",
+      "citation": "1 Kings 6:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et cedro omnis domus intrinsecus vestiebatur habens tornaturas suas et iuncturas fabrefactas et celaturas eminentes omnia cedrinis tabulis vestiebantur nec omnino lapis apparere poterat in pariete",
+      "citation": "1 Kings 6:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "oraculum autem in medio domus in interiori parte fecerat ut poneret ibi arcam foederis Domini",
+      "citation": "1 Kings 6:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "porro oraculum habebat viginti cubitos longitudinis et viginti cubitos latitudinis et viginti cubitos altitudinis et operuit illud atque vestivit auro purissimo sed et altare vestivit cedro",
+      "citation": "1 Kings 6:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "domum quoque ante oraculum operuit auro purissimo et adfixit lamminas clavis aureis",
+      "citation": "1 Kings 6:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "nihilque erat in templo quod non auro tegeretur sed et totum altare oraculi texit auro",
+      "citation": "1 Kings 6:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et fecit in oraculo duo cherubin de lignis olivarum decem cubitorum altitudinis",
+      "citation": "1 Kings 6:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "quinque cubitorum ala cherub una et quinque cubitorum ala cherub altera id est decem cubitos habentes a summitate alae usque ad alae alterius summitatem",
+      "citation": "1 Kings 6:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "decem quoque cubitorum erat cherub secundus mensura pari et opus unum erat in duobus cherubin",
+      "citation": "1 Kings 6:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "id est altitudinem habebat unus cherub decem cubitorum et similiter cherub secundus",
+      "citation": "1 Kings 6:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "posuitque cherubin in medio templi interioris extendebant autem alas suas cherubin et tangebat ala una parietem et ala cherub secundi tangebat parietem alterum alae autem alterae in media parte templi se invicem contingebant",
+      "citation": "1 Kings 6:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "texit quoque cherubin auro",
+      "citation": "1 Kings 6:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et omnes parietes templi per circuitum scalpsit variis celaturis et torno et fecit in eis cherubin et palmas et picturas varias quasi prominentes de pariete et egredientes",
+      "citation": "1 Kings 6:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "sed et pavimentum domus texit auro intrinsecus et extrinsecus",
+      "citation": "1 Kings 6:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "et in ingressu oraculi fecit ostiola de lignis olivarum postesque angulorum quinque",
+      "citation": "1 Kings 6:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et duo ostia de lignis olivarum et scalpsit in eis picturam cherubin et palmarum species et anaglyfa valde prominentia et texit ea auro et operuit tam cherubin quam palmas et cetera auro",
+      "citation": "1 Kings 6:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "fecitque in introitum templi postes de lignis olivarum quadrangulatos",
+      "citation": "1 Kings 6:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et duo ostia de lignis abiegnis altrinsecus et utrumque ostium duplex erat et se invicem tenens aperiebatur",
+      "citation": "1 Kings 6:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et scalpsit cherubin et palmas et celaturas valde eminentes operuitque omnia lamminis aureis opere quadro ad regulam",
+      "citation": "1 Kings 6:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "et aedificavit atrium interius tribus ordinibus lapidum politorum et uno ordine lignorum cedri",
+      "citation": "1 Kings 6:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "anno quarto fundata est domus Domini in mense zio",
+      "citation": "1 Kings 6:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "et in anno undecimo mense bul ipse est mensis octavus perfecta est domus in omni opere suo et in universis utensilibus aedificavitque eam annis septem",
+      "citation": "1 Kings 6:38 (Clementine Vulgate)"
+    }
+  ]
+}

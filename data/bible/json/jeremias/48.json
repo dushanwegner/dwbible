@@ -1,0 +1,271 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremias, Chapter 48 — 47 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremias",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 48,
+    "verseCount": 47,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/jeremias/47.json",
+      "nextChapter": "https://latinprayer.org/bible/jeremias/49.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/jeremias/48.json",
+      "german": "https://latinprayer.org/bibel/jeremias/48.json"
+    }
+  },
+  "citation": "Jeremias 48 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Against Moab thus saith the Lord of hosts the God of Israel: Woe to Nabo, for it is laid waste, and confounded: Cariathaim is taken: the strong city is confounded and hath trembled.",
+      "citation": "Jeremias 48:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "There is no more rejoicing in Moab over Hesebon: they have devised evil. Come, and let us cut it off from being a nation.  Therefore shalt thou in silence hold thy peace, and the sword shall follow thee.",
+      "citation": "Jeremias 48:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "A voice of crying from Oronaim: waste, and great destruction.",
+      "citation": "Jeremias 48:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Moab is destroyed: proclaim a cry for her little ones.",
+      "citation": "Jeremias 48:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For by the ascent of Luith shall the mourner go up with weeping: for in the descent of Oronaim the enemies have heard a howling of destruction.",
+      "citation": "Jeremias 48:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Flee, save your lives: and be as heath in the wilderness.",
+      "citation": "Jeremias 48:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For because thou hast trusted in thy bulwarks, and in thy treasures, thou also shalt be taken: and Chamos shall go into captivity, his priests, and his princes together.",
+      "citation": "Jeremias 48:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the spoiler shall come upon every city, and no city shall escape: and the valleys shall perish, and the plains shall be destroyed, for the Lord hath spoken:",
+      "citation": "Jeremias 48:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Give a flower to Moab, for in its flower it shall go out: and the cities thereof shall be desolate, and uninhabited.",
+      "citation": "Jeremias 48:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Cursed be he that doth the work of the Lord deceitfully: and cursed be he that withholdeth his sword from blood.",
+      "citation": "Jeremias 48:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Moab hath been fruitful from his youth, and hath rested upon his lees: and hath not been poured out from vessel to vessel, nor hath gone into captivity: therefore his taste hath remained in him, and his scent is not changed.",
+      "citation": "Jeremias 48:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Therefore behold the days come, saith the Lord, and I will send him men that shall order and overturn his bottles, and they shall cast him down, and shall empty his vessels, and break their bottles one against another.",
+      "citation": "Jeremias 48:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And Moab shall be ashamed of Chamos, as the house of Israel was ashamed of Bethel, in which they trusted.",
+      "citation": "Jeremias 48:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "How do you say: We are valiant and stout men in battle?",
+      "citation": "Jeremias 48:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Moab is laid waste, and they have cast down her cities: and her choice young men are gone down to the slaughter: saith the king, whose name is the Lord of hosts.",
+      "citation": "Jeremias 48:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The destruction of Moab is near to come: the calamity thereof shall come on exceeding swiftly.",
+      "citation": "Jeremias 48:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Comfort him, all you that are round about him, and all you that know his name, say: How is the strong staff broken, the beautiful rod?",
+      "citation": "Jeremias 48:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Come down from thy glory, and sit in thirst, O dwelling of the daughter of Dibon: because the spoiler of Moab is come up to thee, he hath destroyed thy bulwarks.",
+      "citation": "Jeremias 48:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Stand in the way, and look out, O habitation of Aroer: inquire of him that fleeth: and say to him that hath escaped: What is done?",
+      "citation": "Jeremias 48:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Moab is confounded, because he is overthrown: howl ye, and cry, tell ye it in Arnon, that Moab is wasted.",
+      "citation": "Jeremias 48:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And judgment is come upon the plain country: upon Helon, and upon Jasa, and upon Mephaath.",
+      "citation": "Jeremias 48:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And upon Dibon, and upon Nabo, and upon the house of Deblathaim,",
+      "citation": "Jeremias 48:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And upon Cariathaim, and upon Bethgamul, and upon Bethmaon,",
+      "citation": "Jeremias 48:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And upon Carioth, and upon Bosra: and upon all the cities of the land of Moab, far or near.",
+      "citation": "Jeremias 48:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "The horn of Moab is cut off, and his arm is broken, saith the Lord.",
+      "citation": "Jeremias 48:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Make him drunk, because he lifted up himself against the Lord: and Moab shall dash his hand in his own vomit, and he also shall be in derision.",
+      "citation": "Jeremias 48:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "For Israel hath been a derision unto them: as though thou hadst found him amongst thieves: for thy words therefore, which thou hast spoken against him, thou shalt be led away captive.",
+      "citation": "Jeremias 48:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Leave the cities, and dwell in the rock, you that dwell in Moab: and be ye like the dove that maketh her nest in the mouth of the hole in the highest place.",
+      "citation": "Jeremias 48:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "We have heard the pride of Moab, he is exceeding proud: his haughtiness, and his arrogancy, and his pride, and the loftiness of his heart.",
+      "citation": "Jeremias 48:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "I know, saith the Lord, his boasting, and that the strength thereof is not according to it, neither hath it endeavoured to do according as it was able.",
+      "citation": "Jeremias 48:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Therefore will I lament for Moab, and I will cry out to all Moab, for the men of the brick wall that mourn.",
+      "citation": "Jeremias 48:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "O vineyard of Sabama, I will weep for thee, with the mourning of Jazer: thy branches are gone over the sea, they are come even to the sea of Jazer: the robber hath rushed in upon thy harvest and thy vintage.",
+      "citation": "Jeremias 48:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Joy and gladness is taken away from Carmel, and from the land of Moab, and I have taken away the wine out of the presses: the treader of the grapes shall not sing the accustomed cheerful tune.",
+      "citation": "Jeremias 48:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "From the cry of Hesebon even to Eleale, and to Jasa, they have uttered their voice: from Segor to Oronaim, as a heifer of three years old: the waters also of Nemrim shall be very bad.",
+      "citation": "Jeremias 48:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And I will take away from Moab, saith the Lord, him that offereth in the high places, and that sacrificeth to his gods.",
+      "citation": "Jeremias 48:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "Therefore my heart shall sound for Moab like pipes and my heart shall sound like pipes for the men of the brick wall: because he hath done more than he could, therefore they have perished.",
+      "citation": "Jeremias 48:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "For every head shall be bald, and every beard shall be shaven: all hands shall be tied together, and upon every back there shall be haircloth.",
+      "citation": "Jeremias 48:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Upon all the housetops of Moab, and in the streets thereof general mourning: because I have broken Moab as an useless vessel, saith the Lord.",
+      "citation": "Jeremias 48:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "How is it overthrown, and they have howled! How hath Moab bowed down the neck, and is confounded! And Moab shall be a derision, and an example to all round about him.",
+      "citation": "Jeremias 48:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Thus saith the Lord: Behold he shall fly as an eagle, and shall stretch forth his wings to Moab.",
+      "citation": "Jeremias 48:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "Carioth is taken, and the strongholds are won: and the heart of the valiant men of Moab in that day shall be as the heart of a woman in labour.",
+      "citation": "Jeremias 48:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And Moab shall cease to be a people: because he hath gloried against the Lord.",
+      "citation": "Jeremias 48:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "Fear, and the pit, and the snare come upon thee, O inhabitant of Moab, saith the Lord.",
+      "citation": "Jeremias 48:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "He that shall flee from the fear, shall fall into the pit: and he that shall get up out of the pit, shall be taken in the snare: for I will bring upon Moab the year of their visitation, saith the Lord.",
+      "citation": "Jeremias 48:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "They that fled from the snare stood in the shadow of Hesebon: but there came a fire out of Hesebon, and a flame out of the midst of Seon, and it shall devour part of Moab, and the crown of the head of the children of tumult.",
+      "citation": "Jeremias 48:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "Woe to thee, Moab, thou hast persisted, O people of Chamos: for thy sons, and thy daughters are taken captives.",
+      "citation": "Jeremias 48:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "And I will bring back the captivity of Moab in the last days, saith the Lord. Hitherto the judgments of Moab.",
+      "citation": "Jeremias 48:47 (Douay-Rheims)"
+    }
+  ]
+}

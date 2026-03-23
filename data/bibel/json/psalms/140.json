@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 140 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 140,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/139.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/141.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/140.json",
+      "latin": "https://latinprayer.org/latin/psalms/140.json"
+    }
+  },
+  "citation": "Psalmen 140 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, ein Psalm von David.</em>",
+      "citation": "Psalmen 140:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Rette mich, HERR, von den bösen Menschen! Vor den Freunden der Gewalttat schütze mich,",
+      "citation": "Psalmen 140:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "die auf Böses im Herzen sinnen und allezeit Streit erregen!",
+      "citation": "Psalmen 140:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Sie spitzen ihre Zungen der Schlange gleich, Otterngift ist hinter ihren Lippen. SELA.",
+      "citation": "Psalmen 140:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Behüte mich, HERR, vor den Händen der Frevler! Vor den Freunden der Gewalttat schütze mich, die darauf sinnen, zu Fall mich zu bringen!",
+      "citation": "Psalmen 140:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Die Frechen legen mir heimlich Schlingen und Fallstricke, spannen Netze aus zur Seite des Wegs und stellen mir Fallen. SELA.",
+      "citation": "Psalmen 140:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ich sage zum HERRN: »Du bist mein Gott, vernimm, o HERR, mein lautes Flehen!«",
+      "citation": "Psalmen 140:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "O HERR, mein Gott, meine starke Hilfe, du hast mein Haupt beschirmt am Tage des Kampfes:",
+      "citation": "Psalmen 140:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "gewähre nicht, HERR, die Gelüste der Frevler, laß ihr böses Trachten nicht gelingen! SELA.",
+      "citation": "Psalmen 140:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Erheben sie das Haupt rings um mich her, so falle das Unheil ihrer Lippen auf sie selbst!",
+      "citation": "Psalmen 140:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Er lasse glühende Kohlen auf sie regnen, ins Feuer stürze er sie, in Wasserfluten, daß sie nicht aufstehn können!",
+      "citation": "Psalmen 140:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Der Verleumder wird keinen Halt im Lande gewinnen; der Mann der Gewalttat jage das Unglück Stoß auf Stoß!",
+      "citation": "Psalmen 140:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ich weiß, der HERR wird führen des Elenden Sache, den Rechtsstreit der Armen.",
+      "citation": "Psalmen 140:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ja, die Gerechten werden deinen Namen preisen, die Redlichen bleiben wohnen vor deinem Angesicht.",
+      "citation": "Psalmen 140:14 (Menge)"
+    }
+  ]
+}

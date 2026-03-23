@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 96 — 13 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 96,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/95.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/97.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/96.json",
+      "german": "https://latinprayer.org/bibel/psalms/96.json"
+    }
+  },
+  "citation": "Psalms 96 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A canticle for David himself, when the house was built after the captivity. Sing ye to the Lord a new canticle: sing to the Lord, all the earth.",
+      "citation": "Psalms 96:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Sing ye to the Lord and bless his name: shew forth his salvation from day to day.",
+      "citation": "Psalms 96:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Declare his glory among the Gentiles: his wonders among all people.",
+      "citation": "Psalms 96:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For the Lord is great, and exceedingly to be praised: he is to be feared above all gods.",
+      "citation": "Psalms 96:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For all the gods of the Gentiles are devils: but the Lord made the heavens.",
+      "citation": "Psalms 96:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Praise and beauty are before him: holiness and majesty in his sanctuary.",
+      "citation": "Psalms 96:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Bring ye to the Lord, O ye kindreds of the Gentiles, bring ye to the Lord glory and honour:",
+      "citation": "Psalms 96:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Bring to the Lord glory unto his name. Bring up sacrifices, and come into his courts:",
+      "citation": "Psalms 96:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Adore ye the Lord in his holy court. Let all the earth be moved at his presence.",
+      "citation": "Psalms 96:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Say ye among the Gentiles, the Lord hath reigned. For he hath corrected the world, which shall not be moved: he will judge the people with justice.",
+      "citation": "Psalms 96:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Let the heavens rejoice, and let the earth be glad, let the sea be moved, and the fulness thereof:",
+      "citation": "Psalms 96:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The fields and all things that are in them shall be joyful. Then shall all the trees of the woods rejoice",
+      "citation": "Psalms 96:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "before the face of the Lord, because he cometh: because he cometh to judge the earth. He shall judge the world with justice, and the people with his truth.",
+      "citation": "Psalms 96:13 (Douay-Rheims)"
+    }
+  ]
+}

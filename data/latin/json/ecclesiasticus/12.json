@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 12 — 19 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 12,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/11.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/12.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/12.json"
+    }
+  },
+  "citation": "Sirach 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "si benefeceris scito cui feceris et erit gratia in bonis tuis multa",
+      "citation": "Sirach 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "benefac iusto et invenies retributionem magnam et si non ab ipso certe a Domino",
+      "citation": "Sirach 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "non est ei bene qui adsiduus est malis et elemosynam non danti quoniam et Altissimus odio habet peccatores et misertus est paenitentibus",
+      "citation": "Sirach 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "da misericordi et ne suscipias peccatorem et impiis et peccatoribus reddet vindictam custodiens eos in die vindictae",
+      "citation": "Sirach 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "da bono et non receperis peccatorem",
+      "citation": "Sirach 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "benefac humili et non dederis impio prohibe panes illi dare ne in ipsis potentior te sit",
+      "citation": "Sirach 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "nam duplicia mala invenies in omnibus bonis quoniam et Altissimus odio habet peccatores et impiis reddet vindictam",
+      "citation": "Sirach 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "non agnoscetur in bonis amicus et non abscondetur in malis inimicus",
+      "citation": "Sirach 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "in bonis viri inimici illius in tristitia et in malitia illius amicus agnitus est",
+      "citation": "Sirach 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "non credas inimico tuo in aeternum sicut enim aeramentum eruginat nequitia illius",
+      "citation": "Sirach 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et si humiliatus vadat curvus adice animum tuum et custodi te ab illo",
+      "citation": "Sirach 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "non statuas illum penes te nec sedeat ad dexteram tuam ne conversus stet in loco tuo ne forte conversus in locum tuum inquirat cathedram tuam et in novissimo cognoscas verba mea et in sermonibus meis stimuleris",
+      "citation": "Sirach 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quis miserebitur incantatori a serpente percusso et omnibus qui adpropiant bestiis et qui comitatur cum viro iniquo et obvolutus est in peccatis eius",
+      "citation": "Sirach 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "una hora tecum permanebit si autem declinaveris non subportabit",
+      "citation": "Sirach 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "in labiis suis indulcat inimicus et in corde suo insidiatur ut subvertat te in foveam",
+      "citation": "Sirach 12:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "in oculis suis lacrimatur inimicus et si invenerit tempus non satiabitur sanguine",
+      "citation": "Sirach 12:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "si incurrerint tibi mala invenies eum illic priorem",
+      "citation": "Sirach 12:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "in oculis suis lacrimatur inimicus et quasi adiuvans suffodiet plantas tuas",
+      "citation": "Sirach 12:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "caput suum movebit et plaudebit manu et multa susurrans commutabit vultum suum",
+      "citation": "Sirach 12:19 (Clementine Vulgate)"
+    }
+  ]
+}

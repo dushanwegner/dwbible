@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 5 — 31 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 5,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/numbers/4.json",
+      "nextChapter": "https://latinprayer.org/bible/numbers/6.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/numbers/5.json",
+      "german": "https://latinprayer.org/bibel/numbers/5.json"
+    }
+  },
+  "citation": "Numbers 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Command the children of Israel, that they cast out of the camp every leper, and whosoever hath an issue of seed, or is defiled by the dead:",
+      "citation": "Numbers 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Whether it be man or woman, cast ye them out of the camp, lest they defile it when I shall dwell with you,",
+      "citation": "Numbers 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And the children of Israel did so, and they cast them forth without the camp, as the Lord had spoken to Moses.",
+      "citation": "Numbers 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Say to the children of Israel: When a man or woman shall have committed any of all the sins that men are wont to commit, and by negligence shall have transgressed the commandment of the Lord, and offended,",
+      "citation": "Numbers 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "They shall confess their sin, and restore the principal itself, and the fifth part over and above, to him against whom they have sinned.",
+      "citation": "Numbers 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But if there be no one to receive it, they shall give it to the Lord, and it shall be the priest's, besides the ram that is offered for expiation, to be an atoning sacrifice.",
+      "citation": "Numbers 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "All the firstfruits also, which the children of Israel offer, belong to the priest:",
+      "citation": "Numbers 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And whatsoever is offered into the sanctuary by every one, and is delivered into the hands of the priest, it shall be his.",
+      "citation": "Numbers 5:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Numbers 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Speak to the children of Israel, and thou shalt say to them: The man whose wife shall have gone astray, and contemning her husband,",
+      "citation": "Numbers 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Shall have slept with another man, and her husband cannot discover it, but the adultery is secret, and cannot be proved by witnesses, because she was not found in the adultery:",
+      "citation": "Numbers 5:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "If the spirit of jealousy stir up the husband against his wife, who either is defiled, or is charged with false suspicion,",
+      "citation": "Numbers 5:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "He shall bring her to the priest, and shall offer an oblation for her, the tenth part of a measure of barley meal: he shall not pour oil thereon, nor put frankincense upon it: because it is a sacrifice of jealousy, and an oblation searching out adultery.",
+      "citation": "Numbers 5:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The priest therefore shall offer it, and set it before the Lord.",
+      "citation": "Numbers 5:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And he shall take holy water in an earthen vessel, and he shall cast a little earth of the pavement of the tabernacle into it.",
+      "citation": "Numbers 5:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And when the woman shall stand before the Lord, he shall uncover her head, and shall put on her hands the sacrifice of remembrance, and the oblation of jealousy: and he himself shall hold the most bitter waters, whereon he hath heaped curses with execration.",
+      "citation": "Numbers 5:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And he shall adjure her, and shall say: If another man hath not slept with thee, and if thou be not defiled by forsaking thy husband's bed, these most bitter waters, on which I have heaped curses, shall not hurt thee.",
+      "citation": "Numbers 5:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "But if thou hast gone aside from thy husband, and art defiled, and hast lain with another man:",
+      "citation": "Numbers 5:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "These curses shall light upon thee: The Lord make thee a curse, and an example for all among his people: may he make thy thigh to rot, and may thy belly swell and burst asunder.",
+      "citation": "Numbers 5:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Let the cursed waters enter into thy belly, and may thy womb swell and thy thigh rot. And the woman shall answer, Amen, amen.",
+      "citation": "Numbers 5:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And the priest shall write these curses in a book, and shall wash them out with the most bitter waters, upon which he hath heaped the curses,",
+      "citation": "Numbers 5:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And he shall give them her to drink. And when she hath drunk them up,",
+      "citation": "Numbers 5:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "The priest shall take from her hand the sacrifice of jealousy, and shall elevate it before the Lord, and shall put it upon the altar: yet so as first,",
+      "citation": "Numbers 5:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "To take a handful of the sacrifice of that which is offered, and burn it upon the altar: and so give the most bitter waters to the woman to drink.",
+      "citation": "Numbers 5:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And when she hath drunk them, if she be defiled, and having despised her husband be guilty of adultery, the malediction shall go through her, and her belly swelling, her thigh shall rot: and the woman shall be a curse, and an example to all the people.",
+      "citation": "Numbers 5:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "But if she be not defiled, she shall not be hurt, and shall bear children.",
+      "citation": "Numbers 5:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "This is the law of jealousy. If a woman hath gone aside from her husband, and be defiled,",
+      "citation": "Numbers 5:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And the husband stirred up by the spirit of jealousy bring her before the Lord, and the priest do to her according to all things that are here written:",
+      "citation": "Numbers 5:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "The husband shall be blameless, and she shall bear her iniquity.",
+      "citation": "Numbers 5:31 (Douay-Rheims)"
+    }
+  ]
+}

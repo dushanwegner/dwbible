@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 141 — 10 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 141,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/140.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/142.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/141.json",
+      "latin": "https://latinprayer.org/latin/psalms/141.json"
+    }
+  },
+  "citation": "Psalmen 141 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Psalm Davids.</em> HERR, ich rufe dich, eile mir zu Hilfe! Vernimm meine Stimme, wenn ich zu dir rufe!",
+      "citation": "Psalmen 141:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Laß mein Gebet dir als Räucherwerk gelten, das Aufheben meiner Hände als Abendopfer!",
+      "citation": "Psalmen 141:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Stelle, o HERR, eine Wache vor meinen Mund, behüte das Tor meiner Lippen!",
+      "citation": "Psalmen 141:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Laß mein Herz sich nicht neigen zu bösem Tun, daß ich gottlose Taten verübe im Verein mit Männern, die Übeltäter sind: ich mag nicht essen von ihren Leckerbissen!",
+      "citation": "Psalmen 141:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Schlägt mich ein Gerechter: das ist Liebe, und weist er mich zurecht: das ist Salbe fürs Haupt; nicht soll mein Haupt dagegen sich sträuben; denn noch ist’s der Fall, daß für ihre Bosheit mein Gebet erfolgt.",
+      "citation": "Psalmen 141:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Sind ihre Richter eine Felswand hinabgestürzt worden, so wird man hören, daß meine Worte lieblich sind.",
+      "citation": "Psalmen 141:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wie einer das Erdreich furcht und aufreißt, so sind unsere Gebeine hingestreut für den Rachen der Unterwelt.",
+      "citation": "Psalmen 141:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Denn auf dich, o Allherr, sind meine Augen gerichtet, bei dir such’ ich Zuflucht: gib mein Leben nicht hin in den Tod!",
+      "citation": "Psalmen 141:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Behüte mich vor der Schlinge, die sie mir gelegt, und vor den Fallstricken der Übeltäter!",
+      "citation": "Psalmen 141:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Laß die Frevler fallen in ihre eigenen Netze, während ich zugleich daran vorübergehe!",
+      "citation": "Psalmen 141:10 (Menge)"
+    }
+  ]
+}

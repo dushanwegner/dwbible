@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jude, Chapter 12 — 18 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jude",
+      "slug": "jude",
+      "testament": "NT",
+      "order": 72,
+      "totalChapters": 23
+    },
+    "chapter": 12,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jude/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jude/11.json",
+      "nextChapter": "https://latinprayer.org/latin/jude/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jude/12.json",
+      "german": "https://latinprayer.org/bibel/jude/12.json"
+    }
+  },
+  "citation": "Jude 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et signum magnum paruit in caelo mulier amicta sole et luna sub pedibus eius et in capite eius corona stellarum duodecim",
+      "citation": "Jude 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et in utero habens et clamat parturiens et cruciatur ut pariat",
+      "citation": "Jude 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et visum est aliud signum in caelo et ecce draco magnus rufus habens capita septem et cornua decem et in capitibus suis septem diademata",
+      "citation": "Jude 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et cauda eius trahebat tertiam partem stellarum caeli et misit eas in terram et draco stetit ante mulierem quae erat paritura ut cum peperisset filium eius devoraret",
+      "citation": "Jude 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et peperit filium masculum qui recturus erit omnes gentes in virga ferrea et raptus est filius eius ad Deum et ad thronum eius",
+      "citation": "Jude 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et mulier fugit in solitudinem ubi habet locum paratum a Deo ut ibi pascant illam diebus mille ducentis sexaginta",
+      "citation": "Jude 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et factum est proelium in caelo Michahel et angeli eius proeliabantur cum dracone et draco pugnabat et angeli eius",
+      "citation": "Jude 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et non valuerunt neque locus inventus est eorum amplius in caelo",
+      "citation": "Jude 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et proiectus est draco ille magnus serpens antiquus qui vocatur Diabolus et Satanas qui seducit universum orbem proiectus est in terram et angeli eius cum illo missi sunt",
+      "citation": "Jude 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et audivi vocem magnam in caelo dicentem nunc facta est salus et virtus et regnum Dei nostri et potestas Christi eius quia proiectus est accusator fratrum nostrorum qui accusabat illos ante conspectum Dei nostri die ac nocte",
+      "citation": "Jude 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et ipsi vicerunt illum propter sanguinem agni et propter verbum testimonii sui et non dilexerunt animam suam usque ad mortem",
+      "citation": "Jude 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "propterea laetamini caeli et qui habitatis in eis vae terrae et mari quia descendit diabolus ad vos habens iram magnam sciens quod modicum tempus habet",
+      "citation": "Jude 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et postquam vidit draco quod proiectus est in terram persecutus est mulierem quae peperit masculum",
+      "citation": "Jude 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et datae sunt mulieri duae alae aquilae magnae ut volaret in desertum in locum suum ubi alitur per tempus et tempora et dimidium temporis a facie serpentis",
+      "citation": "Jude 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et misit serpens ex ore suo post mulierem aquam tamquam flumen ut eam faceret trahi a flumine",
+      "citation": "Jude 12:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et adiuvit terra mulierem et aperuit terra os suum et absorbuit flumen quod misit draco de ore suo",
+      "citation": "Jude 12:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et iratus est draco in mulierem et abiit facere proelium cum reliquis de semine eius qui custodiunt mandata Dei et habent testimonium Iesu",
+      "citation": "Jude 12:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et stetit super harenam maris",
+      "citation": "Jude 12:18 (Clementine Vulgate)"
+    }
+  ]
+}

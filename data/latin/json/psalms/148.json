@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 148 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 148,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/147.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/149.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/148.json",
+      "german": "https://latinprayer.org/bibel/psalms/148.json"
+    }
+  },
+  "citation": "Psalms 148 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "alleluia laudate Dominum de caelis laudate eum in excelsis",
+      "citation": "Psalms 148:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "alleluia laudate Dominum de caelis laudate eum in excelsis",
+      "citation": "Psalms 148:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "laudate eum omnes angeli eius laudate eum omnes virtutes eius",
+      "citation": "Psalms 148:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "laudate eum omnes angeli eius laudate eum omnes exercitus eius",
+      "citation": "Psalms 148:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "laudate eum sol et luna laudate eum omnes stellae et lumen",
+      "citation": "Psalms 148:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "laudate eum sol et luna laudate eum omnes stellae luminis",
+      "citation": "Psalms 148:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "laudate eum caeli caelorum et aqua quae super caelum est",
+      "citation": "Psalms 148:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "laudate eum caeli caelorum et aquae quae super caelos sunt",
+      "citation": "Psalms 148:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "laudent nomen Domini quia ipse dixit et facta sunt ipse mandavit et creata sunt",
+      "citation": "Psalms 148:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "laudent nomen Domini quoniam ipse mandavit et creata sunt",
+      "citation": "Psalms 148:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "statuit ea in saeculum et in saeculum saeculi praeceptum posuit et non praeteribit",
+      "citation": "Psalms 148:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et statuit ea in saeculum et in saeculum praeceptum dedit et non praeteribit",
+      "citation": "Psalms 148:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "laudate Dominum de terra dracones et omnes abyssi",
+      "citation": "Psalms 148:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "laudate Dominum de terra dracones et omnes abyssi",
+      "citation": "Psalms 148:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ignis grando nix glacies spiritus procellarum quae faciunt verbum eius",
+      "citation": "Psalms 148:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ignis et grando nix et glacies ventus turbo quae facitis sermonem eius",
+      "citation": "Psalms 148:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "montes et omnes colles ligna fructifera et omnes cedri",
+      "citation": "Psalms 148:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "montes et omnes colles lignum fructiferum et universae cedri",
+      "citation": "Psalms 148:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "bestiae et universa pecora serpentes et volucres pinnatae",
+      "citation": "Psalms 148:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "bestiae et omnia iumenta reptilia et aves volantes",
+      "citation": "Psalms 148:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "reges terrae et omnes populi principes et omnes iudices terrae",
+      "citation": "Psalms 148:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "reges terrae et omnes populi principes et universi iudices terrae",
+      "citation": "Psalms 148:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "iuvenes et virgines senes cum iunioribus laudent nomen Domini",
+      "citation": "Psalms 148:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "iuvenes et virgines senes cum pueris laudent nomen Domini",
+      "citation": "Psalms 148:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quia exaltatum est nomen eius solius",
+      "citation": "Psalms 148:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quoniam sublime nomen eius solius",
+      "citation": "Psalms 148:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "confessio eius super caelum et terram et exaltabit cornu populi sui hymnus omnibus sanctis eius filiis Israhel populo adpropinquanti sibi",
+      "citation": "Psalms 148:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "gloria eius in caelo et in terra et exaltavit cornu populi sui laus omnibus sanctis eius filiis Israhel populo adpropinquanti sibi alleluia",
+      "citation": "Psalms 148:14 (Clementine Vulgate)"
+    }
+  ]
+}

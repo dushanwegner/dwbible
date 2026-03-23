@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Luke — 24 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Luke",
+      "slug": "luke",
+      "testament": "NT",
+      "order": 49,
+      "totalChapters": 24
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/luke/index.json",
+      "german": "https://latinprayer.org/bibel/luke/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 80,
+      "url": "https://latinprayer.org/bible/luke/1",
+      "jsonUrl": "https://latinprayer.org/bible/luke/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 52,
+      "url": "https://latinprayer.org/bible/luke/2",
+      "jsonUrl": "https://latinprayer.org/bible/luke/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/bible/luke/3",
+      "jsonUrl": "https://latinprayer.org/bible/luke/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 44,
+      "url": "https://latinprayer.org/bible/luke/4",
+      "jsonUrl": "https://latinprayer.org/bible/luke/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 39,
+      "url": "https://latinprayer.org/bible/luke/5",
+      "jsonUrl": "https://latinprayer.org/bible/luke/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 49,
+      "url": "https://latinprayer.org/bible/luke/6",
+      "jsonUrl": "https://latinprayer.org/bible/luke/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 50,
+      "url": "https://latinprayer.org/bible/luke/7",
+      "jsonUrl": "https://latinprayer.org/bible/luke/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 56,
+      "url": "https://latinprayer.org/bible/luke/8",
+      "jsonUrl": "https://latinprayer.org/bible/luke/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 62,
+      "url": "https://latinprayer.org/bible/luke/9",
+      "jsonUrl": "https://latinprayer.org/bible/luke/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 42,
+      "url": "https://latinprayer.org/bible/luke/10",
+      "jsonUrl": "https://latinprayer.org/bible/luke/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 54,
+      "url": "https://latinprayer.org/bible/luke/11",
+      "jsonUrl": "https://latinprayer.org/bible/luke/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 59,
+      "url": "https://latinprayer.org/bible/luke/12",
+      "jsonUrl": "https://latinprayer.org/bible/luke/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/bible/luke/13",
+      "jsonUrl": "https://latinprayer.org/bible/luke/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/bible/luke/14",
+      "jsonUrl": "https://latinprayer.org/bible/luke/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/bible/luke/15",
+      "jsonUrl": "https://latinprayer.org/bible/luke/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/bible/luke/16",
+      "jsonUrl": "https://latinprayer.org/bible/luke/16.json"
+    },
+    {
+      "chapter": 17,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/bible/luke/17",
+      "jsonUrl": "https://latinprayer.org/bible/luke/17.json"
+    },
+    {
+      "chapter": 18,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/bible/luke/18",
+      "jsonUrl": "https://latinprayer.org/bible/luke/18.json"
+    },
+    {
+      "chapter": 19,
+      "verseCount": 48,
+      "url": "https://latinprayer.org/bible/luke/19",
+      "jsonUrl": "https://latinprayer.org/bible/luke/19.json"
+    },
+    {
+      "chapter": 20,
+      "verseCount": 47,
+      "url": "https://latinprayer.org/bible/luke/20",
+      "jsonUrl": "https://latinprayer.org/bible/luke/20.json"
+    },
+    {
+      "chapter": 21,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/bible/luke/21",
+      "jsonUrl": "https://latinprayer.org/bible/luke/21.json"
+    },
+    {
+      "chapter": 22,
+      "verseCount": 71,
+      "url": "https://latinprayer.org/bible/luke/22",
+      "jsonUrl": "https://latinprayer.org/bible/luke/22.json"
+    },
+    {
+      "chapter": 23,
+      "verseCount": 56,
+      "url": "https://latinprayer.org/bible/luke/23",
+      "jsonUrl": "https://latinprayer.org/bible/luke/23.json"
+    },
+    {
+      "chapter": 24,
+      "verseCount": 53,
+      "url": "https://latinprayer.org/bible/luke/24",
+      "jsonUrl": "https://latinprayer.org/bible/luke/24.json"
+    }
+  ]
+}

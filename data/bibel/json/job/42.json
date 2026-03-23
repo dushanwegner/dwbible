@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hiob, Chapter 42 — 17 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hiob",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 42,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/job/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/job/41.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/42.json",
+      "latin": "https://latinprayer.org/latin/job/42.json"
+    }
+  },
+  "citation": "Hiob 42 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da antwortete Hiob dem HERRN folgendermaßen:",
+      "citation": "Hiob 42:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Ich habe anerkannt, daß du alles vermagst und kein Vorhaben dir unausführbar ist.",
+      "citation": "Hiob 42:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "[›Wer ist’s, der da den Ratschluß Gottes verdunkelt ohne Einsicht?‹] So habe ich denn in Unverstand geurteilt über Dinge, die zu wunderbar für mich waren und die ich nicht verstand.",
+      "citation": "Hiob 42:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "[›Höre doch und laß mich reden! Ich will dich fragen, und du belehre mich!‹]",
+      "citation": "Hiob 42:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Nur durch Hörensagen hatte ich von dir vernommen, jetzt aber hat mein Auge dich geschaut.",
+      "citation": "Hiob 42:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Darum bekenne ich mich schuldig und bereue in Staub und Asche.«",
+      "citation": "Hiob 42:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Darauf, nachdem der HERR so zu Hiob gesprochen hatte, sagte der HERR zu Eliphas von Theman: »Entbrannt ist mein Zorn gegen dich und gegen deine beiden Freunde; denn ihr habt nicht richtig von mir geredet wie mein Knecht Hiob.",
+      "citation": "Hiob 42:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Darum holt euch nun sieben junge Stiere und sieben Widder, begebt euch zu meinem Knecht Hiob und bringt ein Brandopfer für euch dar! Mein Knecht Hiob soll dann Fürbitte für euch einlegen; denn nur aus Rücksicht auf ihn will ich euch eure Torheit nicht entgelten lassen, weil ihr nicht richtig von mir geredet habt wie mein Knecht Hiob.«",
+      "citation": "Hiob 42:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Da gingen Eliphas von Theman, Bildad von Suah und Zophar von Naama hin und taten, wie der HERR ihnen geboten hatte; und der HERR nahm Rücksicht auf Hiob.",
+      "citation": "Hiob 42:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Der HERR stellte dann Hiobs Glücksstand wieder her, als er Fürbitte für seine Freunde eingelegt hatte; und der HERR vermehrte den ganzen Besitz Hiobs so, daß er doppelt so groß war als früher.",
+      "citation": "Hiob 42:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da kamen alle seine Brüder und Schwestern und alle seine früheren Bekannten zu ihm; sie aßen mit ihm in seinem Hause, bezeigten ihm ihr Beileid und trösteten ihn wegen all des Unglücks, mit dem der HERR ihn heimgesucht hatte; auch schenkten sie ihm ein jeder ein wertvolles Geldstück und jeder einen goldenen Ring.",
+      "citation": "Hiob 42:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Der HERR aber segnete die nachfolgende Lebenszeit Hiobs noch mehr als seine frühere, so daß er es auf 14000 Stück Kleinvieh, 6000 Kamele, 1000 Joch Rinder und 1000 Eselinnen brachte.",
+      "citation": "Hiob 42:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Auch wurden ihm wieder sieben Söhne und drei Töchter geboren;",
+      "citation": "Hiob 42:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "die eine nannte er Jemima, die andere Kezia, die dritte Keren-Happuch;",
+      "citation": "Hiob 42:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "und man fand im ganzen Lande keine so schönen Frauen wie die Töchter Hiobs; und ihr Vater gab ihnen ein Erbteil unter ihren Brüdern. –",
+      "citation": "Hiob 42:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Danach lebte Hiob noch hundertundvierzig Jahre und sah seine Kinder und Kindeskinder, vier Geschlechter;",
+      "citation": "Hiob 42:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "dann starb Hiob alt und lebenssatt.",
+      "citation": "Hiob 42:17 (Menge)"
+    }
+  ]
+}

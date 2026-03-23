@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 16 — 10 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 16,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/15.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/17.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/16.json",
+      "german": "https://latinprayer.org/bibel/psalms/16.json"
+    }
+  },
+  "citation": "Psalms 16 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The inscription of a title to David himself. Preserve me, O Lord, for I have put my trust in thee.",
+      "citation": "Psalms 16:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "I have said to the Lord, thou art my God, for thou hast no need of my goods.",
+      "citation": "Psalms 16:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "To the saints, who are in his land, he hath made wonderful all my desires in them.",
+      "citation": "Psalms 16:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Their infirmities were multiplied: afterwards they made haste. I will not gather together their meetings for bloodofferings: nor will I be mindful of their names by my lips.",
+      "citation": "Psalms 16:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The Lord is the portion of my inheritance and of my cup: it is thou that wilt restore my inheritance to me.",
+      "citation": "Psalms 16:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The lines are fallen unto me in goodly places: for my inheritance is goodly to me.",
+      "citation": "Psalms 16:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "I will bless the Lord, who hath given me understanding: moreover, my reins also have corrected me even till night.",
+      "citation": "Psalms 16:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "I set the Lord always in my sight: for he is at my right hand, that I be not moved.",
+      "citation": "Psalms 16:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Therefore my heart hath been glad, and my tongue hath rejoiced: moreover, my flesh also shall rest in hope.",
+      "citation": "Psalms 16:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Because thou wilt not leave my soul in hell; nor wilt thou give thy holy one to see corruption.",
+      "citation": "Psalms 16:11 (Douay-Rheims)"
+    }
+  ]
+}

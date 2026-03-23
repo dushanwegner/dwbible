@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 17 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 17,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/isaias/16.json",
+      "nextChapter": "https://latinprayer.org/bibel/isaias/18.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/17.json",
+      "latin": "https://latinprayer.org/latin/isaias/17.json"
+    }
+  },
+  "citation": "Jesaja 17 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Ausspruch über Damaskus: »Wisset wohl: Damaskus scheidet aus der Zahl der Städte aus und wird zu einem wüsten Trümmerhaufen werden,",
+      "citation": "Jesaja 17:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "verlassen für immer; seine Städte werden den Herden preisgegeben: die werden dort lagern, ohne daß jemand sie aufscheucht.",
+      "citation": "Jesaja 17:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Zu Ende ist es mit dem Bollwerk für Ephraim und mit dem Königtum für Damaskus; und der Überrest von Syrien wird der Herrlichkeit der Söhne Israels gleichen« – so lautet der Ausspruch des HERRN der Heerscharen.",
+      "citation": "Jesaja 17:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "An jenem Tage wird ja die Herrlichkeit Jakobs geringfügig sein und sein Fettleib abmagern;",
+      "citation": "Jesaja 17:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "und es wird zugehen, wie wenn ein Schnitter Getreidehalme zusammenrafft und sein Arm Ähren absichelt; und es wird zugehen, wie wenn man Ähren bei der Nachlese sammelt im Tale Rephaim (südlich von Jerusalem).",
+      "citation": "Jesaja 17:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "»Es wird ja nur eine Nachlese von ihm übrigbleiben wie beim Abklopfen der Oliven: zwei, drei Beeren ganz oben im Wipfel, vier oder fünf an seinen, des Fruchtbaums Zweigen« – so lautet der Ausspruch des HERRN, des Gottes Israels. –",
+      "citation": "Jesaja 17:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "An jenem Tage werden die Menschen zu ihrem Schöpfer hinschauen und ihre Blicke sich auf den Heiligen Israels richten;",
+      "citation": "Jesaja 17:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "sie werden dann nicht mehr hinschauen nach den Altären, dem Machwerk ihrer Hände, und nicht mehr hinblicken nach dem Gebilde ihrer Finger, nach den Götzenbildern und den Sonnensäulen.",
+      "citation": "Jesaja 17:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "An jenem Tage werden ihre festen Städte sein wie die verlassenen Ortschaften in den Wäldern und auf den Berggipfeln, welche (die Hewiter und Amoriter) einstmals aus Furcht vor den Israeliten verlassen haben: es wird eine Wüstenei sein,",
+      "citation": "Jesaja 17:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "weil du den Gott deines Heils vergessen und an den Felsen deiner Zuflucht nicht gedacht hast. Darum lege immerhin liebliche Pflanzungen an und besetze sie mit ausländischen Absenkern;",
+      "citation": "Jesaja 17:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "laß sie sprossen sogleich an dem Tage, an welchem du sie gepflanzt hast, und bringe deine Pflänzlinge schon am folgenden Morgen zur Blüte: es fällt doch jegliche Ernte aus am Tage des Wehs und des unheilbaren Schmerzes.",
+      "citation": "Jesaja 17:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wehe, ein Getümmel vieler Völker, die wie das Brausen des Meeres brausen! Und ein Getöse von Völkerschaften, die wie mächtige Wasser im Aufruhr tosen!",
+      "citation": "Jesaja 17:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ja, die Völkerschaften tosen, wie gewaltige Wasser tosen; doch er bedroht sie scheltend: da fliehen sie weit weg und werden dahingejagt wie Spreu auf den Bergen vor dem Winde und wie wirbelnder Staub vor dem Sturm.",
+      "citation": "Jesaja 17:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Zur Abendzeit, da bricht Schrecken herein, doch ehe der Morgen kommt, sind sie dahin. Das ist das Schicksal derer, die uns berauben, und das Los derer, die uns plündern!",
+      "citation": "Jesaja 17:14 (Menge)"
+    }
+  ]
+}

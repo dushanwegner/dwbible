@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Philippians — 4 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Philippians",
+      "slug": "philippians",
+      "testament": "NT",
+      "order": 57,
+      "totalChapters": 4
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/philippians/index.json",
+      "german": "https://latinprayer.org/bibel/philippians/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/bible/philippians/1",
+      "jsonUrl": "https://latinprayer.org/bible/philippians/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/bible/philippians/2",
+      "jsonUrl": "https://latinprayer.org/bible/philippians/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bible/philippians/3",
+      "jsonUrl": "https://latinprayer.org/bible/philippians/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/bible/philippians/4",
+      "jsonUrl": "https://latinprayer.org/bible/philippians/4.json"
+    }
+  ]
+}

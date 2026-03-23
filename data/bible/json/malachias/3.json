@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Malachias, Chapter 3 — 24 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Malachias",
+      "slug": "malachias",
+      "testament": "OT",
+      "order": 44,
+      "totalChapters": 3
+    },
+    "chapter": 3,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/malachias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/malachias/2.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/malachias/3.json",
+      "german": "https://latinprayer.org/bibel/malachias/3.json"
+    }
+  },
+  "citation": "Malachias 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Behold I send my angel, and he shall prepare the way before my face. And presently the Lord, whom you seek, and the angel of the testament, whom you desire, shall come to his temple. Behold, he cometh, saith the Lord of hosts.",
+      "citation": "Malachias 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And who shall be able to think of the day of his coming? and who shall stand to see him? for he is like a refining fire, and like the fuller's herb:",
+      "citation": "Malachias 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he shall sit refining and cleansing the silver, and he shall purify the sons of Levi, and shall refine them as gold, and as silver, and they shall offer sacrifices to the Lord in justice.",
+      "citation": "Malachias 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And the sacrifice of Juda and of Jerusalem shall please the Lord, as in the days of old, and in the ancient years.",
+      "citation": "Malachias 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And I will come to you in judgment, and will be a speedy witness against sorcerers, and adulterers, and false swearers, and them that oppress the hireling in his wages, the widows, and the fatherless: and oppress the stranger, and have not feared me, saith the Lord of hosts.",
+      "citation": "Malachias 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For I am the Lord, and I change not: and you the sons of Jacob are not consumed.",
+      "citation": "Malachias 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For from the days of your fathers you have departed from my ordinances, and have not kept them: Return to me, and I will return to you, saith the Lord of hosts. And you have said: Wherein shall we return?",
+      "citation": "Malachias 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Shall a man afflict God, for you afflict me. And you have said: Wherein do we afflict thee? in tithes and in firstfruits.",
+      "citation": "Malachias 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And you are cursed with want, and you afflict me, even the whole nation of you.",
+      "citation": "Malachias 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Bring all the tithes into the storehouse, that there may be meat in my house, and try me in this, saith the Lord: if I open not unto you the flood-gates of heaven, and pour you out a blessing even to abundance.",
+      "citation": "Malachias 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And I will rebuke for your sakes the devourer, and he shall not spoil the fruit of your land: neither shall the vine in the field be barren, saith the Lord of hosts.",
+      "citation": "Malachias 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And all nations shall call you blessed: for you shall be a delightful land, saith the Lord of hosts.",
+      "citation": "Malachias 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Your words have been unsufferable to me, saith the Lord.",
+      "citation": "Malachias 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And you have said: What have we spoken against thee? You have said: He laboureth in vain that serveth God, and what profit is it that we have kept his ordinances, and that we have walked sorrowful before the Lord of hosts?",
+      "citation": "Malachias 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Wherefore now we call the proud people happy, for they that work wickedness are built up, and they have tempted God and are preserved.",
+      "citation": "Malachias 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Then they that feared the Lord, spoke every one with his neighbour: and the Lord gave ear, and heard it: and a book of remembrance was written before him for them that fear the Lord, and think on his name.",
+      "citation": "Malachias 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And they shall be my special possession, saith the Lord of hosts, in the day that I do judgment: and I will spare them, as a man spareth his son that serveth him.",
+      "citation": "Malachias 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And you shall return, and shall see the difference between the just and the wicked: and between him that serveth God, and him that serveth him not.",
+      "citation": "Malachias 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For behold the day shall come kindled as a furnace: and all the proud, and all that do wickedly shall be stubble: and the day that cometh shall set them on fire, saith the Lord of hosts, it shall not leave them root, nor branch.",
+      "citation": "Malachias 3:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "But unto you that fear my name, the Sun of justice shall arise, and health in his wings: and you shall go forth, and shall leap like calves of the herd.",
+      "citation": "Malachias 3:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And you shall tread down the wicked when they shall be ashes under the sole of your feet in the day that I do this, saith the Lord of hosts.",
+      "citation": "Malachias 3:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Remember the law of Moses my servant, which I commanded him in Horeb for all Israel, the precepts, and judgments.",
+      "citation": "Malachias 3:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Behold, I will send you Elias the prophet, before the coming of the great and dreadful day of the Lord.",
+      "citation": "Malachias 3:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers: lest I come, and strike the earth with anathema.",
+      "citation": "Malachias 3:24 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Corinthians, Chapter 6 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "chapter": 6,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-corinthians/5.json",
+      "nextChapter": "https://latinprayer.org/bible/2-corinthians/7.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-corinthians/6.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/6.json"
+    }
+  },
+  "citation": "2. Corinthians 6 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And we helping do exhort you that you receive not the grace of God in vain.",
+      "citation": "2. Corinthians 6:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For he saith: In an accepted time have I heard thee and in the day of salvation have I helped thee. Behold, now is the acceptable time: behold, now is the day of salvation.",
+      "citation": "2. Corinthians 6:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Giving no offence to any man, that our ministry be not blamed.",
+      "citation": "2. Corinthians 6:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But in all things let us exhibit ourselves as the ministers of God, in much patience, in tribulation, in necessities, in distresses,",
+      "citation": "2. Corinthians 6:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "In stripes, in prisons, in seditions, in labours, in watchings, in fastings,",
+      "citation": "2. Corinthians 6:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "In chastity, in knowledge, in longsuffering, in sweetness, in the Holy Ghost, in charity unfeigned,",
+      "citation": "2. Corinthians 6:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "In the word of truth, in the power of God: by the armour of justice on the right hand and on the left:",
+      "citation": "2. Corinthians 6:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "By honour and dishonour: by evil report and good report: as deceivers and yet true: as unknown and yet known:",
+      "citation": "2. Corinthians 6:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "As dying and behold we live: as chastised and not killed:",
+      "citation": "2. Corinthians 6:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "As sorrowful, yet always rejoicing: as needy, yet enriching many: as having nothing and possessing all things.",
+      "citation": "2. Corinthians 6:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Our mouth is open to you, O ye Corinthians: our heart is enlarged.",
+      "citation": "2. Corinthians 6:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "You are not straitened in us: but in your own bowels you are straitened.",
+      "citation": "2. Corinthians 6:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But having the same recompense (I speak as to my children): be you also enlarged.",
+      "citation": "2. Corinthians 6:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Bear not the yoke with unbelievers. For what participation hath justice with injustice? Or what fellowship hath light with darkness?",
+      "citation": "2. Corinthians 6:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And what concord hath Christ with Belial? Or what part hath the faithful with the unbeliever?",
+      "citation": "2. Corinthians 6:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And what agreement hath the temple of God with idols? For you are the temple of the living God: as God saith: I will dwell in them and walk among them. And I will be their God: and they shall be my people.",
+      "citation": "2. Corinthians 6:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Wherefore: Go out from among them and be ye separate, saith the Lord, and touch not the unclean thing:",
+      "citation": "2. Corinthians 6:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And I will receive you. And will be a Father to you: and you shall be my sons and daughters, saith the Lord Almighty.",
+      "citation": "2. Corinthians 6:18 (Douay-Rheims)"
+    }
+  ]
+}

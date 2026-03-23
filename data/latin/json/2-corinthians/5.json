@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Corinthians, Chapter 5 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "chapter": 5,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-corinthians/4.json",
+      "nextChapter": "https://latinprayer.org/latin/2-corinthians/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-corinthians/5.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/5.json"
+    }
+  },
+  "citation": "2 Corinthians 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "scimus enim quoniam si terrestris domus nostra huius habitationis dissolvatur quod aedificationem ex Deo habeamus domum non manufactam aeternam in caelis",
+      "citation": "2 Corinthians 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "nam et in hoc ingemescimus habitationem nostram quae de caelo est superindui cupientes",
+      "citation": "2 Corinthians 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "si tamen vestiti non nudi inveniamur",
+      "citation": "2 Corinthians 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "nam et qui sumus in tabernaculo ingemescimus gravati eo quod nolumus expoliari sed supervestiri ut absorbeatur quod mortale est a vita",
+      "citation": "2 Corinthians 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "qui autem efficit nos in hoc ipsum Deus qui dedit nobis pignus Spiritus",
+      "citation": "2 Corinthians 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "audentes igitur semper et scientes quoniam dum sumus in corpore peregrinamur a Domino",
+      "citation": "2 Corinthians 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "per fidem enim ambulamus et non per speciem",
+      "citation": "2 Corinthians 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "audemus autem et bonam voluntatem habemus magis peregrinari a corpore et praesentes esse ad Deum",
+      "citation": "2 Corinthians 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et ideo contendimus sive absentes sive praesentes placere illi",
+      "citation": "2 Corinthians 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "omnes enim nos manifestari oportet ante tribunal Christi ut referat unusquisque propria corporis prout gessit sive bonum sive malum",
+      "citation": "2 Corinthians 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "scientes ergo timorem Domini hominibus suademus Deo autem manifesti sumus spero autem et in conscientiis vestris manifestos nos esse",
+      "citation": "2 Corinthians 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "non iterum nos commendamus vobis sed occasionem damus vobis gloriandi pro nobis ut habeatis ad eos qui in facie gloriantur et non in corde",
+      "citation": "2 Corinthians 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sive enim mente excedimus Deo sive sobrii sumus vobis",
+      "citation": "2 Corinthians 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "caritas enim Christi urget nos aestimantes hoc quoniam si unus pro omnibus mortuus est ergo omnes mortui sunt",
+      "citation": "2 Corinthians 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et pro omnibus mortuus est ut et qui vivunt iam non sibi vivant sed ei qui pro ipsis mortuus est et resurrexit",
+      "citation": "2 Corinthians 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "itaque nos ex hoc neminem novimus secundum carnem et si cognovimus secundum carnem Christum sed nunc iam non novimus",
+      "citation": "2 Corinthians 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "si qua ergo in Christo nova creatura vetera transierunt ecce facta sunt nova",
+      "citation": "2 Corinthians 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "omnia autem ex Deo qui reconciliavit nos sibi per Christum et dedit nobis ministerium reconciliationis",
+      "citation": "2 Corinthians 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quoniam quidem Deus erat in Christo mundum reconcilians sibi non reputans illis delicta ipsorum et posuit in nobis verbum reconciliationis",
+      "citation": "2 Corinthians 5:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "pro Christo ergo legationem fungimur tamquam Deo exhortante per nos obsecramus pro Christo reconciliamini Deo",
+      "citation": "2 Corinthians 5:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "eum qui non noverat peccatum pro nobis peccatum fecit ut nos efficeremur iustitia Dei in ipso",
+      "citation": "2 Corinthians 5:21 (Clementine Vulgate)"
+    }
+  ]
+}

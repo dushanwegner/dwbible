@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Samuel, Chapter 13 — 39 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "order": 10,
+      "totalChapters": 24
+    },
+    "chapter": 13,
+    "verseCount": 39,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-kings-samuel/12.json",
+      "nextChapter": "https://latinprayer.org/latin/2-kings-samuel/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-kings-samuel/13.json",
+      "german": "https://latinprayer.org/bibel/2-kings-samuel/13.json"
+    }
+  },
+  "citation": "2 Samuel 13 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "factum est autem post haec ut Absalom filii David sororem speciosissimam vocabulo Thamar adamaret Amnon filius David",
+      "citation": "2 Samuel 13:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et deperiret eam valde ita ut aegrotaret propter amorem eius quia cum esset virgo difficile ei videbatur ut quippiam inhoneste ageret cum ea",
+      "citation": "2 Samuel 13:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "erat autem Amnonis amicus nomine Ionadab filius Semaa fratris David vir prudens valde",
+      "citation": "2 Samuel 13:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "qui dixit ad eum quare sic adtenuaris macie fili regis per singulos dies cur non indicas mihi dixitque ei Amnon Thamar sororem Absalom fratris mei amo",
+      "citation": "2 Samuel 13:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "cui respondit Ionadab cuba super lectulum tuum et languorem simula cumque venerit pater tuus ut visitet te dic ei veniat oro Thamar soror mea ut det mihi cibum et faciat pulmentum ut comedam de manu eius",
+      "citation": "2 Samuel 13:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "accubuit itaque Amnon et quasi aegrotare coepit cumque venisset rex ad visitandum eum ait Amnon ad regem veniat obsecro Thamar soror mea ut faciat in oculis meis duas sorbitiunculas et cibum capiam de manu eius",
+      "citation": "2 Samuel 13:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "misit ergo David ad Thamar domum dicens veni in domum Amnon fratris tui et fac ei pulmentum",
+      "citation": "2 Samuel 13:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "venitque Thamar in domum Amnon fratris sui ille autem iacebat quae tollens farinam commiscuit et liquefaciens in oculis eius coxit sorbitiunculas",
+      "citation": "2 Samuel 13:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "tollensque quod coxerat effudit et posuit coram eo et noluit comedere dixitque Amnon eicite universos a me cumque eiecissent omnes",
+      "citation": "2 Samuel 13:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "dixit Amnon ad Thamar infer cibum in conclave ut vescar de manu tua tulit ergo Thamar sorbitiunculas quas fecerat et intulit ad Amnon fratrem suum in conclave",
+      "citation": "2 Samuel 13:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "cumque obtulisset ei cibum adprehendit eam et ait veni cuba mecum soror mea",
+      "citation": "2 Samuel 13:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quae respondit ei noli frater mi noli opprimere me neque enim hoc fas est in Israhel noli facere stultitiam hanc",
+      "citation": "2 Samuel 13:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et ego enim ferre non potero obprobrium meum et tu eris quasi unus de insipientibus in Israhel quin potius loquere ad regem et non negabit me tibi",
+      "citation": "2 Samuel 13:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "noluit autem adquiescere precibus eius sed praevalens viribus oppressit eam et cubavit cum illa",
+      "citation": "2 Samuel 13:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et exosam eam habuit Amnon magno odio nimis ita ut maius esset odium quo oderat eam amore quo ante dilexerat dixitque ei Amnon surge vade",
+      "citation": "2 Samuel 13:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quae respondit ei maius est hoc malum quod nunc agis adversum me quam quod ante fecisti expellens me et noluit audire eam",
+      "citation": "2 Samuel 13:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sed vocato puero qui ministrabat ei dixit eice hanc a me foras et claude ostium post eam",
+      "citation": "2 Samuel 13:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quae induta erat talari tunica huiuscemodi enim filiae regis virgines vestibus utebantur eiecit itaque eam minister illius foras clausitque fores post eam",
+      "citation": "2 Samuel 13:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quae aspergens cinerem capiti suo scissa talari tunica inpositisque manibus super caput suum ibat ingrediens et clamans",
+      "citation": "2 Samuel 13:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "dixit autem ei Absalom frater suus num Amnon frater tuus concubuit tecum sed nunc soror tace frater tuus est neque adfligas cor tuum pro re hac mansit itaque Thamar contabescens in domo Absalom fratris sui",
+      "citation": "2 Samuel 13:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "cum autem audisset rex David verba haec contristatus est valde",
+      "citation": "2 Samuel 13:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "porro non est locutus Absalom ad Amnon nec malum nec bonum oderat enim Absalom Amnon eo quod violasset Thamar sororem suam",
+      "citation": "2 Samuel 13:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "factum est autem post tempus biennii ut tonderentur oves Absalom in Baalasor quae est iuxta Ephraim et vocavit Absalom omnes filios regis",
+      "citation": "2 Samuel 13:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "venitque ad regem et ait ad eum ecce tondentur oves servi tui veniat oro rex cum servis suis ad servum suum",
+      "citation": "2 Samuel 13:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "dixitque rex ad Absalom noli fili mi noli rogare ut veniamus omnes et gravemus te cum autem cogeret eum et noluisset ire benedixit ei",
+      "citation": "2 Samuel 13:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et ait Absalom si non vis venire veniat obsecro nobiscum saltem Amnon frater meus dixitque ad eum rex non est necesse ut vadat tecum",
+      "citation": "2 Samuel 13:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "coegit itaque eum Absalom et dimisit cum eo Amnon et universos filios regis",
+      "citation": "2 Samuel 13:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "praeceperat autem Absalom pueris suis dicens observate cum temulentus fuerit Amnon vino et dixero vobis percutite eum et interficite nolite timere ego enim sum qui praecepi vobis roboramini et estote viri fortes",
+      "citation": "2 Samuel 13:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "fecerunt ergo pueri Absalom adversum Amnon sicut praeceperat eis Absalom surgentesque omnes filii regis ascenderunt singuli mulas suas et fugerunt",
+      "citation": "2 Samuel 13:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "cumque adhuc pergerent in itinere fama praevenit ad David dicens percussit Absalom omnes filios regis et non remansit ex eis saltem unus",
+      "citation": "2 Samuel 13:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "surrexit itaque rex et scidit vestimenta sua et cecidit super terram et omnes servi ipsius qui adsistebant ei sciderunt vestimenta sua",
+      "citation": "2 Samuel 13:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "respondens autem Ionadab filius Samaa fratris David dixit ne aestimet dominus meus quod omnes pueri filii regis occisi sint Amnon solus mortuus est quoniam in ore Absalom erat positus ex die qua oppressit Thamar sororem eius",
+      "citation": "2 Samuel 13:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "nunc ergo ne ponat dominus meus rex super cor suum verbum istud dicens omnes filii regis occisi sunt quoniam Amnon solus mortuus est",
+      "citation": "2 Samuel 13:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "fugit autem Absalom et levavit puer speculator oculos suos et aspexit et ecce populus multus veniebat per iter devium ex latere montis",
+      "citation": "2 Samuel 13:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "dixit autem Ionadab ad regem ecce filii regis adsunt iuxta verbum servi tui sic factum est",
+      "citation": "2 Samuel 13:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "cumque cessasset loqui apparuerunt et filii regis et intrantes levaverunt vocem suam et fleverunt sed et rex et omnes servi eius fleverunt ploratu magno nimis",
+      "citation": "2 Samuel 13:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "porro Absalom fugiens abiit ad Tholomai filium Amiur regem Gessur luxit ergo David filium suum cunctis diebus",
+      "citation": "2 Samuel 13:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "Absalom autem cum fugisset et venisset in Gessur fuit ibi tribus annis",
+      "citation": "2 Samuel 13:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "cessavitque David rex persequi Absalom eo quod consolatus esset super Amnon interitu",
+      "citation": "2 Samuel 13:39 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 35 — 10 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 35,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/isaias/34.json",
+      "nextChapter": "https://latinprayer.org/bibel/isaias/36.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/35.json",
+      "latin": "https://latinprayer.org/latin/isaias/35.json"
+    }
+  },
+  "citation": "Jesaja 35 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Jauchzen sollen die Wüste und die Einöde, frohlocken soll die Steppe und aufsprossen wie ein Narzissenfeld!",
+      "citation": "Jesaja 35:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Sie soll in voller Blüte stehen und frohlocken, ja mit Jubel und Frohlocken! Die Herrlichkeit des Libanons wird ihr verliehen, die Pracht des Karmelgebirges und der Saron-Ebene: sie dort sollen die Herrlichkeit des HERRN sehen, die Pracht unsers Gottes.",
+      "citation": "Jesaja 35:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Stärkt die erschlafften Hände und festigt die wankenden Knie!",
+      "citation": "Jesaja 35:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Sagt zu denen, die verzagten Herzens sind: »Seid getrost, fürchtet euch nicht! Seht, da ist euer Gott! Es kommt die Rache, die Vergeltung Gottes! Er selbst kommt und wird euch Heil spenden!«",
+      "citation": "Jesaja 35:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Alsdann werden die Augen der Blinden sich auftun und die Ohren der Tauben sich öffnen;",
+      "citation": "Jesaja 35:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "dann wird der Lahme springen wie ein Hirsch, und die Zunge des Stummen wird jauchzen; denn in der Wüste quellen Wasser hervor und Bäche in der Steppe;",
+      "citation": "Jesaja 35:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "der glühende Sand wird zum Teich und das durstige Land zu Wassersprudeln; wo zuvor Schakale wohnten und ihre Lagerstätte hatten, da wird ein Bezirk für Rohr und Schilf entstehen.",
+      "citation": "Jesaja 35:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Und es wird dort einen gebahnten Weg geben, die ›Heilige Straße‹ wird man ihn nennen: kein Unreiner wird auf ihr wandern, nein, sie ist für sein Volk allein bestimmt. Wer auf der Straße wandert – selbst Einfältige werden auf ihr nicht irregehen.",
+      "citation": "Jesaja 35:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Löwen wird es dort nicht geben, und kein reißendes Tier wird sie betreten, noch daselbst angetroffen werden; sondern nur die (aus der Gefangenschaft) Erlösten werden darauf wandern",
+      "citation": "Jesaja 35:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "und die vom HERRN in Freiheit Losgekauften auf ihr heimkehren und mit Jubel nach Zion gelangen, und ewige Freude wird ihr Haupt umschweben; Wonne und Freude werden ihnen zuteil werden, aber Kummer und Seufzen müssen entfliehen.",
+      "citation": "Jesaja 35:10 (Menge)"
+    }
+  ]
+}

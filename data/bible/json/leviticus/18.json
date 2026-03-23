@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Leviticus, Chapter 18 — 30 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Leviticus",
+      "slug": "leviticus",
+      "testament": "OT",
+      "order": 3,
+      "totalChapters": 27
+    },
+    "chapter": 18,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/leviticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/leviticus/17.json",
+      "nextChapter": "https://latinprayer.org/bible/leviticus/19.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/leviticus/18.json",
+      "german": "https://latinprayer.org/bibel/leviticus/18.json"
+    }
+  },
+  "citation": "Leviticus 18 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord spoke to Moses, saying:",
+      "citation": "Leviticus 18:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Speak to the children of Israel, and thou shalt say to them: I am the Lord your God.",
+      "citation": "Leviticus 18:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "You shall not do according to the custom of the land of Egypt, in which you dwelt: neither shall you act according to the manner of the country of Chanaan, into which I will bring you. Nor shall you walk in their ordinances.",
+      "citation": "Leviticus 18:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "You shall do my judgments, and shall observe my precepts, and shall walk in them. I am the Lord your God.",
+      "citation": "Leviticus 18:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Keep my laws and my judgments: which if a man do, he shall live in them, I am the Lord.",
+      "citation": "Leviticus 18:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "No man shall approach to her that is near of kin to him, to uncover her nakedness. I am the Lord.",
+      "citation": "Leviticus 18:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Thou shalt not uncover the nakedness of thy father, or the nakedness of thy mother: she is thy mother, thou shalt not uncover her nakedness.",
+      "citation": "Leviticus 18:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Thou shalt not uncover the nakedness of thy father's wife: for it is the nakedness of thy father.",
+      "citation": "Leviticus 18:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thou shalt not uncover the nakedness of thy sister by father or by mother: whether born at home or abroad.",
+      "citation": "Leviticus 18:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Thou shalt not uncover the nakedness of thy son's daughter, or thy daughter's daughter: because it is thy own nakedness.",
+      "citation": "Leviticus 18:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Thou shalt not uncover the nakedness of thy father's wife's daughter, whom she bore to thy father: and who is thy sister.",
+      "citation": "Leviticus 18:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Thou shalt not uncover the nakedness of thy father's sister: because she is the flesh of thy father.",
+      "citation": "Leviticus 18:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thou shalt not uncover the nakedness of thy mother's sister: because she is thy mother's flesh.",
+      "citation": "Leviticus 18:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Thou shalt not uncover the nakedness of thy father's brother: neither shalt thou approach to his wife, who is joined to thee by affinity.",
+      "citation": "Leviticus 18:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Thou shalt not uncover the nakedness of thy daughter-in-law: because she is thy son's wife, neither shalt thou discover her shame.",
+      "citation": "Leviticus 18:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Thou shalt not uncover the nakedness of thy brother's wife: because it is the nakedness of thy brother.",
+      "citation": "Leviticus 18:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Thou shalt not uncover the nakedness of thy wife and her daughter. Thou shalt not take her son's daughter or her daughter's daughter, to discover her shame: because they are her flesh, and such copulation is incest.",
+      "citation": "Leviticus 18:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Thou shalt not take thy wife's sister for a harlot, to rival her: neither shalt thou discover her nakedness, while she is yet living.",
+      "citation": "Leviticus 18:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Thou shalt not approach to a woman having her flowers: neither shalt thou uncover her nakedness.",
+      "citation": "Leviticus 18:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Thou shalt not lie with thy neighbour's wife: nor be defiled with mingling of seed.",
+      "citation": "Leviticus 18:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Thou shalt not give any of thy seed to be consecrated to the idol Moloch, nor defile the name of thy God. I am the Lord.",
+      "citation": "Leviticus 18:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Thou shalt not lie with mankind as with womankind: because it is an abomination.",
+      "citation": "Leviticus 18:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Thou shalt not copulate with any beast: neither shalt thou be defiled with it. A woman shall not lie down to a beast, nor copulate with it: because it is a heinous crime.",
+      "citation": "Leviticus 18:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Defile not yourselves with any of these things with which all the nations have been defiled, which I will cast out before you,",
+      "citation": "Leviticus 18:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And with which the land is defiled: the abominations of which I will visit, that it may vomit out its inhabitants.",
+      "citation": "Leviticus 18:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Keep ye my ordinances and my judgments: and do not any of these abominations. Neither any of your own nation, nor any stranger that sojourneth among you.",
+      "citation": "Leviticus 18:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "For all these detestable things the inhabitants of the land have done, that were before you, and have defiled it.",
+      "citation": "Leviticus 18:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Beware then, lest in like manner, it vomit you also out, if you do the like things: as it vomited out the nation that was before you.",
+      "citation": "Leviticus 18:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Every soul that shall commit any of these abominations, shall perish from the midst of his people.",
+      "citation": "Leviticus 18:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Keep my commandments. Do not the things which they have done, that have been before you: and be not defiled therein. I am the Lord your God.",
+      "citation": "Leviticus 18:30 (Douay-Rheims)"
+    }
+  ]
+}

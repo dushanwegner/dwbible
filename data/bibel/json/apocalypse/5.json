@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Offenbarung, Chapter 5 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Offenbarung",
+      "slug": "apocalypse",
+      "testament": "NT",
+      "order": 73,
+      "totalChapters": 22
+    },
+    "chapter": 5,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/apocalypse/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/apocalypse/4.json",
+      "nextChapter": "https://latinprayer.org/bibel/apocalypse/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/apocalypse/5.json",
+      "latin": "https://latinprayer.org/latin/apocalypse/5.json"
+    }
+  },
+  "citation": "Offenbarung 5 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Und ich sah auf der rechten Hand des auf dem Throne Sitzenden ein Buch, das inwendig beschrieben und auf der Rückseite mit sieben Siegeln versiegelt war.",
+      "citation": "Offenbarung 5:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Dann sah ich einen starken Engel, der mit lauter Stimme ausrief: »Wer ist würdig, das Buch zu öffnen und seine Siegel zu lösen?«",
+      "citation": "Offenbarung 5:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Doch niemand im Himmel und auf der Erde und unter der Erde vermochte das Buch zu öffnen und hineinzusehen.",
+      "citation": "Offenbarung 5:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Da weinte ich laut, weil niemand würdig erfunden wurde, das Buch zu öffnen und hineinzusehen.",
+      "citation": "Offenbarung 5:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Doch einer von den Ältesten sagte zu mir: »Weine nicht! Siehe, der Löwe aus dem Stamme Juda, die Wurzel Davids, hat überwunden, um das Buch und seine sieben Siegel zu öffnen.«",
+      "citation": "Offenbarung 5:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Da sah ich in der Mitte zwischen dem Thron und den vier Lebewesen einerseits und den Ältesten anderseits ein Lamm stehen, (das sah aus) als wäre es (eben) geschlachtet; es hatte sieben Hörner und sieben Augen – das sind die sieben Geister Gottes, die auf die ganze Erde ausgesandt sind.",
+      "citation": "Offenbarung 5:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da ging das Lamm hin und nahm (das Buch) aus der rechten Hand des auf dem Throne Sitzenden.",
+      "citation": "Offenbarung 5:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Als es nun das Buch genommen hatte, warfen sich die vier Lebewesen und die vierundzwanzig Ältesten vor dem Lamm nieder; jeder von ihnen hatte eine Harfe und goldene, mit Räucherwerk gefüllte Schalen; das sind die Gebete der Heiligen.",
+      "citation": "Offenbarung 5:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Und sie sangen ein neues Lied, das da lautete: »Würdig bist du, das Buch zu nehmen und seine Siegel zu öffnen; denn du hast dich schlachten lassen und hast für Gott durch dein Blut aus allen Stämmen und Sprachen, aus allen Völkern und Völkerschaften (Menschen) erkauft,",
+      "citation": "Offenbarung 5:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "und hast sie für unsern Gott zu einem Königtum und zu Priestern gemacht, und sie werden (einst) als Könige auf der Erde herrschen.«",
+      "citation": "Offenbarung 5:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Dann sah ich hin und hörte den Gesang vieler Engel rings um den Thron und um die (vier) Lebewesen und die Ältesten her; ihre Zahl war zehntausendmal zehntausend und tausendmal tausend;",
+      "citation": "Offenbarung 5:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "die riefen laut: »Würdig ist das Lamm, das sich hat schlachten lassen, zu empfangen die Macht und den Reichtum, Weisheit und Kraft, Ehre, Herrlichkeit und Lobpreis.«",
+      "citation": "Offenbarung 5:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Und die ganze Schöpfung im Himmel und auf der Erde und unter der Erde und auf dem Meere und alles, was in ihnen lebt, hörte ich rufen: »Dem, der auf dem Throne sitzt, und dem Lamm (gebühren) Lobpreis und Ehre, Herrlichkeit und Macht in alle Ewigkeit.«",
+      "citation": "Offenbarung 5:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Und die vier Lebewesen riefen: »Amen!«, die Ältesten aber warfen sich nieder und beteten an.",
+      "citation": "Offenbarung 5:14 (Menge)"
+    }
+  ]
+}

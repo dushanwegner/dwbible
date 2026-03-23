@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Lamentations, Chapter 1 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Lamentations",
+      "slug": "lamentations",
+      "testament": "OT",
+      "order": 29,
+      "totalChapters": 5
+    },
+    "chapter": 1,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/lamentations/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/lamentations/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/lamentations/1.json",
+      "german": "https://latinprayer.org/bibel/lamentations/1.json"
+    }
+  },
+  "citation": "Lamentations 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ALEPH quomodo sedit sola civitas plena populo facta est quasi vidua domina gentium princeps provinciarum facta est sub tributo",
+      "citation": "Lamentations 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "BETH plorans ploravit in nocte et lacrimae eius in maxillis eius non est qui consoletur eam ex omnibus caris eius omnes amici eius spreverunt eam et facti sunt ei inimici",
+      "citation": "Lamentations 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "GIMEL migravit Iuda propter adflictionem et multitudinem servitutis habitavit inter gentes nec invenit requiem omnes persecutores eius adprehenderunt eam inter angustias",
+      "citation": "Lamentations 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "DELETH viae Sion lugent eo quod non sint qui veniant ad sollemnitatem omnes portae eius destructae sacerdotes eius gementes virgines eius squalidae et ipsa oppressa amaritudine",
+      "citation": "Lamentations 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "HE facti sunt hostes eius in capite inimici illius locupletati sunt quia Dominus locutus est super eam propter multitudinem iniquitatum eius parvuli eius ducti sunt captivi ante faciem tribulantis",
+      "citation": "Lamentations 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "VAV et egressus est a filia Sion omnis decor eius facti sunt principes eius velut arietes non invenientes pascuam et abierunt absque fortitudine ante faciem subsequentis",
+      "citation": "Lamentations 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ZAI recordata est Hierusalem dierum adflictionis suae et praevaricationis omnium desiderabilium suorum quae habuerat a diebus antiquis cum caderet populus eius in manu hostili et non esset auxiliator viderunt eam hostes et deriserunt sabbata eius",
+      "citation": "Lamentations 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "HETH peccatum peccavit Hierusalem propterea instabilis facta est omnes qui glorificabant eam spreverunt illam quia viderunt ignominiam eius ipsa autem gemens et conversa retrorsum",
+      "citation": "Lamentations 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "TETH sordes eius in pedibus eius nec recordata est finis sui deposita est vehementer non habens consolatorem vide Domine adflictionem meam quoniam erectus est inimicus",
+      "citation": "Lamentations 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "IOTH manum suam misit hostis ad omnia desiderabilia eius quia vidit gentes ingressas sanctuarium suum de quibus praeceperas ne intrarent in ecclesiam tuam",
+      "citation": "Lamentations 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "CAPH omnis populus eius gemens et quaerens panem dederunt pretiosa quaeque pro cibo ad refocilandam animam vide Domine considera quoniam facta sum vilis",
+      "citation": "Lamentations 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "LAMED o vos omnes qui transitis per viam adtendite et videte si est dolor sicut dolor meus quoniam vindemiavit me ut locutus est Dominus in die irae furoris sui",
+      "citation": "Lamentations 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "MEM de excelso misit ignem in ossibus meis et erudivit me expandit rete pedibus meis convertit me retrorsum posuit me desolatam tota die maerore confectam",
+      "citation": "Lamentations 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "NUN vigilavit iugum iniquitatum mearum in manu eius convolutae sunt et inpositae collo meo infirmata est virtus mea dedit me Dominus in manu de qua non potero surgere",
+      "citation": "Lamentations 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "SAMECH abstulit omnes magnificos meos Dominus de medio mei vocavit adversum me tempus ut contereret electos meos torcular calcavit Dominus virgini filiae Iuda",
+      "citation": "Lamentations 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "AIN idcirco ego plorans et oculus meus deducens aquam quia longe factus est a me consolator convertens animam meam facti sunt filii mei perditi quoniam invaluit inimicus",
+      "citation": "Lamentations 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "FE expandit Sion manus suas non est qui consoletur eam mandavit Dominus adversum Iacob in circuitu eius hostes eius facta est Hierusalem quasi polluta menstruis inter eos",
+      "citation": "Lamentations 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "SADE iustus est Dominus quia os eius ad iracundiam provocavi audite obsecro universi populi et videte dolorem meum virgines meae et iuvenes mei abierunt in captivitatem",
+      "citation": "Lamentations 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "COPH vocavi amicos meos et ipsi deceperunt me sacerdotes mei et senes mei in urbe consumpti sunt quia quaesierunt cibum sibi ut refocilarent animam suam",
+      "citation": "Lamentations 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "RES vide Domine quoniam tribulor venter meus conturbatus est subversum est cor meum in memet ipsa quoniam amaritudine plena sum foris interfecit gladius et domi mors similis est",
+      "citation": "Lamentations 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "SEN audierunt quia ingemesco ego et non est qui consoletur me omnes inimici mei audierunt malum meum laetati sunt quoniam tu fecisti adduxisti diem consolationis et fient similes mei",
+      "citation": "Lamentations 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "THAU ingrediatur omne malum eorum coram te et devindemia eos sicut vindemiasti me propter omnes iniquitates meas multi enim gemitus mei et cor meum maerens",
+      "citation": "Lamentations 1:22 (Clementine Vulgate)"
+    }
+  ]
+}

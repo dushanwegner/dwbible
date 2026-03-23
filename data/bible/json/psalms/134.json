@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 134 — 3 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 134,
+    "verseCount": 3,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/133.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/135.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/134.json",
+      "german": "https://latinprayer.org/bibel/psalms/134.json"
+    }
+  },
+  "citation": "Psalms 134 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A gradual canticle. Behold now bless ye the Lord, all ye servants of the Lord: Who stand in the house of the Lord, in the courts of the house of our God.",
+      "citation": "Psalms 134:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "In the nights lift up your hands to the holy places, and bless ye the Lord.",
+      "citation": "Psalms 134:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "May the Lord out of Sion bless thee, he that made heaven and earth.",
+      "citation": "Psalms 134:3 (Douay-Rheims)"
+    }
+  ]
+}

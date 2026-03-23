@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 137 — 9 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 137,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/136.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/138.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/137.json",
+      "latin": "https://latinprayer.org/latin/psalms/137.json"
+    }
+  },
+  "citation": "Psalmen 137 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "An Babels Strömen, da saßen wir und weinten, wenn Zions wir gedachten;",
+      "citation": "Psalmen 137:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "an die Weiden, die dort stehen, hängten wir unsre Harfen;",
+      "citation": "Psalmen 137:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "denn Lieder verlangten von uns dort unsre Zwingherrn, und unsre Peiniger hießen uns fröhlich sein: »Singt uns eins von euren Zionsliedern!«",
+      "citation": "Psalmen 137:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wie sollten wir singen die Lieder des HERRN auf fremdem Boden?",
+      "citation": "Psalmen 137:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Vergesse ich dich, Jerusalem, so verdorre mir die rechte Hand!",
+      "citation": "Psalmen 137:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Die Zunge bleibe mir am Gaumen kleben, wenn ich deiner nicht eingedenk bleibe, wenn ich Jerusalem nicht stelle über alles, was mir Freude macht!",
+      "citation": "Psalmen 137:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Gedenke, HERR, den Söhnen Edoms den Unglückstag Jerusalems, wie sie riefen: »Reißt nieder, reißt nieder bis auf den Grund in ihm!«",
+      "citation": "Psalmen 137:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Bewohnerschaft Babels, Verwüsterin! Heil dem, der dir vergilt dasselbe, was du an uns verübt!",
+      "citation": "Psalmen 137:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Heil dem, der deine Kindlein packt und am Felsen sie zerschmettert!",
+      "citation": "Psalmen 137:9 (Menge)"
+    }
+  ]
+}

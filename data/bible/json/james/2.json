@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "James, Chapter 2 — 26 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "James",
+      "slug": "james",
+      "testament": "NT",
+      "order": 66,
+      "totalChapters": 5
+    },
+    "chapter": 2,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/james/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/james/1.json",
+      "nextChapter": "https://latinprayer.org/bible/james/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/james/2.json",
+      "german": "https://latinprayer.org/bibel/james/2.json"
+    }
+  },
+  "citation": "James 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "My brethren, have not the faith of our Lord Jesus Christ of glory, with respect of persons.",
+      "citation": "James 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For if there shall come into your assembly a man having a golden ring, in fine apparel; and there shall come in also a poor man in mean attire:",
+      "citation": "James 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And you have respect to him that is clothed with the fine apparel and shall say to him: Sit thou here well: but say to the poor man: Stand thou there, or: Sit under my footstool:",
+      "citation": "James 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Do you not judge within yourselves, and are become judges of unjust thoughts?",
+      "citation": "James 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Hearken, my dearest brethren: Hath not God chosen the poor in this world, rich in faith and heirs of the kingdom which God hath promised to them that love him?",
+      "citation": "James 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But you have dishonoured the poor man. Do not the rich oppress you by might? And do not they draw you before the judgment seats?",
+      "citation": "James 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Do not they blaspheme the good name that is invoked upon you?",
+      "citation": "James 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "If then you fulfil the royal law, according to the scriptures: Thou shalt love thy neighbour as thyself; you do well.",
+      "citation": "James 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But if you have respect to persons, you commit sin, being reproved by the law as transgressors.",
+      "citation": "James 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And whosoever shall keep the whole law, but offend in one point, is become guilty of all.",
+      "citation": "James 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For he that said: Thou shalt not commit adultery, said also: Thou shalt not kill. Now if thou do not commit adultery, but shalt kill, thou art become a transgressor of the law.",
+      "citation": "James 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "So speak ye and so do, as being to be judged by the law of liberty.",
+      "citation": "James 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For judgment without mercy to him that hath not done mercy.  And mercy exalteth itself above judgment.",
+      "citation": "James 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "What shall it profit, my brethren, if a man say he hath faith, but hath not works? Shall faith be able to save him?",
+      "citation": "James 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And if a brother or sister be naked and want daily food:",
+      "citation": "James 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And one of you say to them: Go in peace, be ye warmed and filled; yet give them not those things that are necessary for the body, what shall it profit?",
+      "citation": "James 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "So faith also, if it have not works, is dead in itself.",
+      "citation": "James 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "But some man will say: Thou hast faith, and I have works.  Shew me thy faith without works; and I will shew thee, by works, my faith.",
+      "citation": "James 2:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Thou believest that there is one God. Thou dost well: the devils also believe and tremble.",
+      "citation": "James 2:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "But wilt thou know, O vain man, that faith without works is dead?",
+      "citation": "James 2:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Was not Abraham our father justified by works, offering up Isaac his son upon the altar?",
+      "citation": "James 2:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Seest thou that faith did cooperate with his works and by works faith was made perfect?",
+      "citation": "James 2:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And the scripture was fulfilled, saying: Abraham believed God, and it was reputed to him to justice, and he was called the friend of God.",
+      "citation": "James 2:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Do you see that by works a man is justified, and not by faith only?",
+      "citation": "James 2:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And in like manner also Rahab the harlot, was not she justified by works, receiving the messengers and sending them out another way?",
+      "citation": "James 2:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "For even as the body without the spirit is dead: so also faith without works is dead.",
+      "citation": "James 2:26 (Douay-Rheims)"
+    }
+  ]
+}

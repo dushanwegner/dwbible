@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "4. Kings, Chapter 21 — 26 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "4. Kings",
+      "slug": "4-kings",
+      "testament": "OT",
+      "order": 12,
+      "totalChapters": 25
+    },
+    "chapter": 21,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/4-kings/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/4-kings/20.json",
+      "nextChapter": "https://latinprayer.org/bible/4-kings/22.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/4-kings/21.json",
+      "german": "https://latinprayer.org/bibel/4-kings/21.json"
+    }
+  },
+  "citation": "4. Kings 21 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Manasses was twelve years old when he began to reign, and he reigned five and fifty years in Jerusalem: the name of his mother was Haphsiba.",
+      "citation": "4. Kings 21:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he did evil in the sight of the Lord, according to the idols of the nations, which the Lord destroyed from before the face of the children of Israel.",
+      "citation": "4. Kings 21:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he turned, and built up the high places, which Ezechias, his father, had destroyed: and he set up altars to Baal, and made groves, as Achab, the king of Israel, had done: and he adored all the host of heaven, and served them.",
+      "citation": "4. Kings 21:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he built altars in the house of the Lord, of which the Lord said: In Jerusalem I will put my name.",
+      "citation": "4. Kings 21:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And he built altars for all the host of heaven, in the two courts of the temple of the Lord.",
+      "citation": "4. Kings 21:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And he made his son pass through fire: and he used divinations, and observed omens, and appointed pythons, and multiplied soothsayers, to do evil before the Lord, and to provoke him.",
+      "citation": "4. Kings 21:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "He set also an idol of the grove, which he had made, in the temple of the Lord: concerning which the Lord said to David, and to Solomon his son: In this temple, and in Jerusalem, which I have chosen out of all the tribes of Israel, I will put my name for ever.",
+      "citation": "4. Kings 21:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And I will no more make the feet of Israel to be moved out of the land, which I gave to their fathers: only if they will observe to do all that I have commanded them, according to the law which my servant Moses commanded them.",
+      "citation": "4. Kings 21:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But they hearkened not: but were seduced by Manasses, to do evil more than the nations which the Lord destroyed before the children of Israel.",
+      "citation": "4. Kings 21:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the Lord spoke in the hand of his servants, the prophets, saying:",
+      "citation": "4. Kings 21:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Because Manasses, king of Juda, hath done these most wicked abominations, beyond all that the Amorrhites did before him, and hath made Juda also to sin with his filthy doings:",
+      "citation": "4. Kings 21:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Therefore thus saith the Lord, the God of Israel: Behold, I will bring on evils upon Jerusalem and Juda: that whosoever shall hear of them, both his ears shall tingle.",
+      "citation": "4. Kings 21:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And I will stretch over Jerusalem the line of Samaria, and the weight of the house of Achab: and I will efface Jerusalem, as writings tables are wont to be effaced, and I will erase and turn it, and draw the pencil often over the face thereof.",
+      "citation": "4. Kings 21:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And I will leave the remnants of my inheritance, and will deliver them into the hands of their enemies: and they shall become a prey, and a spoil to all their enemies.",
+      "citation": "4. Kings 21:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Because they have done evil before me, and have continued to provoke me, from the day that their fathers came out of Egypt, even unto this day.",
+      "citation": "4. Kings 21:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Moreover, Manasses shed also very much innocent blood, till he filled Jerusalem up to the mouth: besides his sins, wherewith he made Juda to sin, to do evil before the Lord.",
+      "citation": "4. Kings 21:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Now the rest of the acts of Manasses, and all that he did, and his sin, which he sinned, are they not written in the book of the words of the days of the kings of Juda?",
+      "citation": "4. Kings 21:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And Manasses slept with his fathers, and was buried in the garden of his own house, in the garden of Oza: and Amon, his son, reigned in his stead.",
+      "citation": "4. Kings 21:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Two and twenty years old was Amon when he began to reign, and he reigned two years in Jerusalem: the name of his mother was Messalemeth, the daughter of Harus, of Jeteba.",
+      "citation": "4. Kings 21:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And he did evil in the sight of the Lord, as Manasses, his father, had done.",
+      "citation": "4. Kings 21:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And he walked in all the way in which his father had walked: and he served the abominations which his father had served, and he adored them.",
+      "citation": "4. Kings 21:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And forsook the Lord, the God of his fathers, and walked not in the way of the Lord.",
+      "citation": "4. Kings 21:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And his servants plotted against him, and slew the king in his own house.",
+      "citation": "4. Kings 21:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "But the people of the land slew all them that had conspired against king Amon: and made Josias, his son, their king in his stead.",
+      "citation": "4. Kings 21:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "But the rest of the acts of Amon, which he did, are they not written in the book of the words of the days of the kings of Juda?",
+      "citation": "4. Kings 21:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And they buried him in his sepulchre, in the garden of Oza: and his son, Josias, reigned in his stead.",
+      "citation": "4. Kings 21:26 (Douay-Rheims)"
+    }
+  ]
+}

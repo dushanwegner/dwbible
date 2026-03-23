@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Corinthians, Chapter 5 — 21 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "chapter": 5,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-corinthians/4.json",
+      "nextChapter": "https://latinprayer.org/bible/2-corinthians/6.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-corinthians/5.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/5.json"
+    }
+  },
+  "citation": "2. Corinthians 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "For we know, if our earthly house of this habitation be dissolved, that we have a building of God, a house not made with hands, eternal in heaven.",
+      "citation": "2. Corinthians 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For in this also we groan, desiring to be clothed upon with our habitation that is from heaven.",
+      "citation": "2. Corinthians 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Yet so that we be found clothed, not naked.",
+      "citation": "2. Corinthians 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For we also, who are in this tabernacle, do groan, being burthened; because we would not be unclothed, but clothed upon, that that which is mortal may be swallowed up by life.",
+      "citation": "2. Corinthians 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Now he that maketh us for this very thing is God, who hath given us the pledge of the Spirit,",
+      "citation": "2. Corinthians 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Therefore having always confidence, knowing that while we are in the body we are absent from the Lord.",
+      "citation": "2. Corinthians 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "(For we walk by faith and not by sight.)",
+      "citation": "2. Corinthians 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But we are confident and have a good will to be absent rather from the body and to be present with the Lord.",
+      "citation": "2. Corinthians 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And therefore we labour, whether absent or present, to please him.",
+      "citation": "2. Corinthians 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For we must all be manifested before the judgment seat of Christ, that every one may receive the proper things of the body, according as he hath done, whether it be good or evil.",
+      "citation": "2. Corinthians 5:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Knowing therefore the fear of the Lord, we use persuasion to men: but to God we are manifest. And I trust also that in your consciences we are manifest.",
+      "citation": "2. Corinthians 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "We commend not ourselves again to you, but give you occasion to glory in our behalf: that you may have somewhat to answer them who glory in face, and not in heart.",
+      "citation": "2. Corinthians 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For whether we be transported in mind, it is to God: or whether we be sober, it is for you.",
+      "citation": "2. Corinthians 5:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For the charity of Christ presseth us: judging this, that if one died for all, then all were dead.",
+      "citation": "2. Corinthians 5:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And Christ died for all: that they also who live may not now live to themselves, but unto him who died for them and rose again.",
+      "citation": "2. Corinthians 5:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Wherefore henceforth, we know no man according to the flesh.  And if we have known Christ according to the flesh: but now we know him so no longer.",
+      "citation": "2. Corinthians 5:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "If then any be in Christ a new creature, the old things are passed away. Behold all things are made new.",
+      "citation": "2. Corinthians 5:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "But all things are of God, who hath reconciled us to himself by Christ and hath given to us the ministry of reconciliation.",
+      "citation": "2. Corinthians 5:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For God indeed was in Christ, reconciling the world to himself, not imputing to them their sins. And he hath placed in us the word of reconciliation.",
+      "citation": "2. Corinthians 5:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "For Christ therefore we are ambassadors, God as it were exhorting by us, for Christ, we beseech you, be reconciled to God.",
+      "citation": "2. Corinthians 5:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Him, who knew no sin, he hath made sin for us: that we might be made the justice of God in him.",
+      "citation": "2. Corinthians 5:21 (Douay-Rheims)"
+    }
+  ]
+}

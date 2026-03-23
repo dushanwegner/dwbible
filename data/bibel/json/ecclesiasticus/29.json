@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 29 — 28 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 29,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/28.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/30.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/29.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/29.json"
+    }
+  },
+  "citation": "Jesus Sirach 29 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wer Barmherzigkeit übt, leiht seinem Nächsten, und wer ihn mit seinen Mitteln unterstützt, beobachtet die Gebote.",
+      "citation": "Jesus Sirach 29:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Leihe dem Nächsten, wenn er in Not ist, und gibt du es deinem Nächsten zu rechter Zeit zurück.",
+      "citation": "Jesus Sirach 29:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Halte an deiner Zusage fest und beweise dich ihm als zuverlässig, so wirst du allezeit zur Verfügung haben, was du bedarfst.",
+      "citation": "Jesus Sirach 29:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Viele betrachten ein Darlehen als einen guten Fund und machen denen Verdruß, die ihnen geholfen haben;",
+      "citation": "Jesus Sirach 29:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "bis er’s erhält, küßt er ihm die Hände und redet gar demütig um des Nächsten Geld; aber zur Zeit der Rückzahlung zieht er die Frist hin, gibt kummervolle Reden zur Antwort und klagt über schlechte Zeiten.",
+      "citation": "Jesus Sirach 29:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Wenn er zahlen kann, bringt er kaum die Hälfte wieder und rechnet es jenem noch als glücklichen Fund an; wenn aber nicht, so bringt er ihn um sein Geld und gewinnt obendrein an ihm einen Feind; mit Flüchen und Schimpfworten vergilt er ihm und zahlt ihm Schmach statt rühmlicher Anerkennung zurück.",
+      "citation": "Jesus Sirach 29:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "So halten sich denn viele wegen solcher Schlechtigkeit zurück, sie fürchten ohne ihre Schuld Verluste zu erleiden.",
+      "citation": "Jesus Sirach 29:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Trotzdem habe mit dem Notleidenden Geduld und laß ihn nicht lange auf deine Mildtätigkeit warten;",
+      "citation": "Jesus Sirach 29:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "um des Gebotes willen nimm dich des Armen an und laß ihn wegen seiner Bedürftigkeit nicht mit leeren Händen von dir gehen.",
+      "citation": "Jesus Sirach 29:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Verliere immerhin dein Geld um eines Bruders oder Freundes willen und laß es nicht unter dem Steine rosten, so daß es wertlos wird.",
+      "citation": "Jesus Sirach 29:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Lege dir einen Schatz an nach den Geboten des Höchsten, der wird dir mehr Gewinn bringen als das Gold.",
+      "citation": "Jesus Sirach 29:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Verschließe die Mittel zu Almosen in deinen Vorratskammern, das wird dich aus aller Bedrängnis erretten;",
+      "citation": "Jesus Sirach 29:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "besser als ein starker Schild und ein wuchtiger Speer wird es gegen den Feind für dich kämpfen.",
+      "citation": "Jesus Sirach 29:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ein braver Mann leistet Bürgschaft für seinen Nächsten, nur wer die Scham verloren hat, läßt ihn im Stich.",
+      "citation": "Jesus Sirach 29:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Den Liebesdienst eines Bürgen vergiß nicht; er hat sich ja selbst für dich geopfert.",
+      "citation": "Jesus Sirach 29:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Nur ein verworfener Mensch bringt den Bürgen um sein Vermögen, und nur ein durch und durch Undankbarer läßt den im Stich, der ihn gerettet hat.",
+      "citation": "Jesus Sirach 29:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Bürgschaft hat viele Wohlhabende zugrunde gerichtet und sie hin- und hergeschleudert wie die Meereswogen;",
+      "citation": "Jesus Sirach 29:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "vermögende Männer hat sie von Haus und Hof getrieben, so daß sie unter fremden Völkern umherirren mußten.",
+      "citation": "Jesus Sirach 29:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Ein schlechter Mensch, der sich in Bürgschaft stürzt und ungerechtem Gewinn nachjagt, verfällt dem Gericht.",
+      "citation": "Jesus Sirach 29:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Nimm dich des Nächsten nach deinem Vermögen an, aber sieh dich vor, daß du dabei nicht selbst hineinfällst.",
+      "citation": "Jesus Sirach 29:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Die wichtigsten Lebensbedürfnisse sind Wasser und Brot, dazu Kleidung und Wohnung, um die Blöße zu bedecken.",
+      "citation": "Jesus Sirach 29:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Besser das Leben des Armen unter dem Bretterdach als köstliche Leckerbissen in fremden Häusern.",
+      "citation": "Jesus Sirach 29:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Bei kleinem und bei großem Besitz laß dir genügen, so wirst du nicht die Schmähung zu hören bekommen, daß du ein Fremder seist.",
+      "citation": "Jesus Sirach 29:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Ein schlimmes Leben ist’s, von Haus zu Haus zu ziehen; und wo du fremd bist, darfst du den Mund nicht auftun.",
+      "citation": "Jesus Sirach 29:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Du wirst ihnen zu essen und zu trinken geben, ohne Dank zu ernten, und wirst zu alledem noch bittere Worte zu hören bekommen:",
+      "citation": "Jesus Sirach 29:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "»Komm her, Fremdling, decke den Tisch, und wenn du etwas hast, so gib mir zu essen!«",
+      "citation": "Jesus Sirach 29:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "»Zieh ab, Fremdling, mache dem Höherstehenden Platz! Mein Bruder ist als Gast bei mir eingekehrt: ich brauche das Haus«.",
+      "citation": "Jesus Sirach 29:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Hart ist solches für einen verständigen Mann: das Schelten des Hausherrn und das Schimpfen des Gläubigers.",
+      "citation": "Jesus Sirach 29:28 (Menge)"
+    }
+  ]
+}

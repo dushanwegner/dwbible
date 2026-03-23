@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 7 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 7,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/exodus/6.json",
+      "nextChapter": "https://latinprayer.org/bibel/exodus/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/7.json",
+      "latin": "https://latinprayer.org/latin/exodus/7.json"
+    }
+  },
+  "citation": "Exodus 7 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da erwiderte der HERR dem Mose: »Siehe, ich mache dich für den Pharao zu einem Gott, und dein Bruder Aaron soll dein Prophet sein.",
+      "citation": "Exodus 7:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Du sollst ihm alles sagen, was ich dir auftragen werde, doch dein Bruder Aaron soll mit dem Pharao verhandeln, daß er die Israeliten aus seinem Lande ziehen lasse.",
+      "citation": "Exodus 7:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ich aber will das Herz des Pharaos verhärten, um viele Zeichen und Wunder im Lande Ägypten zu verrichten.",
+      "citation": "Exodus 7:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wenn der Pharao nun auf euch nicht hört, so will ich meine Hand an die Ägypter legen und meine Heerscharen, mein Volk, die Israeliten, aus Ägypten unter gewaltigen Strafgerichten wegführen.",
+      "citation": "Exodus 7:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Dann werden die Ägypter zur Erkenntnis kommen, daß ich der HERR bin, wenn ich meine Hand gegen die Ägypter ausgestreckt und die Israeliten aus ihrer Mitte weggeführt habe.«",
+      "citation": "Exodus 7:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Da taten Mose und Aaron so, wie der HERR ihnen geboten hatte, genau so taten sie.",
+      "citation": "Exodus 7:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Mose war aber achtzig und Aaron dreiundachtzig Jahre alt, als sie mit dem Pharao verhandelten.",
+      "citation": "Exodus 7:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Hierauf sagte der HERR zu Mose und zu Aaron:",
+      "citation": "Exodus 7:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "»Wenn der Pharao euch auffordert, ein Wunder zu eurer Beglaubigung zu verrichten, so sollst du zu Aaron sagen: ›Nimm deinen Stab und wirf ihn vor den Pharao hin!‹, dann wird er zu einer großen Schlange werden.«",
+      "citation": "Exodus 7:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Da gingen Mose und Aaron zum Pharao und taten so, wie der HERR ihnen geboten hatte: Aaron warf seinen Stab vor den Pharao und dessen Hofleute hin, und er verwandelte sich in eine große Schlange.",
+      "citation": "Exodus 7:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Aber der Pharao ließ auch seinerseits die Weisen und Zauberer kommen, und auch sie, die ägyptischen Zauberkünstler, taten dasselbe vermittels ihrer Geheimkünste:",
+      "citation": "Exodus 7:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "jeder warf seinen Stab hin, da verwandelten diese sich in Schlangen; jedoch Aarons Stab verschlang ihre Stäbe.",
+      "citation": "Exodus 7:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Aber das Herz des Pharaos blieb hart, so daß er nicht auf sie hörte, wie der HERR es vorausgesagt hatte.",
+      "citation": "Exodus 7:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Hierauf sagte der HERR zu Mose: »Das Herz des Pharaos ist verstockt: er weigert sich, das Volk ziehen zu lassen.",
+      "citation": "Exodus 7:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Begib dich morgen früh zum Pharao – da geht er nämlich an den Fluß – und tritt ihm am Ufer des Nils entgegen; den Stab, der sich in eine Schlange verwandelt hat, nimm in deine Hand",
+      "citation": "Exodus 7:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "und sage zu ihm: ›Der HERR, der Gott der Hebräer, hat mich zu dir gesandt mit der Weisung: Laß mein Volk ziehen, damit es mir in der Wüste diene! Doch du hast bisher nicht gehorchen wollen.",
+      "citation": "Exodus 7:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Daher spricht der HERR so: Daran sollst du erkennen, daß ich der HERR bin: ich werde jetzt mit dem Stabe, den ich hier in der Hand habe, auf das Wasser im Nil schlagen, dann wird es sich in Blut verwandeln,",
+      "citation": "Exodus 7:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "die Fische im Strom werden sämtlich sterben, und der Strom wird stinkend werden, so daß die Ägypter vor Ekel kein Wasser mehr aus dem Strom trinken werden.‹«",
+      "citation": "Exodus 7:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Weiter sagte der HERR zu Mose: »Befiehl dem Aaron: ›Nimm deinen Stab und strecke deine Hand aus über die Gewässer in Ägypten, über seine Stromarme, seine Kanäle und Teiche und über alle seine Wasserbehälter, damit sie zu Blut werden! Und Blut soll überall in Ägypten sein, selbst in den hölzernen und steinernen Gefäßen!‹«",
+      "citation": "Exodus 7:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Mose und Aaron taten so, wie der HERR ihnen geboten hatte: Aaron hob den Stab hoch und schlug mit ihm auf das Wasser im Nil vor den Augen des Pharaos und seiner Diener: da verwandelte sich alles Wasser im Strom in Blut;",
+      "citation": "Exodus 7:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "die Fische im Strom starben sämtlich, und der Strom wurde stinkend, so daß die Ägypter das Wasser aus dem Strom nicht mehr trinken konnten; und das Blut war überall im Land Ägypten.",
+      "citation": "Exodus 7:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Aber die ägyptischen Zauberer taten dasselbe vermittels ihrer Geheimkünste; daher blieb das Herz des Pharaos hart, und er hörte nicht auf sie, wie der HERR es vorausgesagt hatte:",
+      "citation": "Exodus 7:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "der Pharao wandte sich ab und ging nach Hause und nahm sich auch dieses nicht zu Herzen.",
+      "citation": "Exodus 7:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Alle Ägypter aber gruben rings um den Nil nach Trinkwasser; denn von dem Nilwasser konnten sie nicht trinken.",
+      "citation": "Exodus 7:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "So vergingen volle sieben Tage, nachdem der HERR den Strom geschlagen hatte.",
+      "citation": "Exodus 7:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Hierauf gebot der HERR dem Mose: »Gehe zum Pharao und sage zu ihm: ›So hat der HERR gesprochen: Laß mein Volk ziehen, damit es mir diene!",
+      "citation": "Exodus 7:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Wenn du dich aber weigerst, es ziehen zu lassen, so will ich dein ganzes Gebiet mit Fröschen heimsuchen.",
+      "citation": "Exodus 7:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Der Nil soll dann von Fröschen wimmeln; die sollen heraufkommen und in deinen Palast, in dein Schlafgemach und auf dein Bett kriechen und in die Häuser deiner Diener und unter dein Volk, auch in deine Backöfen und Backtröge dringen;",
+      "citation": "Exodus 7:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "ja an dir selbst und deinen Untertanen und an all deinen Dienern sollen die Frösche hinaufkriechen!‹«",
+      "citation": "Exodus 7:29 (Menge)"
+    }
+  ]
+}

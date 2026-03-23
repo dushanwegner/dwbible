@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 47 — 15 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 47,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/46.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/48.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/47.json",
+      "german": "https://latinprayer.org/bibel/isaias/47.json"
+    }
+  },
+  "citation": "Isaiah 47 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "descende sede in pulverem virgo filia Babylon sede in terra non est solium filiae Chaldeorum quia ultra non vocaberis mollis et tenera",
+      "citation": "Isaiah 47:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "tolle molam et mole farinam denuda turpitudinem tuam discoperi umerum revela crus transi flumina",
+      "citation": "Isaiah 47:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "revelabitur ignominia tua et videbitur obprobrium tuum ultionem capiam et non resistet mihi homo",
+      "citation": "Isaiah 47:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "redemptor noster Dominus exercituum nomen illius Sanctus Israhel",
+      "citation": "Isaiah 47:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "sede tace et intra in tenebras filia Chaldeorum quia non vocaberis ultra domina regnorum",
+      "citation": "Isaiah 47:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "iratus sum super populum meum contaminavi hereditatem meam et dedi eos in manu tua non posuisti eis misericordias super senem adgravasti iugum tuum valde",
+      "citation": "Isaiah 47:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et dixisti in sempiternum ero domina non posuisti haec super cor tuum neque recordata es novissimi tui",
+      "citation": "Isaiah 47:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et nunc audi haec delicata et habitans confidenter quae dicis in corde tuo ego sum et non est praeter me amplius non sedebo vidua et ignorabo sterilitatem",
+      "citation": "Isaiah 47:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "venient tibi duo haec subito in die una sterilitas et viduitas universa venerunt super te propter multitudinem maleficiorum tuorum et propter duritiam incantatorum tuorum vehementem",
+      "citation": "Isaiah 47:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et fiduciam habuisti in malitia tua et dixisti non est qui videat me sapientia tua et scientia tua haec decepit te et dixisti in corde tuo ego sum et praeter me non est altera",
+      "citation": "Isaiah 47:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "veniet super te malum et nescies ortum eius et inruet super te calamitas quam non poteris expiare veniet super te repente miseria quam nescies",
+      "citation": "Isaiah 47:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "sta cum incantatoribus tuis et cum multitudine maleficiorum tuorum in quibus laborasti ab adulescentia tua si forte quid prosit tibi aut si possis fieri fortior",
+      "citation": "Isaiah 47:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "defecisti in multitudine consiliorum tuorum stent et salvent te augures caeli qui contemplabantur sidera et supputabant menses ut ex eis adnuntiarent ventura tibi",
+      "citation": "Isaiah 47:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ecce facti sunt quasi stipula ignis conbusit eos non liberabunt animam suam de manu flammae non sunt prunae quibus calefiant nec focus ut sedeant ad eum",
+      "citation": "Isaiah 47:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "sic facta sunt tibi in quibuscumque laboraveras negotiatores tui ab adulescentia tua unusquisque in via sua erraverunt non est qui salvet te",
+      "citation": "Isaiah 47:15 (Clementine Vulgate)"
+    }
+  ]
+}

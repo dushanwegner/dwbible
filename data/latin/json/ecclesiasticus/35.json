@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 35 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 35,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/34.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/36.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/35.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/35.json"
+    }
+  },
+  "citation": "Sirach 35 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "qui conservat legem multiplicat orationem",
+      "citation": "Sirach 35:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "sacrificium salutare adtendere mandatis et discedere ab omni iniquitate",
+      "citation": "Sirach 35:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et deprecatio recedere ab iniustitia",
+      "citation": "Sirach 35:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "[]",
+      "citation": "Sirach 35:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "[]",
+      "citation": "Sirach 35:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "non apparebis ante conspectum Dei vacuus",
+      "citation": "Sirach 35:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "haec enim omnia propter mandatum Domini fiunt",
+      "citation": "Sirach 35:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "oblatio iusti inpinguat altare et odor suavitatis est in conspectu Altissimi",
+      "citation": "Sirach 35:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sacrificium iusti acceptum est et memoriam eius non obliviscetur Dominus",
+      "citation": "Sirach 35:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "bono animo gloriam redde Deo et non minuas primitias manuum tuarum",
+      "citation": "Sirach 35:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in omni dato hilarem fac vultum tuum et in exultatione sanctifica decimas tuas",
+      "citation": "Sirach 35:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "da Altissimo secundum datum eius et in bono oculo ad inventionem fac manuum tuarum",
+      "citation": "Sirach 35:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quoniam Dominus retribuens est et septies tantum reddet tibi",
+      "citation": "Sirach 35:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "noli offerre munera prava non enim suscipiet illa",
+      "citation": "Sirach 35:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et noli inspicere sacrificium iniustum quoniam Dominus iudex est et non est apud illum gloria personae",
+      "citation": "Sirach 35:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "non accipiet Dominus personam in pauperem et precationem laesi exaudiet",
+      "citation": "Sirach 35:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "non despiciet preces pupilli nec viduam si effundat loquellam gemitus",
+      "citation": "Sirach 35:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "nonne lacrima ad maxillam descendit et exclamatio",
+      "citation": "Sirach 35:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "a maxilla ascendit et Dominus exauditor delectans in illis",
+      "citation": "Sirach 35:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "qui adorat Deum in oblectatione suscipietur et precatio illius usque ad nubes propinquabit",
+      "citation": "Sirach 35:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "oratio humiliantis se nubes penetrabit et donec propinquet non conrogabitur et non discedet donec aspiciat Altissimus",
+      "citation": "Sirach 35:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et Dominus non longinquabit sed iudicabit iustos et faciet iudicium et Fortissimus non habebit in illis patientiam ut contribulet dorsum ipsorum",
+      "citation": "Sirach 35:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et gentibus reddet vindictam donec tollat plenitudinem superborum et sceptra iniquorum contribulet",
+      "citation": "Sirach 35:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "donec reddat hominibus secundum actus suos et secundum opera Adae et secundum praesumptionem illius",
+      "citation": "Sirach 35:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "donec iudicet iudicium plebis suae et oblectabit iustos misericordia sua",
+      "citation": "Sirach 35:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "speciosa misericordia Dei in tempore tribulationis quasi nubes pluviae in tempore siccitatis",
+      "citation": "Sirach 35:26 (Clementine Vulgate)"
+    }
+  ]
+}

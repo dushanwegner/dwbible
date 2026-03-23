@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Timothy, Chapter 5 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Timothy",
+      "slug": "1-timothy",
+      "testament": "NT",
+      "order": 61,
+      "totalChapters": 6
+    },
+    "chapter": 5,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-timothy/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-timothy/4.json",
+      "nextChapter": "https://latinprayer.org/latin/1-timothy/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-timothy/5.json",
+      "german": "https://latinprayer.org/bibel/1-timothy/5.json"
+    }
+  },
+  "citation": "1 Timothy 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "seniorem ne increpaveris sed obsecra ut patrem iuvenes ut fratres",
+      "citation": "1 Timothy 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "anus ut matres iuvenculas ut sorores in omni castitate",
+      "citation": "1 Timothy 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "viduas honora quae vere viduae sunt",
+      "citation": "1 Timothy 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "si qua autem vidua filios aut nepotes habet discant primum domum suam regere et mutuam vicem reddere parentibus hoc enim acceptum est coram Deo",
+      "citation": "1 Timothy 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quae autem vere vidua est et desolata speravit in Deum et instat obsecrationibus et orationibus nocte ac die",
+      "citation": "1 Timothy 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nam quae in deliciis est vivens mortua est",
+      "citation": "1 Timothy 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et hoc praecipe ut inreprehensibiles sint",
+      "citation": "1 Timothy 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "si quis autem suorum et maxime domesticorum curam non habet fidem negavit et est infideli deterior",
+      "citation": "1 Timothy 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "vidua eligatur non minus sexaginta annorum quae fuerit unius viri uxor",
+      "citation": "1 Timothy 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in operibus bonis testimonium habens si filios educavit si hospitio recepit si sanctorum pedes lavit si tribulationem patientibus subministravit si omne opus bonum subsecuta est",
+      "citation": "1 Timothy 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "adulescentiores autem viduas devita cum enim luxuriatae fuerint in Christo nubere volunt",
+      "citation": "1 Timothy 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "habentes damnationem quia primam fidem irritam fecerunt",
+      "citation": "1 Timothy 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "simul autem et otiosae discunt circumire domos non solum otiosae sed et verbosae et curiosae loquentes quae non oportet",
+      "citation": "1 Timothy 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "volo ergo iuveniores nubere filios procreare matres familias esse nullam occasionem dare adversario maledicti gratia",
+      "citation": "1 Timothy 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "iam enim quaedam conversae sunt retro Satanan",
+      "citation": "1 Timothy 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "si qua fidelis habet viduas subministret illis et non gravetur ecclesia ut his quae vere viduae sunt sufficiat",
+      "citation": "1 Timothy 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "qui bene praesunt presbyteri duplici honore digni habeantur maxime qui laborant in verbo et doctrina",
+      "citation": "1 Timothy 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "dicit enim scriptura non infrenabis os bovi trituranti et dignus operarius mercede sua",
+      "citation": "1 Timothy 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "adversus presbyterum accusationem noli recipere nisi sub duobus et tribus testibus",
+      "citation": "1 Timothy 5:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "peccantes coram omnibus argue ut et ceteri timorem habeant",
+      "citation": "1 Timothy 5:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "testor coram Deo et Christo Iesu et electis angelis ut haec custodias sine praeiudicio nihil faciens in aliam partem declinando",
+      "citation": "1 Timothy 5:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "manus cito nemini inposueris neque communicaveris peccatis alienis te ipsum castum custodi",
+      "citation": "1 Timothy 5:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "noli adhuc aquam bibere sed vino modico utere propter stomachum tuum et frequentes tuas infirmitates",
+      "citation": "1 Timothy 5:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "quorundam hominum peccata manifesta sunt praecedentia ad iudicium quosdam autem et subsequuntur",
+      "citation": "1 Timothy 5:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "similiter et facta bona manifesta sunt et quae aliter se habent abscondi non possunt",
+      "citation": "1 Timothy 5:25 (Clementine Vulgate)"
+    }
+  ]
+}

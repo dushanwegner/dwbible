@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 102 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 102,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/101.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/103.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/102.json",
+      "latin": "https://latinprayer.org/latin/psalms/102.json"
+    }
+  },
+  "citation": "Psalmen 102 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Gebet eines Elenden, wenn er verzagt ist</em><em> und seine Klage vor dem Herrn ausschüttet.</em>",
+      "citation": "Psalmen 102:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "HERR, höre mein Gebet und laß mein Schreien zu dir dringen!",
+      "citation": "Psalmen 102:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Verbirg dein Angesicht nicht vor mir am Tage, wo mir angst ist! Neige dein Ohr mir zu am Tage, wo ich rufe; erhöre mich eilends!",
+      "citation": "Psalmen 102:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ach, meine Tage sind wie Rauch entschwunden und meine Gebeine wie von Brand durchglüht;",
+      "citation": "Psalmen 102:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "mein Herz ist versengt und verdorrt wie Gras, so daß ich sogar vergesse, Speise zu genießen;",
+      "citation": "Psalmen 102:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "infolge meines Ächzens und Stöhnens klebt mein Gebein mir am Fleisch.",
+      "citation": "Psalmen 102:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ich gleiche dem Wasservogel in der Wüste, bin geworden wie ein Käuzlein in Trümmerstätten;",
+      "citation": "Psalmen 102:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "ich finde keinen Schlaf und klage wie ein einsamer Vogel auf dem Dache.",
+      "citation": "Psalmen 102:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Tagtäglich schmähen mich meine Feinde; und die gegen mich toben, wünschen mir Unheil an.",
+      "citation": "Psalmen 102:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Ach, Asche eß ich als Brot und mische meinen Trank mit Tränen",
+      "citation": "Psalmen 102:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "ob deinem Zorn und deinem Grimm; denn du hast mich hochgehoben und niedergeschleudert.",
+      "citation": "Psalmen 102:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Meine Tage sind wie ein langgestreckter Schatten, und ich selbst verdorre wie Gras!",
+      "citation": "Psalmen 102:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Du aber, HERR, thronst ewiglich, und dein Gedächtnis bleibt von Geschlecht zu Geschlecht.",
+      "citation": "Psalmen 102:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Du wirst dich erheben, dich Zions erbarmen, denn Zeit ist’s, Gnade an ihm zu üben: die Stunde ist da",
+      "citation": "Psalmen 102:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "- denn deine Knechte lieben Zions Steine, und Weh erfaßt sie um seinen Schutt –,",
+      "citation": "Psalmen 102:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "damit die Heiden fürchten lernen den Namen des HERRN und alle Könige der Erde deine Herrlichkeit.",
+      "citation": "Psalmen 102:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Denn der HERR hat Zion wieder aufgebaut, ist in seiner Herrlichkeit dort erschienen,",
+      "citation": "Psalmen 102:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "hat dem Gebet der Verlass’nen sich zugewandt und ihr Flehen nicht verachtet.",
+      "citation": "Psalmen 102:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Dies werde aufgeschrieben fürs kommende Geschlecht, damit das neugeschaffne Volk den HERRN lobpreise,",
+      "citation": "Psalmen 102:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "daß von seiner heiligen Höhe er herabgeschaut, daß der HERR geblickt hat vom Himmel zur Erde,",
+      "citation": "Psalmen 102:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "um das Seufzen der Gefangnen zu hören und die dem Tode Geweihten frei zu machen,",
+      "citation": "Psalmen 102:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "damit man verkünde in Zion den Namen des HERRN und seinen Ruhm in Jerusalem,",
+      "citation": "Psalmen 102:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "wenn die Völker sich allzumal versammeln und die Königreiche, um (Gott) dem HERRN zu dienen.",
+      "citation": "Psalmen 102:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Gelähmt hat er mir auf dem Wege die Kraft, hat verkürzt meine Lebenstage.",
+      "citation": "Psalmen 102:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Nun fleh’ ich: »Mein Gott, raffe mich nicht hinweg in der Mitte meiner Tage, du, dessen Jahre währen für und für!«",
+      "citation": "Psalmen 102:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Vorzeiten hast du die Erde gegründet, und die Himmel sind deiner Hände Werk:",
+      "citation": "Psalmen 102:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "sie werden vergehen, du aber bleibst; sie werden alle zerfallen wie ein Gewand, wie ein Kleid wirst du sie verwandeln, und so werden sie sich wandeln.",
+      "citation": "Psalmen 102:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Du aber bleibst derselbe, und deine Jahre nehmen kein Ende.",
+      "citation": "Psalmen 102:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Die Kinder deiner Knechte werden (sicher) wohnen, und ihr Geschlecht wird fest bestehen vor dir.",
+      "citation": "Psalmen 102:29 (Menge)"
+    }
+  ]
+}

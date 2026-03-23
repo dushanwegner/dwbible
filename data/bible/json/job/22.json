@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 22 — 30 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 22,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/21.json",
+      "nextChapter": "https://latinprayer.org/bible/job/23.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/22.json",
+      "german": "https://latinprayer.org/bibel/job/22.json"
+    }
+  },
+  "citation": "Job 22 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Then Eliphaz the Themanite answered, and said:",
+      "citation": "Job 22:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Can man be compared with God, even though he were of perfect knowledge?",
+      "citation": "Job 22:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "What doth it profit God if thou be just? or what dost thou give him if thy way be unspotted?",
+      "citation": "Job 22:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Shall he reprove thee for fear, and come with thee into judgment:",
+      "citation": "Job 22:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And not for thy manifold wickedness and thy infinite iniquities?",
+      "citation": "Job 22:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For thou hast taken away the pledge of thy brethren without cause, and stripped the naked of their clothing.",
+      "citation": "Job 22:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Thou hast not given water to the weary, thou hast withdrawn bread from the hungry.",
+      "citation": "Job 22:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "In the strength of thy arm thou didst possess the land, and being the most mighty thou holdest it.",
+      "citation": "Job 22:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thou hast sent widows away empty, and the arms of the fatherless thou hast broken in pieces.",
+      "citation": "Job 22:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Therefore art thou surrounded with shares, and sudden fear troubleth thee.",
+      "citation": "Job 22:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And didst thou think that thou shouldst not see darkness, and that thou shouldst not be covered with the violence of overflowing waters?",
+      "citation": "Job 22:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Dost not thou think that God is higher than heaven, and is elevated above the height of the stars?",
+      "citation": "Job 22:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And thou sayest: What doth God know? and he judgeth as it were through a mist.",
+      "citation": "Job 22:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "The clouds are his covert, and he doth not consider our things, and he walketh about the poles of heaven.",
+      "citation": "Job 22:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Dost thou desire to keep the path of ages, which wicked men have trodden?",
+      "citation": "Job 22:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Who were taken away before their time, and a flood hath overthrown their foundation.",
+      "citation": "Job 22:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Who said to God: Depart from us: and looked upon the Almighty as if he could do nothing:",
+      "citation": "Job 22:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Whereas he had filled their houses with good things: whose way of thinking be far from me.",
+      "citation": "Job 22:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The just shall see, and shall rejoice, and the innocent shall laugh them to scorn.",
+      "citation": "Job 22:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Is not their exaltation cut down, and hath not fire devoured the remnants of them?",
+      "citation": "Job 22:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Submit thyself then to him, and be at peace: and thereby thou shalt have the best fruits.",
+      "citation": "Job 22:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Receive the law of his mouth, and lay up his words in thy heart.",
+      "citation": "Job 22:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "If thou wilt return to the Almighty, thou shalt be built up, and shalt put away iniquity far from thy tabernacle.",
+      "citation": "Job 22:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "He shall give for earth flint, and for flint torrents of gold.",
+      "citation": "Job 22:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And the Almighty shall be against thy enemies, and silver shall be heaped together for thee.",
+      "citation": "Job 22:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Then shalt thou abound in delights in the Almighty, and shalt lift up thy face to God.",
+      "citation": "Job 22:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "Thou shalt pray to him, and he will hear thee, and thou shalt pay vows.",
+      "citation": "Job 22:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Thou shalt decree a thing, and it shall come to thee, and light shall shine in thy ways.",
+      "citation": "Job 22:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "For he that hath been humbled, shall be in glory: and he that shall bow down his eyes, he shall be saved.",
+      "citation": "Job 22:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "The innocent shall be saved, and he shall be saved by the cleanness of his hands.",
+      "citation": "Job 22:30 (Douay-Rheims)"
+    }
+  ]
+}

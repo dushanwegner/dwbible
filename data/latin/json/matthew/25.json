@@ -1,0 +1,266 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 25 — 46 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 25,
+    "verseCount": 46,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/matthew/24.json",
+      "nextChapter": "https://latinprayer.org/latin/matthew/26.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/25.json",
+      "german": "https://latinprayer.org/bibel/matthew/25.json"
+    }
+  },
+  "citation": "Matthew 25 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tunc simile erit regnum caelorum decem virginibus quae accipientes lampadas suas exierunt obviam sponso et sponsae",
+      "citation": "Matthew 25:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quinque autem ex eis erant fatuae et quinque prudentes",
+      "citation": "Matthew 25:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "sed quinque fatuae acceptis lampadibus non sumpserunt oleum secum",
+      "citation": "Matthew 25:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "prudentes vero acceperunt oleum in vasis suis cum lampadibus",
+      "citation": "Matthew 25:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "moram autem faciente sponso dormitaverunt omnes et dormierunt",
+      "citation": "Matthew 25:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "media autem nocte clamor factus est ecce sponsus venit exite obviam ei",
+      "citation": "Matthew 25:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "tunc surrexerunt omnes virgines illae et ornaverunt lampades suas",
+      "citation": "Matthew 25:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "fatuae autem sapientibus dixerunt date nobis de oleo vestro quia lampades nostrae extinguntur",
+      "citation": "Matthew 25:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "responderunt prudentes dicentes ne forte non sufficiat nobis et vobis ite potius ad vendentes et emite vobis",
+      "citation": "Matthew 25:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "dum autem irent emere venit sponsus et quae paratae erant intraverunt cum eo ad nuptias et clausa est ianua",
+      "citation": "Matthew 25:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "novissime veniunt et reliquae virgines dicentes domine domine aperi nobis",
+      "citation": "Matthew 25:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "at ille respondens ait amen dico vobis nescio vos",
+      "citation": "Matthew 25:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "vigilate itaque quia nescitis diem neque horam",
+      "citation": "Matthew 25:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sicut enim homo proficiscens vocavit servos suos et tradidit illis bona sua",
+      "citation": "Matthew 25:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et uni dedit quinque talenta alii autem duo alii vero unum unicuique secundum propriam virtutem et profectus est statim",
+      "citation": "Matthew 25:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "abiit autem qui quinque talenta acceperat et operatus est in eis et lucratus est alia quinque",
+      "citation": "Matthew 25:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "similiter qui duo acceperat lucratus est alia duo",
+      "citation": "Matthew 25:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "qui autem unum acceperat abiens fodit in terra et abscondit pecuniam domini sui",
+      "citation": "Matthew 25:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "post multum vero temporis venit dominus servorum illorum et posuit rationem cum eis",
+      "citation": "Matthew 25:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et accedens qui quinque talenta acceperat obtulit alia quinque talenta dicens domine quinque talenta mihi tradidisti ecce alia quinque superlucratus sum",
+      "citation": "Matthew 25:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "ait illi dominus eius euge bone serve et fidelis quia super pauca fuisti fidelis super multa te constituam intra in gaudium domini tui",
+      "citation": "Matthew 25:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "accessit autem et qui duo talenta acceperat et ait domine duo talenta tradidisti mihi ecce alia duo lucratus sum",
+      "citation": "Matthew 25:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ait illi dominus eius euge serve bone et fidelis quia super pauca fuisti fidelis supra multa te constituam intra in gaudium domini tui",
+      "citation": "Matthew 25:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "accedens autem et qui unum talentum acceperat ait domine scio quia homo durus es metis ubi non seminasti et congregas ubi non sparsisti",
+      "citation": "Matthew 25:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et timens abii et abscondi talentum tuum in terra ecce habes quod tuum est",
+      "citation": "Matthew 25:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "respondens autem dominus eius dixit ei serve male et piger sciebas quia meto ubi non semino et congrego ubi non sparsi",
+      "citation": "Matthew 25:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "oportuit ergo te mittere pecuniam meam nummulariis et veniens ego recepissem utique quod meum est cum usura",
+      "citation": "Matthew 25:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "tollite itaque ab eo talentum et date ei qui habet decem talenta",
+      "citation": "Matthew 25:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "omni enim habenti dabitur et abundabit ei autem qui non habet et quod videtur habere auferetur ab eo",
+      "citation": "Matthew 25:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et inutilem servum eicite in tenebras exteriores illic erit fletus et stridor dentium",
+      "citation": "Matthew 25:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "cum autem venerit Filius hominis in maiestate sua et omnes angeli cum eo tunc sedebit super sedem maiestatis suae",
+      "citation": "Matthew 25:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et congregabuntur ante eum omnes gentes et separabit eos ab invicem sicut pastor segregat oves ab hedis",
+      "citation": "Matthew 25:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "et statuet oves quidem a dextris suis hedos autem a sinistris",
+      "citation": "Matthew 25:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "tunc dicet rex his qui a dextris eius erunt venite benedicti Patris mei possidete paratum vobis regnum a constitutione mundi",
+      "citation": "Matthew 25:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "esurivi enim et dedistis mihi manducare sitivi et dedistis mihi bibere hospes eram et collexistis me",
+      "citation": "Matthew 25:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "nudus et operuistis me infirmus et visitastis me in carcere eram et venistis ad me",
+      "citation": "Matthew 25:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "tunc respondebunt ei iusti dicentes Domine quando te vidimus esurientem et pavimus sitientem et dedimus tibi potum",
+      "citation": "Matthew 25:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "quando autem te vidimus hospitem et colleximus te aut nudum et cooperuimus",
+      "citation": "Matthew 25:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "aut quando te vidimus infirmum aut in carcere et venimus ad te",
+      "citation": "Matthew 25:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "et respondens rex dicet illis amen dico vobis quamdiu fecistis uni de his fratribus meis minimis mihi fecistis",
+      "citation": "Matthew 25:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "tunc dicet et his qui a sinistris erunt discedite a me maledicti in ignem aeternum qui paratus est diabolo et angelis eius",
+      "citation": "Matthew 25:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "esurivi enim et non dedistis mihi manducare sitivi et non dedistis mihi potum",
+      "citation": "Matthew 25:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "hospes eram et non collexistis me nudus et non operuistis me infirmus et in carcere et non visitastis me",
+      "citation": "Matthew 25:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "tunc respondebunt et ipsi dicentes Domine quando te vidimus esurientem aut sitientem aut hospitem aut nudum aut infirmum vel in carcere et non ministravimus tibi",
+      "citation": "Matthew 25:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "tunc respondebit illis dicens amen dico vobis quamdiu non fecistis uni de minoribus his nec mihi fecistis",
+      "citation": "Matthew 25:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "et ibunt hii in supplicium aeternum iusti autem in vitam aeternam",
+      "citation": "Matthew 25:46 (Clementine Vulgate)"
+    }
+  ]
+}

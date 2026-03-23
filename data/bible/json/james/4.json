@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "James, Chapter 4 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "James",
+      "slug": "james",
+      "testament": "NT",
+      "order": 66,
+      "totalChapters": 5
+    },
+    "chapter": 4,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/james/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/james/3.json",
+      "nextChapter": "https://latinprayer.org/bible/james/5.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/james/4.json",
+      "german": "https://latinprayer.org/bibel/james/4.json"
+    }
+  },
+  "citation": "James 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "From whence are wars and contentions among you? Are they not hence, from your concupiscences, which war in your members?",
+      "citation": "James 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "You covet, and have not: you kill and envy and cannot obtain.  You contend and war, and you have not: because you ask not.",
+      "citation": "James 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "You ask and receive not: because you ask amiss, that you may consume it on your concupiscences.",
+      "citation": "James 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Adulterers, know you not that the friendship of this world is the enemy of God? Whosoever therefore will be a friend of this world becometh an enemy of God.",
+      "citation": "James 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Or do you think that the scripture saith in vain: To envy doth the spirit covet which dwelleth in you?",
+      "citation": "James 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But he giveth greater grace. Wherefore he saith: God resisteth the proud and giveth grace to the humble.",
+      "citation": "James 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Be subject therefore to God. But resist the devil: and he will fly from you.",
+      "citation": "James 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Draw nigh to God: and he will draw nigh to you. Cleanse your hands, ye sinners, and purify your hearts, ye double minded.",
+      "citation": "James 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Be afflicted and mourn and weep: let your laughter be turned into mourning and your joy into sorrow.",
+      "citation": "James 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Be humbled in the sight of the Lord: and he will exalt you.",
+      "citation": "James 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Detract not one another, my brethren. He that detracteth his brother, or he that judgeth his brother, detracteth the law and judgeth the law. But if thou judge the law, thou art not a doer of the law, but a judge.",
+      "citation": "James 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "There is one lawgiver and judge, that is able to destroy and to deliver.",
+      "citation": "James 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But who art thou that judgest thy neighbour? Behold, now you that say: To-day or to-morrow we will go into such a city, and there we will spend a year and will traffic and make our gain.",
+      "citation": "James 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Whereas you know not what shall be on the morrow.",
+      "citation": "James 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For what is your life? It is a vapour which appeareth for a little while and afterwards shall vanish away. For that you should say: If the Lord will, and, If we shall live, we will do this or that.",
+      "citation": "James 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "But now you rejoice in your arrogancies. All such rejoicing is wicked.",
+      "citation": "James 4:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "To him therefore who knoweth to do good and doth it not, to him it is sin.",
+      "citation": "James 4:17 (Douay-Rheims)"
+    }
+  ]
+}

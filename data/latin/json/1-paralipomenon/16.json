@@ -1,0 +1,251 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Chronicles, Chapter 16 — 43 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Chronicles",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 16,
+    "verseCount": 43,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-paralipomenon/15.json",
+      "nextChapter": "https://latinprayer.org/latin/1-paralipomenon/17.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-paralipomenon/16.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/16.json"
+    }
+  },
+  "citation": "1 Chronicles 16 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "adtulerunt igitur arcam Dei et constituerunt eam in medio tabernaculi quod tetenderat ei David et obtulerunt holocausta et pacifica coram Deo",
+      "citation": "1 Chronicles 16:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cumque conplesset David offerens holocausta et pacifica benedixit populo in nomine Domini",
+      "citation": "1 Chronicles 16:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et divisit universis per singulos a viro usque ad mulierem tortam panis et partem assae carnis bubulae et frixam oleo similam",
+      "citation": "1 Chronicles 16:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "constituitque coram arca Domini de Levitis qui ministrarent et recordarentur operum eius et glorificarent atque laudarent Dominum Deum Israhel",
+      "citation": "1 Chronicles 16:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Asaph principem et secundum eius Zacchariam porro Iahihel et Semiramoth et Ieihel et Matthathiam et Eliab et Banaiam et Obededom et Ieihel super organa psalterii et lyras Asaph autem ut cymbalis personaret",
+      "citation": "1 Chronicles 16:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "Banaiam vero et Azihel sacerdotes canere tuba iugiter coram arca foederis Domini",
+      "citation": "1 Chronicles 16:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in illo die fecit David principem ad confitendum Domino Asaph et fratres eius",
+      "citation": "1 Chronicles 16:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "confitemini Domino invocate nomen eius notas facite in populis adinventiones illius",
+      "citation": "1 Chronicles 16:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "canite ei et psallite et narrate omnia mirabilia eius",
+      "citation": "1 Chronicles 16:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "laudate nomen sanctum eius laetetur cor quaerentium Dominum",
+      "citation": "1 Chronicles 16:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quaerite Dominum et virtutem eius quaerite faciem eius semper",
+      "citation": "1 Chronicles 16:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "recordamini mirabilium eius quae fecit signorum illius et iudiciorum oris eius",
+      "citation": "1 Chronicles 16:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "semen Israhel servi eius filii Iacob electi illius",
+      "citation": "1 Chronicles 16:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ipse Dominus Deus noster in universa terra iudicia eius",
+      "citation": "1 Chronicles 16:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "recordamini in sempiternum pacti eius sermonis quem praecepit in mille generationes",
+      "citation": "1 Chronicles 16:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quem pepigit cum Abraham et iuramenti illius cum Isaac",
+      "citation": "1 Chronicles 16:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et constituit illud Iacob in praeceptum et Israhel in pactum sempiternum",
+      "citation": "1 Chronicles 16:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "dicens tibi dabo terram Chanaan funiculum hereditatis vestrae",
+      "citation": "1 Chronicles 16:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "cum essent pauci numero parvi et coloni eius",
+      "citation": "1 Chronicles 16:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et transierunt de gente in gentem et de regno ad populum alterum",
+      "citation": "1 Chronicles 16:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "non dimisit quemquam calumniari eos sed increpuit pro eis reges",
+      "citation": "1 Chronicles 16:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "nolite tangere christos meos et in prophetis meis nolite malignari",
+      "citation": "1 Chronicles 16:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "canite Domino omnis terra adnuntiate ex die in diem salutare eius",
+      "citation": "1 Chronicles 16:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "narrate in gentibus gloriam eius in cunctis populis mirabilia illius",
+      "citation": "1 Chronicles 16:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quia magnus Dominus et laudabilis nimis et horribilis super omnes deos",
+      "citation": "1 Chronicles 16:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "omnes enim dii populorum idola Dominus autem caelos fecit",
+      "citation": "1 Chronicles 16:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "confessio et magnificentia coram eo fortitudo et gaudium in loco eius",
+      "citation": "1 Chronicles 16:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "adferte Domino familiae populorum adferte Domino gloriam et imperium",
+      "citation": "1 Chronicles 16:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "date Domino gloriam nomini eius levate sacrificium et venite in conspectu eius et adorate Dominum in decore sancto",
+      "citation": "1 Chronicles 16:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "commoveatur a facie illius omnis terra ipse enim fundavit orbem inmobilem",
+      "citation": "1 Chronicles 16:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "laetentur caeli et exultet terra et dicant in nationibus Dominus regnavit",
+      "citation": "1 Chronicles 16:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "tonet mare et plenitudo eius exultent agri et omnia quae in eis sunt",
+      "citation": "1 Chronicles 16:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "tunc laudabunt ligna saltus coram Domino quia venit iudicare terram",
+      "citation": "1 Chronicles 16:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "confitemini Domino quoniam bonus quoniam in aeternum misericordia eius",
+      "citation": "1 Chronicles 16:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et dicite salva nos Deus salvator noster et congrega nos et erue de gentibus ut confiteamur nomini sancto tuo et exultemus in carminibus tuis",
+      "citation": "1 Chronicles 16:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "benedictus Dominus Deus Israhel ab aeterno usque in aeternum et dicat omnis populus amen et hymnus Domino",
+      "citation": "1 Chronicles 16:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "dereliquit itaque ibi coram arca foederis Domini Asaph et fratres eius ut ministrarent in conspectu arcae iugiter per singulos dies et vices suas",
+      "citation": "1 Chronicles 16:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "porro Obededom et fratres eius sexaginta octo et Obededom filium Idithun et Osa constituit ianitores",
+      "citation": "1 Chronicles 16:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "Sadoc autem sacerdotem et fratres illius sacerdotes coram tabernaculo Domini in excelso quod erat in Gabaon",
+      "citation": "1 Chronicles 16:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "ut offerrent holocausta Domino super altare holocaustomatis iugiter mane et vespere iuxta omnia quae scripta sunt in lege Domini quam praecepit Israheli",
+      "citation": "1 Chronicles 16:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et post eum Heman et Idithun et reliquos electos unumquemque vocabulo suo ad confitendum Domino quoniam in aeternum misericordia eius",
+      "citation": "1 Chronicles 16:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "Heman quoque et Idithun canentes tuba et quatientes cymbala et omnia musicorum organa ad canendum Deo filios autem Idithun fecit esse portarios",
+      "citation": "1 Chronicles 16:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "reversusque est omnis populus in domum suam et David ut benediceret etiam domui suae",
+      "citation": "1 Chronicles 16:43 (Clementine Vulgate)"
+    }
+  ]
+}

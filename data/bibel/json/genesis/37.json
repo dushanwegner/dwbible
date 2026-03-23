@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 37 — 36 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 37,
+    "verseCount": 36,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/genesis/36.json",
+      "nextChapter": "https://latinprayer.org/bibel/genesis/38.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/37.json",
+      "latin": "https://latinprayer.org/latin/genesis/37.json"
+    }
+  },
+  "citation": "Genesis 37 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Jakob aber blieb in dem Lande wohnen, in dem sich sein Vater als Fremdling aufgehalten hatte, im Lande Kanaan.",
+      "citation": "Genesis 37:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Dies ist die Geschichte Jakobs: Als Joseph siebzehn Jahre alt war, hütete er das Kleinvieh mit seinen Brüdern, und zwar war er als junger Bursche bei den Söhnen der Bilha und Silpa, der Frauen seines Vaters, und was man diesen Übles nachsagte, hinterbrachte er ihrem Vater.",
+      "citation": "Genesis 37:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Israel hatte aber Joseph lieber als alle seine anderen Söhne, weil er ihm in seinem Alter geboren war; und so ließ er ihm ein langes Ärmelkleid machen.",
+      "citation": "Genesis 37:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als nun seine Brüder sahen, daß ihr Vater ihn lieber hatte als alle seine Brüder, faßten sie einen Haß gegen ihn und gewannen es nicht über sich, ein freundliches Wort mit ihm zu reden.",
+      "citation": "Genesis 37:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Einst hatte Joseph einen Traum und teilte ihn seinen Brüdern mit; seitdem haßten sie ihn noch mehr.",
+      "citation": "Genesis 37:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Er sagte nämlich zu ihnen: »Hört einmal diesen Traum, den ich gehabt habe!",
+      "citation": "Genesis 37:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wir waren gerade damit beschäftigt, Garben draußen auf dem Felde zu binden, und denkt nur: meine Garbe richtete sich empor und blieb auch aufrecht stehen, eure Garben aber stellten sich rings im Kreise um sie auf und verneigten sich vor meiner Garbe.«",
+      "citation": "Genesis 37:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Da sagten seine Brüder zu ihm: »Du möchtest wohl gern König über uns werden oder gar Herrscher über uns sein?« Seitdem haßten sie ihn noch mehr wegen seiner Träume und wegen seiner Reden.",
+      "citation": "Genesis 37:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ein andermal hatte er wieder einen Traum, den er seinen Brüdern so erzählte: »Hört, ich habe wieder einen Traum gehabt! Denkt nur: die Sonne, der Mond und elf Sterne verneigten sich vor mir!«",
+      "citation": "Genesis 37:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Als er das seinem Vater und seinen Brüdern erzählte, schalt ihn sein Vater und sagte zu ihm: »Was ist das für ein Traum, den du da gehabt hast! Meinst du, ich und deine Mutter und deine Brüder sollen kommen und uns vor dir zur Erde verneigen?«",
+      "citation": "Genesis 37:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "So wurden denn seine Brüder eifersüchtig auf ihn, sein Vater aber behielt das Wort im Gedächtnis.",
+      "citation": "Genesis 37:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Als nun seine Brüder einst hingegangen waren, um das Kleinvieh ihres Vaters bei Sichem zu weiden,",
+      "citation": "Genesis 37:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "sagte Israel zu Joseph: »Du weißt, deine Brüder sind auf der Weide bei Sichem: komm, ich will dich zu ihnen schicken.« Joseph antwortete ihm: »Ich bin bereit!«",
+      "citation": "Genesis 37:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Da sagte er zu ihm: »Gehe doch hin und sieh zu, wie es deinen Brüdern geht und wie es um das Vieh steht, und bringe mir Bescheid!« So sandte er ihn aus dem Tal von Hebron, und Joseph kam nach Sichem.",
+      "citation": "Genesis 37:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Während er nun dort auf dem Felde umherirrte, traf ihn ein Mann; der fragte ihn: »Was suchst du?«",
+      "citation": "Genesis 37:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Er antwortete: »Meine Brüder suche ich; sage mir doch, wo sie jetzt weiden!«",
+      "citation": "Genesis 37:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Der Mann antwortete: »Sie sind von hier weggezogen; denn ich habe sie sagen hören: ›Wir wollen nach Dothan gehen.‹« Da ging Joseph hinter seinen Brüdern her und fand sie bei Dothan.",
+      "citation": "Genesis 37:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Als sie ihn nun von weitem sahen, machten sie, ehe er noch in ihre Nähe gekommen war, einen Anschlag auf sein Leben",
+      "citation": "Genesis 37:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "und sagten zueinander: »Da kommt ja der Träumer her!",
+      "citation": "Genesis 37:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Nun wohlan! Wir wollen ihn totschlagen und in eine der Gruben werfen und dann sagen, ein wildes Tier habe ihn gefressen; dann werden wir ja sehen, was aus seinen Träumen wird!«",
+      "citation": "Genesis 37:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Als Ruben das hörte, suchte er ihn aus ihren Händen zu retten, indem er sagte: »Wir wollen ihn nicht totschlagen!«",
+      "citation": "Genesis 37:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Dann sagte Ruben weiter zu ihnen: »Vergießt kein Blut! Werft ihn in die Grube dort in der Steppe, aber legt nicht Hand an ihn!« – er wollte ihn nämlich aus ihrer Hand retten und ihn dann wieder zu seinem Vater bringen.",
+      "citation": "Genesis 37:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Sobald nun Joseph bei seinen Brüdern angekommen war, zogen sie ihm seinen Rock aus, das lange Ärmelkleid, das er anhatte,",
+      "citation": "Genesis 37:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "ergriffen ihn hierauf und warfen ihn in die Grube; die Grube war aber leer, es befand sich kein Wasser darin.",
+      "citation": "Genesis 37:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Als sie sich dann niedergesetzt hatten, um zu essen, und in die Ferne schauten, sahen sie eine Karawane von Ismaelitern, die aus Gilead herkamen und deren Kamele mit Tragakanth, Mastix und Ladanum beladen waren; sie wollten damit nach Ägypten hinabziehen.",
+      "citation": "Genesis 37:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Da sagte Juda zu seinen Brüdern: »Welchen Vorteil hätten wir davon, wenn wir unsern Bruder erschlügen und seine Ermordung verheimlichten?",
+      "citation": "Genesis 37:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Kommt, wir wollen ihn an die Ismaeliter verkaufen, aber nicht selbst Hand an ihn legen; er ist ja doch unser Bruder, unser Fleisch und Blut!« Seine Brüder gingen auf den Vorschlag ein.",
+      "citation": "Genesis 37:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Als nun die midianitischen Kaufleute vorüberkamen, zogen sie Joseph aus der Grube herauf und verkauften ihn für zwanzig Silberstücke an die Ismaeliter; diese brachten Joseph dann nach Ägypten.",
+      "citation": "Genesis 37:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Als Ruben nun zu der Grube zurückkehrte und Joseph sich nicht mehr in der Grube befand, da zerriß er seine Kleider,",
+      "citation": "Genesis 37:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "kehrte zu seinen Brüdern zurück und rief aus: »Der Knabe ist nicht mehr da! Wohin soll ich nun gehen?«",
+      "citation": "Genesis 37:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Hierauf nahmen sie Josephs Rock, schlachteten einen Ziegenbock und tauchten den Rock in das Blut;",
+      "citation": "Genesis 37:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "dann ließen sie das lange Ärmelkleid durch einen Boten ihrem Vater überbringen und ihm sagen: »Dieses haben wir gefunden: sieh doch genau zu, ob es der Rock deines Sohnes ist oder nicht!«",
+      "citation": "Genesis 37:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Er sah es genau an und rief aus: »Es ist der Rock meines Sohnes! Ein wildes Tier hat ihn gefressen! Ja, ja, Joseph ist zerfleischt worden!«",
+      "citation": "Genesis 37:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Und Jakob zerriß seine Kleider, legte ein härenes Gewand um seine Hüften und trauerte um seinen Sohn lange Zeit.",
+      "citation": "Genesis 37:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Alle seine Söhne und alle seine Töchter bemühten sich zwar, ihn zu trösten, aber er wies jeden Trost zurück und sagte: »Nein, im Trauerkleid will ich zu meinem Sohn in die Unterwelt hinabfahren!« So beweinte ihn sein Vater.",
+      "citation": "Genesis 37:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Die Midianiter aber verkauften Joseph nach Ägypten an Potiphar, einen Hofbeamten des Pharaos, den Obersten der Leibwächter.",
+      "citation": "Genesis 37:36 (Menge)"
+    }
+  ]
+}

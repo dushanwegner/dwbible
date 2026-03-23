@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 65 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 65,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/64.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/66.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/65.json",
+      "german": "https://latinprayer.org/bibel/psalms/65.json"
+    }
+  },
+  "citation": "Psalms 65 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "te decet hymnus Deus in Sion et tibi reddetur votum in Hierusalem",
+      "citation": "Psalms 65:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "tibi silens laus Deus in Sion et tibi reddetur votum",
+      "citation": "Psalms 65:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "exaudi orationem ad te omnis caro veniet",
+      "citation": "Psalms 65:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "exaudi orationem donec ad te omnis caro veniat",
+      "citation": "Psalms 65:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "verba iniquorum praevaluerunt super nos et impietatibus nostris tu propitiaberis",
+      "citation": "Psalms 65:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "verba iniquitatum praevaluerunt adversum me sceleribus nostris tu propitiaberis",
+      "citation": "Psalms 65:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "beatus quem elegisti et adsumpsisti inhabitabit in atriis tuis replebimur in bonis domus tuae sanctum est templum tuum",
+      "citation": "Psalms 65:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "beatus quem elegeris et susceperis habitabit enim in atriis tuis replebimur bonis domus tuae sanctificatione templi tui",
+      "citation": "Psalms 65:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "mirabile in aequitate exaudi nos Deus salutaris noster spes omnium finium terrae et in mari longe",
+      "citation": "Psalms 65:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "terribilis in iustitia exaudi nos Deus salvator noster confidentia omnium finium terrae et maris longinqui",
+      "citation": "Psalms 65:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "praeparans montes in virtute tua accinctus potentia",
+      "citation": "Psalms 65:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "praeparans montes in virtute tua accinctus fortitudine",
+      "citation": "Psalms 65:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui conturbas profundum maris sonum fluctuum eius turbabuntur gentes",
+      "citation": "Psalms 65:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "conpescens sonitum maris fremitum fluctuum eius et multitudinem gentium",
+      "citation": "Psalms 65:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et timebunt qui inhabitant terminos a signis tuis exitus matutini et vespere delectabis",
+      "citation": "Psalms 65:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et timebunt qui habitant in extremis a signis tuis egressus matutinos et vespere laudantes facies",
+      "citation": "Psalms 65:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "visitasti terram et inebriasti eam multiplicasti locupletare eam flumen Dei repletum est aquis parasti cibum illorum quoniam ita est praeparatio eius",
+      "citation": "Psalms 65:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "visita terram et inriga eam ubertate dita eam rivus Dei plenus aqua praeparabis frumentum eorum quia sic fundasti eam",
+      "citation": "Psalms 65:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "rivos eius inebria multiplica genimina eius in stillicidiis eius laetabitur germinans",
+      "citation": "Psalms 65:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "sulcos eius inebria multiplica fruges eius pluviis inriga eam et germini eius benedic",
+      "citation": "Psalms 65:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "benedices coronae anni benignitatis tuae et campi tui replebuntur ubertate",
+      "citation": "Psalms 65:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "volvetur annus in bonitate tua et vestigia tua rorabunt pinguidine",
+      "citation": "Psalms 65:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "pinguescent speciosa deserti et exultatione colles accingentur",
+      "citation": "Psalms 65:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "pinguescent pascua deserti et exultatione colles accingentur",
+      "citation": "Psalms 65:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "induti sunt arietes ovium et valles abundabunt frumento clamabunt etenim hymnum dicent",
+      "citation": "Psalms 65:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "vestientur agnis greges et valles plenae erunt frumento coaequabuntur et canent",
+      "citation": "Psalms 65:13 (Clementine Vulgate)"
+    }
+  ]
+}

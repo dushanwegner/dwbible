@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 16 — 23 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 16,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/15.json",
+      "nextChapter": "https://latinprayer.org/bible/job/17.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/16.json",
+      "german": "https://latinprayer.org/bibel/job/16.json"
+    }
+  },
+  "citation": "Job 16 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Then Job answered, and said:",
+      "citation": "Job 16:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "I have often heard such things as these: you are all troublesome comforters.",
+      "citation": "Job 16:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Shall windy words have no end? or is it any trouble to thee to speak?",
+      "citation": "Job 16:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "I also could speak like you: and would God your soul were for my soul.",
+      "citation": "Job 16:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "I would comfort you also with words, and would wag my head over you.",
+      "citation": "Job 16:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "I would strengthen you with my mouth, and would move my lips, as sparing you.",
+      "citation": "Job 16:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But what shall I do? If I speak, my pain will not rest: and if I hold my peace, it will not depart from me.",
+      "citation": "Job 16:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But now my sorrow hath oppressed me, and all my limbs are brought to nothing.",
+      "citation": "Job 16:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "My wrinkles bear witness against me, and a false speaker riseth up against my face, contradicting me.",
+      "citation": "Job 16:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He hath gathered together his fury against me, and threatening me he hath gnashed with his teeth upon me: my enemy hath beheld me with terrible eyes.",
+      "citation": "Job 16:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "They have opened their mouths upon me, and reproaching me they have struck me on the cheek, they are filled with my pains.",
+      "citation": "Job 16:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "God hath shut me up with the unjust man, and hath delivered me into the hands of the wicked.",
+      "citation": "Job 16:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "I that was formerly so wealthy, am all on a sudden broken to pieces: he hath taken me by my neck, he hath broken me, and hath set me up to be his mark.",
+      "citation": "Job 16:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "He hath compassed me round about with his lances, he hath wounded my loins, he hath not spared, and hath poured out my bowels on the earth,",
+      "citation": "Job 16:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "He hath torn me with wound upon wound, he hath rushed in upon me like a giant.",
+      "citation": "Job 16:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "I have sowed sackcloth upon my skin, and have covered my flesh with ashes.",
+      "citation": "Job 16:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "My face is swollen with weeping, and my eyelids are dim.",
+      "citation": "Job 16:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "These things have I suffered without the iniquity of my hand, when I offered pure prayers to God.",
+      "citation": "Job 16:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "O earth, cover not thou my blood, neither let my cry find a hiding place in thee.",
+      "citation": "Job 16:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For behold my witness is in heaven, and he that knoweth my conscience is on high.",
+      "citation": "Job 16:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "My friends are full of words: my eye poureth out tears to God.",
+      "citation": "Job 16:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And O that a man might so be judged with God, as the son of man is judged with his companion!",
+      "citation": "Job 16:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "For behold short years pass away, and I am walking in a path by which I shall not return.",
+      "citation": "Job 16:22 (Douay-Rheims)"
+    }
+  ]
+}

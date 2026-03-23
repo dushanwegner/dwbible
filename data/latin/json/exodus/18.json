@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 18 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 18,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/17.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/19.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/18.json",
+      "german": "https://latinprayer.org/bibel/exodus/18.json"
+    }
+  },
+  "citation": "Exodus 18 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "cumque audisset Iethro sacerdos Madian cognatus Mosi omnia quae fecerat Deus Mosi et Israhel populo suo eo quod eduxisset Dominus Israhel de Aegypto",
+      "citation": "Exodus 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "tulit Sefforam uxorem Mosi quam remiserat",
+      "citation": "Exodus 18:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et duos filios eius quorum unus vocabatur Gersan dicente patre advena fui in terra aliena",
+      "citation": "Exodus 18:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "alter vero Eliezer Deus enim ait patris mei adiutor meus et eruit me de gladio Pharaonis",
+      "citation": "Exodus 18:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "venit ergo Iethro cognatus Mosi et filii eius et uxor ad Mosen in desertum ubi erat castrametatus iuxta montem Dei",
+      "citation": "Exodus 18:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et mandavit Mosi dicens ego cognatus tuus Iethro venio ad te et uxor tua et duo filii tui cum ea",
+      "citation": "Exodus 18:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui egressus in occursum cognati sui adoravit et osculatus est eum salutaveruntque se mutuo verbis pacificis cumque intrasset tabernaculum",
+      "citation": "Exodus 18:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "narravit Moses cognato suo cuncta quae fecerat Deus Pharaoni et Aegyptiis propter Israhel universum laborem qui accidisset eis in itinere quo liberarat eos Dominus",
+      "citation": "Exodus 18:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "laetatusque est Iethro super omnibus bonis quae fecerat Dominus Israheli eo quod eruisset eum de manu Aegyptiorum",
+      "citation": "Exodus 18:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ait benedictus Dominus qui liberavit vos de manu Aegyptiorum et de manu Pharaonis qui eruit populum suum de manu Aegypti",
+      "citation": "Exodus 18:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "nunc cognovi quia magnus Dominus super omnes deos eo quod superbe egerint contra illos",
+      "citation": "Exodus 18:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "obtulit ergo Iethro cognatus Mosi holocausta et hostias Deo veneruntque Aaron et omnes senes Israhel ut comederent panem cum eo coram Domino",
+      "citation": "Exodus 18:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "altero autem die sedit Moses ut iudicaret populum qui adsistebat Mosi de mane usque ad vesperam",
+      "citation": "Exodus 18:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quod cum vidisset cognatus eius omnia scilicet quae agebat in populo ait quid est hoc quod facis in plebe cur solus sedes et omnis populus praestolatur de mane usque ad vesperam",
+      "citation": "Exodus 18:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "cui respondit Moses venit ad me populus quaerens sententiam Dei",
+      "citation": "Exodus 18:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "cumque acciderit eis aliqua disceptatio veniunt ad me ut iudicem inter eos et ostendam praecepta Dei et leges eius",
+      "citation": "Exodus 18:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "at ille non bonam inquit rem facis",
+      "citation": "Exodus 18:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "stulto labore consumeris et tu et populus iste qui tecum est ultra vires tuas est negotium solus illud non poteris sustinere",
+      "citation": "Exodus 18:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "sed audi verba mea atque consilia et erit Deus tecum esto tu populo in his quae ad Deum pertinent ut referas quae dicuntur ad eum",
+      "citation": "Exodus 18:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "ostendasque populo caerimonias et ritum colendi viamque per quam ingredi debeant et opus quod facere",
+      "citation": "Exodus 18:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "provide autem de omni plebe viros potentes et timentes Deum in quibus sit veritas et qui oderint avaritiam et constitue ex eis tribunos et centuriones et quinquagenarios et decanos",
+      "citation": "Exodus 18:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "qui iudicent populum omni tempore quicquid autem maius fuerit referant ad te et ipsi minora tantummodo iudicent leviusque tibi sit partito in alios onere",
+      "citation": "Exodus 18:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "si hoc feceris implebis imperium Dei et praecepta eius poteris sustentare et omnis hic populus revertetur cum pace ad loca sua",
+      "citation": "Exodus 18:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "quibus auditis Moses fecit omnia quae ille suggesserat",
+      "citation": "Exodus 18:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et electis viris strenuis de cuncto Israhel constituit eos principes populi tribunos et centuriones et quinquagenarios et decanos",
+      "citation": "Exodus 18:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "qui iudicabant plebem omni tempore quicquid autem gravius erat referebant ad eum faciliora tantummodo iudicantes",
+      "citation": "Exodus 18:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "dimisitque cognatum qui reversus abiit in terram suam",
+      "citation": "Exodus 18:27 (Clementine Vulgate)"
+    }
+  ]
+}

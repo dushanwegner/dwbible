@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numeri, Chapter 36 — 13 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numeri",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 36,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/numbers/35.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/36.json",
+      "latin": "https://latinprayer.org/latin/numbers/36.json"
+    }
+  },
+  "citation": "Numeri 36 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Die Familienhäupter des Geschlechts, das von Gilead, dem Sohne Machirs, dem Enkel Manasses, stammte und zu den von Joseph stammenden Geschlechtern gehörte, traten auf und trugen dem Mose und den Fürsten, den Stammeshäuptern der Israeliten,",
+      "citation": "Numeri 36:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "folgendes Anliegen vor: »Gott hat dir, o Herr, geboten, den Israeliten das Land durch das Los zum Erbbesitz zu geben; auch hast du, Herr, von Gott die Weisung erhalten, den Erbbesitz unseres Stammgenossen Zelophhad seinen Töchtern zu überweisen.",
+      "citation": "Numeri 36:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wenn diese sich nun aber mit einem Manne verheiraten, der zu einem andern Stamme der Israeliten gehört, so geht ihr Erbbesitz dem Erbbesitz unserer Väter verloren und wird zu dem Erbbesitz des Stammes geschlagen, dem sie (nach ihrer Verheiratung) angehören, während er dem Losteile unseres Erbbesitzes verlorengeht.",
+      "citation": "Numeri 36:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Und auch wenn das Halljahr für die Israeliten kommt, so bleibt ihr Erbbesitz mit dem Erbbesitz des Stammes vereinigt, dem sie (nach ihrer Verheiratung) angehören; aber dem Erbbesitz des Stammes unserer Väter geht ihr Erbbesitz verloren.«",
+      "citation": "Numeri 36:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da gab Mose den Israeliten nach dem Geheiß des HERRN folgende Weisung: »Der Stamm der Nachkommen Josephs hat recht.",
+      "citation": "Numeri 36:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "So lautet die Verordnung, die der HERR in betreff der Töchter Zelophhads erlassen hat: Sie mögen sich ganz nach ihrem Gefallen verheiraten; jedoch dürfen sie nur mit einem Manne aus einem Geschlecht ihres väterlichen Stammes die Ehe eingehen,",
+      "citation": "Numeri 36:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "damit nicht ein Erbbesitz der Israeliten von einem Stamm an einen andern übergeht; denn die Israeliten sollen ein jeder den Erbbesitz ihres väterlichen Stammes ungeschmälert erhalten.",
+      "citation": "Numeri 36:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Darum darf jedes Mädchen, das in einem von den israelitischen Stämmen zu Grundbesitz gelangt, nur einen Mann aus einem Geschlecht ihres väterlichen Stammes heiraten, damit die Israeliten allesamt ihren väterlichen Erbbesitz ungeschmälert erhalten",
+      "citation": "Numeri 36:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "und kein Erbbesitz von einem Stamm an einen andern übergeht; denn die Stämme der Israeliten sollen ein jeder seinen Erbbesitz ungeschmälert erhalten.«",
+      "citation": "Numeri 36:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Wie der HERR dem Mose geboten hatte, so taten die Töchter Zelophhads;",
+      "citation": "Numeri 36:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "denn Mahla, Thirza, Hogla, Milka und Noa, die Töchter Zelophhads, verheirateten sich mit den Söhnen ihrer Oheime;",
+      "citation": "Numeri 36:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "mit Männern aus den Geschlechtern, die von Manasse, dem Sohne Josephs, stammten, verheirateten sie sich, und so verblieb ihr Erbbesitz bei dem Stamme, dem das Geschlecht ihres Vaters angehörte.",
+      "citation": "Numeri 36:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Dies sind die Gebote und Verordnungen, die der HERR an die Israeliten in den Steppen der Moabiter am Jordan, Jericho gegenüber, durch Vermittlung Moses hat ergehen lassen.",
+      "citation": "Numeri 36:13 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Apocalypse, Chapter 17 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Apocalypse",
+      "slug": "apocalypse",
+      "testament": "NT",
+      "order": 73,
+      "totalChapters": 22
+    },
+    "chapter": 17,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/apocalypse/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/apocalypse/16.json",
+      "nextChapter": "https://latinprayer.org/bible/apocalypse/18.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/apocalypse/17.json",
+      "german": "https://latinprayer.org/bibel/apocalypse/17.json"
+    }
+  },
+  "citation": "Apocalypse 17 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And there came one of the seven angels who had the seven vials and spoke with me, saying: Come, I will shew thee the condemnation of the great harlot, who sitteth upon many waters:",
+      "citation": "Apocalypse 17:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "With whom the kings of the earth have committed fornication.  And they who inhabit the earth have been made drunk with the wine of her whoredom.",
+      "citation": "Apocalypse 17:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he took me away in spirit into the desert. And I saw a woman sitting upon a scarlet coloured beast, full of names of blasphemy, having seven heads and ten horns.",
+      "citation": "Apocalypse 17:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And the woman was clothed round about with purple and scarlet, and gilt with gold and precious stones and pearls, having a golden cup in her hand, full of the abomination and filthiness of her fornication.",
+      "citation": "Apocalypse 17:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And on her forehead a name was written: A mystery: Babylon the great, the mother of the fornications and the abominations of the earth.",
+      "citation": "Apocalypse 17:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And I saw the woman drunk with the blood of the saints and with the blood of the martyrs of Jesus. And I wondered, when I had seen her, with great admiration.",
+      "citation": "Apocalypse 17:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the angel said to me: Why dost thou wonder? I will tell thee the mystery of the woman and of the beast which carrieth her, which hath the seven heads and ten horns.",
+      "citation": "Apocalypse 17:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The beast which thou sawest, was, and is not, and shall come up out of the bottomless pit and go into destruction. And the inhabitants on the earth (whose names are not written in the book of life from the foundation of the world) shall wonder, seeing the beast that was and is not.",
+      "citation": "Apocalypse 17:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And here is the understanding that hath wisdom. The seven heads are seven mountains, upon which the woman sitteth: and they are seven kings.",
+      "citation": "Apocalypse 17:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Five are fallen, one is, and the other is not yet come: and when he is come, he must remain a short time.",
+      "citation": "Apocalypse 17:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the beast which was and is not: the same also is the eighth, and is of the seven, and goeth into destruction.",
+      "citation": "Apocalypse 17:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And the ten horns which thou sawest are ten kings, who have not yet received a kingdom: but shall receive power as kings, one hour after the beast.",
+      "citation": "Apocalypse 17:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "These have one design: and their strength and power they shall deliver to the beast.",
+      "citation": "Apocalypse 17:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "These shall fight with the Lamb. And the Lamb shall overcome them because he is Lord of lords and King of kings: and they that are with him are called and elect and faithful.",
+      "citation": "Apocalypse 17:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And he said to me: The waters which thou sawest, where the harlot sitteth, are peoples and nations and tongues.",
+      "citation": "Apocalypse 17:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And the ten horns which thou sawest in the beast: These shall hate the harlot and shall make her desolate and naked and shall eat her flesh and shall burn her with fire.",
+      "citation": "Apocalypse 17:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "For God hath given into their hearts to do that which pleaseth him: that they give their kingdom to the beast, till the words of God be fulfilled.",
+      "citation": "Apocalypse 17:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And the woman which thou sawest is the great city which hath kingdom over the kings of the earth.",
+      "citation": "Apocalypse 17:18 (Douay-Rheims)"
+    }
+  ]
+}

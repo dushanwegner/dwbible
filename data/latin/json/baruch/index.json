@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Baruch — 10 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Baruch",
+      "slug": "baruch",
+      "testament": "OT",
+      "order": 30,
+      "totalChapters": 10
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/baruch/index.json",
+      "german": "https://latinprayer.org/bibel/baruch/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/latin/baruch/1",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/1.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/baruch/4",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/latin/baruch/5",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/5.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 73,
+      "url": "https://latinprayer.org/latin/baruch/7",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/baruch/8",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/latin/baruch/9",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 39,
+      "url": "https://latinprayer.org/latin/baruch/10",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/latin/baruch/11",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/latin/baruch/12",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/latin/baruch/13",
+      "jsonUrl": "https://latinprayer.org/latin/baruch/13.json"
+    }
+  ]
+}

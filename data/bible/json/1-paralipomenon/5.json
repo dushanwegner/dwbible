@@ -1,0 +1,241 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Paralipomenon, Chapter 5 — 41 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Paralipomenon",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 5,
+    "verseCount": 41,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-paralipomenon/4.json",
+      "nextChapter": "https://latinprayer.org/bible/1-paralipomenon/6.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-paralipomenon/5.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/5.json"
+    }
+  },
+  "citation": "1. Paralipomenon 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now the sons of Ruben the firstborn of Israel, (for he was his firstborn: but forasmuch as he defiled his father's bed, his first birthright was given to the sons of Joseph the son of Israel, and he was not accounted for the firstborn.",
+      "citation": "1. Paralipomenon 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But of the race of Juda, who was the strongest among his brethren, came the princes: but the first birthright was accounted to Joseph.)",
+      "citation": "1. Paralipomenon 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The sons then of Ruben the firstborn of Israel were Enoch, and Phallu, Esron, and Charmi.",
+      "citation": "1. Paralipomenon 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "The sons of Joel: Samaia his son, Gog his son, Semei his son,",
+      "citation": "1. Paralipomenon 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Micha his son, Reia his son, Baal his son,",
+      "citation": "1. Paralipomenon 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Beera his son, whom Thelgathphalnasar king of the Assyrians carried away captive, and he was prince in the tribe of Ruben.",
+      "citation": "1. Paralipomenon 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And his brethren, and all his kindred, when they were numbered by their families, had for princes Jehiel, and Zacharias.",
+      "citation": "1. Paralipomenon 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And Bala the son of Azaz, the son of Samma, the son of Joel, dwelt in Aroer as far as Nebo, and Beelmeon.",
+      "citation": "1. Paralipomenon 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And eastward he had his habitation as far as the entrance of the desert, and the river Euphrates. For they possessed a great number of cattle in the land of Galaad.",
+      "citation": "1. Paralipomenon 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And in the days of Saul they fought against the Agarites, and slew them, and dwelt in their tents in their stead, in all the country, that looketh to the east of Galaad.",
+      "citation": "1. Paralipomenon 5:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the children of Gad dwelt over against them in the land of Basan, as far as Selcha:",
+      "citation": "1. Paralipomenon 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Johel the chief, and Saphan the second: and Janai, and Saphat in Basan.",
+      "citation": "1. Paralipomenon 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And their brethren according to the houses of their kindreds, were Michael and Mosollam, and Sebe, and Jorai, and Jacan, and Zie, and Heber, seven.",
+      "citation": "1. Paralipomenon 5:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "These were the sons of Abihail, the son of Huri, the son of Jara, the son of Galaad, the son of Michael, the son of Jesisi, the son of Jeddo, the son of Buz.",
+      "citation": "1. Paralipomenon 5:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And their brethren the sons of Abdiel, the son of Guni, chief of the house in their families,",
+      "citation": "1. Paralipomenon 5:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And they dwelt in Galaad, and in Basan and in the towns thereof, and in all the suburbs of Saron, unto the borders.",
+      "citation": "1. Paralipomenon 5:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "All these were numbered in the days of Joathan king of Juda, and in the days of Jeroboam king of Israel.",
+      "citation": "1. Paralipomenon 5:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The Sons of Ruben, and of Gad, and of the half tribe of Manasses, fighting men, bearing shields, and swords, and bending the bow, and trained up to battles, four and forty thousand seven hundred and threescore that went out to war.",
+      "citation": "1. Paralipomenon 5:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "They fought against the Agarites: but the Itureans, and Naphis, and Nodab,",
+      "citation": "1. Paralipomenon 5:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Gave them help. And the Agarites were delivered into their hands, and all that were with them, because they called upon God in the battle: and he heard them, because they had put their faith in him.",
+      "citation": "1. Paralipomenon 5:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And they took all that they possessed, of camels fifty thousand, and of sheep two hundred and fifty thousand, and of asses two thousand, and of men a hundred thousand souls.",
+      "citation": "1. Paralipomenon 5:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And many fell down slain: for it was the battle of the Lord. And they dwelt in their stead till the captivity.",
+      "citation": "1. Paralipomenon 5:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And the children of the half tribe of Manasses possessed the land, from the borders of Basan unto Baal, Hermon, and Sanir, and mount Hermon, for their number was great.",
+      "citation": "1. Paralipomenon 5:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And these were the heads of the house of their kindred, Epher, and Jesi, and Eliel, and Esriel, and Jeremia, and Odoia, and Jediel, most valiant and powerful men, and famous chiefs in their families.",
+      "citation": "1. Paralipomenon 5:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "But they forsook the God of their fathers, and went astray after the gods of the people of the land, whom God destroyed before them.",
+      "citation": "1. Paralipomenon 5:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And the God of Israel stirred up the spirit of Phul king of the Assyrians, and the spirit of Thelgathphalnasar king of Assur: and he carried away Ruben, and Gad, and the half tribe of Manasses, and brought them to Lahela, and to Habor, and to Ara, and to the river of Gozan, unto this day.",
+      "citation": "1. Paralipomenon 5:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "The sons of Levi were Gerson, Caath, and Merari.",
+      "citation": "1. Paralipomenon 5:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "The Sons of Caath: Amram, Isaar, Hebron, and Oziel.",
+      "citation": "1. Paralipomenon 5:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "The children of Amram: Aaron, Moses, and Mary. The Sons of Aaron: Nadab and Abiu, Eleazar and Ithamar.",
+      "citation": "1. Paralipomenon 5:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Eleazar begot Phinees, and Phinees begot Abisue,",
+      "citation": "1. Paralipomenon 5:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And Abisue begot Bocci, and Bocci begot Ozi.",
+      "citation": "1. Paralipomenon 5:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "Ozi begot Zaraias, and Zaraias begot Maraioth.",
+      "citation": "1. Paralipomenon 5:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And Maraioth begot Amarias, and Amarias begot Achitob.",
+      "citation": "1. Paralipomenon 5:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "Achitob begot Sadoc, and Sadoc begot Achimaas.",
+      "citation": "1. Paralipomenon 5:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "Achimaas begot Azarias, Azarias begot Johanan,",
+      "citation": "1. Paralipomenon 5:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "Johanan begot Azarias. This is he that executed the priestly office in the house which Solomon built in Jerusalem.",
+      "citation": "1. Paralipomenon 5:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And Azarias begot Amarias, and Amarias begot Achitob.",
+      "citation": "1. Paralipomenon 5:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And Achitob begot Sadoc, and Sadoc begot Sellum,",
+      "citation": "1. Paralipomenon 5:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "Sellum begot Helcias, and Helcias begot Azarias,",
+      "citation": "1. Paralipomenon 5:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Azarias begot Saraias, and Saraias begot Josedec.",
+      "citation": "1. Paralipomenon 5:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "Now Josedec went out, when the Lord carried away Juda, and Jerusalem, by the hands of Nabuchodonosor.",
+      "citation": "1. Paralipomenon 5:41 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiastes, Chapter 5 — 19 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiastes",
+      "slug": "ecclesiastes",
+      "testament": "OT",
+      "order": 23,
+      "totalChapters": 12
+    },
+    "chapter": 5,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiastes/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiastes/4.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiastes/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiastes/5.json",
+      "german": "https://latinprayer.org/bibel/ecclesiastes/5.json"
+    }
+  },
+  "citation": "Ecclesiastes 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ne temere quid loquaris neque cor tuum sit velox ad proferendum sermonem coram Deo Deus enim in caelo et tu super terram idcirco sint pauci sermones tui",
+      "citation": "Ecclesiastes 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "multas curas sequuntur somnia et in multis sermonibus invenitur stultitia",
+      "citation": "Ecclesiastes 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "si quid vovisti Deo ne moreris reddere displicet enim ei infidelis et stulta promissio sed quodcumque voveris redde",
+      "citation": "Ecclesiastes 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "multoque melius est non vovere quam post votum promissa non conplere",
+      "citation": "Ecclesiastes 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ne dederis os tuum ut peccare faciat carnem tuam neque dicas coram angelo non est providentia ne forte iratus Deus super sermone tuo dissipet cuncta opera manuum tuarum",
+      "citation": "Ecclesiastes 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ubi multa sunt somnia plurimae vanitates et sermones innumeri tu vero Deum time",
+      "citation": "Ecclesiastes 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "si videris calumnias egenorum et violenta iudicia et subverti iustitiam in provincia non mireris super hoc negotio quia excelso alius excelsior est et super hos quoque eminentiores sunt alii",
+      "citation": "Ecclesiastes 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et insuper universae terrae rex imperat servienti",
+      "citation": "Ecclesiastes 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "avarus non implebitur pecunia et qui amat divitias fructus non capiet ex eis et hoc ergo vanitas",
+      "citation": "Ecclesiastes 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ubi multae sunt opes multi et qui comedant eas et quid prodest possessori nisi quod cernit divitias oculis suis",
+      "citation": "Ecclesiastes 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dulcis est somnus operanti sive parum sive multum comedat saturitas autem divitis non sinit dormire eum",
+      "citation": "Ecclesiastes 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "est et alia infirmitas pessima quam vidi sub sole divitiae conservatae in malum domini sui",
+      "citation": "Ecclesiastes 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "pereunt enim in adflictione pessima generavit filium qui in summa egestate erit",
+      "citation": "Ecclesiastes 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sicut egressus est nudus de utero matris suae sic revertetur et nihil auferet secum de labore suo",
+      "citation": "Ecclesiastes 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "miserabilis prorsus infirmitas quomodo venit sic revertetur quid ergo prodest ei quod laboravit in ventum",
+      "citation": "Ecclesiastes 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "cunctis diebus vitae suae comedit in tenebris et in curis multis et in aerumna atque tristitia",
+      "citation": "Ecclesiastes 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "hoc itaque mihi visum est bonum ut comedat quis et bibat et fruatur laetitia ex labore suo quod laboravit ipse sub sole numerum dierum vitae suae quos dedit ei Deus et haec est pars illius",
+      "citation": "Ecclesiastes 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et omni homini cui dedit Deus divitias atque substantiam potestatemque ei tribuit ut comedat ex eis et fruatur parte sua et laetetur de labore suo hoc est donum Dei",
+      "citation": "Ecclesiastes 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "non enim satis recordabitur dierum vitae suae eo quod Deus occupet deliciis cor eius",
+      "citation": "Ecclesiastes 5:19 (Clementine Vulgate)"
+    }
+  ]
+}

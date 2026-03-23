@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 32 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 32,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/31.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/33.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/32.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/32.json"
+    }
+  },
+  "citation": "Sirach 32 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "rectorem te posuerunt noli extolli esto in illis quasi unus ex ipsis",
+      "citation": "Sirach 32:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "curam illorum habe et sic conside et omni cura tua explicita recumbe",
+      "citation": "Sirach 32:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ut laeteris propter illos et ornamentum gratiae accipias coronam et dignationem consequaris conrogationis",
+      "citation": "Sirach 32:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "loquere maior natu decet enim te",
+      "citation": "Sirach 32:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "primum verbum diligenti scientiam et non inpedias musica",
+      "citation": "Sirach 32:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ubi auditus est non effundas sermonem et inportune noli extolli in sapientia tua",
+      "citation": "Sirach 32:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "gemmula carbunculi in ornamento auri et conparatio musicorum in convivio vini",
+      "citation": "Sirach 32:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sicut in fabricatione auri signum est zmaragdi sic numerus musicorum in iucundo et moderato vino",
+      "citation": "Sirach 32:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "audi tacens et pro reverentia accedet tibi bona gratia",
+      "citation": "Sirach 32:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "adulescens loquere in tua causa vix",
+      "citation": "Sirach 32:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "si bis interrogatus fueris habeat caput responsum tuum",
+      "citation": "Sirach 32:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "in multis esto quasi inscius et audi tacens simul et quaerens",
+      "citation": "Sirach 32:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "in medio magnatorum non praesumas et ubi sunt senes non multum loquaris",
+      "citation": "Sirach 32:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ante grandinem praeibit coruscatio et pro reverentia accedet tibi bona gratia",
+      "citation": "Sirach 32:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et hora surgendi non te trices praecurre autem prior in domum tuam et illic avocare et illic lude",
+      "citation": "Sirach 32:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et age conceptiones tuas et non in delictis et verbo superbo",
+      "citation": "Sirach 32:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et super his omnibus benedicito Dominum qui fecit te et inebriantem te ab omnibus bonis suis",
+      "citation": "Sirach 32:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "qui timet Deum excipiet doctrinam eius et qui vigilaverint ad illum invenient benedictionem",
+      "citation": "Sirach 32:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "qui quaerit legem replebitur ab ea et qui insidiose agit scandalizabitur in ea",
+      "citation": "Sirach 32:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "qui timent Dominum invenient iudicium iustum et iustitias quasi lucem accendent",
+      "citation": "Sirach 32:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "peccator homo devitabit correptionem et secundum voluntatem suam inveniet conparationem",
+      "citation": "Sirach 32:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "vir consilii non disperiet intellegentia alienus et superbus non pertimescit timorem",
+      "citation": "Sirach 32:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "etiam postquam fecit cum eo sine consilio et suis insectationibus arguetur",
+      "citation": "Sirach 32:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "fili sine consilio nihil facias et post factum non paeniteberis",
+      "citation": "Sirach 32:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "in via ruinae non eas et non offendes in lapides ne credas te viae laboriosae ne ponas animae tuae scandalum",
+      "citation": "Sirach 32:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et a filiis tuis cave et a domesticis tuis adtende",
+      "citation": "Sirach 32:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "in omni opere crede ex fide animae tuae haec est enim conservatio mandatorum",
+      "citation": "Sirach 32:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "qui credit Deo adtendit mandatis et qui confident in illo non minorabuntur",
+      "citation": "Sirach 32:28 (Clementine Vulgate)"
+    }
+  ]
+}

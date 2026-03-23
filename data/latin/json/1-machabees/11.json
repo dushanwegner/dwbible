@@ -1,0 +1,406 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Maccabees, Chapter 11 — 74 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Maccabees",
+      "slug": "1-machabees",
+      "testament": "OT",
+      "order": 45,
+      "totalChapters": 16
+    },
+    "chapter": 11,
+    "verseCount": 74,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-machabees/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-machabees/10.json",
+      "nextChapter": "https://latinprayer.org/latin/1-machabees/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-machabees/11.json",
+      "german": "https://latinprayer.org/bibel/1-machabees/11.json"
+    }
+  },
+  "citation": "1 Maccabees 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et rex Aegypti congregavit exercitum sicut harena quae est circa ora maris et naves multas et quaerebat obtinere regnum Alexandri dolo et addere illud regno suo",
+      "citation": "1 Maccabees 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et exiit in Syriam verbis pacificis et aperiebant ei quia mandaverat Alexander rex exire ei obviam eo quod socer suus esset",
+      "citation": "1 Maccabees 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cum introiret autem civitatem Ptolomeus ponebat custodias militum in singulis civitatibus",
+      "citation": "1 Maccabees 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et ut adpropiavit Azoto ostenderunt ei templum Dagon succensum et Azotum et cetera eius demolita et corpora proiecta et eorum qui caesi erant in bello tumulos quos fecerat secus viam",
+      "citation": "1 Maccabees 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et narraverunt regi quia haec fecit Ionathas ut invidiam facerent ei et tacuit rex",
+      "citation": "1 Maccabees 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et occurrit Ionathas regi in Ioppen cum gloria et invicem se salutaverunt et dormierunt illic",
+      "citation": "1 Maccabees 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et abiit Ionathas cum rege usque ad fluvium qui vocatur Eleutherus et reversus est Hierusalem",
+      "citation": "1 Maccabees 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "rex autem Ptolomeus obtinuit dominium civitatum usque Seleuciam maritimam et cogitabat in Alexandrum consilia mala",
+      "citation": "1 Maccabees 11:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et misit legatos ad Demetrium dicens veni conponamus inter nos pactum et dabo tibi filiam meam quam habet Alexander et regnabis in regno patris tui",
+      "citation": "1 Maccabees 11:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "paenituit enim me quod dederim illi filiam meam quaesivit enim me occidere",
+      "citation": "1 Maccabees 11:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et vituperavit eum propterea quod concupierat regnum eius",
+      "citation": "1 Maccabees 11:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et abstulit filiam suam et dedit eam Demetrio et abalienavit se ab Alexandro et manifestae factae sunt inimicitiae eius",
+      "citation": "1 Maccabees 11:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et intravit Ptolomeus Antiochiam et inposuit duo diademata capiti suo Aegypti et Asiae",
+      "citation": "1 Maccabees 11:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "Ptolomeus autem rex erat in Cilicia illis temporibus quia rebellabant qui erant in locis illius",
+      "citation": "1 Maccabees 11:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et audivit Alexander et venit ad eum in bello et produxit Ptolomeus rex exercitum et occurrit ei in manu valida et fugavit eum",
+      "citation": "1 Maccabees 11:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et fugit Alexander in Arabiam ut ibi protegeretur rex autem Ptolomeus exaltatus est",
+      "citation": "1 Maccabees 11:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et abstulit Gaddihel Arabs caput Alexandri et misit Ptolomeo",
+      "citation": "1 Maccabees 11:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et rex Ptolomeus mortuus est in die tertia et qui erant in munitionibus perierunt ab his qui erant intra castra",
+      "citation": "1 Maccabees 11:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et regnavit Demetrius anno centesimo sexagesimo septimo",
+      "citation": "1 Maccabees 11:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in diebus illis congregavit Ionathas eos qui erant in Iudaea ut expugnarent arcem quae est in Hierusalem et fecerunt contra eam machinas multas",
+      "citation": "1 Maccabees 11:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et abierunt quidam qui oderant gentem suam viri iniqui ad regem et renuntiaverunt ei quod Ionathas obsideret arcem",
+      "citation": "1 Maccabees 11:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et ut audivit iratus est et statim venit Ptolomaidam et scripsit Ionathae ne obsideret sed occurreret sibi ad conloquium festinato",
+      "citation": "1 Maccabees 11:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ut audivit autem Ionathas iussit obsideri et elegit de senioribus Israhel et de sacerdotibus et dedit se periculo",
+      "citation": "1 Maccabees 11:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et accepit aurum et argentum et vestem et alia xenia multa et abiit ad regem Ptolomaidae et invenit gratiam in conspectu eius",
+      "citation": "1 Maccabees 11:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et interpellabant adversus eum quidam iniqui ex gente sua",
+      "citation": "1 Maccabees 11:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et fecit ei rex sicut fecerant ei qui ante ipsum fuerant et exaltavit eum ante conspectu amicorum omnium",
+      "citation": "1 Maccabees 11:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et statuit ei principatum sacerdotii et quaecumque alia habuit prius pretiosa et fecit eum principem amicorum",
+      "citation": "1 Maccabees 11:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et postulavit Ionathas a rege ut inmunem faceret Iudaeam toparcias id est et Samariam et promisit ei talenta trecenta",
+      "citation": "1 Maccabees 11:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et consensit rex et scripsit Ionathae epistulas de his omnibus hunc modum continentes",
+      "citation": "1 Maccabees 11:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "rex Demetrius Ionathae fratri salutem et genti Iudaeorum",
+      "citation": "1 Maccabees 11:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "exemplum epistulae quam scripsimus Lastheni parenti nostro de vobis misimus ad vos ut sciretis",
+      "citation": "1 Maccabees 11:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "rex Demetrius Lastheni parenti salutem",
+      "citation": "1 Maccabees 11:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "genti Iudaeorum amicis nostris et conservantibus quae iusta sunt apud nos decrevimus benefacere propter benignitatem ipsorum quam erga nos habent",
+      "citation": "1 Maccabees 11:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "statuimus ergo illis omnes fines Iudaeae et tres civitates Lyddam et Ramathae quae additae sunt Iudaeae ex Samaria et omnes confines earum sequestra omnibus sacrificantibus in Hierosolymis pro his quae ab eis rex accipiebat per singulos annos et pro fructibus terrae et pomorum",
+      "citation": "1 Maccabees 11:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et alia quae ad nos pertinebant decimarum et tributorum ex hoc tempore remittimus eis et areas salinarum et coronas quae nobis deferebantur",
+      "citation": "1 Maccabees 11:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "omnia ipsis concedimus et nihil horum irritum erit ex hoc et in omne tempus",
+      "citation": "1 Maccabees 11:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "nunc ergo curate facere horum exemplum et detur Ionathae et ponatur in monte sancto in loco celebri",
+      "citation": "1 Maccabees 11:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "et vidit Demetrius rex quod siluit terra in conspectu suo et nihil ei resistit dimisit totum exercitum suum unumquemque in locum suum excepto peregrino exercitu quem contraxit ab insulis gentium et inimici erant ei omnis exercitus patrum eius",
+      "citation": "1 Maccabees 11:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "Tryfon autem erat quidam partium Alexandri prius et vidit quoniam omnis exercitus murmurat contra Demetrium et iit ad Emalcuhel Arabum qui nutriebat Antiochum filium Alexandri",
+      "citation": "1 Maccabees 11:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "et adsidebat ei ut traderet eum ipsi ut regnaret loco patris sui et enuntiavit ei quanta fecit Demetrius et inimicitias exercituum eius adversum illum et mansit illic diebus multis",
+      "citation": "1 Maccabees 11:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et misit Ionathas ad Demetrium regem ut eicerent eos qui in arce erant in Hierusalem et qui in praesidiis erant quia inpugnabant Israhel",
+      "citation": "1 Maccabees 11:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et misit Demetrius ad Ionathan dicens non haec tantum faciam tibi et genti tuae sed gloria inlustrabo te et gentem tuam cum fuerit oportunum",
+      "citation": "1 Maccabees 11:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "nunc ergo recte feceris si miseris viros in auxilium quia discessit omnis exercitus meus",
+      "citation": "1 Maccabees 11:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et misit ei Ionathas tria milia virorum fortium Antiochiam et venerunt ad regem et delectatus est rex in adventu eorum",
+      "citation": "1 Maccabees 11:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "et convenerunt qui erant de civitate centum viginti milia virorum et volebant interficere regem",
+      "citation": "1 Maccabees 11:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "et fugit rex in aulam et occupaverunt qui erant de civitate itinera civitatis et coeperunt pugnare",
+      "citation": "1 Maccabees 11:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "et vocavit rex Iudaeos in auxilium et convenerunt omnes simul ad eum et dispersi sunt omnes per civitatem",
+      "citation": "1 Maccabees 11:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "et occiderunt in illa die centum milia hominum et succenderunt civitatem et ceperunt spolia multa in illa die et liberaverunt regem",
+      "citation": "1 Maccabees 11:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "et viderunt qui erant de civitate quod obtinuissent Iudaei civitatem sicut volebant et infirmati sunt mente sua et clamaverunt ad regem cum precibus dicentes",
+      "citation": "1 Maccabees 11:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "da nobis dextras et cessent Iudaei obpugnantes nos et civitatem",
+      "citation": "1 Maccabees 11:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "et proiecerunt arma et fecerunt pacem et glorificati sunt Iudaei in conspectu regis et in conspectu omnium qui erant in regno eius et nominati sunt in regno et regressi sunt in Hierusalem habentes spolia multa",
+      "citation": "1 Maccabees 11:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "et sedit Demetrius rex in sede regni sui et siluit terra in conspectu eius",
+      "citation": "1 Maccabees 11:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "et mentitus est omnia quaecumque dixit et alienavit se ab Ionathan et non retribuit ei secundum beneficia quae sibi tribuerat et vexabat eum valde",
+      "citation": "1 Maccabees 11:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "post haec autem reversus est Tryfon et Antiochus cum eo puer adulescens et regnavit et inposuit diadema",
+      "citation": "1 Maccabees 11:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "et congregati sunt ad eum omnis exercitus quos disperserat Demetrius et pugnaverunt contra eum et fugit et terga vertit",
+      "citation": "1 Maccabees 11:55 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "et accepit Tryfon bestias et obtinuit Antiochiam",
+      "citation": "1 Maccabees 11:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "et scripsit Antiochus adulescens Ionathae dicens constituo tibi sacerdotium et constituo te super quattuor civitates ut sis de amicis regis",
+      "citation": "1 Maccabees 11:57 (Clementine Vulgate)"
+    },
+    {
+      "verse": 58,
+      "text": "et misit illi vasa aurea et ministerium et dedit ei potestatem bibendi in auro et esse in purpura et habere fibulam auream",
+      "citation": "1 Maccabees 11:58 (Clementine Vulgate)"
+    },
+    {
+      "verse": 59,
+      "text": "et Simonem fratrem eius constituit ducem a terminis Tyri usque ad fines Aegypti",
+      "citation": "1 Maccabees 11:59 (Clementine Vulgate)"
+    },
+    {
+      "verse": 60,
+      "text": "et exiit Ionathas et perambulabat trans flumen civitates et congregatus est ad eum omnis exercitus Syriae in auxilium et venit Ascalona et occurrerunt ei de civitate honorifice",
+      "citation": "1 Maccabees 11:60 (Clementine Vulgate)"
+    },
+    {
+      "verse": 61,
+      "text": "et abiit inde Gazam et concluserunt se qui erant Gazae et obsedit eam et succendit quae in circuitu erant civitates et praedatus est eas",
+      "citation": "1 Maccabees 11:61 (Clementine Vulgate)"
+    },
+    {
+      "verse": 62,
+      "text": "et rogaverunt Gazenses Ionathan et dedit illis dextram et accepit filios eorum obsides et misit illos in Hierusalem et perambulavit regionem usque Damascum",
+      "citation": "1 Maccabees 11:62 (Clementine Vulgate)"
+    },
+    {
+      "verse": 63,
+      "text": "et audivit Ionathas quia praevaricati sunt principes Demetrii in Cades quae est in Galilea cum exercitu multo volentes eum removere a negotio regni",
+      "citation": "1 Maccabees 11:63 (Clementine Vulgate)"
+    },
+    {
+      "verse": 64,
+      "text": "et occurrit illis fratrem autem suum Simonem reliquit intra provinciam",
+      "citation": "1 Maccabees 11:64 (Clementine Vulgate)"
+    },
+    {
+      "verse": 65,
+      "text": "et adplicuit Simon ad Bethsuram et expugnabat eam diebus multis et conclusit eos",
+      "citation": "1 Maccabees 11:65 (Clementine Vulgate)"
+    },
+    {
+      "verse": 66,
+      "text": "et postulaverunt ab eo dextras accipere et dedit illis et eiecit eos inde et cepit civitatem et posuit in ea praesidium",
+      "citation": "1 Maccabees 11:66 (Clementine Vulgate)"
+    },
+    {
+      "verse": 67,
+      "text": "et Ionatha et castra eius adplicuerunt ad aquam Gennesar et ante lucem vigilaverunt in campum Asor",
+      "citation": "1 Maccabees 11:67 (Clementine Vulgate)"
+    },
+    {
+      "verse": 68,
+      "text": "et ecce castra alienigenarum occurrebant in campo et tendebant ei insidias in montibus ipse autem occurrit ex adverso",
+      "citation": "1 Maccabees 11:68 (Clementine Vulgate)"
+    },
+    {
+      "verse": 69,
+      "text": "insidiae vero exsurrexerunt de locis suis et commiserunt proelium",
+      "citation": "1 Maccabees 11:69 (Clementine Vulgate)"
+    },
+    {
+      "verse": 70,
+      "text": "et fugerunt qui erant ex parte Ionathae omnes et nemo relictus est ex eis nisi Matthathias filius Absolomi et Iudas filius Chalfi princeps militiae exercitus",
+      "citation": "1 Maccabees 11:70 (Clementine Vulgate)"
+    },
+    {
+      "verse": 71,
+      "text": "et scidit Ionathas vestimenta sua et posuit terram in capite suo et oravit",
+      "citation": "1 Maccabees 11:71 (Clementine Vulgate)"
+    },
+    {
+      "verse": 72,
+      "text": "et reversus est ad eos in proelium et convertit illos et pugnaverunt",
+      "citation": "1 Maccabees 11:72 (Clementine Vulgate)"
+    },
+    {
+      "verse": 73,
+      "text": "et viderunt qui fugiebant partis illius et reversi sunt ad eum et insequebantur cum eo usque Cades ad castra sua et pervenerunt usque illuc",
+      "citation": "1 Maccabees 11:73 (Clementine Vulgate)"
+    },
+    {
+      "verse": 74,
+      "text": "et ceciderunt de alienigenis in die illa tria milia virorum et regressus est Ionatha in Hierusalem",
+      "citation": "1 Maccabees 11:74 (Clementine Vulgate)"
+    }
+  ]
+}

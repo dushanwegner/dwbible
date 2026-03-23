@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 29 — 39 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 29,
+    "verseCount": 39,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/numbers/28.json",
+      "nextChapter": "https://latinprayer.org/latin/numbers/30.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/29.json",
+      "german": "https://latinprayer.org/bibel/numbers/29.json"
+    }
+  },
+  "citation": "Numbers 29 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "mensis etiam septimi prima dies venerabilis et sancta erit vobis omne opus servile non facietis in ea quia dies clangoris est et tubarum",
+      "citation": "Numbers 29:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "offeretisque holocaustum in odorem suavissimum Domino vitulum de armento unum arietem unum agnos anniculos inmaculatos septem",
+      "citation": "Numbers 29:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et in sacrificiis eorum similae oleo conspersae tres decimas per singulos vitulos duas decimas per arietem",
+      "citation": "Numbers 29:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "unam decimam per agnum qui simul sunt agni septem",
+      "citation": "Numbers 29:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et hircum pro peccato qui offertur in expiationem populi",
+      "citation": "Numbers 29:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "praeter holocaustum kalendarum cum sacrificiis suis et holocaustum sempiternum cum libationibus solitis hisdem caerimoniis offeretis in odorem suavissimum incensum Domino",
+      "citation": "Numbers 29:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "decima quoque dies mensis huius septimi erit vobis sancta atque venerabilis et adfligetis animas vestras omne opus servile non facietis in ea",
+      "citation": "Numbers 29:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "offeretisque holocaustum Domino in odorem suavissimum vitulum de armento unum arietem unum agnos anniculos inmaculatos septem",
+      "citation": "Numbers 29:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et in sacrificiis eorum similae oleo conspersae tres decimas per vitulos singulos duas decimas per arietem",
+      "citation": "Numbers 29:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "decimam decimae per agnos singulos qui sunt simul septem agni",
+      "citation": "Numbers 29:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et hircum pro peccato absque his quae offerri pro delicto solent in expiationem et holocaustum sempiternum in sacrificio et libaminibus eorum",
+      "citation": "Numbers 29:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quintadecima vero die mensis septimi quae vobis erit sancta atque venerabilis omne opus servile non facietis in ea sed celebrabitis sollemnitatem Domino septem diebus",
+      "citation": "Numbers 29:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "offeretisque holocaustum in odorem suavissimum Domino vitulos de armento tredecim arietes duos agnos anniculos quattuordecim inmaculatos",
+      "citation": "Numbers 29:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et in libamentis eorum similae oleo conspersae tres decimas per vitulos singulos qui sunt simul vituli tredecim et duas decimas arieti uno id est simul arietibus duobus",
+      "citation": "Numbers 29:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et decimam decimae agnis singulis qui sunt simul agni quattuordecim",
+      "citation": "Numbers 29:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et hircum pro peccato absque holocausto sempiterno et sacrificio et libamine eius",
+      "citation": "Numbers 29:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "in die altero offeres vitulos de armento duodecim arietes duos agnos anniculos inmaculatos quattuordecim",
+      "citation": "Numbers 29:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "sacrificiaque et libamina singulorum per vitulos et arietes et agnos rite celebrabis",
+      "citation": "Numbers 29:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et hircum pro peccato absque holocausto sempiterno sacrificioque eius et libamine",
+      "citation": "Numbers 29:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "die tertio offeres vitulos undecim arietes duos agnos anniculos inmaculatos quattuordecim",
+      "citation": "Numbers 29:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "sacrificiaque et libamina singulorum per vitulos et arietes et agnos rite celebrabis",
+      "citation": "Numbers 29:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et hircum pro peccato absque holocausto sempiterno et sacrificio et libamine eius",
+      "citation": "Numbers 29:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "die quarto offeres vitulos decem arietes duos agnos anniculos inmaculatos quattuordecim",
+      "citation": "Numbers 29:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "sacrificiaque eorum et libamina singulorum per vitulos et arietes et agnos rite celebrabis",
+      "citation": "Numbers 29:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et hircum pro peccato absque holocausto sempiterno sacrificioque eius et libamine",
+      "citation": "Numbers 29:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "die quinto offeres vitulos novem arietes duos agnos anniculos inmaculatos quattuordecim",
+      "citation": "Numbers 29:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "sacrificiaque et libamina singulorum per vitulos et arietes et agnos rite celebrabis",
+      "citation": "Numbers 29:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et hircum pro peccato absque holocausto sempiterno sacrificioque eius et libamine",
+      "citation": "Numbers 29:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "die sexto offeres vitulos octo arietes duos agnos anniculos inmaculatos quattuordecim",
+      "citation": "Numbers 29:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "sacrificiaque et libamina singulorum per vitulos et arietes et agnos rite celebrabis",
+      "citation": "Numbers 29:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "et hircum pro peccato absque holocausto sempiterno sacrificioque eius et libamine",
+      "citation": "Numbers 29:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "die septimo offeres vitulos septem arietes duos agnos anniculos inmaculatos quattuordecim",
+      "citation": "Numbers 29:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "sacrificiaque et libamina singulorum per vitulos et arietes et agnos rite celebrabis",
+      "citation": "Numbers 29:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et hircum pro peccato absque holocausto sempiterno sacrificioque eius et libamine",
+      "citation": "Numbers 29:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "die octavo qui est celeberrimus omne opus servile non facietis",
+      "citation": "Numbers 29:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "offerentes holocaustum in odorem suavissimum Domino vitulum unum arietem unum agnos anniculos inmaculatos septem",
+      "citation": "Numbers 29:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "sacrificiaque et libamina singulorum per vitulos et arietes et agnos rite celebrabis",
+      "citation": "Numbers 29:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "et hircum pro peccato absque holocausto sempiterno sacrificioque eius et libamine",
+      "citation": "Numbers 29:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "haec offeretis Domino in sollemnitatibus vestris praeter vota et oblationes spontaneas in holocausto in sacrificio in libamine et in hostiis pacificis",
+      "citation": "Numbers 29:39 (Clementine Vulgate)"
+    }
+  ]
+}

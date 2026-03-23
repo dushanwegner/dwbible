@@ -1,0 +1,316 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 102 — 56 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 102,
+    "verseCount": 56,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/101.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/103.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/102.json",
+      "german": "https://latinprayer.org/bibel/psalms/102.json"
+    }
+  },
+  "citation": "Psalms 102 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Domine exaudi orationem meam et clamor meus ad te veniat",
+      "citation": "Psalms 102:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "Domine audi orationem meam et clamor meus ad te veniat",
+      "citation": "Psalms 102:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "non avertas faciem tuam a me in quacumque die tribulor inclina ad me aurem tuam in quacumque die invocavero te velociter exaudi me",
+      "citation": "Psalms 102:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ne abscondas faciem tuam a me in die tribulationis meae inclina ad me aurem tuam in quacumque die invocavero velociter exaudi me",
+      "citation": "Psalms 102:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia defecerunt sicut fumus dies mei et ossa mea sicut gremium aruerunt",
+      "citation": "Psalms 102:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quoniam consumpti sunt sicut fumus dies mei et ossa mea quasi frixa contabuerunt",
+      "citation": "Psalms 102:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "percussum est ut faenum et aruit cor meum quia oblitus sum comedere panem meum",
+      "citation": "Psalms 102:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "percussum est quasi faenum et arefactum est cor meum quia oblitus sum comedere panem meum",
+      "citation": "Psalms 102:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "a voce gemitus mei adhesit os meum carni meae",
+      "citation": "Psalms 102:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "a voce gemitus mei adhesit os meum carni meae",
+      "citation": "Psalms 102:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "similis factus sum pelicano solitudinis factus sum sicut nycticorax in domicilio",
+      "citation": "Psalms 102:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "adsimilatus sum pelicano deserti factus sum quasi bubo solitudinum",
+      "citation": "Psalms 102:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "vigilavi et factus sum sicut passer solitarius in tecto",
+      "citation": "Psalms 102:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "vigilavi et fui sicut avis solitaria super tectum",
+      "citation": "Psalms 102:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "tota die exprobrabant mihi inimici mei et qui laudabant me adversus me iurabant",
+      "citation": "Psalms 102:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "tota die exprobrabant mihi inimici mei exultantes per me iurabant",
+      "citation": "Psalms 102:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quia cinerem tamquam panem manducavi et poculum meum cum fletu miscebam",
+      "citation": "Psalms 102:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quia cinerem sicut panem comedi et potum meum cum fletu miscui",
+      "citation": "Psalms 102:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "a facie irae et indignationis tuae quia elevans adlisisti me",
+      "citation": "Psalms 102:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "a facie indignationis et irae tuae quia elevasti me et adlisisti me",
+      "citation": "Psalms 102:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dies mei sicut umbra declinaverunt et ego sicut faenum arui",
+      "citation": "Psalms 102:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dies mei quasi umbra inclinati sunt et ego quasi faenum arui",
+      "citation": "Psalms 102:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "tu autem Domine in aeternum permanes et memoriale tuum in generationem et generationem",
+      "citation": "Psalms 102:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "tu autem Domine in aeternum permanes memoriale tuum in generatione et generatione",
+      "citation": "Psalms 102:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "tu exsurgens misereberis Sion quia tempus miserendi eius quia venit tempus",
+      "citation": "Psalms 102:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "tu suscitans misereberis Sion quia tempus est ut miserearis eius quoniam venit tempus quoniam venit pactum",
+      "citation": "Psalms 102:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quoniam placuerunt servis tuis lapides eius et terrae eius miserebuntur",
+      "citation": "Psalms 102:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quoniam placitos fecerunt servi tui lapides eius et pulverem eius miserabilem",
+      "citation": "Psalms 102:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et timebunt gentes nomen Domini et omnes reges terrae gloriam tuam",
+      "citation": "Psalms 102:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et timebunt gentes nomen Domini et universi reges terrae gloriam tuam",
+      "citation": "Psalms 102:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quia aedificabit Dominus Sion et videbitur in gloria sua",
+      "citation": "Psalms 102:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quia aedificavit Dominus Sion apparuit in gloria sua",
+      "citation": "Psalms 102:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "respexit in orationem humilium et non sprevit precem eorum",
+      "citation": "Psalms 102:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "respexit ad orationem vacui et non dispexit orationem eorum",
+      "citation": "Psalms 102:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "scribantur haec in generationem alteram et populus qui creabitur laudabit Dominum",
+      "citation": "Psalms 102:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "scribatur hoc in generatione novissima et populus qui creabitur laudabit Dominum",
+      "citation": "Psalms 102:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quia prospexit de excelso sancto suo Dominus de caelo in terram aspexit",
+      "citation": "Psalms 102:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quoniam prospexit de excelso sanctuario suo Dominus de caelo terram contemplatus est",
+      "citation": "Psalms 102:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "ut audiret gemitum conpeditorum ut solvat filios interemptorum",
+      "citation": "Psalms 102:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "ut audiret gemitum vincti ut solveret filios mortis",
+      "citation": "Psalms 102:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "ut adnuntiet in Sion nomen Domini et laudem suam in Hierusalem",
+      "citation": "Psalms 102:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "ut narretur in Sion nomen Domini et laudatio eius in Hierusalem",
+      "citation": "Psalms 102:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "in conveniendo populos in unum et reges ut serviant Domino",
+      "citation": "Psalms 102:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "cum congregati fuerint populi simul et regna ut serviant Domino",
+      "citation": "Psalms 102:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "respondit ei in via virtutis suae paucitatem dierum meorum nuntia mihi",
+      "citation": "Psalms 102:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "adflixit in via fortitudinem meam adbreviavit dies meos",
+      "citation": "Psalms 102:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "ne revoces me in dimidio dierum meorum in generationem et generationem anni tui",
+      "citation": "Psalms 102:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "dicam Deus meus ne rapias me in dimidio dierum meorum in generatione generationum anni tui",
+      "citation": "Psalms 102:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "initio tu Domine terram fundasti et opera manuum tuarum sunt caeli",
+      "citation": "Psalms 102:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "a principio terram fundasti et opus manuum tuarum caeli",
+      "citation": "Psalms 102:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "ipsi peribunt tu autem permanes et omnes sicut vestimentum veterescent et sicut opertorium mutabis eos et mutabuntur",
+      "citation": "Psalms 102:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "ipsi peribunt tu autem stabis et omnes quasi vestimentum adterentur et quasi pallium mutabis illos et mutabuntur",
+      "citation": "Psalms 102:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "tu autem idem ipse es et anni tui non deficient",
+      "citation": "Psalms 102:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "tu autem ipse es et anni tui non deficient",
+      "citation": "Psalms 102:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "filii servorum tuorum habitabunt et semen eorum in saeculum dirigetur",
+      "citation": "Psalms 102:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "filii servorum tuorum habitabunt et semen eorum ante faciem eorum perseverabit",
+      "citation": "Psalms 102:28 (Clementine Vulgate)"
+    }
+  ]
+}

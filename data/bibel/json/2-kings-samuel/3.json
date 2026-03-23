@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Samuel, Chapter 3 — 39 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "order": 10,
+      "totalChapters": 24
+    },
+    "chapter": 3,
+    "verseCount": 39,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/2-kings-samuel/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/2-kings-samuel/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-kings-samuel/3.json",
+      "latin": "https://latinprayer.org/latin/2-kings-samuel/3.json"
+    }
+  },
+  "citation": "2 Samuel 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Der Krieg zwischen dem Hause Sauls und dem Hause Davids zog sich dann in die Länge; aber Davids Macht nahm immerfort zu, während das Haus Sauls immer schwächer wurde.",
+      "citation": "2 Samuel 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "In Hebron wurden dem David folgende Söhne geboren: sein Erstgeborener war Amnon, von Ahinoam aus Jesreel;",
+      "citation": "2 Samuel 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "sein zweiter Sohn Kileab, von Abigail, der Witwe Nabals, aus Karmel; der dritte Absalom, der Sohn der Maacha, der Tochter Thalmais, des Königs von Gesur;",
+      "citation": "2 Samuel 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "der vierte Adonia, der Sohn der Haggith; der fünfte Sephatja, der Sohn der Abital;",
+      "citation": "2 Samuel 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "der sechste Jithream, von Davids Frau Egla. Diese wurden dem David in Hebron geboren.",
+      "citation": "2 Samuel 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Solange nun der Krieg zwischen dem Hause Sauls und dem Hause Davids währte, hielt Abner treu zum Hause Sauls.",
+      "citation": "2 Samuel 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Saul hatte aber ein Nebenweib gehabt namens Rizpa, eine Tochter Ajas. Nun richtete (Isboseth) eines Tages die Frage an Abner: »Warum hast du ein Verhältnis mit dem Nebenweibe meines Vaters gehabt?«",
+      "citation": "2 Samuel 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Über diese Äußerung Isboseths geriet Abner in heftigen Zorn, so daß er ausrief: »Bin ich denn ein judäischer Hundskopf?! Bis heute habe ich dem Hause deines Vaters Saul und seinen Verwandten und Freunden treu gedient und dich nicht in Davids Hände fallen lassen, und doch wirfst du mir heute eine Verschuldung mit einem Weibe vor?",
+      "citation": "2 Samuel 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "So möge denn Gott mich, Abner, jetzt und künftighin strafen, wenn ich nicht das, was der HERR dem David zugeschworen hat, jetzt für ihn verwirkliche,",
+      "citation": "2 Samuel 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "daß ich nämlich das Königtum dem Hause Sauls nehme und den Thron Davids über Israel und über Juda aufrichte von Dan bis Beerseba!«",
+      "citation": "2 Samuel 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da vermochte jener dem Abner kein Wort mehr zu erwidern: so fürchtete er sich vor ihm.",
+      "citation": "2 Samuel 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Darauf sandte Abner auf der Stelle Boten zu David und ließ (ihm) sagen: »Wem gehört das Land? Schließe einen Vertrag mit mir, dann stelle ich mich dir zur Verfügung, um ganz Israel auf deine Seite zu bringen.«",
+      "citation": "2 Samuel 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "(David) gab zur Antwort: »Gut! Ich will einen Vertrag mit dir schließen; doch fordere ich eins von dir, nämlich: du darfst mir nicht vor die Augen treten, es sei denn, daß du Sauls Tochter Michal mitbringst, wenn du herkommst, um vor mir zu erscheinen.«",
+      "citation": "2 Samuel 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Zugleich schickte David aber auch Gesandte an Isboseth, den Sohn Sauls, mit der Forderung: »Gib mir meine Gattin Michal zurück, die ich mir um den Preis von hundert Vorhäuten der Philister zur Frau gewonnen habe!«",
+      "citation": "2 Samuel 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Da sandte Isboseth hin und ließ sie ihrem Gatten Paltiel, dem Sohne des Lais, wegnehmen.",
+      "citation": "2 Samuel 3:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Ihr Gatte aber ging mit ihr und begleitete sie unter beständigem Weinen bis Bachurim; dann, als Abner ihn aufforderte, heimzugehen, kehrte er nach Hause zurück.",
+      "citation": "2 Samuel 3:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Abner aber hatte mit den Ältesten von Israel Verhandlungen angeknüpft und ihnen vorgestellt: »Schon längst habt ihr David zum König über euch gewünscht:",
+      "citation": "2 Samuel 3:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "so führt es denn jetzt aus! Denn der HERR hat im Hinblick auf David verheißen: ›Durch die Hand meines Knechtes David will ich mein Volk Israel aus der Gewalt der Philister und aller seiner Feinde befreien.‹«",
+      "citation": "2 Samuel 3:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Ebenso hatte Abner auch mit den Benjaminiten heimlich unterhandelt; und endlich machte er sich auf den Weg, um David in Hebron persönlich alles mitzuteilen, was Israel und der ganze Stamm Benjamin beschlossen hatten.",
+      "citation": "2 Samuel 3:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Als nun Abner in Begleitung von zwanzig Männern zu David nach Hebron kam und David ihm und seinen Begleitern ein Festmahl hatte ausrichten lassen,",
+      "citation": "2 Samuel 3:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "sagte Abner zu David: »Ich will mich jetzt aufmachen und hingehen und ganz Israel um meinen Herrn, den König, sammeln, damit sie einen Vertrag mit dir schließen; dann kannst du als König ganz nach Herzenswunsch regieren!« Darauf entließ David den Abner, der sich in Frieden entfernte.",
+      "citation": "2 Samuel 3:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Da aber kamen gerade Davids Leute und Joab von einem Streifzug zurück und brachten reiche Beute mit, als Abner sich bereits nicht mehr bei David in Hebron befand, sondern dieser ihn entlassen hatte, so daß er in Frieden heimzog.",
+      "citation": "2 Samuel 3:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Als nun Joab mit der ganzen Mannschaft, die bei ihm war, heimkam und man ihm berichtete: »Abner, der Sohn Ners, ist zum König gekommen, und der hat ihn ruhig wieder ziehen lassen«,",
+      "citation": "2 Samuel 3:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "da ging Joab zum König hinein und sagte: »Was hast du da getan? Ich weiß, Abner ist bei dir gewesen: warum hast du ihn nun ungehindert wieder ziehen lassen?",
+      "citation": "2 Samuel 3:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Du mußt doch Abner, den Sohn Ners, so weit kennen, daß er nur gekommen ist, um dich zu überlisten! Er will nur all dein Tun und Lassen auskundschaften und alles, was du vorhast, erkunden.«",
+      "citation": "2 Samuel 3:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Als Joab dann David verlassen hatte, sandte er Boten hinter Abner her, die ihn von der Zisterne Sira wieder zurückholen mußten, ohne daß David etwas davon wußte.",
+      "citation": "2 Samuel 3:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Als Abner nun nach Hebron zurückkam, führte Joab ihn abseits in das Innere des Tores, als wollte er vertraulich mit ihm reden; dort versetzte er ihm einen Stich in den Unterleib, daß er starb – um die Blutrache für seinen Bruder Asahel zu vollziehen.",
+      "citation": "2 Samuel 3:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Als David hernach die Sache erfuhr, rief er aus: »Ich und mein Königtum sind für immer schuldlos vor dem HERRN an der Ermordung Abners, des Sohnes Ners!",
+      "citation": "2 Samuel 3:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "(Sein Blut) falle auf das Haupt Joabs und auf sein ganzes Geschlecht zurück! Möge es im Hause Joabs nie an Schwindsüchtigen und Aussätzigen fehlen, nie an solchen, die an Krücken gehen, die durchs Schwert fallen und denen es an Brot mangelt!«",
+      "citation": "2 Samuel 3:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Als nun Joab und sein Bruder Abisai Abner ermordet hatten, weil er ihren Bruder Asahel bei Gibeon im Kampf getötet hatte,",
+      "citation": "2 Samuel 3:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "befahl David dem Joab und allen Personen, die zu seiner Umgebung gehörten: »Zerreißt eure Kleider, legt Trauergewänder an und stimmt die Totenklage an vor Abners Bahre her!« Der König David aber ging hinter der Bahre her;",
+      "citation": "2 Samuel 3:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "und als man Abner in Hebron begrub, brach der König am Grabe Abners in lautes Weinen aus, und das ganze Volk weinte mit.",
+      "citation": "2 Samuel 3:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Sodann stimmte der König ein Klagelied um Abner an, das da lautete: Mußte Abner sterben, wie ein Gottloser stirbt?",
+      "citation": "2 Samuel 3:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Deine Hände waren nicht gefesselt und deine Füße nicht in Ketten gelegt: nein, du bist gefallen, wie man vor Verbrechern fällt! Da weinte alles Volk noch mehr um ihn.",
+      "citation": "2 Samuel 3:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Als dann alles Volk kam, um David zum Essen zu bewegen, solange es noch Tag war, schwur David: »Gott strafe mich jetzt und künftig, wenn ich vor Sonnenuntergang Brot oder irgend etwas anderes genieße!«",
+      "citation": "2 Samuel 3:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Als alles Volk dies wahrnahm, gefiel es ihnen wohl; überhaupt fand das ganze Verhalten des Königs beim gesamten Volke Beifall;",
+      "citation": "2 Samuel 3:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "und das ganze Volk, auch ganz Israel, kam an jenem Tage zu der Erkenntnis, daß die Ermordung Abners, des Sohnes Ners, nicht vom Könige ausgegangen war.",
+      "citation": "2 Samuel 3:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "Auch sagte der König zu seiner Umgebung: »Wißt ihr nicht, daß am heutigen Tage ein Fürst und Großer in Israel gefallen ist?",
+      "citation": "2 Samuel 3:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Ich aber, obgleich zum König gesalbt, bin jetzt noch zu machtlos, und diese Männer, die Söhne der Zeruja, sind zu hart für mich. Der HERR lasse den, der die Freveltat begangen hat, für seinen Frevel büßen!«",
+      "citation": "2 Samuel 3:39 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 15 — 5 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 15,
+    "verseCount": 5,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/14.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/16.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/15.json",
+      "latin": "https://latinprayer.org/latin/psalms/15.json"
+    }
+  },
+  "citation": "Psalmen 15 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Psalm von David.</em> HERR, wer darf Gast sein in deinem Zelte, wer wohnen auf deinem heiligen Berge?",
+      "citation": "Psalmen 15:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wer unsträflich wandelt und Gerechtigkeit übt und die Wahrheit redet, wie’s ihm ums Herz ist;",
+      "citation": "Psalmen 15:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "wer keine Verleumdung mit seiner Zunge umherträgt, seinem Nächsten kein Unrecht zufügt und keine Schmähung ausspricht gegen Verwandte;",
+      "citation": "Psalmen 15:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "wer Verworfne als wirklich verächtlich ansieht, aber Gottesfürchtigen Ehre erweist; wer sich selbst zum Schaden schwört und den Eid doch hält;",
+      "citation": "Psalmen 15:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "wer sein Geld nicht ausleiht gegen Zins und Bestechung nicht annimmt gegen Schuldlose: wer solches tut, wird ewiglich nicht wanken.",
+      "citation": "Psalmen 15:5 (Menge)"
+    }
+  ]
+}

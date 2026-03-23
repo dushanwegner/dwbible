@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Peter, Chapter 4 — 19 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Peter",
+      "slug": "1-peter",
+      "testament": "NT",
+      "order": 67,
+      "totalChapters": 5
+    },
+    "chapter": 4,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-peter/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-peter/3.json",
+      "nextChapter": "https://latinprayer.org/latin/1-peter/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-peter/4.json",
+      "german": "https://latinprayer.org/bibel/1-peter/4.json"
+    }
+  },
+  "citation": "1 Peter 4 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Christo igitur passo in carne et vos eadem cogitatione armamini quia qui passus est carne desiit a peccatis",
+      "citation": "1 Peter 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ut iam non hominum desideriis sed voluntate Dei quod reliquum est in carne vivat temporis",
+      "citation": "1 Peter 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "sufficit enim praeteritum tempus ad voluntatem gentium consummandam qui ambulaverunt in luxuriis desideriis vinolentiis comesationibus potationibus et inlicitis idolorum cultibus",
+      "citation": "1 Peter 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "in quo peregrinantur non concurrentibus vobis in eandem luxuriae confusionem blasphemantes",
+      "citation": "1 Peter 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "qui reddent rationem ei qui paratus est iudicare vivos et mortuos",
+      "citation": "1 Peter 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "propter hoc enim et mortuis evangelizatum est ut iudicentur quidem secundum homines in carne vivant autem secundum Deum spiritu",
+      "citation": "1 Peter 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "omnium autem finis adpropinquavit estote itaque prudentes et vigilate in orationibus",
+      "citation": "1 Peter 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ante omnia mutuam in vosmet ipsos caritatem continuam habentes quia caritas operit multitudinem peccatorum",
+      "citation": "1 Peter 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "hospitales invicem sine murmuratione",
+      "citation": "1 Peter 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "unusquisque sicut accepit gratiam in alterutrum illam administrantes sicut boni dispensatores multiformis gratiae Dei",
+      "citation": "1 Peter 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "si quis loquitur quasi sermones Dei si quis ministrat tamquam ex virtute quam administrat Deus ut in omnibus honorificetur Deus per Iesum Christum cui est gloria et imperium in saecula saeculorum amen",
+      "citation": "1 Peter 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "carissimi nolite peregrinari in fervore qui ad temptationem vobis fit quasi novi aliquid vobis contingat",
+      "citation": "1 Peter 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sed communicantes Christi passionibus gaudete ut et in revelatione gloriae eius gaudeatis exultantes",
+      "citation": "1 Peter 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "si exprobramini in nomine Christi beati quoniam gloriae Dei Spiritus in vobis requiescit",
+      "citation": "1 Peter 4:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "nemo enim vestrum patiatur quasi homicida aut fur aut maledicus aut alienorum appetitor",
+      "citation": "1 Peter 4:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "si autem ut Christianus non erubescat glorificet autem Deum in isto nomine",
+      "citation": "1 Peter 4:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quoniam tempus ut incipiat iudicium de domo Dei si autem primum a nobis qui finis eorum qui non credunt Dei evangelio",
+      "citation": "1 Peter 4:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et si iustus vix salvatur impius et peccator ubi parebit",
+      "citation": "1 Peter 4:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "itaque et hii qui patiuntur secundum voluntatem Dei fideli creatori commendant animas suas in benefactis",
+      "citation": "1 Peter 4:19 (Clementine Vulgate)"
+    }
+  ]
+}

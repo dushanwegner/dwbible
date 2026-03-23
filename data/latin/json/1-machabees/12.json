@@ -1,0 +1,306 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Maccabees, Chapter 12 — 54 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Maccabees",
+      "slug": "1-machabees",
+      "testament": "OT",
+      "order": 45,
+      "totalChapters": 16
+    },
+    "chapter": 12,
+    "verseCount": 54,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-machabees/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-machabees/11.json",
+      "nextChapter": "https://latinprayer.org/latin/1-machabees/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-machabees/12.json",
+      "german": "https://latinprayer.org/bibel/1-machabees/12.json"
+    }
+  },
+  "citation": "1 Maccabees 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et vidit Ionathas quia tempus eum iuvat et elegit viros et misit Romam statuere et renovare cum eis amicitiam",
+      "citation": "1 Maccabees 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et ad Spartas et ad alia loca misit epistulas secundum eandem formam",
+      "citation": "1 Maccabees 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et abierunt Romam et intraverunt in curiam et dixerunt Ionathas summus sacerdos et gens Iudaeorum miserunt nos ut renovetis amicitiam et societatem secundum pristinam",
+      "citation": "1 Maccabees 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dederunt illis epistulas ad ipsos per loca ut deducerent eos in terram Iuda cum pace",
+      "citation": "1 Maccabees 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et hoc exemplum epistularum quas scripsit Ionathas Spartiatis",
+      "citation": "1 Maccabees 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "Ionathas summus sacerdos et seniores gentis et sacerdotes et reliquus populus Iudaeorum Spartiatis fratribus salutem",
+      "citation": "1 Maccabees 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "iam pridem missae erant epistulae ad Onian summum sacerdotem a Dario qui regnabat apud vos quoniam estis fratres nostri sicut rescriptum continet quod subiectum est",
+      "citation": "1 Maccabees 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et suscepit Onias virum qui fuerat missus cum honore et accepit epistulas in quibus significabatur de societate et amicitia",
+      "citation": "1 Maccabees 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "nos cum nullo horum indigeremus habentes solacio sanctos libros qui sunt in manibus nostris",
+      "citation": "1 Maccabees 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "maluimus mittere ad vos renovare fraternitatem et amicitiam ne forte alieni efficiamur a vobis multa enim tempora transierunt ex quo misistis ad nos",
+      "citation": "1 Maccabees 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "nos ergo in omni tempore sine intermissione in diebus sollemnibus et ceteris quibus oportet memores sumus vestri in sacrificiis quae offerimus et observationibus sicut fas est et decet meminisse fratrum",
+      "citation": "1 Maccabees 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "laetamur itaque de gloria vestra",
+      "citation": "1 Maccabees 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "nos autem circumdederunt multae tribulationes et multa proelia et inpugnaverunt nos reges qui sunt in circuitu nostro",
+      "citation": "1 Maccabees 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "noluimus ergo vobis molesti esse neque ceteris sociis et amicis nostris in his proeliis",
+      "citation": "1 Maccabees 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "habuimus enim de caelo auxilium et liberati sumus nos et humiliati sunt inimici nostri",
+      "citation": "1 Maccabees 12:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "elegimus itaque Numenium Antiochi et Antipatrum Iasonis filium et misimus ad Romanos renovare cum eis amicitiam et societatem pristinam",
+      "citation": "1 Maccabees 12:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "mandavimus itaque eis ut veniant etiam ad vos et salutent vos ut reddant vobis epistulas nostras de innovatione fraternitatis nostrae",
+      "citation": "1 Maccabees 12:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et nunc bene facietis respondentes nobis ad haec",
+      "citation": "1 Maccabees 12:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et hoc rescriptum epistularum quod miserat Onias",
+      "citation": "1 Maccabees 12:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "rex Spartiarum Onias Ionathae sacerdoti magno salutem",
+      "citation": "1 Maccabees 12:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "inventum est in scriptura de Spartiatis et Iudaeis quoniam sunt fratres et quia sunt de genere Abraham",
+      "citation": "1 Maccabees 12:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et nunc ex quo haec cognovimus bene facitis scribentes nobis de pace vestra",
+      "citation": "1 Maccabees 12:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "sed et nos rescripsimus vobis pecora nostra et possessiones nostrae vestrae sunt et vestra nostra mandavimus itaque haec nuntiari vobis",
+      "citation": "1 Maccabees 12:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et audivit Ionathas quoniam egressi sunt principes Demetrii cum exercitu multo supra quam prius pugnare adversus eum",
+      "citation": "1 Maccabees 12:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et exiit ab Hierusalem et occurrit eis in Amathite regione non enim dederat eis spatium ut ingrederentur regionem eius",
+      "citation": "1 Maccabees 12:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et misit speculatores in castra eorum et reversi renuntiaverunt quia constituunt supervenire illis nocte",
+      "citation": "1 Maccabees 12:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "cum occidisset autem sol praecepit Ionathas suis vigilare et esse in armis paratos ad pugnam tota nocte et posuit custodes per circuitum castrorum",
+      "citation": "1 Maccabees 12:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et audierunt adversarii quia paratus est Ionathas cum suis in bello et timuerunt et formidaverunt corde suo et accenderunt focos in castris suis",
+      "citation": "1 Maccabees 12:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "Ionathas autem et qui cum eo erant non cognoverunt usque mane videbant enim lumina ardentia",
+      "citation": "1 Maccabees 12:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et secutus est Ionatha et non conprehendit eos transierant enim flumen Eleutherum",
+      "citation": "1 Maccabees 12:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "et divertit Ionathas ad Arabas qui vocantur Zabadei et percussit eos et accepit spolia eorum",
+      "citation": "1 Maccabees 12:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et iunxit et venit Damascum et perambulavit omnem regionem illam",
+      "citation": "1 Maccabees 12:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "Simon autem exiit et venit usque ad Ascalona et ad proxima praesidia et declinavit in Ioppen et occupavit eam",
+      "citation": "1 Maccabees 12:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "audivit enim quod vellent praesidium tradere partibus Demetrii et posuit ibi custodes ut custodirent eam",
+      "citation": "1 Maccabees 12:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et reversus est Ionathas et convocavit seniores populi et cogitavit cum eis aedificare praesidia in Iudaea",
+      "citation": "1 Maccabees 12:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "et aedificare muros in Hierusalem et exaltare altitudinem magnam inter medium arcis et civitatis ut separaret eam a civitate ut esset ipsa singulariter et neque emant neque vendant",
+      "citation": "1 Maccabees 12:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et convenerunt ut aedificarent civitatem et cecidit murus qui erat super torrentem ab ortu solis et reparavit eum qui vocatur Caphetetha",
+      "citation": "1 Maccabees 12:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "et Simon aedificavit Adiada in Sephela et munivit eam et inposuit portas et seras",
+      "citation": "1 Maccabees 12:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et cum cogitasset Tryfon regnare Asiae et adsumere diadema et extendere manum in Antiochum regem",
+      "citation": "1 Maccabees 12:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "timens ne forte non permitteret eum Ionathas sed pugnaret adversus eum quaerebat conprehendere eum et occidere et exsurgens abiit in Bethasan",
+      "citation": "1 Maccabees 12:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et exiit Ionathas obviam cum quadraginta milibus virorum electorum in proelium et venit Bethasan",
+      "citation": "1 Maccabees 12:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et vidit Tryfon quia venit cum exercitu multo ut extenderet in eum manus et timuit",
+      "citation": "1 Maccabees 12:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "et excepit eum cum honore et commendavit eum omnibus amicis suis et dedit ei munera et praecepit exercitibus suis ut oboedirent ei sicut sibi",
+      "citation": "1 Maccabees 12:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et dixit Ionathae ut quid vexasti universum populum cum bellum nobis non sit",
+      "citation": "1 Maccabees 12:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "et nunc remitte eos in domos suas elige autem tibi viros paucos qui tecum sint et veni mecum Ptolomaidam et tradam illam tibi et reliqua praesidia et exercitum et universos praepositos negotii et conversus abibo propterea enim veni",
+      "citation": "1 Maccabees 12:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "et credidit ei et fecit sicut dixit et dimisit exercitum et abierunt in terram Iudam",
+      "citation": "1 Maccabees 12:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "retinuit autem secum tria milia virorum ex quibus remisit in Galileam duo milia mille autem cum eo venerunt",
+      "citation": "1 Maccabees 12:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "ut intravit autem Ionathas Ptolomaidam cluserunt portas Ptolomenses et conprehenderunt eum et omnes qui cum eo intraverant gladio interfecerunt",
+      "citation": "1 Maccabees 12:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "et misit Tryfon exercitum et equites in Galileam et in campum magnum ut perderent omnes socios Ionathae",
+      "citation": "1 Maccabees 12:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "at illi cum cognovissent quia conprehensus est et periit et omnes qui cum eo erant hortati sunt semet ipsos et exierunt parati in proelium",
+      "citation": "1 Maccabees 12:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "et videntes hii qui insecuti fuerant quia pro anima res est illis reversi sunt",
+      "citation": "1 Maccabees 12:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "illi autem venerunt omnes cum pace in terram Iuda et planxerunt Ionathan et eos qui cum eo fuerant valde et luxit Israhel luctu magno",
+      "citation": "1 Maccabees 12:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "et quaesierunt omnes gentes quae erant in circuitu eorum perdere eos dixerunt enim",
+      "citation": "1 Maccabees 12:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "non habent principem et adiuvantem nunc ergo expugnemus illos et tollamus de hominibus memoriam eorum",
+      "citation": "1 Maccabees 12:53 (Clementine Vulgate)"
+    }
+  ]
+}

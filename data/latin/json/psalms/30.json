@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 30 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 30,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/29.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/31.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/30.json",
+      "german": "https://latinprayer.org/bibel/psalms/30.json"
+    }
+  },
+  "citation": "Psalms 30 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "exaltabo te Domine quoniam suscepisti me nec delectasti inimicos meos super me",
+      "citation": "Psalms 30:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in finem psalmus David",
+      "citation": "Psalms 30:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "exaltabo te Domine quoniam salvasti me et non delectasti inimicos meos super me",
+      "citation": "Psalms 30:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori canticum David",
+      "citation": "Psalms 30:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Domine Deus meus clamavi ad te et sanasti me",
+      "citation": "Psalms 30:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Domine Deus meus clamavi ad te et sanasti me",
+      "citation": "Psalms 30:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "Domine eduxisti ab inferno animam meam salvasti me a descendentibus in lacum",
+      "citation": "Psalms 30:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "Domine eduxisti de inferno animam meam vivificasti me ne descenderem in lacum",
+      "citation": "Psalms 30:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "psallite Domino sancti eius et confitemini memoriae sanctitatis eius",
+      "citation": "Psalms 30:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "cantate Domino sancti eius et confitemini memoriae sanctitatis eius",
+      "citation": "Psalms 30:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quoniam ira in indignatione eius et vita in voluntate eius ad vesperum demorabitur fletus et ad matutinum laetitia",
+      "citation": "Psalms 30:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quoniam ad momentum est ira eius et vita in repropitiatione eius ad vesperum commorabitur fletus et in matutino laus",
+      "citation": "Psalms 30:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ego autem dixi in abundantia mea non movebor in aeternum",
+      "citation": "Psalms 30:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ego autem dixi in abundantia mea non commovebor in sempiternum",
+      "citation": "Psalms 30:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Domine in voluntate tua praestitisti decori meo virtutem avertisti faciem tuam et factus sum conturbatus",
+      "citation": "Psalms 30:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Domine in voluntate tua posuisti monti meo fortitudinem abscondisti faciem tuam et factus sum conturbatus",
+      "citation": "Psalms 30:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ad te Domine clamabo et ad Deum meum deprecabor",
+      "citation": "Psalms 30:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ad Dominum clamabo et Dominum deprecabor",
+      "citation": "Psalms 30:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quae utilitas in sanguine meo dum descendo in corruptionem numquid confitebitur tibi pulvis aut adnuntiabit veritatem tuam",
+      "citation": "Psalms 30:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quae est utilitas in sanguine meo cum descendero in corruptionem numquid confitebitur tibi pulvis aut adnuntiabit veritatem tuam",
+      "citation": "Psalms 30:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "audivit Dominus et misertus est mei Dominus factus est adiutor meus",
+      "citation": "Psalms 30:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "audi Domine et miserere mei Domine esto adiutor",
+      "citation": "Psalms 30:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "convertisti planctum meum in gaudium mihi conscidisti saccum meum et circumdedisti me laetitia",
+      "citation": "Psalms 30:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "convertisti planctum meum in chorum mihi solvisti saccum meum et accinxisti me laetitia",
+      "citation": "Psalms 30:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ut cantet tibi gloria mea et non conpungar Domine Deus meus in aeternum confitebor tibi",
+      "citation": "Psalms 30:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ut laudet te gloria et non taceat Domine Deus meus in sempiternum confitebor tibi",
+      "citation": "Psalms 30:12 (Clementine Vulgate)"
+    }
+  ]
+}

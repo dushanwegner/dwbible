@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Micah, Chapter 5 — 13 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Micah",
+      "slug": "micheas",
+      "testament": "OT",
+      "order": 38,
+      "totalChapters": 7
+    },
+    "chapter": 5,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/micheas/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/micheas/4.json",
+      "nextChapter": "https://latinprayer.org/latin/micheas/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/micheas/5.json",
+      "german": "https://latinprayer.org/bibel/micheas/5.json"
+    }
+  },
+  "citation": "Micah 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et tu Bethleem Ephrata parvulus es in milibus Iuda ex te mihi egredietur qui sit dominator in Israhel et egressus eius ab initio a diebus aeternitatis",
+      "citation": "Micah 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "propter hoc dabit eos usque ad tempus in quo parturiens pariet reliquiae fratrum eius convertentur ad filios Israhel",
+      "citation": "Micah 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et stabit et pascet in fortitudine Domini in sublimitate nominis Domini Dei sui et convertentur quia nunc magnificabitur usque ad terminos terrae",
+      "citation": "Micah 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et erit iste pax Assyrius cum venerit in terram nostram et quando calcaverit in domibus nostris et suscitabimus super eum septem pastores et octo primates homines",
+      "citation": "Micah 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et pascent terram Assur in gladio et terram Nemrod in lanceis eius et liberabit ab Assur cum venerit in terram nostram et cum calcaverit in finibus nostris",
+      "citation": "Micah 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et erunt reliquiae Iacob in medio populorum multorum quasi ros a Domino et quasi stillae super herbam quae non expectat virum et non praestolatur filios hominum",
+      "citation": "Micah 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et erunt reliquiae Iacob in gentibus in medio populorum multorum quasi leo in iumentis silvarum et quasi catulus leonis in gregibus pecorum qui cum transierit et conculcaverit et ceperit non est qui eruat",
+      "citation": "Micah 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "exaltabitur manus tua super hostes tuos et omnes inimici tui interibunt",
+      "citation": "Micah 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et erit in die illa dicit Dominus auferam equos tuos de medio tui et disperdam quadrigas tuas",
+      "citation": "Micah 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et perdam civitates terrae tuae et destruam omnes munitiones tuas et auferam maleficia de manu tua et divinationes non erunt in te",
+      "citation": "Micah 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et perire faciam sculptilia tua et statuas tuas de medio tui et non adorabis ultra opera manuum tuarum",
+      "citation": "Micah 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et evellam lucos tuos de medio tui et conteram civitates tuas",
+      "citation": "Micah 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et faciam in furore et in indignatione ultionem in omnibus gentibus quae non audierunt",
+      "citation": "Micah 5:14 (Clementine Vulgate)"
+    }
+  ]
+}

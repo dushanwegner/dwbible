@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Richter, Chapter 12 — 15 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Richter",
+      "slug": "judges",
+      "testament": "OT",
+      "order": 7,
+      "totalChapters": 21
+    },
+    "chapter": 12,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/judges/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/judges/11.json",
+      "nextChapter": "https://latinprayer.org/bibel/judges/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judges/12.json",
+      "latin": "https://latinprayer.org/latin/judges/12.json"
+    }
+  },
+  "citation": "Richter 12 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Es wurden aber die Ephraimiten aufgeboten; sie zogen nordwärts und ließen dem Jephtha sagen: »Warum bist du zum Krieg gegen die Ammoniter ausgezogen, ohne uns zur Teilnahme am Feldzuge aufzufordern? Nun wollen wir dir dein Haus über dem Kopf in Brand stecken!«",
+      "citation": "Richter 12:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Jephtha erwiderte ihnen: »Ich und mein Volk haben einen schweren Streit mit den Ammonitern gehabt, und ich habe euch um Hilfe angerufen, aber ihr habt mir keinen Beistand gegen sie geleistet.",
+      "citation": "Richter 12:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Als ich nun sah, daß du mir nicht zu Hilfe kommen wolltest, setzte ich mein Leben aufs Spiel und zog gegen die Ammoniter zu Felde, und der HERR gab sie in meine Gewalt. Warum zieht ihr also jetzt gegen mich heran, um Händel mit mir anzufangen?«",
+      "citation": "Richter 12:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Darauf bot Jephtha alle Männer von Gilead auf und griff die Ephraimiten an, und diese wurden von den Gileaditern geschlagen; sie hatten nämlich die Behauptung ausgesprochen: »Flüchtige Ephraimiten seid ihr; Gilead liegt nämlich in der Mitte von Ephraim und Manasse.«",
+      "citation": "Richter 12:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Die Gileaditer aber hatten die Jordanfurten nach Ephraim zu besetzt. Sooft nun flüchtige Ephraimiten baten: »Laßt mich hinüber!«, fragten die Männer von Gilead den Betreffenden, ob er ein Ephratiter sei; antwortete er dann mit nein,",
+      "citation": "Richter 12:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "so forderte man ihn auf, das Wort »Schibboleth« auszusprechen. Sagte er dann »Sibboleth«, weil ihm die richtige Aussprache unmöglich war, so ergriffen sie ihn und machten ihn an den Jordanfurten nieder. So kamen damals 42000 Ephraimiten ums Leben.",
+      "citation": "Richter 12:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Jephtha aber war sechs Jahre lang Richter in Israel; dann starb Jephtha, der Gileaditer, und wurde in einer der Städte Gileads begraben.",
+      "citation": "Richter 12:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Nach ihm war Ibzan aus Bethlehem Richter in Israel.",
+      "citation": "Richter 12:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Er hatte dreißig Söhne, und dreißig Töchter verheiratete er nach auswärts, und dreißig Töchter führte er seinen Söhnen von auswärts als Gattinnen zu. Nachdem er sieben Jahre lang als Richter in Israel gewaltet hatte,",
+      "citation": "Richter 12:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "starb Ibzan und wurde in Bethlehem begraben.",
+      "citation": "Richter 12:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Nach ihm war Elon aus dem Stamme Sebulon Richter in Israel und zwar zehn Jahre lang.",
+      "citation": "Richter 12:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Als Elon aus Sebulon dann starb, wurde er in Ajjalon im Lande Sebulon begraben.",
+      "citation": "Richter 12:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Nach ihm war Abdon aus Pirathon, der Sohn Hillels, Richter in Israel.",
+      "citation": "Richter 12:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Er hatte vierzig Söhne und dreißig Enkel, die auf siebzig Eselsfüllen ritten. Nachdem er acht Jahre lang Richter in Israel gewesen war,",
+      "citation": "Richter 12:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "starb Abdon aus Pirathon, der Sohn Hillels, und wurde zu Pirathon im Lande Ephraim am Amalekiterberge begraben.",
+      "citation": "Richter 12:15 (Menge)"
+    }
+  ]
+}

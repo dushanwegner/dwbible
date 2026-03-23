@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Esther, Chapter 10 — 3 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Esther",
+      "slug": "esther",
+      "testament": "OT",
+      "order": 19,
+      "totalChapters": 10
+    },
+    "chapter": 10,
+    "verseCount": 3,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/esther/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/esther/9.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/esther/10.json",
+      "latin": "https://latinprayer.org/latin/esther/10.json"
+    }
+  },
+  "citation": "Esther 10 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Der König Ahasveros legte dann dem Festlande und den Inseln des Meeres eine Abgabe auf.",
+      "citation": "Esther 10:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Und alle Erweise seines gewaltigen und machtvollen Wirkens und die genaue Schilderung der hohen Stellung Mardochais, zu der ihn der König erhob, das alles findet sich bekanntlich aufgezeichnet im Buch der Denkwürdigkeiten der medischen und persischen Könige.",
+      "citation": "Esther 10:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn der Jude Mardochai war der Erste im Range nach dem König Ahasveros und hochgeachtet bei den Juden und beliebt bei der Menge seiner Volksgenossen, weil er das Beste seines Volkes suchte und für das Wohl seines ganzen Stammes eintrat.",
+      "citation": "Esther 10:3 (Menge)"
+    }
+  ]
+}

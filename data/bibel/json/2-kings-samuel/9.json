@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Samuel, Chapter 9 — 13 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "order": 10,
+      "totalChapters": 24
+    },
+    "chapter": 9,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/2-kings-samuel/8.json",
+      "nextChapter": "https://latinprayer.org/bibel/2-kings-samuel/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-kings-samuel/9.json",
+      "latin": "https://latinprayer.org/latin/2-kings-samuel/9.json"
+    }
+  },
+  "citation": "2 Samuel 9 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "David fragte: »Ist noch jemand von Sauls Familie übriggeblieben? Ich will Barmherzigkeit an ihm üben um Jonathans willen.«",
+      "citation": "2 Samuel 9:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Nun war im Hause Sauls ein Diener namens Ziba; den berief man zu David, und der König fragte ihn: »Bist du Ziba?« Er antwortete: »Ja, dein Knecht.«",
+      "citation": "2 Samuel 9:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Der König fragte weiter: »Ist niemand mehr da von Sauls Familie, daß ich ihm Gottes Barmherzigkeit erweisen könnte?« Da antwortete Ziba dem König: »Doch, es lebt noch ein Sohn Jonathans, der an den Füßen lahm ist.«",
+      "citation": "2 Samuel 9:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als der König ihn nun fragte, wo dieser sich befinde, erwiderte Ziba dem König: »Er befindet sich zu Lodebar im Hause Machirs, des Sohnes Ammiels.«",
+      "citation": "2 Samuel 9:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da sandte der König David hin und ließ ihn aus Lodebar aus dem Hause Machirs, des Sohnes Ammiels, holen.",
+      "citation": "2 Samuel 9:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Als nun Mephiboseth, der Sohn Jonathans, des Sohnes Sauls, zu David kam, warf er sich vor ihm auf sein Angesicht nieder und brachte ihm seine Huldigung dar. Da sagte David zu ihm: »Mephiboseth!« Er antwortete: »Hier ist dein Knecht!«",
+      "citation": "2 Samuel 9:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Dann fuhr David fort: »Fürchte dich nicht! Denn ich will dir um deines Vaters Jonathan willen Barmherzigkeit erweisen und dir den ganzen Grundbesitz deines Großvaters Saul zurückgeben; du selbst aber sollst allezeit an meinem Tische speisen.«",
+      "citation": "2 Samuel 9:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Da verneigte sich jener und sagte: »Was ist dein Knecht, daß du deine Gnade einem toten Hunde zuwendest, wie ich einer bin!«",
+      "citation": "2 Samuel 9:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Darauf ließ der König den Diener Sauls, Ziba, kommen und sagte zu ihm: »Alles, was Saul und seinem ganzen Hause gehört hat, habe ich dem Sohne deines (früheren) Herrn zurückgegeben.",
+      "citation": "2 Samuel 9:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Du aber sollst ihm das Feld bestellen, du mit deinen Söhnen und Knechten, und sollst die Ernte einbringen, damit (das Haus) des Sohnes deines (früheren) Herrn zu leben hat; Mephiboseth aber, der Sohn deines (früheren) Herrn, wird regelmäßig an meinem Tische speisen.« Ziba hatte aber fünfzehn Söhne und zwanzig Knechte.",
+      "citation": "2 Samuel 9:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da antwortete Ziba dem König: »Ganz so, wie mein Herr und König seinem Knechte befiehlt, wird dein Knecht es ausrichten.« So speiste denn Mephiboseth an Davids Tisch, als wäre er einer von den Königssöhnen.",
+      "citation": "2 Samuel 9:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Mephiboseth aber hatte einen kleinen Sohn namens Micha, und alle, die im Hause Zibas wohnten, waren nun Knechte in Mephiboseths Diensten.",
+      "citation": "2 Samuel 9:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Mephiboseth selbst aber wohnte in Jerusalem, weil er regelmäßig an der Tafel des Königs speiste; er war aber an beiden Füßen lahm.",
+      "citation": "2 Samuel 9:13 (Menge)"
+    }
+  ]
+}

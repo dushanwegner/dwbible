@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sacharja, Chapter 3 — 10 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sacharja",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 3,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/zacharias/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/zacharias/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/zacharias/3.json",
+      "latin": "https://latinprayer.org/latin/zacharias/3.json"
+    }
+  },
+  "citation": "Sacharja 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Hierauf ließ er mich den Hohenpriester Josua schauen, wie er vor dem Engel des HERRN stand, während der Satan sich zu seiner Rechten stellte, um ihn anzuklagen.",
+      "citation": "Sacharja 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da sagte der Engel des HERRN zum Satan: »Der HERR wolle dich schelten, Satan! Ja, der HERR, der sich Jerusalem erwählt hat, möge dir Schweigen gebieten! Ist dieser (Mann) nicht ein aus dem Feuer herausgerissenes Brandscheit?«",
+      "citation": "Sacharja 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Josua war aber mit unsauberen Gewändern bekleidet, während er vor dem Engel stand.",
+      "citation": "Sacharja 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Der nahm nun das Wort und gab den vor ihm stehenden (Dienern) die Weisung: »Ziehet ihm die schmutzigen Kleider aus!« Zu ihm aber sagte er: »Siehe, ich habe deine Verschuldung von dir weggenommen und lasse dir Prachtgewänder anlegen!«",
+      "citation": "Sacharja 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Hierauf befahl er: »Man setze ihm auch einen reinen Kopfbund aufs Haupt!« Da setzten sie ihm den reinen Kopfbund aufs Haupt und legten ihm die Prachtgewänder an, während der Engel des HERRN neben ihm stand.",
+      "citation": "Sacharja 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Hierauf gab der Engel des HERRN vor Josua folgende feierliche Erklärung ab:",
+      "citation": "Sacharja 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "»So spricht der HERR der Heerscharen: ›Wenn du auf meinen Wegen wandelst und meinen Dienst gewissenhaft versiehst, sollst du sowohl mein Haus verwalten als auch über meine Vorhöfe die Aufsicht führen, und ich will dir freien Zutritt zu mir gewähren unter diesen, die hier (als Diener vor mir) stehen.",
+      "citation": "Sacharja 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Vernimm es doch, Josua, du Hoherpriester! Du und deine Amtsbrüder, die vor dir ihre Sitze haben (im Priesterrat), ihr seid Männer, die ein Vorzeichen bedeuten; denn wisse wohl: Ich will meinen Knecht, ›Sproß‹ genannt, kommen lassen.",
+      "citation": "Sacharja 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Denn siehe, der Stein, den ich vor Josua hingestellt habe – auf diesen einen Stein sind sieben Augen gerichtet –: auf diesen Stein will ich selbst nunmehr seine Inschrift eingraben‹ – so lautet der Ausspruch des HERRN der Heerscharen – ›und will die Verschuldung dieses Landes an einem Tage hinwegschaffen.",
+      "citation": "Sacharja 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "An jenem Tage‹ – so lautet der Ausspruch des HERRN der Heerscharen – ›werdet ihr einer den andern zu Gaste laden unter seinen Weinstock und unter seinen Feigenbaum.‹«",
+      "citation": "Sacharja 3:10 (Menge)"
+    }
+  ]
+}

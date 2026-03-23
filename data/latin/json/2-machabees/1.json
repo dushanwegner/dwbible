@@ -1,0 +1,316 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Maccabees, Chapter 1 — 56 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Maccabees",
+      "slug": "2-machabees",
+      "testament": "OT",
+      "order": 46,
+      "totalChapters": 15
+    },
+    "chapter": 1,
+    "verseCount": 56,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-machabees/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/2-machabees/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-machabees/1.json",
+      "german": "https://latinprayer.org/bibel/2-machabees/1.json"
+    }
+  },
+  "citation": "2 Maccabees 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "fratribus qui sunt per Aegyptum Iudaeis salutem dicunt fratres qui sunt in Hierosolymis Iudaei et qui in regione Iudaeae et pacem bonam",
+      "citation": "2 Maccabees 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "Domine Deus omnipotens patrum nostrorum, Abraham, Isaac et Iacob et semini eorum iusto,",
+      "citation": "2 Maccabees 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "hic psalmus proprie scriptus David et extra numerum cum pugnavit cum Goliad pusillus eram inter fratres meos et adulescentior in domo patris mei pascebam oves patris mei",
+      "citation": "2 Maccabees 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "benefaciat vobis Deus et meminerit testamenti sui quod est ad Abraham et Isaac et Iacob servorum suorum fidelium",
+      "citation": "2 Maccabees 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui fecisti caelum et terram cum omni ornatu eorum,",
+      "citation": "2 Maccabees 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "manus meae fecerunt organum digiti mei aptaverunt psalterium",
+      "citation": "2 Maccabees 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et det vobis cor omnibus ut colatis eum et faciatis eius voluntatem corde magno et animo volente",
+      "citation": "2 Maccabees 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "qui signasti mare verbo praecepti tui, qui conclusisti abyssum et signasti terribili et laudabili nomini tuo,",
+      "citation": "2 Maccabees 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et quis adnuntiabit Domino meo ipse Dominus ipse omnium exaudiet",
+      "citation": "2 Maccabees 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "adaperiat cor vestrum in lege sua et in praeceptis eius et faciat pacem",
+      "citation": "2 Maccabees 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quod omnes pavent et tremunt a vultu virtutis tuae.",
+      "citation": "2 Maccabees 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ipse misit angelum suum et tulit me de ovibus patris mei et unxit me in misericordia unctionis suae",
+      "citation": "2 Maccabees 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "exaudiat orationes vestras et reconcilietur vobis nec vos deserat in tempore malo",
+      "citation": "2 Maccabees 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et insustentabilis ira super peccatores comminationis tuae,",
+      "citation": "2 Maccabees 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "fratres mei boni et magni et non fuit beneplacitum in eis Domino",
+      "citation": "2 Maccabees 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et nunc hic sumus orantes pro vobis",
+      "citation": "2 Maccabees 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "inmensa vero et investigabilis misericordia promissionis tuae,",
+      "citation": "2 Maccabees 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "exivi obviam alienigenae et maledixit mihi in simulacris suis",
+      "citation": "2 Maccabees 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "regnante Demetrio anno centesimo sexagesimo nono nos Iudaei scripsimus vobis in tribulatione et impetu qui supervenit nobis in istis annis ex quo recessit Iason a sancta terra et a regno",
+      "citation": "2 Maccabees 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quoniam tu es Dominus altissimus super omnem terram, longanimis et multum misericors et paenitens super malitias hominum. tu autem Domine, secundum bonitatem tuam promisisti paenitentiam remissionis peccatorum,",
+      "citation": "2 Maccabees 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "portam succenderunt et effuderunt sanguinem innocentem et oravimus ad Dominum et exauditi sumus et obtulimus sacrificium et similaginem et accendimus lucernas et proposuimus panes",
+      "citation": "2 Maccabees 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et tu Deus iustorum, non posuisti paenitentiam iustis Abraham, Isaac et Iacob, his qui tibi non peccaverunt.",
+      "citation": "2 Maccabees 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et nunc frequentate dies scenophegiae mensis casleu",
+      "citation": "2 Maccabees 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quoniam peccavi super numerum harenae maris, multiplicatae sunt iniquitates meae.",
+      "citation": "2 Maccabees 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "anno centesimo octogesimo octavo populus qui est Hierosolymis et in Iudaea senatusque et Iudas Aristobolo magistro Ptolomei regis qui est de genere christorum sacerdotum et his qui in Aegypto sunt Iudaeis salutem et sanitatem",
+      "citation": "2 Maccabees 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "incurvatus sum multo vinculo ferri et non est respiratio mihi, quia excitavi iracundiam tuam et malum coram te feci, statuens abominationes et multiplicans offensiones.",
+      "citation": "2 Maccabees 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "de magnis periculis a Deo liberati magnifice gratias ipsi utpote qui adversus talem regem dimicavimus",
+      "citation": "2 Maccabees 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et nunc flecto genua cordis mei, precans ad te bonitatem, Domine.",
+      "citation": "2 Maccabees 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ipse enim ebullire fecit de Perside eos qui pugnaverunt contra nos",
+      "citation": "2 Maccabees 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "peccavi Domine, peccavi et iniquitatem meam agnosco.",
+      "citation": "2 Maccabees 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "nam cum in Perside esset dux ipse et cum ipso inmensus exercitus cecidit in templo Naneae consilio deceptus sacerdotis Naneae",
+      "citation": "2 Maccabees 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "peto rogans te Domine remitte mihi, remitte mihi, ne simul perdas me cum iniquitatibus meis neque in aeternum reserves mala mihi,",
+      "citation": "2 Maccabees 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ut enim cum ea habitaturus venit ad locum Antiochus et amici eius et ut acciperet pecunias multas dotis nomine",
+      "citation": "2 Maccabees 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quia indignum salvabis me secundum magnam misericordiam tuam. Psalm 151",
+      "citation": "2 Maccabees 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "cumque proposuissent eas sacerdotes Naneae et ipse cum paucis ingressus esset intra ambitum fani clauserunt templum",
+      "citation": "2 Maccabees 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "cum intrasset Antiochus apertoque occulto aditu templi mittentes lapides percusserunt ducem et qui cum eo erant et diviserunt membratim et capitibus amputatis foras proiecerunt",
+      "citation": "2 Maccabees 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "per omnia benedictus Deus qui tradidit impios",
+      "citation": "2 Maccabees 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "facturi igitur quinta et vicesima mensis casleu purificationem templi necessarium duximus significare vobis ut vos quoque agatis diem scenophegiae et diem ignis qui datus est quando Neemias aedificato templo et altari obtulit sacrificia",
+      "citation": "2 Maccabees 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "nam cum in Persidem ducerentur patres nostri sacerdotes qui tunc Dei cultores erant acceptum ignem de altario occulte absconderunt in valle ubi erat puteus altus siccus et in eo contutati sunt eum ita ut omnibus ignotus esset locus",
+      "citation": "2 Maccabees 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "cum praeterissent autem multi anni et placuit Deo ut mitteretur Neemias a rege Persidis nepotes sacerdotum illorum qui absconderant misit ad requirendum ignem et sicut narraverunt nobis non invenerunt ignem sed aquam crassam",
+      "citation": "2 Maccabees 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et iussit eos haurire et adferre sibi et sacrificia quae inposita erant iussit sacerdos Neemias aspargi aqua ipsa et ligna et quae erant superposita",
+      "citation": "2 Maccabees 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "utque hoc factum est et tempus adfuit quo sol refulsit qui prius erat in nubilo accensus est ignis magnus ita ut omnes mirarentur",
+      "citation": "2 Maccabees 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "orationem autem faciebant omnes sacerdotes dum consummaretur sacrificium Ionatha inchoante ceteris autem respondentibus",
+      "citation": "2 Maccabees 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et Neemiae erat oratio hunc habens modum Domine Deus omnium creator terribilis et fortis iustus et misericors qui solus es rex bonus",
+      "citation": "2 Maccabees 1:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "solus praestans solus iustus et omnipotens et aeternus qui liberas Israhel de omni malo qui fecisti patres electos et sanctificasti eos",
+      "citation": "2 Maccabees 1:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "accipe sacrificium pro universo populo tuo Israhel et custodi partem tuam et sanctifica",
+      "citation": "2 Maccabees 1:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "congrega dispersionem nostram libera eos qui serviunt gentibus contemptos et abominatos respice ut sciant gentes quod tu es Deus noster",
+      "citation": "2 Maccabees 1:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "adflige opprimentes et contumeliam facientes in superbia",
+      "citation": "2 Maccabees 1:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "constitue populum tuum in loco sancto tuo sicut dixit Moses",
+      "citation": "2 Maccabees 1:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "sacerdotes autem psallebant hymnos usquequo consumptum esset sacrificium",
+      "citation": "2 Maccabees 1:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "cum autem consummatum fuisset sacrificium ex residua aqua Neemias iussit lapides maiores perfundi",
+      "citation": "2 Maccabees 1:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "quod ut factum est flamma ex eis accensa est sed ex lumine quod refulsit ab altari consumpta est",
+      "citation": "2 Maccabees 1:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "ut vero manifestata essent haec renuntiatum est regi Persarum quod in loco in quo ignem absconderant hii qui translati erant sacerdotes aqua apparuit de qua Neemias et qui cum eo erant purificaverunt sacrificia",
+      "citation": "2 Maccabees 1:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "considerans autem rex et rem diligenter examinans fecit ei templum",
+      "citation": "2 Maccabees 1:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et si quibus donaverat rex multa bona accipiebat ex hoc et tribuebat",
+      "citation": "2 Maccabees 1:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "appellavit autem Neemias hoc Nepthar quod interpretatur purificatio vocatur autem apud plures Nephi",
+      "citation": "2 Maccabees 1:36 (Clementine Vulgate)"
+    }
+  ]
+}

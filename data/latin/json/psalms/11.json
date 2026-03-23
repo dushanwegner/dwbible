@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 11 — 18 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 11,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/10.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/11.json",
+      "german": "https://latinprayer.org/bibel/psalms/11.json"
+    }
+  },
+  "citation": "Psalms 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in finem psalmus David",
+      "citation": "Psalms 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in Domino confido quomodo dicitis animae meae transmigra in montes sicut passer",
+      "citation": "Psalms 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in finem pro octava psalmus David",
+      "citation": "Psalms 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori David",
+      "citation": "Psalms 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in Domino speravi quomodo dicitis animae meae transvola in montem ut avis",
+      "citation": "Psalms 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori pro octava canticum David",
+      "citation": "Psalms 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quoniam ecce peccatores intenderunt arcum paraverunt sagittas suas in faretra ut sagittent in obscuro rectos corde",
+      "citation": "Psalms 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quia ecce impii tetenderunt arcum posuerunt sagittam suam super nervum ut sagittent in abscondito rectos corde",
+      "citation": "Psalms 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quoniam quae perfecisti destruxerunt iustus %autem; quid fecit",
+      "citation": "Psalms 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia leges dissipatae sunt iustus quid operatus est",
+      "citation": "Psalms 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Dominus in templo sancto suo Dominus in caelo sedis eius oculi eius %in pauperem; respiciunt palpebrae eius interrogant filios hominum",
+      "citation": "Psalms 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Dominus in templo sancto suo Dominus in caelo thronus eius oculi eius vident palpebrae eius probant filios hominum",
+      "citation": "Psalms 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Dominus interrogat iustum et impium qui autem diligit iniquitatem odit animam suam",
+      "citation": "Psalms 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Dominus iustum probat impium autem et diligentem iniquitatem odit anima eius",
+      "citation": "Psalms 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "pluet super peccatores laqueos ignis et sulphur et spiritus procellarum pars calicis eorum",
+      "citation": "Psalms 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "pluet super peccatores laqueos ignis et sulphur et spiritus tempestatum pars calicis eorum",
+      "citation": "Psalms 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quoniam iustus Dominus %et; iustitias dilexit aequitatem vidit vultus eius",
+      "citation": "Psalms 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quoniam iustus Dominus iustitias dilexit rectum videbunt facies eorum",
+      "citation": "Psalms 11:7 (Clementine Vulgate)"
+    }
+  ]
+}

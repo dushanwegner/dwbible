@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hesekiel, Chapter 2 — 10 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hesekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 2,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ezechiel/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/ezechiel/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ezechiel/2.json",
+      "latin": "https://latinprayer.org/latin/ezechiel/2.json"
+    }
+  },
+  "citation": "Hesekiel 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Und er sagte zu mir: »Menschensohn, tritt auf deine Füße; denn ich will mit dir reden.«",
+      "citation": "Hesekiel 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Als er so zu mir sprach, kam eine Gotteskraft in mich, die mich auf meine Füße treten ließ; und ich hörte den an, der mit mir redete.",
+      "citation": "Hesekiel 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Er sagte dann zu mir: »Menschensohn! Ich sende dich zu denen vom Hause Israel, zu den abtrünnigen Stämmen, die sich gegen mich aufgelehnt haben; sie und ihre Väter sind von mir abgefallen bis auf den heutigen Tag.",
+      "citation": "Hesekiel 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Und die Söhne haben ein trotziges Gesicht und ein hartes Herz; zu ihnen sende ich dich, und du sollst zu ihnen sagen: ›So hat Gott, der HERR gesprochen!‹",
+      "citation": "Hesekiel 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Mögen sie dann darauf hören oder mögen sie es lassen – denn sie sind ein widerspenstiges Geschlecht –, so sollen sie doch erkennen, daß ein Prophet unter ihnen aufgetreten ist.",
+      "citation": "Hesekiel 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Du aber, Menschensohn, fürchte dich nicht vor ihnen und laß dich durch ihre Reden nicht einschüchtern, ob auch Disteln und Dornen um dich sind und du unter Skorpionen wohnst: fürchte dich nicht vor ihren Reden und erschrick nicht vor ihren Mienen! Denn sie sind ein widerspenstiges Geschlecht.",
+      "citation": "Hesekiel 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Vielmehr sollst du ihnen meine Worte verkündigen, mögen sie darauf hören oder mögen sie es lassen; denn sie sind widerspenstig!«",
+      "citation": "Hesekiel 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "»Du aber, Menschensohn, höre, was ich dir sage: Sei du nicht widerspenstig wie das widerspenstige Geschlecht! Öffne deinen Mund und iß, was ich dir jetzt gebe!«",
+      "citation": "Hesekiel 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Als ich nun hinblickte, sah ich eine Hand, die sich mir entgegenstreckte, und in ihr befand sich eine Schriftrolle.",
+      "citation": "Hesekiel 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Er breitete sie vor mir aus, und sie war auf der Vorderseite und auf der Rückseite beschrieben; und zwar standen Klagen, Seufzer und Wehe auf ihr geschrieben.",
+      "citation": "Hesekiel 2:10 (Menge)"
+    }
+  ]
+}

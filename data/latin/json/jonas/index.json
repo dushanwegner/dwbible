@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jonah — 4 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jonah",
+      "slug": "jonas",
+      "testament": "OT",
+      "order": 37,
+      "totalChapters": 4
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jonas/index.json",
+      "german": "https://latinprayer.org/bibel/jonas/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 16,
+      "url": "https://latinprayer.org/latin/jonas/1",
+      "jsonUrl": "https://latinprayer.org/latin/jonas/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/latin/jonas/2",
+      "jsonUrl": "https://latinprayer.org/latin/jonas/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 10,
+      "url": "https://latinprayer.org/latin/jonas/3",
+      "jsonUrl": "https://latinprayer.org/latin/jonas/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 10,
+      "url": "https://latinprayer.org/latin/jonas/4",
+      "jsonUrl": "https://latinprayer.org/latin/jonas/4.json"
+    }
+  ]
+}

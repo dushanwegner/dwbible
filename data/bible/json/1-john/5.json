@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. John, Chapter 5 — 21 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. John",
+      "slug": "1-john",
+      "testament": "NT",
+      "order": 69,
+      "totalChapters": 5
+    },
+    "chapter": 5,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-john/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-john/4.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-john/5.json",
+      "german": "https://latinprayer.org/bibel/1-john/5.json"
+    }
+  },
+  "citation": "1. John 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Whosoever believeth that Jesus is the Christ, is born of God.  And every one that loveth him who begot, loveth him also who is born of him.",
+      "citation": "1. John 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "In this we know that we love the children of God: when we love God and keep his commandments.",
+      "citation": "1. John 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For this is the charity of God: That we keep his commandments.  And his commandments are not heavy.",
+      "citation": "1. John 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For whatsoever is born of God overcometh the world. And this is the victory which overcameth the world: Our faith.",
+      "citation": "1. John 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Who is he that overcometh the world, but he that believeth that Jesus is the Son of God?",
+      "citation": "1. John 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "This is he that came by water and blood, Jesus Christ: not by water only but by water and blood. And it is the Spirit which testifieth that Christ is the truth.",
+      "citation": "1. John 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And there are Three who give testimony in heaven, the Father, the Word, and the Holy Ghost. And these three are one.",
+      "citation": "1. John 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And there are three that give testimony on earth: the spirit and the water and the blood. And these three are one.",
+      "citation": "1. John 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "If we receive the testimony of men, the testimony of God is greater. For this is the testimony of God, which is greater, because he hath testified of his Son.",
+      "citation": "1. John 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "He that believeth in the Son of God hath the testimony of God in himself. He that believeth not the Son maketh him a liar: because he believeth not in the testimony which God hath testified of his Son.",
+      "citation": "1. John 5:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And this is the testimony that God hath given to us eternal life. And this life is in his Son.",
+      "citation": "1. John 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "He that hath the Son hath life. He that hath not the Son hath not life.",
+      "citation": "1. John 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "These things I write to you that you may know that you have eternal life: you who believe in the name of the Son of God.",
+      "citation": "1. John 5:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And this is the confidence which we have towards him: That, whatsoever we shall ask according to his will, he heareth us.",
+      "citation": "1. John 5:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And we know that he heareth us whatsoever we ask: we know that we have the petitions which we request of him.",
+      "citation": "1. John 5:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "He that knoweth his brother to sin a sin which is not to death, let him ask: and life shall be given to him who sinneth not to death. There is a sin unto death. For that I say not that any man ask.",
+      "citation": "1. John 5:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "All iniquity is sin. And there is a sin unto death.",
+      "citation": "1. John 5:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "We know that whosoever is born of God sinneth not: but the generation of God preserveth him and the wicked one toucheth him not.",
+      "citation": "1. John 5:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "We know that we are of God and the whole world is seated in wickedness.",
+      "citation": "1. John 5:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And we know that the Son of God is come. And he hath given us understanding that we may know the true God and may be in his true Son. This is the true God and life eternal.",
+      "citation": "1. John 5:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Little children, keep yourselves from idols. Amen.",
+      "citation": "1. John 5:21 (Douay-Rheims)"
+    }
+  ]
+}

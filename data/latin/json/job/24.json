@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 24 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 24,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/job/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/job/23.json",
+      "nextChapter": "https://latinprayer.org/latin/job/25.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/24.json",
+      "german": "https://latinprayer.org/bibel/job/24.json"
+    }
+  },
+  "citation": "Job 24 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ab Omnipotente non sunt abscondita tempora qui autem noverunt eum ignorant dies illius",
+      "citation": "Job 24:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "alii terminos transtulerunt diripuerunt greges et paverunt eos",
+      "citation": "Job 24:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "asinum pupillorum abigerunt et abstulerunt pro pignore bovem viduae",
+      "citation": "Job 24:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "subverterunt pauperum viam et oppresserunt pariter mansuetos terrae",
+      "citation": "Job 24:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "alii quasi onagri in deserto egrediuntur ad opus suum vigilantesque ad praedam praeparant panem liberis",
+      "citation": "Job 24:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "agrum non suum demetunt et vineam eius quem vi oppresserunt vindemiant",
+      "citation": "Job 24:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "nudos dimittunt homines indumenta tollentes quibus non est operimentum in frigore",
+      "citation": "Job 24:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quos imbres montium rigant et non habentes velamen amplexantur lapides",
+      "citation": "Job 24:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "vim fecerunt depraedantes pupillos et vulgum pauperem spoliaverunt",
+      "citation": "Job 24:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "nudis et incedentibus absque vestitu et esurientibus tulerunt spicas",
+      "citation": "Job 24:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "inter acervos eorum meridiati sunt qui calcatis torcularibus sitiunt",
+      "citation": "Job 24:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "de civitatibus fecerunt viros gemere et anima vulneratorum clamavit et Deus inultum abire non patitur",
+      "citation": "Job 24:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ipsi fuerunt rebelles luminis nescierunt vias eius nec reversi sunt per semitas illius",
+      "citation": "Job 24:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "mane primo consurgit homicida interficit egenum et pauperem per noctem vero erit quasi fur",
+      "citation": "Job 24:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "oculus adulteri observat caliginem dicens non me videbit oculus et operiet vultum suum",
+      "citation": "Job 24:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "perfodit in tenebris domos sicut in die condixerant sibi et ignoraverunt lucem",
+      "citation": "Job 24:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "si subito apparuerit aurora arbitrantur umbram mortis et sic in tenebris quasi in luce ambulant",
+      "citation": "Job 24:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "levis est super faciem aquae maledicta sit pars eius in terra nec ambulet per viam vinearum",
+      "citation": "Job 24:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "ad nimium calorem transeat ab aquis nivium et usque ad inferos peccatum illius",
+      "citation": "Job 24:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "obliviscatur eius misericordia dulcedo illius vermes non sit in recordatione sed conteratur quasi lignum infructuosum",
+      "citation": "Job 24:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "pavit enim sterilem et quae non parit et viduae bene non fecit",
+      "citation": "Job 24:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "detraxit fortes in fortitudine sua et cum steterit non credet vitae suae",
+      "citation": "Job 24:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "dedit ei Deus locum paenitentiae et ille abutitur eo in superbiam oculi autem eius sunt in viis illius",
+      "citation": "Job 24:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "elevati sunt ad modicum et non subsistent et humiliabuntur sicut omnia et auferentur et sicut summitates spicarum conterentur",
+      "citation": "Job 24:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quod si non est ita quis me potest arguere esse mentitum et ponere ante Deum verba mea",
+      "citation": "Job 24:25 (Clementine Vulgate)"
+    }
+  ]
+}

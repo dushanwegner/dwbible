@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 26 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 26,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/25.json",
+      "nextChapter": "https://latinprayer.org/bible/job/27.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/26.json",
+      "german": "https://latinprayer.org/bibel/job/26.json"
+    }
+  },
+  "citation": "Job 26 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Then Job answered, and said:",
+      "citation": "Job 26:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Whose helper art thou? is it of him that is weak? and dost thou hold up the arm of him that has no strength?",
+      "citation": "Job 26:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "To whom hast thou given counsel? perhaps to him that hath no wisdom, and thou hast shewn thy very great prudence.",
+      "citation": "Job 26:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Whom hast thou desired to teach? was it not him that made life?",
+      "citation": "Job 26:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Behold the giants groan under the waters, and they that dwell with them.",
+      "citation": "Job 26:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Hell is naked before him, and there is no covering for destruction.",
+      "citation": "Job 26:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "He stretched out the north over the empty space, and hangeth the earth upon nothing.",
+      "citation": "Job 26:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He bindeth up the waters in his clouds, so that they break not out and fall down together.",
+      "citation": "Job 26:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "He withholdeth the face of his throne, and spreadeth his cloud over it.",
+      "citation": "Job 26:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "He hath set bounds about the waters, till light and darkness come to an end.",
+      "citation": "Job 26:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The pillars of heaven tremble, and dread at his beck.",
+      "citation": "Job 26:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "By his power the seas are suddenly gathered together, and his wisdom has struck the proud one.",
+      "citation": "Job 26:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "His spirit hath adorned the heavens, and his obstetric hand brought forth the winding serpent.",
+      "citation": "Job 26:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Lo, these things are said in part of his ways: and seeing we have heard scarce a little drop of his word, who shall be able to behold the thunder of his greatness?",
+      "citation": "Job 26:14 (Douay-Rheims)"
+    }
+  ]
+}

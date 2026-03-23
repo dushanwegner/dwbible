@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Thessalonians, Chapter 2 — 20 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Thessalonians",
+      "slug": "1-thessalonians",
+      "testament": "NT",
+      "order": 59,
+      "totalChapters": 5
+    },
+    "chapter": 2,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-thessalonians/1.json",
+      "nextChapter": "https://latinprayer.org/bible/1-thessalonians/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-thessalonians/2.json",
+      "german": "https://latinprayer.org/bibel/1-thessalonians/2.json"
+    }
+  },
+  "citation": "1. Thessalonians 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "For yourselves know, brethren, our entrance in unto you, that it was not in vain:",
+      "citation": "1. Thessalonians 2:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But having suffered many things before and been shamefully treated, (as you know) at Philippi, we had confidence in our God, to speak unto you the gospel of God in much carefulness.",
+      "citation": "1. Thessalonians 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For our exhortation was not of error, nor of uncleanness, nor in deceit.",
+      "citation": "1. Thessalonians 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But as we were approved by God that the gospel should be committed to us: even so we speak, not as pleasing men but God, who proveth our hearts.",
+      "citation": "1. Thessalonians 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For neither have we used at any time the speech of flattery, as you know: nor taken an occasion of covetousness (God is witness):",
+      "citation": "1. Thessalonians 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Nor sought we glory of men, neither of you, nor of others.",
+      "citation": "1. Thessalonians 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Whereas we might have been burdensome to you, as the apostles of Christ: but we became little ones in the midst of you, as if a nurse should cherish her children:",
+      "citation": "1. Thessalonians 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "So desirous of you, we would gladly impart unto you not only the gospel of God but also our own souls: because you were become most dear unto us.",
+      "citation": "1. Thessalonians 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For you remember, brethren, our labour and toil: working night and day, lest we should be chargeable to any of you, we preached among you the gospel of God.",
+      "citation": "1. Thessalonians 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "You are witnesses, and God also, how holily and justly and without blame we have been to you that have believed:",
+      "citation": "1. Thessalonians 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "As you know in what manner, entreating and comforting you (as a father doth his children),",
+      "citation": "1. Thessalonians 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "We testified to every one of you that you would walk worthy of God, who hath called you unto his kingdom and glory.",
+      "citation": "1. Thessalonians 2:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Therefore, we also give thanks to God without ceasing: because, that when you had received of us the word of the hearing of God, you received it not as the word of men, but (as it is indeed) the word of God, who worketh in you that have believed.",
+      "citation": "1. Thessalonians 2:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For you, brethren, are become followers of the churches of God which are in Judea, in Christ Jesus: for you also have suffered the same things from your own countrymen, even as they have from the Jews:",
+      "citation": "1. Thessalonians 2:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Who both killed the Lord Jesus, and the prophets, and have persecuted us, and please not God, and are adversaries to all men;",
+      "citation": "1. Thessalonians 2:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Prohibiting us to speak to the Gentiles, that they may be saved, to fill up their sins always: for the wrath of God is come upon them to the end.",
+      "citation": "1. Thessalonians 2:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "But we, brethren, being taken away from you for a short time, in sight, not in heart, have hastened the more abundantly to see your face with great desire.",
+      "citation": "1. Thessalonians 2:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "For we would have come unto you, I Paul indeed, once and again: but Satan hath hindered us.",
+      "citation": "1. Thessalonians 2:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For what is our hope or joy or crown of glory? Are not you, in the presence of our Lord Jesus Christ at his coming?",
+      "citation": "1. Thessalonians 2:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "For you are our glory and joy.",
+      "citation": "1. Thessalonians 2:20 (Douay-Rheims)"
+    }
+  ]
+}

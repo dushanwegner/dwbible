@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 54 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 54,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/53.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/55.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/54.json",
+      "german": "https://latinprayer.org/bibel/isaias/54.json"
+    }
+  },
+  "citation": "Isaiah 54 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "lauda sterilis quae non paris decanta laudem et hinni quae non pariebas quoniam multi filii desertae magis quam eius quae habebat virum dicit Dominus",
+      "citation": "Isaiah 54:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dilata locum tentorii tui et pelles tabernaculorum tuorum extende ne parcas longos fac funiculos tuos et clavos tuos consolida",
+      "citation": "Isaiah 54:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ad dexteram enim et ad levam penetrabis et semen tuum gentes hereditabit et civitates desertas inhabitabit",
+      "citation": "Isaiah 54:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "noli timere quia non confunderis neque erubescas non enim te pudebit quia confusionis adulescentiae tuae oblivisceris et obprobrii viduitatis tuae non recordaberis amplius",
+      "citation": "Isaiah 54:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quia dominabitur tui qui fecit te Dominus exercituum nomen eius et redemptor tuus Sanctus Israhel Deus omnis terrae vocabitur",
+      "citation": "Isaiah 54:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quia ut mulierem derelictam et maerentem spiritu vocavit te Dominus et uxorem ab adulescentia abiectam dixit Deus tuus",
+      "citation": "Isaiah 54:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ad punctum in modico dereliqui te et in miserationibus magnis congregabo te",
+      "citation": "Isaiah 54:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "in momento indignationis abscondi faciem meam parumper a te et in misericordia sempiterna misertus sum tui dixit redemptor tuus Dominus",
+      "citation": "Isaiah 54:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sicut in diebus Noe istud mihi est cui iuravi ne inducerem aquas Noe ultra super terram sic iuravi ut non irascar tibi et non increpem te",
+      "citation": "Isaiah 54:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "montes enim commovebuntur et colles contremescent misericordia autem mea non recedet et foedus pacis meae non movebitur dixit miserator tuus Dominus",
+      "citation": "Isaiah 54:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "paupercula tempestate convulsa absque ulla consolatione ecce ego sternam per ordinem lapides tuos et fundabo te in sapphyris",
+      "citation": "Isaiah 54:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et ponam iaspidem propugnacula tua et portas tuas in lapides sculptos et omnes terminos tuos in lapides desiderabiles",
+      "citation": "Isaiah 54:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "universos filios tuos doctos a Domino et multitudinem pacis filiis tuis",
+      "citation": "Isaiah 54:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et in iustitia fundaberis recede procul a calumnia quia non timebis et a pavore quia non adpropinquabit tibi",
+      "citation": "Isaiah 54:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ecce accola veniet qui non erat mecum advena quondam tuus adiungetur tibi",
+      "citation": "Isaiah 54:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ecce ego creavi fabrum sufflantem in igne prunas et proferentem vas in opus suum et ego creavi interfectorem ad disperdendum",
+      "citation": "Isaiah 54:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "omne vas quod fictum est contra te non dirigetur et omnem linguam resistentem tibi in iudicio iudicabis haec hereditas servorum Domini et iustitia eorum apud me dicit Dominus",
+      "citation": "Isaiah 54:17 (Clementine Vulgate)"
+    }
+  ]
+}

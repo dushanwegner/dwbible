@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 21 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 21,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/20.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/22.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/21.json",
+      "german": "https://latinprayer.org/bibel/psalms/21.json"
+    }
+  },
+  "citation": "Psalms 21 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "In thy strength, O Lord, the king shall joy; and in thy salvation he shall rejoice exceedingly.",
+      "citation": "Psalms 21:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, for the morning protection, a psalm for David.",
+      "citation": "Psalms 21:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Thou hast given him his heart's desire: and hast not withholden from him the will of his lips.",
+      "citation": "Psalms 21:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For thou hast prevented him with blessings of sweetness: thou hast set on his head a crown of precious stones.",
+      "citation": "Psalms 21:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "He asked life of thee: and thou hast given him length of days for ever and ever.",
+      "citation": "Psalms 21:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "His glory is great in thy salvation: glory and great beauty shalt thou lay upon him.",
+      "citation": "Psalms 21:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For thou shalt give him to be a blessing for ever and ever: thou shalt make him joyful in gladness with thy countenance.",
+      "citation": "Psalms 21:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For the king hopeth in the Lord: and through the mercy of the most High he shall not be moved.",
+      "citation": "Psalms 21:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Let thy hand be found by all thy enemies: let thy right hand find out all them that hate thee.",
+      "citation": "Psalms 21:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thou shalt make them as an oven of fire, in the time of thy anger: the Lord shall trouble them in his wrath, and fire shall devour them.",
+      "citation": "Psalms 21:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Their fruit shalt thou destroy from the earth: and their seed from among the children of men.",
+      "citation": "Psalms 21:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For they have intended evils against thee: they have devised counsels which they have not been able to establish.",
+      "citation": "Psalms 21:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For thou shalt make them turn their back: in thy remnants thou shalt prepare their face.",
+      "citation": "Psalms 21:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Be thou exalted, O Lord, in thy own strength: we will sing and praise thy power.",
+      "citation": "Psalms 21:13 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Kings / Samuel, Chapter 18 — 32 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Kings / Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "order": 10,
+      "totalChapters": 24
+    },
+    "chapter": 18,
+    "verseCount": 32,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-kings-samuel/17.json",
+      "nextChapter": "https://latinprayer.org/bible/2-kings-samuel/19.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-kings-samuel/18.json",
+      "german": "https://latinprayer.org/bibel/2-kings-samuel/18.json"
+    }
+  },
+  "citation": "2. Kings / Samuel 18 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And David, having reviewed his people, appointed over them captains of thousands and of hundreds,",
+      "citation": "2. Kings / Samuel 18:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And sent forth a third part of the people under the hand of Joab, and a third part under the hand of Abisai the son of Sarvia Joab's brother, and a third part under the hand of Ethai, who was of Geth: and the king said to the people: I also will go forth with you.",
+      "citation": "2. Kings / Samuel 18:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And the people answered: Thou shalt not go forth: for if we flee away, they will not much mind us: or if half of us should fall, they will not greatly care: for thou alone art accounted for ten thousand: it is better therefore that thou shouldst be in the city to succour us.",
+      "citation": "2. Kings / Samuel 18:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And the king said to them: What seemeth good to you, that will I do. And the king stood by the gate: and all the people went forth by their troops, by hundreds and by thousands.",
+      "citation": "2. Kings / Samuel 18:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the king commanded Joab, and Abisai, and Ethai, saying: Save me the boy Absalom. And all the people heard the king giving charge to all the princes concerning Absalom.",
+      "citation": "2. Kings / Samuel 18:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "So the people went out into the field against Israel, and the battle was fought in the forest of Ephraim.",
+      "citation": "2. Kings / Samuel 18:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the people of Israel were defeated there by David's army, and a great slaughter was made that day of twenty thousand men.",
+      "citation": "2. Kings / Samuel 18:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the battle there was scattered over the face of all the country, and there were many more of the people whom the forest consumed, than whom the sword devoured that day.",
+      "citation": "2. Kings / Samuel 18:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And it happened that Absalom met the servants of David, riding on a mule: and as the mule went under a thick and large oak, his head stuck in the oak: and while he hung between the heaven and the earth, the mule on which he rode passed on.",
+      "citation": "2. Kings / Samuel 18:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And one saw this and told Joab, saying: I saw Absalom hanging upon an oak.",
+      "citation": "2. Kings / Samuel 18:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Joab said to the man that told him: If thou sawest him, why didst thou not stab him to the ground, and I would have given thee ten sicles of silver, and a belt?",
+      "citation": "2. Kings / Samuel 18:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And he said to Joab: If thou wouldst have paid down in my hands a thousand pieces of silver, I would not lay my hands upon the king's son for in our hearing the king charged thee, and Abisai, and Ethai, saying: Save me the boy Absalom.",
+      "citation": "2. Kings / Samuel 18:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Yea and if I should have acted boldly against my own life, this could not have been hid from the king, and wouldst thou have stood by me?",
+      "citation": "2. Kings / Samuel 18:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And Joab said: Not as thou wilt, but I will set upon him in thy sight. So he took three lances in his hand, and thrust them into the heart of Absalom: and whilst he yet panted for life, sticking on the oak,",
+      "citation": "2. Kings / Samuel 18:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Ten young men, armourbearers of Joab, ran up, and striking him slew him.",
+      "citation": "2. Kings / Samuel 18:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And Joab sounded the trumpet, and kept back the people from pursuing after Israel in their flight, being willing to spare the multitude.",
+      "citation": "2. Kings / Samuel 18:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And they took Absalom, and cast him into a great pit in the forest, and they laid an exceeding great heap of stones upon him: but all Israel fled to their own dwellings.",
+      "citation": "2. Kings / Samuel 18:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Now Absalom had reared up for himself, in his lifetime, a pillar, which is in the king's valley: for he said: I have no son, and this shall be the monument of my name. And he called the pillar by his own name, and it is called the hand of Absalom, to this day.",
+      "citation": "2. Kings / Samuel 18:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And Achimaas the son of Sadoc said: I will run and tell the king, that the Lord hath done judgment for him from the hand of his enemies.",
+      "citation": "2. Kings / Samuel 18:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And Joab said to him: Thou shalt not be the messenger this day, but shalt bear tidings another day: this day I will not have thee bear tidings, because the king's son is dead.",
+      "citation": "2. Kings / Samuel 18:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And Joab said to Chusai: Go, and tell the king what thou hast seen. Chusai bowed down to Joab, and ran.",
+      "citation": "2. Kings / Samuel 18:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Then Achimaas the son of Sadoc said to Joab again: Why might not I also run after Chusai? And Joab said to him: Why wilt thou run, my son? thou wilt not be the bearer of good tidings.",
+      "citation": "2. Kings / Samuel 18:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "He answered: But what if I run? And he said to him: Run. Then Achimaas running by a nearer way passed Chusai.",
+      "citation": "2. Kings / Samuel 18:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And David sat between the two gates: and the watchman that was on the top of the gate upon the wall, lifting up his eyes, saw a man running alone.",
+      "citation": "2. Kings / Samuel 18:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And crying out he told the king: and the king said: If he be alone, there are good tidings in his mouth. And as he was coming apace, and drawing nearer,",
+      "citation": "2. Kings / Samuel 18:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "The watchman saw another man running, and crying aloud from above, he said: I see another man running alone. And the king said: He also is a good messenger.",
+      "citation": "2. Kings / Samuel 18:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And the watchman said: The running of the foremost seemeth to me like the running of Achimaas the son of Sadoc. And the king said: He is a good man: and cometh with good news.",
+      "citation": "2. Kings / Samuel 18:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And Achimaas crying out, said to the king: God save thee, O king. And falling down before the king with his face to the ground, he said: Blessed be the Lord thy God, who hath shut up the men that have lifted up their hands against the lord my king.",
+      "citation": "2. Kings / Samuel 18:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And the king said: Is the young man Absalom safe? And Achimaas said: I saw a great tumult, O king, when thy servant Joab sent me thy servant: I know nothing else.",
+      "citation": "2. Kings / Samuel 18:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And the king said to him: Pass, and stand here.",
+      "citation": "2. Kings / Samuel 18:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And when he had passed, and stood still, Chusai appeared and coming up he said: I bring good tidings, my lord, the king, for the Lord hath judged for thee this day from the hand of all that have risen up against thee.",
+      "citation": "2. Kings / Samuel 18:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And the king said to Chusai: Is the young man Absalom safe? And Chusai answering him, said: Let the enemies of my lord, the king, and all that rise against him unto evil, be as the young man is.",
+      "citation": "2. Kings / Samuel 18:32 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jonas, Chapter 2 — 11 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jonas",
+      "slug": "jonas",
+      "testament": "OT",
+      "order": 37,
+      "totalChapters": 4
+    },
+    "chapter": 2,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/jonas/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/jonas/1.json",
+      "nextChapter": "https://latinprayer.org/bible/jonas/3.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/jonas/2.json",
+      "german": "https://latinprayer.org/bibel/jonas/2.json"
+    }
+  },
+  "citation": "Jonas 2 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 2,
+      "text": "Now the Lord prepared a great fish to swallow up Jonas: and Jonas was in the belly of a fish for three days and three nights.",
+      "citation": "Jonas 2:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Jonas prayed to the Lord, his God, out of the belly of the fish.",
+      "citation": "Jonas 2:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he said: I cried out of my affliction to the Lord, and he heard me: I cried out of the belly of hell, and thou hast heard my voice.",
+      "citation": "Jonas 2:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And thou hast cast me forth into the deep, in the heart of the sea, and a flood hast compassed me: all thy billows, and thy waves have passed over me.",
+      "citation": "Jonas 2:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And I said: I am cast away out of the sight of thy eyes: but yet I shall see the holy temple again.",
+      "citation": "Jonas 2:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The waters compassed me about even to the soul: the deep hath closed me round about, the sea hath covered my head.",
+      "citation": "Jonas 2:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "I went down to the lowest parts of the mountains: the bars of the earth have shut me up for ever: and thou wilt bring up my life from corruption, O Lord, my God.",
+      "citation": "Jonas 2:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "When my soul was in distress within me, I remembered the Lord: that my prayer may come to thee, unto the holy temple.",
+      "citation": "Jonas 2:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "They that in vain observe vanities, forsake their own mercy.",
+      "citation": "Jonas 2:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "But I with the voice of praise will sacrifice to thee: I will pay whatsoever I have vowed for my salvation to the Lord.",
+      "citation": "Jonas 2:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the Lord spoke to the fish: and it vomited out Jonas upon the dry land.",
+      "citation": "Jonas 2:11 (Douay-Rheims)"
+    }
+  ]
+}

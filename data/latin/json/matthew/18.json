@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 18 — 35 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 18,
+    "verseCount": 35,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/matthew/17.json",
+      "nextChapter": "https://latinprayer.org/latin/matthew/19.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/18.json",
+      "german": "https://latinprayer.org/bibel/matthew/18.json"
+    }
+  },
+  "citation": "Matthew 18 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in illa hora accesserunt discipuli ad Iesum dicentes quis putas maior est in regno caelorum",
+      "citation": "Matthew 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et advocans Iesus parvulum statuit eum in medio eorum",
+      "citation": "Matthew 18:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dixit amen dico vobis nisi conversi fueritis et efficiamini sicut parvuli non intrabitis in regnum caelorum",
+      "citation": "Matthew 18:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quicumque ergo humiliaverit se sicut parvulus iste hic est maior in regno caelorum",
+      "citation": "Matthew 18:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et qui susceperit unum parvulum talem in nomine meo me suscipit",
+      "citation": "Matthew 18:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "qui autem scandalizaverit unum de pusillis istis qui in me credunt expedit ei ut suspendatur mola asinaria in collo eius et demergatur in profundum maris",
+      "citation": "Matthew 18:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "vae mundo ab scandalis necesse est enim ut veniant scandala verumtamen vae homini per quem scandalum venit",
+      "citation": "Matthew 18:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "si autem manus tua vel pes tuus scandalizat te abscide eum et proice abs te bonum tibi est ad vitam ingredi debilem vel clodum quam duas manus vel duos pedes habentem mitti in ignem aeternum",
+      "citation": "Matthew 18:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et si oculus tuus scandalizat te erue eum et proice abs te bonum tibi est unoculum in vitam intrare quam duos oculos habentem mitti in gehennam ignis",
+      "citation": "Matthew 18:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "videte ne contemnatis unum ex his pusillis dico enim vobis quia angeli eorum in caelis semper vident faciem Patris mei qui in caelis est",
+      "citation": "Matthew 18:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "venit enim Filius hominis salvare quod perierat",
+      "citation": "Matthew 18:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quid vobis videtur si fuerint alicui centum oves et erraverit una ex eis nonne relinquet nonaginta novem in montibus et vadit quaerere eam quae erravit",
+      "citation": "Matthew 18:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et si contigerit ut inveniat eam amen dico vobis quia gaudebit super eam magis quam super nonaginta novem quae non erraverunt",
+      "citation": "Matthew 18:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sic non est voluntas ante Patrem vestrum qui in caelis est ut pereat unus de pusillis istis",
+      "citation": "Matthew 18:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "si autem peccaverit in te frater tuus vade et corripe eum inter te et ipsum solum si te audierit lucratus es fratrem tuum",
+      "citation": "Matthew 18:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "si autem non te audierit adhibe tecum adhuc unum vel duos ut in ore duorum testium vel trium stet omne verbum",
+      "citation": "Matthew 18:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quod si non audierit eos dic ecclesiae si autem et ecclesiam non audierit sit tibi sicut ethnicus et publicanus",
+      "citation": "Matthew 18:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "amen dico vobis quaecumque alligaveritis super terram erunt ligata et in caelo et quaecumque solveritis super terram erunt soluta et in caelo",
+      "citation": "Matthew 18:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "iterum dico vobis quia si duo ex vobis consenserint super terram de omni re quacumque petierint fiet illis a Patre meo qui in caelis est",
+      "citation": "Matthew 18:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "ubi enim sunt duo vel tres congregati in nomine meo ibi sum in medio eorum",
+      "citation": "Matthew 18:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "tunc accedens Petrus ad eum dixit Domine quotiens peccabit in me frater meus et dimittam ei usque septies",
+      "citation": "Matthew 18:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "dicit illi Iesus non dico tibi usque septies sed usque septuagies septies",
+      "citation": "Matthew 18:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ideo adsimilatum est regnum caelorum homini regi qui voluit rationem ponere cum servis suis",
+      "citation": "Matthew 18:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et cum coepisset rationem ponere oblatus est ei unus qui debebat decem milia talenta",
+      "citation": "Matthew 18:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "cum autem non haberet unde redderet iussit eum dominus venundari et uxorem eius et filios et omnia quae habebat et reddi",
+      "citation": "Matthew 18:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "procidens autem servus ille orabat eum dicens patientiam habe in me et omnia reddam tibi",
+      "citation": "Matthew 18:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "misertus autem dominus servi illius dimisit eum et debitum dimisit ei",
+      "citation": "Matthew 18:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "egressus autem servus ille invenit unum de conservis suis qui debebat ei centum denarios et tenens suffocabat eum dicens redde quod debes",
+      "citation": "Matthew 18:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et procidens conservus eius rogabat eum dicens patientiam habe in me et omnia reddam tibi",
+      "citation": "Matthew 18:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "ille autem noluit sed abiit et misit eum in carcerem donec redderet debitum",
+      "citation": "Matthew 18:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "videntes autem conservi eius quae fiebant contristati sunt valde et venerunt et narraverunt domino suo omnia quae facta erant",
+      "citation": "Matthew 18:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "tunc vocavit illum dominus suus et ait illi serve nequam omne debitum dimisi tibi quoniam rogasti me",
+      "citation": "Matthew 18:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "non ergo oportuit et te misereri conservi tui sicut et ego tui misertus sum",
+      "citation": "Matthew 18:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et iratus dominus eius tradidit eum tortoribus quoadusque redderet universum debitum",
+      "citation": "Matthew 18:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "sic et Pater meus caelestis faciet vobis si non remiseritis unusquisque fratri suo de cordibus vestris",
+      "citation": "Matthew 18:35 (Clementine Vulgate)"
+    }
+  ]
+}

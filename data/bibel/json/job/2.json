@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hiob, Chapter 2 — 13 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hiob",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 2,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/job/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/job/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/job/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/2.json",
+      "latin": "https://latinprayer.org/latin/job/2.json"
+    }
+  },
+  "citation": "Hiob 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da begab es sich eines Tages, daß die Gottessöhne wiederum kamen, um sich vor Gott den HERRN zu stellen; und unter ihnen erschien auch der Satan, um sich vor den HERRN zu stellen.",
+      "citation": "Hiob 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da fragte der HERR den Satan: »Woher kommst du?« Der Satan gab dem HERRN zur Antwort: »Ich bin auf der Erde umhergestreift und habe eine Wanderung auf ihr vorgenommen.«",
+      "citation": "Hiob 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Da sagte der HERR zum Satan: »Hast du auch auf meinen Knecht Hiob achtgegeben? Denn so wie er ist kein Mensch auf der Erde, so fromm und rechtschaffen, so gottesfürchtig und dem Bösen feind; noch immer hält er an seiner Frömmigkeit fest, wiewohl du mich gegen ihn gereizt hast, ihn ohne Grund unglücklich zu machen.«",
+      "citation": "Hiob 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Der Satan aber erwiderte dem HERRN: »Haut um Haut! Ja alles, was ein Mensch hat, gibt er für sein Leben hin.",
+      "citation": "Hiob 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Aber strecke nur einmal deine Hand aus und lege sie an sein Gebein und sein Fleisch, so wird er sich sicherlich offen von dir lossagen!«",
+      "citation": "Hiob 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Da sagte der HERR zum Satan: »Gut! er soll in deine Gewalt gegeben sein: nur sein Leben sollst du schonen!«",
+      "citation": "Hiob 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da ging der Satan vom HERRN hinweg und schlug Hiob mit bösartigen Geschwüren von der Fußsohle bis zum Scheitel,",
+      "citation": "Hiob 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "so daß er sich eine Scherbe nahm, um sich mit ihr zu schaben, während er mitten in der Asche saß.",
+      "citation": "Hiob 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Da sagte seine Frau zu ihm: »Hältst du denn immer noch an deiner Frömmigkeit fest? Sage dich los von Gott und stirb!«",
+      "citation": "Hiob 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Er aber antwortete ihr: »Du redest, wie die erste beste Törin reden würde! Das Gute haben wir von Gott hingenommen und sollten das Schlimme nicht auch hinnehmen?« Bei allen diesen Heimsuchungen versündigte sich Hiob nicht mit seinen Lippen.",
+      "citation": "Hiob 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Als nun die drei Freunde Hiobs von all diesem Unglück hörten, das ihn betroffen hatte, machten sie sich, ein jeder aus seinem Wohnort, auf den Weg, nämlich Eliphas aus Theman, Bildad aus Suah und Zophar aus Naama, und zwar verabredeten sie sich, miteinander hinzugehen, um ihm ihr Beileid auszudrücken und ihn zu trösten.",
+      "citation": "Hiob 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Als sie nun von ferne ihre Augen aufschlugen, erkannten sie ihn nicht mehr; da fingen sie an, laut zu weinen, zerrissen ein jeder sein Gewand und warfen Staub in die Luft auf ihre Häupter herab.",
+      "citation": "Hiob 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Dann saßen sie bei ihm auf dem Erdboden sieben Tage und sieben Nächte lang, ohne daß einer ein Wort zu ihm redete; denn sie sahen, daß sein Schmerz überaus groß war.",
+      "citation": "Hiob 2:13 (Menge)"
+    }
+  ]
+}

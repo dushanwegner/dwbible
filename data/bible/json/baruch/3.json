@@ -1,0 +1,226 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Baruch, Chapter 3 — 38 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Baruch",
+      "slug": "baruch",
+      "testament": "OT",
+      "order": 30,
+      "totalChapters": 5
+    },
+    "chapter": 3,
+    "verseCount": 38,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/baruch/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/baruch/2.json",
+      "nextChapter": "https://latinprayer.org/bible/baruch/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/baruch/3.json",
+      "german": "https://latinprayer.org/bibel/baruch/3.json"
+    }
+  },
+  "citation": "Baruch 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And now, O Lord Almighty, the God of Israel, the soul in anguish, and the troubled spirit crieth to thee:",
+      "citation": "Baruch 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Hear, O Lord, and have mercy, for thou art a merciful God, and have pity on us: for we have sinned before thee.",
+      "citation": "Baruch 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For thou remainest for ever, and shall we perish everlastingly?",
+      "citation": "Baruch 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "O Lord Almighty, the God of Israel, hear now the prayer of the dead of Israel, and of their children, that have sinned before thee, and have not hearkened to the voice of the Lord their God, wherefore evils have cleaved fast to us.",
+      "citation": "Baruch 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Remember not the iniquities of our fathers, but think upon thy hand, and upon thy name at this time:",
+      "citation": "Baruch 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For thou art the Lord our God, and we will praise thee, O Lord:",
+      "citation": "Baruch 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Because for this end thou hast put thy fear in our hearts, to the intent that we should call upon thy name, and praise thee in our captivity, for we are converted from the iniquity of our fathers, who sinned before thee.",
+      "citation": "Baruch 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And behold we are at this day in our captivity, whereby thou hast scattered us to be a reproach, and a curse, and an offence, according to all the iniquities of our fathers, who departed from thee, O Lord our God.",
+      "citation": "Baruch 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Hear, O Israel, the commandments of life: give ear, that thou mayst learn wisdom.",
+      "citation": "Baruch 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "How happeneth it, O Israel, that thou art in thy enemies' land?",
+      "citation": "Baruch 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Thou art grown old in a strange country, thou art defiled with the dead: thou art counted with them that go down into hell.",
+      "citation": "Baruch 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Thou hast forsaken the fountain of wisdom:",
+      "citation": "Baruch 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For if thou hadst walked in the way of God, thou hadst surely dwelt in peace for ever.",
+      "citation": "Baruch 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Learn where is wisdom, where is strength, where is understanding: that thou mayst know also where is length of days and life, where is the light of the eyes, and peace.",
+      "citation": "Baruch 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Who hath found out her place? and who hath gone in to her treasures?",
+      "citation": "Baruch 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Where are the princes of the nations, and they that rule over the beasts that are upon the earth?",
+      "citation": "Baruch 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "That take their diversion with the birds of the air.",
+      "citation": "Baruch 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "That hoard up silver and gold, wherein men trust, and there is no end of their getting? who work in silver and are solicitous, and their works are unsearchable.",
+      "citation": "Baruch 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "They are cut off, and are gone down to hell, and others are risen up in their place.",
+      "citation": "Baruch 3:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Young men have seen the light, and dwelt upon the earth: but the way of knowledge they have not known,",
+      "citation": "Baruch 3:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Nor have they understood the paths thereof, neither have their children received it, it is far from their face.",
+      "citation": "Baruch 3:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "It hath not been heard of in the land of Chanaan, neither hath it been seen in Theman.",
+      "citation": "Baruch 3:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The children of Agar also, that search after the wisdom that is of the earth, the merchants of Merrha, and of Theman, and the tellers of fables, and searchers of prudence and understanding: but the way of wisdom they have not known, neither have they remembered her paths.",
+      "citation": "Baruch 3:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "O Israel, how great is the house of God, and how vast is the place of his possession!",
+      "citation": "Baruch 3:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "It is great, and hath no end: it is high and immense.",
+      "citation": "Baruch 3:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "There were the giants, those renowned men that were from the beginning, of great stature, expert in war.",
+      "citation": "Baruch 3:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "The Lord chose not them, neither did they find the way of knowledge: therefore did they perish.",
+      "citation": "Baruch 3:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And because they had not wisdom, they perished through their folly.",
+      "citation": "Baruch 3:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Who hath gone up into heaven, and taken her, and brought her down from the clouds?",
+      "citation": "Baruch 3:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Who hath passed over the sea, and found her, and brought her preferably to chosen gold?",
+      "citation": "Baruch 3:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "There is none that is able to know her ways, nor that can search out her paths:",
+      "citation": "Baruch 3:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "But he that knoweth all things, knoweth her, and hath found her out with his understanding: he that prepared the earth for evermore, and filled it with cattle and fourfooted beasts:",
+      "citation": "Baruch 3:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "He that sendeth forth the light, and it goeth: and hath called it, and it obeyeth him with trembling.",
+      "citation": "Baruch 3:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And the stars have given light in their watches, and rejoiced:",
+      "citation": "Baruch 3:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "They were called, and they said: Here we are: and with cheerfulness they have shined forth to him that made them.",
+      "citation": "Baruch 3:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "This is our God, and there shall no other be accounted of in comparison of him.",
+      "citation": "Baruch 3:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "He found out all the way of knowledge, and gave it to Jacob his servant, and to Israel his beloved.",
+      "citation": "Baruch 3:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Afterwards he was seen upon earth, and conversed with men.",
+      "citation": "Baruch 3:38 (Douay-Rheims)"
+    }
+  ]
+}

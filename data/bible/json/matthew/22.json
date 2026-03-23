@@ -1,0 +1,266 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 22 — 46 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 22,
+    "verseCount": 46,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/matthew/21.json",
+      "nextChapter": "https://latinprayer.org/bible/matthew/23.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/matthew/22.json",
+      "german": "https://latinprayer.org/bibel/matthew/22.json"
+    }
+  },
+  "citation": "Matthew 22 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And Jesus answering, spoke again in parables to them, saying:",
+      "citation": "Matthew 22:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The kingdom of heaven is likened to a king who made a marriage for his son.",
+      "citation": "Matthew 22:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he sent his servants to call them that were invited to the marriage: and they would not come.",
+      "citation": "Matthew 22:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Again he sent other servants, saying: Tell them that were invited, Behold, I have prepared my dinner: my beeves and fatlings are killed, and all things are ready. Come ye to the marriage.",
+      "citation": "Matthew 22:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But they neglected and went their ways, one to his farm and another to his merchandise.",
+      "citation": "Matthew 22:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the rest laid hands on his servants and, having treated them contumeliously, put them to death.",
+      "citation": "Matthew 22:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But when the king had heard of it, he was angry: and sending his armies, he destroyed those murderers and burnt their city.",
+      "citation": "Matthew 22:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Then he saith to his servants: The marriage indeed is ready; but they that were invited were not worthy.",
+      "citation": "Matthew 22:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Go ye therefore into the highways; and as many as you shall find, call to the marriage.",
+      "citation": "Matthew 22:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And his servants going forth into the ways, gathered together all that they found, both bad and good: and the marriage was filled with guests.",
+      "citation": "Matthew 22:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the king went in to see the guests: and he saw there a man who had not on a wedding garment.",
+      "citation": "Matthew 22:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And he saith to him: Friend, how camest thou in hither not having on a wedding garment? But he was silent.",
+      "citation": "Matthew 22:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Then the king said to the waiters: Bind his hands and feet, and cast him into the exterior darkness. There shall be weeping and gnashing of teeth.",
+      "citation": "Matthew 22:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "For many are called, but few are chosen.",
+      "citation": "Matthew 22:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Then the Pharisees going, consulted among themselves how to insnare him in his speech.",
+      "citation": "Matthew 22:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And they sent to him their disciples with the Herodians, saying: Master, we know that thou art a true speaker and teachest the way of God in truth. Neither carest thou for any man: for thou dost not regard the person of men.",
+      "citation": "Matthew 22:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Tell us therefore what dost thou think? Is it lawful to give tribute to Caesar, or not?",
+      "citation": "Matthew 22:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "But Jesus knowing their wickedness, said: Why do you tempt me, ye hypocrites?",
+      "citation": "Matthew 22:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Shew me the coin of the tribute. And they offered him a penny.",
+      "citation": "Matthew 22:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And Jesus saith to them: Whose image and inscription is this?",
+      "citation": "Matthew 22:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "They say to him: Caesar's. Then he saith to them: Render therefore to Caesar the things that are Caesar's; and to God, the things that are God's.",
+      "citation": "Matthew 22:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And hearing this, they wondered and, leaving him, went their ways.",
+      "citation": "Matthew 22:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "That day there came to him the Sadducees, who say there is no resurrection; and asked him,",
+      "citation": "Matthew 22:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Saying: Master, Moses said: If a man die having no son, his brother shall marry his wife and raise up issue to his brother.",
+      "citation": "Matthew 22:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Now there were with us seven brethren: and the first having married a wife, died; and not having issue, left his wife to his brother.",
+      "citation": "Matthew 22:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "In like manner the second and the third and so on, to the seventh.",
+      "citation": "Matthew 22:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And last of all the woman died also.",
+      "citation": "Matthew 22:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "At the resurrection therefore, whose wife of the seven shall she be? For they all had her.",
+      "citation": "Matthew 22:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And Jesus answering, said to them: You err, not knowing the Scriptures nor the power of God.",
+      "citation": "Matthew 22:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "For in the resurrection they shall neither marry nor be married, but shall be as the angels of God in heaven.",
+      "citation": "Matthew 22:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And concerning the resurrection of the dead, have you not read that which was spoken by God, saying to you:",
+      "citation": "Matthew 22:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "I am the God of Abraham and the God of Isaac and the God of Jacob? He is not the God of the dead but of the living.",
+      "citation": "Matthew 22:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And the multitudes hearing it were in admiration at his doctrine.",
+      "citation": "Matthew 22:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "But the Pharisees, hearing that he had silenced the Sadducees, came together.",
+      "citation": "Matthew 22:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And one of them, a doctor of the law, asked him, tempting him:",
+      "citation": "Matthew 22:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "Master, which is the great commandment in the law?",
+      "citation": "Matthew 22:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "Jesus said to him: Thou shalt love the Lord thy God with thy whole heart and with thy whole soul and with thy whole mind.",
+      "citation": "Matthew 22:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "This is the greatest and the first commandment.",
+      "citation": "Matthew 22:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And the second is like to this: Thou shalt love thy neighbour as thyself.",
+      "citation": "Matthew 22:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "On these two commandments dependeth the whole law and the prophets.",
+      "citation": "Matthew 22:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And the Pharisees being gathered together, Jesus asked them,",
+      "citation": "Matthew 22:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "Saying: What think you of Christ? Whose son is he? They say to him: David's.",
+      "citation": "Matthew 22:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "He saith to them: How then doth David in spirit call him Lord, saying:",
+      "citation": "Matthew 22:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "The Lord said to my Lord: Sit on my right hand, until I make thy enemies thy footstool?",
+      "citation": "Matthew 22:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "If David then call him Lord, how is he his son?",
+      "citation": "Matthew 22:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "And no man was able to answer him a word: neither durst any man from that day forth ask him any more questions.",
+      "citation": "Matthew 22:46 (Douay-Rheims)"
+    }
+  ]
+}

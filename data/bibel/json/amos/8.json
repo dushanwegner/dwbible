@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Amos, Chapter 8 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Amos",
+      "slug": "amos",
+      "testament": "OT",
+      "order": 35,
+      "totalChapters": 9
+    },
+    "chapter": 8,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/amos/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/amos/7.json",
+      "nextChapter": "https://latinprayer.org/bibel/amos/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/amos/8.json",
+      "latin": "https://latinprayer.org/latin/amos/8.json"
+    }
+  },
+  "citation": "Amos 8 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Folgendes (Gesicht) hat Gott der HERR mich schauen lassen: Ich sah einen Korb mit reifem Obst dastehen.",
+      "citation": "Amos 8:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da fragte er mich: »Was siehst du, Amos?« Ich antwortete: »Einen Korb mit reifem Obst.« Da sagte der HERR zu mir: »Gekommen ist das Ende für mein Volk Israel: ich will fortan nicht mehr schonend an ihm vorübergehen.",
+      "citation": "Amos 8:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Heulen werden die Lieder in den Palästen an jenem Tage« – so lautet der Ausspruch des HERRN –; »Leichen in Menge: an allen Orten wirft man sie hin! Still!«",
+      "citation": "Amos 8:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Höret dies, die ihr den Dürftigen gierig nachstellt und auf die Vernichtung der Notleidenden im Lande ausgeht!",
+      "citation": "Amos 8:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Die ihr sagt: »Wann ist der Neumond vorüber, damit wir wieder Getreide verhandeln? Und wann der Sabbat, damit wir die Kornspeicher wieder auftun können, (nämlich) um das Getreidemaß zu verkleinern und den Geldpreis zu erhöhen und die Waage betrügerisch zu fälschen,",
+      "citation": "Amos 8:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "um die Armen für Geld und die Dürftigen für ein Paar Schuhe (als Sklaven) zu kaufen und auch den Abfall des Getreides zu verhandeln?«",
+      "citation": "Amos 8:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Geschworen hat der HERR bei dem, auf welchen Jakob stolz ist: »Niemals will ich all ihr Tun vergessen!«",
+      "citation": "Amos 8:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Müßte nicht um solcher Dinge willen die Erde erbeben und alle ihre Bewohner in Trauer geraten, so daß sie überall sich emporhöbe wie der Nil und aufwogte und sich wieder senkte wie der Strom Ägyptens?",
+      "citation": "Amos 8:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "»Und geschehen wird es an jenem Tage« – so lautet der Ausspruch Gottes des HERRN –, »da lasse ich die Sonne schon am Mittag untergehen und werde Finsternis über die Erde kommen lassen am lichten Tage.",
+      "citation": "Amos 8:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Und ich werde eure Feste in Trauer verwandeln und alle eure Lieder in Totenklage; da werde ich an alle Hüften das Trauergewand bringen und auf jedes Haupt die Glatze, und ich werde es dabei hergehen lassen wie bei der Trauer um den einzigen Sohn und will das Ende davon zu einem bitteren Unheilstage machen!",
+      "citation": "Amos 8:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Wisset wohl: es werden Tage kommen« – so lautet der Ausspruch Gottes, des HERRN –, »da will ich einen Hunger (und Durst) ins Land senden (daß alle seine Bewohner vergehen), doch nicht einen Hunger nach Brot und nicht einen Durst nach Wasser, sondern danach, die Worte des HERRN zu hören.",
+      "citation": "Amos 8:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Da werden sie von einem Meer zum andern wanken und vom Norden nach dem Osten schweifen, um das Wort des HERRN zu suchen, werden es aber nicht finden.",
+      "citation": "Amos 8:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "An jenem Tage werden die schönen Jungfrauen und die jungen Männer vor Durst ohnmächtig hinsinken,",
+      "citation": "Amos 8:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "sie, die jetzt bei der Schuld Samarias schwören mit den Worten: ›So wahr dein Gott lebt, Dan!‹ und ›So wahr dein Schutzgott lebt, Beerseba!‹ Sie sollen fallen und nicht wieder aufstehen.«",
+      "citation": "Amos 8:14 (Menge)"
+    }
+  ]
+}

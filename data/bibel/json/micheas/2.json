@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Micha, Chapter 2 — 13 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Micha",
+      "slug": "micheas",
+      "testament": "OT",
+      "order": 38,
+      "totalChapters": 7
+    },
+    "chapter": 2,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/micheas/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/micheas/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/micheas/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/micheas/2.json",
+      "latin": "https://latinprayer.org/latin/micheas/2.json"
+    }
+  },
+  "citation": "Micha 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wehe denen, die auf Frevel sinnen und Böses planen auf ihren Lagern und die es beim nächsten Morgenlicht ausführen, weil die Macht dazu in ihrer Hand liegt!",
+      "citation": "Micha 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Gelüstet es sie nach Äckern, so bemächtigen sie sich ihrer mit Gewalt, oder nach Häusern, so nehmen sie sie weg: sie verüben Gewalttat an dem Besitzer und seinem Hause, an dem Eigentümer und seinem Erbgut.",
+      "citation": "Micha 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Darum hat der HERR so gesprochen: »Wisset wohl: (auch) ich habe gegen dieses Geschlecht Unheil im Sinn, aus dem ihr eure Hälse nicht herausziehen und worin ihr nicht mehr aufrecht einhergehen könnt; denn es soll eine schlimme Zeit sein!«",
+      "citation": "Micha 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "An jenem Tage wird man ein Spottlied auf euch anheben und ein Klagelied anstimmen, das so lautet: »Es ist aus! Völlig vernichtet sind wir! Das Erbteil meines Volkes gibt er in fremde Hände: ach, wie entzieht er es mir! An Abtrünnige teilt er unsere Felder aus!«",
+      "citation": "Micha 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Darum wirst du niemand haben, der dir die Meßschnur über ein Ackerlos wirft in der Gemeinde des HERRN.",
+      "citation": "Micha 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "»Laßt das prophetische Predigen!« predigen sie; »derartige Dinge predigt man nicht! Nicht wird Schande uns alle treffen!",
+      "citation": "Micha 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ist das Haus Jakobs etwa verflucht? Ist der HERR etwa zornmütig, oder ist sein Tun von dieser Art? Meinen seine Worte es nicht gut mit dem, der rechtschaffen wandelt?«",
+      "citation": "Micha 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Aber ihr seid es, die feindselig gegen mein Volk auftreten! Vom Rock herunter reißt ihr den Mantel denen ab, die arglos vorüberziehen, die von Streit nichts wissen wollen.",
+      "citation": "Micha 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Die Frauen meines Volkes vertreibt ihr aus ihrem beglückenden Heim und raubt ihren kleinen Kindern meinen Ehrenschmuck auf immer.",
+      "citation": "Micha 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "»Packt euch!« (so sagt ihr) und »hinweg mit euch, denn hier ist eures Bleibens nicht!« Um einer geringen Kleinigkeit willen vollzieht ihr grausam Pfändung.",
+      "citation": "Micha 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Ja, wenn jemand käme, der dem Winde nachliefe und euch Lug und Trug vortrüge: »Ich will dir von Wein und Würztrank predigen!« – der wäre ein Prediger für dieses Volk!",
+      "citation": "Micha 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "»Sammeln, ja sammeln will ich dich, Jakob, insgesamt; zusammenbringen, ja zusammenbringen will ich, was von Israel noch übrig ist! Vereinigen will ich sie wie Schafe in der Hürde, wie eine Herde auf der Trift, so daß sie eine von Menschen wimmelnde Menge bilden.«",
+      "citation": "Micha 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "An ihrer Spitze zieht dann der leitende Widder dahin, sie brechen durch, ziehen durch das Tor und gehen hinaus: ihr König schreitet vor ihnen her und der HERR selber an ihrer Spitze.",
+      "citation": "Micha 2:13 (Menge)"
+    }
+  ]
+}

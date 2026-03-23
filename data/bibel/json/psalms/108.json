@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 108 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 108,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/107.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/109.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/108.json",
+      "latin": "https://latinprayer.org/latin/psalms/108.json"
+    }
+  },
+  "citation": "Psalmen 108 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Lied, ein Psalm Davids.</em>",
+      "citation": "Psalmen 108:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Mein Herz ist getrost, o Gott: singen will ich und spielen! Wach auf, meine Seele!",
+      "citation": "Psalmen 108:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wacht auf, Harfe und Zither: ich will das Morgenrot wecken!",
+      "citation": "Psalmen 108:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ich will dich preisen unter den Völkern, o HERR, und dir lobsingen unter den Völkerschaften!",
+      "citation": "Psalmen 108:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn groß bis über den Himmel hinaus ist deine Gnade, und bis an die Wolken geht deine Treue.",
+      "citation": "Psalmen 108:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Erhebe dich über den Himmel hinaus, o Gott, und über die ganze Erde (verbreite sich) deine Herrlichkeit!",
+      "citation": "Psalmen 108:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Daß deine Geliebten gerettet werden, hilf uns mit deiner Rechten, erhör’ uns!",
+      "citation": "Psalmen 108:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Gott hat in seiner Heiligkeit gesprochen: »(Als Sieger) will ich frohlocken, will Sichem verteilen und das Tal von Sukkoth (als Beutestück) vermessen.",
+      "citation": "Psalmen 108:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Mein ist Gilead, mein auch Manasse, und Ephraim ist meines Hauptes Schutzwehr, Juda mein Herrscherstab.",
+      "citation": "Psalmen 108:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Moab (dagegen) ist mein Waschbecken, auf Edom werf’ ich meinen Schuh; über das Philisterland will (als Sieger) ich jauchzen.«",
+      "citation": "Psalmen 108:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Wer führt mich hin zur festen Stadt, wer geleitet mich bis Edom?",
+      "citation": "Psalmen 108:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Hast nicht du uns, o Gott, verworfen und ziehst nicht aus, o Gott, mit unsern Heeren?",
+      "citation": "Psalmen 108:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "O schaffe uns Hilfe gegen den Feind! Denn nichtig ist Menschenhilfe.",
+      "citation": "Psalmen 108:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Mit Gott werden wir Taten vollführen, und er wird unsre Bedränger zertreten.",
+      "citation": "Psalmen 108:14 (Menge)"
+    }
+  ]
+}

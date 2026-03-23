@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 108 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 108,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/107.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/109.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/108.json",
+      "german": "https://latinprayer.org/bibel/psalms/108.json"
+    }
+  },
+  "citation": "Psalms 108 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "paratum cor meum Deus paratum cor meum cantabo et psallam in gloria mea",
+      "citation": "Psalms 108:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "paratum cor meum Deus cantabo et psallam sed et gloria mea",
+      "citation": "Psalms 108:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "exsurge psalterium et cithara exsurgam diluculo",
+      "citation": "Psalms 108:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "consurge psalterium et cithara consurgam mane",
+      "citation": "Psalms 108:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "confitebor tibi in populis Domine et psallam tibi in nationibus",
+      "citation": "Psalms 108:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "confitebor tibi in populis Domine et cantabo te in nationibus",
+      "citation": "Psalms 108:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia magna super caelos misericordia tua et usque ad nubes veritas tua",
+      "citation": "Psalms 108:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quoniam magna super caelos misericordia tua et usque ad aethera veritas tua",
+      "citation": "Psalms 108:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "exaltare super caelos Deus et super omnem terram gloria tua",
+      "citation": "Psalms 108:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "exaltare super caelos Deus et super omnem terram gloria tua",
+      "citation": "Psalms 108:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ut liberentur dilecti tui salvum fac dextera tua et exaudi me",
+      "citation": "Psalms 108:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ut liberentur dilecti tui salva dextera tua et exaudi me",
+      "citation": "Psalms 108:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Deus locutus est in sancto suo exaltabor et dividam Sicima et convallem tabernaculorum dimetiar",
+      "citation": "Psalms 108:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Deus locutus est in sanctuario suo gaudebo dividam Sychem et vallem Socchoth dimetiar",
+      "citation": "Psalms 108:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "meus est Galaad et meus est Manasse et Effraim susceptio capitis mei Iuda rex meus",
+      "citation": "Psalms 108:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "meus est Galaad et meus est Manasse et Efraim hereditas capitis mei Iuda dux meus",
+      "citation": "Psalms 108:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "Moab lebes spei meae in Idumeam extendam calciamentum meum mihi alienigenae amici facti sunt",
+      "citation": "Psalms 108:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "Moab lebes pelvis meae super Idumeam proiciam calciamentum meum cum Philisthim foederabor",
+      "citation": "Psalms 108:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quis deducet me in civitatem munitam quis deducet me usque in Idumeam",
+      "citation": "Psalms 108:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quis deducet me in civitatem munitam quis deducet me usque in Idumeam",
+      "citation": "Psalms 108:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "nonne tu Deus qui reppulisti nos et non exibis Deus in virtutibus nostris",
+      "citation": "Psalms 108:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "nonne tu Deus qui proieceras nos et non exieras Deus in exercitibus nostris",
+      "citation": "Psalms 108:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "da nobis auxilium de tribulatione quia vana salus hominis",
+      "citation": "Psalms 108:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "da nobis auxilium in tribulatione vana est enim salus ab homine",
+      "citation": "Psalms 108:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "in Deo faciemus virtutem et ipse ad nihilum deducet inimicos nostros",
+      "citation": "Psalms 108:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "in Deo erimus fortes et ipse conculcabit hostes nostros",
+      "citation": "Psalms 108:13 (Clementine Vulgate)"
+    }
+  ]
+}

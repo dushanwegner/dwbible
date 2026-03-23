@@ -1,0 +1,276 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Acts, Chapter 10 — 48 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 51,
+      "totalChapters": 28
+    },
+    "chapter": 10,
+    "verseCount": 48,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/acts/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/acts/9.json",
+      "nextChapter": "https://latinprayer.org/latin/acts/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/acts/10.json",
+      "german": "https://latinprayer.org/bibel/acts/10.json"
+    }
+  },
+  "citation": "Acts 10 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "vir autem quidam erat in Caesarea nomine Cornelius centurio cohortis quae dicitur Italica",
+      "citation": "Acts 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "religiosus et timens Deum cum omni domo sua faciens elemosynas multas plebi et deprecans Deum semper",
+      "citation": "Acts 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "vidit in visu manifeste quasi hora nona diei angelum Dei introeuntem ad se et dicentem sibi Corneli",
+      "citation": "Acts 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "at ille intuens eum timore correptus dixit quid est domine dixit autem illi orationes tuae et elemosynae tuae ascenderunt in memoriam in conspectu Dei",
+      "citation": "Acts 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et nunc mitte viros in Ioppen et accersi Simonem quendam qui cognominatur Petrus",
+      "citation": "Acts 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "hic hospitatur apud Simonem quendam coriarium cuius est domus iuxta mare",
+      "citation": "Acts 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et cum discessisset angelus qui loquebatur illi vocavit duos domesticos suos et militem metuentem Dominum ex his qui illi parebant",
+      "citation": "Acts 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quibus cum narrasset omnia misit illos in Ioppen",
+      "citation": "Acts 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "postera autem die iter illis facientibus et adpropinquantibus civitati ascendit Petrus in superiora ut oraret circa horam sextam",
+      "citation": "Acts 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et cum esuriret voluit gustare parantibus autem eis cecidit super eum mentis excessus",
+      "citation": "Acts 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et videt caelum apertum et descendens vas quoddam velut linteum magnum quattuor initiis submitti de caelo in terram",
+      "citation": "Acts 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "in quo erant omnia quadrupedia et serpentia terrae et volatilia caeli",
+      "citation": "Acts 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et facta est vox ad eum surge Petre et occide et manduca",
+      "citation": "Acts 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ait autem Petrus absit Domine quia numquam manducavi omne commune et inmundum",
+      "citation": "Acts 10:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et vox iterum secundo ad eum quae Deus purificavit ne tu commune dixeris",
+      "citation": "Acts 10:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "hoc autem factum est per ter et statim receptum est vas in caelum",
+      "citation": "Acts 10:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et dum intra se haesitaret Petrus quidnam esset visio quam vidisset ecce viri qui missi erant a Cornelio inquirentes domum Simonis adstiterunt ad ianuam",
+      "citation": "Acts 10:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et cum vocassent interrogabant si Simon qui cognominatur Petrus illic haberet hospitium",
+      "citation": "Acts 10:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Petro autem cogitante de visione dixit Spiritus ei ecce viri tres quaerunt te",
+      "citation": "Acts 10:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "surge itaque et descende et vade cum eis nihil dubitans quia ego misi illos",
+      "citation": "Acts 10:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "descendens autem Petrus ad viros dixit ecce ego sum quem quaeritis quae causa est propter quam venistis",
+      "citation": "Acts 10:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "qui dixerunt Cornelius centurio vir iustus et timens Deum et testimonium habens ab universa gente Iudaeorum responsum accepit ab angelo sancto accersire te in domum suam et audire verba abs te",
+      "citation": "Acts 10:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "introducens igitur eos recepit hospitio sequenti autem die surgens profectus est cum eis et quidam ex fratribus ab Ioppe comitati sunt eum",
+      "citation": "Acts 10:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "altera autem die introivit Caesaream Cornelius vero expectabat illos convocatis cognatis suis et necessariis amicis",
+      "citation": "Acts 10:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et factum est cum introisset Petrus obvius ei Cornelius et procidens ad pedes adoravit",
+      "citation": "Acts 10:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "Petrus vero levavit eum dicens surge et ego ipse homo sum",
+      "citation": "Acts 10:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et loquens cum illo intravit et invenit multos qui convenerant",
+      "citation": "Acts 10:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "dixitque ad illos vos scitis quomodo abominatum sit viro iudaeo coniungi aut accedere ad alienigenam et mihi ostendit Deus neminem communem aut inmundum dicere hominem",
+      "citation": "Acts 10:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "propter quod sine dubitatione veni accersitus interrogo ergo quam ob causam accersistis me",
+      "citation": "Acts 10:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et Cornelius ait a nudius quartana die usque in hanc horam orans eram hora nona in domo mea et ecce vir stetit ante me in veste candida et ait",
+      "citation": "Acts 10:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "Corneli exaudita est oratio tua et elemosynae tuae commemoratae sunt in conspectu Dei",
+      "citation": "Acts 10:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "mitte ergo in Ioppen et accersi Simonem qui cognominatur Petrus hic hospitatur in domo Simonis coriarii iuxta mare",
+      "citation": "Acts 10:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "confestim igitur misi ad te et tu bene fecisti veniendo nunc ergo omnes nos in conspectu tuo adsumus audire omnia quaecumque tibi praecepta sunt a Domino",
+      "citation": "Acts 10:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "aperiens autem Petrus os dixit in veritate conperi quoniam non est personarum acceptor Deus",
+      "citation": "Acts 10:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "sed in omni gente qui timet eum et operatur iustitiam acceptus est illi",
+      "citation": "Acts 10:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "verbum misit filiis Israhel adnuntians pacem per Iesum Christum hic est omnium Dominus",
+      "citation": "Acts 10:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "vos scitis quod factum est verbum per universam Iudaeam incipiens enim a Galilaea post baptismum quod praedicavit Iohannes",
+      "citation": "Acts 10:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "Iesum a Nazareth quomodo unxit eum Deus Spiritu Sancto et virtute qui pertransivit benefaciendo et sanando omnes oppressos a diabolo quoniam Deus erat cum illo",
+      "citation": "Acts 10:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et nos testes sumus omnium quae fecit in regione Iudaeorum et Hierusalem quem et occiderunt suspendentes in ligno",
+      "citation": "Acts 10:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "hunc Deus suscitavit tertia die et dedit eum manifestum fieri",
+      "citation": "Acts 10:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "non omni populo sed testibus praeordinatis a Deo nobis qui manducavimus et bibimus cum illo postquam resurrexit a mortuis",
+      "citation": "Acts 10:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et praecepit nobis praedicare populo et testificari quia ipse est qui constitutus est a Deo iudex vivorum et mortuorum",
+      "citation": "Acts 10:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "huic omnes prophetae testimonium perhibent remissionem peccatorum accipere per nomen eius omnes qui credunt in eum",
+      "citation": "Acts 10:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "adhuc loquente Petro verba haec cecidit Spiritus Sanctus super omnes qui audiebant verbum",
+      "citation": "Acts 10:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "et obstipuerunt ex circumcisione fideles qui venerant cum Petro quia et in nationes gratia Spiritus Sancti effusa est",
+      "citation": "Acts 10:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "audiebant enim illos loquentes linguis et magnificantes Deum",
+      "citation": "Acts 10:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "tunc respondit Petrus numquid aquam quis prohibere potest ut non baptizentur hii qui Spiritum Sanctum acceperunt sicut et nos",
+      "citation": "Acts 10:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "et iussit eos in nomine Iesu Christi baptizari tunc rogaverunt eum ut maneret aliquot diebus",
+      "citation": "Acts 10:48 (Clementine Vulgate)"
+    }
+  ]
+}

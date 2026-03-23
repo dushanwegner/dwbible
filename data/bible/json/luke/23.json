@@ -1,0 +1,316 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Luke, Chapter 23 — 56 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Luke",
+      "slug": "luke",
+      "testament": "NT",
+      "order": 49,
+      "totalChapters": 24
+    },
+    "chapter": 23,
+    "verseCount": 56,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/luke/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/luke/22.json",
+      "nextChapter": "https://latinprayer.org/bible/luke/24.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/luke/23.json",
+      "german": "https://latinprayer.org/bibel/luke/23.json"
+    }
+  },
+  "citation": "Luke 23 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the whole multitude of them, rising up, led him to Pilate.",
+      "citation": "Luke 23:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And they began to accuse him, saying: We have found this man perverting our nation and forbidding to give tribute to Caesar and saying that he is Christ the king.",
+      "citation": "Luke 23:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Pilate asked him, saying: Art thou the king of the Jews?  But he answering, said: Thou sayest it.",
+      "citation": "Luke 23:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And Pilate said to the chief priests and to the multitudes: I find no cause in this man.",
+      "citation": "Luke 23:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But they were more earnest, saying: He stirreth up the people, teaching throughout all Judea, beginning from Galilee to this place.",
+      "citation": "Luke 23:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But Pilate hearing Galilee, asked if the man were of Galilee?",
+      "citation": "Luke 23:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And when he understood that he was of Herod's jurisdiction, he sent him away to Herod, who was also himself at Jerusalem in those days.",
+      "citation": "Luke 23:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And Herod seeing Jesus, was very glad: for he was desirous of a long time to see him, because he had heard many things of him; and he hoped to see some sign wrought by him.",
+      "citation": "Luke 23:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And he questioned him in many words. But he answered him nothing.",
+      "citation": "Luke 23:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the chief priests and the scribes stood by, earnestly accusing him.",
+      "citation": "Luke 23:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Herod with his army set him at nought and mocked him, putting on him a white garment: and sent him back to Pilate.",
+      "citation": "Luke 23:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And Herod and Pilate were made friends, that same day: for before they were enemies one to another.",
+      "citation": "Luke 23:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And Pilate, calling together the chief priests and the magistrates and the people,",
+      "citation": "Luke 23:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Said to them: You have presented unto me this man as one that perverteth the people. And behold I, having examined him before you, find no cause in this man, in those things wherein you accuse him.",
+      "citation": "Luke 23:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "No, nor Herod neither. For, I sent you to him: and behold, nothing worthy of death is done to him.",
+      "citation": "Luke 23:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "I will chastise him therefore and release him.",
+      "citation": "Luke 23:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Now of necessity he was to release unto them one upon the feast day.",
+      "citation": "Luke 23:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "But the whole multitude together cried out, saying: Away with this man, and release unto us Barabbas:",
+      "citation": "Luke 23:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Who, for a certain sedition made in the city and for a murder, was cast into prison.",
+      "citation": "Luke 23:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And Pilate again spoke to them, desiring to release Jesus.",
+      "citation": "Luke 23:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "But they cried again, saying: Crucify him, Crucify him.",
+      "citation": "Luke 23:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And he said to them the third time: Why, what evil hath this man done? I find no cause of death in him. I will chastise him therefore and let him go.",
+      "citation": "Luke 23:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "But they were instant with loud voices, requiring that he might be crucified. And their voices prevailed.",
+      "citation": "Luke 23:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And Pilate gave sentence that it should be as they required.",
+      "citation": "Luke 23:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And he released unto them him who for murder and sedition had been cast into prison, whom they had desired. But Jesus he delivered up to their will.",
+      "citation": "Luke 23:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And as they led him away, they laid hold of one Simon of Cyrene, coming from the country; and they laid the cross on him to carry after Jesus.",
+      "citation": "Luke 23:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And there followed him a great multitude of people and of women, who bewailed and lamented him.",
+      "citation": "Luke 23:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "But Jesus turning to them, said: Daughters of Jerusalem, weep not over me; but weep for yourselves and for your children.",
+      "citation": "Luke 23:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "For behold, the days shall come, wherein they will say: Blessed are the barren and the wombs that have not borne and the paps that have not given suck.",
+      "citation": "Luke 23:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Then shall they begin to say to the mountains: Fall upon us. And to the hills: Cover us.",
+      "citation": "Luke 23:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "For if in the green wood they do these things, what shall be done in the dry?",
+      "citation": "Luke 23:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "And there were also two other malefactors led with him to be put to death.",
+      "citation": "Luke 23:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And when they were come to the place which is called Calvary, they crucified him there: and the robbers, one on the right hand, and the other on the left.",
+      "citation": "Luke 23:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And Jesus said: Father, forgive them, for they know not what they do. But they, dividing his garments, cast lots.",
+      "citation": "Luke 23:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And the people stood beholding. And the rulers with them derided him, saying: He saved others: let him save himself, if he be Christ, the elect of God.",
+      "citation": "Luke 23:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And the soldiers also mocked him, coming to him and offering him vinegar,",
+      "citation": "Luke 23:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And saying: If thou be the king of the Jews, save thyself.",
+      "citation": "Luke 23:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And there was also a superscription written over him in letters of Greek and Latin and Hebrew THIS IS THE KING OF THE JEWS.",
+      "citation": "Luke 23:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And one of those robbers who were hanged blasphemed him, saying: If thou be Christ, save thyself and us.",
+      "citation": "Luke 23:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "But the other answering, rebuked him, saying: Neither dost thou fear God, seeing; thou art under the same condemnation?",
+      "citation": "Luke 23:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And we indeed justly: for we receive the due reward of our deeds. But this man hath done no evil.",
+      "citation": "Luke 23:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And he said to Jesus: Lord, remember me when thou shalt come into thy kingdom.",
+      "citation": "Luke 23:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And Jesus said to him: Amen I say to thee: This day thou shalt be with me in paradise.",
+      "citation": "Luke 23:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "And it was almost the sixth hour: and there was darkness over all the earth until the ninth hour.",
+      "citation": "Luke 23:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "And the sun was darkened, and the veil of the temple was rent in the midst.",
+      "citation": "Luke 23:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "And Jesus crying with a loud voice, said: Father, into thy hands I commend my spirit. And saying this, he gave up the ghost.",
+      "citation": "Luke 23:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "Now, the centurion, seeing what was done, glorified God, saying: Indeed this was a just man.",
+      "citation": "Luke 23:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "And all the multitude of them that were come together to that sight and saw the things that were done returned, striking their breasts.",
+      "citation": "Luke 23:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "And all his acquaintance and the women that had followed him from Galilee stood afar off, beholding these things.",
+      "citation": "Luke 23:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "And behold there was a man named Joseph who was a counsellor, a good and a just man,",
+      "citation": "Luke 23:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "(The same had not consented to their counsel and doings) of Arimathea, a city of Judea: who also himself looked for the kingdom of God.",
+      "citation": "Luke 23:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "This man went to Pilate and begged the body of Jesus.",
+      "citation": "Luke 23:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "And taking him down, he wrapped him in fine linen and laid him in a sepulchre that was hewed in stone, wherein never yet any man had been laid.",
+      "citation": "Luke 23:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "And it was the day of the Parasceve: and the sabbath drew on.",
+      "citation": "Luke 23:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "And the women that were come with him from Galilee, following after, saw the sepulchre and how his body was laid.",
+      "citation": "Luke 23:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "And returning, they prepared spices and ointments: and on the sabbath day they rested, according to the commandment.",
+      "citation": "Luke 23:56 (Douay-Rheims)"
+    }
+  ]
+}

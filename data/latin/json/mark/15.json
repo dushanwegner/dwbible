@@ -1,0 +1,271 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Mark, Chapter 15 — 47 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Mark",
+      "slug": "mark",
+      "testament": "NT",
+      "order": 48,
+      "totalChapters": 16
+    },
+    "chapter": 15,
+    "verseCount": 47,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/mark/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/mark/14.json",
+      "nextChapter": "https://latinprayer.org/latin/mark/16.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/mark/15.json",
+      "german": "https://latinprayer.org/bibel/mark/15.json"
+    }
+  },
+  "citation": "Mark 15 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et confestim mane consilium facientes summi sacerdotes cum senioribus et scribis et universo concilio vincientes Iesum duxerunt et tradiderunt Pilato",
+      "citation": "Mark 15:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et interrogavit eum Pilatus tu es rex Iudaeorum at ille respondens ait illi tu dicis",
+      "citation": "Mark 15:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et accusabant eum summi sacerdotes in multis",
+      "citation": "Mark 15:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Pilatus autem rursum interrogavit eum dicens non respondes quicquam vide in quantis te accusant",
+      "citation": "Mark 15:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Iesus autem amplius nihil respondit ita ut miraretur Pilatus",
+      "citation": "Mark 15:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "per diem autem festum dimittere solebat illis unum ex vinctis quemcumque petissent",
+      "citation": "Mark 15:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "erat autem qui dicebatur Barabbas qui cum seditiosis erat vinctus qui in seditione fecerant homicidium",
+      "citation": "Mark 15:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et cum ascendisset turba coepit rogare sicut semper faciebat illis",
+      "citation": "Mark 15:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "Pilatus autem respondit eis et dixit vultis dimittam vobis regem Iudaeorum",
+      "citation": "Mark 15:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "sciebat enim quod per invidiam tradidissent eum summi sacerdotes",
+      "citation": "Mark 15:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "pontifices autem concitaverunt turbam ut magis Barabban dimitteret eis",
+      "citation": "Mark 15:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Pilatus autem iterum respondens ait illis quid ergo vultis faciam regi Iudaeorum",
+      "citation": "Mark 15:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "at illi iterum clamaverunt crucifige eum",
+      "citation": "Mark 15:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "Pilatus vero dicebat eis quid enim mali fecit at illi magis clamabant crucifige eum",
+      "citation": "Mark 15:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "Pilatus autem volens populo satisfacere dimisit illis Barabban et tradidit Iesum flagellis caesum ut crucifigeretur",
+      "citation": "Mark 15:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "milites autem duxerunt eum intro in atrium praetorii et convocant totam cohortem",
+      "citation": "Mark 15:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et induunt eum purpuram et inponunt ei plectentes spineam coronam",
+      "citation": "Mark 15:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et coeperunt salutare eum have rex Iudaeorum",
+      "citation": "Mark 15:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et percutiebant caput eius harundine et conspuebant eum et ponentes genua adorabant eum",
+      "citation": "Mark 15:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et postquam inluserunt ei exuerunt illum purpuram et induerunt eum vestimentis suis et educunt illum ut crucifigerent eum",
+      "citation": "Mark 15:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et angariaverunt praetereuntem quempiam Simonem Cyreneum venientem de villa patrem Alexandri et Rufi ut tolleret crucem eius",
+      "citation": "Mark 15:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et perducunt illum in Golgotha locum quod est interpretatum Calvariae locus",
+      "citation": "Mark 15:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et dabant ei bibere murratum vinum et non accepit",
+      "citation": "Mark 15:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et crucifigentes eum diviserunt vestimenta eius mittentes sortem super eis quis quid tolleret",
+      "citation": "Mark 15:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "erat autem hora tertia et crucifixerunt eum",
+      "citation": "Mark 15:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et erat titulus causae eius inscriptus rex Iudaeorum",
+      "citation": "Mark 15:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et cum eo crucifigunt duos latrones unum a dextris et alium a sinistris eius",
+      "citation": "Mark 15:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et adimpleta est scriptura quae dicit et cum iniquis reputatus est",
+      "citation": "Mark 15:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et praetereuntes blasphemabant eum moventes capita sua et dicentes va qui destruit templum et in tribus diebus aedificat",
+      "citation": "Mark 15:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "salvum fac temet ipsum descendens de cruce",
+      "citation": "Mark 15:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "similiter et summi sacerdotes ludentes ad alterutrum cum scribis dicebant alios salvos fecit se ipsum non potest salvum facere",
+      "citation": "Mark 15:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "Christus rex Israhel descendat nunc de cruce ut videamus et credamus et qui cum eo crucifixi erant conviciabantur ei",
+      "citation": "Mark 15:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "et facta hora sexta tenebrae factae sunt per totam terram usque in horam nonam",
+      "citation": "Mark 15:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "et hora nona exclamavit Iesus voce magna dicens Heloi Heloi lama sabacthani quod est interpretatum Deus meus Deus meus ut quid dereliquisti me",
+      "citation": "Mark 15:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et quidam de circumstantibus audientes dicebant ecce Heliam vocat",
+      "citation": "Mark 15:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "currens autem unus et implens spongiam aceto circumponensque calamo potum dabat ei dicens sinite videamus si veniat Helias ad deponendum eum",
+      "citation": "Mark 15:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "Iesus autem emissa voce magna exspiravit",
+      "citation": "Mark 15:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "et velum templi scissum est in duo a sursum usque deorsum",
+      "citation": "Mark 15:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "videns autem centurio qui ex adverso stabat quia sic clamans exspirasset ait vere homo hic Filius Dei erat",
+      "citation": "Mark 15:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "erant autem et mulieres de longe aspicientes inter quas et Maria Magdalene et Maria Iacobi minoris et Ioseph mater et Salome",
+      "citation": "Mark 15:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et cum esset in Galilaea sequebantur eum et ministrabant ei et aliae multae quae simul cum eo ascenderant Hierosolyma",
+      "citation": "Mark 15:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et cum iam sero esset factum quia erat parasceve quod est ante sabbatum",
+      "citation": "Mark 15:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "venit Ioseph ab Arimathia nobilis decurio qui et ipse erat expectans regnum Dei et audacter introiit ad Pilatum et petiit corpus Iesu",
+      "citation": "Mark 15:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "Pilatus autem mirabatur si iam obisset et accersito centurione interrogavit eum si iam mortuus esset",
+      "citation": "Mark 15:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "et cum cognovisset a centurione donavit corpus Ioseph",
+      "citation": "Mark 15:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "Ioseph autem mercatus sindonem et deponens eum involvit sindone et posuit eum in monumento quod erat excisum de petra et advolvit lapidem ad ostium monumenti",
+      "citation": "Mark 15:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "Maria autem Magdalene et Maria Ioseph aspiciebant ubi poneretur",
+      "citation": "Mark 15:47 (Clementine Vulgate)"
+    }
+  ]
+}

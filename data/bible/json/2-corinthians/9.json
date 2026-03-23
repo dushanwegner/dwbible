@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2. Corinthians, Chapter 9 — 15 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2. Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "chapter": 9,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/2-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/2-corinthians/8.json",
+      "nextChapter": "https://latinprayer.org/bible/2-corinthians/10.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/2-corinthians/9.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/9.json"
+    }
+  },
+  "citation": "2. Corinthians 9 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "For concerning the ministry that is done towards the saints, it is superfluous for me to write unto you.",
+      "citation": "2. Corinthians 9:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For I know your forward mind: for which I boast of you to the Macedonians, that Achaia also is ready from the year past. And your emulation hath provoked very many.",
+      "citation": "2. Corinthians 9:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Now I have sent the brethren, that the thing which we boast of concerning you be not made void in this behalf, that (as I have said) you may be ready:",
+      "citation": "2. Corinthians 9:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Lest, when the Macedonians shall come with me and find you unprepared, we (not to say ye) should be ashamed in this matter.",
+      "citation": "2. Corinthians 9:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Therefore I thought it necessary to desire the brethren that they would go to you before and prepare this blessing before promised, to be ready, so as a blessing, not as covetousness.",
+      "citation": "2. Corinthians 9:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Now this I say: He who soweth sparingly shall also reap sparingly: and he who soweth in blessings shall also reap blessings.",
+      "citation": "2. Corinthians 9:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Every one as he hath determined in his heart, not with sadness or of necessity: for God loveth a cheerful giver.",
+      "citation": "2. Corinthians 9:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And God is able to make all grace abound in you: that ye always, having all sufficiently in all things, may abound to every good work,",
+      "citation": "2. Corinthians 9:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "As it is written: He hath dispersed abroad, he hath given to the poor: his justice remaineth for ever.",
+      "citation": "2. Corinthians 9:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And he that ministereth seed to the sower will both give you bread to eat and will multiply your seed and increase the growth of the fruits of your justice:",
+      "citation": "2. Corinthians 9:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "That being enriched in all things, you may abound unto all simplicity which worketh through us thanksgiving to God.",
+      "citation": "2. Corinthians 9:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Because the administration of this office doth not only supply the want of the saints, but aboundeth also by many thanksgivings in the Lord.",
+      "citation": "2. Corinthians 9:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "By the proof of this ministry, glorifying God for the obedience of your confession unto the gospel of Christ and for the simplicity of your communicating unto them and unto all.",
+      "citation": "2. Corinthians 9:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And in their praying for you, being desirous of you, because of the excellent grace of God in you.",
+      "citation": "2. Corinthians 9:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Thanks be to God for his unspeakable gift.",
+      "citation": "2. Corinthians 9:15 (Douay-Rheims)"
+    }
+  ]
+}

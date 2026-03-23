@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 133 — 3 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 133,
+    "verseCount": 3,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/132.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/134.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/133.json",
+      "german": "https://latinprayer.org/bibel/psalms/133.json"
+    }
+  },
+  "citation": "Psalms 133 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A gradual canticle of David. Behold how good and how pleasant it is for brethren to dwell together in unity:",
+      "citation": "Psalms 133:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Like the precious ointment on the head, that ran down upon the beard, the beard of Aaron, Which ran down to the skirt of his garment:",
+      "citation": "Psalms 133:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "As the dew of Hermon, which descendeth upon mount Sion. For there the Lord hath commanded blessing, and life for evermore.",
+      "citation": "Psalms 133:3 (Douay-Rheims)"
+    }
+  ]
+}

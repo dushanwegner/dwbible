@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Chronicles, Chapter 28 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Chronicles",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "order": 14,
+      "totalChapters": 36
+    },
+    "chapter": 28,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-paralipomenon/27.json",
+      "nextChapter": "https://latinprayer.org/latin/2-paralipomenon/29.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-paralipomenon/28.json",
+      "german": "https://latinprayer.org/bibel/2-paralipomenon/28.json"
+    }
+  },
+  "citation": "2 Chronicles 28 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "viginti annorum erat Achaz cum regnare coepisset et sedecim annis regnavit in Hierusalem non fecit rectum in conspectu Domini sicut David pater eius",
+      "citation": "2 Chronicles 28:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "sed ambulavit in viis regum Israhel insuper et statuas fudit Baalim",
+      "citation": "2 Chronicles 28:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ipse est qui adolevit incensum in valle Benennon et lustravit filios suos in igne iuxta ritum gentium quas interfecit Dominus in adventu filiorum Israhel",
+      "citation": "2 Chronicles 28:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sacrificabat quoque et thymiama succendebat in excelsis et in collibus et sub omni ligno frondoso",
+      "citation": "2 Chronicles 28:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "tradiditque eum Dominus Deus eius in manu regis Syriae qui percussit eum magnamque praedam de eius cepit imperio et adduxit in Damascum manibus quoque regis Israhel traditus est et percussus plaga grandi",
+      "citation": "2 Chronicles 28:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "occiditque Phacee filius Romeliae de Iuda centum viginti milia in die uno omnes viros bellatores eo quod reliquissent Dominum Deum patrum suorum",
+      "citation": "2 Chronicles 28:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "eodem tempore occidit Zechri vir potens ex Ephraim Masiam filium regis et Ezricam ducem domus eius Helcanam quoque secundum a rege",
+      "citation": "2 Chronicles 28:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "ceperuntque filii Israhel de fratribus suis ducenta milia mulierum puerorum et puellarum et infinitam praedam pertuleruntque eam in Samariam",
+      "citation": "2 Chronicles 28:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ea tempestate erat ibi propheta Domini nomine Oded qui egressus obviam exercitui venientium in Samariam dixit eis ecce iratus Dominus Deus patrum vestrorum contra Iudam tradidit eos manibus vestris et occidistis illos atrociter ita ut caelum pertingeret vestra crudelitas",
+      "citation": "2 Chronicles 28:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "insuper filios Iuda et Hierusalem vultis vobis subicere in servos et ancillas quod nequaquam facto opus est peccatis enim super hoc Domino Deo vestro",
+      "citation": "2 Chronicles 28:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sed audite consilium meum et reducite captivos quos adduxistis de fratribus vestris quia magnus furor Domini inminet vobis",
+      "citation": "2 Chronicles 28:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "steterunt itaque viri de principibus filiorum Ephraim Azarias filius Iohanan Barachias filius Mosollamoth Hiezechias filius Sellum et Amasa filius Adali contra eos qui veniebant de proelio",
+      "citation": "2 Chronicles 28:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et dixerunt eis non introducetis huc captivos ne peccemus Domino quare vultis adicere super peccata nostra et vetera cumulare delicta grande quippe peccatum est et ira furoris Domini inminet super Israhel",
+      "citation": "2 Chronicles 28:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dimiseruntque viri bellatores praedam et universa quae ceperant coram principibus et omni multitudine",
+      "citation": "2 Chronicles 28:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "steteruntque viri quos supra memoravimus et adprehendentes captivos omnesque qui nudi erant vestierunt de spoliis cumque vestissent eos et calciassent et refecissent cibo ac potu unxissent quoque propter laborem et adhibuissent eis curam quicumque ambulare non poterant et erant inbecillo corpore inposuerunt eos iumentis et adduxerunt Hierichum civitatem Palmarum ad fratres eorum ipsique reversi sunt Samariam",
+      "citation": "2 Chronicles 28:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "tempore illo misit rex Achaz ad regem Assyriorum auxilium postulans",
+      "citation": "2 Chronicles 28:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "veneruntque Idumei et percusserunt multos ex Iuda et ceperunt praedam magnam",
+      "citation": "2 Chronicles 28:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "Philisthim quoque diffusi sunt per urbes campestres et ad meridiem Iuda ceperuntque Bethsames et Ahilon et Gaderoth Soccho quoque et Thamnam et Gamzo cum viculis suis et habitaverunt in eis",
+      "citation": "2 Chronicles 28:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "humiliaverat enim Dominus Iudam propter Achaz regem Iuda eo quod nudasset eum auxilio et contemptui habuisset Dominum",
+      "citation": "2 Chronicles 28:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "adduxitque contra eum Thaglathphalnasar regem Assyriorum qui et adflixit eum et nullo resistente vastavit",
+      "citation": "2 Chronicles 28:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "igitur Achaz spoliata domo Domini et domo regum et principum dedit regi Assyriorum munera et tamen nihil ei profuit",
+      "citation": "2 Chronicles 28:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "insuper et in tempore angustiae suae auxit contemptum in Dominum ipse per se rex Achaz",
+      "citation": "2 Chronicles 28:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "immolavit diis Damasci victimas percussoribus suis et dixit dii regum Syriae auxiliantur eis quos ego placabo hostiis et aderunt mihi cum e contrario ipsi fuerint ruina eius et universo Israhel",
+      "citation": "2 Chronicles 28:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "direptis itaque Achaz omnibus vasis domus Dei atque confractis clusit ianuas templi Dei et fecit sibi altaria in universis angulis Hierusalem",
+      "citation": "2 Chronicles 28:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "in omnibus quoque urbibus Iuda extruxit aras ad cremandum tus atque ad iracundiam provocavit Dominum Deum patrum suorum",
+      "citation": "2 Chronicles 28:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "reliqua autem sermonum eius et omnium operum priorum et novissimorum scripta sunt in libro regum Iuda et Israhel",
+      "citation": "2 Chronicles 28:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "dormivitque Achaz cum patribus suis et sepelierunt eum in civitate Hierusalem neque enim receperunt eum in sepulchra regum Israhel regnavitque Ezechias filius eius pro eo",
+      "citation": "2 Chronicles 28:27 (Clementine Vulgate)"
+    }
+  ]
+}

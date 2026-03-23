@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hoheslied, Chapter 7 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hoheslied",
+      "slug": "canticle-of-canticles",
+      "testament": "OT",
+      "order": 24,
+      "totalChapters": 8
+    },
+    "chapter": 7,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/canticle-of-canticles/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/canticle-of-canticles/6.json",
+      "nextChapter": "https://latinprayer.org/bibel/canticle-of-canticles/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/canticle-of-canticles/7.json",
+      "latin": "https://latinprayer.org/latin/canticle-of-canticles/7.json"
+    }
+  },
+  "citation": "Hoheslied 7 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wende dich, wende dich, Sulammith! Wende dich, wende dich, daß wir dich beschauen! »Was wollt ihr schauen an Sulammith beim kriegerischen Tanz?«",
+      "citation": "Hoheslied 7:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wie schön sind deine Füße in den Schuhen, du Fürstenkind! Die Wölbungen deiner Hüften sind wie Halsgeschmeide, ein Werk von Künstlerhand;",
+      "citation": "Hoheslied 7:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "dein Schoß eine runde Schale, der nie der Mischtrank fehlen darf; dein Leib ein Weizenhaufen, umsäumt von Lilien.",
+      "citation": "Hoheslied 7:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Deine Brüste sind gleich einem Zwillingspaar junger Gazellen;",
+      "citation": "Hoheslied 7:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "dein Hals wie ein Turm von Elfenbein, deine Augen wie die Teiche von Hesbon am volksbelebten Tor; deine Nase wie der Libanonturm, der nach Damaskus schaut;",
+      "citation": "Hoheslied 7:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "dein Haupt droben wie der Karmel und das herabwallende Haar deines Hauptes wie dunkler Purpur: ein König liegt gefangen in den Locken!",
+      "citation": "Hoheslied 7:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wie bist du so schön und so hold, du Geliebte, du Wonnevolle!",
+      "citation": "Hoheslied 7:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Dein Wuchs da gleicht einer Palme und deine Brüste den Datteltrauben.",
+      "citation": "Hoheslied 7:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ich dachte: Ersteigen will ich die Palme, ihre Fruchtrispen ergreifen; dann sollen deine Brüste mir sein wie Trauben am Weinstock und dein Atem süß wie der Duft von Äpfeln",
+      "citation": "Hoheslied 7:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "und dein Mund wie der köstlichste Wein, der meinem Gaumen glatt eingeht und mir über die Lippen und Zähne sanft hinfließt.",
+      "citation": "Hoheslied 7:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Ich gehöre meinem Geliebten, und nach mir sehnt sich sein Herz!",
+      "citation": "Hoheslied 7:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Komm, mein Geliebter, laß uns aufs Feld hinausgehn, in den Dörfern übernachten!",
+      "citation": "Hoheslied 7:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Frühmorgens brechen wir nach den Weinbergen auf, wollen nachsehn, ob der Weinstock sproßt, ob die Blüten sich erschließen, die Granaten blühen: dort will ich dir meine Liebe schenken.",
+      "citation": "Hoheslied 7:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Die Liebesäpfel duften süß, und über unsrer Tür sind köstliche Früchte jeder Art, heurige und jährige: für dich, mein Geliebter, hab’ ich sie aufbewahrt.",
+      "citation": "Hoheslied 7:14 (Menge)"
+    }
+  ]
+}

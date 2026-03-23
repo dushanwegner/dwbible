@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 25 — 25 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 25,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/24.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/26.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/25.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/25.json"
+    }
+  },
+  "citation": "Jesus Sirach 25 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "An drei Dingen habe ich Gefallen, und sie sind lieblich vor Gott und den Menschen: Eintracht unter Brüdern und Liebe unter Freunden und daß sich Ehefrau und Mann ineinander schicken.",
+      "citation": "Jesus Sirach 25:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Drei Arten von Leuten dagegen haßt meine Seele, und ich bedaure schmerzlich, daß sie leben: der hoffärtige Arme und der lügenhafte Reiche und der ehebrecherische Greis, dem es an Verstand gebricht.",
+      "citation": "Jesus Sirach 25:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Hast du in der Jugend nicht eingesammelt, wie kannst du da in deinem Alter etwas vorfinden?",
+      "citation": "Jesus Sirach 25:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wie schön steht einem grauen Haupte richtiges Urteil an und den Alten, daß sie guten Rat wissen!",
+      "citation": "Jesus Sirach 25:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Wie schön steht die Weisheit den Greisen an, und angesehenen Männern Überlegung und Rat!",
+      "citation": "Jesus Sirach 25:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Die Krone der Greise ist reiche Erfahrung, und ihren Ruhm bildet die Gottesfurcht.",
+      "citation": "Jesus Sirach 25:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Neun Dinge, die mir in den Sinn kommen, preise ich in meinem Herzen, und ein zehntes will ich mit meiner Zunge rühmend hervorheben: glücklich ein Mann, der Freude an seinen Kindern erlebt, und wer bei seinen Lebzeiten den Sturz seiner Feinde zu schauen bekommt.",
+      "citation": "Jesus Sirach 25:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Glücklich, wer mit einer verständigen Frau verheiratet ist, und wer sich mit seiner Zunge nicht verfehlt, und wer nicht einem unwürdigen Herrn dienen muß!",
+      "citation": "Jesus Sirach 25:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Glücklich, wer sich Klugheit angeeignet hat und wer sie willigen Zuhörern vortragen kann!",
+      "citation": "Jesus Sirach 25:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Wie groß steht der da, welcher Weisheit erlangt hat! aber keiner steht größer da als der Gottesfürchtige.",
+      "citation": "Jesus Sirach 25:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Die Gottesfurcht geht über alles; wer sie festhält, wenn könnte der gleichgestellt werden? b [Die Furcht des Herrn ist der Anfang der Liebe zu ihm, die Treue aber der Anfang der engen Zugehörigkeit zu ihm.]",
+      "citation": "Jesus Sirach 25:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Jede Wunde, nur keine Herzenswunde, und jede Bosheit, nur keine Weiberbosheit!",
+      "citation": "Jesus Sirach 25:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Jede Heimsuchung, nur keine Heimsuchung durch Hasser, und jede Rache, nur keine Rache von Feinden!",
+      "citation": "Jesus Sirach 25:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Kein Gift ist schlimmer als Schlangengift, und keine Wut ist heftiger als Feindeswut.",
+      "citation": "Jesus Sirach 25:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Lieber will ich mit einem Löwen und Drachen zusammenleben als mit einem boshaften Weibe in einem Hause wohnen.",
+      "citation": "Jesus Sirach 25:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Die Bosheit eines Weibes entstellt ihr Aussehen und macht ihr Gesicht finster wie das eines Bären.",
+      "citation": "Jesus Sirach 25:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Im Kreise seiner Freunde setzt sich ihr Mann zu Tisch, und wenn er sie hat reden hören, seufzt er bitterlich.",
+      "citation": "Jesus Sirach 25:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Gering ist jede Schlechtigkeit im Vergleich mit der eines Weibes; das Los des Sünders treffe sie!",
+      "citation": "Jesus Sirach 25:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Wie ein sandiger Aufstieg für die Füße eines Alten, so ist ein zungenfertiges Weib für einen ruhigen Mann.",
+      "citation": "Jesus Sirach 25:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Falle nicht herein auf die Schönheit einer Frau und trage kein Verlangen nach dem Vermögen, das sie hat:",
+      "citation": "Jesus Sirach 25:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "schimpfliche Knechtschaft (g) und große Schande gibt es, wenn eine Frau ihren Mann unterhält.",
+      "citation": "Jesus Sirach 25:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Ein niedergeschlagenes Herz und ein finsteres Antlitz und Herzweh bringt ein böses Weib zustande; schlaffe Hände und schlotternde Kniee schafft ein Weib, das den Ehemann nicht glücklich macht.",
+      "citation": "Jesus Sirach 25:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Von einem Weibe ist der Anfang der Sünde gekommen, und um ihretwillen müssen wir alle sterben.",
+      "citation": "Jesus Sirach 25:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Überlaß dem Wasser keinen Abfluß und einem boshaften Weibe nicht die Herrschaft;",
+      "citation": "Jesus Sirach 25:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "wenn sie nicht Hand in Hand mit dir geht, so schneide sie dir vom Leibe ab.",
+      "citation": "Jesus Sirach 25:25 (Menge)"
+    }
+  ]
+}

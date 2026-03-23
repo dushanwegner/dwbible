@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Timotheus, Chapter 6 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Timotheus",
+      "slug": "1-timothy",
+      "testament": "NT",
+      "order": 61,
+      "totalChapters": 6
+    },
+    "chapter": 6,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-timothy/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-timothy/5.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-timothy/6.json",
+      "latin": "https://latinprayer.org/latin/1-timothy/6.json"
+    }
+  },
+  "citation": "1 Timotheus 6 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Alle, die als Sklaven unter dem Joch (der Knechtschaft) stehen, sollen ihre Herren aller Ehrerbietung würdig achten, damit der Name Gottes und die (christliche) Lehre nicht gelästert werden.",
+      "citation": "1 Timotheus 6:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Diejenigen aber unter ihnen, welche Gläubige zu Herren haben, sollen diesen deshalb nicht mit Geringschätzung entgegentreten, weil sie Brüder sind, sondern sollen ihren Dienst um so eifriger versehen, weil sie es mit Gläubigen und Gottgeliebten zu tun haben, die sich des Wohltuns befleißigen.",
+      "citation": "1 Timotheus 6:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dieses lehre und schärfe es ein: Wer anders lehrt und sich nicht an die gesunden Worte unsers Herrn Jesus Christus und an die Lehre hält, welche der Gottseligkeit dient,",
+      "citation": "1 Timotheus 6:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "der ist von Hochmut verblendet und versteht in Wirklichkeit nichts, sondern krankt an der Sucht nach spitzfindigen Untersuchungen und Wortgezänk, aus denen nur Neid und Streit, Schmähungen, boshafte Verdächtigungen",
+      "citation": "1 Timotheus 6:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "und fortwährende Zänkereien von Menschen entstehen, die geistig zerrüttet sind und (den Sinn für) die Wahrheit verloren haben, weil sie in der Gottseligkeit eine Erwerbsquelle sehen.",
+      "citation": "1 Timotheus 6:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Allerdings ist die Gottseligkeit eine reiche Erwerbsquelle, nämlich in Verbindung mit Genügsamkeit;",
+      "citation": "1 Timotheus 6:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "denn wir haben nichts (mit uns) in die Welt hineingebracht; so können wir auch nichts aus ihr mit hinausnehmen.",
+      "citation": "1 Timotheus 6:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Haben wir also Nahrung und Kleidung, so wollen wir uns daran genügen lassen;",
+      "citation": "1 Timotheus 6:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "denn die, welche um jeden Preis reich werden wollen, geraten in Versuchung und in eine Schlinge und in viele törichte und schädliche Begierden, welche die Menschen in Untergang und Verderben stürzen.",
+      "citation": "1 Timotheus 6:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Denn eine Wurzel alles Bösen ist die Geldgier; gar manche, die sich ihr ergeben haben, sind vom Glauben abgeirrt und zermartern sich selbst mit vielen qualvollen Schmerzen.",
+      "citation": "1 Timotheus 6:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Du aber, Mann Gottes, halt dich von diesem (allem) fern. Trachte vielmehr nach Gerechtigkeit und Gottseligkeit, nach Glauben und Liebe, nach Standhaftigkeit und Sanftmut!",
+      "citation": "1 Timotheus 6:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Kämpfe den guten Kampf des Glaubens, ergreife das ewige Leben, zu dem du berufen bist und für das du das herrliche Bekenntnis vor vielen Zeugen abgelegt hast.",
+      "citation": "1 Timotheus 6:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ich gebiete dir vor dem Angesicht Gottes, der alles Leben schafft, und vor Christus Jesus, der vor Pontius Pilatus das herrliche Bekenntnis abgelegt hat:",
+      "citation": "1 Timotheus 6:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Führe den (dir erteilten) Auftrag so aus, daß du ohne Flecken, ohne Tadel bleibst bis zur Erscheinung unsers Herrn Jesus Christus,",
+      "citation": "1 Timotheus 6:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "die der selige und alleinige Machthaber zur festgesetzten Zeit eintreten lassen wird, er, der König der Könige und der Herr der Herren,",
+      "citation": "1 Timotheus 6:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "der allein Unsterblichkeit besitzt, der da wohnt in einem unzugänglichen Licht, den kein Mensch gesehen hat noch zu sehen vermag: ihm gebührt Ehre und Macht! Amen.",
+      "citation": "1 Timotheus 6:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Denen, die Reichtum in der jetzigen Weltzeit besitzen, schärfe ein, daß sie sich nicht überheben und ihre Hoffnung nicht auf die Unsicherheit des Reichtums setzen, sondern auf Gott, der uns alles reichlich zum Genießen darbietet.",
+      "citation": "1 Timotheus 6:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "(Schärfe ihnen ein,) Gutes zu tun, reich an guten Werken zu sein, Freigebigkeit und Mildtätigkeit zu üben",
+      "citation": "1 Timotheus 6:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "und sich dadurch ein gutes Grundvermögen für die Zukunft anzulegen, damit sie das wirkliche Leben erlangen.",
+      "citation": "1 Timotheus 6:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "O Timotheus, nimm das dir anvertraute Gut in treue Hut und meide das unfromme leere Geschwätz und die Streitsätze der mit Unrecht so genannten »Erkenntnis«!",
+      "citation": "1 Timotheus 6:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Manche sind schon dadurch, daß sie sich zu ihr bekannten, im Glauben auf Abwege geraten. Die Gnade sei mit euch!",
+      "citation": "1 Timotheus 6:21 (Menge)"
+    }
+  ]
+}

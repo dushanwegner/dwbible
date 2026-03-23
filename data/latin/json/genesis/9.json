@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 9 — 29 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 26
+    },
+    "chapter": 9,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/genesis/8.json",
+      "nextChapter": "https://latinprayer.org/latin/genesis/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/9.json",
+      "german": "https://latinprayer.org/bibel/genesis/9.json"
+    }
+  },
+  "citation": "Genesis 9 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "benedixitque Deus Noe et filiis eius et dixit ad eos crescite et multiplicamini et implete terram",
+      "citation": "Genesis 9:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et terror vester ac tremor sit super cuncta animalia terrae et super omnes volucres caeli cum universis quae moventur in terra omnes pisces maris manui vestrae traditi sunt",
+      "citation": "Genesis 9:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et omne quod movetur et vivit erit vobis in cibum quasi holera virentia tradidi vobis omnia",
+      "citation": "Genesis 9:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "excepto quod carnem cum sanguine non comedetis",
+      "citation": "Genesis 9:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "sanguinem enim animarum vestrarum requiram de manu cunctarum bestiarum et de manu hominis de manu viri et fratris eius requiram animam hominis",
+      "citation": "Genesis 9:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quicumque effuderit humanum sanguinem fundetur sanguis illius ad imaginem quippe Dei factus est homo",
+      "citation": "Genesis 9:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "vos autem crescite et multiplicamini et ingredimini super terram et implete eam",
+      "citation": "Genesis 9:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "haec quoque dixit Deus ad Noe et ad filios eius cum eo",
+      "citation": "Genesis 9:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ecce ego statuam pactum meum vobiscum et cum semine vestro post vos",
+      "citation": "Genesis 9:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ad omnem animam viventem quae est vobiscum tam in volucribus quam in iumentis et pecudibus terrae cunctis quae egressa sunt de arca et universis bestiis terrae",
+      "citation": "Genesis 9:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "statuam pactum meum vobiscum et nequaquam ultra interficietur omnis caro aquis diluvii neque erit deinceps diluvium dissipans terram",
+      "citation": "Genesis 9:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "dixitque Deus hoc signum foederis quod do inter me et vos et ad omnem animam viventem quae est vobiscum in generationes sempiternas",
+      "citation": "Genesis 9:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "arcum meum ponam in nubibus et erit signum foederis inter me et inter terram",
+      "citation": "Genesis 9:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "cumque obduxero nubibus caelum apparebit arcus meus in nubibus",
+      "citation": "Genesis 9:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et recordabor foederis mei vobiscum et cum omni anima vivente quae carnem vegetat et non erunt ultra aquae diluvii ad delendam universam carnem",
+      "citation": "Genesis 9:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "eritque arcus in nubibus et videbo illum et recordabor foederis sempiterni quod pactum est inter Deum et inter omnem animam viventem universae carnis quae est super terram",
+      "citation": "Genesis 9:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "dixitque Deus Noe hoc erit signum foederis quod constitui inter me et inter omnem carnem super terram",
+      "citation": "Genesis 9:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "erant igitur filii Noe qui egressi sunt de arca Sem Ham et Iafeth porro Ham ipse est pater Chanaan",
+      "citation": "Genesis 9:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "tres isti sunt filii Noe et ab his disseminatum est omne hominum genus super universam terram",
+      "citation": "Genesis 9:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "coepitque Noe vir agricola exercere terram et plantavit vineam",
+      "citation": "Genesis 9:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "bibensque vinum inebriatus est et nudatus in tabernaculo suo",
+      "citation": "Genesis 9:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quod cum vidisset Ham pater Chanaan verenda scilicet patris sui esse nuda nuntiavit duobus fratribus suis foras",
+      "citation": "Genesis 9:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "at vero Sem et Iafeth pallium inposuerunt umeris suis et incedentes retrorsum operuerunt verecunda patris sui faciesque eorum aversae erant et patris virilia non viderunt",
+      "citation": "Genesis 9:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "evigilans autem Noe ex vino cum didicisset quae fecerat ei filius suus minor",
+      "citation": "Genesis 9:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "ait maledictus Chanaan servus servorum erit fratribus suis",
+      "citation": "Genesis 9:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "dixitque benedictus Dominus Deus Sem sit Chanaan servus eius",
+      "citation": "Genesis 9:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "dilatet Deus Iafeth et habitet in tabernaculis Sem sitque Chanaan servus eius",
+      "citation": "Genesis 9:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "vixit autem Noe post diluvium trecentis quinquaginta annis",
+      "citation": "Genesis 9:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et impleti sunt omnes dies eius nongentorum quinquaginta annorum et mortuus est",
+      "citation": "Genesis 9:29 (Clementine Vulgate)"
+    }
+  ]
+}

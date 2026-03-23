@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Osee, Chapter 7 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Osee",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 7,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/osee/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/osee/6.json",
+      "nextChapter": "https://latinprayer.org/bible/osee/8.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/osee/7.json",
+      "german": "https://latinprayer.org/bibel/osee/7.json"
+    }
+  },
+  "citation": "Osee 7 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "When I would have healed Israel, the iniquity of Ephraim was discovered, and the wickedness of Samaria, for they have committed falsehood, and the thief is come in to steal, the robber is without.",
+      "citation": "Osee 7:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And lest they may say in their hearts, that I remember all their wickedness: their own devices now have beset them about, they have been done before my face.",
+      "citation": "Osee 7:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "They have made the king glad with their wickedness: and the princes with their lies.",
+      "citation": "Osee 7:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "They are all adulterers, like an oven heated by the baker: the city rested a little from the mingling of the leaven, till the whole was leavened.",
+      "citation": "Osee 7:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The day of our king, the princes began to be mad with wine: he stretched out his hand with scorners.",
+      "citation": "Osee 7:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Because they have applied their heart like an oven, when he laid snares for them: he slept all the night baking them, in the morning he himself was heated as a flaming fire.",
+      "citation": "Osee 7:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "They were all heated like an oven, and have devoured their judges: all their kings have fallen: there is none amongst them that calleth unto me.",
+      "citation": "Osee 7:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Ephraim himself is mixed among the nations: Ephraim is become as bread baked under the ashes, that is not turned.",
+      "citation": "Osee 7:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Strangers have devoured his strength, and he knew it not: yea, grey hairs also are spread about upon him, and he is ignorant of it.",
+      "citation": "Osee 7:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the pride of Israel shall be humbled before his face: and they have not returned to the Lord their God, nor have they sought him in all these.",
+      "citation": "Osee 7:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Ephraim is become as a dove that is decoyed, not having a heart: they called upon Egypt, they went to the Assyrians.",
+      "citation": "Osee 7:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And when they shall go, I will spread my net upon them: I will bring them down as the fowl of the air, I will strike them as their congregation hath heard.",
+      "citation": "Osee 7:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Woe to them, for they have departed from me: they shall be wasted because they have transgressed against me: and I redeemed them: and they have spoken lies against me.",
+      "citation": "Osee 7:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And they have not cried to me with their heart, but they howled in their beds: they have thought upon wheat and wine, they are departed from me.",
+      "citation": "Osee 7:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And I have chastised them, and strengthened their arms: and they have imagined evil against me.",
+      "citation": "Osee 7:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "They returned, that they might be without yoke: they became like a deceitful bow: their princes shall fall by the sword, for the rage of their tongue. This is their derision in the land of Egypt.",
+      "citation": "Osee 7:16 (Douay-Rheims)"
+    }
+  ]
+}

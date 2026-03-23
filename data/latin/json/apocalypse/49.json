@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Revelation, Chapter 49 — 19 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Revelation",
+      "slug": "apocalypse",
+      "testament": "NT",
+      "order": 73,
+      "totalChapters": 35
+    },
+    "chapter": 49,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/apocalypse/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/apocalypse/48.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/apocalypse/49.json",
+      "german": "https://latinprayer.org/bibel/apocalypse/49.json"
+    }
+  },
+  "citation": "Revelation 49 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "memoria Iosiae in conpositione odoris facti opus pigmentarii",
+      "citation": "Revelation 49:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in omni ore quasi mel indulcabitur eius memoria et ut musica in convivio vini",
+      "citation": "Revelation 49:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ipse est directus divinitus in paenitentia gentis et tulit abominationes impietatis",
+      "citation": "Revelation 49:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et gubernavit ad Dominum cor ipsius in diebus peccatorum corroboravit pietatem",
+      "citation": "Revelation 49:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "praeter David et Ezechiam et Iosiam omnes peccatum commiserunt",
+      "citation": "Revelation 49:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nam reliquerunt legem Potentis reges Iudae et contempserunt timorem Dei",
+      "citation": "Revelation 49:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "dederunt enim regnum suum aliis et gloriam suam alienae genti",
+      "citation": "Revelation 49:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "incenderunt electam sanctitatis civitatem et desertas fecerunt vias ipsius in manu Hieremiae",
+      "citation": "Revelation 49:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "nam male tractaverunt illum qui a ventre matris consecratus est propheta evertere et eruere et perdere et iterum aedificare et renovare",
+      "citation": "Revelation 49:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "Ezechihel qui vidit conspectum gloriae quam ostendit illi in curru cherubin",
+      "citation": "Revelation 49:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "nam commemoratus est inimicorum in imbri et benefacere illis qui ostenderunt rectas vias",
+      "citation": "Revelation 49:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et duodecim prophetarum ossa pullulent de loco suo nam rogaverunt Iacob et redimerunt se in fide virtutis",
+      "citation": "Revelation 49:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quomodo amplificemus Zorobabel nam et ipse quasi signum in dextera manu in Israhel",
+      "citation": "Revelation 49:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et Iesum Iosedec qui in diebus suis aedificaverunt domum et exaltaverunt templum sanctum Domino paratum in gloria sempiterna",
+      "citation": "Revelation 49:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et Neemia in memoria multi temporis qui erexit nobis muros eversos et stare fecit portas et seras qui erexit domos nostras",
+      "citation": "Revelation 49:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "nemo natus est in terra qualis Enoch nam et ipse receptus est a terra",
+      "citation": "Revelation 49:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et Ioseph natus est homo princeps fratrum firmamentum gentis rector fratrum stabilimentum populi",
+      "citation": "Revelation 49:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et ossa ipsius visitata sunt et post mortem prophetaverunt",
+      "citation": "Revelation 49:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Seth et Sem apud homines gloriam adepti sunt et super omnem animam in origine Adam",
+      "citation": "Revelation 49:19 (Clementine Vulgate)"
+    }
+  ]
+}

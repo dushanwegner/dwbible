@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Habacuc, Chapter 3 — 19 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Habacuc",
+      "slug": "habacuc",
+      "testament": "OT",
+      "order": 40,
+      "totalChapters": 3
+    },
+    "chapter": 3,
+    "verseCount": 19,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/habacuc/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/habacuc/2.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/habacuc/3.json",
+      "german": "https://latinprayer.org/bibel/habacuc/3.json"
+    }
+  },
+  "citation": "Habacuc 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A PRAYER OF HABACUC THE PROPHET FOR IGNORANCES.",
+      "citation": "Habacuc 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "O Lord, I have heard thy hearing, and was afraid.  O Lord, thy work, in the midst of the years bring it to life: In the midst of the years thou shalt make it known: when thou art angry, thou wilt remember mercy.",
+      "citation": "Habacuc 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "God will come from the south, and the holy one from mount Pharan: His glory covered the heavens, and the earth is full of his praise.",
+      "citation": "Habacuc 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "His brightness shall be as the light: horns are in his hands: There is his strength hid:",
+      "citation": "Habacuc 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Death shall go before his face.  And the devil shall go forth before his feet.",
+      "citation": "Habacuc 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "He stood and measured the earth.  He beheld, and melted the nations: and the ancient mountains were crushed to pieces.  The hills of the world were bowed down by the journeys of his eternity.",
+      "citation": "Habacuc 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "I saw the tents of Ethiopia for their iniquity, the curtains of the land of Madian shall be troubled.",
+      "citation": "Habacuc 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Wast thou angry, O Lord, with the rivers? or was thy wrath upon the rivers? or thy indignation in the sea?  Who will ride upon thy horses: and thy chariots are salvation.",
+      "citation": "Habacuc 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Thou wilt surely take up thy bow: according to the oaths which thou hast spoken to the tribes.  Thou wilt divide the rivers of the earth.",
+      "citation": "Habacuc 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The mountains saw thee, and were grieved: the great body of waters passed away.  The deep put forth its voice: the deep lifted up its hands.",
+      "citation": "Habacuc 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The sun and the moon stood still in their habitation, in the light of thy arrows, they shall go in the brightness of thy glittering spear.",
+      "citation": "Habacuc 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "In thy anger thou wilt tread the earth under foot: in thy wrath thou wilt astonish the nations.",
+      "citation": "Habacuc 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Thou wentest forth for the salvation of thy people: for salvation with thy Christ.  Thou struckest the head of the house of the wicked: thou hast laid bare his foundation even to the neck.",
+      "citation": "Habacuc 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Thou hast cursed his sceptres, the head of his warriors, them that came out as a whirlwind to scatter me. Their joy was like that of him that devoureth the poor man in secret.",
+      "citation": "Habacuc 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Thou madest a way in the sea for thy horses, in the mud of many waters.",
+      "citation": "Habacuc 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "I have heard and my bowels were troubled: my lips trembled at the voice.  Let rottenness enter into my bones, and swarm under me.  That I may rest in the day of tribulation: that I may go up to our people that are girded.",
+      "citation": "Habacuc 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "For the fig tree shall not blossom: and there shall be no spring in the vines. The labour of the olive tree shall fail: and the fields shall yield no food: the flock shall be cut off from the fold, and there shall be no herd in the stalls.",
+      "citation": "Habacuc 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "But I will rejoice in the Lord: and I will joy in God my Jesus.",
+      "citation": "Habacuc 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The Lord God is my strength: and he will make my feet like the feet of harts: and he the conqueror will lead me upon my high places singing psalms.",
+      "citation": "Habacuc 3:19 (Douay-Rheims)"
+    }
+  ]
+}

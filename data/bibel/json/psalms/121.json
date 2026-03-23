@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 121 — 8 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 121,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/120.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/122.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/121.json",
+      "latin": "https://latinprayer.org/latin/psalms/121.json"
+    }
+  },
+  "citation": "Psalmen 121 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Lied für Wallfahrten</em>. Ich hebe meine Augen auf zu den Bergen: von wo wird Hilfe mir kommen?",
+      "citation": "Psalmen 121:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Meine Hilfe kommt vom HERRN, der Himmel und Erde geschaffen.",
+      "citation": "Psalmen 121:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Er wird deinen Fuß nicht wanken lassen; nicht schlummert dein Hüter.",
+      "citation": "Psalmen 121:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Nein, nicht schlummert und nicht schläft der Hüter Israels.",
+      "citation": "Psalmen 121:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Der HERR ist dein Hüter, der HERR dein Schatten über deiner rechten Hand,",
+      "citation": "Psalmen 121:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "daß dich bei Tage die Sonne nicht sticht, noch der Mond in der Nacht.",
+      "citation": "Psalmen 121:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Der HERR behütet dich vor allem Übel, er behütet deine Seele;",
+      "citation": "Psalmen 121:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "der HERR behütet deinen Ausgang und Eingang von nun an bis in Ewigkeit.",
+      "citation": "Psalmen 121:8 (Menge)"
+    }
+  ]
+}

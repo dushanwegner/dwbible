@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 5 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 5,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/job/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/job/4.json",
+      "nextChapter": "https://latinprayer.org/latin/job/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/job/5.json",
+      "german": "https://latinprayer.org/bibel/job/5.json"
+    }
+  },
+  "citation": "Job 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "voca ergo si est qui tibi respondeat et ad aliquem sanctorum convertere",
+      "citation": "Job 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "vere stultum interficit iracundia et parvulum occidit invidia",
+      "citation": "Job 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ego vidi stultum firma radice et maledixi pulchritudini eius statim",
+      "citation": "Job 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "longe fient filii eius a salute et conterentur in porta et non erit qui eruat",
+      "citation": "Job 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "cuius messem famelicus comedet et ipsum rapiet armatus et ebibent sitientes divitias eius",
+      "citation": "Job 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nihil in terra sine causa fit et de humo non orietur dolor",
+      "citation": "Job 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "homo ad laborem nascitur et avis ad volatum",
+      "citation": "Job 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quam ob rem ego deprecabor Dominum et ad Deum ponam eloquium meum",
+      "citation": "Job 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "qui facit magna et inscrutabilia et mirabilia absque numero",
+      "citation": "Job 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui dat pluviam super faciem terrae et inrigat aquis universa",
+      "citation": "Job 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "qui ponit humiles in sublimi et maerentes erigit sospitate",
+      "citation": "Job 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "qui dissipat cogitationes malignorum ne possint implere manus eorum quod coeperant",
+      "citation": "Job 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "qui adprehendit sapientes in astutia eorum et consilium pravorum dissipat",
+      "citation": "Job 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "per diem incurrent tenebras et quasi in nocte sic palpabunt in meridie",
+      "citation": "Job 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "porro salvum faciet a gladio oris eorum et de manu violenti pauperem",
+      "citation": "Job 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et erit egeno spes iniquitas autem contrahet os suum",
+      "citation": "Job 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "beatus homo qui corripitur a Domino increpationem ergo Domini ne reprobes",
+      "citation": "Job 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quia ipse vulnerat et medetur percutit et manus eius sanabunt",
+      "citation": "Job 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "in sex tribulationibus liberabit te et in septima non tanget te malum",
+      "citation": "Job 5:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in fame eruet te de morte et in bello de manu gladii",
+      "citation": "Job 5:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "a flagello linguae absconderis et non timebis calamitatem cum venerit",
+      "citation": "Job 5:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "in vastitate et fame ridebis et bestiam terrae non formidabis",
+      "citation": "Job 5:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "sed cum lapidibus regionum pactum tuum et bestiae terrae pacificae erunt tibi",
+      "citation": "Job 5:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et scies quod pacem habeat tabernaculum tuum et visitans speciem tuam non peccabis",
+      "citation": "Job 5:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "scies quoque quoniam multiplex erit semen tuum et progenies tua quasi herba terrae",
+      "citation": "Job 5:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "ingredieris in abundantia sepulchrum sicut infertur acervus in tempore suo",
+      "citation": "Job 5:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "ecce hoc ut investigavimus ita est quod auditum mente pertracta",
+      "citation": "Job 5:27 (Clementine Vulgate)"
+    }
+  ]
+}

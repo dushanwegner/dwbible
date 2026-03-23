@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Nahum, Chapter 2 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Nahum",
+      "slug": "nahum",
+      "testament": "OT",
+      "order": 39,
+      "totalChapters": 3
+    },
+    "chapter": 2,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/nahum/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/nahum/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/nahum/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/nahum/2.json",
+      "latin": "https://latinprayer.org/latin/nahum/2.json"
+    }
+  },
+  "citation": "Nahum 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Sehet da: auf den Bergen die Schritte eines Freudenboten, der Heil verkündigt! Feiere, Juda, deine Feste, erfülle deine Gelübde! Denn hinfort wird der Nichtswürdige dich nicht mehr durchziehen: er ist völlig vernichtet.",
+      "citation": "Nahum 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Es rückt gegen dich (Ninive) der Zerstörer heran: wahre die Festung, überwache die Straße, lege dir den Gurt fest um die Hüften, nimm alle Kraft zusammen!",
+      "citation": "Nahum 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn der HERR stellt den Weinstock Jakobs wieder her gleichwie den Weinstock Israels; denn Verwüster haben sie verwüstet und ihre Ranken vernichtet.",
+      "citation": "Nahum 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Die Schilde seiner Krieger sind rot gefärbt, die Mannen in Scharlach gekleidet; es funkelt der Stahl an den Kriegswagen, sooft er sie zurüstet, und die Lanzen werden geschwungen.",
+      "citation": "Nahum 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Auf den Straßen rasen die Wagen einher, jagen auf den freien Plätzen dahin; wie Fackeln sind sie anzusehen, wie Blitze fahren sie hin und her.",
+      "citation": "Nahum 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Er bietet seine Edlen auf: strauchelnd kommen sie auf ihren Bahnen herbei; sie eilen hin zur Mauer der Stadt, doch schon ist das Schutzdach aufgestellt.",
+      "citation": "Nahum 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Die Tore an den Strömen werden erbrochen: da verzagt der Palast.",
+      "citation": "Nahum 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Die Königin wird entkleidet und weggeführt, während ihre Mägde wie girrende Tauben schluchzen und sich auf den Busen schlagen.",
+      "citation": "Nahum 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ninive ist wie ein Teich, dessen Wasser entweichen. (Wohl ruft man:) »Halt, halt!«, doch niemand wendet sich um.",
+      "citation": "Nahum 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "»Raubt Silber, raubt Gold!« Denn unermeßlich ist der Vorrat, die Fülle von Kostbarkeiten jeder Art.",
+      "citation": "Nahum 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "O Öde, Verödung und Verheerung! Verzagte Herzen und schlotternde Knie, Zittern in allen Lenden und Totenblässe in allen Gesichtern!",
+      "citation": "Nahum 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wo ist nun die Behausung der Löwen und die Lagerstätte der jungen Leuen, wo der Löwe, die Löwin umherstreifte und das Löwenjunge, von niemand aufgeschreckt?",
+      "citation": "Nahum 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Der Löwe raubte, bis seine Jungen genug hatten, und mordete für seine Löwinnen; er füllte seine Höhlen mit Raub an und seine Schlupfwinkel mit zerrissenen (Beutetieren).",
+      "citation": "Nahum 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "»Nunmehr will ich an dich« – so lautet der Ausspruch des HERRN der Heerscharen – »und will deine Kriegswagen in Rauch aufgehen lassen; deine jungen Leuen soll das Schwert fressen, und ich will deinem Rauben auf der Erde ein Ende machen, und die Stimme deiner Sendlinge soll man fortan nicht mehr vernehmen!«",
+      "citation": "Nahum 2:14 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 52 — 15 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 52,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/51.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/53.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/52.json",
+      "german": "https://latinprayer.org/bibel/isaias/52.json"
+    }
+  },
+  "citation": "Isaias 52 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Arise, arise, put on thy strength, O Sion, put on the garments of thy glory, O Jerusalem, the city of the Holy One: for henceforth the uncircumcised, and unclean shall no more pass through thee.",
+      "citation": "Isaias 52:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Shake thyself from the dust, arise, sit up, O Jerusalem: loose the bonds from off thy neck, O captive daughter of Sion.",
+      "citation": "Isaias 52:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For thus saith the Lord: You were sold gratis, and you shall be redeemed, without money.",
+      "citation": "Isaias 52:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For thus saith the Lord God: My people went down into Egypt at the beginning to sojourn there: and the Assyrian hath oppressed them without any cause at all.",
+      "citation": "Isaias 52:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And now what have I here, saith the Lord: for my people is taken away gratis. They that rule over them treat them unjustly, saith the Lord, and my name is continually blasphemed all the day long.",
+      "citation": "Isaias 52:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Therefore my people shall know my name in that day: for I myself that spoke, behold I am here.",
+      "citation": "Isaias 52:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "How beautiful upon the mountains are the feet of him that bringeth good tidings, and that preacheth peace: of him that sheweth forth good, that preacheth salvation, that saith to Sion: Thy God shall reign!",
+      "citation": "Isaias 52:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The voice of thy watchmen: they have lifted up their voice, they shall praise together: for they shall see eye to eye when the Lord shall convert Sion.",
+      "citation": "Isaias 52:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Rejoice, and give praise together, O ye deserts of Jerusalem: for the Lord hath comforted his people: he hath redeemed Jerusalem.",
+      "citation": "Isaias 52:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The Lord hath prepared his holy arm in the sight of all the Gentiles: and all the ends of the earth shall see the salvation of our God.",
+      "citation": "Isaias 52:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Depart, depart, go ye out from thence, touch no unclean thing: go out of the midst of her, be ye clean, you that carry the vessels of the Lord.",
+      "citation": "Isaias 52:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "For you shall not go out in a tumult, neither shall you make haste by flight: for the Lord will go before you, and the God of Israel will gather you together.",
+      "citation": "Isaias 52:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Behold my servant shall understand, he shall be exalted, and extolled, and shall be exceeding high.",
+      "citation": "Isaias 52:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "As many have been astonished at thee, so shall his visage be inglorious among men, and his form among the sons of men.",
+      "citation": "Isaias 52:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "He shall sprinkle many nations, kings shall shut their mouth at him: for they to whom it was not told of him, have seen: and they that heard not, have beheld.",
+      "citation": "Isaias 52:15 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 14 — 24 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 26
+    },
+    "chapter": 14,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/genesis/13.json",
+      "nextChapter": "https://latinprayer.org/latin/genesis/15.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/14.json",
+      "german": "https://latinprayer.org/bibel/genesis/14.json"
+    }
+  },
+  "citation": "Genesis 14 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "factum est autem in illo tempore ut Amrafel rex Sennaar et Arioch rex Ponti et Chodorlahomor rex Aelamitarum et Thadal rex Gentium",
+      "citation": "Genesis 14:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "inirent bellum contra Bara regem Sodomorum et contra Bersa regem Gomorrae et contra Sennaab regem Adamae et contra Semeber regem Seboim contraque regem Balae ipsa est Segor",
+      "citation": "Genesis 14:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "omnes hii convenerunt in vallem Silvestrem quae nunc est mare Salis",
+      "citation": "Genesis 14:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "duodecim enim annis servierant Chodorlahomor et tertiodecimo anno recesserunt ab eo",
+      "citation": "Genesis 14:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "igitur anno quartodecimo venit Chodorlahomor et reges qui erant cum eo percusseruntque Rafaim in Astharothcarnaim et Zuzim cum eis et Emim in Savecariathaim",
+      "citation": "Genesis 14:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et Chorreos in montibus Seir usque ad campestria Pharan quae est in solitudine",
+      "citation": "Genesis 14:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "reversique sunt et venerunt ad fontem Mesfat ipsa est Cades et percusserunt omnem regionem Amalechitarum et Amorreum qui habitabat in Asasonthamar",
+      "citation": "Genesis 14:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et egressi sunt rex Sodomorum et rex Gomorrae rexque Adamae et rex Seboim necnon et rex Balae quae est Segor et direxerunt contra eos aciem in valle Silvestri",
+      "citation": "Genesis 14:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "scilicet adversum Chodorlahomor regem Aelamitarum et Thadal regem Gentium et Amrafel regem Sennaar et Arioch regem Ponti quattuor reges adversus quinque",
+      "citation": "Genesis 14:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "vallis autem Silvestris habebat puteos multos bituminis itaque rex Sodomorum et Gomorrae terga verterunt cecideruntque ibi et qui remanserant fugerunt ad montem",
+      "citation": "Genesis 14:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "tulerunt autem omnem substantiam Sodomorum et Gomorrae et universa quae ad cibum pertinent et abierunt",
+      "citation": "Genesis 14:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "necnon et Loth et substantiam eius filium fratris Abram qui habitabat in Sodomis",
+      "citation": "Genesis 14:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et ecce unus qui evaserat nuntiavit Abram Hebraeo qui habitabat in convalle Mambre Amorrei fratris Eschol et fratris Aner hii enim pepigerant foedus cum Abram",
+      "citation": "Genesis 14:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quod cum audisset Abram captum videlicet Loth fratrem suum numeravit expeditos vernaculos suos trecentos decem et octo et persecutus est eos usque Dan",
+      "citation": "Genesis 14:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et divisis sociis inruit super eos nocte percussitque eos et persecutus est usque Hoba quae est ad levam Damasci",
+      "citation": "Genesis 14:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "reduxitque omnem substantiam et Loth fratrem suum cum substantia illius mulieres quoque et populum",
+      "citation": "Genesis 14:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "egressus est autem rex Sodomorum in occursum eius postquam reversus est a caede Chodorlahomor et regum qui cum eo erant in valle Save quae est vallis Regis",
+      "citation": "Genesis 14:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "at vero Melchisedech rex Salem proferens panem et vinum erat enim sacerdos Dei altissimi",
+      "citation": "Genesis 14:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "benedixit ei et ait benedictus Abram Deo excelso qui creavit caelum et terram",
+      "citation": "Genesis 14:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et benedictus Deus excelsus quo protegente hostes in manibus tuis sunt et dedit ei decimas ex omnibus",
+      "citation": "Genesis 14:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "dixit autem rex Sodomorum ad Abram da mihi animas cetera tolle tibi",
+      "citation": "Genesis 14:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "qui respondit ei levo manum meam ad Dominum Deum excelsum possessorem caeli et terrae",
+      "citation": "Genesis 14:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "quod a filo subteminis usque ad corrigiam caligae non accipiam ex omnibus quae tua sunt ne dicas ego ditavi Abram",
+      "citation": "Genesis 14:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "exceptis his quae comederunt iuvenes et partibus virorum qui venerunt mecum Aner Eschol et Mambre isti accipient partes suas",
+      "citation": "Genesis 14:24 (Clementine Vulgate)"
+    }
+  ]
+}

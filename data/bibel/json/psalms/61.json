@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 61 — 9 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 61,
+    "verseCount": 9,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/60.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/62.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/61.json",
+      "latin": "https://latinprayer.org/latin/psalms/61.json"
+    }
+  },
+  "citation": "Psalmen 61 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister über das Saitenspiel; von David.</em>",
+      "citation": "Psalmen 61:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Höre, o Gott, mein lautes Rufen, achte auf mein Gebet!",
+      "citation": "Psalmen 61:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Vom Ende der Erde ruf’ ich zu dir, da mein Herz verschmachtet. Auf einen Felsen, der mir zu hoch ist, wollest du mich führen!",
+      "citation": "Psalmen 61:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denn du bist mir stets eine Zuflucht gewesen, ein starker Turm vor dem Feinde.",
+      "citation": "Psalmen 61:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Könnt’ ich doch allzeit weilen in deinem Zelt, im Schutze deiner Flügel mich bergen! SELA.",
+      "citation": "Psalmen 61:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Denn du, Gott, hörst auf meine Gelübde, hast Besitz (mir) gewährt, wie die ihn erhalten, die deinen Namen fürchten.",
+      "citation": "Psalmen 61:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Füge neue Tage den Tagen des Königs hinzu, laß seine Jahre dauern für und für!",
+      "citation": "Psalmen 61:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Ewig möge er thronen vor Gottes Angesicht! Entbiete Gnade und Treue, daß sie ihn behüten!",
+      "citation": "Psalmen 61:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Dafür will ich ewig deinem Namen lobsingen, auf daß ich meine Gelübde bezahle Tag für Tag.",
+      "citation": "Psalmen 61:9 (Menge)"
+    }
+  ]
+}

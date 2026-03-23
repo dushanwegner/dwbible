@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Galater, Chapter 1 — 24 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Galater",
+      "slug": "galatians",
+      "testament": "NT",
+      "order": 55,
+      "totalChapters": 6
+    },
+    "chapter": 1,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/galatians/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/bibel/galatians/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/galatians/1.json",
+      "latin": "https://latinprayer.org/latin/galatians/1.json"
+    }
+  },
+  "citation": "Galater 1 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Ich, Paulus, ein Apostel – nicht von Menschen her (entsandt), auch nicht durch Vermittlung eines Menschen (dazu gemacht), sondern durch Jesus Christus und Gott den Vater, der ihn von den Toten auferweckt hat –:",
+      "citation": "Galater 1:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "ich und sämtliche Brüder, die hier bei mir sind, senden den Gemeinden in Galatien unsern Gruß:",
+      "citation": "Galater 1:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Gnade sei mit euch und Friede von Gott, unserm Vater, und dem Herrn Jesus Christus,",
+      "citation": "Galater 1:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "der sich für unsere Sünden hingegeben hat, um uns aus der gegenwärtigen bösen Welt zu erretten, nach dem Willen unsers Gottes und Vaters.",
+      "citation": "Galater 1:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Diesem sei die Ehre in alle Ewigkeit. Amen.",
+      "citation": "Galater 1:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ich muß mich darüber wundern, daß ihr so schnell wieder abfallt von dem, der euch durch die Gnade Christi berufen hat, und euch einer anderen Heilsbotschaft zuwendet,",
+      "citation": "Galater 1:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "während es doch keine andere (Heilsbotschaft) gibt; nur daß gewisse Leute da sind, die euch verwirren und die Heilsbotschaft Christi verkehren möchten.",
+      "citation": "Galater 1:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Aber auch wenn wir selbst oder ein Engel aus dem Himmel euch eine andere Heilsbotschaft verkündigten als die, welche wir euch verkündigt haben: Fluch über ihn!",
+      "citation": "Galater 1:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Wie wir es schon früher ausgesprochen haben, so wiederhole ich es jetzt noch einmal: »Wenn jemand euch eine andere Heilsbotschaft verkündigt als die, welche ihr (von mir) empfangen habt: Fluch über ihn!«",
+      "citation": "Galater 1:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Suche ich jetzt nun (mit solcher Sprache) den Beifall von Menschen zu gewinnen oder (nicht vielmehr) die Zustimmung Gottes? Oder gehe ich etwa darauf aus, Menschen zu gefallen? Nein, wenn ich mich noch um das Wohlgefallen von Menschen bemühte, so wäre ich kein Knecht Christi.",
+      "citation": "Galater 1:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Ich weise euch nämlich darauf hin, liebe Brüder, daß die von mir zuverlässig verkündigte Heilsbotschaft nicht nach Menschenart ist.",
+      "citation": "Galater 1:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Ich habe sie ja auch nicht von einem Menschen empfangen, noch sie durch Unterricht erlernt, sondern (sie) durch eine Offenbarung Jesu Christi (erhalten).",
+      "citation": "Galater 1:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Ihr habt ja von meinem einstmaligen Verhalten im Judentum gehört: daß ich nämlich die Gemeinde Gottes maßlos verfolgt habe und sie zu vernichten suchte",
+      "citation": "Galater 1:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "und daß ich es an Leidenschaft für das jüdische Wesen vielen meiner Altersgenossen in meinem Volk zuvorgetan habe, indem ich ein ganz besonderer Eiferer für die von meinen Vätern überkommenen Überlieferungen war.",
+      "citation": "Galater 1:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Als es aber dem, der mich vom Mutterleibe an ausgesondert und durch seine Gnade berufen hat, wohlgefällig war,",
+      "citation": "Galater 1:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "seinen Sohn in mir zu offenbaren, damit ich die Heilsbotschaft von ihm unter den Heiden verkündigte, da habe ich mich sofort nicht an Menschen von Fleisch und Blut (um Rat) gewandt,",
+      "citation": "Galater 1:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "bin auch nicht nach Jerusalem zu meinen Vorgängern im Apostelamt hinaufgegangen, nein, ich begab mich nach Arabien und kehrte dann wieder nach Damaskus zurück.",
+      "citation": "Galater 1:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Darauf, drei Jahre später, ging ich nach Jerusalem hinauf, um Kephas kennenzulernen, und blieb fünfzehn Tage bei ihm.",
+      "citation": "Galater 1:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Von den übrigen Aposteln habe ich damals keinen gesehen außer Jakobus, den Bruder des Herrn.",
+      "citation": "Galater 1:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Was ich euch hier schreibe – vor Gottes Angesicht (versichere ich), daß ich die reine Wahrheit sage!",
+      "citation": "Galater 1:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Hierauf begab ich mich in die Landschaften von Syrien und Cilicien.",
+      "citation": "Galater 1:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Den Christengemeinden in Judäa aber blieb ich persönlich unbekannt;",
+      "citation": "Galater 1:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "nur vom Hörensagen wußten sie: »Unser ehemaliger Verfolger verkündigt jetzt als Heilsbotschaft den Glauben, den er einst ausrotten wollte«;",
+      "citation": "Galater 1:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "und sie priesen Gott im Hinblick auf mich.",
+      "citation": "Galater 1:24 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 67 — 8 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 67,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/66.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/68.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/67.json",
+      "german": "https://latinprayer.org/bibel/psalms/67.json"
+    }
+  },
+  "citation": "Psalms 67 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "May God have mercy on us, and bless us: may he cause the light of his countenance to shine upon us, and may he have mercy on us.",
+      "citation": "Psalms 67:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, a psalm of a canticle for David himself.",
+      "citation": "Psalms 67:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "That we may know thy way upon earth: thy salvation in all nations.",
+      "citation": "Psalms 67:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Let people confess to thee, O God: let all people give praise to thee.",
+      "citation": "Psalms 67:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Let the nations be glad and rejoice: for thou judgest the people with justice, and directest the nations upon earth.",
+      "citation": "Psalms 67:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Let the people, O God, confess to thee: let all the people give praise to thee:",
+      "citation": "Psalms 67:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The earth hath yielded her fruit. May God, our God bless us,",
+      "citation": "Psalms 67:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "May God bless us: and all the ends of the earth fear him.",
+      "citation": "Psalms 67:7 (Douay-Rheims)"
+    }
+  ]
+}

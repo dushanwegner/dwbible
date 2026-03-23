@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 18 — 7 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 18,
+    "verseCount": 7,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/17.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/19.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/18.json",
+      "german": "https://latinprayer.org/bibel/isaias/18.json"
+    }
+  },
+  "citation": "Isaiah 18 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "vae terrae cymbalo alarum quae est trans flumina Aethiopiae",
+      "citation": "Isaiah 18:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui mittit in mari legatos et in vasis papyri super aquas ite angeli veloces ad gentem convulsam et dilaceratam ad populum terribilem post quem non est alius gentem expectantem expectantem et conculcatam cuius diripuerunt flumina terram eius",
+      "citation": "Isaiah 18:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "omnes habitatores orbis qui moramini in terra cum elevatum fuerit signum in montibus videbitis et clangorem tubae audietis",
+      "citation": "Isaiah 18:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia haec dicit Dominus ad me quiescam et considerabo in loco meo sicut meridiana lux clara est et sicut nubes roris in die messis",
+      "citation": "Isaiah 18:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ante messem enim totus effloruit et inmatura perfectio germinabit et praecidentur ramusculi eius falcibus et quae derelicta fuerint abscidentur excutientur",
+      "citation": "Isaiah 18:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et relinquentur simul avibus montium et bestiis terrae et aestate perpetua erunt super eum volucres et omnes bestiae terrae super illum hiemabunt",
+      "citation": "Isaiah 18:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in tempore illo deferetur munus Domino exercituum a populo divulso et dilacerato a populo terribili post quem non fuit alius a gente expectante expectante et conculcata cuius diripuerunt flumina terram eius ad locum nominis Domini exercituum montem Sion",
+      "citation": "Isaiah 18:7 (Clementine Vulgate)"
+    }
+  ]
+}

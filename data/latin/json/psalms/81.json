@@ -1,0 +1,196 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 81 — 32 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 81,
+    "verseCount": 32,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/80.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/82.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/81.json",
+      "german": "https://latinprayer.org/bibel/psalms/81.json"
+    }
+  },
+  "citation": "Psalms 81 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "exultate Deo adiutori nostro iubilate Deo Iacob",
+      "citation": "Psalms 81:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "laudate Deum fortitudinem nostram iubilate Deo Iacob",
+      "citation": "Psalms 81:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "sumite psalmum et date tympanum psalterium iucundum cum cithara",
+      "citation": "Psalms 81:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "adsumite carmen et date tympanum citharam decoram cum psalterio",
+      "citation": "Psalms 81:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "bucinate in neomenia tuba in insigni die sollemnitatis nostrae",
+      "citation": "Psalms 81:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "clangite in neomenia bucina et in medio mense die sollemnitatis nostrae",
+      "citation": "Psalms 81:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia praeceptum Israhel est et iudicium Dei Iacob",
+      "citation": "Psalms 81:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia legitimum Israhel est et iudicium Dei Iacob",
+      "citation": "Psalms 81:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "testimonium in Ioseph posuit illud cum exiret de terra Aegypti linguam quam non noverat audivit",
+      "citation": "Psalms 81:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "testimonium in Ioseph posuit cum egrederetur terra Aegypti labium quod nesciebam audivi",
+      "citation": "Psalms 81:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "devertit ab oneribus dorsum eius manus eius in cofino servierunt",
+      "citation": "Psalms 81:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "amovi ab onere umerum eius manus eius a cofino recesserunt",
+      "citation": "Psalms 81:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in tribulatione invocasti me et liberavi te exaudivi te in abscondito tempestatis probavi te apud aquam Contradictionis diapsalma",
+      "citation": "Psalms 81:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in tribulatione invocasti et erui te exaudivi te in abscondito tonitrui probavi te super aquam Contradictionis semper",
+      "citation": "Psalms 81:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "audi populus meus et contestabor te Israhel si audias me",
+      "citation": "Psalms 81:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "audi populus meus et contestor te Israhel si audieris me",
+      "citation": "Psalms 81:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "non erit in te deus recens nec adorabis deum alienum",
+      "citation": "Psalms 81:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "non sit in te deus alienus et non adores deum peregrinum",
+      "citation": "Psalms 81:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ego enim sum Dominus Deus tuus qui eduxi te de terra Aegypti dilata os tuum et implebo illud",
+      "citation": "Psalms 81:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ego sum Dominus Deus tuus qui eduxi te de terra Aegypti dilata os tuum et implebo illud",
+      "citation": "Psalms 81:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et non audivit populus meus vocem meam et Israhel non intendit mihi",
+      "citation": "Psalms 81:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et non audivit populus meus vocem meam et Israhel non credidit mihi",
+      "citation": "Psalms 81:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et dimisi illos secundum desideria cordis eorum ibunt in adinventionibus suis",
+      "citation": "Psalms 81:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et dimisi eum in pravitate cordis sui ambulabunt in consiliis suis",
+      "citation": "Psalms 81:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "si populus meus audisset me Israhel si in viis meis ambulasset",
+      "citation": "Psalms 81:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "utinam populus meus audisset me Israhel in viis meis ambulasset",
+      "citation": "Psalms 81:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "pro nihilo forsitan inimicos eorum humiliassem et super tribulantes eos misissem manum meam",
+      "citation": "Psalms 81:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quasi nihilum inimicos eius humiliassem et super hostes eorum vertissem manum meam",
+      "citation": "Psalms 81:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "inimici Domini mentiti sunt ei et erit tempus eorum in saeculo",
+      "citation": "Psalms 81:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "qui oderunt Dominum negabunt eum et erit tempus eorum in saeculo",
+      "citation": "Psalms 81:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et cibavit illos ex adipe frumenti et de petra melle saturavit illos",
+      "citation": "Psalms 81:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et cibavit eos de adipe frumenti et de petra mellis saturavit eos",
+      "citation": "Psalms 81:16 (Clementine Vulgate)"
+    }
+  ]
+}

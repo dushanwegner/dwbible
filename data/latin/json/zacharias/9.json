@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Zechariah, Chapter 9 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Zechariah",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 9,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/zacharias/8.json",
+      "nextChapter": "https://latinprayer.org/latin/zacharias/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/zacharias/9.json",
+      "german": "https://latinprayer.org/bibel/zacharias/9.json"
+    }
+  },
+  "citation": "Zechariah 9 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "onus verbi Domini in terra Adrach et Damasci requiei eius quia Domini est oculus hominis et omnium tribuum Israhel",
+      "citation": "Zechariah 9:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Emath quoque in terminis eius et Tyrus et Sidon adsumpserunt quippe sibi sapientiam valde",
+      "citation": "Zechariah 9:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et aedificavit Tyrus munitionem suam et coacervavit argentum quasi humum et aurum ut lutum platearum",
+      "citation": "Zechariah 9:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ecce Dominus possidebit eam et percutiet in mari fortitudinem eius et haec igni devorabitur",
+      "citation": "Zechariah 9:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "videbit Ascalon et timebit et Gaza et dolebit nimis et Accaron quoniam confusa est spes eius et peribit rex de Gaza et Ascalon non habitabitur",
+      "citation": "Zechariah 9:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et sedebit separator in Azoto et disperdam superbiam Philisthinorum",
+      "citation": "Zechariah 9:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et auferam sanguinem eius de ore eius et abominationes eius de medio dentium eius et relinquetur etiam ipse Deo nostro et erit quasi dux in Iuda et Accaron quasi Iebuseus",
+      "citation": "Zechariah 9:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et circumdabo domum meam ex his qui militant mihi euntes et revertentes et non transibit super eos ultra exactor quia nunc vidi in oculis meis",
+      "citation": "Zechariah 9:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "exulta satis filia Sion iubila filia Hierusalem ecce rex tuus veniet tibi iustus et salvator ipse pauper et ascendens super asinum et super pullum filium asinae",
+      "citation": "Zechariah 9:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et disperdam quadrigam ex Ephraim et equum de Hierusalem et dissipabitur arcus belli et loquetur pacem gentibus et potestas eius a mari usque ad mare et a fluminibus usque ad fines terrae",
+      "citation": "Zechariah 9:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "tu quoque in sanguine testamenti tui emisisti vinctos tuos de lacu in quo non est aqua",
+      "citation": "Zechariah 9:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "convertimini ad munitionem vincti spei hodie quoque adnuntians duplicia reddam tibi",
+      "citation": "Zechariah 9:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quoniam extendi mihi Iudam quasi arcum implevi Ephraim et suscitabo filios tuos Sion super filios tuos Graecia et ponam te quasi gladium fortium",
+      "citation": "Zechariah 9:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et Dominus Deus super eos videbitur et exibit ut fulgur iaculum eius et Dominus Deus in tuba canet et vadet in turbine austri",
+      "citation": "Zechariah 9:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "Dominus exercituum proteget eos et devorabunt et subicient lapidibus fundae et bibentes inebriabuntur quasi vino et replebuntur ut fialae et quasi cornua altaris",
+      "citation": "Zechariah 9:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et salvabit eos Dominus Deus eorum in die illa ut gregem populi sui quia lapides sancti elevantur super terram eius",
+      "citation": "Zechariah 9:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "quid enim bonum eius est et quid pulchrum eius nisi frumentum electorum et vinum germinans virgines",
+      "citation": "Zechariah 9:17 (Clementine Vulgate)"
+    }
+  ]
+}

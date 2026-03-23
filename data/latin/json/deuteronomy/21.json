@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Deuteronomy, Chapter 21 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Deuteronomy",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "totalChapters": 34
+    },
+    "chapter": 21,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/deuteronomy/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/deuteronomy/20.json",
+      "nextChapter": "https://latinprayer.org/latin/deuteronomy/22.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/deuteronomy/21.json",
+      "german": "https://latinprayer.org/bibel/deuteronomy/21.json"
+    }
+  },
+  "citation": "Deuteronomy 21 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quando inventum fuerit in terra quam Dominus Deus tuus daturus est tibi hominis cadaver occisi et ignoratur caedis reus",
+      "citation": "Deuteronomy 21:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "egredientur maiores natu et iudices tui et metientur a loco cadaveris singularum per circuitum spatia civitatum",
+      "citation": "Deuteronomy 21:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et quam viciniorem ceteris esse perspexerint seniores civitatis eius tollent vitulam de armento quae non traxit iugum nec terram scidit vomere",
+      "citation": "Deuteronomy 21:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et ducent eam ad vallem asperam atque saxosam quae numquam arata est nec sementem recepit et caedent in ea cervices vitulae",
+      "citation": "Deuteronomy 21:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "accedentque sacerdotes filii Levi quos elegerit Dominus Deus tuus ut ministrent ei et benedicant in nomine eius et ad verbum eorum omne negotium et quicquid mundum vel inmundum est iudicetur",
+      "citation": "Deuteronomy 21:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et maiores natu civitatis illius ad interfectum lavabuntque manus suas super vitulam quae in valle percussa est",
+      "citation": "Deuteronomy 21:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et dicent manus nostrae non effuderunt hunc sanguinem nec oculi viderunt",
+      "citation": "Deuteronomy 21:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "propitius esto populo tuo Israhel quem redemisti Domine et non reputes sanguinem innocentem in medio populi tui Israhel et auferetur ab eis reatus sanguinis",
+      "citation": "Deuteronomy 21:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "tu autem alienus eris ab innocentis cruore qui fusus est cum feceris quod praecepit Dominus",
+      "citation": "Deuteronomy 21:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "si egressus fueris ad pugnam contra inimicos tuos et tradiderit eos Dominus Deus tuus in manu tua captivosque duxeris",
+      "citation": "Deuteronomy 21:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et videris in numero captivorum mulierem pulchram et adamaveris eam voluerisque habere uxorem",
+      "citation": "Deuteronomy 21:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "introduces in domum tuam quae radet caesariem et circumcidet ungues",
+      "citation": "Deuteronomy 21:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et deponet vestem in qua capta est sedensque in domo tua flebit patrem et matrem suam uno mense et postea intrabis ad eam dormiesque cum illa et erit uxor tua",
+      "citation": "Deuteronomy 21:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sin autem postea non sederit animo tuo dimittes eam liberam nec vendere poteris pecunia nec opprimere per potentiam quia humiliasti eam",
+      "citation": "Deuteronomy 21:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "si habuerit homo uxores duas unam dilectam et alteram odiosam genuerintque ex eo liberos et fuerit filius odiosae primogenitus",
+      "citation": "Deuteronomy 21:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "volueritque substantiam inter filios suos dividere non poterit filium dilectae facere primogenitum et praeferre filio odiosae",
+      "citation": "Deuteronomy 21:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sed filium odiosae agnoscet primogenitum dabitque ei de his quae habuerit cuncta duplicia iste est enim principium liberorum eius et huic debentur primogenita",
+      "citation": "Deuteronomy 21:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "si genuerit homo filium contumacem et protervum qui non audiat patris aut matris imperium et coercitus oboedire contempserit",
+      "citation": "Deuteronomy 21:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "adprehendent eum et ducent ad seniores civitatis illius et ad portam iudicii",
+      "citation": "Deuteronomy 21:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "dicentque ad eos filius noster iste protervus et contumax est monita nostra audire contemnit comesationibus vacat et luxuriae atque conviviis",
+      "citation": "Deuteronomy 21:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "lapidibus eum obruet populus civitatis et morietur ut auferatis malum de medio vestri et universus Israhel audiens pertimescat",
+      "citation": "Deuteronomy 21:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quando peccaverit homo quod morte plectendum est et adiudicatus morti adpensus fuerit in patibulo",
+      "citation": "Deuteronomy 21:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "non permanebit cadaver eius in ligno sed in eadem die sepelietur quia maledictus a Deo est qui pendet in ligno et nequaquam contaminabis terram tuam quam Dominus Deus tuus dederit tibi in possessionem",
+      "citation": "Deuteronomy 21:23 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 16 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 16,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/matthew/15.json",
+      "nextChapter": "https://latinprayer.org/bible/matthew/17.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/matthew/16.json",
+      "german": "https://latinprayer.org/bibel/matthew/16.json"
+    }
+  },
+  "citation": "Matthew 16 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And there came to him the Pharisees and Sadducees tempting: and they asked him to shew them a sign from heaven.",
+      "citation": "Matthew 16:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But he answered and said to them: When it is evening, you say, It will be fair weather, for the sky is red.",
+      "citation": "Matthew 16:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And in the morning: To day there will be a storm, for the sky is red and lowering. You know then how to discern the face of the sky: and can you not know the signs of the times?",
+      "citation": "Matthew 16:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "A wicked and adulterous generation seeketh after a sign: and a sign shall not be given it, but the sign of Jonas the prophet.  And he left them, and went away.",
+      "citation": "Matthew 16:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And when his disciples were come over the water, they had forgotten to take bread.",
+      "citation": "Matthew 16:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Who said to them: Take heed and beware of the leaven of the Pharisees and Sadducees.",
+      "citation": "Matthew 16:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "But they thought within themselves, saying: Because we have taken no bread.",
+      "citation": "Matthew 16:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And Jesus knowing it, said: Why do you think within yourselves, O ye of little faith, for that you have no bread?",
+      "citation": "Matthew 16:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Do you not yet understand, neither do you remember the five loaves among five thousand men, and how many baskets you took up?",
+      "citation": "Matthew 16:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Nor the seven loaves, among four thousand men, and how many baskets you took up?",
+      "citation": "Matthew 16:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Why do you not understand that it was not concerning bread I said to you: Beware of the leaven of the Pharisees and Sadducees?",
+      "citation": "Matthew 16:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Then they understood that he said not that they should beware of the leaven of bread, but of the doctrine of the Pharisees and Sadducees.",
+      "citation": "Matthew 16:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And Jesus came into the quarters of Cesarea Philippi: and he asked his disciples, saying: Whom do men say that the Son of man is?",
+      "citation": "Matthew 16:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But they said: Some John the Baptist, and other some Elias, and others Jeremias, or one of the prophets.",
+      "citation": "Matthew 16:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Jesus saith to them: But whom do you say that I am?",
+      "citation": "Matthew 16:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Simon Peter answered and said: Thou art Christ, the Son of the living God.",
+      "citation": "Matthew 16:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And Jesus answering said to him: Blessed art thou, Simon Bar-Jona: because flesh and blood hath not revealed it to thee, but my Father who is in heaven.",
+      "citation": "Matthew 16:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And I say to thee: That thou art Peter; and upon this rock I will build my church, and the gates of hell shall not prevail against it.",
+      "citation": "Matthew 16:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And I will give to thee the keys of the kingdom of heaven.  And whatsoever thou shalt bind upon earth, it shall be bound also in heaven: and whatsoever thou shalt loose on earth, it shall be loosed also in heaven.",
+      "citation": "Matthew 16:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Then he commanded his disciples, that they should tell no one that he was Jesus the Christ.",
+      "citation": "Matthew 16:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "From that time Jesus began to shew to his disciples, that he must go to Jerusalem, and suffer many things from the ancients and scribes and chief priests, and be put to death, and the third day rise again.",
+      "citation": "Matthew 16:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And Peter taking him, began to rebuke him, saying: Lord, be it far from thee, this shall not be unto thee.",
+      "citation": "Matthew 16:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Who turning, said to Peter: Go behind me, Satan, thou art a scandal unto me: because thou savourest not the things that are of God, but the things that are of men.",
+      "citation": "Matthew 16:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Then Jesus said to his disciples: If any man will come after me, let him deny himself, and take up his cross, and follow me.",
+      "citation": "Matthew 16:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "For he that will save his life, shall lose it: and he that shall lose his life for my sake, shall find it.",
+      "citation": "Matthew 16:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "For what doth it profit a man, if he gain the whole world and suffer the loss of his own soul? Or what exchange shall a man give for his soul?",
+      "citation": "Matthew 16:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "For the Son of man shall come in the glory of his Father with his angels: and then will he render to every man according to his works.",
+      "citation": "Matthew 16:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Amen I say to you, there are some of them that stand here, that shall not taste death, till they see the Son of man coming in his kingdom.",
+      "citation": "Matthew 16:28 (Douay-Rheims)"
+    }
+  ]
+}

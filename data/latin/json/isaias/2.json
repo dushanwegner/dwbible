@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 2 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 2,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/1.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/2.json",
+      "german": "https://latinprayer.org/bibel/isaias/2.json"
+    }
+  },
+  "citation": "Isaiah 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "verbum quod vidit Isaias filius Amos super Iudam et Hierusalem",
+      "citation": "Isaiah 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et erit in novissimis diebus praeparatus mons domus Domini in vertice montium et elevabitur super colles et fluent ad eum omnes gentes",
+      "citation": "Isaiah 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et ibunt populi multi et dicent venite et ascendamus ad montem Domini et ad domum Dei Iacob et docebit nos vias suas et ambulabimus in semitis eius quia de Sion exibit lex et verbum Domini de Hierusalem",
+      "citation": "Isaiah 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et iudicabit gentes et arguet populos multos et conflabunt gladios suos in vomeres et lanceas suas in falces non levabit gens contra gentem gladium nec exercebuntur ultra ad proelium",
+      "citation": "Isaiah 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "domus Iacob venite et ambulemus in lumine Domini",
+      "citation": "Isaiah 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "proiecisti enim populum tuum domum Iacob quia repleti sunt ut olim et augures habuerunt ut Philisthim et pueris alienis adheserunt",
+      "citation": "Isaiah 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "repleta est terra argento et auro et non est finis thesaurorum eius",
+      "citation": "Isaiah 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et repleta est terra eius equis et innumerabiles quadrigae eius et repleta est terra eius idolis opus manuum suarum adoraverunt quod fecerunt digiti eorum",
+      "citation": "Isaiah 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et incurvavit se homo et humiliatus est vir ne ergo dimittas eis",
+      "citation": "Isaiah 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ingredere in petram abscondere fossa humo a facie timoris Domini et a gloria maiestatis eius",
+      "citation": "Isaiah 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "oculi sublimis hominis humiliati sunt et incurvabitur altitudo virorum exaltabitur autem Dominus solus in die illa",
+      "citation": "Isaiah 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quia dies Domini exercituum super omnem superbum et excelsum et super omnem arrogantem et humiliabitur",
+      "citation": "Isaiah 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et super omnes cedros Libani sublimes et erectas et super omnes quercus Basan",
+      "citation": "Isaiah 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et super omnes montes excelsos et super omnes colles elevatos",
+      "citation": "Isaiah 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et super omnem turrem excelsam et super omnem murum munitum",
+      "citation": "Isaiah 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et super omnes naves Tharsis et super omne quod visu pulchrum est",
+      "citation": "Isaiah 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et incurvabitur sublimitas hominum et humiliabitur altitudo virorum et elevabitur Dominus solus in die illa",
+      "citation": "Isaiah 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et idola penitus conterentur",
+      "citation": "Isaiah 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et introibunt in speluncas petrarum et in voragines terrae a facie formidinis Domini et a gloria maiestatis eius cum surrexerit percutere terram",
+      "citation": "Isaiah 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in die illa proiciet homo idola argenti sui et simulacra auri sui quae fecerat sibi ut adoraret talpas et vespertiliones",
+      "citation": "Isaiah 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et ingredietur fissuras petrarum et cavernas saxorum a facie formidinis Domini et a gloria maiestatis eius cum surrexerit percutere terram",
+      "citation": "Isaiah 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quiescite ergo ab homine cuius spiritus in naribus eius quia excelsus reputatus est ipse",
+      "citation": "Isaiah 2:22 (Clementine Vulgate)"
+    }
+  ]
+}

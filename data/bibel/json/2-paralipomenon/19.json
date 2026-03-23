@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Chronik, Chapter 19 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Chronik",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "order": 14,
+      "totalChapters": 36
+    },
+    "chapter": 19,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/2-paralipomenon/18.json",
+      "nextChapter": "https://latinprayer.org/bibel/2-paralipomenon/20.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-paralipomenon/19.json",
+      "latin": "https://latinprayer.org/latin/2-paralipomenon/19.json"
+    }
+  },
+  "citation": "2 Chronik 19 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Als dann Josaphat, der König von Juda, wohlbehalten nach Hause, nach Jerusalem, zurückgekehrt war,",
+      "citation": "2 Chronik 19:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "trat der Seher Jehu, der Sohn Hananis, vor ihn hin und sagte zu ihm: »Darfst (oder mußtest) du einem Gottlosen Hilfe leisten, und willst du denen, die den HERRN hassen, Liebe erweisen? Aus diesem Grunde lastet nun der Zorn des HERRN auf dir.",
+      "citation": "2 Chronik 19:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Jedoch ist auch Gutes an dir gefunden worden, weil du die Astartebilder aus dem Lande weggeschafft hast und darauf bedacht gewesen bist, Gott zu suchen.«",
+      "citation": "2 Chronik 19:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Nachdem Josaphat dann eine Zeitlang in Jerusalem geblieben war, zog er wiederum unter dem Volk umher von Beerseba bis zum Bergland Ephraim und führte sie zum HERRN, dem Gott ihrer Väter, zurück.",
+      "citation": "2 Chronik 19:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Auch bestellte er Richter im Lande, in allen festen Städten Judas, Stadt für Stadt,",
+      "citation": "2 Chronik 19:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "und gab den Richtern die Weisung: »Seht wohl zu, was ihr tut! Denn nicht im Auftrage von Menschen sprecht ihr Recht, sondern im Auftrage des HERRN, der bei euch ist, wenn ihr Recht sprecht.",
+      "citation": "2 Chronik 19:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Darum möge ein Schrecken vor dem HERRN in euch wohnen! Gebt auf das, was ihr tut, wohl acht! Denn bei dem HERRN, unserm Gott, findet sich weder Ungerechtigkeit noch Ansehen der Person und keine Bestechlichkeit.«",
+      "citation": "2 Chronik 19:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Auch in Jerusalem bestellte Josaphat einige Leviten und Priester und Familienhäupter Israels für das Gericht des HERRN und für die Rechtsstreitigkeiten der Bewohner Jerusalems.",
+      "citation": "2 Chronik 19:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Dabei gab er ihnen folgende Weisungen: »So sollt ihr verfahren in der Furcht vor dem HERRN, mit aller Treue und mit aufrichtigem Herzen!",
+      "citation": "2 Chronik 19:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "In jedem Rechtsstreit, der euch von seiten eurer Volksgenossen, die in ihren Ortschaften wohnen, vorgelegt wird, er betreffe irgendeinen Fall von Blutschuld oder irgendein Gesetz und Gebot oder irgendwelche Satzungen und Rechte, sollt ihr die Leute belehren, damit sie sich nicht gegen den HERRN vergehen und kein Zorn über euch und eure Volksgenossen kommt. So müßt ihr verfahren, damit ihr euch nicht verschuldet.",
+      "citation": "2 Chronik 19:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Dabei soll der Oberpriester Amarja für alle Angelegenheiten des HERRN und Sebadja, der Sohn Ismaels, der Fürst des Hauses Juda, für alle königlichen Angelegenheiten euer Vorgesetzter sein; und als Beisitzer stehen euch die Leviten zur Verfügung. Geht mit Vertrauen ans Werk! Der HERR wird mit den Rechtschaffenen sein.«",
+      "citation": "2 Chronik 19:11 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ezekiel, Chapter 37 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ezekiel",
+      "slug": "ezechiel",
+      "testament": "OT",
+      "order": 31,
+      "totalChapters": 48
+    },
+    "chapter": 37,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ezechiel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ezechiel/36.json",
+      "nextChapter": "https://latinprayer.org/latin/ezechiel/38.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ezechiel/37.json",
+      "german": "https://latinprayer.org/bibel/ezechiel/37.json"
+    }
+  },
+  "citation": "Ezekiel 37 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "facta est super me manus Domini et eduxit me in spiritu Domini et dimisit me in medio campi qui erat plenus ossibus",
+      "citation": "Ezekiel 37:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et circumduxit me per ea in gyro erant autem multa valde super faciem campi siccaque vehementer",
+      "citation": "Ezekiel 37:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dixit ad me fili hominis putasne vivent ossa ista et dixi Domine Deus tu nosti",
+      "citation": "Ezekiel 37:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dixit ad me vaticinare de ossibus istis et dices eis ossa arida audite verbum Domini",
+      "citation": "Ezekiel 37:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "haec dicit Dominus Deus ossibus his ecce ego intromittam in vos spiritum et vivetis",
+      "citation": "Ezekiel 37:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et dabo super vos nervos et succrescere faciam super vos carnes et superextendam in vobis cutem et dabo vobis spiritum et vivetis et scietis quia ego Dominus",
+      "citation": "Ezekiel 37:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et prophetavi sicut praeceperat mihi factus est autem sonitus prophetante me et ecce commotio et accesserunt ossa ad ossa unumquodque ad iuncturam suam",
+      "citation": "Ezekiel 37:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et vidi et ecce super ea nervi et carnes ascenderunt et extenta est in eis cutis desuper et spiritum non habebant",
+      "citation": "Ezekiel 37:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et dixit ad me vaticinare ad spiritum vaticinare fili hominis et dices ad spiritum haec dicit Dominus Deus a quattuor ventis veni spiritus et insufla super interfectos istos et revivescant",
+      "citation": "Ezekiel 37:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et prophetavi sicut praeceperat mihi et ingressus est in ea spiritus et vixerunt steteruntque super pedes suos exercitus grandis nimis valde",
+      "citation": "Ezekiel 37:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dixit ad me fili hominis ossa haec universa domus Israhel est ipsi dicunt aruerunt ossa nostra et periit spes nostra et abscisi sumus",
+      "citation": "Ezekiel 37:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "propterea vaticinare et dices ad eos haec dicit Dominus Deus ecce ego aperiam tumulos vestros et educam vos de sepulchris vestris populus meus et inducam vos in terram Israhel",
+      "citation": "Ezekiel 37:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et scietis quia ego Dominus cum aperuero sepulchra vestra et eduxero vos de tumulis vestris populus meus",
+      "citation": "Ezekiel 37:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et dedero spiritum meum in vobis et vixeritis et requiescere vos faciam super humum vestram et scietis quia ego Dominus locutus sum et feci ait Dominus Deus",
+      "citation": "Ezekiel 37:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et factus est sermo Domini ad me dicens",
+      "citation": "Ezekiel 37:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et tu fili hominis sume tibi lignum unum et scribe super illud Iudae et filiorum Israhel sociis eius et tolle lignum alterum et scribe super eum Ioseph lignum Ephraim et cunctae domui Israhel sociorumque eius",
+      "citation": "Ezekiel 37:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et adiunge illa unum ad alterum tibi in lignum unum et erunt in unionem in manu tua",
+      "citation": "Ezekiel 37:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "cum autem dixerint ad te filii populi tui loquentes nonne indicas nobis quid in his tibi velis",
+      "citation": "Ezekiel 37:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "loqueris ad eos haec dicit Dominus Deus ecce ego adsumam lignum Ioseph quod est in manu Ephraim et tribus Israhel quae iunctae sunt ei et dabo eas pariter cum ligno Iuda et faciam eas in lignum unum et erunt unum in manu eius",
+      "citation": "Ezekiel 37:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "erunt autem ligna super quae scripseris in manu tua in oculis eorum",
+      "citation": "Ezekiel 37:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et dices ad eos haec dicit Dominus Deus ecce ego adsumam filios Israhel de medio nationum ad quas abierunt et congregabo eos undique et adducam eos ad humum suam",
+      "citation": "Ezekiel 37:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et faciam eos gentem unam in terra in montibus Israhel et rex unus erit omnibus imperans et non erunt ultra duae gentes nec dividentur amplius in duo regna",
+      "citation": "Ezekiel 37:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "neque polluentur ultra in idolis suis et abominationibus suis et in cunctis iniquitatibus suis et salvos eos faciam de universis sedibus suis in quibus peccaverunt et mundabo eos et erunt mihi populus et ego ero eis Deus",
+      "citation": "Ezekiel 37:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et servus meus David rex super eos et pastor unus erit omnium eorum in iudiciis meis ambulabunt et mandata mea custodient et facient ea",
+      "citation": "Ezekiel 37:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et habitabunt super terram quam dedi servo meo Iacob in qua habitaverunt patres vestri et habitabunt super eam ipsi et filii eorum et filii filiorum eorum usque in sempiternum et David servus meus princeps eorum in perpetuum",
+      "citation": "Ezekiel 37:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et percutiam illis foedus pacis pactum sempiternum erit eis et fundabo eos et multiplicabo et dabo sanctificationem meam in medio eorum in perpetuum",
+      "citation": "Ezekiel 37:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et erit tabernaculum meum in eis et ero eis Deus et ipsi erunt mihi populus",
+      "citation": "Ezekiel 37:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et scient gentes quia ego Dominus sanctificator Israhel cum fuerit sanctificatio mea in medio eorum in perpetuum",
+      "citation": "Ezekiel 37:28 (Clementine Vulgate)"
+    }
+  ]
+}

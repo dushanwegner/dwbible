@@ -1,0 +1,246 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John, Chapter 10 — 42 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 10,
+    "verseCount": 42,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/john/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/john/9.json",
+      "nextChapter": "https://latinprayer.org/bible/john/11.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/john/10.json",
+      "german": "https://latinprayer.org/bibel/john/10.json"
+    }
+  },
+  "citation": "John 10 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Amen, amen, I say to you: He that entereth not by the door into the sheepfold but climbeth up another way, the same is a thief and a robber.",
+      "citation": "John 10:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But he that entereth in by the door is the shepherd of the sheep.",
+      "citation": "John 10:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "To him the porter openeth: and the sheep hear his voice.  And he calleth his own sheep by name and leadeth them out.",
+      "citation": "John 10:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And when he hath let out his own sheep, he goeth before them: and the sheep follow him, because they know his voice.",
+      "citation": "John 10:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But a stranger they follow not, but fly from him, because they know not the voice of strangers.",
+      "citation": "John 10:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "This proverb Jesus spoke to them. But they understood not what he spoke.",
+      "citation": "John 10:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Jesus therefore said to them again: Amen, amen, I say to you, I am the door of the sheep.",
+      "citation": "John 10:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "All others, as many as have come, are thieves and robbers: and the sheep heard them not.",
+      "citation": "John 10:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "I am the door. By me, if any man enter in, he shall be saved: and he shall go in and go out, and shall find pastures.",
+      "citation": "John 10:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The thief cometh not, but for to steal and to kill and to destroy. I am come that they may have life and may have it more abundantly.",
+      "citation": "John 10:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "I am the good shepherd. The good shepherd giveth his life for his sheep.",
+      "citation": "John 10:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "But the hireling and he that is not the shepherd, whose own the sheep are not, seeth the wolf coming and leaveth the sheep and flieth: and the wolf casteth and scattereth the sheep,",
+      "citation": "John 10:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the hireling flieth, because he is a hireling: and he hath no care for the sheep.",
+      "citation": "John 10:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "I am the good shepherd: and I know mine, and mine know me.",
+      "citation": "John 10:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "As the Father knoweth me, and I know the Father: and I lay down my life for my sheep.",
+      "citation": "John 10:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And other sheep I have that are not of this fold: them also I must bring. And they shall hear my voice: And there shall be one fold and one shepherd.",
+      "citation": "John 10:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Therefore doth the Father love me: because I lay down my life, that I may take it again.",
+      "citation": "John 10:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "No man taketh it away from me: but I lay it down of myself.  And I have power to lay it down: and I have power to take it up again. This commandment have I received of my Father.",
+      "citation": "John 10:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "A dissension rose again among the Jews for these words.",
+      "citation": "John 10:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And many of them said: He hath a devil and is mad. Why hear you him?",
+      "citation": "John 10:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Others said: These are not the words of one that hath a devil. Can a devil open the eyes of the blind?",
+      "citation": "John 10:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And it was the feast of the dedication at Jerusalem: and it was winter.",
+      "citation": "John 10:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And Jesus walked in the temple, in Solomon's porch.",
+      "citation": "John 10:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "The Jews therefore came round about him and said to him: How long dost thou hold our souls in suspense? If thou be the Christ, tell us plainly.",
+      "citation": "John 10:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Jesus answered them: I speak to you, and you believe not: the works that I do in the name of my Father, they give testimony of me.",
+      "citation": "John 10:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "But you do not believe, because you are not of my sheep.",
+      "citation": "John 10:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "My sheep hear my voice. And I know them: and they follow me.",
+      "citation": "John 10:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And I give them life everlasting: and they shall not perish for ever. And no man shall pluck them out of my hand.",
+      "citation": "John 10:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "That which my Father hath given me is greater than all: and no one can snatch them out of the hand of my Father.",
+      "citation": "John 10:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "I and the Father are one.",
+      "citation": "John 10:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "The Jews then took up stones to stone him.",
+      "citation": "John 10:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "Jesus answered them: Many good works I have shewed you from my Father. For which of those works do you stone me?",
+      "citation": "John 10:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "The Jews answered him: For a good work we stone thee not, but for blasphemy: and because that thou, being a man, makest thyself God.",
+      "citation": "John 10:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "Jesus answered them: Is it not written in your law: I said, you are gods?",
+      "citation": "John 10:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "If he called them gods to whom the word of God was spoken; and the scripture cannot be broken:",
+      "citation": "John 10:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "Do you say of him whom the Father hath sanctified and sent into the world: Thou blasphemest; because I said: I am the Son of God?",
+      "citation": "John 10:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "If I do not the works of my Father, believe me not.",
+      "citation": "John 10:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "But if I do, though you will not believe me, believe the works: that you may know and believe that the Father is in me and I in the Father.",
+      "citation": "John 10:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "They sought therefore to take him: and he escaped out of their hands.",
+      "citation": "John 10:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And he went again beyond the Jordan, into that place where John was baptizing first. And there he abode.",
+      "citation": "John 10:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And many resorted to him: and they said: John indeed did no sign.",
+      "citation": "John 10:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "But all things whatsoever John said of this man were true.  And many believed n him.",
+      "citation": "John 10:42 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Johannes, Chapter 3 — 24 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Johannes",
+      "slug": "1-john",
+      "testament": "NT",
+      "order": 69,
+      "totalChapters": 5
+    },
+    "chapter": 3,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-john/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-john/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-john/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-john/3.json",
+      "latin": "https://latinprayer.org/latin/1-john/3.json"
+    }
+  },
+  "citation": "1 Johannes 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Sehet, welch große Liebe uns der Vater dadurch erwiesen hat, daß wir Kinder Gottes heißen sollen, und wir sind es auch. Deshalb erkennt die Welt uns nicht, weil sie ihn nicht erkannt hat.",
+      "citation": "1 Johannes 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Geliebte, (schon) jetzt sind wir Kinder Gottes, und es ist noch nicht offenbar geworden, was wir (dereinst) sein werden. Wir wissen jedoch, daß, wenn diese Offenbarung eintritt, wir ihm gleich sein werden; denn wir werden ihn sehen, wie er ist.",
+      "citation": "1 Johannes 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Und jeder, der diese Hoffnung auf ihn setzt, reinigt sich, gleichwie er (auch) rein ist.",
+      "citation": "1 Johannes 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Jeder, der Sünde tut, begeht damit auch Gesetzlosigkeit, und die Sünde ist die Gesetzlosigkeit.",
+      "citation": "1 Johannes 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ihr wißt aber, daß er dazu erschienen ist, um die Sünden hinwegzunehmen, und daß keinerlei Sünde in ihm ist.",
+      "citation": "1 Johannes 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Jeder, der in ihm bleibt, sündigt nicht; wer da sündigt, hat ihn nicht gesehen und nicht erkannt.",
+      "citation": "1 Johannes 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Kindlein, laßt euch von niemand irreführen! (Nur) wer die Gerechtigkeit tut, ist gerecht, so wie er gerecht ist;",
+      "citation": "1 Johannes 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "wer die Sünde tut, stammt vom Teufel, denn der Teufel ist ein Sünder von Anfang an. Dazu ist der Sohn Gottes erschienen, daß er die Werke des Teufels zerstöre.",
+      "citation": "1 Johannes 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Jeder, der aus Gott erzeugt ist, tut keine Sünde, weil sein Same dauernd in ihm ist, und er kann nicht sündigen, weil er aus Gott erzeugt ist.",
+      "citation": "1 Johannes 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Daran sind die Kinder Gottes und die Kinder des Teufels zu erkennen: Jeder, der die Gerechtigkeit nicht tut, stammt nicht aus Gott, und (ebenso) auch jeder, der seinen Bruder nicht liebt.",
+      "citation": "1 Johannes 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Denn dies ist die Botschaft, die ihr von Anfang an gehört habt: »Wir sollen einander lieben«,",
+      "citation": "1 Johannes 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "nicht in der Weise Kains, der ein Kind des Teufels war und seinen Bruder erschlug; und warum hat er ihn erschlagen? Weil sein ganzes Tun böse war, das Tun seines Bruders dagegen gerecht.",
+      "citation": "1 Johannes 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wundert euch nicht, liebe Brüder, wenn die Welt euch haßt.",
+      "citation": "1 Johannes 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Wir wissen, daß wir aus dem Tode ins Leben hinübergegangen sind, weil wir die Brüder lieben: wer (seinen Bruder) nicht liebt, verbleibt im Tode.",
+      "citation": "1 Johannes 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Jeder, der seinen Bruder haßt, ist ein Menschenmörder, und ihr wißt, daß kein Menschenmörder ewiges Leben als bleibenden Besitz in sich trägt.",
+      "citation": "1 Johannes 3:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Daran haben wir die Liebe erkannt, daß er sein Leben für uns hingegeben hat; so sind nun auch wir verpflichtet, das Leben für die Brüder hinzugeben.",
+      "citation": "1 Johannes 3:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Wenn jemand aber die Güter dieser Welt besitzt und seinen Bruder Not leiden sieht und sein Herz vor ihm verschließt: wie bleibt da die Liebe Gottes in ihm?",
+      "citation": "1 Johannes 3:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Kindlein, laßt uns nicht mit Worten und nicht mit der Zunge lieben, sondern mit der Tat und in Wahrheit!",
+      "citation": "1 Johannes 3:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Daran werden wir erkennen, daß wir aus der Wahrheit sind, und werden unsere Herzen vor ihm davon überzeugen,",
+      "citation": "1 Johannes 3:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "daß, wenn unser Herz uns verurteilt, Gott größer ist als unser Herz und alles erkennt.",
+      "citation": "1 Johannes 3:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Geliebte, wenn unser Herz (uns) nicht verurteilt, so besitzen wir Freudigkeit zu Gott,",
+      "citation": "1 Johannes 3:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "und um was wir auch bitten, das empfangen wir von ihm, weil wir seine Gebote halten und das tun, was ihm wohlgefällig ist.",
+      "citation": "1 Johannes 3:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Dies ist aber sein Gebot, daß wir an den Namen seines Sohnes Jesus Christus glauben und einander lieben dem Gebot entsprechend, das er uns gegeben hat.",
+      "citation": "1 Johannes 3:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Und wer seine Gebote hält, der bleibt in der Gemeinschaft mit ihm und er mit ihm; und daran erkennen wir, daß er in der Gemeinschaft mit uns bleibt: an dem Geist, den er uns gegeben hat.",
+      "citation": "1 Johannes 3:24 (Menge)"
+    }
+  ]
+}

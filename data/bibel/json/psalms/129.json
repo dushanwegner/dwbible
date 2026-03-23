@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 129 — 8 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 129,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/128.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/130.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/129.json",
+      "latin": "https://latinprayer.org/latin/psalms/129.json"
+    }
+  },
+  "citation": "Psalmen 129 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Wallfahrtslied</em>. »Sie haben mich hart bedrängt von meiner Jugend an« <ul> <li>so bekenne Israel –,</li> </ul>",
+      "citation": "Psalmen 129:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»sie haben mich hart bedrängt von meiner Jugend an, aber doch mich nicht überwältigt.",
+      "citation": "Psalmen 129:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Auf meinem Rücken haben die Pflüger gepflügt und lange Furchen gezogen;",
+      "citation": "Psalmen 129:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "doch der HERR ist gerecht: er hat zerhauen der Gottlosen Stricke.«",
+      "citation": "Psalmen 129:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Zuschanden müssen werden und rückwärts weichen alle, die Zion hassen!",
+      "citation": "Psalmen 129:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Sie müssen gleichen dem Gras auf den Dächern, das dürr schon ist, bevor es in Halme schießt,",
+      "citation": "Psalmen 129:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "mit dem der Schnitter seine Hand nicht füllt, noch der Garbenbinder seinen Gewandbausch,",
+      "citation": "Psalmen 129:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "und bei dem, wer des Weges vorübergeht, nicht ruft: »Gottes Segen sei über euch! Wir segnen euch im Namen des HERRN!«",
+      "citation": "Psalmen 129:8 (Menge)"
+    }
+  ]
+}

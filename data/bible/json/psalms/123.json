@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 123 — 4 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 123,
+    "verseCount": 4,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/122.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/124.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/123.json",
+      "german": "https://latinprayer.org/bibel/psalms/123.json"
+    }
+  },
+  "citation": "Psalms 123 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "To thee have I lifted up my eyes, who dwellest in heaven.",
+      "citation": "Psalms 123:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Behold as the eyes of servants are on the hands of their masters, As the eyes of the handmaid are on the hands of her mistress: so are our eyes unto the Lord our God, until he have mercy on us.",
+      "citation": "Psalms 123:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Have mercy on us, O Lord, have mercy on us: for we are greatly filled with contempt.",
+      "citation": "Psalms 123:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For our soul is greatly filled: we are a reproach to the rich, and contempt to the proud.",
+      "citation": "Psalms 123:4 (Douay-Rheims)"
+    }
+  ]
+}

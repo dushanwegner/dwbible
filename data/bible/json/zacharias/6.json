@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Zacharias, Chapter 6 — 15 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Zacharias",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 6,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/zacharias/5.json",
+      "nextChapter": "https://latinprayer.org/bible/zacharias/7.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/zacharias/6.json",
+      "german": "https://latinprayer.org/bibel/zacharias/6.json"
+    }
+  },
+  "citation": "Zacharias 6 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And I turned, and lifted up my eyes, and saw: and behold four chariots came out from the midst of two mountains: and the mountains were mountains of brass.",
+      "citation": "Zacharias 6:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "In the first chariot were red horses, and in the second chariot black horses.",
+      "citation": "Zacharias 6:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And in the third chariot white horses, and in the fourth chariot grisled horses, and strong ones.",
+      "citation": "Zacharias 6:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And I answered, and said to the angel that spoke in me: What are these, my lord?",
+      "citation": "Zacharias 6:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the angel answered, and said to me: These are the four winds of the heaven, which go forth to stand before the Lord of all the earth.",
+      "citation": "Zacharias 6:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "That in which were the black horses went forth into the land of the north, and the white went forth after them: and the grisled went forth to the land the south.",
+      "citation": "Zacharias 6:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And they that were most strong, went out, and sought to go, and to run to and fro through all the earth. And he said: Go, walk throughout the earth: and they walked throughout the earth.",
+      "citation": "Zacharias 6:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And he called me, and spoke to me, saying: Behold they that go forth into the land of the north, have quieted my spirit in the land of the north.",
+      "citation": "Zacharias 6:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the word of the Lord came to me, saying:",
+      "citation": "Zacharias 6:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Take of them of the captivity, of Holdai, and of Tobias, and of Idaias; thou shalt come in that day, a shalt go into the house of Josias, the son of Sophonias, who came out of Babylon.",
+      "citation": "Zacharias 6:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And thou shalt take gold and silver: and shalt make crowns, and thou shalt set them on the head of Jesus the son of Josedec, the high priest.",
+      "citation": "Zacharias 6:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And thou shalt speak to him, saying: Thus saith the Lord of hosts, saying: BEHOLD A MAN, THE ORIENT IS HIS NAME: and under him shall he spring up, a shall build a temple to the Lord.",
+      "citation": "Zacharias 6:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Yea, he shall build a temple to the Lord: and he shall bear the glory, and shall sit, and rule upon his throne: and he shall be a priest upon his throne, and the counsel of peace shall be between them both.",
+      "citation": "Zacharias 6:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And the crowns shall be to Helem, and Tobias, and Idaias, and to Hem, the son of Sophonias, a memorial in the temple of the Lord.",
+      "citation": "Zacharias 6:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And they that are far off, shall come and shall build in the temple of the Lord: and you shall know that the Lord of hosts sent me to you. But this shall come to pass, if hearing you will hear the voice of the Lord your God.",
+      "citation": "Zacharias 6:15 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 128 — 6 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 128,
+    "verseCount": 6,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/127.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/129.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/128.json",
+      "latin": "https://latinprayer.org/latin/psalms/128.json"
+    }
+  },
+  "citation": "Psalmen 128 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Wallfahrtslied</em>. Wohl jedem, der den HERRN fürchtet und auf seinen Wegen wandelt!",
+      "citation": "Psalmen 128:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Deiner Hände Erwerb – du darfst ihn genießen: wohl dir, du hast es gut!",
+      "citation": "Psalmen 128:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dein Weib gleicht einem fruchtbaren Weinstock im Innern deines Hauses; deine Kinder sind wie Ölbaumschosse rings um deinen Tisch.",
+      "citation": "Psalmen 128:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ja wahrlich, so wird der Mann gesegnet, der da fürchtet den HERRN.",
+      "citation": "Psalmen 128:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Dich segne der HERR von Zion her, daß du schauest deine Lust an Jerusalems Glück dein Leben lang",
+      "citation": "Psalmen 128:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "und sehest Kinder von deinen Kindern! Heil über Israel!",
+      "citation": "Psalmen 128:6 (Menge)"
+    }
+  ]
+}

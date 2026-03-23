@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Timotheus, Chapter 3 — 17 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Timotheus",
+      "slug": "2-timothy",
+      "testament": "NT",
+      "order": 62,
+      "totalChapters": 4
+    },
+    "chapter": 3,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/2-timothy/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/2-timothy/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/2-timothy/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-timothy/3.json",
+      "latin": "https://latinprayer.org/latin/2-timothy/3.json"
+    }
+  },
+  "citation": "2 Timotheus 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Das sollst du aber wissen, daß in den letzten Tagen schlimme Zeiten eintreten werden;",
+      "citation": "2 Timotheus 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "denn da werden die Menschen selbstsüchtig und geldgierig sein, prahlerisch und hochmütig, schmähsüchtig, den Eltern ungehorsam, undankbar, gottlos,",
+      "citation": "2 Timotheus 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "ohne Liebe und Treue, verleumderisch, unmäßig, zügellos, allem Guten feind,",
+      "citation": "2 Timotheus 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "verräterisch, leichtfertig und dünkelhaft, mehr dem Genuß als der Liebe zu Gott ergeben;",
+      "citation": "2 Timotheus 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "sie werden wohl noch den äußeren Schein der Gottseligkeit wahren, aber deren innere Kraft nicht erkennen lassen. Von solchen Menschen wende dich ab!",
+      "citation": "2 Timotheus 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Denn zu diesen gehören die, welche sich Eingang in die Häuser zu verschaffen wissen und Angehörige des weiblichen Geschlechts einzufangen suchen (und zwar solche), die mit Sünden beladen sind und von mancherlei Leidenschaften umgetrieben werden,",
+      "citation": "2 Timotheus 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "die immerfort (etwas Neues) lernen wollen und doch niemals zur wirklichen Erkenntnis der Wahrheit zu gelangen vermögen.",
+      "citation": "2 Timotheus 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Geradeso wie einst Jannes und Jambres gegen Mose aufgetreten sind, so treten auch diese gegen die Wahrheit auf: Menschen mit zerrüttetem Verstand und im Glauben unbewährt.",
+      "citation": "2 Timotheus 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Doch sie werden mit ihrem Treiben nicht weit kommen, denn ihr Unverstand wird für alle klar zutage liegen, wie es ja auch bei jenen (beiden) der Fall gewesen ist.",
+      "citation": "2 Timotheus 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Du aber hast dir zur Richtschnur genommen meine Lehre und Lebensführung, mein Streben, meinen Glauben, meine Langmut, Liebe und Geduld,",
+      "citation": "2 Timotheus 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "meine Verfolgungen und Leiden, wie sie mir in Antiochia, in Ikonium und in Lystra widerfahren sind. Derartige Verfolgungen habe ich zu bestehen gehabt, und aus allen hat der Herr mich errettet;",
+      "citation": "2 Timotheus 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "und so werden auch alle (anderen), die in Christus Jesus ein gottseliges Leben zu führen gewillt sind, Verfolgungen zu erleiden haben.",
+      "citation": "2 Timotheus 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Böse Menschen dagegen und Betrüger werden es immer ärger treiben, indem sie verführen und selbst verführt werden.",
+      "citation": "2 Timotheus 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Du aber bleibe dem treu, was du gelernt hast und was dir zu völliger Gewißheit geworden ist; du weißt ja, von welchen Lehrern du es gelernt hast,",
+      "citation": "2 Timotheus 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "und kennst ja von Kind auf die heiligen Schriften, die imstande sind, dich weise zu machen zur Errettung durch den auf Christus Jesus gegründeten Glauben.",
+      "citation": "2 Timotheus 3:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Jede von Gottes Geist eingegebene Schrift ist auch förderlich zur Belehrung und zur Überführung, zur Besserung und zur Erziehung in der Gerechtigkeit,",
+      "citation": "2 Timotheus 3:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "damit der Gottesmensch vollkommen sei, zu jedem guten Werk voll ausgerüstet.",
+      "citation": "2 Timotheus 3:17 (Menge)"
+    }
+  ]
+}

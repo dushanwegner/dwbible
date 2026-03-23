@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Petrus, Chapter 5 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Petrus",
+      "slug": "1-peter",
+      "testament": "NT",
+      "order": 67,
+      "totalChapters": 5
+    },
+    "chapter": 5,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-peter/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-peter/4.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-peter/5.json",
+      "latin": "https://latinprayer.org/latin/1-peter/5.json"
+    }
+  },
+  "citation": "1 Petrus 5 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Die Ältesten nun unter euch ermahne ich als ihr Mitältester und als der Zeuge der Leiden Christi, wie auch als Teilnehmer an der Herrlichkeit, deren Offenbarung bevorsteht:",
+      "citation": "1 Petrus 5:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "weidet die euch anvertraute Herde Gottes und überwacht sie, nicht aus Zwang, sondern mit freudiger Bereitwilligkeit nach Gottes Willen, auch nicht in schnöder Gewinnsucht, sondern mit Hingebung,",
+      "citation": "1 Petrus 5:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "auch nicht als Gewaltherrscher über die euch anvertrauten (Gemeinden), sondern als Vorbilder für die Herde;",
+      "citation": "1 Petrus 5:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "dann werdet ihr auch, wenn der Erzhirte erscheint, den unverwelklichen Kranz der Herrlichkeit empfangen. –",
+      "citation": "1 Petrus 5:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ebenso, ihr Jüngeren: seid den Ältesten untertan. Allesamt aber legt euch im Verkehr miteinander das Dienstgewand der Demut an, denn »Gott widersteht den Hoffärtigen, aber den Demütigen gibt er Gnade«.",
+      "citation": "1 Petrus 5:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Demütigt euch also unter die gewaltige Hand Gottes, damit er euch zu seiner Zeit erhöhe!",
+      "citation": "1 Petrus 5:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Alle eure Sorge werft auf ihn, denn er sorgt für euch!",
+      "citation": "1 Petrus 5:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Seid nüchtern, seid wachsam! Euer Widersacher, der Teufel, geht wie ein brüllender Löwe umher und sucht, wen er verschlingen kann!",
+      "citation": "1 Petrus 5:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Dem leistet Widerstand in Glaubensfestigkeit; ihr wißt ja, daß die gleichen Leiden euren Brüdern in der ganzen Welt auferlegt werden.",
+      "citation": "1 Petrus 5:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Der Gott aller Gnade aber, der uns berufen hat zu seiner ewigen Herrlichkeit in Christus, der wird euch nach einer kurzen Leidenszeit vollbereiten, festigen, stärken und gründen.",
+      "citation": "1 Petrus 5:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Sein ist die Macht in alle Ewigkeit! Amen.",
+      "citation": "1 Petrus 5:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "(Dies) habe ich euch durch Silvanus, den – wie ich überzeugt bin – treuen Bruder, in Kürze geschrieben, um euch zu ermahnen und euch zu bezeugen, daß dies die wahre Gnade Gottes ist, in der ihr stehen sollt. –",
+      "citation": "1 Petrus 5:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Es grüßt euch die miterwählte (Gemeinde) in Babylon und mein Sohn Markus.",
+      "citation": "1 Petrus 5:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Grüßt einander mit dem Liebeskuß! Friede sei mit euch allen, die ihr in Christus seid!",
+      "citation": "1 Petrus 5:14 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Joel, Chapter 6 — 15 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Joel",
+      "slug": "joel",
+      "testament": "OT",
+      "order": 34,
+      "totalChapters": 9
+    },
+    "chapter": 6,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/joel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/joel/5.json",
+      "nextChapter": "https://latinprayer.org/latin/joel/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/joel/6.json",
+      "german": "https://latinprayer.org/bibel/joel/6.json"
+    }
+  },
+  "citation": "Joel 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "vae qui opulenti estis in Sion et confiditis in monte Samariae optimates capita populorum ingredientes pompatice domum Israhel",
+      "citation": "Joel 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "transite in Chalanne et videte et ite inde in Emath magnam et descendite in Geth Palestinorum et ad optima quaeque regna horum si latior terminus eorum termino vestro est",
+      "citation": "Joel 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "qui separati estis in diem malum et adpropinquatis solio iniquitatis",
+      "citation": "Joel 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "qui dormitis in lectis eburneis et lascivitis in stratis vestris qui comeditis agnum de grege et vitulos de medio armenti",
+      "citation": "Joel 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "qui canitis ad vocem psalterii sicut David putaverunt se habere vasa cantici",
+      "citation": "Joel 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "bibentes in fialis vinum et optimo unguento delibuti et nihil patiebantur super contritione Ioseph",
+      "citation": "Joel 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quapropter nunc migrabunt in capite transmigrantium et auferetur factio lascivientium",
+      "citation": "Joel 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "iuravit Dominus Deus in anima sua dicit Dominus Deus exercituum detestor ego superbiam Iacob et domos eius odi et tradam civitatem cum habitatoribus suis",
+      "citation": "Joel 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quod si reliqui fuerint decem viri in domo una et ipsi morientur",
+      "citation": "Joel 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et tollet eum propinquus suus et conburet eum ut efferat ossa de domo et dicet ei qui in penetrabilibus domus est numquid adhuc est apud te",
+      "citation": "Joel 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et respondebit finis est et dicet ei tace et non recorderis nominis Domini",
+      "citation": "Joel 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quia ecce Dominus mandabit et percutiet domum maiorem ruinis et domum minorem scissionibus",
+      "citation": "Joel 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "numquid currere queunt in petris equi aut arari potest in bubalis quoniam convertistis in amaritudinem iudicium et fructum iustitiae in absinthium",
+      "citation": "Joel 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "qui laetamini in nihili qui dicitis numquid non in fortitudine nostra adsumpsimus nobis cornua",
+      "citation": "Joel 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ecce enim suscitabo super vos domus Israhel dicit Dominus Deus exercituum gentem et conterent vos ab introitu Emath usque ad torrentem Deserti",
+      "citation": "Joel 6:15 (Clementine Vulgate)"
+    }
+  ]
+}

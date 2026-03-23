@@ -1,0 +1,286 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 12 — 50 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 12,
+    "verseCount": 50,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/exodus/11.json",
+      "nextChapter": "https://latinprayer.org/bible/exodus/13.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/exodus/12.json",
+      "german": "https://latinprayer.org/bibel/exodus/12.json"
+    }
+  },
+  "citation": "Exodus 12 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord said to Moses and Aaron in the land of Egypt:",
+      "citation": "Exodus 12:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "This month shall be to you the beginning of months; it shall be the first in the months of the year.",
+      "citation": "Exodus 12:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Speak ye to the whole assembly of the children of Israel, and say to them: On the tenth day of this month let every man take a lamb by their families and houses.",
+      "citation": "Exodus 12:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But if the number be less than may suffice to eat the lamb, he shall take unto him his neighbour that joineth to his house, according to the number of souls which may be enough to eat the lamb.",
+      "citation": "Exodus 12:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And it shall be a lamb without blemish, a male, of one year; according to which rite also you shall take a kid.",
+      "citation": "Exodus 12:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And you shall keep it until the fourteenth day of this month; and the whole multitude of the children of Israel shall sacrifice it in the evening.",
+      "citation": "Exodus 12:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And they shall take of the blood thereof, and put it upon both the side posts, and on the upper door posts of the houses, wherein they shall eat it.",
+      "citation": "Exodus 12:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And they shall eat the flesh that night roasted at the fire, and unleavened bread with wild lettuce.",
+      "citation": "Exodus 12:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "You shall not eat thereof any thing raw, nor boiled in water, but only roasted at the fire; you shall eat the head with the feet and entrails thereof.",
+      "citation": "Exodus 12:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Neither shall there remain any thing of it until morning. If there be any thing left, you shall burn it with fire.",
+      "citation": "Exodus 12:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And thus you shall eat it: you shall gird your reins, and you shall have shoes on your feet, holding staves in your hands, and you shall eat in haste; for it is the Phase (that is the Passage) of the Lord.",
+      "citation": "Exodus 12:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And I will pass through the land of Egypt that night, and will kill every firstborn in the land of Egypt, both man and beast: and against all the gods of Egypt I will execute judgments; I am the Lord.",
+      "citation": "Exodus 12:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the blood shall be unto you for a sign in the houses where you shall be; and I shall see the blood, and shall pass over you; and the plague shall not be upon you to destroy you, when I shall strike the land of Egypt.",
+      "citation": "Exodus 12:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And this day shall be for a memorial to you; and you shall keep it a feast to the Lord in your generations, with an everlasting observance.",
+      "citation": "Exodus 12:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Seven days shall you eat unleavened bread: in the first day there shall be no leaven in your houses; whosoever shall eat any thing leavened, from the first day until the seventh day, that soul shall perish out of Israel.",
+      "citation": "Exodus 12:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The first day shall be holy and solemn, and the seventh day shall be kept with the like solemnity: you shall do no work in them, except those things that belong to eating.",
+      "citation": "Exodus 12:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And you shall observe the feast of the unleavened bread: for in this same day I will bring forth your army out of the land of Egypt, and you shall keep this day in your generations by a perpetual observance.",
+      "citation": "Exodus 12:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Seven days there shall not be found any leaven in your houses: he that shall eat leavened bread, his soul shall perish out of the assembly of Israel, whether he be a stranger or born in the land.",
+      "citation": "Exodus 12:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "You shall not eat any thing leavened: in all your habitations you shall eat unleavened bread.",
+      "citation": "Exodus 12:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And Moses called all the ancients of the children of Israel, and said to them: Go take a lamb by your families, and sacrifice the Phase.",
+      "citation": "Exodus 12:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And dip a bunch of hyssop in the blood that is at the door, and sprinkle the transom of the door therewith, and both the door cheeks: let none of you go out of the door of his house till morning.",
+      "citation": "Exodus 12:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "For the Lord will pass through striking the Egyptians: and when he shall see the blood on the transom, and on both the posts, he will pass over the door of the house, and not suffer the destroyer to come into your houses and to hurt you.",
+      "citation": "Exodus 12:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Thou shalt keep this thing as a law for thee and thy children for ever.",
+      "citation": "Exodus 12:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And when you have entered into the land which the Lord will give you, as he hath promised, you shall observe these ceremonies.",
+      "citation": "Exodus 12:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And when your children shall say to you: What is the meaning of this service?",
+      "citation": "Exodus 12:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "You shall say to them: It is the victim of the passage of the Lord, when he passed over the houses of the children of Israel in Egypt, striking the Egyptians, and saving our houses. And the people bowing themselves, adored.",
+      "citation": "Exodus 12:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And the children of Israel going forth, did as the Lord had commanded Moses and Aaron.",
+      "citation": "Exodus 12:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And it came to pass at midnight, the Lord slew every firstborn in the land of Egypt, from the firstborn of Pharao, who sat on his throne, unto the firstborn of the captive woman that was in the prison, and all the firstborn of cattle.",
+      "citation": "Exodus 12:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And Pharao arose in the night, and all his servants, and all Egypt: and there arose a great cry in Egypt; for there was not a house wherein there lay not one dead.",
+      "citation": "Exodus 12:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And Pharao calling Moses and Aaron, in the night, said: Arise and go forth from among my people, you and the children of Israel: go, sacrifice to the Lord as you say.",
+      "citation": "Exodus 12:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "Your sheep and herds take along with you, as you demanded, and departing bless me.",
+      "citation": "Exodus 12:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "And the Egyptians pressed the people to go forth out of the land speedily, saying: We shall all die.",
+      "citation": "Exodus 12:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "The people therefore took dough before it was leavened; and tying it in their cloaks, put it on their shoulders.",
+      "citation": "Exodus 12:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "And the children of Israel did as Moses had commanded: and they asked of the Egyptians vessels of silver and gold, and very much raiment.",
+      "citation": "Exodus 12:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And the Lord gave favour to the people in the sight of the Egyptians, so that they lent unto them: and they stripped the Egyptians.",
+      "citation": "Exodus 12:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And the children of Israel set forward from Ramesse to Socoth, being about six hundred thousand men on foot, beside children.",
+      "citation": "Exodus 12:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And a mixed multitude, without number, went up also with them, sheep and herds, and beasts of divers kinds, exceeding many.",
+      "citation": "Exodus 12:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And they baked the meal, which a little before they had brought out of Egypt in dough: and they made hearth cakes unleavened: for it could not be leavened, the Egyptians pressing them to depart, and not suffering them to make any stay; neither did they think of preparing any meat.",
+      "citation": "Exodus 12:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And the abode of the children of Israel that they made in Egypt, was four hundred and thirty years.",
+      "citation": "Exodus 12:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "Which being expired, the same day all the army of the Lord went forth out of the land of Egypt.",
+      "citation": "Exodus 12:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "This is the observable night of the Lord, when he brought them forth out of the land of Egypt: this night all the children of Israel must observe in their generations.",
+      "citation": "Exodus 12:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And the Lord said to Moses and Aaron: This is the service of the Phase; no foreigner shall eat of it.",
+      "citation": "Exodus 12:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "But every bought servant shall be circumcised, and so shall eat.",
+      "citation": "Exodus 12:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "The stranger and the hireling shall not eat thereof.",
+      "citation": "Exodus 12:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "In one house shall it be eaten, neither shall you carry forth of the flesh thereof out of the house, neither shall you break a bone thereof.",
+      "citation": "Exodus 12:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "All the assembly of the children of Israel shall keep it.",
+      "citation": "Exodus 12:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "And if any stranger be willing to dwell among you, and to keep the Phase of the Lord, all his males shall first be circumcised, and then shall he celebrate it according to the manner: and he shall be as he that is born in the land: but if any man be uncircumcised, he shall not eat thereof.",
+      "citation": "Exodus 12:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "The same law shall be to him that is born in the land, and to the proselyte that sojourneth with you.",
+      "citation": "Exodus 12:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "And all the children of Israel did as the Lord had commanded Moses and Aaron.",
+      "citation": "Exodus 12:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "And the same day the Lord brought forth the children of Israel out of the land of Egypt by their companies.",
+      "citation": "Exodus 12:51 (Douay-Rheims)"
+    }
+  ]
+}

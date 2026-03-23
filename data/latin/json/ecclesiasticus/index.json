@@ -1,0 +1,279 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach — 42 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 40,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/1",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/2",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/3",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/4",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/5",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/6",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 40,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/7",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/8",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/9",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/10",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/11",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/12",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/13",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 27,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/14",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/15",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/16",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/16.json"
+    },
+    {
+      "chapter": 17,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/17",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/17.json"
+    },
+    {
+      "chapter": 18,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/18",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/18.json"
+    },
+    {
+      "chapter": 19,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/19",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/19.json"
+    },
+    {
+      "chapter": 20,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/20",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/20.json"
+    },
+    {
+      "chapter": 21,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/21",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/21.json"
+    },
+    {
+      "chapter": 22,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/22",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/22.json"
+    },
+    {
+      "chapter": 23,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/23",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/23.json"
+    },
+    {
+      "chapter": 24,
+      "verseCount": 47,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/24",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/24.json"
+    },
+    {
+      "chapter": 25,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/25",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/25.json"
+    },
+    {
+      "chapter": 26,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/26",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/26.json"
+    },
+    {
+      "chapter": 27,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/27",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/27.json"
+    },
+    {
+      "chapter": 28,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/28",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/28.json"
+    },
+    {
+      "chapter": 29,
+      "verseCount": 35,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/29",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/29.json"
+    },
+    {
+      "chapter": 30,
+      "verseCount": 27,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/30",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/30.json"
+    },
+    {
+      "chapter": 31,
+      "verseCount": 42,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/31",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/31.json"
+    },
+    {
+      "chapter": 32,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/32",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/32.json"
+    },
+    {
+      "chapter": 33,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/33",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/33.json"
+    },
+    {
+      "chapter": 34,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/34",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/34.json"
+    },
+    {
+      "chapter": 35,
+      "verseCount": 26,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/35",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/35.json"
+    },
+    {
+      "chapter": 36,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/36",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/36.json"
+    },
+    {
+      "chapter": 37,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/37",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/37.json"
+    },
+    {
+      "chapter": 38,
+      "verseCount": 39,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/38",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/38.json"
+    },
+    {
+      "chapter": 39,
+      "verseCount": 41,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/39",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/39.json"
+    },
+    {
+      "chapter": 40,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/40",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/40.json"
+    },
+    {
+      "chapter": 41,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/41",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/41.json"
+    },
+    {
+      "chapter": 42,
+      "verseCount": 0,
+      "url": "https://latinprayer.org/latin/ecclesiasticus/42",
+      "jsonUrl": "https://latinprayer.org/latin/ecclesiasticus/42.json"
+    }
+  ]
+}

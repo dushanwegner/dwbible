@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 12 — 15 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 12,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/osee/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/osee/11.json",
+      "nextChapter": "https://latinprayer.org/latin/osee/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/12.json",
+      "german": "https://latinprayer.org/bibel/osee/12.json"
+    }
+  },
+  "citation": "Hosea 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "circumdedit me in negatione Ephraim et in dolo domus Israhel Iudas autem testis descendit cum Deo et cum sanctis fidelis",
+      "citation": "Hosea 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Ephraim pascit ventum et sequitur aestum tota die mendacium et vastitatem multiplicat et foedus cum Assyriis iniit et oleum in Aegyptum ferebat",
+      "citation": "Hosea 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "iudicium ergo Domini cum Iuda et visitatio super Iacob iuxta vias eius et iuxta adinventiones eius reddet ei",
+      "citation": "Hosea 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "in utero subplantavit fratrem suum et in fortitudine sua directus est cum angelo",
+      "citation": "Hosea 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et invaluit ad angelum et confortatus est flevit et rogavit eum in Bethel invenit eum et ibi locutus est nobiscum",
+      "citation": "Hosea 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et Dominus Deus exercituum Dominus memoriale eius",
+      "citation": "Hosea 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et tu ad Deum tuum converteris misericordiam et iudicium custodi et spera in Deo tuo semper",
+      "citation": "Hosea 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Chanaan in manu eius statera dolosa calumniam dilexit",
+      "citation": "Hosea 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et dixit Ephraim verumtamen dives effectus sum inveni idolum mihi omnes labores mei non invenient mihi iniquitatem quam peccavi",
+      "citation": "Hosea 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ego Dominus Deus tuus ex terra Aegypti adhuc sedere te faciam in tabernaculis sicut in diebus festivitatis",
+      "citation": "Hosea 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et locutus sum super prophetas et ego visionem multiplicavi et in manu prophetarum adsimilatus sum",
+      "citation": "Hosea 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "si Galaad idolum tamen frustra erant in Galgal bubus immolantes nam et altaria eorum quasi acervi super sulcos agri",
+      "citation": "Hosea 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "fugit Iacob in regionem Syriae et servivit Israhel in uxore et in uxore servavit",
+      "citation": "Hosea 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "in propheta autem eduxit Dominus Israhel de Aegypto et in propheta servatus est",
+      "citation": "Hosea 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ad iracundiam me provocavit Ephraim in amaritudinibus suis et sanguis eius super eum veniet et obprobrium eius restituet ei Dominus suus",
+      "citation": "Hosea 12:15 (Clementine Vulgate)"
+    }
+  ]
+}

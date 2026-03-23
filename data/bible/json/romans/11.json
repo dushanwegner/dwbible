@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Romans, Chapter 11 — 36 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 52,
+      "totalChapters": 16
+    },
+    "chapter": 11,
+    "verseCount": 36,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/romans/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/romans/10.json",
+      "nextChapter": "https://latinprayer.org/bible/romans/12.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/romans/11.json",
+      "german": "https://latinprayer.org/bibel/romans/11.json"
+    }
+  },
+  "citation": "Romans 11 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I say then: Hath God cast away his people? God forbid! For I also am an Israelite of the seed of Abraham, of the tribe of Benjamin.",
+      "citation": "Romans 11:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "God hath not cast away his people which he foreknew. Know you not what the scripture saith of Elias, how he calleth on God against Israel?",
+      "citation": "Romans 11:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Lord, they have slain thy prophets, they have dug down thy altars. And I am left alone: and they seek my life.",
+      "citation": "Romans 11:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "But what saith the divine answer to him? I have left me seven thousand men that have not bowed their knees to Baal.",
+      "citation": "Romans 11:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Even so then, at this present time also, there is a remnant saved according to the election of grace.",
+      "citation": "Romans 11:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And if by grace, it is not now by works: otherwise grace is no more grace.",
+      "citation": "Romans 11:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "What then? That which Israel sought, he hath not obtained: but the election hath obtained it. And the rest have been blinded.",
+      "citation": "Romans 11:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "As it is written: God hath given them the spirit of insensibility; eyes that they should not see and ears that they should not hear, until this present day.",
+      "citation": "Romans 11:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And David saith: Let their table be made a snare and a trap and a stumbling block and a recompense unto them.",
+      "citation": "Romans 11:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Let their eyes be darkened, that they may not see: and bow down their back always.",
+      "citation": "Romans 11:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "I say then: Have they so stumbled, that they should fall?  God forbid! But by their offence salvation is come to the Gentiles, that they may be emulous of them.",
+      "citation": "Romans 11:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Now if the offence of them be the riches of the world and the diminution of them the riches of the Gentiles: how much more the fulness of them?",
+      "citation": "Romans 11:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For I say to you, Gentiles: As long indeed as I am the apostle of the Gentiles, I will honour my ministry,",
+      "citation": "Romans 11:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "If, by any means, I may provoke to emulation them who are my flesh and may save some of them.",
+      "citation": "Romans 11:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For if the loss of them be the reconciliation of the world, what shall the receiving of them be, but life from the dead?",
+      "citation": "Romans 11:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "For if the firstfruit be holy, so is the lump also: and if the root be holy, so are the branches.",
+      "citation": "Romans 11:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And if some of the branches be broken and thou, being a wild olive, art ingrafted in them and art made partaker of the root and of the fatness of the olive tree:",
+      "citation": "Romans 11:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Boast not against the branches. But if thou boast, thou bearest not the root: but the root thee.",
+      "citation": "Romans 11:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Thou wilt say then: The branches were broken off that I might be grafted in.",
+      "citation": "Romans 11:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Well: because of unbelief they were broken off. But thou standest by faith. Be not highminded, but fear.",
+      "citation": "Romans 11:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "For if God hath not spared the natural branches, fear lest perhaps also he spare not thee.",
+      "citation": "Romans 11:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "See then the goodness and the severity of God: towards them indeed that are fallen, the severity; but towards thee, the goodness of God, if thou abide in goodness. Otherwise thou also shalt be cut off.",
+      "citation": "Romans 11:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And they also, if they abide not still in unbelief, shall be grafted in: for God is able to graft them in again.",
+      "citation": "Romans 11:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "For if thou were cut out of the wild olive tree, which is natural to thee; and, contrary to nature, wert grafted into the good olive tree: how much more shall they that are the natural branches be grafted into their own olive tree?",
+      "citation": "Romans 11:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "For I would not have you ignorant, brethren, of this mystery (lest you should be wise in your own conceits) that blindness in part has happened in Israel, until the fulness of the Gentiles should come in.",
+      "citation": "Romans 11:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And so all Israel should be saved, as it is written: There shall come out of Sion, he that shall deliver and shall turn away ungodliness from Jacob.",
+      "citation": "Romans 11:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And this is to them my covenant: when I shall take away their sins.",
+      "citation": "Romans 11:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "As concerning the gospel, indeed, they are enemies for your sake: but as touching the election, they are most dear for the sake of the fathers.",
+      "citation": "Romans 11:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "For the gifts and the calling of God are without repentance.",
+      "citation": "Romans 11:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "For as you also in times past did not believe God, but now have obtained mercy, through their unbelief:",
+      "citation": "Romans 11:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "So these also now have not believed, for your mercy, that they also may obtain mercy.",
+      "citation": "Romans 11:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "For God hath concluded all in unbelief, that he may have mercy on all.",
+      "citation": "Romans 11:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "O the depth of the riches of the wisdom and of the knowledge of God! How incomprehensible are his judgments, and how unsearchable his ways!",
+      "citation": "Romans 11:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "For who hath known the mind of the Lord? Or who hath been his counsellor?",
+      "citation": "Romans 11:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "Or who hath first given to him, and recompense shall be made him?",
+      "citation": "Romans 11:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "For of him, and by him, and in him, are all things: to him be glory for ever. Amen.",
+      "citation": "Romans 11:36 (Douay-Rheims)"
+    }
+  ]
+}

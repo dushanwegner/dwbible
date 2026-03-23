@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Levitikus, Chapter 12 — 8 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Levitikus",
+      "slug": "leviticus",
+      "testament": "OT",
+      "order": 3,
+      "totalChapters": 27
+    },
+    "chapter": 12,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/leviticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/leviticus/11.json",
+      "nextChapter": "https://latinprayer.org/bibel/leviticus/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/leviticus/12.json",
+      "latin": "https://latinprayer.org/latin/leviticus/12.json"
+    }
+  },
+  "citation": "Levitikus 12 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Darauf gebot der HERR dem Mose folgendes:",
+      "citation": "Levitikus 12:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Teile den Israeliten folgende Verordnungen mit: Wenn ein Weib Mutter wird und einen Knaben gebiert, so ist sie sieben Tage lang unrein! Ebenso lange wie in den Tagen ihrer Unreinheit infolge ihres regelmäßigen Unwohlseins ist sie unrein.",
+      "citation": "Levitikus 12:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Am achten Tage soll dann das Kind an seiner Vorhaut beschnitten werden.",
+      "citation": "Levitikus 12:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Alsdann muß sie noch dreiunddreißig Tage während der Zeit ihrer Blutreinigung (zu Hause) bleiben: sie darf nichts Heiliges berühren und nicht ins Heiligtum kommen, bis die Tage ihrer Reinigung abgelaufen sind.",
+      "citation": "Levitikus 12:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Gebiert sie aber ein Mädchen, so ist sie zwei Wochen lang unrein, wie bei ihrer regelmäßigen Unreinheit, und muß dann noch sechsundsechzig Tage während der Zeit ihrer Blutreinigung (zu Hause) bleiben.",
+      "citation": "Levitikus 12:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Sobald dann die Tage ihrer Reinigung abgelaufen sind, so soll sie, mag das Kind ein Knabe oder ein Mädchen sein, ein einjähriges Lamm zum Brandopfer und eine junge Taube oder eine Turteltaube zum Sündopfer an den Eingang des Offenbarungszeltes zu dem Priester bringen.",
+      "citation": "Levitikus 12:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Dieser soll dann die Opfertiere vor dem HERRN darbringen und ihr dadurch Sühne erwirken, dann wird sie von ihrem Blutfluß rein sein. Diese Vorschriften gelten für die Wöchnerinnen, mag das Kind ein Knabe oder ein Mädchen sein.",
+      "citation": "Levitikus 12:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Sollte ihr Vermögen aber zur Beschaffung eines Lammes nicht ausreichen, so soll sie zwei Turteltauben oder zwei junge Tauben nehmen, die eine zum Brandopfer, die andere zum Sündopfer. Wenn der Priester ihr dann Sühne erwirkt hat, wird sie rein sein.«",
+      "citation": "Levitikus 12:8 (Menge)"
+    }
+  ]
+}

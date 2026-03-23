@@ -1,0 +1,236 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 1 — 40 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 1,
+    "verseCount": 40,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/1.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/1.json"
+    }
+  },
+  "citation": "Sirach 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "omnis sapientia a Deo Domino est et cum illo fuit semper et est ante aevum",
+      "citation": "Sirach 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "harenam maris et pluviae guttas et dies saeculi quis dinumeravit altitudinem caeli et latitudinem terrae et profundum abyssi quis mensus est",
+      "citation": "Sirach 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "sapientiam Dei praecedentem omnia quis investigavit",
+      "citation": "Sirach 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "prior omnium creata est sapientia et intellectus prudentiae ab aevo",
+      "citation": "Sirach 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "fons sapientiae verbum Dei in excelsis et ingressus illius mandata aeterna",
+      "citation": "Sirach 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "radix sapientiae cui revelata est et astutias illius quis agnovit",
+      "citation": "Sirach 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "disciplina sapientiae cui revelata est et manifestata et multiplicationem ingressus illius quis intellexit",
+      "citation": "Sirach 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "unus est Altissimus creator omnipotens rex potens et metuendus nimis sedens super thronum illius et dominans Deus",
+      "citation": "Sirach 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ipse creavit illam spiritu sancto et vidit et dinumeravit et mensus est",
+      "citation": "Sirach 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et effudit illam super omnia opera sua et super omnem carnem secundum datum suum et praebuit illam diligentibus se",
+      "citation": "Sirach 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "timor Domini gloria et gloriatio et laetitia et corona exultationis",
+      "citation": "Sirach 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "timor Domini delectabit cor et dabit laetitiam et gaudium in longitudine dierum",
+      "citation": "Sirach 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "timenti Dominum bene erit in extremis et in die defunctionis suae benedicetur",
+      "citation": "Sirach 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dilectio Dei honorabilis sapientia",
+      "citation": "Sirach 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quibus autem apparuerit in visu diligunt eam in visione et in agnitione magnalium suorum",
+      "citation": "Sirach 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "initium sapientiae timor Domini et cum fidelibus in vulva concreatus est et cum electis seminis creditur et cum iustis et fidelibus agnoscitur",
+      "citation": "Sirach 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "timor Domini scientiae religiositas",
+      "citation": "Sirach 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "religiositas custodiet et iustificabit cor iucunditatem atque gaudium dabit",
+      "citation": "Sirach 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "timenti Deum bene erit et in diebus consummationis illius benedicetur",
+      "citation": "Sirach 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "plenitudo sapientiae timere Deum et plenitudo a fructibus illius",
+      "citation": "Sirach 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "omnem domum illius implebit a generationibus et receptacula a thesauris illius",
+      "citation": "Sirach 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "corona sapientiae timor Domini repollens pacem et salutis fructum",
+      "citation": "Sirach 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et vidit et dinumeravit eam utraque autem sunt dona Dei",
+      "citation": "Sirach 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "scientiam et intellectum prudentiae sapientia conpartietur et gloriam tenentium se inaltat",
+      "citation": "Sirach 1:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "radix sapientiae est timere Dominum rami enim illius longevi",
+      "citation": "Sirach 1:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "in thesauris sapientiae intellectus et scientiae religiositas execratio autem peccatoribus sapientia",
+      "citation": "Sirach 1:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "timor Dei expellit peccatum",
+      "citation": "Sirach 1:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "nam qui sine timore est non poterit iustificari iracundia enim animositatis illius subversio illius est",
+      "citation": "Sirach 1:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "usque in tempus sustinebit patiens et postea redditio iucunditatis",
+      "citation": "Sirach 1:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "bonus sensus usque in tempus abscondebit verba illius et labia multorum enarrabunt sensum illius",
+      "citation": "Sirach 1:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "[]",
+      "citation": "Sirach 1:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "[]",
+      "citation": "Sirach 1:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "concupiscens sapientiam conserva iustitiam et Deus praebebit illam tibi",
+      "citation": "Sirach 1:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "sapientia enim et disciplina timor Domini et quod beneplacitum est illi",
+      "citation": "Sirach 1:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "fides et mansuetudo et adimplebit thesauros illius",
+      "citation": "Sirach 1:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "non sis incredibilis timori Domini et ne accesseris ad illum duplici corde",
+      "citation": "Sirach 1:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "ne fueris hypocrita in conspectu hominum et non scandalizeris labiis tuis",
+      "citation": "Sirach 1:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "adtende in illis ne forte cadas et adducas animae tuae inhonorationem",
+      "citation": "Sirach 1:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et revelet Deus absconsa tua et in medio synagogae elidat te",
+      "citation": "Sirach 1:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "quoniam accessisti maligne ad Dominum et cor tuum plenum est dolo et fallacia",
+      "citation": "Sirach 1:40 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 55 — 24 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 55,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/54.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/56.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/55.json",
+      "latin": "https://latinprayer.org/latin/psalms/55.json"
+    }
+  },
+  "citation": "Psalmen 55 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister, mit Saitenspiel, ein Lehrgedicht</em><em> von David.</em>",
+      "citation": "Psalmen 55:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Vernimm, o Gott, mein Gebet und verbirg dich nicht vor meinem Flehen!",
+      "citation": "Psalmen 55:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Merke auf mich und erhöre mich! Ich schwanke in meinem Kummer hin und her und stöhne",
+      "citation": "Psalmen 55:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "ob dem Lärmen der Feinde, ob dem Toben der Frevler; denn sie wälzen Unheil auf mich und befehden mich wütend.",
+      "citation": "Psalmen 55:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Das Herz ängstigt sich mir in der Brust, und die Schrecken des Todes haben mich befallen;",
+      "citation": "Psalmen 55:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Furcht und Zittern kommt mich an, und ein Schauder überläuft mich.",
+      "citation": "Psalmen 55:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "So ruf ich denn aus: »O hätt’ ich doch Flügel wie die Taube! Ich wollte fliegen, bis ich irgendwo Ruhe fände.«",
+      "citation": "Psalmen 55:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Ja weithin wollt ich entfliehen, in der Wüste einen Rastort suchen; SELA.",
+      "citation": "Psalmen 55:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "nach einem Zufluchtsorte für mich wollt’ ich eilen schneller als reißender Wind, als Sturm!",
+      "citation": "Psalmen 55:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Vernichte, Allherr, entzweie ihre Zungen! Denn ich sehe Gewalttat und Hader in der Stadt.",
+      "citation": "Psalmen 55:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Man macht bei Tag und bei Nacht die Runde um sie auf ihren Mauern, Unheil und Elend herrschen in ihrer Mitte.",
+      "citation": "Psalmen 55:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Heilloses Treiben besteht in ihrem Innern, und von ihrem Marktplatz weicht nicht Bedrückung und Trug.",
+      "citation": "Psalmen 55:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Denn nicht ein Feind ist’s, der mich schmäht – das wollt’ ich ertragen; nicht einer, der mich haßt, tut groß gegen mich – ich würde vor ihm mich verbergen;",
+      "citation": "Psalmen 55:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "nein, du bist’s, ein Mann meinesgleichen, mein Freund und trauter Bekannter,",
+      "citation": "Psalmen 55:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "die wir innigen Verkehr miteinander pflegten, zum Hause Gottes schritten im Festgetümmel.",
+      "citation": "Psalmen 55:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Möge der Tod sie ereilen, mögen sie lebend zur Unterwelt fahren! Denn Bosheit herrscht in ihrer Wohnstatt, in ihrem Herzen.",
+      "citation": "Psalmen 55:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Ich aber rufe zu Gott, und der HERR wird mir helfen.",
+      "citation": "Psalmen 55:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Abends und morgens und mittags will ich klagen und seufzen, so wird er mein Flehen vernehmen.",
+      "citation": "Psalmen 55:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Er wird meine Seele erlösen zum Frieden, so daß sie nicht an mich können; denn ihrer sind viele gegen mich.",
+      "citation": "Psalmen 55:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Gott wird mich hören, wird sie demütigen (ihnen Antwort geben), er, der von alters her auf dem Throne sitzt; SELA. sie wollen sich ja nicht ändern und Gott nicht fürchten.",
+      "citation": "Psalmen 55:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Er hat die Hand an seine Freunde gelegt, hat seinen Bund entweiht.",
+      "citation": "Psalmen 55:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Glatt sind die Schmeichlerworte seines Mundes, aber Krieg ist sein Sinnen; linder sind seine Reden als Öl, und sind doch gezückte Schwerter.",
+      "citation": "Psalmen 55:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Wirf auf den HERRN deine Bürde: er wird dich aufrecht erhalten; er läßt den Gerechten nicht ewig wanken.",
+      "citation": "Psalmen 55:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Ja du, Gott, wirst sie stürzen in die Tiefe des Grabes; die Männer des Blutvergießens und des Truges werden ihre Tage nicht auf die Hälfte bringen. Ich aber vertraue auf dich!",
+      "citation": "Psalmen 55:24 (Menge)"
+    }
+  ]
+}

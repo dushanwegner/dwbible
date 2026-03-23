@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Kings, Chapter 24 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Kings",
+      "slug": "4-kings",
+      "testament": "OT",
+      "order": 12,
+      "totalChapters": 25
+    },
+    "chapter": 24,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/4-kings/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/4-kings/23.json",
+      "nextChapter": "https://latinprayer.org/latin/4-kings/25.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/4-kings/24.json",
+      "german": "https://latinprayer.org/bibel/4-kings/24.json"
+    }
+  },
+  "citation": "2 Kings 24 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in diebus eius ascendit Nabuchodonosor rex Babylonis et factus est ei Ioiachim servus tribus annis et rursum rebellavit contra eum",
+      "citation": "2 Kings 24:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "inmisitque ei Dominus latrunculos Chaldeorum et latrunculos Syriae latrunculos Moab et latrunculos filiorum Ammon et inmisit eos in Iudam ut disperderent eum iuxta verbum Domini quod locutus erat per servos suos prophetas",
+      "citation": "2 Kings 24:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "factum est autem hoc per verbum Domini contra Iudam ut auferret eum coram se propter peccata Manasse universa quae fecit",
+      "citation": "2 Kings 24:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et propter sanguinem innoxium quem effudit et implevit Hierusalem cruore innocentium et ob hanc rem noluit Dominus propitiari",
+      "citation": "2 Kings 24:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "reliqua autem sermonum Ioiachim et universa quae fecit nonne haec scripta sunt in libro sermonum dierum regum Iuda et dormivit Ioiachim cum patribus suis",
+      "citation": "2 Kings 24:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "regnavitque Ioiachin filius eius pro eo",
+      "citation": "2 Kings 24:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et ultra non addidit rex Aegypti ut egrederetur de terra sua tulerat enim rex Babylonis a rivo Aegypti usque ad fluvium Eufraten omnia quae fuerant regis Aegypti",
+      "citation": "2 Kings 24:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "decem et octo annorum erat Ioiachin cum regnare coepisset et tribus mensibus regnavit in Hierusalem nomen matris eius Naestha filia Helnathan de Hierusalem",
+      "citation": "2 Kings 24:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et fecit malum coram Domino iuxta omnia quae fecerat pater eius",
+      "citation": "2 Kings 24:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in tempore illo ascenderunt servi Nabuchodonosor regis Babylonis in Hierusalem et circumdata est urbs munitionibus",
+      "citation": "2 Kings 24:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "venitque Nabuchodonosor rex Babylonis ad civitatem cum servi eius obpugnarent eam",
+      "citation": "2 Kings 24:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "egressusque est Ioiachin rex Iuda ad regem Babylonis ipse et mater eius et servi eius et principes eius et eunuchi eius et suscepit eum rex Babylonis anno octavo regni sui",
+      "citation": "2 Kings 24:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et protulit inde omnes thesauros domus Domini et thesauros domus regiae et concidit universa vasa aurea quae fecerat Salomon rex Israhel in templo Domini iuxta verbum Domini",
+      "citation": "2 Kings 24:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et transtulit omnem Hierusalem et universos principes et omnes fortes exercitus decem milia in captivitatem et omnem artificem et clusorem nihilque relictum est exceptis pauperibus populi terrae",
+      "citation": "2 Kings 24:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "transtulit quoque Ioiachin in Babylonem et matrem regis et uxores regis et eunuchos eius et iudices terrae duxit in captivitatem de Hierusalem in Babylonem",
+      "citation": "2 Kings 24:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et omnes viros robustos septem milia et artifices et clusores mille omnes viros fortes et bellatores duxitque eos rex Babylonis captivos in Babylonem",
+      "citation": "2 Kings 24:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et constituit Matthaniam patruum eius pro eo inposuitque nomen ei Sedeciam",
+      "citation": "2 Kings 24:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "vicesimum et primum annum aetatis habebat Sedecias cum regnare coepisset et undecim annis regnavit in Hierusalem nomen matris eius erat Amithal filia Hieremiae de Lobna",
+      "citation": "2 Kings 24:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et fecit malum coram Domino iuxta omnia quae fecerat Ioiachim",
+      "citation": "2 Kings 24:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "irascebatur enim Dominus contra Hierusalem et contra Iudam donec proiceret eos a facie sua recessitque Sedecias a rege Babylonis",
+      "citation": "2 Kings 24:20 (Clementine Vulgate)"
+    }
+  ]
+}

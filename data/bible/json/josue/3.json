@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Josue, Chapter 3 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Josue",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 24
+    },
+    "chapter": 3,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/josue/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/josue/2.json",
+      "nextChapter": "https://latinprayer.org/bible/josue/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/josue/3.json",
+      "german": "https://latinprayer.org/bibel/josue/3.json"
+    }
+  },
+  "citation": "Josue 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And Josue rose before daylight, and removed the camp: and they departed from Setim, and came to the Jordan: he, and all the children of Israel, and they abode there for three days.",
+      "citation": "Josue 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "After which, the heralds went through the midst of the camp,",
+      "citation": "Josue 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And began to proclaim: When you shall see the ark of the covenant of the Lord your God, and the priests of the race of Levi carrying it, rise you up also, and follow them as they go before:",
+      "citation": "Josue 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And let there be between you and the ark the space of two thousand cubits: that you may see it afar off, and know which way you must go: for you have not gone this way before: and take care you come not near the ark.",
+      "citation": "Josue 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And Josue said to the people: Be ye sanctified: for tomorrow the Lord will do wonders among you.",
+      "citation": "Josue 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And he said to the priests: Take up the ark of the covenant, and go before the people. And they obeyed his commands, and took it up, and walked before them.",
+      "citation": "Josue 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the Lord said to Josue: This day will I begin to exalt thee before Israel: that they may know that as I was with Moses, so I am with thee also.",
+      "citation": "Josue 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And do thou command the priests, that carry the ark of the covenant, and say to them: When you shall have entered into part of the water of the Jordan, stand in it.",
+      "citation": "Josue 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And Josue said to the children of Israel: Come hither, and hear the word of the Lord your God.",
+      "citation": "Josue 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And again he said: By this you shall know, that the Lord, the living God, is in the midst of you, and that he shall destroy, before your sight, the Chanaanite and the Hethite, the Hevite and the Pherezite, the Gergesite also, and the Jebusite, and the Amorrhite.",
+      "citation": "Josue 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Behold, the ark of the covenant of the Lord of all the earth shall go before you into the Jordan.",
+      "citation": "Josue 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Prepare ye twelve men of the tribes of Israel, one of every tribe.",
+      "citation": "Josue 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And when the priests, that carry the ark of the Lord the God of the whole earth, shall set the soles of their feet in the waters of the Jordan, the waters that are beneath shall run down and go off: and those that come from above, shall stand together upon a heap.",
+      "citation": "Josue 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "So the people went out of their tents, to pass over the Jordan: and the priests that carried the ark of the covenant, went on before them.",
+      "citation": "Josue 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And as soon as they came into the Jordan, and their feet were dipped in part of the water, (now the Jordan, it being harvest time, had filled the banks of its channel,)",
+      "citation": "Josue 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "The waters that came down from above stood in one place, and swelling up like a mountain, were seen afar off, from the city that is called Adom, to the place of Sarthan: but those that were beneath, ran down into the sea of the wilderness, (which now is called the Dead Sea) until they wholly failed.",
+      "citation": "Josue 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And the people marched over against Jericho: and the priests that carried the ark of the covenant of the Lord, stood girded upon the dry ground in the midst of the Jordan, and all the people passed over, through the channel that was dried up.",
+      "citation": "Josue 3:17 (Douay-Rheims)"
+    }
+  ]
+}

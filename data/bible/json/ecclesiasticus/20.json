@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 20 — 33 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 20,
+    "verseCount": 33,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/19.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/21.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/20.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/20.json"
+    }
+  },
+  "citation": "Ecclesiasticus 20 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "How much better is it to reprove, than to be angry, and not to hinder him that confesseth in prayer.",
+      "citation": "Ecclesiasticus 20:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The lust of an eunuch shall deflour a young maiden:",
+      "citation": "Ecclesiasticus 20:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "So is he that by violence executeth of the unwise.",
+      "citation": "Ecclesiasticus 20:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "How good is it, when thou art reproved, to shew repentance!  for so thou shalt escape wilful sin.",
+      "citation": "Ecclesiasticus 20:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "There is one that holdeth his peace, that is found wise: and there is another that is hateful, that is bold in speech.",
+      "citation": "Ecclesiasticus 20:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "There is one that holdeth his peace, because he knoweth not what to say: and there is another that holdeth his peace, knowing the proper time.",
+      "citation": "Ecclesiasticus 20:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "A wise man will hold his peace till he see opportunity: but a babbler, and a fool, will regard no time.",
+      "citation": "Ecclesiasticus 20:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He that useth many words shall hurt his own soul: and he that taketh authority to himself unjustly shall be hated.",
+      "citation": "Ecclesiasticus 20:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "There is success in evil things to a man without discipline, and there is a finding that turneth to loss.",
+      "citation": "Ecclesiasticus 20:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "There is a gift that is not profitable: and there is a gift, the recompense of which is double.",
+      "citation": "Ecclesiasticus 20:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "There is an abasement because of glory: and there is one that shall lift up his head from a low estate.",
+      "citation": "Ecclesiasticus 20:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "There is that buyeth much for a small price, and restoreth the same sevenfold.",
+      "citation": "Ecclesiasticus 20:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "A man wise in words shall make himself beloved: but the graces of fools shall be poured out.",
+      "citation": "Ecclesiasticus 20:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "The gift of the fool shall do thee no good: for his eyes are sevenfold.",
+      "citation": "Ecclesiasticus 20:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "He will give a few things, and upbraid much: and the opening of his mouth is the kindling of a fire.",
+      "citation": "Ecclesiasticus 20:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "To day a man lendeth, and to morrow he asketh it again: such a man as this is hateful.",
+      "citation": "Ecclesiasticus 20:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "A fool shall have no friend, and there shall be no thanks for his good deeds.",
+      "citation": "Ecclesiasticus 20:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "For they that eat his bread, are of a false tongue. How often, and how many will laugh him to scorn!",
+      "citation": "Ecclesiasticus 20:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "For he doth not distribute with right understanding that which was to be had: in like manner also that which was not to be had.",
+      "citation": "Ecclesiasticus 20:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The slipping of a false tongue is as one that falleth on the pavement: so the fall of the wicked shall come speedily.",
+      "citation": "Ecclesiasticus 20:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "A man without grace is as a vain fable, it shall be continually in the mouth of the unwise.",
+      "citation": "Ecclesiasticus 20:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "A parable coming out of a fool's mouth shall be rejected: for he doth not speak it in due season.",
+      "citation": "Ecclesiasticus 20:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "There is that is hindered from sinning through want, and in his rest he shall be pricked.",
+      "citation": "Ecclesiasticus 20:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "There is that will destroy his own soul through shamefacedness, and by occasion of an unwise person he will destroy it: and by respect of person he will destroy himself.",
+      "citation": "Ecclesiasticus 20:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "There is that for bashfulness promiseth to his friend, and maketh him his enemy for nothing.",
+      "citation": "Ecclesiasticus 20:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "A lie is a foul blot in a man, and yet it will be continually in the mouth of men without discipline.",
+      "citation": "Ecclesiasticus 20:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "A thief is better than a man that is always lying: but both of them shall inherit destruction.",
+      "citation": "Ecclesiasticus 20:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "The manners of lying men are without honour: and their confusion is with them without ceasing.",
+      "citation": "Ecclesiasticus 20:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "A wise man shall advance himself with his words, and a prudent man shall please the great ones.",
+      "citation": "Ecclesiasticus 20:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "He that tilleth his land shall make a high heap of corn: and he that worketh justice shall be exalted: and he that pleaseth great men shall escape iniquity.",
+      "citation": "Ecclesiasticus 20:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Presents and gifts blind the eyes of judges, and make them dumb in the mouth, so that they cannot correct.",
+      "citation": "Ecclesiasticus 20:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "O Wisdom that is hid, and treasure that is not seen: what profit is there in them both?",
+      "citation": "Ecclesiasticus 20:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Better is he that hideth his folly, than the man that hideth his wisdom.",
+      "citation": "Ecclesiasticus 20:33 (Douay-Rheims)"
+    }
+  ]
+}

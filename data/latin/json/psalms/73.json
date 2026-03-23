@@ -1,0 +1,316 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 73 — 56 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 73,
+    "verseCount": 56,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/72.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/74.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/73.json",
+      "german": "https://latinprayer.org/bibel/psalms/73.json"
+    }
+  },
+  "citation": "Psalms 73 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "psalmus Asaph quam bonus Israhel Deus his qui recto sunt corde",
+      "citation": "Psalms 73:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "canticum Asaph attamen bonus est Israhel Deus his qui mundo sunt corde",
+      "citation": "Psalms 73:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "mei autem paene moti sunt pedes paene effusi sunt gressus mei",
+      "citation": "Psalms 73:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "mei autem paene vacillaverunt pedes paene effusi sunt gressus mei",
+      "citation": "Psalms 73:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia zelavi super iniquis pacem peccatorum videns",
+      "citation": "Psalms 73:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia aemulatus sum contra iniquos pacem impiorum videns",
+      "citation": "Psalms 73:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia non est respectus morti eorum et firmamentum in plaga eorum",
+      "citation": "Psalms 73:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quod non recogitaverint de morte sua et firma sint vestibula eorum",
+      "citation": "Psalms 73:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "in labore hominum non sunt et cum hominibus non flagellabuntur",
+      "citation": "Psalms 73:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "in labore hominum non sunt et cum hominibus non flagellabuntur",
+      "citation": "Psalms 73:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ideo tenuit eos superbia operti sunt iniquitate et impietate sua",
+      "citation": "Psalms 73:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ideo nutriti sunt ad superbiam circumdederunt iniquitatem sibi",
+      "citation": "Psalms 73:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "prodiet quasi ex adipe iniquitas eorum transierunt in affectum cordis",
+      "citation": "Psalms 73:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "processerunt a pinguidine oculi eorum transierunt cogitationes cordis",
+      "citation": "Psalms 73:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "cogitaverunt et locuti sunt in nequitia iniquitatem in excelso locuti sunt",
+      "citation": "Psalms 73:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "inriserunt et locuti sunt in malitia calumniam de excelso loquentes",
+      "citation": "Psalms 73:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "posuerunt in caelum os suum et lingua eorum transivit in terra",
+      "citation": "Psalms 73:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "posuerunt in caelo os suum et lingua eorum deambulavit in terra",
+      "citation": "Psalms 73:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ideo convertetur populus meus hic et dies pleni invenientur in eis",
+      "citation": "Psalms 73:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "propterea convertetur populus eius hic et quis plenus invenietur in eis",
+      "citation": "Psalms 73:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dixerunt quomodo scit Deus et si est scientia in Excelso",
+      "citation": "Psalms 73:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dixerunt quomodo novit Deus et si est scientia in Excelso",
+      "citation": "Psalms 73:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ecce ipsi peccatores et abundantes in saeculo obtinuerunt divitias",
+      "citation": "Psalms 73:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ecce isti impii et abundantes in saeculo multiplicaverunt divitias",
+      "citation": "Psalms 73:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "%et dixi; ergo sine causa iustificavi cor meum et lavi inter innocentes manus meas",
+      "citation": "Psalms 73:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ergone frustra mundavi cor meum et lavi in innocentia manus meas",
+      "citation": "Psalms 73:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et fui flagellatus tota die et castigatio mea in matutino",
+      "citation": "Psalms 73:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et fui flagellatus tota die et increpatio mea in matutinis",
+      "citation": "Psalms 73:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "si dicebam narrabo sic ecce nationem filiorum tuorum reprobavi",
+      "citation": "Psalms 73:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "dixi si narravero sic ecce generationem filiorum tuorum reliqui",
+      "citation": "Psalms 73:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et existimabam cognoscere hoc labor est ante me",
+      "citation": "Psalms 73:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et cogitavi ut intellegerem istud labor est in oculis meis",
+      "citation": "Psalms 73:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "donec intrem in sanctuarium Dei intellegam in novissimis eorum",
+      "citation": "Psalms 73:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "donec veniam ad sanctuaria Dei intellegam in novissimo eorum",
+      "citation": "Psalms 73:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "verumtamen propter dolos posuisti eis deiecisti eos dum adlevarentur",
+      "citation": "Psalms 73:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "verumtamen in lubrico posuisti eos deiecisti eos ad interitum",
+      "citation": "Psalms 73:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quomodo facti sunt in desolationem subito defecerunt perierunt propter iniquitatem suam",
+      "citation": "Psalms 73:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quomodo vastati sunt subito defecerunt consumpti sunt quasi non sint",
+      "citation": "Psalms 73:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "velut somnium surgentium Domine in civitate tua imaginem ipsorum ad nihilum rediges",
+      "citation": "Psalms 73:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quasi somnium evigilantis Domine in civitate tua imaginem eorum ad nihilum rediges",
+      "citation": "Psalms 73:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quia inflammatum est cor meum et renes mei commutati sunt",
+      "citation": "Psalms 73:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quia contractum est cor meum et lumbi mei velut ignis fumigans",
+      "citation": "Psalms 73:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et ego ad nihilum redactus sum et nescivi",
+      "citation": "Psalms 73:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et ego insipiens et nescius",
+      "citation": "Psalms 73:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ut iumentum factus sum apud te et ego semper tecum",
+      "citation": "Psalms 73:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "quasi iumentum factus sum apud te et eram semper tecum",
+      "citation": "Psalms 73:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "tenuisti manum dexteram meam et in voluntate tua deduxisti me et cum gloria suscepisti me",
+      "citation": "Psalms 73:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et tenebas manum dexteram meam in consilium tuum deduces me et postea in gloria suscipies me",
+      "citation": "Psalms 73:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quid enim mihi est in caelo et a te quid volui super terram",
+      "citation": "Psalms 73:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quid mihi est in caelo et tecum nolui in terra",
+      "citation": "Psalms 73:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "defecit caro mea et cor meum Deus cordis mei et pars mea Deus in aeternum",
+      "citation": "Psalms 73:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "consumpta est caro mea et cor meum robur cordis mei et pars mea Deus in aeternum",
+      "citation": "Psalms 73:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "quia ecce qui elongant se a te peribunt perdidisti omnem qui fornicatur abs te",
+      "citation": "Psalms 73:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "quia ecce qui elongant se a te peribunt perdidisti omnem fornicantem a te",
+      "citation": "Psalms 73:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "mihi autem adherere Deo bonum est ponere in Domino Deo spem meam ut adnuntiem omnes praedicationes tuas % in portis filiae Sion;",
+      "citation": "Psalms 73:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "mihi autem adpropinquare Deo bonum est posui in Domino Deo spem meam ut narrem omnes adnuntiationes tuas",
+      "citation": "Psalms 73:28 (Clementine Vulgate)"
+    }
+  ]
+}

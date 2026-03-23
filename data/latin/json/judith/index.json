@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Judith — 17 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Judith",
+      "slug": "judith",
+      "testament": "OT",
+      "order": 18,
+      "totalChapters": 17
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/judith/index.json",
+      "german": "https://latinprayer.org/bibel/judith/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 12,
+      "url": "https://latinprayer.org/latin/judith/1",
+      "jsonUrl": "https://latinprayer.org/latin/judith/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/judith/2",
+      "jsonUrl": "https://latinprayer.org/latin/judith/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/judith/3",
+      "jsonUrl": "https://latinprayer.org/latin/judith/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/latin/judith/4",
+      "jsonUrl": "https://latinprayer.org/latin/judith/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/latin/judith/5",
+      "jsonUrl": "https://latinprayer.org/latin/judith/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/latin/judith/6",
+      "jsonUrl": "https://latinprayer.org/latin/judith/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/latin/judith/7",
+      "jsonUrl": "https://latinprayer.org/latin/judith/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/judith/8",
+      "jsonUrl": "https://latinprayer.org/latin/judith/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/latin/judith/9",
+      "jsonUrl": "https://latinprayer.org/latin/judith/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/latin/judith/10",
+      "jsonUrl": "https://latinprayer.org/latin/judith/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/latin/judith/11",
+      "jsonUrl": "https://latinprayer.org/latin/judith/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/latin/judith/12",
+      "jsonUrl": "https://latinprayer.org/latin/judith/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/judith/13",
+      "jsonUrl": "https://latinprayer.org/latin/judith/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/latin/judith/14",
+      "jsonUrl": "https://latinprayer.org/latin/judith/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/judith/15",
+      "jsonUrl": "https://latinprayer.org/latin/judith/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 30,
+      "url": "https://latinprayer.org/latin/judith/16",
+      "jsonUrl": "https://latinprayer.org/latin/judith/16.json"
+    },
+    {
+      "chapter": 1,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/latin/judith/1",
+      "jsonUrl": "https://latinprayer.org/latin/judith/1.json"
+    }
+  ]
+}

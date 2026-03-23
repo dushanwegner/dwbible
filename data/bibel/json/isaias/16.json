@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 16 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 16,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/isaias/15.json",
+      "nextChapter": "https://latinprayer.org/bibel/isaias/17.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/16.json",
+      "latin": "https://latinprayer.org/latin/isaias/16.json"
+    }
+  },
+  "citation": "Jesaja 16 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Sendet den dem Landesherrn zukommenden Lämmerzins von Sela aus durch die Wüste zum Berge der Tochter Zion!«",
+      "citation": "Jesaja 16:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da werden dann wie wegflatternde Vögel, wie eine aufgescheuchte Nestbrut sein die Töchter Moabs, an den Furten des Arnon:",
+      "citation": "Jesaja 16:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "»Erteile uns Rat, schaffe Vermittlung! Mache der Nacht gleich deinen Schatten am hellen Mittag, verbirg die Vertriebenen, verrate die Flüchtlinge nicht!",
+      "citation": "Jesaja 16:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Laß meine aus Moab Vertriebenen als Gäste bei dir weilen, sei ihnen eine Schutzwehr vor dem Verwüster! Denn wenn der Bedrücker ein Ende genommen hat, die Verwüstung vorüber ist und die Zertreter aus dem Lande verschwunden sind,",
+      "citation": "Jesaja 16:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "so wird der Thron durch die (geübte) Liebe befestigt sein, und auf ihm wird sitzen in Zuverlässigkeit im Zelte Davids ein Richter, der sich der Rechtspflege annimmt und auf Gerechtigkeit bedacht ist.«",
+      "citation": "Jesaja 16:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "»Wir haben gehört von Moabs Stolz, dem überaus hochfahrenden, von seinem Hochmut und seinem Stolz, von seinem Übermut und seinen eitlen Prahlereien.«",
+      "citation": "Jesaja 16:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "So mögen denn die Moabiter um Moab jammern, mögen allesamt jammern, um die Traubenkuchen von Kir-Hareseth mögt ihr seufzen, tiefbetrübt!",
+      "citation": "Jesaja 16:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Denn Hesbons Pflanzungen sind verwelkt, die Weinstöcke von Sibma, deren Edeltrauben die Herren der Völker bezwangen, die bis Jaeser reichten, bis in die Wüste schweiften; deren Schößlinge sich weit ausbreiteten, ja bis zum (Toten) Meere hinüberwanderten.",
+      "citation": "Jesaja 16:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Darum weine ich im Verein mit Jaeser schmerzlich um Sibmas Weinstöcke, benetze dich, Hesbon und Eleale, mit meinen Tränen; denn in deine Obsternte und deine Weinlese ist ein Jauchzen hereingebrochen.",
+      "citation": "Jesaja 16:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "So sind denn Freude und Frohlocken aus dem Fruchtgefilde verschwunden, und in den Weingärten wird nicht mehr gejubelt und gejauchzt; kein Kelterer tritt noch Wein in den Kufen: das Jauchzen (der Winzer) ist zum Verstummen gebracht.",
+      "citation": "Jesaja 16:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Darum klagt’s in meinem Herzen um Moab wie Harfenton und in meiner Brust um Kir-Heres.",
+      "citation": "Jesaja 16:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Und geschehen wird es: wenn Moab auf der Opferhöhe erscheint und sich (mit Opfern) abmüht und in sein Heiligtum eintritt, um zu beten, so wird es nichts ausrichten.",
+      "citation": "Jesaja 16:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Dies ist das Wort, das der HERR einstmals über Moab ausgesprochen hat.",
+      "citation": "Jesaja 16:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Jetzt aber lautet der Ausspruch des HERRN so: »In drei Jahren, gleich den Jahren eines Söldners, da wird die Herrlichkeit Moabs samt all der großen Volksmenge in Verachtung geraten sein, und nur ein ganz geringer, winziger Überrest wird bleiben.«",
+      "citation": "Jesaja 16:14 (Menge)"
+    }
+  ]
+}

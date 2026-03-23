@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Esra Nehemia — 13 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Esra Nehemia",
+      "slug": "2-esdras-nehemias",
+      "testament": "OT",
+      "order": 16,
+      "totalChapters": 13
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-esdras-nehemias/index.json",
+      "latin": "https://latinprayer.org/latin/2-esdras-nehemias/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 11,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/1",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/2",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/3",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/4",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/5",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/6",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 72,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/7",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/8",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/9",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 40,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/10",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/11",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 47,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/12",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/bibel/2-esdras-nehemias/13",
+      "jsonUrl": "https://latinprayer.org/bibel/2-esdras-nehemias/13.json"
+    }
+  ]
+}

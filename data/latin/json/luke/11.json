@@ -1,0 +1,306 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Luke, Chapter 11 — 54 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Luke",
+      "slug": "luke",
+      "testament": "NT",
+      "order": 49,
+      "totalChapters": 24
+    },
+    "chapter": 11,
+    "verseCount": 54,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/luke/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/luke/10.json",
+      "nextChapter": "https://latinprayer.org/latin/luke/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/luke/11.json",
+      "german": "https://latinprayer.org/bibel/luke/11.json"
+    }
+  },
+  "citation": "Luke 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et factum est cum esset in loco quodam orans ut cessavit dixit unus ex discipulis eius ad eum Domine doce nos orare sicut et Iohannes docuit discipulos suos",
+      "citation": "Luke 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et ait illis cum oratis dicite Pater sanctificetur nomen tuum adveniat regnum tuum",
+      "citation": "Luke 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "panem nostrum cotidianum da nobis cotidie",
+      "citation": "Luke 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dimitte nobis peccata nostra siquidem et ipsi dimittimus omni debenti nobis et ne nos inducas in temptationem",
+      "citation": "Luke 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et ait ad illos quis vestrum habebit amicum et ibit ad illum media nocte et dicit illi amice commoda mihi tres panes",
+      "citation": "Luke 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quoniam amicus meus venit de via ad me et non habeo quod ponam ante illum",
+      "citation": "Luke 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et ille de intus respondens dicat noli mihi molestus esse iam ostium clausum est et pueri mei mecum sunt in cubili non possum surgere et dare tibi",
+      "citation": "Luke 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dico vobis et si non dabit illi surgens eo quod amicus eius sit propter inprobitatem tamen eius surget et dabit illi quotquot habet necessarios",
+      "citation": "Luke 11:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et ego vobis dico petite et dabitur vobis quaerite et invenietis pulsate et aperietur vobis",
+      "citation": "Luke 11:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "omnis enim qui petit accipit et qui quaerit invenit et pulsanti aperietur",
+      "citation": "Luke 11:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quis autem ex vobis patrem petet panem numquid lapidem dabit illi aut piscem numquid pro pisce serpentem dabit illi",
+      "citation": "Luke 11:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "aut si petierit ovum numquid porriget illi scorpionem",
+      "citation": "Luke 11:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "si ergo vos cum sitis mali nostis bona data dare filiis vestris quanto magis Pater vester de caelo dabit spiritum bonum petentibus se",
+      "citation": "Luke 11:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et erat eiciens daemonium et illud erat mutum et cum eiecisset daemonium locutus est mutus et admiratae sunt turbae",
+      "citation": "Luke 11:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quidam autem ex eis dixerunt in Beelzebub principe daemoniorum eicit daemonia",
+      "citation": "Luke 11:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et alii temptantes signum de caelo quaerebant ab eo",
+      "citation": "Luke 11:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "ipse autem ut vidit cogitationes eorum dixit eis omne regnum in se ipsum divisum desolatur et domus supra domum cadet",
+      "citation": "Luke 11:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "si autem et Satanas in se ipsum divisus est quomodo stabit regnum ipsius quia dicitis in Beelzebub eicere me daemonia",
+      "citation": "Luke 11:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "si autem ego in Beelzebub eicio daemonia filii vestri in quo eiciunt ideo ipsi iudices vestri erunt",
+      "citation": "Luke 11:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "porro si in digito Dei eicio daemonia profecto praevenit in vos regnum Dei",
+      "citation": "Luke 11:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "cum fortis armatus custodit atrium suum in pace sunt ea quae possidet",
+      "citation": "Luke 11:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "si autem fortior illo superveniens vicerit eum universa arma eius aufert in quibus confidebat et spolia eius distribuit",
+      "citation": "Luke 11:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "qui non est mecum adversum me est et qui non colligit mecum dispergit",
+      "citation": "Luke 11:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "cum inmundus spiritus exierit de homine perambulat per loca inaquosa quaerens requiem et non inveniens dicit revertar in domum meam unde exivi",
+      "citation": "Luke 11:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et cum venerit invenit scopis mundatam",
+      "citation": "Luke 11:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et tunc vadit et adsumit septem alios spiritus nequiores se et ingressi habitant ibi et sunt novissima hominis illius peiora prioribus",
+      "citation": "Luke 11:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "factum est autem cum haec diceret extollens vocem quaedam mulier de turba dixit illi beatus venter qui te portavit et ubera quae suxisti",
+      "citation": "Luke 11:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "at ille dixit quippini beati qui audiunt verbum Dei et custodiunt",
+      "citation": "Luke 11:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "turbis autem concurrentibus coepit dicere generatio haec generatio nequam est signum quaerit et signum non dabitur illi nisi signum Ionae",
+      "citation": "Luke 11:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "nam sicut Ionas fuit signum Ninevitis ita erit et Filius hominis generationi isti",
+      "citation": "Luke 11:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "regina austri surget in iudicio cum viris generationis huius et condemnabit illos quia venit a finibus terrae audire sapientiam Salomonis et ecce plus Salomone hic",
+      "citation": "Luke 11:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "viri ninevitae surgent in iudicio cum generatione hac et condemnabunt illam quia paenitentiam egerunt ad praedicationem Ionae et ecce plus Iona hic",
+      "citation": "Luke 11:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "nemo lucernam accendit et in abscondito ponit neque sub modio sed supra candelabrum ut qui ingrediuntur lumen videant",
+      "citation": "Luke 11:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "lucerna corporis tui est oculus tuus si oculus tuus fuerit simplex totum corpus tuum lucidum erit si autem nequam fuerit etiam corpus tuum tenebrosum erit",
+      "citation": "Luke 11:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "vide ergo ne lumen quod in te est tenebrae sint",
+      "citation": "Luke 11:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "si ergo corpus tuum totum lucidum fuerit non habens aliquam partem tenebrarum erit lucidum totum et sicut lucerna fulgoris inluminabit te",
+      "citation": "Luke 11:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et cum loqueretur rogavit illum quidam Pharisaeus ut pranderet apud se et ingressus recubuit",
+      "citation": "Luke 11:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "Pharisaeus autem coepit intra se reputans dicere quare non baptizatus esset ante prandium",
+      "citation": "Luke 11:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et ait Dominus ad illum nunc vos Pharisaei quod de foris est calicis et catini mundatis quod autem intus est vestrum plenum est rapina et iniquitate",
+      "citation": "Luke 11:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "stulti nonne qui fecit quod de foris est etiam id quod de intus est fecit",
+      "citation": "Luke 11:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "verumtamen quod superest date elemosynam et ecce omnia munda sunt vobis",
+      "citation": "Luke 11:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "sed vae vobis Pharisaeis quia decimatis mentam et rutam et omne holus et praeteritis iudicium et caritatem Dei haec autem oportuit facere et illa non omittere",
+      "citation": "Luke 11:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "vae vobis Pharisaeis quia diligitis primas cathedras in synagogis et salutationes in foro",
+      "citation": "Luke 11:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "vae vobis quia estis ut monumenta quae non parent et homines ambulantes supra nesciunt",
+      "citation": "Luke 11:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "respondens autem quidam ex legis peritis ait illi magister haec dicens etiam nobis contumeliam facis",
+      "citation": "Luke 11:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "at ille ait et vobis legis peritis vae quia oneratis homines oneribus quae portari non possunt et ipsi uno digito vestro non tangitis sarcinas",
+      "citation": "Luke 11:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "vae vobis quia aedificatis monumenta prophetarum patres autem vestri occiderunt illos",
+      "citation": "Luke 11:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "profecto testificamini quod consentitis operibus patrum vestrorum quoniam quidem ipsi eos occiderunt vos autem aedificatis eorum sepulchra",
+      "citation": "Luke 11:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "propterea et sapientia Dei dixit mittam ad illos prophetas et apostolos et ex illis occident et persequentur",
+      "citation": "Luke 11:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "ut inquiratur sanguis omnium prophetarum qui effusus est a constitutione mundi a generatione ista",
+      "citation": "Luke 11:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "a sanguine Abel usque ad sanguinem Zacchariae qui periit inter altare et aedem ita dico vobis requiretur ab hac generatione",
+      "citation": "Luke 11:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "vae vobis legis peritis quia tulistis clavem scientiae ipsi non introistis et eos qui introibant prohibuistis",
+      "citation": "Luke 11:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "cum haec ad illos diceret coeperunt Pharisaei et legis periti graviter insistere et os eius opprimere de multis",
+      "citation": "Luke 11:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "insidiantes et quaerentes capere aliquid ex ore eius ut accusarent eum",
+      "citation": "Luke 11:54 (Clementine Vulgate)"
+    }
+  ]
+}

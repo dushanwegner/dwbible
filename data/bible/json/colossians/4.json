@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Colossians, Chapter 4 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Colossians",
+      "slug": "colossians",
+      "testament": "NT",
+      "order": 58,
+      "totalChapters": 4
+    },
+    "chapter": 4,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/colossians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/colossians/3.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/colossians/4.json",
+      "german": "https://latinprayer.org/bibel/colossians/4.json"
+    }
+  },
+  "citation": "Colossians 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Masters, do to your servants that which is just and equal: knowing that you also have a master in heaven.",
+      "citation": "Colossians 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Be instant in prayer: watching in it with thanksgiving.",
+      "citation": "Colossians 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Praying withal for us also, that God may open unto us a door of speech to speak the mystery of Christ (for which also I am bound):",
+      "citation": "Colossians 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "That I may make it manifest as I ought to speak.",
+      "citation": "Colossians 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Walk with wisdom towards them that are without, redeeming the time.",
+      "citation": "Colossians 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Let your speech be always in grace seasoned with salt: that you may know how you ought to answer every man.",
+      "citation": "Colossians 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "All the things that concern me, Tychicus, our dearest brother and faithful minister and fellow servant in the Lord, will make known to you.",
+      "citation": "Colossians 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "What I have sent to you for this same purpose, that he may know the things that concern you and comfort your hearts:",
+      "citation": "Colossians 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "With Onesimus, a most beloved and faithful brother, who is one of you. All things that are done here, they shall make known to you.",
+      "citation": "Colossians 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Aristarchus, my fellow prisoner, saluteth you: and Mark, the cousin german of Barnabas, touching whom you have received commandments. If he come unto you, receive him.",
+      "citation": "Colossians 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Jesus that is called Justus: who are of the circumcision. These only are my helpers, in the kingdom of God: who have been a comfort to me.",
+      "citation": "Colossians 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Epaphras saluteth you, who is one of you, a servant of Christ Jesus, who is always solicitous for you in prayers, that you may stand perfect and full in all the will of God.",
+      "citation": "Colossians 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For I bear him testimony that he hath much labour for you and for them that are at Laodicea and them at Hierapolis.",
+      "citation": "Colossians 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Luke, the most dear physician, saluteth you: and Demas.",
+      "citation": "Colossians 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Salute the brethren who are at Laodicea: and Nymphas and the church that is in his house.",
+      "citation": "Colossians 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And when this epistle shall have been read with you, cause that it be read also in the church of the Laodiceans: and that you read that which is of the Laodiceans.",
+      "citation": "Colossians 4:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And say to Archippus: Take heed to the ministry which thou hast received in the Lord, that thou fulfil it.",
+      "citation": "Colossians 4:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The salutation of Paul with my own hand. Be mindful of my bands. Grace be with you. Amen.",
+      "citation": "Colossians 4:18 (Douay-Rheims)"
+    }
+  ]
+}

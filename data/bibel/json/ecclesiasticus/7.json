@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesus Sirach, Chapter 7 — 36 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesus Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 52
+    },
+    "chapter": 7,
+    "verseCount": 36,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/ecclesiasticus/6.json",
+      "nextChapter": "https://latinprayer.org/bibel/ecclesiasticus/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/7.json",
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/7.json"
+    }
+  },
+  "citation": "Jesus Sirach 7 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Tue nichts Böses, so widerfährt dir nichts Böses,",
+      "citation": "Jesus Sirach 7:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "meide das Unrecht, so wird es fern von dir bleiben.",
+      "citation": "Jesus Sirach 7:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Mein Sohn, säe nicht in die Furchen des Unrechts, so wirst du nicht siebenfältig von ihnen ernten.",
+      "citation": "Jesus Sirach 7:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Erbitte dir von Gott keine Herrscherstellung und ebenso vom Könige keinen Ehrenstuhl.",
+      "citation": "Jesus Sirach 7:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Stelle dich vor Gott nicht als gerecht hin und spiele vor dem König nicht den Weisen.",
+      "citation": "Jesus Sirach 7:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Trachte nicht danach, ein Richter zu werden, wenn du nicht imstande bist, dem Unrecht ein Ende zu machen; sonst würdest du dich vor der Person des Machthabers fürchten müssen und Anstoß trotz deiner Rechtschaffenheit erregen.",
+      "citation": "Jesus Sirach 7:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Verfehle dich nicht gegen die Stadtgemeinde und bringe dich nicht selbst in Mißachtung beim Volk. –",
+      "citation": "Jesus Sirach 7:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Glaube nicht, zweimal ungestraft eine Sünde begehen zu können; denn schon bei einer einzigen wirst du nicht straflos ausgehen.",
+      "citation": "Jesus Sirach 7:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Denke nicht: »Der Herr wird die Menge meiner Opfergaben beachten, und wenn ich Gott, dem Höchsten, etwas darbringe, so wird er’s annehmen«.",
+      "citation": "Jesus Sirach 7:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Sei nicht mutlos bei deinem Gebet und versäume nicht, Mildtätigkeit zu üben.",
+      "citation": "Jesus Sirach 7:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Verlache keinen, dessen Gemüt tief bekümmert ist; denn es gibt einen, der da erniedrigt und erhöht. –",
+      "citation": "Jesus Sirach 7:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Pflüge keine Lüge gegen deinen Bruder und tue das Gleiche auch deinem Freunde nicht an (h).",
+      "citation": "Jesus Sirach 7:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wolle nie irgend eine Lüge aussprechen, denn die Gewöhnung daran schlägt nicht zum Guten aus. –",
+      "citation": "Jesus Sirach 7:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Sei kein Schwätzer in der Versammlung der Alten und wiederhole kein Wort in deinem Gebet. –",
+      "citation": "Jesus Sirach 7:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Hasse nicht die mühevolle Handarbeit, noch den Ackerbau, da der Höchste ihn verordnet hat.",
+      "citation": "Jesus Sirach 7:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Rechne dich nicht selbst zu der großen Zahl der Sünder; bedenke wohl, daß der Zorn nicht lange auf sich warten läßt.",
+      "citation": "Jesus Sirach 7:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Demütige tief deine Seele, denn die Strafe für den Gottlosen ist das Feuer und der Wurm.",
+      "citation": "Jesus Sirach 7:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Einen Freund vertausche nicht um wertloses Geld, noch einen leiblichen Bruder um Ophirgold.",
+      "citation": "Jesus Sirach 7:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Wende dich nicht ab von einer klugen und guten Ehefrau, denn ihre Anmut ist wertvoller als Gold.",
+      "citation": "Jesus Sirach 7:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Behandle keinen Knecht übel, der treu arbeitet, und ebensowenig einen Tagelöhner, der dir von Herzen ergeben ist.",
+      "citation": "Jesus Sirach 7:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Einen verständigen Dienstboten liebe aufrichtig und enthalte ihm die Freilassung nicht vor.",
+      "citation": "Jesus Sirach 7:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Hast du Vieh, so sieh selbst nach ihm, und ist es dir nützlich, so behalte es. –",
+      "citation": "Jesus Sirach 7:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Hast du Kinder, so halte sie in Zucht und beuge ihnen den Nacken von Jugend auf.",
+      "citation": "Jesus Sirach 7:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Hast du Töchter, so gibt acht auf ihren Leib und zeige ihnen kein zu freundliches Gesicht.",
+      "citation": "Jesus Sirach 7:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Verheiratest du eine Tochter, so hast du ein großes Werk fertig gebracht, aber gib sie einem verständigen Manne zur Frau.",
+      "citation": "Jesus Sirach 7:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Hast du eine Frau nach deinem Herzen, so verstoße sie nicht (h); ist sie dir aber zuwider, so vertraue dich ihr nicht an.",
+      "citation": "Jesus Sirach 7:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Von ganzem Herzen ehre deinen Vater und vergiß deine Mutter nicht, die dich mit Schmerzen geboren;",
+      "citation": "Jesus Sirach 7:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "bedenke wohl, daß du ihnen das Leben verdankst; wie kannst du ihnen vergelten, was sie an dir getan haben?",
+      "citation": "Jesus Sirach 7:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Mit deinem ganzen Herzen fürchte den Herrn und halte seine Priester in Ehren (oder heilig h).",
+      "citation": "Jesus Sirach 7:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Mit ganzer Kraft liebe deinen Schöpfer und laß seine Diener nicht im Stich.",
+      "citation": "Jesus Sirach 7:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Fürchte den Herrn und ehre den Priester und gib ihm seinen Anteil, wie dir geboten ist: die Erstlinge und Schuldopfer und die Gabe des Bugs, das hochheilige Speisopfer und den Priesterzehnten (h).",
+      "citation": "Jesus Sirach 7:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Auch dem Armen strecke deine Hand hin, damit der Segen für dich vollkommen werde.",
+      "citation": "Jesus Sirach 7:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Ein liebevolles Geschenk kommt jedem Lebenden zu, aber auch dem Toten versage deine Liebe nicht.",
+      "citation": "Jesus Sirach 7:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Entziehe dich nicht den Weinenden und trauere mit den Trauernden.",
+      "citation": "Jesus Sirach 7:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Sei nicht lässig, die Kraken zu besuchen, denn durch solches Verhalten wirst du Liebe ernten.",
+      "citation": "Jesus Sirach 7:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Bei allem, was du vorhast, denke an dein Ende, so wirst du niemals böse handeln.",
+      "citation": "Jesus Sirach 7:36 (Menge)"
+    }
+  ]
+}

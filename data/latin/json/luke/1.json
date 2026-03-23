@@ -1,0 +1,436 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Luke, Chapter 1 — 80 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Luke",
+      "slug": "luke",
+      "testament": "NT",
+      "order": 49,
+      "totalChapters": 24
+    },
+    "chapter": 1,
+    "verseCount": 80,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/luke/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/luke/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/luke/1.json",
+      "german": "https://latinprayer.org/bibel/luke/1.json"
+    }
+  },
+  "citation": "Luke 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quoniam quidem multi conati sunt ordinare narrationem quae in nobis conpletae sunt rerum",
+      "citation": "Luke 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "sicut tradiderunt nobis qui ab initio ipsi viderunt et ministri fuerunt sermonis",
+      "citation": "Luke 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "visum est et mihi adsecuto a principio omnibus diligenter ex ordine tibi scribere optime Theophile",
+      "citation": "Luke 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ut cognoscas eorum verborum de quibus eruditus es veritatem",
+      "citation": "Luke 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "fuit in diebus Herodis regis Iudaeae sacerdos quidam nomine Zaccharias de vice Abia et uxor illi de filiabus Aaron et nomen eius Elisabeth",
+      "citation": "Luke 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "erant autem iusti ambo ante Deum incedentes in omnibus mandatis et iustificationibus Domini sine querella",
+      "citation": "Luke 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et non erat illis filius eo quod esset Elisabeth sterilis et ambo processissent in diebus suis",
+      "citation": "Luke 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "factum est autem cum sacerdotio fungeretur in ordine vicis suae ante Deum",
+      "citation": "Luke 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "secundum consuetudinem sacerdotii sorte exiit ut incensum poneret ingressus in templum Domini",
+      "citation": "Luke 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et omnis multitudo erat populi orans foris hora incensi",
+      "citation": "Luke 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "apparuit autem illi angelus Domini stans a dextris altaris incensi",
+      "citation": "Luke 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et Zaccharias turbatus est videns et timor inruit super eum",
+      "citation": "Luke 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ait autem ad illum angelus ne timeas Zaccharia quoniam exaudita est deprecatio tua et uxor tua Elisabeth pariet tibi filium et vocabis nomen eius Iohannem",
+      "citation": "Luke 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et erit gaudium tibi et exultatio et multi in nativitate eius gaudebunt",
+      "citation": "Luke 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "erit enim magnus coram Domino et vinum et sicera non bibet et Spiritu Sancto replebitur adhuc ex utero matris suae",
+      "citation": "Luke 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et multos filiorum Israhel convertet ad Dominum Deum ipsorum",
+      "citation": "Luke 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et ipse praecedet ante illum in spiritu et virtute Heliae ut convertat corda patrum in filios et incredibiles ad prudentiam iustorum parare Domino plebem perfectam",
+      "citation": "Luke 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et dixit Zaccharias ad angelum unde hoc sciam ego enim sum senex et uxor mea processit in diebus suis",
+      "citation": "Luke 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et respondens angelus dixit ei ego sum Gabrihel qui adsto ante Deum et missus sum loqui ad te et haec tibi evangelizare",
+      "citation": "Luke 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et ecce eris tacens et non poteris loqui usque in diem quo haec fiant pro eo quod non credidisti verbis meis quae implebuntur in tempore suo",
+      "citation": "Luke 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et erat plebs expectans Zacchariam et mirabantur quod tardaret ipse in templo",
+      "citation": "Luke 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "egressus autem non poterat loqui ad illos et cognoverunt quod visionem vidisset in templo et ipse erat innuens illis et permansit mutus",
+      "citation": "Luke 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et factum est ut impleti sunt dies officii eius abiit in domum suam",
+      "citation": "Luke 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "post hos autem dies concepit Elisabeth uxor eius et occultabat se mensibus quinque dicens",
+      "citation": "Luke 1:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quia sic mihi fecit Dominus in diebus quibus respexit auferre obprobrium meum inter homines",
+      "citation": "Luke 1:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "in mense autem sexto missus est angelus Gabrihel a Deo in civitatem Galilaeae cui nomen Nazareth",
+      "citation": "Luke 1:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "ad virginem desponsatam viro cui nomen erat Ioseph de domo David et nomen virginis Maria",
+      "citation": "Luke 1:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et ingressus angelus ad eam dixit have gratia plena Dominus tecum benedicta tu in mulieribus",
+      "citation": "Luke 1:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "quae cum vidisset turbata est in sermone eius et cogitabat qualis esset ista salutatio",
+      "citation": "Luke 1:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et ait angelus ei ne timeas Maria invenisti enim gratiam apud Deum",
+      "citation": "Luke 1:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "ecce concipies in utero et paries filium et vocabis nomen eius Iesum",
+      "citation": "Luke 1:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "hic erit magnus et Filius Altissimi vocabitur et dabit illi Dominus Deus sedem David patris eius",
+      "citation": "Luke 1:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "et regnabit in domo Iacob in aeternum et regni eius non erit finis",
+      "citation": "Luke 1:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "dixit autem Maria ad angelum quomodo fiet istud quoniam virum non cognosco",
+      "citation": "Luke 1:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et respondens angelus dixit ei Spiritus Sanctus superveniet in te et virtus Altissimi obumbrabit tibi ideoque et quod nascetur sanctum vocabitur Filius Dei",
+      "citation": "Luke 1:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "et ecce Elisabeth cognata tua et ipsa concepit filium in senecta sua et hic mensis est sextus illi quae vocatur sterilis",
+      "citation": "Luke 1:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "quia non erit inpossibile apud Deum omne verbum",
+      "citation": "Luke 1:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "dixit autem Maria ecce ancilla Domini fiat mihi secundum verbum tuum et discessit ab illa angelus",
+      "citation": "Luke 1:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "exsurgens autem Maria in diebus illis abiit in montana cum festinatione in civitatem Iuda",
+      "citation": "Luke 1:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "et intravit in domum Zacchariae et salutavit Elisabeth",
+      "citation": "Luke 1:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et factum est ut audivit salutationem Mariae Elisabeth exultavit infans in utero eius et repleta est Spiritu Sancto Elisabeth",
+      "citation": "Luke 1:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et exclamavit voce magna et dixit benedicta tu inter mulieres et benedictus fructus ventris tui",
+      "citation": "Luke 1:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "et unde hoc mihi ut veniat mater Domini mei ad me",
+      "citation": "Luke 1:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "ecce enim ut facta est vox salutationis tuae in auribus meis exultavit in gaudio infans in utero meo",
+      "citation": "Luke 1:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "et beata quae credidit quoniam perficientur ea quae dicta sunt ei a Domino",
+      "citation": "Luke 1:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "et ait Maria magnificat anima mea Dominum",
+      "citation": "Luke 1:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "et exultavit spiritus meus in Deo salutari meo",
+      "citation": "Luke 1:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "quia respexit humilitatem ancillae suae ecce enim ex hoc beatam me dicent omnes generationes",
+      "citation": "Luke 1:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "quia fecit mihi magna qui potens est et sanctum nomen eius",
+      "citation": "Luke 1:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "et misericordia eius in progenies et progenies timentibus eum",
+      "citation": "Luke 1:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "fecit potentiam in brachio suo dispersit superbos mente cordis sui",
+      "citation": "Luke 1:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "deposuit potentes de sede et exaltavit humiles",
+      "citation": "Luke 1:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "esurientes implevit bonis et divites dimisit inanes",
+      "citation": "Luke 1:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "suscepit Israhel puerum suum memorari misericordiae",
+      "citation": "Luke 1:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "sicut locutus est ad patres nostros Abraham et semini eius in saecula",
+      "citation": "Luke 1:55 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "mansit autem Maria cum illa quasi mensibus tribus et reversa est in domum suam",
+      "citation": "Luke 1:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "Elisabeth autem impletum est tempus pariendi et peperit filium",
+      "citation": "Luke 1:57 (Clementine Vulgate)"
+    },
+    {
+      "verse": 58,
+      "text": "et audierunt vicini et cognati eius quia magnificavit Dominus misericordiam suam cum illa et congratulabantur ei",
+      "citation": "Luke 1:58 (Clementine Vulgate)"
+    },
+    {
+      "verse": 59,
+      "text": "et factum est in die octavo venerunt circumcidere puerum et vocabant eum nomine patris eius Zacchariam",
+      "citation": "Luke 1:59 (Clementine Vulgate)"
+    },
+    {
+      "verse": 60,
+      "text": "et respondens mater eius dixit nequaquam sed vocabitur Iohannes",
+      "citation": "Luke 1:60 (Clementine Vulgate)"
+    },
+    {
+      "verse": 61,
+      "text": "et dixerunt ad illam quia nemo est in cognatione tua qui vocetur hoc nomine",
+      "citation": "Luke 1:61 (Clementine Vulgate)"
+    },
+    {
+      "verse": 62,
+      "text": "innuebant autem patri eius quem vellet vocari eum",
+      "citation": "Luke 1:62 (Clementine Vulgate)"
+    },
+    {
+      "verse": 63,
+      "text": "et postulans pugillarem scripsit dicens Iohannes est nomen eius et mirati sunt universi",
+      "citation": "Luke 1:63 (Clementine Vulgate)"
+    },
+    {
+      "verse": 64,
+      "text": "apertum est autem ilico os eius et lingua eius et loquebatur benedicens Deum",
+      "citation": "Luke 1:64 (Clementine Vulgate)"
+    },
+    {
+      "verse": 65,
+      "text": "et factus est timor super omnes vicinos eorum et super omnia montana Iudaeae divulgabantur omnia verba haec",
+      "citation": "Luke 1:65 (Clementine Vulgate)"
+    },
+    {
+      "verse": 66,
+      "text": "et posuerunt omnes qui audierant in corde suo dicentes quid putas puer iste erit etenim manus Domini erat cum illo",
+      "citation": "Luke 1:66 (Clementine Vulgate)"
+    },
+    {
+      "verse": 67,
+      "text": "et Zaccharias pater eius impletus est Spiritu Sancto et prophetavit dicens",
+      "citation": "Luke 1:67 (Clementine Vulgate)"
+    },
+    {
+      "verse": 68,
+      "text": "benedictus Deus Israhel quia visitavit et fecit redemptionem plebi suae",
+      "citation": "Luke 1:68 (Clementine Vulgate)"
+    },
+    {
+      "verse": 69,
+      "text": "et erexit cornu salutis nobis in domo David pueri sui",
+      "citation": "Luke 1:69 (Clementine Vulgate)"
+    },
+    {
+      "verse": 70,
+      "text": "sicut locutus est per os sanctorum qui a saeculo sunt prophetarum eius",
+      "citation": "Luke 1:70 (Clementine Vulgate)"
+    },
+    {
+      "verse": 71,
+      "text": "salutem ex inimicis nostris et de manu omnium qui oderunt nos",
+      "citation": "Luke 1:71 (Clementine Vulgate)"
+    },
+    {
+      "verse": 72,
+      "text": "ad faciendam misericordiam cum patribus nostris et memorari testamenti sui sancti",
+      "citation": "Luke 1:72 (Clementine Vulgate)"
+    },
+    {
+      "verse": 73,
+      "text": "iusiurandum quod iuravit ad Abraham patrem nostrum",
+      "citation": "Luke 1:73 (Clementine Vulgate)"
+    },
+    {
+      "verse": 74,
+      "text": "daturum se nobis ut sine timore de manu inimicorum nostrorum liberati serviamus illi",
+      "citation": "Luke 1:74 (Clementine Vulgate)"
+    },
+    {
+      "verse": 75,
+      "text": "in sanctitate et iustitia coram ipso omnibus diebus nostris",
+      "citation": "Luke 1:75 (Clementine Vulgate)"
+    },
+    {
+      "verse": 76,
+      "text": "et tu puer propheta Altissimi vocaberis praeibis enim ante faciem Domini parare vias eius",
+      "citation": "Luke 1:76 (Clementine Vulgate)"
+    },
+    {
+      "verse": 77,
+      "text": "ad dandam scientiam salutis plebi eius in remissionem peccatorum eorum",
+      "citation": "Luke 1:77 (Clementine Vulgate)"
+    },
+    {
+      "verse": 78,
+      "text": "per viscera misericordiae Dei nostri in quibus visitavit nos oriens ex alto",
+      "citation": "Luke 1:78 (Clementine Vulgate)"
+    },
+    {
+      "verse": 79,
+      "text": "inluminare his qui in tenebris et in umbra mortis sedent ad dirigendos pedes nostros in viam pacis",
+      "citation": "Luke 1:79 (Clementine Vulgate)"
+    },
+    {
+      "verse": 80,
+      "text": "puer autem crescebat et confortabatur spiritu et erat in deserto usque in diem ostensionis suae ad Israhel",
+      "citation": "Luke 1:80 (Clementine Vulgate)"
+    }
+  ]
+}

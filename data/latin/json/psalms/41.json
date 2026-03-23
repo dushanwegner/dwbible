@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 41 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 41,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/40.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/42.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/41.json",
+      "german": "https://latinprayer.org/bibel/psalms/41.json"
+    }
+  },
+  "citation": "Psalms 41 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "beatus qui intellegit super egenum et pauperem in die mala liberabit eum Dominus",
+      "citation": "Psalms 41:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in finem in intellectum filiis Core",
+      "citation": "Psalms 41:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "beatus qui cogitat de paupere in die mala salvabit eum Dominus",
+      "citation": "Psalms 41:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "pro victoria doctissimi filiorum Core",
+      "citation": "Psalms 41:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Dominus conservet eum et vivificet eum et beatum faciat eum in terra et non tradat eum in animam inimicorum eius",
+      "citation": "Psalms 41:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Dominus custodiet eum et vivificabit eum et beatus erit in terra et non tradet eum animae inimicorum suorum",
+      "citation": "Psalms 41:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "Dominus opem ferat illi super lectum doloris eius universum stratum eius versasti in infirmitate eius",
+      "citation": "Psalms 41:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "Dominus confortabit eum in lecto infirmitatis totum stratum eius vertisti in aegrotatione sua",
+      "citation": "Psalms 41:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ego dixi Domine miserere mei sana animam meam quoniam peccavi tibi",
+      "citation": "Psalms 41:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ego dixi Domine miserere mei sana animam meam quoniam peccavi tibi",
+      "citation": "Psalms 41:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "inimici mei dixerunt mala mihi quando morietur et peribit nomen eius",
+      "citation": "Psalms 41:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "inimici mei loquentur malum mihi quando morietur et periet nomen eius",
+      "citation": "Psalms 41:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et si ingrediebatur ut videret vane loquebatur cor eius congregavit iniquitatem sibi egrediebatur foras et loquebatur",
+      "citation": "Psalms 41:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et si venerit ut visitet vana loquetur cor eius congregabit iniquitatem sibi et egrediens foras detrahet",
+      "citation": "Psalms 41:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "in id ipsum adversum me susurrabant omnes inimici mei adversus me cogitabant mala mihi",
+      "citation": "Psalms 41:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "simul adversum me murmurabant omnes odientes me contra cogitabant malum mihi",
+      "citation": "Psalms 41:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "verbum iniquum constituerunt adversus me numquid qui dormit non adiciet ut resurgat",
+      "citation": "Psalms 41:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "verbum diabuli infundebant sibi qui dormivit non addet ut resurgat",
+      "citation": "Psalms 41:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "etenim homo pacis meae in quo speravi qui edebat panes meos magnificavit super me subplantationem",
+      "citation": "Psalms 41:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "sed et homo pacificus meus in quo habui fiduciam qui manducabat panem meum levavit contra me plantam",
+      "citation": "Psalms 41:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "tu autem Domine miserere mei et resuscita me et retribuam eis",
+      "citation": "Psalms 41:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "tu autem Domine miserere mei et leva me ut reddam eis",
+      "citation": "Psalms 41:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in hoc cognovi quoniam voluisti me quoniam non gaudebit inimicus meus super me",
+      "citation": "Psalms 41:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in hoc cognovi quod velis me quia non insultavit inimicus meus mihi",
+      "citation": "Psalms 41:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "me autem propter innocentiam suscepisti et confirmasti me in conspectu tuo in aeternum",
+      "citation": "Psalms 41:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ego autem in simplicitate mea adiutus sum a te et statues me ante faciem tuam in perpetuum",
+      "citation": "Psalms 41:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "benedictus Dominus Deus Israhel a saeculo et in saeculum fiat fiat",
+      "citation": "Psalms 41:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "benedictus Dominus Deus Israhel a saeculo et usque in saeculum amen amen",
+      "citation": "Psalms 41:13 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 13 — 15 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 13,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/osee/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/osee/12.json",
+      "nextChapter": "https://latinprayer.org/bibel/osee/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/13.json",
+      "latin": "https://latinprayer.org/latin/osee/13.json"
+    }
+  },
+  "citation": "Hosea 13 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Sooft Ephraim (nur) redete, herrschte Schrecken: hoch stand es in Israel da; als es sich aber durch den Baalsdienst versündigte, starb es hin.",
+      "citation": "Hosea 13:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Und jetzt sündigen sie immer aufs neue: sie fertigen sich Gußbilder aus ihrem Silber an, Götzen nach ihrem Geschmack, allesamt Machwerke von Handwerkern. »Ihnen«, sagen sie, »bringet Opfer dar!« Menschen sollen Stiere küssen!",
+      "citation": "Hosea 13:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "»Darum sollen sie dem Morgengewölk gleich werden und dem Tau, der gar bald verschwindet, wie Spreu, die von der Tenne verweht wird, und wie Rauch, der durch die Gitteröffnung abzieht.",
+      "citation": "Hosea 13:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ich aber bin der HERR dein Gott vom Lande Ägypten her; einen Gott außer mir kennst du nicht, und einen Helfer außer mir gibt es nicht.«",
+      "citation": "Hosea 13:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "»Ich habe mich deiner angenommen in der Wüste, (dich geweidet) im Lande der sengenden Gluten.",
+      "citation": "Hosea 13:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Als sie gute Weide hatten, wurden sie satt, und als sie satt geworden waren, überhob sich ihr Sinn; darum haben sie mich vergessen.",
+      "citation": "Hosea 13:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da bin ich ihnen denn wie ein Löwe geworden, liege wie ein Panther auf der Lauer am Wege;",
+      "citation": "Hosea 13:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "ich falle sie an wie eine Bärin, der die Jungen geraubt sind, und zerreiße ihnen den Verschluß ihres Herzens; ich fresse sie dort wie eine Löwin; die wilden Tiere sollen sie zerfleischen!",
+      "citation": "Hosea 13:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Das ist dein Verderben gewesen, Israel, daß du von mir, deinem Helfer, nichts wissen willst.",
+      "citation": "Hosea 13:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Wo ist denn nun dein König, daß er dir in allen deinen Städten helfe? Und wo sind deine Richter (, daß sie dir Recht schaffen)? Du hast ja doch von ihnen gesagt: ›Gib mir einen König und Fürsten!‹",
+      "citation": "Hosea 13:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Ich gebe dir einen König in meinem Zorn und nehme ihn wieder weg in meinem Grimm!« –",
+      "citation": "Hosea 13:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "»Wohlverwahrt ist Ephraims Schuld, wohlgeborgen seine Sünde.",
+      "citation": "Hosea 13:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Geburtswehen kommen ihn an, aber er ist ein unverständiges Kind; denn zur rechten Zeit tritt er nicht zum Durchbruch in den Muttermund ein.",
+      "citation": "Hosea 13:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Aus der Gewalt des Totenreiches sollte ich sie befreien, vom Tode sie loskaufen? Nein, wo sind deine Seuchen, o Tod? Wo ist deine Pest, o Unterwelt? Mitleid ist meinen Augen unbekannt!",
+      "citation": "Hosea 13:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Denn mag Ephraim auch wie Riedgras zwischen Wassern üppig sprossen – der Ostwind wird kommen, ein Sturm des HERRN aus der Steppe hereinbrechen; da wird sein Born versiegen und sein Quellgrund vertrocknen: der wird die Schatzkammer aller kostbaren Kleinodien berauben.",
+      "citation": "Hosea 13:15 (Menge)"
+    }
+  ]
+}

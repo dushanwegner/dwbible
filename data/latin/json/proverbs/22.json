@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 22 — 29 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 22,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/proverbs/21.json",
+      "nextChapter": "https://latinprayer.org/latin/proverbs/23.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/22.json",
+      "german": "https://latinprayer.org/bibel/proverbs/22.json"
+    }
+  },
+  "citation": "Proverbs 22 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "melius est nomen bonum quam divitiae multae super argentum et aurum gratia bona",
+      "citation": "Proverbs 22:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dives et pauper obviaverunt sibi utriusque operator est Dominus",
+      "citation": "Proverbs 22:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "callidus vidit malum et abscondit se innocens pertransiit et adflictus est damno",
+      "citation": "Proverbs 22:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "finis modestiae timor Domini divitiae et gloria et vita",
+      "citation": "Proverbs 22:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "arma et gladii in via perversi custos animae suae longe recedit ab eis",
+      "citation": "Proverbs 22:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "proverbium est adulescens iuxta viam suam etiam cum senuerit non recedet ab ea",
+      "citation": "Proverbs 22:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "dives pauperibus imperat et qui accipit mutuum servus est fenerantis",
+      "citation": "Proverbs 22:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "qui seminat iniquitatem metet mala et virga irae suae consummabitur",
+      "citation": "Proverbs 22:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "qui pronus est ad misericordiam benedicetur de panibus enim suis dedit pauperi",
+      "citation": "Proverbs 22:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "eice derisorem et exibit cum eo iurgium cessabuntque causae et contumeliae",
+      "citation": "Proverbs 22:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "qui diligit cordis munditiam propter gratiam labiorum suorum habebit amicum regem",
+      "citation": "Proverbs 22:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "oculi Domini custodiunt scientiam et subplantantur verba iniqui",
+      "citation": "Proverbs 22:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "dicit piger leo foris in medio platearum occidendus sum",
+      "citation": "Proverbs 22:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "fovea profunda os alienae cui iratus est Dominus incidet in eam",
+      "citation": "Proverbs 22:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "stultitia conligata est in corde pueri et virga disciplinae fugabit eam",
+      "citation": "Proverbs 22:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "qui calumniatur pauperem ut augeat divitias suas dabit ipse ditiori et egebit",
+      "citation": "Proverbs 22:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "inclina aurem tuam et audi verba sapientium adpone autem cor ad doctrinam meam",
+      "citation": "Proverbs 22:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quae pulchra erit tibi cum servaveris eam in ventre tuo et redundabit in labiis tuis",
+      "citation": "Proverbs 22:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "ut sit in Domino fiducia tua unde et ostendi eam tibi hodie",
+      "citation": "Proverbs 22:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "ecce descripsi eam tibi tripliciter in cogitationibus et scientia",
+      "citation": "Proverbs 22:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "ut ostenderem tibi firmitatem et eloquia veritatis respondere ex his illi qui misit te",
+      "citation": "Proverbs 22:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "non facias violentiam pauperi quia pauper est neque conteras egenum in porta",
+      "citation": "Proverbs 22:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "quia Dominus iudicabit causam eius et configet eos qui confixerint animam eius",
+      "citation": "Proverbs 22:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "noli esse amicus homini iracundo neque ambules cum viro furioso",
+      "citation": "Proverbs 22:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "ne forte discas semitas eius et sumas scandalum animae tuae",
+      "citation": "Proverbs 22:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "noli esse cum his qui defigunt manus suas et qui vades se offerunt pro debitis",
+      "citation": "Proverbs 22:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "si enim non habes unde restituas quid causae est ut tollat operimentum de cubili tuo",
+      "citation": "Proverbs 22:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "ne transgrediaris terminos antiquos quos posuerunt patres tui",
+      "citation": "Proverbs 22:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "vidisti virum velocem in opere suo coram regibus stabit nec erit ante ignobiles",
+      "citation": "Proverbs 22:29 (Clementine Vulgate)"
+    }
+  ]
+}

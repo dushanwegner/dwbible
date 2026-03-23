@@ -1,0 +1,291 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Kings, Chapter 7 — 51 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Kings",
+      "slug": "3-kings",
+      "testament": "OT",
+      "order": 11,
+      "totalChapters": 22
+    },
+    "chapter": 7,
+    "verseCount": 51,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/3-kings/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/3-kings/6.json",
+      "nextChapter": "https://latinprayer.org/latin/3-kings/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/3-kings/7.json",
+      "german": "https://latinprayer.org/bibel/3-kings/7.json"
+    }
+  },
+  "citation": "1 Kings 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "domum autem suam aedificavit Salomon tredecim annis et ad perfectum usque perduxit",
+      "citation": "1 Kings 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "aedificavit quoque domum saltus Libani centum cubitorum longitudinis et quinquaginta cubitorum latitudinis et triginta cubitorum altitudinis et quattuor deambulacra inter columnas cedrinas ligna quippe cedrina exciderat in columnas",
+      "citation": "1 Kings 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et tabulatis cedrinis vestivit totam cameram quae quadraginta quinque columnis sustentabatur unus autem ordo habebat columnas quindecim",
+      "citation": "1 Kings 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "contra se invicem positas",
+      "citation": "1 Kings 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et e regione se respicientes aequali spatio inter columnas et super columnas quadrangulata ligna in cunctis aequalia",
+      "citation": "1 Kings 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et porticum columnarum fecit quinquaginta cubitorum longitudinis et triginta cubitorum latitudinis et alteram porticum in facie maioris porticus et columnas et epistylia super columnas",
+      "citation": "1 Kings 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "porticum quoque solii in qua tribunal est fecit et texit lignis cedrinis a pavimento usque ad summitatem",
+      "citation": "1 Kings 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et domuncula in qua sedetur ad iudicandum erat in media porticu simili opere domum quoque fecit filiae Pharaonis quam uxorem duxerat Salomon tali opere quali et hanc porticum",
+      "citation": "1 Kings 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "omnia lapidibus pretiosis qui ad normam quandam atque mensuram tam intrinsecus quam extrinsecus serrati erant a fundamento usque ad summitatem parietum et intrinsecus usque ad atrium maius",
+      "citation": "1 Kings 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "fundamenta autem de lapidibus pretiosis lapidibus magnis decem sive octo cubitorum",
+      "citation": "1 Kings 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et desuper lapides pretiosi aequalis mensurae secti erant similiterque de cedro",
+      "citation": "1 Kings 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et atrium maius rotundum trium ordinum de lapidibus sectis et unius ordinis dolata cedro necnon et in atrio domus Domini interiori et in porticu domus",
+      "citation": "1 Kings 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "misit quoque rex Salomon et tulit Hiram de Tyro",
+      "citation": "1 Kings 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "filium mulieris viduae de tribu Nepthali patre Tyrio artificem aerarium et plenum sapientia et intellegentia et doctrina ad faciendum omne opus ex aere qui cum venisset ad regem Salomonem fecit omne opus eius",
+      "citation": "1 Kings 7:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et finxit duas columnas aereas decem et octo cubitorum altitudinis columnam unam et linea duodecim cubitorum ambiebat columnam utramque",
+      "citation": "1 Kings 7:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "duo quoque capitella fecit quae ponerentur super capita columnarum fusili aere quinque cubitorum altitudinis capitellum unum et quinque cubitorum altitudinis capitellum alterum",
+      "citation": "1 Kings 7:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et quasi in modum retis et catenarum sibi invicem miro opere contextarum utrumque capitellum columnarum fusile erat septena versuum retiacula in capitello uno et septena retiacula in capitello altero",
+      "citation": "1 Kings 7:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et perfecit columnas et duos ordines per circuitum retiaculorum singulorum ut tegerent capitella quae erant super summitatem malogranatorum eodem modo fecit et capitello secundo",
+      "citation": "1 Kings 7:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "capitella autem quae erant super capita columnarum quasi opere lilii fabricata erant in porticu quattuor cubitorum",
+      "citation": "1 Kings 7:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "et rursum alia capitella in summitate columnarum desuper iuxta mensuram columnae contra retiacula malogranatorum autem ducenti ordines erant in circuitu capitelli secundi",
+      "citation": "1 Kings 7:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et statuit duas columnas in porticum templi cumque statuisset columnam dexteram vocavit eam nomine Iachin similiter erexit columnam secundam et vocavit nomen eius Booz",
+      "citation": "1 Kings 7:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et super capita columnarum opus in modum lilii posuit perfectumque est opus columnarum",
+      "citation": "1 Kings 7:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "fecit quoque mare fusile decem cubitorum a labio usque ad labium rotundum in circuitu quinque cubitorum altitudo eius et resticula triginta cubitorum cingebat illud per circuitum",
+      "citation": "1 Kings 7:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et scalptura subter labium circumibat illud decem cubitis ambiens mare duo ordines scalpturarum histriatarum erant fusiles",
+      "citation": "1 Kings 7:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et stabat super duodecim boves e quibus tres respiciebant ad aquilonem et tres ad occidentem et tres ad meridiem et tres ad orientem et mare super eos desuper erat quorum posteriora universa intrinsecus latitabant",
+      "citation": "1 Kings 7:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "grossitudo autem luteris trium unciarum erat labiumque eius quasi labium calicis et folium repandi lilii duo milia batos capiebat",
+      "citation": "1 Kings 7:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et fecit bases decem aereas quattuor cubitorum longitudinis bases singulas et quattuor cubitorum latitudinis et trium cubitorum altitudinis",
+      "citation": "1 Kings 7:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et ipsum opus basium interrasile erat et scalpturae inter iuncturas",
+      "citation": "1 Kings 7:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et inter coronulas et plectas leones et boves et cherubin et in iuncturis similiter desuper et subter leones et boves quasi lora ex aere dependentia",
+      "citation": "1 Kings 7:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et quattuor rotae per bases singulas et axes aerei et per quattuor partes quasi umeruli subter luterem fusiles contra se invicem respectantes",
+      "citation": "1 Kings 7:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "os quoque luteris intrinsecus erat in capitis summitate et quod forinsecus apparebat unius cubiti erat totum rotundum pariterque habebat unum cubitum et dimidium in angulis autem columnarum variae celaturae erant et media intercolumnia quadrata non rotunda",
+      "citation": "1 Kings 7:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "quattuor quoque rotae quae per quattuor angulos basis erant coherebant subter basi una rota habebat altitudinis cubitum et semis",
+      "citation": "1 Kings 7:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "tales autem rotae erant quales solent in curru fieri et axes earum et radii et canti et modioli omnia fusilia",
+      "citation": "1 Kings 7:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "nam et umeruli illi quattuor per singulos angulos basis unius ex ipsa basi fusiles et coniuncti erant",
+      "citation": "1 Kings 7:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "in summitate autem basis erat quaedam rotunditas dimidii cubiti ita fabrefacta ut luter desuper possit inponi habens celaturas suas et scalpturas varias ex semet ipso",
+      "citation": "1 Kings 7:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "scalpsit quoque in tabulatis illis quae erant ex aere et in angulis cherubin et leones et palmas quasi in similitudinem stantis hominis ut non celata sed adposita per circuitum viderentur",
+      "citation": "1 Kings 7:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "in hunc modum fecit decem bases fusura una et mensura scalpturaque consimili",
+      "citation": "1 Kings 7:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "fecit quoque decem luteres aereos quadraginta batos capiebat luter unus eratque quattuor cubitorum singulosque luteres per singulas id est decem bases posuit",
+      "citation": "1 Kings 7:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "et constituit decem bases quinque ad dexteram partem templi et quinque ad sinistram mare autem posuit ad dexteram partem templi contra orientem ad meridiem",
+      "citation": "1 Kings 7:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "fecit ergo Hiram lebetas et scutras et amulas et perfecit omne opus regis Salomonis in templo Domini",
+      "citation": "1 Kings 7:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "columnas duas et funiculos capitulorum super capitella columnarum duos et retiacula duo ut operirent duos funiculos qui erant super capita columnarum",
+      "citation": "1 Kings 7:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et malogranata quadringenta in duobus retiaculis duos versus malogranatorum in retiaculis singulis ad operiendos funiculos capitellorum qui erant super capita columnarum",
+      "citation": "1 Kings 7:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "et bases decem et luteres decem super bases",
+      "citation": "1 Kings 7:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "et mare unum et boves duodecim subter mare",
+      "citation": "1 Kings 7:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "et lebetas et scutras et amulas omnia vasa quae fecit Hiram regi Salomoni in domo Domini de aurichalco erant",
+      "citation": "1 Kings 7:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "in campestri regione Iordanis fudit ea rex in argillosa terra inter Socchoth et Sarthan",
+      "citation": "1 Kings 7:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "et posuit Salomon omnia vasa propter multitudinem autem nimiam non erat pondus aeris",
+      "citation": "1 Kings 7:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "fecitque Salomon omnia vasa in domo Domini altare aureum et mensam super quam ponerentur panes propositionis auream",
+      "citation": "1 Kings 7:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "et candelabra aurea quinque ad dexteram et quinque ad sinistram contra oraculum ex auro primo et quasi lilii flores et lucernas desuper aureas et forcipes aureos",
+      "citation": "1 Kings 7:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "et hydrias et fuscinulas et fialas et mortariola et turibula de auro purissimo et cardines ostiorum domus interioris sancti sanctorum et ostiorum domus templi ex auro erant",
+      "citation": "1 Kings 7:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "et perfecit omne opus quod faciebat Salomon in domo Domini et intulit quae sanctificaverat David pater suus argentum et aurum et vasa reposuitque in thesauris domus Domini",
+      "citation": "1 Kings 7:51 (Clementine Vulgate)"
+    }
+  ]
+}

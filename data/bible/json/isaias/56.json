@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 56 — 12 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 56,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/55.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/57.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/56.json",
+      "german": "https://latinprayer.org/bibel/isaias/56.json"
+    }
+  },
+  "citation": "Isaias 56 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Thus saith the Lord: Keep ye judgment, and do justice: for my salvation is near to come, and my justice to be revealed.",
+      "citation": "Isaias 56:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Blessed is the man that doth this, and the son of man that shall lay hold on this: that keepeth the sabbath from profaning it, that keepeth his hands from doing any evil.",
+      "citation": "Isaias 56:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And let not the son of the stranger, that adhereth to the Lord, speak, saying: The Lord will divide and separate me from his people. And let not the eunuch say: Behold I am a dry tree.",
+      "citation": "Isaias 56:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For thus saith the Lord to the eunuchs, They that shall keep my sabbaths, and shall choose the things that please me, and shall hold fast my covenant:",
+      "citation": "Isaias 56:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "I will give to them in my house, and within my walls, a place, and a name better than sons and daughters: I will give them an everlasting name which shall never perish.",
+      "citation": "Isaias 56:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the children of the stranger that adhere to the Lord, to worship him, and to love his name, to be his servants: every one that keepeth the sabbath from profaning it, and that holdeth fast my covenant:",
+      "citation": "Isaias 56:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "I will bring them into my holy mount, and will make them joyful in my house of prayer: their holocausts, and their victims shall please me upon my altar: for my house shall be called the house of prayer, for all nations.",
+      "citation": "Isaias 56:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The Lord God, who gathereth the scattered of Israel, saith: I will still gather unto him his congregation.",
+      "citation": "Isaias 56:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "All ye beasts of the field come to devour, all ye beasts of the forest.",
+      "citation": "Isaias 56:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "His watchmen are all blind, they are all ignorant: dumb dogs not able to bark, seeing vain things, sleeping and loving dreams.",
+      "citation": "Isaias 56:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And most impudent dogs, they never had enough: the shepherds themselves knew no understanding: all have turned aside into their own way, every one after his own gain, from the first even to the last.",
+      "citation": "Isaias 56:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Come, let us take wine, and be filled with drunkenness: and it shall be as to day, so also to morrow, and much more.",
+      "citation": "Isaias 56:12 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Zacharias, Chapter 9 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Zacharias",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 9,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/zacharias/8.json",
+      "nextChapter": "https://latinprayer.org/bible/zacharias/10.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/zacharias/9.json",
+      "german": "https://latinprayer.org/bibel/zacharias/9.json"
+    }
+  },
+  "citation": "Zacharias 9 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The burden of the word of the Lord in the land of Hadrach, and of Damascus the rest thereof: for the eye of man, and of all the tribes of Israel is the Lord's.",
+      "citation": "Zacharias 9:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Emath also in the borders thereof, and Tyre, and Sidon: for they have taken to themselves to be exceeding wise.",
+      "citation": "Zacharias 9:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Tyre hath built herself a strong hold, and heaped together silver as earth, and gold as the mire of the streets.",
+      "citation": "Zacharias 9:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Behold the Lord shall possess her, and shall strike her strength in the sea, and she shall be devoured with fire.",
+      "citation": "Zacharias 9:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Ascalon shall see, and shall fear, and Gaza, and shall be very sorrowful: and Accaron, because her hope is confounded: and the king shall perish from Gaza, and Ascalon shall not be inhabited.",
+      "citation": "Zacharias 9:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And the divider shall sit in Azotus, and I will destroy the pride of the Philistines.",
+      "citation": "Zacharias 9:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And I will take away his blood out of his mouth, and his abominations from between his teeth: and even he shall be left to our God, and he shall be as a governor in Juda, and Accaron as a Jebusite.",
+      "citation": "Zacharias 9:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And I will encompass my house with them that serve me in war, going and returning, and the oppressor shall no more pass through them: for now I have seen with my eyes.",
+      "citation": "Zacharias 9:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Rejoice greatly, O daughter of Sion, shout for joy, O daughter of Jerusalem: BEHOLD THY KING will come to thee, the just and saviour: he is poor, and riding upon an ass, and upon a colt, the foal of an ass.",
+      "citation": "Zacharias 9:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And I will destroy the chariot out of Ephraim, and the horse out of Jerusalem, and the bow for war shall be broken: and he shall speak peace to the Gentiles, and his power shall be from sea to sea, and from the rivers even to the end of the earth.",
+      "citation": "Zacharias 9:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Thou also by the blood of thy testament hast sent forth thy prisoners out of the pit, wherein is no water.",
+      "citation": "Zacharias 9:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Return to the strong hold, ye prisoners of hope, I will render thee double as I declare today.",
+      "citation": "Zacharias 9:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Because I have bent Juda for me as a bow, I have filled Ephraim: and I will raise up thy sons, O Sion, above thy sons, O Greece, and I will make thee as the sword of the mighty.",
+      "citation": "Zacharias 9:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And the Lord God shall be seen over them, and his dart shall go forth as lightning: and the Lord God will sound the trumpet, and go in the whirlwind of the south.",
+      "citation": "Zacharias 9:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "The Lord of hosts will protect them: and they shall devour, and subdue with the stones of the sling: and drinking they shall be inebriated as it were with wine, and they shall be filled as bowls, and as the horns of the altar.",
+      "citation": "Zacharias 9:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And the Lord their God will save them in that day, as the flock of his people: for holy stones shall be lifted up over his land.",
+      "citation": "Zacharias 9:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "For what is the good thing of him, and what is his beautiful thing, but the corn of the elect, and wine springing forth virgins?",
+      "citation": "Zacharias 9:17 (Douay-Rheims)"
+    }
+  ]
+}

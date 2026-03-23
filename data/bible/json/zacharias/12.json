@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Zacharias, Chapter 12 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Zacharias",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 12,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/zacharias/11.json",
+      "nextChapter": "https://latinprayer.org/bible/zacharias/13.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/zacharias/12.json",
+      "german": "https://latinprayer.org/bibel/zacharias/12.json"
+    }
+  },
+  "citation": "Zacharias 12 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The burden of the word of the Lord upon Israel. Thus saith the Lord, who stretcheth forth the heavens, and layeth the foundations of the earth, and formeth the spirit of man in him:",
+      "citation": "Zacharias 12:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Behold I will make Jerusalem a lintel of surfeiting to all the people round about: and Juda also shall be in the siege against Jerusalem.",
+      "citation": "Zacharias 12:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And it shall come to pass in that day, that I will make Jerusalem a burdensome stone to all people: all that shall lift it up shall be rent and torn, and all the kingdoms of the earth shall be gathered together against her.",
+      "citation": "Zacharias 12:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "In that day, saith the Lord, I will strike every horse with astonishment, and his rider with madness: and I will open my eyes upon the house of Juda, and will strike every horse of the nations with blindness.",
+      "citation": "Zacharias 12:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the governors of Juda shall say in their heart: Let the inhabitants of Jerusalem be strengthened for me in the Lord of hosts, their God.",
+      "citation": "Zacharias 12:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "In that day I will make the governors of Juda like a furnace of fire amongst wood, and as a firebrand amongst hay: and they shall devour all the people round about, to the right hand, and to the left: and Jerusalem shall be inhabited again in her own place in Jerusalem.",
+      "citation": "Zacharias 12:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the Lord shall save the tabernacles of Jada, as in the beginning: that the house of David, and the glory of the inhabitants of Jerusalem, may not boast and magnify themselves against Juda.",
+      "citation": "Zacharias 12:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "In that day shall the Lord protect the inhabitants of Jerusalem, and he that hath offended among them in that day shall be as David: and the house of David, as that of God, as an angel of the Lord in their sight.",
+      "citation": "Zacharias 12:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And it shall come to pass in that day, that I will seek to destroy all the nations that come against Jerusalem.",
+      "citation": "Zacharias 12:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And I will pour out upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace, and of prayers: and they shall look upon me, whom they have pierced: and they shall mourn for him as one mourneth for an only son, and they shall grieve over him, as the manner is to grieve for the death of the firstborn.",
+      "citation": "Zacharias 12:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "In that day there shall be a great lamentation in Jerusalem like the lamentation of Adadremmon in the plain of Mageddon.",
+      "citation": "Zacharias 12:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And the land shall mourn: families and families apart: the families of the house of David apart, and their women apart:",
+      "citation": "Zacharias 12:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "The families of the house of Nathan apart, and their women apart: the families of the house of Levi apart, and their women apart: the families of Semei apart, and their women apart.",
+      "citation": "Zacharias 12:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "All the rest of the families, families and families apart, and their women apart.",
+      "citation": "Zacharias 12:14 (Douay-Rheims)"
+    }
+  ]
+}

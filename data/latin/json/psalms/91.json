@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 91 — 34 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 91,
+    "verseCount": 34,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/90.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/92.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/91.json",
+      "german": "https://latinprayer.org/bibel/psalms/91.json"
+    }
+  },
+  "citation": "Psalms 91 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "laus cantici David qui habitat in adiutorio Altissimi in protectione Dei caeli commorabitur",
+      "citation": "Psalms 91:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "psalmus cantici in die sabbati",
+      "citation": "Psalms 91:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "qui habitat in abscondito Excelsi in umbraculo Domini commorabitur",
+      "citation": "Psalms 91:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "psalmus cantici in die sabbati",
+      "citation": "Psalms 91:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dicet Domino susceptor meus es tu et refugium meum Deus meus sperabo in eum",
+      "citation": "Psalms 91:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dicens Domino spes mea et fortitudo mea Deus meus confidam in eum",
+      "citation": "Psalms 91:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quoniam ipse liberabit me de laqueo venantium et a verbo aspero",
+      "citation": "Psalms 91:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia ipse liberabit te de laqueo venantium de morte insidiarum",
+      "citation": "Psalms 91:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "in scapulis suis obumbrabit te et sub pinnis eius sperabis",
+      "citation": "Psalms 91:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "in scapulis suis obumbrabit tibi et sub alis eius sperabis",
+      "citation": "Psalms 91:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "scuto circumdabit te veritas eius non timebis a timore nocturno",
+      "citation": "Psalms 91:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "scutum et protectio veritas eius non timebis a timore nocturno",
+      "citation": "Psalms 91:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "a sagitta volante in die a negotio perambulante in tenebris ab incursu et daemonio meridiano",
+      "citation": "Psalms 91:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "a sagitta volante per diem a peste in tenebris ambulante a morsu insanientis meridie",
+      "citation": "Psalms 91:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "cadent a latere tuo mille et decem milia a dextris tuis ad te autem non adpropinquabit",
+      "citation": "Psalms 91:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "cadent a latere tuo mille et decem milia a dextris tuis ad te autem non adpropinquabit",
+      "citation": "Psalms 91:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "verumtamen oculis tuis considerabis et retributionem peccatorum videbis",
+      "citation": "Psalms 91:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "verumtamen oculis tuis videbis et ultionem impiorum cernes",
+      "citation": "Psalms 91:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quoniam tu Domine spes mea Altissimum posuisti refugium tuum",
+      "citation": "Psalms 91:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "tu enim es Domine spes mea Excelsum posuisti habitaculum tuum",
+      "citation": "Psalms 91:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "non accedent ad te mala et flagellum non adpropinquabit tabernaculo tuo",
+      "citation": "Psalms 91:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "non accedet ad te malum et lepra non adpropinquabit tabernaculo tuo",
+      "citation": "Psalms 91:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quoniam angelis suis mandabit de te ut custodiant te in omnibus viis tuis",
+      "citation": "Psalms 91:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quia angelis suis mandabit de te ut custodiant te in omnibus viis tuis",
+      "citation": "Psalms 91:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "in manibus portabunt te ne forte offendas ad lapidem pedem tuum",
+      "citation": "Psalms 91:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "in manibus portabunt te ne forte offendat ad lapidem pes tuus",
+      "citation": "Psalms 91:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "super aspidem et basiliscum ambulabis %et; conculcabis leonem et draconem",
+      "citation": "Psalms 91:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "super aspidem et basiliscum calcabis conculcabis leonem et draconem",
+      "citation": "Psalms 91:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quoniam in me speravit et liberabo eum protegam eum quia cognovit nomen meum",
+      "citation": "Psalms 91:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quoniam mihi adhesit et liberabo eum exaltabo eum quoniam cognovit nomen meum",
+      "citation": "Psalms 91:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "clamabit ad me et exaudiam eum cum ipso sum in tribulatione eripiam eum et clarificabo eum",
+      "citation": "Psalms 91:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "invocabit me et exaudiam eum cum ipso ero in tribulatione eruam eum et glorificabo",
+      "citation": "Psalms 91:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "longitudine dierum replebo eum et ostendam illi salutare meum",
+      "citation": "Psalms 91:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "longitudine dierum implebo illum et ostendam ei salutare meum",
+      "citation": "Psalms 91:16 (Clementine Vulgate)"
+    }
+  ]
+}

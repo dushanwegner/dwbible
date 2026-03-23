@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Amos, Chapter 7 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Amos",
+      "slug": "amos",
+      "testament": "OT",
+      "order": 35,
+      "totalChapters": 9
+    },
+    "chapter": 7,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/amos/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/amos/6.json",
+      "nextChapter": "https://latinprayer.org/bible/amos/8.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/amos/7.json",
+      "german": "https://latinprayer.org/bibel/amos/7.json"
+    }
+  },
+  "citation": "Amos 7 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "These things the Lord God shewed to me: and behold the locust was formed in the beginning of the shooting up of the latter rain, and lo, it was the latter rain after the king's mowing.",
+      "citation": "Amos 7:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And it came to pass, that when they had made an end of eating the grass of the land, I said: O Lord God, be merciful, I beseech thee: who shall raise up Jacob, for he is very little?",
+      "citation": "Amos 7:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The Lord had pity upon this: It shall not be, said the Lord.",
+      "citation": "Amos 7:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "These things the Lord God shewed to me: and behold the Lord called for judgment unto fire, and it devoured the great deep, and ate up a part at the same time.",
+      "citation": "Amos 7:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And I said: O Lord God, cease, I beseech thee, who shall raise up Jacob, for he is a little one?",
+      "citation": "Amos 7:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "The Lord had pity upon this. Yea this also shall not be, said the Lord God.",
+      "citation": "Amos 7:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "These things the Lord shewed to me: and behold the Lord was standing upon a plastered wall, and in his hand a mason's trowel.",
+      "citation": "Amos 7:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the Lord said to me: What seest thou, Amos? And I said: A mason's trowel. And the Lord said: Behold, I will lay down the trowel in the midst of my people Israel. I will plaster them over no more.",
+      "citation": "Amos 7:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the high places of the idol shall be thrown down, and the sanctuaries of Israel shall be laid waste: and I will rise up against the house of Jeroboam with the sword.",
+      "citation": "Amos 7:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And Amasias the priest of Bethel sent to Jeroboam king of Israel, saying: Amos hath rebelled against thee in the midst of the house of Israel: the land is not able to bear all his words.",
+      "citation": "Amos 7:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For thus saith Amos: Jeroboam shall die by the sword, and Israel shall be carried away captive out of their own land.",
+      "citation": "Amos 7:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And Amasias said to Amos: Thou seer, go, flee away into the land of Juda: and eat bread there, and prophesy there.",
+      "citation": "Amos 7:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "But prophesy not again any more in Bethel: because it is the king's sanctuary, and it is the house of the kingdom.",
+      "citation": "Amos 7:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And Amos answered and said to Amasias: I am not a prophet, nor am I the son of a prophet: but I am a herdsman plucking wild figs.",
+      "citation": "Amos 7:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And the Lord took me when I followed the flock, and the Lord said to me: Go, prophesy to my people Israel.",
+      "citation": "Amos 7:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And now hear thou the word of the Lord: Thou sayest, thou shalt not prophesy against Israel, and thou shalt not drop thy word upon the house of the idol.",
+      "citation": "Amos 7:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Therefore thus saith the Lord: Thy wife shall play the harlot in the city, and thy sons and thy daughters shall fall by the sword, and thy land shall be measured by a line: and thou shalt die in a polluted land, and Israel shall go into captivity out of their land.",
+      "citation": "Amos 7:17 (Douay-Rheims)"
+    }
+  ]
+}

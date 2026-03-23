@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 2 — 25 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 2,
+    "verseCount": 25,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/1.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/2.json",
+      "german": "https://latinprayer.org/bibel/exodus/2.json"
+    }
+  },
+  "citation": "Exodus 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "egressus est post haec vir de domo Levi accepta uxore stirpis suae",
+      "citation": "Exodus 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quae concepit et peperit filium et videns eum elegantem abscondit tribus mensibus",
+      "citation": "Exodus 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cumque iam celare non posset sumpsit fiscellam scirpeam et linivit eam bitumine ac pice posuitque intus infantulum et exposuit eum in carecto ripae fluminis",
+      "citation": "Exodus 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "stante procul sorore eius et considerante eventum rei",
+      "citation": "Exodus 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ecce autem descendebat filia Pharaonis ut lavaretur in flumine et puellae eius gradiebantur per crepidinem alvei quae cum vidisset fiscellam in papyrione misit unam e famulis suis et adlatam",
+      "citation": "Exodus 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "aperiens cernensque in ea parvulum vagientem miserta eius ait de infantibus Hebraeorum est",
+      "citation": "Exodus 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "cui soror pueri vis inquit ut vadam et vocem tibi hebraeam mulierem quae nutrire possit infantulum",
+      "citation": "Exodus 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "respondit vade perrexit puella et vocavit matrem eius",
+      "citation": "Exodus 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ad quam locuta filia Pharaonis accipe ait puerum istum et nutri mihi ego tibi dabo mercedem tuam suscepit mulier et nutrivit puerum adultumque tradidit filiae Pharaonis",
+      "citation": "Exodus 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "quem illa adoptavit in locum filii vocavitque nomen eius Mosi dicens quia de aqua tuli eum",
+      "citation": "Exodus 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "in diebus illis postquam creverat Moses egressus ad fratres suos vidit adflictionem eorum et virum aegyptium percutientem quendam de Hebraeis fratribus suis",
+      "citation": "Exodus 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cumque circumspexisset huc atque illuc et nullum adesse vidisset percussum Aegyptium abscondit sabulo",
+      "citation": "Exodus 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et egressus die altero conspexit duos Hebraeos rixantes dixitque ei qui faciebat iniuriam quare percutis proximum tuum",
+      "citation": "Exodus 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "qui respondit quis constituit te principem et iudicem super nos num occidere me tu dicis sicut occidisti Aegyptium timuit Moses et ait quomodo palam factum est verbum istud",
+      "citation": "Exodus 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "audivitque Pharao sermonem hunc et quaerebat occidere Mosen qui fugiens de conspectu eius moratus est in terra Madian et sedit iuxta puteum",
+      "citation": "Exodus 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "erant sacerdoti Madian septem filiae quae venerunt ad hauriendas aquas et impletis canalibus adaquare cupiebant greges patris sui",
+      "citation": "Exodus 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "supervenere pastores et eiecerunt eas surrexitque Moses et defensis puellis adaquavit oves earum",
+      "citation": "Exodus 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quae cum revertissent ad Raguhel patrem suum dixit ad eas cur velocius venistis solito",
+      "citation": "Exodus 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "responderunt vir aegyptius liberavit nos de manu pastorum insuper et hausit aquam nobiscum potumque dedit ovibus",
+      "citation": "Exodus 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "at ille ubi est inquit quare dimisistis hominem vocate eum ut comedat panem",
+      "citation": "Exodus 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "iuravit ergo Moses quod habitaret cum eo accepitque Sefforam filiam eius",
+      "citation": "Exodus 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quae peperit filium quem vocavit Gersam dicens advena fui in terra aliena",
+      "citation": "Exodus 2:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "post multum temporis mortuus est rex Aegypti et ingemescentes filii Israhel propter opera vociferati sunt ascenditque clamor eorum ad Deum ab operibus",
+      "citation": "Exodus 2:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et audivit gemitum eorum ac recordatus foederis quod pepigerat cum Abraham et Isaac et Iacob",
+      "citation": "Exodus 2:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "respexit filios Israhel et cognovit eos",
+      "citation": "Exodus 2:25 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 2 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 2,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/matthew/1.json",
+      "nextChapter": "https://latinprayer.org/latin/matthew/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/2.json",
+      "german": "https://latinprayer.org/bibel/matthew/2.json"
+    }
+  },
+  "citation": "Matthew 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "cum ergo natus esset Iesus in Bethleem Iudaeae in diebus Herodis regis ecce magi ab oriente venerunt Hierosolymam",
+      "citation": "Matthew 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dicentes ubi est qui natus est rex Iudaeorum vidimus enim stellam eius in oriente et venimus adorare eum",
+      "citation": "Matthew 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "audiens autem Herodes rex turbatus est et omnis Hierosolyma cum illo",
+      "citation": "Matthew 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et congregans omnes principes sacerdotum et scribas populi sciscitabatur ab eis ubi Christus nasceretur",
+      "citation": "Matthew 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "at illi dixerunt ei in Bethleem Iudaeae sic enim scriptum est per prophetam",
+      "citation": "Matthew 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et tu Bethleem terra Iuda nequaquam minima es in principibus Iuda ex te enim exiet dux qui reget populum meum Israhel",
+      "citation": "Matthew 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "tunc Herodes clam vocatis magis diligenter didicit ab eis tempus stellae quae apparuit eis",
+      "citation": "Matthew 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et mittens illos in Bethleem dixit ite et interrogate diligenter de puero et cum inveneritis renuntiate mihi ut et ego veniens adorem eum",
+      "citation": "Matthew 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "qui cum audissent regem abierunt et ecce stella quam viderant in oriente antecedebat eos usque dum veniens staret supra ubi erat puer",
+      "citation": "Matthew 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "videntes autem stellam gavisi sunt gaudio magno valde",
+      "citation": "Matthew 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et intrantes domum invenerunt puerum cum Maria matre eius et procidentes adoraverunt eum et apertis thesauris suis obtulerunt ei munera aurum tus et murram",
+      "citation": "Matthew 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et responso accepto in somnis ne redirent ad Herodem per aliam viam reversi sunt in regionem suam",
+      "citation": "Matthew 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "qui cum recessissent ecce angelus Domini apparuit in somnis Ioseph dicens surge et accipe puerum et matrem eius et fuge in Aegyptum et esto ibi usque dum dicam tibi futurum est enim ut Herodes quaerat puerum ad perdendum eum",
+      "citation": "Matthew 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "qui consurgens accepit puerum et matrem eius nocte et recessit in Aegyptum",
+      "citation": "Matthew 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et erat ibi usque ad obitum Herodis ut adimpleretur quod dictum est a Domino per prophetam dicentem ex Aegypto vocavi filium meum",
+      "citation": "Matthew 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "tunc Herodes videns quoniam inlusus esset a magis iratus est valde et mittens occidit omnes pueros qui erant in Bethleem et in omnibus finibus eius a bimatu et infra secundum tempus quod exquisierat a magis",
+      "citation": "Matthew 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "tunc adimpletum est quod dictum est per Hieremiam prophetam dicentem",
+      "citation": "Matthew 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "vox in Rama audita est ploratus et ululatus multus Rachel plorans filios suos et noluit consolari quia non sunt",
+      "citation": "Matthew 2:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "defuncto autem Herode ecce apparuit angelus Domini in somnis Ioseph in Aegypto",
+      "citation": "Matthew 2:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "dicens surge et accipe puerum et matrem eius et vade in terram Israhel defuncti sunt enim qui quaerebant animam pueri",
+      "citation": "Matthew 2:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "qui surgens accepit puerum et matrem eius et venit in terram Israhel",
+      "citation": "Matthew 2:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "audiens autem quod Archelaus regnaret in Iudaea pro Herode patre suo timuit illo ire et admonitus in somnis secessit in partes Galilaeae",
+      "citation": "Matthew 2:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et veniens habitavit in civitate quae vocatur Nazareth ut adimpleretur quod dictum est per prophetas quoniam Nazareus vocabitur",
+      "citation": "Matthew 2:23 (Clementine Vulgate)"
+    }
+  ]
+}

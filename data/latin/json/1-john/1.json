@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 John, Chapter 1 — 10 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 John",
+      "slug": "1-john",
+      "testament": "NT",
+      "order": 69,
+      "totalChapters": 5
+    },
+    "chapter": 1,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-john/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/1-john/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-john/1.json",
+      "german": "https://latinprayer.org/bibel/1-john/1.json"
+    }
+  },
+  "citation": "1 John 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "quod fuit ab initio quod audivimus quod vidimus oculis nostris quod perspeximus et manus nostrae temptaverunt de verbo vitae",
+      "citation": "1 John 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et vita manifestata est et vidimus et testamur et adnuntiamus vobis vitam aeternam quae erat apud Patrem et apparuit nobis",
+      "citation": "1 John 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quod vidimus et audivimus adnuntiamus et vobis ut et vos societatem habeatis nobiscum et societas nostra sit cum Patre et cum Filio eius Iesu Christo",
+      "citation": "1 John 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et haec scribimus vobis ut gaudium nostrum sit plenum",
+      "citation": "1 John 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et haec est adnuntiatio quam audivimus ab eo et adnuntiamus vobis quoniam Deus lux est et tenebrae in eo non sunt ullae",
+      "citation": "1 John 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "si dixerimus quoniam societatem habemus cum eo et in tenebris ambulamus mentimur et non facimus veritatem",
+      "citation": "1 John 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "si autem in luce ambulemus sicut et ipse est in luce societatem habemus ad invicem et sanguis Iesu Filii eius mundat nos ab omni peccato",
+      "citation": "1 John 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "si dixerimus quoniam peccatum non habemus ipsi nos seducimus et veritas in nobis non est",
+      "citation": "1 John 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "si confiteamur peccata nostra fidelis est et iustus ut remittat nobis peccata et emundet nos ab omni iniquitate",
+      "citation": "1 John 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "si dixerimus quoniam non peccavimus mendacem facimus eum et verbum eius non est in nobis",
+      "citation": "1 John 1:10 (Clementine Vulgate)"
+    }
+  ]
+}

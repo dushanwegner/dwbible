@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 127 — 5 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 127,
+    "verseCount": 5,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/126.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/128.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/127.json",
+      "german": "https://latinprayer.org/bibel/psalms/127.json"
+    }
+  },
+  "citation": "Psalms 127 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "A gradual canticle of Solomon. Unless the Lord build the house, they labour in vain that build it. Unless the Lord keep the city, he watcheth in vain that keepeth it.",
+      "citation": "Psalms 127:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "It is vain for you to rise before light, rise ye after you have sitten, you that eat the bread of sorrow. When he shall give sleep to his beloved,",
+      "citation": "Psalms 127:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Behold the inheritance of the Lord are children: the reward, the fruit of the womb.",
+      "citation": "Psalms 127:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "As arrows in the hand of the mighty, so the children of them that have been shaken.",
+      "citation": "Psalms 127:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Blessed is the man that hath filled the desire with them; he shall not be confounded when he shall speak to his enemies in the gate.",
+      "citation": "Psalms 127:5 (Douay-Rheims)"
+    }
+  ]
+}

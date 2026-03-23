@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Obadja — 1 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Obadja",
+      "slug": "abdias",
+      "testament": "OT",
+      "order": 36,
+      "totalChapters": 1
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/abdias/index.json",
+      "latin": "https://latinprayer.org/latin/abdias/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bibel/abdias/1",
+      "jsonUrl": "https://latinprayer.org/bibel/abdias/1.json"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Revelation, Chapter 8 — 63 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Revelation",
+      "slug": "apocalypse",
+      "testament": "NT",
+      "order": 73,
+      "totalChapters": 35
+    },
+    "chapter": 8,
+    "verseCount": 63,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/apocalypse/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/apocalypse/7.json",
+      "nextChapter": "https://latinprayer.org/latin/apocalypse/9.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/apocalypse/8.json",
+      "german": "https://latinprayer.org/bibel/apocalypse/8.json"
+    }
+  },
+  "citation": "Revelation 8 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et respondit ad me et dixit: hoc saeculum fecit Altissimus propter multos, futurum autem propter paucos.",
+      "citation": "Revelation 8:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dicam autem coram te similitudinem, Ezra. quomodo autem interrogabis terram et dicet tibi, quoniam dabit terram multam magis unde fiat fictile, parvum autem pulverem unde aurum fit, sic et actus praesentis saeculi.",
+      "citation": "Revelation 8:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "multi quidem creati sunt, pauci autem salvabuntur.",
+      "citation": "Revelation 8:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et respondi et dixi: absolve ergo anima sensum et devoret quod sapit.",
+      "citation": "Revelation 8:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "convenisti inobaudire et profecta es nolens, nec enim tibi est datum spatium nisi solum modicum vivere.",
+      "citation": "Revelation 8:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "o Domine super nos, si permittes servo tuo, ut oremus coram te et des nobis semen cordis et sensui culturam unde fructum fiat, unde vivere possit omnis corruptus qui portabit locum hominis.",
+      "citation": "Revelation 8:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "solus enim es, et una plasmatio nos sumus manuum tuarum, sicut locutus es.",
+      "citation": "Revelation 8:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et quoniam vivificas nunc in matrice plasmatum corpus et praestas membra, conservatur in igne et aqua tua creatio et novem mensibus patitur tua plasmatio tuae creaturae quae in eo creata est.",
+      "citation": "Revelation 8:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ipsum autem quod servat et quod servatur utraque servabuntur servatione tua. et quando iterum reddit matrix quae in ea creverint,",
+      "citation": "Revelation 8:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "imperasti ut ex ipsis membris, hoc est mamillis, praebere lac, fructum mamillarum.",
+      "citation": "Revelation 8:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ut nutriatur id quod plasmatum est usque in tempus aliquem. et postea dispones eum tuae misericordiae,",
+      "citation": "Revelation 8:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "enutristi eum tuae iustitiae, et erudisti eum in lege tua et corripuisti eum tuo intellectu,",
+      "citation": "Revelation 8:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et mortificabis eum ut tuam creaturam et vivificabis eum ut tuum opus.",
+      "citation": "Revelation 8:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "si ergo perdideris qui tantis laboribus plasmatus est tuo iussu, facili ordine, et ut quid fiebat?",
+      "citation": "Revelation 8:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et nunc dicens dicam: de omni homine tu magis scis, de populo autem tuo quod mihi dolet,",
+      "citation": "Revelation 8:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et de hereditate tua propter quam lugeo, et de Israhel propter quem tristis sum, et de semine Iacob propter quod conturbor.",
+      "citation": "Revelation 8:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "ideo incipiam orare coram te pro me et pro eis, quoniam video lapsos nostros qui inhabitamus terram,",
+      "citation": "Revelation 8:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "sed audivi celeritatem iudicii quod futurum est.",
+      "citation": "Revelation 8:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "ideo audi meam vocem et intellege sermonum meorum, et loquar coram te.",
+      "citation": "Revelation 8:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "initium verborum Ezrae priusquam adsumeretur, et dixit: Domine qui habitas in saeculum, cuius oculi elati et superna in aerem,",
+      "citation": "Revelation 8:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et cuius thronus inaestimabilis et gloria inconprehensibilis, cui adstat exercitus angelorum cum tremore,",
+      "citation": "Revelation 8:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quorum servatio in vento et igni convertitur, cuius verbum verum et dicta perseverantia,",
+      "citation": "Revelation 8:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "cuius iussio fortis et dispositio terribilis, cuius aspectus arefecit abyssos et indignatio tabescere facit montes et veritas testificatur.",
+      "citation": "Revelation 8:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "exaudi, Domine, orationem servi tui et auribus percipe precationem figmenti tui, intende verba mea.",
+      "citation": "Revelation 8:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "dum enim vivo loquar et dum sapio respondeam.",
+      "citation": "Revelation 8:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "ne aspicias populi tui delicta, sed qui tibi in veritate serviunt.",
+      "citation": "Revelation 8:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "nec adtendas impie agentium studia, sed qui tua testimonia cum doloribus custodierunt.",
+      "citation": "Revelation 8:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "neque cogites qui in conspectu tuo false conversati sunt, sed memorare qui ex voluntate tuum timorem cognoverunt.",
+      "citation": "Revelation 8:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "neque volueris perdere qui pecorum mores habuerunt, sed respicias eos qui legem tuam splendide docuerunt.",
+      "citation": "Revelation 8:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "neque indigneris eis qui bestiis peius sunt iudicati, sed diligas eos qui semper in tua gloria confiderunt.",
+      "citation": "Revelation 8:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "quoniam nos et patres nostri mortalibus moribus egimus, tu autem propter nos peccatores misericors vocaberis.",
+      "citation": "Revelation 8:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "si enim desideraveris ut nostri miserearis, tunc misericors vocaberis, nobis enim non habentibus opera iustitiae.",
+      "citation": "Revelation 8:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "iusti enim, quibus sunt operae multae repositae apud te, ex propriis operibus recipient mercedem.",
+      "citation": "Revelation 8:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "quid est enim homo, ut ei indigneris, aut genus corruptibile, ut ita amariceris de ipso.",
+      "citation": "Revelation 8:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "in veritate enim nemo de genitis est qui non impie gessit, et de confitentibus qui non deliquit.",
+      "citation": "Revelation 8:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "in hoc enim adnuntiabitur iustitia tua, et bonitas tua Domine, cum misertus fueris eis qui non habent substantiam operum bonorum.",
+      "citation": "Revelation 8:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et respondit ad me et dixi:t recte locutus es aliqua, et iuxta sermones tuos sic et fiet,",
+      "citation": "Revelation 8:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "quoniam vere non cogitabo super plasma eorum qui peccaverunt aut mortem aut iudicium aut perditionem,",
+      "citation": "Revelation 8:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "sed iucundabor super iustorum figmentum, peregrinationes quoque et salvationes et mercedis receptiones.",
+      "citation": "Revelation 8:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "quomodo ergo locutus sum, sic et est.",
+      "citation": "Revelation 8:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "sicut enim agricola serit super terram semina multa et plantationis multitudinem plantat, sed non in tempore non omnia quae seminata sunt salvabuntur, sed nec omnia quae plantata sunt radicabunt, sic et qui in saeculo seminati sunt non omnes salvabuntur.",
+      "citation": "Revelation 8:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "et respondi et dixi: si inveni gratiam loquar.",
+      "citation": "Revelation 8:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "quoniam semen agricolae, si non ascenderit -- non enim accepit pluviam tuam in tempore -- et si corruptum fuerit multitudine pluviae,",
+      "citation": "Revelation 8:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "hoc perit; sed homo qui manibus tuis plasmatus est et tuae imagini nominatus, quoniam similatus est per quem omnia plasmasti, et similasti eum semini agricolae.",
+      "citation": "Revelation 8:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "non super nos, sed parce populo tuo et miserere hereditati tuae, tuae enim creaturae misereris.",
+      "citation": "Revelation 8:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "et respondit ad me et dixit: quae sunt praesentia praesentibus et quae futura futuris.",
+      "citation": "Revelation 8:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "multum enim tibi restat, ut possis diligere meam creaturam super me. tu autem frequenter te et ipsum proximasti iniustis numquam.",
+      "citation": "Revelation 8:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "sed et in hoc mirabilis eris coram Altissimo,",
+      "citation": "Revelation 8:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "quoniam humiliasti te, sicut decet te, et non iudicasti te inter iustos. plurimum glorificeris,",
+      "citation": "Revelation 8:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "propter quod miseriae multae miserabiles efficientur qui inhabitant saeculum in novissimis, quia in multa superbia ambulaverunt.",
+      "citation": "Revelation 8:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "tu autem pro te intellege et de similibus tuis inquire gloriam.",
+      "citation": "Revelation 8:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "vobis enim apertus est paradisus, plantata est arbor vitae, praeparatum est futurum tempus praeparata est abundantia, aedificata est civitas, probata est requies, perfecta est bonitas ante perfecta sapientia.",
+      "citation": "Revelation 8:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "radix signata est a vobis, infirmitas extincta est a vobis et mors absconsa est, infernum fugit et corruptio in oblivionem.",
+      "citation": "Revelation 8:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "transierunt dolores et ostensus est in finem thesaurus inmortalitatis.",
+      "citation": "Revelation 8:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "noli ergo adicere inquirendo de multitudine eorum qui pereunt.",
+      "citation": "Revelation 8:55 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "nam et ipsi accipientes libertatem spreverunt Altissimum et legem eius contempserunt et vias eius dereliquerunt.",
+      "citation": "Revelation 8:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "adhuc autem et iustos eius conculcaverunt.",
+      "citation": "Revelation 8:57 (Clementine Vulgate)"
+    },
+    {
+      "verse": 58,
+      "text": "et dixerunt in corde suo non esse Deum, et quidem scientes quoniam moriuntur.",
+      "citation": "Revelation 8:58 (Clementine Vulgate)"
+    },
+    {
+      "verse": 59,
+      "text": "sicut enim vos suscipient quae praedicta sunt, sic eos sitis et cruciatus quae praeparata sunt, non enim Altissimus vo v. A. A hominem disperdi.",
+      "citation": "Revelation 8:59 (Clementine Vulgate)"
+    },
+    {
+      "verse": 60,
+      "text": "sed ipsi qui creati sunt coinquinaverunt nomen eius qui fecit eos, et ingrati fuerunt ei qui praeparavit eis nunc vitam.",
+      "citation": "Revelation 8:60 (Clementine Vulgate)"
+    },
+    {
+      "verse": 61,
+      "text": "quapropter iudicium meum modo adpropinquat,",
+      "citation": "Revelation 8:61 (Clementine Vulgate)"
+    },
+    {
+      "verse": 62,
+      "text": "quod non omnibus demonstravi nisi tibi et tibi similibus paucis. et respondi et dixi:",
+      "citation": "Revelation 8:62 (Clementine Vulgate)"
+    },
+    {
+      "verse": 63,
+      "text": "ecce nunc, Domine, demonstrasti mihi multitudinem signorum quae incipies facere in novissimis, sed non demonstrasti mihi quo tempore.",
+      "citation": "Revelation 8:63 (Clementine Vulgate)"
+    }
+  ]
+}

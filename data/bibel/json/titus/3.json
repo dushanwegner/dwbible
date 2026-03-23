@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Titus, Chapter 3 — 15 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Titus",
+      "slug": "titus",
+      "testament": "NT",
+      "order": 63,
+      "totalChapters": 3
+    },
+    "chapter": 3,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/titus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/titus/2.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/titus/3.json",
+      "latin": "https://latinprayer.org/latin/titus/3.json"
+    }
+  },
+  "citation": "Titus 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Schärfe ihnen ein, daß sie sich den obrigkeitlichen Gewalten unterordnen, (ihren Befehlen) Gehorsam leisten und zu jedem guten Werk bereit seien,",
+      "citation": "Titus 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "daß sie niemand schmähen, sich friedfertig und nachgiebig benehmen und volle Sanftmut gegen alle Menschen beweisen.",
+      "citation": "Titus 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn einst sind auch wir unverständig und ungehorsam gewesen und irre gegangen, indem wir mannigfachen Begierden und Lüsten dienten und in Bosheit und Neid dahinlebten, hassenswert und gegeneinander haßerfüllt.",
+      "citation": "Titus 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Als aber die Güte und Menschenfreundlichkeit Gottes, unsers Retters, erschienen war,",
+      "citation": "Titus 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "da hat er uns – nicht aufgrund von Werken der Gerechtigkeit, die wir unserseits vollbracht hätten, sondern nach seiner Barmherzigkeit – gerettet durch das Bad der Wiedergeburt und der Erneuerung des heiligen Geistes,",
+      "citation": "Titus 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "den er reichlich auf uns ausgegossen hat durch unsern Retter Jesus Christus,",
+      "citation": "Titus 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "damit wir durch seine Gnade gerechtgesprochen und unserer Hoffnung gemäß Erben des ewigen Lebens würden.",
+      "citation": "Titus 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Zuverlässig ist das Wort, und ich will, daß du dich hierüber mit aller Bestimmtheit aussprichst, damit die, welche zum Glauben an Gott gekommen sind, allen Eifer darauf verwenden, sich in guten Werken zu betätigen – das ist etwas Schönes und für die Menschen Segensreiches.",
+      "citation": "Titus 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Dagegen mit törichten Untersuchungen und Geschlechtsverzeichnissen sowie mit Streitigkeiten und Gezänk über das Gesetz habe du nichts zu tun, denn das sind unnütze und unfruchtbare Dinge.",
+      "citation": "Titus 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Einen Menschen, der Spaltungen anrichtet, weise nach einmaliger oder zweimaliger Verwarnung ab;",
+      "citation": "Titus 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "du weißt ja, daß ein solcher Mensch auf verkehrte Wege geraten und nach seinem eigenen Urteil ein Sünder ist.",
+      "citation": "Titus 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Sobald ich Artemas oder Tychikus zu dir sende, beeile dich, zu mir nach Nikopolis zu kommen; denn ich habe mich entschlossen, dort den Winter zuzubringen.",
+      "citation": "Titus 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Zenas, den Gesetzeslehrer, und Apollos rüste sorgfältig für ihre Winterreise aus, damit es ihnen an nichts gebricht.",
+      "citation": "Titus 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Auch unsere Leute müssen daraus eine löbliche Liebestätigkeit zur Befriedigung unumgänglicher Bedürfnisse lernen, damit sie nicht ohne Früchte (ihres Glaubens) bleiben.",
+      "citation": "Titus 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Alle, die hier bei mir sind, lassen dich grüßen. Grüße die, welche im Glauben uns lieben! Die Gnade (Gottes) sei mit euch allen!",
+      "citation": "Titus 3:15 (Menge)"
+    }
+  ]
+}

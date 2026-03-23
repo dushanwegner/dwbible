@@ -1,0 +1,916 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 119 — 176 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 119,
+    "verseCount": 176,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/118.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/120.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/119.json",
+      "latin": "https://latinprayer.org/latin/psalms/119.json"
+    }
+  },
+  "citation": "Psalmen 119 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Wohl denen, deren Wandel unsträflich ist, die einhergehn im Gesetz des HERRN!",
+      "citation": "Psalmen 119:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wohl denen, die seine Zeugnisse beobachten, die mit ganzem Herzen ihn suchen,",
+      "citation": "Psalmen 119:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "die auch kein Unrecht verüben, sondern auf seinen Wegen gehen!",
+      "citation": "Psalmen 119:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Du selbst hast deine Befehle erlassen, daß man sie sorglich befolge.",
+      "citation": "Psalmen 119:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ach möchte doch mein Wandel fest sein in der Befolgung deiner Satzungen!",
+      "citation": "Psalmen 119:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Dann werde ich nicht beschämt sein, wenn ich alle deine Gebote vor Augen habe.",
+      "citation": "Psalmen 119:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Ich will dir aufrichtigen Herzens danken, indem ich die Rechte deiner Gerechtigkeit lerne.",
+      "citation": "Psalmen 119:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Deine Satzungen will ich halten: verlaß mich nicht ganz und gar!",
+      "citation": "Psalmen 119:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Wie wird ein Jüngling seinen Wandel rein gestalten? Wenn er ihn führt nach deinem Wort.",
+      "citation": "Psalmen 119:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Mit ganzem Herzen suche ich dich: laß mich von deinen Geboten nicht abirren!",
+      "citation": "Psalmen 119:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "In meinem Herzen wahre ich dein Wort, um mich nicht gegen dich zu verfehlen.",
+      "citation": "Psalmen 119:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Gepriesen seist du, o HERR: lehre mich deine Satzungen!",
+      "citation": "Psalmen 119:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Mit meinen Lippen zähle ich her alle Rechte deines Mundes.",
+      "citation": "Psalmen 119:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "An dem Wege deiner Zeugnisse habe ich Freude wie über irgendwelchen Reichtum.",
+      "citation": "Psalmen 119:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Über deine Befehle will ich sinnen und achten auf deine Pfade.",
+      "citation": "Psalmen 119:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "An deinen Satzungen habe ich meine Lust, will deine Worte nicht vergessen.",
+      "citation": "Psalmen 119:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Tu Gutes an deinem Knecht, auf daß ich leben bleibe, so will ich deine Worte befolgen.",
+      "citation": "Psalmen 119:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Öffne mir die Augen, daß ich klar erkenne die Wunder in deinem Gesetz.",
+      "citation": "Psalmen 119:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Ich bin nur ein Gast auf Erden: verbirg deine Gebote nicht vor mir.",
+      "citation": "Psalmen 119:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Meine Seele verzehrt sich vor Sehnsucht nach deinen Rechten allezeit.",
+      "citation": "Psalmen 119:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Gedroht hast du den Stolzen; verflucht sind, die von deinen Geboten abweichen.",
+      "citation": "Psalmen 119:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Wälze Schmach und Verachtung von mir ab, denn ich beobachte deine Zeugnisse.",
+      "citation": "Psalmen 119:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Mögen auch Fürsten sitzen und wider mich beraten: dein Knecht sinnt doch über deine Satzungen nach.",
+      "citation": "Psalmen 119:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Ja, deine Zeugnisse sind meine Freude, meine Ratgeber sind sie.",
+      "citation": "Psalmen 119:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Mein Mut ist in den Staub gesunken: belebe mich wieder nach deinem Wort.",
+      "citation": "Psalmen 119:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Ich habe dir meine Lage geschildert, da hast du mich erhört: lehre mich deine Satzungen.",
+      "citation": "Psalmen 119:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Laß mich den Weg verstehn, den deine Befehle gebieten, so will ich sinnen über deine Wunder.",
+      "citation": "Psalmen 119:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Mein Herz zerfließt vor Kummer in Tränen; richte mich auf nach deinen Worten.",
+      "citation": "Psalmen 119:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Den Weg der Lüge halte fern von mir, doch begnade mich mit deinem Gesetz!",
+      "citation": "Psalmen 119:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Den Weg der Treue habe ich erwählt, deine Rechte unanstößig befunden.",
+      "citation": "Psalmen 119:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Ich halte fest an deinen Zeugnissen: HERR, laß mich nicht zuschanden werden!",
+      "citation": "Psalmen 119:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Den Weg deiner Gebote will ich laufen, denn du machst mir weit das Herz.",
+      "citation": "Psalmen 119:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Lehre mich, HERR, den Weg deiner Satzungen, so will ich ihn innehalten bis ans Ende.",
+      "citation": "Psalmen 119:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Verleihe mir Einsicht, damit ich deine Weisung beachte und sie mit ganzem Herzen befolge.",
+      "citation": "Psalmen 119:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Laß mich wandeln auf dem Pfade deiner Gebote, denn an diesem habe ich meine Freude.",
+      "citation": "Psalmen 119:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Neige mein Herz deinen Zeugnissen zu und nicht zur Gewinnsucht.",
+      "citation": "Psalmen 119:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "Wende meine Augen ab, daß sie nicht nach Eitlem schauen; belebe mich auf deinen Wegen.",
+      "citation": "Psalmen 119:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "Erfülle an deinem Knechte deine Verheißung, die darauf abzielt, daß man dich fürchte.",
+      "citation": "Psalmen 119:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Wende ab meine Schmach, vor der mir graut; denn deine Rechte sind heilsam.",
+      "citation": "Psalmen 119:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "Fürwahr, ich sehne mich nach deinen Befehlen: belebe mich durch deine Gerechtigkeit!",
+      "citation": "Psalmen 119:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "Laß deine Gnadenerweise mir widerfahren, o HERR, deine Hilfe nach deinem Wort,",
+      "citation": "Psalmen 119:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "daß ich dem, der mich schmäht, zu antworten weiß; denn ich verlasse mich auf dein Wort.",
+      "citation": "Psalmen 119:42 (Menge)"
+    },
+    {
+      "verse": 43,
+      "text": "Und entzieh meinem Munde nicht ganz das Wort der Wahrheit; denn ich harre auf deine Rechte.",
+      "citation": "Psalmen 119:43 (Menge)"
+    },
+    {
+      "verse": 44,
+      "text": "Und befolgen will ich dein Gesetz beständig, immer und ewiglich;",
+      "citation": "Psalmen 119:44 (Menge)"
+    },
+    {
+      "verse": 45,
+      "text": "so werde ich wandeln auf freier Bahn; denn ich habe mich stets um deine Befehle gekümmert;",
+      "citation": "Psalmen 119:45 (Menge)"
+    },
+    {
+      "verse": 46,
+      "text": "und ich will von deinen Zeugnissen reden vor Königen, ohne mich zu scheuen;",
+      "citation": "Psalmen 119:46 (Menge)"
+    },
+    {
+      "verse": 47,
+      "text": "denn ich habe meine Freude an deinen Geboten, die mir lieb sind,",
+      "citation": "Psalmen 119:47 (Menge)"
+    },
+    {
+      "verse": 48,
+      "text": "und hebe meine Hände auf zu deinen Geboten, [die mir lieb sind,] will über deine Satzungen sinnen.",
+      "citation": "Psalmen 119:48 (Menge)"
+    },
+    {
+      "verse": 49,
+      "text": "Halte deinem Knecht getreulich dein Wort, auf das du mich hast hoffen lassen!",
+      "citation": "Psalmen 119:49 (Menge)"
+    },
+    {
+      "verse": 50,
+      "text": "Das ist mein Trost in meinem Elend, daß dein Wort mich neu belebt hat.",
+      "citation": "Psalmen 119:50 (Menge)"
+    },
+    {
+      "verse": 51,
+      "text": "Die Übermüt’gen verspotten mich maßlos, doch ich bin von deinem Gesetz nicht abgewichen.",
+      "citation": "Psalmen 119:51 (Menge)"
+    },
+    {
+      "verse": 52,
+      "text": "Gedenke ich deiner Rechte aus der Vorzeit, so fühle ich mich, o HERR, getröstet.",
+      "citation": "Psalmen 119:52 (Menge)"
+    },
+    {
+      "verse": 53,
+      "text": "Heißer Zorn erfaßt mich wegen der Gottlosen, die dein Gesetz verlassen haben.",
+      "citation": "Psalmen 119:53 (Menge)"
+    },
+    {
+      "verse": 54,
+      "text": "Deine Satzungen sind mir zu Lobgesängen geworden im Hause meiner Pilgerschaft.",
+      "citation": "Psalmen 119:54 (Menge)"
+    },
+    {
+      "verse": 55,
+      "text": "In der Nacht sogar gedenke ich deines Namens, o HERR, und befolge dein Gesetz.",
+      "citation": "Psalmen 119:55 (Menge)"
+    },
+    {
+      "verse": 56,
+      "text": "Das ist mir zuteil geworden, daß ich deine Befehle befolgt habe.",
+      "citation": "Psalmen 119:56 (Menge)"
+    },
+    {
+      "verse": 57,
+      "text": "Meine Aufgabe ist, o HERR, ich bekenne es, deine Worte zu befolgen.",
+      "citation": "Psalmen 119:57 (Menge)"
+    },
+    {
+      "verse": 58,
+      "text": "Von ganzem Herzen fleh’ ich dich an: »Sei mir gnädig nach deiner Verheißung!«",
+      "citation": "Psalmen 119:58 (Menge)"
+    },
+    {
+      "verse": 59,
+      "text": "Ich habe über meine Wege nachgedacht und lenke (daher) meine Schritte zu deinen Zeugnissen zurück.",
+      "citation": "Psalmen 119:59 (Menge)"
+    },
+    {
+      "verse": 60,
+      "text": "Ich eile und säume nicht, deine Gebote zu befolgen.",
+      "citation": "Psalmen 119:60 (Menge)"
+    },
+    {
+      "verse": 61,
+      "text": "Die Fallstricke der Gottlosen umringen mich; dennoch vergesse ich dein Gesetz nicht.",
+      "citation": "Psalmen 119:61 (Menge)"
+    },
+    {
+      "verse": 62,
+      "text": "In der Mitte der Nacht stehe ich auf, um dir zu danken für die Verordnungen deiner Gerechtigkeit.",
+      "citation": "Psalmen 119:62 (Menge)"
+    },
+    {
+      "verse": 63,
+      "text": "Befreundet bin ich mit allen, die dich fürchten, und mit denen, die deine Befehle befolgen.",
+      "citation": "Psalmen 119:63 (Menge)"
+    },
+    {
+      "verse": 64,
+      "text": "Deiner Gnade, o HERR, ist die Erde voll: lehre mich deine Satzungen!",
+      "citation": "Psalmen 119:64 (Menge)"
+    },
+    {
+      "verse": 65,
+      "text": "Gutes hast du an deinem Knechte getan, o HERR, nach deiner Verheißung.",
+      "citation": "Psalmen 119:65 (Menge)"
+    },
+    {
+      "verse": 66,
+      "text": "Rechte Einsicht und Erkenntnis lehre mich, denn ich vertraue auf deine Gebote.",
+      "citation": "Psalmen 119:66 (Menge)"
+    },
+    {
+      "verse": 67,
+      "text": "Bevor ich gedemütigt wurde, ging ich irre; jetzt aber beobachte ich dein Wort.",
+      "citation": "Psalmen 119:67 (Menge)"
+    },
+    {
+      "verse": 68,
+      "text": "Du bist gütig und erweisest Gutes: lehre mich deine Satzungen!",
+      "citation": "Psalmen 119:68 (Menge)"
+    },
+    {
+      "verse": 69,
+      "text": "Lügen haben die Stolzen gegen mich erdichtet, ich aber befolge deine Befehle mit ganzem Herzen.",
+      "citation": "Psalmen 119:69 (Menge)"
+    },
+    {
+      "verse": 70,
+      "text": "Unempfindlich wie von Fett ist ihr Herz, ich aber habe Freude an deinem Gesetz.",
+      "citation": "Psalmen 119:70 (Menge)"
+    },
+    {
+      "verse": 71,
+      "text": "Gut war’s für mich, daß ich gedemütigt wurde, damit ich deine Satzungen lernte.",
+      "citation": "Psalmen 119:71 (Menge)"
+    },
+    {
+      "verse": 72,
+      "text": "Die Weisung deines Mundes ist mir lieber als Tausende von Gold- und Silberstücken.",
+      "citation": "Psalmen 119:72 (Menge)"
+    },
+    {
+      "verse": 73,
+      "text": "Deine Hände haben mich geschaffen und gebildet: verleihe mir nun auch Einsicht, daß ich deine Gebote lerne!",
+      "citation": "Psalmen 119:73 (Menge)"
+    },
+    {
+      "verse": 74,
+      "text": "Die dich fürchten, werden mich sehen und sich freun; denn ich habe auf dein Wort geharrt.",
+      "citation": "Psalmen 119:74 (Menge)"
+    },
+    {
+      "verse": 75,
+      "text": "Ich weiß, o HERR, daß deine Gerichte gerecht sind und du mich in Treue gedemütigt hast.",
+      "citation": "Psalmen 119:75 (Menge)"
+    },
+    {
+      "verse": 76,
+      "text": "Laß doch deine Gnade mir Trost gewähren, wie du deinem Knechte verheißen hast!",
+      "citation": "Psalmen 119:76 (Menge)"
+    },
+    {
+      "verse": 77,
+      "text": "Laß mir dein Erbarmen widerfahren, daß ich auflebe, denn dein Gesetz ist meine Lust.",
+      "citation": "Psalmen 119:77 (Menge)"
+    },
+    {
+      "verse": 78,
+      "text": "Laß die Stolzen zuschanden werden, weil sie ohne Grund mich niederdrücken; ich aber sinne über deine Befehle.",
+      "citation": "Psalmen 119:78 (Menge)"
+    },
+    {
+      "verse": 79,
+      "text": "Laß mir sich zuwenden, die dich fürchten und die deine Zeugnisse anerkennen!",
+      "citation": "Psalmen 119:79 (Menge)"
+    },
+    {
+      "verse": 80,
+      "text": "Mein Herz halte treu an deinen Satzungen fest, auf daß ich nicht zuschanden werde.",
+      "citation": "Psalmen 119:80 (Menge)"
+    },
+    {
+      "verse": 81,
+      "text": "Meine Seele schmachtet nach deiner Hilfe: ich harre auf dein Wort.",
+      "citation": "Psalmen 119:81 (Menge)"
+    },
+    {
+      "verse": 82,
+      "text": "Meine Augen schmachten nach deiner Verheißung, indem ich frage: »Wann wirst du mich trösten?«",
+      "citation": "Psalmen 119:82 (Menge)"
+    },
+    {
+      "verse": 83,
+      "text": "Bin ich auch wie ein Schlauch im Rauch geworden, hab’ ich doch deine Satzungen nicht vergessen.",
+      "citation": "Psalmen 119:83 (Menge)"
+    },
+    {
+      "verse": 84,
+      "text": "Wie viele sind noch der Lebenstage deines Knechts? Wann hältst du Gericht über meine Verfolger?",
+      "citation": "Psalmen 119:84 (Menge)"
+    },
+    {
+      "verse": 85,
+      "text": "Übermütige haben mir Gruben gegraben, sie, die sich nicht nach deinem Gesetz verhalten.",
+      "citation": "Psalmen 119:85 (Menge)"
+    },
+    {
+      "verse": 86,
+      "text": "Alle deine Gebote sind Wahrheit; mit Lüge verfolgt man mich: so hilf mir!",
+      "citation": "Psalmen 119:86 (Menge)"
+    },
+    {
+      "verse": 87,
+      "text": "Fast hätten sie mich im Lande umgebracht; doch ich verlasse deine Befehle nicht.",
+      "citation": "Psalmen 119:87 (Menge)"
+    },
+    {
+      "verse": 88,
+      "text": "Nach deiner Gnade erhalte mich am Leben, so will ich das Zeugnis deines Mundes befolgen.",
+      "citation": "Psalmen 119:88 (Menge)"
+    },
+    {
+      "verse": 89,
+      "text": "Auf ewige Zeit, o HERR, steht fest dein Wort im Himmel.",
+      "citation": "Psalmen 119:89 (Menge)"
+    },
+    {
+      "verse": 90,
+      "text": "Von Geschlecht zu Geschlecht währt deine Treue; du hast die Erde festgestellt, und sie steht;",
+      "citation": "Psalmen 119:90 (Menge)"
+    },
+    {
+      "verse": 91,
+      "text": "nach deinen Verordnungen stehn sie noch heute, denn alle Dinge sind dir dienstbar.",
+      "citation": "Psalmen 119:91 (Menge)"
+    },
+    {
+      "verse": 92,
+      "text": "Wäre dein Gesetz nicht meine Freude gewesen, so wär’ ich in meinem Elend vergangen.",
+      "citation": "Psalmen 119:92 (Menge)"
+    },
+    {
+      "verse": 93,
+      "text": "Niemals will ich deine Befehle vergessen, denn durch sie hast du mich neu belebt.",
+      "citation": "Psalmen 119:93 (Menge)"
+    },
+    {
+      "verse": 94,
+      "text": "Dein bin ich: hilf mir! Denn ich beachte deine Verordnungen.",
+      "citation": "Psalmen 119:94 (Menge)"
+    },
+    {
+      "verse": 95,
+      "text": "Gottlose lauern mir auf, um mich umzubringen, ich aber achte auf deine Zeugnisse.",
+      "citation": "Psalmen 119:95 (Menge)"
+    },
+    {
+      "verse": 96,
+      "text": "Von allem Vollkomm’nen habe ich eine Grenze gesehn; doch dein Gebot ist völlig unbeschränkt.",
+      "citation": "Psalmen 119:96 (Menge)"
+    },
+    {
+      "verse": 97,
+      "text": "Wie habe ich dein Gesetz so lieb! Den ganzen Tag ist es mein Sinnen.",
+      "citation": "Psalmen 119:97 (Menge)"
+    },
+    {
+      "verse": 98,
+      "text": "Weiser, als meine Feinde sind, machen mich deine Gebote, denn mein sind sie für immer.",
+      "citation": "Psalmen 119:98 (Menge)"
+    },
+    {
+      "verse": 99,
+      "text": "Verständiger bin ich als alle meine Lehrer, denn deine Zeugnisse sind mein Sinnen.",
+      "citation": "Psalmen 119:99 (Menge)"
+    },
+    {
+      "verse": 100,
+      "text": "Mehr Einsicht besitz’ ich als die Greise; denn ich beobachte deine Befehle.",
+      "citation": "Psalmen 119:100 (Menge)"
+    },
+    {
+      "verse": 101,
+      "text": "Von jedem bösen Pfade halte ich meinen Fuß fern, um dein Wort zu befolgen.",
+      "citation": "Psalmen 119:101 (Menge)"
+    },
+    {
+      "verse": 102,
+      "text": "Von deinen Rechten weiche ich nicht ab, denn du hast mich belehrt.",
+      "citation": "Psalmen 119:102 (Menge)"
+    },
+    {
+      "verse": 103,
+      "text": "Wie süß sind deine Worte meinem Gaumen, süßer als Honig meinem Munde!",
+      "citation": "Psalmen 119:103 (Menge)"
+    },
+    {
+      "verse": 104,
+      "text": "Aus deinen Befehlen gewinne ich Einsicht; darum hasse ich jeglichen Lügenpfad.",
+      "citation": "Psalmen 119:104 (Menge)"
+    },
+    {
+      "verse": 105,
+      "text": "Dein Wort ist meines Fußes Leuchte und ein Licht auf meinem Wege.",
+      "citation": "Psalmen 119:105 (Menge)"
+    },
+    {
+      "verse": 106,
+      "text": "Ich habe geschworen und den Vorsatz gefaßt, den Verordnungen deiner Gerechtigkeit treu zu bleiben.",
+      "citation": "Psalmen 119:106 (Menge)"
+    },
+    {
+      "verse": 107,
+      "text": "Ich bin gar tief gebeugt: o HERR, belebe mich wieder nach deiner Verheißung!",
+      "citation": "Psalmen 119:107 (Menge)"
+    },
+    {
+      "verse": 108,
+      "text": "Laß, HERR, dir gefallen die willigen Opfer meines Mundes und lehre mich deine Rechte!",
+      "citation": "Psalmen 119:108 (Menge)"
+    },
+    {
+      "verse": 109,
+      "text": "Ich schwebe beständig in Todesgefahr, doch dein Gesetz vergesse ich nicht.",
+      "citation": "Psalmen 119:109 (Menge)"
+    },
+    {
+      "verse": 110,
+      "text": "Die Gottlosen haben mir Schlingen gelegt, aber von deinen Befehlen irre ich nicht ab.",
+      "citation": "Psalmen 119:110 (Menge)"
+    },
+    {
+      "verse": 111,
+      "text": "Deine Zeugnisse sind mein ewiger Erbbesitz, denn sie sind die Wonne meines Herzens.",
+      "citation": "Psalmen 119:111 (Menge)"
+    },
+    {
+      "verse": 112,
+      "text": "Ich neige mein Herz dazu, deine Satzungen zu erfüllen immerdar bis ans Ende.",
+      "citation": "Psalmen 119:112 (Menge)"
+    },
+    {
+      "verse": 113,
+      "text": "Die Doppelherzigen hasse ich, aber dein Gesetz ist mir lieb.",
+      "citation": "Psalmen 119:113 (Menge)"
+    },
+    {
+      "verse": 114,
+      "text": "Mein Schirm und Schild bist du; auf dein Wort harre ich.",
+      "citation": "Psalmen 119:114 (Menge)"
+    },
+    {
+      "verse": 115,
+      "text": "Weicht von mir, ihr Übeltäter! Ich will die Gebote meines Gottes halten.",
+      "citation": "Psalmen 119:115 (Menge)"
+    },
+    {
+      "verse": 116,
+      "text": "Stütze mich nach deiner Verheißung, daß ich lebe, und laß mich nicht in meiner Hoffnung getäuscht werden!",
+      "citation": "Psalmen 119:116 (Menge)"
+    },
+    {
+      "verse": 117,
+      "text": "Stärke mich, auf daß ich Heil erlange, und laß mich stets auf deine Satzungen achten!",
+      "citation": "Psalmen 119:117 (Menge)"
+    },
+    {
+      "verse": 118,
+      "text": "Du verwirfst alle, die von deinen Satzungen abirren; denn erfolglos ist ihre Täuschung.",
+      "citation": "Psalmen 119:118 (Menge)"
+    },
+    {
+      "verse": 119,
+      "text": "Wie Schlacken räumst du alle Gottlosen des Landes hinweg; darum liebe ich deine Zeugnisse.",
+      "citation": "Psalmen 119:119 (Menge)"
+    },
+    {
+      "verse": 120,
+      "text": "Aus Furcht vor dir schaudert mein Leib, und mir ist bange vor deinen Gerichten.",
+      "citation": "Psalmen 119:120 (Menge)"
+    },
+    {
+      "verse": 121,
+      "text": "Ich habe Recht und Gerechtigkeit geübt: gib mich nicht meinen Bedrückern preis!",
+      "citation": "Psalmen 119:121 (Menge)"
+    },
+    {
+      "verse": 122,
+      "text": "Tritt für deinen Knecht zu seinem Heile ein, laß die Stolzen mir nicht Gewalt antun!",
+      "citation": "Psalmen 119:122 (Menge)"
+    },
+    {
+      "verse": 123,
+      "text": "Meine Augen schmachten nach deiner Rettung und nach der Bestätigung deiner Gerechtigkeit.",
+      "citation": "Psalmen 119:123 (Menge)"
+    },
+    {
+      "verse": 124,
+      "text": "Verfahre mit deinem Knecht nach deiner Gnade und lehre mich deine Satzungen!",
+      "citation": "Psalmen 119:124 (Menge)"
+    },
+    {
+      "verse": 125,
+      "text": "Dein Knecht bin ich, verleihe mir Einsicht, damit ich deine Zeugnisse verstehen lerne.",
+      "citation": "Psalmen 119:125 (Menge)"
+    },
+    {
+      "verse": 126,
+      "text": "Zeit ist’s für den HERRN, zu handeln: sie haben ja dein Gesetz gebrochen.",
+      "citation": "Psalmen 119:126 (Menge)"
+    },
+    {
+      "verse": 127,
+      "text": "Darum liebe ich deine Gebote mehr als Gold und als Feingold.",
+      "citation": "Psalmen 119:127 (Menge)"
+    },
+    {
+      "verse": 128,
+      "text": "Darum schätze ich alle deine Befehle als richtig; jeder Lügenpfad ist mir verhaßt.",
+      "citation": "Psalmen 119:128 (Menge)"
+    },
+    {
+      "verse": 129,
+      "text": "Wunderwerke sind deine Zeugnisse; darum hält mein Herz an ihnen fest.",
+      "citation": "Psalmen 119:129 (Menge)"
+    },
+    {
+      "verse": 130,
+      "text": "Die Erschließung deiner Worte erleuchtet, verleiht den Einfältigen Einsicht.",
+      "citation": "Psalmen 119:130 (Menge)"
+    },
+    {
+      "verse": 131,
+      "text": "Ich tue meinen Mund weit auf und lechze, denn mich verlangt nach deinen Geboten.",
+      "citation": "Psalmen 119:131 (Menge)"
+    },
+    {
+      "verse": 132,
+      "text": "Wende dich zu mir und sei mir gnädig, wie es recht ist bei denen, die deinen Namen lieben!",
+      "citation": "Psalmen 119:132 (Menge)"
+    },
+    {
+      "verse": 133,
+      "text": "Laß meine Schritte fest sein durch dein Wort und laß nichts Trügerisches über mich herrschen.",
+      "citation": "Psalmen 119:133 (Menge)"
+    },
+    {
+      "verse": 134,
+      "text": "Erlöse mich von der Bedrückung der Menschen, so will ich deine Befehle befolgen.",
+      "citation": "Psalmen 119:134 (Menge)"
+    },
+    {
+      "verse": 135,
+      "text": "Laß dein Angesicht leuchten gegen deinen Knecht und lehre mich deine Satzungen.",
+      "citation": "Psalmen 119:135 (Menge)"
+    },
+    {
+      "verse": 136,
+      "text": "Tränenströme rinnen aus meinen Augen, weil viele dein Gesetz nicht befolgen.",
+      "citation": "Psalmen 119:136 (Menge)"
+    },
+    {
+      "verse": 137,
+      "text": "Gerecht bist du, o HERR, und richtig sind deine Rechte.",
+      "citation": "Psalmen 119:137 (Menge)"
+    },
+    {
+      "verse": 138,
+      "text": "In Gerechtigkeit hast du deine Zeugnisse verordnet und in unerschütterlicher Treue.",
+      "citation": "Psalmen 119:138 (Menge)"
+    },
+    {
+      "verse": 139,
+      "text": "Mich verzehrt mein Eifer, weil meine Gegner deine Worte vergessen.",
+      "citation": "Psalmen 119:139 (Menge)"
+    },
+    {
+      "verse": 140,
+      "text": "Dein Wort ist wohlgeläutert, und dein Knecht hat es lieb.",
+      "citation": "Psalmen 119:140 (Menge)"
+    },
+    {
+      "verse": 141,
+      "text": "Gering bin ich und verachtet, doch deine Befehle vergesse ich nicht.",
+      "citation": "Psalmen 119:141 (Menge)"
+    },
+    {
+      "verse": 142,
+      "text": "Deine Gerechtigkeit ist ewige Gerechtigkeit, und dein Gesetz ist Wahrheit.",
+      "citation": "Psalmen 119:142 (Menge)"
+    },
+    {
+      "verse": 143,
+      "text": "Wenn Leiden und Not mich getroffen haben, sind deine Gebote dennoch meine Freude.",
+      "citation": "Psalmen 119:143 (Menge)"
+    },
+    {
+      "verse": 144,
+      "text": "Deine Zeugnisse bleiben immerdar gerecht: verleihe mir Verständnis, so werde ich leben.",
+      "citation": "Psalmen 119:144 (Menge)"
+    },
+    {
+      "verse": 145,
+      "text": "Ich rufe von ganzem Herzen: »Erhöre mich, HERR!« Deine Satzungen will ich beobachten.",
+      "citation": "Psalmen 119:145 (Menge)"
+    },
+    {
+      "verse": 146,
+      "text": "Ich rufe zu dir: »Hilf mir! So will ich deine Zeugnisse beobachten.«",
+      "citation": "Psalmen 119:146 (Menge)"
+    },
+    {
+      "verse": 147,
+      "text": "Früh bin ich auf vor Tagesanbruch und flehe laut; auf dein Wort harre ich.",
+      "citation": "Psalmen 119:147 (Menge)"
+    },
+    {
+      "verse": 148,
+      "text": "Meine Augen wachen die ganze Nacht hindurch, um über dein Wort nachzusinnen.",
+      "citation": "Psalmen 119:148 (Menge)"
+    },
+    {
+      "verse": 149,
+      "text": "Höre meine Stimme nach deiner Gnade! O HERR, nach deinen Rechten laß mich aufleben!",
+      "citation": "Psalmen 119:149 (Menge)"
+    },
+    {
+      "verse": 150,
+      "text": "Mir haben sich Leute genaht, die der Arglist frönen: von deinem Gesetz sind sie fern;",
+      "citation": "Psalmen 119:150 (Menge)"
+    },
+    {
+      "verse": 151,
+      "text": "doch du bist mir nahe, o HERR, und alle deine Gebote sind Wahrheit.",
+      "citation": "Psalmen 119:151 (Menge)"
+    },
+    {
+      "verse": 152,
+      "text": "Längst weiß ich aus deinen Zeugnissen, daß du sie für ewig festgestellt hast.",
+      "citation": "Psalmen 119:152 (Menge)"
+    },
+    {
+      "verse": 153,
+      "text": "Sieh mein Elend an und errette mich! Denn dein Gesetz vergesse ich nicht.",
+      "citation": "Psalmen 119:153 (Menge)"
+    },
+    {
+      "verse": 154,
+      "text": "Führe meine Sache und erlöse mich, schenke mir neues Leben nach deiner Verheißung!",
+      "citation": "Psalmen 119:154 (Menge)"
+    },
+    {
+      "verse": 155,
+      "text": "Den Gottlosen bleibt die Hilfe fern, denn sie kümmern sich nicht um deine Satzungen.",
+      "citation": "Psalmen 119:155 (Menge)"
+    },
+    {
+      "verse": 156,
+      "text": "Deine Barmherzigkeit ist groß, o HERR: nach deinen Rechten belebe mich wieder!",
+      "citation": "Psalmen 119:156 (Menge)"
+    },
+    {
+      "verse": 157,
+      "text": "Groß ist meiner Verfolger und Gegner Zahl, doch von deinen Zeugnissen geh’ ich nicht ab.",
+      "citation": "Psalmen 119:157 (Menge)"
+    },
+    {
+      "verse": 158,
+      "text": "Wenn ich Treulose sehe, so fühle ich Abscheu, weil sie dein Wort nicht befolgen.",
+      "citation": "Psalmen 119:158 (Menge)"
+    },
+    {
+      "verse": 159,
+      "text": "Sieh her, ich liebe deine Befehle: HERR, schenke mir neues Leben nach deiner Gnade!",
+      "citation": "Psalmen 119:159 (Menge)"
+    },
+    {
+      "verse": 160,
+      "text": "Der ganze Inhalt deines Wortes ist Wahrheit, und ewig gilt jede Verordnung deiner Gerechtigkeit.",
+      "citation": "Psalmen 119:160 (Menge)"
+    },
+    {
+      "verse": 161,
+      "text": "Fürsten haben mich ohne Ursach’ verfolgt; doch nur vor deinen Worten erbebt mein Herz.",
+      "citation": "Psalmen 119:161 (Menge)"
+    },
+    {
+      "verse": 162,
+      "text": "Ich freue mich über dein Wort wie einer, der große Beute gewinnt.",
+      "citation": "Psalmen 119:162 (Menge)"
+    },
+    {
+      "verse": 163,
+      "text": "Lügen hasse und verabscheue ich, aber dein Gesetz ist mir lieb.",
+      "citation": "Psalmen 119:163 (Menge)"
+    },
+    {
+      "verse": 164,
+      "text": "Siebenmal täglich preise ich dich um der Verordnungen deiner Gerechtigkeit willen.",
+      "citation": "Psalmen 119:164 (Menge)"
+    },
+    {
+      "verse": 165,
+      "text": "Frieden in Fülle erlangen die Freunde deines Gesetzes, denn es gibt für sie kein Straucheln.",
+      "citation": "Psalmen 119:165 (Menge)"
+    },
+    {
+      "verse": 166,
+      "text": "Ich hoffe auf deine Rettung, o HERR, denn ich habe deine Gebote gehalten.",
+      "citation": "Psalmen 119:166 (Menge)"
+    },
+    {
+      "verse": 167,
+      "text": "Mein Herz befolgt deine Zeugnisse, und ich habe sie aufrichtig lieb.",
+      "citation": "Psalmen 119:167 (Menge)"
+    },
+    {
+      "verse": 168,
+      "text": "Ich befolge deine Befehle und Zeugnisse; denn alle meine Wege sind dir bekannt.",
+      "citation": "Psalmen 119:168 (Menge)"
+    },
+    {
+      "verse": 169,
+      "text": "Laß mein lautes Flehen zu dir dringen, o HERR; verleih mir Verständnis für dein Wort!",
+      "citation": "Psalmen 119:169 (Menge)"
+    },
+    {
+      "verse": 170,
+      "text": "Laß mein Beten vor dich kommen: errette mich nach deiner Verheißung!",
+      "citation": "Psalmen 119:170 (Menge)"
+    },
+    {
+      "verse": 171,
+      "text": "Meine Lippen sollen Lobpreis sprudeln lassen, weil du mich deine Satzungen lehrst.",
+      "citation": "Psalmen 119:171 (Menge)"
+    },
+    {
+      "verse": 172,
+      "text": "Meine Zunge soll von deinem Worte singen; denn alle deine Gebote sind gerecht.",
+      "citation": "Psalmen 119:172 (Menge)"
+    },
+    {
+      "verse": 173,
+      "text": "Laß deine Hand bereit sein, mir zu helfen, denn deine Befehle hab’ ich (zu Führern) erwählt.",
+      "citation": "Psalmen 119:173 (Menge)"
+    },
+    {
+      "verse": 174,
+      "text": "Ich sehne mich nach deiner Hilfe, o HERR, und dein Gesetz ist meine Freude.",
+      "citation": "Psalmen 119:174 (Menge)"
+    },
+    {
+      "verse": 175,
+      "text": "Laß meine Seele leben, daß sie dich preise, und deine Rechte mögen mir helfen!",
+      "citation": "Psalmen 119:175 (Menge)"
+    },
+    {
+      "verse": 176,
+      "text": "Geh ich irre wie ein verlorenes Schaf, so suche deinen Knecht! Denn deine Gebote habe ich nicht vergessen.",
+      "citation": "Psalmen 119:176 (Menge)"
+    }
+  ]
+}

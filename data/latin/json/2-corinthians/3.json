@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Corinthians, Chapter 3 — 18 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 54,
+      "totalChapters": 13
+    },
+    "chapter": 3,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-corinthians/2.json",
+      "nextChapter": "https://latinprayer.org/latin/2-corinthians/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-corinthians/3.json",
+      "german": "https://latinprayer.org/bibel/2-corinthians/3.json"
+    }
+  },
+  "citation": "2 Corinthians 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "incipimus iterum nosmet ipsos commendare aut numquid egemus sicut quidam commendaticiis epistulis ad vos aut ex vobis",
+      "citation": "2 Corinthians 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "epistula nostra vos estis scripta in cordibus nostris quae scitur et legitur ab omnibus hominibus",
+      "citation": "2 Corinthians 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "manifestati quoniam epistula estis Christi ministrata a nobis et scripta non atramento sed Spiritu Dei vivi non in tabulis lapideis sed in tabulis cordis carnalibus",
+      "citation": "2 Corinthians 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "fiduciam autem talem habemus per Christum ad Deum",
+      "citation": "2 Corinthians 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "non quod sufficientes simus cogitare aliquid a nobis quasi ex nobis sed sufficientia nostra ex Deo est",
+      "citation": "2 Corinthians 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "qui et idoneos nos fecit ministros novi testamenti non litterae sed Spiritus littera enim occidit Spiritus autem vivificat",
+      "citation": "2 Corinthians 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quod si ministratio mortis litteris deformata in lapidibus fuit in gloria ita ut non possent intendere filii Israhel in faciem Mosi propter gloriam vultus eius quae evacuatur",
+      "citation": "2 Corinthians 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quomodo non magis ministratio Spiritus erit in gloria",
+      "citation": "2 Corinthians 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "nam si ministratio damnationis gloria est multo magis abundat ministerium iustitiae in gloria",
+      "citation": "2 Corinthians 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "nam nec glorificatum est quod claruit in hac parte propter excellentem gloriam",
+      "citation": "2 Corinthians 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "si enim quod evacuatur per gloriam est multo magis quod manet in gloria est",
+      "citation": "2 Corinthians 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "habentes igitur talem spem multa fiducia utimur",
+      "citation": "2 Corinthians 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et non sicut Moses ponebat velamen super faciem suam ut non intenderent filii Israhel in faciem eius quod evacuatur",
+      "citation": "2 Corinthians 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sed obtusi sunt sensus eorum usque in hodiernum enim diem id ipsum velamen in lectione veteris testamenti manet non revelatum quoniam in Christo evacuatur",
+      "citation": "2 Corinthians 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "sed usque in hodiernum diem cum legitur Moses velamen est positum super cor eorum",
+      "citation": "2 Corinthians 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "cum autem conversus fuerit ad Deum aufertur velamen",
+      "citation": "2 Corinthians 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Dominus autem Spiritus est ubi autem Spiritus Domini ibi libertas",
+      "citation": "2 Corinthians 3:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "nos vero omnes revelata facie gloriam Domini speculantes in eandem imaginem transformamur a claritate in claritatem tamquam a Domini Spiritu",
+      "citation": "2 Corinthians 3:18 (Clementine Vulgate)"
+    }
+  ]
+}

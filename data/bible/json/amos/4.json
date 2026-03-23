@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Amos, Chapter 4 — 13 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Amos",
+      "slug": "amos",
+      "testament": "OT",
+      "order": 35,
+      "totalChapters": 9
+    },
+    "chapter": 4,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/amos/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/amos/3.json",
+      "nextChapter": "https://latinprayer.org/bible/amos/5.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/amos/4.json",
+      "german": "https://latinprayer.org/bibel/amos/4.json"
+    }
+  },
+  "citation": "Amos 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Hear this word, ye fat kine that are in the mountains of Samaria: you that oppress the needy, and crush the poor: that say to your masters: Bring, and we will drink.",
+      "citation": "Amos 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "The Lord God hath sworn by his holiness, that lo, the days shall come upon you, when they shall lift you up on pikes, and what shall remain of you in boiling pots.",
+      "citation": "Amos 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And you shall go out at the breaches one over against the other, and you shall be cast forth into Armon, saith the Lord.",
+      "citation": "Amos 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Come ye to Bethel, and do wickedly: to Galgal, and multiply transgressions: and bring in the morning your victims, your tithes in three days.",
+      "citation": "Amos 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And offer a sacrifice of praise with leaven: and call free offerings, and proclaim it: for so you would do, O children of Israel, saith the Lord God.",
+      "citation": "Amos 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Whereupon I also have given you dulness of teeth in all your cities, and want of bread in all your places: yet you have not returned to me, saith the Lord.",
+      "citation": "Amos 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "I also have withholden the rain from you, when there were yet three months to the harvest: and I caused it to rain upon on city, and caused it not to rain upon another city: one piece was rained upon: and the piece whereupon I rained not, withered.",
+      "citation": "Amos 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And two and three cities went to one city to drink water, and were not filled: yet you returned not to me, saith the Lord.",
+      "citation": "Amos 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "I struck you with a burning wind, and with mildew, the palmerworm hath eaten up your many gardens, and your vineyards: your olive groves, and fig groves: yet you returned not to me, saith the Lord.",
+      "citation": "Amos 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "I sent death upon you in the way of Egypt, I slew your young men with the sword, even to the captivity of your horses: and I made the stench of your camp to come up into your nostrils: yet you returned not to me, saith the Lord.",
+      "citation": "Amos 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "I destroyed some of you, as God destroyed Sodom and Gomorrha, and you were as a firebrand plucked out of the burning: yet you returned not to me, saith the Lord.",
+      "citation": "Amos 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Therefore I will do these things to thee, O Israel: and after I shall have done these things to thee, be prepared to meet thy God, O Israel.",
+      "citation": "Amos 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For behold he that formeth the mountains and createth the wind, and declareth his word to man, he that maketh the morning mist, and walketh upon the high places of the earth: the Lord the God of hosts is his name.",
+      "citation": "Amos 4:13 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numeri, Chapter 5 — 31 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numeri",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 5,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/numbers/4.json",
+      "nextChapter": "https://latinprayer.org/bibel/numbers/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/5.json",
+      "latin": "https://latinprayer.org/latin/numbers/5.json"
+    }
+  },
+  "citation": "Numeri 5 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Weiter gebot der HERR dem Mose folgendes:",
+      "citation": "Numeri 5:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Befiehl den Israeliten, daß sie alle Aussätzigen und alle mit einem Ausfluß Behafteten sowie alle, die sich an einer Leiche verunreinigt haben, aus dem Lager entfernen;",
+      "citation": "Numeri 5:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "sowohl Männer als Weiber sollt ihr hinausschaffen, vor das Lager hinaus sollt ihr sie schaffen, damit sie ihre Lager nicht verunreinigen, da doch ich in deren Mitte wohne.«",
+      "citation": "Numeri 5:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Da taten die Israeliten so und schafften sie vor das Lager hinaus; wie der HERR dem Mose geboten hatte, so taten die Israeliten.",
+      "citation": "Numeri 5:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Weiter gebot der HERR dem Mose folgendes:",
+      "citation": "Numeri 5:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "»Teile den Israeliten folgende Verordnungen mit: Wenn ein Mann oder ein Weib irgendeine von den mannigfachen Sünden begeht, wie Menschen sie zu begehen pflegen, so daß sie eine Veruntreuung gegen den HERRN verüben und der Betreffende dadurch eine Verschuldung auf sich lädt,",
+      "citation": "Numeri 5:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "so sollen sie die Sünde, die sie begangen haben, bekennen, und der Betreffende soll das von ihm Veruntreute nach seinem vollen Wert zurückerstatten und noch ein Fünftel des Betrags hinzufügen und es dem geben, an dem er sich verschuldet hat.",
+      "citation": "Numeri 5:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Wenn dieser Mann aber keinen nächsten Verwandten hat, dem der Ersatz geleistet werden könnte, so soll die Buße, die dem HERRN zu erstatten ist, dem Priester gehören, abgesehen von dem Sühnewidder, mittels dessen man ihm Sühne erwirkt.",
+      "citation": "Numeri 5:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ebenso soll jede Hebe von allen heiligen Gaben, welche die Israeliten dem Priester bringen, diesem gehören.",
+      "citation": "Numeri 5:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Ihm sollen also die heiligen Gaben eines jeden gehören: was irgend jemand dem Priester gibt, soll diesem gehören.«",
+      "citation": "Numeri 5:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Weiter gebot der HERR dem Mose folgendes:",
+      "citation": "Numeri 5:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "»Teile den Israeliten folgende Verordnungen mit: Wenn jemandes Ehefrau sich vergeht und ihrem Manne untreu wird,",
+      "citation": "Numeri 5:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "so daß ein anderer fleischlichen Umgang mit ihr hat, ohne daß jedoch ihr Mann etwas davon weiß, und ihr tatsächlicher Ehebruch unentdeckt geblieben ist, auch kein Zeuge gegen sie da ist, weil man sie bei der Tat nicht ertappt hat,",
+      "citation": "Numeri 5:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "es kommt nun aber der Geist der Eifersucht über den Mann, so daß er auf seine Frau, die sich wirklich vergangen hat, eifersüchtig wird – oder auch es kommt der Geist der Eifersucht über den Mann, so daß er auf seine Frau eifersüchtig wird, ohne daß sie sich tatsächlich vergangen hat –:",
+      "citation": "Numeri 5:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "so soll der Mann seine Frau zum Priester bringen und zugleich die ihrethalben erforderliche Opfergabe mitbringen, nämlich ein Zehntel Epha Gerstenmehl; doch darf er kein Öl darübergießen und keinen Weihrauch darauftun, denn es ist ein Speisopfer der Eifersucht, ein Speisopfer der Offenbarung, das eine Verschuldung offenbar machen soll.",
+      "citation": "Numeri 5:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Hierauf soll der Priester sie herantreten lassen und sie vor den HERRN stellen.",
+      "citation": "Numeri 5:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Dann nehme der Priester heiliges Wasser in einem irdenen Gefäß; weiter nehme der Priester etwas von dem Staube, der auf dem Fußboden der Wohnung liegt, und tue es in das Wasser.",
+      "citation": "Numeri 5:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Dann lasse der Priester die Frau vor den HERRN treten, löse ihr das Haupthaar auf und gebe ihr das Offenbarungs-Speisopfer auf die Hände – es ist ein Speisopfer der Eifersucht –; aber das fluchbringende Wasser des bitteren Wehs behalte der Priester in der Hand.",
+      "citation": "Numeri 5:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Sodann beschwöre sie der Priester und sage zu der Frau: ›Wenn kein (fremder) Mann dir beigewohnt hat und du, die du deinem Gatten angehörst, dich nicht vergangen und verunreinigt hast, so sollst du durch dieses fluchbringende Wasser des bitteren Wehs unversehrt bleiben!",
+      "citation": "Numeri 5:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Wenn du dich aber, obgleich du deinem Gatten angehörst, vergangen und verunreinigt hast, so daß ein Mann außer deinem Gatten dir beigewohnt hat‹ –",
+      "citation": "Numeri 5:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "es beschwöre also der Priester die Frau mit feierlicher Verfluchung und spreche so zu der Frau –, ›so mache der HERR dich zum abschreckenden Beispiel einer feierlichen Verfluchung inmitten deines Volkes, indem der HERR deine Hüften schwinden macht und deinen Leib anschwellen läßt;",
+      "citation": "Numeri 5:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "und es möge dieses fluchbringende Wasser in deine Eingeweide dringen, so daß dein Leib anschwillt und deine Hüften schwinden!‹ Die Frau aber soll sagen: ›Ja, so geschehe es! Amen!‹",
+      "citation": "Numeri 5:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Dann schreibe der Priester diese Verfluchungen auf ein Blatt und wasche die Schrift wieder ab in das Wasser des bitteren Wehs hinein.",
+      "citation": "Numeri 5:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Hierauf gebe er der Frau das fluchbringende Wasser des bitteren Wehs zu trinken, damit das fluchbringende Wasser in sie eindringe zu bitterem Weh.",
+      "citation": "Numeri 5:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Dann nehme der Priester der Frau das Eifersuchts-Speisopfer aus der Hand, webe das Speisopfer von dem HERRN und bringe es hin zum Altar;",
+      "citation": "Numeri 5:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "dort nehme der Priester von dem Speisopfer eine Handvoll, nämlich den zum Duftopfer bestimmten Teil, und lasse es auf dem Altar in Rauch aufgehen; danach gebe er der Frau das Wasser zu trinken.",
+      "citation": "Numeri 5:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Hat er sie nun das Wasser trinken lassen, so wird, falls sie sich vergangen hat und ihrem Mann untreu gewesen ist, das fluchbringende Wasser zu bitterem Weh in sie eindringen: ihr Leib wird anschwellen, und ihre Hüften werden schwinden, und die Frau wird zum abschreckenden Beispiel einer Verfluchung inmitten ihres Volkes werden.",
+      "citation": "Numeri 5:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Wenn aber die Frau sich nicht verunreinigt hat, sondern schuldlos ist, so wird sie unversehrt bleiben und kann wieder Mutter von Kindern werden.«",
+      "citation": "Numeri 5:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Dies ist die Verordnung bezüglich der Eifersucht: Wenn eine Frau, die einem Ehemann angehört, sich vergeht und sich verunreinigt,",
+      "citation": "Numeri 5:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "oder auch wenn über einen Mann der Geist der Eifersucht kommt, so daß er auf seine Frau eifersüchtig wird, so soll er die Frau vor den HERRN treten lassen, und der Priester soll genau nach dieser Verordnung mit ihr verfahren.",
+      "citation": "Numeri 5:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Der Mann soll dabei außer Schuld bleiben, eine solche Frau aber muß ihre Schuld büßen.",
+      "citation": "Numeri 5:31 (Menge)"
+    }
+  ]
+}

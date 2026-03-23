@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 32 — 11 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 32,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/31.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/33.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/32.json",
+      "german": "https://latinprayer.org/bibel/psalms/32.json"
+    }
+  },
+  "citation": "Psalms 32 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "To David himself, understanding. Blessed are they whose iniquities are forgiven, and whose sins are covered.",
+      "citation": "Psalms 32:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Blessed is the man to whom the Lord hath not imputed sin, and in whose spirit there is no guile.",
+      "citation": "Psalms 32:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Because I was silent my bones grew old; whilst I cried out all the day long.",
+      "citation": "Psalms 32:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For day and night thy hand was heavy upon me: I am turned in my anguish, whilst the thorn is fastened.",
+      "citation": "Psalms 32:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "I have acknowledged my sin to thee, and my injustice I have not concealed. I said I will confess against my self my injustice to the Lord: and thou hast forgiven the wickedness of my sin.",
+      "citation": "Psalms 32:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For this shall every one that is holy pray to thee in a seasonable time. And yet in a flood of many waters, they shall not come nigh unto him.",
+      "citation": "Psalms 32:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Thou art my refuge from the trouble which hath encompassed me: my joy, deliver me from them that surround me.",
+      "citation": "Psalms 32:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "I will give thee understanding, and I will instruct thee in this way, in which thou shalt go: I will fix my eyes upon thee.",
+      "citation": "Psalms 32:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Do not become like the horse and the mule, who have no understanding. With bit and bridle bind fast their jaws, who come not near unto thee.",
+      "citation": "Psalms 32:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Many are the scourges of the sinner, but mercy shall encompass him that hopeth in the Lord.",
+      "citation": "Psalms 32:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Be glad in the Lord, and rejoice, ye just, and glory, all ye right of heart.",
+      "citation": "Psalms 32:11 (Douay-Rheims)"
+    }
+  ]
+}

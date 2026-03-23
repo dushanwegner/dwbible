@@ -1,0 +1,381 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Deuteronomy, Chapter 28 — 69 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Deuteronomy",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "totalChapters": 34
+    },
+    "chapter": 28,
+    "verseCount": 69,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/deuteronomy/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/deuteronomy/27.json",
+      "nextChapter": "https://latinprayer.org/bible/deuteronomy/29.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/deuteronomy/28.json",
+      "german": "https://latinprayer.org/bibel/deuteronomy/28.json"
+    }
+  },
+  "citation": "Deuteronomy 28 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now if thou wilt hear the voice of all his commandments, which I command thee this day, the Lord thy God will make thee higher than all the nations that are on the earth.",
+      "citation": "Deuteronomy 28:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And all these blessings shall come upon thee and overtake thee: yet so if thou hear his precepts.",
+      "citation": "Deuteronomy 28:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Blessed shalt thou be in the city, and blessed in the field.",
+      "citation": "Deuteronomy 28:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Blessed shall be the fruit of thy womb, and the fruit of thy ground, and the fruit of thy cattle, the droves of thy herds, and the folds of thy sheep.",
+      "citation": "Deuteronomy 28:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Blessed shall be thy barns and blessed thy stores.",
+      "citation": "Deuteronomy 28:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Blessed shalt thou be coming in and going out.",
+      "citation": "Deuteronomy 28:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The Lord shall cause thy enemies, that rise up against thee, to fall down before thy face: one way shall they come out against thee, and seven ways shall they flee before thee.",
+      "citation": "Deuteronomy 28:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The Lord will send forth a blessing upon thy storehouses, and upon all the works of thy hands: and will bless thee in the land that thou shalt receive.",
+      "citation": "Deuteronomy 28:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "The Lord will raise thee up to be a holy people to himself, as he swore to thee: if thou keep the commandments of the Lord thy God, and walk in his ways.",
+      "citation": "Deuteronomy 28:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And all the people of the earth shall see that the name of the Lord is invocated upon thee, and they shall fear thee.",
+      "citation": "Deuteronomy 28:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The Lord will make thee abound with all goods, with the fruit of thy womb, and the fruit of thy cattle, with the fruit of thy land, which the Lord swore to thy fathers that he would give thee.",
+      "citation": "Deuteronomy 28:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The Lord will open his excellent treasure, the heaven, that it may give rain in due season: and he will bless all the works of thy hands. And thou shalt lend to many nations, and shalt not borrow of any one.",
+      "citation": "Deuteronomy 28:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And the Lord shall make thee the head and not the tail: and thou shalt be always above, and not beneath: yet so if thou wilt hear the commandments of the Lord thy God which I command thee this day, and keep and do them,",
+      "citation": "Deuteronomy 28:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And turn not away from them neither to the right hand, nor to the left, nor follow strange gods, nor worship them.",
+      "citation": "Deuteronomy 28:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "But if thou wilt not hear the voice of the Lord thy God, to keep and to do all his commandments and ceremonies, which I command thee this day, all these curses shall come upon thee, and overtake thee.",
+      "citation": "Deuteronomy 28:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Cursed shalt thou be in the city, cursed in the field.",
+      "citation": "Deuteronomy 28:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Cursed shall be thy barn, and cursed thy stores.",
+      "citation": "Deuteronomy 28:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Cursed shall be the fruit of thy womb, and the fruit of thy ground, the herds of thy oxen, and the flocks of thy sheep.",
+      "citation": "Deuteronomy 28:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "Cursed shalt thou be coming in, and cursed going out.",
+      "citation": "Deuteronomy 28:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "The Lord shall send upon thee famine and hunger, and a rebuke upon all the works which thou shalt do: until he consume and destroy thee quickly, for thy most wicked inventions, by which thou hast forsaken me.",
+      "citation": "Deuteronomy 28:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "May the Lord set the pestilence upon thee, until he consume thee out of the land, which thou shalt go in to possess.",
+      "citation": "Deuteronomy 28:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "May the Lord afflict thee with miserable want, with the fever and with cold, with burning and with heat, and with corrupted air and with blasting, and pursue thee till thou perish.",
+      "citation": "Deuteronomy 28:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Be the heaven, that is over thee, of brass: and the ground thou treadest on, of iron.",
+      "citation": "Deuteronomy 28:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "The Lord give thee dust for rain upon thy land, and let ashes come down from heaven upon thee, till thou be consumed.",
+      "citation": "Deuteronomy 28:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "The Lord make thee to fall down before thy enemies, one way mayst thou go out against them, and flee seven ways, and be scattered throughout all the kingdoms of the earth.",
+      "citation": "Deuteronomy 28:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And be thy carcass meat for all the fowls of the air, and the beasts of the earth, and be there none to drive them away.",
+      "citation": "Deuteronomy 28:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "The Lord strike thee with the ulcer of Egypt, and the part of thy body, by which the dung is cast out, with the scab and with the itch: so that thou canst not be healed.",
+      "citation": "Deuteronomy 28:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "The Lord strike thee with madness and blindness and fury of mind.",
+      "citation": "Deuteronomy 28:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And mayst thou grope at midday as the blind is wont to grope in the dark, and not make straight thy ways. And mayst thou at all times suffer wrong, and be oppressed with violence, and mayst thou have no one to deliver thee.",
+      "citation": "Deuteronomy 28:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "Mayst thou take a wife, and another sleep with her. Mayst thou build a house, and not dwell therein. Mayest thou plant a vineyard and not gather the vintage thereof.",
+      "citation": "Deuteronomy 28:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "May thy ox be slain before thee, and thou not eat thereof. May thy ass be taken away in thy sight, and not restored to thee. May thy sheep be given to thy enemies, and may there be none to help thee.",
+      "citation": "Deuteronomy 28:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "May thy sons and thy daughters be given to another people, thy eyes looking on, and languishing at the sight of them all the day, and may there be no strength in thy hand.",
+      "citation": "Deuteronomy 28:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "May a people which thou knowest not, eat the fruits of thy land, and all thy labours: and mayst thou always suffer oppression, and be crushed at all times.",
+      "citation": "Deuteronomy 28:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "And be astonished at the terror of those things which thy eyes shall see:",
+      "citation": "Deuteronomy 28:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "May the Lord strike thee with a very sore ulcer in the knees and in the legs, and be thou incurable from the sole of the foot to the top of the head.",
+      "citation": "Deuteronomy 28:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "The Lord shall bring thee, and thy king, whom thou shalt have appointed over thee, into a nation which thou and thy fathers know not: and there thou shalt serve strange gods, wood and stone.",
+      "citation": "Deuteronomy 28:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And thou shalt be lost, as a proverb and a byword to all people, among whom the Lord shall bring thee in.",
+      "citation": "Deuteronomy 28:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "Thou shalt cast much seed into the ground, and gather little: because the locusts shall consume all.",
+      "citation": "Deuteronomy 28:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "Thou shalt plant a vineyard, and dig it, and shalt not drink the wine, nor gather any thing thereof: because it shall be wasted with worms.",
+      "citation": "Deuteronomy 28:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Thou shalt have olive trees in all thy borders, and shalt not be anointed with the oil: for the olives shall fall off and perish.",
+      "citation": "Deuteronomy 28:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "Thou shalt beget sons and daughters, and shalt not enjoy them: because they shall be led into captivity.",
+      "citation": "Deuteronomy 28:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "The blast shall consume all the trees and the fruits of thy ground.",
+      "citation": "Deuteronomy 28:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "The stranger that liveth with thee in the land, shall rise up over thee, and shall be higher: and thou shalt go down, and be lower.",
+      "citation": "Deuteronomy 28:43 (Douay-Rheims)"
+    },
+    {
+      "verse": 44,
+      "text": "He shall lend to thee, and thou shalt not lend to him. He shall be as the head, and thou shalt be the tail.",
+      "citation": "Deuteronomy 28:44 (Douay-Rheims)"
+    },
+    {
+      "verse": 45,
+      "text": "And all these curses shall come upon thee, and shall pursue and overtake thee, till thou perish: because thou heardst not the voice of the Lord thy God, and didst not keep his commandments and ceremonies which he commanded thee.",
+      "citation": "Deuteronomy 28:45 (Douay-Rheims)"
+    },
+    {
+      "verse": 46,
+      "text": "And they shall be as signs and wonders on thee, and on thy seed for ever.",
+      "citation": "Deuteronomy 28:46 (Douay-Rheims)"
+    },
+    {
+      "verse": 47,
+      "text": "Because thou didst not serve the Lord thy God with joy and gladness of heart, for the abundance of all things:",
+      "citation": "Deuteronomy 28:47 (Douay-Rheims)"
+    },
+    {
+      "verse": 48,
+      "text": "Thou shalt serve thy enemy, whom the Lord will send upon thee, in hunger, and thirst, and nakedness, and in want of all things: and he shall put an iron yoke upon thy neck, till he consume thee.",
+      "citation": "Deuteronomy 28:48 (Douay-Rheims)"
+    },
+    {
+      "verse": 49,
+      "text": "The Lord will bring upon thee a nation from afar, and from the uttermost ends of the earth, like an eagle that flyeth swiftly, whose tongue thou canst not understand,",
+      "citation": "Deuteronomy 28:49 (Douay-Rheims)"
+    },
+    {
+      "verse": 50,
+      "text": "A most insolent nation, that will shew no regard to the ancients, nor have pity on the infant,",
+      "citation": "Deuteronomy 28:50 (Douay-Rheims)"
+    },
+    {
+      "verse": 51,
+      "text": "And will devour the fruit of thy cattle, and the fruits of thy land: until thou be destroyed, and will leave thee no wheat, nor wine, nor oil, nor herds of oxen, nor flocks of sheep: until he destroy thee.",
+      "citation": "Deuteronomy 28:51 (Douay-Rheims)"
+    },
+    {
+      "verse": 52,
+      "text": "And consume thee in all thy cities, and thy strong and high wall be brought down, wherein thou trustedst in all thy land. Thou shalt be besieged within thy gates in all thy land which the Lord thy God will give thee:",
+      "citation": "Deuteronomy 28:52 (Douay-Rheims)"
+    },
+    {
+      "verse": 53,
+      "text": "And thou shalt eat the fruit of thy womb, and the flesh of thy sons and of thy daughters, which the Lord thy God shall give thee, in the distress and extremity wherewith thy enemy shall oppress thee.",
+      "citation": "Deuteronomy 28:53 (Douay-Rheims)"
+    },
+    {
+      "verse": 54,
+      "text": "The man that is nice among you, and very delicate, shall envy his own brother, and his wife, that lieth in his bosom,",
+      "citation": "Deuteronomy 28:54 (Douay-Rheims)"
+    },
+    {
+      "verse": 55,
+      "text": "So that he will not give them of the flesh of his children, which he shall eat: because he hath nothing else in the siege and the want, wherewith thy enemies shall distress thee within all thy gates.",
+      "citation": "Deuteronomy 28:55 (Douay-Rheims)"
+    },
+    {
+      "verse": 56,
+      "text": "The tender and delicate woman, that could not go upon the ground, nor set down her foot for over much niceness and tenderness, will envy her husband who lieth in her bosom, the flesh of her son, and of her daughter,",
+      "citation": "Deuteronomy 28:56 (Douay-Rheims)"
+    },
+    {
+      "verse": 57,
+      "text": "And the filth of the afterbirths, that come forth from between her thighs, and the children that are born the same hour. For they shall eat them secretly for the want of all things, in the siege and distress, wherewith thy enemy shall oppress thee within thy gates.",
+      "citation": "Deuteronomy 28:57 (Douay-Rheims)"
+    },
+    {
+      "verse": 58,
+      "text": "If thou wilt not keep, and fulfil all the words of this law, that are written in this volume, and fear his glorious and terrible name: that is, The Lord thy God:",
+      "citation": "Deuteronomy 28:58 (Douay-Rheims)"
+    },
+    {
+      "verse": 59,
+      "text": "The Lord shall increase thy plagues, and the plagues of thy seed, plagues great and lasting, infirmities grievous and perpetual.",
+      "citation": "Deuteronomy 28:59 (Douay-Rheims)"
+    },
+    {
+      "verse": 60,
+      "text": "And he shall bring back on thee all the afflictions of Egypt, which thou wast afraid of, and they shall stick fast to thee.",
+      "citation": "Deuteronomy 28:60 (Douay-Rheims)"
+    },
+    {
+      "verse": 61,
+      "text": "Moreover the Lord will bring upon thee all the diseases, and plagues, that are not written in the volume of this law till he consume thee:",
+      "citation": "Deuteronomy 28:61 (Douay-Rheims)"
+    },
+    {
+      "verse": 62,
+      "text": "And you shall remain few in number, who before were as the stars of heaven for multitude, because thou heardst not the voice of the Lord thy God.",
+      "citation": "Deuteronomy 28:62 (Douay-Rheims)"
+    },
+    {
+      "verse": 63,
+      "text": "And as the Lord rejoiced upon you before doing good to you, and multiplying you: so he shall rejoice destroying and bringing you to nought, so that you shall be taken away from the land which thou shalt go in to possess.",
+      "citation": "Deuteronomy 28:63 (Douay-Rheims)"
+    },
+    {
+      "verse": 64,
+      "text": "The Lord shall scatter thee among all people, from the farthest parts of the earth to the ends thereof: and there thou shalt serve strange gods, which both thou art ignorant of and thy fathers, wood and stone.",
+      "citation": "Deuteronomy 28:64 (Douay-Rheims)"
+    },
+    {
+      "verse": 65,
+      "text": "Neither shalt thou be quiet, even in those nations, nor shall there be any rest for the sole of thy foot. For the Lord will give thee a fearful heart, and languishing eyes, and a soul consumed with pensiveness:",
+      "citation": "Deuteronomy 28:65 (Douay-Rheims)"
+    },
+    {
+      "verse": 66,
+      "text": "And thy life shall be as it were hanging before thee. Thou shalt fear night and day, neither shalt thou trust thy life.",
+      "citation": "Deuteronomy 28:66 (Douay-Rheims)"
+    },
+    {
+      "verse": 67,
+      "text": "In the morning thou shalt say: Who will grant me evening? and at evening: Who will grant me morning? for the fearfulness of thy heart, wherewith thou shalt be terrified, and for those things which thou shalt see with thy eyes.",
+      "citation": "Deuteronomy 28:67 (Douay-Rheims)"
+    },
+    {
+      "verse": 68,
+      "text": "The Lord shall bring thee again with ships into Egypt, by the way whereof he said to thee that thou shouldst see it no more. There shalt thou be set to sale to thy enemies for bondmen and bondwomen, and no man shall buy you.",
+      "citation": "Deuteronomy 28:68 (Douay-Rheims)"
+    },
+    {
+      "verse": 69,
+      "text": "These are the words of the covenant which the Lord commanded Moses to make with the children of Israel in the land of Moab: beside that covenant which he made with them in Horeb.",
+      "citation": "Deuteronomy 28:69 (Douay-Rheims)"
+    }
+  ]
+}

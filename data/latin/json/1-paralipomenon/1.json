@@ -1,0 +1,306 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Chronicles, Chapter 1 — 54 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Chronicles",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 1,
+    "verseCount": 54,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/1-paralipomenon/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-paralipomenon/1.json",
+      "german": "https://latinprayer.org/bibel/1-paralipomenon/1.json"
+    }
+  },
+  "citation": "1 Chronicles 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Adam Seth Enos",
+      "citation": "1 Chronicles 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Cainan Malelehel Iared",
+      "citation": "1 Chronicles 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "Enoch Matusale Lamech",
+      "citation": "1 Chronicles 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Noe Sem Ham et Iafeth",
+      "citation": "1 Chronicles 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "filii Iafeth Gomer Magog Madai et Iavan Thubal Mosoch Thiras",
+      "citation": "1 Chronicles 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "porro filii Gomer Aschenez et Rifath et Thogorma",
+      "citation": "1 Chronicles 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "filii autem Iavan Elisa et Tharsis Cetthim et Dodanim",
+      "citation": "1 Chronicles 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "filii Ham Chus et Mesraim Phut et Chanaan",
+      "citation": "1 Chronicles 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "filii autem Chus Saba et Evila Sabatha et Rechma et Sabathaca porro filii Rechma Saba et Dadan",
+      "citation": "1 Chronicles 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "Chus autem genuit Nemrod iste coepit esse potens in terra",
+      "citation": "1 Chronicles 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Mesraim vero genuit Ludim et Anamim et Laabim et Nepthuim",
+      "citation": "1 Chronicles 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Phethrosim quoque et Chasluim de quibus egressi sunt Philisthim et Capthurim",
+      "citation": "1 Chronicles 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "Chanaan vero genuit Sidonem primogenitum et Heth",
+      "citation": "1 Chronicles 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "Iebuseum quoque et Amorreum et Gergeseum",
+      "citation": "1 Chronicles 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "Evheumque et Aruceum et Asineum",
+      "citation": "1 Chronicles 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "Aradium quoque et Samareum et Ematheum",
+      "citation": "1 Chronicles 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "filii Sem Aelam et Assur et Arfaxad et Lud et Aram et Us et Hul et Gothor et Mosoch",
+      "citation": "1 Chronicles 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "Arfaxad autem genuit Sala qui et ipse genuit Heber",
+      "citation": "1 Chronicles 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "porro Heber nati sunt duo filii nomen uni Phaleg quia in diebus eius divisa est terra et nomen fratris eius Iectan",
+      "citation": "1 Chronicles 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "Iectan autem genuit Helmodad et Saleph et Asermoth et Iare",
+      "citation": "1 Chronicles 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "Aduram quoque et Uzal et Decla",
+      "citation": "1 Chronicles 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "Ebal etiam et Abimahel et Saba necnon",
+      "citation": "1 Chronicles 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et Ophir et Evila et Iobab omnes isti filii Iectan",
+      "citation": "1 Chronicles 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "Sem Arfaxad Sale",
+      "citation": "1 Chronicles 1:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "Heber Phaleg Raau",
+      "citation": "1 Chronicles 1:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "Serug Nahor Thare",
+      "citation": "1 Chronicles 1:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "Abram iste est Abraham",
+      "citation": "1 Chronicles 1:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "filii autem Abraham Isaac et Ismahel",
+      "citation": "1 Chronicles 1:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et hae generationes eorum primogenitus Ismahelis Nabaioth et Cedar et Adbeel et Mabsam",
+      "citation": "1 Chronicles 1:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "Masma et Duma Massa Adad et Thema",
+      "citation": "1 Chronicles 1:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "Iathur Naphis Cedma hii sunt filii Ismahelis",
+      "citation": "1 Chronicles 1:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "filii autem Cetthurae concubinae Abraham quos genuit Zamram Iecsan Madan Madian Iesboc Sue porro filii Iecsan Saba et Dadan",
+      "citation": "1 Chronicles 1:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "filii autem Madian Epha et Apher et Enoch et Abida et Eldaa omnes hii filii Cetthurae",
+      "citation": "1 Chronicles 1:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "generavit autem Abraham Isaac cuius fuerunt filii Esau et Israhel",
+      "citation": "1 Chronicles 1:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "filii Esau Eliphaz Rauhel Iaus Ialam Core",
+      "citation": "1 Chronicles 1:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "filii Eliphaz Theman Omer Sepphu Gethem Cenez Thamna Amalech",
+      "citation": "1 Chronicles 1:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "filii Rauhel Naath Zara Samma Maza",
+      "citation": "1 Chronicles 1:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "filii Seir Lothan Sobal Sebeon Ana Dison Eser Disan",
+      "citation": "1 Chronicles 1:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "filii Lothan Horri Humam soror autem Lothan fuit Thamna",
+      "citation": "1 Chronicles 1:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "filii Sobal Alian et Manaath et Ebal et Sepphi et Onam filii Sebeon Aia et Ana filii Ana Dison",
+      "citation": "1 Chronicles 1:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "filii Dison Amaran et Eseban et Iethran et Charan",
+      "citation": "1 Chronicles 1:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "filii Eser Balaan et Zaban et Iacan filii Dison Us et Aran",
+      "citation": "1 Chronicles 1:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "isti sunt reges qui imperaverunt in terra Edom antequam esset rex super filios Israhel Bale filius Beor et nomen civitatis eius Denaba",
+      "citation": "1 Chronicles 1:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "mortuus est autem Bale et regnavit pro eo Iobab filius Zare de Bosra",
+      "citation": "1 Chronicles 1:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "cumque et Iobab fuisset mortuus regnavit pro eo Husam de terra Themanorum",
+      "citation": "1 Chronicles 1:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "obiit quoque et Husam et regnavit pro eo Adad filius Badad qui percussit Madian in terra Moab et nomen civitatis eius Avith",
+      "citation": "1 Chronicles 1:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "cumque et Adad fuisset mortuus regnavit pro eo Semla de Masreca",
+      "citation": "1 Chronicles 1:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "sed et Semla mortuus est et regnavit pro eo Saul de Rooboth quae iuxta amnem sita est",
+      "citation": "1 Chronicles 1:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "mortuo quoque Saul regnavit pro eo Baalanan filius Achobor",
+      "citation": "1 Chronicles 1:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "sed et hic mortuus est et regnavit pro eo Adad cuius urbis fuit nomen Phou et appellata est uxor eius Mehetabel filia Matred filiae Mezaab",
+      "citation": "1 Chronicles 1:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "Adad autem mortuo duces pro regibus in Edom esse coeperunt dux Thamna dux Alva dux Ietheth",
+      "citation": "1 Chronicles 1:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "dux Oolibama dux Hela dux Phinon",
+      "citation": "1 Chronicles 1:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "dux Cenez dux Theman dux Mabsar",
+      "citation": "1 Chronicles 1:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "dux Magdihel dux Iram hii duces Edom",
+      "citation": "1 Chronicles 1:54 (Clementine Vulgate)"
+    }
+  ]
+}

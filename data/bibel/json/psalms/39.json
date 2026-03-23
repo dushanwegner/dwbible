@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 39 — 14 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 39,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/38.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/40.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/39.json",
+      "latin": "https://latinprayer.org/latin/psalms/39.json"
+    }
+  },
+  "citation": "Psalmen 39 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Dem Musikmeister Jeduthun; ein Psalm von David.</em>",
+      "citation": "Psalmen 39:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Ich dachte: »Achten will ich auf meine Wege, daß ich nicht sünd’ge mit meiner Zunge; ich will meinem Mund einen Zaum anlegen, solange noch der Frevler vor mir steht.«",
+      "citation": "Psalmen 39:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "So ward ich denn stumm, ganz stumm, mit Gewalt schweigsam; doch es wühlte mein Schmerz noch wilder.",
+      "citation": "Psalmen 39:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Das Herz ward mir heiß in der Brust, ob meinem Grübeln brannte ein Feuer in mir; da ließ ich meiner Zunge freien Lauf:",
+      "citation": "Psalmen 39:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "»HERR, laß mein Ende mich wissen und welches das Maß meiner Tage ist! Laß mich erkennen, wie vergänglich ich bin!",
+      "citation": "Psalmen 39:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ach, spannenlang hast du mir die Tage gemacht, und meines Lebens Dauer ist wie nichts vor dir: ja, nur als ein Hauch steht jeglicher Mensch da!« SELA.",
+      "citation": "Psalmen 39:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Fürwahr nur als Schattenbild wandelt der Mensch einher, nur um ein Nichts wird so viel Lärm gemacht; man häuft auf und weiß nicht, wer es einheimst.",
+      "citation": "Psalmen 39:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Und nun, o Allherr, wes soll ich harren? Meine Hoffnung geht auf dich (allein).",
+      "citation": "Psalmen 39:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Errette mich von allen meinen Sünden, zum Spott der Toren laß mich nicht werden!",
+      "citation": "Psalmen 39:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Ich schweige, tu meinen Mund nicht auf, denn du hast’s so gefügt.",
+      "citation": "Psalmen 39:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Nimm deine Plage weg von mir: unter dem Druck deiner Hand erlieg’ ich.",
+      "citation": "Psalmen 39:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Züchtigst du einen Menschen mit Strafen um der Sünde willen, so läßt du seine Schönheit vergehn wie die Motte: ach, nur ein Hauch ist jeglicher Mensch! SELA.",
+      "citation": "Psalmen 39:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Höre, o HERR, mein Gebet und vernimm mein Schreien, bleib’ nicht stumm bei meinen Tränen! Denn ein Gast (nur) bin ich bei dir, ein Beisaß wie all meine Väter.",
+      "citation": "Psalmen 39:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Blick weg von mir, daß mein Antlitz sich wieder erheitert, bevor ich dahinfahre und nicht mehr bin!",
+      "citation": "Psalmen 39:14 (Menge)"
+    }
+  ]
+}

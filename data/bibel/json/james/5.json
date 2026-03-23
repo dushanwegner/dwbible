@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jakobus, Chapter 5 — 20 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jakobus",
+      "slug": "james",
+      "testament": "NT",
+      "order": 66,
+      "totalChapters": 5
+    },
+    "chapter": 5,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/james/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/james/4.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/james/5.json",
+      "latin": "https://latinprayer.org/latin/james/5.json"
+    }
+  },
+  "citation": "Jakobus 5 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Weiter nun: Ihr Reichen, weinet und jammert über die Leiden, die euch bevorstehen!",
+      "citation": "Jakobus 5:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Euer Reichtum ist vermodert, und eure Gewänder sind ein Fraß für die Motten geworden,",
+      "citation": "Jakobus 5:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "euer Gold und Silber ist vom Rost angefressen, und ihr Rost wird ein Zeugnis für euch sein, und der Rost wird euer Fleisch fressen wie Feuer. Noch jetzt in der Endzeit habt ihr euch Schätze gesammelt!",
+      "citation": "Jakobus 5:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wisset wohl: Der Lohn, den ihr den Arbeitern, die eure Ernte eingebracht haben, vorenthalten habt, schreit (aus euren Häusern zum Himmel empor), und die Klagerufe eurer Schnitter sind zu den Ohren des Herrn der Heerscharen gedrungen.",
+      "citation": "Jakobus 5:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Ihr habt hier auf Erden geschwelgt und gepraßt, habt euch noch am Tage der Schlachtung nach Herzenslust gütlich getan.",
+      "citation": "Jakobus 5:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Ihr habt den Gerechten verurteilt, ihn gemordet; er leistet euch keinen Widerstand.",
+      "citation": "Jakobus 5:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "So harret denn standhaft aus, liebe Brüder, bis zur Ankunft des Herrn! Bedenket: Der Landmann wartet auf die köstliche Frucht der Erde und geduldet sich ihretwegen, bis sie den Früh- und Spätregen empfängt.",
+      "citation": "Jakobus 5:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "So haltet auch ihr geduldig aus und macht eure Herzen fest, denn die Ankunft des Herrn steht nahe bevor.",
+      "citation": "Jakobus 5:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Seufzt nicht gegeneinander, liebe Brüder, damit ihr nicht gerichtet werdet! Bedenkt wohl: Der Richter steht (schon) vor der Tür!",
+      "citation": "Jakobus 5:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Nehmt euch, liebe Brüder, für die Leiden und das geduldige Aushalten die Propheten zum Vorbild, die im Namen des Herrn geredet haben!",
+      "citation": "Jakobus 5:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Seht, wir preisen die selig, welche geduldig ausgeharrt haben. Vom standhaften Ausharren Hiobs habt ihr gehört und von dem Ausgang, den der Herr ihm bereitet hat; erkennet daraus, daß der Herr reich an Mitleid und voll Erbarmens ist.",
+      "citation": "Jakobus 5:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Vor allem aber, meine Brüder, schwöret nicht, weder beim Himmel noch bei der Erde noch sonst irgendeinen Eid; es sei vielmehr euer Ja ein Ja und euer Nein ein Nein, damit ihr nicht dem Gericht verfallt.",
+      "citation": "Jakobus 5:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Hat jemand unter euch zu leiden, so bete er; geht es jemandem gut, so singe er Loblieder.",
+      "citation": "Jakobus 5:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ist jemand unter euch krank, so lasse er die Ältesten der Gemeinde zu sich kommen; diese sollen dann über ihm beten, nachdem sie ihn im Namen des Herrn mit Öl gesalbt haben;",
+      "citation": "Jakobus 5:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "alsdann wird das gläubige Gebet den Kranken retten, und der Herr wird ihn aufrichten, und wenn er Sünden begangen hat, wird ihm Vergebung zuteil werden.",
+      "citation": "Jakobus 5:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Bekennet also einander die Sünden und betet füreinander, damit ihr Heilung erlangt; das Gebet eines Gerechten besitzt eine große Kraft, wenn es ernstlich ist.",
+      "citation": "Jakobus 5:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Elia war ein Mensch von gleicher Art wie wir und betete inständig, es möchte nicht regnen; da regnete es drei und ein halbes Jahr lang nicht im Lande.",
+      "citation": "Jakobus 5:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Er betete dann nochmals: da gab der Himmel wieder Regen, und die Erde ließ ihre Frucht sprossen.",
+      "citation": "Jakobus 5:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Meine Brüder, wenn jemand unter euch von der Wahrheit abgeirrt ist und einer ihn zur Umkehr bringt,",
+      "citation": "Jakobus 5:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "so soll er wissen: Wer einen Sünder von seinem Irrweg bekehrt, der wird damit seine Seele vom Tode retten und eine Menge von Sünden bedecken.",
+      "citation": "Jakobus 5:20 (Menge)"
+    }
+  ]
+}

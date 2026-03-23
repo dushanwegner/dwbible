@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 36 — 12 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 36,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/numbers/35.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/36.json",
+      "german": "https://latinprayer.org/bibel/numbers/36.json"
+    }
+  },
+  "citation": "Numbers 36 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "accesserunt autem et principes familiarum Galaad filii Machir filii Manasse de stirpe filiorum Ioseph locutique sunt Mosi coram principibus Israhel atque dixerunt",
+      "citation": "Numbers 36:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "tibi domino nostro praecepit Dominus ut terram sorte divideres filiis Israhel et ut filiabus Salphaad fratris nostri dares possessionem debitam patri",
+      "citation": "Numbers 36:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quas si alterius tribus homines uxores acceperint sequetur possessio sua et translata ad aliam tribum de nostra hereditate minuetur",
+      "citation": "Numbers 36:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "atque ita fiet ut cum iobeleus id est quinquagesimus annus remissionis advenerit confundatur sortium distributio et aliorum possessio ad alios transeat",
+      "citation": "Numbers 36:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "respondit Moses filiis Israhel et Domino praecipiente ait recte tribus filiorum Ioseph locuta est",
+      "citation": "Numbers 36:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et haec lex super filiabus Salphaad a Domino promulgata est nubant quibus volunt tantum ut suae tribus hominibus",
+      "citation": "Numbers 36:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ne commisceatur possessio filiorum Israhel de tribu in tribum omnes enim viri ducent uxores de tribu et cognatione sua",
+      "citation": "Numbers 36:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et cunctae feminae maritos de eadem tribu accipient ut hereditas permaneat in familiis",
+      "citation": "Numbers 36:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "nec sibi misceantur tribus sed ita maneant",
+      "citation": "Numbers 36:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ut a Domino separatae sunt feceruntque filiae Salphaad ut fuerat imperatum",
+      "citation": "Numbers 36:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et nupserunt Maala et Thersa et Egla et Melcha et Noa filiis patrui sui",
+      "citation": "Numbers 36:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "de familia Manasse qui fuit filius Ioseph et possessio quae illis fuerat adtributa mansit in tribu et familia patris earum",
+      "citation": "Numbers 36:12 (Clementine Vulgate)"
+    }
+  ]
+}

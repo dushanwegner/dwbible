@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Job, Chapter 23 — 17 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 20,
+      "totalChapters": 42
+    },
+    "chapter": 23,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/job/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/job/22.json",
+      "nextChapter": "https://latinprayer.org/bible/job/24.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/job/23.json",
+      "german": "https://latinprayer.org/bibel/job/23.json"
+    }
+  },
+  "citation": "Job 23 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Then Job answered, and said:",
+      "citation": "Job 23:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Now also my words are in bitterness, and the hand of my scourge is more grievous than my mourning.",
+      "citation": "Job 23:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Who will grant me that I might know and find him, and come even to his throne?",
+      "citation": "Job 23:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "I would set judgment before him, and would fill my mouth with complaints.",
+      "citation": "Job 23:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "That I might know the words that he would answer me, and understand what he would say to me.",
+      "citation": "Job 23:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "I would not that he should contend with me with much strength, nor overwhelm me with the weight of his greatness.",
+      "citation": "Job 23:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Let him propose equity against me, and let my judgment come to victory.",
+      "citation": "Job 23:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But if I go to the east, he appeareth not; if to the west, I shall not understand him.",
+      "citation": "Job 23:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "If to the left hand, what shall I do? I shall not take hold on him: if I turn myself to the right hand, I shall not see him.",
+      "citation": "Job 23:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "But he knoweth my way, and has tried me as gold that passeth through the fire:",
+      "citation": "Job 23:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "My foot hath followed his steps, I have kept his way, and have not declined from it.",
+      "citation": "Job 23:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "I have not departed from the commandments of his lips, and the words of his mouth I have hid in my bosom.",
+      "citation": "Job 23:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For he is alone, and no man can turn away his thought: and whatsoever his soul hath desired, that hath he done.",
+      "citation": "Job 23:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And when he shall have fulfilled his will in me, many other like things are also at hand with him.",
+      "citation": "Job 23:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And therefore I am troubled at his presence, and when I consider him I am made pensive with fear.",
+      "citation": "Job 23:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "God hath softened my heart, and the Almighty hath troubled me.",
+      "citation": "Job 23:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "For I have not perished because of the darkness that hangs over me, neither hath the mist covered my face.",
+      "citation": "Job 23:17 (Douay-Rheims)"
+    }
+  ]
+}

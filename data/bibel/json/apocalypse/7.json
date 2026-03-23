@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Offenbarung, Chapter 7 — 17 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Offenbarung",
+      "slug": "apocalypse",
+      "testament": "NT",
+      "order": 73,
+      "totalChapters": 22
+    },
+    "chapter": 7,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/apocalypse/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/apocalypse/6.json",
+      "nextChapter": "https://latinprayer.org/bibel/apocalypse/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/apocalypse/7.json",
+      "latin": "https://latinprayer.org/latin/apocalypse/7.json"
+    }
+  },
+  "citation": "Offenbarung 7 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Danach sah ich vier Engel an den vier Enden der Erde stehen, die hielten die vier Winde der Erde fest, damit kein Wind auf der Erde und auf dem Meer und über irgendeinen Baum wehe.",
+      "citation": "Offenbarung 7:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Weiter sah ich einen anderen Engel vom Sonnenaufgang her emporsteigen, der ein Siegel des lebendigen Gottes hatte; der rief den vier Engeln, denen der Auftrag erteilt war, Unheil auf der Erde und auf dem Meer anzurichten, mit lauter Stimme die Worte zu:",
+      "citation": "Offenbarung 7:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "»Richtet kein Unheil auf der Erde und auf dem Meere und an den Bäumen an, bis wir die Knechte unsers Gottes mit einem Siegel auf ihrer Stirn bezeichnet haben!«",
+      "citation": "Offenbarung 7:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Dann vernahm ich die Zahl der Versiegelten, nämlich hundertvierundvierzigtausend Versiegelte aus allen Stämmen der Israeliten:",
+      "citation": "Offenbarung 7:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "aus dem Stamm Juda zwölftausend Versiegelte, aus dem Stamm Ruben zwölftausend, aus dem Stamm Gad zwölftausend,",
+      "citation": "Offenbarung 7:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "aus dem Stamm Asser zwölftausend, aus dem Stamm Naphthali zwölftausend, aus dem Stamm Manasse zwölftausend,",
+      "citation": "Offenbarung 7:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "aus dem Stamm Simeon zwölftausend, aus dem Stamm Levi zwölftausend,",
+      "citation": "Offenbarung 7:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "aus dem Stamm Issaschar zwölftausend, aus dem Stamm Sebulon zwölftausend, aus dem Stamm Joseph zwölftausend, aus dem Stamm Benjamin zwölftausend Versiegelte.",
+      "citation": "Offenbarung 7:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Danach hatte ich ein Gesicht: Ich sah eine große Schar, die niemand zählen konnte, aus allen Völkerschaften und Stämmen, Völkern und Sprachen; die standen vor dem Thron und vor dem Lamm, mit weißen Gewändern angetan und mit Palmzweigen in den Händen.",
+      "citation": "Offenbarung 7:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Sie riefen mit lauter Stimme: »Die Rettung steht bei unserm Gott, der auf dem Throne sitzt, und bei dem Lamm!«",
+      "citation": "Offenbarung 7:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Und alle Engel standen rings um den Thron und um die Ältesten und um die vier Lebewesen herum und warfen sich vor dem Thron auf ihr Angesicht nieder, beteten Gott an",
+      "citation": "Offenbarung 7:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "und riefen: »Amen! Lobpreis und Herrlichkeit, Weisheit und Danksagung, Ehre, Macht und Stärke (gebühren) unserm Gott in alle Ewigkeit! Amen.«",
+      "citation": "Offenbarung 7:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Da nahm einer von den Ältesten das Wort und sagte zu mir: »Wer sind wohl diese Weißgekleideten, und woher sind sie gekommen?«",
+      "citation": "Offenbarung 7:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ich erwiderte ihm: »Mein Herr, du weißt es.« Da sagte er zu mir: »Das sind die, welche aus der großen Trübsal kommen und ihre Kleider gewaschen und im Blut des Lammes weiß gemacht haben.",
+      "citation": "Offenbarung 7:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Darum sind sie vor dem Throne Gottes und dienen ihm bei Tag und bei Nacht in seinem Tempel, und der auf dem Throne Sitzende wird über ihnen wohnen.",
+      "citation": "Offenbarung 7:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Sie werden keinen Hunger und keinen Durst mehr haben, und kein Sonnenbrand wird sie jemals treffen noch irgendeine Hitze;",
+      "citation": "Offenbarung 7:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "denn das Lamm dort mitten vor dem Thron wird sie weiden und sie zu Wasserquellen des Lebens führen, und Gott wird alle Tränen aus ihren Augen abwischen.«",
+      "citation": "Offenbarung 7:17 (Menge)"
+    }
+  ]
+}

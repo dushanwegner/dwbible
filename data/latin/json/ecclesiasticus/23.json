@@ -1,0 +1,226 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 23 — 38 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 23,
+    "verseCount": 38,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/22.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/24.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/23.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/23.json"
+    }
+  },
+  "citation": "Sirach 23 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Domine pater et dominator vitae meae non relinquas me ne sinas me cadere in illis",
+      "citation": "Sirach 23:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quis superponet in me in cogitatu meo flagella et in corde meo doctrinam sapientiae ut ignorationibus eorum non parcant mihi et non pareant delicta illorum",
+      "citation": "Sirach 23:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et adincrescant ignorantiae meae et multiplicentur delicta mea et peccata mea abundent et incidam in conspectu adversariorum et gaudeat inimicus meus",
+      "citation": "Sirach 23:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Domine pater et Deus vitae meae ne derelinquas me in cogitatu illorum",
+      "citation": "Sirach 23:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "extollentiam oculorum meorum ne dederis mihi et omne desiderium averte a me",
+      "citation": "Sirach 23:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "aufer a me ventris concupiscentias et concubitus concupiscentiae ne adprehendant me et animae inreverenti et infrunitae ne tradas me",
+      "citation": "Sirach 23:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "doctrina oris doctrinam oris audite filii et qui custodierit illam non periet in labiis suis nec scandalizabitur in operibus nequissimis",
+      "citation": "Sirach 23:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "in vanitate sua adprehendetur peccator et superbus et maledicus scandalizabitur in illo",
+      "citation": "Sirach 23:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "iurationi non adsuescat os tuum multus enim casus in illa",
+      "citation": "Sirach 23:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "nominatio vero Dei non sit adsidua in ore tuo et nominibus sanctorum non admiscearis quoniam non eris inmunis ab eis",
+      "citation": "Sirach 23:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sicut enim servus interrogatus adsidue a livore non minuetur sic omnis iurans et nominans in toto a peccato non purgabitur",
+      "citation": "Sirach 23:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "vir multum iurans implebitur iniquitate et non discedet a domo illius plaga",
+      "citation": "Sirach 23:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et si frustraverit delictum ipsius super ipsum erit et si dissimulaverit delinquet dupliciter",
+      "citation": "Sirach 23:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et si in vacuum iuraverit non iustificabitur replebitur enim retributione domus illius",
+      "citation": "Sirach 23:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "est et alia loquella contraria morti non inveniatur in hereditate Iacob",
+      "citation": "Sirach 23:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "etenim a misericordibus omnia haec auferentur et in delictis non volutabunt",
+      "citation": "Sirach 23:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "indisciplinose non adsuescat os tuum est enim in illa verbum peccati",
+      "citation": "Sirach 23:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "memento patris et matris tuae in medio enim magnatorum consistis",
+      "citation": "Sirach 23:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "ne forte obliviscatur te in conspectu illorum et adsiduitate tua infatuatus inproperium patiaris et maluisses non nasci et diem nativitatis tuae maledicas",
+      "citation": "Sirach 23:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "homo adsuetus in verbis inproperii in omnibus diebus suis non erudietur",
+      "citation": "Sirach 23:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "duo genera abundant in peccatis et tertium adducit iram et perditionem",
+      "citation": "Sirach 23:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "anima calida quasi ignis ardens non extinguetur donec aliquid gluttiat",
+      "citation": "Sirach 23:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et homo nequam in ore carnis suae non desinet donec incendat ignem",
+      "citation": "Sirach 23:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "homini fornicario omnis panis dulcis non cessabit transgrediens a lecto suo",
+      "citation": "Sirach 23:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "omnis homo qui transgreditur lectum suum contemnens in animam suam et dicens quis me videt",
+      "citation": "Sirach 23:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "tenebrae circumdant me et parietes cooperiunt me et nemo circumspicit me quem vereor delictorum meorum non memorabitur Altissimus",
+      "citation": "Sirach 23:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et non intelleget quoniam omnia videt oculus illius quoniam expellit a se timorem Dei huiusmodi hominis timor et oculi hominum timentes illum",
+      "citation": "Sirach 23:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et non cognovit quoniam oculi Domini multo plus lucidiores super solem circumspicientes omnes vias hominum et profundum abyssi et hominum corda intuentes in absconsas partes",
+      "citation": "Sirach 23:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "Domino enim Deo antequam crearentur omnia sunt agnita sic et post perfectum respicit omnia",
+      "citation": "Sirach 23:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "hic in plateis civitatis vindicabitur quasi pullus equinus fugabitur et ubi non speravit adprehendetur",
+      "citation": "Sirach 23:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "et erit dedecus omnibus quod non intellexerit timorem Dei",
+      "citation": "Sirach 23:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "sic et mulier omnis relinquens virum suum et statuens hereditatem ex alieno matrimonio",
+      "citation": "Sirach 23:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "primo enim in lege Altissimi incredibilis fuit et secundo virum suum dereliquit tertio in adulterio fornicata est et ex alio viro filios statuit sibi",
+      "citation": "Sirach 23:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "haec in ecclesiam adducetur et in filios eius respicietur",
+      "citation": "Sirach 23:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "non tradent filii eius radices et rami eius non dabunt fructum",
+      "citation": "Sirach 23:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "derelinquent in maledictum memoriam illius et dedecus illius non delebitur",
+      "citation": "Sirach 23:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et agnoscent qui derelicti sunt quoniam nihil melius quam timor Dei et nihil dulcius quam respicere in mandatis Domini",
+      "citation": "Sirach 23:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "et gloria magna est sequi Dominum longitudo enim dierum adsumetur ab eo",
+      "citation": "Sirach 23:38 (Clementine Vulgate)"
+    }
+  ]
+}

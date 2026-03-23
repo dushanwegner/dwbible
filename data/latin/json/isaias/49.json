@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 49 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 49,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/48.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/50.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/49.json",
+      "german": "https://latinprayer.org/bibel/isaias/49.json"
+    }
+  },
+  "citation": "Isaiah 49 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "audite insulae et adtendite populi de longe Dominus ab utero vocavit me de ventre matris meae recordatus est nominis mei",
+      "citation": "Isaiah 49:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et posuit os meum quasi gladium acutum in umbra manus suae protexit me et posuit me sicut sagittam electam in faretra sua abscondit me",
+      "citation": "Isaiah 49:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dixit mihi servus meus es tu Israhel quia in te gloriabor",
+      "citation": "Isaiah 49:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et ego dixi in vacuum laboravi sine causa et vane fortitudinem meam consumpsi ergo iudicium meum cum Domino et opus meum cum Deo meo",
+      "citation": "Isaiah 49:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et nunc dicit Dominus formans me ex utero servum sibi ut reducam Iacob ad eum et Israhel non congregabitur et glorificatus sum in oculis Domini et Deus meus factus est fortitudo mea",
+      "citation": "Isaiah 49:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et dixit parum est ut sis mihi servus ad suscitandas tribus Iacob et feces Israhel convertendas dedi te in lucem gentium ut sis salus mea usque ad extremum terrae",
+      "citation": "Isaiah 49:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "haec dicit Dominus redemptor Israhel Sanctus eius ad contemptibilem animam ad abominatam gentem ad servum dominorum reges videbunt et consurgent principes et adorabunt propter Dominum quia fidelis est et Sanctum Israhel qui elegit te",
+      "citation": "Isaiah 49:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "haec dicit Dominus in tempore placito exaudivi te et in die salutis auxiliatus sum tui et servavi te et dedi te in foedus populi ut suscitares terram et possideres hereditates dissipatas",
+      "citation": "Isaiah 49:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ut diceres his qui vincti sunt exite et his qui in tenebris revelamini super vias pascentur et in omnibus planis pascua eorum",
+      "citation": "Isaiah 49:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "non esurient neque sitient et non percutiet eos aestus et sol quia miserator eorum reget eos et ad fontes aquarum portabit eos",
+      "citation": "Isaiah 49:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et ponam omnes montes meos in viam et semitae meae exaltabuntur",
+      "citation": "Isaiah 49:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ecce isti de longe venient et ecce illi ab aquilone et mari et isti de terra australi",
+      "citation": "Isaiah 49:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "laudate caeli et exulta terra iubilate montes laudem quia consolatus est Dominus populum suum et pauperum suorum miserebitur",
+      "citation": "Isaiah 49:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et dixit Sion dereliquit me Dominus et Dominus oblitus est mei",
+      "citation": "Isaiah 49:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "numquid oblivisci potest mulier infantem suum ut non misereatur filio uteri sui et si illa oblita fuerit ego tamen non obliviscar tui",
+      "citation": "Isaiah 49:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "ecce in manibus meis descripsi te muri tui coram oculis meis semper",
+      "citation": "Isaiah 49:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "venerunt structores tui destruentes te et dissipantes a te exibunt",
+      "citation": "Isaiah 49:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "leva in circuitu oculos tuos et vide omnes isti congregati sunt venerunt tibi vivo ego dicit Dominus quia omnibus his velut ornamento vestieris et circumdabis tibi eos quasi sponsa",
+      "citation": "Isaiah 49:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quia deserta tua et solitudines tuae et terra ruinae tuae nunc angusta erunt prae habitatoribus et longe fugabuntur qui absorbebant te",
+      "citation": "Isaiah 49:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "adhuc dicent in auribus tuis filii sterilitatis tuae angustus mihi est locus fac spatium mihi ut habitem",
+      "citation": "Isaiah 49:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et dices in corde tuo quis genuit mihi istos ego sterilis et non pariens transmigrata et captiva et istos quis enutrivit ego destituta et sola et isti ubi hic erant",
+      "citation": "Isaiah 49:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "haec dicit Dominus Deus ecce levo ad gentes manum meam et ad populos exaltabo signum meum et adferent filios tuos in ulnis et filias tuas super umeros portabunt",
+      "citation": "Isaiah 49:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et erunt reges nutricii tui et reginae nutrices tuae vultu in terra dimisso adorabunt te et pulverem pedum tuorum lingent et scies quia ego Dominus super quo non confundentur qui expectant eum",
+      "citation": "Isaiah 49:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "numquid tolletur a forte praeda aut quod captum fuerit a robusto salvum esse poterit",
+      "citation": "Isaiah 49:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "quia haec dicit Dominus equidem et captivitas a forte tolletur et quod ablatum fuerit a robusto salvabitur eos vero qui iudicaverunt te ego iudicabo et filios tuos ego salvabo",
+      "citation": "Isaiah 49:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et cibabo hostes tuos carnibus suis et quasi musto sanguine suo inebriabuntur et sciet omnis caro quia ego Dominus salvans te et redemptor tuus Fortis Iacob",
+      "citation": "Isaiah 49:26 (Clementine Vulgate)"
+    }
+  ]
+}

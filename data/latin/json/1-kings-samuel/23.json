@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Samuel, Chapter 23 — 28 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Samuel",
+      "slug": "1-kings-samuel",
+      "testament": "OT",
+      "order": 9,
+      "totalChapters": 31
+    },
+    "chapter": 23,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-kings-samuel/22.json",
+      "nextChapter": "https://latinprayer.org/latin/1-kings-samuel/24.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-kings-samuel/23.json",
+      "german": "https://latinprayer.org/bibel/1-kings-samuel/23.json"
+    }
+  },
+  "citation": "1 Samuel 23 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et nuntiaverunt David dicentes ecce Philisthim obpugnant Ceila et diripiunt areas",
+      "citation": "1 Samuel 23:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "consuluit igitur David Dominum dicens num vadam et percutiam Philistheos istos et ait Dominus ad David vade et percuties Philistheos et salvabis Ceila",
+      "citation": "1 Samuel 23:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dixerunt viri qui erant cum David ad eum ecce nos hic in Iudaea consistentes timemus quanto magis si ierimus in Ceila adversum agmina Philisthinorum",
+      "citation": "1 Samuel 23:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "rursum ergo David consuluit Dominum qui respondens ei ait surge et vade in Ceila ego enim tradam Philistheos in manu tua",
+      "citation": "1 Samuel 23:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "abiit David et viri eius in Ceila et pugnavit adversum Philistheos et abegit iumenta eorum et percussit eos plaga magna et salvavit David habitatores Ceilae",
+      "citation": "1 Samuel 23:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "porro eo tempore quo fugiebat Abiathar filius Ahimelech ad David in Ceila ephod secum habens descenderat",
+      "citation": "1 Samuel 23:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "nuntiatum est autem Saul quod venisset David in Ceila et ait Saul tradidit eum Deus in manus meas conclususque est introgressus urbem in qua portae et serae",
+      "citation": "1 Samuel 23:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et praecepit Saul omni populo ut ad pugnam descenderet in Ceila et obsideret David et viros eius",
+      "citation": "1 Samuel 23:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quod cum rescisset David quia praepararet ei Saul clam malum dixit ad Abiathar sacerdotem adplica ephod",
+      "citation": "1 Samuel 23:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ait David Domine Deus Israhel audivit famam servus tuus quod disponat Saul venire ad Ceila ut evertat urbem propter me",
+      "citation": "1 Samuel 23:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "si tradent me viri Ceila in manus eius et si descendet Saul sicut audivit servus tuus Domine Deus Israhel indica servo tuo et ait Dominus descendet",
+      "citation": "1 Samuel 23:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "dixitque David si tradent viri Ceilae me et viros qui sunt mecum in manu Saul et dixit Dominus tradent",
+      "citation": "1 Samuel 23:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "surrexit ergo David et viri eius quasi sescenti et egressi de Ceila huc atque illuc vagabantur incerti nuntiatumque est Saul quod fugisset David de Ceila quam ob rem dissimulavit exire",
+      "citation": "1 Samuel 23:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "morabatur autem David in deserto in locis firmissimis mansitque in monte solitudinis Ziph quaerebat tamen eum Saul cunctis diebus et non tradidit eum Deus in manus eius",
+      "citation": "1 Samuel 23:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et vidit David quod egressus esset Saul ut quaereret animam eius porro David erat in deserto Ziph in silva",
+      "citation": "1 Samuel 23:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et surrexit Ionathan filius Saul et abiit ad David in silva et confortavit manus eius in Deo dixitque ei",
+      "citation": "1 Samuel 23:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "ne timeas neque enim inveniet te manus Saul patris mei et tu regnabis super Israhel et ego ero tibi secundus sed et Saul pater meus scit hoc",
+      "citation": "1 Samuel 23:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "percussit igitur uterque foedus coram Domino mansitque David in silva Ionathas autem reversus est in domum suam",
+      "citation": "1 Samuel 23:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "ascenderunt autem Ziphei ad Saul in Gabaa dicentes nonne David latitat apud nos in locis tutissimis silvae in colle Achilae quae est ad dexteram deserti",
+      "citation": "1 Samuel 23:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "nunc ergo sicut desideravit anima tua ut descenderes descende nostrum autem erit ut tradamus eum in manus regis",
+      "citation": "1 Samuel 23:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "dixitque Saul benedicti vos a Domino quia doluistis vicem meam",
+      "citation": "1 Samuel 23:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "abite oro et diligentius praeparate et curiosius agite et considerate locum ubi sit pes eius vel quis viderit eum ibi recogitat enim de me quod callide insidier ei",
+      "citation": "1 Samuel 23:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "considerate et videte omnia latibula eius in quibus absconditur et revertimini ad me ad rem certam ut vadam vobiscum quod si etiam in terra se abstruserit perscrutabor eum in cunctis milibus Iuda",
+      "citation": "1 Samuel 23:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "at illi surgentes abierunt in Ziph ante Saul David autem et viri eius erant in deserto Maon in campestribus ad dextram Iesimuth",
+      "citation": "1 Samuel 23:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "ivit ergo Saul et socii eius ad quaerendum et nuntiatum est David statimque descendit ad petram et versabatur in deserto Maon quod cum audisset Saul persecutus est David in deserto Maon",
+      "citation": "1 Samuel 23:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et ibat Saul ad latus montis ex parte una David autem et viri eius erant in latere montis ex parte altera porro David desperabat se posse evadere a facie Saul itaque Saul et viri eius in modum coronae cingebant David et viros eius ut caperent eos",
+      "citation": "1 Samuel 23:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et nuntius venit ad Saul dicens festina et veni quoniam infuderunt se Philisthim super terram",
+      "citation": "1 Samuel 23:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "reversus est ergo Saul desistens persequi David et perrexit in occursum Philisthinorum propter hoc vocaverunt locum illum petram Dividentem",
+      "citation": "1 Samuel 23:28 (Clementine Vulgate)"
+    }
+  ]
+}

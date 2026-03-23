@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 24 — 18 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 24,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/exodus/23.json",
+      "nextChapter": "https://latinprayer.org/bible/exodus/25.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/exodus/24.json",
+      "german": "https://latinprayer.org/bibel/exodus/24.json"
+    }
+  },
+  "citation": "Exodus 24 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And he said to Moses: Come up to the Lord, thou, and Aaron, Nadab and Abiu, and seventy of the ancients of Israel, and you shall adore afar off.",
+      "citation": "Exodus 24:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And Moses alone shall come up to the Lord, but they shall not come nigh; neither shall the people come up with him.",
+      "citation": "Exodus 24:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "So Moses came and told the people all the words of the Lord, and all the judgments: and all the people answered with one voice: We will do all the words of the Lord, which he hath spoken.",
+      "citation": "Exodus 24:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And Moses wrote all the words of the Lord: and rising in the morning, he built an altar at the foot of the mount, and twelve titles according to the twelve tribes of Israel.",
+      "citation": "Exodus 24:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And he sent young men of the children of Israel, and they offered holocausts, and sacrificed pacific victims of calves to the Lord.",
+      "citation": "Exodus 24:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Then Moses took half of the blood, and put it into bowls; and the rest he poured upon the altar.",
+      "citation": "Exodus 24:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And taking the book of the covenant, he read it in the hearing of the people: and they said: All things that the Lord hath spoken, we will do, we will be obedient.",
+      "citation": "Exodus 24:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And he took the blood and sprinkled it upon the people, and he said: This is the blood of the covenant, which the Lord hath made with you concerning all these words.",
+      "citation": "Exodus 24:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Then Moses and Aaron, Nadab and Abiu, and seventy of the ancients of Israel went up:",
+      "citation": "Exodus 24:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And they saw the God of Israel: and under his feet as it were a work of sapphire stone, and as the heaven, when clear.",
+      "citation": "Exodus 24:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Neither did he lay his hand upon those of the children of Israel, that retired afar off, and they saw God, and they did eat and drink.",
+      "citation": "Exodus 24:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And the Lord said to Moses: Come up to me into the mount, and be there; and I will give thee tables of stone, and the law, and the commandments which I have written; that thou mayest teach them.",
+      "citation": "Exodus 24:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Moses rose up, and his minister Josue: and Moses going up into the mount of God,",
+      "citation": "Exodus 24:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Said to the ancients: Wait ye here till we return to you. You have Aaron and Hur with you: if any question shall arise, you shall refer it to them.",
+      "citation": "Exodus 24:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And when Moses was gone up, a cloud covered the mount.",
+      "citation": "Exodus 24:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And the glory of the Lord dwelt upon Sinai, covering it with a cloud six days: and the seventh day he called him out of the midst of the cloud.",
+      "citation": "Exodus 24:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And the sight of the glory of the Lord, was like a burning fire upon the top of the mount, in the eyes of the children of Israel.",
+      "citation": "Exodus 24:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And Moses entering into the midst of the cloud, went up into the mountain: And he was there forty days and forty nights.",
+      "citation": "Exodus 24:18 (Douay-Rheims)"
+    }
+  ]
+}

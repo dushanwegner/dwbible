@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Weisheit, Chapter 11 — 26 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Weisheit",
+      "slug": "wisdom",
+      "testament": "OT",
+      "order": 25,
+      "totalChapters": 19
+    },
+    "chapter": 11,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/wisdom/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/wisdom/10.json",
+      "nextChapter": "https://latinprayer.org/bibel/wisdom/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/wisdom/11.json",
+      "latin": "https://latinprayer.org/latin/wisdom/11.json"
+    }
+  },
+  "citation": "Weisheit 11 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Sie ließ ihre Unternehmungen gelingen unter der Leitung des heiligen Propheten.",
+      "citation": "Weisheit 11:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Sie durchwanderten eine unbewohnte Wüste und schlugen ihre Zelte an unwegsamen Orten auf;",
+      "citation": "Weisheit 11:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "sie hatten mit Feinden zu kämpfen und Angreifer zurückzuschlagen.",
+      "citation": "Weisheit 11:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Sie litten Durst: da riefen sie dich an, und es wurde ihnen Wasser gegeben aus schroffen Felsen und Linderung ihres Durstes aus hartem Gestein.",
+      "citation": "Weisheit 11:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn das, wodurch ihre Feinde gestraft worden waren, ebendasselbe empfingen sie in ihrer Not als eine Wohltat.",
+      "citation": "Weisheit 11:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Anstatt des immerfließenden Quellwassers des durch Mordblut getrübten Stromes,",
+      "citation": "Weisheit 11:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "zur Strafe für die Anordnung des Kindermordes, gabst du ihnen unverhofft Trinkwasser in Fülle,",
+      "citation": "Weisheit 11:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "indem du ihnen durch ihren damaligen Durst zeigtest, wie du ihre Widersacher gestraft hattest.",
+      "citation": "Weisheit 11:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Denn als sie so geprüft wurden – obgleich sie doch nur gelinde gezüchtigt wurden –, konnten sie erkennen, wie die im Zorn gerichteten Gottlosen bestraft wurden.",
+      "citation": "Weisheit 11:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Denn sie hast du wie ein Vater geprüft, der warnen will, jene aber hast du gezüchtigt wie ein strenger König, der das Verdammungsurteil ausspricht.",
+      "citation": "Weisheit 11:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Sowohl fern von ihnen, wie nahe bei ihnen wurden sie in gleicher Weise geplagt;",
+      "citation": "Weisheit 11:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "denn eine zwiefache Trauer ergriff sie und ein Seufzen bei der Erinnerung an das, was vergangen war.",
+      "citation": "Weisheit 11:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Denn als sie vernahmen, daß durch ihre Züchtigungen jenen eine Wohltat zuteil geworden war, merkten sie das Walten des Herrn;",
+      "citation": "Weisheit 11:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "denn ihn, den sie einst bei der Aussetzung weggeworfen und mit Hohn verworfen hatten, mußten sie am Ende seiner Erfolge bewundern, nachdem sie einen ganz andern Durst erlitten hatten als die Gerechten.",
+      "citation": "Weisheit 11:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Zur Vergeltung für die unverständigen Gedanken ihrer Gottlosigkeit, durch die sie in ihrem Irrwahn vernunftloses Gewürm und elendes Getier verehrten, sandtest du ihnen, um sie zu strafen, eine Menge vernunftloser Tiere,",
+      "citation": "Weisheit 11:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "damit sie zu der Erkenntnis kämen, daß, wodurch man sich verfehlt, man eben dadurch auch gestraft wird.",
+      "citation": "Weisheit 11:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Deine allmächtige Hand, welche die Welt aus ungeformtem Stoffe geschaffen hat, wäre ja wohl stark genug gewesen, eine Menge von Bären oder wilden Löwen gegen sie zu senden",
+      "citation": "Weisheit 11:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "oder auch neugeschaffene, wuterfüllte, unbekannte Bestien, die entweder einen feuerspeienden Atem aushauchten oder stinkenden Qualm ausstießen oder schreckliche Funken aus den Augen sprühten,",
+      "citation": "Weisheit 11:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "von denen nicht nur der Gifthauch sie vernichten, sondern deren bloßer Anblick sie durch Schrecken ums Leben bringen konnte.",
+      "citation": "Weisheit 11:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Ja, abgesehen hiervon hätten sie durch einen einzigen Hauch hinsinken können, von deiner Rache verfolgt und vom Hauche deiner Macht zerstreut; aber du hast alles nach Maß, Zahl und Gewicht geordnet.",
+      "citation": "Weisheit 11:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Denn deine gewaltige Macht zu betätigen steht dir allezeit zu Gebote, und wer vermöchte der Kraft deines Armes zu widerstehen?",
+      "citation": "Weisheit 11:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Denn wie ein Stäubchen an der Waage ist die ganze Welt dir gegenüber und wie ein Tautröpfchen, das am Morgen auf die Erde fällt.",
+      "citation": "Weisheit 11:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Aber du erbarmst dich aller, weil du alles vermagst, und läßt die Sünden der Menschen unbeachtet, damit sie sich bekehren;",
+      "citation": "Weisheit 11:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "denn du liebst alles, was da ist, und fühlst keinen Widerwillen gegen irgend etwas von dir Geschaffenes; denn hegtest du Haß gegen irgend etwas, so hättest du es nicht geschaffen.",
+      "citation": "Weisheit 11:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Wie hätte aber etwas bestehen bleiben können, wenn du es nicht gewollt hättest? oder wie wäre etwas erhalten geblieben, wenn es nicht von dir ins Dasein gerufen wäre?",
+      "citation": "Weisheit 11:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Du verfährst aber schonungsvoll gegen alles, weil es dein Eigentum ist, o Herr, du Freund alles Lebens;",
+      "citation": "Weisheit 11:26 (Menge)"
+    }
+  ]
+}

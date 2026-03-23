@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hebrews, Chapter 2 — 18 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 65,
+      "totalChapters": 13
+    },
+    "chapter": 2,
+    "verseCount": 18,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/hebrews/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/hebrews/1.json",
+      "nextChapter": "https://latinprayer.org/latin/hebrews/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/hebrews/2.json",
+      "german": "https://latinprayer.org/bibel/hebrews/2.json"
+    }
+  },
+  "citation": "Hebrews 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "propterea abundantius oportet observare nos ea quae audivimus ne forte pereffluamus",
+      "citation": "Hebrews 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "si enim qui per angelos dictus est sermo factus est firmus et omnis praevaricatio et inoboedientia accepit iustam mercedis retributionem",
+      "citation": "Hebrews 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quomodo nos effugiemus si tantam neglexerimus salutem quae cum initium accepisset enarrari per Dominum ab eis qui audierunt in nos confirmata est",
+      "citation": "Hebrews 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "contestante Deo signis et portentis et variis virtutibus et Spiritus Sancti distributionibus secundum suam voluntatem",
+      "citation": "Hebrews 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "non enim angelis subiecit orbem terrae futurum de quo loquimur",
+      "citation": "Hebrews 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "testatus est autem in quodam loco quis dicens quid est homo quod memor es eius aut filius hominis quoniam visitas eum",
+      "citation": "Hebrews 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "minuisti eum paulo minus ab angelis gloria et honore coronasti eum et constituisti eum super opera manuum tuarum",
+      "citation": "Hebrews 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "omnia subiecisti sub pedibus eius in eo enim quod ei omnia subiecit nihil dimisit non subiectum ei nunc autem necdum videmus omnia subiecta ei",
+      "citation": "Hebrews 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "eum autem qui modico quam angeli minoratus est videmus Iesum propter passionem mortis gloria et honore coronatum ut gratia Dei pro omnibus gustaret mortem",
+      "citation": "Hebrews 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "decebat enim eum propter quem omnia et per quem omnia qui multos filios in gloriam adduxerat auctorem salutis eorum per passiones consummare",
+      "citation": "Hebrews 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "qui enim sanctificat et qui sanctificantur ex uno omnes propter quam causam non confunditur fratres eos vocare dicens",
+      "citation": "Hebrews 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "nuntiabo nomen tuum fratribus meis in medio ecclesiae laudabo te",
+      "citation": "Hebrews 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et iterum ego ero fidens in eum et iterum ecce ego et pueri mei quos mihi dedit Deus",
+      "citation": "Hebrews 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "quia ergo pueri communicaverunt sanguini et carni et ipse similiter participavit hisdem ut per mortem destrueret eum qui habebat mortis imperium id est diabolum",
+      "citation": "Hebrews 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et liberaret eos qui timore mortis per totam vitam obnoxii erant servituti",
+      "citation": "Hebrews 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "nusquam enim angelos adprehendit sed semen Abrahae adprehendit",
+      "citation": "Hebrews 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "unde debuit per omnia fratribus similare ut misericors fieret et fidelis pontifex ad Deum ut repropitiaret delicta populi",
+      "citation": "Hebrews 2:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "in eo enim in quo passus est ipse temptatus potens est eis qui temptantur auxiliari",
+      "citation": "Hebrews 2:18 (Clementine Vulgate)"
+    }
+  ]
+}

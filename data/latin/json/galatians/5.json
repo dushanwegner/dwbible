@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Galatians, Chapter 5 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Galatians",
+      "slug": "galatians",
+      "testament": "NT",
+      "order": 55,
+      "totalChapters": 6
+    },
+    "chapter": 5,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/galatians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/galatians/4.json",
+      "nextChapter": "https://latinprayer.org/latin/galatians/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/galatians/5.json",
+      "german": "https://latinprayer.org/bibel/galatians/5.json"
+    }
+  },
+  "citation": "Galatians 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "state et nolite iterum iugo servitutis contineri",
+      "citation": "Galatians 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ecce ego Paulus dico vobis quoniam si circumcidamini Christus vobis nihil proderit",
+      "citation": "Galatians 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "testificor autem rursum omni homini circumcidenti se quoniam debitor est universae legis faciendae",
+      "citation": "Galatians 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "evacuati estis a Christo qui in lege iustificamini a gratia excidistis",
+      "citation": "Galatians 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "nos enim spiritu ex fide spem iustitiae expectamus",
+      "citation": "Galatians 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "nam in Christo Iesu neque circumcisio aliquid valet neque praeputium sed fides quae per caritatem operatur",
+      "citation": "Galatians 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "currebatis bene quis vos inpedivit veritati non oboedire",
+      "citation": "Galatians 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "persuasio non est ex eo qui vocat vos",
+      "citation": "Galatians 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "modicum fermentum totam massam corrumpit",
+      "citation": "Galatians 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ego confido in vobis in Domino quod nihil aliud sapietis qui autem conturbat vos portabit iudicium quicumque est ille",
+      "citation": "Galatians 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ego autem fratres si circumcisionem adhuc praedico quid adhuc persecutionem patior ergo evacuatum est scandalum crucis",
+      "citation": "Galatians 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "utinam et abscidantur qui vos conturbant",
+      "citation": "Galatians 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "vos enim in libertatem vocati estis fratres tantum ne libertatem in occasionem detis carnis sed per caritatem servite invicem",
+      "citation": "Galatians 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "omnis enim lex in uno sermone impletur diliges proximum tuum sicut te ipsum",
+      "citation": "Galatians 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quod si invicem mordetis et comeditis videte ne ab invicem consumamini",
+      "citation": "Galatians 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "dico autem spiritu ambulate et desiderium carnis non perficietis",
+      "citation": "Galatians 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "caro enim concupiscit adversus spiritum spiritus autem adversus carnem haec enim invicem adversantur ut non quaecumque vultis illa faciatis",
+      "citation": "Galatians 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quod si spiritu ducimini non estis sub lege",
+      "citation": "Galatians 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "manifesta autem sunt opera carnis quae sunt fornicatio inmunditia luxuria",
+      "citation": "Galatians 5:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "idolorum servitus veneficia inimicitiae contentiones aemulationes irae rixae dissensiones sectae",
+      "citation": "Galatians 5:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "invidiae homicidia ebrietates comesationes et his similia quae praedico vobis sicut praedixi quoniam qui talia agunt regnum Dei non consequentur",
+      "citation": "Galatians 5:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "fructus autem Spiritus est caritas gaudium pax longanimitas bonitas benignitas",
+      "citation": "Galatians 5:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "fides modestia continentia adversus huiusmodi non est lex",
+      "citation": "Galatians 5:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "qui autem sunt Christi carnem crucifixerunt cum vitiis et concupiscentiis",
+      "citation": "Galatians 5:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "si vivimus spiritu spiritu et ambulemus",
+      "citation": "Galatians 5:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "non efficiamur inanis gloriae cupidi invicem provocantes invicem invidentes",
+      "citation": "Galatians 5:26 (Clementine Vulgate)"
+    }
+  ]
+}

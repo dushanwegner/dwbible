@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Peter, Chapter 3 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Peter",
+      "slug": "1-peter",
+      "testament": "NT",
+      "order": 67,
+      "totalChapters": 5
+    },
+    "chapter": 3,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-peter/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-peter/2.json",
+      "nextChapter": "https://latinprayer.org/latin/1-peter/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-peter/3.json",
+      "german": "https://latinprayer.org/bibel/1-peter/3.json"
+    }
+  },
+  "citation": "1 Peter 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "similiter mulieres subditae suis viris ut et si qui non credunt verbo per mulierum conversationem sine verbo lucri fiant",
+      "citation": "1 Peter 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "considerantes in timore castam conversationem vestram",
+      "citation": "1 Peter 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quarum sit non extrinsecus capillaturae aut circumdatio auri aut indumenti vestimentorum cultus",
+      "citation": "1 Peter 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sed qui absconditus cordis est homo in incorruptibilitate quieti et modesti spiritus quod est in conspectu Dei locuples",
+      "citation": "1 Peter 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "sic enim aliquando et sanctae mulieres sperantes in Deo ornabant se subiectae propriis viris",
+      "citation": "1 Peter 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "sicut Sarra oboediebat Abrahae dominum eum vocans cuius estis filiae benefacientes et non timentes ullam perturbationem",
+      "citation": "1 Peter 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "viri similiter cohabitantes secundum scientiam quasi infirmiori vaso muliebri inpertientes honorem tamquam et coheredibus gratiae vitae uti ne inpediantur orationes vestrae",
+      "citation": "1 Peter 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "in fine autem omnes unianimes conpatientes fraternitatis amatores misericordes humiles",
+      "citation": "1 Peter 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "non reddentes malum pro malo vel maledictum pro maledicto sed e contrario benedicentes quia in hoc vocati estis ut benedictionem hereditate possideatis",
+      "citation": "1 Peter 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui enim vult vitam diligere et videre dies bonos coerceat linguam suam a malo et labia eius ne loquantur dolum",
+      "citation": "1 Peter 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "declinet autem a malo et faciat bonum inquirat pacem et persequatur eam",
+      "citation": "1 Peter 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quia oculi Domini super iustos et aures eius in preces eorum vultus autem Domini super facientes mala",
+      "citation": "1 Peter 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et quis est qui vobis noceat si boni aemulatores fueritis",
+      "citation": "1 Peter 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "sed et si quid patimini propter iustitiam beati timorem autem eorum ne timueritis et non conturbemini",
+      "citation": "1 Peter 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "Dominum autem Christum sanctificate in cordibus vestris parati semper ad satisfactionem omni poscenti vos rationem de ea quae in vobis est spe",
+      "citation": "1 Peter 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "sed cum modestia et timore conscientiam habentes bonam ut in eo quod detrahunt vobis confundantur qui calumniantur vestram bonam in Christo conversationem",
+      "citation": "1 Peter 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "melius est enim benefacientes si velit voluntas Dei pati quam malefacientes",
+      "citation": "1 Peter 3:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "quia et Christus semel pro peccatis mortuus est iustus pro iniustis ut nos offerret Deo mortificatus carne vivificatus autem spiritu",
+      "citation": "1 Peter 3:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "in quo et his qui in carcere erant spiritibus veniens praedicavit",
+      "citation": "1 Peter 3:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "qui increduli fuerant aliquando quando expectabat Dei patientia in diebus Noe cum fabricaretur arca in qua pauci id est octo animae salvae factae sunt per aquam",
+      "citation": "1 Peter 3:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "quod et vos nunc similis formae salvos facit baptisma non carnis depositio sordium sed conscientiae bonae interrogatio in Deum per resurrectionem Iesu Christi",
+      "citation": "1 Peter 3:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "qui est in dextera Dei profectus in caelum subiectis sibi angelis et potestatibus et virtutibus",
+      "citation": "1 Peter 3:22 (Clementine Vulgate)"
+    }
+  ]
+}

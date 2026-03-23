@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 21 — 31 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 21,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/proverbs/20.json",
+      "nextChapter": "https://latinprayer.org/bible/proverbs/22.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/proverbs/21.json",
+      "german": "https://latinprayer.org/bibel/proverbs/21.json"
+    }
+  },
+  "citation": "Proverbs 21 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "As the divisions of waters, so the heart of the king is in the hand of the Lord: whithersoever he will, he shall turn it.",
+      "citation": "Proverbs 21:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Every way of a man seemeth right to himself: but the Lord weigheth the hearts.",
+      "citation": "Proverbs 21:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "To do mercy and judgment, pleaseth the Lord more than victims.",
+      "citation": "Proverbs 21:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Haughtiness of the eyes is the enlarging of the heart: the lamp of the wicked is sin.",
+      "citation": "Proverbs 21:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The thoughts of the industrious always bring forth abundance: but every sluggard is always in want.",
+      "citation": "Proverbs 21:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "He that gathereth treasures by a lying tongue, is vain and foolish, and shall stumble upon the snares of death.",
+      "citation": "Proverbs 21:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The robberies of the wicked shall be their downfall, because they would not do judgment.",
+      "citation": "Proverbs 21:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The perverse way of a man is strange: but as for him that is pure, his work is right.",
+      "citation": "Proverbs 21:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "It is better to sit in a corner of the housetop, than with a brawling woman, and in a common house.",
+      "citation": "Proverbs 21:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The soul of the wicked desireth evil, he will not have pity on his neighbour.",
+      "citation": "Proverbs 21:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "When a pestilent man is punished, the little one will be wiser: and if he follow the wise, he will receive knowledge.",
+      "citation": "Proverbs 21:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The just considereth seriously the house of the wicked, that he may withdraw the wicked from evil.",
+      "citation": "Proverbs 21:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "He that stoppeth his ear against the cry of the poor, shall also cry himself, and shall not be heard.",
+      "citation": "Proverbs 21:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "A secret present quencheth anger: and a gift in the bosom, the greatest wrath.",
+      "citation": "Proverbs 21:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "It is joy to the just to do judgment: and dread to them that work iniquity.",
+      "citation": "Proverbs 21:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "A man that shall wander out of the way of doctrine, shall abide in the company of the giants.",
+      "citation": "Proverbs 21:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "He that loveth good cheer, shall be in want: he that loveth wine, and fat things, shall not be rich.",
+      "citation": "Proverbs 21:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The wicked is delivered up for the just: and the unjust for the righteous.",
+      "citation": "Proverbs 21:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "It is better to dwell in a wilderness, than with a quarrelsome and passionate woman.",
+      "citation": "Proverbs 21:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "There is a treasure to be desired, and oil in the dwelling of the just: and the foolish man shall spend it.",
+      "citation": "Proverbs 21:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "He that followeth justice and mercy, shall find life, justice, and glory.",
+      "citation": "Proverbs 21:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "The wise man hath scaled the city of the strong, and hath cast down the strength of the confidence thereof.",
+      "citation": "Proverbs 21:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "He that keepeth his mouth and his tongue, keepeth his soul from distress.",
+      "citation": "Proverbs 21:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "The proud and the arrogant is called ignorant, who in anger worketh pride.",
+      "citation": "Proverbs 21:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Desires kill the slothful: for his hands have refused to work at all.",
+      "citation": "Proverbs 21:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "He longeth and desireth all the day: but he that is just, will give, and will not cease.",
+      "citation": "Proverbs 21:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "The sacrifices of the wicked are abominable, because they are offered of wickedness.",
+      "citation": "Proverbs 21:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "A lying witness shall perish: an obedient man shall speak of victory.",
+      "citation": "Proverbs 21:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "The wicked man impudently hardeneth his face: but he that is righteous, correcteth his way.",
+      "citation": "Proverbs 21:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "There is no wisdom, there is no prudence, there is no counsel against the Lord.",
+      "citation": "Proverbs 21:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "The horse is prepared for the day of battle: but the Lord giveth safety.",
+      "citation": "Proverbs 21:31 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Tobit, Chapter 12 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Tobit",
+      "slug": "tobias",
+      "testament": "OT",
+      "order": 17,
+      "totalChapters": 14
+    },
+    "chapter": 12,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/tobias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/tobias/11.json",
+      "nextChapter": "https://latinprayer.org/latin/tobias/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/tobias/12.json",
+      "german": "https://latinprayer.org/bibel/tobias/12.json"
+    }
+  },
+  "citation": "Tobit 12 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "tunc vocavit ad se Tobias filium suum dixitque ei quid possumus dare viro isti sancto qui venit tecum",
+      "citation": "Tobit 12:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "respondens Tobias dixit pater quam mercedem dabimus ei aut quid dignum poterit esse beneficiis eius",
+      "citation": "Tobit 12:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "me duxit et reduxit sanum pecuniam a Gabelo ipse suscepit uxorem ipse me habere fecit et daemonium ab ea conpescuit gaudium parentibus eius fecit me ipsum a devoratione piscis eripuit te quoque fecit videre lumen caeli et bonis omnibus per eum repleti sumus quid illi ad haec dignum poterimus dare",
+      "citation": "Tobit 12:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sed peto te pater mi ut roges eum si forte dignabitur medietatem de omnibus quae adlata sunt sibi adsumere",
+      "citation": "Tobit 12:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et vocantes eum pater scilicet et filius tulerunt eum in partem et rogare coeperunt ut dignaretur dimidiam partem omnium quae adtulerant acceptam habere",
+      "citation": "Tobit 12:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "tunc dixit eis occulte benedicite Deum caeli et coram omnibus viventibus confitemini illi quoniam fecit vobiscum misericordiam suam",
+      "citation": "Tobit 12:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "etenim sacramentum regis abscondere bonum est opera autem Dei revelare et confiteri honorificum est",
+      "citation": "Tobit 12:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "bona est oratio cum ieiunio et elemosyna magis quam thesauros auri condere",
+      "citation": "Tobit 12:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quoniam elemosyna a morte liberat et ipsa est quae purgat peccata et faciet invenire vitam aeternam",
+      "citation": "Tobit 12:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui autem faciunt peccatum et iniquitatem hostes sunt animae suae",
+      "citation": "Tobit 12:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "manifesto ergo vobis veritatem et non abscondam a vobis sermonem occultum",
+      "citation": "Tobit 12:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quando orabas cum lacrimis et sepeliebas mortuos et derelinquebas prandium et mortuos abscondebas per diem in domo tua et nocte sepeliebas ego obtuli orationem tuam Domino",
+      "citation": "Tobit 12:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et quia acceptus eras Deo necesse fuit ut temptatio probaret te",
+      "citation": "Tobit 12:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et nunc misit me Dominus ut curarem te et Sarram uxorem filii tui a daemonio liberarem",
+      "citation": "Tobit 12:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ego enim sum Rafahel angelus unus ex septem qui adstamus ante Dominum",
+      "citation": "Tobit 12:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "cumque haec audissent turbati sunt et trementes ceciderunt super faciem suam",
+      "citation": "Tobit 12:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "dixitque eis angelus pax vobis nolite timere",
+      "citation": "Tobit 12:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "etenim cum essem vobiscum per voluntatem Dei ipsum benedicite et cantate illi",
+      "citation": "Tobit 12:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "videbar quidem vobiscum manducare et bibere sed ego cibo invisibili et potu qui ab hominibus videri non potest utor",
+      "citation": "Tobit 12:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "tempus est ergo ut revertar ad eum qui me misit vos autem benedicite Deum et narrate omnia mirabilia eius",
+      "citation": "Tobit 12:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et cum haec dixisset ab aspectu eorum ablatus est et ultra eum videre non potuerunt",
+      "citation": "Tobit 12:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "tunc prostrati per horas tres in faciem benedixerunt Deum et exsurgentes narraverunt omnia mirabilia eius",
+      "citation": "Tobit 12:22 (Clementine Vulgate)"
+    }
+  ]
+}

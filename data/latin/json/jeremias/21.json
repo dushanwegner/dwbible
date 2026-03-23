@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 21 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 21,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/20.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/22.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/21.json",
+      "german": "https://latinprayer.org/bibel/jeremias/21.json"
+    }
+  },
+  "citation": "Jeremiah 21 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "verbum quod factum est ad Hieremiam a Domino quando misit ad eum rex Sedecias Phassur filium Melchiae et Sophoniam filium Maasiae sacerdotem dicens",
+      "citation": "Jeremiah 21:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "interroga pro nobis Dominum quia Nabuchodonosor rex Babylonis proeliatur adversum nos si forte faciat Dominus nobiscum secundum omnia mirabilia sua et recedat a nobis",
+      "citation": "Jeremiah 21:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dixit Hieremias ad eos sic dicetis Sedeciae",
+      "citation": "Jeremiah 21:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "haec dicit Dominus Deus Israhel ecce ego convertam vasa belli quae in manibus vestris sunt et quibus vos pugnatis adversum regem Babylonis et Chaldeos qui obsident vos in circuitu murorum et congregabo ea in medio civitatis huius",
+      "citation": "Jeremiah 21:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et debellabo ego vos in manu extenta et brachio forti et in furore et in indignatione et in ira grandi",
+      "citation": "Jeremiah 21:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et percutiam habitatores civitatis huius homines et bestiae pestilentia magna morientur",
+      "citation": "Jeremiah 21:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et post haec ait Dominus dabo Sedeciam regem Iuda et servos eius et populum eius et qui derelicti sunt in civitate hac a peste et gladio et fame in manu Nabuchodonosor regis Babylonis et in manu inimicorum eorum et in manu quaerentium animam eorum et percutiet eos in ore gladii et non movebitur neque parcet nec miserebitur",
+      "citation": "Jeremiah 21:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et ad populum hunc dices haec dicit Dominus ecce ego do coram vobis viam vitae et viam mortis",
+      "citation": "Jeremiah 21:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "qui habitaverit in urbe hac morietur gladio et fame et peste qui autem egressus fuerit et transfugerit ad Chaldeos qui obsident vos vivet et erit ei anima sua quasi spolium",
+      "citation": "Jeremiah 21:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "posui enim faciem meam super civitatem hanc in malum et non in bonum ait Dominus in manu regis Babylonis dabitur et exuret eam igni",
+      "citation": "Jeremiah 21:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et domui regis Iuda audite verbum Domini",
+      "citation": "Jeremiah 21:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "domus David haec dicit Dominus iudicate mane iudicium et eruite vi oppressum de manu calumniantis ne forte egrediatur ut ignis indignatio mea et succendatur et non sit qui extinguat propter malitiam studiorum vestrorum",
+      "citation": "Jeremiah 21:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ecce ego ad te habitatricem vallis solidae atque campestris ait Dominus qui dicitis quis percutiet nos et quis ingredietur domos nostras",
+      "citation": "Jeremiah 21:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et visitabo super vos iuxta fructum studiorum vestrorum dicit Dominus et succendam ignem in saltu eius et devorabit omnia in circuitu eius",
+      "citation": "Jeremiah 21:14 (Clementine Vulgate)"
+    }
+  ]
+}

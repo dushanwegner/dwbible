@@ -1,0 +1,159 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "3. Kings — 22 chapters (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "3. Kings",
+      "slug": "3-kings",
+      "testament": "OT",
+      "order": 11,
+      "totalChapters": 22
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/3-kings/index.json",
+      "german": "https://latinprayer.org/bibel/3-kings/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 53,
+      "url": "https://latinprayer.org/bible/3-kings/1",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/bible/3-kings/2",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/bible/3-kings/3",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/bible/3-kings/4",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/bible/3-kings/5",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/bible/3-kings/6",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 51,
+      "url": "https://latinprayer.org/bible/3-kings/7",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 66,
+      "url": "https://latinprayer.org/bible/3-kings/8",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/bible/3-kings/9",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bible/3-kings/10",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/bible/3-kings/11",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/bible/3-kings/12",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/bible/3-kings/13",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/bible/3-kings/14",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/bible/3-kings/15",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/bible/3-kings/16",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/16.json"
+    },
+    {
+      "chapter": 17,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/bible/3-kings/17",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/17.json"
+    },
+    {
+      "chapter": 18,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/bible/3-kings/18",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/18.json"
+    },
+    {
+      "chapter": 19,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/bible/3-kings/19",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/19.json"
+    },
+    {
+      "chapter": 20,
+      "verseCount": 43,
+      "url": "https://latinprayer.org/bible/3-kings/20",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/20.json"
+    },
+    {
+      "chapter": 21,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/bible/3-kings/21",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/21.json"
+    },
+    {
+      "chapter": 22,
+      "verseCount": 54,
+      "url": "https://latinprayer.org/bible/3-kings/22",
+      "jsonUrl": "https://latinprayer.org/bible/3-kings/22.json"
+    }
+  ]
+}

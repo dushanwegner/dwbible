@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Tobit, Chapter 4 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Tobit",
+      "slug": "tobias",
+      "testament": "OT",
+      "order": 17,
+      "totalChapters": 14
+    },
+    "chapter": 4,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/tobias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/tobias/3.json",
+      "nextChapter": "https://latinprayer.org/latin/tobias/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/tobias/4.json",
+      "german": "https://latinprayer.org/bibel/tobias/4.json"
+    }
+  },
+  "citation": "Tobit 4 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "igitur cum Tobias putaret orationem suam exaudiri ut mori potuisset vocavit ad se Tobiam filium suum",
+      "citation": "Tobit 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dixitque ei audi fili mi verba oris mei et ea in corde tuo quasi fundamentum construe",
+      "citation": "Tobit 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cum acceperit Deus animam meam corpus meum sepeli et honorem habebis matri tuae omnibus diebus vitae eius",
+      "citation": "Tobit 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "memor enim esse debes quae et quanta pericula passa sit propter te in utero suo",
+      "citation": "Tobit 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "cum autem et ipsa conpleverit tempus vitae suae sepelies eam circa me",
+      "citation": "Tobit 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "omnibus autem diebus vitae tuae Deum in mente habe et cave ne aliquando peccato consentias et praetermittas praecepta Dei nostri",
+      "citation": "Tobit 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ex substantia tua fac elemosynam et noli avertere faciem tuam ab ullo paupere ita enim fiet ut nec a te avertatur facies Domini",
+      "citation": "Tobit 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quomodo potueris ita esto misericors",
+      "citation": "Tobit 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "si multum tibi fuerit abundanter tribue si exiguum fuerit etiam exiguum libenter inpertire stude",
+      "citation": "Tobit 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "praemium enim tibi bonum thesaurizas in die necessitatis",
+      "citation": "Tobit 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quoniam elemosyna ab omni peccato et a morte liberat et non patietur animam ire in tenebras",
+      "citation": "Tobit 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "fiducia magna erit coram summo Deo elemosyna omnibus qui faciunt eam",
+      "citation": "Tobit 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "adtende tibi fili mi ab omni fornicatione et praeter uxorem tuam numquam patiaris crimen scire",
+      "citation": "Tobit 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "superbiam numquam in tuo sensu aut in tuo verbo dominari permittas in ipsa enim initium sumpsit omnis perditio",
+      "citation": "Tobit 4:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quicumque aliquid tibi operatus fuerit statim mercedem ei restitue et merces mercennarii apud te omnino non maneat",
+      "citation": "Tobit 4:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quod ab alio odis fieri tibi vide ne alteri tu aliquando facias",
+      "citation": "Tobit 4:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "panem tuum cum esurientibus et egenis comede et de vestimentis tuis nudos tege",
+      "citation": "Tobit 4:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "panem tuum et vinum super sepulturam iusti constitue et noli ex eo manducare et bibere cum peccatoribus",
+      "citation": "Tobit 4:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "consilium semper a sapiente perquire",
+      "citation": "Tobit 4:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "omni tempore benedic Deum et pete ab eo ut vias tuas dirigat et omnia consilia tua in ipso permaneant",
+      "citation": "Tobit 4:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "indico etiam tibi fili mi dedisse me decem talenta argenti dum infantulus esses Gabelo in Rages civitate Medorum et chirografum eius apud me habeo",
+      "citation": "Tobit 4:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et ideo perquire quomodo ad eum pervenias et recipias ab eo supra memoratum pondus argenti et restituas ei chirografum suum",
+      "citation": "Tobit 4:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "noli timere fili mi pauperem quidem vitam gerimus sed multa bona habemus si timuerimus Deum et recesserimus ab omni peccato et fecerimus bene",
+      "citation": "Tobit 4:23 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 24 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 24,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/23.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/25.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/24.json",
+      "german": "https://latinprayer.org/bibel/isaias/24.json"
+    }
+  },
+  "citation": "Isaiah 24 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ecce Dominus dissipabit terram et nudabit eam et adfliget faciem eius et disperget habitatores eius",
+      "citation": "Isaiah 24:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et erit sicut populus sic sacerdos et sicut servus sic dominus eius sicut ancilla sic domina eius sicut emens sic ille qui vendit sicut fenerator sic is qui mutuum accipit sicut qui repetit sic qui debet",
+      "citation": "Isaiah 24:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "dissipatione dissipabitur terra et direptione praedabitur Dominus enim locutus est verbum hoc",
+      "citation": "Isaiah 24:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "luxit et defluxit terra et infirmata est defluxit orbis infirmata est altitudo populi terrae",
+      "citation": "Isaiah 24:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et terra interfecta est ab habitatoribus suis quia transgressi sunt leges mutaverunt ius dissipaverunt foedus sempiternum",
+      "citation": "Isaiah 24:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "propter hoc maledictio vorabit terram et peccabunt habitatores eius ideoque insanient cultores eius et relinquentur homines pauci",
+      "citation": "Isaiah 24:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "luxit vindemia infirmata est vitis ingemuerunt omnes qui laetabantur corde",
+      "citation": "Isaiah 24:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "cessavit gaudium tympanorum quievit sonitus laetantium conticuit dulcedo citharae",
+      "citation": "Isaiah 24:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "cum cantico non bibent vinum amara erit potio bibentibus illam",
+      "citation": "Isaiah 24:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "adtrita est civitas vanitatis clausa est omnis domus nullo introeunte",
+      "citation": "Isaiah 24:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "clamor erit super vino in plateis deserta est omnis laetitia translatum est gaudium terrae",
+      "citation": "Isaiah 24:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "relicta est in urbe solitudo et calamitas opprimet portas",
+      "citation": "Isaiah 24:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quia haec erunt in medio terrae in medio populorum quomodo si paucae olivae quae remanserunt excutiantur ex olea et racemi cum fuerit finita vindemia",
+      "citation": "Isaiah 24:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "hii levabunt vocem suam atque laudabunt cum glorificatus fuerit Dominus hinnient de mari",
+      "citation": "Isaiah 24:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "propter hoc in doctrinis glorificate Dominum in insulis maris nomen Domini Dei Israhel",
+      "citation": "Isaiah 24:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "a finibus terrae laudes audivimus gloriam iusti et dixi secretum meum mihi secretum meum mihi vae mihi praevaricantes praevaricati sunt et praevaricatione transgressorum praevaricati sunt",
+      "citation": "Isaiah 24:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "formido et fovea et laqueus super te qui habitator es terrae",
+      "citation": "Isaiah 24:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et erit qui fugerit a voce formidinis cadet in foveam et qui se explicuerit de fovea tenebitur laqueo quia cataractae de excelsis apertae sunt et concutientur fundamenta terrae",
+      "citation": "Isaiah 24:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "confractione confringetur terra contritione conteretur terra commotione commovebitur terra",
+      "citation": "Isaiah 24:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "agitatione agitabitur terra sicut ebrius et auferetur quasi tabernaculum unius noctis et gravabit eam iniquitas sua et corruet et non adiciet ut resurgat",
+      "citation": "Isaiah 24:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et erit in die illa visitabit Dominus super militiam caeli in excelso et super reges terrae qui sunt super terram",
+      "citation": "Isaiah 24:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et congregabuntur in congregationem unius fascis in lacum et cludentur ibi in carcerem et post multos dies visitabuntur",
+      "citation": "Isaiah 24:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et erubescet luna et confundetur sol cum regnaverit Dominus exercituum in monte Sion et in Hierusalem et in conspectu senum suorum fuerit glorificatus",
+      "citation": "Isaiah 24:23 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 138 — 8 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 138,
+    "verseCount": 8,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/137.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/139.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/138.json",
+      "latin": "https://latinprayer.org/latin/psalms/138.json"
+    }
+  },
+  "citation": "Psalmen 138 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Von David.</em> Danken will ich dir (HERR) von ganzem Herzen, vor den Göttern will ich dir lobsingen;",
+      "citation": "Psalmen 138:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "vor deinem heiligen Tempel will ich anbeten und deinen Namen preisen ob deiner Gnade und Treue; denn über deinen ganzen Namen hinaus hast dein Wort du groß gemacht.",
+      "citation": "Psalmen 138:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Als ich rief zu dir, da hast du mich erhört, hast mir Mut verliehn: in mein Herz kam Kraft.",
+      "citation": "Psalmen 138:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Danken werden dir, HERR, alle Könige der Erde, wenn sie hören die Worte deines Mundes,",
+      "citation": "Psalmen 138:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "und werden singen vom Walten des HERRN, denn groß ist die Herrlichkeit des HERRN.",
+      "citation": "Psalmen 138:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Denn der HERR ist erhaben und sieht doch den Niedrigen, den Stolzen aber erkennt er schon von ferne.",
+      "citation": "Psalmen 138:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wenn ich auch mitten in Drangsal wandle, erhältst du mir dennoch das Leben; du streckst deine Hand aus gegen die Wut meiner Feinde, und deine Rechte hilft mir.",
+      "citation": "Psalmen 138:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Der HERR wird’s mir zum Heil vollführen; o HERR, deine Gnade walte für immer: laß die Werke deiner Hände nicht fahren!",
+      "citation": "Psalmen 138:8 (Menge)"
+    }
+  ]
+}

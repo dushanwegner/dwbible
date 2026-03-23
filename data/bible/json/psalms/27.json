@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 27 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 27,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/26.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/28.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/27.json",
+      "german": "https://latinprayer.org/bibel/psalms/27.json"
+    }
+  },
+  "citation": "Psalms 27 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The psalm of David before he was anointed. The Lord is my light and my salvation, whom shall I fear? The Lord is the protector of my life: of whom shall I be afraid?",
+      "citation": "Psalms 27:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Whilst the wicked draw near against me, to eat my flesh. My enemies that trouble me, have themselves been weakened, and have fallen.",
+      "citation": "Psalms 27:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "If armies in camp should stand together against me, my heart shall not fear. If a battle should rise up against me, in this will I be confident.",
+      "citation": "Psalms 27:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "One thing I have asked of the Lord, this will I seek after; that I may dwell in the house of the Lord all the days of my life. That I may see the delight of the Lord, and may visit his temple.",
+      "citation": "Psalms 27:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For he hath hidden me in his tabernacle; in the day of evils, he hath protected me in the secret place of his tabernacle.",
+      "citation": "Psalms 27:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "He hath exalted me upon a rock: and now he hath lifted up my head above my enemies. I have gone round, and have offered up in his tabernacle a sacrifice of jubilation: I will sing, and recite a psalm to the Lord.",
+      "citation": "Psalms 27:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Hear, O Lord, my voice, with which I have cried to thee: have mercy on me and hear me.",
+      "citation": "Psalms 27:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "My heart hath said to thee: My face hath sought thee: thy face, O Lord, will I still seek.",
+      "citation": "Psalms 27:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Turn not away thy face from me; decline not in thy wrath from thy servant. Be thou my helper, forsake me not; do not thou despise me, O God my Saviour.",
+      "citation": "Psalms 27:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For my father and my mother have left me: but the Lord hath taken me up.",
+      "citation": "Psalms 27:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Set me, O Lord, a law in thy way, and guide me in the right path, because of my enemies.",
+      "citation": "Psalms 27:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Deliver me not over to the will of them that trouble me; for unjust witnesses have risen up against me; and iniquity hath lied to itself.",
+      "citation": "Psalms 27:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "I believe to see the good things of the Lord in the land of the living.",
+      "citation": "Psalms 27:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Expect the Lord, do manfully, and let thy heart take courage, and wait thou for the Lord.",
+      "citation": "Psalms 27:14 (Douay-Rheims)"
+    }
+  ]
+}

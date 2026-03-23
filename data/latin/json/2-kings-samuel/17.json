@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Samuel, Chapter 17 — 29 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "order": 10,
+      "totalChapters": 24
+    },
+    "chapter": 17,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-kings-samuel/16.json",
+      "nextChapter": "https://latinprayer.org/latin/2-kings-samuel/18.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-kings-samuel/17.json",
+      "german": "https://latinprayer.org/bibel/2-kings-samuel/17.json"
+    }
+  },
+  "citation": "2 Samuel 17 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "dixit igitur Ahitofel ad Absalom eligam mihi duodecim milia virorum et consurgens persequar David hac nocte",
+      "citation": "2 Samuel 17:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et inruens super eum quippe qui lassus est et solutis manibus percutiam eum cumque fugerit omnis populus qui cum eo est percutiam regem desolatum",
+      "citation": "2 Samuel 17:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et reducam universum populum quomodo omnis reverti solet unum enim virum tu quaeris et omnis populus erit in pace",
+      "citation": "2 Samuel 17:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "placuitque sermo eius Absalom et cunctis maioribus natu Israhel",
+      "citation": "2 Samuel 17:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ait autem Absalom vocate et Husai Arachiten et audiamus quid etiam ipse dicat",
+      "citation": "2 Samuel 17:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "cumque venisset Husai ad Absalom ait Absalom ad eum huiuscemodi sermonem locutus est Ahitofel facere debemus an non quod das consilium",
+      "citation": "2 Samuel 17:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et dixit Husai ad Absalom non bonum consilium quod dedit Ahitofel hac vice",
+      "citation": "2 Samuel 17:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et rursum intulit Husai tu nosti patrem tuum et viros qui cum eo sunt esse fortissimos et amaro animo veluti si ursa raptis catulis in saltu saeviat sed et pater tuus vir bellator est nec morabitur cum populo",
+      "citation": "2 Samuel 17:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "forsitan nunc latitat in foveis aut in uno quo voluerit loco et cum ceciderit unus quilibet in principio audiet quicumque audierit et dicet facta est plaga in populo qui sequebatur Absalom",
+      "citation": "2 Samuel 17:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et fortissimus quoque cuius cor est quasi leonis pavore solvetur scit enim omnis populus Israhel fortem esse patrem tuum et robustos omnes qui cum eo sunt",
+      "citation": "2 Samuel 17:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sed hoc mihi videtur rectum esse consilium congregetur ad te universus Israhel a Dan usque Bersabee quasi harena maris innumerabilis et tu eris in medio eorum",
+      "citation": "2 Samuel 17:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et inruemus super eum in quocumque loco fuerit inventus et operiemus eum sicut cadere solet ros super terram et non relinquemus de viris qui cum eo sunt ne unum quidem",
+      "citation": "2 Samuel 17:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quod si urbem aliquam fuerit ingressus circumdabit omnis Israhel civitati illi funes et trahemus eam in torrentem ut non repperiatur nec calculus quidem ex ea",
+      "citation": "2 Samuel 17:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dixitque Absalom et omnis vir Israhel melius consilium Husai Arachitae consilio Ahitofel Domini autem nutu dissipatum est consilium Ahitofel utile ut induceret Dominus super Absalom malum",
+      "citation": "2 Samuel 17:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et ait Husai Sadoc et Abiathar sacerdotibus hoc et hoc modo consilium dedit Ahitofel Absalom et senibus Israhel et ego tale et tale dedi consilium",
+      "citation": "2 Samuel 17:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "nunc ergo mittite cito et nuntiate David dicentes ne moremini nocte hac in campestribus deserti sed absque dilatione transgredere ne forte absorbeatur rex et omnis populus qui cum eo est",
+      "citation": "2 Samuel 17:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Ionathan autem et Achimaas stabant iuxta fontem Rogel abiit ancilla et nuntiavit eis et illi profecti sunt ut referrent ad regem David nuntium non enim poterant videri aut introire civitatem",
+      "citation": "2 Samuel 17:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "vidit autem eos quidam puer et indicavit Absalom illi vero concito gradu ingressi sunt domum cuiusdam viri in Baurim qui habebat puteum in vestibulo suo et descenderunt in eum",
+      "citation": "2 Samuel 17:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "tulit autem mulier et expandit velamen super os putei quasi siccans ptisanas et sic res latuit",
+      "citation": "2 Samuel 17:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "cumque venissent servi Absalom ad mulierem in domum dixerunt ubi est Achimaas et Ionathan et respondit eis mulier transierunt gustata paululum aqua at hii qui quaerebant cum non repperissent reversi sunt Hierusalem",
+      "citation": "2 Samuel 17:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "cumque abissent ascenderunt illi de puteo et pergentes nuntiaverunt regi David atque dixerunt surgite transite cito fluvium quoniam huiuscemodi dedit consilium contra vos Ahitofel",
+      "citation": "2 Samuel 17:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "surrexit ergo David et omnis populus qui erat cum eo et transierunt Iordanem donec dilucesceret et ne unus quidem residuus fuit qui non transisset fluvium",
+      "citation": "2 Samuel 17:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "porro Ahitofel videns quod non fuisset factum consilium suum stravit asinum suum et surrexit et abiit in domum suam et in civitatem suam et disposita domo sua suspendio interiit et sepultus est in sepulchro patris sui",
+      "citation": "2 Samuel 17:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "David autem venit in Castra et Absalom transivit Iordanem ipse et omnis vir Israhel cum eo",
+      "citation": "2 Samuel 17:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "Amasam vero constituit Absalom pro Ioab super exercitum Amasa autem erat filius viri qui vocabatur Iethra de Hiesreli qui ingressus est ad Abigail filiam Naas sororem Sarviae quae fuit mater Ioab",
+      "citation": "2 Samuel 17:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et castrametatus est Israhel cum Absalom in terra Galaad",
+      "citation": "2 Samuel 17:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "cumque venisset David in Castra Sobi filius Naas de Rabbath filiorum Ammon et Machir filius Ammihel de Lodabar et Berzellai Galaadites de Rogelim",
+      "citation": "2 Samuel 17:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "obtulerunt ei stratoria et tappetia et vasa fictilia frumentum et hordeum et farinam pulentam et fabam et lentem frixum cicer",
+      "citation": "2 Samuel 17:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et mel et butyrum oves et pingues vitulos dederuntque David et populo qui cum eo erat ad vescendum suspicati enim sunt populum fame et siti fatigari in deserto",
+      "citation": "2 Samuel 17:29 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Wisdom, Chapter 17 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Wisdom",
+      "slug": "wisdom",
+      "testament": "OT",
+      "order": 25,
+      "totalChapters": 19
+    },
+    "chapter": 17,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/wisdom/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/wisdom/16.json",
+      "nextChapter": "https://latinprayer.org/latin/wisdom/18.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/wisdom/17.json",
+      "german": "https://latinprayer.org/bibel/wisdom/17.json"
+    }
+  },
+  "citation": "Wisdom 17 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "magna enim sunt iudicia tua et inenarrabilia verba tua propter hoc indisciplinatae animae erraverunt",
+      "citation": "Wisdom 17:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dum enim persuasum habent iniqui posse dominari nationi sanctae vinculis tenebrarum et longae noctis conpediti inclusi sub tectis fugitivi perpetuae providentiae iacuerunt",
+      "citation": "Wisdom 17:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et dum putant se latere in obscuris peccatis tenebroso oblivionis velamento dispersi sunt paventes horrende et cum admiratione nimia perturbati",
+      "citation": "Wisdom 17:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "neque enim quae continebat illos spelunca sine timore custodiebat quoniam sonitus descendens perturbabat illos et personae tristes apparentes pavorem illis praestabant",
+      "citation": "Wisdom 17:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et ignis quidem nulla vis poterat illis lumen praebere nec siderum limpidae flammae inluminare poterant illam noctem horrendam",
+      "citation": "Wisdom 17:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "apparebat autem illis subitaneus ignis timore plenus et timore percussi illius quae non videbatur faciei aestimabant deteriora esse quae videbantur",
+      "citation": "Wisdom 17:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et magicae artis adpositi erant derisus et sapientiae gloriae correptio cum contumelia",
+      "citation": "Wisdom 17:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "illi enim qui promittebant timores turbationes expellere se ab anima languente hi cum derisu pleni timore languebant",
+      "citation": "Wisdom 17:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "nam et si nihil illos ex monstris perturbabat transitu animalium et serpentium sibilatione commoti tremebundi peribant et aerem quem nulla ratione quis effugere posset negantes se videre",
+      "citation": "Wisdom 17:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cum sit enim timida nequitia dat testimonium condemnata semper enim praesumit saeva conturbata conscientia",
+      "citation": "Wisdom 17:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "nihil enim est timor nisi praesumptionis adiutorium proditio cogitationis auxiliorum",
+      "citation": "Wisdom 17:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et dum ab intro minor est expectatio maiorem putat scientiam eius causae de qua tormentum praestat",
+      "citation": "Wisdom 17:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "illi autem qui inpotentem vere noctem et ab infimis et ab altissimis inferis supervenientem eundem somnum dormientes",
+      "citation": "Wisdom 17:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "aliquando monstrorum exagitabantur timore aliquando animae deficiebant traductione subitaneus enim illis et insperatus timor supervenerat",
+      "citation": "Wisdom 17:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "deinde si quicumque ex illis decidisset custodiebatur in carcere sine ferro reclusus",
+      "citation": "Wisdom 17:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "si enim rusticus quis erat aut pastor aut agri laborum operarius praeoccupatus esset ineffugibilem sustinebat necessitatem",
+      "citation": "Wisdom 17:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "una enim catena tenebrarum omnes erant conligati sive spiritus sibilans aut inter spissos ramos avium sonus suavis aut vis aquae decurrentis nimium",
+      "citation": "Wisdom 17:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "aut sonus validus praecipitarum petrarum aut ludentium animalium cursus invisus aut mugientium valida bestiarum vox aut resonans de altissimis montibus echo deficientes faciebat illos prae timore",
+      "citation": "Wisdom 17:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "omnis enim orbis terrarum limpido luminabatur lumine et non inpeditis operibus continebatur",
+      "citation": "Wisdom 17:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "solis autem illis superposita erat gravis nox imago tenebrarum quae superventura illis erat ipsi ergo sibi erant graviores tenebris",
+      "citation": "Wisdom 17:20 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Johannes, Chapter 19 — 42 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Johannes",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 19,
+    "verseCount": 42,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/john/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/john/18.json",
+      "nextChapter": "https://latinprayer.org/bibel/john/20.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/john/19.json",
+      "latin": "https://latinprayer.org/latin/john/19.json"
+    }
+  },
+  "citation": "Johannes 19 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da ließ nun Pilatus Jesus ergreifen und geißeln;",
+      "citation": "Johannes 19:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "dann flochten die Soldaten eine Dornenkrone, setzten sie ihm aufs Haupt und legten ihm einen scharlachroten Mantel um;",
+      "citation": "Johannes 19:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "hierauf traten sie vor ihn hin und riefen aus: »Sei gegrüßt, Judenkönig!« und versetzten ihm Schläge ins Gesicht.",
+      "citation": "Johannes 19:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Pilatus kam dann wieder heraus und sagte zu ihnen: »Seht, ich führe ihn zu euch heraus, damit ihr erkennt, daß ich keinerlei Schuld an ihm finde.«",
+      "citation": "Johannes 19:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "So kam denn Jesus heraus, indem er die Dornenkrone und den Purpurmantel trug, und Pilatus sagte zu ihnen: »Seht, der Mensch!«",
+      "citation": "Johannes 19:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Als ihn nun die Hohenpriester und die Tempeldiener erblickten, schrien sie: »Ans Kreuz mit ihm, ans Kreuz!« Pilatus entgegnete ihnen: »Nehmt ihr ihn und kreuzigt ihn! Denn ich finde keine Schuld an ihm.«",
+      "citation": "Johannes 19:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Die Juden antworteten ihm: »Wir haben ein Gesetz, und nach diesem Gesetz muß er sterben, weil er sich selbst zu Gottes Sohn gemacht hat.«",
+      "citation": "Johannes 19:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Als nun Pilatus dies Wort hörte, geriet er in noch größere Angst;",
+      "citation": "Johannes 19:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "er ging also wieder in die Statthalterei hinein und fragte Jesus: »Woher bist du?« Jesus aber gab ihm keine Antwort.",
+      "citation": "Johannes 19:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Da sagte Pilatus zu ihm: »Mir willst du nicht Rede stehen? Weißt du nicht, daß ich die Macht habe, dich freizugeben, und auch die Macht habe, dich kreuzigen zu lassen?«",
+      "citation": "Johannes 19:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Jesus antwortete ihm: »Du hättest keine Macht über mich, wenn sie dir nicht von oben her gegeben wäre; deshalb trifft den, welcher mich dir ausgeliefert hat, eine größere Schuld.«",
+      "citation": "Johannes 19:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Von da an suchte Pilatus ihn freizugeben; aber die Juden schrien: »Gibst du diesen frei, so bist du kein Freund des Kaisers! Jeder, der sich selbst zum König macht, lehnt sich gegen den Kaiser auf!«",
+      "citation": "Johannes 19:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Als Pilatus diese Worte hörte, ließ er Jesus hinausführen und setzte sich auf den Richterstuhl an dem Platze, welcher ›Steinpflaster‹, auf hebräisch Gabbatha, heißt.",
+      "citation": "Johannes 19:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Es war aber der Rüsttag auf das Passahfest, und zwar um die sechste Stunde. Nun sagte Pilatus zu den Juden: »Seht, da ist euer König!«",
+      "citation": "Johannes 19:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Da schrien jene: »Weg, weg mit ihm, kreuzige ihn!« Pilatus entgegnete ihnen: »Euren König soll ich kreuzigen lassen?« Die Hohenpriester antworteten: »Wir haben keinen König als den Kaiser!«",
+      "citation": "Johannes 19:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "a Darauf übergab er ihnen Jesus zur Kreuzigung. b So übernahmen sie denn Jesus;",
+      "citation": "Johannes 19:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "und dieser ging, indem er sein Kreuz selber trug, (aus der Stadt) hinaus nach der sogenannten ›Schädelstätte‹, die auf hebräisch Golgatha heißt;",
+      "citation": "Johannes 19:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "dort kreuzigten sie ihn und mit ihm noch zwei andere auf beiden Seiten, Jesus aber in der Mitte.",
+      "citation": "Johannes 19:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Auch eine Aufschrift hatte Pilatus schreiben und oben am Kreuz anbringen lassen; sie lautete: »Jesus von Nazareth, der König der Juden.«",
+      "citation": "Johannes 19:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Diese Aufschrift nun lasen viele von den Juden, weil der Platz, wo Jesus gekreuzigt wurde, nahe bei der Stadt lag und die Aufschrift in hebräischer, römischer und griechischer Sprache abgefaßt war.",
+      "citation": "Johannes 19:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Da sagten die Hohenpriester der Juden zu Pilatus: »Schreibe nicht: ›Der König der Juden‹, sondern: ›Dieser Mensch hat behauptet, er sei der König der Juden‹!«",
+      "citation": "Johannes 19:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Pilatus (aber) antwortete: »Was ich geschrieben habe, das habe ich geschrieben!«",
+      "citation": "Johannes 19:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Als nun die Soldaten Jesus gekreuzigt hatten, nahmen sie seine Kleidungsstücke und machten vier Teile daraus, für jeden Soldaten einen Teil, außerdem noch das Unterkleid. Dieses Unterkleid war aber ohne Naht, von oben an in einem Stück gewebt.",
+      "citation": "Johannes 19:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Da sagten sie zueinander: »Wir wollen es nicht zerschneiden, sondern darum losen, wem es gehören soll« – so sollte das Schriftwort seine Erfüllung finden: »Sie haben meine Kleider unter sich verteilt und über mein Gewand das Los geworfen.« Auf diese Weise verfuhren also die Soldaten.",
+      "citation": "Johannes 19:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Es standen aber beim Kreuze Jesu seine Mutter und die Schwester seiner Mutter, auch Maria, die Frau des Klopas, und Maria von Magdala.",
+      "citation": "Johannes 19:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Als nun Jesus seine Mutter und neben ihr den Jünger, den er (besonders) lieb hatte, stehen sah, sagte er zu seiner Mutter: »Frau, siehe dein Sohn!«",
+      "citation": "Johannes 19:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Darauf sagte er zu dem Jünger: »Siehe deine Mutter!« Und von dieser Stunde an nahm der Jünger sie zu sich in sein Haus.",
+      "citation": "Johannes 19:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Darauf, weil Jesus wußte, daß nunmehr alles vollbracht war, sagte er, damit die Schrift ganz erfüllt würde: »Mich dürstet.«",
+      "citation": "Johannes 19:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Es stand dort nun ein mit Essig gefülltes Gefäß. Sie umwickelten also einen mit dem Essig getränkten Schwamm mit Ysop und hielten ihm diesen an den Mund.",
+      "citation": "Johannes 19:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Als nun Jesus den Essig genommen hatte, sagte er: »Es ist vollbracht!«, neigte dann das Haupt und gab den Geist auf.",
+      "citation": "Johannes 19:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Weil es nun Rüsttag war, trugen die Juden, damit die Leichen nicht während des Sabbats am Kreuz blieben – dieser Sabbattag war nämlich ein hoher Festtag –, dem Pilatus die Bitte vor, es möchten ihnen die Schenkel mit Keulen zerschlagen und sie dann (vom Kreuz) herabgenommen werden.",
+      "citation": "Johannes 19:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "So kamen denn die Soldaten und zerschlugen dem ersten die Schenkel, ebenso auch dem andern, der mit (Jesus) gekreuzigt worden war.",
+      "citation": "Johannes 19:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "Als sie aber zu Jesus kamen und sahen, daß er bereits tot war, zerschlugen sie ihm die Schenkel nicht,",
+      "citation": "Johannes 19:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "sondern einer von den Soldaten stieß ihn mit seiner Lanze in die Seite; da floß sogleich Blut und Wasser heraus.",
+      "citation": "Johannes 19:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Ein Augenzeuge hat dies bezeugt, und sein Zeugnis ist zuverlässig, und jener weiß, daß er die Wahrheit sagt, damit auch ihr zum Glauben kommet.",
+      "citation": "Johannes 19:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "Dies ist nämlich geschehen, damit das Schriftwort erfüllt würde: »Es soll kein Knochen an ihm zerbrochen werden.«",
+      "citation": "Johannes 19:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "Und noch eine andere Schriftstelle lautet: »Sie werden auf den blicken, den sie durchbohrt haben.«",
+      "citation": "Johannes 19:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "Hierauf trug Joseph von Arimathäa, der ein Jünger Jesu war – allerdings war er’s nur im geheimen aus Furcht vor den Juden –, dem Pilatus die Bitte vor, daß er den Leichnam Jesu vom Kreuze abnehmen dürfe; und Pilatus gewährte ihm die Bitte. So ging er denn hin und nahm seinen Leichnam (vom Kreuz) ab.",
+      "citation": "Johannes 19:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "Aber auch Nikodemus kam, derselbe, der zum erstenmal bei Nacht zu Jesus gekommen war, und brachte eine Mischung von Myrrhe und Aloe mit, wohl hundert Pfund.",
+      "citation": "Johannes 19:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "So nahmen sie denn den Leib Jesu und banden ihn ein in Leinwandstreifen mitsamt den wohlriechenden Stoffen, wie es Sitte der Juden bei Bestattungen ist.",
+      "citation": "Johannes 19:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "Es lag aber bei dem Platze, wo er gekreuzigt worden war, ein Garten, und in dem Garten (befand sich) ein neues Grab, in welchem bisher noch niemand beigesetzt worden war.",
+      "citation": "Johannes 19:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "Dorthin brachten sie nun Jesus mit Rücksicht auf den jüdischen Rüsttag, weil das Grab sich in der Nähe befand.",
+      "citation": "Johannes 19:42 (Menge)"
+    }
+  ]
+}

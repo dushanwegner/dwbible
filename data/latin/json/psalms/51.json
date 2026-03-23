@@ -1,0 +1,246 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 51 — 42 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 51,
+    "verseCount": 42,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/50.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/52.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/51.json",
+      "german": "https://latinprayer.org/bibel/psalms/51.json"
+    }
+  },
+  "citation": "Psalms 51 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in finem psalmus David",
+      "citation": "Psalms 51:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "miserere mei Deus secundum %magnam; misericordiam tuam %et; secundum multitudinem miserationum tuarum dele iniquitatem meam",
+      "citation": "Psalms 51:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori canticum David",
+      "citation": "Psalms 51:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "miserere mei Deus secundum misericordiam tuam iuxta multitudinem miserationum tuarum dele iniquitates meas",
+      "citation": "Psalms 51:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "amplius lava me ab iniquitate mea et a peccato meo munda me",
+      "citation": "Psalms 51:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cum venit Doec Idumeus et adnuntiavit Saul et dixit venit David in domo Achimelech",
+      "citation": "Psalms 51:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "multum lava me ab iniquitate mea et a peccato meo munda me",
+      "citation": "Psalms 51:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "cum venisset Doec Idumeus et adnuntiasset Saul dicens ei venit David in domum Achimelech",
+      "citation": "Psalms 51:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quoniam iniquitatem meam ego cognosco et peccatum meum contra me est semper",
+      "citation": "Psalms 51:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quoniam iniquitates meas ego novi et peccatum meum contra me est semper",
+      "citation": "Psalms 51:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "tibi soli peccavi et malum coram te feci ut iustificeris in sermonibus tuis et vincas cum iudicaris",
+      "citation": "Psalms 51:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "tibi soli peccavi et malum coram te feci ut iustificeris in sermonibus tuis et vincas cum iudicaveris",
+      "citation": "Psalms 51:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ecce enim in iniquitatibus conceptus sum et in peccatis concepit me mater mea",
+      "citation": "Psalms 51:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ecce in iniquitate conceptus sum et in peccato peperit me mater mea",
+      "citation": "Psalms 51:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ecce enim veritatem dilexisti incerta et occulta sapientiae tuae manifestasti mihi",
+      "citation": "Psalms 51:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ecce enim veritatem diligis absconditum et arcanum sapientiae manifestasti mihi",
+      "citation": "Psalms 51:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "asparges me hysopo et mundabor lavabis me et super nivem dealbabor",
+      "citation": "Psalms 51:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "asparges me hysopo et mundabor lavabis me et super nivem dealbabor",
+      "citation": "Psalms 51:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "auditui meo dabis gaudium et laetitiam exultabunt ossa humiliata",
+      "citation": "Psalms 51:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "auditum mihi facies gaudium et laetitiam ut exultent ossa quae confregisti",
+      "citation": "Psalms 51:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "averte faciem tuam a peccatis meis et omnes iniquitates meas dele",
+      "citation": "Psalms 51:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "absconde faciem tuam a peccatis meis et omnes iniquitates meas dele",
+      "citation": "Psalms 51:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cor mundum crea in me Deus et spiritum rectum innova in visceribus meis",
+      "citation": "Psalms 51:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cor mundum crea mihi Deus et spiritum stabilem renova in visceribus meis",
+      "citation": "Psalms 51:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ne proicias me a facie tua et spiritum sanctum tuum ne auferas a me",
+      "citation": "Psalms 51:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ne proicias me a facie tua et spiritum sanctum tuum ne auferas a me",
+      "citation": "Psalms 51:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "redde mihi laetitiam salutaris tui et spiritu principali confirma me",
+      "citation": "Psalms 51:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "redde mihi laetitiam Iesu tui et spiritu potenti confirma me",
+      "citation": "Psalms 51:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "docebo iniquos vias tuas et impii ad te convertentur",
+      "citation": "Psalms 51:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "docebo iniquos vias tuas et peccatores ad te revertentur",
+      "citation": "Psalms 51:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "libera me de sanguinibus Deus Deus salutis meae exultabit lingua mea iustitiam tuam",
+      "citation": "Psalms 51:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "libera me de sanguinibus Deus Deus salutis meae laudabit lingua mea iustitiam tuam",
+      "citation": "Psalms 51:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "Domine labia mea aperies et os meum adnuntiabit laudem tuam",
+      "citation": "Psalms 51:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "Domine labia mea aperies et os meum adnuntiabit laudem tuam",
+      "citation": "Psalms 51:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "quoniam si voluisses sacrificium dedissem utique holocaustis non delectaberis",
+      "citation": "Psalms 51:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "non enim vis ut victimam feriam nec holocaustum tibi placet",
+      "citation": "Psalms 51:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sacrificium Deo spiritus contribulatus cor contritum et humiliatum Deus non spernet",
+      "citation": "Psalms 51:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sacrificium Dei spiritus contribulatus cor contritum et humiliatum Deus non dispicies",
+      "citation": "Psalms 51:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "benigne fac Domine in bona voluntate tua Sion et aedificentur muri Hierusalem",
+      "citation": "Psalms 51:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "benefac Domine in voluntate tua Sion et aedificentur muri Hierusalem",
+      "citation": "Psalms 51:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "tunc acceptabis sacrificium iustitiae oblationes et holocausta tunc inponent super altare tuum vitulos",
+      "citation": "Psalms 51:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "tunc suscipies sacrificium iustitiae oblationes et holocausta tunc inponent super altare tuum vitulos",
+      "citation": "Psalms 51:19 (Clementine Vulgate)"
+    }
+  ]
+}

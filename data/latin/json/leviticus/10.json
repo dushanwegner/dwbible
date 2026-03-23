@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Leviticus, Chapter 10 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Leviticus",
+      "slug": "leviticus",
+      "testament": "OT",
+      "order": 3,
+      "totalChapters": 27
+    },
+    "chapter": 10,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/leviticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/leviticus/9.json",
+      "nextChapter": "https://latinprayer.org/latin/leviticus/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/leviticus/10.json",
+      "german": "https://latinprayer.org/bibel/leviticus/10.json"
+    }
+  },
+  "citation": "Leviticus 10 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "arreptisque Nadab et Abiu filii Aaron turibulis posuerunt ignem et incensum desuper offerentes coram Domino ignem alienum quod eis praeceptum non erat",
+      "citation": "Leviticus 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "egressusque ignis a Domino devoravit eos et mortui sunt coram Domino",
+      "citation": "Leviticus 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "dixitque Moses ad Aaron hoc est quod locutus est Dominus sanctificabor in his qui adpropinquant mihi et in conspectu omnis populi glorificabor quod audiens tacuit Aaron",
+      "citation": "Leviticus 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "vocatis autem Moses Misahel et Elsaphan filios Ozihel patrui Aaron ait ad eos ite et colligite fratres vestros de conspectu sanctuarii et asportate extra castra",
+      "citation": "Leviticus 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "confestimque pergentes tulerunt eos sicut iacebant vestitos lineis tunicis et eiecerunt foras ut sibi fuerat imperatum",
+      "citation": "Leviticus 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "locutus est Moses ad Aaron et ad Eleazar atque Ithamar filios eius capita vestra nolite nudare et vestimenta nolite scindere ne forte moriamini et super omnem coetum oriatur indignatio fratres vestri et omnis domus Israhel plangant incendium quod Dominus suscitavit",
+      "citation": "Leviticus 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "vos autem non egredimini fores tabernaculi alioquin peribitis oleum quippe sanctae unctionis est super vos qui fecerunt omnia iuxta praeceptum Mosi",
+      "citation": "Leviticus 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "dixit quoque Dominus ad Aaron",
+      "citation": "Leviticus 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "vinum et omne quod inebriare potest non bibetis tu et filii tui quando intratis tabernaculum testimonii ne moriamini quia praeceptum est sempiternum in generationes vestras",
+      "citation": "Leviticus 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ut habeatis scientiam discernendi inter sanctum et profanum inter pollutum et mundum",
+      "citation": "Leviticus 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "doceatisque filios Israhel omnia legitima mea quae locutus est Dominus ad eos per manum Mosi",
+      "citation": "Leviticus 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "locutusque est Moses ad Aaron et ad Eleazar atque Ithamar filios eius qui residui erant tollite sacrificium quod remansit de oblatione Domini et comedite illud absque fermento iuxta altare quia sanctum sanctorum est",
+      "citation": "Leviticus 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "comedetis autem in loco sancto quod datum est tibi et filiis tuis de oblationibus Domini sicut praeceptum est mihi",
+      "citation": "Leviticus 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "pectusculum quoque quod oblatum est et armum qui separatus est edetis in loco mundissimo tu et filii tui ac filiae tuae tecum tibi enim ac liberis tuis reposita sunt de hostiis salutaribus filiorum Israhel",
+      "citation": "Leviticus 10:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "eo quod armum et pectus et adipes qui cremantur in altari elevaverint coram Domino et pertineant ad te et ad filios tuos lege perpetua sicut praecepit Dominus",
+      "citation": "Leviticus 10:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "inter haec hircum qui oblatus fuerat pro peccato cum quaereret Moses exustum repperit iratusque contra Eleazar et Ithamar filios Aaron qui remanserant ait",
+      "citation": "Leviticus 10:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "cur non comedistis hostiam pro peccato in loco sancto quae sancta sanctorum est et data vobis ut portetis iniquitatem multitudinis et rogetis pro ea in conspectu Domini",
+      "citation": "Leviticus 10:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "praesertim cum de sanguine illius non sit inlatum intra sancta et comedere eam debueritis in sanctuario sicut praeceptum est mihi",
+      "citation": "Leviticus 10:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "respondit Aaron oblata est hodie victima pro peccato et holocaustum coram Domino mihi autem accidit quod vides quomodo potui comedere eam aut placere Domino in caerimoniis mente lugubri",
+      "citation": "Leviticus 10:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quod cum audisset Moses recepit satisfactionem",
+      "citation": "Leviticus 10:20 (Clementine Vulgate)"
+    }
+  ]
+}

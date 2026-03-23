@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Thessalonians, Chapter 5 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Thessalonians",
+      "slug": "1-thessalonians",
+      "testament": "NT",
+      "order": 59,
+      "totalChapters": 5
+    },
+    "chapter": 5,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-thessalonians/4.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-thessalonians/5.json",
+      "german": "https://latinprayer.org/bibel/1-thessalonians/5.json"
+    }
+  },
+  "citation": "1 Thessalonians 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "de temporibus autem et momentis fratres non indigetis ut scribamus vobis",
+      "citation": "1 Thessalonians 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ipsi enim diligenter scitis quia dies Domini sicut fur in nocte ita veniet",
+      "citation": "1 Thessalonians 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cum enim dixerint pax et securitas tunc repentinus eis superveniet interitus sicut dolor in utero habenti et non effugient",
+      "citation": "1 Thessalonians 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "vos autem fratres non estis in tenebris ut vos dies ille tamquam fur conprehendat",
+      "citation": "1 Thessalonians 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "omnes enim vos filii lucis estis et filii diei non sumus noctis neque tenebrarum",
+      "citation": "1 Thessalonians 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "igitur non dormiamus sicut ceteri sed vigilemus et sobrii simus",
+      "citation": "1 Thessalonians 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "qui enim dormiunt nocte dormiunt et qui ebrii sunt nocte ebrii sunt",
+      "citation": "1 Thessalonians 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "nos autem qui diei sumus sobrii simus induti loricam fidei et caritatis et galeam spem salutis",
+      "citation": "1 Thessalonians 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quoniam non posuit nos Deus in iram sed in adquisitionem salutis per Dominum nostrum Iesum Christum",
+      "citation": "1 Thessalonians 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "qui mortuus est pro nobis ut sive vigilemus sive dormiamus simul cum illo vivamus",
+      "citation": "1 Thessalonians 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "propter quod consolamini invicem et aedificate alterutrum sicut et facitis",
+      "citation": "1 Thessalonians 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "rogamus autem vos fratres ut noveritis eos qui laborant inter vos et praesunt vobis in Domino et monent vos",
+      "citation": "1 Thessalonians 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ut habeatis illos abundantius in caritate propter opus illorum pacem habete cum eis",
+      "citation": "1 Thessalonians 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "rogamus autem vos fratres corripite inquietos consolamini pusillianimes suscipite infirmos patientes estote ad omnes",
+      "citation": "1 Thessalonians 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "videte ne quis malum pro malo alicui reddat sed semper quod bonum est sectamini et in invicem et in omnes",
+      "citation": "1 Thessalonians 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "semper gaudete",
+      "citation": "1 Thessalonians 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sine intermissione orate",
+      "citation": "1 Thessalonians 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "in omnibus gratias agite haec enim voluntas Dei est in Christo Iesu in omnibus vobis",
+      "citation": "1 Thessalonians 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Spiritum nolite extinguere",
+      "citation": "1 Thessalonians 5:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "prophetias nolite spernere",
+      "citation": "1 Thessalonians 5:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "omnia autem probate quod bonum est tenete",
+      "citation": "1 Thessalonians 5:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "ab omni specie mala abstinete vos",
+      "citation": "1 Thessalonians 5:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ipse autem Deus pacis sanctificet vos per omnia et integer spiritus vester et anima et corpus sine querella in adventu Domini nostri Iesu Christi servetur",
+      "citation": "1 Thessalonians 5:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "fidelis est qui vocavit vos qui etiam faciet",
+      "citation": "1 Thessalonians 5:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "fratres orate pro nobis",
+      "citation": "1 Thessalonians 5:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "salutate fratres omnes in osculo sancto",
+      "citation": "1 Thessalonians 5:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "adiuro vos per Dominum ut legatur epistula omnibus sanctis fratribus",
+      "citation": "1 Thessalonians 5:27 (Clementine Vulgate)"
+    }
+  ]
+}

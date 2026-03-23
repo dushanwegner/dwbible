@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Romans, Chapter 13 — 14 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 52,
+      "totalChapters": 16
+    },
+    "chapter": 13,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/romans/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/romans/12.json",
+      "nextChapter": "https://latinprayer.org/bible/romans/14.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/romans/13.json",
+      "german": "https://latinprayer.org/bibel/romans/13.json"
+    }
+  },
+  "citation": "Romans 13 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Let every soul be subject to higher powers. For there is no power but from God: and those that are ordained of God.",
+      "citation": "Romans 13:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Therefore, he that resisteth the power resisteth the ordinance of God. And they that resist purchase to themselves damnation.",
+      "citation": "Romans 13:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "For princes are not a terror to the good work, but to the evil. Wilt thou then not be afraid of the power? Do that which is good: and thou shalt have praise from the same.",
+      "citation": "Romans 13:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For he is God's minister to thee, for good. But if thou do that which is evil, fear: for he beareth not the sword in vain.  For he is God's minister: an avenger to execute wrath upon him that doth evil.",
+      "citation": "Romans 13:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Wherefore be subject of necessity: not only for wrath, but also for conscience' sake.",
+      "citation": "Romans 13:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For therefore also you pay tribute. For they are the ministers of God, serving unto this purpose.",
+      "citation": "Romans 13:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Render therefore to all men their dues. Tribute, to whom tribute is due: custom, to whom custom: fear, to whom fear: honour, to whom honour.",
+      "citation": "Romans 13:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Owe no man any thing, but to love one another. For he that loveth his neighbour hath fulfilled the law.",
+      "citation": "Romans 13:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For: Thou shalt not commit adultery: Thou shalt not kill: Thou shalt not steal: Thou shalt not bear false witness: Thou shalt not covet. And if there be any other commandment, it is comprised in this word: Thou shalt love thy neighbour as thyself.",
+      "citation": "Romans 13:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "The love of our neighbour worketh no evil. Love therefore is the fulfilling of the law.",
+      "citation": "Romans 13:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And that, knowing the season, that it is now the hour for us to rise from sleep. For now our salvation is nearer than when we believed.",
+      "citation": "Romans 13:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The night is passed And the day is at hand. Let us, therefore cast off the works of darkness and put on the armour of light.",
+      "citation": "Romans 13:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Let us walk honestly, as in the day: not in rioting and drunkenness, not in chambering and impurities, not in contention and envy.",
+      "citation": "Romans 13:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "But put ye on the Lord Jesus Christ: and make not provision for the flesh in its concupiscences.",
+      "citation": "Romans 13:14 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 48 — 22 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 48,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/47.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/49.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/48.json",
+      "german": "https://latinprayer.org/bibel/isaias/48.json"
+    }
+  },
+  "citation": "Isaias 48 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Hear ye these things, O house of Jacob, you that are called by the name of Israel, and are come forth out of the waters of Juda, you who swear by the name of the Lord, and make mention of the God of Israel, but not in truth, nor in justice.",
+      "citation": "Isaias 48:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "For they are called of the holy city, and are established upon the God of Israel: the Lord of hosts is his name.",
+      "citation": "Isaias 48:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "The former things of old, I have declared, and they went forth out of my mouth, and I have made them to be heard: I did them suddenly and they came to pass.",
+      "citation": "Isaias 48:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For I knew that thou art stubborn, and thy neck is as an iron sinew, and thy forehead as brass.",
+      "citation": "Isaias 48:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "I foretold thee of old, before they came to pass I told thee, lest thou shouldst say: My idols have done these things, and my graven and molten things have commanded them.",
+      "citation": "Isaias 48:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "See now all the things which thou hast heard: but have you declared them? I have shewn thee new things from that time, and things are kept which thou knowest not:",
+      "citation": "Isaias 48:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "They are created now, and not of old: and before the day, when thou heardest them not, lest thou shouldst say: Behold I knew them.",
+      "citation": "Isaias 48:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Thou hast neither heard, nor known, neither was thy ear opened of old. For I know that transgressing thou wilt transgress, and I have called thee a transgressor from the womb.",
+      "citation": "Isaias 48:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For my name's sake I will remove my wrath far off: and for my praise I will bridle thee, lest thou shouldst perish.",
+      "citation": "Isaias 48:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Behold I have refined thee, but not as silver, I have chosen thee in the furnace of poverty.",
+      "citation": "Isaias 48:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "For my own sake, for my own sake will I do it, that I may not be blasphemed: and I will not give my glory to another.",
+      "citation": "Isaias 48:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Hearken to me, O Jacob, and thou Israel whom I call: I am he, I am the first, and I am the last.",
+      "citation": "Isaias 48:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "My hand also hath founded the earth, and my right hand hath measured the heavens: I shall call them, and they shall stand together.",
+      "citation": "Isaias 48:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Assemble yourselves together, all you, and hear: who among them hath declared these things? the Lord hath loved him, he will do his pleasure in Babylon, and his arm shall be on the Chaldeans.",
+      "citation": "Isaias 48:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "I, even I have spoken and called him: I have brought him, and his way is made prosperous.",
+      "citation": "Isaias 48:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Come ye near unto me, and hear this: I have not spoken in secret from the beginning: from the time before it was done, I was there, and now the Lord God hath sent me, and his spirit.",
+      "citation": "Isaias 48:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Thus saith the Lord thy redeemer, the Holy One of Israel: I am the Lord thy God that teach thee profitable things, that govern thee in the way that thou walkest.",
+      "citation": "Isaias 48:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "O that thou hadst hearkened to my commandments: thy peace had been as a river, and thy justice as the waves of the sea,",
+      "citation": "Isaias 48:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And thy seed had been as the sand, and the offspring of thy bowels like the gravel thereof: his name should not have perished, nor have been destroyed from before my face.",
+      "citation": "Isaias 48:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Come forth out of Babylon, flee ye from the Chaldeans, declare it with the voice of joy: make this to be heard, and speak it out even to the ends of the earth. Say: The Lord hath redeemed his servant Jacob.",
+      "citation": "Isaias 48:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "They thirsted not in the desert, when he led them out: he brought forth water out of the rock for them, and he clove the rock, and the waters gushed out.",
+      "citation": "Isaias 48:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "There is no peace to the wicked, saith the Lord.",
+      "citation": "Isaias 48:22 (Douay-Rheims)"
+    }
+  ]
+}

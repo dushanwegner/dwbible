@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Habakkuk, Chapter 1 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Habakkuk",
+      "slug": "habacuc",
+      "testament": "OT",
+      "order": 40,
+      "totalChapters": 3
+    },
+    "chapter": 1,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/habacuc/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/habacuc/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/habacuc/1.json",
+      "german": "https://latinprayer.org/bibel/habacuc/1.json"
+    }
+  },
+  "citation": "Habakkuk 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "onus quod vidit Abacuc propheta",
+      "citation": "Habakkuk 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "usquequo Domine clamabo et non exaudies vociferabor ad te vim patiens et non salvabis",
+      "citation": "Habakkuk 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quare ostendisti mihi iniquitatem et laborem videre praeda et iniustitia contra me et factum est iudicium et contradictio potentior",
+      "citation": "Habakkuk 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "propter hoc lacerata est lex et non pervenit usque ad finem iudicium quia impius praevalet adversus iustum propterea egreditur iudicium perversum",
+      "citation": "Habakkuk 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "aspicite in gentibus et videte et admiramini et obstupescite quia opus factum est in diebus vestris quod nemo credet cum narrabitur",
+      "citation": "Habakkuk 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quia ecce ego suscitabo Chaldeos gentem amaram et velocem ambulantem super latitudinem terrae ut possideat tabernacula non sua",
+      "citation": "Habakkuk 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "horribilis et terribilis est ex semet ipsa iudicium et onus eius egredietur",
+      "citation": "Habakkuk 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "leviores pardis equi eius et velociores lupis vespertinis et diffundentur equites eius equites namque eius de longe venient volabunt quasi aquila festinans ad comedendum",
+      "citation": "Habakkuk 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "omnes ad praedam venient facies eorum ventus urens et congregabit quasi harenam captivitatem",
+      "citation": "Habakkuk 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et ipse de regibus triumphabit et tyranni ridiculi eius erunt ipse super omnem munitionem ridebit et conportabit aggerem et capiet eam",
+      "citation": "Habakkuk 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "tunc mutabitur spiritus et pertransibit et corruet haec est fortitudo eius dei sui",
+      "citation": "Habakkuk 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "numquid non tu a principio Domine Deus meus Sancte meus et non moriemur Domine in iudicium posuisti eum et fortem ut corriperes fundasti eum",
+      "citation": "Habakkuk 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "mundi sunt oculi tui ne videas malum et respicere ad iniquitatem non poteris quare non respicis super inique agentes et taces devorante impio iustiorem se",
+      "citation": "Habakkuk 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et facies homines quasi pisces maris et quasi reptile non habens principem",
+      "citation": "Habakkuk 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "totum in hamo sublevavit traxit illud in sagena sua et congregavit in rete suo super hoc laetabitur et exultabit",
+      "citation": "Habakkuk 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "propterea immolabit sagenae suae et sacrificabit reti suo quia in ipsis incrassata est pars eius et cibus eius electus",
+      "citation": "Habakkuk 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "propter hoc ergo expandit sagenam suam et semper interficere gentes non parcet",
+      "citation": "Habakkuk 1:17 (Clementine Vulgate)"
+    }
+  ]
+}

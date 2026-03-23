@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 18 — 7 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 18,
+    "verseCount": 7,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/17.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/19.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/18.json",
+      "german": "https://latinprayer.org/bibel/isaias/18.json"
+    }
+  },
+  "citation": "Isaias 18 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Woe to the land, the winged cymbal, which is beyond the rivers of Ethiopia,",
+      "citation": "Isaias 18:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "That sendeth ambassadors by the sea, and in vessels of bulrushes upon the waters. Go, ye swift angels, to a nation rent and torn in pieces: to a terrible people, after which there is no other: to a nation expecting and trodden underfoot, whose land the rivers have spoiled.",
+      "citation": "Isaias 18:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "All ye inhabitants of the world, who dwell on the earth, when the sign shall be lifted up on the mountains, you shall see, and you shall hear the sound of the trumpet.",
+      "citation": "Isaias 18:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For thus saith the Lord to me: I will take my rest, and consider in my place, as the noon light is clear, and as a cloud of dew in the day of harvest.",
+      "citation": "Isaias 18:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "For before the harvest it was all flourishing, and it shall bud without perfect ripeness, and the sprigs thereof shall be cut off with pruning hooks: and what is left shall be cut away and shaken out.",
+      "citation": "Isaias 18:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And they shall be left together to the birds of the mountains, and the beasts of the earth: and the fowls shall be upon them all the summer, and all the beasts of the earth shall winter upon them.",
+      "citation": "Isaias 18:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "At that time shall a present be brought to the Lord of hosts, from a people rent and torn in pieces: from a terrible people, after which there hath been no other: from a nation expecting, expecting and trodden under foot, whose land the rivers have spoiled, to the place of the name of the Lord of hosts, to mount Sion.",
+      "citation": "Isaias 18:7 (Douay-Rheims)"
+    }
+  ]
+}

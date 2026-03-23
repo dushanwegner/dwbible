@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 125 — 10 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 125,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/124.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/126.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/125.json",
+      "german": "https://latinprayer.org/bibel/psalms/125.json"
+    }
+  },
+  "citation": "Psalms 125 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "canticum graduum qui confidunt in Domino sicut mons Sion non commovebitur in aeternum qui habitat",
+      "citation": "Psalms 125:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "canticum graduum qui confidunt in Domino quasi mons Sion inmobilis in aeternum habitabilis",
+      "citation": "Psalms 125:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in Hierusalem montes in circuitu eius et Dominus in circuitu populi sui ex hoc nunc et usque in saeculum",
+      "citation": "Psalms 125:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Hierusalem montes in circuitu eius et Dominus in circuitu populi sui amodo et usque in aeternum",
+      "citation": "Psalms 125:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia non relinquet virgam peccatorum super sortem iustorum ut non extendant iusti ad iniquitatem manus suas",
+      "citation": "Psalms 125:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia non requiescet virga impietatis super sortem iustorum ut non mittant iusti in iniquitatem manus suas",
+      "citation": "Psalms 125:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "benefac Domine bonis et rectis corde",
+      "citation": "Psalms 125:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "benefac Domine bonis et rectis corde",
+      "citation": "Psalms 125:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "declinantes autem in obligationes adducet Dominus cum operantibus iniquitatem pax super Israhel",
+      "citation": "Psalms 125:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "qui autem declinant ad pravitates suas deducet eos Dominus cum his qui operantur iniquitatem pax super Israhel",
+      "citation": "Psalms 125:5 (Clementine Vulgate)"
+    }
+  ]
+}

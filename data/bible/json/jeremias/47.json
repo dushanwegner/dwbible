@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremias, Chapter 47 — 7 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremias",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 47,
+    "verseCount": 7,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/jeremias/46.json",
+      "nextChapter": "https://latinprayer.org/bible/jeremias/48.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/jeremias/47.json",
+      "german": "https://latinprayer.org/bibel/jeremias/47.json"
+    }
+  },
+  "citation": "Jeremias 47 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The word of the Lord that came to Jeremias the prophet against the people of Palestine, before Pharao took Gaza.",
+      "citation": "Jeremias 47:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Thus saith the Lord: Behold there come up waters out of the north, and they shall be as an overflowing torrent, and they shall cover the land, and all that is therein, the city and the inhabitants thereof: then the men shall cry, and all the inhabitants of the land shall howl,",
+      "citation": "Jeremias 47:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "At the noise of the marching of arms, and of his soldiers, at the rushing of his chariots, and the multitude of his wheels. The fathers have not looked back to the children, for feebleness of hands,",
+      "citation": "Jeremias 47:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Because of the coming of the day, in which all the Philistines shall be laid waste, and Tyre and Sidon shall be destroyed, with all the rest of their helpers. For the Lord hath wasted the Philistines, the remnant of the isle of Cappadocia.",
+      "citation": "Jeremias 47:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Baldness is come upon Gaza: Ascalon hath held her peace with the remnant of their valley: how long shalt thou cut thyself?",
+      "citation": "Jeremias 47:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "O thou sword of the Lord, how long wilt thou not be quiet?  Go into thy scabbard, rest, and be still.",
+      "citation": "Jeremias 47:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "How shall it be quiet, when the Lord hath given it a charge against Ascalon, and against the countries thereof by the sea side, and there hath made an appointment for it?",
+      "citation": "Jeremias 47:7 (Douay-Rheims)"
+    }
+  ]
+}

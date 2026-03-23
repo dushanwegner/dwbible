@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 15 — 21 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 15,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/genesis/14.json",
+      "nextChapter": "https://latinprayer.org/bibel/genesis/16.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/15.json",
+      "latin": "https://latinprayer.org/latin/genesis/15.json"
+    }
+  },
+  "citation": "Genesis 15 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Nach diesen Begebenheiten erging das Wort des HERRN an Abram in einem Gesicht also: »Fürchte dich nicht, Abram! Ich bin ja dein Schild; dein Lohn soll sehr groß sein.«",
+      "citation": "Genesis 15:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Abram aber antwortete: »Ach HERR, mein Gott, was könntest du mir geben? Ich gehe ja als kinderloser Mann dahin, und der Besitzer meines Vermögens wird (mein hausgeborener Knecht) Elieser von Damaskus sein.«",
+      "citation": "Genesis 15:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Dann fuhr Abram fort: »Ach, du hast mir ja keine Kinder gegeben [darum wird einer von den Knechten meines Hauses mein Erbe sein]!«",
+      "citation": "Genesis 15:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Aber da erging das Wort des HERRN an ihn also: »Nicht dieser soll dein Erbe sein; sondern ein leiblicher Sproß soll es sein, der dich beerbt.«",
+      "citation": "Genesis 15:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Darauf ließ er ihn ins Freie hinaustreten und sagte: »Blicke zum Himmel empor und zähle die Sterne, wenn du sie zählen kannst!« Dann fuhr er fort: »So (unzählbar) soll deine Nachkommenschaft sein!«",
+      "citation": "Genesis 15:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Da glaubte Abram dem HERRN, und das rechnete dieser ihm als Gerechtigkeit an.",
+      "citation": "Genesis 15:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Dann sagte Gott zu ihm: »Ich bin der HERR, der dich aus Ur in Chaldäa hat auswandern lassen, um dir dieses Land zum Besitz zu geben.«",
+      "citation": "Genesis 15:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Abram erwiderte: »HERR, mein Gott! Woran soll ich erkennen, daß ich es besitzen werde?«",
+      "citation": "Genesis 15:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Da antwortete er ihm: »Hole mir eine dreijährige Kuh, eine dreijährige Ziege und einen dreijährigen Widder, dazu eine Turteltaube und eine junge Taube!«",
+      "citation": "Genesis 15:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Da holte er ihm alle diese Tiere, schnitt sie in der Mitte durch und legte die Hälften eines jeden Tieres einander gegenüber; die Vögel aber schnitt er nicht entzwei.",
+      "citation": "Genesis 15:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Da stießen die Raubvögel auf die Fleischstücke herab, aber Abram verscheuchte sie.",
+      "citation": "Genesis 15:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Als nun die Sonne sich zum Untergang neigte, fiel ein tiefer Schlaf auf Abram, und zugleich stellte sich eine Beängstigung, tiefe Finsternis, bei ihm ein.",
+      "citation": "Genesis 15:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Da sprach er zu Abram: »Sicher wissen sollst du, daß deine Nachkommen als Fremdlinge in einem Lande weilen werden, das ihnen nicht gehört; dort werden sie als Knechte dienen müssen, und man wird sie bedrücken vierhundert Jahre lang.",
+      "citation": "Genesis 15:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Aber auch das Volk, dem sie dienen müssen, will ich zur Rechenschaft ziehen; und darnach werden sie mit reicher Habe ausziehen.",
+      "citation": "Genesis 15:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Du aber sollst in Frieden zu deinen Vätern eingehen und in gutem Alter begraben werden.",
+      "citation": "Genesis 15:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Aber erst das vierte Geschlecht von ihnen wird hierher zurückkehren; denn das Maß der Sündenschuld der Amoriter ist bis jetzt noch nicht voll.«",
+      "citation": "Genesis 15:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Als dann die Sonne untergegangen und tiefe Dunkelheit eingetreten war, da war es wie ein rauchender Backofen und eine Feuerfackel, was zwischen jenen Fleischstücken hindurchfuhr.",
+      "citation": "Genesis 15:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "An jenem Tage schloß der HERR einen Bund mit Abram und erklärte: »Deiner Nachkommenschaft will ich dieses Land geben vom Bach Ägyptens bis an den großen Strom, den Euphratstrom:",
+      "citation": "Genesis 15:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "die Keniter, Kenissiter, Kadmoniter,",
+      "citation": "Genesis 15:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Hethiter, Pherissiter, Rephaiter,",
+      "citation": "Genesis 15:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Amoriter, Kanaaniter, Girgasiter und Jebusiter.«",
+      "citation": "Genesis 15:21 (Menge)"
+    }
+  ]
+}

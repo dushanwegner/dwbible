@@ -1,0 +1,241 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John, Chapter 9 — 41 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 50,
+      "totalChapters": 21
+    },
+    "chapter": 9,
+    "verseCount": 41,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/john/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/john/8.json",
+      "nextChapter": "https://latinprayer.org/bible/john/10.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/john/9.json",
+      "german": "https://latinprayer.org/bibel/john/9.json"
+    }
+  },
+  "citation": "John 9 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And Jesus passing by, saw a man who was blind from his birth.",
+      "citation": "John 9:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And his disciples asked him: Rabbi, who hath sinned, this man or his parents, that he should be born blind?",
+      "citation": "John 9:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Jesus answered: Neither hath this man sinned, nor his parents; but that the works of God should be made manifest in him.",
+      "citation": "John 9:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "I must work the works of him that sent me, whilst it is day: the night cometh, when no man can work.",
+      "citation": "John 9:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "As long as I am in the world, I am the light of the world.",
+      "citation": "John 9:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "When he had said these things, he spat on the ground and made clay of the spittle and spread the clay upon his eyes,",
+      "citation": "John 9:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And said to him: Go, wash in the pool of Siloe, which is interpreted, Sent. He went therefore and washed: and he came seeing.",
+      "citation": "John 9:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "The neighbours, therefore, and they who had seen him before that he was a beggar, said: Is not this he that sat and begged?  Some said: This is he.",
+      "citation": "John 9:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But others said: No, but he is like him. But he said: I am he.",
+      "citation": "John 9:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "They said therefore to him: How were thy eyes opened?",
+      "citation": "John 9:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "He answered: That man that is called Jesus made clay and anointed my eyes and said to me: Go to the pool of Siloe and wash. And I went: I washed: and I see.",
+      "citation": "John 9:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And they said to him: Where is he? He saith: I know not.",
+      "citation": "John 9:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "They bring him that had been blind to the Pharisees.",
+      "citation": "John 9:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Now it was the sabbath, when Jesus made the clay and opened his eyes.",
+      "citation": "John 9:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Again therefore the Pharisees asked him how he had received his sight. But he said to them: He put clay upon my eyes: and I washed: and I see.",
+      "citation": "John 9:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Some therefore of the Pharisees said: This man is not of God, who keepeth not the sabbath. But others said: How can a man that is a sinner do such miracles? And there was a division among them.",
+      "citation": "John 9:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "They say therefore to the blind man again: What sayest thou of him that hath opened thy eyes? And he said: He is a prophet.",
+      "citation": "John 9:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "The Jews then did not believe concerning him, that he had been blind and had received his sight, until they called the parents of him that had received his sight,",
+      "citation": "John 9:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And asked them, saying: Is this your son, who you say was born blind? How then doth he now see?",
+      "citation": "John 9:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "His parents answered them and said: We know that this is our son and that he was born blind:",
+      "citation": "John 9:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "But how he now seeth, we know not: or who hath opened his eyes, we know not. Ask himself: he is of age: Let him speak for himself.",
+      "citation": "John 9:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "These things his parents said, because they feared the Jews: for the Jews had already agreed among themselves that if any man should confess him to be Christ, he should be put out of the synagogue.",
+      "citation": "John 9:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Therefore did his parents say: He is of age. Ask himself.",
+      "citation": "John 9:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "They therefore called the man again that had been blind and said to him: Give glory to God. We know that this man is a sinner.",
+      "citation": "John 9:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "He said therefore to them: If he be a sinner, I know not.  One thing I know, that whereas I was blind, now I see.",
+      "citation": "John 9:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "They said then to him: What did he to thee? How did he open thy eyes?",
+      "citation": "John 9:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "He answered them: I have told you already, and you have heard. Why would you hear it again? Will you also become his disciples?",
+      "citation": "John 9:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "They reviled him therefore and said: Be thou his disciple; but we are the disciples of Moses.",
+      "citation": "John 9:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "We know that God spoke to Moses: but as to this man, we know not from whence he is.",
+      "citation": "John 9:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "The man answered and said to them: why, herein is a wonderful thing, that you know not from whence he is, and he hath opened my eyes.",
+      "citation": "John 9:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "Now we know that God doth not hear sinners: but if a man be a server of God and doth his, will, him he heareth.",
+      "citation": "John 9:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "From the beginning of the world it hath not been heard, that any man hath opened the eyes of one born blind.",
+      "citation": "John 9:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Unless this man were of God, he could not do anything.",
+      "citation": "John 9:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "They answered and said to him: Thou wast wholly born in sins; and dost thou teach us? And they cast him out.",
+      "citation": "John 9:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "Jesus heard that they had cast him out. And when he had found him, he said to him: Dost thou believe in the Son of God?",
+      "citation": "John 9:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "He answered, and said: Who is he, Lord, that I may believe in him?",
+      "citation": "John 9:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And Jesus said to him: Thou hast both seen him; and it is he that talketh with thee.",
+      "citation": "John 9:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "And he said: I believe, Lord. And falling down, he adored him.",
+      "citation": "John 9:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And Jesus said: For judgment I am come into this world: that they who see not may see; and they who see may become blind.",
+      "citation": "John 9:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "And some of the Pharisees, who were with him, heard: and they said unto him: Are we also blind?",
+      "citation": "John 9:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "Jesus said to them: If you were blind, you should not have sin: but now you say: We see. Your sin remaineth.",
+      "citation": "John 9:41 (Douay-Rheims)"
+    }
+  ]
+}

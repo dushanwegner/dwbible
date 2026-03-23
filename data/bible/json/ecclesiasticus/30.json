@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ecclesiasticus, Chapter 30 — 27 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ecclesiasticus",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 51
+    },
+    "chapter": 30,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/ecclesiasticus/29.json",
+      "nextChapter": "https://latinprayer.org/bible/ecclesiasticus/31.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/ecclesiasticus/30.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/30.json"
+    }
+  },
+  "citation": "Ecclesiasticus 30 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "He that loveth his son, frequently chastiseth him, that he may rejoice in his latter end, and not grope after the doors of his neighbours.",
+      "citation": "Ecclesiasticus 30:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "He that instructeth his son shall be praised in him, and shall glory in him in the midst of them of his household.",
+      "citation": "Ecclesiasticus 30:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He that teacheth his son, maketh his enemy jealous, and in the midst of his friends he shall glory in him.",
+      "citation": "Ecclesiasticus 30:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "His father is dead, and he is as if he were not dead: for he hath left one behind him that is like himself.",
+      "citation": "Ecclesiasticus 30:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "While he lived he saw and rejoiced in him: and when he died he was not sorrowful, neither was he confounded before his enemies.",
+      "citation": "Ecclesiasticus 30:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "For he left behind him a defender of his house against his enemies, and one that will requite kindness to his friends.",
+      "citation": "Ecclesiasticus 30:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For the souls of his sons he shall bind up his wounds, and at every cry his bowels shall be troubled.",
+      "citation": "Ecclesiasticus 30:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "A horse not broken becometh stubborn, and a child left to himself will become headstrong.",
+      "citation": "Ecclesiasticus 30:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Give thy son his way, and he shall make thee afraid: play with him, and he shall make thee sorrowful.",
+      "citation": "Ecclesiasticus 30:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "Laugh not with him, lest thou have sorrow, and at the last thy teeth be set on edge.",
+      "citation": "Ecclesiasticus 30:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Give him not liberty in his youth, and wink not at his devices.",
+      "citation": "Ecclesiasticus 30:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Bow down his neck while he is young, and beat his sides while he is a child, lest he grow stubborn, and regard thee not, and so be a sorrow of heart to thee.",
+      "citation": "Ecclesiasticus 30:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Instruct thy son, and labour about him, lest his lewd behaviour be an offence to thee.",
+      "citation": "Ecclesiasticus 30:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Better is a poor man who is sound, and strong of constitution, than a rich man who is weak and afflicted with evils.",
+      "citation": "Ecclesiasticus 30:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Health of the soul in holiness of justice, is better than all gold and silver: and a sound body, than immense revenues.",
+      "citation": "Ecclesiasticus 30:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "There is no riches above the riches of the health of the body: and there is no pleasure above the joy of the heart.",
+      "citation": "Ecclesiasticus 30:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Better is death than a bitter life, and everlasting rest, than continual sickness.",
+      "citation": "Ecclesiasticus 30:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Good things that are hidden in a mouth that is shut, are as messes of meat set about a grave.",
+      "citation": "Ecclesiasticus 30:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "What good shall an offering do to an idol? for it can neither eat, nor smell:",
+      "citation": "Ecclesiasticus 30:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "So is he that is persecuted by the Lord, bearing the reward of his iniquity:",
+      "citation": "Ecclesiasticus 30:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "He seeth with his eyes, and groaneth, as an eunuch embracing a virgin, and sighing.",
+      "citation": "Ecclesiasticus 30:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Give not up thy soul to sadness, and afflict not thyself in thy own counsel.",
+      "citation": "Ecclesiasticus 30:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "The joyfulness of the heart, is the life of a man, and a never failing treasure of holiness: and the joy of a man is length of life.",
+      "citation": "Ecclesiasticus 30:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Have pity on thy own soul, pleasing God, and contain thyself: gather up thy heart in his holiness: and drive away sadness far from thee.",
+      "citation": "Ecclesiasticus 30:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "For sadness hath killed many, and there is no profit in it.",
+      "citation": "Ecclesiasticus 30:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Envy and anger shorten a man's days, and pensiveness will bring old age before the time.",
+      "citation": "Ecclesiasticus 30:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "A cheerful and good heart is always feasting: for his banquets are prepared with diligence.",
+      "citation": "Ecclesiasticus 30:27 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 17 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 17,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/16.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/18.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/17.json",
+      "german": "https://latinprayer.org/bibel/psalms/17.json"
+    }
+  },
+  "citation": "Psalms 17 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "The prayer of David. Hear, O Lord, my justice: attend to my supplication. Give ear unto my prayer, which proceedeth not from deceitful lips.",
+      "citation": "Psalms 17:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 1,
+      "text": "Unto the end, for David, the servant of the Lord, who spoke to the Lord the words of this canticle, in the day that the Lord delivered him from the hand of all his enemies, and from the hand of Saul: and he said:",
+      "citation": "Psalms 17:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Let my judgment come forth from thy countenance: let thy eyes behold the things that are equitable.",
+      "citation": "Psalms 17:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Thou hast proved my heart, and visited it by night, thou hast tried me by fire: and iniquity hath not been found in me.",
+      "citation": "Psalms 17:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "That my mouth may not speak the works of men: for the sake of the words of thy lips, I have kept hard ways.",
+      "citation": "Psalms 17:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Perfect thou my goings in thy paths: that my footsteps be not moved.",
+      "citation": "Psalms 17:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "I have cried to thee, for thou, O God, hast heard me: O incline thy ear unto me, and hear my words.",
+      "citation": "Psalms 17:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Shew forth thy wonderful mercies; thou who savest them that trust in thee.",
+      "citation": "Psalms 17:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "From them that resist thy right hand keep me, as the apple of thy eye. Protect me under the shadow of thy wings.",
+      "citation": "Psalms 17:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "From the face of the wicked who have afflicted me. My enemies have surrounded my soul:",
+      "citation": "Psalms 17:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "They have shut up their fat: their mouth hath spoken proudly.",
+      "citation": "Psalms 17:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "They have cast me forth, and now they have surrounded me: they have set their eyes bowing down to the earth.",
+      "citation": "Psalms 17:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "They have taken me, as a lion prepared for the prey; and as a young lion dwelling in secret places.",
+      "citation": "Psalms 17:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Arise, O Lord, disappoint him and supplant him; deliver my soul from the wicked one; thy sword",
+      "citation": "Psalms 17:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "From the enemies of thy hand. O Lord, divide them from the few of the earth in their life: their belly is filled from thy hidden stores. They are full of children: and they have left to their little ones the rest of their substance.",
+      "citation": "Psalms 17:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "But as for me, I will appear before thy sight in justice: I shall be satisfied when thy glory shall appear.",
+      "citation": "Psalms 17:15 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 32 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 32,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/31.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/33.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/32.json",
+      "german": "https://latinprayer.org/bibel/isaias/32.json"
+    }
+  },
+  "citation": "Isaiah 32 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ecce in iustitia regnabit rex et principes in iudicio praeerunt",
+      "citation": "Isaiah 32:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et erit vir sicut qui absconditur a vento et celat se a tempestate sicut rivi aquarum in siti et umbra petrae prominentis in terra deserta",
+      "citation": "Isaiah 32:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "non caligabunt oculi videntium et aures audientium diligenter auscultabunt",
+      "citation": "Isaiah 32:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et cor stultorum intelleget scientiam et lingua balborum velociter loquetur et plane",
+      "citation": "Isaiah 32:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "non vocabitur ultra is qui insipiens est princeps neque fraudulentus appellabitur maior",
+      "citation": "Isaiah 32:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "stultus enim fatua loquetur et cor eius faciet iniquitatem ut perficiat simulationem et loquatur ad Dominum fraudulenter et vacuefaciat animam esurientis et potum sitienti auferat",
+      "citation": "Isaiah 32:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "fraudulenti vasa pessima sunt ipse enim cogitationes concinnavit ad perdendos mites in sermone mendacii cum loqueretur pauper iudicium",
+      "citation": "Isaiah 32:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "princeps vero ea quae digna sunt principe cogitavit et ipse super duces stabit",
+      "citation": "Isaiah 32:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "mulieres opulentae surgite et audite vocem meam filiae confidentes percipite auribus eloquium meum",
+      "citation": "Isaiah 32:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "post dies et annum et vos conturbabimini confidentes consummata est enim vindemia collectio ultra non veniet",
+      "citation": "Isaiah 32:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "obstupescite opulentae conturbamini confidentes exuite vos et confundimini accingite lumbos vestros",
+      "citation": "Isaiah 32:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "super ubera plangite super regione desiderabili super vinea fertili",
+      "citation": "Isaiah 32:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "super humum populi mei spina et vepres ascendent quanto magis super omnes domos gaudii civitatis exultantis",
+      "citation": "Isaiah 32:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "domus enim dimissa est multitudo urbis relicta est tenebrae et palpatio factae sunt super speluncas usque in aeternum gaudium onagrorum pascua gregum",
+      "citation": "Isaiah 32:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "donec effundatur super nos spiritus de excelso et erit desertum in Chermel et Chermel in saltum reputabitur",
+      "citation": "Isaiah 32:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et habitabit in solitudine iudicium et iustitia in Chermel sedebit",
+      "citation": "Isaiah 32:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et erit opus iustitiae pax et cultus iustitiae silentium et securitas usque in sempiternum",
+      "citation": "Isaiah 32:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et sedebit populus meus in pulchritudine pacis et in tabernaculis fiduciae et in requie opulenta",
+      "citation": "Isaiah 32:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "grando autem in descensione saltus et humilitate humiliabitur civitas",
+      "citation": "Isaiah 32:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "beati qui seminatis super omnes aquas inmittentes pedem bovis et asini",
+      "citation": "Isaiah 32:20 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 56 — 12 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 56,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/isaias/55.json",
+      "nextChapter": "https://latinprayer.org/bibel/isaias/57.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/56.json",
+      "latin": "https://latinprayer.org/latin/isaias/56.json"
+    }
+  },
+  "citation": "Jesaja 56 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "So hat der HERR gesprochen: »Beobachtet das Recht und übet Gerechtigkeit! Denn nahe ist mein Heil, um einzutreffen, und meine Gerechtigkeit, um offenbar zu werden.«",
+      "citation": "Jesaja 56:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Wohl dem Menschen, der solches tut, und dem Menschenkind, das hieran festhält: der den Sabbat beobachtet, so daß er ihn nicht entheiligt, und seine Hand von jeder bösen Tat fernhält!",
+      "citation": "Jesaja 56:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Und der Fremdling, der sich an den HERRN angeschlossen hat, möge nicht sagen: »Der HERR wird mich sicherlich aus seinem Volk ausschließen!« Und der Verschnittene sage nicht: »Ach, ich bin nur ein dürrer Baum!«",
+      "citation": "Jesaja 56:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Vielmehr so hat der HERR gesprochen: »Den Verschnittenen, die meine Sabbate beobachten und das erwählen, woran ich Wohlgefallen habe, und meinem Bunde treu bleiben,",
+      "citation": "Jesaja 56:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "denen will ich in meinem Hause und in meinen Mauern einen Platz und einen Namen verleihen, der besser ist als Söhne und Töchter: einen ewigen Namen will ich ihnen verleihen, der nicht ausgetilgt werden soll!",
+      "citation": "Jesaja 56:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Und die Fremdlinge, die sich an den HERRN anschließen, um ihm zu dienen und den Namen des HERRN zu lieben, um seine Knechte zu sein, alle, die den Sabbat unentweiht beobachten und meinem Bunde treu bleiben:",
+      "citation": "Jesaja 56:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "die will ich zu meinem heiligen Berge bringen und ihnen Freude gewähren in meinem Bethause, ihre Brandopfer und ihre Schlachtopfer sollen mir wohlgefällig sein auf meinem Altar; denn mein Haus soll ein Bethaus genannt werden für alle Völker.« –",
+      "citation": "Jesaja 56:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "So lautet der Ausspruch Gottes des HERRN, der die verstoßenen Angehörigen Israels sammelt: »Ich will ihm noch mehr hinzusammeln zu denen, die schon gesammelt sind.«",
+      "citation": "Jesaja 56:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Alle ihr Tiere des Feldes, kommt herbei zum Fressen, alle ihr Tiere im Walde!",
+      "citation": "Jesaja 56:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Die Hüter meines Volkes sind blind, allesamt ohne Einsicht; alle sind sie stumme Hunde, die nicht bellen können; träumend liegen sie da und schlafen gern;",
+      "citation": "Jesaja 56:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "und dabei sind sie freßgierige Hunde, die keine Sättigung kennen. Und zugleich sind sie Hirten, die kein Verständnis und keine Einsicht zeigen: alle gehen ihrem eigenen Wege nach, jeder ist auf seinen Vorteil bedacht, einer wie der andere.",
+      "citation": "Jesaja 56:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "»Kommt her« (sagen sie), »ich will Wein holen, und Rauschtrank wollen wir zechen! Und morgen soll es wieder so zugehen wie heute, herrlich über alle Maßen!«",
+      "citation": "Jesaja 56:12 (Menge)"
+    }
+  ]
+}

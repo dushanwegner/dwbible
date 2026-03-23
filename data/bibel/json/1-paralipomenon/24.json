@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Chronik, Chapter 24 — 31 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Chronik",
+      "slug": "1-paralipomenon",
+      "testament": "OT",
+      "order": 13,
+      "totalChapters": 29
+    },
+    "chapter": 24,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-paralipomenon/23.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-paralipomenon/25.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-paralipomenon/24.json",
+      "latin": "https://latinprayer.org/latin/1-paralipomenon/24.json"
+    }
+  },
+  "citation": "1 Chronik 24 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Was sodann die Nachkommen Aarons betrifft, so waren ihre Abteilungen folgende: Die Söhne Aarons waren: Nadab und Abihu, Eleasar und Ithamar.",
+      "citation": "1 Chronik 24:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Nadab und Abihu starben jedoch vor ihrem Vater, ohne Söhne zu hinterlassen; daher übten Eleasar und Ithamar den Priesterdienst allein aus.",
+      "citation": "1 Chronik 24:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "David teilte sie nun, im Einvernehmen mit Zadok von den Nachkommen Eleasars und mit Ahimelech von den Nachkommen Ithamars, in Klassen ein je nach ihrem Amt bei ihrer Dienstleistung.",
+      "citation": "1 Chronik 24:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Dabei stellte es sich nun heraus, daß die Nachkommen Eleasars an Familienhäuptern zahlreicher waren als die Nachkommen Ithamars; daher teilte man sie so ab, daß auf die Nachkommen Eleasars sechzehn, auf die Nachkommen Ithamars acht Familienhäupter kamen.",
+      "citation": "1 Chronik 24:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Man teilte sie aber, die einen wie die anderen, durch Lose ab; denn sowohl unter Eleasars als auch unter Ithamars Nachkommen gab es ›Fürsten des Heiligtums‹ und ›Fürsten Gottes‹;",
+      "citation": "1 Chronik 24:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "und Semaja, der Sohn Nethaneels, der Schriftführer unter den Leviten, schrieb sie in Gegenwart des Königs und der Fürsten sowie des Priesters Zadok und Ahimelechs, des Sohnes Abjathars, und der Familienhäupter der Priester und der Leviten auf: je eine Familie wurde für Ithamar ausgelost, und dann wurde je zweimal eine für Eleasar ausgelost.",
+      "citation": "1 Chronik 24:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Das erste Los fiel auf Jojarib, das zweite auf Jedaja,",
+      "citation": "1 Chronik 24:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "das dritte auf Harim, das vierte auf Seorim,",
+      "citation": "1 Chronik 24:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "das fünfte auf Malchia, das sechste auf Mijjamin,",
+      "citation": "1 Chronik 24:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "das siebte auf Hakkoz, das achte auf Abia,",
+      "citation": "1 Chronik 24:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "das neunte auf Jesua, das zehnte auf Sechanja,",
+      "citation": "1 Chronik 24:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "das elfte auf Eljasib, das zwölfte auf Jakim,",
+      "citation": "1 Chronik 24:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "das dreizehnte auf Huppa, das vierzehnte auf Jesebab,",
+      "citation": "1 Chronik 24:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "das fünfzehnte auf Bilga, das sechzehnte auf Immer,",
+      "citation": "1 Chronik 24:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "das siebzehnte auf Hesir, das achtzehnte auf Happizzez,",
+      "citation": "1 Chronik 24:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "das neunzehnte auf Pethahja, das zwanzigste auf Jeheskel,",
+      "citation": "1 Chronik 24:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "das einundzwanzigste auf Jachin, das zweiundzwanzigste auf Gamul,",
+      "citation": "1 Chronik 24:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "das dreiundzwanzigste auf Delaja, das vierundzwanzigste auf Maasja.",
+      "citation": "1 Chronik 24:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Dies war ihre Klassenordnung für ihren Dienst, damit sie entsprechend der durch ihren Ahnherrn Aaron für sie bestimmten Verordnung in den Tempel des HERRN einträten, wie der HERR, der Gott Israels, ihm geboten hatte.",
+      "citation": "1 Chronik 24:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Was aber die übrigen Nachkommen Levis betrifft, so war von den Nachkommen Amrams Subael da, von den Nachkommen Subaels Jehdeja;",
+      "citation": "1 Chronik 24:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "von den Nachkommen Rehabjas war Jissia das Oberhaupt. –",
+      "citation": "1 Chronik 24:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Von den Jizhariten: Selomoth, von den Nachkommen Selomoths: Jahath. –",
+      "citation": "1 Chronik 24:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Die Nachkommen Hebrons waren: Jerija das Oberhaupt, Amarja der zweite, Jahasiel der dritte, Jekameam der vierte. –",
+      "citation": "1 Chronik 24:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Die Nachkommen Ussiels waren: Micha; von den Nachkommen Michas: Samir.",
+      "citation": "1 Chronik 24:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Michas Bruder war Jissia; von den Nachkommen Jissias: Sacharja. –",
+      "citation": "1 Chronik 24:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Die Nachkommen Meraris waren: Mahli und Musi und die Nachkommen seines Sohnes Jaasia.",
+      "citation": "1 Chronik 24:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Die Nachkommen Meraris von seinem Sohne Ussia waren: Soham, Sakkur und Ibri;",
+      "citation": "1 Chronik 24:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "von Mahli: Eleasar, der aber keine Söhne hatte, und Kis;",
+      "citation": "1 Chronik 24:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "von Kis: die Söhne des Kis: Jerahmeel.",
+      "citation": "1 Chronik 24:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "Die Nachkommen Musis waren: Mahli, Eder und Jerimoth. Dies waren die Nachkommen der Leviten nach ihren Familien. –",
+      "citation": "1 Chronik 24:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Auch sie wurden ausgelost ganz wie ihre Stammesgenossen, die Nachkommen Aarons, in Gegenwart des Königs David und Zadoks und Ahimelechs sowie der Familienhäupter der Priester und der Leviten, und zwar die Familienhäupter ganz ebenso wie ihre jüngsten Stammesgenossen.",
+      "citation": "1 Chronik 24:31 (Menge)"
+    }
+  ]
+}

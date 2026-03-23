@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Nahum — 3 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Nahum",
+      "slug": "nahum",
+      "testament": "OT",
+      "order": 39,
+      "totalChapters": 3
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/nahum/index.json",
+      "latin": "https://latinprayer.org/latin/nahum/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bibel/nahum/1",
+      "jsonUrl": "https://latinprayer.org/bibel/nahum/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 14,
+      "url": "https://latinprayer.org/bibel/nahum/2",
+      "jsonUrl": "https://latinprayer.org/bibel/nahum/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/bibel/nahum/3",
+      "jsonUrl": "https://latinprayer.org/bibel/nahum/3.json"
+    }
+  ]
+}

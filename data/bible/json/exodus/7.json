@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 7 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 40
+    },
+    "chapter": 7,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/exodus/6.json",
+      "nextChapter": "https://latinprayer.org/bible/exodus/8.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/exodus/7.json",
+      "german": "https://latinprayer.org/bibel/exodus/7.json"
+    }
+  },
+  "citation": "Exodus 7 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the Lord said to Moses: Behold, I have appointed thee the god of Pharao; and Aaron, thy brother, shall be thy prophet.",
+      "citation": "Exodus 7:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Thou shalt speak to him all that I command thee; and he shall speak to Pharao, that he let the children of Israel go out of his land.",
+      "citation": "Exodus 7:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "But I shall harden his heart, and shall multiply my signs and wonders in the land of Egypt.",
+      "citation": "Exodus 7:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he will not hear you: and I will lay my hand upon Egypt, and will bring forth my army and my people, the children of Israel, out of the land of Egypt, by very great judgments.",
+      "citation": "Exodus 7:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the Egyptians shall know that I am the Lord, who have stretched forth my hand upon Egypt, and have brought forth the children of Israel out of the midst of them.",
+      "citation": "Exodus 7:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Moses and Aaron did as the Lord had commanded; so did they.",
+      "citation": "Exodus 7:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And Moses was eighty years old, and Aaron eighty-three, when they spoke to Pharao.",
+      "citation": "Exodus 7:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And the Lord said to Moses and Aaron:",
+      "citation": "Exodus 7:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "When Pharao shall say to you, Shew signs; thou shalt say to Aaron: Take thy rod, and cast it down before Pharao, and it shall be turned into a serpent.",
+      "citation": "Exodus 7:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "So Moses and Aaron went in unto Pharao, and did as the Lord had commanded. And Aaron took the rod before Pharao and his servants, and it was turned into a serpent.",
+      "citation": "Exodus 7:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And Pharao called the wise men and the magicians; and they also by Egyptian enchantments and certain secrets, did in like manner.",
+      "citation": "Exodus 7:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And they every one cast down their rods, and they were turned into serpents: but Aaron's rod devoured their rods.",
+      "citation": "Exodus 7:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And Pharao's heart was hardened, and he did not hearken to them, as the Lord had commanded.",
+      "citation": "Exodus 7:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And the Lord said to Moses: Pharao's heart is hardened, he will not let the people go.",
+      "citation": "Exodus 7:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Go to him in the morning, behold he will go out to the waters: and thou shalt stand to meet him on the bank of the river: and thou shalt take in thy hand the rod that was turned into a serpent.",
+      "citation": "Exodus 7:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And thou shalt say to him: The Lord God of the Hebrews sent me to thee, saying: Let my people go to sacrifice to me in the desert: and hitherto thou wouldst not hear.",
+      "citation": "Exodus 7:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Thus therefore saith the Lord: In this thou shalt know that I am the Lord: behold I will strike with the rod, that is in my hand, the water of the river, and it shall be turned into blood.",
+      "citation": "Exodus 7:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The Lord also said to Moses: Say to Aaron, Take thy rod; and stretch forth thy hand upon the waters of Egypt, and upon their rivers, and streams and pools, and all the ponds of waters, that they may be turned into blood: and let blood be in all the land of Egypt, both in vessels of wood and of stone.",
+      "citation": "Exodus 7:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And Moses and Aaron did as the Lord had commanded: and lifting up the rod, he struck the water of the river before Pharao and his servants: and it was turned into blood.",
+      "citation": "Exodus 7:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And the fishes that were in the river died; and the river corrupted, and the Egyptians could not drink the water of the river, and there was blood in all the land of Egypt.",
+      "citation": "Exodus 7:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And the magicians of the Egyptians with their enchantments did in like manner; and Pharao's heart was hardened, neither did he hear them, as the Lord had commanded.",
+      "citation": "Exodus 7:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And he turned himself away, and went into his house, neither did he set his heart to it this time also.",
+      "citation": "Exodus 7:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And all the Egyptians dug round about the river for water to drink; for they could not drink of the water of the river.",
+      "citation": "Exodus 7:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And seven days were fully ended, after that the Lord struck the river.",
+      "citation": "Exodus 7:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And the Lord said to Moses: Go in to Pharao, and thou shalt say to him: Thus saith the Lord: Let my people go to sacrifice to me.",
+      "citation": "Exodus 7:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "But if thou wilt not let them go, behold I will strike all thy coasts with frogs.",
+      "citation": "Exodus 7:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And the river shall bring forth an abundance of frogs; which shall come up and enter into thy house, and thy bedchamber, and upon thy bed, and into the houses of thy servants, and to thy people, and into thy ovens, and into the remains of thy meats:",
+      "citation": "Exodus 7:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "And the frogs shall come in to thee, and to thy people, and to all thy servants.",
+      "citation": "Exodus 7:29 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Proverbs, Chapter 5 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 22,
+      "totalChapters": 31
+    },
+    "chapter": 5,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/proverbs/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/proverbs/4.json",
+      "nextChapter": "https://latinprayer.org/latin/proverbs/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/proverbs/5.json",
+      "german": "https://latinprayer.org/bibel/proverbs/5.json"
+    }
+  },
+  "citation": "Proverbs 5 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "fili mi adtende sapientiam meam et prudentiae meae inclina aurem tuam",
+      "citation": "Proverbs 5:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "ut custodias cogitationes et disciplinam labia tua conservent",
+      "citation": "Proverbs 5:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "favus enim stillans labia meretricis et nitidius oleo guttur eius",
+      "citation": "Proverbs 5:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "novissima autem illius amara quasi absinthium et acuta quasi gladius biceps",
+      "citation": "Proverbs 5:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "pedes eius descendunt in mortem et ad inferos gressus illius penetrant",
+      "citation": "Proverbs 5:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "per semitam vitae non ambulat vagi sunt gressus eius et investigabiles",
+      "citation": "Proverbs 5:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "nunc ergo fili audi me et ne recedas a verbis oris mei",
+      "citation": "Proverbs 5:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "longe fac ab ea viam tuam et ne adpropinques foribus domus eius",
+      "citation": "Proverbs 5:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "ne des alienis honorem tuum et annos tuos crudeli",
+      "citation": "Proverbs 5:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "ne forte impleantur extranei viribus tuis et labores tui sint in domo aliena",
+      "citation": "Proverbs 5:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et gemas in novissimis quando consumpseris carnes et corpus tuum et dicas",
+      "citation": "Proverbs 5:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cur detestatus sum disciplinam et increpationibus non adquievit cor meum",
+      "citation": "Proverbs 5:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "nec audivi vocem docentium me et magistris non inclinavi aurem meam",
+      "citation": "Proverbs 5:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "paene fui in omni malo in medio ecclesiae et synagogae",
+      "citation": "Proverbs 5:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "bibe aquam de cisterna tua et fluenta putei tui",
+      "citation": "Proverbs 5:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "deriventur fontes tui foras et in plateis aquas tuas divide",
+      "citation": "Proverbs 5:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "habeto eas solus nec sint alieni participes tui",
+      "citation": "Proverbs 5:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "sit vena tua benedicta et laetare cum muliere adulescentiae tuae",
+      "citation": "Proverbs 5:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "cerva carissima et gratissimus hinulus ubera eius inebrient te omni tempore in amore illius delectare iugiter",
+      "citation": "Proverbs 5:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quare seduceris fili mi ab aliena et foveris sinu alterius",
+      "citation": "Proverbs 5:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "respicit Dominus vias hominis et omnes gressus illius considerat",
+      "citation": "Proverbs 5:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "iniquitates suae capiunt impium et funibus peccatorum suorum constringitur",
+      "citation": "Proverbs 5:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ipse morietur quia non habuit disciplinam et multitudine stultitiae suae decipietur",
+      "citation": "Proverbs 5:23 (Clementine Vulgate)"
+    }
+  ]
+}

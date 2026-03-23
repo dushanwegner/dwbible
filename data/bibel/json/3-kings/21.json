@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Könige, Chapter 21 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Könige",
+      "slug": "3-kings",
+      "testament": "OT",
+      "order": 11,
+      "totalChapters": 22
+    },
+    "chapter": 21,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/3-kings/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/3-kings/20.json",
+      "nextChapter": "https://latinprayer.org/bibel/3-kings/22.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/3-kings/21.json",
+      "latin": "https://latinprayer.org/latin/3-kings/21.json"
+    }
+  },
+  "citation": "1 Könige 21 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Nachmals aber begab sich folgendes: Naboth, (ein Bürger) von Jesreel, besaß einen Weinberg in Jesreel nahe bei dem Palaste Ahabs, des Königs von Samaria.",
+      "citation": "1 Könige 21:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Ahab machte nun dem Naboth folgenden Vorschlag: »Tritt mir deinen Weinberg ab, damit ich mir einen Gemüsegarten daraus mache, weil er nahe bei meinem Palaste liegt; ich will dir einen besseren Weinberg dafür geben oder, wenn dir das lieber ist, dir den Preis bar bezahlen.«",
+      "citation": "1 Könige 21:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Aber Naboth erwiderte dem Ahab: »Der HERR bewahre mich davor, dir den Erbbesitz meiner Väter abzutreten!«",
+      "citation": "1 Könige 21:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Da kehrte Ahab in seinen Palast zurück, mißmutig und verstört über die Antwort, die Naboth, der Jesreeliter, ihm gegeben hatte mit den Worten: »Ich will dir den Erbbesitz meiner Väter nicht abtreten.« Er legte sich auf sein Bett, wandte das Gesicht gegen die Wand ab und wollte keine Nahrung zu sich nehmen.",
+      "citation": "1 Könige 21:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Da trat seine Gemahlin Isebel zu ihm und fragte ihn: »Warum bist du denn so mißmutig, daß du nichts essen willst?«",
+      "citation": "1 Könige 21:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Er antwortete ihr: »Ich habe Naboth von Jesreel den Vorschlag gemacht: ›Tritt mir deinen Weinberg gegen Bezahlung ab, oder, wenn du das vorziehst, will ich dir einen anderen Weinberg dafür geben‹; aber er hat mir geantwortet: ›Ich will dir meinen Weinberg nicht abtreten.‹«",
+      "citation": "1 Könige 21:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Da erwiderte ihm seine Gemahlin Isebel: »Jetzt mußt du zeigen, daß du König in Israel bist! Stehe auf, iß und sei guten Muts: ich will dir den Weinberg des Jesreeliters Naboth schon verschaffen.«",
+      "citation": "1 Könige 21:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Darauf schrieb sie einen Brief unter Ahabs Namen, versiegelte ihn mit seinem Siegel und schickte den Brief an die Ältesten und Obersten, die in seiner Stadt wohnten und Mitbeisitzer Naboths waren.",
+      "citation": "1 Könige 21:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "In dem Briefe schrieb sie folgendes: »Laßt ein Fasten ausrufen und setzt Naboth obenan unter dem Volke!",
+      "citation": "1 Könige 21:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Dann setzt zwei nichtswürdige Menschen ihm gegenüber, die gegen ihn auftreten und das Zeugnis ablegen sollen, er habe Gott und den König gelästert; dann führt ihn vor die Stadt hinaus und steinigt ihn zu Tode!«",
+      "citation": "1 Könige 21:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Und die Männer seiner Stadt, die Ältesten und Vornehmen, die in seiner Stadt die Beisitzer waren, taten, wie Isebel ihnen in dem Briefe, den sie ihnen hatte zugehen lassen, aufgetragen hatte:",
+      "citation": "1 Könige 21:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "sie ließen ein Fasten ausrufen und setzten Naboth obenan unter dem Volke;",
+      "citation": "1 Könige 21:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "dann kamen die zwei nichtswürdigen Buben, setzten sich ihm gegenüber und legten vor dem Volke das Zeugnis gegen ihn ab: »Naboth hat Gott und den König gelästert!« Hierauf führte man ihn zur Stadt hinaus und steinigte ihn; so fand er seinen Tod.",
+      "citation": "1 Könige 21:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Dann sandten sie zu Isebel und ließen ihr melden, Naboth sei gesteinigt worden und sei nun tot.",
+      "citation": "1 Könige 21:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Sobald Isebel die Nachricht von Naboths Steinigung und Tod erhalten hatte, sagte sie zu Ahab: »Auf! Nimm den Weinberg des Jesreeliters Naboth, den er dir für Geld nicht hat überlassen wollen, in Besitz! Denn Naboth lebt nicht mehr, sondern ist tot.«",
+      "citation": "1 Könige 21:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Sobald nun Ahab den Tod Naboths erfuhr, machte er sich auf den Weg, um in den Weinberg Naboths hinabzugehen und ihn in Besitz zu nehmen.",
+      "citation": "1 Könige 21:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Da erging das Wort des HERRN an Elia, den Thisbiter, also:",
+      "citation": "1 Könige 21:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "»Mache dich auf, gehe hinab und tritt vor Ahab, den König von Israel, der in Samaria wohnt; er befindet sich gerade im Weinberge Naboths, wohin er hinabgegangen ist, um ihn in Besitz zu nehmen.",
+      "citation": "1 Könige 21:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Sage dann zu ihm folgendes: ›So hat der HERR gesprochen: Du hast gemordet und hast nun auch schon die Erbschaft angetreten?‹ Sage dann weiter zu ihm: ›So hat der HERR gesprochen: An der Stelle, wo die Hunde das Blut Naboths geleckt haben, sollen die Hunde auch dein Blut lecken!‹«",
+      "citation": "1 Könige 21:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Da sagte Ahab zu Elia: »Hast du mich wieder herausgefunden, mein Feind?« Er antwortete: »Ja, ich habe dich herausgefunden. Weil du dich so weit vergessen hast, zu tun, was dem HERRN mißfällt:",
+      "citation": "1 Könige 21:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "›so will ich nunmehr Unglück über dich bringen und dich wegfegen und will von Ahabs Angehörigen alles ausrotten, was männlichen Geschlechts ist, Unmündige wie Mündige, in Israel;",
+      "citation": "1 Könige 21:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "und ich will es mit deinem Hause machen wie mit dem Hause Jerobeams, des Sohnes Nebats, und wie mit dem Hause Baesas, des Sohnes Ahias, weil du mich zum Zorn gereizt und Israel zur Sünde verführt hast!‹",
+      "citation": "1 Könige 21:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Auch in betreff Isebels hat der HERR geredet und angekündigt: ›Die Hunde sollen Isebel am Stadtgraben von Jesreel fressen.",
+      "citation": "1 Könige 21:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "Wer von Ahabs Angehörigen in der Stadt stirbt, den sollen die Hunde fressen, und wer auf dem Felde stirbt, den sollen die Vögel des Himmels fressen!‹«",
+      "citation": "1 Könige 21:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "Es hat niemals einen Menschen gegeben, der sich so weit wie Ahab vergessen hätte, um das zu tun, was dem HERRN mißfällt, weil ihn sein Weib Isebel dazu verführte.",
+      "citation": "1 Könige 21:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Er verübte zahllose Greuel, indem er den Götzen nachging, ganz wie die Amoriter es getan hatten, die der HERR vor den Israeliten vertrieben hatte.",
+      "citation": "1 Könige 21:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Als nun Ahab diese Worte hörte, zerriß er seine Kleider, legte ein härenes Bußgewand um den bloßen Leib und fastete; er schlief sogar in dem Bußgewand und ging bekümmert einher.",
+      "citation": "1 Könige 21:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Da erging das Wort des HERRN an Elia, den Thisbiter, also:",
+      "citation": "1 Könige 21:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "»Hast du gesehen, wie Ahab sich vor mir gedemütigt hat? Weil er sich vor mir gedemütigt hat, will ich das Unglück nicht schon bei seinen Lebzeiten hereinbrechen lassen: erst unter der Regierung seines Sohnes will ich das Unglück über sein Haus kommen lassen.«",
+      "citation": "1 Könige 21:29 (Menge)"
+    }
+  ]
+}

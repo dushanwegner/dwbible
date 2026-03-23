@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jeremiah, Chapter 6 — 30 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jeremiah",
+      "slug": "jeremias",
+      "testament": "OT",
+      "order": 28,
+      "totalChapters": 52
+    },
+    "chapter": 6,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/jeremias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/jeremias/5.json",
+      "nextChapter": "https://latinprayer.org/latin/jeremias/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/jeremias/6.json",
+      "german": "https://latinprayer.org/bibel/jeremias/6.json"
+    }
+  },
+  "citation": "Jeremiah 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "confortamini filii Beniamin in medio Hierusalem et in Thecua clangite bucina et super Bethaccharem levate vexillum quia malum visum est ab aquilone et contritio magna",
+      "citation": "Jeremiah 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "speciosae et delicatae adsimilavi filiam Sion",
+      "citation": "Jeremiah 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ad eam venient pastores et greges eorum fixerunt in ea tentoria in circuitu pascet unusquisque eos qui sub manu sua sunt",
+      "citation": "Jeremiah 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "sanctificate super eam bellum consurgite et ascendamus in meridie vae nobis quia declinavit dies quia longiores factae sunt umbrae vesperi",
+      "citation": "Jeremiah 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "surgite et ascendamus in nocte et dissipemus domos eius",
+      "citation": "Jeremiah 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quia haec dicit Dominus exercituum caedite lignum eius et fundite circa Hierusalem aggerem haec est civitas visitationis omnis calumnia in medio eius",
+      "citation": "Jeremiah 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "sicut frigidam facit cisterna aquam suam sic frigidam fecit malitiam suam iniquitas et vastitas audietur in ea coram me semper infirmitas et plaga",
+      "citation": "Jeremiah 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "erudire Hierusalem ne forte recedat anima mea a te ne forte ponam te desertam terram inhabitabilem",
+      "citation": "Jeremiah 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "haec dicit Dominus exercituum usque ad racemum colligent quasi in vinea reliquias Israhel converte manum tuam quasi vindemiator ad cartallum",
+      "citation": "Jeremiah 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "cui loquar et quem contestabor ut audiant ecce incircumcisae aures eorum et audire non possunt ecce verbum Domini factum est eis in obprobrium et non suscipient illud",
+      "citation": "Jeremiah 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "idcirco furore Domini plenus sum laboravi sustinens effunde super parvulum foris et super concilium iuvenum simul vir enim cum muliere capietur senex cum pleno dierum",
+      "citation": "Jeremiah 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et transibunt domus eorum ad alteros agri et uxores pariter quia extendam manum meam super habitantes terram dicit Dominus",
+      "citation": "Jeremiah 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "a minore quippe usque ad maiorem omnes avaritiae student et a propheta usque ad sacerdotem cuncti faciunt dolum",
+      "citation": "Jeremiah 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et curabant contritionem filiae populi mei cum ignominia dicentes pax pax et non erat pax",
+      "citation": "Jeremiah 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "confusi sunt quia abominationem fecerunt quin potius confusione non sunt confusi et erubescere nescierunt quam ob rem cadent inter ruentes in tempore visitationis suae corruent dicit Dominus",
+      "citation": "Jeremiah 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "haec dicit Dominus state super vias et videte et interrogate de semitis antiquis quae sit via bona et ambulate in ea et invenietis refrigerium animabus vestris et dixerunt non ambulabimus",
+      "citation": "Jeremiah 6:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et constitui super vos speculatores audite vocem tubae et dixerunt non audiemus",
+      "citation": "Jeremiah 6:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "ideo audite gentes et cognosce congregatio quanta ego faciam eis",
+      "citation": "Jeremiah 6:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "audi terra ecce ego adducam mala super populum istum fructum cogitationum eius quia verba mea non audierunt et legem meam proiecerunt",
+      "citation": "Jeremiah 6:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "ut quid mihi tus de Saba adfertis et calamum suave olentem de terra longinqua holocaustomata vestra non sunt accepta et victimae vestrae non placuerunt mihi",
+      "citation": "Jeremiah 6:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "propterea haec dicit Dominus ecce ego dabo in populum istum ruinas et ruent in eis patres et filii simul vicinus et proximus et peribunt",
+      "citation": "Jeremiah 6:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "haec dicit Dominus ecce populus venit de terra aquilonis et gens magna consurget a finibus terrae",
+      "citation": "Jeremiah 6:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "sagittam et scutum arripiet crudelis est et non miserebitur vox eius quasi mare sonabit et super equos ascendent praeparati quasi vir ad proelium adversum te filia Sion",
+      "citation": "Jeremiah 6:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "audivimus famam eius dissolutae sunt manus nostrae tribulatio adprehendit nos dolores ut parturientem",
+      "citation": "Jeremiah 6:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "nolite exire ad agros et in via ne ambuletis quoniam gladius inimici pavor in circuitu",
+      "citation": "Jeremiah 6:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "filia populi mei accingere cilicio et conspergere cinere luctum unigeniti fac tibi planctum amarum quia repente veniet vastator super nos",
+      "citation": "Jeremiah 6:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "probatorem dedi te in populo meo robustum et scies et probabis viam eorum",
+      "citation": "Jeremiah 6:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "omnes isti principes declinantum ambulantes fraudulenter aes et ferrum universi corrupti sunt",
+      "citation": "Jeremiah 6:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "defecit sufflatorium in igne consumptum est plumbum frustra conflavit conflator malitiae enim eorum non sunt consumptae",
+      "citation": "Jeremiah 6:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "argentum reprobum vocate eos quia Dominus proiecit illos",
+      "citation": "Jeremiah 6:30 (Clementine Vulgate)"
+    }
+  ]
+}

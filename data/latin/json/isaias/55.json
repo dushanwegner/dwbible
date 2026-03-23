@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaiah, Chapter 55 — 13 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaiah",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 55,
+    "verseCount": 13,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/isaias/54.json",
+      "nextChapter": "https://latinprayer.org/latin/isaias/56.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/55.json",
+      "german": "https://latinprayer.org/bibel/isaias/55.json"
+    }
+  },
+  "citation": "Isaiah 55 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "o omnes sitientes venite ad aquas et qui non habetis argentum properate emite et comedite venite emite absque argento et absque ulla commutatione vinum et lac",
+      "citation": "Isaiah 55:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "quare adpenditis argentum non in panibus et laborem vestrum non in saturitate audite audientes me et comedite bonum et delectabitur in crassitudine anima vestra",
+      "citation": "Isaiah 55:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "inclinate aurem vestram et venite ad me audite et vivet anima vestra et feriam vobis pactum sempiternum misericordias David fideles",
+      "citation": "Isaiah 55:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ecce testem populis dedi eum ducem ac praeceptorem gentibus",
+      "citation": "Isaiah 55:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ecce gentem quam nesciebas vocabis et gentes quae non cognoverunt te ad te current propter Dominum Deum tuum et Sanctum Israhel quia glorificavit te",
+      "citation": "Isaiah 55:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quaerite Dominum dum inveniri potest invocate eum dum prope est",
+      "citation": "Isaiah 55:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "derelinquat impius viam suam et vir iniquus cogitationes suas et revertatur ad Dominum et miserebitur eius et ad Deum nostrum quoniam multus est ad ignoscendum",
+      "citation": "Isaiah 55:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "non enim cogitationes meae cogitationes vestrae neque viae vestrae viae meae dicit Dominus",
+      "citation": "Isaiah 55:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quia sicut exaltantur caeli a terra sic exaltatae sunt viae meae a viis vestris et cogitationes meae a cogitationibus vestris",
+      "citation": "Isaiah 55:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et quomodo descendit imber et nix de caelo et illuc ultra non revertitur sed inebriat terram et infundit eam et germinare eam facit et dat semen serenti et panem comedenti",
+      "citation": "Isaiah 55:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sic erit verbum meum quod egredietur de ore meo non revertetur ad me vacuum sed faciet quaecumque volui et prosperabitur in his ad quae misi illud",
+      "citation": "Isaiah 55:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quia in laetitia egrediemini et in pace deducemini montes et colles cantabunt coram vobis laudem et omnia ligna regionis plaudent manu",
+      "citation": "Isaiah 55:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "pro saliunca ascendet abies et pro urtica crescet myrtus et erit Dominus nominatus in signum aeternum quod non auferetur",
+      "citation": "Isaiah 55:13 (Clementine Vulgate)"
+    }
+  ]
+}

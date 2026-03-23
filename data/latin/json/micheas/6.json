@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Micah, Chapter 6 — 16 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Micah",
+      "slug": "micheas",
+      "testament": "OT",
+      "order": 38,
+      "totalChapters": 7
+    },
+    "chapter": 6,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/micheas/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/micheas/5.json",
+      "nextChapter": "https://latinprayer.org/latin/micheas/7.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/micheas/6.json",
+      "german": "https://latinprayer.org/bibel/micheas/6.json"
+    }
+  },
+  "citation": "Micah 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "audite quae Dominus loquitur surge contende iudicio adversum montes et audiant colles vocem tuam",
+      "citation": "Micah 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "audiant montes iudicium Domini et fortia fundamenta terrae quia iudicium Domini cum populo suo et cum Israhel diiudicabitur",
+      "citation": "Micah 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "populus meus quid feci tibi et quid molestus fui tibi responde mihi",
+      "citation": "Micah 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia eduxi te de terra Aegypti et de domo servientium liberavi te et misi ante faciem tuam Mosen et Aaron et Mariam",
+      "citation": "Micah 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "populus meus memento quaeso quid cogitaverit Balac rex Moab et quid responderit ei Balaam filius Beor de Setthim usque ad Galgalam ut cognosceret iustitias Domini",
+      "citation": "Micah 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quid dignum offeram Domino curvem genu Deo excelso numquid offeram ei holocaustomata et vitulos anniculos",
+      "citation": "Micah 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "numquid placari potest Dominus in milibus arietum aut in multis milibus hircorum pinguium numquid dabo primogenitum meum pro scelere meo fructum ventris mei pro peccato animae meae",
+      "citation": "Micah 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "indicabo tibi o homo quid sit bonum et quid Dominus quaerat a te utique facere iudicium et diligere misericordiam et sollicitum ambulare cum Deo tuo",
+      "citation": "Micah 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "vox Domini ad civitatem clamat et salus erit timentibus nomen tuum audite tribus et quis adprobabit illud",
+      "citation": "Micah 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "adhuc ignis in domo impii thesauri iniquitatis et mensura minor irae plena",
+      "citation": "Micah 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "numquid iustificabo stateram impiam et saccelli pondera dolosa",
+      "citation": "Micah 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "in quibus divites eius repleti sunt iniquitate et habitantes in ea loquebantur mendacium et lingua eorum fraudulenta in ore eorum",
+      "citation": "Micah 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "et ego ergo coepi percutere te perditione super peccatis tuis",
+      "citation": "Micah 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "tu comedes et non saturaberis et humiliatio tua in medio tui et adprehendes et non salvabis et quos salvaveris in gladium dabo",
+      "citation": "Micah 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "tu seminabis et non metes tu calcabis olivam et non ungueris oleo et mustum et non bibes vinum",
+      "citation": "Micah 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et custodisti praecepta Omri et omne opus domus Achab et ambulasti in voluntatibus eorum ut darem te in perditionem et habitantes in ea in sibilum et obprobrium populi mei portabitis",
+      "citation": "Micah 6:16 (Clementine Vulgate)"
+    }
+  ]
+}

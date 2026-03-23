@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Josua, Chapter 12 — 24 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Josua",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 24
+    },
+    "chapter": 12,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/josue/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/josue/11.json",
+      "nextChapter": "https://latinprayer.org/bibel/josue/13.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/josue/12.json",
+      "latin": "https://latinprayer.org/latin/josue/12.json"
+    }
+  },
+  "citation": "Josua 12 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Dies sind die Könige des Landes, welche die Israeliten besiegt und deren Land sie in Besitz genommen haben: im Ostjordanlande (die Gebiete) vom Fluß Arnon an bis zum Hermongebirge nebst der ganzen Steppe östlich vom Jordan:",
+      "citation": "Josua 12:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Sihon, der König der Amoriter, der in Hesbon seinen Sitz hatte; er herrschte von Aroer an, das am Ufer des Flusses Arnon liegt, und zwar von der Mitte des Flußtals an und über die Hälfte von Gilead bis zum Fluß Jabbok, der Grenze der Ammoniter,",
+      "citation": "Josua 12:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "und über das Jordantal bis an die Ostseite des Sees Genezareth und bis an die Ostseite des Meeres der Steppe, des Salzsees, nach Beth-Jesimoth hin und südwärts (über das Land) am Fuß der Abhänge des Pisgagebirges.",
+      "citation": "Josua 12:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Sodann das Gebiet Ogs, des Königs von Basan, der zu den Überresten der Rephaiter gehörte und in Astaroth und Edrei seinen Sitz hatte;",
+      "citation": "Josua 12:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "er herrschte über das Hermongebirge, über Salcha und ganz Basan bis an die Grenze der Gesuriter und Maachathiter und über die Hälfte von Gilead bis an das Gebiet Sihons, des Königs von Hesbon.",
+      "citation": "Josua 12:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Mose, der Knecht des HERRN, und die Israeliten hatten sie besiegt, und Mose, der Knecht des HERRN, hatte ihr Gebiet den beiden Stämmen Ruben und Gad und dem halben Stamm Manasse zum Besitz gegeben.",
+      "citation": "Josua 12:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Und dies sind die Könige des Landes, welche Josua und die Israeliten im Westjordanlande besiegt haben, von Baal-Gad im Libanontal an bis zu dem kahlen Gebirge, das nach Seir hin ansteigt, und deren Land Josua den israelitischen Stämmen zum Besitz überwies, jedem Stamme einen Teil,",
+      "citation": "Josua 12:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "im Berglande wie in der Niederung und im Jordantal, an den Bergabhängen wie in der Wüste und im Südlande, die (Gebiete der) Hethiter, Amoriter, Kanaanäer, Pherissiter, Hewiter und Jebusiter:",
+      "citation": "Josua 12:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "der König von Jericho (war) einer; der König von Ai, das seitwärts von Bethel liegt, einer;",
+      "citation": "Josua 12:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "der König von Jerusalem einer; der König von Hebron einer;",
+      "citation": "Josua 12:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "der König von Jarmuth einer; der König von Lachis einer;",
+      "citation": "Josua 12:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "der König von Eglon einer; der König von Geser einer;",
+      "citation": "Josua 12:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "der König von Debir einer; der König von Geder einer;",
+      "citation": "Josua 12:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "der König von Horma einer; der König von Arad einer;",
+      "citation": "Josua 12:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "der König von Libna einer; der König von Adullam einer;",
+      "citation": "Josua 12:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "der König von Makkeda einer; der König von Bethel einer;",
+      "citation": "Josua 12:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "der König von Thappuah einer; der König von Hepher einer;",
+      "citation": "Josua 12:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "der König von Aphek einer; der König von Saron einer;",
+      "citation": "Josua 12:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "der König von Madon einer; der König von Hazor einer;",
+      "citation": "Josua 12:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "der König von Simron-Meron einer; der König von Achsaph einer;",
+      "citation": "Josua 12:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "der König von Thaanach einer; der König von Megiddo einer;",
+      "citation": "Josua 12:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "der König von Kedes einer; der König von Jokneam am Karmel einer;",
+      "citation": "Josua 12:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "der König von Dor in dem Hügelgelände von Dor einer; der König von Gojim in Gilgal einer;",
+      "citation": "Josua 12:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "der König von Thirza einer. Im ganzen waren es einunddreißig Könige.",
+      "citation": "Josua 12:24 (Menge)"
+    }
+  ]
+}

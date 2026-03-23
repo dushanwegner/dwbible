@@ -1,0 +1,331 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Levitikus, Chapter 13 — 59 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Levitikus",
+      "slug": "leviticus",
+      "testament": "OT",
+      "order": 3,
+      "totalChapters": 27
+    },
+    "chapter": 13,
+    "verseCount": 59,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/leviticus/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/leviticus/12.json",
+      "nextChapter": "https://latinprayer.org/bibel/leviticus/14.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/leviticus/13.json",
+      "latin": "https://latinprayer.org/latin/leviticus/13.json"
+    }
+  },
+  "citation": "Levitikus 13 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Hierauf gebot der HERR dem Mose und dem Aaron folgendes:",
+      "citation": "Levitikus 13:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Wenn sich bei einem Menschen auf seiner bloßen Haut eine Anschwellung oder ein Ausschlag oder ein heller Fleck bildet und sich so auf seiner Haut ein aussatzartiges Leiden entwickeln könnte, so soll der Betreffende zu dem Priester Aaron oder zu einem von dessen Söhnen, den Priestern, gebracht werden.",
+      "citation": "Levitikus 13:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Wenn dann der Priester die betroffene Stelle auf der Haut ansieht und dabei findet, daß die Haare auf der betroffenen Stelle weiß geworden sind und daß die betroffene Stelle tiefer liegend erscheint als die sie umgebende Haut, so handelt es sich um wirklichen Aussatz; und sobald der Priester dies wahrnimmt, soll er den Betreffenden für unrein erklären.",
+      "citation": "Levitikus 13:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wenn sich aber ein weißer Fleck auf der Haut befindet, der nicht tiefer liegend erscheint als die ihn umgebende Haut und auf dem die Haare nicht weiß geworden sind, so soll der Priester den Betroffenen sieben Tage lang einschließen.",
+      "citation": "Levitikus 13:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Wenn der Priester ihn dann am siebten Tage wieder untersucht und dabei findet, daß die betroffene Stelle sich in ihrem Aussehen gleichgeblieben ist, da das Übel sich auf der Haut nicht weiter ausgebreitet hat, so soll der Priester ihn noch einmal sieben Tage lang einschließen.",
+      "citation": "Levitikus 13:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Wenn dann der Priester ihn am siebten Tage wieder untersucht und dabei findet, daß die betroffene Stelle blässer geworden ist und das Übel sich auf der Haut nicht weiter ausgebreitet hat, so soll ihn der Priester für rein erklären: es ist nur ein gewöhnlicher Ausschlag; der Betreffende muß seine Kleider waschen und ist dann rein.",
+      "citation": "Levitikus 13:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Wenn aber der Ausschlag, nachdem der Betreffende, um rein zu werden, sich dem Priester gezeigt hat, auf der Haut immer weiter um sich greift, so soll er sich dem Priester zum zweitenmal zeigen;",
+      "citation": "Levitikus 13:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "wenn ihn dann der Priester untersucht und dabei findet, daß der Ausschlag sich auf der Haut weiter ausgebreitet hat, so soll der Priester ihn für unrein erklären: es ist wirklicher Aussatz.«",
+      "citation": "Levitikus 13:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "»Wenn sich ein aussatzartiges Leiden an einem Menschen zeigt, so soll er zum Priester gebracht werden.",
+      "citation": "Levitikus 13:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Wenn der Priester ihn dann untersucht und dabei findet, daß sich eine weiße Anschwellung auf der Haut befindet, auf der die Haare weiß geworden sind, und daß wildes Fleisch auf der Anschwellung wuchert,",
+      "citation": "Levitikus 13:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "so ist das ein bereits veralteter Aussatz auf seiner Haut; darum soll der Priester ihn für unrein erklären, ohne ihn erst einzuschließen; denn er ist wirklich unrein.",
+      "citation": "Levitikus 13:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wenn aber der Aussatz auf der Haut so wuchert, daß der Aussatz die ganze Haut des Betroffenen vom Kopf bis zu den Füßen überzieht, soweit die Augen des Priesters blicken mögen,",
+      "citation": "Levitikus 13:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "wenn also der Priester bei seiner Besichtigung findet, daß der Aussatz den ganzen Körper überzogen hat, so soll er den Betroffenen für rein erklären: er ist ganz und gar weiß geworden und daher rein.",
+      "citation": "Levitikus 13:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Sobald sich aber wildes Fleisch an ihm sehen läßt, ist er unrein.",
+      "citation": "Levitikus 13:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Sobald daher der Priester das wilde Fleisch wahrnimmt, soll er ihn für unrein erklären: das wilde Fleisch ist unrein, es ist wirklicher Aussatz.",
+      "citation": "Levitikus 13:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Wenn jedoch das wilde Fleisch wieder weggeht und der Betreffende wieder weiß wird, so soll er zum Priester gehen.",
+      "citation": "Levitikus 13:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Wenn dieser ihn dann untersucht und dabei findet, daß die kranke Stelle wieder weiß geworden ist, so soll der Priester den Betroffenen für rein erklären: er ist wirklich rein.«",
+      "citation": "Levitikus 13:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "»Wenn sich ferner an jemandes Leibe auf der Haut ein Geschwür bildet und wieder heilt,",
+      "citation": "Levitikus 13:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "dann aber an der Stelle des Geschwürs eine weiße Anschwellung oder ein weiß-rötlicher Fleck entsteht, so soll der Betreffende sich dem Priester zeigen.",
+      "citation": "Levitikus 13:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Wenn dieser ihn dann untersucht und dabei findet, daß die Stelle tiefer liegend erscheint als die sie umgebende Haut und daß die Haare darauf weiß geworden sind, so soll der Priester ihn für unrein erklären: es ist wirklicher Aussatz, der in dem Geschwür zum Ausbruch gekommen ist.",
+      "citation": "Levitikus 13:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Wenn aber der Priester bei der Besichtigung der Stelle findet, daß keine weißen Haare darauf vorhanden sind und daß der Fleck nicht tiefer liegt als die ihn umgebende Haut und blaß aussieht, so soll der Priester den Betreffenden sieben Tage lang einschließen.",
+      "citation": "Levitikus 13:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Wenn sich dann (der Fleck) auf der Haut immer weiter ausgebreitet hat, so soll der Priester ihn für unrein erklären: es ist wirklicher Aussatz.",
+      "citation": "Levitikus 13:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "Wenn aber der Fleck ruhig stehengeblieben ist, ohne weiter um sich gegriffen zu haben, so ist es nur ein vernarbtes Geschwür, und der Priester darf ihn für rein erklären.«",
+      "citation": "Levitikus 13:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "»Oder wenn sich auf jemandes Haut eine Brandwunde befindet und das in der Brandwunde sich bildende Fleisch einen weiß-rötlichen oder weißen Fleck darstellt",
+      "citation": "Levitikus 13:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "und der Priester bei dessen Besichtigung findet, daß die Haare auf dem Fleck weiß geworden sind und (der Fleck) tiefer liegend erscheint als die ihn umgebende Haut, so liegt wirklicher Aussatz vor, der in der Brandwunde zum Ausbruch gekommen ist; darum soll der Priester den Betreffenden für unrein erklären: es ist wirklicher Aussatz.",
+      "citation": "Levitikus 13:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "Wenn aber der Priester bei seiner Besichtigung findet, daß keine weißen Haare auf dem Fleck vorhanden sind und daß (der Fleck) nicht tiefer liegt als die ihn umgebende Haut und blaß aussieht, so soll der Priester den Betreffenden sieben Tage lang einschließen.",
+      "citation": "Levitikus 13:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Wenn ihn dann der Priester am siebten Tage untersucht, so soll er, falls (der Fleck) sich auf der Haut weiter ausgebreitet hat, den Betreffenden für unrein erklären: es ist wirklicher Aussatz.",
+      "citation": "Levitikus 13:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "Wenn aber der Fleck ruhig stehengeblieben ist, ohne auf der Haut weiter um sich gegriffen zu haben, und blaß aussieht, so liegt nur eine Anschwellung der Brandwunde vor; darum soll der Priester den Betreffenden für rein erklären, denn es ist nur eine vernarbte Brandwunde.«",
+      "citation": "Levitikus 13:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "»Wenn ferner ein Mann oder eine Frau einen Ausschlag am Kopf oder am Bart bekommt",
+      "citation": "Levitikus 13:29 (Menge)"
+    },
+    {
+      "verse": 30,
+      "text": "und der Priester bei der Untersuchung des Ausschlags findet, daß er tiefer liegend erscheint als die ihn umgebende Haut und daß sich feine, goldgelbe Haare darauf befinden, so soll der Priester den Betreffenden für unrein erklären: es ist bösartiger Grind, der Aussatz des Kopfes oder des Bartes.",
+      "citation": "Levitikus 13:30 (Menge)"
+    },
+    {
+      "verse": 31,
+      "text": "Wenn der Priester aber den bösen Grind besichtigt und dabei findet, daß (die kranke Stelle) zwar nicht tiefer liegend erscheint als die sie umgebende Haut, daß aber keine dunklen Haare darauf vorhanden sind, so soll der Priester den des Grindleidens Verdächtigen sieben Tage lang einschließen.",
+      "citation": "Levitikus 13:31 (Menge)"
+    },
+    {
+      "verse": 32,
+      "text": "Wenn dann der Priester die betroffene Stelle am siebten Tage wieder untersucht und dabei findet, daß der Grind sich nicht weiter ausgebreitet hat und keine goldgelben Haare darauf vorhanden sind und der Grind nicht tiefer liegend erscheint als die ihn umgebende Haut,",
+      "citation": "Levitikus 13:32 (Menge)"
+    },
+    {
+      "verse": 33,
+      "text": "so soll der Betreffende sich scheren lassen – nur die grindige Stelle darf er nicht scheren –; und der Priester soll dann den des Grindleidens Verdächtigen noch einmal sieben Tage lang einschließen.",
+      "citation": "Levitikus 13:33 (Menge)"
+    },
+    {
+      "verse": 34,
+      "text": "Wenn der Priester dann den Grind am siebten Tage wieder untersucht und dabei findet, daß der Grind sich auf der Haut nicht weiter ausgebreitet hat und daß er nicht tiefer liegend erscheint als die ihn umgebende Haut, so erkläre der Priester den Betreffenden für rein; er muß dann seine Kleider waschen und soll als rein gelten.",
+      "citation": "Levitikus 13:34 (Menge)"
+    },
+    {
+      "verse": 35,
+      "text": "Wenn aber, nachdem der Betreffende für rein erklärt worden ist, der Grind sich auf der Haut weiter ausbreitet",
+      "citation": "Levitikus 13:35 (Menge)"
+    },
+    {
+      "verse": 36,
+      "text": "und der Priester bei der Untersuchung findet, daß der Grind auf der Haut weiter um sich gegriffen hat, so braucht der Priester nicht erst noch nach goldgelben Haaren zu suchen: der Betreffende ist unrein.",
+      "citation": "Levitikus 13:36 (Menge)"
+    },
+    {
+      "verse": 37,
+      "text": "Ist der Grind sich aber in seinem Aussehen gleich geblieben und sind dunkle Haare darauf gewachsen, so ist der Grind geheilt: der Betreffende ist rein, und der Priester soll ihn für rein erklären.«",
+      "citation": "Levitikus 13:37 (Menge)"
+    },
+    {
+      "verse": 38,
+      "text": "»Wenn ferner ein Mann oder eine Frau auf der Haut helle Flecke, weiße, helle Flecke bekommen",
+      "citation": "Levitikus 13:38 (Menge)"
+    },
+    {
+      "verse": 39,
+      "text": "und der Priester bei seiner Untersuchung nur blasse, weiße Flecke auf ihrer Haut findet, so ist es ein ungefährlicher Ausschlag, der auf der Haut zum Ausbruch gekommen ist: der Betreffende ist rein.",
+      "citation": "Levitikus 13:39 (Menge)"
+    },
+    {
+      "verse": 40,
+      "text": "Wenn ferner einem Manne das Haupthaar ausgeht, so ist er ein Hinter-Kahlkopf: ein solcher ist rein;",
+      "citation": "Levitikus 13:40 (Menge)"
+    },
+    {
+      "verse": 41,
+      "text": "und wenn ihm das Haupthaar nach der Gesichtsseite zu ausgeht, so ist er ein Vorder-Kahlkopf: ein solcher ist ebenfalls rein.",
+      "citation": "Levitikus 13:41 (Menge)"
+    },
+    {
+      "verse": 42,
+      "text": "Wenn sich aber vorn oder hinten auf seiner Glatze ein weiß-rötlicher Ausschlag zeigt, so ist es der Aussatz, der vorn oder hinten auf seiner Glatze zum Ausbruch gekommen ist.",
+      "citation": "Levitikus 13:42 (Menge)"
+    },
+    {
+      "verse": 43,
+      "text": "Wenn also der Priester bei seiner Untersuchung findet, daß die Anschwellung des Ausschlags vorn oder hinten auf seiner Glatze weiß-rötlich aussieht, wie sonst der Aussatz auf der Haut des Leibes aussieht,",
+      "citation": "Levitikus 13:43 (Menge)"
+    },
+    {
+      "verse": 44,
+      "text": "so ist der Betreffende ein Aussätziger und daher unrein; der Priester muß ihn unbedingt für unrein erklären: er hat das Aussatzleiden an seinem Kopfe.«",
+      "citation": "Levitikus 13:44 (Menge)"
+    },
+    {
+      "verse": 45,
+      "text": "»Was nun den Aussätzigen betrifft, der dieses Leiden an sich hat, so soll er zerrissene Kleider tragen und sein Haupthaar ohne Pflege wachsen lassen; seinen Lippenbart soll er verhüllen und ›unrein! unrein!‹ ausrufen.",
+      "citation": "Levitikus 13:45 (Menge)"
+    },
+    {
+      "verse": 46,
+      "text": "Solange die Krankheit an ihm haftet, soll er unrein sein: er ist unrein und soll abgesondert wohnen; außerhalb des Lagers soll seine Wohnung sein.«",
+      "citation": "Levitikus 13:46 (Menge)"
+    },
+    {
+      "verse": 47,
+      "text": "»Wenn ferner eine aussätzige Stelle an einem Kleidungsstück, es sei von Wolle oder von Leinen, zum Vorschein kommt",
+      "citation": "Levitikus 13:47 (Menge)"
+    },
+    {
+      "verse": 48,
+      "text": "oder an gewebten oder gewirkten Stoffen von Leinen oder von Wolle oder an einer Lederhaut oder an irgendeinem Gegenstand von Leder",
+      "citation": "Levitikus 13:48 (Menge)"
+    },
+    {
+      "verse": 49,
+      "text": "und die betroffene Stelle an dem Kleide oder am Leder oder an dem gewebten oder gewirkten Stoff oder an irgendeinem Gegenstand von Leder grünlich oder rötlich aussieht, so liegt Aussatz vor, und man soll es vom Priester beschauen lassen.",
+      "citation": "Levitikus 13:49 (Menge)"
+    },
+    {
+      "verse": 50,
+      "text": "Der Priester soll dann den vorliegenden Schaden beschauen und den betroffenen Gegenstand sieben Tage lang unter Verschluß halten.",
+      "citation": "Levitikus 13:50 (Menge)"
+    },
+    {
+      "verse": 51,
+      "text": "Wenn er dann am siebten Tage bei der Besichtigung des betroffenen Gegenstandes findet, daß der Schaden an dem Kleidungsstück oder dem gewebten oder gewirkten Stoff oder am Leder – an irgendeinem Gegenstand, zu welchem Leder verarbeitet wird – weiter um sich gegriffen hat, so ist der Ausschlag ein bösartiger Aussatz: (der betreffende Gegenstand) ist unrein,",
+      "citation": "Levitikus 13:51 (Menge)"
+    },
+    {
+      "verse": 52,
+      "text": "und man soll das Kleidungsstück oder den gewebten oder gewirkten Stoff von Wolle oder von Leinen oder jeden ledernen Gegenstand, an dem der Aussatz haftet, verbrennen; denn es ist ein bösartiger Aussatz: (der betreffende Gegenstand) muß im Feuer verbrannt werden.",
+      "citation": "Levitikus 13:52 (Menge)"
+    },
+    {
+      "verse": 53,
+      "text": "Wenn der Priester aber bei der Besichtigung findet, daß der Schaden an dem Kleidungsstück oder dem gewebten oder gewirkten Stoff oder an irgendeinem Gegenstand von Leder nicht weiter um sich gegriffen hat,",
+      "citation": "Levitikus 13:53 (Menge)"
+    },
+    {
+      "verse": 54,
+      "text": "so soll der Priester anordnen, daß man den Gegenstand, an welchem der Ausschlag haftet, wasche, und soll ihn dann noch einmal sieben Tage lang unter Verschluß halten.",
+      "citation": "Levitikus 13:54 (Menge)"
+    },
+    {
+      "verse": 55,
+      "text": "Wenn der Priester dann den betroffenen Gegenstand nach der Waschung besichtigt und dabei findet, daß die betroffene Stelle ihr Aussehen nicht verändert hat, so ist der Gegenstand, wenn auch der Ausschlag nicht weiter um sich gegriffen hat, dennoch unrein: du sollst ihn im Feuer verbrennen; es ist eine eingefressene Vertiefung auf seiner Hinter- oder seiner Vorderseite.",
+      "citation": "Levitikus 13:55 (Menge)"
+    },
+    {
+      "verse": 56,
+      "text": "Findet der Priester aber bei der Besichtigung, daß die betroffene Stelle nach der Waschung blaß geworden ist, so soll er sie aus dem Kleidungsstück oder dem Leder oder dem gewebten oder gewirkten Stoff herausreißen.",
+      "citation": "Levitikus 13:56 (Menge)"
+    },
+    {
+      "verse": 57,
+      "text": "Wenn (der Ausschlag) aber wiederum an dem Kleidungsstück oder dem gewebten oder gewirkten Stoff oder an irgendeinem Gegenstande von Leder zum Vorschein kommt, so ist es ein frisch ausbrechender Aussatz; darum mußt du den (ganzen) Gegenstand, an dem der Ausschlag haftet, im Feuer vernichten.",
+      "citation": "Levitikus 13:57 (Menge)"
+    },
+    {
+      "verse": 58,
+      "text": "Das Kleidungsstück aber oder der gewebte oder gewirkte Stoff oder jeder lederne Gegenstand, an welchem der Ausschlag nach der Waschung verschwunden ist, muß noch einmal gewaschen werden und soll dann als rein gelten.«",
+      "citation": "Levitikus 13:58 (Menge)"
+    },
+    {
+      "verse": 59,
+      "text": "Dies sind die Vorschriften bezüglich des Aussatzes an Kleidungsstücken von Wolle oder von Leinen oder an gewebten oder gewirkten Stoffen oder an irgendeinem Gegenstand von Leder, um (derartige Sachen) für rein oder für unrein zu erklären.",
+      "citation": "Levitikus 13:59 (Menge)"
+    }
+  ]
+}

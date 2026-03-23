@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 16 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 50
+    },
+    "chapter": 16,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/genesis/15.json",
+      "nextChapter": "https://latinprayer.org/bible/genesis/17.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/genesis/16.json",
+      "german": "https://latinprayer.org/bibel/genesis/16.json"
+    }
+  },
+  "citation": "Genesis 16 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now Sarai, the wife of Abram, had brought forth no children: but having a handmaid, an Egyptian, named Agar,",
+      "citation": "Genesis 16:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "She said to her husband: Behold, the Lord hath restrained me from bearing: go in unto my handmaid, it may be I may have children of her at least. And when he agreed to her request,",
+      "citation": "Genesis 16:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "She took Agar the Egyptian her handmaid, ten years after they first dwelt in the land of Chanaan, and gave her to her husband to wife.",
+      "citation": "Genesis 16:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And he went in to her. But she perceiving that she was with child, despised her mistress.",
+      "citation": "Genesis 16:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And Sarai said to Abram: Thou dost unjustly with me: I gave my handmaid into thy bosom, and she perceiving herself to be with child, despiseth me. The Lord judge between me and thee.",
+      "citation": "Genesis 16:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Abram made answer, and said to her: Behold thy handmaid is in thy own hand, use her as it pleaseth thee. And when Sarai afflicted her, she ran away.",
+      "citation": "Genesis 16:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And the angel of the Lord having found her, by a fountain of water in the wilderness, which is in the way to Sur in the desert,",
+      "citation": "Genesis 16:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "He said to her: Agar, handmaid of Sarai, whence comest thou? and whither goest thou? And she answered: I flee from the face of Sarai, my mistress.",
+      "citation": "Genesis 16:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the angel of the Lord said to her: Return to thy mistress, and humble thyself under her hand.",
+      "citation": "Genesis 16:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And again he said: I will multiply thy seed exceedingly, and it shall not be numbered for multitude.",
+      "citation": "Genesis 16:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And again: Behold, said he, thou art with child, and thou shalt bring forth a son: and thou shalt call his name Ismael, because the Lord hath heard thy affliction.",
+      "citation": "Genesis 16:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "He shall be a wild man: his hand will be against all men, and all men's hands against him: and he shall pitch his tents over against all his brethren.",
+      "citation": "Genesis 16:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And she called the name of the Lord that spoke unto her: Thou the God who hast seen me. For she said: Verily, here have I seen the hinder parts of him that seeth me.",
+      "citation": "Genesis 16:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Therefore she called that well, the well of him that liveth and seeth me. The same is between Cades and Barad.",
+      "citation": "Genesis 16:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And Agar brought forth a son to Abram: who called his name Ismael.",
+      "citation": "Genesis 16:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Abram was four score and six years old when Agar brought him forth Ismael.",
+      "citation": "Genesis 16:16 (Douay-Rheims)"
+    }
+  ]
+}

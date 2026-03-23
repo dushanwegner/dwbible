@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 90 — 34 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 90,
+    "verseCount": 34,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/89.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/91.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/90.json",
+      "german": "https://latinprayer.org/bibel/psalms/90.json"
+    }
+  },
+  "citation": "Psalms 90 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "oratio Mosi hominis Dei Domine refugium tu factus es nobis in generatione et generatione",
+      "citation": "Psalms 90:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "oratio Mosi viri Dei Domine habitaculum tu factus es nobis in generatione et generatione",
+      "citation": "Psalms 90:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "priusquam montes fierent et formaretur terra et orbis a saeculo usque in saeculum tu es Deus",
+      "citation": "Psalms 90:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "antequam montes nascerentur et parturiretur terra et orbis a saeculo et usque in saeculum tu es",
+      "citation": "Psalms 90:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ne avertas hominem in humilitatem et dixisti convertimini filii hominum",
+      "citation": "Psalms 90:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "convertes hominem usque ad contritionem et dices revertimini filii Adam",
+      "citation": "Psalms 90:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quoniam mille anni ante oculos tuos tamquam dies hesterna quae praeteriit et custodia in nocte",
+      "citation": "Psalms 90:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia mille anni in oculis tuis sicut dies hesterna quae pertransiit et vigilia nocturna",
+      "citation": "Psalms 90:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "quae pro nihilo habentur eorum anni erunt",
+      "citation": "Psalms 90:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "percutiente te eos somnium erunt",
+      "citation": "Psalms 90:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "mane sicut herba transeat mane floreat et transeat vespere decidat induret et arescat",
+      "citation": "Psalms 90:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "mane quasi herba pertransiens mane floruit et abiit ad vesperam conteretur atque siccabitur",
+      "citation": "Psalms 90:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quia defecimus in ira tua et in furore tuo turbati sumus",
+      "citation": "Psalms 90:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "consumpti enim sumus in furore tuo et in indignatione tua conturbati sumus",
+      "citation": "Psalms 90:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "posuisti iniquitates nostras in conspectu tuo saeculum nostrum in inluminatione vultus tui",
+      "citation": "Psalms 90:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "posuisti iniquitates nostras coram te neglegentias nostras in luce vultus tui",
+      "citation": "Psalms 90:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "quoniam omnes dies nostri defecerunt in ira tua defecimus anni nostri sicut aranea meditabantur",
+      "citation": "Psalms 90:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "omnes enim dies nostri transierunt in furore tuo consumpsimus annos nostros quasi sermonem loquens",
+      "citation": "Psalms 90:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "dies annorum nostrorum in ipsis septuaginta anni si autem in potentatibus octoginta anni et amplius eorum labor et dolor quoniam supervenit mansuetudo et corripiemur",
+      "citation": "Psalms 90:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "dies annorum nostrorum in ipsis septuaginta anni si autem multum octoginta anni et quod amplius est labor et dolor quoniam transivimus cito et avolavimus",
+      "citation": "Psalms 90:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quis novit potestatem irae tuae et prae timore tuo iram tuam",
+      "citation": "Psalms 90:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quis novit fortitudinem irae tuae et secundum timorem tuum indignationem tuam",
+      "citation": "Psalms 90:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "dinumerare dexteram tuam sic notam fac et conpeditos corde in sapientia",
+      "citation": "Psalms 90:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "ut numerentur dies nostri sic ostende et veniemus corde sapienti",
+      "citation": "Psalms 90:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "convertere Domine usquequo et deprecabilis esto super servos tuos",
+      "citation": "Psalms 90:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "revertere Domine usquequo et exorabilis esto super servis tuis",
+      "citation": "Psalms 90:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "repleti sumus mane misericordia tua et exultavimus et delectati sumus in omnibus diebus nostris",
+      "citation": "Psalms 90:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "imple nos matutina misericordia tua et laudabimus et laetabimur in cunctis diebus nostris",
+      "citation": "Psalms 90:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "laetati sumus pro diebus quibus nos humiliasti annis quibus vidimus mala",
+      "citation": "Psalms 90:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "laetifica nos pro diebus quibus adflixisti nos et annis in quibus vidimus mala",
+      "citation": "Psalms 90:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et respice in servos tuos et in opera tua et dirige filios eorum",
+      "citation": "Psalms 90:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "appareat apud servos tuos opus tuum et gloria tua super filios eorum",
+      "citation": "Psalms 90:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et sit splendor Domini Dei nostri super nos et opera manuum nostrarum dirige super nos * et opus manuum nostrarum dirige;",
+      "citation": "Psalms 90:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et sit decor Domini Dei nostri super nos et opus manuum nostrarum fac stabile super nos opus manuum nostrarum confirma",
+      "citation": "Psalms 90:17 (Clementine Vulgate)"
+    }
+  ]
+}

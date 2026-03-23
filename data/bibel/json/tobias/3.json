@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Tobit, Chapter 3 — 17 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Tobit",
+      "slug": "tobias",
+      "testament": "OT",
+      "order": 17,
+      "totalChapters": 14
+    },
+    "chapter": 3,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/tobias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/tobias/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/tobias/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/tobias/3.json",
+      "latin": "https://latinprayer.org/latin/tobias/3.json"
+    }
+  },
+  "citation": "Tobit 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Da wurde ich tief betrübt und weinte, und in meinem Schmerz betete ich also:",
+      "citation": "Tobit 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "»Gerecht bist du, o Herr! Alle deine Werke und alle deine Wege sind Erbarmen und Treue, und das Gericht, welches du übst, ist wahrhaftig und gerecht in Ewigkeit.",
+      "citation": "Tobit 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Gedenke meiner und blicke gnädig auf mich her! Strafe mich nicht nach meinen Sünden und nach meinen Verfehlungen und nach den Vergehen, deren meine Väter sich vor dir schuldig gemacht haben.",
+      "citation": "Tobit 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denn sie haben deine Gebote übertreten, und so hast du uns zur Ausplünderung, zur Gefangenschaft und zum Tode hingegeben und uns zum Gegenstand des Spottes und Hohnes für alle Heiden gemacht, unter die wir zerstreut sind.",
+      "citation": "Tobit 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Und nun sind auch deine vielen Gerichte wahrhaftig, die du an mir vollziehen willst wegen meiner und meiner Väter Sünden, weil wir deine Gebote nicht gehalten haben; denn wir sind nicht in Aufrichtigkeit vor dir gewandelt.",
+      "citation": "Tobit 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Und nun verfahre mit mir nach deinem Wohlgefallen; gebiete, daß mein Geist von mir genommen werde, damit ich abscheide und Erde werde; denn für mich ist es besser zu sterben als zu leben. Ich habe ja lügnerische Schmähungen hören müssen, und tiefe Betrübnis ist in mir. Gebiete, daß ich aus dieser Notlage befreit werde und schon jetzt an die ewige Stätte gelange. Wende dein Angesicht nicht von mir ab!«",
+      "citation": "Tobit 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "An demselben Tage begab es sich, daß auch Sara, die Tochter Raguels zu Ekbatana in Medien, von den Mägden ihres Vaters verhöhnt wurde.",
+      "citation": "Tobit 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Sie war nämlich schon mit sieben Männern verheiratet gewesen, aber Asmodäus, der böse Geist, hatte sie alle sterben lassen, ehe sie die Ehe mit ihr vollzogen hatten. Sie sagten also zu ihr: »Du bist wohl nicht bei Sinnen, daß du deine Männer ums Leben bringst? Schon sieben hast du gehabt, aber den Namen keines von ihnen getragen.",
+      "citation": "Tobit 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Was schlägst du uns? Wenn sie gestorben sind, so folge ihnen nach! Wir möchten nun und nimmer einen Sohn oder eine Tochter von dir zu sehen bekommen!«",
+      "citation": "Tobit 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Als sie dies hörte, wurde sie tief betrübt, daß sie sich erhängen wollte; doch sie dachte: »Ich bin das einzige Kind meines Vaters. Tue ich dies so ist’s eine Schande für ihn, und ich bringe sein Greisenalter mit Herzeleid in die Unterwelt«.",
+      "citation": "Tobit 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Dann betete sie an einem Fenster mit den Worten: »Gepriesen seist du, Herr, mein Gott, und gepriesen sei dein heiliger und ehrwürdiger Name in Ewigkeit! Preisen müssen dich alle deine Werke ewiglich!",
+      "citation": "Tobit 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Jetzt aber, Herr, habe ich meine Augen und mein Antlitz auf dich gerichtet.",
+      "citation": "Tobit 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Gebiete, daß ich von der Erde abberufen werde und keine Schmähung mehr anzuhören brauche.",
+      "citation": "Tobit 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Du weißt, Herr, daß ich rein bin von jeder Sünde mit einem Mann",
+      "citation": "Tobit 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "und daß ich meinen Namen und den Namen meines Vaters nicht entehrt habe in diesem Lande unserer Gefangenschaft. Ich bin die einzige Tochter meines Vaters, und er hat weiter kein Kind, das ihn beerben könnte; es ist auch kein naher Verwandter vorhanden und kein Sohn eines solchen, für den ich mich als Weib erhalten sollte. Schon sind mir sieben Männer gestorben; wozu noch länger leben? Gefällt es dir aber nicht, mich sterben zu lassen, so gebiete, daß man Rücksicht auf mich nehme und Mitleid mit mir habe, damit ich keine Schmähung mehr zu hören brauche«.",
+      "citation": "Tobit 3:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Und das Gebet beider fand Erhörung vor der Herrlichkeit des großen Gottes,",
+      "citation": "Tobit 3:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "und Raphael wurde abgesandt, die beiden zu heilen, nämlich die weißen Flecken von Tobits Augen wegzuschaffen und Sara, die Tochter Raguels, mit Tobias, dem Sohne Tobits, zu vermählen und den bösen Geist Asmodäus zu fesseln, weil Tobias ein Recht habe, durch sie der Erbe zu werden. Zu gleicher Zeit kehrte Tobit in sein Haus zurück, und Raguels Tochter Sara stieg aus ihrem Obergemach hernieder.",
+      "citation": "Tobit 3:17 (Menge)"
+    }
+  ]
+}

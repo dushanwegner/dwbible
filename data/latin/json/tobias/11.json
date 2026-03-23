@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Tobit, Chapter 11 — 21 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Tobit",
+      "slug": "tobias",
+      "testament": "OT",
+      "order": 17,
+      "totalChapters": 14
+    },
+    "chapter": 11,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/tobias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/tobias/10.json",
+      "nextChapter": "https://latinprayer.org/latin/tobias/12.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/tobias/11.json",
+      "german": "https://latinprayer.org/bibel/tobias/11.json"
+    }
+  },
+  "citation": "Tobit 11 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "cumque reverterentur pervenerunt ad Charram quae est in medio itinere contra Nineven undecimo die",
+      "citation": "Tobit 11:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dixit angelus Tobias frater scis quemadmodum reliquisti patrem tuum",
+      "citation": "Tobit 11:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "si placet itaque tibi praecedamus et lento gradu insequentur iter nostrum familiae simul cum coniuge tua et cum animalibus",
+      "citation": "Tobit 11:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "cumque hoc placuisset ut irent dixit Rafahel ad Tobiam tolle tecum ex felle piscis erit enim necessarium tulit itaque Tobias ex felle illo et abierunt",
+      "citation": "Tobit 11:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Anna vero sedebat secus viam in supercilio montis unde respicere poterat de longinquo",
+      "citation": "Tobit 11:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et dum ex eodem loco specularetur adventum eius vidit a longe et ilico agnovit venientem filium suum et currens nuntiavit viro suo dicens ecce venit filius tuus",
+      "citation": "Tobit 11:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "dixitque Rafahel ad Tobiam adubi introieris domum tuam statim adora Dominum Deum tuum et gratias agens ei accede ad patrem tuum et osculare eum",
+      "citation": "Tobit 11:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "statimque lini super oculos eius ex felle isto piscis quod portas tecum scias enim quoniam mox aperientur oculi eius et videbit pater tuus lumen caeli et in aspectu tuo gaudebit",
+      "citation": "Tobit 11:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "tunc praecucurrit canis qui simul fuerat in via et quasi nuntius adveniens blandimento suae caudae gaudebat",
+      "citation": "Tobit 11:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "unde contigit ut exsurgens caecus pater coepit offendens pedibus currere et data manu puero occurrit in obviam filio suo",
+      "citation": "Tobit 11:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et suscipiens osculatus est eum cum uxore sua et coeperunt flere prae gaudio",
+      "citation": "Tobit 11:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cumque adorassent Dominum et gratias egissent consederunt",
+      "citation": "Tobit 11:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "tunc sumens Tobias de felle piscis linivit oculos patri suo",
+      "citation": "Tobit 11:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "et sustinens quasi dimidiam fere horam coepit albugo ex oculis eius quasi membrana ovi egredi",
+      "citation": "Tobit 11:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "quem adprehendens Tobias traxit ab oculis eius statimque visum recepit",
+      "citation": "Tobit 11:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et glorificabant Deum ipse videlicet et uxor eius et omnes qui sciebant eum",
+      "citation": "Tobit 11:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "dicebatque Tobias benedico te Domine Deus Israhel quoniam tu castigasti me et tu sanasti me et ecce video Tobiam filium meum",
+      "citation": "Tobit 11:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "ingressa est etiam post septem dies Sarra uxor filii eius et omnes familiae et pecora sana et cameli et pecunia multa uxoris sed et alia pecunia quam receperat a Gabelo",
+      "citation": "Tobit 11:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et narravit parentibus suis omnia beneficia Dei quae fecisset circa eum per hominem qui eum duxerat",
+      "citation": "Tobit 11:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "veneruntque Achior et Nabath consobrini Tobiae gaudentes ad Tobin congratulantes ei de omnibus bonis quae circa illum ostenderat Deus",
+      "citation": "Tobit 11:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et per septem dies epulantes omnes gaudio magno gavisi sunt",
+      "citation": "Tobit 11:21 (Clementine Vulgate)"
+    }
+  ]
+}

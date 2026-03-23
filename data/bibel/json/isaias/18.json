@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Jesaja, Chapter 18 — 7 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Jesaja",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 18,
+    "verseCount": 7,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/isaias/17.json",
+      "nextChapter": "https://latinprayer.org/bibel/isaias/19.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/isaias/18.json",
+      "latin": "https://latinprayer.org/latin/isaias/18.json"
+    }
+  },
+  "citation": "Jesaja 18 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Ha du Land des Flügelgeschwirrs jenseits der Ströme von Äthiopien,",
+      "citation": "Jesaja 18:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "das da Boten entsandt hat auf dem Strome und in Rohrkähnen über den Wasserspiegel: geht heim, ihr flinken Boten, zu eurem hochgewachsenen und blanken Volke, zu der Völkerschaft, die, seit sie besteht, gefürchtet ist, zu der Völkerschaft, die gewaltige Kraft besitzt und alles niedertritt, deren Land Ströme durchschneiden.",
+      "citation": "Jesaja 18:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ihr Bewohner des Erdkreises allesamt und ihr Insassen der Erde: Sobald man ein Panier auf den Bergen aufpflanzt, so sehet hin! Und sobald man in die Trompete stößt, so horchet auf!",
+      "citation": "Jesaja 18:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denn so hat der HERR zu mir gesprochen: »Ruhig will ich warten und zuschauen an meiner Stätte, wie wolkenlose Hitze bei Sonnenschein, wie Taugewölk in der Ernteglut.«",
+      "citation": "Jesaja 18:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn vor der Ernte, sobald die Blüte vorüber ist und der Beerenbüschel zur reifenden Traube wird, da schneidet er die Ranken mit Winzermessern ab und entfernt die Triebe, haut sie ab.",
+      "citation": "Jesaja 18:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Sie werden dann allesamt den Raubvögeln der Berge und dem Getier des Landes überlassen, so daß die Raubvögel während des Sommers darauf verbleiben und alles Getier des Landes den Winter hindurch darauf zubringt.",
+      "citation": "Jesaja 18:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Zu jener Zeit werden dem HERRN der Heerscharen Weihgeschenke dargebracht werden von dem hochgewachsenen und blanken Volk, von dem Volk, das, seit es besteht, gefürchtet ist, von der Völkerschaft, die gewaltige Kraft besitzt und alles niedertritt, deren Land Ströme durchschneiden, – hin zu der Stätte, wo der Name des HERRN der Heerscharen wohnt, zum Berge Zion.",
+      "citation": "Jesaja 18:7 (Menge)"
+    }
+  ]
+}

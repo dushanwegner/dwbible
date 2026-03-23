@@ -1,0 +1,266 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Deuteronomy, Chapter 1 — 46 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Deuteronomy",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "totalChapters": 34
+    },
+    "chapter": 1,
+    "verseCount": 46,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/deuteronomy/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/deuteronomy/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/deuteronomy/1.json",
+      "german": "https://latinprayer.org/bibel/deuteronomy/1.json"
+    }
+  },
+  "citation": "Deuteronomy 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "haec sunt verba quae locutus est Moses ad omnem Israhel trans Iordanem in solitudine campestri contra mare Rubrum inter Pharan et Thophel et Laban et Aseroth ubi auri est plurimum",
+      "citation": "Deuteronomy 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "undecim diebus de Horeb per viam montis Seir usque Cadesbarne",
+      "citation": "Deuteronomy 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quadragesimo anno undecimo mense prima die mensis locutus est Moses ad filios Israhel omnia quae praeceperat illi Dominus ut diceret eis",
+      "citation": "Deuteronomy 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "postquam percussit Seon regem Amorreorum qui habitavit in Esebon et Og regem Basan qui mansit in Aseroth et in Edrai",
+      "citation": "Deuteronomy 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "trans Iordanem in terra Moab coepitque Moses explanare legem et dicere",
+      "citation": "Deuteronomy 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "Dominus Deus noster locutus est ad nos in Horeb dicens sufficit vobis quod in hoc monte mansistis",
+      "citation": "Deuteronomy 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "revertimini et venite ad montem Amorreorum et ad cetera quae ei proxima sunt campestria atque montana et humiliora loca contra meridiem et iuxta litus maris terram Chananeorum et Libani usque ad flumen magnum Eufraten",
+      "citation": "Deuteronomy 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "en inquit tradidi vobis ingredimini et possidete eam super qua iuravit Dominus patribus vestris Abraham et Isaac et Iacob ut daret illam eis et semini eorum post eos",
+      "citation": "Deuteronomy 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dixique vobis illo in tempore",
+      "citation": "Deuteronomy 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "non possum solus sustinere vos quia Dominus Deus vester multiplicavit vos et estis hodie sicut stellae caeli plurimae",
+      "citation": "Deuteronomy 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Dominus Deus patrum vestrorum addat ad hunc numerum multa milia et benedicat vobis sicut locutus est",
+      "citation": "Deuteronomy 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "non valeo solus vestra negotia sustinere et pondus ac iurgia",
+      "citation": "Deuteronomy 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "date e vobis viros sapientes et gnaros et quorum conversatio sit probata in tribubus vestris ut ponam eos vobis principes",
+      "citation": "Deuteronomy 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "tunc respondistis mihi bona res est quam vis facere",
+      "citation": "Deuteronomy 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "tulique de tribubus vestris viros sapientes et nobiles et constitui eos principes tribunos et centuriones et quinquagenarios ac decanos qui docerent vos singula",
+      "citation": "Deuteronomy 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "praecepique eis dicens audite illos et quod iustum est iudicate sive civis sit ille sive peregrinus",
+      "citation": "Deuteronomy 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "nulla erit distantia personarum ita parvum audietis ut magnum nec accipietis cuiusquam personam quia Dei iudicium est quod si difficile vobis aliquid visum fuerit referte ad me et ego audiam",
+      "citation": "Deuteronomy 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "praecepique omnia quae facere deberetis",
+      "citation": "Deuteronomy 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "profecti autem de Horeb transivimus per heremum terribilem et maximam quam vidistis per viam montis Amorrei sicut praeceperat Dominus Deus noster nobis cumque venissemus in Cadesbarne",
+      "citation": "Deuteronomy 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "dixi vobis venistis ad montem Amorrei quem Dominus Deus noster daturus est nobis",
+      "citation": "Deuteronomy 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "vide terram quam Dominus Deus tuus dat tibi ascende et posside eam sicut locutus est Dominus Deus patribus tuis noli metuere nec quicquam paveas",
+      "citation": "Deuteronomy 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et accessistis ad me omnes atque dixistis mittamus viros qui considerent terram et renuntient per quod iter debeamus ascendere et ad quas pergere civitates",
+      "citation": "Deuteronomy 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "cumque mihi sermo placuisset misi e vobis duodecim viros singulos de tribubus suis",
+      "citation": "Deuteronomy 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "qui cum perrexissent et ascendissent in montana venerunt usque ad vallem Botri et considerata terra",
+      "citation": "Deuteronomy 1:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "sumentes de fructibus eius ut ostenderent ubertatem adtulerunt ad nos atque dixerunt bona est terra quam Dominus Deus noster daturus est nobis",
+      "citation": "Deuteronomy 1:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et noluistis ascendere sed increduli ad sermonem Domini Dei nostri",
+      "citation": "Deuteronomy 1:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "murmurati estis in tabernaculis vestris atque dixistis odit nos Dominus et idcirco eduxit nos de terra Aegypti ut traderet in manu Amorrei atque deleret",
+      "citation": "Deuteronomy 1:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "quo ascendemus nuntii terruerunt cor nostrum dicentes maxima multitudo est et nobis in statura procerior urbes magnae et ad caelum usque munitae filios Enacim vidimus ibi",
+      "citation": "Deuteronomy 1:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et dixi vobis nolite metuere nec timeatis eos",
+      "citation": "Deuteronomy 1:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "Dominus Deus qui ductor est vester pro vobis ipse pugnabit sicut fecit in Aegypto videntibus cunctis",
+      "citation": "Deuteronomy 1:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "et in solitudine ipse vidisti portavit te Dominus Deus tuus ut solet homo gestare parvulum filium suum in omni via per quam ambulasti donec veniretis ad locum istum",
+      "citation": "Deuteronomy 1:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et nec sic quidem credidistis Domino Deo vestro",
+      "citation": "Deuteronomy 1:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "qui praecessit vos in via et metatus est locum in quo tentoria figere deberetis nocte ostendens vobis iter per ignem et die per columnam nubis",
+      "citation": "Deuteronomy 1:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "cumque audisset Dominus vocem sermonum vestrorum iratus iuravit et ait",
+      "citation": "Deuteronomy 1:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "non videbit quispiam de hominibus generationis huius pessimae terram bonam quam sub iuramento pollicitus sum patribus vestris",
+      "citation": "Deuteronomy 1:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "praeter Chaleb filium Iepphonne ipse enim videbit eam et ipsi dabo terram quam calcavit et filiis eius quia secutus est Dominum",
+      "citation": "Deuteronomy 1:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "nec miranda indignatio in populum cum mihi quoque iratus Dominus propter vos dixerit nec tu ingredieris illuc",
+      "citation": "Deuteronomy 1:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "sed Iosue filius Nun minister tuus ipse intrabit pro te hunc exhortare et robora et ipse terram sorte dividat Israheli",
+      "citation": "Deuteronomy 1:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "parvuli vestri de quibus dixistis quod captivi ducerentur et filii qui hodie boni ac mali ignorant distantiam ipsi ingredientur et ipsis dabo terram et possidebunt eam",
+      "citation": "Deuteronomy 1:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "vos autem revertimini et abite in solitudinem per viam maris Rubri",
+      "citation": "Deuteronomy 1:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et respondistis mihi peccavimus Domino ascendemus atque pugnabimus sicut praecepit Dominus Deus noster cumque instructi armis pergeretis in montem",
+      "citation": "Deuteronomy 1:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "ait mihi Dominus dic ad eos nolite ascendere neque pugnetis non enim sum vobiscum ne cadatis coram inimicis vestris",
+      "citation": "Deuteronomy 1:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "locutus sum et non audistis sed adversantes imperio Domini et tumentes superbia ascendistis in montem",
+      "citation": "Deuteronomy 1:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "itaque egressus Amorreus qui habitabat in montibus et obviam veniens persecutus est vos sicut solent apes persequi et cecidit de Seir usque Horma",
+      "citation": "Deuteronomy 1:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "cumque reversi ploraretis coram Domino non audivit vos nec voci vestrae voluit adquiescere",
+      "citation": "Deuteronomy 1:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "sedistis ergo in Cadesbarne multo tempore",
+      "citation": "Deuteronomy 1:46 (Clementine Vulgate)"
+    }
+  ]
+}

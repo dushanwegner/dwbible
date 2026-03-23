@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Samuel, Chapter 20 — 26 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Samuel",
+      "slug": "2-kings-samuel",
+      "testament": "OT",
+      "order": 10,
+      "totalChapters": 24
+    },
+    "chapter": 20,
+    "verseCount": 26,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-kings-samuel/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-kings-samuel/19.json",
+      "nextChapter": "https://latinprayer.org/latin/2-kings-samuel/21.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-kings-samuel/20.json",
+      "german": "https://latinprayer.org/bibel/2-kings-samuel/20.json"
+    }
+  },
+  "citation": "2 Samuel 20 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "accidit quoque ut ibi esset vir Belial nomine Seba filius Bochri vir iemineus et cecinit bucina et ait non est nobis pars in David neque hereditas in filio Isai vir in tabernacula tua Israhel",
+      "citation": "2 Samuel 20:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et separatus est omnis Israhel a David secutusque est Seba filium Bochri viri autem Iuda adheserunt regi suo a Iordane usque Hierusalem",
+      "citation": "2 Samuel 20:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "cumque venisset rex in domum suam Hierusalem tulit decem mulieres concubinas quas dereliquerat ad custodiendam domum et tradidit eas in custodiam alimenta eis praebens et non est ingressus ad eas sed erant clausae usque ad diem mortis suae in viduitate viventes",
+      "citation": "2 Samuel 20:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "dixit autem rex Amasae convoca mihi omnes viros Iuda in diem tertium et tu adesto praesens",
+      "citation": "2 Samuel 20:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "abiit ergo Amasa ut convocaret Iudam et moratus est extra placitum quod ei constituerat",
+      "citation": "2 Samuel 20:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ait autem David ad Abisai nunc magis adflicturus est nos Seba filius Bochri quam Absalom tolle igitur servos domini tui et persequere eum ne forte inveniat civitates munitas et effugiat nos",
+      "citation": "2 Samuel 20:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "egressi sunt ergo cum eo viri Ioab Cherethi quoque et Felethi et omnes robusti exierunt de Hierusalem ad persequendum Seba filium Bochri",
+      "citation": "2 Samuel 20:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "cumque illi essent iuxta lapidem grandem qui est in Gabaon Amasa veniens occurrit eis porro Ioab vestitus erat tunica stricta ad mensuram habitus sui et desuper accinctus gladio dependente usque ad ilia in vagina qui fabrefactus levi motu egredi poterat et percutere",
+      "citation": "2 Samuel 20:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dixit itaque Ioab ad Amasa salve mi frater et tenuit manu dextra mentum Amasae quasi osculans eum",
+      "citation": "2 Samuel 20:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "porro Amasa non observavit gladium quem habebat Ioab qui percussit eum in latere et effudit intestina eius in terram nec secundum vulnus adposuit Ioab autem et Abisai frater eius persecuti sunt Seba filium Bochri",
+      "citation": "2 Samuel 20:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "interea quidam viri cum stetissent iuxta cadaver Amasae de sociis Ioab dixerunt ecce qui esse voluit pro Ioab comes David pro Ioab",
+      "citation": "2 Samuel 20:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Amasa autem conspersus sanguine iacebat in media via vidit hoc quidam vir quod subsisteret omnis populus ad videndum eum et amovit Amasam de via in agrum operuitque eum vestimento ne subsisterent transeuntes propter eum",
+      "citation": "2 Samuel 20:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "amoto igitur illo de via transiebat omnis vir sequens Ioab ad persequendum Seba filium Bochri",
+      "citation": "2 Samuel 20:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "porro ille transierat per omnes tribus Israhel in Abelam et in Bethmacha omnesque electi congregati fuerant ad eum",
+      "citation": "2 Samuel 20:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "venerunt itaque et obpugnabant eum in Abela et in Bethmacha et circumdederunt munitionibus civitatem et obsessa est urbs omnis autem turba quae erat cum Ioab moliebatur destruere muros",
+      "citation": "2 Samuel 20:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et exclamavit mulier sapiens de civitate audite audite dicite Ioab adpropinqua huc et loquar tecum",
+      "citation": "2 Samuel 20:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "qui cum accessisset ad eam ait illi tu es Ioab et ille respondit ego ad quem sic locuta est audi sermones ancillae tuae qui respondit audio",
+      "citation": "2 Samuel 20:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "rursumque illa sermo inquit dicebatur in veteri proverbio qui interrogant interrogent in Abela et sic perficiebant",
+      "citation": "2 Samuel 20:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "nonne ego sum quae respondeo veritatem Israhel et tu quaeris subruere civitatem et evertere matrem in Israhel quare praecipitas hereditatem Domini",
+      "citation": "2 Samuel 20:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "respondensque Ioab ait absit absit hoc a me non praecipito neque demolior",
+      "citation": "2 Samuel 20:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "non se sic habet res sed homo de monte Ephraim Seba filius Bochri cognomine levavit manum contra regem David tradite illum solum et recedemus a civitate et ait mulier ad Ioab ecce caput eius mittetur ad te per murum",
+      "citation": "2 Samuel 20:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "ingressa est ergo ad omnem populum et locuta est eis sapienter qui abscisum caput Seba filii Bochri proiecerunt ad Ioab et ille cecinit tuba et recesserunt ab urbe unusquisque in tabernacula sua Ioab autem reversus est Hierusalem ad regem",
+      "citation": "2 Samuel 20:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "fuit ergo Ioab super omnem exercitum Israhel Banaias autem filius Ioiadae super Cheretheos et Feletheos",
+      "citation": "2 Samuel 20:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "Aduram vero super tributa porro Iosaphat filius Ahilud a commentariis",
+      "citation": "2 Samuel 20:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "Sia autem scriba Sadoc vero et Abiathar sacerdotes",
+      "citation": "2 Samuel 20:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "Hira autem Hiaiarites erat sacerdos David",
+      "citation": "2 Samuel 20:26 (Clementine Vulgate)"
+    }
+  ]
+}

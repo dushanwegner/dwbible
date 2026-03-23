@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 10 — 36 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 10,
+    "verseCount": 36,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/9.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/11.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/10.json",
+      "german": "https://latinprayer.org/bibel/psalms/10.json"
+    }
+  },
+  "citation": "Psalms 10 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "ut quid Domine recessisti longe dispicis in oportunitatibus in tribulatione",
+      "citation": "Psalms 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "quare Domine stas a longe dispicis in temporibus angustiae",
+      "citation": "Psalms 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "dum superbit impius incenditur pauper conprehenduntur in consiliis quibus cogitant",
+      "citation": "Psalms 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "in superbia impii ardet pauper capiantur in sceleribus quae cogitaverunt",
+      "citation": "Psalms 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quoniam laudatur peccator in desideriis animae suae et iniquus benedicitur",
+      "citation": "Psalms 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "quia laudavit impius desiderium animae suae et avarus adplaudens sibi",
+      "citation": "Psalms 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "exacerbavit Dominum peccator secundum multitudinem irae suae non quaeret",
+      "citation": "Psalms 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "blasphemavit Dominum impius secundum altitudinem furoris sui non requiret",
+      "citation": "Psalms 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "non est Deus in conspectu eius inquinatae sunt viae illius in omni tempore auferuntur iudicia tua a facie eius omnium inimicorum suorum dominabitur",
+      "citation": "Psalms 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "nec est Deus in omnibus cogitationibus eius parturiunt viae eius in omni tempore longe sunt iudicia tua a facie eius omnes inimicos suos dispicit",
+      "citation": "Psalms 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dixit enim in corde suo non movebor a generatione in generationem sine malo",
+      "citation": "Psalms 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "loquitur in corde suo non movebor in generatione et generatione ero sine malo",
+      "citation": "Psalms 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "cuius maledictione os plenum est et amaritudine et dolo sub lingua eius labor et dolor",
+      "citation": "Psalms 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "maledictione os eius plenum est et dolis et avaritia sub lingua eius dolor et iniquitas",
+      "citation": "Psalms 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sedet in insidiis cum divitibus in occultis ut interficiat innocentem",
+      "citation": "Psalms 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "sedet insidians iuxta vestibula in absconditis ut interficiat innocentem",
+      "citation": "Psalms 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "oculi eius in pauperem respiciunt insidiatur in abscondito quasi leo in spelunca sua insidiatur ut rapiat pauperem rapere pauperem dum adtrahit eum",
+      "citation": "Psalms 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "oculi eius robustos tuos circumspiciunt insidiatur in abscondito quasi leo in cubili insidiatur ut rapiat pauperem rapiet pauperem cum adtraxerit eum ad rete suum",
+      "citation": "Psalms 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in laqueo suo humiliabit eum inclinabit se et cadet cum dominatus fuerit pauperum",
+      "citation": "Psalms 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et confractum subiciet et inruet viribus suis valenter",
+      "citation": "Psalms 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dixit enim in corde suo oblitus est Deus avertit faciem suam ne videat in finem",
+      "citation": "Psalms 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dixit in corde suo oblitus est Deus abscondit faciem suam non respiciet in perpetuum",
+      "citation": "Psalms 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "exsurge Domine Deus exaltetur manus tua ne obliviscaris pauperum",
+      "citation": "Psalms 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "surge Domine Deus leva manum tuam noli oblivisci pauperum",
+      "citation": "Psalms 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "propter quid inritavit impius Deum dixit enim in corde suo non requiret",
+      "citation": "Psalms 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quare blasphemat impius Deum dicens in corde suo quod non requirat",
+      "citation": "Psalms 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "vides quoniam tu laborem et dolorem consideras ut tradas eos in manus tuas tibi derelictus est pauper orfano tu eras adiutor",
+      "citation": "Psalms 10:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "vides quia tu laborem et furorem respicis ut detur in manu tua tibi relinquuntur fortes tui pupillo tu es factus adiutor",
+      "citation": "Psalms 10:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "contere brachium peccatoris et maligni quaeretur peccatum illius et non invenietur",
+      "citation": "Psalms 10:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "contere brachium impii et maligni quaeres impietatem eius et non invenies",
+      "citation": "Psalms 10:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "Dominus regnabit in aeternum et in saeculum %saeculi; peribitis gentes de terra illius",
+      "citation": "Psalms 10:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "Dominus rex saeculi et aeternitatis perierunt gentes de terra eius",
+      "citation": "Psalms 10:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "desiderium pauperum exaudivit Dominus praeparationem cordis eorum audivit auris tua",
+      "citation": "Psalms 10:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "desiderium pauperum audit Dominus praeparasti ut cor eorum audiat auris tua",
+      "citation": "Psalms 10:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "iudicare pupillo et humili ut non adponat ultra magnificare se homo super terram",
+      "citation": "Psalms 10:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "ut iudices pupillum et oppressum et nequaquam ultra superbiat homo de terra",
+      "citation": "Psalms 10:18 (Clementine Vulgate)"
+    }
+  ]
+}

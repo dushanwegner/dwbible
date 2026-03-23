@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1. Corinthians, Chapter 4 — 21 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1. Corinthians",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 53,
+      "totalChapters": 16
+    },
+    "chapter": 4,
+    "verseCount": 21,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/1-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/1-corinthians/3.json",
+      "nextChapter": "https://latinprayer.org/bible/1-corinthians/5.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/1-corinthians/4.json",
+      "german": "https://latinprayer.org/bibel/1-corinthians/4.json"
+    }
+  },
+  "citation": "1. Corinthians 4 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Let a man so account of us as of the ministers of Christ and the dispensers of the mysteries of God.",
+      "citation": "1. Corinthians 4:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Here now it is required among the dispensers that a man be found faithful.",
+      "citation": "1. Corinthians 4:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "But to me it is a very small thing to be judged by you or by man's day. But neither do I judge my own self.",
+      "citation": "1. Corinthians 4:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "For I am not conscious to myself of anything. Yet am I not hereby justified: but he that judgeth me is the Lord.",
+      "citation": "1. Corinthians 4:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Therefore, judge not before the time: until the Lord come, who both will bring to light the hidden things of darkness and will make manifest the counsels of the hearts. And then shall every man have praise from God.",
+      "citation": "1. Corinthians 4:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "But these things, brethren, I have in a figure transferred to myself and to Apollo, for your sakes: that in us you may learn that one be not puffed up against the other for another, above that which is written.",
+      "citation": "1. Corinthians 4:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For who distinguisheth thee? Or what hast thou that thou hast not received, and if thou hast received, why dost thou glory, as if thou hadst not received it?",
+      "citation": "1. Corinthians 4:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "You are now full: you are now become rich: you reign without us; and I would to God you did reign, that we also might reign with you.",
+      "citation": "1. Corinthians 4:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "For I think that God hath set forth us apostles, the last, as it were men appointed to death. We are made a spectacle to the world and to angels and to men.",
+      "citation": "1. Corinthians 4:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "We are fools for Christs sake, but you are wise in Christ: we are weak, but you are strong: you are honourable, but we without honour.",
+      "citation": "1. Corinthians 4:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Even unto this hour we both hunger and thirst and are naked and are buffeted and have no fixed abode.",
+      "citation": "1. Corinthians 4:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And we labour, working with our own hands. We are reviled: and we bless. We are persecuted: and we suffer it.",
+      "citation": "1. Corinthians 4:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "We are blasphemed: and we entreat. We are made as the refuse of this world, the offscouring of all, even until now.",
+      "citation": "1. Corinthians 4:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "I write not these things to confound you: but I admonish you as my dearest children.",
+      "citation": "1. Corinthians 4:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For if you have ten thousand instructors in Christ, yet not many fathers. For in Christ Jesus, by the gospel, I have begotten you.",
+      "citation": "1. Corinthians 4:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Wherefore, I beseech you, be ye followers of me as I also am of Christ.",
+      "citation": "1. Corinthians 4:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "For this cause have I sent to you Timothy, who is my dearest son and faithful in the Lord. Who will put you in mind of my ways, which are in Christ Jesus: as I teach every where in every church.",
+      "citation": "1. Corinthians 4:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "As if I would not come to you, so some are puffed up.",
+      "citation": "1. Corinthians 4:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "But I will come to you shortly, if the Lord will: and will know, not the speech of them that are puffed up, but the power.",
+      "citation": "1. Corinthians 4:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "For the kingdom of God is not in speech, but in power.",
+      "citation": "1. Corinthians 4:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "What will you? Shall I come to you with a rod? Or in charity and in the spirit of meekness?",
+      "citation": "1. Corinthians 4:21 (Douay-Rheims)"
+    }
+  ]
+}

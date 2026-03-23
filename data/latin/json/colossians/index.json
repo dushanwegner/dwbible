@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Colossians — 4 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Colossians",
+      "slug": "colossians",
+      "testament": "NT",
+      "order": 58,
+      "totalChapters": 4
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/colossians/index.json",
+      "german": "https://latinprayer.org/bibel/colossians/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 29,
+      "url": "https://latinprayer.org/latin/colossians/1",
+      "jsonUrl": "https://latinprayer.org/latin/colossians/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/colossians/2",
+      "jsonUrl": "https://latinprayer.org/latin/colossians/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 25,
+      "url": "https://latinprayer.org/latin/colossians/3",
+      "jsonUrl": "https://latinprayer.org/latin/colossians/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 17,
+      "url": "https://latinprayer.org/latin/colossians/4",
+      "jsonUrl": "https://latinprayer.org/latin/colossians/4.json"
+    }
+  ]
+}

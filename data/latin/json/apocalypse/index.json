@@ -1,0 +1,237 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Revelation — 35 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Revelation",
+      "slug": "apocalypse",
+      "testament": "NT",
+      "order": 73,
+      "totalChapters": 35
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/apocalypse/index.json",
+      "german": "https://latinprayer.org/bibel/apocalypse/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 43,
+      "verseCount": 37,
+      "url": "https://latinprayer.org/latin/apocalypse/43",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/43.json"
+    },
+    {
+      "chapter": 44,
+      "verseCount": 27,
+      "url": "https://latinprayer.org/latin/apocalypse/44",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/44.json"
+    },
+    {
+      "chapter": 45,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/apocalypse/45",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/45.json"
+    },
+    {
+      "chapter": 46,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/apocalypse/46",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/46.json"
+    },
+    {
+      "chapter": 47,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/apocalypse/47",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/47.json"
+    },
+    {
+      "chapter": 48,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/latin/apocalypse/48",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/48.json"
+    },
+    {
+      "chapter": 49,
+      "verseCount": 19,
+      "url": "https://latinprayer.org/latin/apocalypse/49",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/49.json"
+    },
+    {
+      "chapter": 50,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/apocalypse/50",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/50.json"
+    },
+    {
+      "chapter": 51,
+      "verseCount": 38,
+      "url": "https://latinprayer.org/latin/apocalypse/51",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/51.json"
+    },
+    {
+      "chapter": 52,
+      "verseCount": 12,
+      "url": "https://latinprayer.org/latin/apocalypse/52",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/52.json"
+    },
+    {
+      "chapter": 1,
+      "verseCount": 58,
+      "url": "https://latinprayer.org/latin/apocalypse/1",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 31,
+      "url": "https://latinprayer.org/latin/apocalypse/2",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 24,
+      "url": "https://latinprayer.org/latin/apocalypse/3",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 63,
+      "url": "https://latinprayer.org/latin/apocalypse/4",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 73,
+      "url": "https://latinprayer.org/latin/apocalypse/5",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 34,
+      "url": "https://latinprayer.org/latin/apocalypse/6",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 15,
+      "url": "https://latinprayer.org/latin/apocalypse/7",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 97,
+      "url": "https://latinprayer.org/latin/apocalypse/8",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 55,
+      "url": "https://latinprayer.org/latin/apocalypse/9",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/9.json"
+    },
+    {
+      "chapter": 1,
+      "verseCount": 40,
+      "url": "https://latinprayer.org/latin/apocalypse/1",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 48,
+      "url": "https://latinprayer.org/latin/apocalypse/2",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 36,
+      "url": "https://latinprayer.org/latin/apocalypse/3",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 52,
+      "url": "https://latinprayer.org/latin/apocalypse/4",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 55,
+      "url": "https://latinprayer.org/latin/apocalypse/5",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 59,
+      "url": "https://latinprayer.org/latin/apocalypse/6",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/6.json"
+    },
+    {
+      "chapter": 7,
+      "verseCount": 139,
+      "url": "https://latinprayer.org/latin/apocalypse/7",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/7.json"
+    },
+    {
+      "chapter": 8,
+      "verseCount": 63,
+      "url": "https://latinprayer.org/latin/apocalypse/8",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/8.json"
+    },
+    {
+      "chapter": 9,
+      "verseCount": 47,
+      "url": "https://latinprayer.org/latin/apocalypse/9",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/9.json"
+    },
+    {
+      "chapter": 10,
+      "verseCount": 60,
+      "url": "https://latinprayer.org/latin/apocalypse/10",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/10.json"
+    },
+    {
+      "chapter": 11,
+      "verseCount": 46,
+      "url": "https://latinprayer.org/latin/apocalypse/11",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/11.json"
+    },
+    {
+      "chapter": 12,
+      "verseCount": 51,
+      "url": "https://latinprayer.org/latin/apocalypse/12",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/12.json"
+    },
+    {
+      "chapter": 13,
+      "verseCount": 58,
+      "url": "https://latinprayer.org/latin/apocalypse/13",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/13.json"
+    },
+    {
+      "chapter": 14,
+      "verseCount": 47,
+      "url": "https://latinprayer.org/latin/apocalypse/14",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/14.json"
+    },
+    {
+      "chapter": 15,
+      "verseCount": 63,
+      "url": "https://latinprayer.org/latin/apocalypse/15",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/15.json"
+    },
+    {
+      "chapter": 16,
+      "verseCount": 77,
+      "url": "https://latinprayer.org/latin/apocalypse/16",
+      "jsonUrl": "https://latinprayer.org/latin/apocalypse/16.json"
+    }
+  ]
+}

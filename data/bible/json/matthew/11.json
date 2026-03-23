@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 11 — 30 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 11,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/matthew/10.json",
+      "nextChapter": "https://latinprayer.org/bible/matthew/12.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/matthew/11.json",
+      "german": "https://latinprayer.org/bibel/matthew/11.json"
+    }
+  },
+  "citation": "Matthew 11 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And it came to pass, when Jesus had made an end of commanding his twelve disciples, he passed from thence, to teach and to preach in their cities.",
+      "citation": "Matthew 11:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Now when John had heard in prison the works of Christ: sending two of his disciples he said to him:",
+      "citation": "Matthew 11:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "Art thou he that art to come, or look we for another?",
+      "citation": "Matthew 11:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And Jesus making answer said to them: Go and relate to John what you have heard and seen.",
+      "citation": "Matthew 11:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "The blind see, the lame walk, the lepers are cleansed, the deaf hear, the dead rise again, the poor have the gospel preached to them.",
+      "citation": "Matthew 11:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And blessed is he that shall not be scandalized in me.",
+      "citation": "Matthew 11:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And when they went their way, Jesus began to say to the multitudes concerning John: What went you out into the desert to see? a reed shaken with the wind?",
+      "citation": "Matthew 11:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "But what went you out to see? a man clothed in soft garments? Behold they that are clothed in soft garments, are in the houses of kings.",
+      "citation": "Matthew 11:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "But what went you out to see? A prophet? Yea I tell you, and more than a prophet.",
+      "citation": "Matthew 11:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For this is he of whom it is written: Behold I send my angel before my face, who shall prepare thy way before thee.",
+      "citation": "Matthew 11:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Amen I say to you, there hath not risen among them that are born of women a greater than John the Baptist: yet he that is the lesser in the kingdom of heaven is greater than he.",
+      "citation": "Matthew 11:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And from the days of John the Baptist until now, the kingdom of heaven suffereth violence, and the violent bear it away.",
+      "citation": "Matthew 11:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "For all the prophets and the law prophesied until John:",
+      "citation": "Matthew 11:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And if you will receive it, he is Elias that is to come.",
+      "citation": "Matthew 11:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "He that hath ears to hear, let him hear.",
+      "citation": "Matthew 11:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "But whereunto shall I esteem this generation to be like? It is like to children sitting in the market place.",
+      "citation": "Matthew 11:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Who crying to their companions say: We have piped to you, and you have not danced: we have lamented, and you have not mourned.",
+      "citation": "Matthew 11:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "For John came neither eating nor drinking; and they say: He hath a devil.",
+      "citation": "Matthew 11:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "The Son of man came eating and drinking, and they say: Behold a man that is a glutton and a wine drinker, a friend of publicans and sinners. And wisdom is justified by her children.",
+      "citation": "Matthew 11:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Then began he to upbraid the cities wherein were done the most of his miracles, for that they had not done penance.",
+      "citation": "Matthew 11:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Woe thee, Corozain, woe to thee, Bethsaida: for if in Tyre and Sidon had been wrought the miracles that have been wrought in you, they had long ago done penance in sackcloth and ashes.",
+      "citation": "Matthew 11:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "But I say unto you, it shall be more tolerable for Tyre and Sidon in the day of judgment, than for you.",
+      "citation": "Matthew 11:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "And thou Capharnaum, shalt thou be exalted up to heaven?  thou shalt go down even unto hell. For if in Sodom had been wrought the miracles that have been wrought in thee, perhaps it had remained unto this day.",
+      "citation": "Matthew 11:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "But I say unto you, that it shall be more tolerable for the land of Sodom in the day of judgment than for thee.",
+      "citation": "Matthew 11:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "At that time Jesus answered and said: I confess to thee, O Father, Lord of Heaven and earth, because thou hast hid these things from the wise and prudent, and hast revealed them to little ones.",
+      "citation": "Matthew 11:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Yea, Father: for so hath it seemed good in thy sight.",
+      "citation": "Matthew 11:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "All things are delivered to me by my Father. And no one knoweth the Son but the Father: neither doth any one know the Father, but the Son, and he to whom it shall please the Son to reveal him.",
+      "citation": "Matthew 11:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Come to me all you that labor and are burdened, and I will refresh you.",
+      "citation": "Matthew 11:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Take up my yoke upon you, and learn of me, because I am meek, and humble of heart: And you shall find rest to your souls.",
+      "citation": "Matthew 11:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "For my yoke is sweet and my burden light.",
+      "citation": "Matthew 11:30 (Douay-Rheims)"
+    }
+  ]
+}

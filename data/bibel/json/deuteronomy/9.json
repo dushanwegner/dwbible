@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Deuteronomium, Chapter 9 — 29 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Deuteronomium",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "totalChapters": 34
+    },
+    "chapter": 9,
+    "verseCount": 29,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/deuteronomy/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/deuteronomy/8.json",
+      "nextChapter": "https://latinprayer.org/bibel/deuteronomy/10.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/deuteronomy/9.json",
+      "latin": "https://latinprayer.org/latin/deuteronomy/9.json"
+    }
+  },
+  "citation": "Deuteronomium 9 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Höre, Israel! Du bist jetzt im Begriff, über den Jordan zu ziehen, um dir drüben Völker zu unterwerfen, die größer und stärker sind als du: große und bis an den Himmel befestigte Städte,",
+      "citation": "Deuteronomium 9:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "ein großes und hochgewachsenes Volk, die Enakiter, die du selbst schon kennst und von denen du selbst hast sagen hören: ›Wer könnte es mit den Enakitern aufnehmen?‹",
+      "citation": "Deuteronomium 9:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "So sollst du denn jetzt erkennen, daß der HERR, dein Gott, selbst es ist, der an deiner Spitze als ein verzehrendes Feuer hinüberzieht: er wird sie vernichten, und er wird sie vor dir her niederwerfen, so daß du sie schnell aus ihrem Besitz vertreiben und sie vernichten kannst, wie der HERR es dir verheißen hat.",
+      "citation": "Deuteronomium 9:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Denke nun nicht bei dir selbst, wenn der HERR, dein Gott, sie vor dir her vertreibt: ›Um meines Verdienstes willen hat der HERR mich hierher geführt, damit ich dieses Land in Besitz nehme‹ [während der HERR diese Völkerschaften doch wegen ihrer Verworfenheit vor dir her ausrottet].",
+      "citation": "Deuteronomium 9:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Nicht um deines Verdienstes willen und nicht wegen deines aufrichtigen Herzens gelangst du in den Besitz ihres Landes, sondern der HERR, dein Gott, rottet diese Völkerschaften vor dir her aus wegen ihrer Verworfenheit und auch um die Verheißung zu erfüllen, die der HERR deinen Vätern Abraham, Isaak und Jakob zugeschworen hat.",
+      "citation": "Deuteronomium 9:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Bedenke also wohl, daß der HERR, dein Gott, dir dieses schöne Land nicht um deines Verdienstes willen zum Eigentum gibt; denn du bist ein halsstarriges Volk.«",
+      "citation": "Deuteronomium 9:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "»Denke daran und vergiß es nicht, daß du den HERRN, deinen Gott, in der Wüste erzürnt hast! Von dem Tage an, da ihr aus dem Land Ägypten ausgezogen seid, bis zu eurer Ankunft an diesem Ort habt ihr euch widerspenstig gegen den HERRN gezeigt.",
+      "citation": "Deuteronomium 9:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Besonders am Horeb habt ihr ihn erzürnt, und der HERR wurde gegen euch so aufgebracht, daß er euch vertilgen wollte.",
+      "citation": "Deuteronomium 9:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Als ich auf den Berg gestiegen war, um die Steintafeln, die Tafeln des Bundes, den der HERR mit euch geschlossen hatte, in Empfang zu nehmen, da blieb ich vierzig Tage und vierzig Nächte auf dem Berge, ohne Brot zu essen und Wasser zu trinken.",
+      "citation": "Deuteronomium 9:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Da übergab der HERR mir die beiden Steintafeln, die vom Finger Gottes beschrieben waren und auf denen alle die Worte standen, die der HERR am Tage der Versammlung an dem Berge aus dem Feuer heraus zu euch geredet hatte.",
+      "citation": "Deuteronomium 9:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Als nun der HERR mir damals nach Verlauf von vierzig Tagen und vierzig Nächten die beiden Steintafeln, die Tafeln des Bundes, übergeben hatte,",
+      "citation": "Deuteronomium 9:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "sagte der HERR zu mir: ›Auf! Steige schnell von hier hinab, denn dein Volk, das du aus Ägypten hergeführt hast, handelt sündhaft: sie sind schnell von dem Wege abgewichen, den ich ihnen geboten habe; sie haben sich ein gegossenes Bild gemacht.‹",
+      "citation": "Deuteronomium 9:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Dann sagte der HERR weiter zu mir: ›Ich habe dieses Volk beobachtet und erkenne wohl: es ist ein halsstarriges Volk.",
+      "citation": "Deuteronomium 9:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Laß mich sie nun vertilgen und ihren Namen unter dem Himmel auslöschen! Dich will ich dafür zu einem Volk machen, das stärker und zahlreicher ist als sie.‹",
+      "citation": "Deuteronomium 9:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Hierauf kehrte ich um und stieg vom Berge hinunter, während der Berg im Feuer brannte und die beiden Bundestafeln in meinen beiden Händen waren.",
+      "citation": "Deuteronomium 9:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Da sah ich denn wirklich, daß ihr gegen den HERRN, euren Gott, gesündigt und euch ein gegossenes Stierbild gemacht hattet; ihr wart schnell von dem Wege abgewichen, den der HERR euch geboten hatte.",
+      "citation": "Deuteronomium 9:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Da faßte ich die beiden Tafeln, schleuderte sie weg aus meinen beiden Händen und zertrümmerte sie vor euren Augen.",
+      "citation": "Deuteronomium 9:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Darauf aber warf ich mich vor dem HERRN nieder wie das erste Mal, vierzig Tage und vierzig Nächte lang, ohne Brot zu essen und Wasser zu trinken, wegen all der Sünden, die ihr begangen hattet, indem ihr etwas tatet, was dem HERRN mißfiel und ihn erzürnen mußte;",
+      "citation": "Deuteronomium 9:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "denn mir war bange vor dem Zorn und Grimm, den der HERR gegen euch hegte, so daß er euch vertilgen wollte. Und der HERR erhörte mich auch diesmal.",
+      "citation": "Deuteronomium 9:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Auch gegen Aaron war der HERR heftig erzürnt, so daß er ihn vertilgen wollte; darum legte ich damals auch für Aaron Fürbitte ein.",
+      "citation": "Deuteronomium 9:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Das Machwerk eurer Sünde aber, das Stierbild, das ihr angefertigt hattet, nahm ich und verbrannte es im Feuer, ich zerschlug es in Stücke und zermalmte es, bis es zu feinem Staub geworden war; und diesen Staub warf ich in den Bach, der vom Berge herabfloß.«",
+      "citation": "Deuteronomium 9:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "»Auch bei Thabera und Massa und bei den Lustgräbern habt ihr den HERRN immerfort erzürnt;",
+      "citation": "Deuteronomium 9:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "und als der HERR euch aus Kades-Barnea aufbrechen hieß mit dem Befehl: ›Zieht hinauf und besetzt das Land, das ich euch bestimmt habe!‹, da habt ihr euch dem Befehl des HERRN, eures Gottes, widersetzt und kein Vertrauen zu ihm gehabt und seiner Weisung nicht gehorcht:",
+      "citation": "Deuteronomium 9:23 (Menge)"
+    },
+    {
+      "verse": 24,
+      "text": "widerspenstig seid ihr gegen den HERRN gewesen, seit ich euch kenne!«",
+      "citation": "Deuteronomium 9:24 (Menge)"
+    },
+    {
+      "verse": 25,
+      "text": "»Als ich nun jene vierzig Tage und vierzig Nächte vor dem HERRN am Boden hingestreckt gelegen hatte – denn der HERR hatte es ausgesprochen, daß er euch vertilgen wolle –,",
+      "citation": "Deuteronomium 9:25 (Menge)"
+    },
+    {
+      "verse": 26,
+      "text": "da betete ich zum HERRN folgendermaßen: ›O HERR, unser Gott! Vernichte nicht dieses Volk und dein Eigentum, das du durch deine große Macht befreit, das du mit starker Hand aus Ägypten herausgeführt hast!",
+      "citation": "Deuteronomium 9:26 (Menge)"
+    },
+    {
+      "verse": 27,
+      "text": "Gedenke an deine Knechte Abraham, Isaak und Jakob! Kehre dich nicht an die Halsstarrigkeit dieses Volkes und an seine Bosheit und Sünde,",
+      "citation": "Deuteronomium 9:27 (Menge)"
+    },
+    {
+      "verse": 28,
+      "text": "damit man in dem Lande, aus dem du uns weggeführt hast, nicht sagen kann: Weil der HERR nicht imstande war, sie in das Land zu bringen, das er ihnen zugesagt hatte, und weil er sie haßte, hat er sie hinausgeführt, um sie in der Wüste sterben zu lassen!",
+      "citation": "Deuteronomium 9:28 (Menge)"
+    },
+    {
+      "verse": 29,
+      "text": "Sie sind ja doch dein Volk und dein Eigentum, das du mit deiner großen Kraft und deinem hocherhobenen Arm hinausgeführt hast.‹",
+      "citation": "Deuteronomium 9:29 (Menge)"
+    }
+  ]
+}

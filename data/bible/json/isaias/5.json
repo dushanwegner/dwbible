@@ -1,0 +1,186 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Isaias, Chapter 5 — 30 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Isaias",
+      "slug": "isaias",
+      "testament": "OT",
+      "order": 27,
+      "totalChapters": 66
+    },
+    "chapter": 5,
+    "verseCount": 30,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/isaias/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/isaias/4.json",
+      "nextChapter": "https://latinprayer.org/bible/isaias/6.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/isaias/5.json",
+      "german": "https://latinprayer.org/bibel/isaias/5.json"
+    }
+  },
+  "citation": "Isaias 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "I will sing to my beloved the canticle of my cousin concerning his vineyard. My beloved had a vineyard on a hill in a fruitful place.",
+      "citation": "Isaias 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "And he fenced it in, and picked the stones out of it, and planted it with the choicest vines, and built a tower in the midst thereof, and set up a winepress therein: and he looked that it should bring forth grapes, and it brought forth wild grapes.",
+      "citation": "Isaias 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And now, O ye inhabitants of Jerusalem, and ye men of Juda, judge between me and my vineyard.",
+      "citation": "Isaias 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "What is there that I ought to do more to my vineyard, that I have not done to it? was it that I looked that it should bring forth grapes, and it hath brought forth wild grapes?",
+      "citation": "Isaias 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And now I will shew you what I will do to my vineyard. I will take away the hedge thereof, and it shall be wasted: I will break down the wall thereof, and it shall be trodden down.",
+      "citation": "Isaias 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And I will make it desolate: it shall not be pruned, and it shall not be digged: but briers and thorns shall come up: and I will command the clouds to rain no rain upon it.",
+      "citation": "Isaias 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "For the vineyard of the Lord of hosts is the house of Israel: and the man of Juda, his pleasant plant: and I looked that he should do judgment, and behold iniquity: and do justice, and behold a cry.",
+      "citation": "Isaias 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Woe to you that join house to house and lay field to field, even to the end of the place: shall you alone dwell in the midst of the earth?",
+      "citation": "Isaias 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "These things are in my ears, saith the Lord of hosts: Unless many great and fair houses shall become desolate, without an inhabitant.",
+      "citation": "Isaias 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "For ten acres of vineyard shall yield one little measure, and thirty bushels of seed shall yield three bushels.",
+      "citation": "Isaias 5:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "Woe to you that rise up early in the morning to follow drunkenness, and to drink in the evening, to be inflamed with wine.",
+      "citation": "Isaias 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "The harp, and the lyre, and, the timbrel and the pipe, and wine are in your feasts: and the work of the Lord you regard not, nor do you consider the works of his hands.",
+      "citation": "Isaias 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Therefore is my people led away captive, because they had not knowledge, and their nobles have perished with famine, and their multitude were dried up with thirst.",
+      "citation": "Isaias 5:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Therefore hath hell enlarged her soul, and opened her mouth without any bounds, and their strong ones, and their people, and their high and glorious ones shall go down into it.",
+      "citation": "Isaias 5:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And man shall be brought down, and man shall be humbled, and the eyes of the lofty shall be brought low.",
+      "citation": "Isaias 5:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "And the Lord of hosts shall be exalted in judgment, and the holy God shall be sanctified in justice.",
+      "citation": "Isaias 5:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And the lambs shall feed according to their order, and strangers shall eat the deserts turned into fruitfulness.",
+      "citation": "Isaias 5:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "Woe to you that draw iniquity with cords of vanity, and sin as the rope of a cart.",
+      "citation": "Isaias 5:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "That say: Let him make haste, and let his work come quickly, that we may see it: and let the counsel of the Holy One of Israel come, that we may know it.",
+      "citation": "Isaias 5:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "Woe to you that call evil good, and good evil: that put darkness for light, and light for darkness: that put bitter for sweet, and sweet for bitter.",
+      "citation": "Isaias 5:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "Woe to you that are wise in your own eyes, and prudent in your own conceits.",
+      "citation": "Isaias 5:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "Woe to you that are mighty to drink wine, and stout men at drunkenness.",
+      "citation": "Isaias 5:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "That justify the wicked for gifts, and take away the justice of the just from him.",
+      "citation": "Isaias 5:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "Therefore as the tongue of the fire devoureth the stubble, and the heat of the flame consumeth it: so shall their root be as ashes, and their bud shall go up as dust: for they have cast away the law of the Lord of hosts, and have blasphemed the word of the Holy One of Israel.",
+      "citation": "Isaias 5:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Therefore is the wrath of the Lord kindled against his people, and he hath stretched out his hand upon them, and struck them: and the mountains were troubles, and their carcasses became as dung in the midst of the streets. For after this his anger is not turned away, but his hand is stretched out still.",
+      "citation": "Isaias 5:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "And he will lift up a sign to the nations afar off, and will whistle to them from the ends of the earth: and behold they shall come with speed swiftly.",
+      "citation": "Isaias 5:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "There is none that shall faint, nor labour among them: they shall not slumber nor sleep, neither shall the girdle of their loins be loosed, nor the latchet of their shoes be broken.",
+      "citation": "Isaias 5:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "Their arrows are sharp, and all their bows are bent. The hoofs of their horses shall be like the flint, and their wheels like the violence of a tempest.",
+      "citation": "Isaias 5:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "Their roaring like that of a lion, they shall roar like young lions: yea they shall roar, and take hold of the prey, and they shall keep fast hold of it, and there shall be none to deliver it.",
+      "citation": "Isaias 5:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And they shall make a noise against them that day, like the roaring of the sea; we shall look towards the land, and behold darkness of tribulation, and the light is darkened with the mist thereof.",
+      "citation": "Isaias 5:30 (Douay-Rheims)"
+    }
+  ]
+}

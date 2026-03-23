@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Chronicles, Chapter 21 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Chronicles",
+      "slug": "2-paralipomenon",
+      "testament": "OT",
+      "order": 14,
+      "totalChapters": 36
+    },
+    "chapter": 21,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-paralipomenon/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-paralipomenon/20.json",
+      "nextChapter": "https://latinprayer.org/latin/2-paralipomenon/22.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-paralipomenon/21.json",
+      "german": "https://latinprayer.org/bibel/2-paralipomenon/21.json"
+    }
+  },
+  "citation": "2 Chronicles 21 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "dormivit autem Iosaphat cum patribus suis et sepultus est cum eis in civitate David regnavitque Ioram filius eius pro eo",
+      "citation": "2 Chronicles 21:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui habuit fratres filios Iosaphat Azariam et Hiahihel et Zacchariam et Azariam et Michahel et Saphatiam omnes hii filii Iosaphat regis Israhel",
+      "citation": "2 Chronicles 21:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "deditque eis pater suus multa munera argenti et auri et pensitationes cum civitatibus munitissimis in Iuda regnum autem tradidit Ioram eo quod esset primogenitus",
+      "citation": "2 Chronicles 21:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "surrexit ergo Ioram super regnum patris sui cumque se confirmasset occidit omnes fratres suos gladio et quosdam de principibus Israhel",
+      "citation": "2 Chronicles 21:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "triginta duo annorum erat Ioram cum regnare coepisset et octo annis regnavit in Hierusalem",
+      "citation": "2 Chronicles 21:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "ambulavitque in viis regum Israhel sicut egerat domus Ahab filia quippe Ahab erat uxor eius et fecit malum in conspectu Domini",
+      "citation": "2 Chronicles 21:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "noluit autem Dominus disperdere domum David propter pactum quod inierat cum eo et quia promiserat ut daret illi lucernam et filiis eius omni tempore",
+      "citation": "2 Chronicles 21:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "in diebus illis rebellavit Edom ne esset subditus Iudae et constituit sibi regem",
+      "citation": "2 Chronicles 21:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "cumque transisset Ioram cum principibus suis et cuncto equitatu qui erat secum surrexit nocte et percussit Edom qui se circumdederat et omnes duces equitatus eius",
+      "citation": "2 Chronicles 21:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "attamen rebellavit Edom ne esset sub dicione Iuda usque ad hanc diem eo tempore et Lobna recessit ne esset sub manu illius dereliquerat enim Dominum Deum patrum suorum",
+      "citation": "2 Chronicles 21:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "insuper et excelsa fabricatus est in urbibus Iuda et fornicari fecit habitatores Hierusalem et praevaricari Iudam",
+      "citation": "2 Chronicles 21:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "adlatae sunt autem ei litterae ab Helia propheta in quibus scriptum erat haec dicit Dominus Deus David patris tui quoniam non ambulasti in viis Iosaphat patris tui et in viis Asa regis Iuda",
+      "citation": "2 Chronicles 21:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "sed incessisti per iter regum Israhel et fornicari fecisti Iudam et habitatores Hierusalem imitatus fornicationem domus Ahab insuper et fratres tuos domum patris tui meliores te occidisti",
+      "citation": "2 Chronicles 21:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "ecce Dominus percutiet te plaga magna cum populo tuo et filiis et uxoribus tuis universaque substantia tua",
+      "citation": "2 Chronicles 21:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "tu autem aegrotabis pessimo languore uteri donec egrediantur vitalia tua paulatim per dies singulos",
+      "citation": "2 Chronicles 21:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "suscitavit ergo Dominus contra Ioram spiritum Philisthinorum et Arabum qui confines sunt Aethiopibus",
+      "citation": "2 Chronicles 21:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et ascenderunt in terram Iuda et vastaverunt eam diripueruntque cunctam substantiam quae inventa est in domo regis insuper et filios eius et uxores nec remansit ei filius nisi Ioachaz qui minimus natu erat",
+      "citation": "2 Chronicles 21:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et super haec omnia percussit eum Dominus alvi languore insanabili",
+      "citation": "2 Chronicles 21:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "cumque diei succederet dies et temporum spatia volverentur duorum annorum expletus est circulus et sic longa consumptus tabe ita ut egereret etiam viscera sua languore pariter et vita caruit mortuusque est in infirmitate pessima et non fecit ei populus secundum morem conbustionis exequias sicut fecerat maioribus eius",
+      "citation": "2 Chronicles 21:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "triginta duum annorum fuit cum regnare coepisset et octo annis regnavit in Hierusalem ambulavitque non recte et sepelierunt eum in civitate David verumtamen non in sepulchro regum",
+      "citation": "2 Chronicles 21:20 (Clementine Vulgate)"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Habakuk, Chapter 2 — 20 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Habakuk",
+      "slug": "habacuc",
+      "testament": "OT",
+      "order": 40,
+      "totalChapters": 3
+    },
+    "chapter": 2,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/habacuc/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/habacuc/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/habacuc/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/habacuc/2.json",
+      "latin": "https://latinprayer.org/latin/habacuc/2.json"
+    }
+  },
+  "citation": "Habakuk 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Auf meine Warte will ich treten und auf dem Wachtturm mich aufstellen und will Ausschau halten, um zu erfahren, was er mir sagen wird und welche Antwort ich auf meine Beschwerde erhalte.«",
+      "citation": "Habakuk 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Da antwortete mir der HERR folgendermaßen: »Schreibe die (folgende) Offenbarung nieder und grabe sie deutlich auf Tafeln ein, damit man sie mühelos lesen kann –",
+      "citation": "Habakuk 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "denn die (Erfüllung der) Offenbarung steht noch bis zu dem bestimmten Zeitpunkt aus, hastet jedoch dem Ziele zu und trügt nicht; wenn sie (mit ihrer Verwirklichung) auf sich warten läßt, so harre ihrer; denn sie trifft sicher ein und bleibt nicht aus.",
+      "citation": "Habakuk 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "›Wisse wohl: vermessen, nicht aufrichtig ist er im Inneren gesinnt; der Gerechte aber wird infolge seines treuen Festhaltens das Leben haben.‹«",
+      "citation": "Habakuk 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Und nunmehr – so steht’s: Der Wein trügt; der übermütige Mann, der ruht nicht, er, der seinen gierigen Rachen weit aufsperrt wie die Unterwelt und unersättlich ist wie der Tod, so daß er alle Völker an sich rafft und alle Völkerschaften in sich aufnimmt.",
+      "citation": "Habakuk 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Werden diese nicht alle ein Spottlied über ihn anstimmen und eine Stichelrede anheben mit versteckten Anspielungen auf ihn und ausrufen: »Wehe dem, der da aufhäuft, was nicht ihm gehört – wie lange noch? –, und der Schuldenlast auf sich lädt!",
+      "citation": "Habakuk 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Werden nicht plötzlich die von dir Mißhandelten sich erheben und die von dir Gepeinigten erwachen? Dann wirst du ihnen zur Plünderung werden!",
+      "citation": "Habakuk 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Denn weil du viele Völker ausgeplündert hast, werden alle übrigen Völker dich wieder ausplündern wegen der Blutschuld an den Menschen und wegen deiner Gewalttaten an der Erde, an der Stadt und allen ihren Bewohnern!",
+      "citation": "Habakuk 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Wehe dem, der unredlichen Gewinn einheimst in sein Haus, um sich ein Nest in der Höhe zu bauen, um gesichert zu sein gegen die Gewalt des Unglücks!",
+      "citation": "Habakuk 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Du bist auf Schande für dein Haus bedacht gewesen, auf die Vertilgung vieler Völker, und hast Verschuldung auf dich selbst gebracht.",
+      "citation": "Habakuk 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Denn die Steine werden aus der Mauer heraus schreien und die Balken aus dem Holzwerk in ihr Geschrei einstimmen!",
+      "citation": "Habakuk 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Wehe dem, der Städte mit Blut baut und Burgen auf Ungerechtigkeit gründet!",
+      "citation": "Habakuk 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Wisset wohl: vom HERRN der Heerscharen ist es so geordnet, daß Völker fürs Feuer sich mühen und Völkerschaften für nichts sich abarbeiten.",
+      "citation": "Habakuk 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Denn die Erde wird voll werden von der Erkenntnis der Herrlichkeit des HERRN gleich den Wassern, die den Meeresgrund bedecken.",
+      "citation": "Habakuk 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "Wehe dem, der seine Genossen aus Schalen und Schläuchen trinken läßt und sie dadurch auch trunken macht, um sich am Anblick ihrer Nacktheit zu weiden!",
+      "citation": "Habakuk 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Du hast dich an Schande gesättigt statt an Ehre: so trinke nun auch du, daß du taumelst! Der Becher in der Rechten des HERRN kommt jetzt an dich, so daß Schande auf deine Herrlichkeit fällt.",
+      "citation": "Habakuk 2:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Denn der Frevel am Libanon wird auf dir lasten und das Gemetzel unter den Tieren dich in Schrecken setzen [wegen des vergossenen Menschenblutes und wegen deiner Gewalttaten an der Erde, an der Stadt und all ihren Bewohnern].",
+      "citation": "Habakuk 2:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Wehe dem, der zu einem Stück Holz sagt: ›Wache auf!‹ oder zu einem stummen Stein: ›Rege dich!‹ Kann solcher Götze Weisungen geben? Sieh doch: er ist mit Gold und Silber überzogen, und keine Spur von Odem findet sich in seinem Innern.«",
+      "citation": "Habakuk 2:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Was hat je ein Schnitzbild genützt, daß sein Bildner es geschnitzt hat? Was ein Gußbild und ein Lügengötze, daß sein Bildner Lust dazu gehabt hat, stumme Abgötter zu verfertigen? –",
+      "citation": "Habakuk 2:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Aber der HERR ist in seinem heiligen Tempel: stille vor ihm, du ganze Erde!",
+      "citation": "Habakuk 2:20 (Menge)"
+    }
+  ]
+}

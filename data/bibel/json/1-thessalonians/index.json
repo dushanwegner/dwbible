@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Thessalonicher — 5 chapters (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Thessalonicher",
+      "slug": "1-thessalonians",
+      "testament": "NT",
+      "order": 59,
+      "totalChapters": 5
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-thessalonians/index.json",
+      "latin": "https://latinprayer.org/latin/1-thessalonians/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 10,
+      "url": "https://latinprayer.org/bibel/1-thessalonians/1",
+      "jsonUrl": "https://latinprayer.org/bibel/1-thessalonians/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 20,
+      "url": "https://latinprayer.org/bibel/1-thessalonians/2",
+      "jsonUrl": "https://latinprayer.org/bibel/1-thessalonians/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 13,
+      "url": "https://latinprayer.org/bibel/1-thessalonians/3",
+      "jsonUrl": "https://latinprayer.org/bibel/1-thessalonians/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 18,
+      "url": "https://latinprayer.org/bibel/1-thessalonians/4",
+      "jsonUrl": "https://latinprayer.org/bibel/1-thessalonians/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 28,
+      "url": "https://latinprayer.org/bibel/1-thessalonians/5",
+      "jsonUrl": "https://latinprayer.org/bibel/1-thessalonians/5.json"
+    }
+  ]
+}

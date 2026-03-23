@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 45 — 36 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 45,
+    "verseCount": 36,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/44.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/46.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/45.json",
+      "german": "https://latinprayer.org/bibel/psalms/45.json"
+    }
+  },
+  "citation": "Psalms 45 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "eructavit cor meum verbum bonum dico ego opera mea regi lingua mea calamus scribae velociter scribentis",
+      "citation": "Psalms 45:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "in finem pro filiis Core pro arcanis psalmus",
+      "citation": "Psalms 45:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "eructavit cor meum verbum bonum dico ego opera mea regi lingua mea stilus scribae velocis",
+      "citation": "Psalms 45:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "victori filiorum Core pro iuventutibus canticum",
+      "citation": "Psalms 45:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "speciosus forma prae filiis hominum diffusa est gratia in labiis tuis propterea benedixit te Deus in aeternum",
+      "citation": "Psalms 45:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "decore pulchrior es filiis hominum effusa est gratia in labiis tuis propterea benedixit tibi Deus in aeternum",
+      "citation": "Psalms 45:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "accingere gladio tuo super femur tuum potentissime",
+      "citation": "Psalms 45:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "accingere gladio tuo super femur fortissime",
+      "citation": "Psalms 45:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "specie tua et pulchritudine tua et intende prospere procede et regna propter veritatem et mansuetudinem et iustitiam et deducet te mirabiliter dextera tua",
+      "citation": "Psalms 45:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "gloria tua et decore tuo decore tuo prospere ascende propter veritatem et mansuetudinem iustitiae et docebit te terribilia dextera tua",
+      "citation": "Psalms 45:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "sagittae tuae acutae populi sub te cadent in corde inimicorum regis",
+      "citation": "Psalms 45:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "sagittae tuae acutae populi sub te cadent in corde inimicorum regis",
+      "citation": "Psalms 45:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "sedis tua Deus in saeculum saeculi virga directionis virga regni tui",
+      "citation": "Psalms 45:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "thronus tuus Deus in saeculum et in aeternum sceptrum aequitatis sceptrum regni tui",
+      "citation": "Psalms 45:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "dilexisti iustitiam et odisti iniquitatem propterea unxit te Deus Deus tuus oleo laetitiae prae consortibus tuis",
+      "citation": "Psalms 45:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "dilexisti iustitiam et odisti iniquitatem propterea unxit te Deus Deus tuus oleo exultationis prae participibus tuis",
+      "citation": "Psalms 45:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "murra et gutta et cassia a vestimentis tuis a domibus eburneis ex quibus delectaverunt te",
+      "citation": "Psalms 45:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "zmyrna et stacte et cassia in cunctis vestimentis tuis de domibus eburneis quibus laetificaverunt te",
+      "citation": "Psalms 45:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "filiae regum in honore tuo adstetit regina a dextris tuis in vestitu deaurato circumdata varietate",
+      "citation": "Psalms 45:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "filiae regum in honore tuo stetit coniux in dextera tua in diademate aureo",
+      "citation": "Psalms 45:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "audi filia et vide et inclina aurem tuam et obliviscere populum tuum et domum patris tui",
+      "citation": "Psalms 45:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "audi filia et vide et inclina aurem tuam et obliviscere populi tui et domus patris tui",
+      "citation": "Psalms 45:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et concupiscet rex decorem tuum quoniam ipse est dominus tuus et adorabunt eum",
+      "citation": "Psalms 45:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et concupiscet rex decorem tuum quia ipse est dominus tuus et adora eum",
+      "citation": "Psalms 45:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "*et; filiae Tyri in muneribus vultum tuum deprecabuntur divites plebis",
+      "citation": "Psalms 45:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et o filia fortissimi in muneribus faciem tuam deprecabuntur divites populi",
+      "citation": "Psalms 45:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "omnis gloria eius filiae regis ab intus in fimbriis aureis",
+      "citation": "Psalms 45:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "omnis gloria filiae regis intrinsecus fasceis aureis vestita est",
+      "citation": "Psalms 45:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "circumamicta varietatibus adducentur regi virgines post eam proximae eius adferentur tibi",
+      "citation": "Psalms 45:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "in scutulatis ducetur ad regem virgines sequentur eam amicae eius ducentur illuc",
+      "citation": "Psalms 45:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "adferentur in laetitia et exultatione adducentur in templum regis",
+      "citation": "Psalms 45:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ducentur in laetitiis et exultatione ingredientur thalamum regis",
+      "citation": "Psalms 45:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "pro patribus tuis nati sunt tibi filii constitues eos principes super omnem terram",
+      "citation": "Psalms 45:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "pro patribus tuis erunt filii tibi pones eos principes in universa terra",
+      "citation": "Psalms 45:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "memor ero nominis tui in omni generatione et generatione propterea populi confitebuntur tibi in aeternum et in saeculum saeculi",
+      "citation": "Psalms 45:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "recordabor nominis tui in omni generatione et generatione propterea populi confitebuntur tibi in saeculum et in aeternum",
+      "citation": "Psalms 45:17 (Clementine Vulgate)"
+    }
+  ]
+}

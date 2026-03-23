@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Genesis, Chapter 1 — 31 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "totalChapters": 26
+    },
+    "chapter": 1,
+    "verseCount": 31,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/genesis/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": null,
+      "nextChapter": "https://latinprayer.org/latin/genesis/2.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/genesis/1.json",
+      "german": "https://latinprayer.org/bibel/genesis/1.json"
+    }
+  },
+  "citation": "Genesis 1 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in principio creavit Deus caelum et terram",
+      "citation": "Genesis 1:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "terra autem erat inanis et vacua et tenebrae super faciem abyssi et spiritus Dei ferebatur super aquas",
+      "citation": "Genesis 1:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "dixitque Deus fiat lux et facta est lux",
+      "citation": "Genesis 1:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et vidit Deus lucem quod esset bona et divisit lucem ac tenebras",
+      "citation": "Genesis 1:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "appellavitque lucem diem et tenebras noctem factumque est vespere et mane dies unus",
+      "citation": "Genesis 1:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "dixit quoque Deus fiat firmamentum in medio aquarum et dividat aquas ab aquis",
+      "citation": "Genesis 1:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et fecit Deus firmamentum divisitque aquas quae erant sub firmamento ab his quae erant super firmamentum et factum est ita",
+      "citation": "Genesis 1:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "vocavitque Deus firmamentum caelum et factum est vespere et mane dies secundus",
+      "citation": "Genesis 1:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "dixit vero Deus congregentur aquae quae sub caelo sunt in locum unum et appareat arida factumque est ita",
+      "citation": "Genesis 1:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et vocavit Deus aridam terram congregationesque aquarum appellavit maria et vidit Deus quod esset bonum",
+      "citation": "Genesis 1:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et ait germinet terra herbam virentem et facientem semen et lignum pomiferum faciens fructum iuxta genus suum cuius semen in semet ipso sit super terram et factum est ita",
+      "citation": "Genesis 1:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "et protulit terra herbam virentem et adferentem semen iuxta genus suum lignumque faciens fructum et habens unumquodque sementem secundum speciem suam et vidit Deus quod esset bonum",
+      "citation": "Genesis 1:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "factumque est vespere et mane dies tertius",
+      "citation": "Genesis 1:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dixit autem Deus fiant luminaria in firmamento caeli ut dividant diem ac noctem et sint in signa et tempora et dies et annos",
+      "citation": "Genesis 1:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "ut luceant in firmamento caeli et inluminent terram et factum est ita",
+      "citation": "Genesis 1:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "fecitque Deus duo magna luminaria luminare maius ut praeesset diei et luminare minus ut praeesset nocti et stellas",
+      "citation": "Genesis 1:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et posuit eas in firmamento caeli ut lucerent super terram",
+      "citation": "Genesis 1:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et praeessent diei ac nocti et dividerent lucem ac tenebras et vidit Deus quod esset bonum",
+      "citation": "Genesis 1:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et factum est vespere et mane dies quartus",
+      "citation": "Genesis 1:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "dixit etiam Deus producant aquae reptile animae viventis et volatile super terram sub firmamento caeli",
+      "citation": "Genesis 1:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "creavitque Deus cete grandia et omnem animam viventem atque motabilem quam produxerant aquae in species suas et omne volatile secundum genus suum et vidit Deus quod esset bonum",
+      "citation": "Genesis 1:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "benedixitque eis dicens crescite et multiplicamini et replete aquas maris avesque multiplicentur super terram",
+      "citation": "Genesis 1:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et factum est vespere et mane dies quintus",
+      "citation": "Genesis 1:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "dixit quoque Deus producat terra animam viventem in genere suo iumenta et reptilia et bestias terrae secundum species suas factumque est ita",
+      "citation": "Genesis 1:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "et fecit Deus bestias terrae iuxta species suas et iumenta et omne reptile terrae in genere suo et vidit Deus quod esset bonum",
+      "citation": "Genesis 1:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et ait faciamus hominem ad imaginem et similitudinem nostram et praesit piscibus maris et volatilibus caeli et bestiis universaeque terrae omnique reptili quod movetur in terra",
+      "citation": "Genesis 1:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "et creavit Deus hominem ad imaginem suam ad imaginem Dei creavit illum masculum et feminam creavit eos",
+      "citation": "Genesis 1:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "benedixitque illis Deus et ait crescite et multiplicamini et replete terram et subicite eam et dominamini piscibus maris et volatilibus caeli et universis animantibus quae moventur super terram",
+      "citation": "Genesis 1:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "dixitque Deus ecce dedi vobis omnem herbam adferentem semen super terram et universa ligna quae habent in semet ipsis sementem generis sui ut sint vobis in escam",
+      "citation": "Genesis 1:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et cunctis animantibus terrae omnique volucri caeli et universis quae moventur in terra et in quibus est anima vivens ut habeant ad vescendum et factum est ita",
+      "citation": "Genesis 1:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "viditque Deus cuncta quae fecit et erant valde bona et factum est vespere et mane dies sextus",
+      "citation": "Genesis 1:31 (Clementine Vulgate)"
+    }
+  ]
+}

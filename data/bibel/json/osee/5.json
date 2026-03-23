@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Hosea, Chapter 5 — 15 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Hosea",
+      "slug": "osee",
+      "testament": "OT",
+      "order": 33,
+      "totalChapters": 14
+    },
+    "chapter": 5,
+    "verseCount": 15,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/osee/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/osee/4.json",
+      "nextChapter": "https://latinprayer.org/bibel/osee/6.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/osee/5.json",
+      "latin": "https://latinprayer.org/latin/osee/5.json"
+    }
+  },
+  "citation": "Hosea 5 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "»Vernehmt dieses, ihr Priester, und merkt auf, ihr vom Hause Israel! Und ihr (Herren) vom Hofe des Königs, gebt acht! Denn euch steht das Gericht bevor, weil ihr eine Schlinge für Mizpa geworden seid und ein ausgespanntes Fangnetz auf dem Thabor",
+      "citation": "Hosea 5:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "und eine tiefe Fallgrube zu Sittim; ich aber werde für sie alle eine Zuchtrute werden!",
+      "citation": "Hosea 5:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Ich kenne Ephraim wohl, und Israel ist mir nicht verborgen; denn soeben erst hast du Ehebruch getrieben, Ephraim, und Israel hat sich verunreinigt.",
+      "citation": "Hosea 5:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Ihr ganzes Tun gestattet ihnen nicht, zu ihrem Gott umzukehren; denn der Geist der Abgötterei wohnt in ihrem Herzen, und Erkenntnis des HERRN besitzen sie nicht.«",
+      "citation": "Hosea 5:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "So legt denn der Hochmut Israels offen Zeugnis gegen ihn ab, und Ephraim kommt durch seine Verschuldung zu Fall; es wird auch Juda mit ihnen zu Fall kommen.",
+      "citation": "Hosea 5:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Mit ihrem Kleinvieh und ihren Rindern kommen sie zwar, um den HERRN zu suchen, werden ihn aber nicht finden: er hat sich von ihnen losgesagt.",
+      "citation": "Hosea 5:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Sie haben Treubruch gegen den HERRN begangen, denn sie haben ein Geschlecht von unechten Kindern gezeugt; nunmehr wird das Neumondsopferfest sie verzehren mitsamt ihrem Erbbesitz.",
+      "citation": "Hosea 5:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "»Stoßt in die Posaune zu Gibea, in die Trompete zu Rama! Schlagt Lärm in Beth-Awen, setzt Benjamin in Schrecken!",
+      "citation": "Hosea 5:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ephraim wird zur Einöde werden am Tage des Strafgerichts; was ich den Stämmen Israels angekündigt habe, trifft unfehlbar ein!",
+      "citation": "Hosea 5:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Judas Fürsten sind wie Leute geworden, welche die Grenzsteine verrücken: über sie lasse ich meinen Zorn sich ergießen wie Wasser.",
+      "citation": "Hosea 5:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Unterdrückt ist Ephraim, zerschlagen vom Strafgericht, weil es ihm beliebte, hinter dem Nichtigen herzulaufen.",
+      "citation": "Hosea 5:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Ich aber bin für Ephraim wie die Motte gewesen und für das Haus Juda wie Wurmfraß.",
+      "citation": "Hosea 5:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Als nun Ephraim seine Krankheit erkannte und Juda seine eiternde Wunde, da wandte Ephraim sich an Assyrien, und das Reich Juda sandte zum Großkönig; der aber vermag euch nicht gesund zu machen und wird eure eiternde Wunde nicht heilen;",
+      "citation": "Hosea 5:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "denn ich trete gegen Ephraim auf wie ein Löwe und gegen das Haus Juda wie ein junger Leu: ich, ich zerreiße und gehe davon, trage (den Raub) hinweg, ohne daß jemand Rettung bringen kann.«",
+      "citation": "Hosea 5:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "»Ich will davongehen, mich an meine Wohnstätte zurückbegeben, bis sie sich schuldig fühlen und mein Angesicht suchen; wenn sie in Not sind, werden sie ernstliches Verlangen nach mir tragen (und sprechen):",
+      "citation": "Hosea 5:15 (Menge)"
+    }
+  ]
+}

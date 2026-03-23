@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Josue, Chapter 5 — 16 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Josue",
+      "slug": "josue",
+      "testament": "OT",
+      "order": 6,
+      "totalChapters": 24
+    },
+    "chapter": 5,
+    "verseCount": 16,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/josue/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/josue/4.json",
+      "nextChapter": "https://latinprayer.org/bible/josue/6.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/josue/5.json",
+      "german": "https://latinprayer.org/bibel/josue/5.json"
+    }
+  },
+  "citation": "Josue 5 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Now when all the kings of the Amorrhites, who dwelt beyond the Jordan, westward, and all the kings of Chanaan, who possessed the places near the great sea, had heard that the Lord had dried up the waters of the Jordan before the children of Israel, till they passed over, their heart failed them, and there remained no spirit in them, fearing the coming in of the children of Israel.",
+      "citation": "Josue 5:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "At that time the Lord said to Josue: Make thee knives of stone, and circumcise the second time the children of Israel.",
+      "citation": "Josue 5:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "He did what the Lord had commanded, and he circumcised the children of Israel in the hill of the foreskins.",
+      "citation": "Josue 5:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Now this is the cause of the second circumcision: All the people that came out of Egypt that were males, all the men fit for war, died in the desert, during the time of the long going about in the way:",
+      "citation": "Josue 5:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "Now these were all circumcised. But the people that were born in the desert,",
+      "citation": "Josue 5:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "During the forty years of the journey in the wide wilderness, were uncircumcised: till all they were consumed that had not heard the voice of the Lord, and to whom he had sworn before, that he would not shew them the land flowing with milk and honey.",
+      "citation": "Josue 5:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "The children of these succeeded in the place of their fathers, and were circumcised by Josue: for they were uncircumcised even as they were born, and no one had circumcised them in the way.",
+      "citation": "Josue 5:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "Now after they were all circumcised, they remained in the same place of the camp, until they were healed.",
+      "citation": "Josue 5:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the Lord said to Josue: This day have I taken away from you the reproach of Egypt. And the name of that place was called Galgal, until this present day.",
+      "citation": "Josue 5:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the children of Israel abode in Galgal, and they kept the phase, on the fourteenth day of the month at evening, in the plains of Jericho:",
+      "citation": "Josue 5:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And they ate on the next day unleavened bread of the corn of the land, and frumenty of the same year.",
+      "citation": "Josue 5:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "And the manna ceased after they ate of the corn of the land, neither did the children of Israel use that food any more, but they ate of the corn of the present year of the land of Chanaan.",
+      "citation": "Josue 5:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "And when Josue was in the field of the city of Jericho, he lifted up his eyes, and saw a man standing over against him, holding a drawn sword, and he went to him, and said: Art thou one of ours, or of our adversaries?",
+      "citation": "Josue 5:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And he answered: No: but I am prince of the host of the Lord, and now I am come.",
+      "citation": "Josue 5:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "Josue fell on his face to the ground. And worshipping, said: What saith my lord to his servant?",
+      "citation": "Josue 5:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "Loose, saith he, thy shoes from off thy feet: for the place whereon thou standest is holy. And Josue did as was commanded him.",
+      "citation": "Josue 5:15 (Douay-Rheims)"
+    }
+  ]
+}

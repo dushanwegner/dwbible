@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Zechariah, Chapter 2 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Zechariah",
+      "slug": "zacharias",
+      "testament": "OT",
+      "order": 43,
+      "totalChapters": 14
+    },
+    "chapter": 2,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/zacharias/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/zacharias/1.json",
+      "nextChapter": "https://latinprayer.org/latin/zacharias/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/zacharias/2.json",
+      "german": "https://latinprayer.org/bibel/zacharias/2.json"
+    }
+  },
+  "citation": "Zechariah 2 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "et levavi oculos meos et vidi et ecce quattuor cornua",
+      "citation": "Zechariah 2:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et dixi ad angelum qui loquebatur in me quid sunt haec et dixit ad me haec sunt cornua quae ventilaverunt Iudam et Israhel et Hierusalem",
+      "citation": "Zechariah 2:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et ostendit mihi Dominus quattuor fabros",
+      "citation": "Zechariah 2:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et dixi quid isti veniunt facere qui ait dicens haec sunt cornua quae ventilaverunt Iudam per singulos viros et nemo eorum levavit caput suum et venerunt isti deterrere ea ut deiciant cornua gentium quae levaverunt cornu super terram Iuda ut dispergerent eam",
+      "citation": "Zechariah 2:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et levavi oculos meos et vidi et ecce vir et in manu eius funiculus mensorum",
+      "citation": "Zechariah 2:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et dixi quo tu vadis et dixit ad me ut metiar Hierusalem et videam quanta sit latitudo eius et quanta longitudo eius",
+      "citation": "Zechariah 2:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "et ecce angelus qui loquebatur in me egrediebatur et angelus alius egrediebatur in occursum eius",
+      "citation": "Zechariah 2:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et dixit ad eum curre loquere ad puerum istum dicens absque muro habitabitur Hierusalem prae multitudine hominum et iumentorum in medio eius",
+      "citation": "Zechariah 2:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et ego ero ei ait Dominus murus ignis in circuitu et in gloria ero in medio eius",
+      "citation": "Zechariah 2:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "o o fugite de terra aquilonis dicit Dominus quoniam in quattuor ventos caeli dispersi vos dicit Dominus",
+      "citation": "Zechariah 2:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "o Sion fuge quae habitas apud filiam Babylonis",
+      "citation": "Zechariah 2:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quia haec dicit Dominus exercituum post gloriam misit me ad gentes quae spoliaverunt vos qui enim tetigerit vos tangit pupillam oculi eius",
+      "citation": "Zechariah 2:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "quia ecce ego levo manum meam super eos et erunt praedae his qui serviebant sibi et cognoscetis quia Dominus exercituum misit me",
+      "citation": "Zechariah 2:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "lauda et laetare filia Sion quia ecce ego venio et habitabo in medio tui ait Dominus",
+      "citation": "Zechariah 2:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et adplicabuntur gentes multae ad Dominum in die illa et erunt mihi in populum et habitabo in medio tui et scies quia Dominus exercituum misit me ad te",
+      "citation": "Zechariah 2:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et possidebit Dominus Iudam partem suam in terra sanctificata et eliget adhuc Hierusalem",
+      "citation": "Zechariah 2:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sileat omnis caro a facie Domini quia consurrexit de habitaculo sancto suo",
+      "citation": "Zechariah 2:17 (Clementine Vulgate)"
+    }
+  ]
+}

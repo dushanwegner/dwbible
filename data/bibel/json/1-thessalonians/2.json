@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Thessalonicher, Chapter 2 — 20 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Thessalonicher",
+      "slug": "1-thessalonians",
+      "testament": "NT",
+      "order": 59,
+      "totalChapters": 5
+    },
+    "chapter": 2,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-thessalonians/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-thessalonians/1.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-thessalonians/3.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-thessalonians/2.json",
+      "latin": "https://latinprayer.org/latin/1-thessalonians/2.json"
+    }
+  },
+  "citation": "1 Thessalonicher 2 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Ihr wißt ja selbst, liebe Brüder, daß unser erstmaliges Auftreten bei euch nicht erfolglos gewesen ist;",
+      "citation": "1 Thessalonicher 2:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "sondern nachdem wir vorher, wie ihr wißt, in Philippi Leiden und Mißhandlungen hatten erdulden müssen, gewannen wir doch in unserm Gott den frohen Mut, die Heilsbotschaft Gottes unter schweren Kämpfen bei euch zu verkündigen.",
+      "citation": "1 Thessalonicher 2:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Denn unsere Predigt erfolgt nicht aus Schwärmerei oder unlauteren Absichten, auch nicht mit Hintergedanken;",
+      "citation": "1 Thessalonicher 2:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "nein, wie wir von Gott gewürdigt worden sind, mit der (Verkündigung der) Heilsbotschaft betraut zu werden, so reden wir nun auch, nicht um Menschen zu gefallen, sondern Gott, der unsere Herzen prüft.",
+      "citation": "1 Thessalonicher 2:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Denn weder sind wir jemals, wie ihr wißt, mit Schmeichelworten umgegangen, noch mit versteckter Gewinnsucht – Gott ist unser Zeuge! –,",
+      "citation": "1 Thessalonicher 2:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "auch haben wir nicht Ehre von seiten der Menschen gesucht, weder von euch noch von anderen,",
+      "citation": "1 Thessalonicher 2:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "obgleich wir als Sendboten Christi sehr wohl Anspruch auf Ehren hätten erheben können; vielmehr sind wir unter euch sanft aufgetreten wie eine Amme, die ihre Kinder hegt und pflegt:",
+      "citation": "1 Thessalonicher 2:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "so fühlten wir uns in Liebe zu euch hingezogen und hegten den Wunsch, euch nicht nur die Heilsbotschaft Gottes, sondern auch unsere eigenen Seelen darzubringen; denn ihr waret uns lieb geworden.",
+      "citation": "1 Thessalonicher 2:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Ihr erinnert euch doch noch, liebe Brüder, unserer Mühsal und Arbeitslast: während wir Tag und Nacht mit Handarbeit beschäftigt waren, um keinem von euch zur Last zu fallen, haben wir bei euch die Heilsbotschaft Gottes verkündigt.",
+      "citation": "1 Thessalonicher 2:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Ihr seid unsere Zeugen, und auch Gott ist Zeuge dafür, wie pflichtgetreu, gerecht und untadelig wir uns gegen euch, die ihr gläubig (geworden) waret, verhalten haben,",
+      "citation": "1 Thessalonicher 2:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "wie wir – ihr wißt es ja – jeden einzelnen von euch wie ein Vater seine Kinder",
+      "citation": "1 Thessalonicher 2:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "ermahnt und euch zugeredet und euch beschworen haben, ihr möchtet würdig des Gottes wandeln, der euch zu seinem Reich und zu seiner Herrlichkeit beruft.",
+      "citation": "1 Thessalonicher 2:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "Deshalb sagen wir auch Gott unablässig Dank dafür, daß ihr nach Empfang des von uns gepredigten Gotteswortes es nicht als Menschenwort angenommen habt, sondern als das, was es ja in der Tat ist, als Gottes Wort, das sich nun in euch, seitdem ihr gläubig seid, auch wirksam erweist.",
+      "citation": "1 Thessalonicher 2:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Ihr seid ja, liebe Brüder, in die Nachfolge der Gottesgemeinden eingetreten, die im jüdischen Lande in Christus (gegründet) sind; denn auch ihr habt von euren eigenen Volksgenossen die gleichen Leiden erduldet wie jene von den Juden,",
+      "citation": "1 Thessalonicher 2:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "die sogar den Herrn Jesus getötet und die Propheten wie auch uns verfolgt haben. Die besitzen Gottes Wohlgefallen nicht und sind allen Menschen feindselig,",
+      "citation": "1 Thessalonicher 2:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "weil sie uns daran hindern (wollen), den Heiden zu ihrer Rettung zu predigen, um so nur ja das Maß ihrer Sünden jederzeit voll zu machen. Es ist aber der Zorn über sie hereingebrochen bis zum Äußersten.",
+      "citation": "1 Thessalonicher 2:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Wir aber, liebe Brüder, da wir eine Zeitlang fern von euch verwaist waren – freilich nur (räumlich) dem Angesicht, nicht dem Herzen nach –, haben uns mit lebhaftem Verlangen um so eifriger bemüht, euch Auge in Auge wiederzusehen.",
+      "citation": "1 Thessalonicher 2:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Deshalb hatten wir uns vorgenommen, euch zu besuchen – ich, Paulus, sogar mehr als einmal –, doch der Satan hat uns nicht dazu kommen lassen.",
+      "citation": "1 Thessalonicher 2:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "Denn wer ist unsere Hoffnung, unsere Freude und unser Ruhmeskranz, wenn nicht auch ihr es seid, vor dem Angesicht unsers Herrn Jesus bei seiner Ankunft?",
+      "citation": "1 Thessalonicher 2:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "Ihr seid ja doch unser Ruhm und unsere Freude!",
+      "citation": "1 Thessalonicher 2:20 (Menge)"
+    }
+  ]
+}

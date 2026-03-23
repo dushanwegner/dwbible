@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Deuteronomy, Chapter 20 — 20 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Deuteronomy",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "totalChapters": 34
+    },
+    "chapter": 20,
+    "verseCount": 20,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/deuteronomy/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/deuteronomy/19.json",
+      "nextChapter": "https://latinprayer.org/latin/deuteronomy/21.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/deuteronomy/20.json",
+      "german": "https://latinprayer.org/bibel/deuteronomy/20.json"
+    }
+  },
+  "citation": "Deuteronomy 20 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "si exieris ad bellum contra hostes tuos et videris equitatum et currus et maiorem quam tu habes adversarii exercitus multitudinem non timebis eos quia Dominus Deus tuus tecum est qui eduxit te de terra Aegypti",
+      "citation": "Deuteronomy 20:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "adpropinquante autem iam proelio stabit sacerdos ante aciem et sic loquetur ad populum",
+      "citation": "Deuteronomy 20:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "audi Israhel vos hodie contra inimicos vestros pugnam committitis non pertimescat cor vestrum nolite metuere nolite cedere nec formidetis eos",
+      "citation": "Deuteronomy 20:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "quia Dominus Deus vester in medio vestri est et pro vobis contra adversarios dimicabit ut eruat vos de periculo",
+      "citation": "Deuteronomy 20:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "duces quoque per singulas turmas audiente exercitu proclamabunt quis est homo qui aedificavit domum novam et non dedicavit eam vadat et revertatur in domum suam ne forte moriatur in bello et alius dedicet illam",
+      "citation": "Deuteronomy 20:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quis est homo qui plantavit vineam et necdum eam fecit esse communem et de qua vesci omnibus liceat vadat et revertatur in domum suam ne forte moriatur in bello et alius homo eius fungatur officio",
+      "citation": "Deuteronomy 20:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "quis est homo qui despondit uxorem et non accepit eam vadat et revertatur in domum suam ne forte moriatur in bello et alius homo accipiat eam",
+      "citation": "Deuteronomy 20:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "his dictis addent reliqua et loquentur ad populum quis est homo formidolosus et corde pavido vadat et revertatur in domum suam ne pavere faciat corda fratrum suorum sicut ipse timore perterritus est",
+      "citation": "Deuteronomy 20:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "cumque siluerint exercitus duces et finem loquendi fecerint unusquisque suos ad bellandum cuneos praeparabit",
+      "citation": "Deuteronomy 20:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "si quando accesseris ad expugnandam civitatem offeres ei primum pacem",
+      "citation": "Deuteronomy 20:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "si receperit et aperuerit tibi portas cunctus populus qui in ea est salvabitur et serviet tibi sub tributo",
+      "citation": "Deuteronomy 20:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "sin autem foedus inire noluerint et receperint contra te bellum obpugnabis eam",
+      "citation": "Deuteronomy 20:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "cumque tradiderit Dominus Deus tuus illam in manu tua percuties omne quod in ea generis masculini est in ore gladii",
+      "citation": "Deuteronomy 20:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "absque mulieribus et infantibus iumentis et ceteris quae in civitate sunt omnem praedam exercitui divides et comedes de spoliis hostium tuorum quae Dominus Deus tuus dederit tibi",
+      "citation": "Deuteronomy 20:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "sic facies cunctis civitatibus quae a te procul valde sunt et non sunt de his urbibus quas in possessionem accepturus es",
+      "citation": "Deuteronomy 20:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "de his autem civitatibus quae dabuntur tibi nullum omnino permittes vivere",
+      "citation": "Deuteronomy 20:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "sed interficies in ore gladii Hettheum videlicet et Amorreum et Chananeum Ferezeum et Eveum et Iebuseum sicut praecepit tibi Dominus Deus tuus",
+      "citation": "Deuteronomy 20:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "ne forte doceant vos facere cunctas abominationes quas ipsi operati sunt diis suis et peccetis in Dominum Deum vestrum",
+      "citation": "Deuteronomy 20:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quando obsederis civitatem multo tempore et munitionibus circumdederis ut expugnes eam non succides arbores de quibus vesci potest nec securibus per circuitum debes vastare regionem quoniam lignum est et non homo nec potest bellantium contra te augere numerum",
+      "citation": "Deuteronomy 20:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "si qua autem ligna non sunt pomifera sed agrestia et in ceteros apta usus succide et extrue machinas donec capias civitatem quae contra te dimicat",
+      "citation": "Deuteronomy 20:20 (Clementine Vulgate)"
+    }
+  ]
+}

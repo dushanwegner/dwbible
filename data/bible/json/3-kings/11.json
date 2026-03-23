@@ -1,0 +1,251 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "3. Kings, Chapter 11 — 43 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "3. Kings",
+      "slug": "3-kings",
+      "testament": "OT",
+      "order": 11,
+      "totalChapters": 22
+    },
+    "chapter": 11,
+    "verseCount": 43,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/3-kings/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/3-kings/10.json",
+      "nextChapter": "https://latinprayer.org/bible/3-kings/12.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/3-kings/11.json",
+      "german": "https://latinprayer.org/bibel/3-kings/11.json"
+    }
+  },
+  "citation": "3. Kings 11 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And king Solomon loved many strange women, besides the daughter of Pharao, and women of Moab, and of Ammon, and of Edom, and of Sidon, and of the Hethites:",
+      "citation": "3. Kings 11:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "Of the nations concerning which the Lord said to the children of Israel:  You shall not go in unto them, neither shall any of them come into yours: for they will most certainly turn away your hearts to follow their gods. And to these was Solomon joined with a most ardent love.",
+      "citation": "3. Kings 11:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And he had seven hundred wives as queens, and three hundred concubines: and the women turned away his heart.",
+      "citation": "3. Kings 11:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "And when he was now old, his heart was turned away by women to follow strange gods: and his heart was not perfect with the Lord his God, as was the heart of David, his father.",
+      "citation": "3. Kings 11:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "But Solomon worshipped Astarthe, the goddess of the Sidonians, and Moloch, the idol of the Ammonites.",
+      "citation": "3. Kings 11:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Solomon did that which was not pleasing before the Lord, and did not fully follow the Lord, as David, his father.",
+      "citation": "3. Kings 11:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "Then Solomon built a temple for Chamos, the idol of Moab, on the hill that is over against Jerusalem, and for Moloch, the idol of the children of Ammon.",
+      "citation": "3. Kings 11:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And he did in this manner for all his wives that were strangers, who burnt incense, and offered sacrifice to their gods.",
+      "citation": "3. Kings 11:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "And the Lord was angry with Solomon, because his mind was turned away from the Lord, the God of Israel, who had appeared to him twice;",
+      "citation": "3. Kings 11:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And had commanded him concerning this thing, that he should not follow strange gods: but he kept not the things which the Lord commanded him.",
+      "citation": "3. Kings 11:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "The Lord therefore said to Solomon: Because thou hast done this, and hast not kept my covenant, and my precepts, which I have commanded thee, I will divide and rend thy kingdom, and will give it to thy servant.",
+      "citation": "3. Kings 11:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Nevertheless, in thy days I will not do it, for David thy father's sake: but I will rend it out of the hand of thy son.",
+      "citation": "3. Kings 11:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Neither will I take away the whole kingdom; but I will give one tribe to thy son, for the sake of David, my servant, and Jerusalem, which I have chosen.",
+      "citation": "3. Kings 11:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And the Lord raised up an adversary to Solomon, Adad, the Edomite, of the king's seed, in Edom.",
+      "citation": "3. Kings 11:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "For when David was in Edom, and Joab, the general of the army, was gone up to bury them that were slain, and had killed every male in Edom,",
+      "citation": "3. Kings 11:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "(For Joab remained there six months with all Israel, till he had slain every male in Edom,)",
+      "citation": "3. Kings 11:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "Then Adad fled, he and certain Edomites of his father's servants, with him, to go into Egypt: and Adad was then a little boy.",
+      "citation": "3. Kings 11:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And they arose out of Madian, and came into Pharan, and they took men with them from Pharan, and went into Egypt, to Pharao, the king of Egypt: who gave him a house, and appointed him victuals, and assigned him land.",
+      "citation": "3. Kings 11:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And Adad found great favour before Pharao, insomuch that he gave him to wife the own sister of his wife, Taphnes, the queen.",
+      "citation": "3. Kings 11:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And the sister of Taphnes bore him his son, Genubath; and Taphnes brought him up in the house of Pharao: and Genubath dwelt with Pharao among his children.",
+      "citation": "3. Kings 11:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And when Adad heard in Egypt that David slept with his fathers, and that Joab, the general of the army, was dead, he said to Pharao: Let me depart, that I may go to my own country.",
+      "citation": "3. Kings 11:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And Pharao said to him: Why, what is wanting to thee with me, that thou seekest to go to thy own country?  But he answered: Nothing; yet I beseech thee to let me go.",
+      "citation": "3. Kings 11:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "God also raised up against him an adversary, Razon, the son of Eliada, who had fled from his master, Adarezer, the king of Soba.",
+      "citation": "3. Kings 11:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "And he gathered men against him, and he became a captain of robbers, when David slew them of Soba: and they went to Damascus, and dwelt there, and they made him king in Damascus.",
+      "citation": "3. Kings 11:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "And he was an adversary to Israel all the days of Solomon: and this is the evil of Adad, and his hatred against Israel; and he reigned in Syria.",
+      "citation": "3. Kings 11:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "Jeroboam also, the son of Nabat, an Ephrathite, of Sareda, a servant of Solomon, whose mother was named Sarua, a widow woman, lifted up his hand against the king.",
+      "citation": "3. Kings 11:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "And this is the cause of his rebellion against him; for Solomon built Mello, and filled up the breach of the city of David, his father.",
+      "citation": "3. Kings 11:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And Jeroboam was a valiant and mighty man: and Solomon seeing him a young man ingenious and industrious, made him chief over the tributes of all the house of Joseph.",
+      "citation": "3. Kings 11:28 (Douay-Rheims)"
+    },
+    {
+      "verse": 29,
+      "text": "So it came to pass at that time, that Jeroboam went out of Jerusalem, and the prophet Ahias, the Silonite, clad with a new garment, found him in the way: and they two were alone in the field.",
+      "citation": "3. Kings 11:29 (Douay-Rheims)"
+    },
+    {
+      "verse": 30,
+      "text": "And Ahias taking his new garment, wherewith he was clad, divided it into twelve parts:",
+      "citation": "3. Kings 11:30 (Douay-Rheims)"
+    },
+    {
+      "verse": 31,
+      "text": "And he said to Jeroboam: Take to thee ten pieces: for thus saith the Lord, the God of Israel: Behold, I will rend the kingdom out of the hand of Solomon, and will give thee ten tribes.",
+      "citation": "3. Kings 11:31 (Douay-Rheims)"
+    },
+    {
+      "verse": 32,
+      "text": "But one tribe shall remain to him for the sake of my servant, David, and Jerusalem, the city which I have chosen out of all the tribes of Israel:",
+      "citation": "3. Kings 11:32 (Douay-Rheims)"
+    },
+    {
+      "verse": 33,
+      "text": "Because he hath forsaken me, and hath adored Astarthe, the goddess of the Sidonians, and Chamos, the god of Moab, and Moloch, the god of the children of Ammon: and hath not walked in my ways, to do justice before me, and to keep my precepts, and judgments, as did David, his father.",
+      "citation": "3. Kings 11:33 (Douay-Rheims)"
+    },
+    {
+      "verse": 34,
+      "text": "Yet I will not take away all the kingdom out of his hand, but I will make him prince all the days of his life, for David my servant's sake, whom I chose, who kept my commandments, and my precepts.",
+      "citation": "3. Kings 11:34 (Douay-Rheims)"
+    },
+    {
+      "verse": 35,
+      "text": "But I will take away the kingdom out of his son's hand, and will give thee ten tribes:",
+      "citation": "3. Kings 11:35 (Douay-Rheims)"
+    },
+    {
+      "verse": 36,
+      "text": "And to his son I will give one tribe, that there may remain a lamp for my servant, David, before me always in Jerusalem, the city which I have chosen, that my name might be there.",
+      "citation": "3. Kings 11:36 (Douay-Rheims)"
+    },
+    {
+      "verse": 37,
+      "text": "And I will take thee, and thou shalt reign over all that thy soul desireth, and thou shalt be king over Israel.",
+      "citation": "3. Kings 11:37 (Douay-Rheims)"
+    },
+    {
+      "verse": 38,
+      "text": "If then thou wilt hearken to all that I shall command thee, and wilt walk in my ways, and do what is right before me, keeping my commandments and my precepts, as David, my servant, did: I will be with thee, and will build thee up a faithful house, as I built a house for David, and I will deliver Israel to thee:",
+      "citation": "3. Kings 11:38 (Douay-Rheims)"
+    },
+    {
+      "verse": 39,
+      "text": "And I will for this afflict the seed of David, but yet not for ever.",
+      "citation": "3. Kings 11:39 (Douay-Rheims)"
+    },
+    {
+      "verse": 40,
+      "text": "Solomon, therefore, sought to kill Jeroboam: but he arose, and fled into Egypt, to Sesac, the king of Egypt, and was in Egypt till the death of Solomon.",
+      "citation": "3. Kings 11:40 (Douay-Rheims)"
+    },
+    {
+      "verse": 41,
+      "text": "And the rest of the words of Solomon, and all that he did and his wisdom: behold they are all written in the book of the words of the days of Solomon.",
+      "citation": "3. Kings 11:41 (Douay-Rheims)"
+    },
+    {
+      "verse": 42,
+      "text": "And the days that Solomon reigned in Jerusalem, over all Israel, were forty years.",
+      "citation": "3. Kings 11:42 (Douay-Rheims)"
+    },
+    {
+      "verse": 43,
+      "text": "And Solomon slept with his fathers, and was buried in the city of David, his father; and Roboam, his son, reigned in his stead.",
+      "citation": "3. Kings 11:43 (Douay-Rheims)"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Sirach, Chapter 30 — 27 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Sirach",
+      "slug": "ecclesiasticus",
+      "testament": "OT",
+      "order": 26,
+      "totalChapters": 42
+    },
+    "chapter": 30,
+    "verseCount": 27,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ecclesiasticus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ecclesiasticus/29.json",
+      "nextChapter": "https://latinprayer.org/latin/ecclesiasticus/31.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ecclesiasticus/30.json",
+      "german": "https://latinprayer.org/bibel/ecclesiasticus/30.json"
+    }
+  },
+  "citation": "Sirach 30 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "de filiis qui diligit filium suum adsiduat illi flagella ut laetetur in novissimo suo",
+      "citation": "Sirach 30:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "qui docet filium suum laudabitur in illo et in medio domesticorum in illo gloriabitur",
+      "citation": "Sirach 30:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "qui docet filium suum in zelum mittit inimicum et in medio amicorum gloriabitur in illo",
+      "citation": "Sirach 30:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "mortuus est pater illius et quasi non est mortuus similem enim reliquit sibi post se",
+      "citation": "Sirach 30:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "in vita ipsius vidit et laetatus est in illo in obitu illius non est contristatus nec confusus est coram inimicis",
+      "citation": "Sirach 30:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "reliquit enim defensorem domus et amicis reddentem gratiam",
+      "citation": "Sirach 30:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "pro animabus filiorum conligabit vulnera sua et super omnem vocem turbabuntur viscera eius",
+      "citation": "Sirach 30:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "equus indomitus evadit durus et filius remissus evadit praeceps",
+      "citation": "Sirach 30:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "lacta filium et paventem te faciet lude cum eo et contristabit te",
+      "citation": "Sirach 30:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "non conrideas illi ne doleas et in novissimo obstupescent dentes tui",
+      "citation": "Sirach 30:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "non des illi potestatem in iuventute et ne despicias cogitatus illius",
+      "citation": "Sirach 30:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "curva cervicem eius in iuventute et tunde latera illius dum infans est ne forte induret et non credat tibi et erit tibi dolor animae",
+      "citation": "Sirach 30:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "doce filium tuum et operare in illum ne in turpitudinem illius offendas",
+      "citation": "Sirach 30:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "melior est pauper sanus et fortis viribus quam dives inbecillis et flagellatus malitia",
+      "citation": "Sirach 30:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "salus animae in sanctitate iustitiae et melior omni auro et argento et corpus validum quam census inmensus",
+      "citation": "Sirach 30:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "non est census super censum salutis corporis et non est oblectatio super cordis gaudium",
+      "citation": "Sirach 30:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "melior est mors quam vita amara et requies aeterna quam languor perseverans",
+      "citation": "Sirach 30:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "bona absconsa in ore cluso quasi adpositiones epularum circumpositae sepulchro",
+      "citation": "Sirach 30:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "quid proderit libatio idolo nec enim manducat nec odorabitur",
+      "citation": "Sirach 30:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "sic qui effugatur a Domino et portans mercedes iniquitatis",
+      "citation": "Sirach 30:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "videns oculis et ingemescens sicut spado conplectens virginem et suspirans",
+      "citation": "Sirach 30:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "tristitiam non des animae tuae et non adfligas temet ipsum in consilio tuo",
+      "citation": "Sirach 30:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "iucunditas cordis haec est vita hominis et thesaurus sine defectione sanctitatis et exultatio viri est longevitas",
+      "citation": "Sirach 30:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "miserere animae tuae placens Deo et contine et congrega cor tuum in sanctitate eius et tristitiam longe expelle a te",
+      "citation": "Sirach 30:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "multos enim occidit tristitia et non est utilitas in illa",
+      "citation": "Sirach 30:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "zelus et iracundia minuit dies et ante tempus senectam adducit cogitatus",
+      "citation": "Sirach 30:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "splendidum cor bonum in epulis epulae enim illius diligenter fiunt",
+      "citation": "Sirach 30:27 (Clementine Vulgate)"
+    }
+  ]
+}

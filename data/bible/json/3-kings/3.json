@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "3. Kings, Chapter 3 — 28 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "3. Kings",
+      "slug": "3-kings",
+      "testament": "OT",
+      "order": 11,
+      "totalChapters": 22
+    },
+    "chapter": 3,
+    "verseCount": 28,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/3-kings/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/3-kings/2.json",
+      "nextChapter": "https://latinprayer.org/bible/3-kings/4.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/3-kings/3.json",
+      "german": "https://latinprayer.org/bibel/3-kings/3.json"
+    }
+  },
+  "citation": "3. Kings 3 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "And the kingdom was established in the hand of Solomon, and he made affinity with Pharao, the king of Egypt: for he took his daughter, and brought her into the city of David: until he had made an end of building his own house, and the house of the Lord, and the wall of Jerusalem round about.",
+      "citation": "3. Kings 3:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "But yet the people sacrificed in the high places: for there was no temple built to the name of the Lord until that day.",
+      "citation": "3. Kings 3:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "And Solomon loved the Lord, walking in the precepts of David, his father; only he sacrificed in the high places, and burnt incense.",
+      "citation": "3. Kings 3:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "He went therefore to Gabaon, to sacrifice there: for that was the great high place: a thousand victims for holocausts, did Solomon offer upon that altar, in Gabaon.",
+      "citation": "3. Kings 3:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "And the Lord appeared to Solomon in a dream by night, saying: Ask what thou wilt that I should give thee.",
+      "citation": "3. Kings 3:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "And Solomon said: Thou hast shewed great mercy to thy servant David, my father, even as he walked before thee in truth, and justice, and an upright heart with thee: and thou hast kept thy great mercy for him, and hast given him a son to sit on his throne, as it is this day.",
+      "citation": "3. Kings 3:6 (Douay-Rheims)"
+    },
+    {
+      "verse": 7,
+      "text": "And now, O Lord God, thou hast made thy servant king instead of David, my father: and I am but a child, and know not how to go out and come in;",
+      "citation": "3. Kings 3:7 (Douay-Rheims)"
+    },
+    {
+      "verse": 8,
+      "text": "And thy servant is in the midst of the people which thou hast chosen, an immense people, which cannot be numbered nor counted for multitude.",
+      "citation": "3. Kings 3:8 (Douay-Rheims)"
+    },
+    {
+      "verse": 9,
+      "text": "Give therefore to thy servant an understanding heart, to judge thy people, and discern between good and evil. For who shall be able to judge this people, thy people, which is so numerous?",
+      "citation": "3. Kings 3:9 (Douay-Rheims)"
+    },
+    {
+      "verse": 10,
+      "text": "And the word was pleasing to the Lord, that Solomon had asked such a thing.",
+      "citation": "3. Kings 3:10 (Douay-Rheims)"
+    },
+    {
+      "verse": 11,
+      "text": "And the Lord said to Solomon: Because thou hast asked this thing, and hast not asked for thyself long life nor riches, nor the lives of thy enemies, but hast asked for thyself wisdom to discern judgment;",
+      "citation": "3. Kings 3:11 (Douay-Rheims)"
+    },
+    {
+      "verse": 12,
+      "text": "Behold I have done for thee according to thy words, and have given thee a wise and understanding heart, in so much that there hath been no one like thee before thee, nor shall arise after thee.",
+      "citation": "3. Kings 3:12 (Douay-Rheims)"
+    },
+    {
+      "verse": 13,
+      "text": "Yea, and the things also which thou didst not ask, I have given thee; to wit, riches and glory: so that no one hath been like thee among the kings in all days heretofore.",
+      "citation": "3. Kings 3:13 (Douay-Rheims)"
+    },
+    {
+      "verse": 14,
+      "text": "And if thou wilt walk in my ways, and keep my precepts and my commandments, as thy father walked, I will lengthen thy days.",
+      "citation": "3. Kings 3:14 (Douay-Rheims)"
+    },
+    {
+      "verse": 15,
+      "text": "And Solomon awaked, and perceived that it was a dream: and when he was come to Jerusalem, he stood before the ark of the covenant of the Lord, and offered holocausts, and sacrificed victims of peace offerings, and made a great feast for all his servants.",
+      "citation": "3. Kings 3:15 (Douay-Rheims)"
+    },
+    {
+      "verse": 16,
+      "text": "Then there came two women that were harlots, to the king, and stood before him.",
+      "citation": "3. Kings 3:16 (Douay-Rheims)"
+    },
+    {
+      "verse": 17,
+      "text": "And one of them said: I beseech thee, my lord, I and this woman dwelt in one house, and I was delivered of a child with her in the chamber.",
+      "citation": "3. Kings 3:17 (Douay-Rheims)"
+    },
+    {
+      "verse": 18,
+      "text": "And the third day after I was delivered, she also was delivered; and we were together, and no other person with us in the house; only we two.",
+      "citation": "3. Kings 3:18 (Douay-Rheims)"
+    },
+    {
+      "verse": 19,
+      "text": "And this woman's child died in the night: for in her sleep she overlaid him.",
+      "citation": "3. Kings 3:19 (Douay-Rheims)"
+    },
+    {
+      "verse": 20,
+      "text": "And rising in the dead time of the night, she took my child from my side, while I, thy handmaid, was asleep, and laid it in her bosom: and laid her dead child in my bosom.",
+      "citation": "3. Kings 3:20 (Douay-Rheims)"
+    },
+    {
+      "verse": 21,
+      "text": "And when I arose in the morning, to give my child suck, behold it was dead: but considering him more diligently, when it was clear day, I found that it was not mine which I bore.",
+      "citation": "3. Kings 3:21 (Douay-Rheims)"
+    },
+    {
+      "verse": 22,
+      "text": "And the other woman answered: It is not so as thou sayest, but thy child is dead, and mine is alive. On the contrary, she said; Thou liest: for my child liveth, and thy child is dead. And in this manner they strove before the king.",
+      "citation": "3. Kings 3:22 (Douay-Rheims)"
+    },
+    {
+      "verse": 23,
+      "text": "Then said the king: The one saith, My child is alive, and thy child is dead. And the other answereth: Nay; but thy child is dead, and mine liveth.",
+      "citation": "3. Kings 3:23 (Douay-Rheims)"
+    },
+    {
+      "verse": 24,
+      "text": "The king therefore said: Bring me a sword. And when they had brought a sword before the king,",
+      "citation": "3. Kings 3:24 (Douay-Rheims)"
+    },
+    {
+      "verse": 25,
+      "text": "Divide, said he, the living child in two, and give half to the one and half to the other.",
+      "citation": "3. Kings 3:25 (Douay-Rheims)"
+    },
+    {
+      "verse": 26,
+      "text": "But the woman, whose child was alive, said to the king; (for her bowels were moved upon her child) I beseech thee, my lord, give her the child alive, and do not kill it. But the other said: Let it be neither mine nor thine; but divide it.",
+      "citation": "3. Kings 3:26 (Douay-Rheims)"
+    },
+    {
+      "verse": 27,
+      "text": "The king answered, and said: Give the living child to this woman, and let it not be killed; for she is the mother thereof.",
+      "citation": "3. Kings 3:27 (Douay-Rheims)"
+    },
+    {
+      "verse": 28,
+      "text": "And all Israel heard the judgment which the king had judged, and they feared the king, seeing that the wisdom of God was in him to do judgment.",
+      "citation": "3. Kings 3:28 (Douay-Rheims)"
+    }
+  ]
+}

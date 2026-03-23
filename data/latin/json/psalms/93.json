@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 93 — 10 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 93,
+    "verseCount": 10,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/psalms/92.json",
+      "nextChapter": "https://latinprayer.org/latin/psalms/94.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/93.json",
+      "german": "https://latinprayer.org/bibel/psalms/93.json"
+    }
+  },
+  "citation": "Psalms 93 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "laus cantici David in die ante sabbatum quando inhabitata est terra Dominus regnavit decore indutus est indutus est Dominus fortitudine et praecinxit se etenim firmavit orbem terrae qui non commovebitur",
+      "citation": "Psalms 93:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 1,
+      "text": "Dominus regnavit gloria indutus est indutus est Dominus fortitudine et accinctus est insuper adpendit orbem qui non commovebitur",
+      "citation": "Psalms 93:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "parata sedis tua ex tunc a saeculo tu es",
+      "citation": "Psalms 93:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "firmum solium tuum ex tunc ab aeterno tu es",
+      "citation": "Psalms 93:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "elevaverunt flumina Domine elevaverunt flumina vocem suam *elevabunt flumina fluctus suos;",
+      "citation": "Psalms 93:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "levaverunt flumina Domine levaverunt flumina voces suas levaverunt flumina gurgites suos",
+      "citation": "Psalms 93:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "a vocibus aquarum multarum mirabiles elationes maris mirabilis in altis Dominus",
+      "citation": "Psalms 93:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "a vocibus aquarum multarum grandes fluctus maris grandis in excelso Dominus",
+      "citation": "Psalms 93:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "testimonia tua credibilia facta sunt nimis domum tuam decet sanctitudo Domine in longitudine dierum",
+      "citation": "Psalms 93:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "testimonia tua fidelia facta sunt nimis domum tuam decet sanctitas Domine in longitudine dierum",
+      "citation": "Psalms 93:5 (Clementine Vulgate)"
+    }
+  ]
+}

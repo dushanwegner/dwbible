@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Exodus, Chapter 3 — 22 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "totalChapters": 25
+    },
+    "chapter": 3,
+    "verseCount": 22,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/exodus/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/exodus/2.json",
+      "nextChapter": "https://latinprayer.org/latin/exodus/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/exodus/3.json",
+      "german": "https://latinprayer.org/bibel/exodus/3.json"
+    }
+  },
+  "citation": "Exodus 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Moses autem pascebat oves Iethro cognati sui sacerdotis Madian cumque minasset gregem ad interiora deserti venit ad montem Dei Horeb",
+      "citation": "Exodus 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "apparuitque ei Dominus in flamma ignis de medio rubi et videbat quod rubus arderet et non conbureretur",
+      "citation": "Exodus 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "dixit ergo Moses vadam et videbo visionem hanc magnam quare non conburatur rubus",
+      "citation": "Exodus 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "cernens autem Dominus quod pergeret ad videndum vocavit eum de medio rubi et ait Moses Moses qui respondit adsum",
+      "citation": "Exodus 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "at ille ne adpropies inquit huc solve calciamentum de pedibus tuis locus enim in quo stas terra sancta est",
+      "citation": "Exodus 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et ait ego sum Deus patris tui Deus Abraham Deus Isaac Deus Iacob abscondit Moses faciem suam non enim audebat aspicere contra Deum",
+      "citation": "Exodus 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "cui ait Dominus vidi adflictionem populi mei in Aegypto et clamorem eius audivi propter duritiam eorum qui praesunt operibus",
+      "citation": "Exodus 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et sciens dolorem eius descendi ut liberarem eum de manibus Aegyptiorum et educerem de terra illa in terram bonam et spatiosam in terram quae fluit lacte et melle ad loca Chananei et Hetthei et Amorrei Ferezei et Evei et Iebusei",
+      "citation": "Exodus 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "clamor ergo filiorum Israhel venit ad me vidique adflictionem eorum qua ab Aegyptiis opprimuntur",
+      "citation": "Exodus 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "sed veni mittam te ad Pharaonem ut educas populum meum filios Israhel de Aegypto",
+      "citation": "Exodus 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dixit Moses ad Deum quis ego sum ut vadam ad Pharaonem et educam filios Israhel de Aegypto",
+      "citation": "Exodus 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "qui dixit ei ero tecum et hoc habebis signum quod miserim te cum eduxeris populum de Aegypto immolabis Deo super montem istum",
+      "citation": "Exodus 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "ait Moses ad Deum ecce ego vadam ad filios Israhel et dicam eis Deus patrum vestrorum misit me ad vos si dixerint mihi quod est nomen eius quid dicam eis",
+      "citation": "Exodus 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "dixit Deus ad Mosen ego sum qui sum ait sic dices filiis Israhel qui est misit me ad vos",
+      "citation": "Exodus 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "dixitque iterum Deus ad Mosen haec dices filiis Israhel Dominus Deus patrum vestrorum Deus Abraham Deus Isaac et Deus Iacob misit me ad vos hoc nomen mihi est in aeternum et hoc memoriale meum in generationem et generatione",
+      "citation": "Exodus 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "vade congrega seniores Israhel et dices ad eos Dominus Deus patrum vestrorum apparuit mihi Deus Abraham et Deus Isaac et Deus Iacob dicens visitans visitavi vos et omnia quae acciderunt vobis in Aegypto",
+      "citation": "Exodus 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et dixi ut educam vos de adflictione Aegypti in terram Chananei et Hetthei et Amorrei Ferezei et Evei et Iebusei ad terram fluentem lacte et melle",
+      "citation": "Exodus 3:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "et audient vocem tuam ingredierisque tu et seniores Israhel ad regem Aegypti et dices ad eum Dominus Deus Hebraeorum vocavit nos ibimus viam trium dierum per solitudinem ut immolemus Domino Deo nostro",
+      "citation": "Exodus 3:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "sed ego scio quod non dimittet vos rex Aegypti ut eatis nisi per manum validam",
+      "citation": "Exodus 3:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "extendam enim manum meam et percutiam Aegyptum in cunctis mirabilibus meis quae facturus sum in medio eorum post haec dimittet vos",
+      "citation": "Exodus 3:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "daboque gratiam populo huic coram Aegyptiis et cum egrediemini non exibitis vacui",
+      "citation": "Exodus 3:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "sed postulabit mulier a vicina sua et ab hospita vasa argentea et aurea ac vestes ponetisque eas super filios et filias vestras et spoliabitis Aegyptum",
+      "citation": "Exodus 3:22 (Clementine Vulgate)"
+    }
+  ]
+}

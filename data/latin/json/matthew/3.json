@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Matthew, Chapter 3 — 17 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 47,
+      "totalChapters": 28
+    },
+    "chapter": 3,
+    "verseCount": 17,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/matthew/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/matthew/2.json",
+      "nextChapter": "https://latinprayer.org/latin/matthew/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/matthew/3.json",
+      "german": "https://latinprayer.org/bibel/matthew/3.json"
+    }
+  },
+  "citation": "Matthew 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "in diebus autem illis venit Iohannes Baptista praedicans in deserto Iudaeae",
+      "citation": "Matthew 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et dicens paenitentiam agite adpropinquavit enim regnum caelorum",
+      "citation": "Matthew 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "hic est enim qui dictus est per Esaiam prophetam dicentem vox clamantis in deserto parate viam Domini rectas facite semitas eius",
+      "citation": "Matthew 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ipse autem Iohannes habebat vestimentum de pilis camelorum et zonam pelliciam circa lumbos suos esca autem eius erat lucustae et mel silvestre",
+      "citation": "Matthew 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "tunc exiebat ad eum Hierosolyma et omnis Iudaea et omnis regio circa Iordanen",
+      "citation": "Matthew 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "et baptizabantur in Iordane ab eo confitentes peccata sua",
+      "citation": "Matthew 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "videns autem multos Pharisaeorum et Sadducaeorum venientes ad baptismum suum dixit eis progenies viperarum quis demonstravit vobis fugere a futura ira",
+      "citation": "Matthew 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "facite ergo fructum dignum paenitentiae",
+      "citation": "Matthew 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et ne velitis dicere intra vos patrem habemus Abraham dico enim vobis quoniam potest Deus de lapidibus istis suscitare filios Abrahae",
+      "citation": "Matthew 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "iam enim securis ad radicem arborum posita est omnis ergo arbor quae non facit fructum bonum exciditur et in ignem mittitur",
+      "citation": "Matthew 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "ego quidem vos baptizo in aqua in paenitentiam qui autem post me venturus est fortior me est cuius non sum dignus calciamenta portare ipse vos baptizabit in Spiritu Sancto et igni",
+      "citation": "Matthew 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cuius ventilabrum in manu sua et permundabit aream suam et congregabit triticum suum in horreum paleas autem conburet igni inextinguibili",
+      "citation": "Matthew 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "tunc venit Iesus a Galilaea in Iordanen ad Iohannem ut baptizaretur ab eo",
+      "citation": "Matthew 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "Iohannes autem prohibebat eum dicens ego a te debeo baptizari et tu venis ad me",
+      "citation": "Matthew 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "respondens autem Iesus dixit ei sine modo sic enim decet nos implere omnem iustitiam tunc dimisit eum",
+      "citation": "Matthew 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "baptizatus autem confestim ascendit de aqua et ecce aperti sunt ei caeli et vidit Spiritum Dei descendentem sicut columbam venientem super se",
+      "citation": "Matthew 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et ecce vox de caelis dicens hic est Filius meus dilectus in quo mihi conplacui",
+      "citation": "Matthew 3:17 (Clementine Vulgate)"
+    }
+  ]
+}

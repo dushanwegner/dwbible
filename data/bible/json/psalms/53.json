@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalms, Chapter 53 — 7 verses (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 149
+    },
+    "chapter": 53,
+    "verseCount": 7,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bible/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bible/index.json",
+      "previousChapter": "https://latinprayer.org/bible/psalms/52.json",
+      "nextChapter": "https://latinprayer.org/bible/psalms/54.json"
+    },
+    "crossReferences": {
+      "latin": "https://latinprayer.org/latin/psalms/53.json",
+      "german": "https://latinprayer.org/bibel/psalms/53.json"
+    }
+  },
+  "citation": "Psalms 53 (Douay-Rheims)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "They are corrupted, and become abominable in iniquities: there is none that doth good.",
+      "citation": "Psalms 53:1 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "God looked down from heaven on the children of men: to see if there were any that did understand, or did seek God.",
+      "citation": "Psalms 53:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 2,
+      "text": "When the en of Ziph had come and said to Saul: Is not David hidden with us? [1 Kings 23.19]",
+      "citation": "Psalms 53:2 (Douay-Rheims)"
+    },
+    {
+      "verse": 3,
+      "text": "All have gone aside, they are become unprofitable together, there is none that doth good, no not one.",
+      "citation": "Psalms 53:3 (Douay-Rheims)"
+    },
+    {
+      "verse": 4,
+      "text": "Shall not all the workers of iniquity know, who eat up my people as they eat bread?",
+      "citation": "Psalms 53:4 (Douay-Rheims)"
+    },
+    {
+      "verse": 5,
+      "text": "They have not called upon God: there have they trembled for fear, where there was no fear. For God hath scattered the bones of them that please men: they have been confounded, because God hath despised them.",
+      "citation": "Psalms 53:5 (Douay-Rheims)"
+    },
+    {
+      "verse": 6,
+      "text": "Who will give out of Sion the salvation of Israel? when God shall bring back the captivity of his people, Jacob shall rejoice, and Israel shall be glad.",
+      "citation": "Psalms 53:6 (Douay-Rheims)"
+    }
+  ]
+}

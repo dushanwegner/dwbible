@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ephesians, Chapter 6 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ephesians",
+      "slug": "ephesians",
+      "testament": "NT",
+      "order": 56,
+      "totalChapters": 6
+    },
+    "chapter": 6,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/ephesians/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/ephesians/5.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ephesians/6.json",
+      "german": "https://latinprayer.org/bibel/ephesians/6.json"
+    }
+  },
+  "citation": "Ephesians 6 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "filii oboedite parentibus vestris in Domino hoc enim est iustum",
+      "citation": "Ephesians 6:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "honora patrem tuum et matrem quod est mandatum primum in promissione",
+      "citation": "Ephesians 6:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "ut bene sit tibi et sis longevus super terram",
+      "citation": "Ephesians 6:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "et patres nolite ad iracundiam provocare filios vestros sed educate illos in disciplina et correptione Domini",
+      "citation": "Ephesians 6:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "servi oboedite dominis carnalibus cum timore et tremore in simplicitate cordis vestri sicut Christo",
+      "citation": "Ephesians 6:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "non ad oculum servientes quasi hominibus placentes sed ut servi Christi facientes voluntatem Dei ex animo",
+      "citation": "Ephesians 6:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "cum bona voluntate servientes sicut Domino et non hominibus",
+      "citation": "Ephesians 6:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "scientes quoniam unusquisque quodcumque fecerit bonum hoc percipiet a Domino sive servus sive liber",
+      "citation": "Ephesians 6:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et domini eadem facite illis remittentes minas scientes quia et illorum et vester Dominus est in caelis et personarum acceptio non est apud eum",
+      "citation": "Ephesians 6:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "de cetero fratres confortamini in Domino et in potentia virtutis eius",
+      "citation": "Ephesians 6:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "induite vos arma Dei ut possitis stare adversus insidias diaboli",
+      "citation": "Ephesians 6:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "quia non est nobis conluctatio adversus carnem et sanguinem sed adversus principes et potestates adversus mundi rectores tenebrarum harum contra spiritalia nequitiae in caelestibus",
+      "citation": "Ephesians 6:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "propterea accipite armaturam Dei ut possitis resistere in die malo et omnibus perfectis stare",
+      "citation": "Ephesians 6:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "state ergo succincti lumbos vestros in veritate et induti loricam iustitiae",
+      "citation": "Ephesians 6:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "et calciati pedes in praeparatione evangelii pacis",
+      "citation": "Ephesians 6:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "in omnibus sumentes scutum fidei in quo possitis omnia tela nequissimi ignea extinguere",
+      "citation": "Ephesians 6:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et galeam salutis adsumite et gladium Spiritus quod est verbum Dei",
+      "citation": "Ephesians 6:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "per omnem orationem et obsecrationem orantes omni tempore in Spiritu et in ipso vigilantes in omni instantia et obsecratione pro omnibus sanctis",
+      "citation": "Ephesians 6:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et pro me ut detur mihi sermo in apertione oris mei cum fiducia notum facere mysterium evangelii",
+      "citation": "Ephesians 6:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "pro quo legatione fungor in catena ita ut in ipso audeam prout oportet me loqui",
+      "citation": "Ephesians 6:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "ut autem et vos sciatis quae circa me sunt quid agam omnia nota vobis faciet Tychicus carissimus frater et fidelis minister in Domino",
+      "citation": "Ephesians 6:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "quem misi ad vos in hoc ipsum ut cognoscatis quae circa nos sunt et consoletur corda vestra",
+      "citation": "Ephesians 6:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "pax fratribus et caritas cum fide a Deo Patre et Domino Iesu Christo",
+      "citation": "Ephesians 6:23 (Clementine Vulgate)"
+    }
+  ]
+}

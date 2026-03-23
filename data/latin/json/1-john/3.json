@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 John, Chapter 3 — 24 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 John",
+      "slug": "1-john",
+      "testament": "NT",
+      "order": 69,
+      "totalChapters": 5
+    },
+    "chapter": 3,
+    "verseCount": 24,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/1-john/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/1-john/2.json",
+      "nextChapter": "https://latinprayer.org/latin/1-john/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-john/3.json",
+      "german": "https://latinprayer.org/bibel/1-john/3.json"
+    }
+  },
+  "citation": "1 John 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "videte qualem caritatem dedit nobis Pater ut filii Dei nominemur et sumus propter hoc mundus non novit nos quia non novit eum",
+      "citation": "1 John 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "carissimi nunc filii Dei sumus et nondum apparuit quid erimus scimus quoniam cum apparuerit similes ei erimus quoniam videbimus eum sicuti est",
+      "citation": "1 John 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "et omnis qui habet spem hanc in eo sanctificat se sicut et ille sanctus est",
+      "citation": "1 John 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "omnis qui facit peccatum et iniquitatem facit et peccatum est iniquitas",
+      "citation": "1 John 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "et scitis quoniam ille apparuit ut peccata tolleret et peccatum in eo non est",
+      "citation": "1 John 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "omnis qui in eo manet non peccat omnis qui peccat non vidit eum nec cognovit eum",
+      "citation": "1 John 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "filioli nemo vos seducat qui facit iustitiam iustus est sicut et ille iustus est",
+      "citation": "1 John 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "qui facit peccatum ex diabolo est quoniam ab initio diabolus peccat in hoc apparuit Filius Dei ut dissolvat opera diaboli",
+      "citation": "1 John 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "omnis qui natus est ex Deo peccatum non facit quoniam semen ipsius in eo manet et non potest peccare quoniam ex Deo natus est",
+      "citation": "1 John 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "in hoc manifesti sunt filii Dei et filii diaboli omnis qui non est iustus non est de Deo et qui non diligit fratrem suum",
+      "citation": "1 John 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "quoniam haec est adnuntiatio quam audistis ab initio ut diligamus alterutrum",
+      "citation": "1 John 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "non sicut Cain ex maligno erat et occidit fratrem suum et propter quid occidit eum quoniam opera eius maligna erant fratris autem eius iusta",
+      "citation": "1 John 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "nolite mirari fratres si odit vos mundus",
+      "citation": "1 John 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "nos scimus quoniam translati sumus de morte in vitam quoniam diligimus fratres qui non diligit manet in morte",
+      "citation": "1 John 3:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "omnis qui odit fratrem suum homicida est et scitis quoniam omnis homicida non habet vitam aeternam in se manentem",
+      "citation": "1 John 3:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "in hoc cognovimus caritatem quoniam ille pro nobis animam suam posuit et nos debemus pro fratribus animas ponere",
+      "citation": "1 John 3:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "qui habuerit substantiam mundi et viderit fratrem suum necesse habere et clauserit viscera sua ab eo quomodo caritas Dei manet in eo",
+      "citation": "1 John 3:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "filioli non diligamus verbo nec lingua sed opere et veritate",
+      "citation": "1 John 3:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "in hoc cognoscimus quoniam ex veritate sumus et in conspectu eius suadeamus corda nostra",
+      "citation": "1 John 3:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "quoniam si reprehenderit nos cor maior est Deus corde nostro et novit omnia",
+      "citation": "1 John 3:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "carissimi si cor non reprehenderit nos fiduciam habemus ad Deum",
+      "citation": "1 John 3:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "et quodcumque petierimus accipiemus ab eo quoniam mandata eius custodimus et ea quae sunt placita coram eo facimus",
+      "citation": "1 John 3:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et hoc est mandatum eius ut credamus in nomine Filii eius Iesu Christi et diligamus alterutrum sicut dedit mandatum nobis",
+      "citation": "1 John 3:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "et qui servat mandata eius in illo manet et ipse in eo et in hoc scimus quoniam manet in nobis de Spiritu quem nobis dedit",
+      "citation": "1 John 3:24 (Clementine Vulgate)"
+    }
+  ]
+}

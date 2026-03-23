@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 29 — 11 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 29,
+    "verseCount": 11,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/28.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/30.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/29.json",
+      "latin": "https://latinprayer.org/latin/psalms/29.json"
+    }
+  },
+  "citation": "Psalmen 29 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "<em>Ein Psalm von David.</em> Bringt dar dem HERRN, ihr Gottessöhne, bringt dar dem HERRN Ehre und Preis!",
+      "citation": "Psalmen 29:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Bringt dar dem HERRN die Ehre seines Namens, werft vor dem HERRN euch nieder in heiligem Schmuck!",
+      "citation": "Psalmen 29:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Der Donner des HERRN rollt über dem Meer; der Gott der Herrlichkeit donnert, der HERR über weiter Meeresflut!",
+      "citation": "Psalmen 29:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Der Donner des HERRN erschallt mit Macht, der Donner des HERRN in seiner Pracht!",
+      "citation": "Psalmen 29:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Der Donner des HERRN zerschmettert die Zedern, ja der HERR zersplittert die Zedern des Libanons",
+      "citation": "Psalmen 29:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "und läßt sie hüpfen wie Kälbchen, den Libanon und Sirjon wie junge Büffel.",
+      "citation": "Psalmen 29:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Der Donner des HERRN läßt Feuerflammen sprühn;",
+      "citation": "Psalmen 29:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "der Donner des HERRN macht die Wüste erbeben, der HERR macht erbeben die Wüste Kades.",
+      "citation": "Psalmen 29:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Der Donner des HERRN macht Hirschkühe kreißen, entästet die Wälder, und alles ruft in seinem Palast: »Ehre!«",
+      "citation": "Psalmen 29:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Der HERR hat über der Sintflut (einst) gethront, und als König thront der HERR in Ewigkeit.",
+      "citation": "Psalmen 29:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Der HERR verleihe Kraft seinem Volk, der HERR wolle segnen sein Volk mit Frieden!",
+      "citation": "Psalmen 29:11 (Menge)"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Ephesians — 6 chapters (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Ephesians",
+      "slug": "ephesians",
+      "testament": "NT",
+      "order": 56,
+      "totalChapters": 6
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/ephesians/index.json",
+      "german": "https://latinprayer.org/bibel/ephesians/index.json"
+    }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/ephesians/1",
+      "jsonUrl": "https://latinprayer.org/latin/ephesians/1.json"
+    },
+    {
+      "chapter": 2,
+      "verseCount": 22,
+      "url": "https://latinprayer.org/latin/ephesians/2",
+      "jsonUrl": "https://latinprayer.org/latin/ephesians/2.json"
+    },
+    {
+      "chapter": 3,
+      "verseCount": 21,
+      "url": "https://latinprayer.org/latin/ephesians/3",
+      "jsonUrl": "https://latinprayer.org/latin/ephesians/3.json"
+    },
+    {
+      "chapter": 4,
+      "verseCount": 32,
+      "url": "https://latinprayer.org/latin/ephesians/4",
+      "jsonUrl": "https://latinprayer.org/latin/ephesians/4.json"
+    },
+    {
+      "chapter": 5,
+      "verseCount": 33,
+      "url": "https://latinprayer.org/latin/ephesians/5",
+      "jsonUrl": "https://latinprayer.org/latin/ephesians/5.json"
+    },
+    {
+      "chapter": 6,
+      "verseCount": 23,
+      "url": "https://latinprayer.org/latin/ephesians/6",
+      "jsonUrl": "https://latinprayer.org/latin/ephesians/6.json"
+    }
+  ]
+}

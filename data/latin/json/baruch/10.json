@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Baruch, Chapter 10 — 39 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Baruch",
+      "slug": "baruch",
+      "testament": "OT",
+      "order": 30,
+      "totalChapters": 10
+    },
+    "chapter": 10,
+    "verseCount": 39,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/baruch/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/baruch/9.json",
+      "nextChapter": null
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/baruch/10.json",
+      "german": "https://latinprayer.org/bibel/baruch/10.json"
+    }
+  },
+  "citation": "Baruch 10 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "signatores autem fuerunt Neemias Athersatha filius Achelai et Sedecias",
+      "citation": "Baruch 10:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "Saraias Azarias Hieremias",
+      "citation": "Baruch 10:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "Phessur Amaria Melchia",
+      "citation": "Baruch 10:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "Attus Sebenia Melluc",
+      "citation": "Baruch 10:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "Arem Mermuth Obdias",
+      "citation": "Baruch 10:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "Danihel Genton Baruch",
+      "citation": "Baruch 10:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "Mosollam Abia Miamin",
+      "citation": "Baruch 10:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "Mazia Belga Semaia hii sacerdotes",
+      "citation": "Baruch 10:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "porro Levitae Iosue filius Azaniae Bennui de filiis Enadad Cedmihel",
+      "citation": "Baruch 10:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "et fratres eorum Sechenia Odevia Celita Phalaia Anan",
+      "citation": "Baruch 10:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "Micha Roob Asebia",
+      "citation": "Baruch 10:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "Zacchur Serebia Sabania",
+      "citation": "Baruch 10:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "Odia Bani Baninu",
+      "citation": "Baruch 10:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "capita populi Pheros Phaethmoab Helam Zethu Bani",
+      "citation": "Baruch 10:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "Bonni Azgad Bebai",
+      "citation": "Baruch 10:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "Adonia Beggoai Adin",
+      "citation": "Baruch 10:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "Ater Ezechia Azur",
+      "citation": "Baruch 10:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "Odevia Asum Besai",
+      "citation": "Baruch 10:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "Ares Anathoth Nebai",
+      "citation": "Baruch 10:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "Mecphia Mosollam Azir",
+      "citation": "Baruch 10:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "Mesizabel Sadoc Ieddua",
+      "citation": "Baruch 10:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "Felthia Anan Ania",
+      "citation": "Baruch 10:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "Osee Anania Asub",
+      "citation": "Baruch 10:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "Aloes Phaleam Sobec",
+      "citation": "Baruch 10:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "Reum Asebna Madsia",
+      "citation": "Baruch 10:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "et Haia Hanam Anan",
+      "citation": "Baruch 10:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "Melluc Arem Baana",
+      "citation": "Baruch 10:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "et reliqui de populo sacerdotes Levitae ianitores et cantores Nathinnei et omnes qui se separaverunt de populis terrarum ad legem Dei uxores eorum filii eorum et filiae eorum",
+      "citation": "Baruch 10:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "omnis qui poterat sapere spondentes pro fratribus suis optimates eorum et qui veniebant ad pollicendum et iurandum ut ambularent in lege Dei quam dederat in manu Mosi servi Dei ut facerent et custodirent universa mandata Domini Dei nostri et iudicia eius et caerimonias eius",
+      "citation": "Baruch 10:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "et ut non daremus filias nostras populo terrae et filias eorum non acciperemus filiis nostris",
+      "citation": "Baruch 10:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "populi quoque terrae qui inportant venalia et omnia ad usum per diem sabbati ut vendant non accipiemus ab eis in sabbato et in die sanctificata et dimittemus annum septimum et exactionem universae manus",
+      "citation": "Baruch 10:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "et statuemus super nos praecepta ut demus tertiam partem sicli per annum ad opus domus Dei nostri",
+      "citation": "Baruch 10:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "ad panes propositionis et ad sacrificium sempiternum et in holocaustum sempiternum in sabbatis in kalendis in sollemnitatibus et in sanctificatis et pro peccato ut exoretur pro Israhel et in omnem usum domus Dei nostri",
+      "citation": "Baruch 10:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "sortes ergo misimus super oblatione lignorum inter sacerdotes et Levitas et populos ut inferrentur in domum Dei nostri per domos patrum nostrorum per tempora a temporibus anni usque ad annum ut arderent super altare Domini Dei nostri sicut scriptum est in lege Mosi",
+      "citation": "Baruch 10:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et ut adferremus primogenita terrae nostrae et primitiva universi fructus omnis ligni ab anno in annum in domo Domini",
+      "citation": "Baruch 10:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "et primitiva filiorum nostrorum et pecorum nostrorum sicut scriptum est in lege et primitiva boum nostrorum et ovium nostrarum ut offerrentur in domo Dei nostri sacerdotibus qui ministrant in domo Dei nostri",
+      "citation": "Baruch 10:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "et primitias ciborum nostrorum et libaminum nostrorum et poma omnis ligni vindemiae quoque et olei adferemus sacerdotibus ad gazofilacium Dei nostri et decimam partem terrae nostrae Levitis ipsi Levitae decimas accipient ex omnibus civitatibus operum nostrorum",
+      "citation": "Baruch 10:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "erit autem sacerdos filius Aaron cum Levitis in decimis Levitarum et Levitae offerent decimam partem decimae suae in domum Dei nostri ad gazofilacium in domo thesauri",
+      "citation": "Baruch 10:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "ad gazofilacium enim deportabunt filii Israhel et filii Levi primitias frumenti vini et olei et ibi erunt vasa sanctificata et sacerdotes et cantores et ianitores et ministri et non dimittemus domum Dei nostri",
+      "citation": "Baruch 10:39 (Clementine Vulgate)"
+    }
+  ]
+}

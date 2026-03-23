@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Psalmen, Chapter 97 — 12 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Psalmen",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 21,
+      "totalChapters": 150
+    },
+    "chapter": 97,
+    "verseCount": 12,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/psalms/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/psalms/96.json",
+      "nextChapter": "https://latinprayer.org/bibel/psalms/98.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/psalms/97.json",
+      "latin": "https://latinprayer.org/latin/psalms/97.json"
+    }
+  },
+  "citation": "Psalmen 97 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Der HERR ist König! Des juble die Erde, die Menge der Meeresländer möge sich freuen!",
+      "citation": "Psalmen 97:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Gewölk und Dunkel umgibt ihn rings, Gerechtigkeit und Recht sind seines Throns Stützen.",
+      "citation": "Psalmen 97:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "Feuer geht vor ihm her und rafft seine Feinde ringsum hinweg.",
+      "citation": "Psalmen 97:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Seine Blitze erleuchten den Erdkreis: die Erde sieht’s und erbebt in Angst.",
+      "citation": "Psalmen 97:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Die Berge zerschmelzen wie Wachs vor dem HERRN, vor dem Herrscher der ganzen Erde.",
+      "citation": "Psalmen 97:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "Die Himmel verkünden seine Gerechtigkeit und alle Völker sehn seine Herrlichkeit.",
+      "citation": "Psalmen 97:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Zuschanden sollen werden alle Bilderverehrer, die der nichtigen Götzen sich rühmen: alle Götter werfen vor ihm sich nieder.",
+      "citation": "Psalmen 97:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Zion vernimmt es mit Freuden, und die Töchter Judas jauchzen um deiner Gerichte willen, o HERR.",
+      "citation": "Psalmen 97:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Denn du, HERR, bist der Höchste über die ganze Erde, hoch erhaben über alle Götter.",
+      "citation": "Psalmen 97:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Die den HERRN ihr lieb habt, hasset das Böse! Er, der die Seelen seiner Frommen behütet, wird sie erretten aus der Gottlosen Hand.",
+      "citation": "Psalmen 97:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Licht erstrahlt dem Gerechten und Freude den redlich Gesinnten.",
+      "citation": "Psalmen 97:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Freut euch des HERRN, ihr Gerechten, und preist seinen heiligen Namen!",
+      "citation": "Psalmen 97:12 (Menge)"
+    }
+  ]
+}

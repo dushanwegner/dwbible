@@ -1,0 +1,481 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Numbers, Chapter 7 — 89 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "totalChapters": 36
+    },
+    "chapter": 7,
+    "verseCount": 89,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/numbers/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/numbers/6.json",
+      "nextChapter": "https://latinprayer.org/latin/numbers/8.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/numbers/7.json",
+      "german": "https://latinprayer.org/bibel/numbers/7.json"
+    }
+  },
+  "citation": "Numbers 7 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "factum est autem in die qua conplevit Moses tabernaculum et erexit illud unxitque et sanctificavit cum omnibus vasis suis altare similiter et vasa eius",
+      "citation": "Numbers 7:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "obtulerunt principes Israhel et capita familiarum qui erant per singulas tribus praefecti eorum qui numerati fuerant",
+      "citation": "Numbers 7:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "munera coram Domino sex plaustra tecta cum duodecim bubus unum plaustrum obtulere duo duces et unum bovem singuli obtuleruntque ea in conspectu tabernaculi",
+      "citation": "Numbers 7:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "ait autem Dominus ad Mosen",
+      "citation": "Numbers 7:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "suscipe ab eis ut serviant in ministerio tabernaculi et tradas ea Levitis iuxta ordinem ministerii sui",
+      "citation": "Numbers 7:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "itaque cum suscepisset Moses plaustra et boves tradidit eos Levitis",
+      "citation": "Numbers 7:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "duo plaustra et quattuor boves dedit filiis Gerson iuxta id quod habebant necessarium",
+      "citation": "Numbers 7:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "quattuor alia plaustra et octo boves dedit filiis Merari secundum officia et cultum suum sub manu Ithamar filii Aaron sacerdotis",
+      "citation": "Numbers 7:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "filiis autem Caath non dedit plaustra et boves quia in sanctuario serviunt et onera propriis portant umeris",
+      "citation": "Numbers 7:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "igitur obtulerunt duces in dedicationem altaris die qua unctum est oblationem suam ante altare",
+      "citation": "Numbers 7:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "dixitque Dominus ad Mosen singuli duces per singulos dies offerant munera in dedicationem altaris",
+      "citation": "Numbers 7:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "primo die obtulit oblationem suam Naasson filius Aminadab de tribu Iuda",
+      "citation": "Numbers 7:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "fueruntque in ea acetabulum argenteum pondo centum triginta siclorum fiala argentea habens septuaginta siclos iuxta pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "mortariolum ex decem siclis aureis plenum incenso",
+      "citation": "Numbers 7:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "bovem et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "et in sacrificio pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec est oblatio Naasson filii Aminadab",
+      "citation": "Numbers 7:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "secundo die obtulit Nathanahel filius Suar dux de tribu Isachar",
+      "citation": "Numbers 7:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos iuxta pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "mortariolum aureum habens decem siclos plenum incenso",
+      "citation": "Numbers 7:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "et in sacrificio pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec fuit oblatio Nathanahel filii Suar",
+      "citation": "Numbers 7:23 (Clementine Vulgate)"
+    },
+    {
+      "verse": 24,
+      "text": "tertio die princeps filiorum Zabulon Heliab filius Helon",
+      "citation": "Numbers 7:24 (Clementine Vulgate)"
+    },
+    {
+      "verse": 25,
+      "text": "obtulit acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos ad pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:25 (Clementine Vulgate)"
+    },
+    {
+      "verse": 26,
+      "text": "mortariolum aureum adpendens decem siclos plenum incenso",
+      "citation": "Numbers 7:26 (Clementine Vulgate)"
+    },
+    {
+      "verse": 27,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:27 (Clementine Vulgate)"
+    },
+    {
+      "verse": 28,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:28 (Clementine Vulgate)"
+    },
+    {
+      "verse": 29,
+      "text": "et in sacrificio pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec est oblatio Heliab filii Helon",
+      "citation": "Numbers 7:29 (Clementine Vulgate)"
+    },
+    {
+      "verse": 30,
+      "text": "die quarto princeps filiorum Ruben Helisur filius Sedeur",
+      "citation": "Numbers 7:30 (Clementine Vulgate)"
+    },
+    {
+      "verse": 31,
+      "text": "obtulit acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos ad pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:31 (Clementine Vulgate)"
+    },
+    {
+      "verse": 32,
+      "text": "mortariolum aureum adpendens decem siclos plenum incenso",
+      "citation": "Numbers 7:32 (Clementine Vulgate)"
+    },
+    {
+      "verse": 33,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:33 (Clementine Vulgate)"
+    },
+    {
+      "verse": 34,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:34 (Clementine Vulgate)"
+    },
+    {
+      "verse": 35,
+      "text": "et in hostias pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec fuit oblatio Helisur filii Sedeur",
+      "citation": "Numbers 7:35 (Clementine Vulgate)"
+    },
+    {
+      "verse": 36,
+      "text": "die quinto princeps filiorum Symeon Salamihel filius Surisaddai",
+      "citation": "Numbers 7:36 (Clementine Vulgate)"
+    },
+    {
+      "verse": 37,
+      "text": "obtulit acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos ad pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:37 (Clementine Vulgate)"
+    },
+    {
+      "verse": 38,
+      "text": "mortariolum aureum adpendens decem siclos plenum incenso",
+      "citation": "Numbers 7:38 (Clementine Vulgate)"
+    },
+    {
+      "verse": 39,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:39 (Clementine Vulgate)"
+    },
+    {
+      "verse": 40,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:40 (Clementine Vulgate)"
+    },
+    {
+      "verse": 41,
+      "text": "et in hostias pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec fuit oblatio Salamihel filii Surisaddai",
+      "citation": "Numbers 7:41 (Clementine Vulgate)"
+    },
+    {
+      "verse": 42,
+      "text": "die sexto princeps filiorum Gad Heliasaph filius Duhel",
+      "citation": "Numbers 7:42 (Clementine Vulgate)"
+    },
+    {
+      "verse": 43,
+      "text": "obtulit acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos ad pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:43 (Clementine Vulgate)"
+    },
+    {
+      "verse": 44,
+      "text": "mortariolum aureum adpendens siclos decem plenum incenso",
+      "citation": "Numbers 7:44 (Clementine Vulgate)"
+    },
+    {
+      "verse": 45,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:45 (Clementine Vulgate)"
+    },
+    {
+      "verse": 46,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:46 (Clementine Vulgate)"
+    },
+    {
+      "verse": 47,
+      "text": "et in hostias pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec fuit oblatio Heliasaph filii Duhel",
+      "citation": "Numbers 7:47 (Clementine Vulgate)"
+    },
+    {
+      "verse": 48,
+      "text": "die septimo princeps filiorum Ephraim Helisama filius Ammiud",
+      "citation": "Numbers 7:48 (Clementine Vulgate)"
+    },
+    {
+      "verse": 49,
+      "text": "obtulit acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos ad pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:49 (Clementine Vulgate)"
+    },
+    {
+      "verse": 50,
+      "text": "mortariolum aureum adpendens decem siclos plenum incenso",
+      "citation": "Numbers 7:50 (Clementine Vulgate)"
+    },
+    {
+      "verse": 51,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:51 (Clementine Vulgate)"
+    },
+    {
+      "verse": 52,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:52 (Clementine Vulgate)"
+    },
+    {
+      "verse": 53,
+      "text": "et in hostias pacificas boves duos arietes quinque hircos quinque agnos anniculos quinque haec fuit oblatio Helisama filii Ammiud",
+      "citation": "Numbers 7:53 (Clementine Vulgate)"
+    },
+    {
+      "verse": 54,
+      "text": "die octavo princeps filiorum Manasse Gamalihel filius Phadassur",
+      "citation": "Numbers 7:54 (Clementine Vulgate)"
+    },
+    {
+      "verse": 55,
+      "text": "obtulit acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos ad pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:55 (Clementine Vulgate)"
+    },
+    {
+      "verse": 56,
+      "text": "mortariolum aureum adpendens decem siclos plenum incenso",
+      "citation": "Numbers 7:56 (Clementine Vulgate)"
+    },
+    {
+      "verse": 57,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:57 (Clementine Vulgate)"
+    },
+    {
+      "verse": 58,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:58 (Clementine Vulgate)"
+    },
+    {
+      "verse": 59,
+      "text": "et in hostias pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec fuit oblatio Gamalihel filii Phadassur",
+      "citation": "Numbers 7:59 (Clementine Vulgate)"
+    },
+    {
+      "verse": 60,
+      "text": "die nono princeps filiorum Beniamin Abidan filius Gedeonis",
+      "citation": "Numbers 7:60 (Clementine Vulgate)"
+    },
+    {
+      "verse": 61,
+      "text": "obtulit acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos ad pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:61 (Clementine Vulgate)"
+    },
+    {
+      "verse": 62,
+      "text": "mortariolum aureum adpendens decem siclos plenum incenso",
+      "citation": "Numbers 7:62 (Clementine Vulgate)"
+    },
+    {
+      "verse": 63,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:63 (Clementine Vulgate)"
+    },
+    {
+      "verse": 64,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:64 (Clementine Vulgate)"
+    },
+    {
+      "verse": 65,
+      "text": "et in hostias pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec fuit oblatio Abidan filii Gedeonis",
+      "citation": "Numbers 7:65 (Clementine Vulgate)"
+    },
+    {
+      "verse": 66,
+      "text": "die decimo princeps filiorum Dan Ahiezer filius Amisaddai",
+      "citation": "Numbers 7:66 (Clementine Vulgate)"
+    },
+    {
+      "verse": 67,
+      "text": "obtulit acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos ad pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:67 (Clementine Vulgate)"
+    },
+    {
+      "verse": 68,
+      "text": "mortariolum aureum adpendens decem siclos plenum incenso",
+      "citation": "Numbers 7:68 (Clementine Vulgate)"
+    },
+    {
+      "verse": 69,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:69 (Clementine Vulgate)"
+    },
+    {
+      "verse": 70,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:70 (Clementine Vulgate)"
+    },
+    {
+      "verse": 71,
+      "text": "et in hostias pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec fuit oblatio Ahiezer filii Amisaddai",
+      "citation": "Numbers 7:71 (Clementine Vulgate)"
+    },
+    {
+      "verse": 72,
+      "text": "die undecimo princeps filiorum Aser Phagaihel filius Ochran",
+      "citation": "Numbers 7:72 (Clementine Vulgate)"
+    },
+    {
+      "verse": 73,
+      "text": "obtulit acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos ad pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:73 (Clementine Vulgate)"
+    },
+    {
+      "verse": 74,
+      "text": "mortariolum aureum adpendens decem siclos plenum incenso",
+      "citation": "Numbers 7:74 (Clementine Vulgate)"
+    },
+    {
+      "verse": 75,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:75 (Clementine Vulgate)"
+    },
+    {
+      "verse": 76,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:76 (Clementine Vulgate)"
+    },
+    {
+      "verse": 77,
+      "text": "et in hostias pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec fuit oblatio Phagaihel filii Ochran",
+      "citation": "Numbers 7:77 (Clementine Vulgate)"
+    },
+    {
+      "verse": 78,
+      "text": "die duodecimo princeps filiorum Nepthalim Achira filius Henan",
+      "citation": "Numbers 7:78 (Clementine Vulgate)"
+    },
+    {
+      "verse": 79,
+      "text": "obtulit acetabulum argenteum adpendens centum triginta siclos fialam argenteam habentem septuaginta siclos ad pondus sanctuarii utrumque plenum simila conspersa oleo in sacrificium",
+      "citation": "Numbers 7:79 (Clementine Vulgate)"
+    },
+    {
+      "verse": 80,
+      "text": "mortariolum aureum adpendens decem siclos plenum incenso",
+      "citation": "Numbers 7:80 (Clementine Vulgate)"
+    },
+    {
+      "verse": 81,
+      "text": "bovem de armento et arietem et agnum anniculum in holocaustum",
+      "citation": "Numbers 7:81 (Clementine Vulgate)"
+    },
+    {
+      "verse": 82,
+      "text": "hircumque pro peccato",
+      "citation": "Numbers 7:82 (Clementine Vulgate)"
+    },
+    {
+      "verse": 83,
+      "text": "et in hostias pacificorum boves duos arietes quinque hircos quinque agnos anniculos quinque haec fuit oblatio Achira filii Henan",
+      "citation": "Numbers 7:83 (Clementine Vulgate)"
+    },
+    {
+      "verse": 84,
+      "text": "haec in dedicatione altaris oblata sunt a principibus Israhel in die qua consecratum est acetabula argentea duodecim fialae argenteae duodecim mortariola aurea duodecim",
+      "citation": "Numbers 7:84 (Clementine Vulgate)"
+    },
+    {
+      "verse": 85,
+      "text": "ita ut centum triginta argenti siclos haberet unum acetabulum et septuaginta siclos una fiala id est in commune vasorum omnium ex argento sicli duo milia quadringenti pondere sanctuarii",
+      "citation": "Numbers 7:85 (Clementine Vulgate)"
+    },
+    {
+      "verse": 86,
+      "text": "mortariola aurea duodecim plena incenso denos siclos adpendentia pondere sanctuarii id est simul auri sicli centum viginti",
+      "citation": "Numbers 7:86 (Clementine Vulgate)"
+    },
+    {
+      "verse": 87,
+      "text": "boves de armento in holocaustum duodecim arietes duodecim agni anniculi duodecim et libamenta eorum hirci duodecim pro peccato",
+      "citation": "Numbers 7:87 (Clementine Vulgate)"
+    },
+    {
+      "verse": 88,
+      "text": "hostiae pacificorum boves viginti quattuor arietes sexaginta hirci sexaginta agni anniculi sexaginta haec oblata sunt in dedicatione altaris quando unctum est",
+      "citation": "Numbers 7:88 (Clementine Vulgate)"
+    },
+    {
+      "verse": 89,
+      "text": "cumque ingrederetur Moses tabernaculum foederis ut consuleret oraculum audiebat vocem loquentis ad se de propitiatorio quod erat super arcam testimonii inter duos cherubin unde et loquebatur ei",
+      "citation": "Numbers 7:89 (Clementine Vulgate)"
+    }
+  ]
+}

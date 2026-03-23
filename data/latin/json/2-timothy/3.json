@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "2 Timothy, Chapter 3 — 14 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "2 Timothy",
+      "slug": "2-timothy",
+      "testament": "NT",
+      "order": 62,
+      "totalChapters": 7
+    },
+    "chapter": 3,
+    "verseCount": 14,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/2-timothy/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/2-timothy/2.json",
+      "nextChapter": "https://latinprayer.org/latin/2-timothy/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/2-timothy/3.json",
+      "german": "https://latinprayer.org/bibel/2-timothy/3.json"
+    }
+  },
+  "citation": "2 Timothy 3 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "admone illos principibus et potestatibus subditos esse dicto oboedire ad omne opus bonum paratos esse",
+      "citation": "2 Timothy 3:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "neminem blasphemare non litigiosos esse modestos omnem ostendentes mansuetudinem ad omnes homines",
+      "citation": "2 Timothy 3:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "eramus enim et nos aliquando insipientes increduli errantes servientes desideriis et voluptatibus variis in malitia et invidia agentes odibiles odientes invicem",
+      "citation": "2 Timothy 3:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "cum autem benignitas et humanitas apparuit salvatoris nostri Dei",
+      "citation": "2 Timothy 3:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "non ex operibus iustitiae quae fecimus nos sed secundum suam misericordiam salvos nos fecit per lavacrum regenerationis et renovationis Spiritus Sancti",
+      "citation": "2 Timothy 3:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "quem effudit in nos abunde per Iesum Christum salvatorem nostrum",
+      "citation": "2 Timothy 3:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "ut iustificati gratia ipsius heredes simus secundum spem vitae aeternae",
+      "citation": "2 Timothy 3:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "fidelis sermo est et de his volo te confirmare ut curent bonis operibus praeesse qui credunt Deo haec sunt bona et utilia hominibus",
+      "citation": "2 Timothy 3:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "stultas autem quaestiones et genealogias et contentiones et pugnas legis devita sunt enim inutiles et vanae",
+      "citation": "2 Timothy 3:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "hereticum hominem post unam et secundam correptionem devita",
+      "citation": "2 Timothy 3:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "sciens quia subversus est qui eiusmodi est et delinquit proprio iudicio condemnatus",
+      "citation": "2 Timothy 3:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "cum misero ad te Arteman aut Tychicum festina ad me venire Nicopolim ibi enim statui hiemare",
+      "citation": "2 Timothy 3:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "Zenan legis peritum et Apollo sollicite praemitte ut nihil illis desit",
+      "citation": "2 Timothy 3:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "discant autem et nostri bonis operibus praeesse ad usus necessarios ut non sint infructuosi",
+      "citation": "2 Timothy 3:14 (Clementine Vulgate)"
+    }
+  ]
+}

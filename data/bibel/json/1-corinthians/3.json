@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "1 Korinther, Chapter 3 — 23 verses (Menge)",
+    "translation": {
+      "name": "Menge",
+      "language": "de",
+      "languageName": "German",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "1 Korinther",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 53,
+      "totalChapters": 16
+    },
+    "chapter": 3,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/bibel/1-corinthians/index.json",
+      "translationIndex": "https://latinprayer.org/bibel/index.json",
+      "previousChapter": "https://latinprayer.org/bibel/1-corinthians/2.json",
+      "nextChapter": "https://latinprayer.org/bibel/1-corinthians/4.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/1-corinthians/3.json",
+      "latin": "https://latinprayer.org/latin/1-corinthians/3.json"
+    }
+  },
+  "citation": "1 Korinther 3 (Menge)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "So habe denn auch ich, liebe Brüder, (damals) zu euch nicht als zu Geistesmenschen reden können, sondern nur als zu fleischlich gesinnten Menschen, nur als zu unmündigen Kindern in Christus.",
+      "citation": "1 Korinther 3:1 (Menge)"
+    },
+    {
+      "verse": 2,
+      "text": "Milch habe ich euch zu trinken gegeben, nicht feste Speise; denn die konntet ihr noch nicht vertragen. Ja, ihr könnt sie auch jetzt noch nicht vertragen;",
+      "citation": "1 Korinther 3:2 (Menge)"
+    },
+    {
+      "verse": 3,
+      "text": "ihr seid ja immer noch fleischlich gesinnt. Denn solange noch Eifersucht und Streit unter euch herrschen, seid ihr da nicht fleischlich gerichtet und wandelt wie Menschen (gewöhnlichen Schlages)?",
+      "citation": "1 Korinther 3:3 (Menge)"
+    },
+    {
+      "verse": 4,
+      "text": "Wenn nämlich der eine erklärt: »Ich halte zu Paulus«, der andere: »Ich zu Apollos«, seid ihr da nicht Menschen (gewöhnlichen Schlages)?",
+      "citation": "1 Korinther 3:4 (Menge)"
+    },
+    {
+      "verse": 5,
+      "text": "Was ist denn Apollos, und was ist Paulus? Diener sind sie, durch die ihr zum Glauben gekommen seid; und zwar dient jeder (von uns beiden) so, wie der Herr es ihm verliehen hat:",
+      "citation": "1 Korinther 3:5 (Menge)"
+    },
+    {
+      "verse": 6,
+      "text": "ich habe gepflanzt, Apollos hat begossen, Gott aber hat das Wachstum gegeben.",
+      "citation": "1 Korinther 3:6 (Menge)"
+    },
+    {
+      "verse": 7,
+      "text": "Somit ist weder der Pflanzende noch der Begießende (für sich) etwas, sondern nur Gott, der das Wachstum verleiht.",
+      "citation": "1 Korinther 3:7 (Menge)"
+    },
+    {
+      "verse": 8,
+      "text": "Der Pflanzende hingegen und der Begießende sind einer wie der andere, doch wird jeder seinen besonderen Lohn empfangen nach seiner besonderen Arbeit.",
+      "citation": "1 Korinther 3:8 (Menge)"
+    },
+    {
+      "verse": 9,
+      "text": "Denn Gottes Mitarbeiter sind wir; Gottes Ackerfeld, Gottes Bau seid ihr.",
+      "citation": "1 Korinther 3:9 (Menge)"
+    },
+    {
+      "verse": 10,
+      "text": "Nach der mir von Gott verliehenen Gnade habe ich als ein kundiger Baumeister den Grund (bei euch) gelegt; ein anderer baut darauf weiter; jeder aber möge zusehen, wie er darauf weiterbaut!",
+      "citation": "1 Korinther 3:10 (Menge)"
+    },
+    {
+      "verse": 11,
+      "text": "Denn einen anderen Grund kann niemand legen als den, der gelegt ist, und der ist Jesus Christus.",
+      "citation": "1 Korinther 3:11 (Menge)"
+    },
+    {
+      "verse": 12,
+      "text": "Ob aber jemand auf diesen Grund weiterbaut mit Gold, Silber und kostbaren Steinen, (oder aber) mit Holz, Heu und Stroh –",
+      "citation": "1 Korinther 3:12 (Menge)"
+    },
+    {
+      "verse": 13,
+      "text": "eines jeden Arbeit wird (dereinst) offenbar werden; denn der Gerichtstag wird es ausweisen, weil er sich in Feuer offenbart; und wie die Arbeit eines jeden beschaffen ist, wird eben das Feuer erproben.",
+      "citation": "1 Korinther 3:13 (Menge)"
+    },
+    {
+      "verse": 14,
+      "text": "Wenn das Werk jemandes, das er darauf weitergebaut hat, (in dem Feuer) standhält, so wird er Lohn empfangen;",
+      "citation": "1 Korinther 3:14 (Menge)"
+    },
+    {
+      "verse": 15,
+      "text": "wenn aber das Werk jemandes verbrennt, so wird er den Schaden zu tragen haben: er selbst zwar wird gerettet werden, aber nur so, wie durchs Feuer hindurch.",
+      "citation": "1 Korinther 3:15 (Menge)"
+    },
+    {
+      "verse": 16,
+      "text": "Wißt ihr nicht, daß ihr (als Gemeinde) ein Tempel Gottes seid und daß der Geist Gottes in euch wohnt?",
+      "citation": "1 Korinther 3:16 (Menge)"
+    },
+    {
+      "verse": 17,
+      "text": "Wenn jemand den Tempel Gottes verderbt, den wird Gott verderben; denn der Tempel Gottes ist heilig, und der seid ihr!",
+      "citation": "1 Korinther 3:17 (Menge)"
+    },
+    {
+      "verse": 18,
+      "text": "Niemand betrüge sich selbst! Wenn jemand unter euch in (den Dingen) dieser Weltzeit weise zu sein vermeint, so muß er erst ein Tor werden, um dann wirklich zur Weisheit zu gelangen;",
+      "citation": "1 Korinther 3:18 (Menge)"
+    },
+    {
+      "verse": 19,
+      "text": "denn die Weisheit dieser Welt ist in Gottes Augen Torheit. Es steht ja doch geschrieben: »Er fängt die Weisen in ihrer Schlauheit«;",
+      "citation": "1 Korinther 3:19 (Menge)"
+    },
+    {
+      "verse": 20,
+      "text": "und an einer andern Stelle: »Der Herr kennt die Gedanken der Weisen, daß sie nichtig sind.«",
+      "citation": "1 Korinther 3:20 (Menge)"
+    },
+    {
+      "verse": 21,
+      "text": "Daher mache niemand viel Rühmens von Menschen! Alles gehört ja euch zu eigen:",
+      "citation": "1 Korinther 3:21 (Menge)"
+    },
+    {
+      "verse": 22,
+      "text": "Paulus ebensowohl wie Apollos und Kephas, die ganze Welt, das Leben ebensowohl wie der Tod, das Gegenwärtige wie das Zukünftige: alles gehört euch;",
+      "citation": "1 Korinther 3:22 (Menge)"
+    },
+    {
+      "verse": 23,
+      "text": "ihr aber gehört Christus an, und Christus gehört zu Gott.",
+      "citation": "1 Korinther 3:23 (Menge)"
+    }
+  ]
+}

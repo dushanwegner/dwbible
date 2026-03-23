@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "Baruch, Chapter 4 — 23 verses (Clementine Vulgate)",
+    "translation": {
+      "name": "Clementine Vulgate",
+      "language": "la",
+      "languageName": "Latin",
+      "copyright": "Public Domain"
+    },
+    "book": {
+      "name": "Baruch",
+      "slug": "baruch",
+      "testament": "OT",
+      "order": 30,
+      "totalChapters": 10
+    },
+    "chapter": 4,
+    "verseCount": 23,
+    "navigation": {
+      "bookIndex": "https://latinprayer.org/latin/baruch/index.json",
+      "translationIndex": "https://latinprayer.org/latin/index.json",
+      "previousChapter": "https://latinprayer.org/latin/baruch/3.json",
+      "nextChapter": "https://latinprayer.org/latin/baruch/5.json"
+    },
+    "crossReferences": {
+      "english": "https://latinprayer.org/bible/baruch/4.json",
+      "german": "https://latinprayer.org/bibel/baruch/4.json"
+    }
+  },
+  "citation": "Baruch 4 (Clementine Vulgate)",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "factum est autem cum audisset Sanaballat quod aedificaremus murum iratus est valde et motus nimis subsannavit Iudaeos",
+      "citation": "Baruch 4:1 (Clementine Vulgate)"
+    },
+    {
+      "verse": 2,
+      "text": "et dixit coram fratribus suis et frequentia Samaritanorum quid Iudaei inbecilli faciunt num dimittent eos gentes num sacrificabunt et conplebunt in una die numquid aedificare poterunt lapides de acervis pulveris qui conbusti sunt",
+      "citation": "Baruch 4:2 (Clementine Vulgate)"
+    },
+    {
+      "verse": 3,
+      "text": "sed et Tobias Ammanites proximus eius ait aedificent si ascenderit vulpis transiliet murum eorum lapideum",
+      "citation": "Baruch 4:3 (Clementine Vulgate)"
+    },
+    {
+      "verse": 4,
+      "text": "audi Deus noster quia facti sumus despectio converte obprobrium super caput eorum et da eos in despectionem in terra captivitatis",
+      "citation": "Baruch 4:4 (Clementine Vulgate)"
+    },
+    {
+      "verse": 5,
+      "text": "ne operias iniquitatem eorum et peccatum eorum coram facie tua non deleatur quia inriserunt aedificantes",
+      "citation": "Baruch 4:5 (Clementine Vulgate)"
+    },
+    {
+      "verse": 6,
+      "text": "itaque aedificavimus murum et coniunximus totum usque ad partem dimidiam et provocatum est cor populi ad operandum",
+      "citation": "Baruch 4:6 (Clementine Vulgate)"
+    },
+    {
+      "verse": 7,
+      "text": "factum est autem cum audisset Sanaballat et Tobias et Arabes et Ammanitae et Azotii quod obducta esset cicatrix muri Hierusalem et quod coepissent interrupta concludi irati sunt nimis",
+      "citation": "Baruch 4:7 (Clementine Vulgate)"
+    },
+    {
+      "verse": 8,
+      "text": "et congregati omnes pariter ut venirent et pugnarent contra Hierusalem et molirentur insidias",
+      "citation": "Baruch 4:8 (Clementine Vulgate)"
+    },
+    {
+      "verse": 9,
+      "text": "et oravimus Deum nostrum et posuimus custodes super murum die et nocte contra eos",
+      "citation": "Baruch 4:9 (Clementine Vulgate)"
+    },
+    {
+      "verse": 10,
+      "text": "dixit autem Iudas debilitata est fortitudo portantis et humus nimia est et nos non poterimus aedificare murum",
+      "citation": "Baruch 4:10 (Clementine Vulgate)"
+    },
+    {
+      "verse": 11,
+      "text": "et dixerunt hostes nostri nesciant et ignorent donec veniamus in medio eorum et interficiamus eos et cessare faciamus opus",
+      "citation": "Baruch 4:11 (Clementine Vulgate)"
+    },
+    {
+      "verse": 12,
+      "text": "factum est autem venientibus Iudaeis qui habitabant iuxta eos et dicentibus nobis per decem vices ex omnibus locis quibus venerant ad nos",
+      "citation": "Baruch 4:12 (Clementine Vulgate)"
+    },
+    {
+      "verse": 13,
+      "text": "statui in loco post murum per circuitum populum in ordine cum gladiis suis et lanceis et arcis",
+      "citation": "Baruch 4:13 (Clementine Vulgate)"
+    },
+    {
+      "verse": 14,
+      "text": "perspexi atque surrexi et aio ad optimates et ad magistratus et ad reliquam partem vulgi nolite timere a facie eorum Domini magni et terribilis mementote et pugnate pro fratribus vestris filiis vestris et filiabus vestris uxoribus vestris et domibus",
+      "citation": "Baruch 4:14 (Clementine Vulgate)"
+    },
+    {
+      "verse": 15,
+      "text": "factum est autem cum audissent inimici nostri nuntiatum esse nobis dissipavit Deus consilium eorum et reversi sumus omnes ad muros unusquisque ad opus suum",
+      "citation": "Baruch 4:15 (Clementine Vulgate)"
+    },
+    {
+      "verse": 16,
+      "text": "et factum est a die illa media pars iuvenum eorum faciebant opus et media parata erat ad bellum et lanceae et scuta et arcus et loricae et principes post eos in omni domo Iuda",
+      "citation": "Baruch 4:16 (Clementine Vulgate)"
+    },
+    {
+      "verse": 17,
+      "text": "aedificantium in muro et portantium onera et inponentium una manu sua faciebat opus et altera tenebat gladium",
+      "citation": "Baruch 4:17 (Clementine Vulgate)"
+    },
+    {
+      "verse": 18,
+      "text": "aedificantium enim unusquisque gladio erat accinctus renes et aedificabant et clangebant bucina iuxta me",
+      "citation": "Baruch 4:18 (Clementine Vulgate)"
+    },
+    {
+      "verse": 19,
+      "text": "et dixi ad optimates et ad magistratus et ad reliquam partem vulgi opus grande est et latum et nos separati sumus in muro procul alter ab altero",
+      "citation": "Baruch 4:19 (Clementine Vulgate)"
+    },
+    {
+      "verse": 20,
+      "text": "in loco quocumque audieritis clangorem tubae illuc concurrite ad nos Deus noster pugnabit pro nobis",
+      "citation": "Baruch 4:20 (Clementine Vulgate)"
+    },
+    {
+      "verse": 21,
+      "text": "et nos ipsi faciamus opus et media pars nostrum teneat lanceas ab ascensu aurorae donec egrediantur astra",
+      "citation": "Baruch 4:21 (Clementine Vulgate)"
+    },
+    {
+      "verse": 22,
+      "text": "in tempore quoque illo dixi populo unusquisque cum puero suo maneat in medio Hierusalem et sint vobis vices per noctem et diem ad operandum",
+      "citation": "Baruch 4:22 (Clementine Vulgate)"
+    },
+    {
+      "verse": 23,
+      "text": "ego autem et fratres mei et pueri mei et custodes qui erant post me non deponebamus vestimenta nostra unusquisque tantum nudabatur ad baptismum",
+      "citation": "Baruch 4:23 (Clementine Vulgate)"
+    }
+  ]
+}
