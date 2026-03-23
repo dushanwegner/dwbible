@@ -2,14 +2,14 @@
 /*
 * Plugin Name: The Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.03.21.01
+* Version: 1.26.03.23.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('THEBIBLE_VERSION')) {
-    define('THEBIBLE_VERSION', '1.26.03.21.01');
+    define('THEBIBLE_VERSION', '1.26.03.23.01');
 }
 
 // Load include classes before hooks are registered
@@ -901,7 +901,12 @@ class TheBible_Plugin {
             $modern_names[intval($b['order'])] = $display;
         }
 
-        $base_url = home_url('/latin-bible/');
+        // Use the current URL slug (bible, bibel, latin, or interlinear combo)
+        $current_slug = get_query_var(self::QV_SLUG);
+        if ( ! is_string($current_slug) || $current_slug === '' ) {
+            $current_slug = 'bible';
+        }
+        $base_url = home_url('/' . $current_slug . '/');
         $out = '<div class="thebible thebible-index">';
         $out .= '<h1 class="thebible-index-title">The Bible</h1>';
 
