@@ -356,3 +356,78 @@
 .thebible .thebible-language-switcher[data-current-second] {
   --thebible-hook: 1;
 }
+
+/* -----------------------------------------------------------------------
+   Index page — categorized book tile grid
+   ----------------------------------------------------------------------- */
+
+/* Testament divider */
+.thebible-testament-divider {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 1.5rem 0;
+}
+
+/* Category section */
+.thebible-category {
+  margin-bottom: 1.5rem;
+}
+
+.thebible-category-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #999;
+  margin: 0 0 0.625rem 0;
+}
+
+/* Book tile grid */
+.thebible-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.thebible-tile {
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+  background: #fff;
+}
+
+.thebible-tile:hover {
+  border-color: #8b1a1a;
+  box-shadow: 0 2px 8px rgba(139, 26, 26, 0.1);
+  transform: translateY(-1px);
+}
+
+.thebible-tile:active {
+  transform: translateY(0);
+}
+
+.thebible-tile-name {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #333;
+}
+
+.thebible-tile-alt {
+  font-size: 0.6875rem;
+  color: #999;
+  line-height: 1.2;
+  margin-top: 0.125rem;
+}
+
+/* Responsive: 2 columns on very narrow screens */
+@media (max-width: 380px) {
+  .thebible-tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
