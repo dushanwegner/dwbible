@@ -85,10 +85,8 @@ use If-Modified-Since for conditional requests (1-hour cache).
 - Saint Agatha: https://latinprayer.org/saints/saint-agatha.json
 
 ## Sitemaps
-- [Sitemap Index](https://latinprayer.org/sitemap-index.xml): All sitemaps
-- [English Bible](https://latinprayer.org/bible-sitemap-bible.xml): All books, chapters, and verses
-- [Latin Bible](https://latinprayer.org/bible-sitemap-latin.xml): All books, chapters, and verses
-- [German Bible](https://latinprayer.org/bible-sitemap-bibel.xml): All books, chapters, and verses
+- [Sitemap Index](https://latinprayer.org/sitemap-index.xml): 221 sub-sitemaps (73 books × 3 translations + prayers + saints)
+- Per-book pattern: /bible-sitemap-{slug}-{book}.xml (e.g. /bible-sitemap-latin-psalms.xml)
 - [Prayers](https://latinprayer.org/sitemap-prayers.xml): All prayer pages
 - [Saints](https://latinprayer.org/sitemap-saints.xml): All saint pages
 

@@ -361,10 +361,8 @@ GET https://latinprayer.org/saints/saint-agatha.json
 
 All sitemaps referenced from robots.txt and the sitemap index.
 
-- Sitemap index: /sitemap-index.xml (references all sitemaps below)
-- English Bible: /bible-sitemap-bible.xml (books, chapters, and all verses)
-- Latin Bible: /bible-sitemap-latin.xml
-- German Bible: /bible-sitemap-bibel.xml
+- Sitemap index: /sitemap-index.xml (221 sub-sitemaps: 73 books × 3 translations + prayers + saints)
+- Per-book Bible: /bible-sitemap-{slug}-{book}.xml (e.g. /bible-sitemap-latin-psalms.xml)
 - Prayers: /sitemap-prayers.xml (all prayer pages with lastmod dates)
 - Saints: /sitemap-saints.xml (all saint pages with lastmod dates)
 

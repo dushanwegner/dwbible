@@ -15,12 +15,6 @@ class TheBible_Admin_AI {
      * Render the AI accessibility admin page.
      */
     public static function render_page() {
-        // Handle cache clear action
-        if ( isset( $_POST['thebible_clear_sitemap_cache'] ) && check_admin_referer( 'thebible_clear_sitemap_cache' ) ) {
-            TheBible_Plugin::clear_sitemap_cache();
-            echo '<div class="notice notice-success"><p>Sitemap cache cleared. The next request to each Bible sitemap will regenerate it.</p></div>';
-        }
-
         $site_url = site_url();
         // Hardcoded with www — must match the Google Search Console property.
         $prod_url = 'https://www.latinprayer.org';
@@ -104,41 +98,15 @@ class TheBible_Admin_AI {
                 <div class="thebible-ai-card thebible-ai-full">
                     <h2>Sitemaps — Submit to Google Search Console</h2>
                     <p>Copy these URLs and submit them at <a href="https://search.google.com/search-console/sitemaps" target="_blank" rel="noopener">Google Search Console &gt; Sitemaps</a>.</p>
-                    <?php
-                    // Show cache status and regenerate button
-                    $cache_dir = plugin_dir_path( __FILE__ ) . '../data/cache/';
-                    $cached = is_dir( $cache_dir ) ? glob( $cache_dir . 'sitemap-*.xml' ) : [];
-                    if ( ! empty( $cached ) ) {
-                        $ages = [];
-                        foreach ( $cached as $cf ) {
-                            $ages[] = basename( $cf ) . ' (' . size_format( filesize( $cf ) ) . ', ' . human_time_diff( filemtime( $cf ) ) . ' ago)';
-                        }
-                        echo '<p style="font-size:12px;color:#50575e">Cached: ' . esc_html( implode( ', ', $ages ) ) . '</p>';
-                    } else {
-                        echo '<p style="font-size:12px;color:#50575e">No cached sitemaps — will be generated on first request.</p>';
-                    }
-                    ?>
-                    <form method="post" style="margin-bottom:12px">
-                        <?php wp_nonce_field( 'thebible_clear_sitemap_cache' ); ?>
-                        <button type="submit" name="thebible_clear_sitemap_cache" class="button">Clear Sitemap Cache</button>
-                        <span style="font-size:12px;color:#50575e;margin-left:8px">Forces regeneration on next fetch</span>
-                    </form>
-
-                    <h3>Sitemap Index (submitting this one is usually enough)</h3>
+                    <h3>Sitemap Index (submit this — it references all 221 sub-sitemaps)</h3>
                     <?php self::render_url_block( $prod_url . '/sitemap-index.xml', 'sitemap-index' ); ?>
+                    <p style="font-size:12px;color:#50575e">Contains 73 books × 3 translations = 219 per-book Bible sitemaps + prayers + saints.<br>
+                    Pattern: <code>/bible-sitemap-{slug}-{book}.xml</code> — e.g. <code>/bible-sitemap-latin-psalms.xml</code></p>
 
-                    <h3>Individual Sitemaps</h3>
+                    <h3>Other Sitemaps</h3>
                     <?php
-                    $sitemaps = [
-                        'bible-sitemap-bible.xml'  => 'English Bible (Douay-Rheims) — all books, chapters, verses',
-                        'bible-sitemap-latin.xml'  => 'Latin Bible (Clementine Vulgate) — all books, chapters, verses',
-                        'bible-sitemap-bibel.xml'  => 'German Bible (Menge) — all books, chapters, verses',
-                        'sitemap-prayers.xml'      => 'All prayers with lastmod dates',
-                        'sitemap-saints.xml'       => 'All saints with lastmod dates',
-                    ];
-                    foreach ( $sitemaps as $file => $desc ) {
-                        self::render_url_block( $prod_url . '/' . $file, 'sm-' . $file, $desc );
-                    }
+                    self::render_url_block( $prod_url . '/sitemap-prayers.xml', 'sm-prayers', 'All prayers with lastmod dates' );
+                    self::render_url_block( $prod_url . '/sitemap-saints.xml', 'sm-saints', 'All saints with lastmod dates' );
                     ?>
                 </div>
 
