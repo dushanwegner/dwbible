@@ -2,14 +2,14 @@
 /*
 * Plugin Name: The Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.03.24.02
+* Version: 1.26.03.24.03
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('THEBIBLE_VERSION')) {
-    define('THEBIBLE_VERSION', '1.26.03.24.02');
+    define('THEBIBLE_VERSION', '1.26.03.24.03');
 }
 
 // Load include classes before hooks are registered
@@ -128,6 +128,7 @@ class TheBible_Plugin {
 
         self::add_rewrite_rules();
         flush_rewrite_rules(false);
+        self::clear_sitemap_cache();
         update_option('thebible_rewrite_version', THEBIBLE_VERSION);
     }
 
@@ -605,28 +606,37 @@ class TheBible_Plugin {
             exit;
         }
 
+        // Serve from cache if available (Bible sitemaps are large — ~37k URLs —
+        // and generating them on-the-fly can time out on shared hosting / CDNs).
+        $cache_dir  = plugin_dir_path(__FILE__) . 'data/cache/';
+        $cache_file = $cache_dir . 'sitemap-' . $slug . '.xml';
+
+        if ( file_exists( $cache_file ) ) {
+            status_header(200);
+            header('Content-Type: application/xml; charset=UTF-8');
+            header('Cache-Control: public, max-age=86400');
+            readfile( $cache_file );
+            exit;
+        }
+
+        // Generate and cache
         self::load_index();
         if (empty(self::$books)) {
             status_header(404);
             exit;
         }
 
-        status_header(200);
-        header('Content-Type: application/xml; charset=UTF-8');
-        // Cache sitemaps for 1 day (they only change when content is regenerated)
-        header('Cache-Control: public, max-age=86400');
-
-        echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-        echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
-
         $base_path = '/' . trim($slug, '/') . '/';
         $domain = rtrim( home_url(), '/' );
 
+        $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+        $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+
         // Translation index page
-        echo '  <url>' . "\n";
-        echo '    <loc>' . esc_url($domain . $base_path) . '</loc>' . "\n";
-        echo '    <priority>1.0</priority>' . "\n";
-        echo '  </url>' . "\n";
+        $xml .= '  <url>' . "\n";
+        $xml .= '    <loc>' . esc_url($domain . $base_path) . '</loc>' . "\n";
+        $xml .= '    <priority>1.0</priority>' . "\n";
+        $xml .= '  </url>' . "\n";
 
         foreach (self::$books as $entry) {
             if (!is_array($entry) || empty($entry['short_name'])) continue;
@@ -642,11 +652,11 @@ class TheBible_Plugin {
             $lastmod_tag = $lastmod ? '    <lastmod>' . $lastmod . '</lastmod>' . "\n" : '';
 
             // Book URL
-            echo '  <url>' . "\n";
-            echo '    <loc>' . esc_url($domain . $base_path . $book_slug . '/') . '</loc>' . "\n";
-            echo $lastmod_tag;
-            echo '    <priority>0.8</priority>' . "\n";
-            echo '  </url>' . "\n";
+            $xml .= '  <url>' . "\n";
+            $xml .= '    <loc>' . esc_url($domain . $base_path . $book_slug . '/') . '</loc>' . "\n";
+            $xml .= $lastmod_tag;
+            $xml .= '    <priority>0.8</priority>' . "\n";
+            $xml .= '  </url>' . "\n";
 
             // Per-chapter and per-verse URLs: scan the book HTML for verse IDs
             if (!file_exists($file)) {
@@ -675,11 +685,11 @@ class TheBible_Plugin {
 
             // Emit chapter-level entries (higher priority than verses)
             foreach ($chapters as $ch => $verses) {
-                echo '  <url>' . "\n";
-                echo '    <loc>' . esc_url($domain . $base_path . $book_slug . '/' . $ch) . '</loc>' . "\n";
-                echo $lastmod_tag;
-                echo '    <priority>0.7</priority>' . "\n";
-                echo '  </url>' . "\n";
+                $xml .= '  <url>' . "\n";
+                $xml .= '    <loc>' . esc_url($domain . $base_path . $book_slug . '/' . $ch) . '</loc>' . "\n";
+                $xml .= $lastmod_tag;
+                $xml .= '    <priority>0.7</priority>' . "\n";
+                $xml .= '  </url>' . "\n";
             }
 
             // Emit verse-level entries
@@ -689,15 +699,26 @@ class TheBible_Plugin {
                 foreach ($verses as $v) {
                     if (isset($seen[$v])) continue;
                     $seen[$v] = true;
-                    echo '  <url>' . "\n";
-                    echo '    <loc>' . esc_url($domain . $base_path . $book_slug . '/' . $ch . ':' . $v) . '</loc>' . "\n";
-                    echo $lastmod_tag;
-                    echo '  </url>' . "\n";
+                    $xml .= '  <url>' . "\n";
+                    $xml .= '    <loc>' . esc_url($domain . $base_path . $book_slug . '/' . $ch . ':' . $v) . '</loc>' . "\n";
+                    $xml .= $lastmod_tag;
+                    $xml .= '  </url>' . "\n";
                 }
             }
         }
 
-        echo '</urlset>';
+        $xml .= '</urlset>';
+
+        // Write cache file
+        if ( ! is_dir( $cache_dir ) ) {
+            wp_mkdir_p( $cache_dir );
+        }
+        @file_put_contents( $cache_file, $xml );
+
+        status_header(200);
+        header('Content-Type: application/xml; charset=UTF-8');
+        header('Cache-Control: public, max-age=86400');
+        echo $xml;
         exit;
     }
 
@@ -812,6 +833,19 @@ class TheBible_Plugin {
 
         echo '</urlset>';
         exit;
+    }
+
+    /**
+     * Delete cached Bible sitemap XML files.
+     * Called on version change and available from the AI admin page.
+     */
+    public static function clear_sitemap_cache() {
+        $cache_dir = plugin_dir_path(__FILE__) . 'data/cache/';
+        if ( ! is_dir( $cache_dir ) ) { return; }
+        $files = glob( $cache_dir . 'sitemap-*.xml' );
+        if ( $files ) {
+            foreach ( $files as $f ) { @unlink( $f ); }
+        }
     }
 
     public static function handle_template_redirect() {
