@@ -727,7 +727,9 @@ class TheBible_Plugin {
             $csv_file = $data_dir . $ds . '/html/index.csv';
             if ( ! file_exists( $csv_file ) ) { continue; }
             $rows = array_map( 'str_getcsv', file( $csv_file ) );
-            foreach ( $rows as $row ) {
+            foreach ( $rows as $i => $row ) {
+                // Skip CSV header row and empty entries
+                if ( $i === 0 && isset( $row[0] ) && $row[0] === 'order' ) { continue; }
                 if ( empty( $row[1] ) ) { continue; }
                 $book_slug = self::slugify( $row[1] );
                 if ( $book_slug === '' ) { continue; }

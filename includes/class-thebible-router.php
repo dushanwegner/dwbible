@@ -34,16 +34,18 @@ trait TheBible_Router_Trait {
             exit;
         }
 
+        // Sitemaps must be checked before book — per-book sitemaps set both
+        // QV_SITEMAP and QV_BOOK, so sitemap takes priority.
+        $sitemap = get_query_var(self::QV_SITEMAP);
+        if ($sitemap) {
+            self::handle_sitemap();
+            exit;
+        }
         $book = get_query_var(self::QV_BOOK);
         if ($book) {
             if (self::maybe_redirect_external()) return;
             self::render_bible_page();
-            exit; // prevent WP from continuing (e.g. home.php rendering after </body>)
-        }
-        $sitemap = get_query_var(self::QV_SITEMAP);
-        if ($sitemap) {
-            self::handle_sitemap();
-            exit; // handle_sitemap() exits internally, but be safe
+            exit;
         }
         $flag = get_query_var(self::QV_FLAG);
         if ($flag) {
