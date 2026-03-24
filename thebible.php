@@ -2,14 +2,14 @@
 /*
 * Plugin Name: The Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.03.23.02
+* Version: 1.26.03.24.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('THEBIBLE_VERSION')) {
-    define('THEBIBLE_VERSION', '1.26.03.23.02');
+    define('THEBIBLE_VERSION', '1.26.03.24.01');
 }
 
 // Load include classes before hooks are registered
@@ -70,7 +70,9 @@ class TheBible_Plugin {
         add_action('init', [__CLASS__, 'add_rewrite_rules']);
         add_action('init', [__CLASS__, 'maybe_flush_rewrite_rules'], 20);
         add_filter('query_vars', [__CLASS__, 'add_query_vars']);
-        add_action('template_redirect', [__CLASS__, 'handle_request']);
+        // Priority 1: run before redirect_canonical (priority 10) which
+        // would otherwise add a trailing slash to .json URLs.
+        add_action('template_redirect', [__CLASS__, 'handle_request'], 1);
 
         add_action('wp_enqueue_scripts', [__CLASS__, 'enqueue_assets']);
         add_action('admin_enqueue_scripts', [__CLASS__, 'admin_enqueue']);

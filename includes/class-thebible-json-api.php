@@ -36,6 +36,20 @@ trait TheBible_JSON_API_Trait {
         $book    = preg_replace( '/[^a-z0-9\-]/', '', strtolower( $book ) );
         $chapter = preg_replace( '/[^0-9]/', '', $chapter );
 
+        // Resolve dataset-specific book slugs (e.g. "psalmen" → "psalms")
+        // to the canonical key used in the JSON file directory structure.
+        // The JSON dirs use book_map.json keys (genesis, psalms, matthew, ...)
+        // while HTML URLs may use dataset-specific slugs (psalmen, matthaeus, ...).
+        if ( ! empty( $book ) ) {
+            $base_test = plugin_dir_path( __FILE__ ) . '../data/' . $slug . '/json/';
+            if ( ! is_dir( $base_test . $book ) ) {
+                $canonical_key = self::resolve_json_book_slug( $book, $slug );
+                if ( $canonical_key !== null ) {
+                    $book = $canonical_key;
+                }
+            }
+        }
+
         // Build file path
         $base = plugin_dir_path( __FILE__ ) . '../data/' . $slug . '/json/';
 
@@ -191,5 +205,68 @@ trait TheBible_JSON_API_Trait {
         header( 'X-Content-Type-Options: nosniff' );
         readfile( $file );
         exit;
+    }
+
+    /**
+     * Resolve a dataset-specific URL slug to the canonical book_map.json key
+     * used as the JSON directory name.
+     *
+     * Example: "psalmen" (bibel URL slug) → "psalms" (JSON dir key).
+     *
+     * Uses book_map.json which maps canonical keys to dataset display names.
+     * We build a reverse lookup: slugify(display_name) → canonical_key.
+     *
+     * @param string $url_slug The slug from the URL (e.g. "psalmen").
+     * @param string $dataset  The dataset slug ("bible", "bibel", "latin").
+     * @return string|null     The canonical key, or null if not found.
+     */
+    private static function resolve_json_book_slug( $url_slug, $dataset ) {
+        static $reverse_maps = [];
+
+        if ( ! isset( $reverse_maps[ $dataset ] ) ) {
+            $reverse_maps[ $dataset ] = [];
+            $book_map = TheBible_Mappings_Loader::load_book_map();
+            $json_dir = plugin_dir_path( __FILE__ ) . '../data/' . $dataset . '/json/';
+
+            // First pass: add entries whose canonical key has a real JSON directory.
+            // These are authoritative and won't be overwritten.
+            foreach ( $book_map as $canonical_key => $datasets_map ) {
+                if ( ! is_dir( $json_dir . $canonical_key ) ) { continue; }
+                $reverse_maps[ $dataset ][ $canonical_key ] = $canonical_key;
+                if ( isset( $datasets_map[ $dataset ] ) ) {
+                    $ds_slug = self::slugify( $datasets_map[ $dataset ] );
+                    if ( $ds_slug !== '' ) {
+                        $reverse_maps[ $dataset ][ $ds_slug ] = $canonical_key;
+                    }
+                }
+            }
+
+            // Second pass: add aliases and cross-dataset names as fallbacks.
+            // Never overwrite an existing entry (primary keys win).
+            foreach ( $book_map as $canonical_key => $datasets_map ) {
+                // Resolve alias keys to their target dir key
+                $target = $canonical_key;
+                if ( ! is_dir( $json_dir . $canonical_key ) ) {
+                    // Alias: find the primary key that owns the same dataset display name
+                    if ( isset( $datasets_map[ $dataset ] ) ) {
+                        $ds_slug = self::slugify( $datasets_map[ $dataset ] );
+                        $target = $reverse_maps[ $dataset ][ $ds_slug ] ?? $canonical_key;
+                    }
+                }
+                // Add the alias key itself
+                if ( ! isset( $reverse_maps[ $dataset ][ $canonical_key ] ) ) {
+                    $reverse_maps[ $dataset ][ $canonical_key ] = $target;
+                }
+                // Add cross-dataset display names as fallback
+                foreach ( $datasets_map as $ds => $display_name ) {
+                    $alt_slug = self::slugify( $display_name );
+                    if ( $alt_slug !== '' && ! isset( $reverse_maps[ $dataset ][ $alt_slug ] ) ) {
+                        $reverse_maps[ $dataset ][ $alt_slug ] = $target;
+                    }
+                }
+            }
+        }
+
+        return $reverse_maps[ $dataset ][ $url_slug ] ?? null;
     }
 }
