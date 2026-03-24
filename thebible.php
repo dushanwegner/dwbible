@@ -22,6 +22,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-text-utils.php
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-admin-utils.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-admin-settings.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-admin-export.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-admin-ai.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-front-meta.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-footer-renderer.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-thebible-data-paths.php';
@@ -1633,6 +1634,15 @@ class TheBible_Plugin {
             'manage_options',
             'thebible_sync',
             [ 'TheBible_Sync_Report', 'render_sync_status_page' ]
+        );
+
+        add_submenu_page(
+            'thebible',
+            'AI Accessibility',
+            'AI Accessibility',
+            'manage_options',
+            'thebible_ai',
+            [ 'TheBible_Admin_AI', 'render_page' ]
         );
     }
 
