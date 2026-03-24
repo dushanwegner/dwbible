@@ -16,7 +16,9 @@ class TheBible_Admin_AI {
      */
     public static function render_page() {
         $site_url = site_url();
-        $prod_url = 'https://latinprayer.org';
+        // Use the actual site URL for sitemap submission links —
+        // must match the domain registered in Google Search Console.
+        $prod_url = rtrim( site_url(), '/' );
 
         // Count content
         $data_dir   = plugin_dir_path( __FILE__ ) . '../data/';
@@ -35,7 +37,7 @@ class TheBible_Admin_AI {
         ?>
         <div class="wrap">
             <h1>AI Accessibility</h1>
-            <p>Everything latinprayer.org offers to AI systems — crawlers, search agents, and tool-use AI.</p>
+            <p>Everything this site offers to AI systems — crawlers, search agents, and tool-use AI.</p>
 
             <style>
                 .thebible-ai-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
