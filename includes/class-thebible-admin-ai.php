@@ -16,9 +16,8 @@ class TheBible_Admin_AI {
      */
     public static function render_page() {
         $site_url = site_url();
-        // Use the actual site URL for sitemap submission links —
-        // must match the domain registered in Google Search Console.
-        $prod_url = rtrim( site_url(), '/' );
+        // Hardcoded with www — must match the Google Search Console property.
+        $prod_url = 'https://www.latinprayer.org';
 
         // Count content
         $data_dir   = plugin_dir_path( __FILE__ ) . '../data/';
@@ -113,11 +112,7 @@ class TheBible_Admin_AI {
                         'sitemap-saints.xml'       => 'All saints with lastmod dates',
                     ];
                     foreach ( $sitemaps as $file => $desc ) {
-                        echo '<div style="margin-bottom:6px">';
-                        echo '<code style="font-size:12px">' . esc_html( $prod_url . '/' . $file ) . '</code>';
-                        echo ' <button class="thebible-ai-copy-btn" data-copy="' . esc_attr( $prod_url . '/' . $file ) . '">Copy</button>';
-                        echo ' <span style="color:#50575e;font-size:12px">— ' . esc_html( $desc ) . '</span>';
-                        echo '</div>';
+                        self::render_url_block( $prod_url . '/' . $file, 'sm-' . $file, $desc );
                     }
                     ?>
                 </div>
@@ -251,9 +246,12 @@ class TheBible_Admin_AI {
     /**
      * Render a single URL with copy button.
      */
-    private static function render_url_block( $url, $id ) {
+    private static function render_url_block( $url, $id, $desc = '' ) {
         echo '<div class="thebible-ai-urls">';
         echo '<a href="' . esc_url( $url ) . '" target="_blank">' . esc_html( $url ) . '</a>';
+        if ( $desc !== '' ) {
+            echo '<br><span style="color:#50575e;font-size:11px">' . esc_html( $desc ) . '</span>';
+        }
         echo '<button class="thebible-ai-copy-btn" data-copy="' . esc_attr( $url ) . '">Copy</button>';
         echo '</div>';
     }
