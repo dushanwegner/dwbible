@@ -18,9 +18,10 @@ trait TheBible_JSON_API_Trait {
      * Serve a pre-generated JSON file based on current query vars.
      *
      * Route resolution:
-     *   - No book, no chapter → data/{slug}/json/index.json
-     *   - Book, no chapter    → data/{slug}/json/{book}/index.json
-     *   - Book + chapter      → data/{slug}/json/{book}/{chapter}.json
+     *   - No book, no chapter         → data/{slug}/json/index.json
+     *   - Book, no chapter            → data/{slug}/json/{book}/index.json
+     *   - Book + chapter              → data/{slug}/json/{book}/{chapter}.json
+     *   - Book + chapter + verse(s)   → extracted from chapter file (dynamic)
      */
     private static function serve_json_file() {
         $slug = get_query_var( self::QV_SLUG );
@@ -30,11 +31,15 @@ trait TheBible_JSON_API_Trait {
 
         $book    = get_query_var( self::QV_BOOK );
         $chapter = get_query_var( self::QV_CHAPTER );
+        $vfrom   = get_query_var( self::QV_VFROM );
+        $vto     = get_query_var( self::QV_VTO );
 
         // Sanitize inputs: only allow safe characters
         $slug    = preg_replace( '/[^a-z0-9\-]/', '', strtolower( $slug ) );
         $book    = preg_replace( '/[^a-z0-9\-]/', '', strtolower( $book ) );
         $chapter = preg_replace( '/[^0-9]/', '', $chapter );
+        $vfrom   = absint( $vfrom );
+        $vto     = absint( $vto );
 
         // Resolve dataset-specific book slugs (e.g. "psalmen" → "psalms")
         // to the canonical key used in the JSON file directory structure.
@@ -65,18 +70,135 @@ trait TheBible_JSON_API_Trait {
         }
 
         if ( ! file_exists( $file ) ) {
-            status_header( 404 );
-            header( 'Content-Type: application/json; charset=UTF-8' );
-            header( 'Access-Control-Allow-Origin: *' );
-            echo json_encode( [
-                'error'   => 'Not found',
-                'message' => 'The requested Bible content was not found.',
-                'help'    => 'See https://latinprayer.org/llms.txt for API documentation.',
-            ] );
+            self::serve_json_404();
+            exit;
+        }
+
+        // ── Single verse or verse range: extract from chapter JSON ──────
+        if ( $vfrom > 0 && ! empty( $book ) && ! empty( $chapter ) ) {
+            self::serve_verse_json( $file, $slug, $book, (int) $chapter, $vfrom, $vto );
             exit;
         }
 
         // Serve the static file with appropriate headers
+        self::send_json_headers();
+        readfile( $file );
+        exit;
+    }
+
+    /**
+     * Extract and serve a single verse or verse range from a chapter JSON file.
+     *
+     * Reads the pre-generated chapter file, filters to the requested verse(s),
+     * and wraps them in a self-documenting response with navigation links.
+     */
+    private static function serve_verse_json( $chapter_file, $slug, $book, $chapter, $vfrom, $vto ) {
+        $raw = file_get_contents( $chapter_file );
+        if ( $raw === false ) {
+            self::serve_json_404();
+            exit;
+        }
+        $data = json_decode( $raw, true );
+        if ( ! is_array( $data ) || empty( $data['verses'] ) ) {
+            self::serve_json_404();
+            exit;
+        }
+
+        // Determine range
+        if ( $vto <= 0 || $vto < $vfrom ) {
+            $vto = $vfrom; // single verse
+        }
+
+        // Filter verses
+        $matched = [];
+        foreach ( $data['verses'] as $v ) {
+            $num = (int) $v['verse'];
+            if ( $num >= $vfrom && $num <= $vto ) {
+                $matched[] = $v;
+            }
+        }
+
+        if ( empty( $matched ) ) {
+            $total = count( $data['verses'] );
+            status_header( 404 );
+            header( 'Content-Type: application/json; charset=UTF-8' );
+            header( 'Access-Control-Allow-Origin: *' );
+            echo json_encode( [
+                'error'      => 'VERSE_NOT_FOUND',
+                'message'    => "Verse {$vfrom} does not exist in this chapter.",
+                'suggestion' => "This chapter has {$total} verses (1–{$total}).",
+                'help'       => 'https://latinprayer.org/llms.txt',
+            ], JSON_UNESCAPED_SLASHES );
+            exit;
+        }
+
+        $is_range   = ( $vfrom !== $vto );
+        $site_url   = site_url();
+        $book_name  = $data['_meta']['book']['name'] ?? ucwords( str_replace( '-', ' ', $book ) );
+        $bible_name = $data['_meta']['translation']['name'] ?? 'Bible';
+
+        // Build verse reference string
+        $ref = $is_range ? "{$book_name} {$chapter}:{$vfrom}-{$vto}" : "{$book_name} {$chapter}:{$vfrom}";
+
+        // Build cross-references to same verse(s) in other translations
+        $cross_refs = [];
+        $all_slugs  = [ 'bible', 'bibel', 'latin' ];
+        $verse_path = $is_range ? "{$vfrom}-{$vto}.json" : "{$vfrom}.json";
+        foreach ( $all_slugs as $ds ) {
+            if ( $ds === $slug ) { continue; }
+            $cross_refs[ $ds ] = "{$site_url}/{$ds}/{$book}/{$chapter}/{$verse_path}";
+        }
+
+        // Build navigation links
+        $total_verses = count( $data['verses'] );
+        $nav = [
+            'chapterJson'     => "{$site_url}/{$slug}/{$book}/{$chapter}.json",
+            'bookIndex'       => $data['_meta']['navigation']['bookIndex'] ?? null,
+            'translationIndex' => $data['_meta']['navigation']['translationIndex'] ?? null,
+        ];
+        // Previous verse (or end of range)
+        if ( $vfrom > 1 ) {
+            $nav['previousVerse'] = "{$site_url}/{$slug}/{$book}/{$chapter}/" . ( $vfrom - 1 ) . '.json';
+        }
+        // Next verse
+        $next_v = $is_range ? $vto + 1 : $vfrom + 1;
+        if ( $next_v <= $total_verses ) {
+            $nav['nextVerse'] = "{$site_url}/{$slug}/{$book}/{$chapter}/{$next_v}.json";
+        }
+
+        $response = [
+            '_meta' => [
+                'project'         => 'Latin Prayer',
+                'projectUrl'      => $site_url,
+                'apiDocs'         => $site_url . '/llms.txt',
+                'content'         => "{$ref} ({$bible_name})",
+                'translation'     => $data['_meta']['translation'] ?? [],
+                'book'            => $data['_meta']['book'] ?? [],
+                'chapter'         => $chapter,
+                'verseRange'      => $is_range ? [ $vfrom, $vto ] : $vfrom,
+                'totalChapterVerses' => $total_verses,
+                'navigation'      => $nav,
+                'crossReferences' => $cross_refs,
+            ],
+            'citation' => "{$ref} ({$bible_name})",
+            'verses'   => $matched,
+        ];
+
+        // For single verse, also include top-level text for convenience
+        if ( ! $is_range && count( $matched ) === 1 ) {
+            $response['verse'] = $matched[0]['verse'];
+            $response['text']  = $matched[0]['text'];
+        }
+
+        self::send_json_headers();
+        echo json_encode( $response, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
+        exit;
+    }
+
+    /**
+     * Send standard JSON response headers.
+     */
+    private static function send_json_headers() {
         status_header( 200 );
         header( 'Content-Type: application/json; charset=UTF-8' );
         header( 'Access-Control-Allow-Origin: *' );
@@ -84,8 +206,20 @@ trait TheBible_JSON_API_Trait {
         header( 'Cache-Control: public, max-age=86400' );
         header( 'X-Content-Type-Options: nosniff' );
         header( 'X-Powered-By: Latin Prayer (latinprayer.org)' );
-        readfile( $file );
-        exit;
+    }
+
+    /**
+     * Send a 404 JSON error response.
+     */
+    private static function serve_json_404() {
+        status_header( 404 );
+        header( 'Content-Type: application/json; charset=UTF-8' );
+        header( 'Access-Control-Allow-Origin: *' );
+        echo json_encode( [
+            'error'   => 'Not found',
+            'message' => 'The requested Bible content was not found.',
+            'help'    => 'See https://latinprayer.org/llms.txt for API documentation.',
+        ] );
     }
 
     /**

@@ -2,14 +2,14 @@
 /*
 * Plugin Name: The Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.03.24.01
+* Version: 1.26.03.24.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('THEBIBLE_VERSION')) {
-    define('THEBIBLE_VERSION', '1.26.03.24.01');
+    define('THEBIBLE_VERSION', '1.26.03.24.02');
 }
 
 // Load include classes before hooks are registered
@@ -106,6 +106,11 @@ class TheBible_Plugin {
 
         // AI optimization: <link rel="alternate"> pointing to JSON on Bible pages
         add_action( 'wp_head', [ __CLASS__, 'print_json_alternate_link' ] );
+
+        // Page-specific <title> for Bible pages (critical for AI crawlers and SEO).
+        // Only use document_title_parts (not pre_get_document_title) so WP still
+        // appends the site name via the 'site' part.
+        add_filter( 'document_title_parts', [ __CLASS__, 'filter_document_title_parts' ], 20 );
 
         register_activation_hook(__FILE__, [__CLASS__, 'activate']);
         register_deactivation_hook(__FILE__, [__CLASS__, 'deactivate']);
@@ -288,6 +293,18 @@ class TheBible_Plugin {
                 'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug . '&' . self::QV_BOOK . '=$matches[1]',
                 'top'
             );
+            // /{slug}/{book}/{chapter}/{verse}.json → single verse
+            add_rewrite_rule(
+                '^' . $qs . '/([^/]+)/([0-9]+)/([0-9]+)\.json$',
+                'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug . '&' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]',
+                'top'
+            );
+            // /{slug}/{book}/{chapter}/{from}-{to}.json → verse range
+            add_rewrite_rule(
+                '^' . $qs . '/([^/]+)/([0-9]+)/([0-9]+)-([0-9]+)\.json$',
+                'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug . '&' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]&' . self::QV_VTO . '=$matches[4]',
+                'top'
+            );
             // /{slug}/{book}/{chapter}.json → chapter data
             add_rewrite_rule(
                 '^' . $qs . '/([^/]+)/([0-9]+)\.json$',
@@ -314,10 +331,13 @@ class TheBible_Plugin {
             // /{slug}/{book}/{chapter}
             add_rewrite_rule('^' . preg_quote($slug, '/') . '/([^/]+)/([0-9]+)/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug, 'top');
         }
-        // Sitemaps: English, German, and Latin (use unique endpoints to avoid conflicts with other sitemap plugins)
+        // Sitemaps: per-translation Bible, prayers, saints, and sitemap index
         add_rewrite_rule('^bible-sitemap-bible\.xml$', 'index.php?' . self::QV_SITEMAP . '=bible&' . self::QV_SLUG . '=bible', 'top');
         add_rewrite_rule('^bible-sitemap-bibel\.xml$', 'index.php?' . self::QV_SITEMAP . '=bibel&' . self::QV_SLUG . '=bibel', 'top');
         add_rewrite_rule('^bible-sitemap-latin\.xml$', 'index.php?' . self::QV_SITEMAP . '=latin&' . self::QV_SLUG . '=latin', 'top');
+        add_rewrite_rule('^sitemap-prayers\.xml$', 'index.php?' . self::QV_SITEMAP . '=prayers', 'top');
+        add_rewrite_rule('^sitemap-saints\.xml$', 'index.php?' . self::QV_SITEMAP . '=saints', 'top');
+        add_rewrite_rule('^sitemap-index\.xml$', 'index.php?' . self::QV_SITEMAP . '=index', 'top');
     }
 
     public static function enqueue_assets() {
@@ -564,6 +584,20 @@ class TheBible_Plugin {
         $map = get_query_var(self::QV_SITEMAP);
         if (!$map) return;
 
+        // Dispatch to the right sitemap generator
+        if ($map === 'index') {
+            self::handle_sitemap_index();
+            exit;
+        }
+        if ($map === 'prayers') {
+            self::handle_sitemap_prayers();
+            exit;
+        }
+        if ($map === 'saints') {
+            self::handle_sitemap_saints();
+            exit;
+        }
+
         $slug = get_query_var(self::QV_SLUG);
         if ($slug !== 'bible' && $slug !== 'bibel' && $slug !== 'latin') {
             status_header(404);
@@ -577,8 +611,9 @@ class TheBible_Plugin {
         }
 
         status_header(200);
-        nocache_headers();
         header('Content-Type: application/xml; charset=UTF-8');
+        // Cache sitemaps for 1 day (they only change when content is regenerated)
+        header('Cache-Control: public, max-age=86400');
 
         echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
         echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
@@ -586,19 +621,33 @@ class TheBible_Plugin {
         $base_path = '/' . trim($slug, '/') . '/';
         $domain = rtrim( home_url(), '/' );
 
-        $index_url = $domain . $base_path;
-        echo '  <url><loc>' . esc_url($index_url) . '</loc></url>' . "\n";
+        // Translation index page
+        echo '  <url>' . "\n";
+        echo '    <loc>' . esc_url($domain . $base_path) . '</loc>' . "\n";
+        echo '    <priority>1.0</priority>' . "\n";
+        echo '  </url>' . "\n";
 
         foreach (self::$books as $entry) {
             if (!is_array($entry) || empty($entry['short_name'])) continue;
             $book_slug = self::slugify($entry['short_name']);
             if ($book_slug === '') continue;
-            // Book URL
-            $book_url = $domain . $base_path . $book_slug . '/';
-            echo '  <url><loc>' . esc_url($book_url) . '</loc></url>' . "\n";
 
-            // Per-verse URLs: scan the book HTML for verse IDs like slug-CH-V
+            // Get lastmod from HTML file modification time
             $file = self::html_dir() . $entry['filename'];
+            $lastmod = '';
+            if (file_exists($file)) {
+                $lastmod = date('Y-m-d', filemtime($file));
+            }
+            $lastmod_tag = $lastmod ? '    <lastmod>' . $lastmod . '</lastmod>' . "\n" : '';
+
+            // Book URL
+            echo '  <url>' . "\n";
+            echo '    <loc>' . esc_url($domain . $base_path . $book_slug . '/') . '</loc>' . "\n";
+            echo $lastmod_tag;
+            echo '    <priority>0.8</priority>' . "\n";
+            echo '  </url>' . "\n";
+
+            // Per-chapter and per-verse URLs: scan the book HTML for verse IDs
             if (!file_exists($file)) {
                 continue;
             }
@@ -610,17 +659,154 @@ class TheBible_Plugin {
             if (!preg_match_all($pattern, $html, $matches, PREG_SET_ORDER)) {
                 continue;
             }
-            $seen = [];
+
+            // Collect chapters and verses
+            $chapters = [];
             foreach ($matches as $m) {
                 $ch = intval($m[1]);
                 $v  = intval($m[2]);
                 if ($ch <= 0 || $v <= 0) continue;
-                $key = $ch . ':' . $v;
-                if (isset($seen[$key])) continue;
-                $seen[$key] = true;
-                $loc = $domain . $base_path . $book_slug . '/' . $ch . ':' . $v;
-                echo '  <url><loc>' . esc_url($loc) . '</loc></url>' . "\n";
+                if (!isset($chapters[$ch])) {
+                    $chapters[$ch] = [];
+                }
+                $chapters[$ch][] = $v;
             }
+
+            // Emit chapter-level entries (higher priority than verses)
+            foreach ($chapters as $ch => $verses) {
+                echo '  <url>' . "\n";
+                echo '    <loc>' . esc_url($domain . $base_path . $book_slug . '/' . $ch) . '</loc>' . "\n";
+                echo $lastmod_tag;
+                echo '    <priority>0.7</priority>' . "\n";
+                echo '  </url>' . "\n";
+            }
+
+            // Emit verse-level entries
+            foreach ($chapters as $ch => $verses) {
+                sort($verses);
+                $seen = [];
+                foreach ($verses as $v) {
+                    if (isset($seen[$v])) continue;
+                    $seen[$v] = true;
+                    echo '  <url>' . "\n";
+                    echo '    <loc>' . esc_url($domain . $base_path . $book_slug . '/' . $ch . ':' . $v) . '</loc>' . "\n";
+                    echo $lastmod_tag;
+                    echo '  </url>' . "\n";
+                }
+            }
+        }
+
+        echo '</urlset>';
+        exit;
+    }
+
+    /**
+     * Sitemap index — references all per-type sitemaps.
+     */
+    private static function handle_sitemap_index() {
+        $domain = rtrim( home_url(), '/' );
+        status_header(200);
+        header('Content-Type: application/xml; charset=UTF-8');
+        header('Cache-Control: public, max-age=86400');
+
+        echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+        echo '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+
+        $sitemaps = [
+            'bible-sitemap-bible.xml',
+            'bible-sitemap-bibel.xml',
+            'bible-sitemap-latin.xml',
+            'sitemap-prayers.xml',
+            'sitemap-saints.xml',
+        ];
+        foreach ( $sitemaps as $sm ) {
+            echo '  <sitemap>' . "\n";
+            echo '    <loc>' . esc_url( $domain . '/' . $sm ) . '</loc>' . "\n";
+            echo '  </sitemap>' . "\n";
+        }
+
+        echo '</sitemapindex>';
+        exit;
+    }
+
+    /**
+     * Prayer sitemap — one entry per published prayer.
+     */
+    private static function handle_sitemap_prayers() {
+        $domain = rtrim( home_url(), '/' );
+
+        // Query published prayers
+        $posts = get_posts( [
+            'post_type'      => 'dw_prayer',
+            'post_status'    => 'publish',
+            'posts_per_page' => 500,
+            'orderby'        => 'title',
+            'order'          => 'ASC',
+        ] );
+
+        status_header(200);
+        header('Content-Type: application/xml; charset=UTF-8');
+        header('Cache-Control: public, max-age=86400');
+
+        echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+        echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+
+        // Prayer index page
+        echo '  <url>' . "\n";
+        echo '    <loc>' . esc_url( $domain . '/prayers/' ) . '</loc>' . "\n";
+        echo '    <priority>0.9</priority>' . "\n";
+        echo '  </url>' . "\n";
+
+        foreach ( $posts as $post ) {
+            $url     = get_permalink( $post );
+            $lastmod = date( 'Y-m-d', strtotime( $post->post_modified_gmt ) );
+            echo '  <url>' . "\n";
+            echo '    <loc>' . esc_url( $url ) . '</loc>' . "\n";
+            echo '    <lastmod>' . $lastmod . '</lastmod>' . "\n";
+            echo '    <priority>0.7</priority>' . "\n";
+            echo '  </url>' . "\n";
+        }
+
+        echo '</urlset>';
+        exit;
+    }
+
+    /**
+     * Saint sitemap — one entry per published saint.
+     */
+    private static function handle_sitemap_saints() {
+        $domain = rtrim( home_url(), '/' );
+
+        // Query published saints
+        $posts = get_posts( [
+            'post_type'      => 'dw_saint',
+            'post_status'    => 'publish',
+            'posts_per_page' => 1000,
+            'orderby'        => 'title',
+            'order'          => 'ASC',
+        ] );
+
+        status_header(200);
+        header('Content-Type: application/xml; charset=UTF-8');
+        header('Cache-Control: public, max-age=3600'); // saints change more often
+
+        echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+        echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+
+        // Saint archive page
+        echo '  <url>' . "\n";
+        echo '    <loc>' . esc_url( $domain . '/saints/' ) . '</loc>' . "\n";
+        echo '    <priority>0.9</priority>' . "\n";
+        echo '  </url>' . "\n";
+
+        foreach ( $posts as $post ) {
+            $url     = get_permalink( $post );
+            $lastmod = date( 'Y-m-d', strtotime( $post->post_modified_gmt ) );
+            echo '  <url>' . "\n";
+            echo '    <loc>' . esc_url( $url ) . '</loc>' . "\n";
+            echo '    <lastmod>' . $lastmod . '</lastmod>' . "\n";
+            echo '    <priority>0.7</priority>' . "\n";
+            echo '  </url>' . "\n";
         }
 
         echo '</urlset>';
@@ -1061,7 +1247,7 @@ class TheBible_Plugin {
         return array_values(array_unique($out));
     }
 
-    private static function filter_document_title($title) {
+    public static function filter_document_title($title) {
         if (!self::is_bible_request()) {
             return $title;
         }
@@ -1079,7 +1265,23 @@ class TheBible_Plugin {
             $parts = [];
         }
         if (is_string(self::$current_page_title) && self::$current_page_title !== '') {
-            $parts['title'] = self::$current_page_title;
+            // Append translation name for AI disambiguation
+            // e.g. "Genesis 1" → "Genesis 1 (Douay-Rheims)"
+            $slug = get_query_var(self::QV_SLUG);
+            $translations = [
+                'bible' => 'Douay-Rheims',
+                'bibel' => 'Menge',
+                'latin' => 'Vulgate',
+            ];
+            $suffix = '';
+            if (is_string($slug) && isset($translations[$slug])) {
+                $suffix = ' (' . $translations[$slug] . ')';
+            }
+            $parts['title'] = self::$current_page_title . $suffix;
+            // Remove site name — the translation name is the identifier,
+            // not the site. AI crawlers should see "John 3:16 (Douay-Rheims)".
+            unset($parts['site']);
+            unset($parts['tagline']);
         }
         return $parts;
     }
@@ -1095,21 +1297,49 @@ class TheBible_Plugin {
 
         $output .= "\n";
         $output .= "# ── AI Crawlers Welcome ────────────────────────────\n";
-        $output .= "# See /llms.txt for structured API documentation\n";
+        $output .= "# All content is public domain. See /llms.txt for API docs.\n";
         $output .= "\n";
 
-        $bots = [
-            'GPTBot', 'ChatGPT-User', 'ClaudeBot', 'anthropic-ai',
-            'PerplexityBot', 'GoogleOther', 'cohere-ai',
+        // Retrieval bots (cite content in AI answers — always allow)
+        $retrieval_bots = [
+            'ChatGPT-User',      // OpenAI: user-requested page fetch
+            'OAI-SearchBot',     // OpenAI: ChatGPT search results
+            'Claude-User',       // Anthropic: user-requested fetch
+            'Claude-SearchBot',  // Anthropic: search indexing
+            'PerplexityBot',     // Perplexity: indexing
+            'Perplexity-User',   // Perplexity: user retrieval
+            'DuckAssistBot',     // DuckDuckGo AI
+            'Applebot-Extended', // Siri / Apple Intelligence
+            'Amazonbot',         // Amazon Alexa
         ];
-        foreach ( $bots as $bot ) {
+        // Training bots (content enters model weights — allow for visibility)
+        $training_bots = [
+            'GPTBot',            // OpenAI model training
+            'ClaudeBot',         // Anthropic model training
+            'Google-Extended',   // Gemini training
+            'GoogleOther',       // Google non-search crawling
+            'anthropic-ai',      // Anthropic legacy
+            'cohere-ai',         // Cohere models
+            'meta-externalagent', // Meta AI
+            'CCBot',             // Common Crawl (used by many AI trainers)
+        ];
+
+        $output .= "# AI retrieval bots (cite content in AI answers)\n";
+        foreach ( $retrieval_bots as $bot ) {
+            $output .= "User-agent: {$bot}\nAllow: /\n\n";
+        }
+        $output .= "# AI training bots (content enters model weights)\n";
+        foreach ( $training_bots as $bot ) {
             $output .= "User-agent: {$bot}\nAllow: /\n\n";
         }
 
-        $output .= "# ── Bible Sitemaps ─────────────────────────────────\n";
+        $output .= "# ── Sitemaps ───────────────────────────────────────\n";
+        $output .= "Sitemap: {$site_url}/sitemap-index.xml\n";
         $output .= "Sitemap: {$site_url}/bible-sitemap-bible.xml\n";
         $output .= "Sitemap: {$site_url}/bible-sitemap-bibel.xml\n";
         $output .= "Sitemap: {$site_url}/bible-sitemap-latin.xml\n";
+        $output .= "Sitemap: {$site_url}/sitemap-prayers.xml\n";
+        $output .= "Sitemap: {$site_url}/sitemap-saints.xml\n";
 
         return $output;
     }

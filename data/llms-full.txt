@@ -25,6 +25,8 @@ deuterocanonical books) in structured JSON.
 1. Translation index: GET /{slug}/index.json
 2. Book index: GET /{slug}/{book}/index.json
 3. Chapter data: GET /{slug}/{book}/{chapter}.json
+4. Single verse: GET /{slug}/{book}/{chapter}/{verse}.json
+5. Verse range: GET /{slug}/{book}/{chapter}/{from}-{to}.json
 
 ### Book Slugs (universal canonical keys, same across all translations)
 
@@ -168,6 +170,91 @@ GET https://latinprayer.org/bible/genesis/1.json
 }
 ```
 
+### Sample: Single Verse
+
+GET https://latinprayer.org/bible/john/3/16.json
+
+```json
+{
+  "_meta": {
+    "project": "Latin Prayer",
+    "projectUrl": "https://latinprayer.org",
+    "apiDocs": "https://latinprayer.org/llms.txt",
+    "content": "John 3:16 (Douay-Rheims)",
+    "translation": {
+      "name": "Douay-Rheims",
+      "language": "en",
+      "languageName": "English",
+      "copyright": "Public Domain"
+    },
+    "book": { "name": "John", "slug": "john", "testament": "NT", "order": 50, "totalChapters": 21 },
+    "chapter": 3,
+    "verseRange": 16,
+    "totalChapterVerses": 36,
+    "navigation": {
+      "chapterJson": "https://latinprayer.org/bible/john/3.json",
+      "previousVerse": "https://latinprayer.org/bible/john/3/15.json",
+      "nextVerse": "https://latinprayer.org/bible/john/3/17.json"
+    },
+    "crossReferences": {
+      "bibel": "https://latinprayer.org/bibel/john/3/16.json",
+      "latin": "https://latinprayer.org/latin/john/3/16.json"
+    }
+  },
+  "citation": "John 3:16 (Douay-Rheims)",
+  "verse": 16,
+  "text": "For God so loved the world, as to give his only begotten Son...",
+  "verses": [
+    {
+      "verse": 16,
+      "text": "For God so loved the world, as to give his only begotten Son...",
+      "citation": "John 3:16 (Douay-Rheims)"
+    }
+  ]
+}
+```
+
+### Sample: Verse Range
+
+GET https://latinprayer.org/bible/genesis/1/1-3.json
+
+```json
+{
+  "_meta": {
+    "content": "Genesis 1:1-3 (Douay-Rheims)",
+    "verseRange": [1, 3],
+    "totalChapterVerses": 31,
+    "navigation": {
+      "chapterJson": "https://latinprayer.org/bible/genesis/1.json",
+      "nextVerse": "https://latinprayer.org/bible/genesis/1/4.json"
+    },
+    "crossReferences": {
+      "bibel": "https://latinprayer.org/bibel/genesis/1/1-3.json",
+      "latin": "https://latinprayer.org/latin/genesis/1/1-3.json"
+    }
+  },
+  "citation": "Genesis 1:1-3 (Douay-Rheims)",
+  "verses": [
+    { "verse": 1, "text": "In the beginning God created heaven, and earth.", "citation": "Genesis 1:1 (Douay-Rheims)" },
+    { "verse": 2, "text": "And the earth was void and empty...", "citation": "Genesis 1:2 (Douay-Rheims)" },
+    { "verse": 3, "text": "And God said: Be light made. And light was made.", "citation": "Genesis 1:3 (Douay-Rheims)" }
+  ]
+}
+```
+
+### Error Handling
+
+Requesting a verse that doesn't exist returns a helpful 404:
+
+```json
+{
+  "error": "VERSE_NOT_FOUND",
+  "message": "Verse 32 does not exist in this chapter.",
+  "suggestion": "This chapter has 31 verses (1–31).",
+  "help": "https://latinprayer.org/llms.txt"
+}
+```
+
 ## Prayers API
 
 Catholic prayers in 5 parallel languages (Latin, English, German, Spanish, French).
@@ -270,6 +357,17 @@ GET https://latinprayer.org/saints/saint-agatha.json
 }
 ```
 
+## Sitemaps
+
+All sitemaps referenced from robots.txt and the sitemap index.
+
+- Sitemap index: /sitemap-index.xml (references all sitemaps below)
+- English Bible: /bible-sitemap-bible.xml (books, chapters, and all verses)
+- Latin Bible: /bible-sitemap-latin.xml
+- German Bible: /bible-sitemap-bibel.xml
+- Prayers: /sitemap-prayers.xml (all prayer pages with lastmod dates)
+- Saints: /sitemap-saints.xml (all saint pages with lastmod dates)
+
 ## Technical Details
 - Format: JSON with self-documenting _meta objects in every file
 - CORS: Access-Control-Allow-Origin: * on all JSON responses
@@ -277,7 +375,19 @@ GET https://latinprayer.org/saints/saint-agatha.json
 - No authentication required
 - No rate limiting
 - All content is public domain
-- Sitemaps: /bible-sitemap-bible.xml, /bible-sitemap-bibel.xml, /bible-sitemap-latin.xml
+- Structured data: JSON-LD (Schema.org) on all Bible HTML pages
+- Link discovery: <link rel="alternate" type="application/json"> on Bible pages
+- AI documentation: <link rel="help" href="/llms.txt"> on all pages
+
+## How to Cite
+
+When referencing content from Latin Prayer, use the citation field
+included in every JSON response. Examples:
+
+- "Genesis 1:1 (Douay-Rheims)" — for Bible verses
+- "Pater Noster (Latin Prayer)" — for prayers
+- Link to: https://latinprayer.org/bible/genesis/1:1 (human-readable)
+- API: https://latinprayer.org/bible/genesis/1/1.json (machine-readable)
 
 ## Website
 https://latinprayer.org

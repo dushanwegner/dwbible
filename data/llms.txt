@@ -24,6 +24,8 @@ deuterocanonical books) in structured JSON:
 - Translation index: /{slug}/index.json
 - Book index: /{slug}/{book}/index.json
 - Chapter (all verses): /{slug}/{book}/{chapter}.json
+- Single verse: /{slug}/{book}/{chapter}/{verse}.json
+- Verse range: /{slug}/{book}/{chapter}/{from}-{to}.json
 
 ### Translation Slugs
 - bible = English (Douay-Rheims)
@@ -44,8 +46,11 @@ galatians, ephesians, philippians, colossians, 1-thessalonians,
 james, 1-peter, 2-peter, 1-john, 2-john, 3-john, jude, apocalypse
 
 ### Examples
-- Genesis 1 in English: https://latinprayer.org/bible/genesis/1.json
+- Genesis 1 (full chapter): https://latinprayer.org/bible/genesis/1.json
+- Genesis 1:1 (single verse): https://latinprayer.org/bible/genesis/1/1.json
+- Genesis 1:1-3 (verse range): https://latinprayer.org/bible/genesis/1/1-3.json
 - Psalm 23 in Latin: https://latinprayer.org/latin/psalms/23.json
+- John 3:16 in English: https://latinprayer.org/bible/john/3/16.json
 - Matthew 5 in German: https://latinprayer.org/bibel/matthew/5.json
 
 ### JSON Structure
@@ -54,6 +59,9 @@ book info, chapter/verse counts, navigation links (prev/next chapter, book
 index, translation index), and cross-references to the same passage in the
 other two translations. Each verse includes a citation field formatted for
 proper attribution (e.g., "Genesis 1:1 (Douay-Rheims)").
+
+Single-verse responses include top-level "verse", "text", and "citation"
+fields for convenience, plus navigation to previous/next verse.
 
 ## Prayers API
 
@@ -75,6 +83,14 @@ use If-Modified-Since for conditional requests (1-hour cache).
 
 ### Example
 - Saint Agatha: https://latinprayer.org/saints/saint-agatha.json
+
+## Sitemaps
+- [Sitemap Index](https://latinprayer.org/sitemap-index.xml): All sitemaps
+- [English Bible](https://latinprayer.org/bible-sitemap-bible.xml): All books, chapters, and verses
+- [Latin Bible](https://latinprayer.org/bible-sitemap-latin.xml): All books, chapters, and verses
+- [German Bible](https://latinprayer.org/bible-sitemap-bibel.xml): All books, chapters, and verses
+- [Prayers](https://latinprayer.org/sitemap-prayers.xml): All prayer pages
+- [Saints](https://latinprayer.org/sitemap-saints.xml): All saint pages
 
 ## Technical Details
 - Format: JSON with self-documenting _meta objects
