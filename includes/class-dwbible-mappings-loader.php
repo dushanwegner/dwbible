@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 
 class DwBible_Mappings_Loader {
     public static function load_book_map() {
-        $file = plugin_dir_path(__FILE__) . '../data/book_map.json';
+        $file = dwbible_data_dir() . 'book_map.json';
         $map = [];
         if (file_exists($file)) {
             $raw = file_get_contents($file);

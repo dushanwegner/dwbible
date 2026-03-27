@@ -38,6 +38,19 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-autolink.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-nav-helpers.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-json-api.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-jsonld.php';
+/**
+ * Return the absolute path to the Bible data root directory.
+ * Checks dwbibledata plugin first, falls back to dwbible/data/.
+ */
+function dwbible_data_dir(): string {
+    if (defined('DWBIBLEDATA_DIR')) {
+        $dir = DWBIBLEDATA_DIR . 'data/';
+        if (is_dir($dir)) return $dir;
+    }
+    // Fallback: data/ inside this plugin (pre-split layout)
+    return plugin_dir_path(__FILE__) . 'data/';
+}
+
 class DwBible_Plugin {
     use DwBible_Interlinear_Trait;
     use DwBible_Router_Trait;
@@ -763,7 +776,7 @@ class DwBible_Plugin {
         $domain = rtrim( home_url(), '/' );
 
         // Load book index to generate per-book sitemap references
-        $data_dir = plugin_dir_path(__FILE__) . 'data/';
+        $data_dir = dwbible_data_dir();
         $datasets = [ 'bible', 'bibel', 'latin' ];
 
         status_header(200);
@@ -1150,7 +1163,7 @@ class DwBible_Plugin {
      * Load index.csv for a specific dataset (bible, bibel, latin).
      */
     private static function load_dataset_index($dataset) {
-        $csv = plugin_dir_path(__FILE__) . 'data/' . $dataset . '/html/index.csv';
+        $csv = dwbible_data_dir() . $dataset . '/html/index.csv';
         $parsed = DwBible_Index_Loader::load_index($csv);
         return is_array($parsed) && isset($parsed['books']) ? $parsed['books'] : [];
     }

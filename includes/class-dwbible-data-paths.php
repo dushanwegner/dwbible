@@ -11,7 +11,7 @@ class DwBible_Data_Paths {
             $slug = 'bible';
         }
         set_query_var(DwBible_Plugin::QV_SLUG, $slug);
-        $root = plugin_dir_path(__FILE__) . '../data/' . $slug . '/';
+        $root = dwbible_data_dir() . $slug . '/';
         if (is_dir($root)) {
             return $root;
         }
@@ -30,11 +30,11 @@ class DwBible_Data_Paths {
         if (!is_string($slug) || $slug === '') {
             $slug = 'bible';
         }
-        $old = plugin_dir_path(__FILE__) . '../data/' . $slug . '_books_html/';
+        $old = dwbible_data_dir() . $slug . '_books_html/';
         if (is_dir($old)) {
             return $old;
         }
-        $fallback = plugin_dir_path(__FILE__) . '../data/bible_books_html/';
+        $fallback = dwbible_data_dir() . 'bible_books_html/';
         return $fallback;
     }
 
@@ -50,11 +50,11 @@ class DwBible_Data_Paths {
         if (!is_string($slug) || $slug === '') {
             $slug = 'bible';
         }
-        $old = plugin_dir_path(__FILE__) . '../data/' . $slug . '_books_text/';
+        $old = dwbible_data_dir() . $slug . '_books_text/';
         if (is_dir($old)) {
             return $old;
         }
-        $fallback = plugin_dir_path(__FILE__) . '../data/bible_books_text/';
+        $fallback = dwbible_data_dir() . 'bible_books_text/';
         return $fallback;
     }
 }
