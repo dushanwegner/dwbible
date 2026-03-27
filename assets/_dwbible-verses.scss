@@ -1,0 +1,109 @@
+/* Verse styling + interlinear layout */
+
+.dwbible {
+  /* Used for JS-driven verse highlighting */
+  .verse-highlight {
+    background: #fff3cd;
+    padding: 0 .2em;
+    border-radius: .15rem;
+  }
+
+  .dwbible-book {
+    p.verse {
+      transition: background-color 1.6s ease-out;
+
+      &.verse-flash {
+        background: #fff3cd;
+      }
+    }
+  }
+
+  /* Interlinear display adjustments */
+  &.dwbible-interlinear {
+    padding-top: 0;
+
+    .dwbible-interlinear-verse {
+      margin-bottom: 1.5em;
+
+      p {
+        margin: 0 0 0.25em 0;
+        padding: 0.25em .2em;
+      }
+
+      .dwbible-interlinear-entry.verse-highlight {
+        margin: 0;
+        padding: 0.25em .2em;
+        border-radius: 0;
+      }
+
+      .dwbible-interlinear-entry.verse-highlight:first-child {
+        border-top-left-radius: .15rem;
+        border-top-right-radius: .15rem;
+      }
+
+      .dwbible-interlinear-entry.verse-highlight:last-child {
+        border-bottom-left-radius: .15rem;
+        border-bottom-right-radius: .15rem;
+      }
+    }
+
+    /* First language / primary line — only bold when multiple languages shown */
+    &[data-datasets*=","] .dwbible-interlinear-a {
+      font-weight: 600;
+      padding-bottom: 0.5em;
+    }
+    .dwbible-interlinear-a .verse-num {
+      opacity: 0.5;
+    }
+
+    /* Second / third language lines */
+    .dwbible-interlinear-b,
+    .dwbible-interlinear-c {
+      opacity: 0.9;
+      font-size: 0.95em;
+      .verse-num {
+        display: none;
+      }
+    }
+
+    /*
+      Hooks for customizing interlinear output.
+
+      These selectors intentionally include a tiny custom property so they survive compilation.
+      Replace/remove the property as you see fit.
+    */
+
+    /* Container semantics */
+    &[data-interlinear="1"] { --dwbible-hook: 1; }
+    &[data-datasets] { --dwbible-hook: 1; }
+    &[data-first-dataset] { --dwbible-hook: 1; }
+    &[data-book] { --dwbible-hook: 1; }
+    &[data-ch] { --dwbible-hook: 1; }
+
+    /* Verse wrapper semantics */
+    .dwbible-interlinear-verse { --dwbible-hook: 1; }
+    .dwbible-interlinear-verse[data-verse] { --dwbible-hook: 1; }
+    .dwbible-interlinear-verse[data-book] { --dwbible-hook: 1; }
+    .dwbible-interlinear-verse[data-ch] { --dwbible-hook: 1; }
+
+    /* Per-entry semantics (each <p> that represents one dataset line for a verse) */
+    .dwbible-interlinear-entry { --dwbible-hook: 1; }
+    .dwbible-interlinear-entry--pos-a { --dwbible-hook: 1; }
+    .dwbible-interlinear-entry--pos-b { --dwbible-hook: 1; }
+    .dwbible-interlinear-entry--pos-c { --dwbible-hook: 1; }
+
+    .dwbible-interlinear-entry--idx-0 { --dwbible-hook: 1; }
+    .dwbible-interlinear-entry--idx-1 { --dwbible-hook: 1; }
+    .dwbible-interlinear-entry--idx-2 { --dwbible-hook: 1; }
+
+    /* Dataset identity (language) */
+    .dwbible-interlinear-entry--dataset-bible { --dwbible-hook: 1; }
+    .dwbible-interlinear-entry--dataset-bibel { --dwbible-hook: 1; }
+    .dwbible-interlinear-entry--dataset-latin { --dwbible-hook: 1; }
+
+    /* Back-compat dataset identity classes (already present on the <p>) */
+    .dwbible-interlinear-bible { --dwbible-hook: 1; }
+    .dwbible-interlinear-bibel { --dwbible-hook: 1; }
+    .dwbible-interlinear-latin { --dwbible-hook: 1; }
+  }
+}

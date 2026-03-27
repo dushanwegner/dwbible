@@ -1,4 +1,4 @@
-# TheBible interlinear regression URLs
+# DwBible interlinear regression URLs
 # One URL per line. Lines starting with # are ignored by the suggested curl smoke test.
 
 # Normal / known-good
@@ -9,8 +9,8 @@ http://latinprayer.local/bibel-latin/psalmen/1/
 http://latinprayer.local/bible-latin/psalms/1/
 
 # Verse range highlighting (should still render)
-http://latinprayer.local/bible-latin/job/31/?thebible_vfrom=4&thebible_vto=7
-http://latinprayer.local/bibel-latin/hiob/31/?thebible_vfrom=4&thebible_vto=7
+http://latinprayer.local/bible-latin/job/31/?dwbible_vfrom=4&dwbible_vto=7
+http://latinprayer.local/bibel-latin/hiob/31/?dwbible_vfrom=4&dwbible_vto=7
 
 # Known mismatch / edge cases (should be 200 with notices)
 http://latinprayer.local/bibel-latin/daniel/13/

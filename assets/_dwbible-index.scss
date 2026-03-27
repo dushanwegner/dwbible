@@ -1,0 +1,79 @@
+/* -----------------------------------------------------------------------
+   Index page — categorized book tile grid
+   ----------------------------------------------------------------------- */
+
+// Testament divider
+.dwbible-testament-divider {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 1.5rem 0;
+}
+
+// Category section
+.dwbible-category {
+  margin-bottom: 1.5rem;
+}
+
+.dwbible-category-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #999;
+  margin: 0 0 0.625rem 0;
+}
+
+// Book tile grid
+.dwbible-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.dwbible-tile {
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+  background: #fff;
+
+  &:hover {
+    border-color: #8b1a1a;
+    box-shadow: 0 2px 8px rgba(139, 26, 26, 0.1);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.dwbible-tile-name {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #333;
+}
+
+// Hidden separator — AI reads it from raw HTML source; aria-label covers screen readers
+.dwbible-tile-sep {
+  display: none;
+}
+
+.dwbible-tile-alt {
+  font-size: 0.6875rem;
+  color: #999;
+  line-height: 1.2;
+  margin-top: 0.125rem;
+}
+
+// Responsive: 2 columns on very narrow screens
+@media (max-width: 380px) {
+  .dwbible-tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

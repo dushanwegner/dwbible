@@ -1,0 +1,513 @@
+/* The Bible plugin styles (SCSS entrypoint)
+   This file is intended to be compiled by your watcher.
+*/
+/* Sticky header / controls */
+.dwbible {
+  /* Sticky header wrapper (sometimes rendered outside .dwbible too; see global fallback below) */
+}
+.dwbible .dwbible-sticky {
+  position: sticky;
+  top: 0;
+  top: env(safe-area-inset-top, 0);
+  z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 24px rgba(255, 255, 255, 0.85);
+  font-size: 0.9rem;
+  padding: 0.375rem 0 0.5rem !important;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+.dwbible .dwbible-sticky__controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.dwbible {
+  /* Arrow buttons: prev / top / next */
+}
+.dwbible .dwbible-ctl {
+  color: inherit;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.dwbible .dwbible-ctl:is(.is-disabled) {
+  opacity: 0.35;
+  pointer-events: none;
+}
+.dwbible {
+  /* Generic text button (used in share controls, etc.) */
+}
+.dwbible .dwbible-btn {
+  font-size: 0.85rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+.dwbible .dwbible-btn:hover {
+  background: #f1f3f5;
+}
+
+/* Fallback: sticky header can exist outside .dwbible on some templates */
+.dwbible-sticky {
+  position: sticky;
+  top: 0;
+  top: env(safe-area-inset-top, 0);
+  z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 24px rgba(255, 255, 255, 0.85);
+  font-size: 0.9rem;
+  padding: 0.375rem 0 0.5rem !important;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+.dwbible-sticky__controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.dwbible-ctl {
+  color: inherit;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.dwbible-ctl:is(.is-disabled) {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Bottom prev/next navigation */
+.dwbible-bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+/* Chapter picker button */
+.dwbible-ch-picker {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15em;
+}
+.dwbible-ch-picker:hover {
+  opacity: 0.7;
+}
+.dwbible-ch-picker.has-selection {
+  cursor: default;
+}
+.dwbible-ch-picker.has-selection .dwbible-ch-picker__caret {
+  display: none;
+}
+.dwbible-ch-picker__caret {
+  font-size: 0.9em;
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+.dwbible-ch-picker.is-open .dwbible-ch-picker__caret {
+  transform: rotate(180deg);
+}
+
+/* Chapter picker grid overlay */
+.dwbible-ch-grid {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  z-index: 999;
+  grid-template-columns: repeat(auto-fill, minmax(2.2rem, 1fr));
+  gap: 0.25rem;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+.dwbible-ch-grid.is-open {
+  display: grid;
+}
+.dwbible-ch-grid__cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.85rem;
+}
+.dwbible-ch-grid__cell:hover {
+  background: #f1f3f5;
+}
+.dwbible-ch-grid__cell.is-current {
+  background: #e9ecef;
+  font-weight: 600;
+}
+
+/* Verse styling + interlinear layout */
+.dwbible {
+  /* Used for JS-driven verse highlighting */
+}
+.dwbible .verse-highlight {
+  background: #fff3cd;
+  padding: 0 0.2em;
+  border-radius: 0.15rem;
+}
+.dwbible .dwbible-book p.verse {
+  transition: background-color 1.6s ease-out;
+}
+.dwbible .dwbible-book p.verse.verse-flash {
+  background: #fff3cd;
+}
+.dwbible {
+  /* Interlinear display adjustments */
+}
+.dwbible.dwbible-interlinear {
+  padding-top: 0;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-verse {
+  margin-bottom: 1.5em;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-verse p {
+  margin: 0 0 0.25em 0;
+  padding: 0.25em 0.2em;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-verse .dwbible-interlinear-entry.verse-highlight {
+  margin: 0;
+  padding: 0.25em 0.2em;
+  border-radius: 0;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-verse .dwbible-interlinear-entry.verse-highlight:first-child {
+  border-top-left-radius: 0.15rem;
+  border-top-right-radius: 0.15rem;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-verse .dwbible-interlinear-entry.verse-highlight:last-child {
+  border-bottom-left-radius: 0.15rem;
+  border-bottom-right-radius: 0.15rem;
+}
+.dwbible.dwbible-interlinear {
+  /* First language / primary line — only bold when multiple languages shown */
+}
+.dwbible.dwbible-interlinear[data-datasets*=","] .dwbible-interlinear-a {
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-a .verse-num {
+  opacity: 0.5;
+}
+.dwbible.dwbible-interlinear {
+  /* Second / third language lines */
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-b,
+.dwbible.dwbible-interlinear .dwbible-interlinear-c {
+  opacity: 0.9;
+  font-size: 0.95em;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-b .verse-num,
+.dwbible.dwbible-interlinear .dwbible-interlinear-c .verse-num {
+  display: none;
+}
+.dwbible.dwbible-interlinear {
+  /*
+    Hooks for customizing interlinear output.
+
+    These selectors intentionally include a tiny custom property so they survive compilation.
+    Replace/remove the property as you see fit.
+  */
+  /* Container semantics */
+}
+.dwbible.dwbible-interlinear[data-interlinear="1"] {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear[data-datasets] {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear[data-first-dataset] {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear[data-book] {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear[data-ch] {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear {
+  /* Verse wrapper semantics */
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-verse {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-verse[data-verse] {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-verse[data-book] {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-verse[data-ch] {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear {
+  /* Per-entry semantics (each <p> that represents one dataset line for a verse) */
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-entry {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-entry--pos-a {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-entry--pos-b {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-entry--pos-c {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-entry--idx-0 {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-entry--idx-1 {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-entry--idx-2 {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear {
+  /* Dataset identity (language) */
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-entry--dataset-bible {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-entry--dataset-bibel {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-entry--dataset-latin {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear {
+  /* Back-compat dataset identity classes (already present on the <p>) */
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-bible {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-bibel {
+  --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear .dwbible-interlinear-latin {
+  --dwbible-hook: 1;
+}
+
+/* Language switcher block (interlinear pages)
+
+   This is intentionally light on styling.
+   It mostly provides structure + hook classes so you can style as you like.
+*/
+.dwbible .dwbible-language-switcher {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+.dwbible .dwbible-language-switcher a {
+  color: inherit;
+}
+.dwbible .dwbible-language-switcher {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 1.5rem;
+  /* Generic hooks */
+  --dwbible-hook: 1;
+  /* State hooks */
+}
+.dwbible .dwbible-language-switcher.is-current {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher {
+  /* Group hooks */
+}
+.dwbible .dwbible-language-switcher__group {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__group--single {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__group--first {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__group--second {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__label {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link.is-current {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link--single {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link--first {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link--second {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link {
+  /* Per-language hooks */
+}
+.dwbible .dwbible-language-switcher__link--bible {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link--bibel {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link--latin {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link {
+  /* First/Second picker per-language hooks */
+}
+.dwbible .dwbible-language-switcher__link--first-bible {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link--first-bibel {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link--first-latin {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link--second-bible {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link--second-bibel {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher__link--second-latin {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher {
+  /* Data attributes for state-based styling */
+}
+.dwbible .dwbible-language-switcher[data-current-slug] {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher[data-current-first] {
+  --dwbible-hook: 1;
+}
+.dwbible .dwbible-language-switcher[data-current-second] {
+  --dwbible-hook: 1;
+}
+
+/* -----------------------------------------------------------------------
+   Index page — categorized book tile grid
+   ----------------------------------------------------------------------- */
+
+/* Testament divider */
+.dwbible-testament-divider {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 1.5rem 0;
+}
+
+/* Category section */
+.dwbible-category {
+  margin-bottom: 1.5rem;
+}
+
+.dwbible-category-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #999;
+  margin: 0 0 0.625rem 0;
+}
+
+/* Book tile grid */
+.dwbible-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.dwbible-tile {
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+  background: #fff;
+}
+
+.dwbible-tile:hover {
+  border-color: #8b1a1a;
+  box-shadow: 0 2px 8px rgba(139, 26, 26, 0.1);
+  transform: translateY(-1px);
+}
+
+.dwbible-tile:active {
+  transform: translateY(0);
+}
+
+.dwbible-tile-name {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #333;
+}
+
+.dwbible-tile-sep {
+  display: none;
+}
+
+.dwbible-tile-alt {
+  font-size: 0.6875rem;
+  color: #999;
+  line-height: 1.2;
+  margin-top: 0.125rem;
+}
+
+/* Responsive: 2 columns on very narrow screens */
+@media (max-width: 380px) {
+  .dwbible-tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

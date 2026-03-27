@@ -59,8 +59,8 @@
     $(document).ready(function() {
         // Font picker
         initMediaPicker(
-            'thebible_pick_font',
-            'thebible_og_font_url',
+            'dwbible_pick_font',
+            'dwbible_og_font_url',
             'font',
             'Select a font file',
             'Use this font'
@@ -68,8 +68,8 @@
 
         // Background image picker
         initMediaPicker(
-            'thebible_pick_bg',
-            'thebible_og_background_image_url',
+            'dwbible_pick_bg',
+            'dwbible_og_background_image_url',
             'image',
             'Select background image',
             'Use this image'
@@ -77,8 +77,8 @@
 
         // Icon picker
         initMediaPicker(
-            'thebible_pick_icon',
-            'thebible_og_icon_url',
+            'dwbible_pick_icon',
+            'dwbible_og_icon_url',
             'image',
             'Select icon',
             'Use this image'

@@ -1,0 +1,67 @@
+/* Language switcher block (interlinear pages)
+
+   This is intentionally light on styling.
+   It mostly provides structure + hook classes so you can style as you like.
+*/
+
+.dwbible {
+  .dwbible-language-switcher {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: .85rem;
+    color: #666;
+    a {
+      color: inherit;
+    }
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    padding-top: 1.5rem;
+
+    /* Generic hooks */
+    --dwbible-hook: 1;
+
+    /* State hooks */
+    &.is-current { --dwbible-hook: 1; }
+
+    /* Group hooks */
+    &__group {
+      --dwbible-hook: 1;
+
+      &--single { --dwbible-hook: 1; }
+      &--first { --dwbible-hook: 1; }
+      &--second { --dwbible-hook: 1; }
+    }
+
+    &__label {
+      --dwbible-hook: 1;
+    }
+
+    &__link {
+      --dwbible-hook: 1;
+
+      &.is-current { --dwbible-hook: 1; }
+
+      &--single { --dwbible-hook: 1; }
+      &--first { --dwbible-hook: 1; }
+      &--second { --dwbible-hook: 1; }
+
+      /* Per-language hooks */
+      &--bible { --dwbible-hook: 1; }
+      &--bibel { --dwbible-hook: 1; }
+      &--latin { --dwbible-hook: 1; }
+
+      /* First/Second picker per-language hooks */
+      &--first-bible { --dwbible-hook: 1; }
+      &--first-bibel { --dwbible-hook: 1; }
+      &--first-latin { --dwbible-hook: 1; }
+
+      &--second-bible { --dwbible-hook: 1; }
+      &--second-bibel { --dwbible-hook: 1; }
+      &--second-latin { --dwbible-hook: 1; }
+    }
+
+    /* Data attributes for state-based styling */
+    &[data-current-slug] { --dwbible-hook: 1; }
+    &[data-current-first] { --dwbible-hook: 1; }
+    &[data-current-second] { --dwbible-hook: 1; }
+  }
+}
