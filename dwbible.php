@@ -1377,6 +1377,16 @@ class DwBible_Plugin {
     public static function filter_robots_txt( $output, $public ) {
         $site_url = site_url();
 
+        // Crawl-delay: Bible has ~31k verse pages. Without throttling,
+        // aggressive crawlers (Google, Bing) can saturate the server.
+        // Inject Crawl-delay into the default User-agent: * block.
+        $output = preg_replace(
+            '/^(User-agent:\s*\*\s*\n)/mi',
+            "$1Crawl-delay: 2\n",
+            $output,
+            1
+        );
+
         $output .= "\n";
         $output .= "# ── AI Crawlers Welcome ────────────────────────────\n";
         $output .= "# All content is public domain. See /llms.txt for API docs.\n";
