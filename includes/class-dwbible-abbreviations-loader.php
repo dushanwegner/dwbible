@@ -12,7 +12,7 @@ class DwBible_Abbreviations_Loader {
         }
         $map = [];
         $lang = ($slug === 'bibel') ? 'de' : 'en';
-        $file = plugin_dir_path(__FILE__) . '../data/' . $slug . '/abbreviations.' . $lang . '.json';
+        $file = dwbible_data_dir() . $slug . '/abbreviations.' . $lang . '.json';
         if (file_exists($file)) {
             $raw = file_get_contents($file);
             if ($raw === false) {

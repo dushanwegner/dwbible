@@ -20,7 +20,7 @@ class DwBible_Admin_AI {
         $prod_url = 'https://www.latinprayer.org';
 
         // Count content
-        $data_dir   = plugin_dir_path( __FILE__ ) . '../data/';
+        $data_dir   = dwbible_data_dir();
         $book_count = 0;
         foreach ( [ 'bible', 'bibel', 'latin' ] as $ds ) {
             $dir = $data_dir . $ds . '/html/';

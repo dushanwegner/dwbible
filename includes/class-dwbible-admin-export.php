@@ -16,7 +16,7 @@ class DwBible_Admin_Export {
         if ($slug !== 'bible' && $slug !== 'bibel') {
             wp_die('Unknown bible');
         }
-        $root = plugin_dir_path(__FILE__) . '../data/' . $slug . '/';
+        $root = dwbible_data_dir() . $slug . '/';
         $text_dir = trailingslashit($root) . 'text/';
         $html_dir = trailingslashit($root) . 'html/';
         $index = '';

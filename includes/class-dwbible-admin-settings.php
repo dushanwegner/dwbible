@@ -52,13 +52,13 @@ class DwBible_Admin_Settings {
                 $field = 'dwbible_footer_text_' . $fs;
                 $ft = isset($_POST[$field]) ? (string) wp_unslash( $_POST[$field] ) : '';
                 // New preferred location
-                $root = plugin_dir_path(__FILE__) . '../data/' . $fs . '/';
+                $root = dwbible_data_dir() . $fs . '/';
                 $ok = is_dir($root) || wp_mkdir_p($root);
                 if ( $ok ) {
                     @file_put_contents( trailingslashit($root) . 'copyright.md', $ft );
                 } else {
                     // Legacy fallback
-                    $dir = plugin_dir_path(__FILE__) . '../data/' . $fs . '_books_html/';
+                    $dir = dwbible_data_dir() . $fs . '_books_html/';
                     if ( is_dir($dir) || wp_mkdir_p($dir) ) {
                         @file_put_contents( trailingslashit($dir) . 'copyright.txt', $ft );
                     }
@@ -346,12 +346,12 @@ class DwBible_Admin_Settings {
                         <?php foreach ($known as $slug => $label): ?>
                         <?php
                             // Load existing footer for display
-                            $root = plugin_dir_path(__FILE__) . '../data/' . $slug . '/';
+                            $root = dwbible_data_dir() . $slug . '/';
                             $val = '';
                             if ( file_exists( $root . 'copyright.md' ) ) {
                                 $val = (string) file_get_contents( $root . 'copyright.md' );
                             } else {
-                                $legacy = plugin_dir_path(__FILE__) . '../data/' . $slug . '_books_html/copyright.txt';
+                                $legacy = dwbible_data_dir() . $slug . '_books_html/copyright.txt';
                                 if ( file_exists( $legacy ) ) { $val = (string) file_get_contents( $legacy ); }
                             }
                         ?>

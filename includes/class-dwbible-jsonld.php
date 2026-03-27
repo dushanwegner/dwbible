@@ -102,7 +102,7 @@ class DwBible_JsonLd {
     private static function book_display_name( $book_slug, $slug ) {
         static $book_map = null;
         if ( $book_map === null ) {
-            $file = plugin_dir_path( __FILE__ ) . '../data/book_map.json';
+            $file = dwbible_data_dir() . 'book_map.json';
             $book_map = file_exists( $file )
                 ? ( json_decode( file_get_contents( $file ), true ) ?: [] )
                 : [];

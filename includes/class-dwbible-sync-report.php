@@ -115,7 +115,7 @@ class DwBible_Sync_Report {
         $out = [];
 
         $datasets = ['bible', 'bibel', 'latin'];
-        $book_map_path = plugin_dir_path(__FILE__) . '../data/book_map.json';
+        $book_map_path = dwbible_data_dir() . 'book_map.json';
         $book_map = [];
         if (file_exists($book_map_path)) {
             $json = (string) file_get_contents($book_map_path);
@@ -154,7 +154,7 @@ class DwBible_Sync_Report {
             ];
         }
 
-        $index_file = plugin_dir_path(__FILE__) . '../data/' . $dataset . '/html/index.csv';
+        $index_file = dwbible_data_dir() . $dataset . '/html/index.csv';
         if (!file_exists($index_file)) {
             return [
                 'ok' => false,
@@ -190,7 +190,7 @@ class DwBible_Sync_Report {
             ];
         }
 
-        $html_path = plugin_dir_path(__FILE__) . '../data/' . $dataset . '/html/' . $filename;
+        $html_path = dwbible_data_dir() . $dataset . '/html/' . $filename;
         if (!file_exists($html_path)) {
             return [
                 'ok' => false,

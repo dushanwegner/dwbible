@@ -12,9 +12,10 @@ trait DwBible_Interlinear_Trait {
         $book_slug = is_string($book_slug) ? self::slugify($book_slug) : '';
         if ($dataset_slug === '' || $book_slug === '') return null;
 
-        $index_file = self::dwbible_plugin_root_dir() . 'data/' . $dataset_slug . '/html/index.csv';
+        $data_base = dwbible_data_dir();
+        $index_file = $data_base . $dataset_slug . '/html/index.csv';
         if (!file_exists($index_file)) {
-            $old = self::dwbible_plugin_root_dir() . 'data/' . $dataset_slug . '_books_html/index.csv';
+            $old = $data_base . $dataset_slug . '_books_html/index.csv';
             if (file_exists($old)) {
                 $index_file = $old;
             } else {
@@ -54,9 +55,10 @@ trait DwBible_Interlinear_Trait {
     private static function html_dir_for_dataset($dataset_slug) {
         $dataset_slug = is_string($dataset_slug) ? trim($dataset_slug) : '';
         if ($dataset_slug === '') return null;
-        $root = self::dwbible_plugin_root_dir() . 'data/' . $dataset_slug . '/html/';
+        $data_base = dwbible_data_dir();
+        $root = $data_base . $dataset_slug . '/html/';
         if (is_dir($root)) return trailingslashit($root);
-        $old = self::dwbible_plugin_root_dir() . 'data/' . $dataset_slug . '_books_html/';
+        $old = $data_base . $dataset_slug . '_books_html/';
         if (is_dir($old)) return trailingslashit($old);
         return null;
     }

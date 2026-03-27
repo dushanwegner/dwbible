@@ -46,7 +46,7 @@ trait DwBible_JSON_API_Trait {
         // The JSON dirs use book_map.json keys (genesis, psalms, matthew, ...)
         // while HTML URLs may use dataset-specific slugs (psalmen, matthaeus, ...).
         if ( ! empty( $book ) ) {
-            $base_test = plugin_dir_path( __FILE__ ) . '../data/' . $slug . '/json/';
+            $base_test = dwbible_data_dir() . $slug . '/json/';
             if ( ! is_dir( $base_test . $book ) ) {
                 $canonical_key = self::resolve_json_book_slug( $book, $slug );
                 if ( $canonical_key !== null ) {
@@ -56,7 +56,7 @@ trait DwBible_JSON_API_Trait {
         }
 
         // Build file path
-        $base = plugin_dir_path( __FILE__ ) . '../data/' . $slug . '/json/';
+        $base = dwbible_data_dir() . $slug . '/json/';
 
         if ( ! empty( $book ) && ! empty( $chapter ) ) {
             // Chapter file: data/{slug}/json/{book}/{chapter}.json
@@ -140,21 +140,37 @@ trait DwBible_JSON_API_Trait {
         // Build verse reference string
         $ref = $is_range ? "{$book_name} {$chapter}:{$vfrom}-{$vto}" : "{$book_name} {$chapter}:{$vfrom}";
 
-        // Build cross-references to same verse(s) in other translations
+        // HTML URL for this chapter (from pre-generated JSON, or construct from slug/book/chapter)
+        $chapter_html_url = $data['_meta']['navigation']['htmlUrl']
+            ?? "{$site_url}/{$slug}/{$book}/{$chapter}/";
+
+        // Build cross-references to same verse(s) in other translations (JSON + HTML)
         $cross_refs = [];
         $all_slugs  = [ 'bible', 'bibel', 'latin' ];
         $verse_path = $is_range ? "{$vfrom}-{$vto}.json" : "{$vfrom}.json";
         foreach ( $all_slugs as $ds ) {
             if ( $ds === $slug ) { continue; }
             $cross_refs[ $ds ] = "{$site_url}/{$ds}/{$book}/{$chapter}/{$verse_path}";
+            // HTML URL for the chapter page with verse highlight
+            $vq = $is_range
+                ? "?dwbible_vfrom={$vfrom}&dwbible_vto={$vto}"
+                : "?dwbible_vfrom={$vfrom}";
+            $cross_refs[ "{$ds}HtmlUrl" ] = "{$site_url}/{$ds}/{$book}/{$chapter}/{$vq}";
         }
 
-        // Build navigation links
+        // Build navigation links (JSON API + human-readable HTML)
         $total_verses = count( $data['verses'] );
+        $verse_qs = $is_range
+            ? "?dwbible_vfrom={$vfrom}&dwbible_vto={$vto}"
+            : "?dwbible_vfrom={$vfrom}";
         $nav = [
-            'chapterJson'     => "{$site_url}/{$slug}/{$book}/{$chapter}.json",
-            'bookIndex'       => $data['_meta']['navigation']['bookIndex'] ?? null,
+            'htmlUrl'          => $chapter_html_url . $verse_qs,
+            'chapterJson'      => "{$site_url}/{$slug}/{$book}/{$chapter}.json",
+            'chapterHtmlUrl'   => $chapter_html_url,
+            'bookIndex'        => $data['_meta']['navigation']['bookIndex'] ?? null,
+            'bookHtmlUrl'      => $data['_meta']['navigation']['bookHtmlUrl'] ?? null,
             'translationIndex' => $data['_meta']['navigation']['translationIndex'] ?? null,
+            'translationHtmlUrl' => $data['_meta']['navigation']['translationHtmlUrl'] ?? null,
         ];
         // Previous verse (or end of range)
         if ( $vfrom > 1 ) {
@@ -236,7 +252,7 @@ trait DwBible_JSON_API_Trait {
         ];
 
         // Load each translation's index.json (canonical slugs, JSON API URLs)
-        $data_dir = plugin_dir_path( __FILE__ ) . '../data/';
+        $data_dir = dwbible_data_dir();
         $indexes  = [];
         foreach ( array_keys( $datasets ) as $ds ) {
             $file = $data_dir . $ds . '/json/index.json';
@@ -323,7 +339,7 @@ trait DwBible_JSON_API_Trait {
      */
     private static function serve_llms_txt( $variant = 'llms' ) {
         $filename = ( $variant === 'llms-full' ) ? 'llms-full.txt' : 'llms.txt';
-        $file = plugin_dir_path( __FILE__ ) . '../data/' . $filename;
+        $file = dwbible_data_dir() . $filename;
 
         if ( ! file_exists( $file ) ) {
             status_header( 404 );
@@ -360,7 +376,7 @@ trait DwBible_JSON_API_Trait {
         if ( ! isset( $reverse_maps[ $dataset ] ) ) {
             $reverse_maps[ $dataset ] = [];
             $book_map = DwBible_Mappings_Loader::load_book_map();
-            $json_dir = plugin_dir_path( __FILE__ ) . '../data/' . $dataset . '/json/';
+            $json_dir = dwbible_data_dir() . $dataset . '/json/';
 
             // First pass: add entries whose canonical key has a real JSON directory.
             // These are authoritative and won't be overwritten.
