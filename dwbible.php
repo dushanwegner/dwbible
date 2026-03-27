@@ -978,7 +978,7 @@ class DwBible_Plugin {
     private static function render_index() {
         self::load_index();
         status_header(200);
-        nocache_headers();
+        header('Cache-Control: public, max-age=86400');
         $content = self::build_index_html();
         $footer = self::render_footer_html();
         if ($footer !== '') { $content .= $footer; }
@@ -1066,7 +1066,7 @@ class DwBible_Plugin {
         ]);
 
         status_header(200);
-        nocache_headers();
+        header('Cache-Control: public, max-age=86400'); // verse content is static — cache 24h
         $base_title = isset($entry['display_name']) && $entry['display_name'] !== ''
             ? $entry['display_name']
             : self::pretty_label($entry['short_name']);
