@@ -25,8 +25,11 @@
 /* Sticky header / controls */
 .dwbible {
   /* Sticky header wrapper (sometimes rendered outside .dwbible too; see global fallback below) */
+  /* Arrow buttons: prev / top / next */
+  /* Generic text button (used in share controls, etc.) */
 }
 .dwbible .dwbible-sticky {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   top: env(safe-area-inset-top, 0);
@@ -41,7 +44,9 @@
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 .dwbible .dwbible-sticky__left {
@@ -53,9 +58,6 @@
   display: flex;
   gap: 0.5rem;
   align-items: center;
-}
-.dwbible {
-  /* Arrow buttons: prev / top / next */
 }
 .dwbible .dwbible-ctl {
   color: inherit;
@@ -72,9 +74,6 @@
   opacity: 0.35;
   pointer-events: none;
 }
-.dwbible {
-  /* Generic text button (used in share controls, etc.) */
-}
 .dwbible .dwbible-btn {
   font-size: 0.85rem;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -90,6 +89,7 @@
 
 /* Fallback: sticky header can exist outside .dwbible on some templates */
 .dwbible-sticky {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   top: env(safe-area-inset-top, 0);
@@ -104,7 +104,9 @@
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 .dwbible-sticky__left {
@@ -210,6 +212,7 @@
 /* Verse styling + interlinear layout */
 .dwbible {
   /* Used for JS-driven verse highlighting */
+  /* Interlinear display adjustments */
 }
 .dwbible .verse-highlight {
   background: #fff3cd;
@@ -222,11 +225,21 @@
 .dwbible .dwbible-book p.verse.verse-flash {
   background: #fff3cd;
 }
-.dwbible {
-  /* Interlinear display adjustments */
-}
 .dwbible.dwbible-interlinear {
   padding-top: 0;
+  /* First language / primary line — only bold when multiple languages shown */
+  /* Second / third language lines */
+  /*
+    Hooks for customizing interlinear output.
+
+    These selectors intentionally include a tiny custom property so they survive compilation.
+    Replace/remove the property as you see fit.
+  */
+  /* Container semantics */
+  /* Verse wrapper semantics */
+  /* Per-entry semantics (each <p> that represents one dataset line for a verse) */
+  /* Dataset identity (language) */
+  /* Back-compat dataset identity classes (already present on the <p>) */
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-verse {
   margin-bottom: 1.5em;
@@ -248,18 +261,12 @@
   border-bottom-left-radius: 0.15rem;
   border-bottom-right-radius: 0.15rem;
 }
-.dwbible.dwbible-interlinear {
-  /* First language / primary line — only bold when multiple languages shown */
-}
 .dwbible.dwbible-interlinear[data-datasets*=","] .dwbible-interlinear-a {
   font-weight: 600;
   padding-bottom: 0.5em;
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-a .verse-num {
   opacity: 0.5;
-}
-.dwbible.dwbible-interlinear {
-  /* Second / third language lines */
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-b,
 .dwbible.dwbible-interlinear .dwbible-interlinear-c {
@@ -269,15 +276,6 @@
 .dwbible.dwbible-interlinear .dwbible-interlinear-b .verse-num,
 .dwbible.dwbible-interlinear .dwbible-interlinear-c .verse-num {
   display: none;
-}
-.dwbible.dwbible-interlinear {
-  /*
-    Hooks for customizing interlinear output.
-
-    These selectors intentionally include a tiny custom property so they survive compilation.
-    Replace/remove the property as you see fit.
-  */
-  /* Container semantics */
 }
 .dwbible.dwbible-interlinear[data-interlinear="1"] {
   --dwbible-hook: 1;
@@ -294,9 +292,6 @@
 .dwbible.dwbible-interlinear[data-ch] {
   --dwbible-hook: 1;
 }
-.dwbible.dwbible-interlinear {
-  /* Verse wrapper semantics */
-}
 .dwbible.dwbible-interlinear .dwbible-interlinear-verse {
   --dwbible-hook: 1;
 }
@@ -308,9 +303,6 @@
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-verse[data-ch] {
   --dwbible-hook: 1;
-}
-.dwbible.dwbible-interlinear {
-  /* Per-entry semantics (each <p> that represents one dataset line for a verse) */
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-entry {
   --dwbible-hook: 1;
@@ -333,9 +325,6 @@
 .dwbible.dwbible-interlinear .dwbible-interlinear-entry--idx-2 {
   --dwbible-hook: 1;
 }
-.dwbible.dwbible-interlinear {
-  /* Dataset identity (language) */
-}
 .dwbible.dwbible-interlinear .dwbible-interlinear-entry--dataset-bible {
   --dwbible-hook: 1;
 }
@@ -344,9 +333,6 @@
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-entry--dataset-latin {
   --dwbible-hook: 1;
-}
-.dwbible.dwbible-interlinear {
-  /* Back-compat dataset identity classes (already present on the <p>) */
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-bible {
   --dwbible-hook: 1;
@@ -368,22 +354,19 @@
   margin: 1rem 0;
   font-size: 0.85rem;
   color: #666;
-}
-.dwbible .dwbible-language-switcher a {
-  color: inherit;
-}
-.dwbible .dwbible-language-switcher {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding-top: 1.5rem;
   /* Generic hooks */
   --dwbible-hook: 1;
   /* State hooks */
+  /* Group hooks */
+  /* Data attributes for state-based styling */
+}
+.dwbible .dwbible-language-switcher a {
+  color: inherit;
 }
 .dwbible .dwbible-language-switcher.is-current {
   --dwbible-hook: 1;
-}
-.dwbible .dwbible-language-switcher {
-  /* Group hooks */
 }
 .dwbible .dwbible-language-switcher__group {
   --dwbible-hook: 1;
@@ -402,6 +385,8 @@
 }
 .dwbible .dwbible-language-switcher__link {
   --dwbible-hook: 1;
+  /* Per-language hooks */
+  /* First/Second picker per-language hooks */
 }
 .dwbible .dwbible-language-switcher__link.is-current {
   --dwbible-hook: 1;
@@ -415,9 +400,6 @@
 .dwbible .dwbible-language-switcher__link--second {
   --dwbible-hook: 1;
 }
-.dwbible .dwbible-language-switcher__link {
-  /* Per-language hooks */
-}
 .dwbible .dwbible-language-switcher__link--bible {
   --dwbible-hook: 1;
 }
@@ -426,9 +408,6 @@
 }
 .dwbible .dwbible-language-switcher__link--latin {
   --dwbible-hook: 1;
-}
-.dwbible .dwbible-language-switcher__link {
-  /* First/Second picker per-language hooks */
 }
 .dwbible .dwbible-language-switcher__link--first-bible {
   --dwbible-hook: 1;
@@ -447,9 +426,6 @@
 }
 .dwbible .dwbible-language-switcher__link--second-latin {
   --dwbible-hook: 1;
-}
-.dwbible .dwbible-language-switcher {
-  /* Data attributes for state-based styling */
 }
 .dwbible .dwbible-language-switcher[data-current-slug] {
   --dwbible-hook: 1;
