@@ -1,6 +1,27 @@
+@charset "UTF-8";
 /* The Bible plugin styles (SCSS entrypoint)
    This file is intended to be compiled by your watcher.
 */
+/* Edition title above sticky bar */
+.dwbible-edition-title {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 3rem 0 2rem !important;
+  color: #000;
+}
+@media (min-width: 768px) {
+  .dwbible-edition-title {
+    margin-top: 3rem;
+  }
+}
+.dwbible-edition-title a {
+  color: inherit !important;
+  text-decoration: none;
+}
+.dwbible-edition-title a:hover {
+  text-decoration: underline;
+}
+
 /* Sticky header / controls */
 .dwbible {
   /* Sticky header wrapper (sometimes rendered outside .dwbible too; see global fallback below) */
@@ -22,6 +43,11 @@
   gap: 0.5rem;
   backface-visibility: hidden;
   transform: translateZ(0);
+}
+.dwbible .dwbible-sticky__left {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 .dwbible .dwbible-sticky__controls {
   display: flex;
@@ -81,6 +107,11 @@
   backface-visibility: hidden;
   transform: translateZ(0);
 }
+.dwbible-sticky__left {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
 .dwbible-sticky__controls {
   display: flex;
   gap: 0.5rem;
@@ -103,14 +134,12 @@
   pointer-events: none;
 }
 
-/* Bottom prev/next navigation */
 .dwbible-bottom-nav {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
 }
 
-/* Chapter picker button */
 .dwbible-ch-picker {
   background: none;
   border: none;
@@ -132,16 +161,15 @@
 .dwbible-ch-picker.has-selection .dwbible-ch-picker__caret {
   display: none;
 }
+.dwbible-ch-picker.is-open .dwbible-ch-picker__caret {
+  transform: rotate(180deg);
+}
 .dwbible-ch-picker__caret {
   font-size: 0.9em;
   opacity: 0.5;
   transition: transform 0.2s;
 }
-.dwbible-ch-picker.is-open .dwbible-ch-picker__caret {
-  transform: rotate(180deg);
-}
 
-/* Chapter picker grid overlay */
 .dwbible-ch-grid {
   display: none;
   position: absolute;
@@ -436,15 +464,12 @@
 /* -----------------------------------------------------------------------
    Index page — categorized book tile grid
    ----------------------------------------------------------------------- */
-
-/* Testament divider */
 .dwbible-testament-divider {
   border: none;
   border-top: 2px solid #e0e0e0;
   margin: 1.5rem 0;
 }
 
-/* Category section */
 .dwbible-category {
   margin-bottom: 1.5rem;
 }
@@ -458,7 +483,6 @@
   margin: 0 0 0.625rem 0;
 }
 
-/* Book tile grid */
 .dwbible-tiles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -476,13 +500,11 @@
   transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
   background: #fff;
 }
-
 .dwbible-tile:hover {
   border-color: #8b1a1a;
   box-shadow: 0 2px 8px rgba(139, 26, 26, 0.1);
   transform: translateY(-1px);
 }
-
 .dwbible-tile:active {
   transform: translateY(0);
 }
@@ -505,7 +527,6 @@
   margin-top: 0.125rem;
 }
 
-/* Responsive: 2 columns on very narrow screens */
 @media (max-width: 380px) {
   .dwbible-tiles {
     grid-template-columns: repeat(2, 1fr);

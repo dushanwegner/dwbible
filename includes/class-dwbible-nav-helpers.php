@@ -48,7 +48,33 @@ class DwBible_Nav_Helpers {
         $sticky = self::build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index);
         self::$last_nav_ctx = $nav_ctx;
 
-        return $sticky . $html;
+        // Edition title above the sticky bar (e.g. "The Bible (Douay-Rheims)")
+        $edition_heading = self::build_edition_heading($slug, $bible_index);
+
+        return $edition_heading . $sticky . $html;
+    }
+
+    /**
+     * Build an edition title heading above the chapter content.
+     * Links back to the Bible index page.
+     */
+    private static function build_edition_heading($slug, $bible_index) {
+        // Map dataset slug (first part of combo slugs) to human-readable edition title
+        $primary = $slug;
+        if (strpos($primary, '-') !== false) {
+            $parts = explode('-', $primary);
+            $primary = $parts[0];
+        }
+        $editions = [
+            'bible' => 'The Bible (Douay-Rheims)',
+            'bibel' => 'Die Bibel (Menge)',
+            'latin' => 'Biblia Sacra (Vulgata Clementina)',
+        ];
+        $title = $editions[$primary] ?? 'The Bible';
+
+        return '<h2 class="dwbible-edition-title">'
+            . '<a href="' . $bible_index . '">' . esc_html($title) . '</a>'
+            . '</h2>';
     }
 
     /**
