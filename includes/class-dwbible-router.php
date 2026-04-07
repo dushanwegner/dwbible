@@ -147,6 +147,24 @@ trait DwBible_Router_Trait {
             set_query_var(self::QV_BOOK, $book_slug);
         }
 
+        // Redirect slash-form chapter/verse to canonical colon form.
+        // e.g. /bible/luke/24/13-35 → /bible/luke/24:13-35
+        $ch = get_query_var(self::QV_CHAPTER);
+        $vf = get_query_var(self::QV_VFROM);
+        if ($ch && $vf) {
+            $uri = strtok(isset($_SERVER['REQUEST_URI']) ? (string)$_SERVER['REQUEST_URI'] : '', '?');
+            // Slash form has /{ch}/[digit] in the URI; colon form has /{ch}:[digit].
+            if (preg_match('#/' . preg_quote($ch, '#') . '/[0-9]#', $uri)) {
+                $vt   = get_query_var(self::QV_VTO);
+                $path = '/' . trim($slug, '/') . '/' . $book_slug . '/' . $ch . ':' . $vf;
+                if ($vt && (int)$vt > (int)$vf) {
+                    $path .= '-' . (int)$vt;
+                }
+                wp_redirect(home_url($path), 301);
+                exit;
+            }
+        }
+
         // Always use multilingual renderer (1 dataset is the special case)
         self::render_multilingual_book($book_slug, $slug);
         exit; // prevent WP from continuing
