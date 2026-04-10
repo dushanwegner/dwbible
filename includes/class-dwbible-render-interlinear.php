@@ -272,18 +272,35 @@ trait DwBible_Interlinear_Trait {
             return;
         }
 
-        // If the URL book slug is localized for the first dataset (e.g. /bibel-latin/hiob/...)
-        // map it back to our canonical key (e.g. job) so other datasets can resolve properly.
+        // If the URL book slug is localized (e.g. /latin-bibel/psalmen/, /bibel-latin/hiob/),
+        // map it back to our canonical key so every dataset in the combo can resolve.
+        // We try each non-latin dataset in the combo, not just the first one — otherwise
+        // /latin-bibel/psalmen/ fails because "latin" doesn't recognize the German name.
         $first_dataset = $datasets[0] ?? '';
-        if (is_string($first_dataset) && $first_dataset !== '' && $first_dataset !== 'latin') {
-            $mapped_key = self::canonicalize_key_from_dataset_book_slug($first_dataset, $url_book_slug);
-            if (is_string($mapped_key) && $mapped_key !== '') {
-                $canonical_key = self::slugify($mapped_key);
+        $mapped_key = null;
+        foreach ($datasets as $ds) {
+            if (!is_string($ds) || $ds === '' || $ds === 'latin') continue;
+            $maybe = self::canonicalize_key_from_dataset_book_slug($ds, $url_book_slug);
+            if (is_string($maybe) && $maybe !== '') {
+                $mapped_key = $maybe;
+                break;
             }
+        }
+        if ($mapped_key !== null) {
+            $canonical_key = self::slugify($mapped_key);
         }
 
         // OSIS-based canonicalization (English is the reference segmentation).
-        $osis = self::osis_for_dataset_book_slug($first_dataset, $url_book_slug);
+        // Same combo fix: ask each dataset in turn whether it recognizes the slug.
+        $osis = null;
+        foreach ($datasets as $ds) {
+            if (!is_string($ds) || $ds === '') continue;
+            $maybe_osis = self::osis_for_dataset_book_slug($ds, $url_book_slug);
+            if (is_string($maybe_osis) && $maybe_osis !== '') {
+                $osis = $maybe_osis;
+                break;
+            }
+        }
         if (is_string($osis) && $osis !== '') {
             $bible_ref = self::dataset_book_slug_for_osis('bible', $osis);
             if (is_string($bible_ref) && $bible_ref !== '') {

@@ -41,16 +41,48 @@ trait DwBible_JSON_API_Trait {
         $vfrom   = absint( $vfrom );
         $vto     = absint( $vto );
 
-        // Resolve dataset-specific book slugs (e.g. "psalmen" → "psalms")
-        // to the canonical key used in the JSON file directory structure.
-        // The JSON dirs use book_map.json keys (genesis, psalms, matthew, ...)
-        // while HTML URLs may use dataset-specific slugs (psalmen, matthaeus, ...).
+        // Resolve user-supplied book slug to the canonical JSON directory key.
+        //
+        // Books may arrive in many forms — abbreviations ("gen", "jn", "1cor"),
+        // dataset-specific names ("psalmen", "matthaeus"), or the canonical key
+        // itself ("genesis"). We try three resolution strategies in order, each
+        // more lenient than the last, so the JSON API matches the HTML router's
+        // forgiving behaviour. AI agents in particular will guess slugs from
+        // citations they see elsewhere, so accepting common variants is critical.
         if ( ! empty( $book ) ) {
-            $base_test = dwbible_data_dir() . $slug . '/json/';
+            $base_test     = dwbible_data_dir() . $slug . '/json/';
+            $original_book = $book;
             if ( ! is_dir( $base_test . $book ) ) {
+                $resolved = null;
+
+                // Strategy 1: book_map.json reverse lookup (e.g. "psalmen" → "psalms").
                 $canonical_key = self::resolve_json_book_slug( $book, $slug );
-                if ( $canonical_key !== null ) {
-                    $book = $canonical_key;
+                if ( $canonical_key !== null && is_dir( $base_test . $canonical_key ) ) {
+                    $resolved = $canonical_key;
+                }
+
+                // Strategy 2: rich HTML resolver. Handles abbreviations like "gen",
+                // "jn", "matt", "1cor" via the dataset abbreviation maps + cross-
+                // dataset fallbacks (L1–L6 in canonical_book_slug_from_url).
+                if ( $resolved === null ) {
+                    $dataset_slug = self::canonical_book_slug_from_url( $original_book, $slug );
+                    if ( is_string( $dataset_slug ) && $dataset_slug !== '' ) {
+                        if ( is_dir( $base_test . $dataset_slug ) ) {
+                            $resolved = $dataset_slug;
+                        } else {
+                            // The HTML resolver returned a dataset URL slug that
+                            // differs from the JSON dir key (e.g. "psalmen" vs
+                            // "psalms"); translate it via book_map.json.
+                            $mapped = self::resolve_json_book_slug( $dataset_slug, $slug );
+                            if ( $mapped !== null && is_dir( $base_test . $mapped ) ) {
+                                $resolved = $mapped;
+                            }
+                        }
+                    }
+                }
+
+                if ( $resolved !== null ) {
+                    $book = $resolved;
                 }
             }
         }
@@ -70,7 +102,14 @@ trait DwBible_JSON_API_Trait {
         }
 
         if ( ! file_exists( $file ) ) {
-            self::serve_json_404();
+            self::serve_json_404( [
+                'requested' => [
+                    'slug'    => $slug,
+                    'book'    => $book,
+                    'chapter' => $chapter,
+                    'verse'   => $vfrom,
+                ],
+            ] );
             exit;
         }
 
@@ -226,16 +265,36 @@ trait DwBible_JSON_API_Trait {
 
     /**
      * Send a 404 JSON error response.
+     *
+     * @param array $context Optional ['requested' => [...]] context — included
+     *                       in the response so AI agents can self-correct.
      */
-    private static function serve_json_404() {
+    private static function serve_json_404( array $context = [] ) {
         status_header( 404 );
         header( 'Content-Type: application/json; charset=UTF-8' );
         header( 'Access-Control-Allow-Origin: *' );
-        echo json_encode( [
-            'error'   => 'Not found',
+
+        $site_url = site_url();
+        $body = [
+            'error'   => 'NOT_FOUND',
             'message' => 'The requested Bible content was not found.',
-            'help'    => 'See https://latinprayer.org/llms.txt for API documentation.',
-        ] );
+            'help'    => $site_url . '/llms.txt',
+            'hints'   => [
+                'unifiedIndex'    => $site_url . '/bible-index.json',
+                'translationSlugs' => [
+                    'bible' => 'English (Douay-Rheims)',
+                    'latin' => 'Latin (Clementine Vulgate)',
+                    'bibel' => 'German (Menge)',
+                ],
+                'urlPattern'      => '/{slug}/{book}/{chapter}/{verse}.json',
+                'example'         => $site_url . '/bible/genesis/1/1.json',
+                'tip'             => 'Book slugs accept canonical names (genesis, john, psalms), dataset names (psalmen, matthaeus), and standard abbreviations (gen, jn, ps, 1cor). Use the unified index to discover valid slugs in one fetch.',
+            ],
+        ];
+        if ( ! empty( $context['requested'] ) && is_array( $context['requested'] ) ) {
+            $body['requested'] = $context['requested'];
+        }
+        echo json_encode( $body, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
     }
 
     /**

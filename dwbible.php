@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.04.06.01
+* Version: 1.26.04.10.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.04.06.01');
+    define('DWBIBLE_VERSION', '1.26.04.10.01');
 }
 
 // Load include classes before hooks are registered
@@ -359,15 +359,29 @@ class DwBible_Plugin {
                 'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug . '&' . self::QV_BOOK . '=$matches[1]',
                 'top'
             );
-            // /{slug}/{book}/{chapter}/{verse}.json → single verse
+            // /{slug}/{book}/{chapter}/{verse}.json → single verse (slash form)
             add_rewrite_rule(
                 '^' . $qs . '/([^/]+)/([0-9]+)/([0-9]+)\.json$',
                 'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug . '&' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]',
                 'top'
             );
-            // /{slug}/{book}/{chapter}/{from}-{to}.json → verse range
+            // /{slug}/{book}/{chapter}/{from}-{to}.json → verse range (slash form)
             add_rewrite_rule(
                 '^' . $qs . '/([^/]+)/([0-9]+)/([0-9]+)-([0-9]+)\.json$',
+                'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug . '&' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]&' . self::QV_VTO . '=$matches[4]',
+                'top'
+            );
+            // /{slug}/{book}/{chapter}:{verse}.json → single verse (colon form)
+            // The HTML pages use the colon form as their canonical URL, so AI
+            // agents that simply append ".json" to a citation URL must succeed.
+            add_rewrite_rule(
+                '^' . $qs . '/([^/]+)/([0-9]+):([0-9]+)\.json$',
+                'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug . '&' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]',
+                'top'
+            );
+            // /{slug}/{book}/{chapter}:{from}-{to}.json → verse range (colon form)
+            add_rewrite_rule(
+                '^' . $qs . '/([^/]+)/([0-9]+):([0-9]+)-([0-9]+)\.json$',
                 'index.php?' . self::QV_FORMAT . '=json&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug . '&' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]&' . self::QV_VTO . '=$matches[4]',
                 'top'
             );

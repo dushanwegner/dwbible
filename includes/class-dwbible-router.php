@@ -41,6 +41,15 @@ trait DwBible_Router_Trait {
             self::handle_sitemap();
             exit;
         }
+
+        // HTML pages: single-language slugs always redirect to the Latin
+        // interlinear combo so users see Latin alongside their language.
+        // JSON, sitemap, OG-image and selftest paths exit above and never
+        // reach this redirect.
+        if (self::maybe_redirect_to_interlinear()) {
+            return;
+        }
+
         $book = get_query_var(self::QV_BOOK);
         if ($book) {
             if (self::maybe_redirect_external()) return;
@@ -53,6 +62,57 @@ trait DwBible_Router_Trait {
             self::render_index();
             exit; // prevent WP from continuing (e.g. home.php rendering widgets after </body>)
         }
+    }
+
+    /**
+     * Redirect single-language HTML pages to the Latin interlinear combo.
+     *
+     *   /bible/...  → /latin-bible/...   (Latin + English)
+     *   /bibel/...  → /latin-bibel/...   (Latin + German)
+     *   /latin/...  → unchanged          (already Latin-only)
+     *
+     * The HTML pages are intentionally always interlinear so users see the
+     * Latin original alongside their target language. The JSON API stays
+     * single-language: /bible/genesis/1.json returns Douay-Rheims only,
+     * /bibel/genesis/1.json returns Menge only — that path is dispatched
+     * by handle_request() before this redirect ever runs.
+     *
+     * @return bool True if a redirect was issued, false otherwise.
+     */
+    private static function maybe_redirect_to_interlinear() {
+        $slug = get_query_var(self::QV_SLUG);
+        if (!is_string($slug) || $slug === '') return false;
+
+        $map = [
+            'bible' => 'latin-bible',
+            'bibel' => 'latin-bibel',
+        ];
+        if (!isset($map[$slug])) return false;
+        $target = $map[$slug];
+
+        // Preserve the rest of the URL after the slug.
+        $uri = isset($_SERVER['REQUEST_URI']) ? (string)$_SERVER['REQUEST_URI'] : '';
+        if ($uri === '') return false;
+        $path = strtok($uri, '?');
+        $qs   = parse_url($uri, PHP_URL_QUERY);
+
+        // Replace only the leading /{slug}/ (or trailing /{slug}) with /{target}/.
+        $new_path = preg_replace(
+            '#^/' . preg_quote($slug, '#') . '(/|$)#',
+            '/' . $target . '$1',
+            (string) $path
+        );
+        if (!is_string($new_path) || $new_path === '' || $new_path === $path) {
+            return false;
+        }
+
+        $url = home_url($new_path);
+        if (is_string($qs) && $qs !== '') {
+            $url .= '?' . $qs;
+        }
+
+        wp_redirect($url, 301);
+        return true;
     }
 
     /**
@@ -105,16 +165,12 @@ trait DwBible_Router_Trait {
         if (!is_string($slug) || $slug === '') { $slug = 'bible'; }
         set_query_var(self::QV_SLUG, $slug);
 
-        // Canonicalize book slug based on the first dataset in the slug (e.g. latin-bible => latin)
-        $canon_dataset = $slug;
-        if (is_string($canon_dataset) && strpos($canon_dataset, '-') !== false) {
-            $parts = array_values(array_filter(array_map('trim', explode('-', $canon_dataset))));
-            if (!empty($parts)) {
-                $canon_dataset = $parts[0];
-            }
-        }
-
-        $canonical = self::canonical_book_slug_from_url($book_slug, $canon_dataset);
+        // For combo slugs (e.g. latin-bibel) we used to strip down to the first
+        // part, but that bypassed the resolver's own combo-recursion and broke
+        // dataset-specific book names like "psalmen" or "matthaeus" inside any
+        // combo whose first part isn't German. Pass the full slug instead — the
+        // resolver tries each dataset in turn and returns the first hit.
+        $canonical = self::canonical_book_slug_from_url($book_slug, $slug);
         if (!$canonical) {
             self::render_404();
             exit;
