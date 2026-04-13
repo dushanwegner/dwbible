@@ -118,20 +118,25 @@ trait DwBible_Interlinear_Trait {
         // Which interlinear languages are currently active?
         $en_active = in_array('bible', $datasets, true);
         $de_active = in_array('bibel', $datasets, true);
+        $ln_active = (!$en_active && !$de_active); // Latin-only when neither EN nor DE is shown
 
-        // Toggle: clicking an active language returns to Latin-only; clicking inactive adds it.
+        // Toggle: clicking an active EN/DE returns to Latin-only; clicking inactive adds it.
         $en_target = $en_active ? 'latin' : 'latin-bible';
         $de_target = $de_active ? 'latin' : 'latin-bibel';
 
+        $ln_url = self::bible_url_for_slug_and_canonical_book('latin', $canonical_book_slug, $ch, $vf, $vt);
         $en_url = self::bible_url_for_slug_and_canonical_book($en_target, $canonical_book_slug, $ch, $vf, $vt);
         $de_url = self::bible_url_for_slug_and_canonical_book($de_target, $canonical_book_slug, $ch, $vf, $vt);
 
         if (!is_string($en_url) || $en_url === '' || !is_string($de_url) || $de_url === '') return '';
 
+        $ln_cls = 'dwbible-lang-link dwbible-lang-link--ln' . ($ln_active ? ' active' : '');
         $en_cls = 'dwbible-lang-link dwbible-lang-link--en' . ($en_active ? ' active' : '');
         $de_cls = 'dwbible-lang-link dwbible-lang-link--de' . ($de_active ? ' active' : '');
 
         $html  = '<div class="dwbible-lang-switch">';
+        $html .= '<a class="' . esc_attr($ln_cls) . '" href="' . esc_url($ln_url) . '" data-lang="ln">LN</a>';
+        $html .= '<span class="dwbible-lang-sep">&middot;</span>';
         $html .= '<a class="' . esc_attr($en_cls) . '" href="' . esc_url($en_url) . '" data-lang="en">EN</a>';
         $html .= '<span class="dwbible-lang-sep">&middot;</span>';
         $html .= '<a class="' . esc_attr($de_cls) . '" href="' . esc_url($de_url) . '" data-lang="de">DE</a>';

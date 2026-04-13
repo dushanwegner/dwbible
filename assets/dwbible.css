@@ -379,7 +379,7 @@
   color: #555 !important;
 }
 .dwbible-lang-link.active {
-  color: #000 !important;
+  color: var(--bs-link-color, #a70000) !important;
   font-weight: 600;
 }
 
