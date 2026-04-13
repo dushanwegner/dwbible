@@ -369,17 +369,18 @@
   padding-top: 0.2rem;
 }
 
-/* !important overrides Bootstrap --bs-link-color CSS variable applied to all <a> */
+/* Inactive = site oxblood red; active/current = bold black.
+   !important overrides Bootstrap --bs-link-color on all <a> elements. */
 .dwbible-lang-link {
-  color: #aaa !important;
+  color: var(--bs-link-color, #a70000) !important;
   text-decoration: none !important;
   letter-spacing: 0.02em;
 }
 .dwbible-lang-link:hover {
-  color: #555 !important;
+  opacity: 0.7;
 }
 .dwbible-lang-link.active {
-  color: var(--bs-link-color, #a70000) !important;
+  color: #000 !important;
   font-weight: 600;
 }
 
