@@ -1,41 +1,46 @@
-/* Language picker — prayer-style horizontal links, same pattern as dwbooks
-   EN · DE plain-text toggles: inactive = gray, active = dark + bold.
-
-   .dwbible-edition-row wraps the edition title + switcher in a flex row
-   so the switcher sits at the top-right, matching the dwbooks header style.
+/* Edition row — flex container for the edition title + lang switcher.
+   Appears OUTSIDE .dwbible on interlinear pages, so no parent scope is used.
+   !important guards against Bootstrap and theme CSS overrides.
 */
 
-.dwbible {
-  .dwbible-edition-row {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+.dwbible-edition-row {
+  display: flex !important;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+/* Title takes all remaining space; !important beats any theme h2 width rule */
+.dwbible-edition-title {
+  flex: 1 !important;
+  min-width: 0 !important;
+}
+
+/* Language picker — prayer-style, same visual as dwbooks EN/DE/ES/FR */
+.dwbible-lang-switch {
+  flex-shrink: 0;
+  line-height: 1;
+  white-space: nowrap;
+  padding-top: 0.2rem;
+}
+
+/* !important overrides Bootstrap --bs-link-color CSS variable applied to all <a> */
+.dwbible-lang-link {
+  color: #aaa !important;
+  text-decoration: none !important;
+  letter-spacing: 0.02em;
+
+  &:hover {
+    color: #555 !important;
   }
 
-  .dwbible-lang-switch {
-    line-height: 1;
-    white-space: nowrap;
-    padding-top: 0.3rem;
-    flex-shrink: 0;
+  &.active {
+    color: #000 !important;
+    font-weight: 600;
   }
+}
 
-  .dwbible-lang-link {
-    color: #aaa;
-    text-decoration: none;
-    letter-spacing: 0.02em;
-
-    &:hover {
-      color: #555;
-    }
-
-    &.active {
-      color: #333;
-      font-weight: 600;
-    }
-  }
-
-  .dwbible-lang-sep {
-    color: #ddd;
-    margin: 0 0.25rem;
-  }
+.dwbible-lang-sep {
+  color: #ddd;
+  margin: 0 0.25rem;
 }
