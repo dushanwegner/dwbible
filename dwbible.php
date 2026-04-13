@@ -323,8 +323,8 @@ class DwBible_Plugin {
         return implode('', $slice);
     }
 
-    private static function inject_nav_helpers($html, $highlight_ids = [], $chapter_scroll_id = null, $book_label = '', $nav = null) {
-        return DwBible_Nav_Helpers::inject($html, $highlight_ids, $chapter_scroll_id, $book_label, $nav);
+    private static function inject_nav_helpers($html, $highlight_ids = [], $chapter_scroll_id = null, $book_label = '', $nav = null, $lang_switcher = '') {
+        return DwBible_Nav_Helpers::inject($html, $highlight_ids, $chapter_scroll_id, $book_label, $nav, $lang_switcher);
     }
 
     public static function activate() {
@@ -1087,12 +1087,19 @@ class DwBible_Plugin {
             $chapter_scroll_id = DwBible_Reference::chapter_scroll_id($book_slug, $ref['ch']);
         }
 
+        // Language switcher — placed top-right of the edition heading
+        $vf_sw = absint(get_query_var(self::QV_VFROM));
+        $vt_sw = absint(get_query_var(self::QV_VTO));
+        $slug_sw = get_query_var(self::QV_SLUG);
+        if (!is_string($slug_sw) || $slug_sw === '') { $slug_sw = 'bible'; }
+        $lang_switcher = self::render_interlinear_language_switcher($book_slug, [$slug_sw], $ch, $vf_sw, $vt_sw);
+
         // Inject navigation helpers and optional highlight/scroll behavior
         $human = isset($entry['display_name']) && $entry['display_name'] !== '' ? $entry['display_name'] : $entry['short_name'];
         $html = self::inject_nav_helpers($html, $targets, $chapter_scroll_id, $human, [
             'book' => $book_slug,
             'chapter' => $ch,
-        ]);
+        ], $lang_switcher);
 
         status_header(200);
         header('Cache-Control: public, max-age=86400'); // verse content is static — cache 24h
@@ -1133,15 +1140,9 @@ class DwBible_Plugin {
         } elseif ($ch) {
             $title = $base_title . ' ' . $ch;
         }
-        // Insert bottom prev/next nav just before the language switcher (if present)
+        // Append bottom prev/next nav after the verse content
         if (DwBible_Nav_Helpers::$last_nav_ctx) {
-            $bottom_nav = DwBible_Nav_Helpers::build_bottom_nav(DwBible_Nav_Helpers::$last_nav_ctx);
-            $switcher_pos = strpos($html, '<div class="dwbible-lang-switch"');
-            if ($switcher_pos !== false) {
-                $html = substr_replace($html, $bottom_nav, $switcher_pos, 0);
-            } else {
-                $html .= $bottom_nav;
-            }
+            $html .= DwBible_Nav_Helpers::build_bottom_nav(DwBible_Nav_Helpers::$last_nav_ctx);
         }
         $content = '<div class="dwbible dwbible-book">' . $html . '</div>';
         $footer = self::render_footer_html();

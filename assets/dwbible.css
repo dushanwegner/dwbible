@@ -346,12 +346,20 @@
 
 /* Language picker — prayer-style horizontal links, same pattern as dwbooks
    EN · DE plain-text toggles: inactive = gray, active = dark + bold.
+
+   .dwbible-edition-row wraps the edition title + switcher in a flex row
+   so the switcher sits at the top-right, matching the dwbooks header style.
 */
+.dwbible .dwbible-edition-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
 .dwbible .dwbible-lang-switch {
-  text-align: right;
   line-height: 1;
   white-space: nowrap;
   padding-top: 0.3rem;
+  flex-shrink: 0;
 }
 .dwbible .dwbible-lang-link {
   color: #aaa;

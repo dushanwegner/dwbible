@@ -499,12 +499,6 @@ trait DwBible_Interlinear_Trait {
             $out .= '</div>';
         }
 
-        $vf = absint(get_query_var(self::QV_VFROM));
-        $vt = absint(get_query_var(self::QV_VTO));
-        $switcher = self::render_interlinear_language_switcher($canonical_key, $datasets, $ch, $vf, $vt);
-        if (is_string($switcher) && $switcher !== '') {
-            $out .= $switcher;
-        }
         $out .= '</div>';
 
         // Build highlight/scroll targets (strict)
@@ -523,6 +517,11 @@ trait DwBible_Interlinear_Trait {
             $chapter_scroll_id = DwBible_Reference::chapter_scroll_id($canonical_key, $ref['ch']);
         }
 
+        // Language switcher — generated here so it can be passed to the edition heading (top-right)
+        $vf = absint(get_query_var(self::QV_VFROM));
+        $vt = absint(get_query_var(self::QV_VTO));
+        $lang_switcher = self::render_interlinear_language_switcher($canonical_key, $datasets, $ch, $vf, $vt);
+
         // Inject navigation helpers and sticky header for interlinear pages
         $first_entry = $entries[0] ?? null;
         $human = $first_entry && isset($first_entry['display_name']) && $first_entry['display_name'] !== ''
@@ -531,7 +530,7 @@ trait DwBible_Interlinear_Trait {
         $out = self::inject_nav_helpers($out, $targets, $chapter_scroll_id, $human, [
             'book' => $canonical_key,
             'chapter' => $ch,
-        ]);
+        ], $lang_switcher);
 
         status_header(200);
         nocache_headers();
@@ -548,15 +547,9 @@ trait DwBible_Interlinear_Trait {
             $title = trim($base_title . ' ' . $ch . ':' . ($vf === $vt ? $vf : ($vf . '-' . $vt)));
         }
 
-        // Insert bottom prev/next nav just before the language switcher
+        // Append bottom prev/next nav after the verse content
         if (DwBible_Nav_Helpers::$last_nav_ctx) {
-            $bottom_nav = DwBible_Nav_Helpers::build_bottom_nav(DwBible_Nav_Helpers::$last_nav_ctx);
-            $switcher_pos = strpos($out, '<div class="dwbible-lang-switch"');
-            if ($switcher_pos !== false) {
-                $out = substr_replace($out, $bottom_nav, $switcher_pos, 0);
-            } else {
-                $out .= $bottom_nav;
-            }
+            $out .= DwBible_Nav_Helpers::build_bottom_nav(DwBible_Nav_Helpers::$last_nav_ctx);
         }
         // Hidden AI discovery hints — readable by AI agents that strip <head> tags
         $site_url   = home_url();

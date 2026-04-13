@@ -30,7 +30,7 @@ class DwBible_Nav_Helpers {
      * @param array|null  $nav               Navigation context: ['book' => slug, 'chapter' => int].
      * @return string Modified HTML with navigation elements prepended.
      */
-    public static function inject($html, $highlight_ids = [], $chapter_scroll_id = null, $book_label = '', $nav = null) {
+    public static function inject($html, $highlight_ids = [], $chapter_scroll_id = null, $book_label = '', $nav = null, $lang_switcher = '') {
         if (!is_string($html) || $html === '') return $html;
 
         $html = self::inject_anchors_and_arrows($html);
@@ -48,8 +48,9 @@ class DwBible_Nav_Helpers {
         $sticky = self::build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index);
         self::$last_nav_ctx = $nav_ctx;
 
-        // Edition title above the sticky bar (e.g. "The Bible (Douay-Rheims)")
-        $edition_heading = self::build_edition_heading($slug, $bible_index);
+        // Edition title above the sticky bar, with optional EN·DE lang switcher top-right
+        $lang_switcher = is_string($lang_switcher) ? $lang_switcher : '';
+        $edition_heading = self::build_edition_heading($slug, $bible_index, $lang_switcher);
 
         return $edition_heading . $sticky . $html;
     }
@@ -58,7 +59,7 @@ class DwBible_Nav_Helpers {
      * Build an edition title heading above the chapter content.
      * Links back to the Bible index page.
      */
-    private static function build_edition_heading($slug, $bible_index) {
+    private static function build_edition_heading($slug, $bible_index, $lang_switcher = '') {
         // Map dataset slug (first part of combo slugs) to human-readable edition title
         $primary = $slug;
         if (strpos($primary, '-') !== false) {
@@ -72,9 +73,15 @@ class DwBible_Nav_Helpers {
         ];
         $title = $editions[$primary] ?? 'The Bible';
 
-        return '<h2 class="dwbible-edition-title">'
+        $heading = '<h2 class="dwbible-edition-title">'
             . '<a href="' . $bible_index . '">' . esc_html($title) . '</a>'
             . '</h2>';
+
+        // Wrap in a flex row so the lang switcher sits top-right of the title
+        return '<div class="dwbible-edition-row">'
+            . $heading
+            . $lang_switcher
+            . '</div>';
     }
 
     /**
