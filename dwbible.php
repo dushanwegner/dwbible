@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.04.10.01
+* Version: 1.26.04.13.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.04.10.01');
+    define('DWBIBLE_VERSION', '1.26.04.13.01');
 }
 
 // Load include classes before hooks are registered
@@ -1136,7 +1136,7 @@ class DwBible_Plugin {
         // Insert bottom prev/next nav just before the language switcher (if present)
         if (DwBible_Nav_Helpers::$last_nav_ctx) {
             $bottom_nav = DwBible_Nav_Helpers::build_bottom_nav(DwBible_Nav_Helpers::$last_nav_ctx);
-            $switcher_pos = strpos($html, '<div class="dwbible-language-switcher"');
+            $switcher_pos = strpos($html, '<div class="dwbible-lang-switch"');
             if ($switcher_pos !== false) {
                 $html = substr_replace($html, $bottom_nav, $switcher_pos, 0);
             } else {

@@ -1,67 +1,32 @@
-/* Language switcher block (interlinear pages)
-
-   This is intentionally light on styling.
-   It mostly provides structure + hook classes so you can style as you like.
+/* Language picker — prayer-style horizontal links, same pattern as dwbooks
+   EN · DE plain-text toggles: inactive = gray, active = dark + bold.
 */
 
 .dwbible {
-  .dwbible-language-switcher {
-    text-align: center;
-    margin: 1rem 0;
-    font-size: .85rem;
-    color: #666;
-    a {
-      color: inherit;
-    }
-    border-top: 1px solid rgba(0, 0, 0, .1);
-    padding-top: 1.5rem;
+  .dwbible-lang-switch {
+    text-align: right;
+    line-height: 1;
+    white-space: nowrap;
+    padding-top: 0.3rem;
+  }
 
-    /* Generic hooks */
-    --dwbible-hook: 1;
+  .dwbible-lang-link {
+    color: #aaa;
+    text-decoration: none;
+    letter-spacing: 0.02em;
 
-    /* State hooks */
-    &.is-current { --dwbible-hook: 1; }
-
-    /* Group hooks */
-    &__group {
-      --dwbible-hook: 1;
-
-      &--single { --dwbible-hook: 1; }
-      &--first { --dwbible-hook: 1; }
-      &--second { --dwbible-hook: 1; }
+    &:hover {
+      color: #555;
     }
 
-    &__label {
-      --dwbible-hook: 1;
+    &.active {
+      color: #333;
+      font-weight: 600;
     }
+  }
 
-    &__link {
-      --dwbible-hook: 1;
-
-      &.is-current { --dwbible-hook: 1; }
-
-      &--single { --dwbible-hook: 1; }
-      &--first { --dwbible-hook: 1; }
-      &--second { --dwbible-hook: 1; }
-
-      /* Per-language hooks */
-      &--bible { --dwbible-hook: 1; }
-      &--bibel { --dwbible-hook: 1; }
-      &--latin { --dwbible-hook: 1; }
-
-      /* First/Second picker per-language hooks */
-      &--first-bible { --dwbible-hook: 1; }
-      &--first-bibel { --dwbible-hook: 1; }
-      &--first-latin { --dwbible-hook: 1; }
-
-      &--second-bible { --dwbible-hook: 1; }
-      &--second-bibel { --dwbible-hook: 1; }
-      &--second-latin { --dwbible-hook: 1; }
-    }
-
-    /* Data attributes for state-based styling */
-    &[data-current-slug] { --dwbible-hook: 1; }
-    &[data-current-first] { --dwbible-hook: 1; }
-    &[data-current-second] { --dwbible-hook: 1; }
+  .dwbible-lang-sep {
+    color: #ddd;
+    margin: 0 0.25rem;
   }
 }

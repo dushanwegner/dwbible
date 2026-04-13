@@ -111,78 +111,32 @@ trait DwBible_Interlinear_Trait {
 
     private static function render_interlinear_language_switcher($canonical_book_slug, $datasets, $ch, $vf, $vt) {
         $canonical_book_slug = is_string($canonical_book_slug) ? self::slugify($canonical_book_slug) : '';
-        if ($canonical_book_slug === '') {
-            return '';
-        }
+        if ($canonical_book_slug === '') return '';
 
-        $slug_current = get_query_var(self::QV_SLUG);
-        $slug_current = is_string($slug_current) ? trim($slug_current, "/ ") : '';
-        if ($slug_current === '') {
-            return '';
-        }
+        $datasets = is_array($datasets) ? $datasets : [];
 
-        $known = ['bible' => 'English', 'bibel' => 'Deutsch', 'latin' => 'Latin'];
-        $d1 = (is_array($datasets) && isset($datasets[0]) && is_string($datasets[0])) ? $datasets[0] : '';
-        $d2 = (is_array($datasets) && isset($datasets[1]) && is_string($datasets[1])) ? $datasets[1] : '';
-        $current_slug = is_string($slug_current) ? $slug_current : '';
+        // Which interlinear languages are currently active?
+        $en_active = in_array('bible', $datasets, true);
+        $de_active = in_array('bibel', $datasets, true);
 
-        $html = '<div class="dwbible-language-switcher" data-language-switcher'
-            . ' data-current-slug="' . esc_attr($current_slug) . '"'
-            . ' data-current-first="' . esc_attr($d1) . '"'
-            . ' data-current-second="' . esc_attr($d2) . '"'
-            . '>';
+        // Toggle: clicking an active language returns to Latin-only; clicking inactive adds it.
+        $en_target = $en_active ? 'latin' : 'latin-bible';
+        $de_target = $de_active ? 'latin' : 'latin-bibel';
 
-        $html .= '<div class="dwbible-language-switcher__group dwbible-language-switcher__group--single" data-group="single">';
-        $html .= '<span class="dwbible-language-switcher__label">Single:</span> ';
-        foreach ($known as $slug => $label) {
-            $target = $slug;
-            $url = self::bible_url_for_slug_and_canonical_book($target, $canonical_book_slug, $ch, $vf, $vt);
-            if (!is_string($url) || $url === '') {
-                continue;
-            }
-            $is_current = ($current_slug === $target);
-            $cls = 'dwbible-language-switcher__link dwbible-language-switcher__link--single dwbible-language-switcher__link--' . $slug;
-            if ($is_current) { $cls .= ' is-current'; }
-            $label_html = $is_current ? ('<strong>' . esc_html($label) . '</strong>') : esc_html($label);
-            $html .= '<a class="' . esc_attr($cls) . '" data-target-slug="' . esc_attr($target) . '" href="' . esc_url($url) . '">' . $label_html . '</a> ';
-        }
+        $en_url = self::bible_url_for_slug_and_canonical_book($en_target, $canonical_book_slug, $ch, $vf, $vt);
+        $de_url = self::bible_url_for_slug_and_canonical_book($de_target, $canonical_book_slug, $ch, $vf, $vt);
+
+        if (!is_string($en_url) || $en_url === '' || !is_string($de_url) || $de_url === '') return '';
+
+        $en_cls = 'dwbible-lang-link dwbible-lang-link--en' . ($en_active ? ' active' : '');
+        $de_cls = 'dwbible-lang-link dwbible-lang-link--de' . ($de_active ? ' active' : '');
+
+        $html  = '<div class="dwbible-lang-switch">';
+        $html .= '<a class="' . esc_attr($en_cls) . '" href="' . esc_url($en_url) . '" data-lang="en">EN</a>';
+        $html .= '<span class="dwbible-lang-sep">&middot;</span>';
+        $html .= '<a class="' . esc_attr($de_cls) . '" href="' . esc_url($de_url) . '" data-lang="de">DE</a>';
         $html .= '</div>';
 
-        $html .= '<div class="dwbible-language-switcher__group dwbible-language-switcher__group--first" data-group="first">';
-        $html .= '<span class="dwbible-language-switcher__label">First:</span> ';
-        foreach ($known as $slug => $label) {
-            $target = $d2 !== '' ? ($slug . '-' . $d2) : $slug;
-            $url = self::bible_url_for_slug_and_canonical_book($target, $canonical_book_slug, $ch, $vf, $vt);
-            if (!is_string($url) || $url === '') {
-                continue;
-            }
-            $is_current = ($current_slug === $target);
-            $cls = 'dwbible-language-switcher__link dwbible-language-switcher__link--first dwbible-language-switcher__link--first-' . $slug;
-            if ($is_current) { $cls .= ' is-current'; }
-            $label_html = $is_current ? ('<strong>' . esc_html($label) . '</strong>') : esc_html($label);
-            $html .= '<a class="' . esc_attr($cls) . '" data-target-slug="' . esc_attr($target) . '" data-target-first="' . esc_attr($slug) . '" href="' . esc_url($url) . '">' . $label_html . '</a> ';
-        }
-        $html .= '</div>';
-
-        if ($d1 !== '') {
-            $html .= '<div class="dwbible-language-switcher__group dwbible-language-switcher__group--second" data-group="second">';
-            $html .= '<span class="dwbible-language-switcher__label">Second:</span> ';
-            foreach ($known as $slug => $label) {
-                $target = $d1 . '-' . $slug;
-                $url = self::bible_url_for_slug_and_canonical_book($target, $canonical_book_slug, $ch, $vf, $vt);
-                if (!is_string($url) || $url === '') {
-                    continue;
-                }
-                $is_current = ($current_slug === $target);
-                $cls = 'dwbible-language-switcher__link dwbible-language-switcher__link--second dwbible-language-switcher__link--second-' . $slug;
-                if ($is_current) { $cls .= ' is-current'; }
-                $label_html = $is_current ? ('<strong>' . esc_html($label) . '</strong>') : esc_html($label);
-                $html .= '<a class="' . esc_attr($cls) . '" data-target-slug="' . esc_attr($target) . '" data-target-second="' . esc_attr($slug) . '" href="' . esc_url($url) . '">' . $label_html . '</a> ';
-            }
-            $html .= '</div>';
-        }
-
-        $html .= '</div>';
         return $html;
     }
 
@@ -597,7 +551,7 @@ trait DwBible_Interlinear_Trait {
         // Insert bottom prev/next nav just before the language switcher
         if (DwBible_Nav_Helpers::$last_nav_ctx) {
             $bottom_nav = DwBible_Nav_Helpers::build_bottom_nav(DwBible_Nav_Helpers::$last_nav_ctx);
-            $switcher_pos = strpos($out, '<div class="dwbible-language-switcher"');
+            $switcher_pos = strpos($out, '<div class="dwbible-lang-switch"');
             if ($switcher_pos !== false) {
                 $out = substr_replace($out, $bottom_nav, $switcher_pos, 0);
             } else {
