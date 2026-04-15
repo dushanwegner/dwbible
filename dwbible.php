@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.04.15.01
+* Version: 1.26.04.15.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.04.15.01');
+    define('DWBIBLE_VERSION', '1.26.04.15.02');
 }
 
 // Load include classes before hooks are registered
@@ -87,6 +87,9 @@ class DwBible_Plugin {
         // Priority 1: run before redirect_canonical (priority 10) which
         // would otherwise add a trailing slash to .json URLs.
         add_action('template_redirect', [__CLASS__, 'handle_request'], 1);
+
+        // Bible text is static — keep dwcache entries indefinitely (flush manually on data updates).
+        add_filter( 'dwcache_ttl', [__CLASS__, 'infinite_ttl_for_bible'], 10, 2 );
 
         add_action('wp_enqueue_scripts', [__CLASS__, 'enqueue_assets']);
         add_action('admin_enqueue_scripts', [__CLASS__, 'admin_enqueue']);
@@ -1795,6 +1798,34 @@ class DwBible_Plugin {
 
     private static function render_footer_html() {
         return DwBible_Footer_Renderer::render_footer_html(self::data_root_dir(), self::html_dir());
+    }
+
+    /**
+     * dwcache_ttl filter: return PHP_INT_MAX for bible URLs so cached pages
+     * never expire by age — only manual cache flushes will regenerate them.
+     */
+    public static function infinite_ttl_for_bible( int $ttl, string $url ): int {
+        $path = (string) parse_url( $url, PHP_URL_PATH );
+        $slugs = self::get_registered_slugs();
+        foreach ( $slugs as $slug ) {
+            if ( strpos( $path, '/' . $slug . '/' ) !== false ) {
+                return PHP_INT_MAX;
+            }
+        }
+        return $ttl;
+    }
+
+    /** Return all registered bible slugs (e.g. ['bible','bibel','latin','latin-bibel',...]). */
+    private static function get_registered_slugs(): array {
+        $raw = get_option( 'dwbible_slugs', 'bible,bibel' );
+        $base = array_filter( array_map( 'trim', explode( ',', is_string( $raw ) ? $raw : 'bible,bibel' ) ) );
+        $combos = [];
+        foreach ( $base as $a ) {
+            foreach ( $base as $b ) {
+                if ( $a !== $b ) { $combos[] = $a . '-' . $b; }
+            }
+        }
+        return array_values( array_unique( array_merge( array_values( $base ), $combos ) ) );
     }
 }
 
