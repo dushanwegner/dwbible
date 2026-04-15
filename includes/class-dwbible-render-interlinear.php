@@ -538,7 +538,7 @@ trait DwBible_Interlinear_Trait {
         ], $lang_switcher);
 
         status_header(200);
-        nocache_headers();
+        header('Cache-Control: public, max-age=86400'); // verse content is static — cache 24h
 
         $first_entry = $entries[0] ?? null;
         $base_title = ($first_entry && isset($first_entry['display_name']) && $first_entry['display_name'] !== '')
