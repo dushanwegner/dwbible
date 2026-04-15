@@ -1,47 +1,98 @@
 # AI Instructions: dwbible
 
 ## What it does
-Renders the Latin Vulgate Bible with interlinear translations at `/bible/{book}/{chapter}/{verse}`. Provides navigation, cross-referencing, OpenGraph/JSON-LD SEO meta, a JSON API for programmatic access, and an admin metadata editor.
 
-## Why it exists
-Latin Bible with interlinear Latin/English/German display is the core academic feature of latinprayer.org. The plugin owns the entire `/bible/` URL namespace, routing, rendering, and data delivery.
+Renders the Latin Vulgate Bible on latinprayer.org in interlinear display
+(two translations side by side). Owns all `/bible/`, `/bibel/`, `/latin/`,
+`/latin-bible/`, `/latin-bibel/` URL namespaces, including routing,
+rendering, JSON API, sitemaps, and OpenGraph meta.
 
-## Key files
-- `dwbible.php` — bootstrap, rewrite rules for `/bible/` URLs
-- `includes/class-dwbible-router.php` — parses `/bible/{book}/{chapter}/{verse}` URLs, dispatches to renderer
-- `includes/class-dwbible-renderer.php` — builds HTML for interlinear Bible display (verse-by-verse, with translation columns)
-- `includes/class-dwbible-json-api.php` — REST endpoint `/wp-json/dwbible/v1/verse` for programmatic access
-- `includes/class-dwbible-seo.php` — OpenGraph, JSON-LD Schema.org markup per verse/chapter
-- `includes/class-dwbible-og-image.php` — dynamic OG image generation via GD
-- `includes/class-dwbible-admin.php` — admin page for editing verse-level metadata (alt text, notes)
-- `includes/class-dwbible-navigation.php` — prev/next chapter links, book index
-- `includes/class-dwbible-linking.php` — auto-links Bible references in other content to `/bible/` URLs
+## URL patterns
 
-## Data model
-Text data lives in `dwbibledata` plugin (separate). dwbible adds:
-- Post meta on `page` type: Bible-related page metadata
-- Admin-editable metadata stored in custom table or options (check class-dwbible-admin.php)
+### Human-readable HTML pages
 
-REST: `GET /wp-json/dwbible/v1/verse?book=Gen&chapter=1&verse=1&lang=latin`
+**Interlinear slugs** (two translations side by side):
+- `latin-bibel` = Latin + German
+- `latin-bible` = Latin + English
 
-## How to test
-```bash
-# Syntax check key files
-php -l dwbible.php includes/class-dwbible-router.php includes/class-dwbible-renderer.php
+Single-language slugs (`/bible/`, `/bibel/`, `/latin/`) redirect 301 to
+their interlinear counterpart. Use interlinear slugs for stable links.
 
-# URL test (site must be running)
-curl http://latinprayer.local/bible/gen/1/1/
-
-# JSON API test
-curl "http://latinprayer.local/wp-json/dwbible/v1/verse?book=Gen&chapter=1&verse=1"
+**Patterns:**
+```
+/{slug}/{book}/                    book landing (chapter 1)
+/{slug}/{book}/{chapter}/          full chapter
+/{slug}/{book}/{chapter}:{verse}/  chapter with verse highlighted
+/{slug}/{book}/{chapter}:{from}-{to}/  chapter with verse range highlighted
 ```
 
-## Important conventions
-- **Requires `dwbibledata` plugin** to be active — renders nothing without it
-- URL structure: `/bible/{book-slug}/{chapter}/{verse}` — book slugs are lowercase abbreviations
-- Rewrite rules must be flushed after activation
-- Only active on: latinprayer.org
+IMPORTANT: verse references use a **colon**, not a slash.
+`/latin-bibel/ephesians/6:11/` is correct.
+`/latin-bibel/ephesians/6/11/` is NOT a valid HTML page URL.
 
-## Dependencies
-- `dwbibledata` plugin (required — provides text files)
-- PHP GD extension (for OG image generation)
+Book slugs in HTML URLs follow the first language in the combo:
+- `latin-bibel` → German names (prediger, psalmen, matthaus, markus …)
+- `latin-bible` → English names (ecclesiastes, psalms, matthew, mark …)
+Cross-language names also resolve — the router tries all datasets.
+
+**Working examples:**
+```
+https://latinprayer.org/latin-bibel/ephesians/6/         chapter
+https://latinprayer.org/latin-bibel/ephesians/6:11/      verse highlighted
+https://latinprayer.org/latin-bibel/ephesians/6:10-18/   range highlighted
+https://latinprayer.org/latin-bible/john/3:16/           Latin+English verse
+https://latinprayer.org/latin-bibel/prediger/1/          Ecclesiastes ch.1 (German slug)
+https://latinprayer.org/latin-bibel/psalmen/23/          Psalm 23 (German slug)
+```
+
+### JSON API
+
+Programmatic access — no HTML, verse text only.
+
+```
+/{slug}/index.json                           all books for that translation
+/{slug}/{book}/index.json                    chapter list for a book
+/{slug}/{book}/{chapter}.json                all verses in a chapter
+/{slug}/{book}/{chapter}/{verse}.json        single verse
+/{slug}/{book}/{chapter}/{from}-{to}.json    verse range
+/bible-index.json                            all books × all translations
+```
+
+JSON slugs: `bible` (Douay-Rheims), `latin` (Clementine Vulgate), `bibel` (Menge).
+
+## Key files
+
+- `dwbible.php` — bootstrap, constants, rewrite rules, plugin init
+- `includes/class-dwbible-router.php` — URL dispatch (`handle_request`)
+- `includes/class-dwbible-render-interlinear.php` — interlinear page renderer
+- `includes/class-dwbible-json-api.php` — JSON API endpoints + llms.txt serving
+- `includes/class-dwbible-front-meta.php` — OpenGraph / JSON-LD meta
+- `includes/class-dwbible-og-image.php` — dynamic OG image generation
+- `includes/class-dwbible-data-paths.php` — resolves data directory paths
+- `includes/class-dwbible-nav-helpers.php` — prev/next chapter navigation
+
+## Data dependency
+
+Requires the **dwbibledata** plugin. That plugin defines `DWBIBLEDATA_DIR`
+and provides flat HTML + JSON files under `data/{dataset}/html/` and
+`data/{dataset}/json/`. dwbible adds no DB tables — all content comes from
+those files.
+
+Datasets: `bible/`, `latin/`, `bibel/` (single-language). Interlinear pages
+load and merge two datasets on the fly.
+
+## How to test
+
+```bash
+# PHP syntax check
+php -l dwbible.php includes/class-dwbible-router.php
+
+# HTML page (must return 200)
+curl -o /dev/null -sw "%{http_code}\n" https://latinprayer.org/latin-bibel/ephesians/6:11/
+
+# JSON API
+curl https://latinprayer.org/bible/genesis/1.json | python3 -m json.tool | head -20
+
+# llms.txt (AI documentation)
+curl https://latinprayer.org/llms.txt
+```
