@@ -61,6 +61,16 @@
             var y2 = window.pageYOffset + r2.top - computeOffset(25);
             window.scrollTo({ top: Math.max(0, y2), behavior: 'smooth' });
         }
+    } else if (location.hash && /^#[a-z0-9\-]+-\d+-\d+$/i.test(location.hash)) {
+        // Hash-based verse scroll (e.g. arriving from the language switcher).
+        // Offset for the sticky bar so the verse isn't hidden under it.
+        var hashId = location.hash.replace(/^#/, '');
+        var hashEl = document.getElementById(hashId);
+        if (hashEl) {
+            var rh = hashEl.getBoundingClientRect();
+            var yh = window.pageYOffset + rh.top - computeOffset(25);
+            window.scrollTo({ top: Math.max(0, yh), behavior: 'auto' });
+        }
     }
 
     // Sticky updater script: detect current chapter and update bar on scroll; offset for admin bar
@@ -404,6 +414,48 @@
     document.addEventListener('DOMContentLoaded', function(){ setTopOffset(); update(); });
     // Selection-driven updates moved to dwtexttools plugin
     window.addEventListener('load', function(){ setTopOffset(); update(); });
+
+    // Language switcher: append the currently-visible verse id as a hash so the
+    // target page restores to the same spot after navigating. The verse ids are
+    // canonical (book-ch-v) and identical across language editions.
+    function currentVerseIdForHash() {
+        var list = container ? container.querySelectorAll('.dwbible-interlinear-verse, p.verse[id]') : [];
+        if (!list || !list.length) list = document.querySelectorAll('.dwbible-interlinear-verse, p.verse[id]');
+        if (!list || !list.length) return '';
+        var anchorLine = computeOffset(0) + 4; // just below the sticky bar
+        var best = '';
+        for (var i = 0; i < list.length; i++) {
+            var el = list[i];
+            var r = el.getBoundingClientRect();
+            if (r.bottom < anchorLine) {
+                // still above the fold — remember as fallback, keep scanning
+                var idCandidate = el.id || (el.querySelector('[id]') ? el.querySelector('[id]').id : '');
+                if (idCandidate) best = idCandidate;
+                continue;
+            }
+            // first element that crosses the anchor line — take its id
+            var pick = el.id;
+            if (!pick) {
+                var inner = el.querySelector('[id]');
+                if (inner) pick = inner.id;
+            }
+            if (pick) return pick;
+            if (best) return best;
+            break;
+        }
+        return best;
+    }
+    document.addEventListener('click', function(e){
+        var a = e.target && e.target.closest && e.target.closest('a.dwbible-lang-link');
+        if (!a) return;
+        var href = a.getAttribute('href') || '';
+        if (!href || href.charAt(0) === '#') return;
+        // Only rewrite if we don't already carry a hash (respect explicit overrides).
+        if (href.indexOf('#') !== -1) return;
+        var vid = currentVerseIdForHash();
+        if (!vid) return;
+        a.setAttribute('href', href + '#' + vid);
+    }, true);
 
     // Intercept in-content anchor clicks to scroll below sticky and adjust URL
     document.addEventListener('click', function(e){
