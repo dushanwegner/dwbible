@@ -1,6 +1,14 @@
 /* Verse styling + interlinear layout */
 
 .dwbible {
+  /* Anchor-scroll offset: when the URL has a verse hash (e.g. from the
+     language switcher), the browser's native anchor scroll lands below
+     the sticky bar instead of under it. --dwbible-sticky-h is set by JS. */
+  p.verse[id],
+  .dwbible-interlinear-entry[id] {
+    scroll-margin-top: calc(var(--dwbible-sticky-h, 48px) + 0.5rem);
+  }
+
   /* Used for JS-driven verse highlighting */
   .verse-highlight {
     background: #fff3cd;

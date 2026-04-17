@@ -1,27 +1,12 @@
-/* Edition row — flex container for the edition title + lang switcher.
-   Appears OUTSIDE .dwbible on interlinear pages, so no parent scope is used.
+/* Language picker — lives inside .dwbible-sticky between title and arrow controls.
    !important guards against Bootstrap and theme CSS overrides.
 */
 
-.dwbible-edition-row {
-  display: flex !important;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.5rem;
-}
-
-/* Title takes all remaining space; !important beats any theme h2 width rule */
-.dwbible-edition-title {
-  flex: 1 !important;
-  min-width: 0 !important;
-}
-
-/* Language picker — prayer-style, same visual as dwbooks EN/DE/ES/FR */
 .dwbible-lang-switch {
   flex-shrink: 0;
   line-height: 1;
   white-space: nowrap;
-  padding-top: 0.2rem;
+  font-size: 0.95rem;
 }
 
 /* Inactive = site oxblood red; active/current = bold black.

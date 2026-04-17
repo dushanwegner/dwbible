@@ -61,17 +61,10 @@
             var y2 = window.pageYOffset + r2.top - computeOffset(25);
             window.scrollTo({ top: Math.max(0, y2), behavior: 'smooth' });
         }
-    } else if (location.hash && /^#[a-z0-9\-]+-\d+-\d+$/i.test(location.hash)) {
-        // Hash-based verse scroll (e.g. arriving from the language switcher).
-        // Offset for the sticky bar so the verse isn't hidden under it.
-        var hashId = location.hash.replace(/^#/, '');
-        var hashEl = document.getElementById(hashId);
-        if (hashEl) {
-            var rh = hashEl.getBoundingClientRect();
-            var yh = window.pageYOffset + rh.top - computeOffset(25);
-            window.scrollTo({ top: Math.max(0, yh), behavior: 'auto' });
-        }
     }
+    // Hash-based verse scroll (e.g. arriving from the language switcher) is
+    // handled by the browser's native anchor scroll + CSS scroll-margin-top on
+    // verse elements — no JS re-scroll, so there's no visible jump.
 
     // Sticky updater script: detect current chapter and update bar on scroll; offset for admin bar
     var container = document.querySelector('.dwbible.dwbible-book') || document.querySelector('.dwbible .dwbible-book');
@@ -105,6 +98,10 @@
         } else {
             bar.style.top = '';
         }
+        // Expose the real sticky-bar height (incl. admin bar) so CSS
+        // scroll-margin-top on verses matches the bar exactly.
+        var barH = bar.offsetHeight || 0;
+        document.documentElement.style.setProperty('--dwbible-sticky-h', (off + barH) + 'px');
     }
 
     function disable(el, yes){

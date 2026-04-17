@@ -45,12 +45,13 @@ class DwBible_Nav_Helpers {
 
         $book_label = is_string($book_label) ? DwBible_Plugin::pretty_label($book_label) : '';
         $nav_ctx = self::compute_nav_urls($nav, $slug, $bible_index);
-        $sticky = self::build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index);
+        // Lang switcher now lives inside the sticky bar so it stays reachable while scrolled.
+        $lang_switcher = is_string($lang_switcher) ? $lang_switcher : '';
+        $sticky = self::build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index, $lang_switcher);
         self::$last_nav_ctx = $nav_ctx;
 
-        // Edition title above the sticky bar, with optional EN·DE lang switcher top-right
-        $lang_switcher = is_string($lang_switcher) ? $lang_switcher : '';
-        $edition_heading = self::build_edition_heading($slug, $bible_index, $lang_switcher);
+        // Edition title above the sticky bar.
+        $edition_heading = self::build_edition_heading($slug, $bible_index);
 
         return $edition_heading . $sticky . $html;
     }
@@ -59,7 +60,7 @@ class DwBible_Nav_Helpers {
      * Build an edition title heading above the chapter content.
      * Links back to the Bible index page.
      */
-    private static function build_edition_heading($slug, $bible_index, $lang_switcher = '') {
+    private static function build_edition_heading($slug, $bible_index) {
         // Map dataset slug (first part of combo slugs) to human-readable edition title
         $primary = $slug;
         if (strpos($primary, '-') !== false) {
@@ -73,15 +74,9 @@ class DwBible_Nav_Helpers {
         ];
         $title = $editions[$primary] ?? 'The Bible';
 
-        $heading = '<h2 class="dwbible-edition-title">'
+        return '<h2 class="dwbible-edition-title">'
             . '<a href="' . $bible_index . '">' . esc_html($title) . '</a>'
             . '</h2>';
-
-        // Wrap in a flex row so the lang switcher sits top-right of the title
-        return '<div class="dwbible-edition-row">'
-            . $heading
-            . $lang_switcher
-            . '</div>';
     }
 
     /**
@@ -245,7 +240,7 @@ class DwBible_Nav_Helpers {
     /**
      * Build the sticky status bar HTML.
      */
-    private static function build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index) {
+    private static function build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index, $lang_switcher = '') {
         $book_label_html = esc_html($book_label);
 
         // Resolve data-slug and initial chapter for frontend JS
@@ -295,11 +290,14 @@ class DwBible_Nav_Helpers {
             ? '<button type="button" class="dwbible-ch-picker" data-ch aria-label="Select chapter"><span data-ch-num>' . esc_html($sticky_ch_text) . '</span> <span class="dwbible-ch-picker__caret">&#9662;</span></button>'
             : '<span class="dwbible-sticky__chapter" data-ch>' . esc_html($sticky_ch_text) . '</span>';
 
+        $lang_switcher = is_string($lang_switcher) ? $lang_switcher : '';
+
         return '<div class="dwbible-sticky" data-slug="' . $book_slug_js . '"' . $data_attrs . $ch_picker_attrs . '>'
             . '<div class="dwbible-sticky__left">'
             . '<span class="dwbible-sticky__label" data-label>' . $book_label_html . '</span> '
             . $ch_el
             . '</div>'
+            . $lang_switcher
             . '<div class="dwbible-sticky__controls">'
             . '<a href="' . $nav_ctx['prev_href'] . '" class="dwbible-ctl dwbible-ctl-prev" data-prev aria-label="Previous chapter">&#8592;</a>'
             . '<a href="' . $nav_ctx['top_href'] . '" class="dwbible-ctl dwbible-ctl-top" data-top aria-label="Bible index">&#8593;</a>'
