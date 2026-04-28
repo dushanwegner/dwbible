@@ -221,6 +221,18 @@ trait DwBible_Router_Trait {
             }
         }
 
+        // Phase 6 (claude.ai/design 2026-04-28): when no chapter is selected,
+        // render the book-level table of contents instead of falling through
+        // to the chapter-1 default. Verse-targeting URLs (e.g. /book/3:16)
+        // set $vf and never reach this branch — they always go to the chapter
+        // reader. Also bypass the TOC when an external-redirect base is set
+        // so we don't paint a TOC just to redirect away.
+        $ch = get_query_var(self::QV_CHAPTER);
+        if ( ! $ch && ! get_query_var(self::QV_VFROM) ) {
+            self::render_book_toc( $book_slug, $slug );
+            exit;
+        }
+
         // Always use multilingual renderer (1 dataset is the special case)
         self::render_multilingual_book($book_slug, $slug);
         exit; // prevent WP from continuing

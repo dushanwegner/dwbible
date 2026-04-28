@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.04.17.01
+* Version: 1.26.04.28.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.04.17.01');
+    define('DWBIBLE_VERSION', '1.26.04.28.01');
 }
 
 // Load include classes before hooks are registered
@@ -32,6 +32,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-osis-utils.php'
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-canonicalization.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-abbreviations-loader.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-render-interlinear.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-render-book-toc.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-router.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-selftest.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-autolink.php';
@@ -53,6 +54,7 @@ function dwbible_data_dir(): string {
 
 class DwBible_Plugin {
     use DwBible_Interlinear_Trait;
+    use DwBible_Book_TOC_Trait;
     use DwBible_Router_Trait;
     use DwBible_SelfTest_Trait;
     use DwBible_AutoLink_Trait;
