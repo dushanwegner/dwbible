@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.04.28.01
+* Version: 1.26.04.28.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.04.28.01');
+    define('DWBIBLE_VERSION', '1.26.04.28.02');
 }
 
 // Load include classes before hooks are registered
@@ -1268,14 +1268,23 @@ class DwBible_Plugin {
                 $alt_name  = isset($secondary_names[$order]) ? $secondary_names[$order] : '';
                 $url       = trailingslashit($base_url) . $book_slug . '/';
 
+                // Suppress the alt-name when it differs from the primary
+                // only by punctuation/whitespace ("1 Corinthians" vs
+                // "1. Corinthians" or "1 John" vs "1.John"). The alt is
+                // worth showing for genuine alternate names like
+                // "Joshua / Josue" or "Sirach / Ecclesiasticus" — not
+                // for trivial period vs space differences. Normalize:
+                // lowercase + strip every non-alphanumeric character.
+                $alt_meaningful = ( $alt_name !== '' && strtolower( preg_replace( '/[^a-z0-9]+/i', '', $alt_name ) ) !== strtolower( preg_replace( '/[^a-z0-9]+/i', '', $name ) ) );
+
                 // Build tile with both names separated for AI text extraction
                 $label = $name;
-                if ($alt_name !== '' && $alt_name !== $name) {
+                if ( $alt_meaningful ) {
                     $label .= ' / ' . $alt_name;
                 }
                 $out .= '<a href="' . esc_url($url) . '" class="dwbible-tile" aria-label="' . esc_attr($label) . '">';
                 $out .= '<span class="dwbible-tile-name">' . esc_html($name) . '</span>';
-                if ($alt_name !== '' && $alt_name !== $name) {
+                if ( $alt_meaningful ) {
                     $out .= '<span class="dwbible-tile-sep" aria-hidden="true"> / </span>';
                     $out .= '<span class="dwbible-tile-alt">' . esc_html($alt_name) . '</span>';
                 }
