@@ -77,7 +77,7 @@ trait DwBible_Router_Trait {
      * /bibel/genesis/1.json returns Menge only — that path is dispatched
      * by handle_request() before this redirect ever runs.
      *
-     * @return bool True if a redirect was issued, false otherwise.
+     * @return bool True if a redirect was issued (caller should stop), false otherwise.
      */
     private static function maybe_redirect_to_interlinear() {
         $slug = get_query_var(self::QV_SLUG);
@@ -106,13 +106,27 @@ trait DwBible_Router_Trait {
             return false;
         }
 
+        // HTML routes use trailing slashes. Pre-append it here so the redirect
+        // lands on the canonical URL in a single hop. Without this, WordPress's
+        // redirect_canonical hook (priority 10) overrides our priority-1
+        // wp_redirect() with its own trailing-slash redirect — leaving the
+        // browser to chain through /bible/x → /bible/x/ → /latin-bible/x/.
+        // Cloudflare and some browser caches handle that chain poorly (the user
+        // sees a white page or what looks like a redirect loop). One-hop fixes it.
+        if (substr($new_path, -1) !== '/') {
+            $new_path .= '/';
+        }
+
         $url = home_url($new_path);
         if (is_string($qs) && $qs !== '') {
             $url .= '?' . $qs;
         }
 
         wp_redirect($url, 301);
-        return true;
+        // Must exit; otherwise redirect_canonical at priority 10 will overwrite
+        // our Location header with its own trailing-slash variant of the original
+        // URL, breaking the slug remap. (See note above.)
+        exit;
     }
 
     /**

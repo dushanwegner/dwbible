@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.04.28.02
+* Version: 1.26.05.10.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.04.28.02');
+    define('DWBIBLE_VERSION', '1.26.05.10.01');
 }
 
 // Load include classes before hooks are registered
