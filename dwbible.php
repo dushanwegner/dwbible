@@ -1,15 +1,15 @@
 <?php
 /*
 * Plugin Name: DW Bible
-* Description: Provides /bible/ with links to books; renders selected book HTML using the site's template.
-* Version: 1.26.05.10.01
+* Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
+* Version: 1.26.06.05.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.05.10.01');
+    define('DWBIBLE_VERSION', '1.26.06.05.01');
 }
 
 // Load include classes before hooks are registered
@@ -195,10 +195,40 @@ class DwBible_Plugin {
             return;
         }
 
+        // Reconcile the slugs option with the current canonical list before
+        // re-registering routes. Sites first activated when only en/de
+        // shipped have 'bible,bibel' or 'bible,bibel,latin' stored; this
+        // adds spanish + french in place so /latin-spanish/, /latin-french/
+        // start resolving without a manual `wp option update`.
+        self::reconcile_slugs_option();
+
         self::add_rewrite_rules();
         flush_rewrite_rules(false);
         self::clear_sitemap_cache();
         update_option('dwbible_rewrite_version', DWBIBLE_VERSION);
+    }
+
+    /**
+     * Ensure the dwbible_slugs option contains every shipped single-language
+     * dataset. Existing entries are preserved (and their order honoured by
+     * base_slugs() / build_language_slug_combinations()), missing entries
+     * are appended. Idempotent; cheap.
+     */
+    private static function reconcile_slugs_option() {
+        $canonical = ['bible', 'bibel', 'latin', 'spanish', 'french'];
+        $current = get_option('dwbible_slugs', implode(',', $canonical));
+        $current = is_string($current) ? $current : implode(',', $canonical);
+        $parts = array_values(array_filter(array_map('trim', explode(',', $current))));
+        $added = false;
+        foreach ($canonical as $slug) {
+            if (!in_array($slug, $parts, true)) {
+                $parts[] = $slug;
+                $added = true;
+            }
+        }
+        if ($added) {
+            update_option('dwbible_slugs', implode(',', array_values(array_unique($parts))));
+        }
     }
 
     /**
@@ -689,7 +719,8 @@ class DwBible_Plugin {
         }
 
         $slug = get_query_var(self::QV_SLUG);
-        if ($slug !== 'bible' && $slug !== 'bibel' && $slug !== 'latin') {
+        $known_single_slugs = [ 'bible', 'bibel', 'latin', 'spanish', 'french' ];
+        if (!in_array($slug, $known_single_slugs, true)) {
             status_header(404);
             exit;
         }
@@ -798,7 +829,7 @@ class DwBible_Plugin {
 
         // Load book index to generate per-book sitemap references
         $data_dir = dwbible_data_dir();
-        $datasets = [ 'bible', 'bibel', 'latin' ];
+        $datasets = [ 'bible', 'bibel', 'latin', 'spanish', 'french' ];
 
         status_header(200);
         header('Content-Type: application/xml; charset=UTF-8');
@@ -807,7 +838,7 @@ class DwBible_Plugin {
         echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
         echo '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
 
-        // Per-book Bible sitemaps (73 books × 3 translations = 219)
+        // Per-book Bible sitemaps (73 books × 5 translations = 365)
         foreach ( $datasets as $ds ) {
             $csv_file = $data_dir . $ds . '/html/index.csv';
             if ( ! file_exists( $csv_file ) ) { continue; }
@@ -1227,11 +1258,13 @@ class DwBible_Plugin {
         $out = '<div class="dwbible dwbible-index">';
         $out .= '<h1 class="dwbible-index-title">The Bible</h1>';
 
-        // Cross-links to all three translation indexes (HTML + JSON)
+        // Cross-links to all translation indexes (HTML + JSON)
         $all_datasets = [
-            'latin' => 'Latin (Clementine Vulgate)',
-            'bible' => 'English (Douay-Rheims)',
-            'bibel' => 'German (Menge)',
+            'latin'   => 'Latin (Clementine Vulgate)',
+            'bible'   => 'English (Douay-Rheims)',
+            'bibel'   => 'German (Menge)',
+            'spanish' => 'Spanish (Straubinger)',
+            'french'  => 'French (Crampon)',
         ];
         $cross_links = [];
         foreach ($all_datasets as $ds => $label) {
@@ -1312,7 +1345,7 @@ class DwBible_Plugin {
     }
 
     private static function base_slugs() {
-        $list = get_option('dwbible_slugs', 'bible,bibel,latin');
+        $list = get_option('dwbible_slugs', 'bible,bibel,latin,spanish,french');
         if (!is_string($list)) $list = 'bible';
         $parts = array_filter(array_map('trim', explode(',', $list)));
         if (empty($parts)) { $parts = ['bible']; }
@@ -1337,7 +1370,8 @@ class DwBible_Plugin {
         }
         if (is_string($slug) && $slug !== '') {
             $slug = trim($slug, "/ ");
-            if ($slug === 'bible' || $slug === 'bibel' || $slug === 'latin' || strpos($slug, '-') !== false) {
+            $known_single = ['bible', 'bibel', 'latin', 'spanish', 'french'];
+            if (in_array($slug, $known_single, true) || strpos($slug, '-') !== false) {
                 return true;
             }
         }
@@ -1395,9 +1429,11 @@ class DwBible_Plugin {
             // e.g. "Genesis 1" → "Genesis 1 (Douay-Rheims)"
             $slug = get_query_var(self::QV_SLUG);
             $translations = [
-                'bible' => 'Douay-Rheims',
-                'bibel' => 'Menge',
-                'latin' => 'Vulgate',
+                'bible'   => 'Douay-Rheims',
+                'bibel'   => 'Menge',
+                'latin'   => 'Vulgate',
+                'spanish' => 'Straubinger',
+                'french'  => 'Crampon',
             ];
             $suffix = '';
             if (is_string($slug) && isset($translations[$slug])) {
@@ -1549,19 +1585,20 @@ class DwBible_Plugin {
             'type'              => 'string',
             'sanitize_callback' => function($val) {
                 // Keep existing value when field not submitted (e.g. another settings tab)
+                $fallback = 'bible,bibel,latin,spanish,french';
                 if (!isset($val) || $val === '') {
-                    $current = get_option('dwbible_slugs', 'bible,bibel');
-                    return is_string($current) && $current !== '' ? $current : 'bible,bibel';
+                    $current = get_option('dwbible_slugs', $fallback);
+                    return is_string($current) && $current !== '' ? $current : $fallback;
                 }
-                if (!is_string($val)) return 'bible,bibel';
+                if (!is_string($val)) return $fallback;
                 $parts = array_filter(array_map('trim', explode(',', $val)));
-                $known = ['bible', 'bibel'];
+                $known = ['bible', 'bibel', 'latin', 'spanish', 'french'];
                 $out = [];
                 foreach ($parts as $p) { if (in_array($p, $known, true)) $out[] = $p; }
                 if (empty($out)) $out = ['bible'];
                 return implode(',', array_unique($out));
             },
-            'default' => 'bible,bibel',
+            'default' => 'bible,bibel,latin,spanish,french',
         ]);
 
         register_setting('dwbible_options', 'dwbible_autolink_base_url', [

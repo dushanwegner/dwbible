@@ -115,31 +115,47 @@ trait DwBible_Interlinear_Trait {
 
         $datasets = is_array($datasets) ? $datasets : [];
 
-        // Which interlinear languages are currently active?
-        $en_active = in_array('bible', $datasets, true);
-        $de_active = in_array('bibel', $datasets, true);
-        $ln_active = (!$en_active && !$de_active); // Latin-only when neither EN nor DE is shown
+        // Pill table: code => [dataset_slug, label, interlinear_target_slug].
+        // LN (Latin-only) is the "back to Latin" affordance — its dataset is
+        // null because the active state means "no secondary language showing".
+        $pills = [
+            'ln' => [ null,      'LN', 'latin' ],
+            'en' => [ 'bible',   'EN', 'latin-bible' ],
+            'de' => [ 'bibel',   'DE', 'latin-bibel' ],
+            'es' => [ 'spanish', 'ES', 'latin-spanish' ],
+            'fr' => [ 'french',  'FR', 'latin-french' ],
+        ];
 
-        // Toggle: clicking an active EN/DE returns to Latin-only; clicking inactive adds it.
-        $en_target = $en_active ? 'latin' : 'latin-bible';
-        $de_target = $de_active ? 'latin' : 'latin-bibel';
+        // A non-LN pill is active when its dataset is in the current combo.
+        // LN is active when no secondary language is.
+        $active = [];
+        $any_lang_active = false;
+        foreach ($pills as $code => $row) {
+            $ds = $row[0];
+            if ($ds === null) continue;
+            $is_on = in_array($ds, $datasets, true);
+            $active[$code] = $is_on;
+            if ($is_on) $any_lang_active = true;
+        }
+        $active['ln'] = !$any_lang_active;
 
-        $ln_url = self::bible_url_for_slug_and_canonical_book('latin', $canonical_book_slug, $ch, $vf, $vt);
-        $en_url = self::bible_url_for_slug_and_canonical_book($en_target, $canonical_book_slug, $ch, $vf, $vt);
-        $de_url = self::bible_url_for_slug_and_canonical_book($de_target, $canonical_book_slug, $ch, $vf, $vt);
-
-        if (!is_string($en_url) || $en_url === '' || !is_string($de_url) || $de_url === '') return '';
-
-        $ln_cls = 'dwbible-lang-link dwbible-lang-link--ln' . ($ln_active ? ' active' : '');
-        $en_cls = 'dwbible-lang-link dwbible-lang-link--en' . ($en_active ? ' active' : '');
-        $de_cls = 'dwbible-lang-link dwbible-lang-link--de' . ($de_active ? ' active' : '');
-
+        // Click an active pill -> drop back to Latin-only. Click inactive ->
+        // jump to that pair. (The switcher stays binary today: the user
+        // can't combine ES + FR in one page from the UI, even though
+        // dwbible_slugs would auto-permute those routes.)
         $html  = '<div class="dwbible-lang-switch">';
-        $html .= '<a class="' . esc_attr($ln_cls) . '" href="' . esc_url($ln_url) . '" data-lang="ln">LN</a>';
-        $html .= '<span class="dwbible-lang-sep">&middot;</span>';
-        $html .= '<a class="' . esc_attr($en_cls) . '" href="' . esc_url($en_url) . '" data-lang="en">EN</a>';
-        $html .= '<span class="dwbible-lang-sep">&middot;</span>';
-        $html .= '<a class="' . esc_attr($de_cls) . '" href="' . esc_url($de_url) . '" data-lang="de">DE</a>';
+        $i = 0;
+        foreach ($pills as $code => $row) {
+            list($ds, $label, $target_slug) = $row;
+            $target = $active[$code] ? 'latin' : $target_slug;
+            $url = self::bible_url_for_slug_and_canonical_book($target, $canonical_book_slug, $ch, $vf, $vt);
+            if (!is_string($url) || $url === '') continue;
+            if ($i++ > 0) {
+                $html .= '<span class="dwbible-lang-sep">&middot;</span>';
+            }
+            $cls = 'dwbible-lang-link dwbible-lang-link--' . $code . ($active[$code] ? ' active' : '');
+            $html .= '<a class="' . esc_attr($cls) . '" href="' . esc_url($url) . '" data-lang="' . esc_attr($code) . '">' . esc_html($label) . '</a>';
+        }
         $html .= '</div>';
 
         return $html;

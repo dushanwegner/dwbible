@@ -84,8 +84,10 @@ trait DwBible_Router_Trait {
         if (!is_string($slug) || $slug === '') return false;
 
         $map = [
-            'bible' => 'latin-bible',
-            'bibel' => 'latin-bibel',
+            'bible'   => 'latin-bible',
+            'bibel'   => 'latin-bibel',
+            'spanish' => 'latin-spanish',
+            'french'  => 'latin-french',
         ];
         if (!isset($map[$slug])) return false;
         $target = $map[$slug];
@@ -304,7 +306,8 @@ trait DwBible_Router_Trait {
             return null;
         }
 
-        if ($slug !== 'bible' && $slug !== 'bibel' && $slug !== 'latin') {
+        $known_single = ['bible', 'bibel', 'latin', 'spanish', 'french'];
+        if (!in_array($slug, $known_single, true)) {
             $slug = 'bible';
         }
 
