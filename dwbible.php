@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.12.03
+* Version: 1.26.06.12.04
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.12.03');
+    define('DWBIBLE_VERSION', '1.26.06.12.04');
 }
 
 // Load include classes before hooks are registered
@@ -1303,16 +1303,17 @@ class DwBible_Plugin {
         }
         if (!isset($switch[$active_lang])) { $active_lang = 'latin'; }
 
-        // Subtitle = the Vulgate, plus the vernacular translation name (if any).
+        // Subtitle = the Vulgate, plus the vernacular translation name and its
+        // language code in parens (if any). Latin-only carries (LA).
         $translation_names = [
-            'bible'   => 'Douay-Rheims',
-            'bibel'   => 'Menge',
-            'spanish' => 'Straubinger',
-            'french'  => 'Crampon',
+            'bible'   => ['name' => 'Douay-Rheims', 'code' => 'EN'],
+            'bibel'   => ['name' => 'Menge',        'code' => 'DE'],
+            'spanish' => ['name' => 'Straubinger',  'code' => 'ES'],
+            'french'  => ['name' => 'Crampon',      'code' => 'FR'],
         ];
         $subtitle = isset($translation_names[$active_lang])
-            ? 'Vulgata · ' . $translation_names[$active_lang]
-            : 'Vulgata Clementina';
+            ? 'Vulgata · ' . $translation_names[$active_lang]['name'] . ' (' . $translation_names[$active_lang]['code'] . ')'
+            : 'Vulgata Clementina (LA)';
 
         // Build the two switcher renderings once. Desktop shows the segmented
         // control; ≤640px shows the compact globe button with this <select>
