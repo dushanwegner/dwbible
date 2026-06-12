@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.12.01
+* Version: 1.26.06.12.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.12.01');
+    define('DWBIBLE_VERSION', '1.26.06.12.02');
 }
 
 // Load include classes before hooks are registered
@@ -1306,23 +1306,51 @@ class DwBible_Plugin {
         $out .= '<p class="dwbible-index-latin">' . esc_html(self::dataset_subtitle($primary_dataset)) . '</p>';
         $out .= '</header>';
 
-        // ─── Translation switcher (segmented; active edition is highlighted) ───
-        $lang_names = [
-            'latin'   => 'Latin',
-            'bible'   => 'English',
-            'bibel'   => 'German',
-            'spanish' => 'Spanish',
-            'french'  => 'French',
+        // ─── Translation switcher — "alongside the Latin" ───────────────────
+        // Every vernacular edition is an INTERLINEAR paired with the Latin
+        // (/latin-bible = Latin+English, /latin-bibel = Latin+German, …);
+        // "Latin only" (/latin) is the lone single-text option. We link
+        // straight to the canonical combo slug (no /bible/ → /latin-bible/
+        // redirect hop). The active item is the vernacular half of the
+        // current slug, or "Latin only" on /latin/. Desktop renders a
+        // segmented control; mobile a native <select> (styled in _bible.scss).
+        $switch = [
+            'latin'   => ['label' => 'Latin only', 'slug' => 'latin'],
+            'bible'   => ['label' => 'English',    'slug' => 'latin-bible'],
+            'bibel'   => ['label' => 'German',     'slug' => 'latin-bibel'],
+            'spanish' => ['label' => 'Spanish',    'slug' => 'latin-spanish'],
+            'french'  => ['label' => 'French',     'slug' => 'latin-french'],
         ];
-        $out .= '<nav class="dwbible-translation-nav" aria-label="Bible translations">';
-        foreach ($lang_names as $ds => $label) {
-            if ($ds === $primary_dataset) {
-                $out .= '<strong class="dwbible-translation-active" aria-current="page">' . esc_html($label) . '</strong>';
+        $active_lang = 'latin';
+        foreach (explode('-', $current_slug) as $part) {
+            if ($part !== 'latin' && $part !== '') { $active_lang = $part; break; }
+        }
+        if (!isset($switch[$active_lang])) { $active_lang = 'latin'; }
+
+        $out .= '<div class="dwbible-translation">';
+        $out .= '<span class="dwbible-translation-label" id="dwbible-translation-label">Alongside the Latin</span>';
+
+        // Desktop: segmented control.
+        $out .= '<nav class="dwbible-translation-nav" aria-labelledby="dwbible-translation-label">';
+        foreach ($switch as $key => $opt) {
+            $url = home_url('/' . $opt['slug'] . '/');
+            if ($key === $active_lang) {
+                $out .= '<strong class="dwbible-translation-active" aria-current="page">' . esc_html($opt['label']) . '</strong>';
             } else {
-                $out .= '<a href="' . esc_url(home_url('/' . $ds . '/')) . '">' . esc_html($label) . '</a>';
+                $out .= '<a href="' . esc_url($url) . '">' . esc_html($opt['label']) . '</a>';
             }
         }
         $out .= '</nav>';
+
+        // Mobile: native select — navigates on change.
+        $out .= '<select class="dwbible-translation-select" aria-labelledby="dwbible-translation-label" onchange="if(this.value)window.location=this.value;">';
+        foreach ($switch as $key => $opt) {
+            $url = home_url('/' . $opt['slug'] . '/');
+            $sel = ($key === $active_lang) ? ' selected' : '';
+            $out .= '<option value="' . esc_url($url) . '"' . $sel . '>' . esc_html($opt['label']) . '</option>';
+        }
+        $out .= '</select>';
+        $out .= '</div>';
 
         // ─── Testament sections, each holding its book groups ───
         $open_testament = '';
