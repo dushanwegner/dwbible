@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.12.04
+* Version: 1.26.06.12.05
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.12.04');
+    define('DWBIBLE_VERSION', '1.26.06.12.05');
 }
 
 // Load include classes before hooks are registered
@@ -1202,24 +1202,24 @@ class DwBible_Plugin {
      */
     private static function book_categories() {
         return [
-            ['range' => [1, 5],   'testament' => 'ot', 'num' => 'I',   'label' => 'Pentateuch',                      'desc' => 'The five books of the Law of Moses.'],
-            ['range' => [6, 19],  'testament' => 'ot', 'num' => 'II',  'label' => 'Historical Books',                 'desc' => 'The chronicles of Israel, from Josue to the Maccabees.'],
-            ['range' => [20, 26], 'testament' => 'ot', 'num' => 'III', 'label' => 'Wisdom Books',                     'desc' => 'The poetic and sapiential books.'],
-            ['range' => [27, 46], 'testament' => 'ot', 'num' => 'IV',  'label' => 'Prophets',                         'desc' => 'The major and minor prophets.'],
-            ['range' => [47, 50], 'testament' => 'nt', 'num' => 'V',   'label' => 'Gospels',                          'desc' => 'The fourfold witness of the Lord.'],
-            ['range' => [51, 65], 'testament' => 'nt', 'num' => 'VI',  'label' => 'Acts & Letters',                   'desc' => 'The Acts of the Apostles and the Pauline epistles.'],
-            ['range' => [66, 73], 'testament' => 'nt', 'num' => 'VII', 'label' => 'Catholic Epistles & Apocalypse',   'desc' => 'The general letters and the Revelation of Saint John.'],
+            ['range' => [1, 5],   'testament' => 'ot', 'label' => 'Pentateuch'],
+            ['range' => [6, 19],  'testament' => 'ot', 'label' => 'Historical Books'],
+            ['range' => [20, 26], 'testament' => 'ot', 'label' => 'Wisdom Books'],
+            ['range' => [27, 46], 'testament' => 'ot', 'label' => 'Prophets'],
+            ['range' => [47, 50], 'testament' => 'nt', 'label' => 'Gospels'],
+            ['range' => [51, 65], 'testament' => 'nt', 'label' => 'Acts & Letters'],
+            ['range' => [66, 73], 'testament' => 'nt', 'label' => 'Catholic Epistles & Apocalypse'],
         ];
     }
 
     /**
-     * Testament headings keyed by the 'testament' tag used in book_categories().
-     * English title + Latin name; the book count is computed from the data.
+     * Testament headings (Latin) keyed by the 'testament' tag used in
+     * book_categories().
      */
     private static function testament_meta() {
         return [
-            'ot' => ['title' => 'Old Testament', 'latin' => 'Vetus Testamentum'],
-            'nt' => ['title' => 'New Testament', 'latin' => 'Novum Testamentum'],
+            'ot' => ['latin' => 'Vetus Testamentum'],
+            'nt' => ['latin' => 'Novum Testamentum'],
         ];
     }
 
@@ -1265,23 +1265,8 @@ class DwBible_Plugin {
             $secondary_names[intval($b['order'])] = $display;
         }
 
-        $base_url     = home_url('/' . $current_slug . '/');
-        $testaments   = self::testament_meta();
-
-        // Count books per testament from the data (robust to canon variations).
-        $order_testament = [];
-        foreach ($categories as $cat) {
-            for ($o = $cat['range'][0]; $o <= $cat['range'][1]; $o++) {
-                $order_testament[$o] = $cat['testament'];
-            }
-        }
-        $testament_counts = ['ot' => 0, 'nt' => 0];
-        foreach ($primary_books as $b) {
-            $o = intval($b['order']);
-            if (isset($order_testament[$o]) && isset($testament_counts[$order_testament[$o]])) {
-                $testament_counts[$order_testament[$o]]++;
-            }
-        }
+        $base_url   = home_url('/' . $current_slug . '/');
+        $testaments = self::testament_meta();
 
         // ─── Translation model — "alongside the Latin" ──────────────────────
         // Every vernacular edition is an INTERLINEAR paired with the Latin
@@ -1367,27 +1352,18 @@ class DwBible_Plugin {
                 }
                 $open_testament = $cat['testament'];
                 $t = isset($testaments[$open_testament]) ? $testaments[$open_testament] : null;
-                $count = isset($testament_counts[$open_testament]) ? $testament_counts[$open_testament] : 0;
                 $out .= '<section class="dwbible-testament">';
                 if ($t) {
                     $out .= '<header class="dwbible-testament-head">';
-                    $out .= '<h2 class="dwbible-testament-title">' . esc_html($t['title']) . '</h2>';
-                    $out .= '<span class="dwbible-testament-latin">' . esc_html($t['latin']) . '</span>';
-                    $out .= '<span class="dwbible-testament-count">' . esc_html($count) . ' books</span>';
+                    $out .= '<h2 class="dwbible-testament-title">' . esc_html($t['latin']) . '</h2>';
                     $out .= '</header>';
                 }
             }
 
-            // ─── Book group: gutter label (numeral · name · blurb) + book list ───
+            // ─── Book group: name label + book list ───
             $out .= '<section class="dwbible-category">';
             $out .= '<div class="dwbible-category-label">';
-            if (!empty($cat['num'])) {
-                $out .= '<span class="dwbible-category-num">' . esc_html($cat['num']) . '</span>';
-            }
             $out .= '<h3 class="dwbible-category-name">' . esc_html($cat['label']) . '</h3>';
-            if (!empty($cat['desc'])) {
-                $out .= '<p class="dwbible-category-desc">' . esc_html($cat['desc']) . '</p>';
-            }
             $out .= '</div>';
             $out .= '<div class="dwbible-tiles">';
 
