@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.12.05
+* Version: 1.26.06.12.06
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.12.05');
+    define('DWBIBLE_VERSION', '1.26.06.12.06');
 }
 
 // Load include classes before hooks are registered
@@ -1224,6 +1224,47 @@ class DwBible_Plugin {
     }
 
     /**
+     * Normalize a string for client/server-consistent search matching:
+     * lowercase + strip diacritics + æ/œ/ß expansions. Keeps spaces; callers
+     * reduce to [a-z0-9] per token. Mirrors the JS norm() in the index filter.
+     */
+    private static function search_normalize($s) {
+        $s = mb_strtolower((string) $s, 'UTF-8');
+        $map = [
+            'à'=>'a','á'=>'a','â'=>'a','ã'=>'a','ä'=>'a','å'=>'a','ā'=>'a',
+            'ç'=>'c','č'=>'c',
+            'è'=>'e','é'=>'e','ê'=>'e','ë'=>'e','ē'=>'e',
+            'ì'=>'i','í'=>'i','î'=>'i','ï'=>'i','ī'=>'i',
+            'ñ'=>'n',
+            'ò'=>'o','ó'=>'o','ô'=>'o','õ'=>'o','ö'=>'o','ō'=>'o','ø'=>'o',
+            'ù'=>'u','ú'=>'u','û'=>'u','ü'=>'u','ū'=>'u',
+            'ý'=>'y','ÿ'=>'y',
+            'æ'=>'ae','œ'=>'oe','ß'=>'ss',
+        ];
+        return strtr($s, $map);
+    }
+
+    /**
+     * Prefix-search tokens for one book name: the normalized [a-z0-9] form,
+     * plus — for numbered books ("I Corinthios" / "1 Corinthians") — the form
+     * with the leading number/roman-numeral token removed, so the epistle name
+     * itself ("corinthios") is matchable from its first letter.
+     */
+    private static function search_tokens_for_name($name) {
+        $n = self::search_normalize($name); // keeps spaces
+        $tokens = [];
+        $full = preg_replace('/[^a-z0-9]/', '', $n);
+        if ($full !== '') { $tokens[] = $full; }
+        // A leading number or roman numeral that is its OWN token (space after)
+        // is a book number, not part of the name — strip it for a second token.
+        // (Names like "Iudith"/"Iob" have no space, so their leading I stays.)
+        $stripped = preg_replace('/^(?:\d+|[ivxlcdm]+)\s+/', '', $n);
+        $stripped = preg_replace('/[^a-z0-9]/', '', $stripped);
+        if ($stripped !== '' && $stripped !== $full) { $tokens[] = $stripped; }
+        return $tokens;
+    }
+
+    /**
      * Load index.csv for a specific dataset (bible, bibel, latin).
      */
     private static function load_dataset_index($dataset) {
@@ -1267,6 +1308,27 @@ class DwBible_Plugin {
 
         $base_url   = home_url('/' . $current_slug . '/');
         $testaments = self::testament_meta();
+
+        // All configured language names per canonical order — lets the on-page
+        // filter match a book typed in ANY language (plus its slug). Loaded
+        // once; embedded into each tile's data-search so filtering stays 100%
+        // client-side (never hits the server).
+        $names_by_order = [];
+        foreach (['latin', 'bible', 'bibel', 'spanish', 'french'] as $ds) {
+            foreach (self::load_dataset_index($ds) as $b) {
+                $o = intval($b['order']);
+                if (!empty($b['display_name'])) { $names_by_order[$o][] = $b['display_name']; }
+                if (!empty($b['short_name']))   { $names_by_order[$o][] = $b['short_name']; }
+            }
+        }
+        // Common abbreviations that are NOT a prefix of any full name — chiefly
+        // the Gospels (Mt / Mk·Mc / Lk·Lc / Jn). Keyed by canonical order.
+        $extra_abbr = [
+            47 => ['mt'],
+            48 => ['mk', 'mc'],
+            49 => ['lk', 'lc'],
+            50 => ['jn'],
+        ];
 
         // ─── Translation model — "alongside the Latin" ──────────────────────
         // Every vernacular edition is an INTERLINEAR paired with the Latin
@@ -1342,6 +1404,12 @@ class DwBible_Plugin {
         $out .= '</div>';
         $out .= '</header>';
 
+        // ─── On-page filter (client-side; see the script at the foot) ───
+        $out .= '<div class="dwbible-filter-wrap">';
+        $out .= '<input type="search" class="dwbible-filter" placeholder="Filter books…" aria-label="Filter books by name or abbreviation" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" />';
+        $out .= '<p class="dwbible-filter-empty" role="status" hidden>No books match that.</p>';
+        $out .= '</div>';
+
         // ─── Testament sections, each holding its book groups ───
         $open_testament = '';
         foreach ($categories as $cat) {
@@ -1392,7 +1460,24 @@ class DwBible_Plugin {
                 if ( $alt_meaningful ) {
                     $label .= ' / ' . $alt_name;
                 }
-                $out .= '<a href="' . esc_url($url) . '" class="dwbible-tile" aria-label="' . esc_attr($label) . '">';
+
+                // Prefix-search tokens: every language's name + the slug + any
+                // curated abbreviation, each reduced to a normalized token (and
+                // a number-stripped twin for numbered books). Embedded on the
+                // tile so the filter runs entirely in the browser.
+                $tok_set = [];
+                $candidate_names = isset($names_by_order[$order]) ? $names_by_order[$order] : [];
+                $candidate_names[] = $name;
+                if ( $alt_name !== '' ) { $candidate_names[] = $alt_name; }
+                foreach ( $candidate_names as $cn ) {
+                    foreach ( self::search_tokens_for_name($cn) as $tk ) { $tok_set[$tk] = true; }
+                }
+                if ( isset($extra_abbr[$order]) ) {
+                    foreach ( $extra_abbr[$order] as $ab ) { $tok_set[$ab] = true; }
+                }
+                $data_search = implode(' ', array_keys($tok_set));
+
+                $out .= '<a href="' . esc_url($url) . '" class="dwbible-tile" data-search="' . esc_attr($data_search) . '" aria-label="' . esc_attr($label) . '">';
                 $out .= '<span class="dwbible-tile-name">' . esc_html($name) . '</span>';
                 if ( $alt_meaningful ) {
                     $out .= '<span class="dwbible-tile-alt">' . esc_html($alt_name) . '</span>';
@@ -1417,6 +1502,62 @@ class DwBible_Plugin {
         $out .= ' · <a href="' . esc_url(home_url('/' . $primary_dataset . '/index.json')) . '">index.json</a>';
         $out .= ' · <a href="' . esc_url($site_url . '/bible-index.json') . '">bible-index.json</a>';
         $out .= '</p>';
+
+        // ─── Client-side filter behaviour ───────────────────────────────────
+        // Pure DOM filtering — prefix-matches the query against each tile's
+        // data-search tokens, hides non-matching books and any group/testament
+        // left empty. Never makes a request. norm() mirrors search_normalize().
+        $out .= <<<'JS'
+<script>
+(function(){
+  var root = document.querySelector('.dwbible-index');
+  if (!root) return;
+  var input = root.querySelector('.dwbible-filter');
+  if (!input) return;
+  var tiles = [].slice.call(root.querySelectorAll('.dwbible-tile'));
+  var groups = [].slice.call(root.querySelectorAll('.dwbible-category'));
+  var testaments = [].slice.call(root.querySelectorAll('.dwbible-testament'));
+  var empty = root.querySelector('.dwbible-filter-empty');
+
+  function norm(s){
+    return (s || '').toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/æ/g, 'ae').replace(/œ/g, 'oe').replace(/ß/g, 'ss')
+      .replace(/[^a-z0-9]/g, '');
+  }
+
+  function apply(){
+    var q = norm(input.value);
+    if (!q){
+      tiles.forEach(function(t){ t.hidden = false; });
+      groups.forEach(function(g){ g.hidden = false; });
+      testaments.forEach(function(s){ s.hidden = false; });
+      if (empty) empty.hidden = true;
+      return;
+    }
+    var any = false;
+    tiles.forEach(function(t){
+      var toks = (t.getAttribute('data-search') || '').split(' ');
+      var hit = false;
+      for (var i = 0; i < toks.length; i++){
+        if (toks[i] && toks[i].lastIndexOf(q, 0) === 0){ hit = true; break; }
+      }
+      t.hidden = !hit;
+      if (hit) any = true;
+    });
+    groups.forEach(function(g){
+      g.hidden = !g.querySelector('.dwbible-tile:not([hidden])');
+    });
+    testaments.forEach(function(s){
+      s.hidden = !s.querySelector('.dwbible-category:not([hidden])');
+    });
+    if (empty) empty.hidden = any;
+  }
+
+  input.addEventListener('input', apply);
+})();
+</script>
+JS;
 
         $out .= '</div>';
         return $out;
