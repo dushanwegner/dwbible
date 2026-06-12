@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.05.01
+* Version: 1.26.06.12.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.05.01');
+    define('DWBIBLE_VERSION', '1.26.06.12.01');
 }
 
 // Load include classes before hooks are registered
@@ -1202,14 +1202,39 @@ class DwBible_Plugin {
      */
     private static function book_categories() {
         return [
-            ['range' => [1, 5],   'testament' => 'ot', 'label' => 'Pentateuch'],
-            ['range' => [6, 19],  'testament' => 'ot', 'label' => 'Historical Books'],
-            ['range' => [20, 26], 'testament' => 'ot', 'label' => 'Wisdom Books'],
-            ['range' => [27, 46], 'testament' => 'ot', 'label' => 'Prophets'],
-            ['range' => [47, 50], 'testament' => 'nt', 'label' => 'Gospels'],
-            ['range' => [51, 65], 'testament' => 'nt', 'label' => 'Acts & Letters'],
-            ['range' => [66, 73], 'testament' => 'nt', 'label' => 'Catholic Epistles & Apocalypse'],
+            ['range' => [1, 5],   'testament' => 'ot', 'num' => 'I',   'label' => 'Pentateuch',                      'desc' => 'The five books of the Law of Moses.'],
+            ['range' => [6, 19],  'testament' => 'ot', 'num' => 'II',  'label' => 'Historical Books',                 'desc' => 'The chronicles of Israel, from Josue to the Maccabees.'],
+            ['range' => [20, 26], 'testament' => 'ot', 'num' => 'III', 'label' => 'Wisdom Books',                     'desc' => 'The poetic and sapiential books.'],
+            ['range' => [27, 46], 'testament' => 'ot', 'num' => 'IV',  'label' => 'Prophets',                         'desc' => 'The major and minor prophets.'],
+            ['range' => [47, 50], 'testament' => 'nt', 'num' => 'V',   'label' => 'Gospels',                          'desc' => 'The fourfold witness of the Lord.'],
+            ['range' => [51, 65], 'testament' => 'nt', 'num' => 'VI',  'label' => 'Acts & Letters',                   'desc' => 'The Acts of the Apostles and the Pauline epistles.'],
+            ['range' => [66, 73], 'testament' => 'nt', 'num' => 'VII', 'label' => 'Catholic Epistles & Apocalypse',   'desc' => 'The general letters and the Revelation of Saint John.'],
         ];
+    }
+
+    /**
+     * Testament headings keyed by the 'testament' tag used in book_categories().
+     * English title + Latin name; the book count is computed from the data.
+     */
+    private static function testament_meta() {
+        return [
+            'ot' => ['title' => 'Old Testament', 'latin' => 'Vetus Testamentum'],
+            'nt' => ['title' => 'New Testament', 'latin' => 'Novum Testamentum'],
+        ];
+    }
+
+    /**
+     * Latin edition subtitle shown under the page title, per dataset.
+     */
+    private static function dataset_subtitle($dataset) {
+        $map = [
+            'latin'   => 'Biblia Sacra · Vulgata Clementina',
+            'bible'   => 'Biblia Sacra · Douay-Rheims',
+            'bibel'   => 'Biblia Sacra · Menge',
+            'spanish' => 'Biblia Sacra · Straubinger',
+            'french'  => 'Biblia Sacra · Crampon',
+        ];
+        return isset($map[$dataset]) ? $map[$dataset] : 'Biblia Sacra';
     }
 
     /**
@@ -1254,40 +1279,83 @@ class DwBible_Plugin {
             $secondary_names[intval($b['order'])] = $display;
         }
 
-        $base_url = home_url('/' . $current_slug . '/');
-        $out = '<div class="dwbible dwbible-index">';
-        $out .= '<h1 class="dwbible-index-title">The Bible</h1>';
+        $base_url     = home_url('/' . $current_slug . '/');
+        $testaments   = self::testament_meta();
 
-        // Cross-links to all translation indexes (HTML + JSON)
-        $all_datasets = [
-            'latin'   => 'Latin (Clementine Vulgate)',
-            'bible'   => 'English (Douay-Rheims)',
-            'bibel'   => 'German (Menge)',
-            'spanish' => 'Spanish (Straubinger)',
-            'french'  => 'French (Crampon)',
-        ];
-        $cross_links = [];
-        foreach ($all_datasets as $ds => $label) {
-            if ($ds === $primary_dataset) {
-                $cross_links[] = '<strong>' . esc_html($label) . '</strong>';
-            } else {
-                $cross_links[] = '<a href="' . esc_url(home_url('/' . $ds . '/')) . '">' . esc_html($label) . '</a>';
+        // Count books per testament from the data (robust to canon variations).
+        $order_testament = [];
+        foreach ($categories as $cat) {
+            for ($o = $cat['range'][0]; $o <= $cat['range'][1]; $o++) {
+                $order_testament[$o] = $cat['testament'];
             }
         }
+        $testament_counts = ['ot' => 0, 'nt' => 0];
+        foreach ($primary_books as $b) {
+            $o = intval($b['order']);
+            if (isset($order_testament[$o]) && isset($testament_counts[$order_testament[$o]])) {
+                $testament_counts[$order_testament[$o]]++;
+            }
+        }
+
+        $out = '<div class="dwbible dwbible-index">';
+
+        // ─── Page head: eyebrow · title · Latin edition subtitle ───
+        $out .= '<header class="dwbible-index-head">';
+        $out .= '<span class="dwbible-index-eyebrow">Sacra Scriptura</span>';
+        $out .= '<h1 class="dwbible-index-title">The Bible</h1>';
+        $out .= '<p class="dwbible-index-latin">' . esc_html(self::dataset_subtitle($primary_dataset)) . '</p>';
+        $out .= '</header>';
+
+        // ─── Translation switcher (segmented; active edition is highlighted) ───
+        $lang_names = [
+            'latin'   => 'Latin',
+            'bible'   => 'English',
+            'bibel'   => 'German',
+            'spanish' => 'Spanish',
+            'french'  => 'French',
+        ];
         $out .= '<nav class="dwbible-translation-nav" aria-label="Bible translations">';
-        $out .= implode(' · ', $cross_links);
+        foreach ($lang_names as $ds => $label) {
+            if ($ds === $primary_dataset) {
+                $out .= '<strong class="dwbible-translation-active" aria-current="page">' . esc_html($label) . '</strong>';
+            } else {
+                $out .= '<a href="' . esc_url(home_url('/' . $ds . '/')) . '">' . esc_html($label) . '</a>';
+            }
+        }
         $out .= '</nav>';
 
-        $prev_testament = '';
+        // ─── Testament sections, each holding its book groups ───
+        $open_testament = '';
         foreach ($categories as $cat) {
-            // OT/NT divider
-            if ($cat['testament'] !== $prev_testament && $prev_testament !== '') {
-                $out .= '<hr class="dwbible-testament-divider">';
+            // Open a new testament section when the testament tag changes.
+            if ($cat['testament'] !== $open_testament) {
+                if ($open_testament !== '') {
+                    $out .= '</section>'; // close previous .dwbible-testament
+                }
+                $open_testament = $cat['testament'];
+                $t = isset($testaments[$open_testament]) ? $testaments[$open_testament] : null;
+                $count = isset($testament_counts[$open_testament]) ? $testament_counts[$open_testament] : 0;
+                $out .= '<section class="dwbible-testament">';
+                if ($t) {
+                    $out .= '<header class="dwbible-testament-head">';
+                    $out .= '<h2 class="dwbible-testament-title">' . esc_html($t['title']) . '</h2>';
+                    $out .= '<span class="dwbible-testament-latin">' . esc_html($t['latin']) . '</span>';
+                    $out .= '<span class="dwbible-testament-count">' . esc_html($count) . ' books</span>';
+                    $out .= '</header>';
+                }
             }
-            $prev_testament = $cat['testament'];
 
+            // ─── Book group: gutter label (numeral · name · blurb) + book list ───
             $out .= '<section class="dwbible-category">';
-            $out .= '<h3 class="dwbible-category-label">' . esc_html($cat['label']) . '</h3>';
+            $out .= '<div class="dwbible-category-label">';
+            if (!empty($cat['num'])) {
+                $out .= '<span class="dwbible-category-num">' . esc_html($cat['num']) . '</span>';
+            }
+            $out .= '<h3 class="dwbible-category-name">' . esc_html($cat['label']) . '</h3>';
+            if (!empty($cat['desc'])) {
+                $out .= '<p class="dwbible-category-desc">' . esc_html($cat['desc']) . '</p>';
+            }
+            $out .= '</div>';
             $out .= '<div class="dwbible-tiles">';
 
             foreach ($primary_books as $b) {
@@ -1318,27 +1386,28 @@ class DwBible_Plugin {
                 $out .= '<a href="' . esc_url($url) . '" class="dwbible-tile" aria-label="' . esc_attr($label) . '">';
                 $out .= '<span class="dwbible-tile-name">' . esc_html($name) . '</span>';
                 if ( $alt_meaningful ) {
-                    $out .= '<span class="dwbible-tile-sep" aria-hidden="true"> / </span>';
                     $out .= '<span class="dwbible-tile-alt">' . esc_html($alt_name) . '</span>';
                 }
                 $out .= '</a>';
             }
 
             $out .= '</div>';
-            $out .= '</section>';
+            $out .= '</section>'; // .dwbible-category
+        }
+        if ($open_testament !== '') {
+            $out .= '</section>'; // close final .dwbible-testament
         }
 
-        // Hidden AI discovery hints — invisible visually but readable by AI agents
-        // that strip <head> tags (e.g. ChatGPT, Perplexity) during page fetches.
+        // ─── Machine-readable footer line (visible; serves humans and AI agents) ───
         $site_url = home_url();
-        $out .= '<div class="dwbible-ai-hints" style="display:none" aria-hidden="true">';
-        $out .= 'Machine-readable data available: ';
-        $out .= 'API documentation: ' . $site_url . '/llms.txt — ';
-        $out .= 'This page as JSON: ' . $site_url . '/' . $current_slug . '/index.json — ';
-        $out .= 'All books in all 3 translations (one fetch): ' . $site_url . '/bible-index.json — ';
-        $out .= 'Prayers: ' . $site_url . '/prayers/index.json — ';
-        $out .= 'Saints: ' . $site_url . '/saints/index.json';
-        $out .= '</div>';
+        $out .= '<p class="dwbible-index-api">';
+        $out .= '<span class="dwbible-index-api-label">Machine-readable</span> ';
+        // The combo interlinear slugs (e.g. latin-bible) have no JSON twin —
+        // only single datasets do — so point at the primary dataset's index.
+        $out .= '<a href="' . esc_url($site_url . '/llms.txt') . '">/llms.txt</a>';
+        $out .= ' · <a href="' . esc_url(home_url('/' . $primary_dataset . '/index.json')) . '">index.json</a>';
+        $out .= ' · <a href="' . esc_url($site_url . '/bible-index.json') . '">bible-index.json</a>';
+        $out .= '</p>';
 
         $out .= '</div>';
         return $out;
