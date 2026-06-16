@@ -85,6 +85,10 @@
     var linkPrev = bar.querySelector('[data-prev]');
     var linkNext = bar.querySelector('[data-next]');
     var linkTop = bar.querySelector('[data-top]');
+    // The chapter-number element, shared by update() + highlightCurrentChapter().
+    // (It was previously only declared INSIDE highlightCurrentChapter, so update()
+    // referenced an undeclared `elCh` and threw — see the update() note below.)
+    var elCh = bar.querySelector('[data-ch]');
 
     function isHashHref(href){
         return href && href.charAt(0) === '#';
@@ -225,7 +229,12 @@
             currentIdx = 0;
         }
 
-        if (!info) {
+        // Always recompute the displayed chapter from the current scroll
+        // position. (The old cached-`info` short-circuit this block was guarded
+        // by was removed in a refactor; the leftover `if (!info)` reference
+        // threw "info is not defined" and aborted update() before the prev/
+        // next + sticky-bar logic below — so that navigation silently broke.)
+        {
             // Determine the chapter number from a stable source first.
             // On initial load, PHP already renders the correct chapter; avoid reverting to 1
             // if heading detection temporarily fails during layout.
