@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.12.06
+* Version: 1.26.06.16.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.12.06');
+    define('DWBIBLE_VERSION', '1.26.06.16.01');
 }
 
 // Load include classes before hooks are registered
@@ -475,18 +475,14 @@ class DwBible_Plugin {
             if ( is_string( $css_path ) && $css_path !== '' && file_exists( $css_path ) ) {
                 $css_ver .= '.' . (string) filemtime( $css_path );
             }
-            wp_enqueue_style( 'dwbible-styles', $css_url, [], $css_ver );
+            // Depend on the dwtheme token kernel so the canonical design tokens
+            // (palette + data-theme dark/night/sepia flips) are present and ordered
+            // before dwbible's styles. dwbible rides the canonical `data-theme`
+            // system set by the host site — it no longer runs its own theme JS
+            // (the retired dwbible-theme.js drove a SECOND dark scheme on its own
+            // localStorage key, fighting the canonical one).
+            wp_enqueue_style( 'dwbible-styles', $css_url, [ 'dwtheme-tokens' ], $css_ver );
 
-            // Enqueue theme script first (in the head) to prevent flash of unstyled content
-            $theme_rel  = 'assets/dwbible-theme.js';
-            $theme_js_url = plugins_url( $theme_rel, __FILE__ );
-            $theme_js_path = plugin_dir_path( __FILE__ ) . $theme_rel;
-            $theme_ver = $base_ver;
-            if ( is_string( $theme_js_path ) && $theme_js_path !== '' && file_exists( $theme_js_path ) ) {
-                $theme_ver .= '.' . (string) filemtime( $theme_js_path );
-            }
-            wp_enqueue_script( 'dwbible-theme', $theme_js_url, [], $theme_ver, false );
-            
             // Main frontend script in the footer
             $js_rel  = 'assets/dwbible-frontend.js';
             $js_url  = plugins_url( $js_rel, __FILE__ );

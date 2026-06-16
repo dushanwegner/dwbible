@@ -12,7 +12,7 @@
 /* Inactive = site oxblood red; active/current = bold black.
    !important overrides Bootstrap --bs-link-color on all <a> elements. */
 .dwbible-lang-link {
-  color: var(--bs-link-color, #a70000) !important;
+  color: var(--rubric, #a70000) !important;
   text-decoration: none !important;
   letter-spacing: 0.02em;
 
@@ -21,12 +21,12 @@
   }
 
   &.active {
-    color: #000 !important;
+    color: var(--ink, #000) !important;
     font-weight: 600;
   }
 }
 
 .dwbible-lang-sep {
-  color: #ddd;
+  color: var(--rule, #ddd);
   margin: 0 0.25rem;
 }

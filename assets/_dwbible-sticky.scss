@@ -3,7 +3,7 @@
   font-size: 1rem;
   font-weight: 400;
   margin: 3rem 0 2rem !important;
-  color: #000;
+  color: var(--ink, #000);
 
   @media (min-width: 768px) {
     margin-top: 3rem;
@@ -26,9 +26,9 @@
     top: 0;
     top: env(safe-area-inset-top, 0);
     z-index: 1000;
-    background: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    box-shadow: 0 10px 24px rgba(255, 255, 255, .85);
+    background: var(--bg, #fff);
+    border-bottom: 1px solid var(--rule, rgba(0, 0, 0, .1));
+    box-shadow: 0 10px 24px var(--bg, rgba(255, 255, 255, .85));
     font-size: .9rem;
     padding: .375rem 0 .5rem !important;
     box-sizing: border-box;
@@ -64,7 +64,7 @@
     width: 1.6rem;
     height: 1.6rem;
     border-radius: .25rem;
-    border: 1px solid rgba(0, 0, 0, .15);
+    border: 1px solid var(--rule, rgba(0, 0, 0, .15));
 
     &:is(.is-disabled) {
       opacity: .35;
@@ -75,7 +75,7 @@
   /* Generic text button (used in share controls, etc.) */
   .dwbible-btn {
     font-size: .85rem;
-    border: 1px solid rgba(0, 0, 0, .15);
+    border: 1px solid var(--rule, rgba(0, 0, 0, .15));
     padding: .15rem .4rem;
     border-radius: .25rem;
     text-decoration: none;
@@ -83,7 +83,7 @@
     display: inline-block;
 
     &:hover {
-      background: #f1f3f5;
+      background: var(--bg-2, #f1f3f5);
     }
   }
 }
@@ -95,9 +95,9 @@
   top: 0;
   top: env(safe-area-inset-top, 0);
   z-index: 1000;
-  background: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  box-shadow: 0 10px 24px rgba(255, 255, 255, .85);
+  background: var(--bg, #fff);
+  border-bottom: 1px solid var(--rule, rgba(0, 0, 0, .1));
+  box-shadow: 0 10px 24px var(--bg, rgba(255, 255, 255, .85));
   font-size: .9rem;
   padding: .375rem 0 .5rem !important;
   box-sizing: border-box;
@@ -132,7 +132,7 @@
   width: 1.6rem;
   height: 1.6rem;
   border-radius: .25rem;
-  border: 1px solid rgba(0, 0, 0, .15);
+  border: 1px solid var(--rule, rgba(0, 0, 0, .15));
 
   &:is(.is-disabled) {
     opacity: .35;
@@ -185,8 +185,8 @@
   top: 100%;
   left: 0;
   right: 0;
-  background: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--bg, #fff);
+  border-bottom: 1px solid var(--rule, rgba(0, 0, 0, 0.1));
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 0.5rem;
   z-index: 999;
@@ -207,7 +207,7 @@
     color: inherit;
     font-size: 0.85rem;
 
-    &:hover { background: #f1f3f5; }
-    &.is-current { background: #e9ecef; font-weight: 600; }
+    &:hover { background: var(--bg-2, #f1f3f5); }
+    &.is-current { background: var(--rule-soft, #e9ecef); font-weight: 600; }
   }
 }
