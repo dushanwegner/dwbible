@@ -182,7 +182,7 @@ trait DwBible_Book_TOC_Trait {
               <li>
                 <a class="dwbible-toc-chapter" href="<?php echo esc_url( trailingslashit( $book_url ) . $i . '/' ); ?>">
                   <span class="dwbible-toc-chapter-num"><?php echo esc_html( self::int_to_roman( $i ) ); ?></span>
-                  <span class="dwbible-toc-chapter-arabic">Cap. <?php echo $i; ?></span>
+                  <span class="dwbible-toc-chapter-arabic"><?php echo (int) $i; ?></span>
                 </a>
               </li>
             <?php endfor; ?>
