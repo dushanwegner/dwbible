@@ -68,7 +68,7 @@
   justify-content: center;
   width: 1.6rem;
   height: 1.6rem;
-  border-radius: 0.25rem;
+  border-radius: 0;
   border: 1px solid var(--rule, rgba(0, 0, 0, 0.15));
 }
 .dwbible .dwbible-ctl:is(.is-disabled) {
@@ -82,7 +82,7 @@
   font-size: 0.85rem;
   border: 1px solid var(--rule, rgba(0, 0, 0, 0.15));
   padding: 0.15rem 0.4rem;
-  border-radius: 0.25rem;
+  border-radius: 0;
   text-decoration: none;
   color: inherit;
   display: inline-block;
@@ -132,7 +132,7 @@
   justify-content: center;
   width: 1.6rem;
   height: 1.6rem;
-  border-radius: 0.25rem;
+  border-radius: 0;
   border: 1px solid var(--rule, rgba(0, 0, 0, 0.15));
 }
 .dwbible-ctl:is(.is-disabled) {
@@ -200,7 +200,7 @@
   align-items: center;
   justify-content: center;
   padding: 0.3rem;
-  border-radius: 0.25rem;
+  border-radius: 0;
   text-decoration: none;
   color: inherit;
   font-size: 0.85rem;
@@ -229,7 +229,7 @@
 .dwbible .verse-highlight {
   background: #fff3cd;
   padding: 0 0.2em;
-  border-radius: 0.15rem;
+  border-radius: 0;
 }
 .dwbible .dwbible-book p.verse {
   transition: background-color 1.6s ease-out;
@@ -256,12 +256,12 @@
   border-radius: 0;
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-verse .dwbible-interlinear-entry.verse-highlight:first-child {
-  border-top-left-radius: 0.15rem;
-  border-top-right-radius: 0.15rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-verse .dwbible-interlinear-entry.verse-highlight:last-child {
-  border-bottom-left-radius: 0.15rem;
-  border-bottom-right-radius: 0.15rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .dwbible.dwbible-interlinear {
   /* First language / primary line — only bold when multiple languages shown */
@@ -436,7 +436,7 @@
   flex-direction: column;
   padding: 0.625rem 0.75rem;
   border: 1px solid var(--rule, #e8e8e8);
-  border-radius: 0.5rem;
+  border-radius: 0;
   text-decoration: none;
   color: inherit;
   transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;

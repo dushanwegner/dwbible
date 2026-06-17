@@ -13,7 +13,7 @@
   .verse-highlight {
     background: #fff3cd;
     padding: 0 .2em;
-    border-radius: .15rem;
+    border-radius: 0;
   }
 
   .dwbible-book {
@@ -45,13 +45,13 @@
       }
 
       .dwbible-interlinear-entry.verse-highlight:first-child {
-        border-top-left-radius: .15rem;
-        border-top-right-radius: .15rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
       }
 
       .dwbible-interlinear-entry.verse-highlight:last-child {
-        border-bottom-left-radius: .15rem;
-        border-bottom-right-radius: .15rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
       }
     }
 

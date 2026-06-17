@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.16.02
+* Version: 1.26.06.17.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.16.02');
+    define('DWBIBLE_VERSION', '1.26.06.17.01');
 }
 
 // Load include classes before hooks are registered
