@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.17.02
+* Version: 1.26.06.18.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.17.02');
+    define('DWBIBLE_VERSION', '1.26.06.18.01');
 }
 
 // Load include classes before hooks are registered
@@ -1119,12 +1119,7 @@ class DwBible_Plugin {
             $chapter_scroll_id = DwBible_Reference::chapter_scroll_id($book_slug, $ref['ch']);
         }
 
-        // Language switcher — placed top-right of the edition heading
-        $vf_sw = absint(get_query_var(self::QV_VFROM));
-        $vt_sw = absint(get_query_var(self::QV_VTO));
-        $slug_sw = get_query_var(self::QV_SLUG);
-        if (!is_string($slug_sw) || $slug_sw === '') { $slug_sw = 'bible'; }
-        $lang_switcher = self::render_interlinear_language_switcher($book_slug, [$slug_sw], $ch, $vf_sw, $vt_sw);
+        $lang_switcher = '';
 
         // Inject navigation helpers and optional highlight/scroll behavior
         $human = isset($entry['display_name']) && $entry['display_name'] !== '' ? $entry['display_name'] : $entry['short_name'];
@@ -1358,24 +1353,7 @@ class DwBible_Plugin {
             ? 'Vulgata · ' . $translation_names[$active_lang]['name'] . ' (' . $translation_names[$active_lang]['code'] . ')'
             : 'Vulgata Clementina (LA)';
 
-        // Build the two switcher renderings once. Desktop shows the segmented
-        // control; ≤640px shows the compact globe button with this <select>
-        // laid transparently over it (navigates on change).
-        $seg = '';
-        $opts = '';
-        foreach ($switch as $key => $opt) {
-            $url = home_url('/' . $opt['slug'] . '/');
-            if ($key === $active_lang) {
-                $seg .= '<strong class="dwbible-translation-active" aria-current="page">' . esc_html($opt['label']) . '</strong>';
-            } else {
-                $seg .= '<a href="' . esc_url($url) . '">' . esc_html($opt['label']) . '</a>';
-            }
-            $sel   = ($key === $active_lang) ? ' selected' : '';
-            $opts .= '<option value="' . esc_url($url) . '"' . $sel . '>' . esc_html($opt['label']) . '</option>';
-        }
-        $select_html = '<select class="dwbible-translation-select" aria-label="Choose the translation shown alongside the Latin" onchange="if(this.value)window.location=this.value;">' . $opts . '</select>';
-
-        // ─── Page head: title · Vulgate+translation subtitle · picker ───
+        // ─── Page head: title · Vulgate+translation subtitle ───
         $out  = '<div class="dwbible dwbible-index">';
         $out .= '<header class="dwbible-index-head">';
         $out .= '<div class="dwbible-index-headrow">';
@@ -1383,21 +1361,7 @@ class DwBible_Plugin {
         $out .= '<h1 class="dwbible-index-title">Biblia Sacra</h1>';
         $out .= '<p class="dwbible-index-latin">' . esc_html($subtitle) . '</p>';
         $out .= '</div>';
-        // Compact mobile picker: globe (i18n) + chevron over the native select.
-        $out .= '<div class="dwbible-translation-compact">';
-        $out .= '<span class="dwbible-translation-compact-btn" aria-hidden="true">';
-        $out .= '<svg class="dwbible-i18n" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.6 2.6 15.4 0 18M12 3c-2.6 2.6-2.6 15.4 0 18"/></svg>';
-        $out .= '<svg class="dwbible-chev" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4l4 4 4-4"/></svg>';
-        $out .= '</span>';
-        $out .= $select_html;
-        $out .= '</div>';
         $out .= '</div>'; // .dwbible-index-headrow
-
-        // Desktop switcher: caption + segmented control, under the head divider.
-        $out .= '<div class="dwbible-translation-full">';
-        $out .= '<span class="dwbible-translation-label">Alongside the Latin</span>';
-        $out .= '<nav class="dwbible-translation-nav" aria-label="Translation alongside the Latin">' . $seg . '</nav>';
-        $out .= '</div>';
         $out .= '</header>';
 
         // ─── On-page filter (client-side; see the script at the foot) ───

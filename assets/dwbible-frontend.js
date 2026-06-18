@@ -504,5 +504,38 @@
 
     setTopOffset();
     update();
+
+    // Re-initialise the reader after an in-place language swap (the rail fetches
+    // the target edition and replaces .entry-content's innerHTML). Re-points the
+    // module-scoped refs at the freshly-injected sticky bar + book and re-runs
+    // the sticky/chapter logic; the document-level delegated listeners (verse
+    // links, anchors, picker-close) survive the swap untouched.
+    window.dwbibleRebind = function(){
+        bar = document.querySelector('.dwbible-sticky');
+        container = document.querySelector('.dwbible.dwbible-book') || document.querySelector('.dwbible .dwbible-book');
+        if (!bar) return; // index / book-TOC have no sticky reader to wire
+        chapterScrollId = bar.getAttribute('data-chapter-scroll-id');
+        heads = headsList();
+        verses = versesList();
+        controls = bar.querySelector('.dwbible-sticky__controls');
+        linkPrev = bar.querySelector('[data-prev]');
+        linkNext = bar.querySelector('[data-next]');
+        linkTop  = bar.querySelector('[data-top]');
+        elCh = bar.querySelector('[data-ch]');
+        maxCh = parseInt(bar.getAttribute('data-max-ch') || '0', 10);
+        bookUrl = bar.getAttribute('data-book-url') || '';
+        pickerBtn = bar.querySelector('.dwbible-ch-picker');
+        pickerGrid = null;
+        if (pickerBtn && maxCh > 1 && bookUrl && !pickerBtn._dwPickerBound) {
+            pickerBtn._dwPickerBound = true;
+            pickerBtn.addEventListener('click', function(e){
+                if (this.classList.contains('has-selection')) return;
+                e.preventDefault(); e.stopPropagation();
+                toggleChapterPicker();
+            });
+        }
+        setTopOffset();
+        update();
+    };
 })();
 

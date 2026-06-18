@@ -168,15 +168,6 @@ trait DwBible_Book_TOC_Trait {
             <p class="dwbible-toc-meta"><?php echo esc_html( $chapter_count ); ?> <?php echo $chapter_count === 1 ? 'caput' : 'capita'; ?></p>
           </header>
 
-          <?php if ( ! empty( $lang_targets ) ): ?>
-            <nav class="dwbible-toc-langs" aria-label="Translation">
-              <?php foreach ( $lang_targets as $code => $url ): ?>
-                <a class="dwbible-toc-lang dwbible-toc-lang--<?php echo esc_attr( $code ); ?><?php echo $url === '' ? ' is-active' : ''; ?>"
-                   <?php if ( $url !== '' ): ?>href="<?php echo esc_url( $url ); ?>"<?php endif; ?>><?php echo esc_html( strtoupper( $code ) ); ?></a>
-              <?php endforeach; ?>
-            </nav>
-          <?php endif; ?>
-
           <ol class="dwbible-toc-chapters">
             <?php for ( $i = 1; $i <= $chapter_count; $i++ ): ?>
               <li>

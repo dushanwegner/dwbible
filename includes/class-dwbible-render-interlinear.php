@@ -109,58 +109,6 @@ trait DwBible_Interlinear_Trait {
         return home_url($path);
     }
 
-    private static function render_interlinear_language_switcher($canonical_book_slug, $datasets, $ch, $vf, $vt) {
-        $canonical_book_slug = is_string($canonical_book_slug) ? self::slugify($canonical_book_slug) : '';
-        if ($canonical_book_slug === '') return '';
-
-        $datasets = is_array($datasets) ? $datasets : [];
-
-        // Pill table: code => [dataset_slug, label, interlinear_target_slug].
-        // LN (Latin-only) is the "back to Latin" affordance — its dataset is
-        // null because the active state means "no secondary language showing".
-        $pills = [
-            'ln' => [ null,      'LN', 'latin' ],
-            'en' => [ 'bible',   'EN', 'latin-bible' ],
-            'de' => [ 'bibel',   'DE', 'latin-bibel' ],
-            'es' => [ 'spanish', 'ES', 'latin-spanish' ],
-            'fr' => [ 'french',  'FR', 'latin-french' ],
-        ];
-
-        // A non-LN pill is active when its dataset is in the current combo.
-        // LN is active when no secondary language is.
-        $active = [];
-        $any_lang_active = false;
-        foreach ($pills as $code => $row) {
-            $ds = $row[0];
-            if ($ds === null) continue;
-            $is_on = in_array($ds, $datasets, true);
-            $active[$code] = $is_on;
-            if ($is_on) $any_lang_active = true;
-        }
-        $active['ln'] = !$any_lang_active;
-
-        // Click an active pill -> drop back to Latin-only. Click inactive ->
-        // jump to that pair. (The switcher stays binary today: the user
-        // can't combine ES + FR in one page from the UI, even though
-        // dwbible_slugs would auto-permute those routes.)
-        $html  = '<div class="dwbible-lang-switch">';
-        $i = 0;
-        foreach ($pills as $code => $row) {
-            list($ds, $label, $target_slug) = $row;
-            $target = $active[$code] ? 'latin' : $target_slug;
-            $url = self::bible_url_for_slug_and_canonical_book($target, $canonical_book_slug, $ch, $vf, $vt);
-            if (!is_string($url) || $url === '') continue;
-            if ($i++ > 0) {
-                $html .= '<span class="dwbible-lang-sep">&middot;</span>';
-            }
-            $cls = 'dwbible-lang-link dwbible-lang-link--' . $code . ($active[$code] ? ' active' : '');
-            $html .= '<a class="' . esc_attr($cls) . '" href="' . esc_url($url) . '" data-lang="' . esc_attr($code) . '">' . esc_html($label) . '</a>';
-        }
-        $html .= '</div>';
-
-        return $html;
-    }
-
     private static function parse_verse_nodes_by_number($html, $book_slug, $ch) {
         $out = [];
         if (!is_string($html) || $html === '') return $out;
@@ -538,10 +486,7 @@ trait DwBible_Interlinear_Trait {
             $chapter_scroll_id = DwBible_Reference::chapter_scroll_id($canonical_key, $ref['ch']);
         }
 
-        // Language switcher — generated here so it can be passed to the edition heading (top-right)
-        $vf = absint(get_query_var(self::QV_VFROM));
-        $vt = absint(get_query_var(self::QV_VTO));
-        $lang_switcher = self::render_interlinear_language_switcher($canonical_key, $datasets, $ch, $vf, $vt);
+        $lang_switcher = '';
 
         // Inject navigation helpers and sticky header for interlinear pages
         $first_entry = $entries[0] ?? null;
