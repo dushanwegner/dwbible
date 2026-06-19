@@ -6,7 +6,7 @@
   flex-shrink: 0;
   line-height: 1;
   white-space: nowrap;
-  font-size: 0.95rem;
+  font-size: var(--fs-small);
 }
 
 /* Inactive = site oxblood red; active/current = bold black.

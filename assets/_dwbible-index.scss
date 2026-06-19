@@ -15,7 +15,7 @@
 }
 
 .dwbible-category-label {
-  font-size: 0.75rem;
+  font-size: var(--fs-micro);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -53,7 +53,7 @@
 }
 
 .dwbible-tile-name {
-  font-size: 0.8125rem;
+  font-size: var(--fs-small);
   font-weight: 500;
   line-height: 1.25;
   color: var(--ink, #333);
@@ -65,7 +65,7 @@
 }
 
 .dwbible-tile-alt {
-  font-size: 0.6875rem;
+  font-size: var(--fs-micro);
   color: var(--ink-mute, #999);
   line-height: 1.2;
   margin-top: 0.125rem;
