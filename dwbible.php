@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.18.02
+* Version: 1.26.06.19.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.18.02');
+    define('DWBIBLE_VERSION', '1.26.06.19.01');
 }
 
 // Load include classes before hooks are registered
@@ -1358,8 +1358,9 @@ class DwBible_Plugin {
         $out .= '<header class="dwbible-index-head">';
         $out .= '<div class="dwbible-index-headrow">';
         $out .= '<div class="dwbible-index-headtext">';
-        $out .= '<h1 class="dwbible-index-title">Biblia Sacra</h1>';
-        $out .= '<p class="dwbible-index-latin">' . esc_html($subtitle) . '</p>';
+        // The title IS the edition: the Vulgate + the active translation name
+        // (Latin-only carries just the Vulgate). No separate subtitle row.
+        $out .= '<h1 class="dwbible-index-title">' . esc_html($subtitle) . '</h1>';
         $out .= '</div>';
         $out .= '</div>'; // .dwbible-index-headrow
         $out .= '</header>';
