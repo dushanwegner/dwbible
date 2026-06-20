@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.19.01
+* Version: 1.26.06.20.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.19.01');
+    define('DWBIBLE_VERSION', '1.26.06.20.01');
 }
 
 // Load include classes before hooks are registered
@@ -1362,11 +1362,17 @@ class DwBible_Plugin {
         // (Latin-only carries just the Vulgate). No separate subtitle row.
         $out .= '<h1 class="dwbible-index-title">' . esc_html($subtitle) . '</h1>';
         $out .= '</div>';
+        // Subtle search toggle, flush right in the title row: reveals the book
+        // filter on demand (kept out of the way until wanted).
+        $out .= '<button type="button" class="dwbible-index-search-toggle" aria-label="Filter books" aria-expanded="false">';
+        $out .= '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>';
+        $out .= '</button>';
         $out .= '</div>'; // .dwbible-index-headrow
         $out .= '</header>';
 
-        // ─── On-page filter (client-side; see the script at the foot) ───
-        $out .= '<div class="dwbible-filter-wrap">';
+        // ─── On-page filter (client-side; hidden until the title search toggle
+        //     reveals it; see the script at the foot) ───
+        $out .= '<div class="dwbible-filter-wrap" hidden>';
         $out .= '<input type="search" class="dwbible-filter" placeholder="Filter books…" aria-label="Filter books by name or abbreviation" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" />';
         $out .= '<p class="dwbible-filter-empty" role="status" hidden>No books match that.</p>';
         $out .= '</div>';
@@ -1516,6 +1522,24 @@ class DwBible_Plugin {
   }
 
   input.addEventListener('input', apply);
+
+  // Search toggle in the title: reveal/focus the filter; re-click hides + resets.
+  var toggle = root.querySelector('.dwbible-index-search-toggle');
+  var wrap = root.querySelector('.dwbible-filter-wrap');
+  if (toggle && wrap){
+    toggle.addEventListener('click', function(){
+      if (wrap.hasAttribute('hidden')){
+        wrap.removeAttribute('hidden');
+        toggle.setAttribute('aria-expanded', 'true');
+        input.focus();
+      } else {
+        wrap.setAttribute('hidden', '');
+        toggle.setAttribute('aria-expanded', 'false');
+        input.value = '';
+        apply();
+      }
+    });
+  }
 })();
 </script>
 JS;
