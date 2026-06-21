@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.21.02
+* Version: 1.26.06.21.03
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.21.02');
+    define('DWBIBLE_VERSION', '1.26.06.21.03');
 }
 
 // Load include classes before hooks are registered
@@ -628,6 +628,34 @@ class DwBible_Plugin {
     private static function canonicalize_key_from_dataset_book_slug($dataset_slug, $dataset_book_slug) {
         self::load_book_map();
         return DwBible_Canonicalization::canonicalize_key_from_dataset_book_slug(self::$book_map, $dataset_slug, $dataset_book_slug);
+    }
+
+    /**
+     * Flat book list for the sticky-header book picker, in canonical order.
+     * Each entry is ['n' => display name, 'u' => book URL in THIS edition].
+     * Mirrors how the index builds tiles (display_name + slugify(short_name)),
+     * so the picker and the directory agree on names and links.
+     *
+     * @param string $slug Current edition slug (e.g. 'latin-bibel', 'bible').
+     * @return array
+     */
+    public static function list_books_for_edition($slug) {
+        if (!is_string($slug) || $slug === '') return [];
+        $primary = $slug;
+        if (strpos($primary, '-') !== false) {
+            $parts = explode('-', $primary);
+            $primary = $parts[0];
+        }
+        $books = self::load_dataset_index($primary);
+        if (!is_array($books) || empty($books)) return [];
+        $base = trailingslashit(home_url('/' . trim($slug, '/') . '/'));
+        $out = [];
+        foreach ($books as $b) {
+            if (!is_array($b) || empty($b['short_name'])) continue;
+            $name = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
+            $out[] = ['n' => $name, 'u' => $base . self::slugify($b['short_name']) . '/'];
+        }
+        return $out;
     }
 
     public static function list_canonical_books() {

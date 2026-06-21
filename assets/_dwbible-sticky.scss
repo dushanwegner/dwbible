@@ -211,3 +211,58 @@
     &.is-current { background: var(--rule-soft, #e9ecef); font-weight: 600; }
   }
 }
+
+// Book picker button — the book name reads as text; opens the book overlay
+.dwbible-book-picker {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.2em;
+  text-align: left;
+
+  &:hover { opacity: 0.75; }
+  &.is-open .dwbible-book-picker__caret { transform: rotate(180deg); }
+
+  &__caret {
+    font-size: 0.6em;
+    opacity: 0.5;
+    transition: transform 0.2s;
+  }
+}
+
+// Book picker overlay — a scrollable list of book names
+.dwbible-book-grid {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--bg, #fff);
+  border: 1px solid var(--rule, rgba(0, 0, 0, 0.1));
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.25rem;
+  z-index: 1001;
+  max-height: 60vh;
+  overflow-y: auto;
+  min-width: 12rem;
+
+  &.is-open { display: block; }
+
+  &__cell {
+    display: block;
+    padding: 0.4rem 0.75rem;
+    border-radius: 0;
+    text-decoration: none;
+    color: inherit;
+    font-size: var(--fs-small);
+    white-space: nowrap;
+
+    &:hover { background: var(--bg-2, #f1f3f5); }
+    &.is-current { background: var(--rule-soft, #e9ecef); font-weight: 600; }
+  }
+}

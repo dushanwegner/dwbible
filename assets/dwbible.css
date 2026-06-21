@@ -25,8 +25,6 @@
 /* Sticky header / controls */
 .dwbible {
   /* Sticky header wrapper (sometimes rendered outside .dwbible too; see global fallback below) */
-  /* Arrow buttons: prev / top / next */
-  /* Generic text button (used in share controls, etc.) */
 }
 .dwbible .dwbible-sticky {
   position: -webkit-sticky;
@@ -59,6 +57,9 @@
   gap: 0.5rem;
   align-items: center;
 }
+.dwbible {
+  /* Arrow buttons: prev / top / next */
+}
 .dwbible .dwbible-ctl {
   color: inherit;
   text-decoration: none;
@@ -73,6 +74,9 @@
 .dwbible .dwbible-ctl:is(.is-disabled) {
   opacity: 0.35;
   pointer-events: none;
+}
+.dwbible {
+  /* Generic text button (used in share controls, etc.) */
 }
 .dwbible .dwbible-btn {
   font-size: var(--fs-small);
@@ -209,17 +213,77 @@
   font-weight: 600;
 }
 
+.dwbible-book-picker {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.2em;
+  text-align: left;
+}
+.dwbible-book-picker:hover {
+  opacity: 0.75;
+}
+.dwbible-book-picker.is-open .dwbible-book-picker__caret {
+  transform: rotate(180deg);
+}
+.dwbible-book-picker__caret {
+  font-size: 0.6em;
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+
+.dwbible-book-grid {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--bg, #fff);
+  border: 1px solid var(--rule, rgba(0, 0, 0, 0.1));
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.25rem;
+  z-index: 1001;
+  max-height: 60vh;
+  overflow-y: auto;
+  min-width: 12rem;
+}
+.dwbible-book-grid.is-open {
+  display: block;
+}
+.dwbible-book-grid__cell {
+  display: block;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0;
+  text-decoration: none;
+  color: inherit;
+  font-size: var(--fs-small);
+  white-space: nowrap;
+}
+.dwbible-book-grid__cell:hover {
+  background: var(--bg-2, #f1f3f5);
+}
+.dwbible-book-grid__cell.is-current {
+  background: var(--rule-soft, #e9ecef);
+  font-weight: 600;
+}
+
 /* Verse styling + interlinear layout */
 .dwbible {
   /* Anchor-scroll offset: when the URL has a verse hash (e.g. from the
      language switcher), the browser's native anchor scroll lands below
      the sticky bar instead of under it. --dwbible-sticky-h is set by JS. */
-  /* Used for JS-driven verse highlighting */
-  /* Interlinear display adjustments */
 }
 .dwbible p.verse[id],
 .dwbible .dwbible-interlinear-entry[id] {
   scroll-margin-top: calc(var(--dwbible-sticky-h, 48px) + 0.5rem);
+}
+.dwbible {
+  /* Used for JS-driven verse highlighting */
 }
 .dwbible .verse-highlight {
   background: #fff3cd;
@@ -232,21 +296,11 @@
 .dwbible .dwbible-book p.verse.verse-flash {
   background: #fff3cd;
 }
+.dwbible {
+  /* Interlinear display adjustments */
+}
 .dwbible.dwbible-interlinear {
   padding-top: 0;
-  /* First language / primary line — only bold when multiple languages shown */
-  /* Second / third language lines */
-  /*
-    Hooks for customizing interlinear output.
-
-    These selectors intentionally include a tiny custom property so they survive compilation.
-    Replace/remove the property as you see fit.
-  */
-  /* Container semantics */
-  /* Verse wrapper semantics */
-  /* Per-entry semantics (each <p> that represents one dataset line for a verse) */
-  /* Dataset identity (language) */
-  /* Back-compat dataset identity classes (already present on the <p>) */
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-verse {
   margin-bottom: 1.5em;
@@ -268,12 +322,18 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
+.dwbible.dwbible-interlinear {
+  /* First language / primary line — only bold when multiple languages shown */
+}
 .dwbible.dwbible-interlinear[data-datasets*=","] .dwbible-interlinear-a {
   font-weight: 600;
   padding-bottom: 0.5em;
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-a .verse-num {
   opacity: 0.5;
+}
+.dwbible.dwbible-interlinear {
+  /* Second / third language lines */
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-b,
 .dwbible.dwbible-interlinear .dwbible-interlinear-c {
@@ -283,6 +343,15 @@
 .dwbible.dwbible-interlinear .dwbible-interlinear-b .verse-num,
 .dwbible.dwbible-interlinear .dwbible-interlinear-c .verse-num {
   display: none;
+}
+.dwbible.dwbible-interlinear {
+  /*
+    Hooks for customizing interlinear output.
+
+    These selectors intentionally include a tiny custom property so they survive compilation.
+    Replace/remove the property as you see fit.
+  */
+  /* Container semantics */
 }
 .dwbible.dwbible-interlinear[data-interlinear="1"] {
   --dwbible-hook: 1;
@@ -299,6 +368,9 @@
 .dwbible.dwbible-interlinear[data-ch] {
   --dwbible-hook: 1;
 }
+.dwbible.dwbible-interlinear {
+  /* Verse wrapper semantics */
+}
 .dwbible.dwbible-interlinear .dwbible-interlinear-verse {
   --dwbible-hook: 1;
 }
@@ -310,6 +382,9 @@
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-verse[data-ch] {
   --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear {
+  /* Per-entry semantics (each <p> that represents one dataset line for a verse) */
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-entry {
   --dwbible-hook: 1;
@@ -332,6 +407,9 @@
 .dwbible.dwbible-interlinear .dwbible-interlinear-entry--idx-2 {
   --dwbible-hook: 1;
 }
+.dwbible.dwbible-interlinear {
+  /* Dataset identity (language) */
+}
 .dwbible.dwbible-interlinear .dwbible-interlinear-entry--dataset-bible {
   --dwbible-hook: 1;
 }
@@ -340,6 +418,9 @@
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-entry--dataset-latin {
   --dwbible-hook: 1;
+}
+.dwbible.dwbible-interlinear {
+  /* Back-compat dataset identity classes (already present on the <p>) */
 }
 .dwbible.dwbible-interlinear .dwbible-interlinear-bible {
   --dwbible-hook: 1;
@@ -452,5 +533,3 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-/*# sourceMappingURL=dwbible.css.map */

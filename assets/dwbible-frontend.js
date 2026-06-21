@@ -408,7 +408,7 @@
         }
         var isOpen = pickerGrid.classList.toggle('is-open');
         if (pickerBtn) pickerBtn.classList.toggle('is-open', isOpen);
-        if (isOpen) highlightCurrentChapter();
+        if (isOpen) { closeBookPicker(); highlightCurrentChapter(); }
     }
 
     function closeChapterPicker() {
@@ -434,6 +434,77 @@
         });
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') closeChapterPicker();
+        });
+    }
+
+    // --- Book picker overlay ---
+    // The book name in the sticky header is a picker button carrying the
+    // edition's full book list as JSON (data-books). Click → an overlay of
+    // book names, navigating to that book. Mirrors the chapter grid; the two
+    // pickers are mutually exclusive.
+    var bookBtn = bar.querySelector('.dwbible-book-picker');
+    var bookGrid = null;
+
+    function pathKey(url) {
+        try { return new URL(url, location.href).pathname.replace(/\/+$/, ''); }
+        catch (e) { return ''; }
+    }
+
+    function buildBookGrid() {
+        var list = [];
+        try { list = JSON.parse(bookBtn.getAttribute('data-books') || '[]'); } catch (e) {}
+        var grid = document.createElement('div');
+        grid.className = 'dwbible-book-grid';
+        var here = location.pathname.replace(/\/+$/, '');
+        for (var i = 0; i < list.length; i++) {
+            if (!list[i] || !list[i].u) continue;
+            var a = document.createElement('a');
+            a.href = list[i].u;
+            a.textContent = list[i].n || '';
+            a.className = 'dwbible-book-grid__cell';
+            var bp = pathKey(list[i].u);
+            if (bp && (here === bp || here.indexOf(bp + '/') === 0)) {
+                a.classList.add('is-current');
+            }
+            grid.appendChild(a);
+        }
+        bar.appendChild(grid);
+        return grid;
+    }
+
+    function toggleBookPicker() {
+        if (!bookGrid) { bookGrid = buildBookGrid(); }
+        var isOpen = bookGrid.classList.toggle('is-open');
+        if (bookBtn) bookBtn.classList.toggle('is-open', isOpen);
+        if (isOpen) {
+            closeChapterPicker();
+            var cur = bookGrid.querySelector('.is-current');
+            if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest' });
+        }
+    }
+
+    function closeBookPicker() {
+        if (bookGrid && bookGrid.classList.contains('is-open')) {
+            bookGrid.classList.remove('is-open');
+            if (bookBtn) bookBtn.classList.remove('is-open');
+        }
+    }
+
+    if (bookBtn) {
+        bookBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            toggleBookPicker();
+        });
+        document.addEventListener('click', function(e) {
+            if (bookGrid && bookGrid.classList.contains('is-open')) {
+                if (!bookBtn.contains(e.target) && !bookGrid.contains(e.target)) {
+                    closeBookPicker();
+                }
+            }
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeBookPicker();
         });
     }
 

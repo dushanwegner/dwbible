@@ -292,9 +292,29 @@ class DwBible_Nav_Helpers {
 
         $lang_switcher = is_string($lang_switcher) ? $lang_switcher : '';
 
+        // Book element: a picker button (the book name reads as text, opens a
+        // book overlay on click) when we can list the edition's books; else a
+        // plain label. The list is embedded as JSON so the overlay is built
+        // client-side without a request (mirrors the chapter grid).
+        $edition_slug = get_query_var(DwBible_Plugin::QV_SLUG);
+        if (!is_string($edition_slug) || $edition_slug === '') {
+            $edition_slug = 'bible';
+        }
+        $book_list = DwBible_Plugin::list_books_for_edition($edition_slug);
+        $label_inner = '<span class="dwbible-sticky__label" data-label>' . $book_label_html . '</span>';
+        if (!empty($book_list)) {
+            $books_attr = esc_attr(wp_json_encode(array_values($book_list)));
+            $book_el = '<button type="button" class="dwbible-book-picker" data-book-picker data-books=\'' . $books_attr . '\' aria-label="Select book">'
+                . $label_inner
+                . ' <span class="dwbible-book-picker__caret">&#9662;</span>'
+                . '</button>';
+        } else {
+            $book_el = $label_inner;
+        }
+
         return '<div class="dwbible-sticky" data-slug="' . $book_slug_js . '"' . $data_attrs . $ch_picker_attrs . '>'
             . '<div class="dwbible-sticky__left">'
-            . '<span class="dwbible-sticky__label" data-label>' . $book_label_html . '</span> '
+            . $book_el . ' '
             . $ch_el
             . '</div>'
             . $lang_switcher
