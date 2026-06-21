@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.20.01
+* Version: 1.26.06.21.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.20.01');
+    define('DWBIBLE_VERSION', '1.26.06.21.01');
 }
 
 // Load include classes before hooks are registered
@@ -1288,13 +1288,27 @@ class DwBible_Plugin {
         // Load the primary dataset for this index page (determines slugs + display names)
         $primary_books = self::load_dataset_index($primary_dataset);
 
-        // Load a secondary dataset for subtitle names (only when different)
-        $secondary_dataset = ($primary_dataset === 'bible') ? 'latin' : 'bible';
-        $secondary_books   = self::load_dataset_index($secondary_dataset);
-        $secondary_names   = [];
-        foreach ($secondary_books as $b) {
-            $display = !empty($b['display_name']) ? $b['display_name'] : $b['short_name'];
-            $secondary_names[intval($b['order'])] = $display;
+        // The grey gloss under each book name is the edition's vernacular
+        // companion to the Latin — German on /latin-bibel/, Spanish on
+        // /latin-spanish/, English on /latin-bible/. For a vernacular-primary
+        // edition (e.g. /bible/, /bibel/) the primary IS the vernacular, so the
+        // gloss is the Latin. Latin-only (/latin/) has no second language → no
+        // gloss. (Previously hard-coded to English, which left every non-English
+        // edition showing English glosses.)
+        if ($primary_dataset === 'latin') {
+            $secondary_dataset = '';
+            foreach (explode('-', $current_slug) as $part) {
+                if ($part !== 'latin' && $part !== '') { $secondary_dataset = $part; break; }
+            }
+        } else {
+            $secondary_dataset = 'latin';
+        }
+        $secondary_names = [];
+        if ($secondary_dataset !== '') {
+            foreach (self::load_dataset_index($secondary_dataset) as $b) {
+                $display = !empty($b['display_name']) ? $b['display_name'] : $b['short_name'];
+                $secondary_names[intval($b['order'])] = $display;
+            }
         }
 
         $base_url   = home_url('/' . $current_slug . '/');
