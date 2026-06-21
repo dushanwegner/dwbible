@@ -66,6 +66,28 @@
     // handled by the browser's native anchor scroll + CSS scroll-margin-top on
     // verse elements — no JS re-scroll, so there's no visible jump.
 
+    // Reader gutter shows the verse ORDINAL, not the citation.
+    // The data ships each number as "chapter:verse" (e.g. "10:26") because that
+    // is the citation form used everywhere a verse is referenced from outside.
+    // Inside the chapter view the chapter is already the page's identity (the
+    // sticky header), so repeating it on every line is noise that also reads
+    // like a timestamp. Trim to the bare verse ("26") for reading; keep the
+    // full reference on title + data-ref so copy / hover / assistive tech still
+    // have the citation on demand. Idempotent (a bare "26" no longer matches).
+    function simplifyVerseNumbers() {
+        var scope = container || document;
+        var nums = scope.querySelectorAll('.verse-num');
+        for (var i = 0; i < nums.length; i++) {
+            var el = nums[i];
+            var full = (el.textContent || '').trim();
+            var m = full.match(/^(\d+):(\d+)$/);
+            if (!m) continue;
+            el.setAttribute('data-ref', full);
+            if (!el.getAttribute('title')) el.setAttribute('title', full);
+            el.textContent = m[2];
+        }
+    }
+
     // Sticky updater script: detect current chapter and update bar on scroll; offset for admin bar
     var container = document.querySelector('.dwbible.dwbible-book') || document.querySelector('.dwbible .dwbible-book');
 
@@ -504,5 +526,6 @@
 
     setTopOffset();
     update();
+    simplifyVerseNumbers();
 })();
 
