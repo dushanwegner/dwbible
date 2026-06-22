@@ -101,7 +101,21 @@ add_filter('home_url', function ($url, $path, $orig_scheme, $blog_id) {
     }
     $p = $parsed['path'] ?? '/';
     if (preg_match('#\.(json|xml|txt|rss|atom)$#i', $p)) {
-        return $url; // machine endpoints keep their dataset slug
+        // Machine endpoints keep their dataset slug — EXCEPT a combo .json, which has no file (the JSON API is
+        // single-language). Map it to the vernacular single dataset so the page's json-alternate link resolves.
+        $combo_single = ['latin-bible' => 'bible', 'latin-bibel' => 'bibel', 'latin-spanish' => 'spanish', 'latin-french' => 'french'];
+        if (preg_match('#^/(latin-bible|latin-bibel|latin-spanish|latin-french)(/.*)$#', $p, $mm)) {
+            $fixed = $parsed['scheme'] . '://' . $parsed['host'];
+            if (isset($parsed['port'])) {
+                $fixed .= ':' . $parsed['port'];
+            }
+            $fixed .= '/' . $combo_single[$mm[1]] . $mm[2];
+            if (isset($parsed['query'])) {
+                $fixed .= '?' . $parsed['query'];
+            }
+            return $fixed;
+        }
+        return $url;
     }
     if (!preg_match(dwbible_i18n_legacy_slug_re(), $p, $m)) {
         return $url;
