@@ -11,7 +11,14 @@ class DwBible_Abbreviations_Loader {
             return [];
         }
         $map = [];
-        $lang = ($slug === 'bibel') ? 'de' : 'en';
+        // Each dataset slug ships its abbreviation file in its own language.
+        $slug_lang = [
+            'bibel'   => 'de',
+            'spanish' => 'es',
+            'french'  => 'fr',
+            'latin'   => 'la',
+        ];
+        $lang = $slug_lang[$slug] ?? 'en';
         $file = dwbible_data_dir() . $slug . '/abbreviations.' . $lang . '.json';
         if (file_exists($file)) {
             $raw = file_get_contents($file);

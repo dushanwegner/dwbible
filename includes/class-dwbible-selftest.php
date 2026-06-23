@@ -368,6 +368,48 @@ trait DwBible_SelfTest_Trait {
                     'must_contain' => ['Gen 1:0 should not link.'],
                     'must_not_contain' => ['href="'],
                 ],
+                [
+                    'name' => 'range_endash',
+                    'slug' => 'bible',
+                    'in' => "John 6:5\xE2\x80\x937",
+                    'must_contain' => ['>John 6:5-7</a>'],
+                    'must_not_contain' => [],
+                ],
+                [
+                    'name' => 'de_comma_verse',
+                    'slug' => 'bibel',
+                    'in' => 'Joh 6,5',
+                    'must_contain' => ['>Joh 6:5</a>', '/bibel/johannes/'],
+                    'must_not_contain' => [],
+                ],
+                [
+                    'name' => 'en_comma_list_not_verse',
+                    'slug' => 'bible',
+                    'in' => 'Genesis 1, 2 here',
+                    'must_contain' => ['>Genesis 1</a>'],
+                    'must_not_contain' => ['genesis/1:2'],
+                ],
+                [
+                    'name' => 'es_book_name',
+                    'slug' => 'spanish',
+                    'in' => 'Juan 3:16',
+                    'must_contain' => ['>Juan 3:16</a>', '/spanish/john/'],
+                    'must_not_contain' => [],
+                ],
+                [
+                    'name' => 'fr_book_name',
+                    'slug' => 'french',
+                    'in' => 'Jean 3:16',
+                    'must_contain' => ['>Jean 3:16</a>', '/french/john/'],
+                    'must_not_contain' => [],
+                ],
+                [
+                    'name' => 'la_sigla',
+                    'slug' => 'latin',
+                    'in' => 'Io 1:1',
+                    'must_contain' => ['>Io 1:1</a>', '/latin/john/'],
+                    'must_not_contain' => [],
+                ],
             ];
 
             $failures = [];

@@ -171,7 +171,11 @@ trait DwBible_AutoLink_Trait {
                  . '[\p{L}][\p{L}\p{M}\.]*'
                  . '(?:(?:\s|\x{00A0})+[\p{L}\p{M}\.]+)*'
                  . ')(?:\s|\x{00A0})*(\d+)'
-                 . '(?:(?:\s|\x{00A0})*[:\x{2236}\x{FE55}\x{FF1A}](?:\s|\x{00A0})*(\d+)(?:-(\d+))?)?'
+                 // Optional verse: colon (spaces allowed, incl. unicode colon variants)
+                 // OR a TIGHT comma (German/Romance "6,5" — no surrounding space, so an
+                 // English list like "Genesis 1, 2" stays chapter-only). Range accepts
+                 // hyphen plus the dash family (en/em/figure dash, minus): "5–7".
+                 . '(?:(?:(?:\s|\x{00A0})*[:\x{2236}\x{FE55}\x{FF1A}](?:\s|\x{00A0})*|,)(\d+)(?:[-\x{2010}\x{2011}\x{2012}\x{2013}\x{2014}\x{2212}](\d+))?)?'
                  . '(?!\p{L})/u';
 
         $parts = preg_split('/(<a\s[^>]*>.*?<\/a>)/us', $content, -1, PREG_SPLIT_DELIM_CAPTURE);
@@ -238,6 +242,9 @@ trait DwBible_AutoLink_Trait {
         $vf = (isset($m[3]) && $m[3] !== '') ? (int)$m[3] : 0;
         $vt = (isset($m[4]) && $m[4] !== '') ? (int)$m[4] : 0;
         if ($ch <= 0) return $m[0];
+        // A verse separator was present but the verse is invalid (e.g. "Gen 1:0") —
+        // leave it as plain text rather than silently falling back to a chapter link.
+        if (isset($m[3]) && $m[3] !== '' && $vf <= 0) return $m[0];
 
         $book_clean = str_replace("\xC2\xA0", ' ', (string)$book_raw);
         $book_clean = preg_replace('/\.\s*$/u', '', $book_clean);
