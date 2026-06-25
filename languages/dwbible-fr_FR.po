@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dwbible\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+# Book category groups (index)
+msgid "Pentateuch"
+msgstr "Pentateuque"
+
+msgid "Historical Books"
+msgstr "Livres historiques"
+
+msgid "Wisdom Books"
+msgstr "Livres de sagesse"
+
+msgid "Prophets"
+msgstr "Prophètes"
+
+msgid "Gospels"
+msgstr "Évangiles"
+
+msgid "Acts & Letters"
+msgstr "Actes et lettres"
+
+msgid "Catholic Epistles & Apocalypse"
+msgstr "Épîtres catholiques et Apocalypse"
+
+# Filter UI
+msgid "Filter books"
+msgstr "Filtrer les livres"
+
+msgid "Filter books…"
+msgstr "Filtrer les livres…"
+
+msgid "Filter books by name or abbreviation"
+msgstr "Filtrer les livres par nom ou abréviation"
+
+msgid "No books match that."
+msgstr "Aucun livre ne correspond."
+
+msgid "Machine-readable"
+msgstr "Lisible par machine"
+
+# Chapter / book navigation (aria)
+msgid "Select chapter"
+msgstr "Choisir le chapitre"
+
+msgid "Select book"
+msgstr "Choisir le livre"
+
+msgid "Previous chapter"
+msgstr "Chapitre précédent"
+
+msgid "Next chapter"
+msgstr "Chapitre suivant"
+
+msgid "Bible index"
+msgstr "Index de la Bible"
+
+msgid "Back to book"
+msgstr "Retour au livre"
+
+msgid "Adjacent books"
+msgstr "Livres adjacents"

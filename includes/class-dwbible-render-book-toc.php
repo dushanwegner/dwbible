@@ -179,7 +179,7 @@ trait DwBible_Book_TOC_Trait {
             <?php endfor; ?>
           </ol>
 
-          <nav class="dwbible-toc-pager" aria-label="Adjacent books">
+          <nav class="dwbible-toc-pager" aria-label="<?php echo esc_attr__( 'Adjacent books', 'dwbible' ); ?>">
             <?php if ( $prev_entry ): ?>
               <a class="dwbible-toc-pager-prev" href="<?php echo esc_url( self::bible_url_for_slug_and_canonical_book( $slug_combo, $prev_entry['slug'] ) ); ?>">
                 <small>Liber prior</small>

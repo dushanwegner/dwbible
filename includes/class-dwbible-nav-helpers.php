@@ -105,7 +105,7 @@ class DwBible_Nav_Helpers {
 
         // Up-arrows in verses blocks → link to top of book (skip first = Chapter 1)
         $book_top = '#dwbible-book-top';
-        $vers_up = '<a class="dwbible-up dwbible-up-book" href="' . $book_top . '" aria-label="Back to book">&#8593;</a> ';
+        $vers_up = '<a class="dwbible-up dwbible-up-book" href="' . $book_top . '" aria-label="' . esc_attr__( 'Back to book', 'dwbible' ) . '">&#8593;</a> ';
         $count = 0;
         $html = preg_replace_callback(
             '~<p\s+class=(["\"])verses\1>~',
@@ -287,7 +287,7 @@ class DwBible_Nav_Helpers {
 
         // Chapter element: button (picker) or plain span
         $ch_el = ($max_ch_val > 1)
-            ? '<button type="button" class="dwbible-ch-picker" data-ch aria-label="Select chapter"><span data-ch-num>' . esc_html($sticky_ch_text) . '</span> <span class="dwbible-ch-picker__caret">&#9662;</span></button>'
+            ? '<button type="button" class="dwbible-ch-picker" data-ch aria-label="' . esc_attr__( 'Select chapter', 'dwbible' ) . '"><span data-ch-num>' . esc_html($sticky_ch_text) . '</span> <span class="dwbible-ch-picker__caret">&#9662;</span></button>'
             : '<span class="dwbible-sticky__chapter" data-ch>' . esc_html($sticky_ch_text) . '</span>';
 
         $lang_switcher = is_string($lang_switcher) ? $lang_switcher : '';
@@ -304,7 +304,7 @@ class DwBible_Nav_Helpers {
         $label_inner = '<span class="dwbible-sticky__label" data-label>' . $book_label_html . '</span>';
         if (!empty($book_list)) {
             $books_attr = esc_attr(wp_json_encode(array_values($book_list)));
-            $book_el = '<button type="button" class="dwbible-book-picker" data-book-picker data-books=\'' . $books_attr . '\' aria-label="Select book">'
+            $book_el = '<button type="button" class="dwbible-book-picker" data-book-picker data-books=\'' . $books_attr . '\' aria-label="' . esc_attr__( 'Select book', 'dwbible' ) . '">'
                 . $label_inner
                 . ' <span class="dwbible-book-picker__caret">&#9662;</span>'
                 . '</button>';
@@ -319,9 +319,9 @@ class DwBible_Nav_Helpers {
             . '</div>'
             . $lang_switcher
             . '<div class="dwbible-sticky__controls">'
-            . '<a href="' . $nav_ctx['prev_href'] . '" class="dwbible-ctl dwbible-ctl-prev" data-prev aria-label="Previous chapter">&#8592;</a>'
-            . '<a href="' . $nav_ctx['top_href'] . '" class="dwbible-ctl dwbible-ctl-top" data-top aria-label="Bible index">&#8593;</a>'
-            . '<a href="' . $nav_ctx['next_href'] . '" class="dwbible-ctl dwbible-ctl-next" data-next aria-label="Next chapter">&#8594;</a>'
+            . '<a href="' . $nav_ctx['prev_href'] . '" class="dwbible-ctl dwbible-ctl-prev" data-prev aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">&#8592;</a>'
+            . '<a href="' . $nav_ctx['top_href'] . '" class="dwbible-ctl dwbible-ctl-top" data-top aria-label="' . esc_attr__( 'Bible index', 'dwbible' ) . '">&#8593;</a>'
+            . '<a href="' . $nav_ctx['next_href'] . '" class="dwbible-ctl dwbible-ctl-next" data-next aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">&#8594;</a>'
             . '</div>'
             . '</div>';
     }
@@ -337,8 +337,8 @@ class DwBible_Nav_Helpers {
         $next_disabled = ($next === '#') ? ' is-disabled' : '';
 
         return '<div class="dwbible-bottom-nav">'
-            . '<a href="' . $prev . '" class="dwbible-ctl dwbible-ctl-prev' . $prev_disabled . '" aria-label="Previous chapter">&#8592;</a>'
-            . '<a href="' . $next . '" class="dwbible-ctl dwbible-ctl-next' . $next_disabled . '" aria-label="Next chapter">&#8594;</a>'
+            . '<a href="' . $prev . '" class="dwbible-ctl dwbible-ctl-prev' . $prev_disabled . '" aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">&#8592;</a>'
+            . '<a href="' . $next . '" class="dwbible-ctl dwbible-ctl-next' . $next_disabled . '" aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">&#8594;</a>'
             . '</div>';
     }
 

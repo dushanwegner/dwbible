@@ -18,6 +18,22 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+// Front-end translation catalog (/languages/dwbible-{locale}.mo) — the index
+// category pills, filter UI, and chapter/book nav aria. WP's locale follows the
+// URL language via dwi18n; load explicitly on init for the resolved locale
+// (load_plugin_textdomain on after_setup_theme does not stick under WP 6.7+ JIT).
+// English is the source language.
+add_action('init', function () {
+    $locale = determine_locale();
+    if ($locale === 'en_US') {
+        return;
+    }
+    $mofile = dirname(__DIR__) . '/languages/dwbible-' . $locale . '.mo';
+    if (is_readable($mofile)) {
+        load_textdomain('dwbible', $mofile, $locale);
+    }
+}, 0);
+
 /** Interlinear combo (Latin + vernacular) for a web language. */
 function dwbible_i18n_combo_for_lang(string $lang): string {
     $m = ['en' => 'latin-bible', 'de' => 'latin-bibel', 'es' => 'latin-spanish', 'fr' => 'latin-french'];

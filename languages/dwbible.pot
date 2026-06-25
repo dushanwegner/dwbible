@@ -1,0 +1,165 @@
+# Copyright (C) 2026 Dushan Wegner
+# This file is distributed under the same license as the DW Bible plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: DW Bible 1.26.06.23.01\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dwbible\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-25T18:22:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: dwbible\n"
+
+#. Plugin Name of the plugin
+#: dwbible.php
+msgid "DW Bible"
+msgstr ""
+
+#. Description of the plugin
+#: dwbible.php
+msgid "Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr)."
+msgstr ""
+
+#. Author of the plugin
+#: dwbible.php
+msgid "Dushan Wegner"
+msgstr ""
+
+#: dwbible.php:1410
+msgid "Filter books"
+msgstr ""
+
+#: dwbible.php:1419
+msgid "Filter books…"
+msgstr ""
+
+#: dwbible.php:1419
+msgid "Filter books by name or abbreviation"
+msgstr ""
+
+#: dwbible.php:1420
+msgid "No books match that."
+msgstr ""
+
+#: dwbible.php:1508
+msgid "Machine-readable"
+msgstr ""
+
+#: dwbible.php:1977
+msgid "Bible Footer CSS"
+msgstr ""
+
+#: dwbible.php:1979
+msgid "Custom CSS applied to the footer area rendered by The Bible plugin (.dwbible-footer, .dwbible-footer-title)."
+msgstr ""
+
+#: dwbible.php:1992
+msgid "Custom CSS for Bible Footer"
+msgstr ""
+
+#: includes/class-dwbible-admin-meta.php:21
+msgid "Bible Version"
+msgstr ""
+
+#: includes/class-dwbible-admin-meta.php:42
+#: includes/class-dwbible-admin-meta.php:101
+msgid "English (Douay-Rheims)"
+msgstr ""
+
+#: includes/class-dwbible-admin-meta.php:43
+#: includes/class-dwbible-admin-meta.php:97
+msgid "Deutsch (Menge)"
+msgstr ""
+
+#: includes/class-dwbible-admin-meta.php:44
+#: includes/class-dwbible-admin-meta.php:99
+msgid "Latin (Vulgata)"
+msgstr ""
+
+#: includes/class-dwbible-admin-meta.php:46
+msgid "Default Bible for ambiguous references (e.g. Gen, Dan, Mt). Language-specific names like Matthäus or Matthew are auto-detected."
+msgstr ""
+
+#: includes/class-dwbible-admin-meta.php:83
+msgid "Bible"
+msgstr ""
+
+#: includes/class-dwbible-autolink.php:11
+msgid "Strip BibleServer links"
+msgstr ""
+
+#: includes/class-dwbible-nav-helpers.php:97
+msgid "Back to German Bible"
+msgstr ""
+
+#: includes/class-dwbible-nav-helpers.php:97
+msgid "Back to Bible"
+msgstr ""
+
+#: includes/class-dwbible-nav-helpers.php:108
+msgid "Back to book"
+msgstr ""
+
+#: includes/class-dwbible-nav-helpers.php:290
+msgid "Select chapter"
+msgstr ""
+
+#: includes/class-dwbible-nav-helpers.php:307
+msgid "Select book"
+msgstr ""
+
+#: includes/class-dwbible-nav-helpers.php:322
+#: includes/class-dwbible-nav-helpers.php:340
+msgid "Previous chapter"
+msgstr ""
+
+#: includes/class-dwbible-nav-helpers.php:323
+msgid "Bible index"
+msgstr ""
+
+#: includes/class-dwbible-nav-helpers.php:324
+#: includes/class-dwbible-nav-helpers.php:341
+msgid "Next chapter"
+msgstr ""
+
+#: includes/class-dwbible-render-book-toc.php:182
+msgid "Adjacent books"
+msgstr ""
+
+#: includes/class-dwbible-sync-report.php:34
+msgid "Verse Sync Status"
+msgstr ""
+
+#: includes/class-dwbible-sync-report.php:37
+msgid "Recomputed sync report."
+msgstr ""
+
+#: includes/class-dwbible-sync-report.php:40
+msgid "This report compares the available verse HTML coverage across the three datasets used by the plugin."
+msgstr ""
+
+#: includes/class-dwbible-sync-report.php:44
+msgid "Recompute report"
+msgstr ""
+
+#: includes/class-dwbible-sync-report.php:46
+#, php-format
+msgid "Cached at %s"
+msgstr ""
+
+#: includes/class-dwbible-sync-report.php:54
+msgid "Canonical book"
+msgstr ""
+
+#: includes/class-dwbible-sync-report.php:58
+msgid "Notes"
+msgstr ""
+
+#: includes/class-dwbible-sync-report.php:82
+#, php-format
+msgid "Ch: %d, Verses: %d"
+msgstr ""

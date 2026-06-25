@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Five languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr).
-* Version: 1.26.06.23.01
+* Version: 1.26.06.25.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.06.23.01');
+    define('DWBIBLE_VERSION', '1.26.06.25.01');
 }
 
 // Load include classes before hooks are registered
@@ -1407,7 +1407,7 @@ class DwBible_Plugin {
         $out .= '</div>';
         // Subtle search toggle, flush right in the title row: reveals the book
         // filter on demand (kept out of the way until wanted).
-        $out .= '<button type="button" class="dwbible-index-search-toggle" aria-label="Filter books" aria-expanded="false">';
+        $out .= '<button type="button" class="dwbible-index-search-toggle" aria-label="' . esc_attr__( 'Filter books', 'dwbible' ) . '" aria-expanded="false">';
         $out .= '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>';
         $out .= '</button>';
         $out .= '</div>'; // .dwbible-index-headrow
@@ -1416,8 +1416,8 @@ class DwBible_Plugin {
         // ─── On-page filter (client-side; hidden until the title search toggle
         //     reveals it; see the script at the foot) ───
         $out .= '<div class="dwbible-filter-wrap" hidden>';
-        $out .= '<input type="search" class="dwbible-filter" placeholder="Filter books…" aria-label="Filter books by name or abbreviation" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" />';
-        $out .= '<p class="dwbible-filter-empty" role="status" hidden>No books match that.</p>';
+        $out .= '<input type="search" class="dwbible-filter" placeholder="' . esc_attr__( 'Filter books…', 'dwbible' ) . '" aria-label="' . esc_attr__( 'Filter books by name or abbreviation', 'dwbible' ) . '" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" />';
+        $out .= '<p class="dwbible-filter-empty" role="status" hidden>' . esc_html__( 'No books match that.', 'dwbible' ) . '</p>';
         $out .= '</div>';
 
         // ─── Testament sections, each holding its book groups ───
@@ -1441,7 +1441,7 @@ class DwBible_Plugin {
             // ─── Book group: name label + book list ───
             $out .= '<section class="dwbible-category">';
             $out .= '<div class="dwbible-category-label">';
-            $out .= '<h3 class="dwbible-category-name">' . esc_html($cat['label']) . '</h3>';
+            $out .= '<h3 class="dwbible-category-name">' . esc_html( __( $cat['label'], 'dwbible' ) ) . '</h3>'; // phpcs:ignore WordPress.WP.I18n
             $out .= '</div>';
             $out .= '<div class="dwbible-tiles">';
 
@@ -1505,7 +1505,7 @@ class DwBible_Plugin {
         // ─── Machine-readable footer line (visible; serves humans and AI agents) ───
         $site_url = home_url();
         $out .= '<p class="dwbible-index-api">';
-        $out .= '<span class="dwbible-index-api-label">Machine-readable</span> ';
+        $out .= '<span class="dwbible-index-api-label">' . esc_html__( 'Machine-readable', 'dwbible' ) . '</span> ';
         // The combo interlinear slugs (e.g. latin-bible) have no JSON twin —
         // only single datasets do — so point at the primary dataset's index.
         $out .= '<a href="' . esc_url($site_url . '/llms.txt') . '">/llms.txt</a>';
