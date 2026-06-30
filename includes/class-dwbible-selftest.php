@@ -404,6 +404,13 @@ trait DwBible_SelfTest_Trait {
                     'must_not_contain' => [],
                 ],
                 [
+                    'name' => 'it_book_name',
+                    'slug' => 'italian',
+                    'in' => 'Giovanni 3:16',
+                    'must_contain' => ['>Giovanni 3:16</a>', '/italian/john/'],
+                    'must_not_contain' => [],
+                ],
+                [
                     'name' => 'la_sigla',
                     'slug' => 'latin',
                     'in' => 'Io 1:1',

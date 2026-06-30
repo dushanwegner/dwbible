@@ -16,6 +16,7 @@ class DwBible_Abbreviations_Loader {
             'bibel'   => 'de',
             'spanish' => 'es',
             'french'  => 'fr',
+            'italian' => 'it',
             'latin'   => 'la',
         ];
         $lang = $slug_lang[$slug] ?? 'en';

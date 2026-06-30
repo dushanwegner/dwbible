@@ -36,7 +36,7 @@ add_action('init', function () {
 
 /** Interlinear combo (Latin + vernacular) for a web language. */
 function dwbible_i18n_combo_for_lang(string $lang): string {
-    $m = ['en' => 'latin-bible', 'de' => 'latin-bibel', 'es' => 'latin-spanish', 'fr' => 'latin-french'];
+    $m = ['en' => 'latin-bible', 'de' => 'latin-bibel', 'es' => 'latin-spanish', 'fr' => 'latin-french', 'it' => 'latin-italian'];
     return $m[$lang] ?? 'latin-bible';
 }
 
@@ -47,13 +47,14 @@ function dwbible_i18n_lang_for_slug(string $slug): string {
         'latin-bibel' => 'de', 'bibel'   => 'de',
         'latin-spanish' => 'es', 'spanish' => 'es',
         'latin-french'  => 'fr', 'french'  => 'fr',
+        'latin-italian' => 'it', 'italian' => 'it',
     ];
     return $m[$slug] ?? '';
 }
 
 /** The old Bible slugs (HTML) that must redirect to the prefix scheme. */
 function dwbible_i18n_legacy_slug_re(): string {
-    return '#^/(latin-bible|latin-bibel|latin-spanish|latin-french|bible|bibel|spanish|french|latin)(/.*|/?)$#';
+    return '#^/(latin-bible|latin-bibel|latin-spanish|latin-french|latin-italian|bible|bibel|spanish|french|italian|latin)(/.*|/?)$#';
 }
 
 /* ── 3. Legacy redirect: raw old-slug HTML URLs → /{lang}/bible/… ─────────────────────────────────────────────
@@ -119,8 +120,8 @@ add_filter('home_url', function ($url, $path, $orig_scheme, $blog_id) {
     if (preg_match('#\.(json|xml|txt|rss|atom)$#i', $p)) {
         // Machine endpoints keep their dataset slug — EXCEPT a combo .json, which has no file (the JSON API is
         // single-language). Map it to the vernacular single dataset so the page's json-alternate link resolves.
-        $combo_single = ['latin-bible' => 'bible', 'latin-bibel' => 'bibel', 'latin-spanish' => 'spanish', 'latin-french' => 'french'];
-        if (preg_match('#^/(latin-bible|latin-bibel|latin-spanish|latin-french)(/.*)$#', $p, $mm)) {
+        $combo_single = ['latin-bible' => 'bible', 'latin-bibel' => 'bibel', 'latin-spanish' => 'spanish', 'latin-french' => 'french', 'latin-italian' => 'italian'];
+        if (preg_match('#^/(latin-bible|latin-bibel|latin-spanish|latin-french|latin-italian)(/.*)$#', $p, $mm)) {
             $fixed = $parsed['scheme'] . '://' . $parsed['host'];
             if (isset($parsed['port'])) {
                 $fixed .= ':' . $parsed['port'];
