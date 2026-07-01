@@ -5,86 +5,530 @@
   },
   "generated_at_utc": "2025-12-26T07:08:47Z",
   "books": {
-    "Gen": { "bible": "genesis", "latin": "genesis", "bibel": ["genesis"] },
-    "Exod": { "bible": "exodus", "latin": "exodus", "bibel": ["exodus"] },
-    "Lev": { "bible": "leviticus", "latin": "leviticus", "bibel": ["levitikus"] },
-    "Num": { "bible": "numbers", "latin": "numbers", "bibel": ["numeri"] },
-    "Deut": { "bible": "deuteronomy", "latin": "deuteronomy", "bibel": ["deuteronomium"] },
-    "Josh": { "bible": "josue", "latin": "josue", "bibel": ["josua"] },
-    "Judg": { "bible": "judges", "latin": "judges", "bibel": ["richter"] },
-    "Ruth": { "bible": "ruth", "latin": "ruth", "bibel": ["rut"] },
-    "1Sam": { "bible": "1-kings-samuel", "latin": "1-kings-samuel", "bibel": ["1-samuel"] },
-    "2Sam": { "bible": "2-kings-samuel", "latin": "2-kings-samuel", "bibel": ["2-samuel"] },
-    "1Kgs": { "bible": "3-kings", "latin": "3-kings", "bibel": ["1-koenige"] },
-    "2Kgs": { "bible": "4-kings", "latin": "4-kings", "bibel": ["2-koenige"] },
-    "1Chr": { "bible": "1-paralipomenon", "latin": "1-paralipomenon", "bibel": ["1-chronik"] },
-    "2Chr": { "bible": "2-paralipomenon", "latin": "2-paralipomenon", "bibel": ["2-chronik"] },
-    "Ezra": { "bible": "1-esdras", "latin": "1-esdras", "bibel": ["1-esra", "esra"] },
-    "Neh": { "bible": "2-esdras-nehemias", "latin": "2-esdras-nehemias", "bibel": ["2-esra-nehemia", "nehemia"] },
-    "Tob": { "bible": "tobias", "latin": "tobias", "bibel": ["tobit"] },
-    "Jdt": { "bible": "judith", "latin": "judith", "bibel": ["judith", "judit"] },
-    "Esth": { "bible": "esther", "latin": "esther", "bibel": ["esther", "ester"] },
-    "Job": { "bible": "job", "latin": "job", "bibel": ["hiob"] },
-    "Ps": { "bible": "psalms", "latin": "psalms", "bibel": ["psalmen"] },
-    "Prov": { "bible": "proverbs", "latin": "proverbs", "bibel": ["sprueche"] },
-    "Eccl": { "bible": "ecclesiastes", "latin": "ecclesiastes", "bibel": ["prediger"] },
-    "Song": { "bible": "canticle-of-canticles", "latin": "canticle-of-canticles", "bibel": ["hoheslied"] },
-    "Wis": { "bible": "wisdom", "latin": "wisdom", "bibel": ["weisheit"] },
-    "Sir": { "bible": "ecclesiasticus", "latin": "ecclesiasticus", "bibel": ["jesus-sirach", "sirach"] },
-    "Isa": { "bible": "isaias", "latin": "isaias", "bibel": ["jesaja"] },
-    "Jer": { "bible": "jeremias", "latin": "jeremias", "bibel": ["jeremia"] },
-    "Lam": { "bible": "lamentations", "latin": "lamentations", "bibel": ["klagelieder"] },
-    "Bar": { "bible": "baruch", "latin": "baruch", "bibel": ["baruch"] },
-    "Ezek": { "bible": "ezechiel", "latin": "ezechiel", "bibel": ["hesekiel"] },
-    "Dan": { "bible": "daniel", "latin": "daniel", "bibel": ["daniel"] },
-    "Hos": { "bible": "osee", "latin": "osee", "bibel": ["hosea"] },
-    "Joel": { "bible": "joel", "latin": "joel", "bibel": ["joel"] },
-    "Amos": { "bible": "amos", "latin": "amos", "bibel": ["amos"] },
-    "Obad": { "bible": "abdias", "latin": "abdias", "bibel": ["obadja"] },
-    "Jonah": { "bible": "jonas", "latin": "jonas", "bibel": ["jona"] },
-    "Mic": { "bible": "micheas", "latin": "micheas", "bibel": ["micha"] },
-    "Nah": { "bible": "nahum", "latin": "nahum", "bibel": ["nahum"] },
-    "Hab": { "bible": "habacuc", "latin": "habacuc", "bibel": ["habakuk"] },
-    "Zeph": { "bible": "sophonias", "latin": "sophonias", "bibel": ["zefanja"] },
-    "Hag": { "bible": "aggeus", "latin": "aggeus", "bibel": ["haggai"] },
-    "Zech": { "bible": "zacharias", "latin": "zacharias", "bibel": ["sacharja"] },
-    "Mal": { "bible": "malachias", "latin": "malachias", "bibel": ["maleachi"] },
-    "1Macc": { "bible": "1-machabees", "latin": "1-machabees", "bibel": ["1-makkabaeer"] },
-    "2Macc": { "bible": "2-machabees", "latin": "2-machabees", "bibel": ["2-makkabaeer"] },
-    "Matt": { "bible": "matthew", "latin": "matthew", "bibel": ["matthaeus"] },
-    "Mark": { "bible": "mark", "latin": "mark", "bibel": ["markus"] },
-    "Luke": { "bible": "luke", "latin": "luke", "bibel": ["lukas"] },
-    "John": { "bible": "john", "latin": "john", "bibel": ["johannes"] },
-    "Acts": { "bible": "acts", "latin": "acts", "bibel": ["apostelgeschichte"] },
-    "Rom": { "bible": "romans", "latin": "romans", "bibel": ["roemer"] },
-    "1Cor": { "bible": "1-corinthians", "latin": "1-corinthians", "bibel": ["1-korinther"] },
-    "2Cor": { "bible": "2-corinthians", "latin": "2-corinthians", "bibel": ["2-korinther"] },
-    "Gal": { "bible": "galatians", "latin": "galatians", "bibel": ["galater"] },
-    "Eph": { "bible": "ephesians", "latin": "ephesians", "bibel": ["epheser"] },
-    "Phil": { "bible": "philippians", "latin": "philippians", "bibel": ["philipper"] },
-    "Col": { "bible": "colossians", "latin": "colossians", "bibel": ["kolosser"] },
-    "1Thess": { "bible": "1-thessalonians", "latin": "1-thessalonians", "bibel": ["1-thessalonicher"] },
-    "2Thess": { "bible": "2-thessalonians", "latin": "2-thessalonians", "bibel": ["2-thessalonicher"] },
-    "1Tim": { "bible": "1-timothy", "latin": "1-timothy", "bibel": ["1-timotheus"] },
-    "2Tim": { "bible": "2-timothy", "latin": "2-timothy", "bibel": ["2-timotheus"] },
-    "Titus": { "bible": "titus", "latin": "titus", "bibel": ["titus"] },
-    "Phlm": { "bible": "philemon", "latin": "philemon", "bibel": ["philemon"] },
-    "Heb": { "bible": "hebrews", "latin": "hebrews", "bibel": ["hebraeer"] },
-    "Jas": { "bible": "james", "latin": "james", "bibel": ["jakobus"] },
-    "1Pet": { "bible": "1-peter", "latin": "1-peter", "bibel": ["1-petrus"] },
-    "2Pet": { "bible": "2-peter", "latin": "2-peter", "bibel": ["2-petrus"] },
-    "1John": { "bible": "1-john", "latin": "1-john", "bibel": ["1-johannes"] },
-    "2John": { "bible": "2-john", "latin": "2-john", "bibel": ["2-johannes"] },
-    "3John": { "bible": "3-john", "latin": "3-john", "bibel": ["3-johannes"] },
-    "Jude": { "bible": "jude", "latin": "jude", "bibel": ["judas"] },
-    "Rev": { "bible": "apocalypse", "latin": "apocalypse", "bibel": ["offenbarung"] }
+    "Gen": {
+      "bible": "genesis",
+      "latin": "genesis",
+      "bibel": [
+        "genesis"
+      ]
+    },
+    "Exod": {
+      "bible": "exodus",
+      "latin": "exodus",
+      "bibel": [
+        "exodus"
+      ]
+    },
+    "Lev": {
+      "bible": "leviticus",
+      "latin": "leviticus",
+      "bibel": [
+        "leviticus"
+      ]
+    },
+    "Num": {
+      "bible": "numbers",
+      "latin": "numbers",
+      "bibel": [
+        "numbers"
+      ]
+    },
+    "Deut": {
+      "bible": "deuteronomy",
+      "latin": "deuteronomy",
+      "bibel": [
+        "deuteronomy"
+      ]
+    },
+    "Josh": {
+      "bible": "josue",
+      "latin": "josue",
+      "bibel": [
+        "josue"
+      ]
+    },
+    "Judg": {
+      "bible": "judges",
+      "latin": "judges",
+      "bibel": [
+        "judges"
+      ]
+    },
+    "Ruth": {
+      "bible": "ruth",
+      "latin": "ruth",
+      "bibel": [
+        "rut"
+      ]
+    },
+    "1Sam": {
+      "bible": "1-kings-samuel",
+      "latin": "1-kings-samuel",
+      "bibel": [
+        "1-samuel"
+      ]
+    },
+    "2Sam": {
+      "bible": "2-kings-samuel",
+      "latin": "2-kings-samuel",
+      "bibel": [
+        "2-kings-samuel"
+      ]
+    },
+    "1Kgs": {
+      "bible": "3-kings",
+      "latin": "3-kings",
+      "bibel": [
+        "1-koenige"
+      ]
+    },
+    "2Kgs": {
+      "bible": "4-kings",
+      "latin": "4-kings",
+      "bibel": [
+        "2-koenige"
+      ]
+    },
+    "1Chr": {
+      "bible": "1-paralipomenon",
+      "latin": "1-paralipomenon",
+      "bibel": [
+        "1-paralipomenon"
+      ]
+    },
+    "2Chr": {
+      "bible": "2-paralipomenon",
+      "latin": "2-paralipomenon",
+      "bibel": [
+        "2-chronik"
+      ]
+    },
+    "Ezra": {
+      "bible": "1-esdras",
+      "latin": "1-esdras",
+      "bibel": [
+        "1-esra"
+      ]
+    },
+    "Neh": {
+      "bible": "2-esdras-nehemias",
+      "latin": "2-esdras-nehemias",
+      "bibel": [
+        "2-esdras-nehemias"
+      ]
+    },
+    "Tob": {
+      "bible": "tobias",
+      "latin": "tobias",
+      "bibel": [
+        "tobias"
+      ]
+    },
+    "Jdt": {
+      "bible": "judith",
+      "latin": "judith",
+      "bibel": [
+        "judith"
+      ]
+    },
+    "Esth": {
+      "bible": "esther",
+      "latin": "esther",
+      "bibel": [
+        "esther"
+      ]
+    },
+    "Job": {
+      "bible": "job",
+      "latin": "job",
+      "bibel": [
+        "job"
+      ]
+    },
+    "Ps": {
+      "bible": "psalms",
+      "latin": "psalms",
+      "bibel": [
+        "psalms"
+      ]
+    },
+    "Prov": {
+      "bible": "proverbs",
+      "latin": "proverbs",
+      "bibel": [
+        "proverbs"
+      ]
+    },
+    "Eccl": {
+      "bible": "ecclesiastes",
+      "latin": "ecclesiastes",
+      "bibel": [
+        "prediger"
+      ]
+    },
+    "Song": {
+      "bible": "canticle-of-canticles",
+      "latin": "canticle-of-canticles",
+      "bibel": [
+        "canticle-of-canticles"
+      ]
+    },
+    "Wis": {
+      "bible": "wisdom",
+      "latin": "wisdom",
+      "bibel": [
+        "wisdom"
+      ]
+    },
+    "Sir": {
+      "bible": "ecclesiasticus",
+      "latin": "ecclesiasticus",
+      "bibel": [
+        "ecclesiasticus"
+      ]
+    },
+    "Isa": {
+      "bible": "isaias",
+      "latin": "isaias",
+      "bibel": [
+        "isaias"
+      ]
+    },
+    "Jer": {
+      "bible": "jeremias",
+      "latin": "jeremias",
+      "bibel": [
+        "jeremias"
+      ]
+    },
+    "Lam": {
+      "bible": "lamentations",
+      "latin": "lamentations",
+      "bibel": [
+        "klagelieder"
+      ]
+    },
+    "Bar": {
+      "bible": "baruch",
+      "latin": "baruch",
+      "bibel": [
+        "baruch"
+      ]
+    },
+    "Ezek": {
+      "bible": "ezechiel",
+      "latin": "ezechiel",
+      "bibel": [
+        "ezechiel"
+      ]
+    },
+    "Dan": {
+      "bible": "daniel",
+      "latin": "daniel",
+      "bibel": [
+        "daniel"
+      ]
+    },
+    "Hos": {
+      "bible": "osee",
+      "latin": "osee",
+      "bibel": [
+        "hosea"
+      ]
+    },
+    "Joel": {
+      "bible": "joel",
+      "latin": "joel",
+      "bibel": [
+        "joel"
+      ]
+    },
+    "Amos": {
+      "bible": "amos",
+      "latin": "amos",
+      "bibel": [
+        "amos"
+      ]
+    },
+    "Obad": {
+      "bible": "abdias",
+      "latin": "abdias",
+      "bibel": [
+        "obadja"
+      ]
+    },
+    "Jonah": {
+      "bible": "jonas",
+      "latin": "jonas",
+      "bibel": [
+        "jona"
+      ]
+    },
+    "Mic": {
+      "bible": "micheas",
+      "latin": "micheas",
+      "bibel": [
+        "micheas"
+      ]
+    },
+    "Nah": {
+      "bible": "nahum",
+      "latin": "nahum",
+      "bibel": [
+        "nahum"
+      ]
+    },
+    "Hab": {
+      "bible": "habacuc",
+      "latin": "habacuc",
+      "bibel": [
+        "habakuk"
+      ]
+    },
+    "Zeph": {
+      "bible": "sophonias",
+      "latin": "sophonias",
+      "bibel": [
+        "zefanja"
+      ]
+    },
+    "Hag": {
+      "bible": "aggeus",
+      "latin": "aggeus",
+      "bibel": [
+        "haggai"
+      ]
+    },
+    "Zech": {
+      "bible": "zacharias",
+      "latin": "zacharias",
+      "bibel": [
+        "sacharja"
+      ]
+    },
+    "Mal": {
+      "bible": "malachias",
+      "latin": "malachias",
+      "bibel": [
+        "maleachi"
+      ]
+    },
+    "1Macc": {
+      "bible": "1-machabees",
+      "latin": "1-machabees",
+      "bibel": [
+        "1-machabees"
+      ]
+    },
+    "2Macc": {
+      "bible": "2-machabees",
+      "latin": "2-machabees",
+      "bibel": [
+        "2-machabees"
+      ]
+    },
+    "Matt": {
+      "bible": "matthew",
+      "latin": "matthew",
+      "bibel": [
+        "matthew"
+      ]
+    },
+    "Mark": {
+      "bible": "mark",
+      "latin": "mark",
+      "bibel": [
+        "mark"
+      ]
+    },
+    "Luke": {
+      "bible": "luke",
+      "latin": "luke",
+      "bibel": [
+        "luke"
+      ]
+    },
+    "John": {
+      "bible": "john",
+      "latin": "john",
+      "bibel": [
+        "john"
+      ]
+    },
+    "Acts": {
+      "bible": "acts",
+      "latin": "acts",
+      "bibel": [
+        "acts"
+      ]
+    },
+    "Rom": {
+      "bible": "romans",
+      "latin": "romans",
+      "bibel": [
+        "roemer"
+      ]
+    },
+    "1Cor": {
+      "bible": "1-corinthians",
+      "latin": "1-corinthians",
+      "bibel": [
+        "1-korinther"
+      ]
+    },
+    "2Cor": {
+      "bible": "2-corinthians",
+      "latin": "2-corinthians",
+      "bibel": [
+        "2-corinthians"
+      ]
+    },
+    "Gal": {
+      "bible": "galatians",
+      "latin": "galatians",
+      "bibel": [
+        "galater"
+      ]
+    },
+    "Eph": {
+      "bible": "ephesians",
+      "latin": "ephesians",
+      "bibel": [
+        "epheser"
+      ]
+    },
+    "Phil": {
+      "bible": "philippians",
+      "latin": "philippians",
+      "bibel": [
+        "philipper"
+      ]
+    },
+    "Col": {
+      "bible": "colossians",
+      "latin": "colossians",
+      "bibel": [
+        "kolosser"
+      ]
+    },
+    "1Thess": {
+      "bible": "1-thessalonians",
+      "latin": "1-thessalonians",
+      "bibel": [
+        "1-thessalonicher"
+      ]
+    },
+    "2Thess": {
+      "bible": "2-thessalonians",
+      "latin": "2-thessalonians",
+      "bibel": [
+        "2-thessalonicher"
+      ]
+    },
+    "1Tim": {
+      "bible": "1-timothy",
+      "latin": "1-timothy",
+      "bibel": [
+        "1-timotheus"
+      ]
+    },
+    "2Tim": {
+      "bible": "2-timothy",
+      "latin": "2-timothy",
+      "bibel": [
+        "2-timotheus"
+      ]
+    },
+    "Titus": {
+      "bible": "titus",
+      "latin": "titus",
+      "bibel": [
+        "titus"
+      ]
+    },
+    "Phlm": {
+      "bible": "philemon",
+      "latin": "philemon",
+      "bibel": [
+        "philemon"
+      ]
+    },
+    "Heb": {
+      "bible": "hebrews",
+      "latin": "hebrews",
+      "bibel": [
+        "hebraeer"
+      ]
+    },
+    "Jas": {
+      "bible": "james",
+      "latin": "james",
+      "bibel": [
+        "jakobus"
+      ]
+    },
+    "1Pet": {
+      "bible": "1-peter",
+      "latin": "1-peter",
+      "bibel": [
+        "1-petrus"
+      ]
+    },
+    "2Pet": {
+      "bible": "2-peter",
+      "latin": "2-peter",
+      "bibel": [
+        "2-petrus"
+      ]
+    },
+    "1John": {
+      "bible": "1-john",
+      "latin": "1-john",
+      "bibel": [
+        "1-johannes"
+      ]
+    },
+    "2John": {
+      "bible": "2-john",
+      "latin": "2-john",
+      "bibel": [
+        "2-johannes"
+      ]
+    },
+    "3John": {
+      "bible": "3-john",
+      "latin": "3-john",
+      "bibel": [
+        "3-john"
+      ]
+    },
+    "Jude": {
+      "bible": "jude",
+      "latin": "jude",
+      "bibel": [
+        "judas"
+      ]
+    },
+    "Rev": {
+      "bible": "apocalypse",
+      "latin": "apocalypse",
+      "bibel": [
+        "offenbarung"
+      ]
+    }
   },
   "contained_books": [
     {
       "osis": "AddEsth",
       "bibel": "zusaetze-ester",
-      "bible_container": { "osis": "Esth", "bible": "esther" },
-      "latin_container": { "osis": "Esth", "latin": "esther" },
+      "bible_container": {
+        "osis": "Esth",
+        "bible": "esther"
+      },
+      "latin_container": {
+        "osis": "Esth",
+        "latin": "esther"
+      },
       "anchor_hints": {
         "bible": {
           "marker": "dragon",
@@ -97,8 +541,14 @@
     {
       "osis": "AddDan",
       "bibel": "zusaetze-daniel",
-      "bible_container": { "osis": "Dan", "bible": "daniel" },
-      "latin_container": { "osis": "Dan", "latin": "daniel" },
+      "bible_container": {
+        "osis": "Dan",
+        "bible": "daniel"
+      },
+      "latin_container": {
+        "osis": "Dan",
+        "latin": "daniel"
+      },
       "anchor_hints": {
         "bible": {
           "susanna": {
@@ -119,7 +569,10 @@
       "osis": "PrMan",
       "bibel": "gebet-manasses",
       "bible_container": null,
-      "latin_container": { "osis": "2Macc", "latin": "2-machabees" },
+      "latin_container": {
+        "osis": "2Macc",
+        "latin": "2-machabees"
+      },
       "anchor_hints": {
         "latin": {
           "marker": "Prayer of Manasse",
