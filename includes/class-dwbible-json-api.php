@@ -304,10 +304,16 @@ trait DwBible_JSON_API_Trait {
      * including the divergent German slugs (e.g. sprueche, matthaeus).
      */
     private static function serve_unified_index() {
+        // All six editions the site serves (la/en/de/fr/es/it). Any dataset whose
+        // index.json is absent on disk is skipped below, so this list is safe even
+        // if a translation isn't deployed yet.
         $datasets = [
-            'latin' => [ 'name' => 'Clementine Vulgate', 'language' => 'la', 'languageName' => 'Latin' ],
-            'bible' => [ 'name' => 'Douay-Rheims',       'language' => 'en', 'languageName' => 'English' ],
-            'bibel' => [ 'name' => 'Menge',              'language' => 'de', 'languageName' => 'German' ],
+            'latin'   => [ 'name' => 'Clementine Vulgate', 'language' => 'la', 'languageName' => 'Latin' ],
+            'bible'   => [ 'name' => 'Douay-Rheims',       'language' => 'en', 'languageName' => 'English' ],
+            'bibel'   => [ 'name' => 'Menge',              'language' => 'de', 'languageName' => 'German' ],
+            'french'  => [ 'name' => 'Crampon',            'language' => 'fr', 'languageName' => 'French' ],
+            'spanish' => [ 'name' => 'Straubinger',        'language' => 'es', 'languageName' => 'Spanish' ],
+            'italian' => [ 'name' => 'Martini',            'language' => 'it', 'languageName' => 'Italian' ],
         ];
 
         // Load each translation's index.json (canonical slugs, JSON API URLs)
@@ -322,7 +328,11 @@ trait DwBible_JSON_API_Trait {
             }
         }
 
-        // Load dataset-specific display names → HTML slugs (may differ from canonical)
+        // Load dataset-specific display names → HTML slugs, keyed by that dataset's
+        // own order number (order → html slug). NOTE: order numbers are NOT
+        // consistent across datasets (e.g. the Italian index offsets ~27 books by
+        // +2), so we resolve the HTML slug via each dataset's OWN order below —
+        // never a shared order.
         $html_slugs = [];
         foreach ( array_keys( $datasets ) as $ds ) {
             $csv_books = self::load_dataset_index( $ds );
@@ -332,24 +342,37 @@ trait DwBible_JSON_API_Trait {
             }
         }
 
-        // Build per-book lookup keyed by order number for each dataset
-        $by_order = [];
+        // Build per-book lookup keyed by CANONICAL SLUG (order is unreliable across
+        // datasets; the canonical slug is identical in all six). Track the canonical
+        // (Latin) order per slug for stable sorting.
+        $by_slug     = [];
+        $slug_order  = [];
         foreach ( $indexes as $ds => $books ) {
             foreach ( $books as $b ) {
-                $order = intval( $b['order'] );
-                $by_order[ $order ][ $ds ] = $b;
+                $slug = isset( $b['slug'] ) ? (string) $b['slug'] : '';
+                if ( $slug === '' ) { continue; }
+                $by_slug[ $slug ][ $ds ] = $b;
+                // The first dataset in $datasets is 'latin' → its order is canonical.
+                if ( ! isset( $slug_order[ $slug ] ) ) {
+                    $slug_order[ $slug ] = intval( $b['order'] );
+                }
             }
         }
+        // Sort books by canonical order.
+        uksort( $by_slug, function ( $a, $b ) use ( $slug_order ) {
+            return ( $slug_order[ $a ] ?? PHP_INT_MAX ) <=> ( $slug_order[ $b ] ?? PHP_INT_MAX );
+        } );
 
-        // Merge into unified book list
+        // Merge into unified book list.
         $site_url = site_url();
         $books = [];
-        ksort( $by_order );
-        foreach ( $by_order as $order => $ds_books ) {
-            $first = reset( $ds_books );
+        foreach ( $by_slug as $slug => $ds_books ) {
+            // Prefer Latin as the canonical source of order/testament/totalChapters,
+            // else fall back to whichever dataset is present first.
+            $first = $ds_books['latin'] ?? reset( $ds_books );
             $entry = [
-                'order'         => $order,
-                'canonicalSlug' => $first['slug'],
+                'order'         => intval( $first['order'] ),
+                'canonicalSlug' => $slug,
                 'testament'     => $first['testament'],
                 'totalChapters' => $first['totalChapters'],
                 'translations'  => [],
@@ -357,7 +380,9 @@ trait DwBible_JSON_API_Trait {
             foreach ( $datasets as $ds => $meta ) {
                 if ( ! isset( $ds_books[ $ds ] ) ) { continue; }
                 $b = $ds_books[ $ds ];
-                $ds_slug = isset( $html_slugs[ $ds ][ $order ] ) ? $html_slugs[ $ds ][ $order ] : $b['slug'];
+                // Resolve the HTML slug via THIS dataset's own order number.
+                $ds_order = intval( $b['order'] );
+                $ds_slug  = isset( $html_slugs[ $ds ][ $ds_order ] ) ? $html_slugs[ $ds ][ $ds_order ] : $b['slug'];
                 $entry['translations'][ $ds ] = [
                     'name'    => $b['name'],
                     'slug'    => $ds_slug,
@@ -368,13 +393,20 @@ trait DwBible_JSON_API_Trait {
             $books[] = $entry;
         }
 
+        // Only advertise the translations actually loaded (index.json present on disk).
+        $loaded = array_intersect_key( $datasets, $indexes );
+        $translation_count = count( $loaded );
         $response = [
             '_meta' => [
                 'project'    => 'Latin Prayer',
                 'projectUrl' => $site_url,
                 'apiDocs'    => $site_url . '/llms.txt',
-                'content'    => 'Unified Bible index — 73 books × 3 translations',
-                'translations' => $datasets,
+                'content'    => sprintf(
+                    'Unified Bible index — %d books × %d translations',
+                    count( $books ),
+                    $translation_count
+                ),
+                'translations' => $loaded,
                 'bookCount'  => count( $books ),
             ],
             'books' => $books,
