@@ -1,2 +1,4 @@
 .DS_Store
 data/cache/
+# Node build deps (sass) — production ships the committed .css, never node_modules
+node_modules/

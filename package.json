@@ -1,0 +1,14 @@
+{
+  "name": "dwbible-build",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Reproducible SCSS build for dwbible. Compiles assets/dwbible.scss -> assets/dwbible.css with a pinned dart-sass so the committed CSS never drifts between machines. Production ships the committed .css and needs NO node/sass; this build runs only on the authoring machine / CI. Verify reproducibility: `npm ci && npm run build:css && git diff --exit-code assets/dwbible.css`.",
+  "scripts": {
+    "prebuild:css": "node tools/check-sass-version.js",
+    "build:css": "sass --no-source-map --style=expanded assets/dwbible.scss assets/dwbible.css",
+    "watch:css": "sass --watch --no-source-map --style=expanded assets/dwbible.scss:assets/dwbible.css"
+  },
+  "devDependencies": {
+    "sass": "1.99.0"
+  }
+}
