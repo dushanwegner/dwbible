@@ -126,15 +126,22 @@ TOTAL=$((TOTAL + 1))
 SELFTEST_JSON=$(curl -s "$BASE_URL/bible/?dwbible_selftest=1" 2>/dev/null)
 SELFTEST_OK=true
 for check_name in osis_dataset_consistency interlinear_osis_resolution book_map_consistency all_books_resolve_in_combos; do
+    # The selftest endpoint may return a 500 HTML page (pre-existing, unrelated
+    # checks can fail); json.load then throws. Under `set -euo pipefail` that
+    # non-zero pipe would abort the whole script before the later sections run,
+    # so tolerate it with `|| echo MISSING` and let the per-check logic report.
     result=$(echo "$SELFTEST_JSON" | python3 -c "
 import json, sys
-data = json.load(sys.stdin)
+try:
+    data = json.load(sys.stdin)
+except Exception:
+    print('MISSING'); sys.exit(0)
 for c in data.get('checks', []):
     if c.get('name') == '$check_name':
         print('ok' if c.get('ok') else 'FAIL: ' + json.dumps(c.get('error', {})))
         sys.exit(0)
 print('MISSING')
-" 2>/dev/null)
+" 2>/dev/null || echo "MISSING")
     if [ "$result" != "ok" ]; then
         echo "  FAIL selftest/$check_name: $result"
         SELFTEST_OK=false
@@ -190,6 +197,56 @@ check "$BASE_URL/bible/genesis/index.json" 200 "bible/genesis/index.json"
 check "$BASE_URL/bible/genesis/1.json" 200 "bible/genesis/1.json"
 check "$BASE_URL/bible/john/3:16.json" 200 "bible/john/3:16.json"
 check "$BASE_URL/bible-index.json" 200 "bible-index.json (unified)"
+
+# Content invariants of the unified index (not just HTTP 200):
+#   - all 6 translations advertised (la/en/de/fr/es/it)
+#   - 73 books, canonical chapter total (1333, Clementine division)
+#   - every per-language jsonUrl slug maps to that book's canonicalSlug — guards
+#     the order-vs-slug merge bug where a dataset with a different book order
+#     (e.g. Italian, offset +2 from job onward) mis-mapped a book (Italian's
+#     Daniel had landed under canonical Joel).
+section "Unified index content invariants"
+TOTAL=$((TOTAL + 1))
+UNIFIED_JSON=$(curl -s "$BASE_URL/bible-index.json" 2>/dev/null)
+UNIFIED_RESULT=$(echo "$UNIFIED_JSON" | python3 -c "
+import json, sys, re
+try:
+    d = json.load(sys.stdin)
+except Exception as e:
+    print('FAIL: not valid JSON (%s)' % e); sys.exit(0)
+books = d.get('books', [])
+langs = list(d.get('_meta', {}).get('translations', {}).keys())
+problems = []
+want_langs = ['latin', 'bible', 'bibel', 'french', 'spanish', 'italian']
+missing_langs = [l for l in want_langs if l not in langs]
+if missing_langs:
+    problems.append('translations missing: %s' % ','.join(missing_langs))
+if len(books) != 73:
+    problems.append('book count %d != 73' % len(books))
+total_ch = sum(b.get('totalChapters', 0) for b in books)
+if total_ch != 1333:
+    problems.append('chapter total %d != 1333' % total_ch)
+mism = []
+for b in books:
+    cslug = b.get('canonicalSlug', '')
+    for lg in want_langs:
+        t = b.get('translations', {}).get(lg)
+        if not t:
+            mism.append('%s/%s:missing' % (cslug, lg)); continue
+        m = re.search(r'/%s/([^/]+)/index\.json' % re.escape(lg), t.get('jsonUrl', ''))
+        if m and m.group(1) != cslug:
+            mism.append('%s/%s->%s' % (cslug, lg, m.group(1)))
+if mism:
+    problems.append('%d slug mis-mappings (e.g. %s)' % (len(mism), '; '.join(mism[:3])))
+print('ok' if not problems else 'FAIL: ' + ' | '.join(problems))
+" 2>/dev/null)
+if [ "$UNIFIED_RESULT" != "ok" ]; then
+    echo "  FAIL bible-index.json invariants: $UNIFIED_RESULT"
+    FAILURES=$((FAILURES + 1))
+    FAILED_URLS+=("bible-index.json content invariants")
+else
+    echo "  ok  bible-index.json invariants (6 translations, 73 books, 1333 chapters, slug mapping)"
+fi
 
 # ── 8. AI access files ──────────────────────────────────────────────
 section "AI access (llms.txt)"
