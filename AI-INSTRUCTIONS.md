@@ -96,3 +96,15 @@ curl https://latinprayer.org/bible/genesis/1.json | python3 -m json.tool | head 
 # llms.txt (AI documentation)
 curl https://latinprayer.org/llms.txt
 ```
+
+## SCSS build (reproducible)
+
+Styles are authored in `assets/dwbible.scss` (+ `_`-prefixed partials) and compiled to the committed `assets/dwbible.css` with a **pinned dart-sass (1.99.0)** so the CSS never drifts between machines. Production ships the committed `.css` and needs no node.
+
+```bash
+npm ci            # install the pinned sass (do this FIRST — never build with a global sass)
+npm run build:css # compiles assets/dwbible.scss -> assets/dwbible.css (a prebuild guard blocks a wrong-sass build)
+git diff assets/dwbible.css   # review, then commit
+```
+
+A stray global sass reserializes `oklch()` + regroups selectors → a huge cosmetic diff that looks like drift (it isn't). The `prebuild:css` guard (`tools/check-sass-version.js`) aborts unless the pinned sass is installed.
