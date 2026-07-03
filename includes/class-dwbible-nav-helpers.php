@@ -124,21 +124,10 @@ class DwBible_Nav_Helpers {
             1
         );
 
-        // Up-arrows in verses blocks → link to top of book (skip first = Chapter 1)
-        $book_top = '#dwbible-book-top';
-        $vers_up = '<a class="dwbible-up dwbible-up-book" href="' . $book_top . '" aria-label="' . esc_attr__( 'Back to book', 'dwbible' ) . '">' . self::chevron('up') . '</a> ';
-        $count = 0;
-        $html = preg_replace_callback(
-            '~<p\s+class=(["\"])verses\1>~',
-            function($m) use (&$count, $vers_up) {
-                $count++;
-                if ($count === 1) {
-                    return $m[0]; // Chapter 1: no up-arrow
-                }
-                return '<p class="verses">' . $vers_up;
-            },
-            $html
-        );
+        // Verse-jumper rows removed — the per-chapter "1 2 3 4 5" anchor list adds
+        // clutter above the reading; scrolling to a verse is easy enough. Strip the
+        // whole <p class="verses">…</p> block wherever it appears.
+        $html = preg_replace('~<p\s+class=(["\'])verses\1>.*?</p>~s', '', $html);
 
         return $html;
     }
