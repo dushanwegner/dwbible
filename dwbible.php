@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.02.02
+* Version: 1.26.07.03.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.02.02');
+    define('DWBIBLE_VERSION', '1.26.07.03.01');
 }
 
 // Load include classes before hooks are registered
@@ -1444,9 +1444,9 @@ class DwBible_Plugin {
             // ─── Book group: name label + book list ───
             $out .= '<section class="dwbible-category">';
             $out .= '<div class="dwbible-category-label">';
-            $out .= '<h3 class="dwbible-category-name">' . esc_html( __( $cat['label'], 'dwbible' ) ) . '</h3>'; // phpcs:ignore WordPress.WP.I18n
+            $out .= '<h3 class="dwbible-category-name lp-rowlist-head">' . esc_html( __( $cat['label'], 'dwbible' ) ) . '</h3>'; // phpcs:ignore WordPress.WP.I18n
             $out .= '</div>';
-            $out .= '<div class="dwbible-tiles">';
+            $out .= '<div class="dwbible-tiles lp-rowlist">';
 
             foreach ($primary_books as $b) {
                 $order = intval($b['order']);
@@ -1490,10 +1490,13 @@ class DwBible_Plugin {
                 }
                 $data_search = implode(' ', array_keys($tok_set));
 
-                $out .= '<a href="' . esc_url($url) . '" class="dwbible-tile" data-search="' . esc_attr($data_search) . '" aria-label="' . esc_attr($label) . '">';
-                $out .= '<span class="dwbible-tile-name">' . esc_html($name) . '</span>';
+                // The row IS the canonical LP list primitive (.lp-row + slots);
+                // .dwbible-tile* kept alongside for the book-search JS + the
+                // vernacular-gloss overlay. --num gives the shared mono ordinal.
+                $out .= '<a href="' . esc_url($url) . '" class="dwbible-tile lp-row lp-row--num" data-search="' . esc_attr($data_search) . '" aria-label="' . esc_attr($label) . '">';
+                $out .= '<span class="dwbible-tile-name lp-row__term">' . esc_html($name) . '</span>';
                 if ( $alt_meaningful ) {
-                    $out .= '<span class="dwbible-tile-alt">' . esc_html($alt_name) . '</span>';
+                    $out .= '<span class="dwbible-tile-alt lp-row__gloss">' . esc_html($alt_name) . '</span>';
                 }
                 $out .= '</a>';
             }
