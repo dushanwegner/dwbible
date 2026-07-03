@@ -18,19 +18,20 @@ class DwBible_Nav_Helpers {
     public static $last_nav_ctx = null;
 
     /**
-     * The site's canonical chevron (same SVG as dwtheme's nav-row chevron:
-     * viewBox 0 0 7 13, path "M1 1l5 5.5L1 12"). Points RIGHT by default; a
-     * direction modifier rotates it via CSS so every directional control in the
-     * Bible reader composes from ONE chevron rule instead of bare ← ↑ → glyphs.
+     * The Bible reader's directional nav chevron — delegates to the ONE site-wide
+     * chevron, dwtheme_chevron() (dwtheme/inc/chevron.php). No plugin-local SVG:
+     * every prev/next/up control in the reader renders the same shared mark.
+     * Falls back to a bare glyph only if the theme function is unavailable.
      *
      * @param string $dir 'right' (default) | 'left' | 'up'
-     * @return string Inline <span class="dwbible-chev dwbible-chev--DIR">…svg…</span>
+     * @return string Inline chevron HTML.
      */
     private static function chevron($dir = 'right') {
-        $dir = in_array($dir, ['left', 'up', 'right'], true) ? $dir : 'right';
-        return '<span class="dwbible-chev dwbible-chev--' . $dir . '" aria-hidden="true">'
-            . '<svg viewBox="0 0 7 13" fill="none"><path d="M1 1l5 5.5L1 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>'
-            . '</span>';
+        if (function_exists('dwtheme_chevron')) {
+            return dwtheme_chevron($dir);
+        }
+        $g = ['left' => '&#8592;', 'up' => '&#8593;', 'right' => '&#8594;'];
+        return $g[$dir] ?? $g['right'];
     }
 
     /**
@@ -63,13 +64,15 @@ class DwBible_Nav_Helpers {
         $nav_ctx = self::compute_nav_urls($nav, $slug, $bible_index);
         // Lang switcher now lives inside the sticky bar so it stays reachable while scrolled.
         $lang_switcher = is_string($lang_switcher) ? $lang_switcher : '';
-        $sticky = self::build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index, $lang_switcher);
+        // The edition line ("Biblia Sacra …") is the page-head SUBTITLE — it now
+        // renders UNDER the title inside the sticky head (Kant canonical head:
+        // loud title first, quiet subtitle below, one hairline), not as an eyebrow
+        // stacked above the title.
+        $edition_sub = self::build_edition_heading($slug, $bible_index);
+        $sticky = self::build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index, $lang_switcher, $edition_sub);
         self::$last_nav_ctx = $nav_ctx;
 
-        // Edition title above the sticky bar.
-        $edition_heading = self::build_edition_heading($slug, $bible_index);
-
-        return $edition_heading . $sticky . $html;
+        return $sticky . $html;
     }
 
     /**
@@ -90,9 +93,11 @@ class DwBible_Nav_Helpers {
         ];
         $title = $editions[$primary] ?? 'The Bible';
 
-        return '<h2 class="dwbible-edition-title">'
+        // Page-head SUBTITLE (under the title), not an eyebrow above it. Links
+        // back to the Bible index.
+        return '<p class="dwbible-edition-sub">'
             . '<a href="' . $bible_index . '">' . esc_html($title) . '</a>'
-            . '</h2>';
+            . '</p>';
     }
 
     /**
@@ -256,7 +261,7 @@ class DwBible_Nav_Helpers {
     /**
      * Build the sticky status bar HTML.
      */
-    private static function build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index, $lang_switcher = '') {
+    private static function build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index, $lang_switcher = '', $edition_sub = '') {
         $book_label_html = esc_html($book_label);
 
         // Resolve data-slug and initial chapter for frontend JS
@@ -304,10 +309,12 @@ class DwBible_Nav_Helpers {
 
         $book_el = '<span class="dwbible-sticky__label" data-label>' . $book_label_html . '</span>';
 
+        // Left column = the page head: a loud title row (book + chapter) with the
+        // quiet edition subtitle beneath it (Kant canonical head order).
         return '<div class="dwbible-sticky" data-slug="' . $book_slug_js . '"' . $data_attrs . '>'
             . '<div class="dwbible-sticky__left">'
-            . $book_el . ' '
-            . $ch_el
+            . '<div class="dwbible-sticky__titlerow">' . $book_el . ' ' . $ch_el . '</div>'
+            . $edition_sub
             . '</div>'
             . $lang_switcher
             . '<div class="dwbible-sticky__controls">'

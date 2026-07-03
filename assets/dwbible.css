@@ -2,23 +2,20 @@
 /* The Bible plugin styles (SCSS entrypoint)
    This file is intended to be compiled by your watcher.
 */
-/* Edition title above sticky bar */
-.dwbible-edition-title {
-  font-size: var(--fs-body);
+/* Edition line — the page-head SUBTITLE, rendered UNDER the title inside the
+   sticky head (see .dwbible-sticky__left). Quiet + small; the LP overlay refines
+   colour/size. */
+.dwbible-edition-sub {
+  font-size: var(--fs-small);
   font-weight: 400;
-  margin: 3rem 0 2rem !important;
-  color: var(--ink, #000);
+  margin: 0;
+  color: var(--ink-mute, #666);
 }
-@media (min-width: 768px) {
-  .dwbible-edition-title {
-    margin-top: 3rem;
-  }
-}
-.dwbible-edition-title a {
-  color: inherit !important;
+.dwbible-edition-sub a {
+  color: inherit;
   text-decoration: none;
 }
-.dwbible-edition-title a:hover {
+.dwbible-edition-sub a:hover {
   text-decoration: underline;
 }
 
@@ -39,15 +36,21 @@
   padding: 0.375rem 0 0.5rem !important;
   box-sizing: border-box;
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* controls align to the TITLE row, not the subtitle */
   justify-content: space-between;
   gap: 0.5rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  /* Left column = the page head: title row on top, edition subtitle beneath. */
 }
 .dwbible .dwbible-sticky__left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.dwbible .dwbible-sticky__titlerow {
   font-size: var(--fs-heading);
   font-weight: 700;
   line-height: 1.2;
@@ -125,15 +128,11 @@
 }
 
 .dwbible-ctl {
-  color: inherit;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.6rem;
-  height: 1.6rem;
-  border-radius: 0;
-  border: 1px solid var(--rule, rgba(0, 0, 0, 0.15));
+  padding: 0.25rem;
 }
 .dwbible-ctl:is(.is-disabled) {
   opacity: 0.35;
@@ -146,29 +145,6 @@
   padding: 1rem 0;
 }
 
-.dwbible-chev {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 0;
-}
-.dwbible-chev svg {
-  width: 0.5rem;
-  height: auto;
-  display: block;
-}
-.dwbible-chev--left {
-  transform: rotate(180deg);
-}
-.dwbible-chev--up {
-  transform: rotate(-90deg);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .dwbible-chev {
-    transition: none;
-  }
-}
 /* Verse styling + interlinear layout */
 .dwbible {
   /* Anchor-scroll offset: when the URL has a verse hash (e.g. from the

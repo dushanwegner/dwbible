@@ -1,16 +1,14 @@
-/* Edition title above sticky bar */
-.dwbible-edition-title {
-  font-size: var(--fs-body);
+/* Edition line — the page-head SUBTITLE, rendered UNDER the title inside the
+   sticky head (see .dwbible-sticky__left). Quiet + small; the LP overlay refines
+   colour/size. */
+.dwbible-edition-sub {
+  font-size: var(--fs-small);
   font-weight: 400;
-  margin: 3rem 0 2rem !important;
-  color: var(--ink, #000);
-
-  @media (min-width: 768px) {
-    margin-top: 3rem;
-  }
+  margin: 0;
+  color: var(--ink-mute, #666);
 
   a {
-    color: inherit !important;
+    color: inherit;
     text-decoration: none;
     &:hover { text-decoration: underline; }
   }
@@ -33,7 +31,7 @@
     padding: .375rem 0 .5rem !important;
     box-sizing: border-box;
     display: flex;
-    align-items: center;
+    align-items: flex-start;   /* controls align to the TITLE row, not the subtitle */
     justify-content: space-between;
     gap: .5rem;
     -webkit-backface-visibility: hidden;
@@ -41,7 +39,14 @@
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
 
+    /* Left column = the page head: title row on top, edition subtitle beneath. */
     &__left {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    &__titlerow {
       font-size: var(--fs-heading);
       font-weight: 700;
       line-height: 1.2;
@@ -123,16 +128,15 @@
   }
 }
 
+// Nav control = a bare link carrying the ONE chevron (.dw-chev, dwtheme_chevron).
+// No box, no border, no fixed square — the chevron IS the affordance, in the key
+// colour. Just a tap target big enough to be comfortable.
 .dwbible-ctl {
-  color: inherit;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.6rem;
-  height: 1.6rem;
-  border-radius: 0;
-  border: 1px solid var(--rule, rgba(0, 0, 0, .15));
+  padding: 0.25rem;
 
   &:is(.is-disabled) {
     opacity: .35;
@@ -145,29 +149,4 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
-}
-
-// Directional chevron — the site's canonical nav chevron (same SVG as dwtheme's
-// nav-row chevron), reused for every prev / next / up control in the reader so
-// they compose from ONE rule instead of bare ← ↑ → glyphs. Points right by
-// default; the direction modifier rotates it.
-.dwbible-chev {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 0;
-
-  svg {
-    width: 0.5rem;   // matches the nav-row chevron's optical weight
-    height: auto;
-    display: block;
-  }
-
-  &--left { transform: rotate(180deg); }
-  &--up   { transform: rotate(-90deg); }
-  // --right: default orientation, no transform.
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .dwbible-chev { transition: none; }
 }
