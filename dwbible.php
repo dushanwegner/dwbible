@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.03.01
+* Version: 1.26.07.03.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.03.01');
+    define('DWBIBLE_VERSION', '1.26.07.03.02');
 }
 
 // Load include classes before hooks are registered
@@ -651,11 +651,29 @@ class DwBible_Plugin {
         $books = self::load_dataset_index($primary);
         if (!is_array($books) || empty($books)) return [];
         $base = trailingslashit(home_url('/' . trim($slug, '/') . '/'));
+
+        // NT starts at Matthew/Matthaeus (locale-independent); fall back to the
+        // canonical order threshold 46 (last OT book = 2 Machabees) if not found.
+        $nt_start_order = null;
+        foreach ($books as $b) {
+            if (!is_array($b) || empty($b['short_name'])) continue;
+            if (in_array(self::slugify($b['short_name']), ['matthew', 'matthaeus'], true)) {
+                $nt_start_order = intval($b['order']);
+                break;
+            }
+        }
+
         $out = [];
         foreach ($books as $b) {
             if (!is_array($b) || empty($b['short_name'])) continue;
-            $name = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
-            $out[] = ['n' => $name, 'u' => $base . self::slugify($b['short_name']) . '/'];
+            $name  = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
+            $bslug = self::slugify($b['short_name']);
+            $order = intval($b['order']);
+            $is_nt = ($nt_start_order !== null) ? ($order >= $nt_start_order) : ($order > 46);
+            // 'n' name, 'u' url, 'slug' url-slug, 'testament' ot|nt — the last two
+            // let the side-rail identify the current book + its testament without
+            // reaching into dwbible internals.
+            $out[] = ['n' => $name, 'u' => $base . $bslug . '/', 'slug' => $bslug, 'testament' => $is_nt ? 'nt' : 'ot'];
         }
         return $out;
     }
@@ -1433,7 +1451,10 @@ class DwBible_Plugin {
                 }
                 $open_testament = $cat['testament'];
                 $t = isset($testaments[$open_testament]) ? $testaments[$open_testament] : null;
-                $out .= '<section class="dwbible-testament">';
+                // Stable anchor id (Latin, edition-independent) so the side-rail's
+                // Old/New Testament links scroll to this block on the same index page.
+                $testament_anchor = ($open_testament === 'nt') ? 'novum-testamentum' : 'vetus-testamentum';
+                $out .= '<section class="dwbible-testament" id="' . esc_attr($testament_anchor) . '">';
                 if ($t) {
                     $out .= '<header class="dwbible-testament-head">';
                     $out .= '<h2 class="dwbible-testament-title">' . esc_html($t['latin']) . '</h2>';

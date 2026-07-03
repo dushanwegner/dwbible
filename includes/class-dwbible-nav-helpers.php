@@ -18,6 +18,22 @@ class DwBible_Nav_Helpers {
     public static $last_nav_ctx = null;
 
     /**
+     * The site's canonical chevron (same SVG as dwtheme's nav-row chevron:
+     * viewBox 0 0 7 13, path "M1 1l5 5.5L1 12"). Points RIGHT by default; a
+     * direction modifier rotates it via CSS so every directional control in the
+     * Bible reader composes from ONE chevron rule instead of bare ← ↑ → glyphs.
+     *
+     * @param string $dir 'right' (default) | 'left' | 'up'
+     * @return string Inline <span class="dwbible-chev dwbible-chev--DIR">…svg…</span>
+     */
+    private static function chevron($dir = 'right') {
+        $dir = in_array($dir, ['left', 'up', 'right'], true) ? $dir : 'right';
+        return '<span class="dwbible-chev dwbible-chev--' . $dir . '" aria-hidden="true">'
+            . '<svg viewBox="0 0 7 13" fill="none"><path d="M1 1l5 5.5L1 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+            . '</span>';
+    }
+
+    /**
      * Inject navigation helpers into rendered book HTML.
      *
      * Adds: top anchor, index up-arrow, chapter up-arrows, verse paragraph
@@ -95,7 +111,7 @@ class DwBible_Nav_Helpers {
         }
         $bible_index = esc_url(trailingslashit(home_url('/' . $slug . '/')));
         $aria_label = ($slug === 'bibel') ? __('Back to German Bible', 'dwbible') : __('Back to Bible', 'dwbible');
-        $chap_up = '<a class="dwbible-up dwbible-up-index" href="' . $bible_index . '" aria-label="' . esc_attr($aria_label) . '">&#8593;</a> ';
+        $chap_up = '<a class="dwbible-up dwbible-up-index" href="' . $bible_index . '" aria-label="' . esc_attr($aria_label) . '">' . self::chevron('up') . '</a> ';
         $html = preg_replace(
             '~<p\s+class=(["\"])chapters\1>~',
             '<p class="chapters">' . $chap_up,
@@ -105,7 +121,7 @@ class DwBible_Nav_Helpers {
 
         // Up-arrows in verses blocks → link to top of book (skip first = Chapter 1)
         $book_top = '#dwbible-book-top';
-        $vers_up = '<a class="dwbible-up dwbible-up-book" href="' . $book_top . '" aria-label="' . esc_attr__( 'Back to book', 'dwbible' ) . '">&#8593;</a> ';
+        $vers_up = '<a class="dwbible-up dwbible-up-book" href="' . $book_top . '" aria-label="' . esc_attr__( 'Back to book', 'dwbible' ) . '">' . self::chevron('up') . '</a> ';
         $count = 0;
         $html = preg_replace_callback(
             '~<p\s+class=(["\"])verses\1>~',
@@ -276,52 +292,28 @@ class DwBible_Nav_Helpers {
         }
 
         $sticky_ch_text = (string) $initial_ch;
-        $max_ch_val = $nav_ctx['max_ch'];
-        $book_base_url = $nav_ctx['book_base_url'];
 
-        // Chapter picker attributes (if multi-chapter book)
-        $ch_picker_attrs = '';
-        if ($max_ch_val > 1 && $book_base_url !== '') {
-            $ch_picker_attrs = ' data-max-ch="' . intval($max_ch_val) . '" data-book-url="' . esc_attr($book_base_url) . '"';
-        }
-
-        // Chapter element: button (picker) or plain span
-        $ch_el = ($max_ch_val > 1)
-            ? '<button type="button" class="dwbible-ch-picker" data-ch aria-label="' . esc_attr__( 'Select chapter', 'dwbible' ) . '"><span data-ch-num>' . esc_html($sticky_ch_text) . '</span> <span class="dwbible-ch-picker__caret">&#9662;</span></button>'
-            : '<span class="dwbible-sticky__chapter" data-ch>' . esc_html($sticky_ch_text) . '</span>';
+        // Book + chapter are plain labels — the handmade book/chapter dropdowns
+        // were retired in favour of the side-rail (Old/New Testament + current
+        // book) for book navigation, and the in-page chapter row + prev/next
+        // chevrons for chapters. "More clicks, less confusion": one calm rail
+        // beats a 73-entry overlay. No picker buttons, carets, or data-* lists.
+        $ch_el = '<span class="dwbible-sticky__chapter" data-ch>' . esc_html($sticky_ch_text) . '</span>';
 
         $lang_switcher = is_string($lang_switcher) ? $lang_switcher : '';
 
-        // Book element: a picker button (the book name reads as text, opens a
-        // book overlay on click) when we can list the edition's books; else a
-        // plain label. The list is embedded as JSON so the overlay is built
-        // client-side without a request (mirrors the chapter grid).
-        $edition_slug = get_query_var(DwBible_Plugin::QV_SLUG);
-        if (!is_string($edition_slug) || $edition_slug === '') {
-            $edition_slug = 'bible';
-        }
-        $book_list = DwBible_Plugin::list_books_for_edition($edition_slug);
-        $label_inner = '<span class="dwbible-sticky__label" data-label>' . $book_label_html . '</span>';
-        if (!empty($book_list)) {
-            $books_attr = esc_attr(wp_json_encode(array_values($book_list)));
-            $book_el = '<button type="button" class="dwbible-book-picker" data-book-picker data-books=\'' . $books_attr . '\' aria-label="' . esc_attr__( 'Select book', 'dwbible' ) . '">'
-                . $label_inner
-                . ' <span class="dwbible-book-picker__caret">&#9662;</span>'
-                . '</button>';
-        } else {
-            $book_el = $label_inner;
-        }
+        $book_el = '<span class="dwbible-sticky__label" data-label>' . $book_label_html . '</span>';
 
-        return '<div class="dwbible-sticky" data-slug="' . $book_slug_js . '"' . $data_attrs . $ch_picker_attrs . '>'
+        return '<div class="dwbible-sticky" data-slug="' . $book_slug_js . '"' . $data_attrs . '>'
             . '<div class="dwbible-sticky__left">'
             . $book_el . ' '
             . $ch_el
             . '</div>'
             . $lang_switcher
             . '<div class="dwbible-sticky__controls">'
-            . '<a href="' . $nav_ctx['prev_href'] . '" class="dwbible-ctl dwbible-ctl-prev" data-prev aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">&#8592;</a>'
-            . '<a href="' . $nav_ctx['top_href'] . '" class="dwbible-ctl dwbible-ctl-top" data-top aria-label="' . esc_attr__( 'Bible index', 'dwbible' ) . '">&#8593;</a>'
-            . '<a href="' . $nav_ctx['next_href'] . '" class="dwbible-ctl dwbible-ctl-next" data-next aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">&#8594;</a>'
+            . '<a href="' . $nav_ctx['prev_href'] . '" class="dwbible-ctl dwbible-ctl-prev" data-prev aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">' . self::chevron('left') . '</a>'
+            . '<a href="' . $nav_ctx['top_href'] . '" class="dwbible-ctl dwbible-ctl-top" data-top aria-label="' . esc_attr__( 'Bible index', 'dwbible' ) . '">' . self::chevron('up') . '</a>'
+            . '<a href="' . $nav_ctx['next_href'] . '" class="dwbible-ctl dwbible-ctl-next" data-next aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">' . self::chevron('right') . '</a>'
             . '</div>'
             . '</div>';
     }
@@ -337,8 +329,8 @@ class DwBible_Nav_Helpers {
         $next_disabled = ($next === '#') ? ' is-disabled' : '';
 
         return '<div class="dwbible-bottom-nav">'
-            . '<a href="' . $prev . '" class="dwbible-ctl dwbible-ctl-prev' . $prev_disabled . '" aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">&#8592;</a>'
-            . '<a href="' . $next . '" class="dwbible-ctl dwbible-ctl-next' . $next_disabled . '" aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">&#8594;</a>'
+            . '<a href="' . $prev . '" class="dwbible-ctl dwbible-ctl-prev' . $prev_disabled . '" aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">' . self::chevron('left') . '</a>'
+            . '<a href="' . $next . '" class="dwbible-ctl dwbible-ctl-next' . $next_disabled . '" aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">' . self::chevron('right') . '</a>'
             . '</div>';
     }
 
