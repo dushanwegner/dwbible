@@ -11,9 +11,9 @@
 
   /* Used for JS-driven verse highlighting */
   .verse-highlight {
-    background: #fff3cd;
+    background: var(--mark, #f3e7e6); /* the ONE emphasis highlight — oxblood tint, never gold */
     padding: 0 .2em;
-    border-radius: 0;
+    border-radius: 3px;
   }
 
   .dwbible-book {
@@ -21,7 +21,7 @@
       transition: background-color 1.6s ease-out;
 
       &.verse-flash {
-        background: #fff3cd;
+        background: var(--mark, #f3e7e6); /* the ONE emphasis highlight — oxblood tint, never gold */
       }
     }
   }

@@ -159,15 +159,15 @@
   /* Used for JS-driven verse highlighting */
 }
 .dwbible .verse-highlight {
-  background: #fff3cd;
+  background: var(--mark, #f3e7e6); /* the ONE emphasis highlight — oxblood tint, never gold */
   padding: 0 0.2em;
-  border-radius: 0;
+  border-radius: 3px;
 }
 .dwbible .dwbible-book p.verse {
   transition: background-color 1.6s ease-out;
 }
 .dwbible .dwbible-book p.verse.verse-flash {
-  background: #fff3cd;
+  background: var(--mark, #f3e7e6); /* the ONE emphasis highlight — oxblood tint, never gold */
 }
 .dwbible {
   /* Interlinear display adjustments */
