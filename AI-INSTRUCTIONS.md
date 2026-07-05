@@ -58,7 +58,7 @@ Programmatic access — no HTML, verse text only.
 /bible-index.json                            all books × all translations
 ```
 
-JSON slugs: `bible` (Douay-Rheims), `latin` (Clementine Vulgate), `bibel` (Menge).
+JSON slugs: `bible` (Douay-Rheims / en), `latin` (Clementine Vulgate / la), `bibel` (Menge / de), `spanish` (Straubinger / es), `french` (Crampon / fr), `italian` (Martini / it).
 
 ## Key files
 
@@ -78,8 +78,9 @@ and provides flat HTML + JSON files under `data/{dataset}/html/` and
 `data/{dataset}/json/`. dwbible adds no DB tables — all content comes from
 those files.
 
-Datasets: `bible/`, `latin/`, `bibel/` (single-language). Interlinear pages
-load and merge two datasets on the fly.
+Datasets: `bible/`, `latin/`, `bibel/`, `spanish/`, `french/`, `italian/`
+(single-language). Interlinear pages load and merge two datasets on the fly
+(Latin + the vernacular for the current `/{lang}/` prefix).
 
 ## How to test
 

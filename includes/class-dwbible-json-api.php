@@ -298,10 +298,11 @@ trait DwBible_JSON_API_Trait {
     }
 
     /**
-     * Serve a unified index: all 73 books with URLs for all three translations.
+     * Serve a unified index: all 73 books with URLs for all six translations.
      *
-     * One fetch resolves every book path across latin, bible, and bibel —
-     * including the divergent German slugs (e.g. sprueche, matthaeus).
+     * One fetch resolves every book path across latin, bible, bibel, spanish,
+     * french, and italian — including the divergent German slugs (e.g.
+     * sprueche, matthaeus) and the Italian book-order offset.
      */
     private static function serve_unified_index() {
         // All six editions the site serves (la/en/de/fr/es/it). Any dataset whose
