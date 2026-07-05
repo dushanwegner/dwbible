@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.04.01
+* Version: 1.26.07.05.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.04.01');
+    define('DWBIBLE_VERSION', '1.26.07.05.01');
 }
 
 // Load include classes before hooks are registered
@@ -450,10 +450,12 @@ class DwBible_Plugin {
             // /{slug}/{book}/{chapter}
             add_rewrite_rule('^' . preg_quote($slug, '/') . '/([^/]+)/([0-9]+)/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug, 'top');
         }
-        // Sitemaps: per-book Bible (73 × 3 = 219), prayers, saints, and index
-        // Pattern: /bible-sitemap-{slug}-{book}.xml → per-book sitemap
+        // Sitemaps: per-book Bible (one file per web-locale dataset × book), prayers, saints, index.
+        // Pattern: /bible-sitemap-{slug}-{book}.xml → per-book sitemap. The language part is matched
+        // permissively here; web_bible_datasets() in handle_sitemap() is the single gate that decides
+        // which slugs are served (200) vs 404 — so this rule needs no flush when languages change.
         add_rewrite_rule(
-            '^bible-sitemap-(bible|bibel|latin)-([a-z0-9-]+)\.xml$',
+            '^bible-sitemap-([a-z]+)-([a-z0-9-]+)\.xml$',
             'index.php?' . self::QV_SITEMAP . '=$matches[1]&' . self::QV_SLUG . '=$matches[1]&' . self::QV_BOOK . '=$matches[2]',
             'top'
         );
@@ -744,6 +746,59 @@ class DwBible_Plugin {
         return [$ot, $nt];
     }
 
+    /**
+     * Dataset slugs that have a real, published WEB home — i.e. whose single-language
+     * dataset maps to a language registered in dwi18n. These are the ONLY datasets we
+     * advertise in the sitemap index, route sitemap files for, and emit URLs for; and
+     * every URL we emit is the canonical /{lang}/bible/… form (no legacy-slug redirect).
+     *
+     * Single source of truth: base_slugs() ∩ the dwi18n registry. Adding a language to
+     * dwi18n (registry.php) automatically enrolls its Bible into the sitemaps here — the
+     * regex, the per-book handler's allow-list, and the index all read THIS one list, so
+     * they can never drift. Datasets without a web locale (today: latin, italian) are
+     * intentionally omitted until they get a /{lang}/bible/ home.
+     *
+     * @return array<string,string> dataset-slug => web-locale code (e.g. 'french' => 'fr')
+     */
+    private static function web_bible_datasets() {
+        $out = [];
+        if ( ! function_exists( 'dwbible_i18n_lang_for_slug' ) || ! function_exists( 'dwi18n_is_lang' ) ) {
+            return $out; // dwi18n not loaded — handler will 404; nothing advertised.
+        }
+        foreach ( self::base_slugs() as $slug ) {
+            if ( strpos( $slug, '-' ) !== false ) { continue; } // singles only, skip combos
+            $lang = dwbible_i18n_lang_for_slug( $slug );
+            if ( $lang !== '' && dwi18n_is_lang( $lang ) ) {
+                $out[ $slug ] = $lang;
+            }
+        }
+        return $out;
+    }
+
+    /**
+     * Canonical Bible URL for a sitemap <loc>: /{lang}/bible/{rest}/ via dwi18n's URL
+     * builder, so sitemaps list the final 200 destination directly — never a legacy
+     * /{slug}/… URL that 301-redirects. $rel begins with '/bible/…' (no lang, no query).
+     */
+    private static function sitemap_loc( $lang, $rel ) {
+        if ( function_exists( 'dwi18n_url_for' ) ) {
+            return dwi18n_url_for( $lang, $rel );
+        }
+        return rtrim( home_url(), '/' ) . '/' . $lang . '/' . ltrim( $rel, '/' ) . '/';
+    }
+
+    /** Build one <url> node for a urlset sitemap (kills the book/chapter/verse copy-paste). */
+    private static function sitemap_url_node( $loc, $lastmod_tag, $priority = '' ) {
+        $node  = '  <url>' . "\n";
+        $node .= '    <loc>' . esc_url( $loc ) . '</loc>' . "\n";
+        $node .= $lastmod_tag;
+        if ( $priority !== '' ) {
+            $node .= '    <priority>' . $priority . '</priority>' . "\n";
+        }
+        $node .= '  </url>' . "\n";
+        return $node;
+    }
+
     public static function handle_sitemap() {
         $map = get_query_var(self::QV_SITEMAP);
         if (!$map) return;
@@ -763,11 +818,13 @@ class DwBible_Plugin {
         }
 
         $slug = get_query_var(self::QV_SLUG);
-        $known_single_slugs = [ 'bible', 'bibel', 'latin', 'spanish', 'french', 'italian' ];
-        if (!in_array($slug, $known_single_slugs, true)) {
+        $web_datasets = self::web_bible_datasets();
+        if (!isset($web_datasets[$slug])) {
+            // Not a web-published dataset (unknown, or a homeless dataset like latin/italian).
             status_header(404);
             exit;
         }
+        $lang = $web_datasets[$slug];
 
         // Per-book sitemap: /bible-sitemap-{slug}-{book}.xml
         $book_qv = get_query_var(self::QV_BOOK);
@@ -798,8 +855,7 @@ class DwBible_Plugin {
         }
 
         $book_slug = self::slugify($entry['short_name']);
-        $base_path = '/' . trim($slug, '/') . '/';
-        $domain    = rtrim( home_url(), '/' );
+        $book_rel  = '/bible/' . $book_slug; // canonical path, language prefix added by sitemap_loc()
 
         // Get lastmod from HTML file modification time
         $file    = self::html_dir() . $entry['filename'];
@@ -810,11 +866,7 @@ class DwBible_Plugin {
         $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
 
         // Book URL
-        $xml .= '  <url>' . "\n";
-        $xml .= '    <loc>' . esc_url($domain . $base_path . $book_slug . '/') . '</loc>' . "\n";
-        $xml .= $lastmod_tag;
-        $xml .= '    <priority>0.8</priority>' . "\n";
-        $xml .= '  </url>' . "\n";
+        $xml .= self::sitemap_url_node(self::sitemap_loc($lang, $book_rel), $lastmod_tag, '0.8');
 
         // Scan HTML for chapter/verse IDs
         if (file_exists($file)) {
@@ -832,11 +884,7 @@ class DwBible_Plugin {
 
                     // Chapter-level entries
                     foreach ($chapters as $ch => $verses) {
-                        $xml .= '  <url>' . "\n";
-                        $xml .= '    <loc>' . esc_url($domain . $base_path . $book_slug . '/' . $ch) . '</loc>' . "\n";
-                        $xml .= $lastmod_tag;
-                        $xml .= '    <priority>0.7</priority>' . "\n";
-                        $xml .= '  </url>' . "\n";
+                        $xml .= self::sitemap_url_node(self::sitemap_loc($lang, $book_rel . '/' . $ch), $lastmod_tag, '0.7');
                     }
 
                     // Verse-level entries
@@ -846,10 +894,7 @@ class DwBible_Plugin {
                         foreach ($verses as $v) {
                             if (isset($seen[$v])) continue;
                             $seen[$v] = true;
-                            $xml .= '  <url>' . "\n";
-                            $xml .= '    <loc>' . esc_url($domain . $base_path . $book_slug . '/' . $ch . ':' . $v) . '</loc>' . "\n";
-                            $xml .= $lastmod_tag;
-                            $xml .= '  </url>' . "\n";
+                            $xml .= self::sitemap_url_node(self::sitemap_loc($lang, $book_rel . '/' . $ch . ':' . $v), $lastmod_tag);
                         }
                     }
                 }
@@ -871,9 +916,11 @@ class DwBible_Plugin {
     private static function handle_sitemap_index() {
         $domain = rtrim( home_url(), '/' );
 
-        // Load book index to generate per-book sitemap references
+        // Load book index to generate per-book sitemap references. Only datasets with a real web
+        // home are advertised (see web_bible_datasets) — every referenced sitemap serves 200 and
+        // every URL inside it is the canonical /{lang}/bible/… form.
         $data_dir = dwbible_data_dir();
-        $datasets = [ 'bible', 'bibel', 'latin', 'spanish', 'french', 'italian' ];
+        $datasets = array_keys( self::web_bible_datasets() );
 
         status_header(200);
         header('Content-Type: application/xml; charset=UTF-8');
@@ -882,7 +929,7 @@ class DwBible_Plugin {
         echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
         echo '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
 
-        // Per-book Bible sitemaps (73 books × 5 translations = 365)
+        // Per-book Bible sitemaps (one per web-locale dataset × book).
         foreach ( $datasets as $ds ) {
             $csv_file = $data_dir . $ds . '/html/index.csv';
             if ( ! file_exists( $csv_file ) ) { continue; }

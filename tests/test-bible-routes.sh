@@ -256,11 +256,16 @@ check "$BASE_URL/llms-full.txt" 200 "llms-full.txt"
 # ── 9. Sitemaps ─────────────────────────────────────────────────────
 section "Sitemaps"
 check "$BASE_URL/sitemap-index.xml" 200 "sitemap-index.xml"
-check "$BASE_URL/bible-sitemap-bible-genesis.xml" 200 "bible-sitemap-bible-genesis.xml"
-check "$BASE_URL/bible-sitemap-latin-genesis.xml" 200 "bible-sitemap-latin-genesis.xml"
-check "$BASE_URL/bible-sitemap-bibel-genesis.xml" 200 "bible-sitemap-bibel-genesis.xml"
+# Per-book sitemaps serve only for datasets with a real web home (web_bible_datasets):
+# en/de/es/fr → 200. Homeless datasets (latin/italian — no /{lang}/bible/ yet) → 404.
+check "$BASE_URL/bible-sitemap-bible-genesis.xml" 200 "bible-sitemap-bible-genesis.xml (en)"
+check "$BASE_URL/bible-sitemap-bibel-genesis.xml" 200 "bible-sitemap-bibel-genesis.xml (de)"
+check "$BASE_URL/bible-sitemap-spanish-genesis.xml" 200 "bible-sitemap-spanish-genesis.xml (es)"
+check "$BASE_URL/bible-sitemap-french-genesis.xml" 200 "bible-sitemap-french-genesis.xml (fr)"
 check "$BASE_URL/bible-sitemap-bible-josue.xml" 200 "bible-sitemap-bible-josue.xml"
 check "$BASE_URL/bible-sitemap-bible-apocalypse.xml" 200 "bible-sitemap-bible-apocalypse.xml"
+check "$BASE_URL/bible-sitemap-latin-genesis.xml" 404 "bible-sitemap-latin-genesis.xml (homeless → 404)"
+check "$BASE_URL/bible-sitemap-italian-genesis.xml" 404 "bible-sitemap-italian-genesis.xml (homeless → 404)"
 
 # ── 10. Cross-dataset name resolution ───────────────────────────────
 section "Cross-dataset name resolution"
