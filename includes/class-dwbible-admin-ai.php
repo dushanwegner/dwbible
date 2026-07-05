@@ -98,10 +98,14 @@ class DwBible_Admin_AI {
                 <div class="dwbible-ai-card dwbible-ai-full">
                     <h2>Sitemaps — Submit to Google Search Console</h2>
                     <p>Copy these URLs and submit them at <a href="https://search.google.com/search-console/sitemaps" target="_blank" rel="noopener">Google Search Console &gt; Sitemaps</a>.</p>
-                    <h3>Sitemap Index (submit this — it references all 221 sub-sitemaps)</h3>
+                    <?php
+                    $web_ds  = class_exists( 'DwBible_Plugin' ) ? count( DwBible_Plugin::web_bible_datasets() ) : 0;
+                    $book_sm = 73 * $web_ds;
+                    ?>
+                    <h3>Sitemap Index (submit this — it references all <?php echo (int) ( $book_sm + 2 ); ?> sub-sitemaps)</h3>
                     <?php self::render_url_block( $prod_url . '/sitemap-index.xml', 'sitemap-index' ); ?>
-                    <p style="font-size:12px;color:#50575e">Contains 73 books × 3 translations = 219 per-book Bible sitemaps + prayers + saints.<br>
-                    Pattern: <code>/bible-sitemap-{slug}-{book}.xml</code> — e.g. <code>/bible-sitemap-latin-psalms.xml</code></p>
+                    <p style="font-size:12px;color:#50575e">Contains 73 books × <?php echo (int) $web_ds; ?> web-locale translations = <?php echo (int) $book_sm; ?> per-book Bible sitemaps + prayers + saints.<br>
+                    Pattern: <code>/bible-sitemap-{slug}-{book}.xml</code> — e.g. <code>/bible-sitemap-french-psalms.xml</code></p>
 
                     <h3>Other Sitemaps</h3>
                     <?php

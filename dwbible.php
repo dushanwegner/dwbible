@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.05.01
+* Version: 1.26.07.05.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.05.01');
+    define('DWBIBLE_VERSION', '1.26.07.05.02');
 }
 
 // Load include classes before hooks are registered
@@ -760,7 +760,7 @@ class DwBible_Plugin {
      *
      * @return array<string,string> dataset-slug => web-locale code (e.g. 'french' => 'fr')
      */
-    private static function web_bible_datasets() {
+    public static function web_bible_datasets() {
         $out = [];
         if ( ! function_exists( 'dwbible_i18n_lang_for_slug' ) || ! function_exists( 'dwi18n_is_lang' ) ) {
             return $out; // dwi18n not loaded — handler will 404; nothing advertised.
@@ -1828,7 +1828,8 @@ JS;
         }
 
         $output .= "# ── Sitemaps ───────────────────────────────────────\n";
-        $output .= "# Index references 219 per-book Bible sitemaps + prayers + saints\n";
+        $book_sitemaps = 73 * count( self::web_bible_datasets() );
+        $output .= "# Index references {$book_sitemaps} per-book Bible sitemaps + prayers + saints\n";
         $output .= "Sitemap: {$site_url}/sitemap-index.xml\n";
         $output .= "Sitemap: {$site_url}/sitemap-prayers.xml\n";
         $output .= "Sitemap: {$site_url}/sitemap-saints.xml\n";
