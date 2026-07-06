@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.06.11
+* Version: 1.26.07.06.12
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.06.11');
+    define('DWBIBLE_VERSION', '1.26.07.06.12');
 }
 
 // Load include classes before hooks are registered
@@ -943,7 +943,13 @@ class DwBible_Plugin {
         }
 
         $book_slug = self::slugify($entry['short_name']);
-        $book_rel  = '/bible/' . $book_slug; // canonical path, language prefix added by sitemap_loc()
+        // Canonical /{lang}/biblia/{latin-book}/ — map the dataset's book slug to the
+        // canonical key then to the Latin URL slug, so the sitemap lists the final 200
+        // destination directly (no /bible/→/biblia/ or english→latin 301 hop). Language
+        // prefix is added by sitemap_loc().
+        $canon_key  = self::canonicalize_key_from_dataset_book_slug($slug, $book_slug);
+        $latin_book = self::latin_slug_for_key((is_string($canon_key) && $canon_key !== '') ? $canon_key : $book_slug);
+        $book_rel   = '/' . self::CANONICAL_SECTION . '/' . $latin_book;
 
         // Get lastmod from HTML file modification time
         $file    = self::html_dir() . $entry['filename'];

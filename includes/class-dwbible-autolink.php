@@ -319,7 +319,14 @@ trait DwBible_AutoLink_Trait {
 
         $base_url = get_option('dwbible_autolink_base_url', '');
         $origin = (is_string($base_url) && $base_url !== '') ? rtrim($base_url, '/') : home_url();
-        $base = $origin . '/' . trim($effective_slug, '/') . '/' . $book_slug . '/';
+        // Canonical public form: /{lang}/biblia/{latin-book}/ — no 301 hop. Derive the
+        // language from the resolved dataset slug (bibel→de, bible→en, …); fall back to
+        // the current UI language, then English, for the latin-only/ambiguous dataset.
+        $lang = function_exists('dwbible_i18n_lang_for_slug') ? dwbible_i18n_lang_for_slug($effective_slug) : '';
+        if ($lang === '') {
+            $lang = function_exists('dwi18n_current') ? dwi18n_current() : 'en';
+        }
+        $base = $origin . '/' . $lang . '/' . DwBible_Plugin::CANONICAL_SECTION . '/' . $book_slug . '/';
 
         if ($vf > 0) {
             $url = $base . $ch . ':' . $vf . ($vt && $vt >= $vf ? '-' . $vt : '');
