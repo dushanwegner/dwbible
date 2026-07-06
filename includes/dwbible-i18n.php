@@ -77,7 +77,12 @@ add_filter('do_parse_request', function ($do, $wp = null, $extra = null) {
     if (!function_exists('dwi18n_url_for') || ($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'GET') {
         return $do;
     }
-    $path = (string) parse_url((string) ($_SERVER['REQUEST_URI'] ?? ''), PHP_URL_PATH);
+    // strtok (not parse_url): a verse ref like /bibel/matthaeus/5:20 contains a colon, which makes
+    // parse_url() return false → the legacy redirect would miss it and the request would fall through
+    // to generic language negotiation (wrong: /bibel/ must force German). strtok strips the query
+    // string and is colon-safe.
+    $path = strtok((string) ($_SERVER['REQUEST_URI'] ?? ''), '?');
+    if ($path === false) { $path = '/'; }
     if (preg_match('#\.(json|xml|txt)$#i', $path)) {
         return $do;
     }
