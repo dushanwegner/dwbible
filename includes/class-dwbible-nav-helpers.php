@@ -47,7 +47,7 @@ class DwBible_Nav_Helpers {
      * @param array|null  $nav               Navigation context: ['book' => slug, 'chapter' => int].
      * @return string Modified HTML with navigation elements prepended.
      */
-    public static function inject($html, $highlight_ids = [], $chapter_scroll_id = null, $book_label = '', $nav = null, $lang_switcher = '') {
+    public static function inject($html, $highlight_ids = [], $chapter_scroll_id = null, $book_label = '', $nav = null, $lang_switcher = '', $book_subtitle = '') {
         if (!is_string($html) || $html === '') return $html;
 
         $html = self::inject_anchors_and_arrows($html);
@@ -68,7 +68,13 @@ class DwBible_Nav_Helpers {
         // renders UNDER the title inside the sticky head (Kant canonical head:
         // loud title first, quiet subtitle below, one hairline), not as an eyebrow
         // stacked above the title.
-        $edition_sub = self::build_edition_heading($slug, $bible_index);
+        // The page-head subtitle: prefer the Latin book name (passed in), so the reader sees
+        // "<vernacular title> / <Latin name>". Falls back to the edition line when there is no
+        // distinct Latin subtitle (e.g. language-neutral names like "Genesis").
+        $book_subtitle = is_string($book_subtitle) ? DwBible_Plugin::pretty_label($book_subtitle) : '';
+        $edition_sub = ($book_subtitle !== '')
+            ? '<p class="dwbible-edition-sub dwbible-edition-sub--latin">' . esc_html($book_subtitle) . '</p>'
+            : self::build_edition_heading($slug, $bible_index);
         $sticky = self::build_sticky_bar($book_label, $nav, $nav_ctx, $highlight_ids, $chapter_scroll_id, $bible_index, $lang_switcher, $edition_sub);
         self::$last_nav_ctx = $nav_ctx;
 

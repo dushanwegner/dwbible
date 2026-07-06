@@ -519,23 +519,34 @@ trait DwBible_Interlinear_Trait {
 
         $lang_switcher = '';
 
-        // Inject navigation helpers and sticky header for interlinear pages
-        $first_entry = $entries[0] ?? null;
-        $human = $first_entry && isset($first_entry['display_name']) && $first_entry['display_name'] !== ''
-            ? $first_entry['display_name']
-            : ($first_entry ? self::pretty_label($first_entry['short_name']) : '');
+        // Page head: the VERNACULAR book name is the loud title, the LATIN name the quiet
+        // subtitle beneath it ("Latin Prayer" — the Latin is always present under the reader's
+        // language). The interlinear combo is [latin, vernacular]; when there is no vernacular
+        // (or it equals the Latin, e.g. "Genesis") the Latin subtitle is dropped to avoid a
+        // redundant "Genesis / Genesis".
+        $entry_name = function ($e) {
+            if (!is_array($e)) return '';
+            if (!empty($e['display_name'])) return (string) $e['display_name'];
+            return isset($e['short_name']) ? self::pretty_label($e['short_name']) : '';
+        };
+        $latin_entry = $entries[0] ?? null;
+        $vern_entry  = null;
+        foreach ($entries as $idx => $e) { if ($idx > 0 && is_array($e)) { $vern_entry = $e; break; } }
+        $latin_name = $entry_name($latin_entry);
+        $vern_name  = $vern_entry ? $entry_name($vern_entry) : $latin_name;
+        $human = ($vern_name !== '') ? $vern_name : $latin_name;
+        $book_subtitle = ($latin_name !== '' && $latin_name !== $human) ? $latin_name : '';
         $out = self::inject_nav_helpers($out, $targets, $chapter_scroll_id, $human, [
             'book' => $canonical_key,
             'chapter' => $ch,
-        ], $lang_switcher);
+        ], $lang_switcher, $book_subtitle);
 
         status_header(200);
         header('Cache-Control: public, max-age=86400'); // verse content is static — cache 24h
 
-        $first_entry = $entries[0] ?? null;
-        $base_title = ($first_entry && isset($first_entry['display_name']) && $first_entry['display_name'] !== '')
-            ? $first_entry['display_name']
-            : ($first_entry ? self::pretty_label($first_entry['short_name']) : '');
+        // Browser <title> / SEO uses the reader's language (the vernacular name), matching the
+        // visible page title.
+        $base_title = ($human !== '') ? $human : $latin_name;
 
         $title = trim($base_title . ' ' . $ch);
         if ($ch && !empty($ref['vf'])) {

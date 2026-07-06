@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.06.02
+* Version: 1.26.07.06.03
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.06.02');
+    define('DWBIBLE_VERSION', '1.26.07.06.03');
 }
 
 // Load include classes before hooks are registered
@@ -360,8 +360,8 @@ class DwBible_Plugin {
         return implode('', $slice);
     }
 
-    private static function inject_nav_helpers($html, $highlight_ids = [], $chapter_scroll_id = null, $book_label = '', $nav = null, $lang_switcher = '') {
-        return DwBible_Nav_Helpers::inject($html, $highlight_ids, $chapter_scroll_id, $book_label, $nav, $lang_switcher);
+    private static function inject_nav_helpers($html, $highlight_ids = [], $chapter_scroll_id = null, $book_label = '', $nav = null, $lang_switcher = '', $book_subtitle = '') {
+        return DwBible_Nav_Helpers::inject($html, $highlight_ids, $chapter_scroll_id, $book_label, $nav, $lang_switcher, $book_subtitle);
     }
 
     public static function activate() {
