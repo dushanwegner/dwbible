@@ -193,8 +193,19 @@ trait DwBible_Router_Trait {
         // both 301 to /bible/actus-apostolorum/. Unknown slugs 404.
         $internal_key = DwBible_Plugin::key_from_any_book_slug($book_slug);
         if ($internal_key === null) {
-            // Fall back to the legacy per-dataset resolver (handles anything not in the Latin map).
+            // Fall back to the legacy per-dataset resolver (abbreviations, fuzzy names). Try the URL's
+            // own combo first, then EVERY web dataset — so an abbreviation from any language ("apg",
+            // "joh", "1kor", "mt") resolves regardless of the URL's locale (max "intuitive typing"
+            // flexibility). First hit wins; still 404 if truly unknown.
             $legacy = self::canonical_book_slug_from_url($book_slug, $slug);
+            if (!$legacy) {
+                foreach (['bibel', 'bible', 'spanish', 'french', 'italian', 'latin'] as $ds) {
+                    $legacy = self::canonical_book_slug_from_url($book_slug, $ds);
+                    if ($legacy) {
+                        break;
+                    }
+                }
+            }
             if (!$legacy) {
                 self::render_404();
                 exit;
@@ -203,32 +214,33 @@ trait DwBible_Router_Trait {
         }
         $canonical = DwBible_Plugin::latin_slug_for_key($internal_key);
 
-        // If the URL slug differs from the canonical one, redirect
-        if ($canonical !== $book_slug) {
-            $ch = get_query_var(self::QV_CHAPTER);
-            $vf = get_query_var(self::QV_VFROM);
-            $vt = get_query_var(self::QV_VTO);
+        // Build the FULL canonical URL — /{lang}/biblia/{latin-book}/{ch}:{v} — and 301 whenever the
+        // current request differs in ANY way: the section word (bible/bibel/… → biblia), the book
+        // slug (English/vernacular → Latin), or the verse separator (/ or , → :). The home_url filter
+        // rewrites the internal /{combo}/… we build here into the /{lang}/biblia/… prefix form.
+        $ch = get_query_var(self::QV_CHAPTER);
+        $vf = get_query_var(self::QV_VFROM);
+        $vt = get_query_var(self::QV_VTO);
 
-            $path = '/' . trim($slug, '/') . '/' . $canonical . '/';
-            if ($ch) {
-                $path .= $ch;
-                if ($vf) {
-                    $path .= ':' . $vf;
-                    if ($vt && $vt > $vf) {
-                        $path .= '-' . $vt;
-                    }
+        $path = '/' . trim($slug, '/') . '/' . $canonical . '/';
+        if ($ch) {
+            $path .= $ch;
+            if ($vf) {
+                $path .= ':' . $vf;
+                if ($vt && $vt > $vf) {
+                    $path .= '-' . $vt;
                 }
             }
-
-            $canonical_url = home_url($path);
-            $current = home_url(add_query_arg([]));
-            if (trailingslashit($canonical_url) !== trailingslashit($current)) {
-                wp_redirect($canonical_url, 301);
-                exit;
-            }
-            $book_slug = $canonical;
-            set_query_var(self::QV_BOOK, $book_slug);
         }
+
+        $canonical_url = home_url($path);
+        $current = home_url(add_query_arg([]));
+        if (trailingslashit($canonical_url) !== trailingslashit($current)) {
+            wp_redirect($canonical_url, 301);
+            exit;
+        }
+        $book_slug = $canonical;
+        set_query_var(self::QV_BOOK, $book_slug);
 
         // Normalise the chapter/verse separator to the canonical COLON form. Accept the slash form
         // (/luke/24/13-35) and the comma form (German/Latin citation "1,2") and 301 them to colon.

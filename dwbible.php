@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.06.05
+* Version: 1.26.07.06.06
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.06.05');
+    define('DWBIBLE_VERSION', '1.26.07.06.06');
 }
 
 // Load include classes before hooks are registered
@@ -67,6 +67,9 @@ class DwBible_Plugin {
     const QV_VTO = 'dwbible_vto';
     const QV_SLUG = 'dwbible_slug';
     const QV_OG   = 'dwbible_og';
+    /** The canonical Bible SECTION slug in every language's URL — Latin, "Latin Prayer":
+     *  /{lang}/biblia/{latin-book}/{ch}:{v}. Not a dataset; a route-only virtual slug. */
+    const CANONICAL_SECTION = 'biblia';
     const QV_SITEMAP = 'dwbible_sitemap';
     const QV_SELFTEST = 'dwbible_selftest';
     const QV_FORMAT   = 'dwbible_format';
@@ -452,6 +455,16 @@ class DwBible_Plugin {
             // /{slug}/{book}/{chapter}
             add_rewrite_rule('^' . preg_quote($slug, '/') . '/([^/]+)/([0-9]+)/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug, 'top');
         }
+        // 'biblia' — the CANONICAL Bible section slug (Latin; "Latin Prayer"). It is NOT a dataset
+        // (no data/biblia/); it only ROUTES. Requests always arrive prefixed (/{lang}/biblia/…) and
+        // dwbible-i18n's request filter swaps dwbible_slug to that language's Latin+vernacular combo
+        // before rendering (locale-less /biblia/… is 301'd to /{lang}/biblia/ first). HTML routes only.
+        $bs = self::CANONICAL_SECTION; // 'biblia'
+        add_rewrite_rule('^' . $bs . '/?$', 'index.php?' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $bs, 'top');
+        add_rewrite_rule('^' . $bs . '/([^/]+)/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $bs, 'top');
+        add_rewrite_rule('^' . $bs . '/([^/]+)/([0-9]+)[:,]([0-9]+)(?:-([0-9]+))?/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]&' . self::QV_VTO . '=$matches[4]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $bs, 'top');
+        add_rewrite_rule('^' . $bs . '/([^/]+)/([0-9]+)/([0-9]+)(?:-([0-9]+))?/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]&' . self::QV_VTO . '=$matches[4]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $bs, 'top');
+        add_rewrite_rule('^' . $bs . '/([^/]+)/([0-9]+)/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $bs, 'top');
         // Sitemaps: per-book Bible (one file per web-locale dataset × book), prayers, saints, index.
         // Pattern: /bible-sitemap-{slug}-{book}.xml → per-book sitemap. The language part is matched
         // permissively here; web_bible_datasets() in handle_sitemap() is the single gate that decides

@@ -40,21 +40,33 @@ function dwbible_i18n_combo_for_lang(string $lang): string {
     return $m[$lang] ?? 'latin-bible';
 }
 
-/** Web language for a dataset slug (single or combo); '' for latin-only / unknown. */
+/**
+ * Web language implied by a Bible SECTION slug the user might type. The user's word for "Bible"
+ * (or the translation's name) hints the language — the canonical URL is /{lang}/biblia/. Covers:
+ * the native words (bibel de · bible en/fr · bibbia it · spanish/french/italian datasets), the
+ * translation names (menge de · douay en · straubinger es · crampon fr · martini it), and the
+ * Latin+vernacular combos. Returns '' for the canonical 'biblia' + 'latin' (→ negotiate: cookie,
+ * browser, English). 'bible' → en and 'french' → fr are the pragmatic default for the en/fr "bible"
+ * collision; a cookie/browser preference still wins on the negotiated hops.
+ */
 function dwbible_i18n_lang_for_slug(string $slug): string {
     $m = [
-        'latin-bible' => 'en', 'bible'   => 'en',
-        'latin-bibel' => 'de', 'bibel'   => 'de',
-        'latin-spanish' => 'es', 'spanish' => 'es',
-        'latin-french'  => 'fr', 'french'  => 'fr',
-        'latin-italian' => 'it', 'italian' => 'it',
+        'latin-bible' => 'en', 'bible'   => 'en', 'douay'      => 'en',
+        'latin-bibel' => 'de', 'bibel'   => 'de', 'menge'      => 'de',
+        'latin-spanish' => 'es', 'spanish' => 'es', 'straubinger' => 'es',
+        'latin-french'  => 'fr', 'french'  => 'fr', 'crampon'   => 'fr',
+        'latin-italian' => 'it', 'italian' => 'it', 'bibbia'    => 'it', 'martini' => 'it',
     ];
     return $m[$slug] ?? '';
 }
 
-/** The old Bible slugs (HTML) that must redirect to the prefix scheme. */
+/**
+ * Bible SECTION slugs that redirect to the canonical /{lang}/biblia/ scheme — the canonical
+ * 'biblia' itself (locale-less → negotiate a language), every dataset slug + combo, the native
+ * words, and the translation names. Ordered longest-combo-first so the alternation is greedy-safe.
+ */
 function dwbible_i18n_legacy_slug_re(): string {
-    return '#^/(latin-bible|latin-bibel|latin-spanish|latin-french|latin-italian|bible|bibel|spanish|french|italian|latin)(/.*|/?)$#';
+    return '#^/(latin-bible|latin-bibel|latin-spanish|latin-french|latin-italian|biblia|bible|bibel|bibbia|spanish|french|italian|latin|menge|douay|straubinger|crampon|martini)(/.*|/?)$#';
 }
 
 /* ── 3. Legacy redirect: raw old-slug HTML URLs → /{lang}/bible/… ─────────────────────────────────────────────
@@ -82,7 +94,7 @@ add_filter('do_parse_request', function ($do, $wp = null, $extra = null) {
     } else {
         $code = 301;
     }
-    wp_safe_redirect(dwi18n_url_for($lang, '/bible' . $rest), $code);
+    wp_safe_redirect(dwi18n_url_for($lang, '/' . DwBible_Plugin::CANONICAL_SECTION . $rest), $code);
     exit;
 }, -5, 3);
 
@@ -142,7 +154,8 @@ add_filter('home_url', function ($url, $path, $orig_scheme, $blog_id) {
         return $url; // latin-only has no web URL form; leave untouched
     }
     $rest    = ($m[2] === '' || $m[2] === '/') ? '/' : $m[2];
-    $newpath = ($rest === '/') ? '/' . $lang . '/bible/' : '/' . $lang . '/bible' . rtrim($rest, '/') . '/';
+    $sec = '/' . DwBible_Plugin::CANONICAL_SECTION;
+    $newpath = ($rest === '/') ? '/' . $lang . $sec . '/' : '/' . $lang . $sec . rtrim($rest, '/') . '/';
 
     $res = $parsed['scheme'] . '://' . $parsed['host'];
     if (isset($parsed['port'])) {
