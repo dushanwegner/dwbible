@@ -164,39 +164,73 @@ trait DwBible_Book_TOC_Trait {
         // /bible/, /bibel/ via the canonical dataset slugs.
         $lang_targets = self::compose_lang_targets_for_book( $slug_combo, $url_book_slug );
 
+        // Head like the chapter reader: vernacular book name as the title, the
+        // Latin name as the grey subtitle. $book_label is the FIRST dataset's
+        // name (Latin for a latin-* combo); the vernacular is the LAST dataset
+        // (latin-bibel → bibel). A single-dataset slug has no separate vernacular,
+        // and a language-neutral name (Genesis == Genesis) skips the redundant
+        // subtitle — same rule as the chapter page.
+        $latin_name   = $book_label;
+        $vern_name    = '';
+        $vern_dataset = end( $datasets );
+        if ( $vern_dataset !== $first_dataset ) {
+            $vern_entry = self::get_book_entry_for_dataset( $vern_dataset, $lookup_slug );
+            if ( $vern_entry ) {
+                $vern_raw  = $vern_entry['display_name'] !== '' ? $vern_entry['display_name'] : $vern_entry['short_name'];
+                $vern_name = html_entity_decode( $vern_raw, ENT_QUOTES, 'UTF-8' );
+            }
+        }
+        $toc_title    = ( $vern_name !== '' ) ? $vern_name : $latin_name;
+        $toc_subtitle = ( $latin_name !== '' && $latin_name !== $toc_title ) ? $latin_name : '';
+
+        // The chapter field labels each row in the visitor's language ("Kapitel 1",
+        // "Chapter 1", …). Latin ("Caput") is the fallback for the latin-only edition.
+        $lang         = function_exists( 'dwi18n_current' ) ? dwi18n_current() : 'en';
+        $chapter_word = [ 'de' => 'Kapitel', 'en' => 'Chapter', 'es' => 'Capítulo', 'fr' => 'Chapitre', 'it' => 'Capitolo', 'la' => 'Caput' ][ $lang ] ?? 'Chapter';
+
         ob_start();
         ?>
         <div class="dwbible dwbible-book-toc">
-          <h2 class="dwbible-edition-title"><a href="<?php echo esc_url( home_url( '/' . trim( $slug_combo, '/' ) . '/' ) ); ?>"><?php echo esc_html( self::edition_display_label( $slug_combo ) ); ?></a></h2>
-          <header class="dwbible-toc-head">
-            <span class="dwbible-toc-eyebrow">Liber <?php echo esc_html( self::int_to_roman( $order ?: 1 ) ); ?></span>
-            <h1 class="dwbible-toc-title"><?php echo esc_html( $book_label ); ?></h1>
-            <p class="dwbible-toc-meta"><?php echo esc_html( $chapter_count ); ?> <?php echo $chapter_count === 1 ? 'caput' : 'capita'; ?></p>
+          <header class="dwlp-prayers-head">
+            <a class="lp-eyebrow" href="<?php echo esc_url( home_url( '/' . trim( $slug_combo, '/' ) . '/' ) ); ?>"><?php echo esc_html( self::edition_display_label( $slug_combo ) ); ?></a>
+            <h1 class="dwlp-prayers-head__title"><?php echo esc_html( $toc_title ); ?></h1>
+            <?php if ( $toc_subtitle !== '' ): ?>
+              <p class="dwlp-prayers-head__latin"><?php echo esc_html( $toc_subtitle ); ?></p>
+            <?php endif; ?>
+            <p class="dwbible-toc-meta">Liber <?php echo esc_html( self::int_to_roman( $order ?: 1 ) ); ?> &middot; <?php echo esc_html( $chapter_count ); ?> <?php echo $chapter_count === 1 ? 'caput' : 'capita'; ?></p>
           </header>
 
-          <ol class="dwbible-toc-chapters">
+          <?php // Chapter field — the canonical LP indexed list (.lp-rowlist / .lp-row),
+                // one localized "Chapter N" row per chapter. Stacked rows keep the
+                // .lp-row__sub slot free for the future one-line chapter summaries. ?>
+          <div class="lp-rowlist lp-rowlist--single dwbible-toc-field">
             <?php for ( $i = 1; $i <= $chapter_count; $i++ ): ?>
-              <li>
-                <a class="dwbible-toc-chapter" href="<?php echo esc_url( trailingslashit( $book_url ) . $i . '/' ); ?>">
-                  <span class="dwbible-toc-chapter-num"><?php echo esc_html( self::int_to_roman( $i ) ); ?></span>
-                  <span class="dwbible-toc-chapter-arabic"><?php echo (int) $i; ?></span>
-                </a>
-              </li>
+              <a class="lp-row lp-row--stacked" href="<?php echo esc_url( trailingslashit( $book_url ) . $i . '/' ); ?>">
+                <span class="lp-row__body">
+                  <span class="lp-row__term"><?php echo esc_html( $chapter_word . ' ' . $i ); ?></span>
+                </span>
+              </a>
             <?php endfor; ?>
-          </ol>
+          </div>
 
           <nav class="dwbible-toc-pager" aria-label="<?php echo esc_attr__( 'Adjacent books', 'dwbible' ); ?>">
             <?php if ( $prev_entry ): ?>
               <a class="dwbible-toc-pager-prev" href="<?php echo esc_url( self::bible_url_for_slug_and_canonical_book( $slug_combo, $prev_entry['slug'] ) ); ?>">
-                <small>Liber prior</small>
-                <span><?php echo esc_html( html_entity_decode( $prev_entry['display_name'], ENT_QUOTES, 'UTF-8' ) ); ?></span>
+                <?php echo function_exists( 'dwtheme_chevron' ) ? dwtheme_chevron( 'left' ) : ''; ?>
+                <span class="dwbible-toc-pager-body">
+                  <small>Liber prior</small>
+                  <span><?php echo esc_html( html_entity_decode( $prev_entry['display_name'], ENT_QUOTES, 'UTF-8' ) ); ?></span>
+                </span>
               </a>
             <?php else: ?><span></span><?php endif; ?>
 
             <?php if ( $next_entry ): ?>
               <a class="dwbible-toc-pager-next" href="<?php echo esc_url( self::bible_url_for_slug_and_canonical_book( $slug_combo, $next_entry['slug'] ) ); ?>">
-                <small>Liber sequens</small>
-                <span><?php echo esc_html( html_entity_decode( $next_entry['display_name'], ENT_QUOTES, 'UTF-8' ) ); ?></span>
+                <span class="dwbible-toc-pager-body">
+                  <small>Liber sequens</small>
+                  <span><?php echo esc_html( html_entity_decode( $next_entry['display_name'], ENT_QUOTES, 'UTF-8' ) ); ?></span>
+                </span>
+                <?php echo function_exists( 'dwtheme_chevron' ) ? dwtheme_chevron( 'right' ) : ''; ?>
               </a>
             <?php else: ?><span></span><?php endif; ?>
           </nav>
