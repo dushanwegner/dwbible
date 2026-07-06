@@ -330,10 +330,10 @@ class DwBible_Nav_Helpers {
         $prev_disabled = ($prev === '#') ? ' is-disabled' : '';
         $next_disabled = ($next === '#') ? ' is-disabled' : '';
 
-        return '<div class="dwbible-bottom-nav">'
-            . '<a href="' . $prev . '" class="dwbible-ctl dwbible-ctl-prev' . $prev_disabled . '" aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">' . self::chevron('left') . '</a>'
-            . '<a href="' . $next . '" class="dwbible-ctl dwbible-ctl-next' . $next_disabled . '" aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">' . self::chevron('right') . '</a>'
-            . '</div>';
+        return '<nav class="pager pager--reader" aria-label="' . esc_attr__( 'Chapter navigation', 'dwbible' ) . '">'
+            . '<a href="' . $prev . '" class="pager__prev' . $prev_disabled . '" aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">' . self::chevron('left') . '</a>'
+            . '<a href="' . $next . '" class="pager__next' . $next_disabled . '" aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">' . self::chevron('right') . '</a>'
+            . '</nav>';
     }
 
     /**
