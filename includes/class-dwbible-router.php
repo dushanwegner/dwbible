@@ -230,14 +230,17 @@ trait DwBible_Router_Trait {
             set_query_var(self::QV_BOOK, $book_slug);
         }
 
-        // Redirect slash-form chapter/verse to canonical colon form.
-        // e.g. /bible/luke/24/13-35 → /bible/luke/24:13-35
+        // Normalise the chapter/verse separator to the canonical COLON form. Accept the slash form
+        // (/luke/24/13-35) and the comma form (German/Latin citation "1,2") and 301 them to colon.
+        // e.g. /bible/luke/24/13-35 or /bible/luke/24,13-35 → /bible/luke/24:13-35
         $ch = get_query_var(self::QV_CHAPTER);
         $vf = get_query_var(self::QV_VFROM);
         if ($ch && $vf) {
             $uri = strtok(isset($_SERVER['REQUEST_URI']) ? (string)$_SERVER['REQUEST_URI'] : '', '?');
-            // Slash form has /{ch}/[digit] in the URI; colon form has /{ch}:[digit].
-            if (preg_match('#/' . preg_quote($ch, '#') . '/[0-9]#', $uri)) {
+            // Canonical is /{ch}:[digit]. If the URI does NOT use a colon there (it used a slash or a
+            // comma), redirect to the colon form.
+            $has_colon = preg_match('#/' . preg_quote($ch, '#') . ':[0-9]#', $uri);
+            if (!$has_colon) {
                 $vt   = get_query_var(self::QV_VTO);
                 $path = '/' . trim($slug, '/') . '/' . $book_slug . '/' . $ch . ':' . $vf;
                 if ($vt && (int)$vt > (int)$vf) {

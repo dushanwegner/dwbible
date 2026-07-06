@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.06.04
+* Version: 1.26.07.06.05
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.06.04');
+    define('DWBIBLE_VERSION', '1.26.07.06.05');
 }
 
 // Load include classes before hooks are registered
@@ -443,8 +443,10 @@ class DwBible_Plugin {
             add_rewrite_rule('^' . preg_quote($slug, '/') . '/?$', 'index.php?' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug, 'top');
             // /{slug}/{book}
             add_rewrite_rule('^' . preg_quote($slug, '/') . '/([^/]+)/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug, 'top');
-            // /{slug}/{book}/{chapter}:{verse} or {chapter}:{from}-{to}
-            add_rewrite_rule('^' . preg_quote($slug, '/') . '/([^/]+)/([0-9]+):([0-9]+)(?:-([0-9]+))?/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]&' . self::QV_VTO . '=$matches[4]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug, 'top');
+            // /{slug}/{book}/{chapter}:{verse} or {chapter}:{from}-{to}. The separator accepts a
+            // COLON (canonical, English) OR a COMMA (German/Latin citation style: "Genesis 1,2").
+            // The router 301s the comma form to the colon canonical.
+            add_rewrite_rule('^' . preg_quote($slug, '/') . '/([^/]+)/([0-9]+)[:,]([0-9]+)(?:-([0-9]+))?/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]&' . self::QV_VTO . '=$matches[4]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug, 'top');
             // /{slug}/{book}/{chapter}/{verse} or {chapter}/{from}-{to} — slash form; router redirects to colon form
             add_rewrite_rule('^' . preg_quote($slug, '/') . '/([^/]+)/([0-9]+)/([0-9]+)(?:-([0-9]+))?/?$', 'index.php?' . self::QV_BOOK . '=$matches[1]&' . self::QV_CHAPTER . '=$matches[2]&' . self::QV_VFROM . '=$matches[3]&' . self::QV_VTO . '=$matches[4]&' . self::QV_FLAG . '=1&' . self::QV_SLUG . '=' . $slug, 'top');
             // /{slug}/{book}/{chapter}

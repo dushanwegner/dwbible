@@ -60,12 +60,18 @@ trait DwBible_Book_TOC_Trait {
         }
         $first_dataset = $datasets[0];
 
+        // The URL slug is the LATIN canonical (actus-apostolorum) — resolve it (or any English /
+        // vernacular form) to the internal data key so the dataset index lookup finds it. URL
+        // building below keeps $url_book_slug (the Latin slug) so chapter links stay canonical.
+        $internal_key = DwBible_Plugin::key_from_any_book_slug( $url_book_slug );
+        $lookup_slug  = ( $internal_key !== null && $internal_key !== '' ) ? $internal_key : $url_book_slug;
+
         // Resolve the canonical book slug for the first dataset.
-        $entry = self::get_book_entry_for_dataset( $first_dataset, $url_book_slug );
+        $entry = self::get_book_entry_for_dataset( $first_dataset, $lookup_slug );
         if ( ! $entry ) {
             // Try the second dataset if combo and first failed.
             if ( count( $datasets ) > 1 ) {
-                $entry = self::get_book_entry_for_dataset( $datasets[1], $url_book_slug );
+                $entry = self::get_book_entry_for_dataset( $datasets[1], $lookup_slug );
                 if ( $entry ) {
                     $first_dataset = $datasets[1];
                 }
