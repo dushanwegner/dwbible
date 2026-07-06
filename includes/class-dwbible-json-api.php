@@ -55,6 +55,14 @@ trait DwBible_JSON_API_Trait {
             if ( ! is_dir( $base_test . $book ) ) {
                 $resolved = null;
 
+                // Strategy 0: any inbound form — the Latin canonical URL slug ("actus-apostolorum"),
+                // the internal/English key, or a vernacular name — mapped to the internal data key
+                // (the JSON dirs are keyed by it). Keeps the machine API in step with the Latin URLs.
+                $ik = DwBible_Plugin::key_from_any_book_slug( $book );
+                if ( is_string( $ik ) && $ik !== '' && is_dir( $base_test . $ik ) ) {
+                    $resolved = $ik;
+                }
+
                 // Strategy 1: book_map.json reverse lookup (e.g. "psalmen" → "psalms").
                 $canonical_key = self::resolve_json_book_slug( $book, $slug );
                 if ( $canonical_key !== null && is_dir( $base_test . $canonical_key ) ) {
