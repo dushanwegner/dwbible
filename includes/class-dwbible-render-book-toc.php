@@ -217,19 +217,13 @@ trait DwBible_Book_TOC_Trait {
             <?php if ( $prev_entry ): ?>
               <a class="dwbible-toc-pager-prev" href="<?php echo esc_url( self::bible_url_for_slug_and_canonical_book( $slug_combo, $prev_entry['slug'] ) ); ?>">
                 <?php echo function_exists( 'dwtheme_chevron' ) ? dwtheme_chevron( 'left' ) : ''; ?>
-                <span class="dwbible-toc-pager-body">
-                  <small>Liber prior</small>
-                  <span><?php echo esc_html( html_entity_decode( $prev_entry['display_name'], ENT_QUOTES, 'UTF-8' ) ); ?></span>
-                </span>
+                <span><?php echo esc_html( html_entity_decode( $prev_entry['display_name'], ENT_QUOTES, 'UTF-8' ) ); ?></span>
               </a>
             <?php else: ?><span></span><?php endif; ?>
 
             <?php if ( $next_entry ): ?>
               <a class="dwbible-toc-pager-next" href="<?php echo esc_url( self::bible_url_for_slug_and_canonical_book( $slug_combo, $next_entry['slug'] ) ); ?>">
-                <span class="dwbible-toc-pager-body">
-                  <small>Liber sequens</small>
-                  <span><?php echo esc_html( html_entity_decode( $next_entry['display_name'], ENT_QUOTES, 'UTF-8' ) ); ?></span>
-                </span>
+                <span><?php echo esc_html( html_entity_decode( $next_entry['display_name'], ENT_QUOTES, 'UTF-8' ) ); ?></span>
                 <?php echo function_exists( 'dwtheme_chevron' ) ? dwtheme_chevron( 'right' ) : ''; ?>
               </a>
             <?php else: ?><span></span><?php endif; ?>
