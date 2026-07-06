@@ -109,6 +109,23 @@ trait DwBible_Interlinear_Trait {
         return home_url($path);
     }
 
+    /**
+     * The book-slug prefix that the chapter HTML actually uses to key its verse node IDs
+     * ("<prefix>-<ch>-<verse>"), read from the IDs themselves. Source data is not consistent —
+     * most datasets use the canonical slug, a few German books use a localized one (Jeremias →
+     * "jeremia") — so this is the only reliable way to pair a mismatched vernacular. Returns the
+     * prefix (e.g. "jeremia", "1-corinthians") or null if no verse-shaped id is present.
+     */
+    private static function detect_chapter_verse_prefix($chapter_html, $ch) {
+        if (!is_string($chapter_html) || $chapter_html === '') return null;
+        $ch = absint($ch);
+        if ($ch <= 0) return null;
+        if (preg_match('/id=["\']([a-z0-9][a-z0-9-]*?)-' . $ch . '-\d+["\']/i', $chapter_html, $m)) {
+            return strtolower($m[1]);
+        }
+        return null;
+    }
+
     private static function parse_verse_nodes_by_number($html, $book_slug, $ch) {
         $out = [];
         if (!is_string($html) || $html === '') return $out;
@@ -257,13 +274,14 @@ trait DwBible_Interlinear_Trait {
 
             $entry = self::get_book_entry_for_dataset($dataset, $dataset_short);
             if (!$entry) {
-                // If the first dataset can't resolve, the page can't be rendered.
-                if ($dataset_idx === 0) {
-                    self::render_404();
-                    return;
-                }
-                $notices[] = 'Dataset "' . esc_html($dataset) . '" has no matching book for this selection.';
-                continue;
+                // ANY requested dataset failing to resolve the book means this interlinear URL is
+                // invalid — e.g. a localized book name used as the slug (/de/bible/apostelgeschichte/,
+                // where the German dataset keys the book as "acts"). Don't degrade to a misleading
+                // single-language page that masks the broken link; 404 so it surfaces cleanly. (A
+                // resolved book that merely lacks the requested CHAPTER is handled below with a
+                // notice + hint — that's a legitimate versification difference, not a bad slug.)
+                self::render_404();
+                return;
             }
 
             $dir = self::html_dir_for_dataset($dataset);
@@ -317,14 +335,27 @@ trait DwBible_Interlinear_Trait {
                 continue;
             }
 
+            // The verse + heading node IDs in the generated chapter HTML are prefixed by a book
+            // slug. Nearly every dataset keys them by the CANONICAL slug ("1-corinthians-1-1"),
+            // but a few German books key them by a localized slug ("jeremia-1-1" for Jeremias) —
+            // and the old slugify(book_map name) mismatched BOTH shapes for 14 books, so the
+            // vernacular never paired → Latin-only. Default to the canonical key (unchanged for
+            // every page that already works); only when the HTML does NOT key this chapter by the
+            // canonical slug do we detect the prefix the source actually used and pair on that.
+            $dataset_book_slug = $canonical_key;
+            if (strpos($chapter_html, $canonical_key . '-' . $ch . '-') === false) {
+                $detected = self::detect_chapter_verse_prefix($chapter_html, $ch);
+                if ($detected !== null && $detected !== '') {
+                    $dataset_book_slug = $detected;
+                }
+            }
+
             // Keep chapters/verses navigation blocks from the first dataset
             if ($dataset_idx === 0) {
                 $nav_blocks = self::extract_nav_blocks_from_chapter_html($chapter_html);
-                $first_dataset_book_slug = self::slugify($entries[$dataset_idx]['short_name'] ?? '');
+                $first_dataset_book_slug = $dataset_book_slug;
             }
 
-            // Remove the chapter heading node to avoid duplicate/unstyled chapter titles
-            $dataset_book_slug = self::slugify($entries[$dataset_idx]['short_name']);
             $chapter_heading_id = $dataset_book_slug . '-ch-' . $ch;
             $chapter_html = self::strip_element_by_id($chapter_html, $chapter_heading_id);
 
