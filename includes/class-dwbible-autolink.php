@@ -302,6 +302,9 @@ trait DwBible_AutoLink_Trait {
         $canon = self::canonicalize_key_from_dataset_book_slug($effective_slug, $short);
         $book_slug = (is_string($canon) && $canon !== '') ? $canon : self::slugify($short);
         if ($book_slug === '') return $m[0];
+        // Emit the LATIN canonical URL slug (actus-apostolorum) so the link lands on the canonical
+        // page instead of 301-hopping through the internal/English key.
+        $book_slug = self::latin_slug_for_key($book_slug);
 
         // Latin-first: rewrite to interlinear URL with Latin as primary text.
         if (get_option('dwbible_autolink_latin_first', '0') === '1' && $effective_slug !== 'latin') {
@@ -309,7 +312,7 @@ trait DwBible_AutoLink_Trait {
                 $latin_short = self::resolve_book_for_dataset($canon, 'latin');
                 if (is_string($latin_short) && $latin_short !== '') {
                     $effective_slug = 'latin-' . $effective_slug;
-                    $book_slug = $canon; // canonical key resolves in all dataset combos
+                    $book_slug = self::latin_slug_for_key($canon); // Latin canonical URL slug
                 }
             }
         }

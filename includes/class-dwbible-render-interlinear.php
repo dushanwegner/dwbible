@@ -206,6 +206,14 @@ trait DwBible_Interlinear_Trait {
             return;
         }
 
+        // Accept the Latin CANONICAL slug (actus-apostolorum), the internal/English key (acts), or a
+        // vernacular name (apostelgeschichte) — resolve to the internal data key up front. The old
+        // per-dataset canonicalization below still runs as a refinement/fallback.
+        $resolved = self::key_from_any_book_slug($url_book_slug);
+        if (is_string($resolved) && $resolved !== '') {
+            $canonical_key = $resolved;
+        }
+
         $datasets = array_values(array_filter(array_map('trim', explode('-', $slug_combo))));
         if (count($datasets) < 1 || count($datasets) > 3) {
             self::render_404();
@@ -232,10 +240,13 @@ trait DwBible_Interlinear_Trait {
 
         // OSIS-based canonicalization (English is the reference segmentation).
         // Same combo fix: ask each dataset in turn whether it recognizes the slug.
+        // Resolve OSIS from the CANONICAL KEY (already resolved from the URL above), not the raw
+        // URL slug — the URL may be the Latin canonical ("actus-apostolorum") which the OSIS map,
+        // keyed by internal book slugs, doesn't recognise. The internal key ("acts") always does.
         $osis = null;
         foreach ($datasets as $ds) {
             if (!is_string($ds) || $ds === '') continue;
-            $maybe_osis = self::osis_for_dataset_book_slug($ds, $url_book_slug);
+            $maybe_osis = self::osis_for_dataset_book_slug($ds, $canonical_key);
             if (is_string($maybe_osis) && $maybe_osis !== '') {
                 $osis = $maybe_osis;
                 break;

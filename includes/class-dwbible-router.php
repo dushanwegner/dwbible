@@ -187,11 +187,21 @@ trait DwBible_Router_Trait {
         // dataset-specific book names like "psalmen" or "matthaeus" inside any
         // combo whose first part isn't German. Pass the full slug instead — the
         // resolver tries each dataset in turn and returns the first hit.
-        $canonical = self::canonical_book_slug_from_url($book_slug, $slug);
-        if (!$canonical) {
-            self::render_404();
-            exit;
+        // Canonical Bible URLs are the LATIN book name ("Latin Prayer"): resolve any inbound slug
+        // (Latin, the internal/English key, or a vernacular name) to the internal data key, then the
+        // canonical URL slug is that key's Latin form. So /bible/acts/ + /bible/apostelgeschichte/
+        // both 301 to /bible/actus-apostolorum/. Unknown slugs 404.
+        $internal_key = DwBible_Plugin::key_from_any_book_slug($book_slug);
+        if ($internal_key === null) {
+            // Fall back to the legacy per-dataset resolver (handles anything not in the Latin map).
+            $legacy = self::canonical_book_slug_from_url($book_slug, $slug);
+            if (!$legacy) {
+                self::render_404();
+                exit;
+            }
+            $internal_key = DwBible_Plugin::key_from_any_book_slug($legacy) ?? $legacy;
         }
+        $canonical = DwBible_Plugin::latin_slug_for_key($internal_key);
 
         // If the URL slug differs from the canonical one, redirect
         if ($canonical !== $book_slug) {

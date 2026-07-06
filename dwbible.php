@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.06.03
+* Version: 1.26.07.06.04
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.06.03');
+    define('DWBIBLE_VERSION', '1.26.07.06.04');
 }
 
 // Load include classes before hooks are registered
@@ -591,6 +591,73 @@ class DwBible_Plugin {
         return DwBible_Osis_Utils::dataset_book_slug_for_osis(self::$osis_mapping, $dataset_slug, $osis);
     }
 
+    /**
+     * The Latin CANONICAL URL-slug layer. "Latin Prayer" — every Bible URL is the Latin book name
+     * (actus-apostolorum, apocalypsis, ioannes), while the INTERNAL data key (acts, apocalypse,
+     * john — the one the datasets + generated HTML verse IDs use) is unchanged. This map bridges the
+     * two, built once from the Latin dataset's own display names. slug_to_key also carries the
+     * internal keys as identity entries so a stale English URL still resolves (then 301s).
+     *
+     * @return array{key_to_slug: array<string,string>, slug_to_key: array<string,string>}
+     */
+    public static function latin_url_slug_map(): array {
+        static $map = null;
+        if ($map !== null) {
+            return $map;
+        }
+        $map = ['key_to_slug' => [], 'slug_to_key' => []];
+        // Build straight from the raw Latin dataset index (NOT list_books_for_edition, which now
+        // calls back into the Latin-slug layer — that would recurse). The Latin dataset's short_name
+        // slugifies to the internal key; its display_name slugifies to the Latin URL slug.
+        foreach ((array) self::load_dataset_index('latin') as $b) {
+            if (!is_array($b) || empty($b['short_name'])) {
+                continue;
+            }
+            $key  = self::slugify((string) $b['short_name']);
+            $disp = !empty($b['display_name']) ? (string) $b['display_name'] : (string) $b['short_name'];
+            if ($key === '' || $disp === '') {
+                continue;
+            }
+            $ls = self::slugify($disp);
+            if ($ls === '') {
+                continue;
+            }
+            $map['key_to_slug'][$key] = $ls;
+            $map['slug_to_key'][$ls]  = $key;
+            $map['slug_to_key'][$key] = $key; // identity: the old English key still resolves
+        }
+        return $map;
+    }
+
+    /** Latin canonical URL slug for an internal book key (fallback: the key itself). */
+    public static function latin_slug_for_key($key): string {
+        $key = (string) $key;
+        $m = self::latin_url_slug_map();
+        return $m['key_to_slug'][$key] ?? $key;
+    }
+
+    /**
+     * Resolve ANY inbound book slug — Latin canonical, the internal/English key, or a vernacular
+     * name (Apostelgeschichte, Hechos) — to the internal canonical key, or null if unknown.
+     */
+    public static function key_from_any_book_slug($slug): ?string {
+        $slug = self::slugify((string) $slug);
+        if ($slug === '') {
+            return null;
+        }
+        $m = self::latin_url_slug_map();
+        if (isset($m['slug_to_key'][$slug])) {
+            return $m['slug_to_key'][$slug]; // Latin slug OR internal key
+        }
+        foreach (['bibel', 'bible', 'spanish', 'french', 'italian', 'latin'] as $ds) {
+            $k = self::canonicalize_key_from_dataset_book_slug($ds, $slug);
+            if (is_string($k) && $k !== '') {
+                return $k; // vernacular / dataset-localized name
+            }
+        }
+        return null;
+    }
+
     public static function resolve_book_for_dataset($canonical_key, $dataset_slug) {
         if (!is_string($canonical_key) || $canonical_key === '') {
             return null;
@@ -615,18 +682,18 @@ class DwBible_Plugin {
 
     private static function url_book_slug_for_dataset($canonical_book_slug, $dataset_slug) {
         $canonical_book_slug = is_string($canonical_book_slug) ? self::slugify($canonical_book_slug) : '';
-        $dataset_slug = is_string($dataset_slug) ? trim($dataset_slug) : '';
-        if ($canonical_book_slug === '' || $dataset_slug === '') {
+        if ($canonical_book_slug === '') {
             return '';
         }
-
-        $short = self::resolve_book_for_dataset($canonical_book_slug, $dataset_slug);
-        if (!is_string($short) || $short === '') {
-            return $canonical_book_slug;
+        // Canonical Bible URLs are the LATIN book slug now — dataset-independent ("Latin Prayer":
+        // every URL is the Vulgate name). Resolve whatever we're given (internal key, Latin slug,
+        // or a dataset-localized name) to the internal key, then emit its Latin slug. $dataset_slug
+        // is retained for signature/back-compat but no longer selects a per-dataset book slug.
+        $key = self::key_from_any_book_slug($canonical_book_slug);
+        if ($key === null || $key === '') {
+            $key = $canonical_book_slug;
         }
-
-        $s = self::slugify($short);
-        return $s !== '' ? $s : $canonical_book_slug;
+        return self::latin_slug_for_key($key);
     }
 
     private static function canonicalize_key_from_dataset_book_slug($dataset_slug, $dataset_book_slug) {
@@ -670,12 +737,18 @@ class DwBible_Plugin {
             if (!is_array($b) || empty($b['short_name'])) continue;
             $name  = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
             $bslug = self::slugify($b['short_name']);
+            // The URL slug is the LATIN canonical (dataset-independent): resolve the dataset's own
+            // book slug to the internal key, then to its Latin form. 'n' (display name) stays in the
+            // edition's language; 'slug'/'u' are Latin so the rail's current-book match ($cur_book is
+            // the Latin URL slug) and every tile link land on the canonical URL, no 301 hop.
+            $key    = self::key_from_any_book_slug($bslug);
+            $latin  = self::latin_slug_for_key(($key === null || $key === '') ? $bslug : $key);
             $order = intval($b['order']);
             $is_nt = ($nt_start_order !== null) ? ($order >= $nt_start_order) : ($order > 46);
             // 'n' name, 'u' url, 'slug' url-slug, 'testament' ot|nt — the last two
             // let the side-rail identify the current book + its testament without
             // reaching into dwbible internals.
-            $out[] = ['n' => $name, 'u' => $base . $bslug . '/', 'slug' => $bslug, 'testament' => $is_nt ? 'nt' : 'ot'];
+            $out[] = ['n' => $name, 'u' => $base . $latin . '/', 'slug' => $latin, 'testament' => $is_nt ? 'nt' : 'ot'];
         }
         return $out;
     }
