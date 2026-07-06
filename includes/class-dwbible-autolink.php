@@ -294,12 +294,17 @@ trait DwBible_AutoLink_Trait {
             return $m[0];
         }
 
-        $book_slug = self::slugify($short);
+        // The URL must use the CANONICAL book key (e.g. "acts"), which every dataset's router
+        // resolves — NOT the localized display name slugified (e.g. "apostelgeschichte", which
+        // only a German reader recognizes and which NO dataset routes to → "Dataset X has no
+        // matching book" → latin-only + a broken language switcher). Fall back to the slugified
+        // short name only when the ref isn't in the canonical book map.
+        $canon = self::canonicalize_key_from_dataset_book_slug($effective_slug, $short);
+        $book_slug = (is_string($canon) && $canon !== '') ? $canon : self::slugify($short);
         if ($book_slug === '') return $m[0];
 
         // Latin-first: rewrite to interlinear URL with Latin as primary text.
         if (get_option('dwbible_autolink_latin_first', '0') === '1' && $effective_slug !== 'latin') {
-            $canon = self::canonicalize_key_from_dataset_book_slug($effective_slug, $short);
             if ($canon !== null) {
                 $latin_short = self::resolve_book_for_dataset($canon, 'latin');
                 if (is_string($latin_short) && $latin_short !== '') {
