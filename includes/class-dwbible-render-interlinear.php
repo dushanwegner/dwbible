@@ -197,6 +197,25 @@ trait DwBible_Interlinear_Trait {
         return $out;
     }
 
+    /**
+     * Display-only Latin typography (dwlp_latin_typography(), defined in
+     * dwlatinprayer) applied to the imported verse node's .verse-body text —
+     * the Latin dataset here is a re-serialized DOM node, not a bare PHP
+     * string, so the guard can't be applied at echo time like everywhere
+     * else; it has to rewrite the text node before saveHTML(). Soft
+     * dependency: no-ops if dwlatinprayer isn't active.
+     */
+    private static function apply_latin_typography($node, $doc) {
+        if (!function_exists('dwlp_latin_typography')) {
+            return;
+        }
+        $xp = new DOMXPath($doc);
+        $bodies = $xp->query('.//*[contains(concat(" ", normalize-space(@class), " "), " verse-body ")]', $node);
+        foreach ($bodies as $body) {
+            $body->textContent = dwlp_latin_typography($body->textContent);
+        }
+    }
+
     private static function render_multilingual_book($url_book_slug, $slug_combo) {
         $url_book_slug = is_string($url_book_slug) ? $url_book_slug : '';
         $slug_combo = is_string($slug_combo) ? trim($slug_combo, "/ ") : '';
@@ -504,6 +523,9 @@ trait DwBible_Interlinear_Trait {
                     $primary_id_set = true;
                 } else {
                     if ($node->hasAttribute('id')) { $node->removeAttribute('id'); }
+                }
+                if ($dataset === 'latin') {
+                    self::apply_latin_typography($node, $doc);
                 }
                 $out .= $doc->saveHTML($node);
             }
