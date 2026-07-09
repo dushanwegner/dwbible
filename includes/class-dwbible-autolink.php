@@ -319,10 +319,24 @@ trait DwBible_AutoLink_Trait {
 
         $base_url = get_option('dwbible_autolink_base_url', '');
         $origin = (is_string($base_url) && $base_url !== '') ? rtrim($base_url, '/') : home_url();
-        // Canonical public form: /{lang}/biblia/{latin-book}/ — no 301 hop. Derive the
-        // language from the resolved dataset slug (bibel→de, bible→en, …); fall back to
-        // the current UI language, then English, for the latin-only/ambiguous dataset.
-        $lang = function_exists('dwbible_i18n_lang_for_slug') ? dwbible_i18n_lang_for_slug($effective_slug) : '';
+        // Canonical public form: /{lang}/biblia/{latin-book}/ — no 301 hop.
+        // Language of the URL:
+        //   - When a caller named a dataset ($preferred_slug — e.g.
+        //     autolink_content_for_slug, or an explicit vernacular book name),
+        //     follow THAT dataset's language so the link lands on the intended
+        //     edition (bibel→de, italian→it, …).
+        //   - When NO dataset was requested (the common case: readings/prayers
+        //     autolinked from an English/Latin abbreviation), keep the reader in
+        //     their CURRENT site language, so a reference opened from /it/ stays
+        //     on the Italian edition instead of defaulting to /en/.
+        // Fall back to the dataset language, then English.
+        $lang = '';
+        if ($preferred_slug === '' && function_exists('dwi18n_current')) {
+            $lang = (string) dwi18n_current();
+        }
+        if ($lang === '' && function_exists('dwbible_i18n_lang_for_slug')) {
+            $lang = (string) dwbible_i18n_lang_for_slug($effective_slug);
+        }
         if ($lang === '') {
             $lang = function_exists('dwi18n_current') ? dwi18n_current() : 'en';
         }
