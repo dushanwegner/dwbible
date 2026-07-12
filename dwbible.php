@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.09.01
+* Version: 1.26.07.12.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.09.01');
+    define('DWBIBLE_VERSION', '1.26.07.12.01');
 }
 
 // Load include classes before hooks are registered
@@ -123,6 +123,10 @@ class DwBible_Plugin {
 
         // AI optimization: robots.txt directives for AI crawlers
         add_filter( 'robots_txt', [ __CLASS__, 'filter_robots_txt' ], 100, 2 );
+
+        // AI optimization: contribute the Bible/Prayers/Saints API documentation
+        // to the site llms.txt (dwtheme owns /llms.txt and applies this filter).
+        add_filter( 'dwtheme_llms_sections', [ __CLASS__, 'add_llms_api_section' ], 10, 2 );
 
         // AI optimization: JSON-LD structured data on Bible HTML pages
         add_action( 'wp_head', [ 'DwBible_JsonLd', 'print_jsonld' ] );
@@ -432,9 +436,6 @@ class DwBible_Plugin {
                 'top'
             );
         }
-        // /llms.txt and /llms-full.txt — AI entry-point documents
-        add_rewrite_rule( '^llms\.txt$', 'index.php?' . self::QV_FORMAT . '=llms&' . self::QV_FLAG . '=1', 'top' );
-        add_rewrite_rule( '^llms-full\.txt$', 'index.php?' . self::QV_FORMAT . '=llms-full&' . self::QV_FLAG . '=1', 'top' );
         // /bible-index.json — unified index: all books × all translations in one fetch
         add_rewrite_rule( '^bible-index\.json$', 'index.php?' . self::QV_FORMAT . '=bible-index&' . self::QV_FLAG . '=1', 'top' );
 
@@ -1862,6 +1863,25 @@ JS;
             unset($parts['tagline']);
         }
         return $parts;
+    }
+
+    /**
+     * Contribute the Bible/Prayers/Saints API documentation to the site
+     * llms.txt. dwtheme owns the /llms.txt route and applies the
+     * 'dwtheme_llms_sections' filter; the section text is authored in
+     * dwbibledata/data/llms.txt (llms-full.txt for /llms-full.txt), so
+     * robots discover the JSON API from the standard AI entry point.
+     *
+     * @param string[] $sections Markdown sections collected so far.
+     * @param bool     $full     True when generating /llms-full.txt.
+     * @return string[]
+     */
+    public static function add_llms_api_section( $sections, $full ) {
+        $file = dwbible_data_dir() . ( $full ? 'llms-full.txt' : 'llms.txt' );
+        if ( file_exists( $file ) ) {
+            $sections[] = file_get_contents( $file );
+        }
+        return $sections;
     }
 
     /**

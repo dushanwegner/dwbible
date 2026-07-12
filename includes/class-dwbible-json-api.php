@@ -7,7 +7,9 @@
  * translation/book/chapter it represents, and how to navigate to related
  * content — making the Catholic Bible fully accessible to AI agents.
  *
- * Also serves llms.txt and llms-full.txt (the AI entry-point documents).
+ * The API is documented in the site llms.txt: dwtheme owns /llms.txt and
+ * dwbible contributes the API section via the 'dwtheme_llms_sections' filter
+ * (section text authored in dwbibledata/data/llms.txt).
  */
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
@@ -259,6 +261,24 @@ trait DwBible_JSON_API_Trait {
     }
 
     /**
+     * All Bible editions the JSON API can serve, keyed by URL slug.
+     *
+     * Single source of truth for the dataset list — used by the unified
+     * index and by the 404 hints, so both always advertise the same
+     * translations.
+     */
+    private static function json_datasets(): array {
+        return [
+            'latin'   => [ 'name' => 'Clementine Vulgate', 'language' => 'la', 'languageName' => 'Latin' ],
+            'bible'   => [ 'name' => 'Douay-Rheims',       'language' => 'en', 'languageName' => 'English' ],
+            'bibel'   => [ 'name' => 'Menge',              'language' => 'de', 'languageName' => 'German' ],
+            'french'  => [ 'name' => 'Crampon',            'language' => 'fr', 'languageName' => 'French' ],
+            'spanish' => [ 'name' => 'Straubinger',        'language' => 'es', 'languageName' => 'Spanish' ],
+            'italian' => [ 'name' => 'Martini',            'language' => 'it', 'languageName' => 'Italian' ],
+        ];
+    }
+
+    /**
      * Send standard JSON response headers.
      */
     private static function send_json_headers() {
@@ -282,6 +302,13 @@ trait DwBible_JSON_API_Trait {
         header( 'Content-Type: application/json; charset=UTF-8' );
         header( 'Access-Control-Allow-Origin: *' );
 
+        // Advertise every edition the API serves (built from the shared
+        // dataset list so the hints never lag behind new translations).
+        $translation_slugs = [];
+        foreach ( self::json_datasets() as $ds_slug => $ds_meta ) {
+            $translation_slugs[ $ds_slug ] = $ds_meta['languageName'] . ' (' . $ds_meta['name'] . ')';
+        }
+
         $site_url = site_url();
         $body = [
             'error'   => 'NOT_FOUND',
@@ -289,11 +316,7 @@ trait DwBible_JSON_API_Trait {
             'help'    => $site_url . '/llms.txt',
             'hints'   => [
                 'unifiedIndex'    => $site_url . '/bible-index.json',
-                'translationSlugs' => [
-                    'bible' => 'English (Douay-Rheims)',
-                    'latin' => 'Latin (Clementine Vulgate)',
-                    'bibel' => 'German (Menge)',
-                ],
+                'translationSlugs' => $translation_slugs,
                 'urlPattern'      => '/{slug}/{book}/{chapter}/{verse}.json',
                 'example'         => $site_url . '/bible/genesis/1/1.json',
                 'tip'             => 'Book slugs accept canonical names (genesis, john, psalms), dataset names (psalmen, matthaeus), and standard abbreviations (gen, jn, ps, 1cor). Use the unified index to discover valid slugs in one fetch.',
@@ -316,14 +339,7 @@ trait DwBible_JSON_API_Trait {
         // All six editions the site serves (la/en/de/fr/es/it). Any dataset whose
         // index.json is absent on disk is skipped below, so this list is safe even
         // if a translation isn't deployed yet.
-        $datasets = [
-            'latin'   => [ 'name' => 'Clementine Vulgate', 'language' => 'la', 'languageName' => 'Latin' ],
-            'bible'   => [ 'name' => 'Douay-Rheims',       'language' => 'en', 'languageName' => 'English' ],
-            'bibel'   => [ 'name' => 'Menge',              'language' => 'de', 'languageName' => 'German' ],
-            'french'  => [ 'name' => 'Crampon',            'language' => 'fr', 'languageName' => 'French' ],
-            'spanish' => [ 'name' => 'Straubinger',        'language' => 'es', 'languageName' => 'Spanish' ],
-            'italian' => [ 'name' => 'Martini',            'language' => 'it', 'languageName' => 'Italian' ],
-        ];
+        $datasets = self::json_datasets();
 
         // Load each translation's index.json (canonical slugs, JSON API URLs)
         $data_dir = dwbible_data_dir();
@@ -429,31 +445,6 @@ trait DwBible_JSON_API_Trait {
         header( 'X-Content-Type-Options: nosniff' );
         header( 'X-Powered-By: Latin Prayer (latinprayer.org)' );
         echo json_encode( $response, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
-        exit;
-    }
-
-    /**
-     * Serve the llms.txt or llms-full.txt AI documentation file.
-     *
-     * @param string $variant 'llms' or 'llms-full'
-     */
-    private static function serve_llms_txt( $variant = 'llms' ) {
-        $filename = ( $variant === 'llms-full' ) ? 'llms-full.txt' : 'llms.txt';
-        $file = dwbible_data_dir() . $filename;
-
-        if ( ! file_exists( $file ) ) {
-            status_header( 404 );
-            header( 'Content-Type: text/plain; charset=UTF-8' );
-            echo "Not found. See https://latinprayer.org/ for more information.\n";
-            exit;
-        }
-
-        status_header( 200 );
-        header( 'Content-Type: text/plain; charset=UTF-8' );
-        header( 'Access-Control-Allow-Origin: *' );
-        header( 'Cache-Control: public, max-age=86400' );
-        header( 'X-Content-Type-Options: nosniff' );
-        readfile( $file );
         exit;
     }
 

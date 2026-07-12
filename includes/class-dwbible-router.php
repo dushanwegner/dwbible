@@ -6,14 +6,10 @@ trait DwBible_Router_Trait {
     public static function handle_request() {
         // Main request router; will be refactored later.
 
-        // ── JSON API and llms.txt (AI access) ───────────────────────────
+        // ── JSON API (AI access) ─────────────────────────────────────────
         $format = get_query_var( self::QV_FORMAT );
         if ( $format === 'json' ) {
             self::serve_json_file();
-            exit;
-        }
-        if ( $format === 'llms' || $format === 'llms-full' ) {
-            self::serve_llms_txt( $format );
             exit;
         }
         if ( $format === 'bible-index' ) {
