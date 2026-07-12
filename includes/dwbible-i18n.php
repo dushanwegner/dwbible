@@ -91,6 +91,18 @@ add_filter('do_parse_request', function ($do, $wp = null, $extra = null) {
     }
     $slug = $m[1];
     $rest = ($m[2] === '' || $m[2] === '/') ? '/' : $m[2];
+
+    // ?format=json is a courtesy alias for the .json machine URL: 301 straight
+    // to the JSON API instead of bouncing the robot to an HTML page (which
+    // would silently answer a JSON request with HTML).
+    if (($_GET['format'] ?? '') === 'json') {
+        $json_rest = dwbible_i18n_json_rest($rest);
+        if ($json_rest !== null) {
+            wp_safe_redirect(home_url('/' . dwbible_i18n_json_dataset_for_slug($slug) . $json_rest), 301);
+            exit;
+        }
+    }
+
     $lang = dwbible_i18n_lang_for_slug($slug);
     if ($lang === '') {
         // latin-only: no web language → negotiate (302, visitor-dependent).
@@ -99,9 +111,61 @@ add_filter('do_parse_request', function ($do, $wp = null, $extra = null) {
     } else {
         $code = 301;
     }
-    wp_safe_redirect(dwi18n_url_for($lang, '/' . DwBible_Plugin::CANONICAL_SECTION . $rest), $code);
+    // Preserve the query string across the redirect (except the format=json
+    // alias handled above) — dropping it would strip legitimate parameters.
+    $qs = (string) (explode('?', (string) ($_SERVER['REQUEST_URI'] ?? ''), 2)[1] ?? '');
+    wp_safe_redirect(dwi18n_url_for($lang, '/' . DwBible_Plugin::CANONICAL_SECTION . $rest) . ($qs !== '' ? '?' . $qs : ''), $code);
     exit;
 }, -5, 3);
+
+/**
+ * JSON dataset slug for any Bible section slug a user might type: single
+ * datasets pass through, Latin+vernacular combos map to their vernacular
+ * dataset (the JSON API is single-language), and language-implied slugs
+ * (menge, douay, bibbia, biblia, …) map via their language.
+ */
+function dwbible_i18n_json_dataset_for_slug(string $slug): string {
+    $singles = ['latin', 'bible', 'bibel', 'spanish', 'french', 'italian'];
+    if (in_array($slug, $singles, true)) {
+        return $slug;
+    }
+    $combo_single = ['latin-bible' => 'bible', 'latin-bibel' => 'bibel', 'latin-spanish' => 'spanish', 'latin-french' => 'french', 'latin-italian' => 'italian'];
+    if (isset($combo_single[$slug])) {
+        return $combo_single[$slug];
+    }
+    $lang = dwbible_i18n_lang_for_slug($slug);
+    if ($lang === '' && function_exists('dwi18n_negotiate_lang')) {
+        $lang = dwi18n_negotiate_lang();
+    }
+    $by_lang = ['en' => 'bible', 'de' => 'bibel', 'es' => 'spanish', 'fr' => 'french', 'it' => 'italian'];
+    return $by_lang[$lang] ?? 'bible';
+}
+
+/**
+ * Convert the book/chapter/verse remainder of an HTML Bible URL to its .json
+ * machine form, or null when the shape isn't recognised.
+ *
+ *   /                     → /index.json
+ *   /{book}/              → /{book}/index.json
+ *   /{book}/{ch}          → /{book}/{ch}.json
+ *   /{book}/{ch}:{v}      → /{book}/{ch}/{v}.json    (also , and / separators)
+ *   /{book}/{ch}:{v}-{to} → /{book}/{ch}/{v}-{to}.json
+ */
+function dwbible_i18n_json_rest(string $rest): ?string {
+    if ($rest === '/' || $rest === '') {
+        return '/index.json';
+    }
+    if (preg_match('#^/([^/:,]+)/?$#', $rest, $m)) {
+        return '/' . $m[1] . '/index.json';
+    }
+    if (preg_match('#^/([^/:,]+)/([0-9]+)[:,/]([0-9]+)(?:-([0-9]+))?/?$#', $rest, $m)) {
+        return '/' . $m[1] . '/' . $m[2] . '/' . $m[3] . (!empty($m[4]) ? '-' . $m[4] : '') . '.json';
+    }
+    if (preg_match('#^/([^/:,]+)/([0-9]+)/?$#', $rest, $m)) {
+        return '/' . $m[1] . '/' . $m[2] . '.json';
+    }
+    return null;
+}
 
 /* ── 1. Inbound: on a prefixed Bible request, pick the dataset combo from the language prefix ───────────────────
  * After dwi18n peels /de/, the request is /bible/…; the existing 'bible' rule sets dwbible_slug='bible'. Swap it to

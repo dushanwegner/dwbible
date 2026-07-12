@@ -167,6 +167,30 @@ trait DwBible_Router_Trait {
     }
 
     public static function render_bible_page() {
+        // ?format=json is a courtesy alias for the .json machine URL — 301 to
+        // the JSON API rather than answering a JSON request with HTML. The
+        // JSON API resolves any inbound book slug itself (abbreviations,
+        // vernacular names, Latin canonical), so the raw query vars suffice.
+        if ((($_GET['format'] ?? '') === 'json') && function_exists('dwbible_i18n_json_dataset_for_slug')) {
+            $ds    = dwbible_i18n_json_dataset_for_slug((string) get_query_var(self::QV_SLUG));
+            $jrest = '/index.json';
+            $jb    = get_query_var(self::QV_BOOK);
+            if (is_string($jb) && $jb !== '') {
+                $jch = get_query_var(self::QV_CHAPTER);
+                $jvf = get_query_var(self::QV_VFROM);
+                $jvt = get_query_var(self::QV_VTO);
+                if ($jch && $jvf) {
+                    $jrest = '/' . $jb . '/' . $jch . '/' . (int) $jvf . (($jvt && (int) $jvt > (int) $jvf) ? '-' . (int) $jvt : '') . '.json';
+                } elseif ($jch) {
+                    $jrest = '/' . $jb . '/' . $jch . '.json';
+                } else {
+                    $jrest = '/' . $jb . '/index.json';
+                }
+            }
+            wp_redirect(home_url('/' . $ds . $jrest), 301);
+            exit;
+        }
+
         $book_slug = get_query_var(self::QV_BOOK);
         if (!$book_slug) {
             self::render_index();
@@ -229,10 +253,16 @@ trait DwBible_Router_Trait {
             }
         }
 
+        // Compare PATHS only and carry the query string across the redirect:
+        // including the query in the comparison made every parameterized URL
+        // (?utm_…, etc.) 301 to itself minus the query — stripping legitimate
+        // parameters and costing robots an extra hop.
         $canonical_url = home_url($path);
-        $current = home_url(add_query_arg([]));
+        $request_parts = explode('?', add_query_arg([]), 2);
+        $current       = home_url($request_parts[0]);
+        $qs            = isset($request_parts[1]) ? (string) $request_parts[1] : '';
         if (trailingslashit($canonical_url) !== trailingslashit($current)) {
-            wp_redirect($canonical_url, 301);
+            wp_redirect($canonical_url . ($qs !== '' ? '?' . $qs : ''), 301);
             exit;
         }
         $book_slug = $canonical;
