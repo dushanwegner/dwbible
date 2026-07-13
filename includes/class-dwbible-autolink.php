@@ -416,7 +416,7 @@ trait DwBible_AutoLink_Trait {
 <style id="dwv-modal-css">
 .dwv-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:99998;opacity:0;transition:opacity .18s ease}
 .dwv-backdrop.is-open{opacity:1}
-.dwv-modal{position:fixed;z-index:99999;left:50%;top:50%;transform:translate(-50%,-50%) scale(.97);width:min(440px,calc(100% - 24px));max-height:calc(100dvh - 48px);display:flex;flex-direction:column;overflow:hidden;background:var(--bg);color:var(--ink);border:1px solid var(--rule);box-shadow:0 8px 32px rgba(0,0,0,.28);opacity:0;transition:opacity .18s ease,transform .18s ease}
+.dwv-modal{position:fixed;z-index:99999;left:50%;top:50%;transform:translate(-50%,-50%) scale(.97);width:min(440px,calc(100% - 24px));max-height:calc(100dvh - 48px);display:flex;flex-direction:column;overflow:hidden;background:var(--bg);color:var(--ink);border:1px solid var(--rule);border-radius:16px;box-shadow:0 8px 32px rgba(0,0,0,.28);opacity:0;transition:opacity .18s ease,transform .18s ease}
 .dwv-modal.is-open{opacity:1;transform:translate(-50%,-50%) scale(1)}
 html[data-theme="dark"] .dwv-modal,html[data-theme="night"] .dwv-modal{background:var(--bg-2)}
 .dwv-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid var(--rule);flex-shrink:0}
@@ -430,7 +430,8 @@ html[data-theme="dark"] .dwv-body::after,html[data-theme="night"] .dwv-body::aft
 .dwv-num{flex:0 0 auto;color:var(--ink-mute);font-size:.75rem;padding-top:.15em;font-variant-numeric:tabular-nums}
 .dwv-status{margin:0;color:var(--ink-soft);font-size:.9rem}
 .dwv-foot{flex-shrink:0;padding:12px 18px;border-top:1px solid var(--rule);background:inherit}
-.dwv-open{display:block;text-align:center;padding:11px 16px;border-radius:999px;background:var(--rubric);color:#fff;text-decoration:none;font-weight:var(--fw-medium,600);font-family:var(--font-sans)}
+.dwv-modal .dwv-open{display:block;text-align:center;padding:11px 16px;border-radius:999px;background:var(--rubric);color:#fff;text-decoration:none;font-weight:var(--fw-medium,600);font-family:var(--font-sans)}
+.dwv-modal .dwv-open:hover,.dwv-modal .dwv-open:focus-visible{color:#fff}
 </style>
 <script id="dwv-modal-js">
 (function(){
