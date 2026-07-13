@@ -188,7 +188,18 @@ class DwBible_OG_Image {
         return $used_h;
     }
 
-    private static function maybe_read_local_upload_url($url) {
+    /**
+     * Resolve a URL that points into this site's uploads directory to its local
+     * filesystem path — tolerant of host/scheme drift. Options may store an
+     * absolute URL captured under a different host or scheme than the site now
+     * serves (e.g. "http://localhost/wp-content/uploads/…" saved once, while the
+     * site is now "https://latinprayer.local/…"). Matching the full baseurl would
+     * silently fail there and drop the custom font / logo, so we compare only the
+     * URL PATH against the uploads base PATH: any URL whose /wp-content/uploads/…
+     * tail matches maps to the local file. Returns '' if the URL isn't under
+     * uploads or the file is missing.
+     */
+    private static function uploads_url_to_path($url) {
         if (!is_string($url) || $url === '') {
             return '';
         }
@@ -196,19 +207,25 @@ class DwBible_OG_Image {
         if (empty($uploads['baseurl']) || empty($uploads['basedir'])) {
             return '';
         }
-        $baseurl = rtrim((string) $uploads['baseurl'], '/');
-        $basedir = rtrim((string) $uploads['basedir'], '/');
-        if ($baseurl === '' || $basedir === '') {
+        $base_path = rtrim((string) parse_url($uploads['baseurl'], PHP_URL_PATH), '/'); // e.g. /wp-content/uploads
+        $basedir   = rtrim((string) $uploads['basedir'], '/');
+        $url_path  = (string) parse_url($url, PHP_URL_PATH);
+        if ($base_path === '' || $basedir === '' || $url_path === '') {
             return '';
         }
-        if (strpos($url, $baseurl . '/') !== 0) {
+        if (strpos($url_path, $base_path . '/') !== 0) {
             return '';
         }
-        $candidate = $basedir . substr($url, strlen($baseurl));
+        $candidate = $basedir . substr($url_path, strlen($base_path));
         if (!is_string($candidate) || $candidate === '' || !file_exists($candidate)) {
             return '';
         }
-        return (string) @file_get_contents($candidate);
+        return $candidate;
+    }
+
+    private static function maybe_read_local_upload_url($url) {
+        $path = self::uploads_url_to_path($url);
+        return $path === '' ? '' : (string) @file_get_contents($path);
     }
 
     public static function render() {
@@ -256,19 +273,11 @@ class DwBible_OG_Image {
         $fg = (string) get_option('dwbible_og_text_color', '#ffffff');
         // Resolve font: prefer explicit path; otherwise try to map an uploaded URL to a local path under uploads
         $font_file = (string) get_option('dwbible_og_font_ttf', '');
+        $font_url  = (string) get_option('dwbible_og_font_url', '');
         if ($font_file === '' || !file_exists($font_file)) {
-            $font_url = (string) get_option('dwbible_og_font_url', '');
-            if ($font_url !== '') {
-                $uploads = wp_get_upload_dir();
-                if (!empty($uploads['baseurl']) && !empty($uploads['basedir'])) {
-                    $baseurl = rtrim($uploads['baseurl'], '/');
-                    $basedir = rtrim($uploads['basedir'], '/');
-                    if (strpos($font_url, $baseurl.'/') === 0) {
-                        $candidate = $basedir . substr($font_url, strlen($baseurl));
-                        if (file_exists($candidate)) { $font_file = $candidate; }
-                    }
-                }
-            }
+            // Map the uploaded font URL to its local path (host/scheme-tolerant).
+            $candidate = self::uploads_url_to_path($font_url);
+            if ($candidate !== '') { $font_file = $candidate; }
         }
         // Font sizes: main (max, auto-fit) and reference (exact). Fallback to legacy if unset
         $font_size_legacy = intval(get_option('dwbible_og_font_size', 40));
