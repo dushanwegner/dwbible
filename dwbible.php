@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.12.02
+* Version: 1.26.07.13.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.12.02');
+    define('DWBIBLE_VERSION', '1.26.07.13.01');
 }
 
 // Load include classes before hooks are registered
@@ -1213,6 +1213,94 @@ class DwBible_Plugin {
         }
         if ($book_slug === '') return '';
         return self::extract_verse_text_from_html($html, $book_slug, $ch, $vf, $vt);
+    }
+
+    /**
+     * Cached "first-verses" teaser for a passage in a given page language's
+     * vernacular edition, plus the interlinear reader URL for the FULL passage.
+     *
+     * Used by the latinprayer.org homepage "Today's Mass" block to quote the
+     * opening of each reading. The verse text is an IMMUTABLE function of
+     * (language, book, chapter, verse-range) — a static file read — so the
+     * result is memoised in a long-lived transient: dwbible touches the
+     * filesystem once ever per passage+language, never on an ordinary
+     * (cache-rebuilding) homepage render.
+     *
+     * @param string $slug          Book slug in any known spelling (Vulgate/EF/URL);
+     *                              resolved to the internal key via key_from_any_book_slug().
+     * @param int    $ch            Chapter number.
+     * @param string $verses        Verse range like "19-23", or a single "19".
+     * @param string $lang          Page language (de|en|es|fr|it|la); '' → dwi18n_current().
+     * @param int    $teaser_verses How many opening verses to quote (default 3); CSS
+     *                              line-clamps the visual length further.
+     * @return array{text:string,url:string} Empty text when no vernacular edition has
+     *                              the passage; url is still built when the book resolves.
+     */
+    public static function passage_teaser($slug, $ch, $verses, $lang = '', $teaser_verses = 3) {
+        $out  = ['text' => '', 'url' => ''];
+        $slug = (string) $slug;
+        $ch   = absint($ch);
+        if ($slug === '' || $ch <= 0) return $out;
+
+        if ($lang === '' && function_exists('dwi18n_current')) $lang = dwi18n_current();
+        if (!is_string($lang) || $lang === '')                 $lang = 'en';
+
+        // Full verse range of the reading (drives the reader URL).
+        $vf = 0; $vt = 0;
+        if (preg_match('/^(\d+)(?:-(\d+))?$/', (string) $verses, $m)) {
+            $vf = (int) $m[1];
+            $vt = (isset($m[2]) && (int) $m[2] >= $vf) ? (int) $m[2] : $vf;
+        }
+
+        $key = self::key_from_any_book_slug($slug);
+        if ($key === null || $key === '') return $out;
+
+        // Interlinear reader URL for the FULL passage — built even when the
+        // vernacular text is absent (the citation still needs a target).
+        $url_verses  = $vf > 0 ? ($ch . ':' . $vf . ($vt > $vf ? '-' . $vt : '')) : (string) $ch;
+        $out['url']  = home_url('/' . rawurlencode($lang) . '/' . self::CANONICAL_SECTION
+            . '/' . self::latin_slug_for_key($key) . '/' . $url_verses . '/');
+
+        // Vernacular dataset (single-language edition) for this page language.
+        if (!function_exists('dwbible_i18n_json_dataset_for_slug') || !function_exists('dwbible_i18n_combo_for_lang')) {
+            return $out;
+        }
+        $dataset = dwbible_i18n_json_dataset_for_slug(dwbible_i18n_combo_for_lang($lang));
+        if ($dataset === '' || $vf <= 0) return $out;
+
+        // Quote only the opening verses; CSS clamps the visual length further.
+        $last = min($vt, $vf + max(1, (int) $teaser_verses) - 1);
+
+        $cache_key = 'dwbible_teaser_' . md5($dataset . '|' . $key . '|' . $ch . '|' . $vf . '-' . $last);
+        $cached    = get_transient($cache_key);
+        if (is_string($cached)) {
+            $out['text'] = $cached;
+            return $out;
+        }
+
+        // Pure file read of the vernacular chapter JSON — no query-var side effects.
+        // Shape: { "verses": [ { "verse": int, "text": string, … }, … ] }.
+        $text = '';
+        $file = dwbible_data_dir() . $dataset . '/json/' . $key . '/' . $ch . '.json';
+        if (is_readable($file)) {
+            $data = json_decode((string) file_get_contents($file), true);
+            if (isset($data['verses']) && is_array($data['verses'])) {
+                $parts = [];
+                foreach ($data['verses'] as $v) {
+                    $n = isset($v['verse']) ? (int) $v['verse'] : 0;
+                    if ($n >= $vf && $n <= $last && isset($v['text']) && $v['text'] !== '') {
+                        $parts[] = (string) $v['text'];
+                    }
+                }
+                if ($parts) $text = self::clean_verse_text_for_output(implode(' ', $parts));
+            }
+        }
+
+        // Immutable content → cache long; cache a miss briefly so a gap doesn't
+        // re-hit the filesystem on every render.
+        set_transient($cache_key, $text, $text === '' ? DAY_IN_SECONDS : MONTH_IN_SECONDS);
+        $out['text'] = $text;
+        return $out;
     }
 
     private static function normalize_whitespace($s) {
