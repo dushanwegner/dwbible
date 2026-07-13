@@ -36,7 +36,14 @@ class DwBible_Front_Meta {
             $vt = $vf;
         }
 
+        // URLs carry the LATIN canonical book slug ("romanos", "ioannes"), which the direct
+        // dataset-slug lookup misses; resolve to the internal key first so social crawlers still
+        // get the og:image / twitter:image tags on canonical verse permalinks.
         $entry = DwBible_Plugin::get_book_entry_by_slug($book);
+        if (!$entry) {
+            $key = DwBible_Plugin::key_from_any_book_slug($book);
+            if ($key) { $entry = DwBible_Plugin::get_book_entry_by_slug($key); }
+        }
         if (!$entry) {
             return;
         }

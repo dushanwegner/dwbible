@@ -225,7 +225,16 @@ class DwBible_OG_Image {
         if (!$book_slug || !$ch || !$vf) { status_header(400); exit; }
         if (!$vt || $vt < $vf) { $vt = $vf; }
 
+        // Bible URLs are the LATIN canonical book slug now ("romanos", "actus-apostolorum",
+        // "ioannes"), which get_book_entry_by_slug() — a direct dataset-slug lookup — does not
+        // recognise. Resolve any inbound form (Latin canonical, internal key, vernacular name) to
+        // the internal key first, then fetch the entry. Without this every canonical Bible URL 404s
+        // the OG image (the verse-toolbar "Image" button).
         $entry = DwBible_Plugin::get_book_entry_by_slug($book_slug);
+        if (!$entry) {
+            $key = DwBible_Plugin::key_from_any_book_slug($book_slug);
+            if ($key) { $entry = DwBible_Plugin::get_book_entry_by_slug($key); }
+        }
         if (!$entry) { status_header(404); exit; }
         $book_label = isset($entry['display_name']) && $entry['display_name'] !== '' ? $entry['display_name'] : DwBible_Plugin::pretty_label($entry['short_name']);
         $ref = $book_label . ' ' . $ch . ':' . ($vf === $vt ? $vf : ($vf . '-' . $vt));
