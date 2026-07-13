@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.13.02
+* Version: 1.26.07.13.03
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.13.02');
+    define('DWBIBLE_VERSION', '1.26.07.13.03');
 }
 
 // Load include classes before hooks are registered
@@ -115,6 +115,10 @@ class DwBible_Plugin {
         add_action('manage_posts_custom_column', ['DwBible_Admin_Meta', 'render_bible_column'], 10, 2);
 
         add_filter('the_content', [__CLASS__, 'filter_content_auto_link_bible_refs'], 20);
+
+        // Verse-preview modal: printed in the footer only on pages where the
+        // autolinker linked a reference (it sets $did_link). Self-contained.
+        add_action('wp_footer', [__CLASS__, 'print_modal_assets']);
 
         add_filter('bulk_actions-edit-post', [__CLASS__, 'register_strip_bibleserver_bulk']);
         add_filter('bulk_actions-edit-page', [__CLASS__, 'register_strip_bibleserver_bulk']);

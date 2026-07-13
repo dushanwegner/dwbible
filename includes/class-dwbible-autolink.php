@@ -6,6 +6,10 @@ trait DwBible_AutoLink_Trait {
 
     private static $unified_abbr = null;
 
+    /** Set true when at least one reference is auto-linked on the page, so the
+     *  footer prints the verse-preview modal assets only where they're needed. */
+    public static $did_link = false;
+
     public static function register_strip_bibleserver_bulk($bulk_actions) {
         if (!is_array($bulk_actions)) return $bulk_actions;
         $bulk_actions['dwbible_strip_bibleserver'] = __('Strip BibleServer links', 'dwbible');
@@ -370,7 +374,101 @@ trait DwBible_AutoLink_Trait {
             }
         }
 
-        return $prefix_raw . '<a href="' . esc_url($url) . '" target="_blank" rel="noopener noreferrer">' . esc_html($ref_text) . '</a>';
+        // Verse-preview modal hooks: a class + the JSON API URL for the passage
+        // text, so a tap PREVIEWS the verses in place (the anchor's own href is
+        // the "open in Bible" target + the no-JS fallback). Marks the page as
+        // carrying a reference so the footer prints the modal assets.
+        self::$did_link = true;
+        $json_by_lang = ['en' => 'bible', 'de' => 'bibel', 'es' => 'spanish', 'fr' => 'french', 'it' => 'italian', 'la' => 'latin'];
+        $json_slug = $json_by_lang[$lang] ?? 'bible';
+        $vpart = ($vf > 0)
+            ? ($ch . '/' . $vf . ($vt && $vt >= $vf ? '-' . $vt : ''))
+            : (string) $ch;
+        // Root-relative so the preview always fetches from the page's own origin
+        // (robust across latinprayer.org / previews / any host).
+        $json_url = '/' . $json_slug . '/' . $book_slug . '/' . $vpart . '.json';
+
+        return $prefix_raw
+            . '<a class="dwbible-ref" href="' . esc_url($url) . '" target="_blank" rel="noopener noreferrer"'
+            . ' data-dwv-json="' . esc_url($json_url) . '" data-dwv-ref="' . esc_attr($ref_text) . '">'
+            . esc_html($ref_text) . '</a>';
+    }
+
+    /**
+     * Print the verse-preview modal (self-contained inline CSS + JS) in the
+     * footer, only on pages that auto-linked a reference. Vanilla JS: a tap on
+     * an `a.dwbible-ref` fetches its passage from the Bible JSON API and shows
+     * it in a themed, dark-mode-elevated modal with a pinned "Open in Bible"
+     * link + a "more to see" bottom fade — the web twin of the app's verse peek.
+     */
+    public static function print_modal_assets() {
+        if (empty(self::$did_link)) {
+            return;
+        }
+        $lang = function_exists('dwi18n_current') ? (string) dwi18n_current() : 'en';
+        $open = ['en' => 'Open in Bible', 'de' => 'In der Bibel öffnen', 'es' => 'Abrir en la Biblia', 'fr' => 'Ouvrir dans la Bible', 'it' => 'Apri nella Bibbia', 'la' => 'Aperíre in Bíbliis'];
+        $loading = ['en' => 'Loading…', 'de' => 'Wird geladen…', 'es' => 'Cargando…', 'fr' => 'Chargement…', 'it' => 'Caricamento…', 'la' => 'Onerátur…'];
+        $error = ['en' => 'Could not load the passage.', 'de' => 'Konnte nicht geladen werden.', 'es' => 'No se pudo cargar.', 'fr' => 'Impossible de charger.', 'it' => 'Impossibile caricare.', 'la' => 'Legi non pótuit.'];
+        $lopen = $open[$lang] ?? $open['en'];
+        $lload = $loading[$lang] ?? $loading['en'];
+        $lerr  = $error[$lang] ?? $error['en'];
+        ?>
+<style id="dwv-modal-css">
+.dwv-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:99998;opacity:0;transition:opacity .18s ease}
+.dwv-backdrop.is-open{opacity:1}
+.dwv-modal{position:fixed;z-index:99999;left:50%;top:50%;transform:translate(-50%,-50%) scale(.97);width:min(440px,calc(100% - 24px));max-height:calc(100dvh - 48px);display:flex;flex-direction:column;overflow:hidden;background:var(--bg);color:var(--ink);border:1px solid var(--rule);box-shadow:0 8px 32px rgba(0,0,0,.28);opacity:0;transition:opacity .18s ease,transform .18s ease}
+.dwv-modal.is-open{opacity:1;transform:translate(-50%,-50%) scale(1)}
+html[data-theme="dark"] .dwv-modal,html[data-theme="night"] .dwv-modal{background:var(--bg-2)}
+.dwv-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid var(--rule);flex-shrink:0}
+.dwv-title{margin:0;font-family:var(--font-sans);font-size:var(--fs-body,1rem);font-weight:var(--fw-medium,600);color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dwv-close{appearance:none;-webkit-appearance:none;background:none;border:0;color:var(--ink-soft);cursor:pointer;font-size:24px;line-height:1;padding:2px 6px;flex-shrink:0}
+.dwv-body{flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:16px 18px}
+.dwv-body::after{content:"";position:sticky;bottom:0;display:block;height:26px;margin-top:-26px;background:linear-gradient(to bottom,transparent,var(--bg));pointer-events:none;opacity:0;transition:opacity .15s ease}
+html[data-theme="dark"] .dwv-body::after,html[data-theme="night"] .dwv-body::after{background:linear-gradient(to bottom,transparent,var(--bg-2))}
+.dwv-body[data-more="1"]::after{opacity:1}
+.dwv-verse{display:flex;gap:8px;font-size:.85rem;line-height:1.5;margin-bottom:9px;font-family:var(--font-sans)}
+.dwv-num{flex:0 0 auto;color:var(--ink-mute);font-size:.75rem;padding-top:.15em;font-variant-numeric:tabular-nums}
+.dwv-status{margin:0;color:var(--ink-soft);font-size:.9rem}
+.dwv-foot{flex-shrink:0;padding:12px 18px;border-top:1px solid var(--rule);background:inherit}
+.dwv-open{display:block;text-align:center;padding:11px 16px;border-radius:999px;background:var(--rubric);color:#fff;text-decoration:none;font-weight:var(--fw-medium,600);font-family:var(--font-sans)}
+</style>
+<script id="dwv-modal-js">
+(function(){
+  var L={open:<?php echo wp_json_encode($lopen); ?>,load:<?php echo wp_json_encode($lload); ?>,err:<?php echo wp_json_encode($lerr); ?>};
+  var modal,backdrop,body,titleEl,openLink;
+  function esc(s){var d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;}
+  function onKey(e){if(e.key==='Escape')close();}
+  function fade(){if(body)body.setAttribute('data-more',(body.scrollTop+body.clientHeight<body.scrollHeight-2)?'1':'0');}
+  function close(){if(!modal)return;modal.classList.remove('is-open');backdrop.classList.remove('is-open');document.documentElement.style.overflow='';document.removeEventListener('keydown',onKey);var m=modal,b=backdrop;modal=null;setTimeout(function(){m.remove();b.remove();},200);}
+  function build(){
+    backdrop=document.createElement('div');backdrop.className='dwv-backdrop';backdrop.addEventListener('click',close);
+    modal=document.createElement('div');modal.className='dwv-modal';modal.setAttribute('role','dialog');modal.setAttribute('aria-modal','true');
+    modal.innerHTML='<div class="dwv-head"><h2 class="dwv-title"></h2><button class="dwv-close" type="button" aria-label="Close">×</button></div><div class="dwv-body"><p class="dwv-status"></p></div><div class="dwv-foot"><a class="dwv-open" target="_blank" rel="noopener noreferrer"></a></div>';
+    document.body.appendChild(backdrop);document.body.appendChild(modal);
+    titleEl=modal.querySelector('.dwv-title');body=modal.querySelector('.dwv-body');openLink=modal.querySelector('.dwv-open');
+    modal.querySelector('.dwv-close').addEventListener('click',close);
+    body.addEventListener('scroll',fade,{passive:true});
+    document.addEventListener('keydown',onKey);
+    document.documentElement.style.overflow='hidden';
+    requestAnimationFrame(function(){backdrop.classList.add('is-open');modal.classList.add('is-open');});
+  }
+  function open(a){
+    if(modal)close();
+    build();
+    titleEl.textContent=a.getAttribute('data-dwv-ref')||'';
+    openLink.href=a.href;openLink.textContent=L.open;
+    body.innerHTML='<p class="dwv-status">'+esc(L.load)+'</p>';
+    fetch(a.getAttribute('data-dwv-json'),{credentials:'omit'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){
+      if(!modal)return;var vs=(d&&d.verses)||[];
+      if(!vs.length){body.innerHTML='<p class="dwv-status">'+esc(L.err)+'</p>';return;}
+      var h='';for(var i=0;i<vs.length;i++){h+='<div class="dwv-verse"><span class="dwv-num">'+esc(vs[i].verse)+'</span><span>'+esc(vs[i].text)+'</span></div>';}
+      body.innerHTML=h;fade();
+    }).catch(function(){if(modal)body.innerHTML='<p class="dwv-status">'+esc(L.err)+'</p>';});
+  }
+  document.addEventListener('click',function(e){var t=e.target;var a=t&&t.closest?t.closest('a.dwbible-ref'):null;if(a){e.preventDefault();open(a);}});
+})();
+</script>
+        <?php
     }
 
     /**
