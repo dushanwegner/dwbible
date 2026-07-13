@@ -228,6 +228,62 @@ class DwBible_OG_Image {
         return $path === '' ? '' : (string) @file_get_contents($path);
     }
 
+    /**
+     * Read + clean a verse range from ONE dataset's chapter JSON
+     * (dwbibledata/{dataset}/json/{key}/{ch}.json). Returns
+     * ['text' => joined verse text, 'book' => localized book name]; empty text
+     * when the dataset or passage is absent. This is the same pure file read
+     * DwBible_Plugin::passage_teaser() uses — no query-var side effects — so the
+     * OG image can pull the Latin AND the vernacular of the same verse.
+     */
+    private static function verse_text_from_dataset($dataset, $key, $ch, $vf, $vt) {
+        $out = ['text' => '', 'book' => ''];
+        $dataset = (string) $dataset;
+        $key = (string) $key;
+        if ($dataset === '' || $key === '' || $ch <= 0 || $vf <= 0) { return $out; }
+        if (!function_exists('dwbible_data_dir')) { return $out; }
+        $file = dwbible_data_dir() . $dataset . '/json/' . $key . '/' . $ch . '.json';
+        if (!is_readable($file)) { return $out; }
+        $data = json_decode((string) file_get_contents($file), true);
+        if (!is_array($data)) { return $out; }
+        if (isset($data['_meta']['book']['name'])) {
+            $out['book'] = (string) $data['_meta']['book']['name'];
+        }
+        if (isset($data['verses']) && is_array($data['verses'])) {
+            $parts = [];
+            foreach ($data['verses'] as $v) {
+                $n = isset($v['verse']) ? (int) $v['verse'] : 0;
+                if ($n >= $vf && $n <= $vt && isset($v['text']) && $v['text'] !== '') {
+                    $parts[] = (string) $v['text'];
+                }
+            }
+            if ($parts) {
+                $out['text'] = DwBible_Plugin::clean_verse_text_for_output(implode(' ', $parts));
+            }
+        }
+        return $out;
+    }
+
+    /** #RRGGBB → [r,g,b]; malformed input → black. */
+    private static function hex_rgb($hex) {
+        $hex = ltrim(trim((string) $hex), '#');
+        if (!preg_match('/^[0-9a-f]{6}$/i', $hex)) { return [0, 0, 0]; }
+        return [hexdec(substr($hex, 0, 2)), hexdec(substr($hex, 2, 2)), hexdec(substr($hex, 4, 2))];
+    }
+
+    /** Allocate hex_a linearly blended toward hex_b by t∈[0,1] (0 → a, 1 → b). */
+    private static function blend_color($im, $hex_a, $hex_b, $t) {
+        $a = self::hex_rgb($hex_a);
+        $b = self::hex_rgb($hex_b);
+        $t = max(0.0, min(1.0, (float) $t));
+        return imagecolorallocate(
+            $im,
+            (int) round($a[0] + ($b[0] - $a[0]) * $t),
+            (int) round($a[1] + ($b[1] - $a[1]) * $t),
+            (int) round($a[2] + ($b[2] - $a[2]) * $t)
+        );
+    }
+
     public static function render() {
         $enabled = get_option('dwbible_og_enabled', '1');
         if ($enabled !== '1' && $enabled !== 1) { status_header(404); exit; }
@@ -253,19 +309,51 @@ class DwBible_OG_Image {
             if ($key) { $entry = DwBible_Plugin::get_book_entry_by_slug($key); }
         }
         if (!$entry) { status_header(404); exit; }
-        $book_label = isset($entry['display_name']) && $entry['display_name'] !== '' ? $entry['display_name'] : DwBible_Plugin::pretty_label($entry['short_name']);
+
+        // Internal book key (works whether or not the direct entry lookup hit above).
+        $key = DwBible_Plugin::key_from_any_book_slug($book_slug);
+        if (!$key) { $key = DwBible_Plugin::slugify($book_slug); }
+
+        // Page language: dwi18n peeled the /{lang}/ prefix before this request (OG requests keep
+        // their prefix — they're excluded from the combo-slug swap, not from prefix handling), so
+        // dwi18n_current() is the reader's language. It selects the vernacular edition under the Latin.
+        $lang = function_exists('dwi18n_current') ? dwi18n_current() : 'en';
+        if (!is_string($lang) || $lang === '') { $lang = 'en'; }
+
+        // Big Latin (primary) + small vernacular (secondary), read straight from each dataset's
+        // chapter JSON. Latin is always the Vulgate; the vernacular is the single edition for $lang.
+        $latin = self::verse_text_from_dataset('latin', $key, $ch, $vf, $vt);
+        $vern_dataset = (function_exists('dwbible_i18n_json_dataset_for_slug') && function_exists('dwbible_i18n_combo_for_lang'))
+            ? dwbible_i18n_json_dataset_for_slug(dwbible_i18n_combo_for_lang($lang))
+            : '';
+        $vern = $vern_dataset !== '' ? self::verse_text_from_dataset($vern_dataset, $key, $ch, $vf, $vt) : ['text' => '', 'book' => ''];
+
+        $latin_text = $latin['text'];
+        $text       = $vern['text'];
+        // Fall back to the legacy HTML extraction only if the JSON path yielded nothing at all
+        // (keeps any book/dataset lacking JSON working) — fills the vernacular slot.
+        if ($latin_text === '' && $text === '') {
+            $text = DwBible_Plugin::extract_verse_text($entry, $ch, $vf, $vt);
+        }
+        if ($latin_text === '' && $text === '') { status_header(404); exit; }
+
+        // Reference: localized book name from whichever edition we have, else the index label.
+        $book_label = $vern['book'] !== '' ? $vern['book']
+            : ($latin['book'] !== '' ? $latin['book']
+            : (isset($entry['display_name']) && $entry['display_name'] !== '' ? $entry['display_name'] : DwBible_Plugin::pretty_label($entry['short_name'])));
         $ref = $book_label . ' ' . $ch . ':' . ($vf === $vt ? $vf : ($vf . '-' . $vt));
-        $text = DwBible_Plugin::extract_verse_text($entry, $ch, $vf, $vt);
-        if ($text === '') { status_header(404); exit; }
 
         // Friendly download filename
         $safe_book = sanitize_title($book_label);
         if (!is_string($safe_book) || $safe_book === '') { $safe_book = 'bible'; }
         $safe_ref = $ch . '-' . $vf . ($vt > $vf ? ('-' . $vt) : '');
         $download_filename = $safe_book . '-' . $safe_ref . '.png';
-        // Strip any trailing/leading invisible control/mark characters that may render as boxes near quotes
-        $text = preg_replace('/^[\p{Cf}\p{Cc}\p{Mn}\p{Me}]+|[\p{Cf}\p{Cc}\p{Mn}\p{Me}]+$/u', '', (string)$text);
-        $text = trim($text);
+        // Strip leading/trailing invisible control/mark chars that may render as boxes near quotes.
+        $strip_invisible = function ($s) {
+            return trim((string) preg_replace('/^[\p{Cf}\p{Cc}\p{Mn}\p{Me}]+|[\p{Cf}\p{Cc}\p{Mn}\p{Me}]+$/u', '', (string) $s));
+        };
+        $latin_text = $strip_invisible($latin_text);
+        $text       = $strip_invisible($text);
 
         $w = max(100, intval(get_option('dwbible_og_width', 1200)));
         $h = max(100, intval(get_option('dwbible_og_height', 630)));
@@ -328,6 +416,8 @@ class DwBible_OG_Image {
             'logo_dx' => $logo_dx_opt,
             'logo_dy' => $logo_dy_opt,
             'lh_main' => $lh_main_opt,
+            'lang' => $lang,
+            'latin' => $latin_text,
             'text' => $text,
             'ref' => $ref,
         ];
@@ -433,26 +523,52 @@ class DwBible_OG_Image {
         $refpos = 'bottom';
         $refalign = ($logo_side === 'left') ? 'right' : 'left';
 
-        // Let the shared cleaner handle whitespace and inner quote normalization only
-        $text_clean = DwBible_Plugin::clean_verse_text_for_output($text, false);
-        // For OG images we want exactly one visible pair of outer quotes. Strip any
-        // leading/trailing guillemets and surrounding spaces, then wrap once.
-        $text_clean = preg_replace('/^[«»‹›\s]+/u', '', (string)$text_clean);
-        $text_clean = preg_replace('/[«»‹›\s]+$/u', '', (string)$text_clean);
-        $text_clean = $qL . $text_clean . $qR;
+        // One-visible-outer-quote-pair wrap for a verse string: normalize inner quotes, strip any
+        // stray leading/trailing guillemets, then wrap once in qL/qR.
+        $wrap_quotes = function ($s) use ($qL, $qR) {
+            $s = DwBible_Plugin::clean_verse_text_for_output($s, false);
+            $s = preg_replace('/^[«»‹›\s]+/u', '', (string) $s);
+            $s = preg_replace('/[«»‹›\s]+$/u', '', (string) $s);
+            return $qL . $s . $qR;
+        };
+        $latin_clean = $latin_text !== '' ? $wrap_quotes($latin_text) : '';
+        $vern_clean  = $text       !== '' ? $wrap_quotes($text)       : '';
 
-        // Always-bottom layout
-        // 1) Compute reference block height at bottom padding
-        $ref_h = self::measure_text_block($ref, $w - 2*$pad_x, $font_file, $ref_size);
-        $bottom_for_ref = $h - $pad_bottom - $ref_h;
-        // 2) Draw main verse text above the reference with min gap
-        $avail_h = ($bottom_for_ref - $min_gap) - $y;
         $use_ttf = (is_string($font_file) && $font_file !== '' && function_exists('imagettfbbox') && function_exists('imagettftext') && file_exists($font_file));
-        // text_clean is already wrapped in qL/qR by clean_verse_text_for_output(),
-        // so do not add another pair here via prefix/suffix.
-        list($fit_size, $fit_text) = self::fit_text_to_area($text_clean, $w - 2*$pad_x, $avail_h, $font_file, $font_main, $font_min_main, $use_ttf, '', '', max(1.0, $line_h_main));
-        self::draw_text_block($im, $fit_text, $x, $y, $w - 2*$pad_x, $font_file, $fit_size, $fgc, $bottom_for_ref - $min_gap, 'left', max(1.0, $line_h_main));
-        // 3) Draw logo (if any) at bottom on chosen side with adjusted padding
+        $lh = max(1.0, $line_h_main);
+        $content_w = $w - 2 * $pad_x;
+
+        // Vernacular is the SMALL secondary line: ~half the Latin max size, drawn in a muted tone
+        // (fg blended toward bg) beneath the big Latin so the pair reads Latin-first.
+        $font_vern     = max(16, (int) round($font_main * 0.5));
+        $font_vern_min = max(12, (int) round($font_min_main * 0.5));
+        $vern_gap      = max(12, (int) round($font_main * 0.4)); // couples the pair; smaller than min_gap
+        $vernc         = self::blend_color($im, $fg, $bg, 0.40);
+
+        // Always-bottom layout: reference (+logo) pinned to the bottom padding; text fills above.
+        $ref_h = self::measure_text_block($ref, $content_w, $font_file, $ref_size);
+        $bottom_for_ref = $h - $pad_bottom - $ref_h;
+        $content_bottom = $bottom_for_ref - $min_gap; // text never crosses below this
+        $avail_h = $content_bottom - $y;
+
+        if ($latin_clean !== '' && $vern_clean !== '') {
+            // Fit the small vernacular first (fixed tier, capped to ~45% of the area so a long
+            // translation can't crowd out the Latin), then fit the big Latin into what remains.
+            list($vs, $vtext) = self::fit_text_to_area($vern_clean, $content_w, max(1, (int) floor($avail_h * 0.45)), $font_file, $font_vern, $font_vern_min, $use_ttf, '', '', $lh);
+            $vern_h = self::measure_text_block($vtext, $content_w, $font_file, $vs, $lh);
+            $latin_area_h = max(1, $avail_h - $vern_h - $vern_gap);
+            list($ls, $ltext) = self::fit_text_to_area($latin_clean, $content_w, $latin_area_h, $font_file, $font_main, $font_min_main, $use_ttf, '', '', $lh);
+            // Big Latin at top; vernacular tucked directly beneath the drawn Latin (not the reserved area).
+            $latin_drawn_h = self::draw_text_block($im, $ltext, $x, $y, $content_w, $font_file, $ls, $fgc, $y + $latin_area_h, 'left', $lh);
+            $vy = $y + $latin_drawn_h + $vern_gap;
+            self::draw_text_block($im, $vtext, $x, $vy, $content_w, $font_file, $vs, $vernc, $content_bottom, 'left', $lh);
+        } else {
+            // Only one edition present → single big block (original behavior).
+            $only = $latin_clean !== '' ? $latin_clean : $vern_clean;
+            list($fit_size, $fit_text) = self::fit_text_to_area($only, $content_w, $avail_h, $font_file, $font_main, $font_min_main, $use_ttf, '', '', $lh);
+            self::draw_text_block($im, $fit_text, $x, $y, $content_w, $font_file, $fit_size, $fgc, $content_bottom, 'left', $lh);
+        }
+        // Draw logo (if any) at bottom on chosen side with adjusted padding
         if ($icon_im) {
             $logo_pad_x = max(0, $pad_x + $logo_pad_adjust_x);
             $logo_pad_y = max(0, $pad_bottom + $logo_pad_adjust_y);
