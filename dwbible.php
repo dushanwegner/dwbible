@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.13.01
+* Version: 1.26.07.13.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.13.01');
+    define('DWBIBLE_VERSION', '1.26.07.13.02');
 }
 
 // Load include classes before hooks are registered
@@ -1237,7 +1237,7 @@ class DwBible_Plugin {
      *                              the passage; url is still built when the book resolves.
      */
     public static function passage_teaser($slug, $ch, $verses, $lang = '', $teaser_verses = 3) {
-        $out  = ['text' => '', 'url' => ''];
+        $out  = ['text' => '', 'url' => '', 'book' => ''];
         $slug = (string) $slug;
         $ch   = absint($ch);
         if ($slug === '' || $ch <= 0) return $out;
@@ -1271,35 +1271,45 @@ class DwBible_Plugin {
         // Quote only the opening verses; CSS clamps the visual length further.
         $last = min($vt, $vf + max(1, (int) $teaser_verses) - 1);
 
-        $cache_key = 'dwbible_teaser_' . md5($dataset . '|' . $key . '|' . $ch . '|' . $vf . '-' . $last);
+        $cache_key = 'dwbible_teaser_' . md5('v2|' . $dataset . '|' . $key . '|' . $ch . '|' . $vf . '-' . $last);
         $cached    = get_transient($cache_key);
-        if (is_string($cached)) {
-            $out['text'] = $cached;
+        if (is_array($cached)) {
+            $out['text'] = isset($cached['text']) ? (string) $cached['text'] : '';
+            $out['book'] = isset($cached['book']) ? (string) $cached['book'] : '';
             return $out;
         }
 
         // Pure file read of the vernacular chapter JSON — no query-var side effects.
-        // Shape: { "verses": [ { "verse": int, "text": string, … }, … ] }.
+        // Shape: { "_meta": { "book": { "name": "Römer" } },
+        //          "verses": [ { "verse": int, "text": string, … }, … ] }.
         $text = '';
+        $book = '';
         $file = dwbible_data_dir() . $dataset . '/json/' . $key . '/' . $ch . '.json';
         if (is_readable($file)) {
             $data = json_decode((string) file_get_contents($file), true);
-            if (isset($data['verses']) && is_array($data['verses'])) {
-                $parts = [];
-                foreach ($data['verses'] as $v) {
-                    $n = isset($v['verse']) ? (int) $v['verse'] : 0;
-                    if ($n >= $vf && $n <= $last && isset($v['text']) && $v['text'] !== '') {
-                        $parts[] = (string) $v['text'];
-                    }
+            if (is_array($data)) {
+                if (isset($data['_meta']['book']['name'])) {
+                    $book = (string) $data['_meta']['book']['name']; // full localized name
                 }
-                if ($parts) $text = self::clean_verse_text_for_output(implode(' ', $parts));
+                if (isset($data['verses']) && is_array($data['verses'])) {
+                    $parts = [];
+                    foreach ($data['verses'] as $v) {
+                        $n = isset($v['verse']) ? (int) $v['verse'] : 0;
+                        if ($n >= $vf && $n <= $last && isset($v['text']) && $v['text'] !== '') {
+                            $parts[] = (string) $v['text'];
+                        }
+                    }
+                    if ($parts) $text = self::clean_verse_text_for_output(implode(' ', $parts));
+                }
             }
         }
 
-        // Immutable content → cache long; cache a miss briefly so a gap doesn't
-        // re-hit the filesystem on every render.
-        set_transient($cache_key, $text, $text === '' ? DAY_IN_SECONDS : MONTH_IN_SECONDS);
+        // Immutable content → cache long; cache a total miss briefly so a gap
+        // doesn't re-hit the filesystem on every render.
+        set_transient($cache_key, ['text' => $text, 'book' => $book],
+            ($text === '' && $book === '') ? DAY_IN_SECONDS : MONTH_IN_SECONDS);
         $out['text'] = $text;
+        $out['book'] = $book;
         return $out;
     }
 
