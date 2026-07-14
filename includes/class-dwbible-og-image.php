@@ -367,6 +367,11 @@ class DwBible_OG_Image {
             $candidate = self::uploads_url_to_path($font_url);
             if ($candidate !== '') { $font_file = $candidate; }
         }
+        // Vernacular companion font: a lighter weight of the same family (GD can't synthesize
+        // weight, so a lighter secondary line needs its own file). Falls back to the main font.
+        $font_file_vern = $font_file;
+        $cand_vern = self::uploads_url_to_path((string) get_option('dwbible_og_font_url_vern', ''));
+        if ($cand_vern !== '') { $font_file_vern = $cand_vern; }
         // Font sizes: main (max, auto-fit) and reference (exact). Fallback to legacy if unset
         $font_size_legacy = intval(get_option('dwbible_og_font_size', 40));
         $font_main = max(8, intval(get_option('dwbible_og_font_size_main', $font_size_legacy?:40)));
@@ -400,6 +405,8 @@ class DwBible_OG_Image {
             'bg' => $bg,
             'fg' => $fg,
             'font' => $font_file ?: $font_url,
+            'font_vern' => $font_file_vern,
+            'lh_vern' => $lhv_opt,
             'font_main' => $font_main,
             'font_ref' => $font_ref,
             'min_main' => $font_min_main,
@@ -483,6 +490,11 @@ class DwBible_OG_Image {
         $line_h_main = floatval(get_option('dwbible_og_line_height_main', '1.35'));
         // Sanity check: line height should be a factor (1.0-3.0), not pixels
         if ($line_h_main < 1.0 || $line_h_main > 3.0) { $line_h_main = 1.35; }
+        // Vernacular line height: a tad looser than the Latin by default (empty option → main+0.2);
+        // an explicit factor overrides. Same 1.0–3.0 sanity floor/ceiling.
+        $lhv_opt = (string) get_option('dwbible_og_line_height_vern', '');
+        $line_h_vern = $lhv_opt === '' ? ($line_h_main + 0.2) : floatval($lhv_opt);
+        if ($line_h_vern < 1.0 || $line_h_vern > 3.0) { $line_h_vern = min(3.0, $line_h_main + 0.2); }
         $icon_im = null; $icon_w = 0; $icon_h = 0;
         if ($icon_url) {
             $blob = self::maybe_read_local_upload_url($icon_url);
@@ -535,7 +547,9 @@ class DwBible_OG_Image {
         $vern_clean  = $text       !== '' ? $wrap_quotes($text)       : '';
 
         $use_ttf = (is_string($font_file) && $font_file !== '' && function_exists('imagettfbbox') && function_exists('imagettftext') && file_exists($font_file));
+        $use_ttf_vern = (is_string($font_file_vern) && $font_file_vern !== '' && function_exists('imagettfbbox') && function_exists('imagettftext') && file_exists($font_file_vern));
         $lh = max(1.0, $line_h_main);
+        $lh_vern = max(1.0, $line_h_vern);
         $content_w = $w - 2 * $pad_x;
 
         // Vernacular is the SMALL secondary line: ~half the Latin max size, drawn in a muted tone
@@ -554,14 +568,15 @@ class DwBible_OG_Image {
         if ($latin_clean !== '' && $vern_clean !== '') {
             // Fit the small vernacular first (fixed tier, capped to ~45% of the area so a long
             // translation can't crowd out the Latin), then fit the big Latin into what remains.
-            list($vs, $vtext) = self::fit_text_to_area($vern_clean, $content_w, max(1, (int) floor($avail_h * 0.45)), $font_file, $font_vern, $font_vern_min, $use_ttf, '', '', $lh);
-            $vern_h = self::measure_text_block($vtext, $content_w, $font_file, $vs, $lh);
+            // The vernacular uses its own (lighter) font + looser line height.
+            list($vs, $vtext) = self::fit_text_to_area($vern_clean, $content_w, max(1, (int) floor($avail_h * 0.45)), $font_file_vern, $font_vern, $font_vern_min, $use_ttf_vern, '', '', $lh_vern);
+            $vern_h = self::measure_text_block($vtext, $content_w, $font_file_vern, $vs, $lh_vern);
             $latin_area_h = max(1, $avail_h - $vern_h - $vern_gap);
             list($ls, $ltext) = self::fit_text_to_area($latin_clean, $content_w, $latin_area_h, $font_file, $font_main, $font_min_main, $use_ttf, '', '', $lh);
             // Big Latin at top; vernacular tucked directly beneath the drawn Latin (not the reserved area).
             $latin_drawn_h = self::draw_text_block($im, $ltext, $x, $y, $content_w, $font_file, $ls, $fgc, $y + $latin_area_h, 'left', $lh);
             $vy = $y + $latin_drawn_h + $vern_gap;
-            self::draw_text_block($im, $vtext, $x, $vy, $content_w, $font_file, $vs, $vernc, $content_bottom, 'left', $lh);
+            self::draw_text_block($im, $vtext, $x, $vy, $content_w, $font_file_vern, $vs, $vernc, $content_bottom, 'left', $lh_vern);
         } else {
             // Only one edition present → single big block (original behavior).
             $only = $latin_clean !== '' ? $latin_clean : $vern_clean;

@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Straubinger (es), Crampon (fr), Martini (it).
-* Version: 1.26.07.13.07
+* Version: 1.26.07.13.08
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.07.13.07');
+    define('DWBIBLE_VERSION', '1.26.07.13.08');
 }
 
 // Load include classes before hooks are registered
@@ -2193,6 +2193,7 @@ JS;
             ['dwbible_og_text_color',            'string',  'string',     '#ffffff'],
             ['dwbible_og_font_ttf',              'string',  'string',     '',                 null, true],
             ['dwbible_og_font_url',              'string',  'url',        '',                 null, true],
+            ['dwbible_og_font_url_vern',         'string',  'url',        '',                 null, true],   // lighter-weight companion for the small vernacular line
             ['dwbible_og_font_size',             'integer', 'int_min',    40,                 8],   // back-compat fallback
             ['dwbible_og_font_size_main',        'integer', 'int_min',    40,                 8],
             ['dwbible_og_font_size_ref',         'integer', 'int_min',    40,                 8],
@@ -2203,6 +2204,7 @@ JS;
             ['dwbible_og_padding_bottom',        'integer', 'int',        50],
             ['dwbible_og_min_gap',               'integer', 'int',        16],
             ['dwbible_og_line_height_main',      'string',  'string',     '1.35'],
+            ['dwbible_og_line_height_vern',      'string',  'string',     ''],   // empty → derived (main + 0.2)
             // OG: icon & logo
             ['dwbible_og_icon_url',              'string',  'url',        '',                 null, true],
             ['dwbible_og_logo_side',             'string',  'enum',       'left',             ['left', 'right']],
