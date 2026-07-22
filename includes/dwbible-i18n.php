@@ -83,7 +83,25 @@ add_filter('do_parse_request', function ($do, $wp = null, $extra = null) {
     // string and is colon-safe.
     $path = strtok((string) ($_SERVER['REQUEST_URI'] ?? ''), '?');
     if ($path === false) { $path = '/'; }
-    if (preg_match('#\.(json|xml|txt)$#i', $path)) {
+
+    // ── Machine .json guessability bridge ──────────────────────────────────────
+    // An AI agent that appends ".json" to ANY Bible citation URL must land on the
+    // single-language dataset JSON, not a dead HTML 404. The canonical page is
+    // /{lang}/biblia/{book}/{ch}/ (e.g. /de/biblia/ephesios/6/), so the natural
+    // guess is /de/biblia/ephesios/6.json. That form — plus the older /{lang}/bible/
+    // alias, the legacy interlinear combos (/latin-bibel/…), and translation-name
+    // aliases (/menge/…) — are all normalised here to /{dataset}/{rest}.json (301).
+    // Requests already on a real dataset slug (/bibel/…json) return null → served
+    // directly by the .json rewrite rules. .xml/.txt endpoints keep their slug.
+    if (preg_match('#\.json$#i', $path)) {
+        $canonical = dwbible_i18n_normalize_json_path($path);
+        if ($canonical !== null) {
+            wp_safe_redirect(home_url($canonical), 301);
+            exit;
+        }
+        return $do;
+    }
+    if (preg_match('#\.(xml|txt)$#i', $path)) {
         return $do;
     }
     if (!preg_match(dwbible_i18n_legacy_slug_re(), $path, $m)) {
@@ -137,8 +155,44 @@ function dwbible_i18n_json_dataset_for_slug(string $slug): string {
     if ($lang === '' && function_exists('dwi18n_negotiate_lang')) {
         $lang = dwi18n_negotiate_lang();
     }
+    return dwbible_i18n_dataset_for_lang($lang);
+}
+
+/** Single-language JSON dataset slug for a web language (en→bible, de→bibel, …). */
+function dwbible_i18n_dataset_for_lang(string $lang): string {
     $by_lang = ['en' => 'bible', 'de' => 'bibel', 'es' => 'spanish', 'fr' => 'french', 'it' => 'italian'];
     return $by_lang[$lang] ?? 'bible';
+}
+
+/**
+ * Normalise a guessed Bible .json URL to its canonical single-language dataset
+ * form (/{dataset}/{rest}.json), or null when the path is already canonical (a
+ * real dataset slug) or is not a Bible endpoint at all. The book/chapter/verse
+ * remainder is passed through verbatim — the JSON API's lenient book resolver
+ * accepts Latin, vernacular and abbreviated book slugs alike, so only the
+ * leading translation segment needs rewriting.
+ */
+function dwbible_i18n_normalize_json_path(string $path): ?string {
+    // Canonical prefixed page + ".json": /{lang}/(biblia|bible)/{rest}.json
+    // The /{lang}/ prefix chooses the vernacular; 'biblia' is the canonical
+    // section, 'bible' the older alias. Both map to the language's dataset.
+    if (preg_match('#^/(en|de|es|fr|it)/(?:biblia|bible)/(.+\.json)$#', $path, $m)) {
+        return '/' . dwbible_i18n_dataset_for_lang($m[1]) . '/' . $m[2];
+    }
+    // Direct section/alias slug + ".json": /{slug}/{rest}.json. Only known Bible
+    // section slugs are bridged; a request already on its dataset slug (bibel,
+    // bible, latin, …) maps to itself → null → served directly, no redirect loop.
+    if (preg_match('#^/([^/]+)/(.+\.json)$#', $path, $m)) {
+        if (!preg_match(dwbible_i18n_legacy_slug_re(), '/' . $m[1])) {
+            return null; // not a Bible section slug — leave to other handlers
+        }
+        $dataset = dwbible_i18n_json_dataset_for_slug($m[1]);
+        if ($dataset === $m[1]) {
+            return null; // already the canonical dataset slug
+        }
+        return '/' . $dataset . '/' . $m[2];
+    }
+    return null;
 }
 
 /**

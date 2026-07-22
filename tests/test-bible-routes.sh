@@ -198,6 +198,28 @@ check "$BASE_URL/bible/genesis/1.json" 200 "bible/genesis/1.json"
 check "$BASE_URL/bible/john/3:16.json" 200 "bible/john/3:16.json"
 check "$BASE_URL/bible-index.json" 200 "bible-index.json (unified)"
 
+# ── 7b. AI URL-guessability: append .json to ANY citation URL ───────
+# A cold AI agent that lands on a Bible page and appends ".json" — or guesses
+# a /{lang}/… form — must reach the dataset JSON, never a dead HTML 404. Every
+# guessable form 301s to /{dataset}/{rest}.json; the direct dataset slug serves
+# it. (dwbible-i18n normalize; requires dwi18n active.)
+section "AI URL-guessability (.json on any citation form)"
+# Canonical page form: /{lang}/biblia/{book}/{ch}.json (Latin book slug, as pages use)
+check_redirect "$BASE_URL/de/biblia/ephesios/6.json" "/bibel/ephesios/6.json" "de/biblia/…json → bibel dataset"
+check_follow   "$BASE_URL/de/biblia/ephesios/6.json" "de/biblia/…json final 200"
+check_redirect "$BASE_URL/en/biblia/ephesians/6.json" "/bible/ephesians/6.json" "en/biblia/…json → bible dataset"
+# Older /{lang}/bible/ alias form
+check_redirect "$BASE_URL/de/bible/ephesians/6.json" "/bibel/ephesians/6.json" "de/bible/…json → bibel dataset"
+# Legacy interlinear combo + .json (chapter, colon-verse, slash-verse)
+check_redirect "$BASE_URL/latin-bibel/ephesians/6.json" "/bibel/ephesians/6.json" "latin-bibel/…json → bibel"
+check_redirect "$BASE_URL/latin-bibel/ephesians/6:11.json" "/bibel/ephesians/6:11.json" "latin-bibel colon-verse json"
+check_redirect "$BASE_URL/latin-bibel/ephesians/6/11.json" "/bibel/ephesians/6/11.json" "latin-bibel slash-verse json"
+# Translation-name / native-word aliases + .json
+check_redirect "$BASE_URL/menge/ephesians/6.json" "/bibel/ephesians/6.json" "menge/…json → bibel"
+check_redirect "$BASE_URL/bibbia/ephesians/6.json" "/italian/ephesians/6.json" "bibbia/…json → italian"
+# Direct dataset slug serves without a redirect (no loop) — final 200, no 301
+check "$BASE_URL/bibel/ephesios/6.json" 200 "bibel/…json served directly (no redirect)"
+
 # Content invariants of the unified index (not just HTTP 200):
 #   - all 6 translations advertised (la/en/de/fr/es/it)
 #   - 73 books, canonical chapter total (1333, Clementine division)
