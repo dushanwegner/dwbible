@@ -211,6 +211,20 @@ ok "$([ "$(probe "$U" "d['book']['key']")" = "matthew" ] && echo 1 || echo 0)" "
 U="${BASE}/bible-ref.json?q=Zzzz+5:1-7:29&lang=la"
 ok "$([ "$(probe "$U" "d['error']")" = "BOOK_NOT_RECOGNISED" ] && echo 1 || echo 0)" "a genuinely unknown book still says so"
 
+echo
+echo "the no-hits hint tells the truth about the edition it describes:"
+# It used to say the Scío writes "Spíritu" beside "Espíritu". The corpus has
+# Espíritu 716 times and standalone Spíritu ZERO times, so a reader following
+# "search the period spelling" got nothing.
+U="${BASE}/bible-search.json?q=zzzznothing&lang=es&limit=1"
+ok "$([ "$(probe "$U" "'Spíritu' in (d['_meta'].get('noHitsBecause') or '')")" = "False" ] && echo 1 || echo 0)" "the Spanish hint no longer claims a spelling the edition lacks"
+ok "$([ "$(probe "$U" "'dixo' in (d['_meta'].get('noHitsBecause') or '')")" = "True" ] && echo 1 || echo 0)" "…and names the x-for-j rule, which the edition does use"
+# every spelling the hints DO name must actually be in its corpus
+ok "$([ "$(probe "${BASE}/bible-search.json?q=dixo&lang=es&limit=1" "d['_meta']['total'] > 2000")" = "True" ] && echo 1 || echo 0)" "the Spanish hint's 'dixo' is real"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=muger&lang=es&limit=1" "d['_meta']['total'] > 500")" = "True" ] && echo 1 || echo 0)" "the Spanish hint's 'muger' is real"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=shew&lang=en&limit=1" "d['_meta']['total'] > 0")" = "True" ] && echo 1 || echo 0)" "the English hint's 'shew' is real"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=nol&lang=it&limit=1" "d['_meta']['total'] > 0")" = "True" ] && echo 1 || echo 0)" "the Italian hint's 'nol' is real"
+
 # grep -c, not grep -q: under `pipefail` a -q that exits on the first match
 # SIGPIPEs the printf and the pipeline reads as failed.
 H=$("${CURL[@]}" -L "${BASE}/en/bible/galatians/3:28/")

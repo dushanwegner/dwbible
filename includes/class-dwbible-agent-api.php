@@ -878,7 +878,7 @@ trait DwBible_Agent_API_Trait {
     private static function agent_search_orthography_hint( string $dataset ): ?string {
         $hints = [
             'latin'   => 'The Clementine Vulgate (1592) writes J for consonantal I and uses the æ/œ ligatures — "Jesu", "ejus", "cælum". This search already folds j/i and æ/œ, so either spelling matches.',
-            'spanish' => 'The Scío de San Miguel (1790s) keeps 18th-century Spanish orthography: "Christo" and "Jesu-Christo", never "Cristo" or "Jesucristo"; "Spíritu" beside "Espíritu". Search the period spelling.',
+            'spanish' => 'The Scío de San Miguel (1790s) keeps 18th-century Spanish orthography: "Christo" and "Jesu-Christo", never "Cristo" or "Jesucristo"; and x where modern Spanish writes j — "dixo" (2,635 verses; "dijo" is in 5), "muger" (728; "mujer" in none). Search the period spelling.',
             'italian' => 'The Martini (1780s) keeps 18th-century Italian: "Gesù Cristo" as two words, older verb and pronoun forms ("nol" for "non lo").',
             'bible'   => 'The Douay-Rheims keeps early-modern English: "thee", "thou", "hath", "shew". Search the form the edition uses.',
         ];
