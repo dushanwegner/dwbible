@@ -120,6 +120,15 @@ ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=abc" "d['_meta'
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=-5" "d['_meta']['limit']")" = "20" ] && echo 1 || echo 0)" "…and so does a negative one (absint made -5 mean 5)"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=101" "d['_meta']['limit']")" = "100" ] && echo 1 || echo 0)" "over the ceiling still clamps to the ceiling"
 
+echo "search paging — a total the API can actually deliver:"
+U="${BASE}/bible-search.json?q=Herr&lang=de&limit=3"
+ok "$([ "$(probe "$U" "d['_meta']['offset'], d['_meta']['shown'], d['_meta']['nextOffset']")" = "(0, 3, 3)" ] && echo 1 || echo 0)" "a truncated answer hands back the offset to ask for next"
+ok "$([ "$(probe "${U}&offset=3" "d['_meta']['offset'], d['hits'][0]['ref'] != '$(probe "$U" "d['hits'][0]['ref']")'")" = "(3, True)" ] && echo 1 || echo 0)" "…and that offset really advances (it used to be ignored in silence)"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=Herr&lang=de&limit=3&offset=8008" "d['_meta']['nextOffset']")" = "None" ] && echo 1 || echo 0)" "the last page says there is no next"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=Herr&lang=de&limit=3&offset=99999" "d['_meta']['shown'], d['_meta']['nextOffset']")" = "(0, None)" ] && echo 1 || echo 0)" "an offset past the end is empty, not an error"
+ok "$([ "$(code "${BASE}/bible-search.json?q=Herr&lang=de&offset=abc")" = "400" ] && echo 1 || echo 0)" "a malformed offset is refused, not ignored"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=Ierusalem&lang=la&limit=100&offset=700" "d['_meta']['total'], d['_meta']['offset'] + d['_meta']['shown']")" = "(785, 785)" ] && echo 1 || echo 0)" "walking to the end reaches exactly `total` hits"
+
 echo "verse / range JSON — the promised fields:"
 U="${BASE}/latin/job/20/12-13.json"
 ok "$([ "$(probe "$U" "d['citation'], d['verses'][0]['citation']")" = "('Iob 20:12-13 (Clementine Vulgate)', 'Iob 20:12 (Clementine Vulgate)')" ] && echo 1 || echo 0)" "one book name per response (Iob everywhere, no Job)"

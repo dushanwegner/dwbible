@@ -678,7 +678,22 @@ trait DwBible_Agent_API_Trait {
         $lang    = (string) array_search( $dataset, $by_lang, true );
         $meta_ds = self::json_datasets()[ $dataset ];
 
-        $limit = self::agent_parse_limit( 20 );
+        $limit  = self::agent_parse_limit( 20 );
+        // WHERE TO START. Without this the API reported a total it could never
+        // deliver: 8,010 matches, 100 of them reachable, and `truncated: true`
+        // saying there were more without any way to ask for them. Worse, an
+        // agent guessing at `offset`/`page`/`cursor` got page one back in
+        // silence and would have presented it as page two.
+        $offset = 0;
+        if ( isset( $_GET['offset'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+            $raw_off = trim( (string) wp_unslash( $_GET['offset'] ) ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+            if ( ! preg_match( '/^[0-9]+$/', $raw_off ) ) {
+                self::agent_error( 400, 'UNSUPPORTED_PARAM', "offset=\"{$raw_off}\" is not a whole number.", [
+                    'suggestion' => 'offset is 0-based: offset=100 begins at the 101st match.',
+                ] );
+            }
+            $offset = (int) $raw_off;
+        }
 
         $only_key = null;
         $book_raw = isset( $_GET['book'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['book'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
@@ -721,6 +736,7 @@ trait DwBible_Agent_API_Trait {
                         if ( strpos( $hay, $t ) === false ) { continue 2; }
                     }
                     $total++;
+                    if ( $total <= $offset ) { continue; }
                     if ( count( $hits ) >= $limit ) { continue; }
                     $n    = (int) $v['verse'];
                     $text = (string) $v['text'];
@@ -754,12 +770,18 @@ trait DwBible_Agent_API_Trait {
                 'book'        => $only_key,
                 'bookName'    => $only_name,
                 'limit'       => $limit,
+                'offset'      => $offset,
                 'total'       => $total,
-                'truncated'   => $total > count( $hits ),
+                'shown'       => count( $hits ),
+                'truncated'   => ( $offset + count( $hits ) ) < $total,
+                // The next request, already built — so continuing never depends
+                // on guessing what this API calls its paging parameter.
+                'nextOffset'  => ( $offset + count( $hits ) ) < $total ? $offset + count( $hits ) : null,
                 'typography'  => $clean ? 'clean' : 'source',
                 'noHitsBecause' => $total === 0 ? self::agent_search_orthography_hint( $dataset ) : null,
                 'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i). '
-                               . 'lang = one of la,en,de,es,fr,it; book = a book to narrow to; limit ≤ ' . self::AGENT_SEARCH_MAX_LIMIT . '. '
+                               . 'lang = one of la,en,de,es,fr,it; book = a book to narrow to; limit ≤ ' . self::AGENT_SEARCH_MAX_LIMIT . '; '
+                               . 'offset = where to start, 0-based — when `truncated` is true, `nextOffset` is the offset to ask for next. '
                                . 'Each hit carries its own HTML page, its JSON, and a refJson that returns the verse in every language.',
             ],
             'hits' => $hits,
