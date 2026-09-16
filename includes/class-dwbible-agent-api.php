@@ -890,7 +890,7 @@ trait DwBible_Agent_API_Trait {
                 // on guessing what this API calls its paging parameter.
                 'nextOffset'  => ( $offset + count( $hits ) ) < $total ? $offset + count( $hits ) : null,
                 'typography'  => $clean ? 'clean' : 'source',
-                'noHitsBecause' => $total === 0 ? self::agent_search_orthography_hint( $dataset ) : null,
+                'noHitsBecause' => $total === 0 ? ( self::agent_search_citation_hint( $raw, $lang ) ?? self::agent_search_orthography_hint( $dataset ) ) : null,
                 'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i). '
                                . 'lang = one of la,en,de,es,fr,it; book = a book to narrow to; limit ≤ ' . self::AGENT_SEARCH_MAX_LIMIT . '; '
                                . 'offset = where to start, 0-based — when `truncated` is true, `nextOffset` is the offset to ask for next. '
@@ -927,6 +927,26 @@ trait DwBible_Agent_API_Trait {
      *
      * Only editions whose orthography actually differs from today's carry one.
      */
+    /**
+     * When a search that found nothing was really a CITATION, say so.
+     *
+     * "John 3:16" sent here searches verse TEXT for the words "john", "3" and
+     * "16", finds nothing, and the answer used to give the edition's
+     * orthography hint — "the Douay-Rheims keeps early-modern English: thee,
+     * thou…" — a wrong diagnosis a model then acts on, trying archaic
+     * spellings of a reference (quality loop tick 93). A query the resolver's
+     * own grammar reads as book + number is pointed at /bible-ref.json instead.
+     * Runs only on an empty result, so a word search is never second-guessed.
+     */
+    private static function agent_search_citation_hint( string $raw, string $lang ): ?string {
+        $parsed = DwBible_Reference::parse_query( $raw );
+        if ( $parsed['ref'] === '' || self::internal_key_from_any_book( $parsed['name'], 'latin' ) === null ) {
+            return null;
+        }
+        $url = site_url( '/bible-ref.json?q=' . rawurlencode( $raw ) . '&lang=' . rawurlencode( $lang !== '' ? $lang : 'la' ) );
+        return "\"{$raw}\" is a citation, not words to find: this search matches verse text. Read the passage at {$url}";
+    }
+
     private static function agent_search_orthography_hint( string $dataset ): ?string {
         $hints = [
             'latin'   => 'The Clementine Vulgate (1592) writes J for consonantal I and uses the æ/œ ligatures — "Jesu", "ejus", "cælum". This search folds j/i, æ/ae and œ/oe, so all of those match. What it cannot fold is oe where this edition writes ae: heaven here is "cælum" (175 verses) and never "coelum" (0), so "Cœli enarrant" finds nothing where "Cæli enarrant" finds the psalm.',

@@ -127,6 +127,11 @@ ok "$(probe "${BASE}/bible-ref.json?q=Gal+3%3A28&lang=all" "1 if len(d.get('pass
 # wrong reading: "Genesis 1-3" suggested "Genesis 1:3" (ONE verse) "for verses" (tick 92).
 ok "$(probe "${BASE}/bible-ref.json?q=Genesis+1-3" "0 if 'Genesis 1:3\"' in d.get('suggestion','') else 1")" "…and does not suggest the single verse 1:3 as 'verses'"
 ok "$(probe "${BASE}/bible-ref.json?q=Genesis+1-3" "1 if ':1-3' in d.get('suggestion','') and 'Genesis 1\"' in d.get('suggestion','') else 0")" "…it offers verses 1-3 of a named chapter, and the chapters one by one"
+# A CITATION sent to the search finds no verse TEXT — and the answer used to blame the
+# edition's spelling ("keeps early-modern English: thee, thou…") instead (tick 93).
+ok "$(probe "${BASE}/bible-search.json?q=John+3%3A16&lang=en" "1 if 'bible-ref.json' in (d.get('_meta',{}).get('noHitsBecause') or '') else 0")" "a citation sent to the search is pointed at the resolver"
+ok "$(probe "${BASE}/bible-search.json?q=John+3%3A16&lang=en" "0 if 'thee' in (d.get('_meta',{}).get('noHitsBecause') or '') else 1")" "…and not told to try the edition's spelling"
+ok "$(probe "${BASE}/bible-search.json?q=quantumphysics&lang=en" "1 if 'thee' in (d.get('_meta',{}).get('noHitsBecause') or '') else 0")" "a word search that finds nothing keeps the orthography hint"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=en,klingon" "d['_meta']['translation']['language']")" = "en" ] && echo 1 || echo 0)" "a MIXED list still names English, so it is served"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=abc" "d['_meta']['limit']")" = "20" ] && echo 1 || echo 0)" "a malformed limit means the default, not one hit"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=-5" "d['_meta']['limit']")" = "20" ] && echo 1 || echo 0)" "…and so does a negative one (absint made -5 mean 5)"
