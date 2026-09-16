@@ -327,6 +327,15 @@ ok "$(has 'rel="alternate" type="application/json" href="'"${BASE}"'/bible/galat
 ok "$(has 'rel="help" type="text/plain" href="'"${BASE}"'/llms.txt"')" "verse page links llms.txt"
 ok "$(has 'og:description" content="There is neither Jew nor Greek')" "og:description is the verse (in the page language), not the tagline"
 
+# The documents an agent reads FIRST must be readable from another origin, like the
+# JSON they describe. A browser-hosted agent that may fetch /bible-ref.json but not
+# the llms.txt telling it that endpoint exists never learns about it. dwtheme serves
+# all three; ?format=json already sent the header while its text twin did not.
+cors() { "${CURL[@]}" -L -o /dev/null -D - -H 'Origin: https://example.org' "$1" | grep -ci '^access-control-allow-origin: \*'; }
+for u in "/llms.txt" "/llms-full.txt" "/prayers/actus-contritionis/?format=text" "/prayers/actus-contritionis/?format=json"; do
+  ok "$([ "$(cors "${BASE}${u}")" -gt 0 ] && echo 1 || echo 0)" "$u is readable cross-origin (Access-Control-Allow-Origin: *)"
+done
+
 echo
 echo "passed ${pass}, failed ${fail}"
 [ "$fail" -eq 0 ]
