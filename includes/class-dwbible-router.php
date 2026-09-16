@@ -384,18 +384,29 @@ trait DwBible_Router_Trait {
                 if ($legacy) { break; }
             }
         }
+        // A legacy slug is only useful if it names a real book.
+        if ($legacy) {
+            $key = DwBible_Plugin::key_from_any_book_slug($legacy);
+            if ($key !== null) { return $key; }
+        }
+
         // LAST RESORT: a name this site itself prints as a citation. The
         // vernacular citation names are a different set from the URL slugs and
         // the search vocabulary, so quoting an answer's own citation back used
         // to fail for Italian and for two accented Spanish names.
-        if (!$legacy) {
-            $cited = self::key_from_citation_name($raw_book);
-            if ($cited !== null) { return $cited; }
-        }
+        //
+        // This runs even when a legacy slug WAS found, because a found slug is
+        // not necessarily a key: the Spanish and Italian datasets name Esther's
+        // directory "ester", which matches here and then maps to no key at all.
+        // "Ester" therefore used to come back as the key "ester" — a book that
+        // does not exist — and a search for it answered 0 hits, no error, with
+        // the raw input echoed back as the book's name.
+        $cited = self::key_from_citation_name($raw_book);
+        if ($cited !== null) { return $cited; }
 
-        if (!$legacy) { return null; }
-
-        return DwBible_Plugin::key_from_any_book_slug($legacy) ?? $legacy;
+        // Nothing named a book. A legacy slug that maps to no key is returned
+        // as it always has been, for callers that treat it as an identifier.
+        return $legacy ?: null;
     }
 
     /**

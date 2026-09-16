@@ -190,6 +190,14 @@ done <<'CITES'
 Nahún 1:1|nahum
 CITES
 
+# A legacy slug is not a key. The Spanish/Italian slug map answers "ester" for
+# "Ester", which names no book — so this used to search a book that does not
+# exist: 0 hits, NO error, and the raw input echoed back as the book's name.
+# One of the 366 printed book names, and the only silent zero among them.
+U="${BASE}/bible-search.json?q=et&lang=la&book=Ester&limit=1"
+ok "$([ "$(probe "$U" "d['_meta']['bookName']")" = "Esther" ] && echo 1 || echo 0)" "book=Ester names the book Esther, not the raw input"
+ok "$([ "$(probe "$U" "d['_meta']['total'] > 0")" = "True" ] && echo 1 || echo 0)" "book=Ester actually searches Esther"
+
 # grep -c, not grep -q: under `pipefail` a -q that exits on the first match
 # SIGPIPEs the printf and the pipeline reads as failed.
 H=$("${CURL[@]}" -L "${BASE}/en/bible/galatians/3:28/")
