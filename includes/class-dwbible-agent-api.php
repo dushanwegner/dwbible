@@ -54,17 +54,68 @@ trait DwBible_Agent_API_Trait {
      * Accepts language codes AND dataset slugs so an agent that only knows the
      * llms.txt "translation slug" list is not wrong.
      */
-    private static function agent_parse_langs( string $raw, array $default ): array {
+    private static function agent_parse_langs( string $raw, array $default, ?array &$unknown = null ): array {
         $by_lang = self::agent_dataset_by_lang();
         $known   = array_keys( self::json_datasets() );
         $out     = [];
+        $unknown = [];
         foreach ( preg_split( '/[\s,+]+/', strtolower( trim( $raw ) ) ) as $tok ) {
             if ( $tok === '' ) { continue; }
-            if ( $tok === 'all' ) { return $known; }
+            if ( $tok === 'all' ) { $unknown = []; return $known; }
             $ds = $by_lang[ $tok ] ?? ( in_array( $tok, $known, true ) ? $tok : null );
-            if ( $ds !== null && ! in_array( $ds, $out, true ) ) { $out[] = $ds; }
+            if ( $ds === null ) { $unknown[] = $tok; continue; }
+            if ( ! in_array( $ds, $out, true ) ) { $out[] = $ds; }
         }
         return $out ?: $default;
+    }
+
+    /**
+     * Refuse a `lang` nobody can serve, instead of quietly serving another one.
+     *
+     * An unknown BOOK was already a 404 while an unknown LANGUAGE was dropped on
+     * the floor: `?lang=klingon` answered in Latin, correctly labelled but never
+     * what was asked. Two kinds of unservable request, two different answers, in
+     * one API. A request naming ONLY languages this site does not hold is one it
+     * cannot honour, and it now says so. A mixed list ("en,klingon") still names
+     * English, so it is served and the unusable token is reported instead.
+     */
+    private static function agent_reject_unknown_langs( string $raw, array $unknown ): void {
+        if ( trim( $raw ) === '' || ! $unknown ) { return; }
+        if ( self::agent_langs_were_asked( [], $raw ) ) { return; }
+        $names = [];
+        foreach ( self::json_datasets() as $slug => $meta ) { $names[] = $meta['language'] . ' (' . $meta['name'] . ')'; }
+        self::agent_error( 400, 'UNSUPPORTED_LANGUAGE', 'This Bible is not held in: ' . implode( ', ', $unknown ) . '.', [
+            'available'  => $names,
+            'suggestion' => 'Pass one or more of la, en, de, es, fr, it — or "all".',
+        ] );
+    }
+
+    /** Whether any token of the raw parameter named a language this site holds. */
+    private static function agent_langs_were_asked( array $unused, string $raw ): bool {
+        $by_lang = self::agent_dataset_by_lang();
+        $known   = array_keys( self::json_datasets() );
+        foreach ( preg_split( '/[\s,+]+/', strtolower( trim( $raw ) ) ) as $tok ) {
+            if ( $tok === '' ) { continue; }
+            $ds = $by_lang[ $tok ] ?? ( in_array( $tok, $known, true ) ? $tok : null );
+            if ( $ds !== null ) { return true; }
+        }
+        return false;
+    }
+
+    /**
+     * `limit`, read forgivingly but never nonsensically.
+     *
+     * absint() turned "-5" into 5 and "abc" into 0, and a clamp to the minimum
+     * then made both mean "one hit" — a confident, arbitrary answer to a
+     * malformed request. Anything that is not a positive whole number falls
+     * back to the DEFAULT, which is what the caller would have got by not
+     * sending the parameter at all; a number above the ceiling still clamps.
+     */
+    private static function agent_parse_limit( int $default ): int {
+        if ( ! isset( $_GET['limit'] ) ) { return $default; } // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        $raw = trim( (string) wp_unslash( $_GET['limit'] ) ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        if ( ! preg_match( '/^[0-9]+$/', $raw ) || (int) $raw < 1 ) { return $default; }
+        return min( self::AGENT_SEARCH_MAX_LIMIT, (int) $raw );
     }
 
     // ── Book identity ───────────────────────────────────────────────────────
@@ -497,7 +548,9 @@ trait DwBible_Agent_API_Trait {
 
         $book      = self::agent_book_block( $key );
         $by_lang   = self::agent_dataset_by_lang();
-        $langs     = self::agent_parse_langs( isset( $_GET['lang'] ) ? (string) wp_unslash( $_GET['lang'] ) : '', [ 'latin', 'bible' ] ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        $lang_raw  = isset( $_GET['lang'] ) ? (string) wp_unslash( $_GET['lang'] ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        $langs     = self::agent_parse_langs( $lang_raw, [ 'latin', 'bible' ], $lang_unknown );
+        self::agent_reject_unknown_langs( $lang_raw, $lang_unknown );
         $clean     = self::agent_typography_mode() === 'clean';
         $site      = site_url();
 
@@ -606,14 +659,15 @@ trait DwBible_Agent_API_Trait {
             self::agent_error( 400, 'MISSING_QUERY', 'Pass the words to find as ?q=, e.g. /bible-search.json?q=dilexerunt+tenebras&lang=la' );
         }
 
-        $langs   = self::agent_parse_langs( isset( $_GET['lang'] ) ? (string) wp_unslash( $_GET['lang'] ) : '', [ 'latin' ] ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        $lang_raw = isset( $_GET['lang'] ) ? (string) wp_unslash( $_GET['lang'] ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        $langs    = self::agent_parse_langs( $lang_raw, [ 'latin' ], $lang_unknown );
+        self::agent_reject_unknown_langs( $lang_raw, $lang_unknown );
         $dataset = $langs[0];
         $by_lang = self::agent_dataset_by_lang();
         $lang    = (string) array_search( $dataset, $by_lang, true );
         $meta_ds = self::json_datasets()[ $dataset ];
 
-        $limit = isset( $_GET['limit'] ) ? absint( $_GET['limit'] ) : 20; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
-        $limit = max( 1, min( self::AGENT_SEARCH_MAX_LIMIT, $limit ) );
+        $limit = self::agent_parse_limit( 20 );
 
         $only_key = null;
         $book_raw = isset( $_GET['book'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['book'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
