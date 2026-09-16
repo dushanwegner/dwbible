@@ -165,6 +165,11 @@ trait DwBible_Agent_API_Trait {
         return $map[ $key ] ?? null;
     }
 
+    /** One book's citation name in every language, for collaborators outside this trait. */
+    public static function book_citation_names( string $key ): array {
+        return self::agent_book_names_table()[ $key ] ?? [];
+    }
+
     /**
      * Everything an agent needs to identify a book, in one block: the canonical
      * key (what the JSON dirs are named), the Latin URL slug (what the HTML pages
@@ -356,7 +361,7 @@ trait DwBible_Agent_API_Trait {
      * URL fetches it in one hop. Latin has no web language of its own (it is on
      * every interlinear page), so `la` is shown on the English page.
      */
-    private static function agent_html_url( string $lang, string $key, int $ch = 0, int $vf = 0, int $vt = 0 ): string {
+    public static function agent_html_url( string $lang, string $key, int $ch = 0, int $vf = 0, int $vt = 0 ): string {
         if ( $lang === 'la' || ! in_array( $lang, [ 'en', 'de', 'es', 'fr', 'it' ], true ) ) { $lang = 'en'; }
         $path = '/' . self::CANONICAL_SECTION . '/' . DwBible_Plugin::latin_slug_for_key( $key );
         if ( $ch > 0 ) {

@@ -427,6 +427,11 @@ trait DwBible_JSON_API_Trait {
      * index and by the 404 hints, so both always advertise the same
      * translations.
      */
+    /** The dataset list, for collaborators outside this trait (the JSON-LD emitter). */
+    public static function json_datasets_public(): array {
+        return self::json_datasets();
+    }
+
     private static function json_datasets(): array {
         return [
             'latin'   => [ 'name' => 'Clementine Vulgate', 'language' => 'la', 'languageName' => 'Latin' ],

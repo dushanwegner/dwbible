@@ -144,6 +144,24 @@ ok "$([ "$("${CURL[@]}" -sIL "${BASE}/bible/galatians/3/?dwbible_vfrom=28" | gre
 U="${BASE}/latin/galatians/3/28.json?typography=clean"
 ok "$([ "$(probe "$U" "' :' in d['text']")" = "False" ] && echo 1 || echo 0)" "typography=clean on a verse URL"
 
+echo "structured data on the pages that are actually indexed:"
+ld() { "${CURL[@]}" -L "$1" | python3 -c "
+import json,re,sys
+h=sys.stdin.read(); out=[]
+for b in re.findall(r'<script[^>]*type=\"application/ld\+json\"[^>]*>(.*?)</script>', h, re.S):
+    try: d=json.loads(b)
+    except Exception: out.append('INVALID'); continue
+    for n in d.get('@graph',[d]):
+        if n.get('@type')!='WebSite': out.append('%s|%s|%s' % (n.get('@type'), n.get('name'), n.get('url') or ''))
+print(';'.join(out))"; }
+ok "$([ -n "$(ld "${BASE}/en/biblia/ioannes/3/")" ] && echo 1 || echo 0)" "a canonical chapter page carries Bible markup (it carried none)"
+ok "$(ld "${BASE}/en/biblia/ioannes/3/" | grep -q 'Chapter|John 3' && echo 1 || echo 0)" "…naming the book as the reader's language cites it"
+ok "$(ld "${BASE}/de/biblia/matthaeus/5/" | grep -q 'Matthäus 5' && echo 1 || echo 0)" "…German says Matthäus, not the slug form"
+ok "$(ld "${BASE}/it/biblia/iob/20/" | grep -q 'Giobbe 20' && echo 1 || echo 0)" "…Italian says Giobbe"
+ok "$(ld "${BASE}/en/biblia/ioannes/3/" | grep -q "${BASE}/en/biblia/ioannes/3/" && echo 1 || echo 0)" "…and points at the canonical page, not a URL that redirects"
+ok "$([ -n "$(ld "${BASE}/es/biblia/psalmi/22/")" ] && echo 1 || echo 0)" "Spanish, French and Italian are covered too (three datasets the old map never had)"
+ok "$([ -n "$(ld "${BASE}/latin/john/3/")" ] && echo 1 || echo 0)" "and the Latin-only surface keeps its own"
+
 echo "HTML head — discovery from a page an agent may fetch:"
 # grep -c, not grep -q: under `pipefail` a -q that exits on the first match
 # SIGPIPEs the printf and the pipeline reads as failed.
