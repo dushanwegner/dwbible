@@ -511,6 +511,26 @@ trait DwBible_Agent_API_Trait {
         }
 
         if ( $key === null ) {
+            // BLAME THE RIGHT HALF. The shared citation grammar is anchored at
+            // both ends, so a cross-chapter range like "Mt 5:1-7:29" parses as
+            // the BOOK NAME "Mt 5:1-7:" and then fails the book lookup — and
+            // the refusal then said no book could be recognised while listing
+            // "Mt" as a supported abbreviation in the same sentence. A model
+            // reading that retries book spellings forever, because the message
+            // points at the one part of the query that was already correct.
+            $head = null;
+            if ( preg_match( '/^\s*([^\d]+?)\s*\d/u', $raw, $bm ) ) {
+                $head = self::internal_key_from_any_book( trim( $bm[1] ), 'latin' );
+            }
+            if ( $head !== null ) {
+                $names = self::book_citation_names( $head );
+                self::agent_error( 400, 'CITATION_NOT_UNDERSTOOD',
+                    "The book in \"{$raw}\" is " . ( $names['la'] ?? $head ) . ", but the chapter and verse part could not be read.",
+                    [
+                        'book'       => self::agent_book_block( $head ),
+                        'suggestion' => 'A range must stay inside ONE chapter — "Mt 5:1-12", not "Mt 5:1-7:29". A passage spanning chapters is two or more requests, one per chapter; a whole chapter is "Mt 5".',
+                    ] );
+            }
             self::agent_error( 404, 'BOOK_NOT_RECOGNISED', "No book in \"{$raw}\" could be recognised.", [
                 'suggestion' => 'Book names resolve in Latin, English, German, Spanish, French and Italian, plus standard abbreviations (Gen, Ps, Mt, Jn, 1 Cor, Gal, Apoc). The full list: ' . site_url( '/bible-books.json' ),
             ] );

@@ -198,6 +198,19 @@ U="${BASE}/bible-search.json?q=et&lang=la&book=Ester&limit=1"
 ok "$([ "$(probe "$U" "d['_meta']['bookName']")" = "Esther" ] && echo 1 || echo 0)" "book=Ester names the book Esther, not the raw input"
 ok "$([ "$(probe "$U" "d['_meta']['total'] > 0")" = "True" ] && echo 1 || echo 0)" "book=Ester actually searches Esther"
 
+echo
+echo "a citation whose BOOK is fine but whose range is not blames the range, not the book:"
+# The grammar is anchored, so "Mt 5:1-7:29" used to parse as the book name
+# "Mt 5:1-7:" and 404 with "no book could be recognised" — while the same
+# message listed "Mt" as a supported abbreviation.
+U="${BASE}/bible-ref.json?q=Mt+5:1-7:29&lang=la"
+ok "$([ "$(code "$U")" = "400" ] && echo 1 || echo 0)" "a cross-chapter range answers 400, not 404"
+ok "$([ "$(probe "$U" "d['error']")" = "CITATION_NOT_UNDERSTOOD" ] && echo 1 || echo 0)" "…as CITATION_NOT_UNDERSTOOD"
+ok "$([ "$(probe "$U" "d['book']['key']")" = "matthew" ] && echo 1 || echo 0)" "…and it names the book it DID recognise"
+
+U="${BASE}/bible-ref.json?q=Zzzz+5:1-7:29&lang=la"
+ok "$([ "$(probe "$U" "d['error']")" = "BOOK_NOT_RECOGNISED" ] && echo 1 || echo 0)" "a genuinely unknown book still says so"
+
 # grep -c, not grep -q: under `pipefail` a -q that exits on the first match
 # SIGPIPEs the printf and the pipeline reads as failed.
 H=$("${CURL[@]}" -L "${BASE}/en/bible/galatians/3:28/")
