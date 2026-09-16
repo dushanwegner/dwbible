@@ -97,6 +97,19 @@ trait DwBible_JSON_API_Trait {
             }
         }
 
+        // Malachias 4 on a constructed URL: /latin/malachias/4/2.json 404'd while
+        // the HTML page for the same citation resolved. One book, one rule, every
+        // surface.
+        $read_as = null;
+        if ( $book === 'malachias' && (int) $chapter === 4 ) {
+            $mal = self::agent_malachias_shim( 'malachias', 4, $vfrom, $vto );
+            if ( $mal !== null ) {
+                $chapter = (string) $mal['chapter'];
+                if ( $vfrom > 0 ) { $vfrom = $mal['from']; $vto = $vto > 0 ? $mal['to'] : $vfrom; }
+                $read_as = $mal['note'];
+            }
+        }
+
         // ?numbering=hebrew on a Psalms URL: the reader named the Masoretic psalm,
         // so serve the Vulgate chapter that holds it and SAY so — never a
         // different psalm in silence. An unknown value is a 400 (agent_numbering_mode).
@@ -139,7 +152,7 @@ trait DwBible_JSON_API_Trait {
 
         // ── Single verse or verse range: extract from chapter JSON ──────
         if ( $vfrom > 0 && ! empty( $book ) && ! empty( $chapter ) ) {
-            self::serve_verse_json( $file, $slug, $book, (int) $chapter, $vfrom, $vto, $psalm_meta );
+            self::serve_verse_json( $file, $slug, $book, (int) $chapter, $vfrom, $vto, $psalm_meta, $read_as );
             exit;
         }
 
@@ -236,7 +249,7 @@ trait DwBible_JSON_API_Trait {
      * Reads the pre-generated chapter file, filters to the requested verse(s),
      * and wraps them in a self-documenting response with navigation links.
      */
-    private static function serve_verse_json( $chapter_file, $slug, $book, $chapter, $vfrom, $vto, $psalm_meta = null ) {
+    private static function serve_verse_json( $chapter_file, $slug, $book, $chapter, $vfrom, $vto, $psalm_meta = null, $read_as = null ) {
         $raw = file_get_contents( $chapter_file );
         if ( $raw === false ) {
             self::serve_json_404();
@@ -364,6 +377,9 @@ trait DwBible_JSON_API_Trait {
         if ( $book === 'psalms' ) {
             $meta['psalmNumbering'] = $psalm_meta ?? self::psalm_numbering( (int) $chapter );
         }
+        // A citation this API translated says so — the reader asked for
+        // Malachias 4:2 and is being handed 3:20.
+        if ( $read_as !== null ) { $meta['readAs'] = $read_as; }
 
         // Top-level convenience fields for single verses AND ranges alike: the
         // citation, the text (a range's verses joined by a space), the page, the

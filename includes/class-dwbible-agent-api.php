@@ -165,6 +165,39 @@ trait DwBible_Agent_API_Trait {
         ];
     }
 
+    // ── Malachias 4 ─────────────────────────────────────────────────────────
+
+    /**
+     * The one book whose chapter division differs from the printed Clementine.
+     *
+     * Our data (and dwlectionary, and the Nova Vulgata) carry the Elijah
+     * prophecy as Malachias 3:19-24; every printed Vulgate and every
+     * Douay-Rheims numbers the same six verses 4:1-6. A reader holding a 1962
+     * missal asks for a chapter that does not exist here — so chapter 4 verse v
+     * is translated to 3:(v+18), exactly as the HTML router has always done
+     * (class-dwbible-router.php). A bare chapter 4 lands on 3:19, where that
+     * chapter begins.
+     *
+     * Without this the resolver accepted "Mal 4:2", reported chapter 4 verse 2,
+     * and returned an EMPTY text — a well-formed answer containing nothing,
+     * which is the worst way to be wrong.
+     *
+     * @return array{chapter:int,from:int,to:int,note:string}|null null = not this case.
+     */
+    private static function agent_malachias_shim( string $key, int $ch, int $vf, int $vt ): ?array {
+        if ( $key !== 'malachias' || $ch !== 4 ) { return null; }
+        $from  = $vf > 0 ? $vf + 18 : 19;
+        $to    = $vt > 0 ? $vt + 18 : ( $vf > 0 ? $vf + 18 : 24 );
+        $cited = $vf > 0 ? ( 'Malachias 4:' . $vf . ( $vt > $vf ? "-{$vt}" : '' ) ) : 'Malachias 4';
+        return [
+            'chapter' => 3,
+            'from'    => $from,
+            'to'      => $to,
+            'note'    => "\"{$cited}\" was read as Malachias 3:{$from}" . ( $to > $from ? "-{$to}" : '' ) . ': '
+                       . 'this text carries the Elijah prophecy as 3:19-24, where printed Vulgates number it 4:1-6. Same six verses.',
+        ];
+    }
+
     // ── Psalm numbering ─────────────────────────────────────────────────────
 
     /**
@@ -417,6 +450,13 @@ trait DwBible_Agent_API_Trait {
             }
         }
 
+        // Malachias 4 — a chapter this text does not have, under a number every
+        // printed Vulgate uses.
+        $mal = self::agent_malachias_shim( $key, $ch, $vf, $vt );
+        if ( $mal !== null ) {
+            $ch = $mal['chapter']; $vf = $mal['from']; $vt = $mal['to']; $read_as = $mal['note'];
+        }
+
         // Psalms: the reader may have typed the Hebrew number.
         $numbering  = self::agent_numbering_mode();
         $psalm_meta = null;
@@ -440,10 +480,17 @@ trait DwBible_Agent_API_Trait {
         if ( $vf > 0 && $book_counts && isset( $book_counts[ $ch - 1 ] ) ) {
             $n = (int) $book_counts[ $ch - 1 ];
             if ( $vf > $n ) {
-                self::agent_error( 404, 'VERSE_NOT_FOUND', "Verse {$vf} does not exist in chapter {$ch}.", [
+                // Name the citation the READER typed as well as the verse we
+                // looked for: after a translation ("Mal 4:9" → 3:27) an error
+                // about "verse 27 of chapter 3" mentions two numbers they never
+                // wrote, and reads like a bug in the answer rather than in the
+                // question.
+                self::agent_error( 404, 'VERSE_NOT_FOUND', "Verse {$vf} does not exist in chapter {$ch}.", array_filter( [
+                    'requested'   => $read_as !== null ? $raw : null,
+                    'readAs'      => $read_as,
                     'suggestion'  => "This chapter has {$n} verses (1-{$n}).",
                     'chapterJson' => self::agent_json_url( 'latin', $key, $ch ),
-                ] );
+                ] ) );
             }
             if ( $vt > $n ) { $vt = $n; } // an over-long range is clamped, not refused
         }
@@ -491,6 +538,18 @@ trait DwBible_Agent_API_Trait {
                     'jsonUrl'     => $urls['json'][ $lang ],
                 ];
             }
+        }
+
+        // A chapter was asked for and NOTHING could be read: that is a failure,
+        // not an answer. Before this, a passage whose file could not be loaded
+        // came back as a well-formed response with an empty `passages` object —
+        // a shape a model can easily present as "the verse is blank", or fill
+        // from its own memory. Say plainly that it could not be served.
+        if ( $ch > 0 && ! $passages ) {
+            self::agent_error( 404, 'PASSAGE_UNAVAILABLE', "{$raw} resolved to a passage this server could not read.", [
+                'resolved'   => [ 'book' => $key, 'chapter' => $ch, 'verseFrom' => $vf ?: null, 'verseTo' => $vf ? $vt : null ],
+                'suggestion' => 'The book index lists the chapters this text actually carries: ' . self::agent_json_url( 'latin', $key ),
+            ] );
         }
 
         $ref_label = $citations['en'] ?? $key;
