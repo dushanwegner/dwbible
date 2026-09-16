@@ -134,6 +134,37 @@ trait DwBible_Agent_API_Trait {
         ];
     }
 
+    // ── One-chapter books ───────────────────────────────────────────────────
+
+    /**
+     * Five books have exactly one chapter — Abdias, Philemon, 2 John, 3 John,
+     * Jude — and every convention cites them BY VERSE ALONE: "Jude 3", never
+     * "Jude 1:3". Read literally that is chapter 3, which does not exist, so
+     * the only form anyone writes was the one form that failed.
+     *
+     * Given the book's chapters, rewrite a bare "N" or "N-M" into the chapter-1
+     * verses it means, and say so — an interpretation a reader cannot see is
+     * indistinguishable from a wrong answer.
+     *
+     * The whole book stays reachable as the bare name ("Jude"), and the
+     * explicit chapter form ("Jude 1:3") is unaffected.
+     *
+     * @param int $chapters How many chapters the book has.
+     * @return array{chapter:int,from:int,to:int,note:string}|null null = not a single-chapter book.
+     */
+    private static function agent_single_chapter_verses( int $chapters, int $n, int $to, string $book_name ): ?array {
+        if ( $chapters !== 1 || $n <= 0 ) { return null; }
+        $to = $to > $n ? $to : $n;
+        $cited = $n . ( $to > $n ? "-{$to}" : '' );
+        return [
+            'chapter' => 1,
+            'from'    => $n,
+            'to'      => $to,
+            'note'    => "\"{$book_name} {$cited}\" was read as {$book_name} 1:{$cited}: this book has a single chapter and is cited by verse. "
+                       . "The whole book is \"{$book_name}\".",
+        ];
+    }
+
     // ── Psalm numbering ─────────────────────────────────────────────────────
 
     /**
@@ -335,17 +366,55 @@ trait DwBible_Agent_API_Trait {
 
         $parsed = DwBible_Reference::parse_query( $raw );
         $key    = self::internal_key_from_any_book( $parsed['name'], 'latin' );
+
+        // A BARE RANGE — "Jude 20-21", "Philemon 4-6" — is how a one-chapter
+        // book names several verses, and the shared grammar cannot split it:
+        // with no colon it reads the name as "Jude 20-" and the number as 21.
+        // Only tried when the ordinary parse found no book, so a citation the
+        // grammar already understood ("Job 20:12-13") is never re-read here.
+        $bare_range = null;
+        if ( $key === null && preg_match( '/^(.*?)[\s.]*(\d+)\s*[-–—]\s*(\d+)\s*$/u', $raw, $bm ) ) {
+            $alt = self::internal_key_from_any_book( trim( $bm[1] ), 'latin' );
+            if ( $alt !== null ) {
+                $key        = $alt;
+                $bare_range = [ (int) $bm[2], (int) $bm[3] ];
+            }
+        }
+
         if ( $key === null ) {
             self::agent_error( 404, 'BOOK_NOT_RECOGNISED', "No book in \"{$raw}\" could be recognised.", [
                 'suggestion' => 'Book names resolve in Latin, English, German, Spanish, French and Italian, plus standard abbreviations (Gen, Ps, Mt, Jn, 1 Cor, Gal, Apoc). The full list: ' . site_url( '/bible-books.json' ),
             ] );
         }
 
-        $ch = 0; $vf = 0; $vt = 0;
-        if ( $parsed['ref'] !== '' && preg_match( '/^(\d+)(?::(\d+)(?:-(\d+))?)?$/', $parsed['ref'], $m ) ) {
+        $counts   = DwBible_Plugin::verse_counts_by_book();
+        $chapters = isset( $counts[ $key ] ) ? count( $counts[ $key ] ) : 0;
+        $en_name  = self::agent_book_names_table()[ $key ]['en'] ?? $key;
+
+        $ch = 0; $vf = 0; $vt = 0; $read_as = null;
+        if ( $bare_range !== null ) {
+            $single = self::agent_single_chapter_verses( $chapters, $bare_range[0], $bare_range[1], $en_name );
+            if ( $single === null ) {
+                // In a book of many chapters "Genesis 1-3" could mean three
+                // chapters or three verses of one. Neither is servable as
+                // written, and guessing is how a reader is handed the wrong
+                // passage without being told, so it is refused BY NAME.
+                self::agent_error( 400, 'AMBIGUOUS_RANGE', "\"{$raw}\" could mean chapters {$bare_range[0]}-{$bare_range[1]} or verses of one chapter.", [
+                    'suggestion' => "Say which: \"{$en_name} {$bare_range[0]}:{$bare_range[1]}\" for verses, \"{$en_name} {$bare_range[0]}\" for a chapter.",
+                ] );
+            }
+            $ch = $single['chapter']; $vf = $single['from']; $vt = $single['to']; $read_as = $single['note'];
+        } elseif ( $parsed['ref'] !== '' && preg_match( '/^(\d+)(?::(\d+)(?:-(\d+))?)?$/', $parsed['ref'], $m ) ) {
             $ch = (int) $m[1];
             $vf = isset( $m[2] ) && $m[2] !== '' ? (int) $m[2] : 0;
             $vt = isset( $m[3] ) && $m[3] !== '' ? (int) $m[3] : $vf;
+            // "Jude 3" — a bare number on a one-chapter book is its VERSE.
+            if ( $vf === 0 ) {
+                $single = self::agent_single_chapter_verses( $chapters, $ch, 0, $en_name );
+                if ( $single !== null ) {
+                    $ch = $single['chapter']; $vf = $single['from']; $vt = $single['to']; $read_as = $single['note'];
+                }
+            }
         }
 
         // Psalms: the reader may have typed the Hebrew number.
@@ -361,7 +430,6 @@ trait DwBible_Agent_API_Trait {
         }
 
         // Does the passage exist? Check against the Latin spine before reading anything.
-        $counts = DwBible_Plugin::verse_counts_by_book();
         $book_counts = $counts[ $key ] ?? [];
         if ( $ch > 0 && $book_counts && $ch > count( $book_counts ) ) {
             self::agent_error( 404, 'CHAPTER_NOT_FOUND', "Chapter {$ch} does not exist in this book.", [
@@ -433,6 +501,7 @@ trait DwBible_Agent_API_Trait {
                 'apiDocs'    => $site . '/llms.txt',
                 'content'    => "\"{$raw}\" resolved to {$ref_label}" . ( $passages ? ' — text in ' . implode( ', ', array_keys( $passages ) ) : '' ),
                 'query'      => $raw,
+                'readAs'     => $read_as,
                 'typography' => $clean ? 'clean' : 'source',
                 'usage'      => 'q = any citation form; lang = comma list of la,en,de,es,fr,it (or "all") for the text; '
                               . 'numbering=hebrew to read a Psalm number as Masoretic; typography=clean to drop the space before : ; ! ?',
