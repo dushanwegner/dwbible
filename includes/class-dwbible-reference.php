@@ -64,6 +64,72 @@ class DwBible_Reference {
         return ['name' => $name, 'ref' => $ref];
     }
 
+    /**
+     * Forms a lectionary or a German Bible PRINTS that the grammar above does not
+     * read, rewritten into ones it does — and said so, so the reading is never silent.
+     *
+     *   "Mt 5,1-12a", "Ps 22,2b"  a half-verse letter. No edition here divides a verse,
+     *                             so the whole verse is the honest answer.
+     *   "Joh 3,16f", "3,16 f."    German f. = the verse and the one after it.
+     *
+     * Everything else is left alone for the grammar to accept or refuse; see
+     * citation_advice() for what the refusal then says. A reader's own spelling of
+     * the book is never touched: only a verse number (after `:` `,` `.` or a range
+     * dash) may lose its letter.
+     *
+     * @return array{query:string, note:?string}
+     */
+    public static function normalize_printed_forms($raw) {
+        $q     = trim((string) $raw);
+        $notes = [];
+
+        $halves = [];
+        $q = (string) preg_replace_callback(
+            '/([:,.]\s*|[-–—]\s*)(\d{1,3})([abc])(?!\p{L})/u',
+            static function ($m) use (&$halves) { $halves[] = $m[2] . $m[3]; return $m[1] . $m[2]; },
+            $q
+        );
+        if ($halves) {
+            $notes[] = '"' . implode('", "', $halves) . '" ' . (count($halves) === 1 ? 'is half a verse' : 'are half-verses')
+                     . '; no edition here divides a verse, so the whole verse is served.';
+        }
+
+        // "f." but not "ff.": exactly one following verse.
+        if (preg_match('/([:,.]\s*)(\d{1,3})\s*f\.?\s*$/u', $q, $m) && !preg_match('/ff\.?\s*$/u', $q)) {
+            $from = (int) $m[2];
+            $q    = (string) preg_replace('/([:,.]\s*)(\d{1,3})\s*f\.?\s*$/u', '${1}' . $from . '-' . ($from + 1), $q);
+            $notes[] = '"' . $from . 'f" is read as verses ' . $from . '-' . ($from + 1) . ' (f. = and the following verse).';
+        }
+
+        return ['query' => $q, 'note' => $notes ? implode(' ', $notes) : null];
+    }
+
+    /**
+     * What to tell a reader whose citation named a book but no readable
+     * chapter:verse — by the SHAPE of what they wrote. One sentence about
+     * cross-chapter ranges used to answer every failure, so "Joh 3,16ff" and
+     * "Joh 3 16" were told to keep a range inside one chapter.
+     *
+     * @param string $raw  the citation as the reader wrote it
+     * @param string $book the book's name, for the example
+     */
+    public static function citation_advice($raw, $book) {
+        $s = trim((string) $raw);
+        if (preg_match('/\d\s*ff\.?\s*$/u', $s)) {
+            return "\"ff.\" (and the following verses) names no last verse, so no passage can be chosen for it. Give the range: \"{$book} 3:16-21\".";
+        }
+        if (preg_match('/[;]|[:,]\s*\d+(?:\s*[-–—]\s*\d+)?\s*\.\s*\d/u', $s)) {
+            return "This names several passages (\".\" and \";\" separate them in a printed citation), and one request reads one passage. Ask for each: \"{$book} 3:16\", then \"{$book} 3:18\".";
+        }
+        if (preg_match('/[:,.]\s*\d+\s*[-–—]\s*\d+\s*[:,.]\s*\d+/u', $s)) {
+            return "A range must stay inside ONE chapter — \"{$book} 5:1-12\", not \"{$book} 5:1-7:29\". A passage spanning chapters is two or more requests, one per chapter; a whole chapter is \"{$book} 5\".";
+        }
+        if (preg_match('/\d+\s+\d+\s*$/u', $s)) {
+            return "Chapter and verse need a separator between them: \"{$book} 3:16\" or \"{$book} 3,16\".";
+        }
+        return "Write chapter:verse, or chapter:verse-verse inside one chapter: \"{$book} 3:16\", \"{$book} 3:16-18\"; a whole chapter is \"{$book} 3\".";
+    }
+
     public static function parse_chapter_and_range($ch, $vf, $vt) {
         $ch = absint($ch);
         $vf = absint($vf);

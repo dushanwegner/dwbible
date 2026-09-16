@@ -346,6 +346,17 @@ done
 ok "$([ "$(probe "${BASE}/bible-search.json?q=love+thy+neighbour&lang=en&limit=50" "any(h['book']['key']=='matthew' and h['chapter']==19 and h['verse']==19 for h in d['hits'])")" = "True" ] && echo 1 || echo 0)" "\"love thy neighbour\" finds Matthew 19:19, which spells it \"neighbor\""
 ok "$([ "$(total four)" -gt 0 ] && [ "$(total your)" -gt 0 ] && [ "$(total hour)" -gt 0 ] && echo 1 || echo 0)" "…and no generic our→or fold: four, your, hour still match"
 
+# Forms a lectionary or a German Bible prints (tick 110). Half-verse letters and "f." are
+# READ, and say so; "ff.", verse lists and a missing separator are REFUSED with advice
+# about THAT fault — every one of them used to be told a range must stay in one chapter.
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5,1-12a" "d['ref']['book']['key'], d['ref']['chapter'], d['ref']['verseFrom'], d['ref']['verseTo']")" = "('matthew', 5, 1, 12)" ] && echo 1 || echo 0)" "a half-verse letter (Mt 5,1-12a) is read as the whole verse"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5,1-12a" "'12a' in (d['_meta']['readAs'] or '')")" = "True" ] && echo 1 || echo 0)" "…and readAs names the letter it did not divide"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Joh+3,16f" "d['ref']['chapter'], d['ref']['verseFrom'], d['ref']['verseTo'], '16f' in (d['_meta']['readAs'] or '')")" = "(3, 16, 17, True)" ] && echo 1 || echo 0)" "German 'f.' (Joh 3,16f) is read as the verse and the next, and says so"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Joh+3,16ff" "'ff' in d.get('suggestion','') and 'ONE chapter' not in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "'ff.' is refused with advice about ff, not about chapters"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Joh+3,16.18" "'several' in d.get('suggestion','') and 'ONE chapter' not in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "a verse list (Joh 3,16.18) is refused as several passages"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Joh+3+16" "'separator' in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "a missing chapter:verse separator (Joh 3 16) is named as such"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5:1-7:29" "'ONE chapter' in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "…while a real cross-chapter range keeps the one-chapter advice"
+
 # A numbered book as a German, French or Spanish reader writes it: digit, SPACE,
 # abbreviation — "1 Kor 13,4" is how the Einheitsübersetzung prints it, "1 Co 13,4"
 # the Bible de Jérusalem. The tables hold "1Kor" and "1. Kor"; the spaced form

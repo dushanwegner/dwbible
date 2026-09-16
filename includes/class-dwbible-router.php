@@ -456,7 +456,8 @@ trait DwBible_Router_Trait {
         $slug = get_query_var(self::QV_SLUG);
         if (!is_string($slug) || $slug === '') { $slug = 'bible'; }
 
-        $parsed = DwBible_Reference::parse_query($raw);
+        // A printed form ("Mt 5,1-12a", "Joh 3,16f") lands on its verses here too.
+        $parsed = DwBible_Reference::parse_query(DwBible_Reference::normalize_printed_forms($raw)['query']);
         $key    = self::internal_key_from_any_book($parsed['name'], $slug);
         if ($key === null) { return false; }
 

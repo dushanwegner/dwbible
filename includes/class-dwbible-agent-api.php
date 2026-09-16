@@ -519,6 +519,12 @@ trait DwBible_Agent_API_Trait {
         ];
     }
 
+    /** Two reading notes as one sentence run, or null when neither was made. */
+    private static function agent_join_notes( ?string $first, ?string $second ): ?string {
+        $parts = array_filter( [ $first, $second ], static fn( $n ) => $n !== null && $n !== '' );
+        return $parts ? implode( ' ', $parts ) : null;
+    }
+
     // ── /bible-ref.json — the reference resolver ────────────────────────────
 
     /**
@@ -545,8 +551,11 @@ trait DwBible_Agent_API_Trait {
             self::agent_error( 400, 'MISSING_QUERY', 'Pass a citation as ?q=, e.g. /bible-ref.json?q=John+3:16&lang=la,en' );
         }
 
-        $parsed = DwBible_Reference::parse_query( $raw );
-        $key    = self::internal_key_from_any_book( $parsed['name'], 'latin' );
+        // Printed forms the grammar cannot read ("Mt 5,1-12a", "Joh 3,16f") are rewritten
+        // first; `$raw` stays what the reader wrote, and the rewrite is reported in readAs.
+        $printed = DwBible_Reference::normalize_printed_forms( $raw );
+        $parsed  = DwBible_Reference::parse_query( $printed['query'] );
+        $key     = self::internal_key_from_any_book( $parsed['name'], 'latin' );
 
         // A BARE RANGE — "Jude 20-21", "Philemon 4-6" — is how a one-chapter
         // book names several verses, and the shared grammar cannot split it:
@@ -554,7 +563,7 @@ trait DwBible_Agent_API_Trait {
         // Only tried when the ordinary parse found no book, so a citation the
         // grammar already understood ("Job 20:12-13") is never re-read here.
         $bare_range = null;
-        if ( $key === null && preg_match( '/^(.*?)[\s.]*(\d+)\s*[-–—]\s*(\d+)\s*$/u', $raw, $bm ) ) {
+        if ( $key === null && preg_match( '/^(.*?)[\s.]*(\d+)\s*[-–—]\s*(\d+)\s*$/u', $printed['query'], $bm ) ) {
             $alt = self::internal_key_from_any_book( trim( $bm[1] ), 'latin' );
             if ( $alt !== null ) {
                 $key        = $alt;
@@ -586,7 +595,9 @@ trait DwBible_Agent_API_Trait {
                     "The book in \"{$raw}\" is " . ( $names['la'] ?? $head ) . ", but the chapter and verse part could not be read.",
                     [
                         'book'       => self::agent_book_block( $head ),
-                        'suggestion' => 'A range must stay inside ONE chapter — "Mt 5:1-12", not "Mt 5:1-7:29". A passage spanning chapters is two or more requests, one per chapter; a whole chapter is "Mt 5".',
+                        // Advice for THIS shape of failure — a list, "ff.", a missing
+                        // separator or a real cross-chapter range (tick 110).
+                        'suggestion' => DwBible_Reference::citation_advice( $raw, (string) ( self::agent_book_names_table()[ $head ]['en'] ?? $head ) ),
                     ] );
             }
             self::agent_error( 404, 'BOOK_NOT_RECOGNISED', "No book in \"{$raw}\" could be recognised.", [
@@ -690,8 +701,8 @@ trait DwBible_Agent_API_Trait {
                 // wrote, and reads like a bug in the answer rather than in the
                 // question.
                 self::agent_error( 404, 'VERSE_NOT_FOUND', "Verse {$vf} does not exist in chapter {$ch}.", array_filter( [
-                    'requested'   => $read_as !== null ? $raw : null,
-                    'readAs'      => $read_as,
+                    'requested'   => self::agent_join_notes( $printed['note'], $read_as ) !== null ? $raw : null,
+                    'readAs'      => self::agent_join_notes( $printed['note'], $read_as ),
                     'suggestion'  => "This chapter has {$n} verses (1-{$n}).",
                     'chapterJson' => self::agent_json_url( 'latin', $key, $ch ),
                 ] ) );
@@ -772,7 +783,7 @@ trait DwBible_Agent_API_Trait {
                 'apiDocs'    => $site . '/llms.txt',
                 'content'    => "\"{$raw}\" resolved to {$ref_label}" . ( $passages ? ' — text in ' . implode( ', ', array_keys( $passages ) ) : '' ),
                 'query'      => $raw,
-                'readAs'     => $read_as,
+                'readAs'     => self::agent_join_notes( $printed['note'], $read_as ),
                 'typography' => $clean ? 'clean' : 'source',
                 'usage'      => 'q = any citation form; lang = comma list of la,en,de,es,fr,it (or "all") for the text; '
                               . 'numbering=hebrew to read a Psalm number as Masoretic; typography=clean to drop the space before : ; ! ?',
