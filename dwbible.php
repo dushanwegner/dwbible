@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.16.11
+* Version: 1.26.09.16.12
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.16.11');
+    define('DWBIBLE_VERSION', '1.26.09.16.12');
 }
 
 // Load include classes before hooks are registered
@@ -46,7 +46,14 @@ add_filter('dwcache_allowed_query_params', function ($params, $url = '') {
     // Scoped to the .json routes so the five common names do not widen the key
     // of every HTML page on the site.
     if (is_string($url) && preg_match('#\.json(\?|$)#', $url)) {
-        $params = array_merge((array) $params, array('lang', 'typography', 'numbering', 'book', 'limit'));
+        // EVERY parameter that changes WHICH answer this is belongs here, in the
+        // same commit that introduces it. `offset` was added to the search in
+        // 1.26.09.16.11 and not added here: dwcache stripped it from the key and
+        // served the cached page ONE for every page, so an agent walking a
+        // result set would have seen the same hits over and over while being
+        // told thousands more remained. A cache-buster does not reveal it
+        // either — an unknown parameter is stripped from the key as well.
+        $params = array_merge((array) $params, array('lang', 'typography', 'numbering', 'book', 'limit', 'offset'));
     }
     return array_merge((array) $params, array(
         'dwbible_qr', 'dwbible_qr_download', 'dwbible_qr_range',
