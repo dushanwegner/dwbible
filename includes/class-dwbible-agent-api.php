@@ -352,15 +352,54 @@ trait DwBible_Agent_API_Trait {
      *
      * @return array{chapter:int,meta:array}|null
      */
-    private static function agent_psalm_request( int $chapter, string $numbering ): ?array {
+    private static function agent_psalm_request( int $chapter, string $numbering, int $vf = 0, int $vt = 0 ): ?array {
         if ( $numbering === 'hebrew' ) {
             $v = self::psalm_vulgate_for_hebrew( $chapter );
             if ( $v === null ) { return null; }
+            // THE VERSE MOVES TOO. Where the Vulgate joins or splits psalms, a Hebrew
+            // verse lives at another Vulgate verse, sometimes in another psalm:
+            // Hebrew 10:1 is Vulgate 9:22. Converting only the psalm number served
+            // the TITLE of Psalm 9 for "Why, O Lord, dost thou stand afar off" and
+            // refused Hebrew 116:10 outright (quality loop tick 98).
+            $out_vf = $vf; $out_vt = $vt; $spans = null; $note = null;
+            if ( $vf > 0 ) {
+                [ $c1, $out_vf ] = self::psalm_vulgate_verse_for_hebrew( $chapter, $vf );
+                $v = $c1;
+                if ( $vt > 0 ) {
+                    [ $c2, $out_vt ] = self::psalm_vulgate_verse_for_hebrew( $chapter, $vt );
+                    if ( $c2 !== $c1 ) { $spans = [ $c1, $out_vf, $c2, $out_vt ]; }
+                }
+                if ( $out_vf !== $vf || $c1 !== self::psalm_vulgate_for_hebrew( $chapter ) || ( $vt > 0 && $out_vt !== $vt ) ) {
+                    $note = "Hebrew Psalm {$chapter}:{$vf}" . ( $vt > $vf ? "-{$vt}" : '' ) . " was read as Vulgate Psalm {$c1}:{$out_vf}"
+                          . ( $vt > $vf && $spans === null ? "-{$out_vt}" : '' ) . ': the Vulgate numbers these psalms differently.';
+                }
+            }
             $meta = self::psalm_numbering( $v );
-            $meta['requested'] = [ 'system' => 'hebrew', 'number' => $chapter ];
-            return [ 'chapter' => $v, 'meta' => $meta ];
+            $meta['requested'] = [ 'system' => 'hebrew', 'number' => $chapter ] + ( $vf > 0 ? [ 'verse' => $vf . ( $vt > $vf ? "-{$vt}" : '' ) ] : [] );
+            return [ 'chapter' => $v, 'vf' => $out_vf, 'vt' => $out_vt, 'meta' => $meta, 'spans' => $spans, 'note' => $note ];
         }
-        return [ 'chapter' => $chapter, 'meta' => self::psalm_numbering( $chapter ) ];
+        return [ 'chapter' => $chapter, 'vf' => $vf, 'vt' => $vt, 'meta' => self::psalm_numbering( $chapter ), 'spans' => null, 'note' => null ];
+    }
+
+    /**
+     * A Hebrew (Masoretic) psalm VERSE → [Vulgate chapter, Vulgate verse].
+     *
+     * Both systems count a psalm's title as its first verses, so inside most
+     * psalms the verse number does not change — only where the Vulgate joins two
+     * Hebrew psalms or splits one. The offsets are the lengths of the Hebrew
+     * psalms, and they add up to this site's own verse counts: Vulgate 9 (39) =
+     * Hebrew 9 (21) + 10 (18); Vulgate 113 (26) = Hebrew 114 (8) + 115 (18);
+     * Hebrew 116 (19) = Vulgate 114 (9) + 115 (10); Hebrew 147 (20) = Vulgate
+     * 146 (11) + 147 (9). tests/test-agent-api.sh pins one verse of each.
+     *
+     * @return array{0:int,1:int}
+     */
+    public static function psalm_vulgate_verse_for_hebrew( int $hebrew, int $verse ): array {
+        if ( $hebrew === 10 )                  { return [ 9, 21 + $verse ]; }
+        if ( $hebrew === 115 )                 { return [ 113, 8 + $verse ]; }
+        if ( $hebrew === 116 && $verse >= 10 ) { return [ 115, $verse - 9 ]; }
+        if ( $hebrew === 147 && $verse >= 12 ) { return [ 147, $verse - 11 ]; }
+        return [ (int) self::psalm_vulgate_for_hebrew( $hebrew ), $verse ];
     }
 
     /**
@@ -604,12 +643,21 @@ trait DwBible_Agent_API_Trait {
         $numbering  = self::agent_numbering_mode();
         $psalm_meta = null;
         if ( $key === 'psalms' && $ch > 0 ) {
-            $pr = self::agent_psalm_request( $ch, $numbering );
+            $pr = self::agent_psalm_request( $ch, $numbering, $vf, $vt );
             if ( $pr === null ) {
                 self::agent_error( 404, 'CHAPTER_NOT_FOUND', "There is no Psalm {$ch}.", [ 'suggestion' => 'Psalms run 1-150.' ] );
             }
+            if ( $pr['spans'] !== null ) {
+                [ $c1, $f1, $c2, $t2 ] = $pr['spans'];
+                self::agent_error( 400, 'CITATION_NOT_UNDERSTOOD', "\"{$raw}\" runs across two Vulgate psalms: it is Vulgate {$c1}:{$f1}-end and {$c2}:1-{$t2}.", [
+                    'suggestion' => "Ask for each part: \"Ps {$c1}:{$f1}-\" to the end of Vulgate {$c1}, and \"Ps {$c2}:1-{$t2}\" — both without numbering=hebrew, as they are already Vulgate numbers.",
+                ] );
+            }
             $ch         = $pr['chapter'];
+            $vf         = $pr['vf'];
+            $vt         = $pr['vt'];
             $psalm_meta = $pr['meta'];
+            if ( $pr['note'] !== null ) { $read_as = $read_as !== null ? $read_as . ' ' . $pr['note'] : $pr['note']; }
         }
 
         // Does the passage exist? Check against the Latin spine before reading anything.

@@ -116,12 +116,20 @@ trait DwBible_JSON_API_Trait {
         $numbering  = self::agent_numbering_mode();
         $psalm_meta = null;
         if ( $book === 'psalms' && $chapter !== '' ) {
-            $pr = self::agent_psalm_request( (int) $chapter, $numbering );
+            $pr = self::agent_psalm_request( (int) $chapter, $numbering, (int) $vfrom, (int) $vto );
             if ( $pr === null ) {
                 self::agent_error( 404, 'CHAPTER_NOT_FOUND', "There is no Psalm {$chapter}.", [ 'suggestion' => 'Psalms run 1-150.' ] );
             }
+            if ( $pr['spans'] !== null ) {
+                [ $c1, $f1, $c2, $t2 ] = $pr['spans'];
+                self::agent_error( 400, 'CITATION_NOT_UNDERSTOOD', "This Hebrew range runs across two Vulgate psalms: Vulgate {$c1}:{$f1}-end and {$c2}:1-{$t2}.", [
+                    'suggestion' => 'Ask for each part by its Vulgate number, without numbering=hebrew.',
+                ] );
+            }
             $chapter    = (string) $pr['chapter'];
+            if ( (int) $vfrom > 0 ) { $vfrom = $pr['vf']; $vto = (int) $vto > 0 ? $pr['vt'] : 0; }
             $psalm_meta = $pr['meta'];
+            if ( $pr['note'] !== null ) { $read_as = $read_as !== null ? $read_as . ' ' . $pr['note'] : $pr['note']; }
         }
 
         // Build file path

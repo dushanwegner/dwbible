@@ -132,6 +132,17 @@ ok "$(probe "${BASE}/bible-ref.json?q=Genesis+1-3" "1 if ':1-3' in d.get('sugges
 ok "$(probe "${BASE}/bible-search.json?q=John+3%3A16&lang=en" "1 if 'bible-ref.json' in (d.get('_meta',{}).get('noHitsBecause') or '') else 0")" "a citation sent to the search is pointed at the resolver"
 ok "$(probe "${BASE}/bible-search.json?q=John+3%3A16&lang=en" "0 if 'thee' in (d.get('_meta',{}).get('noHitsBecause') or '') else 1")" "…and not told to try the edition's spelling"
 ok "$(probe "${BASE}/bible-search.json?q=quantumphysics&lang=en" "1 if 'thee' in (d.get('_meta',{}).get('noHitsBecause') or '') else 0")" "a word search that finds nothing keeps the orthography hint"
+# numbering=hebrew at the VERSE: where the Vulgate joins or splits psalms, a Hebrew verse
+# lives at another Vulgate verse — Hebrew 10:1 is Vulgate 9:22, not 9:1 (tick 98).
+hv() { probe "${BASE}/bible-ref.json?q=$1&lang=la&numbering=hebrew" "1 if (str(d.get('ref',{}).get('chapter'))+':'+str(d.get('ref',{}).get('verseFrom')))=='$2' and '$3'.lower() in ((d.get('passages') or {}).get('la') or {}).get('text','').lower() else 0"; }
+ok "$(hv "Ps+10%3A1" "9:22" "recessisti longe")" "Hebrew Ps 10:1 is Vulgate 9:22 (the joined psalm), not the title of 9"
+ok "$(hv "Ps+115%3A1" "113:9" "Non nobis")" "Hebrew Ps 115:1 is Vulgate 113:9"
+ok "$(hv "Ps+116%3A10" "115:1" "Credidi")" "Hebrew Ps 116:10 is Vulgate 115:1 (the split psalm), not refused"
+ok "$(hv "Ps+147%3A12" "147:1" "Lauda")" "Hebrew Ps 147:12 is Vulgate 147:1"
+ok "$(hv "Ps+116%3A1" "114:1" "Dilexi")" "Hebrew Ps 116:1 stays Vulgate 114:1 (control)"
+ok "$(hv "Ps+23%3A1" "22:1" "Dominus regit")" "Hebrew Ps 23:1 stays Vulgate 22:1 (control)"
+ok "$([ "$(code "${BASE}/bible-ref.json?q=Ps+116%3A8-12&numbering=hebrew")" = "400" ] && echo 1 || echo 0)" "a Hebrew range across the 116 split is refused, not narrowed"
+ok "$(probe "${BASE}/latin/psalms/10/1.json?numbering=hebrew" "1 if 'recessisti longe' in (d.get('text') or '') else 0")" "…and the verse JSON URL reads Hebrew 10:1 the same way"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=en,klingon" "d['_meta']['translation']['language']")" = "en" ] && echo 1 || echo 0)" "a MIXED list still names English, so it is served"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=abc" "d['_meta']['limit']")" = "20" ] && echo 1 || echo 0)" "a malformed limit means the default, not one hit"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=-5" "d['_meta']['limit']")" = "20" ] && echo 1 || echo 0)" "…and so does a negative one (absint made -5 mean 5)"
