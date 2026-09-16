@@ -554,8 +554,13 @@ trait DwBible_Agent_API_Trait {
                 // chapters or three verses of one. Neither is servable as
                 // written, and guessing is how a reader is handed the wrong
                 // passage without being told, so it is refused BY NAME.
-                self::agent_error( 400, 'AMBIGUOUS_RANGE', "\"{$raw}\" could mean chapters {$bare_range[0]}-{$bare_range[1]} or verses of one chapter.", [
-                    'suggestion' => "Say which: \"{$en_name} {$bare_range[0]}:{$bare_range[1]}\" for verses, \"{$en_name} {$bare_range[0]}\" for a chapter.",
+                // The retry advice must be one of the two readings, not a third.
+                // It used to offer "{book} a:b" "for verses" — for "Genesis 1-3"
+                // that is Genesis 1:3, ONE verse, which a model following the
+                // advice would present as the passage (quality loop tick 92).
+                [ $ra, $rb ] = $bare_range;
+                self::agent_error( 400, 'AMBIGUOUS_RANGE', "\"{$raw}\" could mean chapters {$ra}-{$rb} or verses {$ra}-{$rb} of one chapter.", [
+                    'suggestion' => "Say which. Verses {$ra}-{$rb}: name the chapter, \"{$en_name} <chapter>:{$ra}-{$rb}\". Chapters {$ra}-{$rb}: one request per chapter, \"{$en_name} {$ra}\" to \"{$en_name} {$rb}\".",
                 ] );
             }
             $ch = $single['chapter']; $vf = $single['from']; $vt = $single['to']; $read_as = $single['note'];
