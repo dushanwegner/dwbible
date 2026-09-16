@@ -583,6 +583,7 @@ trait DwBible_JSON_API_Trait {
         $out_verses = [];
         $out_names  = [];
         $out_slugs  = [];
+        $out_keys   = [];
         $out_gloss  = array_fill_keys( array_keys( $gloss_sets ), [] );
 
         foreach ( $order as $entry ) {
@@ -595,6 +596,14 @@ trait DwBible_JSON_API_Trait {
             $out_verses[] = isset( $verses[ $key ] ) ? implode( ',', $verses[ $key ] ) : '';
             $out_names[]  = $entry['name'];
             $out_slugs[]  = $entry['slug'];
+            // The book's canonical KEY as well as its Latin URL slug. They are
+            // two registers of one book — "iosue" and "josue", "matthaeus" and
+            // "matthew" — and 51 of the 73 differ. A URL accepts either, because
+            // the resolver is lenient, so the trap is not in building a path: it
+            // is in JOINING this file to anything keyed by the canonical key (a
+            // search hit's `book.key`, the JSON directories, the list in
+            // llms.txt), where the mismatch is silent.
+            $out_keys[]   = $entry['key'];
             foreach ( $gloss_sets as $ds => $names ) {
                 // An empty gloss means "this language calls it what the spine
                 // calls it, or has no name for it" — the row then shows one name.
@@ -607,13 +616,15 @@ trait DwBible_JSON_API_Trait {
         echo wp_json_encode( [
             '_meta' => [
                 'content' => 'Search vocabulary — every token that names a book (all languages), how long each book is, and the name/slug each book is offered under',
-                'usage'   => 'Prefix-match a normalized query against any token; a hit means the query names a book. Parallel arrays, canonical Bible order: verses[i] is that book\'s verse count per chapter (so a citation can be checked for being POSSIBLE before it is followed), names[i] and slugs[i] are what every localized index shows and links to, and gloss.<dataset>[i] is that language\'s own name where it differs.',
+                'usage'   => 'Prefix-match a normalized query against any token; a hit means the query names a book. Parallel arrays, canonical Bible order: verses[i] is that book\'s verse count per chapter (so a citation can be checked for being POSSIBLE before it is followed), names[i] and slugs[i] are what every localized index shows and links to, keys[i] is the same book\'s canonical key, and gloss.<dataset>[i] is that language\'s own name where it differs.',
+                'note'    => 'slugs[i] is the LATIN URL slug the HTML pages use ("iosue", "matthaeus"); keys[i] is the canonical key the JSON API directories and every `book.key` field use ("josue", "matthew"). 51 of the 73 differ. Either one resolves in a URL, because the book resolver is lenient — but join on keys[i], never on slugs[i], or most books will silently fail to match.',
                 'books'   => count( $out_tokens ),
             ],
             'tokens' => $out_tokens,
             'verses' => $out_verses,
             'names'  => $out_names,
             'slugs'  => $out_slugs,
+            'keys'   => $out_keys,
             'gloss'  => $out_gloss,
         ] );
     }

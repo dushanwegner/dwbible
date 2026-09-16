@@ -96,6 +96,13 @@ ok "$([ "$(probe "${BASE}/bible-search.json?q=Cristo&lang=es" "d['_meta']['total
 ok "$([ -n "$(probe "${BASE}/bible-search.json?q=Cristo&lang=es" "d['_meta']['noHitsBecause'] or ''")" ] && echo 1 || echo 0)" "…and the empty answer says why, instead of reading as 'this Bible has no Christ'"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Christo&lang=es" "d['_meta']['noHitsBecause']")" = "None" ] && echo 1 || echo 0)" "an answer that found verses carries no such hint"
 
+echo "/bible-books.json — the two name registers must be joinable, not confusable:"
+ok "$([ "$(probe "${BASE}/bible-books.json" "len(d['keys']), len(d['slugs']), len(d['names'])")" = "(73, 73, 73)" ] && echo 1 || echo 0)" "keys[] rides beside slugs[] and names[], all 73"
+ok "$([ "$(probe "${BASE}/bible-books.json" "d['keys'][d['slugs'].index('iosue')]")" = "josue" ] && echo 1 || echo 0)" "the Latin slug 'iosue' names the canonical key 'josue'"
+ok "$([ "$(probe "${BASE}/bible-books.json" "d['keys'][d['slugs'].index('matthaeus')]")" = "matthew" ] && echo 1 || echo 0)" "…and 'matthaeus' names 'matthew'"
+ok "$([ "$(probe "${BASE}/bible-books.json" "sum(1 for k,s in zip(d['keys'],d['slugs']) if k!=s) > 40")" = "True" ] && echo 1 || echo 0)" "most books differ between the registers, which is why the join needs keys[]"
+ok "$([ -n "$(probe "${BASE}/bible-books.json" "d['_meta']['note']")" ] && echo 1 || echo 0)" "…and the file says which register is which"
+
 echo "a request the site cannot honour is refused, not quietly answered otherwise:"
 ok "$([ "$(code "${BASE}/bible-search.json?q=Deus&lang=klingon")" = "400" ] && echo 1 || echo 0)" "an unknown language is a 400 (it used to answer in Latin)"
 ok "$([ "$(code "${BASE}/bible-ref.json?q=Gal+3%3A28&lang=klingon")" = "400" ] && echo 1 || echo 0)" "…on the resolver too"
