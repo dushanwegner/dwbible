@@ -211,6 +211,21 @@ ok "$([ "$(probe "$U" "d['book']['key']")" = "matthew" ] && echo 1 || echo 0)" "
 U="${BASE}/bible-ref.json?q=Zzzz+5:1-7:29&lang=la"
 ok "$([ "$(probe "$U" "d['error']")" = "BOOK_NOT_RECOGNISED" ] && echo 1 || echo 0)" "a genuinely unknown book still says so"
 
+# A third of this canon starts with a digit. A name pattern that forbade digits
+# sent every numbered book back to BOOK_NOT_RECOGNISED — the very error the
+# block above exists to prevent. 13 of a full year's 242 unresolvable Mass
+# reading references were numbered books.
+while IFS='|' read -r q want; do
+  [ -z "$q" ] && continue
+  U="${BASE}/bible-ref.json?q=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$q")&lang=la"
+  ok "$([ "$(probe "$U" "d['error']")" = "CITATION_NOT_UNDERSTOOD" ] && echo 1 || echo 0)" "\"$q\" blames the citation, not the book"
+  ok "$([ "$(probe "$U" "d['book']['key']")" = "$want" ] && echo 1 || echo 0)" "…and names $want"
+done <<'NUMBERED'
+1 Cor 9:24-27; 10:1-5|1-corinthians
+1 Pet 5:1-4; 5:10-11|1-peter
+2 Cor 11:19-33; 12:1-9|2-corinthians
+NUMBERED
+
 echo
 echo "the no-hits hint tells the truth about the edition it describes:"
 # It used to say the Scío writes "Spíritu" beside "Espíritu". The corpus has
