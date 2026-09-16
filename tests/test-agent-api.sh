@@ -327,6 +327,14 @@ ok "$(has 'rel="alternate" type="application/json" href="'"${BASE}"'/bible/galat
 ok "$(has 'rel="help" type="text/plain" href="'"${BASE}"'/llms.txt"')" "verse page links llms.txt"
 ok "$(has 'og:description" content="There is neither Jew nor Greek')" "og:description is the verse (in the page language), not the tagline"
 
+# llms.txt: "any HTML Bible URL plus ?format=json 301-redirects to its .json equivalent".
+# That held only for a page nobody had read yet: once dwcache stored the HTML, `format`
+# was stripped from the key and the cached PAGE answered the JSON request (tick 108).
+# So the page is read first — the state every real verse is in.
+U="${BASE}/en/biblia/ioannes/3:16/"
+"${CURL[@]}" -o /dev/null "$U"; "${CURL[@]}" -o /dev/null "$U"
+ok "$([ "$("${CURL[@]}" -o /dev/null -w '%{http_code} %{redirect_url}' "${U}?format=json")" = "301 ${BASE}/bible/ioannes/3/16.json" ] && echo 1 || echo 0)" "?format=json on a Bible page someone has already read still 301s to its JSON"
+
 # British and American spelling are ONE word to a reader, and the English corpus mixes
 # them: "neighbour" 182 times, "neighbor" 4 — and one of the four is Matthew 19:19. A
 # search in either spelling silently lost the other half (tick 105).
