@@ -579,6 +579,22 @@ trait DwBible_Agent_API_Trait {
             $ch = $mal['chapter']; $vf = $mal['from']; $vt = $mal['to']; $read_as = $mal['note'];
         }
 
+        // A RANGE THAT RUNS BACKWARDS IS REFUSED, never answered empty.
+        // "John 3:10-5" used to come back well-formed and carrying NOTHING:
+        // the verse filter keeps n where vf <= n <= vt, which no verse can
+        // satisfy, so `verses` was [] and `text` was "" — and the citation
+        // printed "Ioannes 3:10", a single verse, because the dash is only
+        // written when vt > vf. A well-formed answer carrying nothing is the
+        // failure shape a model is most likely to paper over from memory,
+        // which is why every other unservable request here is refused instead.
+        // The shared DwBible_Reference::parse_chapter_and_range() has always
+        // rejected this; the agent endpoint parses its own range and did not.
+        if ( $vf > 0 && $vt > 0 && $vt < $vf ) {
+            self::agent_error( 400, 'RANGE_REVERSED',
+                "\"{$raw}\" asks for verses {$vf} to {$vt}, which runs backwards.",
+                [ 'suggestion' => "A range goes low to high — \"{$ch}:{$vt}-{$vf}\" is probably what was meant." ] );
+        }
+
         // Psalms: the reader may have typed the Hebrew number.
         $numbering  = self::agent_numbering_mode();
         $psalm_meta = null;

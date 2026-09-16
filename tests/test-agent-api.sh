@@ -240,6 +240,20 @@ ok "$([ "$(probe "${BASE}/bible-search.json?q=muger&lang=es&limit=1" "d['_meta']
 ok "$([ "$(probe "${BASE}/bible-search.json?q=shew&lang=en&limit=1" "d['_meta']['total'] > 0")" = "True" ] && echo 1 || echo 0)" "the English hint's 'shew' is real"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=nol&lang=it&limit=1" "d['_meta']['total'] > 0")" = "True" ] && echo 1 || echo 0)" "the Italian hint's 'nol' is real"
 
+echo
+echo "a range that runs backwards is refused, not answered empty:"
+# "John 3:10-5" came back well-formed and carrying NOTHING — verses [], text "",
+# and a citation reading "Ioannes 3:10" because the dash is only written when
+# vt > vf. A well-formed answer carrying nothing is the shape a model papers
+# over from memory.
+U="${BASE}/bible-ref.json?q=John+3:10-5&lang=la"
+ok "$([ "$(code "$U")" = "400" ] && echo 1 || echo 0)" "a reversed range answers 400"
+ok "$([ "$(probe "$U" "d['error']")" = "RANGE_REVERSED" ] && echo 1 || echo 0)" "…as RANGE_REVERSED"
+ok "$([ "$(probe "$U" "'3:5-10' in d['suggestion']")" = "True" ] && echo 1 || echo 0)" "…and suggests the range the reader meant"
+# the right way round is untouched
+U="${BASE}/bible-ref.json?q=John+3:5-10&lang=la"
+ok "$([ "$(probe "$U" "len(d['passages']['la']['verses'])")" = "6" ] && echo 1 || echo 0)" "the same range the right way round still returns its six verses"
+
 # grep -c, not grep -q: under `pipefail` a -q that exits on the first match
 # SIGPIPEs the printf and the pipeline reads as failed.
 H=$("${CURL[@]}" -L "${BASE}/en/bible/galatians/3:28/")
