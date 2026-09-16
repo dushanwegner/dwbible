@@ -254,6 +254,28 @@ ok "$([ "$(probe "$U" "'3:5-10' in d['suggestion']")" = "True" ] && echo 1 || ec
 U="${BASE}/bible-ref.json?q=John+3:5-10&lang=la"
 ok "$([ "$(probe "$U" "len(d['passages']['la']['verses'])")" = "6" ] && echo 1 || echo 0)" "the same range the right way round still returns its six verses"
 
+echo
+echo "a book filter naming no real book is refused, not answered with a silent zero:"
+# internal_key_from_any_book() returns a bare legacy slug when nothing maps it
+# to a canonical key. Nine German abbreviations this site PUBLISHES land there,
+# and the search used to answer 200 / total 0 with the raw slug echoed back as
+# bookName — indistinguishable from "that word is not in that book".
+while IFS='|' read -r b; do
+  [ -z "$b" ] && continue
+  U="${BASE}/bible-search.json?q=et&lang=la&book=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$b")&limit=1"
+  ok "$([ "$(code "$U")" = "404" ] && echo 1 || echo 0)" "book=\"$b\" is refused 404"
+  ok "$([ "$(probe "$U" "d['error']")" = "BOOK_NOT_RECOGNISED" ] && echo 1 || echo 0)" "…as BOOK_NOT_RECOGNISED"
+done <<'PHANTOM'
+Buch Ester
+BrJer
+Buch Jesus Sirach
+PHANTOM
+# and every book that IS real still narrows
+for b in Ester Esth Jdt Sir Neh psalms Iob; do
+  U="${BASE}/bible-search.json?q=et&lang=la&book=${b}&limit=1"
+  ok "$([ "$(probe "$U" "d['_meta']['total'] > 0")" = "True" ] && echo 1 || echo 0)" "book=$b still narrows to a real book"
+done
+
 # grep -c, not grep -q: under `pipefail` a -q that exits on the first match
 # SIGPIPEs the printf and the pipeline reads as failed.
 H=$("${CURL[@]}" -L "${BASE}/en/bible/galatians/3:28/")

@@ -781,6 +781,18 @@ trait DwBible_Agent_API_Trait {
         $book_raw = isset( $_GET['book'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['book'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         if ( trim( $book_raw ) !== '' ) {
             $only_key = self::internal_key_from_any_book( trim( $book_raw ), 'latin' );
+            // A KEY THAT NAMES NO BOOK IS NOT A BOOK. internal_key_from_any_book()
+            // returns a bare legacy slug when nothing maps it to a canonical key,
+            // so "Buch Ester" came back as "ester" and this endpoint then searched
+            // a book that does not exist: 200, total 0, and the raw slug echoed
+            // back as `bookName` — indistinguishable to a reader from "that word
+            // is not in Esther". 1.26.09.16.14 fixed exactly this shape for the
+            // one input the citation-name map happened to cover; nine German
+            // abbreviations THIS SITE PUBLISHES still land here (dwbibledata#21),
+            // and on the search path a silent zero is worse than any refusal.
+            if ( $only_key !== null && ! isset( DwBible_Plugin::verse_counts_by_book()[ $only_key ] ) ) {
+                $only_key = null;
+            }
             if ( $only_key === null ) {
                 self::agent_error( 404, 'BOOK_NOT_RECOGNISED', "The book \"{$book_raw}\" could not be recognised.", [
                     'suggestion' => 'Use a canonical key (genesis, psalms, john …) or any language\'s book name. The list: ' . site_url( '/bible-books.json' ),
