@@ -79,6 +79,15 @@ ok "$([ "$(probe "${BASE}/latin/malachias/4/2.json" "d['text'][:18]")" = "Et ori
 ok "$([ "$(code "${BASE}/bible-ref.json?q=Mal+4%3A9")" = "404" ] && echo 1 || echo 0)" "a verse past 4:6 exists in neither numbering, and is refused"
 ok "$([ "$(probe "${BASE}/bible-ref.json?q=Gal+3%3A28" "d['_meta']['readAs']")" = "None" ] && echo 1 || echo 0)" "an ordinary citation is not 'translated'"
 
+echo "a range past the end of a chapter is clamped to what exists, and says so:"
+U="${BASE}/latin/john/3/35-40.json"
+ok "$([ "$(probe "$U" "d['_meta']['verseRange']")" = "[35, 36]" ] && echo 1 || echo 0)" "verseRange is what the chapter has, not what was asked (John 3 ends at 36)"
+ok "$([ "$(probe "$U" "d['citation']")" = "Ioannes 3:35-36 (Clementine Vulgate)" ] && echo 1 || echo 0)" "…and the citation names the verses actually carried"
+ok "$([ "$(probe "$U" "[v['verse'] for v in d['verses']]")" = "[35, 36]" ] && echo 1 || echo 0)" "…matching the verses returned"
+ok "$([ -n "$(probe "$U" "d['_meta'].get('readAs') or ''")" ] && echo 1 || echo 0)" "…and it says it clamped"
+ok "$([ -n "$(probe "${BASE}/bible-ref.json?q=John+3%3A35-40" "d['_meta'].get('readAs') or ''")" ] && echo 1 || echo 0)" "the resolver says so too (it clamped in silence before)"
+ok "$([ "$(code "${BASE}/bible-ref.json?q=John+3%3A40-45")" = "404" ] && echo 1 || echo 0)" "a range starting past the end is still refused outright"
+
 echo "/bible-search.json — verse search:"
 U="${BASE}/bible-search.json?q=dilexerunt+tenebras&lang=la"
 ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "answers 200"

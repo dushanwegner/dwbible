@@ -543,7 +543,13 @@ trait DwBible_Agent_API_Trait {
                     'chapterJson' => self::agent_json_url( 'latin', $key, $ch ),
                 ] ) );
             }
-            if ( $vt > $n ) { $vt = $n; } // an over-long range is clamped, not refused
+            // An over-long range is clamped rather than refused — the reader
+            // named a real verse and meant to read to the end — but a clamp
+            // nobody is told about is a silently different passage.
+            if ( $vt > $n ) {
+                $read_as = "\"{$raw}\" was read as {$ch}:{$vf}-{$n}: this chapter ends at verse {$n}.";
+                $vt = $n;
+            }
         }
 
         $book      = self::agent_book_block( $key );

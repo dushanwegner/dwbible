@@ -266,6 +266,23 @@ trait DwBible_JSON_API_Trait {
             $vto = $vfrom; // single verse
         }
 
+        // A RANGE THAT RUNS PAST THE END OF THE CHAPTER IS CLAMPED, AND SAYS SO.
+        //
+        // /latin/john/3/35-40.json used to answer with verseRange [35, 40] and
+        // the citation "Ioannes 3:35-40" while carrying only verses 35 and 36 —
+        // John 3 has 36. An agent quoting that attributes the text to four
+        // verses that are not in it and do not exist, which is the one thing a
+        // citation must never be. Clamping before the filter means the range,
+        // the citation and the content are one answer instead of three.
+        $max_verse = 0;
+        foreach ( $data['verses'] as $v ) { $max_verse = max( $max_verse, (int) $v['verse'] ); }
+        if ( $vto > $max_verse && $max_verse > 0 ) {
+            $asked_to = $vto;
+            $vto      = $max_verse;
+            $read_as  = "\"{$chapter}:{$vfrom}-{$asked_to}\" was read as {$chapter}:{$vfrom}"
+                      . ( $vto > $vfrom ? "-{$vto}" : '' ) . ': this chapter ends at verse ' . $max_verse . '.';
+        }
+
         $lang       = (string) ( $data['_meta']['translation']['language'] ?? 'en' );
         $book_name  = self::agent_cite_name( (string) $book, $lang, (string) ( $data['_meta']['book']['name'] ?? ucwords( str_replace( '-', ' ', $book ) ) ) );
         $bible_name = $data['_meta']['translation']['name'] ?? 'Bible';
