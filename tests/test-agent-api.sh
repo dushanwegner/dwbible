@@ -143,6 +143,11 @@ ok "$(hv "Ps+116%3A1" "114:1" "Dilexi")" "Hebrew Ps 116:1 stays Vulgate 114:1 (c
 ok "$(hv "Ps+23%3A1" "22:1" "Dominus regit")" "Hebrew Ps 23:1 stays Vulgate 22:1 (control)"
 ok "$([ "$(code "${BASE}/bible-ref.json?q=Ps+116%3A8-12&numbering=hebrew")" = "400" ] && echo 1 || echo 0)" "a Hebrew range across the 116 split is refused, not narrowed"
 ok "$(probe "${BASE}/latin/psalms/10/1.json?numbering=hebrew" "1 if 'recessisti longe' in (d.get('text') or '') else 0")" "…and the verse JSON URL reads Hebrew 10:1 the same way"
+# A psalm SEARCH HIT names its Hebrew verse too — "Psalm 22:1" is "My God, my God" in
+# most readers' Bibles (tick 99).
+ok "$(probe "${BASE}/bible-search.json?q=Dominus+regit+me&lang=la&limit=1" "1 if (d.get('hits') or [{}])[0].get('hebrewRef')=='23:1' else 0")" "a psalm search hit carries hebrewRef (Vulgate 22:1 = Hebrew 23:1)"
+ok "$(probe "${BASE}/bible-search.json?q=Ut+quid+Domine+recessisti&lang=la&limit=1" "1 if (d.get('hits') or [{}])[0].get('hebrewRef')=='10:1' else 0")" "…across the joined psalm (Vulgate 9:22 = Hebrew 10:1)"
+ok "$(probe "${BASE}/bible-search.json?q=Deus+caritas&lang=la&limit=1" "0 if 'hebrewRef' in (d.get('hits') or [{}])[0] else 1")" "…and a hit outside the Psalms carries none (control)"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=en,klingon" "d['_meta']['translation']['language']")" = "en" ] && echo 1 || echo 0)" "a MIXED list still names English, so it is served"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=abc" "d['_meta']['limit']")" = "20" ] && echo 1 || echo 0)" "a malformed limit means the default, not one hit"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=-5" "d['_meta']['limit']")" = "20" ] && echo 1 || echo 0)" "…and so does a negative one (absint made -5 mean 5)"

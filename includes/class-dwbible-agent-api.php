@@ -394,6 +394,19 @@ trait DwBible_Agent_API_Trait {
      *
      * @return array{0:int,1:int}
      */
+    public static function psalm_hebrew_verse_for_vulgate( int $ch, int $v ): array {
+        // The inverse of psalm_vulgate_verse_for_hebrew(), over the same offsets.
+        if ( $ch <= 8 || $ch >= 148 ) { return [ $ch, $v ]; }
+        if ( $ch === 9 )   { return $v <= 21 ? [ 9, $v ] : [ 10, $v - 21 ]; }
+        if ( $ch <= 112 )  { return [ $ch + 1, $v ]; }
+        if ( $ch === 113 ) { return $v <= 8 ? [ 114, $v ] : [ 115, $v - 8 ]; }
+        if ( $ch === 114 ) { return [ 116, $v ]; }
+        if ( $ch === 115 ) { return [ 116, $v + 9 ]; }
+        if ( $ch <= 145 )  { return [ $ch + 1, $v ]; }
+        if ( $ch === 146 ) { return [ 147, $v ]; }
+        return [ 147, $v + 11 ]; // 147
+    }
+
     public static function psalm_vulgate_verse_for_hebrew( int $hebrew, int $verse ): array {
         if ( $hebrew === 10 )                  { return [ 9, 21 + $verse ]; }
         if ( $hebrew === 115 )                 { return [ 113, 8 + $verse ]; }
@@ -912,6 +925,14 @@ trait DwBible_Agent_API_Trait {
                         'jsonUrl'  => self::agent_json_url( $dataset, $key, $ch, $n ),
                         'refJson'  => site_url( '/bible-ref.json?q=' . rawurlencode( "{$key} {$ch}:{$n}" ) . '&lang=all' ),
                     ];
+                    // A psalm hit is cited by its VULGATE number in every language,
+                    // while most readers' Bibles use the Hebrew one: "Psalm 22:1"
+                    // is "My God, my God…" to them. The resolver says so; a search
+                    // hit said nothing (quality loop tick 99).
+                    if ( $key === 'psalms' ) {
+                        [ $hc, $hv ] = self::psalm_hebrew_verse_for_vulgate( $ch, $n );
+                        $hits[ count( $hits ) - 1 ]['hebrewRef'] = "{$hc}:{$hv}";
+                    }
                 }
             }
         }
