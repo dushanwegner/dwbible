@@ -404,6 +404,23 @@ trait DwBible_Router_Trait {
         $cited = self::key_from_citation_name($raw_book);
         if ($cited !== null) { return $cited; }
 
+        // A NUMBERED BOOK WRITTEN WITH A SPACE — "1 Kor", "1 Co", "2 Tes": digit,
+        // space, abbreviation, the form German, French and Spanish Bibles print.
+        // The tables hold "1Kor" and "1. Kor", so 39 such abbreviations answered
+        // "no book recognised" (tick 104). Retried compact, and ONLY when nothing
+        // above recognised the spelling at all: a spaced form one table already
+        // knows keeps the meaning it has. That is deliberate — "1 Re" is 1 Samuel
+        // in Martini's naming and 3 Kings in modern Italian and Spanish, and which
+        // one this site means is an open editorial decision (dwbibledata#17), not
+        // something a normalisation step may settle by reaching a different table.
+        if (!$legacy) {
+            $spelled = trim($raw_book);
+            $compact = (string) preg_replace('/^(\d+)\.?\s+(?=\D)/u', '$1', $spelled);
+            if ($compact !== $spelled) {
+                return self::internal_key_from_any_book($compact, $slug);
+            }
+        }
+
         // Nothing named a book. A legacy slug that maps to no key is returned
         // as it always has been, for callers that treat it as an identifier.
         return $legacy ?: null;

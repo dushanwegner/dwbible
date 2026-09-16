@@ -327,6 +327,19 @@ ok "$(has 'rel="alternate" type="application/json" href="'"${BASE}"'/bible/galat
 ok "$(has 'rel="help" type="text/plain" href="'"${BASE}"'/llms.txt"')" "verse page links llms.txt"
 ok "$(has 'og:description" content="There is neither Jew nor Greek')" "og:description is the verse (in the page language), not the tagline"
 
+# A numbered book as a German, French or Spanish reader writes it: digit, SPACE,
+# abbreviation — "1 Kor 13,4" is how the Einheitsübersetzung prints it, "1 Co 13,4"
+# the Bible de Jérusalem. The tables hold "1Kor" and "1. Kor"; the spaced form
+# answered BOOK_NOT_RECOGNISED for 39 abbreviations (tick 104). "1 Re" is NOT pinned
+# here: it already resolves, and whether it means 1 Samuel (Martini) or 3 Kings
+# (modern Italian/Spanish) is the open decision dwbibledata#17.
+for pair in "1+Kor+13,4:1-corinthians" "2+Kor+5,17:2-corinthians" "1+K%C3%B6n+3,9:3-kings" "1+Joh+4,8:1-john" \
+            "1+Petr+2,9:1-peter" "1+Co+13,4:1-corinthians" "1+R+19,8:3-kings" "2+Tes+3,10:2-thessalonians"; do
+  q="${pair%%:*}"; want="${pair##*:}"
+  got=$(probe "${BASE}/bible-ref.json?q=${q}&lang=la" "d['ref']['book']['key']")
+  ok "$([ "$got" = "$want" ] && echo 1 || echo 0)" "spaced numbered abbreviation \"${q//+/ }\" is ${want} (got ${got:-an error})"
+done
+
 # The documents an agent reads FIRST must be readable from another origin, like the
 # JSON they describe. A browser-hosted agent that may fetch /bible-ref.json but not
 # the llms.txt telling it that endpoint exists never learns about it. dwtheme serves
