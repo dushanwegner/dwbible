@@ -238,6 +238,16 @@ ok "$([ "$(probe "$U" "'dixo' in (d['_meta'].get('noHitsBecause') or '')")" = "T
 ok "$([ "$(probe "${BASE}/bible-search.json?q=dixo&lang=es&limit=1" "d['_meta']['total'] > 2000")" = "True" ] && echo 1 || echo 0)" "the Spanish hint's 'dixo' is real"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=muger&lang=es&limit=1" "d['_meta']['total'] > 500")" = "True" ] && echo 1 || echo 0)" "the Spanish hint's 'muger' is real"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=shew&lang=en&limit=1" "d['_meta']['total'] > 0")" = "True" ] && echo 1 || echo 0)" "the English hint's 'shew' is real"
+# The Latin hint used to say the search "folds j/i and æ/œ, so either spelling
+# matches" — while printing "cælum", the very word a reader typing the common
+# ecclesiastical "coelum" had got wrong. Folding covers æ/ae and œ/oe; it does
+# NOT equate oe with ae, so that reader was sent away thinking the word absent.
+U="${BASE}/bible-search.json?q=coelum&lang=la&limit=1"
+ok "$([ "$(probe "$U" "'coelum' in (d['_meta'].get('noHitsBecause') or '')")" = "True" ] && echo 1 || echo 0)" "the Latin hint names the oe/ae trap it used to hide"
+ok "$([ "$(probe "$U" "'either spelling matches' in (d['_meta'].get('noHitsBecause') or '')")" = "False" ] && echo 1 || echo 0)" "…and no longer claims either spelling matches"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=c%C3%A6lum&lang=la&limit=1" "d['_meta']['total'] == 175")" = "True" ] && echo 1 || echo 0)" "the Latin hint's 'cælum' count is real"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=Coeli+enarrant&lang=la&limit=1" "d['_meta']['total'] == 0")" = "True" ] && echo 1 || echo 0)" "Ps 18:2 as most books print it — 'Coeli enarrant' — still finds nothing"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=C%C3%A6li+enarrant&lang=la&limit=1" "d['_meta']['total'] == 1")" = "True" ] && echo 1 || echo 0)" "…and the edition's own spelling finds the psalm"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=nol&lang=it&limit=1" "d['_meta']['total'] > 0")" = "True" ] && echo 1 || echo 0)" "the Italian hint's 'nol' is real"
 
 echo
