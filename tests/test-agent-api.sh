@@ -346,6 +346,22 @@ done
 ok "$([ "$(probe "${BASE}/bible-search.json?q=love+thy+neighbour&lang=en&limit=50" "any(h['book']['key']=='matthew' and h['chapter']==19 and h['verse']==19 for h in d['hits'])")" = "True" ] && echo 1 || echo 0)" "\"love thy neighbour\" finds Matthew 19:19, which spells it \"neighbor\""
 ok "$([ "$(total four)" -gt 0 ] && [ "$(total your)" -gt 0 ] && [ "$(total hour)" -gt 0 ] && echo 1 || echo 0)" "…and no generic our→or fold: four, your, hour still match"
 
+# A PLAUSIBLE MISNAMING of a parameter is refused and the right name given (tick 111).
+# Ignored, `language=de` searched the Latin, found nothing and blamed its spelling;
+# `psalms=hebrew` served a different psalm. Harmless extras (cache-busters) still pass.
+# The plain URL is read first, so it sits in dwcache: a key that dropped the misnamed
+# parameter would answer from that entry and the refusal would never run (the tick-108 bug).
+for w in "bible-search.json?q=Liebe" "bible-search.json?q=Deus" "bible-ref.json?q=Psalm+23" "bible-ref.json?q=Joh+3,16"; do
+  "${CURL[@]}" -o /dev/null "${BASE}/$w"; "${CURL[@]}" -o /dev/null "${BASE}/$w"
+done
+refused_names() { probe "$1" "d.get('error') == 'UNKNOWN_PARAM' and '$2' in d.get('suggestion','')"; }
+ok "$([ "$(refused_names "${BASE}/bible-search.json?q=Liebe&language=de" "lang=")" = "True" ] && echo 1 || echo 0)" "search: language=de is refused, naming lang="
+ok "$([ "$(refused_names "${BASE}/bible-search.json?q=Deus&page=2" "offset")" = "True" ] && echo 1 || echo 0)" "search: page=2 is refused, naming offset"
+ok "$([ "$(refused_names "${BASE}/bible-search.json?q=Deus&books=Iob" "book=")" = "True" ] && echo 1 || echo 0)" "search: books= is refused, naming book="
+ok "$([ "$(refused_names "${BASE}/bible-ref.json?q=Psalm+23&psalms=hebrew" "numbering=")" = "True" ] && echo 1 || echo 0)" "resolver: psalms=hebrew is refused, naming numbering= (ignored, it served another psalm)"
+ok "$([ "$(refused_names "${BASE}/bible-ref.json?q=Joh+3,16&language=de" "lang=")" = "True" ] && echo 1 || echo 0)" "resolver: language=de is refused, naming lang="
+ok "$([ "$(code "${BASE}/bible-search.json?q=Deus&_=12345")" = "200" ] && [ "$(code "${BASE}/bible-ref.json?q=Gal+3:28&utm_source=x")" = "200" ] && echo 1 || echo 0)" "…while a cache-buster or a utm_ tag is still ignored"
+
 # Forms a lectionary or a German Bible prints (tick 110). Half-verse letters and "f." are
 # READ, and say so; "ff.", verse lists and a missing separator are REFUSED with advice
 # about THAT fault — every one of them used to be told a range must stay in one chapter.

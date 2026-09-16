@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.16.28
+* Version: 1.26.09.16.29
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.16.28');
+    define('DWBIBLE_VERSION', '1.26.09.16.29');
 }
 
 // Load include classes before hooks are registered
@@ -54,6 +54,12 @@ add_filter('dwcache_allowed_query_params', function ($params, $url = '') {
         // told thousands more remained. A cache-buster does not reveal it
         // either — an unknown parameter is stripped from the key as well.
         $params = array_merge((array) $params, array('lang', 'typography', 'numbering', 'book', 'limit', 'offset'));
+        // The GUESSED names too (AGENT_MISNAMED_PARAMS): dropped from the key, a
+        // `?q=Liebe&language=de` request was answered from `?q=Liebe`'s cached entry
+        // before the refusal could run. The refusal is a 400, so nothing is stored.
+        foreach (DwBible_Plugin::AGENT_MISNAMED_PARAMS as $aliases) {
+            $params = array_merge($params, array_keys($aliases));
+        }
     }
     return array_merge((array) $params, array(
         'dwbible_qr', 'dwbible_qr_download', 'dwbible_qr_range',

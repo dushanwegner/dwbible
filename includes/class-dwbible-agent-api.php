@@ -33,6 +33,39 @@ trait DwBible_Agent_API_Trait {
     /** Hard ceiling on search hits per response; the default is 20. */
     const AGENT_SEARCH_MAX_LIMIT = 100;
 
+    /**
+     * Names an agent plausibly GUESSES for a parameter, per endpoint → the real name.
+     *
+     * Ignored, they were silent wrong answers: `language=de` searched the Latin,
+     * found nothing and blamed the Clementine's spelling; `page=2` returned page one;
+     * `psalms=hebrew` served a different psalm (quality loop tick 111). They are now
+     * refused, naming the parameter meant. Anything NOT listed is still ignored, so a
+     * cache-buster or a tracking tag passes — which is why `ref` (a referrer tag),
+     * `version`/`v` (cache-busters) and `s` (WordPress's search) are not listed.
+     *
+     * Also the dwcache key's list for .json routes (dwbible.php): a key that dropped
+     * these names would answer from the plain URL's cached entry and never refuse.
+     */
+    const AGENT_MISNAMED_PARAMS = [
+        'bible-ref' => [
+            'language' => 'lang', 'languages' => 'lang', 'lng' => 'lang', 'locale' => 'lang',
+            'translation' => 'lang', 'translations' => 'lang', 'edition' => 'lang', 'bible' => 'lang',
+            'query' => 'q', 'citation' => 'q', 'reference' => 'q', 'passage' => 'q', 'verse' => 'q', 'verses' => 'q',
+            'psalms' => 'numbering', 'psalm' => 'numbering', 'psalm_numbering' => 'numbering',
+            'numeration' => 'numbering', 'versification' => 'numbering',
+            'clean' => 'typography',
+        ],
+        'bible-search' => [
+            'language' => 'lang', 'languages' => 'lang', 'lng' => 'lang', 'locale' => 'lang',
+            'translation' => 'lang', 'translations' => 'lang', 'edition' => 'lang', 'bible' => 'lang',
+            'query' => 'q', 'search' => 'q', 'text' => 'q', 'term' => 'q', 'terms' => 'q', 'words' => 'q', 'phrase' => 'q',
+            'max' => 'limit', 'count' => 'limit', 'size' => 'limit', 'per_page' => 'limit', 'perpage' => 'limit',
+            'rows' => 'limit', 'num' => 'limit', 'results' => 'limit', 'max_results' => 'limit', 'top' => 'limit',
+            'page' => 'offset', 'start' => 'offset', 'skip' => 'offset', 'from' => 'offset', 'cursor' => 'offset',
+            'books' => 'book', 'book_name' => 'book', 'bookname' => 'book', 'in_book' => 'book',
+        ],
+    ];
+
     // ── Language / dataset bridging ─────────────────────────────────────────
 
     /**
@@ -525,6 +558,30 @@ trait DwBible_Agent_API_Trait {
         return $parts ? implode( ' ', $parts ) : null;
     }
 
+    /** Refuse a guessed parameter name (see AGENT_MISNAMED_PARAMS), naming the real one. */
+    private static function agent_reject_misnamed_params( string $endpoint ): void {
+        $aliases = self::AGENT_MISNAMED_PARAMS[ $endpoint ] ?? [];
+        foreach ( array_keys( $_GET ) as $name ) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+            $real = $aliases[ strtolower( (string) $name ) ] ?? null;
+            if ( $real === null || isset( $_GET[ $real ] ) ) { continue; } // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+            $value = (string) preg_replace( '/[^\p{L}\p{N} ,:.+\-]/u', '', (string) wp_unslash( is_scalar( $_GET[ $name ] ) ? $_GET[ $name ] : '' ) ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+            $value = mb_substr( trim( $value ), 0, 40 );
+            $advice = [
+                'lang'       => 'The translation is lang=, one of la, en, de, es, fr, it' . ( $endpoint === 'bible-ref' ? ' (a comma list or "all" here)' : ' (one per search)' ) . ': lang=' . ( $value !== '' ? $value : 'de' ) . '.',
+                'q'          => ( $endpoint === 'bible-search' ? 'The words to find are q=' : 'The citation is q=' ) . ': q=' . ( $value !== '' ? $value : '…' ) . '.',
+                'limit'      => 'The number of hits is limit= (at most ' . self::AGENT_SEARCH_MAX_LIMIT . '): limit=' . ( ctype_digit( $value ) ? $value : '20' ) . '.',
+                'offset'     => 'Paging is offset=, the 0-based position of the first hit — with the default limit of 20, the second page is offset=20. Each answer names its nextOffset.',
+                'book'       => 'Narrow to one book with book=: book=' . ( $value !== '' ? $value : 'Iob' ) . '.',
+                'numbering'  => 'A psalm number is read as Hebrew with numbering=hebrew (the default is vulgate).',
+                'typography' => 'Drop the space before : ; ! ? with typography=clean.',
+            ][ $real ];
+            self::agent_error( 400, 'UNKNOWN_PARAM', "\"{$name}\" is not a parameter of /{$endpoint}.json, so it would not have been applied.", [
+                'parameter'  => $real,
+                'suggestion' => $advice,
+            ] );
+        }
+    }
+
     // ── /bible-ref.json — the reference resolver ────────────────────────────
 
     /**
@@ -545,6 +602,7 @@ trait DwBible_Agent_API_Trait {
      * with the chapter's length — never silently a different verse.
      */
     private static function serve_reference_json() {
+        self::agent_reject_misnamed_params( 'bible-ref' );
         $raw = isset( $_GET['q'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['q'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         $raw = trim( $raw );
         if ( $raw === '' ) {
@@ -824,6 +882,7 @@ trait DwBible_Agent_API_Trait {
      * then verse.
      */
     private static function serve_search_json() {
+        self::agent_reject_misnamed_params( 'bible-search' );
         $raw = isset( $_GET['q'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['q'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         $raw = trim( $raw );
         if ( $raw === '' ) {
