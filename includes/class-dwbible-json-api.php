@@ -97,6 +97,20 @@ trait DwBible_JSON_API_Trait {
             }
         }
 
+        // ?numbering=hebrew on a Psalms URL: the reader named the Masoretic psalm,
+        // so serve the Vulgate chapter that holds it and SAY so — never a
+        // different psalm in silence. An unknown value is a 400 (agent_numbering_mode).
+        $numbering  = self::agent_numbering_mode();
+        $psalm_meta = null;
+        if ( $book === 'psalms' && $chapter !== '' ) {
+            $pr = self::agent_psalm_request( (int) $chapter, $numbering );
+            if ( $pr === null ) {
+                self::agent_error( 404, 'CHAPTER_NOT_FOUND', "There is no Psalm {$chapter}.", [ 'suggestion' => 'Psalms run 1-150.' ] );
+            }
+            $chapter    = (string) $pr['chapter'];
+            $psalm_meta = $pr['meta'];
+        }
+
         // Build file path
         $base = dwbible_data_dir() . $slug . '/json/';
 
@@ -125,8 +139,19 @@ trait DwBible_JSON_API_Trait {
 
         // ── Single verse or verse range: extract from chapter JSON ──────
         if ( $vfrom > 0 && ! empty( $book ) && ! empty( $chapter ) ) {
-            self::serve_verse_json( $file, $slug, $book, (int) $chapter, $vfrom, $vto );
+            self::serve_verse_json( $file, $slug, $book, (int) $chapter, $vfrom, $vto, $psalm_meta );
             exit;
+        }
+
+        // A psalm chapter asked for with a numbering parameter: the file is
+        // decoded so the answer can state which numbering it honoured.
+        if ( $psalm_meta !== null && $numbering !== '' ) {
+            $data = json_decode( (string) file_get_contents( $file ), true );
+            if ( is_array( $data ) ) {
+                $data['_meta']['psalmNumbering'] = $psalm_meta;
+                self::send_json( $data );
+                exit;
+            }
         }
 
         // Serve the pre-generated file. This is the busiest path in the API — every
@@ -211,7 +236,7 @@ trait DwBible_JSON_API_Trait {
      * Reads the pre-generated chapter file, filters to the requested verse(s),
      * and wraps them in a self-documenting response with navigation links.
      */
-    private static function serve_verse_json( $chapter_file, $slug, $book, $chapter, $vfrom, $vto ) {
+    private static function serve_verse_json( $chapter_file, $slug, $book, $chapter, $vfrom, $vto, $psalm_meta = null ) {
         $raw = file_get_contents( $chapter_file );
         if ( $raw === false ) {
             self::serve_json_404();
@@ -228,7 +253,8 @@ trait DwBible_JSON_API_Trait {
             $vto = $vfrom; // single verse
         }
 
-        $book_name  = $data['_meta']['book']['name'] ?? ucwords( str_replace( '-', ' ', $book ) );
+        $lang       = (string) ( $data['_meta']['translation']['language'] ?? 'en' );
+        $book_name  = self::agent_cite_name( (string) $book, $lang, (string) ( $data['_meta']['book']['name'] ?? ucwords( str_replace( '-', ' ', $book ) ) ) );
         $bible_name = $data['_meta']['translation']['name'] ?? 'Bible';
         $clean      = self::agent_typography_mode() === 'clean';
 
@@ -271,31 +297,25 @@ trait DwBible_JSON_API_Trait {
         // Build verse reference string
         $ref = $is_range ? "{$book_name} {$chapter}:{$vfrom}-{$vto}" : "{$book_name} {$chapter}:{$vfrom}";
 
-        // HTML URL for this chapter (from pre-generated JSON, or construct from slug/book/chapter)
-        $chapter_html_url = $data['_meta']['navigation']['htmlUrl']
-            ?? "{$site_url}/{$slug}/{$book}/{$chapter}/";
+        // Every HTML address is the CANONICAL page — /{lang}/biblia/{latin-slug}/{ch}:{v}/ —
+        // which resolves in one hop. The dataset-slug form with ?dwbible_vfrom=
+        // cost two 301s and kept the query on the final URL.
+        $chapter_html_url = self::agent_html_url( $lang, (string) $book, (int) $chapter );
+        $sets             = self::json_datasets();
 
-        // Build cross-references to same verse(s) in other translations (JSON + HTML)
+        // Cross-references to the same verse(s) in the other translations (JSON + HTML)
         $cross_refs = [];
-        $all_slugs  = array_keys( self::json_datasets() ); // all six, not a hand-typed three
         $verse_path = $is_range ? "{$vfrom}-{$vto}.json" : "{$vfrom}.json";
-        foreach ( $all_slugs as $ds ) {
+        foreach ( array_keys( $sets ) as $ds ) {
             if ( $ds === $slug ) { continue; }
             $cross_refs[ $ds ] = "{$site_url}/{$ds}/{$book}/{$chapter}/{$verse_path}";
-            // HTML URL for the chapter page with verse highlight
-            $vq = $is_range
-                ? "?dwbible_vfrom={$vfrom}&dwbible_vto={$vto}"
-                : "?dwbible_vfrom={$vfrom}";
-            $cross_refs[ "{$ds}HtmlUrl" ] = "{$site_url}/{$ds}/{$book}/{$chapter}/{$vq}";
+            $cross_refs[ "{$ds}HtmlUrl" ] = self::agent_html_url( (string) $sets[ $ds ]['language'], (string) $book, (int) $chapter, $vfrom, $vto );
         }
 
-        // Build navigation links (JSON API + human-readable HTML)
+        // Navigation links (JSON API + human-readable HTML)
         $total_verses = count( $data['verses'] );
-        $verse_qs = $is_range
-            ? "?dwbible_vfrom={$vfrom}&dwbible_vto={$vto}"
-            : "?dwbible_vfrom={$vfrom}";
         $nav = [
-            'htmlUrl'          => $chapter_html_url . $verse_qs,
+            'htmlUrl'          => self::agent_html_url( $lang, (string) $book, (int) $chapter, $vfrom, $vto ),
             'chapterJson'      => "{$site_url}/{$slug}/{$book}/{$chapter}.json",
             'chapterHtmlUrl'   => $chapter_html_url,
             'bookIndex'        => $data['_meta']['navigation']['bookIndex'] ?? null,
@@ -323,8 +343,7 @@ trait DwBible_JSON_API_Trait {
 
         // The canonical HTML page of exactly this passage (one hop, no redirect),
         // and this response's own address — the two things an agent links or refetches.
-        $lang     = $data['_meta']['translation']['language'] ?? 'en';
-        $html_url = self::agent_html_url( (string) $lang, $book, $chapter, $vfrom, $vto );
+        $html_url = $nav['htmlUrl'];
         $json_url = self::agent_json_url( $slug, $book, $chapter, $vfrom, $vto );
 
         $meta = [
@@ -343,7 +362,7 @@ trait DwBible_JSON_API_Trait {
             'refJson'         => $site_url . '/bible-ref.json?q=' . rawurlencode( "{$book} {$chapter}:{$vfrom}" . ( $is_range ? "-{$vto}" : '' ) ) . '&lang=all',
         ];
         if ( $book === 'psalms' ) {
-            $meta['psalmNumbering'] = self::psalm_numbering( (int) $chapter );
+            $meta['psalmNumbering'] = $psalm_meta ?? self::psalm_numbering( (int) $chapter );
         }
 
         // Top-level convenience fields for single verses AND ranges alike: the

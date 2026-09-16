@@ -147,22 +147,73 @@ trait DwBible_Agent_API_Trait {
      */
     public static function psalm_numbering( int $vulgate ): array {
         $n = $vulgate;
-        if ( $n <= 8 || $n >= 148 )      { $hebrew = (string) $n; }
-        elseif ( $n === 9 )              { $hebrew = '9-10'; }
-        elseif ( $n <= 112 )             { $hebrew = (string) ( $n + 1 ); }
-        elseif ( $n === 113 )            { $hebrew = '114-115'; }
-        elseif ( $n === 114 )            { $hebrew = '116:1-9'; }
-        elseif ( $n === 115 )            { $hebrew = '116:10-19'; }
-        elseif ( $n <= 145 )             { $hebrew = (string) ( $n + 1 ); }
-        elseif ( $n === 146 )            { $hebrew = '147:1-11'; }
-        else /* 147 */                   { $hebrew = '147:12-20'; }
-        return [
+        // `hebrew` is always an integer — the Masoretic psalm this one is (or
+        // begins) — so a consumer can compare numbers. Where the two systems do
+        // not map one to one, `hebrewSpan` says exactly how.
+        $span = null;
+        if ( $n <= 8 || $n >= 148 )      { $hebrew = $n; }
+        elseif ( $n === 9 )              { $hebrew = 9;   $span = 'Vulgate 9 is Hebrew 9 and 10 together'; }
+        elseif ( $n <= 112 )             { $hebrew = $n + 1; }
+        elseif ( $n === 113 )            { $hebrew = 114; $span = 'Vulgate 113 is Hebrew 114 and 115 together'; }
+        elseif ( $n === 114 )            { $hebrew = 116; $span = 'Vulgate 114 is Hebrew 116:1-9 (the first part)'; }
+        elseif ( $n === 115 )            { $hebrew = 116; $span = 'Vulgate 115 is Hebrew 116:10-19 (the second part)'; }
+        elseif ( $n <= 145 )             { $hebrew = $n + 1; }
+        elseif ( $n === 146 )            { $hebrew = 147; $span = 'Vulgate 146 is Hebrew 147:1-11 (the first part)'; }
+        else /* 147 */                   { $hebrew = 147; $span = 'Vulgate 147 is Hebrew 147:12-20 (the second part)'; }
+        $out = [
             'system'  => 'vulgate',
             'vulgate' => $n,
             'hebrew'  => $hebrew,
-            'note'    => 'Chapter numbers in this API are Vulgate (Septuagint) numbering, in every translation. '
-                       . '`hebrew` is the Masoretic number of the same psalm. Pass ?numbering=hebrew to /bible-ref.json to cite by the Hebrew number.',
         ];
+        if ( $span !== null ) { $out['hebrewSpan'] = $span; }
+        $out['note'] = 'Chapter numbers in this API are Vulgate (Septuagint) numbering, in every translation. '
+                     . '`hebrew` is the Masoretic number of the same psalm. Pass ?numbering=hebrew (on any psalm URL or /bible-ref.json) to cite by the Hebrew number.';
+        return $out;
+    }
+
+    /**
+     * The `numbering` request parameter: '' (absent), 'vulgate' or 'hebrew'.
+     * Anything else is a 400 — a parameter that is silently dropped would hand
+     * the reader a different psalm without a word.
+     */
+    private static function agent_numbering_mode(): string {
+        $n = isset( $_GET['numbering'] ) ? strtolower( sanitize_key( wp_unslash( (string) $_GET['numbering'] ) ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        if ( $n === '' || $n === 'vulgate' || $n === 'hebrew' ) { return $n; }
+        self::agent_error( 400, 'UNSUPPORTED_PARAM', "numbering=\"{$n}\" is not understood.", [
+            'suggestion' => 'numbering=vulgate (the default, the site\'s own numbering) or numbering=hebrew (Masoretic).',
+        ] );
+        return '';
+    }
+
+    /**
+     * Apply ?numbering=hebrew to a Psalms chapter number: the Vulgate chapter
+     * that holds it, plus the psalmNumbering block that records what was asked.
+     * Returns null for a Hebrew number no psalm has (the caller answers 404).
+     *
+     * @return array{chapter:int,meta:array}|null
+     */
+    private static function agent_psalm_request( int $chapter, string $numbering ): ?array {
+        if ( $numbering === 'hebrew' ) {
+            $v = self::psalm_vulgate_for_hebrew( $chapter );
+            if ( $v === null ) { return null; }
+            $meta = self::psalm_numbering( $v );
+            $meta['requested'] = [ 'system' => 'hebrew', 'number' => $chapter ];
+            return [ 'chapter' => $v, 'meta' => $meta ];
+        }
+        return [ 'chapter' => $chapter, 'meta' => self::psalm_numbering( $chapter ) ];
+    }
+
+    /**
+     * The book name a CITATION uses in one language. One psalm is cited in the
+     * singular — "Psalmus 22", "Psalm 22", "Salmo 22" — while the book is
+     * "Psalmi"; every other book cites by its name unchanged.
+     */
+    public static function agent_cite_name( string $key, string $lang, string $fallback ): string {
+        if ( $key === 'psalms' ) {
+            $singular = [ 'la' => 'Psalmus', 'en' => 'Psalm', 'de' => 'Psalm', 'es' => 'Salmo', 'fr' => 'Psaume', 'it' => 'Salmo' ];
+            return $singular[ $lang ] ?? $fallback;
+        }
+        return $fallback;
     }
 
     /**
@@ -298,21 +349,15 @@ trait DwBible_Agent_API_Trait {
         }
 
         // Psalms: the reader may have typed the Hebrew number.
-        $numbering  = isset( $_GET['numbering'] ) ? strtolower( sanitize_key( wp_unslash( (string) $_GET['numbering'] ) ) ) : 'vulgate'; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        $numbering  = self::agent_numbering_mode();
         $psalm_meta = null;
         if ( $key === 'psalms' && $ch > 0 ) {
-            if ( $numbering === 'hebrew' ) {
-                $v = self::psalm_vulgate_for_hebrew( $ch );
-                if ( $v === null ) {
-                    self::agent_error( 404, 'CHAPTER_NOT_FOUND', "There is no Psalm {$ch}.", [ 'suggestion' => 'Psalms run 1-150.' ] );
-                }
-                $requested_hebrew = $ch;
-                $ch = $v;
-                $psalm_meta = self::psalm_numbering( $ch );
-                $psalm_meta['requested'] = [ 'system' => 'hebrew', 'number' => $requested_hebrew ];
-            } else {
-                $psalm_meta = self::psalm_numbering( $ch );
+            $pr = self::agent_psalm_request( $ch, $numbering );
+            if ( $pr === null ) {
+                self::agent_error( 404, 'CHAPTER_NOT_FOUND', "There is no Psalm {$ch}.", [ 'suggestion' => 'Psalms run 1-150.' ] );
             }
+            $ch         = $pr['chapter'];
+            $psalm_meta = $pr['meta'];
         }
 
         // Does the passage exist? Check against the Latin spine before reading anything.
@@ -352,7 +397,8 @@ trait DwBible_Agent_API_Trait {
 
         $citations = [];
         foreach ( $book['names'] as $lang => $name ) {
-            $citations[ $lang ] = $name . ( $ch > 0 ? ' ' . $ch . ( $vf > 0 ? ':' . $vf . ( $vt > $vf ? '-' . $vt : '' ) : '' ) : '' );
+            $cite = $ch > 0 ? self::agent_cite_name( $key, (string) $lang, (string) $name ) : (string) $name;
+            $citations[ $lang ] = $cite . ( $ch > 0 ? ' ' . $ch . ( $vf > 0 ? ':' . $vf . ( $vt > $vf ? '-' . $vt : '' ) : '' ) : '' );
         }
 
         $passages = [];
@@ -469,7 +515,7 @@ trait DwBible_Agent_API_Trait {
             $key = $row['key'];
             if ( $only_key !== null && $key !== $only_key ) { continue; }
             $chapters = isset( $counts[ $key ] ) ? count( $counts[ $key ] ) : 0;
-            $bname    = $names[ $key ][ $lang ] ?? $row['name'];
+            $bname    = self::agent_cite_name( $key, $lang, (string) ( $names[ $key ][ $lang ] ?? $row['name'] ) );
             $slug     = $row['slug'];
             for ( $ch = 1; $ch <= $chapters; $ch++ ) {
                 $file = $base . $key . '/' . $ch . '.json';
@@ -501,17 +547,19 @@ trait DwBible_Agent_API_Trait {
             }
         }
 
-        $site = site_url();
+        $site      = site_url();
+        $only_name = $only_key ? (string) ( $names[ $only_key ][ $lang ] ?? $only_key ) : null;
         self::send_json( [
             '_meta' => [
                 'project'     => 'Latin Prayer',
                 'projectUrl'  => $site,
                 'apiDocs'     => $site . '/llms.txt',
-                'content'     => "{$total} verse" . ( $total === 1 ? '' : 's' ) . " matching \"{$raw}\" in {$tname}" . ( $only_key ? " ({$only_key})" : '' ),
+                'content'     => "{$total} verse" . ( $total === 1 ? '' : 's' ) . " matching \"{$raw}\" in {$tname}" . ( $only_name ? " (in {$only_name})" : '' ),
                 'query'       => $raw,
                 'tokens'      => $tokens,
                 'translation' => $meta_ds,
                 'book'        => $only_key,
+                'bookName'    => $only_name,
                 'limit'       => $limit,
                 'total'       => $total,
                 'truncated'   => $total > count( $hits ),

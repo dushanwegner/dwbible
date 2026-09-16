@@ -153,10 +153,34 @@ add_filter('do_parse_request', function ($do, $wp = null, $extra = null) {
     }
     // Preserve the query string across the redirect (except the format=json
     // alias handled above) — dropping it would strip legitimate parameters.
-    $qs = (string) (explode('?', (string) ($_SERVER['REQUEST_URI'] ?? ''), 2)[1] ?? '');
+    // The verse-highlight parameters are the exception: `?dwbible_vfrom=28`
+    // on a chapter URL MEANS /{ch}:28/, so they are folded into the canonical
+    // path and dropped, rather than riding along on the final address.
+    $qs   = (string) (explode('?', (string) ($_SERVER['REQUEST_URI'] ?? ''), 2)[1] ?? '');
+    $rest = dwbible_i18n_fold_verse_params($rest, $qs);
     wp_safe_redirect(dwi18n_url_for($lang, '/' . DwBible_Plugin::CANONICAL_SECTION . $rest) . ($qs !== '' ? '?' . $qs : ''), $code);
     exit;
 }, -5, 3);
+
+/**
+ * Fold ?dwbible_vfrom=N[&dwbible_vto=M] into a chapter path: /book/3/ + vfrom=28
+ * becomes /book/3:28/ and the two parameters leave the query string (by
+ * reference). A path that already names a verse, or has no chapter, is untouched.
+ */
+function dwbible_i18n_fold_verse_params(string $rest, string &$qs): string {
+    if ($qs === '' || strpos($qs, 'dwbible_v') === false) {
+        return $rest;
+    }
+    parse_str($qs, $params);
+    $vf = isset($params['dwbible_vfrom']) ? (int) $params['dwbible_vfrom'] : 0;
+    $vt = isset($params['dwbible_vto']) ? (int) $params['dwbible_vto'] : 0;
+    unset($params['dwbible_vfrom'], $params['dwbible_vto']);
+    $qs = http_build_query($params);
+    if ($vf > 0 && preg_match('#^/([^/:,]+)/([0-9]+)/?$#', $rest, $m)) {
+        return '/' . $m[1] . '/' . $m[2] . ':' . $vf . ($vt > $vf ? '-' . $vt : '') . '/';
+    }
+    return $rest;
+}
 
 /**
  * JSON dataset slug for any Bible section slug a user might type: single

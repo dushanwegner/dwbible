@@ -127,6 +127,20 @@ trait DwBible_Router_Trait {
             return false;
         }
 
+        // ?dwbible_vfrom=28 on a chapter URL MEANS /{ch}:28/ — fold it into the
+        // path and drop it from the query, so the hop lands on the canonical
+        // verse address instead of carrying the parameters to the final URL.
+        if (is_string($qs) && $qs !== '' && strpos($qs, 'dwbible_v') !== false) {
+            parse_str($qs, $qp);
+            $vf = (int) ($qp['dwbible_vfrom'] ?? 0);
+            $vt = (int) ($qp['dwbible_vto'] ?? 0);
+            unset($qp['dwbible_vfrom'], $qp['dwbible_vto']);
+            $qs = http_build_query($qp);
+            if ($vf > 0 && preg_match('#^(/[^/]+/[^/:,]+/[0-9]+)/?$#', $new_path, $mm)) {
+                $new_path = $mm[1] . ':' . $vf . ($vt > $vf ? '-' . $vt : '') . '/';
+            }
+        }
+
         // HTML routes use trailing slashes. Pre-append it here so the redirect
         // lands on the canonical URL in a single hop. Without this, WordPress's
         // redirect_canonical hook (priority 10) overrides our priority-1
@@ -290,6 +304,13 @@ trait DwBible_Router_Trait {
         $request_parts = explode('?', add_query_arg([]), 2);
         $current       = home_url($request_parts[0]);
         $qs            = isset($request_parts[1]) ? (string) $request_parts[1] : '';
+        // The verse-highlight parameters are already IN the canonical path as
+        // /{ch}:{v}, so they leave the query rather than riding along as junk.
+        if ($qs !== '' && strpos($qs, 'dwbible_v') !== false) {
+            parse_str($qs, $qp);
+            unset($qp['dwbible_vfrom'], $qp['dwbible_vto']);
+            $qs = http_build_query($qp);
+        }
         if (trailingslashit($canonical_url) !== trailingslashit($current)) {
             wp_redirect($canonical_url . ($qs !== '' ? '?' . $qs : ''), 301);
             exit;
