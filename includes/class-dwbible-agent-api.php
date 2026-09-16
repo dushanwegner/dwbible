@@ -171,6 +171,46 @@ trait DwBible_Agent_API_Trait {
     }
 
     /**
+     * A book key from a name THIS SITE PRINTS as a citation — the last resort
+     * of the resolver.
+     *
+     * Every answer carries a citation per language, and a consumer's obvious
+     * next move is to quote one back. That did not work: the matcher reads the
+     * URL slugs and the search vocabulary, which for Italian follow Martini's
+     * Vulgate naming ("Primo dei Re" = 1 Samuel), while the citations are
+     * printed in modern Italian ("1 Samuele", "1 Corinzi"). Nineteen of the 73
+     * Italian citations and two Spanish ones did not resolve — a closed loop
+     * the site opened itself. The rule this restores is simple: EVERY NAME WE
+     * PRINT, WE ACCEPT.
+     *
+     * Ambiguity refuses rather than guesses. Today no two books print the same
+     * name (349 distinct across six languages, zero collisions), but a name
+     * that ever came to mean two books must not silently pick one — that is the
+     * failure shape this endpoint exists to avoid.
+     */
+    public static function key_from_citation_name( string $raw ): ?string {
+        static $map = null;
+        if ( $map === null ) {
+            $map = [];
+            foreach ( self::agent_book_names_table() as $key => $names ) {
+                foreach ( (array) $names as $name ) {
+                    if ( ! is_string( $name ) || trim( $name ) === '' ) { continue; }
+                    $slug = DwBible_Plugin::slugify( $name );
+                    if ( $slug === '' ) { continue; }
+                    if ( ! array_key_exists( $slug, $map ) ) {
+                        $map[ $slug ] = $key;
+                    } elseif ( $map[ $slug ] !== $key ) {
+                        $map[ $slug ] = false; // two books, one name: answer neither
+                    }
+                }
+            }
+        }
+        $slug = DwBible_Plugin::slugify( $raw );
+        if ( $slug === '' || ! isset( $map[ $slug ] ) || $map[ $slug ] === false ) { return null; }
+        return $map[ $slug ];
+    }
+
+    /**
      * Everything an agent needs to identify a book, in one block: the canonical
      * key (what the JSON dirs are named), the Latin URL slug (what the HTML pages
      * are named), the citation name in every language, and the OSIS id.

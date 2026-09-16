@@ -172,6 +172,24 @@ ok "$([ -n "$(ld "${BASE}/es/biblia/psalmi/22/")" ] && echo 1 || echo 0)" "Spani
 ok "$([ -n "$(ld "${BASE}/latin/john/3/")" ] && echo 1 || echo 0)" "and the Latin-only surface keeps its own"
 
 echo "HTML head — discovery from a page an agent may fetch:"
+echo "a citation this site PRINTS resolves back to the passage it names:"
+# The vernacular citation names are a SEPARATE set from the URL slugs and the
+# search vocabulary — Italian citations are modern ("1 Samuele") while the
+# vocabulary follows Martini's Vulgate naming ("Primo dei Re"). Quoting an
+# answer's own Italian citation back used to 404 for nineteen of the 73 books.
+while IFS='|' read -r q want; do
+  [ -z "$q" ] && continue
+  U="${BASE}/bible-ref.json?q=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$q")&lang=la"
+  ok "$([ "$(probe "$U" "d['ref']['book']['key']")" = "$want" ] && echo 1 || echo 0)" "\"$q\" resolves to $want"
+done <<'CITES'
+1 Samuele 1:1|1-kings-samuel
+1 Corinzi 13:4|1-corinthians
+1 Pietro 5:7|1-peter
+2 Tessalonicesi 1:1|2-thessalonians
+1 Giovanni 4:8|1-john
+Nahún 1:1|nahum
+CITES
+
 # grep -c, not grep -q: under `pipefail` a -q that exits on the first match
 # SIGPIPEs the printf and the pipeline reads as failed.
 H=$("${CURL[@]}" -L "${BASE}/en/bible/galatians/3:28/")

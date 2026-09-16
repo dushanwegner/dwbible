@@ -384,6 +384,15 @@ trait DwBible_Router_Trait {
                 if ($legacy) { break; }
             }
         }
+        // LAST RESORT: a name this site itself prints as a citation. The
+        // vernacular citation names are a different set from the URL slugs and
+        // the search vocabulary, so quoting an answer's own citation back used
+        // to fail for Italian and for two accented Spanish names.
+        if (!$legacy) {
+            $cited = self::key_from_citation_name($raw_book);
+            if ($cited !== null) { return $cited; }
+        }
+
         if (!$legacy) { return null; }
 
         return DwBible_Plugin::key_from_any_book_slug($legacy) ?? $legacy;
