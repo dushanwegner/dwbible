@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.16.01
+* Version: 1.26.09.16.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.16.01');
+    define('DWBIBLE_VERSION', '1.26.09.16.02');
 }
 
 // Load include classes before hooks are registered
@@ -37,7 +37,17 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-qr-image.php';
  * Both failures were live on 2026-08-13: a scanned QR code landed on the verse
  * URL and was served the QR image back.
  */
-add_filter('dwcache_allowed_query_params', function ($params) {
+add_filter('dwcache_allowed_query_params', function ($params, $url = '') {
+    // The agent API's parameters change WHICH RESPONSE this is, exactly as the
+    // image ones do: /bible-ref.json?q=Gal+3:28&lang=la and …&lang=all are two
+    // answers, and ?typography=clean is a third. Measured live on 2026-09-16,
+    // minutes after deploy: dwcache answered the &lang=la&typography=clean
+    // request with the first requester's la+en/source body (x-dwcache: HIT).
+    // Scoped to the .json routes so the five common names do not widen the key
+    // of every HTML page on the site.
+    if (is_string($url) && preg_match('#\.json(\?|$)#', $url)) {
+        $params = array_merge((array) $params, array('lang', 'typography', 'numbering', 'book', 'limit'));
+    }
     return array_merge((array) $params, array(
         'dwbible_qr', 'dwbible_qr_download', 'dwbible_qr_range',
         'dwbible_og', 'dwbible_og_download', 'dwbible_og_nocache',
@@ -51,7 +61,7 @@ add_filter('dwcache_allowed_query_params', function ($params) {
         // Key = the read half, DONOTCACHEPAGE = the write half. Both needed.
         'q',
     ));
-});
+}, 10, 2);
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-reference.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-qa.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-sync-report.php';
