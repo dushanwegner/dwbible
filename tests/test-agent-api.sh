@@ -115,6 +115,14 @@ ok "$([ -n "$(probe "${BASE}/bible-books.json" "d['_meta']['note']")" ] && echo 
 echo "a request the site cannot honour is refused, not quietly answered otherwise:"
 ok "$([ "$(code "${BASE}/bible-search.json?q=Deus&lang=klingon")" = "400" ] && echo 1 || echo 0)" "an unknown language is a 400 (it used to answer in Latin)"
 ok "$([ "$(code "${BASE}/bible-ref.json?q=Gal+3%3A28&lang=klingon")" = "400" ] && echo 1 || echo 0)" "…on the resolver too"
+# ONE translation per search: a list or "all" was silently narrowed to its first
+# language ("all" searched Latin only), while the refusal advertised both (tick 87).
+ok "$([ "$(code "${BASE}/bible-search.json?q=Deus&lang=la,en")" = "400" ] && echo 1 || echo 0)" "a search naming two languages is refused, not narrowed to the first"
+ok "$([ "$(code "${BASE}/bible-search.json?q=Deus&lang=all")" = "400" ] && echo 1 || echo 0)" "a search for lang=all is refused, not served as Latin"
+ok "$(probe "${BASE}/bible-search.json?q=Deus&lang=en,la" "1 if d.get('error')=='UNSUPPORTED_PARAM' and 'one' in (d.get('message','')+d.get('suggestion','')).lower() else 0")" "…with a code and a message saying search takes one language"
+ok "$(probe "${BASE}/bible-search.json?q=Deus&lang=klingon" "0 if '\"all\"' in d.get('suggestion','') else 1")" "the search's own refusal no longer advertises a list or \"all\""
+ok "$(probe "${BASE}/bible-search.json?q=Deus&lang=LA,la" "1 if d.get('_meta',{}).get('total',0)>1000 else 0")" "a repeated language is still one language, and served"
+ok "$(probe "${BASE}/bible-ref.json?q=Gal+3%3A28&lang=all" "1 if len(d.get('passages',{}))==6 else 0")" "the resolver still takes lang=all (a list means something there)"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=en,klingon" "d['_meta']['translation']['language']")" = "en" ] && echo 1 || echo 0)" "a MIXED list still names English, so it is served"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=abc" "d['_meta']['limit']")" = "20" ] && echo 1 || echo 0)" "a malformed limit means the default, not one hit"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&lang=la&limit=-5" "d['_meta']['limit']")" = "20" ] && echo 1 || echo 0)" "…and so does a negative one (absint made -5 mean 5)"

@@ -79,14 +79,14 @@ trait DwBible_Agent_API_Trait {
      * cannot honour, and it now says so. A mixed list ("en,klingon") still names
      * English, so it is served and the unusable token is reported instead.
      */
-    private static function agent_reject_unknown_langs( string $raw, array $unknown ): void {
+    private static function agent_reject_unknown_langs( string $raw, array $unknown, string $suggestion = 'Pass one or more of la, en, de, es, fr, it — or "all".' ): void {
         if ( trim( $raw ) === '' || ! $unknown ) { return; }
         if ( self::agent_langs_were_asked( [], $raw ) ) { return; }
         $names = [];
         foreach ( self::json_datasets() as $slug => $meta ) { $names[] = $meta['language'] . ' (' . $meta['name'] . ')'; }
         self::agent_error( 400, 'UNSUPPORTED_LANGUAGE', 'This Bible is not held in: ' . implode( ', ', $unknown ) . '.', [
             'available'  => $names,
-            'suggestion' => 'Pass one or more of la, en, de, es, fr, it — or "all".',
+            'suggestion' => $suggestion,
         ] );
     }
 
@@ -754,7 +754,20 @@ trait DwBible_Agent_API_Trait {
 
         $lang_raw = isset( $_GET['lang'] ) ? (string) wp_unslash( $_GET['lang'] ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         $langs    = self::agent_parse_langs( $lang_raw, [ 'latin' ], $lang_unknown );
-        self::agent_reject_unknown_langs( $lang_raw, $lang_unknown );
+        self::agent_reject_unknown_langs( $lang_raw, $lang_unknown, 'Pass ONE of la, en, de, es, fr, it — a search covers one translation.' );
+        // ONE TRANSLATION PER SEARCH. The parser is shared with the resolver, where
+        // "la,en" and "all" mean something, and this endpoint used to take
+        // $langs[0] and drop the rest in silence: "la,en" searched Latin only and
+        // "all" searched Latin only, while the refusal above advertised both
+        // (quality loop tick 87). A request this endpoint cannot honour as asked
+        // is refused with the way to ask it — the rule `numbering=` already keeps.
+        if ( count( $langs ) > 1 ) {
+            $codes = [];
+            foreach ( $langs as $ds ) { $codes[] = (string) array_search( $ds, self::agent_dataset_by_lang(), true ); }
+            self::agent_error( 400, 'UNSUPPORTED_PARAM', 'A search covers one translation; lang named ' . count( $langs ) . ' (' . implode( ', ', $codes ) . ').', [
+                'suggestion' => 'Ask once per language: lang=' . implode( ', then lang=', $codes ) . '. To read one verse in every language, use /bible-ref.json?lang=all.',
+            ] );
+        }
         $dataset = $langs[0];
         $by_lang = self::agent_dataset_by_lang();
         $lang    = (string) array_search( $dataset, $by_lang, true );
