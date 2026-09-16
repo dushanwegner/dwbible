@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.06.01
+* Version: 1.26.09.16.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.06.01');
+    define('DWBIBLE_VERSION', '1.26.09.16.01');
 }
 
 // Load include classes before hooks are registered
@@ -86,6 +86,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-autolink.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-nav-helpers.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-menu-search.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-json-api.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-agent-api.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-jsonld.php';
 require_once plugin_dir_path(__FILE__) . 'includes/dwbible-i18n.php';
 /**
@@ -108,6 +109,7 @@ class DwBible_Plugin {
     use DwBible_SelfTest_Trait;
     use DwBible_AutoLink_Trait;
     use DwBible_JSON_API_Trait;
+    use DwBible_Agent_API_Trait;
     const QV_FLAG = 'dwbible';
     const QV_BOOK = 'dwbible_book';
     const QV_CHAPTER = 'dwbible_ch';
@@ -192,6 +194,11 @@ class DwBible_Plugin {
 
         // AI optimization: <link rel="alternate"> pointing to JSON on Bible pages
         add_action( 'wp_head', [ __CLASS__, 'print_json_alternate_link' ] );
+
+        // Social cards: a Bible page's og:description is the passage (or what the
+        // chapter/book is), not the site tagline. dwsocial's Site Card asks the
+        // page for its facts through this filter.
+        add_filter( 'dwsocial_site_card_page_facts', [ __CLASS__, 'site_card_page_facts' ] );
 
         // Page-specific <title> for Bible pages (critical for AI crawlers and SEO).
         // Only use document_title_parts (not pre_get_document_title) so WP still
@@ -400,6 +407,13 @@ class DwBible_Plugin {
         // none of them. Language-independent: every language's names are tokens
         // in the same list.
         add_rewrite_rule( '^bible-books\.json$', 'index.php?' . self::QV_FORMAT . '=bible-books&' . self::QV_FLAG . '=1', 'top' );
+        // /bible-ref.json?q=Gal+3:28 — the REFERENCE RESOLVER: one fetch turns any
+        // citation into the passage's text plus every HTML/JSON address it has, so
+        // an agent that may only follow URLs it has seen can reach a verse.
+        // /bible-search.json?q=dilexerunt+tenebras — VERSE SEARCH over one translation.
+        // Both are answered by class-dwbible-agent-api.php.
+        add_rewrite_rule( '^bible-ref\.json$',    'index.php?' . self::QV_FORMAT . '=bible-ref&' . self::QV_FLAG . '=1', 'top' );
+        add_rewrite_rule( '^bible-search\.json$', 'index.php?' . self::QV_FORMAT . '=bible-search&' . self::QV_FLAG . '=1', 'top' );
 
         // ── HTML routes ─────────────────────────────────────────────────
         foreach ($slugs as $slug) {
@@ -2456,11 +2470,24 @@ JS;
         }
         $slug = get_query_var( self::QV_SLUG );
         if ( ! is_string( $slug ) || $slug === '' ) { $slug = 'bible'; }
+        // The JSON API is single-language, so an interlinear page (latin-bible,
+        // /{lang}/biblia/…) points at its vernacular dataset — one hop, no 301.
+        if ( function_exists( 'dwbible_i18n_json_dataset_for_slug' ) ) {
+            $slug = dwbible_i18n_json_dataset_for_slug( $slug );
+        }
         $book    = get_query_var( self::QV_BOOK );
         $chapter = get_query_var( self::QV_CHAPTER );
+        $vfrom   = absint( get_query_var( self::QV_VFROM ) );
+        $vto     = absint( get_query_var( self::QV_VTO ) );
+        // The dataset dirs are keyed by the internal key; the page's URL carries
+        // the Latin slug ("galatas"), which would cost the JSON API a redirect.
+        $key = ! empty( $book ) ? self::key_from_any_book_slug( $book ) : null;
+        if ( is_string( $key ) && $key !== '' ) { $book = $key; }
 
-        // Build the JSON URL
-        if ( ! empty( $book ) && ! empty( $chapter ) ) {
+        // Build the JSON URL — for the verse(s) the page highlights, when it does.
+        if ( ! empty( $book ) && ! empty( $chapter ) && $vfrom > 0 ) {
+            $json_url = home_url( "/{$slug}/{$book}/{$chapter}/{$vfrom}" . ( $vto > $vfrom ? "-{$vto}" : '' ) . '.json' );
+        } elseif ( ! empty( $book ) && ! empty( $chapter ) ) {
             $json_url = home_url( "/{$slug}/{$book}/{$chapter}.json" );
         } elseif ( ! empty( $book ) ) {
             $json_url = home_url( "/{$slug}/{$book}/index.json" );
@@ -2469,6 +2496,69 @@ JS;
         }
 
         echo '<link rel="alternate" type="application/json" href="' . esc_url( $json_url ) . '" />' . "\n";
+    }
+
+    /**
+     * What a Bible page says about itself on a social card (og:description).
+     *
+     * A verse page: the verse text in the page's vernacular (Latin when there is
+     * none), clipped to card length. A chapter page: which chapter of which book,
+     * in which two editions, how many verses. A book page: the book and its
+     * length. The index: what the Bible section is. Before this every Bible page
+     * carried the site tagline ("Catholic Prayer App") as its description.
+     *
+     * @param array $facts context/title/description/url from dwsocial.
+     * @return array
+     */
+    public static function site_card_page_facts( $facts ) {
+        if ( ! is_array( $facts ) || ! self::is_bible_request() ) { return $facts; }
+
+        $slug    = get_query_var( self::QV_SLUG );
+        if ( ! is_string( $slug ) || $slug === '' ) { $slug = 'bible'; }
+        $dataset = function_exists( 'dwbible_i18n_json_dataset_for_slug' ) ? dwbible_i18n_json_dataset_for_slug( $slug ) : 'bible';
+        $sets    = self::json_datasets();
+        $vern    = $sets[ $dataset ] ?? $sets['bible'];
+        $latin   = $sets['latin'];
+        $pair    = $latin['name'] . ' (' . $latin['languageName'] . ')'
+                 . ( $dataset !== 'latin' ? ' with ' . $vern['name'] . ' (' . $vern['languageName'] . ')' : '' );
+
+        $book    = (string) get_query_var( self::QV_BOOK );
+        $chapter = absint( get_query_var( self::QV_CHAPTER ) );
+        $vfrom   = absint( get_query_var( self::QV_VFROM ) );
+        $vto     = absint( get_query_var( self::QV_VTO ) );
+        if ( $vto < $vfrom ) { $vto = $vfrom; }
+        $key     = $book !== '' ? self::key_from_any_book_slug( $book ) : null;
+
+        if ( $key === null ) {
+            $facts['description'] = 'The Catholic Bible, 73 books, every verse interlinear: ' . $pair . '.';
+            return $facts;
+        }
+
+        $identity = self::agent_book_block( $key );
+        $lang     = $vern['language'];
+        $name     = $identity['names'][ $lang ] ?? $identity['title'];
+        $counts   = self::verse_counts_by_book();
+        $chapters = isset( $counts[ $key ] ) ? count( $counts[ $key ] ) : 0;
+
+        if ( $chapter > 0 && $vfrom > 0 ) {
+            $p = self::agent_load_passage( $dataset, $key, $chapter, $vfrom, $vto );
+            if ( $p === null || ! $p['verses'] ) { $p = self::agent_load_passage( 'latin', $key, $chapter, $vfrom, $vto ); }
+            $texts = [];
+            foreach ( (array) ( $p['verses'] ?? [] ) as $v ) { $texts[] = $v['text']; }
+            $text = trim( implode( ' ', $texts ) );
+            if ( $text !== '' ) {
+                if ( mb_strlen( $text ) > 280 ) { $text = rtrim( mb_substr( $text, 0, 277 ) ) . '…'; }
+                $facts['description'] = $text;
+                return $facts;
+            }
+        }
+        if ( $chapter > 0 ) {
+            $n = isset( $counts[ $key ][ $chapter - 1 ] ) ? (int) $counts[ $key ][ $chapter - 1 ] : 0;
+            $facts['description'] = $name . ' ' . $chapter . ( $n ? ' — ' . $n . ' verses' : '' ) . ', ' . $pair . ', verse by verse.';
+            return $facts;
+        }
+        $facts['description'] = $name . ( $chapters ? ' — ' . $chapters . ' chapters' : '' ) . ', ' . $pair . ', verse by verse.';
+        return $facts;
     }
 
     private static function output_with_theme($title, $content_html, $context = '') {

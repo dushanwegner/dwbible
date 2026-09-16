@@ -228,12 +228,26 @@ trait DwBible_JSON_API_Trait {
             $vto = $vfrom; // single verse
         }
 
-        // Filter verses
+        $book_name  = $data['_meta']['book']['name'] ?? ucwords( str_replace( '-', ' ', $book ) );
+        $bible_name = $data['_meta']['translation']['name'] ?? 'Bible';
+        $clean      = self::agent_typography_mode() === 'clean';
+
+        // Filter verses. Each verse's citation is REBUILT from _meta.book.name
+        // rather than copied from the file: the localizer (dwbibledata/tools/
+        // localize_book_names.py) maintains _meta.book.name but not the per-verse
+        // citations, so a Latin file could say "Iob" in its meta and "Job 20:12"
+        // on its verses — two names for one book in one response.
         $matched = [];
         foreach ( $data['verses'] as $v ) {
             $num = (int) $v['verse'];
             if ( $num >= $vfrom && $num <= $vto ) {
-                $matched[] = $v;
+                $text = (string) ( $v['text'] ?? '' );
+                if ( $clean ) { $text = self::agent_clean_typography( $text ); }
+                $matched[] = [
+                    'verse'    => $num,
+                    'text'     => $text,
+                    'citation' => "{$book_name} {$chapter}:{$num} ({$bible_name})",
+                ];
             }
         }
 
@@ -253,8 +267,6 @@ trait DwBible_JSON_API_Trait {
 
         $is_range   = ( $vfrom !== $vto );
         $site_url   = site_url();
-        $book_name  = $data['_meta']['book']['name'] ?? ucwords( str_replace( '-', ' ', $book ) );
-        $bible_name = $data['_meta']['translation']['name'] ?? 'Bible';
 
         // Build verse reference string
         $ref = $is_range ? "{$book_name} {$chapter}:{$vfrom}-{$vto}" : "{$book_name} {$chapter}:{$vfrom}";
@@ -265,7 +277,7 @@ trait DwBible_JSON_API_Trait {
 
         // Build cross-references to same verse(s) in other translations (JSON + HTML)
         $cross_refs = [];
-        $all_slugs  = [ 'bible', 'bibel', 'latin' ];
+        $all_slugs  = array_keys( self::json_datasets() ); // all six, not a hand-typed three
         $verse_path = $is_range ? "{$vfrom}-{$vto}.json" : "{$vfrom}.json";
         foreach ( $all_slugs as $ds ) {
             if ( $ds === $slug ) { continue; }
@@ -301,28 +313,55 @@ trait DwBible_JSON_API_Trait {
             $nav['nextVerse'] = "{$site_url}/{$slug}/{$book}/{$chapter}/{$next_v}.json";
         }
 
+        // The book block carries its identity in every language (citation names
+        // from book_names.json) and its OSIS id, so a consumer never has to guess
+        // how to cite the passage in another language or a standard abbreviation.
+        $book_block = $data['_meta']['book'] ?? [];
+        $identity   = self::agent_book_block( $book );
+        $book_block['names'] = $identity['names'];
+        $book_block['osis']  = $identity['osis'];
+
+        // The canonical HTML page of exactly this passage (one hop, no redirect),
+        // and this response's own address — the two things an agent links or refetches.
+        $lang     = $data['_meta']['translation']['language'] ?? 'en';
+        $html_url = self::agent_html_url( (string) $lang, $book, $chapter, $vfrom, $vto );
+        $json_url = self::agent_json_url( $slug, $book, $chapter, $vfrom, $vto );
+
+        $meta = [
+            'project'         => 'Latin Prayer',
+            'projectUrl'      => $site_url,
+            'apiDocs'         => $site_url . '/llms.txt',
+            'content'         => "{$ref} ({$bible_name})",
+            'translation'     => $data['_meta']['translation'] ?? [],
+            'book'            => $book_block,
+            'chapter'         => $chapter,
+            'verseRange'      => $is_range ? [ $vfrom, $vto ] : $vfrom,
+            'totalChapterVerses' => $total_verses,
+            'typography'      => $clean ? 'clean' : 'source',
+            'navigation'      => $nav,
+            'crossReferences' => $cross_refs,
+            'refJson'         => $site_url . '/bible-ref.json?q=' . rawurlencode( "{$book} {$chapter}:{$vfrom}" . ( $is_range ? "-{$vto}" : '' ) ) . '&lang=all',
+        ];
+        if ( $book === 'psalms' ) {
+            $meta['psalmNumbering'] = self::psalm_numbering( (int) $chapter );
+        }
+
+        // Top-level convenience fields for single verses AND ranges alike: the
+        // citation, the text (a range's verses joined by a space), the page, the
+        // address. A range used to carry only the verses array, so a consumer had
+        // to special-case it.
+        $texts = [];
+        foreach ( $matched as $mv ) { $texts[] = $mv['text']; }
         $response = [
-            '_meta' => [
-                'project'         => 'Latin Prayer',
-                'projectUrl'      => $site_url,
-                'apiDocs'         => $site_url . '/llms.txt',
-                'content'         => "{$ref} ({$bible_name})",
-                'translation'     => $data['_meta']['translation'] ?? [],
-                'book'            => $data['_meta']['book'] ?? [],
-                'chapter'         => $chapter,
-                'verseRange'      => $is_range ? [ $vfrom, $vto ] : $vfrom,
-                'totalChapterVerses' => $total_verses,
-                'navigation'      => $nav,
-                'crossReferences' => $cross_refs,
-            ],
+            '_meta'    => $meta,
             'citation' => "{$ref} ({$bible_name})",
+            'text'     => implode( ' ', $texts ),
+            'htmlUrl'  => $html_url,
+            'jsonUrl'  => $json_url,
             'verses'   => $matched,
         ];
-
-        // For single verse, also include top-level text for convenience
         if ( ! $is_range && count( $matched ) === 1 ) {
             $response['verse'] = $matched[0]['verse'];
-            $response['text']  = $matched[0]['text'];
         }
 
         self::send_json( $response );

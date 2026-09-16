@@ -20,6 +20,14 @@ trait DwBible_Router_Trait {
             self::serve_book_vocabulary();
             exit;
         }
+        if ( $format === 'bible-ref' ) {
+            self::serve_reference_json();
+            exit;
+        }
+        if ( $format === 'bible-search' ) {
+            self::serve_search_json();
+            exit;
+        }
 
         $selftest = get_query_var(self::QV_SELFTEST);
         if (!empty($selftest)) {
