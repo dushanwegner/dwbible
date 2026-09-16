@@ -83,6 +83,9 @@ ok "$([ "$(probe "$U" "any(h['book']['key']=='john' and h['chapter']==3 and h['v
 U="${BASE}/bible-search.json?q=Dominus&lang=la&limit=5"
 ok "$([ "$(probe "$U" "len(d['hits']) == 5 and d['_meta']['truncated']")" = "True" ] && echo 1 || echo 0)" "limit is honoured and truncation stated"
 ok "$([ "$(code "${BASE}/bible-search.json?q=zzzz&lang=la")" = "200" ] && echo 1 || echo 0)" "no hits is still a 200"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=Cristo&lang=es" "d['_meta']['total']")" = "0" ] && echo 1 || echo 0)" "the Scio Spanish has no 'Cristo' — it is an 18th-century text"
+ok "$([ -n "$(probe "${BASE}/bible-search.json?q=Cristo&lang=es" "d['_meta']['noHitsBecause'] or ''")" ] && echo 1 || echo 0)" "…and the empty answer says why, instead of reading as 'this Bible has no Christ'"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=Christo&lang=es" "d['_meta']['noHitsBecause']")" = "None" ] && echo 1 || echo 0)" "an answer that found verses carries no such hint"
 
 echo "verse / range JSON — the promised fields:"
 U="${BASE}/latin/job/20/12-13.json"

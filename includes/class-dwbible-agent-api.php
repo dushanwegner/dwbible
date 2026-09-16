@@ -633,6 +633,7 @@ trait DwBible_Agent_API_Trait {
                 'total'       => $total,
                 'truncated'   => $total > count( $hits ),
                 'typography'  => $clean ? 'clean' : 'source',
+                'noHitsBecause' => $total === 0 ? self::agent_search_orthography_hint( $dataset ) : null,
                 'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i). '
                                . 'lang = one of la,en,de,es,fr,it; book = a book to narrow to; limit ≤ ' . self::AGENT_SEARCH_MAX_LIMIT . '. '
                                . 'Each hit carries its own HTML page, its JSON, and a refJson that returns the verse in every language.',
@@ -653,6 +654,29 @@ trait DwBible_Agent_API_Trait {
         }
         $s = (string) preg_replace( '/[^\p{L}\p{N}]+/u', ' ', $s );
         return trim( $s );
+    }
+
+    /**
+     * Why a search of THIS edition may have found nothing.
+     *
+     * The editions are public domain, which means most of them are old, and a
+     * reader searching a modern spelling gets a bare zero that reads like "this
+     * Bible does not contain Christ". Scío is the sharp case: "Cristo" occurs
+     * 0 times and "Christo" 556, because the Spanish was printed in the 1790s.
+     * A dead end that explains itself is the difference between a gap and a
+     * wrong conclusion — so the hint rides on the empty answer, where it is
+     * needed, and nowhere else.
+     *
+     * Only editions whose orthography actually differs from today's carry one.
+     */
+    private static function agent_search_orthography_hint( string $dataset ): ?string {
+        $hints = [
+            'latin'   => 'The Clementine Vulgate (1592) writes J for consonantal I and uses the æ/œ ligatures — "Jesu", "ejus", "cælum". This search already folds j/i and æ/œ, so either spelling matches.',
+            'spanish' => 'The Scío de San Miguel (1790s) keeps 18th-century Spanish orthography: "Christo" and "Jesu-Christo", never "Cristo" or "Jesucristo"; "Spíritu" beside "Espíritu". Search the period spelling.',
+            'italian' => 'The Martini (1780s) keeps 18th-century Italian: "Gesù Cristo" as two words, older verb and pronoun forms ("nol" for "non lo").',
+            'bible'   => 'The Douay-Rheims keeps early-modern English: "thee", "thou", "hath", "shew". Search the form the edition uses.',
+        ];
+        return $hints[ $dataset ] ?? null;
     }
 
     /** A JSON error in the same shape the rest of the API uses, then stop. */
