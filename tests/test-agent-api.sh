@@ -327,6 +327,17 @@ ok "$(has 'rel="alternate" type="application/json" href="'"${BASE}"'/bible/galat
 ok "$(has 'rel="help" type="text/plain" href="'"${BASE}"'/llms.txt"')" "verse page links llms.txt"
 ok "$(has 'og:description" content="There is neither Jew nor Greek')" "og:description is the verse (in the page language), not the tagline"
 
+# British and American spelling are ONE word to a reader, and the English corpus mixes
+# them: "neighbour" 182 times, "neighbor" 4 — and one of the four is Matthew 19:19. A
+# search in either spelling silently lost the other half (tick 105).
+total() { probe "${BASE}/bible-search.json?q=$1&lang=en&limit=1" "d['_meta']['total']"; }
+for pair in "neighbour:neighbor" "honour:honor" "Saviour:Savior" "sepulchre:sepulcher" "worshipped:worshiped" "plough:plow" "offence:offense" "fulfil:fulfill"; do
+  uk="${pair%%:*}"; us="${pair##*:}"; a=$(total "$uk"); b=$(total "$us")
+  ok "$([ -n "$a" ] && [ "$a" = "$b" ] && [ "$a" -gt 0 ] && echo 1 || echo 0)" "English search: \"$uk\" and \"$us\" find the same verses (${a:-?} / ${b:-?})"
+done
+ok "$([ "$(probe "${BASE}/bible-search.json?q=love+thy+neighbour&lang=en&limit=50" "any(h['book']['key']=='matthew' and h['chapter']==19 and h['verse']==19 for h in d['hits'])")" = "True" ] && echo 1 || echo 0)" "\"love thy neighbour\" finds Matthew 19:19, which spells it \"neighbor\""
+ok "$([ "$(total four)" -gt 0 ] && [ "$(total your)" -gt 0 ] && [ "$(total hour)" -gt 0 ] && echo 1 || echo 0)" "…and no generic our→or fold: four, your, hour still match"
+
 # A numbered book as a German, French or Spanish reader writes it: digit, SPACE,
 # abbreviation — "1 Kor 13,4" is how the Einheitsübersetzung prints it, "1 Co 13,4"
 # the Bible de Jérusalem. The tables hold "1Kor" and "1. Kor"; the spaced form

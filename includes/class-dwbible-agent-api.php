@@ -800,7 +800,8 @@ trait DwBible_Agent_API_Trait {
      *
      * Parameters
      *   q      the words to find; ALL must occur in a verse (order-free, substring,
-     *          case- and accent-insensitive; in Latin j/i are folded so "ejus" finds "eius").
+     *          case- and accent-insensitive; in Latin j/i are folded so "ejus" finds "eius";
+     *          in English British/American spelling is folded so "neighbour" finds "neighbor").
      *   lang   one language or dataset (default la).
      *   book   optional canonical key / any book name to narrow the scan.
      *   limit  hits to return (default 20, max 100); `total` counts them all.
@@ -960,7 +961,7 @@ trait DwBible_Agent_API_Trait {
                 'nextOffset'  => ( $offset + count( $hits ) ) < $total ? $offset + count( $hits ) : null,
                 'typography'  => $clean ? 'clean' : 'source',
                 'noHitsBecause' => $total === 0 ? ( self::agent_search_citation_hint( $raw, $lang ) ?? self::agent_search_orthography_hint( $dataset ) ) : null,
-                'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i). '
+                'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i; English folds British and American spelling, honour/honor). '
                                . 'lang = one of la,en,de,es,fr,it; book = a book to narrow to; limit ≤ ' . self::AGENT_SEARCH_MAX_LIMIT . '; '
                                . 'offset = where to start, 0-based — when `truncated` is true, `nextOffset` is the offset to ask for next. '
                                . 'Each hit carries its own HTML page, its JSON, and a refJson that returns the verse in every language.',
@@ -970,14 +971,58 @@ trait DwBible_Agent_API_Trait {
     }
 
     /**
+     * British and American spelling, folded to one form for English search.
+     *
+     * The Douay-Rheims text is MIXED: "neighbour" 182 times and "neighbor" 4 —
+     * one of the four is Matthew 19:19 — "honour" 263 / "honor" 2, "labour" 246 /
+     * "labor" 6 (Matthew 11:28), "fulfil" 52 / "fulfill" 2. So a search in either
+     * spelling silently lost the other half, and a reader cannot know which one a
+     * verse uses (quality loop tick 105).
+     *
+     * WHOLE STEMS, never a suffix rule: a generic our→or or re→er would turn
+     * "four", "your" and "there" into different words. Each key is folded where
+     * it occurs, so derived forms follow ("dishonour", "neighbours", "ploughshare").
+     * Applied to the query AND the verse, so the direction does not matter; the
+     * one US→UK pair (fulfill→fulfil) is chosen so "fulfilled" folds identically
+     * from both spellings. strtr: one pass, longest key first.
+     */
+    private const AGENT_SEARCH_EN_SPELLING = [
+        // -our / -or
+        'saviour' => 'savior', 'honour' => 'honor', 'neighbour' => 'neighbor', 'labour' => 'labor',
+        'favour' => 'favor', 'colour' => 'color', 'odour' => 'odor', 'splendour' => 'splendor',
+        'valour' => 'valor', 'harbour' => 'harbor', 'rumour' => 'rumor', 'vapour' => 'vapor',
+        'armour' => 'armor', 'clamour' => 'clamor', 'fervour' => 'fervor', 'ardour' => 'ardor',
+        'rigour' => 'rigor', 'vigour' => 'vigor', 'humour' => 'humor', 'savour' => 'savor',
+        'succour' => 'succor', 'dolour' => 'dolor', 'behaviour' => 'behavior', 'endeavour' => 'endeavor',
+        'parlour' => 'parlor', 'candour' => 'candor', 'tumour' => 'tumor',
+        // -re / -er
+        'centre' => 'center', 'sepulchre' => 'sepulcher', 'sceptre' => 'scepter', 'mitre' => 'miter',
+        'nitre' => 'niter', 'theatre' => 'theater', 'spectre' => 'specter', 'lustre' => 'luster',
+        'meagre' => 'meager', 'sombre' => 'somber', 'fibre' => 'fiber',
+        // -ence / -ense
+        'defence' => 'defense', 'offence' => 'offense', 'pretence' => 'pretense', 'licence' => 'license',
+        // doubled consonant
+        'worshipp' => 'worship', 'travell' => 'travel', 'counsell' => 'counsel', 'marvell' => 'marvel',
+        'quarrell' => 'quarrel', 'jewell' => 'jewel', 'levell' => 'level', 'fulfill' => 'fulfil',
+        'skilful' => 'skillful', 'wilful' => 'willful',
+        // single words
+        'judgement' => 'judgment', 'acknowledgement' => 'acknowledgment', 'plough' => 'plow',
+        'mould' => 'mold', 'grey' => 'gray', 'sulphur' => 'sulfur', 'practise' => 'practice',
+    ];
+
+    /**
      * Fold a string for matching: lower-case, accents stripped (the site's own
-     * search_normalize map, æ→ae included), and for Latin j→i so classical and
-     * Clementine spellings meet ("eius" / "ejus"). Punctuation becomes space.
+     * search_normalize map, æ→ae included), for Latin j→i so classical and
+     * Clementine spellings meet ("eius" / "ejus"), and for English British and
+     * American spelling (see AGENT_SEARCH_EN_SPELLING). Punctuation becomes space.
      */
     private static function agent_search_normalize( string $s, string $lang ): string {
         $s = self::search_normalize( $s );
         if ( $lang === 'la' ) {
             $s = str_replace( 'j', 'i', $s );
+        }
+        if ( $lang === 'en' ) {
+            $s = strtr( $s, self::AGENT_SEARCH_EN_SPELLING );
         }
         $s = (string) preg_replace( '/[^\p{L}\p{N}]+/u', ' ', $s );
         return trim( $s );
