@@ -616,6 +616,33 @@ trait DwBible_Agent_API_Trait {
         return $parts ? implode( ' ', $parts ) : null;
     }
 
+    /**
+     * Fold every $_GET key to lowercase, first-seen wins on a collision.
+     *
+     * Query parameter NAMES are case-sensitive by the HTTP spec, but an agent
+     * guessing at this API's shape has no reason to know that — `Lang=de` and
+     * `Typography=clean` are as plausible a guess as the lowercase form, and
+     * unlike a truly MISNAMED parameter (AGENT_MISNAMED_PARAMS), a differently
+     * cased REAL name should just work, not be refused. Without this, a
+     * request naming `Lang=de` matched no known parameter, so `lang` silently
+     * fell back to its default and — worse — dwcache's allowlist match is
+     * also case-sensitive, so the request was served from whatever canonical,
+     * lang-less entry was already cached (quality loop tick 198, measured live:
+     * `?q=Colossians+3:17&Lang=de` served the cached la+en page verbatim).
+     * Called before both the misnamed-guess check and every direct read, so
+     * both see the same normalised keys.
+     */
+    private static function agent_normalize_get_keys( array $get ): array {
+        $out = [];
+        foreach ( $get as $key => $value ) {
+            $lower = strtolower( (string) $key );
+            if ( ! array_key_exists( $lower, $out ) ) {
+                $out[ $lower ] = $value;
+            }
+        }
+        return $out;
+    }
+
     /** Refuse a guessed parameter name (see AGENT_MISNAMED_PARAMS), naming the real one. */
     private static function agent_reject_misnamed_params( string $endpoint ): void {
         $aliases = self::AGENT_MISNAMED_PARAMS[ $endpoint ] ?? [];
@@ -660,6 +687,7 @@ trait DwBible_Agent_API_Trait {
      * with the chapter's length — never silently a different verse.
      */
     private static function serve_reference_json() {
+        $_GET = self::agent_normalize_get_keys( $_GET ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         self::agent_reject_misnamed_params( 'bible-ref' );
         $raw = isset( $_GET['q'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['q'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         $raw = trim( $raw );
@@ -1022,6 +1050,7 @@ trait DwBible_Agent_API_Trait {
      * then verse.
      */
     private static function serve_search_json() {
+        $_GET = self::agent_normalize_get_keys( $_GET ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         self::agent_reject_misnamed_params( 'bible-search' );
         $raw = isset( $_GET['q'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['q'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         $raw = trim( $raw );
