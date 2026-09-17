@@ -398,6 +398,25 @@ for pair in "1+Kor+13,4:1-corinthians" "2+Kor+5,17:2-corinthians" "1+K%C3%B6n+3,
   ok "$([ "$got" = "$want" ] && echo 1 || echo 0)" "spaced numbered abbreviation \"${q//+/ }\" is ${want} (got ${got:-an error})"
 done
 
+# A numbered book with a ROMAN numeral — "III Reg. 19, 8", "II Mach 12:46", "I Petr 2:9":
+# how the Vulgate, the Missal and Denzinger cite. Only the few the English table happened
+# to list ("I Cor", "II Tim") resolved; 155 of 208 Roman forms of the tables' numbered
+# abbreviations answered "no book recognised" (tick 122). III and IV exist only in the
+# Vulgate's numbering, so III Reg is 3 Kings. I and II before a KINGS name are left
+# refused: "1 Reg" is 3 Kings in one table and 1 Samuel in the Clementine's own naming,
+# which is the open decision dwbibledata#17 — a Roman numeral must not settle it.
+for pair in "III+Reg+19,8:3-kings" "IV+Reg+2,11:4-kings" "II+Mach+12,46:2-machabees" "I+Par+29,11:1-paralipomenon" \
+            "I+Petr+2,9:1-peter" "I+Kor+13,4:1-corinthians" "II.+Tes+3,10:2-thessalonians" "I+Co+13,4:1-corinthians" \
+            "I+Samuelis+3,10:1-kings-samuel" "I+Kings+3,10:1-kings-samuel" "Iob+19,25:job" "Is+53,5:isaias"; do
+  q="${pair%%:*}"; want="${pair##*:}"
+  got=$(probe "${BASE}/bible-ref.json?q=${q}&lang=la" "d['ref']['book']['key']")
+  ok "$([ "$got" = "$want" ] && echo 1 || echo 0)" "Roman numeral \"${q//+/ }\" is ${want} (got ${got:-an error})"
+done
+for q in "I+Reg+3,10" "II+Reg+7,12" "I+Re+19,8"; do
+  got=$(probe "${BASE}/bible-ref.json?q=${q}&lang=la" "d.get('error','')")
+  ok "$([ "$got" = "BOOK_NOT_RECOGNISED" ] && echo 1 || echo 0)" "\"${q//+/ }\" stays refused until dwbibledata#17 decides what 1-2 Reg means (got ${got:-a book})"
+done
+
 # The documents an agent reads FIRST must be readable from another origin, like the
 # JSON they describe. A browser-hosted agent that may fetch /bible-ref.json but not
 # the llms.txt telling it that endpoint exists never learns about it. dwtheme serves
