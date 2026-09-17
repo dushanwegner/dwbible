@@ -118,7 +118,21 @@ class DwBible_Reference {
             }
             $spans[] = [$from, $to];
         }
-        return ['name' => $name, 'chapter' => (int) $m[2], 'spans' => $spans];
+        // Sorted ascending and deduplicated: the text is always assembled in the
+        // chapter's own order (agent_load_passage walks the chapter file forward),
+        // so a list typed out of order or with a repeat ("112:9, 1, 2", "112:1, 1, 2")
+        // must be cited back the way it is actually delivered — never a citation
+        // naming an order or a repeat the passage does not carry.
+        usort($spans, static fn(array $a, array $b): int => $a[0] <=> $b[0]);
+        $seen  = [];
+        $dedup = [];
+        foreach ($spans as $span) {
+            $sig = $span[0] . '-' . $span[1];
+            if (isset($seen[$sig])) { continue; }
+            $seen[$sig] = true;
+            $dedup[] = $span;
+        }
+        return ['name' => $name, 'chapter' => (int) $m[2], 'spans' => $dedup];
     }
 
     /**

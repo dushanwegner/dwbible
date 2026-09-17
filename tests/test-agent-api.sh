@@ -107,6 +107,8 @@ done <<'VERSELISTS'
 Ps 112:1, 2, 9|112|[1, 2, 9]|Psalmus 112:1, 2, 9
 Ps 44:11-12, 14|44|[11, 12, 14]|Psalmus 44:11-12, 14
 Ps 88:12,15|88|[12, 15]|Psalmus 88:12, 15
+Ps 112:9, 1, 2|112|[1, 2, 9]|Psalmus 112:1, 2, 9
+Ps 112:1, 1, 2|112|[1, 2]|Psalmus 112:1, 2
 VERSELISTS
 # The text must be the UNION of the verses named — not the span that contains them.
 U="${BASE}/bible-ref.json?q=Ps+112%3A1%2C+2%2C+9&lang=la"
