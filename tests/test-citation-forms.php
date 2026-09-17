@@ -28,7 +28,7 @@ function lift(string $src, string $name): string {
     return substr($src, $at, $i - $at + 1);
 }
 
-eval('class Ref { public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' }');
+eval('class Ref { public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' }');
 
 $pass = 0; $fail = 0;
 function ok(bool $c, string $what): void {
@@ -56,6 +56,18 @@ foreach (['1 Sam 3,10', 'Joh. 3,16', 'Esther 10:3', 'Judith 16', 'Apc 12', 'Joh 
     $r = Ref::normalize_printed_forms($in);
     ok($r['query'] === $in && $r['note'] === null, "\"{$in}\" unchanged, no note");
 }
+
+echo "non-ASCII decimal digits normalized to ASCII (quality loop tick 206):\n";
+foreach ([
+    ["John \u{0663}:\u{0661}\u{0666}", 'John 3:16'],   // Arabic-Indic
+    ["John \u{FF13}:\u{FF11}\u{FF16}", 'John 3:16'],   // fullwidth
+    ["John \u{0969}:\u{0967}\u{0966}", 'John 3:10'],   // Devanagari
+] as [$in, $want]) {
+    $r = Ref::normalize_printed_forms($in);
+    ok($r['query'] === $want, "\"{$in}\" -> \"{$r['query']}\"");
+}
+$r = Ref::normalize_printed_forms("John \u{00B3}:\u{00B9}\u{2076}"); // superscript ³:¹⁶ — not Nd, left alone
+ok($r['query'] === "John \u{00B3}:\u{00B9}\u{2076}", 'superscript digits (not decimal) left untouched');
 
 echo "refused, with advice about THAT fault:\n";
 foreach ([

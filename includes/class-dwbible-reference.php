@@ -47,6 +47,28 @@ class DwBible_Reference {
     }
 
     /**
+     * Rewrite non-ASCII DECIMAL digits (Arabic-Indic ٠-9, extended
+     * Arabic-Indic, Devanagari, fullwidth, …) to plain 0-9 before any grammar
+     * sees them. `\d` under PCRE's `/u` already MATCHES these — Unicode
+     * category Nd — so a citation like "John ٣:١٦" IS parsed as book "John",
+     * chapter "٣", verse "١٦"; the bug was one step later, where a downstream
+     * `preg_match` without `/u` and a plain `(int)` cast (both ASCII-only)
+     * silently read a non-ASCII digit string as "no chapter given" instead of
+     * refusing — a citation with a real chapter and verse quietly answered
+     * with the whole book (quality loop tick 206). Superscript digits
+     * (category No, "³") are NOT decimal digits and are deliberately left
+     * alone: they read as footnote-style verse markers inside running text,
+     * not citation syntax, so guessing a chapter/verse from them would be
+     * the wrong kind of "fix".
+     */
+    private static function normalize_unicode_digits($s) {
+        return (string) preg_replace_callback('/\p{Nd}/u', static function ($m) {
+            $v = IntlChar::charDigitValue($m[0]);
+            return $v >= 0 ? (string) $v : $m[0];
+        }, (string) $s);
+    }
+
+    /**
      * Split a typed query into its book half and its citation half.
      *
      * A query with no trailing chapter is all book name; a query whose name
@@ -167,7 +189,7 @@ class DwBible_Reference {
      * @return array{query:string, note:?string}
      */
     public static function normalize_printed_forms($raw) {
-        $q     = trim((string) $raw);
+        $q     = self::normalize_unicode_digits(trim((string) $raw));
         $notes = [];
 
         $halves = [];
