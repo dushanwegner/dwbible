@@ -152,6 +152,13 @@ ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['pere']" ] && echo 1 || echo 
 U="${BASE}/bible-search.json?q=segu%CC%81n&lang=es&limit=1"
 ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['segun']" ] && echo 1 || echo 0)" "NFD 'según' (u + combining acute) is one token too"
 
+echo "…invisible format characters (zero-width space, soft hyphen — what a copy from a PDF or a mobile keyboard pastes mid-word) must be stripped, not treated as a word boundary:"
+U="${BASE}/bible-search.json?q=Ie%E2%80%8Bsus&lang=la&limit=1"
+ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['iesus']" ] && echo 1 || echo 0)" "a zero-width space (U+200B) inside 'Iesus' is invisible, so the token stays whole"
+ok "$([ "$(probe "$U" "d['_meta']['total']")" = "$(probe "${BASE}/bible-search.json?q=Iesus&lang=la&limit=1" "d['_meta']['total']")" ] && echo 1 || echo 0)" "…and its total matches the clean 'Iesus' (503), not an unrelated 'ie'+'sus' split"
+U="${BASE}/bible-search.json?q=Ie%C2%ADsus&lang=la&limit=1"
+ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['iesus']" ] && echo 1 || echo 0)" "a soft hyphen (U+00AD) inside 'Iesus' is invisible too"
+
 echo "/bible-books.json — the two name registers must be joinable, not confusable:"
 ok "$([ "$(probe "${BASE}/bible-books.json" "len(d['keys']), len(d['slugs']), len(d['names'])")" = "(73, 73, 73)" ] && echo 1 || echo 0)" "keys[] rides beside slugs[] and names[], all 73"
 ok "$([ "$(probe "${BASE}/bible-books.json" "d['keys'][d['slugs'].index('iosue')]")" = "josue" ] && echo 1 || echo 0)" "the Latin slug 'iosue' names the canonical key 'josue'"

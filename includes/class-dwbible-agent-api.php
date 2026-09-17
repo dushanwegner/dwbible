@@ -1282,8 +1282,13 @@ trait DwBible_Agent_API_Trait {
      * search_normalize map, æ→ae included), for Latin j→i so classical and
      * Clementine spellings meet ("eius" / "ejus"), and for English British and
      * American spelling (see AGENT_SEARCH_EN_SPELLING). Punctuation becomes space.
+     * Invisible Unicode FORMAT characters (\p{Cf}: zero-width space, soft hyphen,
+     * word joiner, byte-order mark — what a copy from a PDF or a mobile keyboard
+     * pastes mid-word) are removed outright rather than folded to a space: a
+     * reader cannot see them, so they must not split one word into two tokens.
      */
     private static function agent_search_normalize( string $s, string $lang ): string {
+        $s = (string) preg_replace( '/\p{Cf}/u', '', $s );
         $s = self::search_normalize( $s );
         if ( $lang === 'la' ) {
             $s = str_replace( 'j', 'i', $s );
