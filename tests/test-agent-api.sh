@@ -53,6 +53,13 @@ ok "$([ "$(probe "$U" "' :' in d['passages']['la']['text'] or ' ;' in d['passage
 U="${BASE}/bible-ref.json?q=Col+3:11&lang=la"
 ok "$([ "$(probe "$U" "' :' in d['passages']['la']['text']")" = "True" ] && echo 1 || echo 0)" "…and the default keeps the source spacing"
 
+echo "chapter/verse 0 — no book starts there, and it must not be read as 'omitted':"
+ok "$([ "$(code "${BASE}/bible-ref.json?q=Ps+0:1")" = "404" ] && echo 1 || echo 0)" "chapter 0 is refused, not answered as the book with no text"
+ok "$([ "$(code "${BASE}/bible-ref.json?q=John+0:1")" = "404" ] && echo 1 || echo 0)" "chapter 0 (John) is refused too"
+ok "$([ "$(code "${BASE}/bible-ref.json?q=Genesis+1:0")" = "404" ] && echo 1 || echo 0)" "verse 0 is refused, not answered as the whole chapter"
+ok "$([ "$(code "${BASE}/bible-ref.json?q=Ps+1:0")" = "404" ] && echo 1 || echo 0)" "verse 0 (Ps) is refused too"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Ps+2" "d['ref']['chapter']")" = "2" ] && echo 1 || echo 0)" "a bare chapter (no verse at all) still answers the whole chapter"
+
 ok "$([ "$(code "${BASE}/bible-ref.json?q=Gal+3:99")" = "404" ] && echo 1 || echo 0)" "a verse the chapter lacks is a 404, not a different verse"
 ok "$([ "$(code "${BASE}/bible-ref.json?q=Nowhere+1:1")" = "404" ] && echo 1 || echo 0)" "an unknown book is a 404"
 ok "$([ "$(code "${BASE}/bible-ref.json")" = "400" ] && echo 1 || echo 0)" "no q is a 400"

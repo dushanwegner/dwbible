@@ -801,9 +801,25 @@ trait DwBible_Agent_API_Trait {
             }
             $ch = $single['chapter']; $vf = $single['from']; $vt = $single['to']; $read_as = $single['note'];
         } elseif ( $parsed['ref'] !== '' && preg_match( '/^(\d+)(?::(\d+)(?:-(\d+))?)?$/', $parsed['ref'], $m ) ) {
-            $ch = (int) $m[1];
-            $vf = isset( $m[2] ) && $m[2] !== '' ? (int) $m[2] : 0;
-            $vt = isset( $m[3] ) && $m[3] !== '' ? (int) $m[3] : $vf;
+            $ch          = (int) $m[1];
+            $verse_given = isset( $m[2] ) && $m[2] !== '';
+            $vf          = $verse_given ? (int) $m[2] : 0;
+            $vt          = isset( $m[3] ) && $m[3] !== '' ? (int) $m[3] : $vf;
+
+            // A chapter or verse of "0" is never a real address — every book
+            // and every chapter starts at 1 — but every existence check below
+            // is guarded by "> 0", written for the ORDINARY meaning of a zero
+            // here: "not given". A typed "0" would fall through every one of
+            // them unnoticed and come back as the whole book (chapter 0) or
+            // the whole chapter (verse 0) instead of refused (quality loop
+            // tick 200: "Ps 0:1" answered 200 with no chapter and no text;
+            // "Genesis 1:0" answered 200 with the whole of chapter 1).
+            if ( $ch === 0 || ( $verse_given && $vf === 0 ) ) {
+                self::agent_error( 404, $ch === 0 ? 'CHAPTER_NOT_FOUND' : 'VERSE_NOT_FOUND',
+                    $ch === 0 ? "There is no chapter 0 in \"{$raw}\"." : "There is no verse 0 in \"{$raw}\".",
+                    [ 'suggestion' => 'Chapters and verses are numbered from 1.' ] );
+            }
+
             // "Jude 3" — a bare number on a one-chapter book is its VERSE.
             if ( $vf === 0 ) {
                 $single = self::agent_single_chapter_verses( $chapters, $ch, 0, $en_name );
