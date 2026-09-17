@@ -108,6 +108,15 @@ ok "$([ "$(probe "${BASE}/bible-search.json?q=Cristo&lang=es" "d['_meta']['total
 ok "$([ -n "$(probe "${BASE}/bible-search.json?q=gasolina&lang=es" "d['_meta']['noHitsBecause'] or ''")" ] && echo 1 || echo 0)" "…and an empty Spanish answer still says why, naming the edition's orthography"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Christo&lang=es" "d['_meta']['noHitsBecause']")" = "None" ] && echo 1 || echo 0)" "an answer that found verses carries no such hint"
 
+echo "…NFD-decomposed accents (macOS/PDF paste writes a base letter + a separate combining mark) must fold like the precomposed form, not split into two tokens at the mark:"
+U="${BASE}/bible-search.json?q=u%CC%88ber&lang=de&limit=1"
+ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['uber']" ] && echo 1 || echo 0)" "NFD 'über' (u + combining diaeresis) is one token, not ['u','ber']"
+ok "$([ "$(probe "$U" "d['_meta']['total']")" = "$(probe "${BASE}/bible-search.json?q=%C3%BCber&lang=de&limit=1" "d['_meta']['total']")" ] && echo 1 || echo 0)" "…and its total matches the precomposed 'über'"
+U="${BASE}/bible-search.json?q=pe%CC%80re&lang=fr&limit=1"
+ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['pere']" ] && echo 1 || echo 0)" "NFD 'père' (e + combining grave) is one token too"
+U="${BASE}/bible-search.json?q=segu%CC%81n&lang=es&limit=1"
+ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['segun']" ] && echo 1 || echo 0)" "NFD 'según' (u + combining acute) is one token too"
+
 echo "/bible-books.json — the two name registers must be joinable, not confusable:"
 ok "$([ "$(probe "${BASE}/bible-books.json" "len(d['keys']), len(d['slugs']), len(d['names'])")" = "(73, 73, 73)" ] && echo 1 || echo 0)" "keys[] rides beside slugs[] and names[], all 73"
 ok "$([ "$(probe "${BASE}/bible-books.json" "d['keys'][d['slugs'].index('iosue')]")" = "josue" ] && echo 1 || echo 0)" "the Latin slug 'iosue' names the canonical key 'josue'"

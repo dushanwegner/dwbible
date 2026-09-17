@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.17.05
+* Version: 1.26.09.17.06
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.17.05');
+    define('DWBIBLE_VERSION', '1.26.09.17.06');
 }
 
 // Load include classes before hooks are registered
@@ -1607,9 +1607,23 @@ class DwBible_Plugin {
      * Normalize a string for client/server-consistent search matching:
      * lowercase + strip diacritics + æ/œ/ß expansions. Keeps spaces; callers
      * reduce to [a-z0-9] per token. Mirrors the JS norm() in the index filter.
+     *
+     * Unicode-normalizes to NFC first (quality loop tick 147): the accent map
+     * below matches only the single precomposed character (e.g. "ü", U+00FC).
+     * A caller who sends NFD instead — a base letter plus a separate combining
+     * mark, as macOS and many PDFs write "ü" (u + U+0308) — would otherwise
+     * carry that lone mark past the map unmatched. It is not a letter or digit,
+     * so the caller's later `[^\p{L}\p{N}]` split then breaks the one word in
+     * two ("über" → "u", "ber"), turning an accent-insensitive search into a
+     * wrong, wide-open one. NFC and NFD spell the same string; they must search
+     * the same.
      */
     private static function search_normalize($s) {
-        $s = mb_strtolower((string) $s, 'UTF-8');
+        $s = (string) $s;
+        if (class_exists('Normalizer')) {
+            $s = Normalizer::normalize($s, Normalizer::FORM_C) ?: $s;
+        }
+        $s = mb_strtolower($s, 'UTF-8');
         $map = [
             'à'=>'a','á'=>'a','â'=>'a','ã'=>'a','ä'=>'a','å'=>'a','ā'=>'a',
             'ç'=>'c','č'=>'c',
