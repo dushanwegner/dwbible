@@ -88,6 +88,39 @@ ok "$([ -n "$(probe "$U" "d['_meta'].get('readAs') or ''")" ] && echo 1 || echo 
 ok "$([ -n "$(probe "${BASE}/bible-ref.json?q=John+3%3A35-40" "d['_meta'].get('readAs') or ''")" ] && echo 1 || echo 0)" "the resolver says so too (it clamped in silence before)"
 ok "$([ "$(code "${BASE}/bible-ref.json?q=John+3%3A40-45")" = "404" ] && echo 1 || echo 0)" "a range starting past the end is still refused outright"
 
+echo
+echo "a comma list of verses — the form this site's OWN calendar prints its Mass readings in:"
+# /calendar/<date>.json cites "Ps 112:1, 2, 9" (the introit of 2026-07-10), "Ps 44:11-12, 14"
+# (the gradual of 2026-08-15) and "Ps 88:12,15" (the offertory of 2026-01-01). The resolver
+# refused all three with CITATION_NOT_UNDERSTOOD — so a reader (or an agent) copying a
+# reading's own citation into the lookup tool llms.txt advertises as universal was told the
+# chapter and verse part could not be read. The server must read back what it prints.
+while IFS='|' read -r q ch nums cite; do
+  [ -z "$q" ] && continue
+  U="${BASE}/bible-ref.json?q=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$q")&lang=la"
+  ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "\"$q\" resolves (200), not CITATION_NOT_UNDERSTOOD"
+  ok "$([ "$(probe "$U" "d['ref']['chapter']")" = "$ch" ] && echo 1 || echo 0)" "…in chapter $ch"
+  ok "$([ "$(probe "$U" "[v['verse'] for v in d['passages']['la']['verses']]")" = "$nums" ] && echo 1 || echo 0)" "…carrying exactly the verses $nums"
+  ok "$([ "$(probe "$U" "d['ref']['verseNumbers']")" = "$nums" ] && echo 1 || echo 0)" "…named in ref.verseNumbers"
+  ok "$([ "$(probe "$U" "d['ref']['citation']['la']")" = "$cite" ] && echo 1 || echo 0)" "…and cited back as the list, never collapsed to a range"
+done <<'VERSELISTS'
+Ps 112:1, 2, 9|112|[1, 2, 9]|Psalmus 112:1, 2, 9
+Ps 44:11-12, 14|44|[11, 12, 14]|Psalmus 44:11-12, 14
+Ps 88:12,15|88|[12, 15]|Psalmus 88:12, 15
+VERSELISTS
+# The text must be the UNION of the verses named — not the span that contains them.
+U="${BASE}/bible-ref.json?q=Ps+112%3A1%2C+2%2C+9&lang=la"
+ok "$([ "$(probe "$U" "'Laudate, pueri' in d['passages']['la']['text'] and 'matrem filiorum' in d['passages']['la']['text']")" = "True" ] && echo 1 || echo 0)" "the text runs from verse 1 through verse 9"
+ok "$([ "$(probe "$U" "'A solis ortu' in d['passages']['la']['text']")" = "False" ] && echo 1 || echo 0)" "…and skips verse 3, which the citation does not name"
+ok "$([ "$(probe "$U" "d['ref']['verseFrom'], d['ref']['verseTo']")" = "(1, 9)" ] && echo 1 || echo 0)" "verseFrom/verseTo still bound the passage, for a consumer that reads only those"
+ok "$([ -n "$(probe "$U" "d['_meta'].get('readAs') or ''")" ] && echo 1 || echo 0)" "…and the discontinuity is stated, because the URLs can only span it"
+ok "$([ "$(probe "$U" "d['urls']['json']['la']")" = "${BASE}/latin/psalms/112/1-9.json" ] && echo 1 || echo 0)" "the addresses are the smallest servable range containing the list"
+# A verse named in a list that the chapter has not got is a 404 — never dropped in silence.
+ok "$([ "$(code "${BASE}/bible-ref.json?q=Ps+112%3A1%2C+2%2C+99")" = "404" ] && echo 1 || echo 0)" "a list naming a verse the chapter lacks is refused (Psalm 112 ends at 9)"
+# The ordinary forms keep their exact old shape: no verseNumbers, no new note.
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Job+20%3A12-13&lang=la" "d['ref'].get('verseNumbers')")" = "None" ] && echo 1 || echo 0)" "a plain range carries no verseNumbers — the field marks a list"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Ps+44%2C11&lang=la" "d['ref']['chapter'], d['ref']['verseFrom'], d['ref']['verseTo']")" = "(44, 11, 11)" ] && echo 1 || echo 0)" "the German comma \"Ps 44,11\" is still chapter 44 verse 11, not a list"
+
 echo "/bible-search.json — verse search:"
 U="${BASE}/bible-search.json?q=dilexerunt+tenebras&lang=la"
 ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "answers 200"

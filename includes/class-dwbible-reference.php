@@ -65,6 +65,63 @@ class DwBible_Reference {
     }
 
     /**
+     * A chapter followed by a COMMA LIST of verses and verse ranges, inside one
+     * chapter: "Ps 112:1, 2, 9", "Ps 44:11-12, 14", "Ps 88:12,15".
+     *
+     * This site's own calendar prints its Mass readings in exactly this form, and
+     * CITATION_PATTERN above cannot read it: anchored at both ends, it swallows
+     * everything but the last number into the book name ("Ps 112:1, 2," + "9"),
+     * so the book lookup fails and the reader is told the chapter and verse could
+     * not be read. A separate pattern is used rather than widening the shared one,
+     * because CITATION_PATTERN is also compiled in the browser (the book index
+     * filter) where a list has nothing to filter.
+     *
+     *   1  book name   lazy, as above, so "1 Cor" keeps its leading number
+     *   2  head        the number before the chapter:verse separator
+     *   3  list        the comma-separated verses/ranges after it
+     *
+     * The head is the CHAPTER. Deciding otherwise needs the book (a one-chapter
+     * book cites by verse), which this class does not know — see the caller.
+     *
+     * Cross-chapter citations are deliberately NOT read here: ";" and "." separate
+     * whole passages in a printed citation, and neither the list nor anything
+     * downstream can hold two chapters. They keep the refusal citation_advice()
+     * already writes for them.
+     *
+     * @param string $raw What the reader typed.
+     * @return array{name:string,chapter:int,spans:array<int,array{0:int,1:int}>}|null
+     *         null when the query is not a verse list.
+     */
+    public static function parse_verse_list($raw) {
+        $s = trim((string) $raw);
+        if ($s === '' || strpos($s, ',') === false) {
+            return null;
+        }
+        $item = '\d+(?:\s*[-–—]\s*\d+)?';
+        $re   = '/^(.*?)[\s.]*(\d+)\s*[:,.]\s*(' . $item . '(?:\s*,\s*' . $item . ')*)\s*$/u';
+        if (!preg_match($re, $s, $m)) {
+            return null;
+        }
+        $name = trim($m[1]);
+        if ($name === '') {
+            return null;
+        }
+        $spans = [];
+        foreach (explode(',', $m[3]) as $part) {
+            if (!preg_match('/^\s*(\d+)(?:\s*[-–—]\s*(\d+))?\s*$/u', $part, $p)) {
+                return null;
+            }
+            $from = (int) $p[1];
+            $to   = isset($p[2]) && $p[2] !== '' ? (int) $p[2] : $from;
+            if ($from <= 0 || $to < $from) {
+                return null;
+            }
+            $spans[] = [$from, $to];
+        }
+        return ['name' => $name, 'chapter' => (int) $m[2], 'spans' => $spans];
+    }
+
+    /**
      * Forms a lectionary or a German Bible PRINTS that the grammar above does not
      * read, rewritten into ones it does — and said so, so the reading is never silent.
      *
@@ -127,7 +184,8 @@ class DwBible_Reference {
         if (preg_match('/\d+\s+\d+\s*$/u', $s)) {
             return "Chapter and verse need a separator between them: \"{$book} 3:16\" or \"{$book} 3,16\".";
         }
-        return "Write chapter:verse, or chapter:verse-verse inside one chapter: \"{$book} 3:16\", \"{$book} 3:16-18\"; a whole chapter is \"{$book} 3\".";
+        return "Write chapter:verse, or chapter:verse-verse inside one chapter: \"{$book} 3:16\", \"{$book} 3:16-18\"; "
+             . "a comma list of verses in one chapter reads too, \"{$book} 3:16, 18, 20-21\"; a whole chapter is \"{$book} 3\".";
     }
 
     public static function parse_chapter_and_range($ch, $vf, $vt) {

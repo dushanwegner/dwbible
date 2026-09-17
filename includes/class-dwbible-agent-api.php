@@ -509,6 +509,51 @@ trait DwBible_Agent_API_Trait {
         return "{$site}/{$dataset}/{$key}/{$ch}/{$vf}" . ( $vt > $vf ? "-{$vt}" : '' ) . '.json';
     }
 
+    // ── Verse lists ─────────────────────────────────────────────────────────
+    //
+    // A citation may name several verses of one chapter that do not run together
+    // — "Ps 112:1, 2, 9" is how this site's own calendar prints an introit. Such a
+    // request is carried as an ORDERED LIST OF SPANS, [[1,1],[2,2],[9,9]], beside
+    // the continuous $vf-$vt range that contains it: the range is what every
+    // existence check and every URL works on, the list is what is read and cited.
+
+    /** Move every span by a constant offset (the Malachias and Hebrew-psalm shims). */
+    private static function agent_shift_spans( ?array $spans, int $delta ): ?array {
+        if ( $spans === null || $delta === 0 ) { return $spans; }
+        return array_map( static fn( array $s ): array => [ $s[0] + $delta, $s[1] + $delta ], $spans );
+    }
+
+    /** The spans as a citation prints them: "1, 2, 9", "11-12, 14". */
+    private static function agent_verse_list_string( array $spans ): string {
+        $parts = [];
+        foreach ( $spans as $s ) {
+            $parts[] = $s[0] . ( $s[1] > $s[0] ? '-' . $s[1] : '' );
+        }
+        return implode( ', ', $parts );
+    }
+
+    /**
+     * The verse half of a citation: "", ":28", ":12-13" or ":1, 2, 9".
+     * A list is printed BACK as a list — collapsing "112:1, 2, 9" to "112:1-9"
+     * would cite six verses the reader never asked for.
+     */
+    private static function agent_verse_ref( int $vf, int $vt, ?array $spans ): string {
+        if ( $vf <= 0 ) { return ''; }
+        if ( $spans === null ) { return ':' . $vf . ( $vt > $vf ? '-' . $vt : '' ); }
+        return ':' . self::agent_verse_list_string( $spans );
+    }
+
+    /** Every verse number the spans name, ascending, each once. */
+    private static function agent_verse_numbers( array $spans ): array {
+        $seen = [];
+        foreach ( $spans as $s ) {
+            for ( $n = $s[0]; $n <= $s[1]; $n++ ) { $seen[ $n ] = true; }
+        }
+        $nums = array_keys( $seen );
+        sort( $nums );
+        return $nums;
+    }
+
     // ── Typography ──────────────────────────────────────────────────────────
 
     /**
@@ -531,9 +576,14 @@ trait DwBible_Agent_API_Trait {
 
     /**
      * The verses of one passage in one dataset, from the chapter file.
+     *
+     * @param ?array $spans A comma list's verse spans, [[from,to],…]; null for the
+     *                      ordinary continuous $vf-$vt range. A verse is kept when
+     *                      it falls in ANY span, so the chapter's own order and
+     *                      uniqueness carry over free even if the spans overlap.
      * @return array{translation:array,book:array,verses:array,total:int}|null
      */
-    private static function agent_load_passage( string $dataset, string $key, int $ch, int $vf, int $vt ): ?array {
+    private static function agent_load_passage( string $dataset, string $key, int $ch, int $vf, int $vt, ?array $spans = null ): ?array {
         $file = dwbible_data_dir() . $dataset . '/json/' . $key . '/' . $ch . '.json';
         if ( ! file_exists( $file ) ) { return null; }
         $data = json_decode( (string) file_get_contents( $file ), true );
@@ -541,7 +591,15 @@ trait DwBible_Agent_API_Trait {
         $out = [];
         foreach ( $data['verses'] as $v ) {
             $n = (int) $v['verse'];
-            if ( $vf > 0 && ( $n < $vf || $n > $vt ) ) { continue; }
+            if ( $spans !== null ) {
+                $wanted = false;
+                foreach ( $spans as $s ) {
+                    if ( $n >= $s[0] && $n <= $s[1] ) { $wanted = true; break; }
+                }
+                if ( ! $wanted ) { continue; }
+            } elseif ( $vf > 0 && ( $n < $vf || $n > $vt ) ) {
+                continue;
+            }
             $out[] = [ 'verse' => $n, 'text' => (string) $v['text'] ];
         }
         return [
@@ -629,6 +687,27 @@ trait DwBible_Agent_API_Trait {
             }
         }
 
+        // A COMMA LIST OF VERSES — "Ps 112:1, 2, 9", "Ps 44:11-12, 14" — is the form
+        // this site's own calendar prints its Mass readings in, and the shared grammar
+        // cannot split it either: anchored at both ends it reads the name as
+        // "Ps 112:1, 2," and the number as 9. Like the bare range above, it is only
+        // tried once the ordinary parse has found no book, so "Ps 44,11" (the German
+        // chapter comma) and every other citation the grammar already understood is
+        // never re-read here.
+        $verse_spans  = null;
+        $list_chapter = 0;
+        if ( $key === null ) {
+            $vl = DwBible_Reference::parse_verse_list( $printed['query'] );
+            if ( $vl !== null ) {
+                $alt = self::internal_key_from_any_book( $vl['name'], 'latin' );
+                if ( $alt !== null ) {
+                    $key          = $alt;
+                    $verse_spans  = $vl['spans'];
+                    $list_chapter = $vl['chapter'];
+                }
+            }
+        }
+
         if ( $key === null ) {
             // BLAME THE RIGHT HALF. The shared citation grammar is anchored at
             // both ends, so a cross-chapter range like "Mt 5:1-7:29" parses as
@@ -668,7 +747,15 @@ trait DwBible_Agent_API_Trait {
         $en_name  = self::agent_book_names_table()[ $key ]['en'] ?? $key;
 
         $ch = 0; $vf = 0; $vt = 0; $read_as = null;
-        if ( $bare_range !== null ) {
+        if ( $verse_spans !== null ) {
+            // $vf/$vt are the SPAN THAT CONTAINS the list. Every existence check,
+            // shim and URL below is written for one continuous range and keeps
+            // working unchanged; the list only narrows which verses of that span
+            // are actually read, cited and counted.
+            $ch = $list_chapter;
+            $vf = min( array_column( $verse_spans, 0 ) );
+            $vt = max( array_column( $verse_spans, 1 ) );
+        } elseif ( $bare_range !== null ) {
             $single = self::agent_single_chapter_verses( $chapters, $bare_range[0], $bare_range[1], $en_name );
             if ( $single === null ) {
                 // In a book of many chapters "Genesis 1-3" could mean three
@@ -702,6 +789,12 @@ trait DwBible_Agent_API_Trait {
         // printed Vulgate uses.
         $mal = self::agent_malachias_shim( $key, $ch, $vf, $vt );
         if ( $mal !== null ) {
+            // A verse list rides along on the same offset. Both shims that move a
+            // passage — this one and the Hebrew psalm numbering below — shift every
+            // verse of ONE chapter by a CONSTANT delta, so shifting the containing
+            // span and shifting each item of the list are the same arithmetic.
+            $delta       = $vf > 0 ? $mal['from'] - $vf : 0;
+            $verse_spans = self::agent_shift_spans( $verse_spans, $delta );
             $ch = $mal['chapter']; $vf = $mal['from']; $vt = $mal['to']; $read_as = $mal['note'];
         }
 
@@ -735,6 +828,7 @@ trait DwBible_Agent_API_Trait {
                     'suggestion' => "Ask for each part: \"Ps {$c1}:{$f1}-\" to the end of Vulgate {$c1}, and \"Ps {$c2}:1-{$t2}\" — both without numbering=hebrew, as they are already Vulgate numbers.",
                 ] );
             }
+            $verse_spans = self::agent_shift_spans( $verse_spans, $vf > 0 && $pr['vf'] > 0 ? $pr['vf'] - $vf : 0 );
             $ch         = $pr['chapter'];
             $vf         = $pr['vf'];
             $vt         = $pr['vt'];
@@ -765,13 +859,52 @@ trait DwBible_Agent_API_Trait {
                     'chapterJson' => self::agent_json_url( 'latin', $key, $ch ),
                 ] ) );
             }
-            // An over-long range is clamped rather than refused — the reader
-            // named a real verse and meant to read to the end — but a clamp
-            // nobody is told about is a silently different passage.
-            if ( $vt > $n ) {
+            // A LIST NAMES EVERY VERSE IT WANTS, so a verse the chapter has not got
+            // is refused BY NAME rather than dropped: "Ps 112:1, 2, 99" coming back
+            // as verses 1 and 2 would be a well-formed answer silently missing the
+            // one verse the reader wrote a number for. A range INSIDE the list that
+            // merely runs past the end is clamped and said, as anywhere else here.
+            if ( $verse_spans !== null ) {
+                foreach ( $verse_spans as $span ) {
+                    if ( $span[0] > $n ) {
+                        self::agent_error( 404, 'VERSE_NOT_FOUND', "Verse {$span[0]} does not exist in chapter {$ch}.", array_filter( [
+                            'requested'   => $raw,
+                            'readAs'      => self::agent_join_notes( $printed['note'], $read_as ),
+                            'suggestion'  => "\"{$raw}\" names verse {$span[0]}; this chapter has {$n} verses (1-{$n}).",
+                            'chapterJson' => self::agent_json_url( 'latin', $key, $ch ),
+                        ] ) );
+                    }
+                }
+                $over = false;
+                foreach ( $verse_spans as &$span ) {
+                    if ( $span[1] > $n ) { $span[1] = $n; $over = true; }
+                }
+                unset( $span );
+                if ( $over ) {
+                    $vt      = $n;
+                    $read_as = self::agent_join_notes( $read_as, "\"{$raw}\" was read as {$ch}:"
+                             . self::agent_verse_list_string( $verse_spans ) . ": this chapter ends at verse {$n}." );
+                }
+            } elseif ( $vt > $n ) {
+                // An over-long range is clamped rather than refused — the reader
+                // named a real verse and meant to read to the end — but a clamp
+                // nobody is told about is a silently different passage.
                 $read_as = "\"{$raw}\" was read as {$ch}:{$vf}-{$n}: this chapter ends at verse {$n}.";
                 $vt = $n;
             }
+        }
+
+        // THE ADDRESSES CAN ONLY SPAN A LIST. This site names a passage by ONE
+        // continuous range — /latin/psalms/112/1-9.json, /en/biblia/psalmi/112:1-9/ —
+        // so a discontinuous list has no address of its own and the URLs below hold
+        // verses the citation does not name. The text and `verseNumbers` are the
+        // list; a reader following a link otherwise finds more verses than they
+        // asked for, with nothing to tell them which was which.
+        if ( $verse_spans !== null && count( self::agent_verse_numbers( $verse_spans ) ) < $vt - $vf + 1 ) {
+            $read_as = self::agent_join_notes( $read_as, "\"{$raw}\" names verses "
+                     . self::agent_verse_list_string( $verse_spans ) . " of chapter {$ch}, and the text here is those verses only. "
+                     . "The page and JSON addresses cover {$ch}:{$vf}-{$vt}, the smallest continuous range holding them, "
+                     . 'because a passage on this site is addressed by one range.' );
         }
 
         $book      = self::agent_book_block( $key );
@@ -794,14 +927,14 @@ trait DwBible_Agent_API_Trait {
         $citations = [];
         foreach ( $book['names'] as $lang => $name ) {
             $cite = $ch > 0 ? self::agent_cite_name( $key, (string) $lang, (string) $name ) : (string) $name;
-            $citations[ $lang ] = $cite . ( $ch > 0 ? ' ' . $ch . ( $vf > 0 ? ':' . $vf . ( $vt > $vf ? '-' . $vt : '' ) : '' ) : '' );
+            $citations[ $lang ] = $cite . ( $ch > 0 ? ' ' . $ch . self::agent_verse_ref( $vf, $vt, $verse_spans ) : '' );
         }
 
         $passages = [];
         if ( $ch > 0 ) {
             foreach ( $langs as $ds ) {
                 $lang = array_search( $ds, $by_lang, true );
-                $p    = self::agent_load_passage( $ds, $key, $ch, $vf, $vt );
+                $p    = self::agent_load_passage( $ds, $key, $ch, $vf, $vt, $verse_spans );
                 if ( $p === null ) { continue; }
                 $texts = [];
                 foreach ( $p['verses'] as &$v ) {
@@ -843,15 +976,22 @@ trait DwBible_Agent_API_Trait {
                 'query'      => $raw,
                 'readAs'     => self::agent_join_notes( $printed['note'], $read_as ),
                 'typography' => $clean ? 'clean' : 'source',
-                'usage'      => 'q = any citation form; lang = comma list of la,en,de,es,fr,it (or "all") for the text; '
+                'usage'      => 'q = any citation form, a comma list of verses in one chapter included ("Ps 112:1, 2, 9"); '
+                              . 'lang = comma list of la,en,de,es,fr,it (or "all") for the text; '
                               . 'numbering=hebrew to read a Psalm number as Masoretic; typography=clean to drop the space before : ; ! ?',
             ],
             'ref' => [
-                'book'      => $book,
-                'chapter'   => $ch > 0 ? $ch : null,
-                'verseFrom' => $vf > 0 ? $vf : null,
-                'verseTo'   => $vf > 0 ? $vt : null,
-                'citation'  => $citations,
+                'book'         => $book,
+                'chapter'      => $ch > 0 ? $ch : null,
+                'verseFrom'    => $vf > 0 ? $vf : null,
+                'verseTo'      => $vf > 0 ? $vt : null,
+                // Only a COMMA LIST fills this: every verse it names, in order.
+                // verseFrom/verseTo bound them, and for a discontinuous list that
+                // bound holds verses the citation does not name — so a consumer
+                // reading only the two numbers gets a range, never a wrong verse,
+                // and one reading this field gets exactly what was asked for.
+                'verseNumbers' => $verse_spans !== null ? self::agent_verse_numbers( $verse_spans ) : null,
+                'citation'     => $citations,
             ],
             'urls'     => $urls,
             'passages' => (object) $passages,
