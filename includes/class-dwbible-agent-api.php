@@ -1031,7 +1031,7 @@ trait DwBible_Agent_API_Trait {
                 'nextOffset'  => ( $offset + count( $hits ) ) < $total ? $offset + count( $hits ) : null,
                 'typography'  => $clean ? 'clean' : 'source',
                 'noHitsBecause' => $total === 0 ? ( self::agent_search_citation_hint( $raw, $lang ) ?? self::agent_search_orthography_hint( $dataset ) ) : null,
-                'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i; English folds British and American spelling, honour/honor; Spanish folds period and modern spelling, quando/cuando). '
+                'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i; English folds British and American spelling, honour/honor; Spanish folds period and modern spelling, quando/cuando; Italian likewise, Davidde/Davide, figliuolo/figlio). '
                                . 'lang = one of la,en,de,es,fr,it; book = a book to narrow to; limit ≤ ' . self::AGENT_SEARCH_MAX_LIMIT . '; '
                                . 'offset = where to start, 0-based — when `truncated` is true, `nextOffset` is the offset to ask for next. '
                                . 'Each hit carries its own HTML page, its JSON, and a refJson that returns the verse in every language.',
@@ -1111,6 +1111,33 @@ trait DwBible_Agent_API_Trait {
     ];
 
     /**
+     * Period and modern Italian spelling, folded to one form for Italian search.
+     *
+     * The Martini (1780s) spells as its century did: "Davidde" in 471 verses and
+     * "Davide" in one, "figliuolo" 2,235 / "figlio" 100, "sacrifizio"/"sagrifizio" 162 /
+     * "sacrificio" 6, plurals in -j ("giudizj", "prodigj", "empj"). A modern search found
+     * the few — "Davide" ONE verse, "elemosina" and "Figlio dell'uomo" none — and a few
+     * gets no hint (quality loop tick 123).
+     *
+     * Applied after accents are stripped, to query and verse. J → I everywhere: modern
+     * Italian does not write it, and in Martini it is the -j plural, the j between
+     * vowels ("ajuto", "muojo", "gioja") or a name's initial ("Jesse", "Josue") — each
+     * the same word the modern reader spells with i. The rest are named STEMS. Every one
+     * of the 576 corpus words the map changes was listed: all 160 words it merges are
+     * one word in its two spellings (and "pjena", "djranno" are slips it mends).
+     */
+    private const AGENT_SEARCH_IT_SPELLING = [
+        'j' => 'i',
+        // "figliuolo" is the period form of "figlio"; the apocopated "figliuol" is singular
+        'figliuoli' => 'figli', 'figliuole' => 'figlie', 'figliuolo' => 'figlio',
+        'figliuola' => 'figlia', 'figliuol' => 'figlio',
+        'davidde' => 'davide',
+        // -fizio → -ficio (sacrificio, beneficio, ufficio, edificio, artificio), sagr → sacr
+        'fiz' => 'fic', 'sagr' => 'sacr',
+        'maravigl' => 'meravigl', 'nimic' => 'nemic', 'limosin' => 'elemosin',
+    ];
+
+    /**
      * Fold a string for matching: lower-case, accents stripped (the site's own
      * search_normalize map, æ→ae included), for Latin j→i so classical and
      * Clementine spellings meet ("eius" / "ejus"), and for English British and
@@ -1126,6 +1153,9 @@ trait DwBible_Agent_API_Trait {
         }
         if ( $lang === 'es' ) {
             $s = strtr( $s, self::AGENT_SEARCH_ES_SPELLING );
+        }
+        if ( $lang === 'it' ) {
+            $s = strtr( $s, self::AGENT_SEARCH_IT_SPELLING );
         }
         $s = (string) preg_replace( '/[^\p{L}\p{N}]+/u', ' ', $s );
         return trim( $s );
@@ -1168,7 +1198,7 @@ trait DwBible_Agent_API_Trait {
         $hints = [
             'latin'   => 'The Clementine Vulgate (1592) writes J for consonantal I and uses the æ/œ ligatures — "Jesu", "ejus", "cælum". This search folds j/i, æ/ae and œ/oe, so all of those match. What it cannot fold is oe where this edition writes ae: heaven here is "cælum" (175 verses) and never "coelum" (0), so "Cœli enarrant" finds nothing where "Cæli enarrant" finds the psalm.',
             'spanish' => 'The Scío de San Miguel (1790s) keeps 18th-century Spanish orthography. This search folds its common period spellings to modern ones — quando/cuando, qual/cual, Christo/Cristo, Jesu-Christo/Jesucristo, dixo/dijo, muger/mujer, reyno/reino, ph/f, th/t — so those match either way; a rarer period form may still need to be written as the edition writes it.',
-            'italian' => 'The Martini (1780s) keeps 18th-century Italian: "Gesù Cristo" as two words, older verb and pronoun forms ("nol" for "non lo").',
+            'italian' => 'The Martini (1780s) keeps 18th-century Italian. This search folds its common period spellings to modern ones — Davidde/Davide, figliuolo/figlio, sacrifizio/sacrificio, limosina/elemosina, nimico/nemico, maraviglia/meraviglia, and j for i (giudizj/giudizi, ajuto/aiuto) — so those match either way. What it cannot fold is an older word or verb form: "nol" for "non lo", "imperocché" for "poiché".',
             'bible'   => 'The Douay-Rheims keeps early-modern English: "thee", "thou", "hath", "shew". Search the form the edition uses.',
         ];
         return $hints[ $dataset ] ?? null;

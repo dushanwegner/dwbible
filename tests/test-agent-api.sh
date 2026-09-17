@@ -358,6 +358,17 @@ for pair in "cuando:quando" "Cristo:Christo" "dijo+Jes%C3%BAs:dixo+Jesus" "mujer
 done
 ok "$([ "$(es_total hoy)" -gt 0 ] && [ "$(es_total ley)" -gt 0 ] && echo 1 || echo 0)" "…and no generic y→i or x→j fold: hoy, ley still match"
 
+# Martini (1780s) writes "Davidde" 471 times and "Davide" once, "figliuolo" 2,235 and
+# "figlio" 100, plurals in -j ("giudizj", "prodigj"), "sacrifizio"/"sagrifizio" 162 and
+# "sacrificio" 6. "Davide" found ONE verse, "Figlio dell'uomo" none (tick 123).
+it_total() { probe "${BASE}/bible-search.json?q=$1&lang=it&limit=1" "d['_meta']['total']"; }
+for pair in "Davide:Davidde" "Figlio+dell%27uomo:Figliuolo+dell%27uomo" "sacrificio:sagrifizio" "giudizi:giudizj" "aiuto:ajuto" "nemici:nimici" "meraviglia:maraviglia" "elemosina:limosina" "consacrato:consagrato"; do
+  modern="${pair%%:*}"; period="${pair##*:}"; a=$(it_total "$modern"); b=$(it_total "$period")
+  m="${modern//+/ }"; p="${period//+/ }"
+  ok "$([ -n "$a" ] && [ "$a" = "$b" ] && [ "$a" -gt 0 ] && echo 1 || echo 0)" "Italian search: \"${m//%27/\'}\" finds what \"${p//%27/\'}\" finds (${a:-?} / ${b:-?})"
+done
+ok "$([ "$(it_total Davide)" -gt 400 ] && echo 1 || echo 0)" "…and \"Davide\" finds David's verses, not one ($(it_total Davide))"
+
 # A PLAUSIBLE MISNAMING of a parameter is refused and the right name given (tick 111).
 # Ignored, `language=de` searched the Latin, found nothing and blamed its spelling;
 # `psalms=hebrew` served a different psalm. Harmless extras (cache-busters) still pass.
