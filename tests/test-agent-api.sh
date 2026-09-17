@@ -418,7 +418,7 @@ done
 # which is the open decision dwbibledata#17 — a Roman numeral must not settle it.
 for pair in "III+Reg+19,8:3-kings" "IV+Reg+2,11:4-kings" "II+Mach+12,46:2-machabees" "I+Par+29,11:1-paralipomenon" \
             "I+Petr+2,9:1-peter" "I+Kor+13,4:1-corinthians" "II.+Tes+3,10:2-thessalonians" "I+Co+13,4:1-corinthians" \
-            "I+Samuelis+3,10:1-kings-samuel" "I+Kings+3,10:1-kings-samuel" "Iob+19,25:job" "Is+53,5:isaias"; do
+            "I+Samuelis+3,10:1-kings-samuel" "I+Kings+3,10:3-kings" "Iob+19,25:job" "Is+53,5:isaias"; do
   q="${pair%%:*}"; want="${pair##*:}"
   got=$(probe "${BASE}/bible-ref.json?q=${q}&lang=la" "d['ref']['book']['key']")
   ok "$([ "$got" = "$want" ] && echo 1 || echo 0)" "Roman numeral \"${q//+/ }\" is ${want} (got ${got:-an error})"
