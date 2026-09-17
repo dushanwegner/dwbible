@@ -382,6 +382,15 @@ U="${BASE}/en/biblia/ioannes/3:16/"
 "${CURL[@]}" -o /dev/null "$U"; "${CURL[@]}" -o /dev/null "$U"
 ok "$([ "$("${CURL[@]}" -o /dev/null -w '%{http_code} %{redirect_url}' "${U}?format=json")" = "301 ${BASE}/bible/ioannes/3/16.json" ] && echo 1 || echo 0)" "?format=json on a Bible page someone has already read still 301s to its JSON"
 
+# A trailing slash on a chapter/verse .json URL — an agent's URL-normaliser easily
+# appends one to anything that looks like a directory. On 5 of 6 dataset slugs this
+# used to skip the .json guessability bridge (its regex required the path to END at
+# ".json", so ".json/" fell through) and land in the plain HTML legacy-redirect branch
+# instead, which mishandled the untranslated remainder and 404'd (tick 180).
+ok "$([ "$(code "${BASE}/bible/john/3/16.json/")" = "200" ] && echo 1 || echo 0)" "a trailing slash after chapter/verse .json still answers 200 (bible)"
+ok "$([ "$(code "${BASE}/bibel/matthaeus/5/20.json/")" = "200" ] && echo 1 || echo 0)" "…and on bibel"
+ok "$([ "$(probe "${BASE}/bible/john/3/16.json/" "d['citation']")" = "John 3:16 (Douay-Rheims)" ] && echo 1 || echo 0)" "…and it is the actual verse, not a 404 page"
+
 # British and American spelling are ONE word to a reader, and the English corpus mixes
 # them: "neighbour" 182 times, "neighbor" 4 — and one of the four is Matthew 19:19. A
 # search in either spelling silently lost the other half (tick 105).

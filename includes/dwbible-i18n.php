@@ -93,8 +93,13 @@ add_filter('do_parse_request', function ($do, $wp = null, $extra = null) {
     // aliases (/menge/…) — are all normalised here to /{dataset}/{rest}.json (301).
     // Requests already on a real dataset slug (/bibel/…json) return null → served
     // directly by the .json rewrite rules. .xml/.txt endpoints keep their slug.
-    if (preg_match('#\.json$#i', $path)) {
-        $canonical = dwbible_i18n_normalize_json_path($path);
+    // A trailing slash (an agent's URL-normaliser easily appends one) must not
+    // fall through to the HTML legacy-redirect branch below: that branch treats
+    // the whole ".json/" remainder as an untranslated HTML path segment and
+    // 404s (tick 180). Match and normalise against the slash-stripped path.
+    $json_path = rtrim($path, '/');
+    if (preg_match('#\.json$#i', $json_path)) {
+        $canonical = dwbible_i18n_normalize_json_path($json_path);
         if ($canonical !== null) {
             wp_safe_redirect(home_url($canonical), 301);
             exit;
