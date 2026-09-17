@@ -69,9 +69,13 @@ class DwBible_Reference {
             return ['name' => $s, 'ref' => ''];
         }
         $ref = $m[2];
-        if (!empty($m[3])) {
+        // isset()+!=='' , not empty(): a verse or range-end of "0" is a STRING
+        // "0", which empty() reads as absent (PHP's classic falsy-string trap)
+        // and would silently drop, same bug as the chapter/verse "0" handling
+        // in class-dwbible-agent-api.php (quality loop tick 200).
+        if (isset($m[3]) && $m[3] !== '') {
             $ref .= ':' . $m[3];
-            if (!empty($m[4])) { $ref .= '-' . $m[4]; }
+            if (isset($m[4]) && $m[4] !== '') { $ref .= '-' . $m[4]; }
         }
         return ['name' => $name, 'ref' => $ref];
     }
