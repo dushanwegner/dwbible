@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.17.04
+* Version: 1.26.09.17.05
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.17.04');
+    define('DWBIBLE_VERSION', '1.26.09.17.05');
 }
 
 // Load include classes before hooks are registered
@@ -1333,6 +1333,15 @@ class DwBible_Plugin {
         $key = self::key_from_any_book_slug($slug);
         if ($key === null || $key === '') return $out;
 
+        // The book's CITATION name (data/book_names.json), the name JSON-LD, the
+        // agent API, the app and the MCP all quote. The edition's own title is kept
+        // only where the table has none: the English Douay-Rheims counts four books
+        // of Kings, so this row printed "4 Kings 4:25-38" on the Mass page beside
+        // "2 Kings" everywhere else, and on the Latin page too (quality loop tick
+        // 138). Applied outside the transient, so a cached teaser cannot keep it.
+        $citation = (string) (self::book_citation_names($key)[$lang] ?? '');
+        $out['book'] = $citation;
+
         // Interlinear reader URL for the FULL passage — built even when the
         // vernacular text is absent (the citation still needs a target).
         $url_verses  = $vf > 0 ? ($ch . ':' . $vf . ($vt > $vf ? '-' . $vt : '')) : (string) $ch;
@@ -1353,7 +1362,7 @@ class DwBible_Plugin {
         $cached    = get_transient($cache_key);
         if (is_array($cached)) {
             $out['text'] = isset($cached['text']) ? (string) $cached['text'] : '';
-            $out['book'] = isset($cached['book']) ? (string) $cached['book'] : '';
+            $out['book'] = $citation !== '' ? $citation : (isset($cached['book']) ? (string) $cached['book'] : '');
             return $out;
         }
 
@@ -1387,7 +1396,7 @@ class DwBible_Plugin {
         set_transient($cache_key, ['text' => $text, 'book' => $book],
             ($text === '' && $book === '') ? DAY_IN_SECONDS : MONTH_IN_SECONDS);
         $out['text'] = $text;
-        $out['book'] = $book;
+        $out['book'] = $citation !== '' ? $citation : $book;
         return $out;
     }
 
