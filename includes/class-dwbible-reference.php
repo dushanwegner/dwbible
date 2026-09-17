@@ -35,6 +35,18 @@ class DwBible_Reference {
     const CITATION_PATTERN = '^(.*?)[\\s.]*(\\d+)\\s*(?:[:,.]\\s*(\\d+)?(?:\\s*[-–—]\\s*(\\d+)?)?)?\\s*$';
 
     /**
+     * Drop invisible Unicode FORMAT characters (\p{Cf}: zero-width space, soft
+     * hyphen, word joiner, byte-order mark — what a copy from a PDF or a mobile
+     * keyboard pastes mid-citation). A reader cannot see them, so one sitting
+     * between a chapter's digits and its colon, or inside a verse number, must
+     * not be read as an unparseable citation (quality loop tick 194; the same
+     * class agent_search_normalize() already strips for bible_search, tick 183).
+     */
+    private static function strip_format_chars($s) {
+        return (string) preg_replace('/\p{Cf}/u', '', (string) $s);
+    }
+
+    /**
      * Split a typed query into its book half and its citation half.
      *
      * A query with no trailing chapter is all book name; a query whose name
@@ -45,7 +57,7 @@ class DwBible_Reference {
      * @return array{name:string,ref:string} ref is the canonical "ch[:v[-v]]" ('' if none).
      */
     public static function parse_query($raw) {
-        $s = trim((string) $raw);
+        $s = trim(self::strip_format_chars($raw));
         if ($s === '') {
             return ['name' => '', 'ref' => ''];
         }
@@ -93,7 +105,7 @@ class DwBible_Reference {
      *         null when the query is not a verse list.
      */
     public static function parse_verse_list($raw) {
-        $s = trim((string) $raw);
+        $s = trim(self::strip_format_chars($raw));
         if ($s === '' || strpos($s, ',') === false) {
             return null;
         }

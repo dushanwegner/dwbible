@@ -123,6 +123,16 @@ ok "$([ "$(code "${BASE}/bible-ref.json?q=Ps+112%3A1%2C+2%2C+99")" = "404" ] && 
 ok "$([ "$(probe "${BASE}/bible-ref.json?q=Job+20%3A12-13&lang=la" "d['ref'].get('verseNumbers')")" = "None" ] && echo 1 || echo 0)" "a plain range carries no verseNumbers — the field marks a list"
 ok "$([ "$(probe "${BASE}/bible-ref.json?q=Ps+44%2C11&lang=la" "d['ref']['chapter'], d['ref']['verseFrom'], d['ref']['verseTo']")" = "(44, 11, 11)" ] && echo 1 || echo 0)" "the German comma \"Ps 44,11\" is still chapter 44 verse 11, not a list"
 
+echo "…invisible format characters INSIDE the chapter:verse part (not the book name, which already tolerates them) must be stripped, not treated as an unreadable citation:"
+U="${BASE}/bible-ref.json?q=John+3%E2%80%8B%3A16&lang=en"
+ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "a zero-width space between the chapter and the colon still resolves (200), not CITATION_NOT_UNDERSTOOD"
+ok "$([ "$(probe "$U" "d['ref']['chapter'], d['ref']['verseFrom'], d['ref']['verseTo']")" = "(3, 16, 16)" ] && echo 1 || echo 0)" "…as chapter 3, verse 16"
+U="${BASE}/bible-ref.json?q=John+3%3A1%E2%80%8B6&lang=en"
+ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "a zero-width space inside the verse number ('1\xe2\x80\x8b6' for 16) still resolves"
+ok "$([ "$(probe "$U" "d['ref']['verseFrom']")" = "16" ] && echo 1 || echo 0)" "…reading the verse as 16, not split"
+U="${BASE}/bible-ref.json?q=John+3%3A%E2%80%8B16&lang=en"
+ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "a zero-width space right after the colon still resolves"
+
 echo "/bible-search.json — verse search:"
 U="${BASE}/bible-search.json?q=dilexerunt+tenebras&lang=la"
 ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "answers 200"
