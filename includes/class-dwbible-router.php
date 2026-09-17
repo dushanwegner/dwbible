@@ -419,21 +419,13 @@ trait DwBible_Router_Trait {
             // A ROMAN NUMERAL — "III Reg", "II Mach", "I Petr": how the Vulgate, the
             // Missal and Denzinger cite a numbered book. The tables hold Arabic
             // numerals, so 155 of the 208 Roman forms of their numbered abbreviations
-            // answered "no book recognised" (tick 122). Read as its Arabic twin, with
-            // one refusal: I or II before a KINGS name. "1 Reg" is 3 Kings in one
-            // table and 1 Samuel in the Clementine's own naming ("I Regum"), and a
-            // Roman numeral is the Clementine's style — so the Arabic table's reading
-            // cannot be assumed, and which one this site means is dwbibledata#17's
-            // open decision. III and IV exist only in the Vulgate's numbering, and a
-            // Samuel name is unambiguous, so those resolve.
+            // answered "no book recognised" (tick 122). Read as its Arabic twin. Samuel
+            // and Kings follow the tables' MODERN convention like every other form
+            // ("I Kings" is 1 Kings, the Vulgate's 3 Regum — dwbibledata#17, DW
+            // 2026-09-17), so no numeral is special.
             if (preg_match('/^(IV|I{1,3})(?:\.\s*|\s+)(?=\p{L})(.+)$/iu', $spelled, $m)) {
-                $n   = ['i' => 1, 'ii' => 2, 'iii' => 3, 'iv' => 4][strtolower($m[1])];
-                $key = self::internal_key_from_any_book($n . ' ' . $m[2], $slug);
-                $kings = ['1-kings-samuel', '2-kings-samuel', '3-kings', '4-kings'];
-                if ($n <= 2 && in_array($key, $kings, true) && !preg_match('/^s(a|m)/iu', $m[2])) {
-                    return null;
-                }
-                return $key;
+                $n = ['i' => 1, 'ii' => 2, 'iii' => 3, 'iv' => 4][strtolower($m[1])];
+                return self::internal_key_from_any_book($n . ' ' . $m[2], $slug);
             }
 
             $compact = (string) preg_replace('/^(\d+)\.?\s+(?=\D)/u', '$1', $spelled);

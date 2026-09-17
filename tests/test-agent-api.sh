@@ -423,10 +423,24 @@ for pair in "III+Reg+19,8:3-kings" "IV+Reg+2,11:4-kings" "II+Mach+12,46:2-machab
   got=$(probe "${BASE}/bible-ref.json?q=${q}&lang=la" "d['ref']['book']['key']")
   ok "$([ "$got" = "$want" ] && echo 1 || echo 0)" "Roman numeral \"${q//+/ }\" is ${want} (got ${got:-an error})"
 done
-for q in "I+Reg+3,10" "II+Reg+7,12" "I+Re+19,8"; do
-  got=$(probe "${BASE}/bible-ref.json?q=${q}&lang=la" "d.get('error','')")
-  ok "$([ "$got" = "BOOK_NOT_RECOGNISED" ] && echo 1 || echo 0)" "\"${q//+/ }\" stays refused until dwbibledata#17 decides what 1-2 Reg means (got ${got:-a book})"
+# THE MODERN CONVENTION (DW, dwbibledata#17, 2026-09-17): a numbered Samuel/Kings citation
+# means what modern literature means by it, in every language and in Roman or Arabic
+# numerals. "1 Kings" is the book the Vulgate calls 3 Regum; "1 Samuel" is its 1 Regum.
+# The old numbering's own names (3/4 Kings, III/IV Regum) are unambiguous and still resolve.
+for pair in "1+Kings+3,10:3-kings" "I+Kings+3,10:3-kings" "2+Kings+2,11:4-kings" "1+Kgs+3,10:3-kings" \
+            "1+Re+19,8:3-kings" "I+Re+19,8:3-kings" "1+Reg+3,10:3-kings" "I+Reg+3,10:3-kings" "II+Reg+7,12:4-kings" \
+            "1+Regum+3,10:3-kings" "1+Samuel+3,10:1-kings-samuel" "1+Samuele+3,10:1-kings-samuel" "I+Sam+3,10:1-kings-samuel" \
+            "3+Kings+19,8:3-kings" "III+Regum+19,8:3-kings"; do
+  q="${pair%%:*}"; want="${pair##*:}"
+  got=$(probe "${BASE}/bible-ref.json?q=${q}&lang=la" "d['ref']['book']['key']")
+  ok "$([ "$got" = "$want" ] && echo 1 || echo 0)" "modern naming: \"${q//+/ }\" is ${want} (got ${got:-an error})"
 done
+# …and the citation this API prints follows the same convention, so a reader quoting it back
+# lands on the same book.
+cit=$(probe "${BASE}/bible-ref.json?q=3-kings+1:1&lang=all" "d['ref']['citation']['en'] + '|' + d['ref']['citation']['la']")
+ok "$([ "$cit" = "1 Kings 1:1|1 Regum 1:1" ] && echo 1 || echo 0)" "the modern 1 Kings is cited \"1 Kings\" / \"1 Regum\" (got ${cit:-an error})"
+cit=$(probe "${BASE}/bible-ref.json?q=1-kings-samuel+3:10&lang=all" "d['ref']['citation']['en']")
+ok "$([ "$cit" = "1 Samuel 3:10" ] && echo 1 || echo 0)" "1 Samuel is cited \"1 Samuel\" (got ${cit:-an error})"
 
 # The documents an agent reads FIRST must be readable from another origin, like the
 # JSON they describe. A browser-hosted agent that may fetch /bible-ref.json but not
