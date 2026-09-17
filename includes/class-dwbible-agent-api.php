@@ -1031,7 +1031,7 @@ trait DwBible_Agent_API_Trait {
                 'nextOffset'  => ( $offset + count( $hits ) ) < $total ? $offset + count( $hits ) : null,
                 'typography'  => $clean ? 'clean' : 'source',
                 'noHitsBecause' => $total === 0 ? ( self::agent_search_citation_hint( $raw, $lang ) ?? self::agent_search_orthography_hint( $dataset ) ) : null,
-                'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i; English folds British and American spelling, honour/honor). '
+                'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i; English folds British and American spelling, honour/honor; Spanish folds period and modern spelling, quando/cuando). '
                                . 'lang = one of la,en,de,es,fr,it; book = a book to narrow to; limit ≤ ' . self::AGENT_SEARCH_MAX_LIMIT . '; '
                                . 'offset = where to start, 0-based — when `truncated` is true, `nextOffset` is the offset to ask for next. '
                                . 'Each hit carries its own HTML page, its JSON, and a refJson that returns the verse in every language.',
@@ -1081,6 +1081,36 @@ trait DwBible_Agent_API_Trait {
     ];
 
     /**
+     * Period and modern Spanish spelling, folded to one form for Spanish search.
+     *
+     * The Scío de San Miguel (1790s) spells as its century did, with a handful of
+     * verses already modernised: "quando" in 1,846 verses and "cuando" in 6, "dixo"
+     * 2,734 / "dijo" 5, "Christo" 556 / "Cristo" 0. A modern search found the few,
+     * and because a few is not none, no hint said why (quality loop tick 117).
+     *
+     * Two kinds of key, both applied after accents are stripped, to query and verse:
+     * DIGRAPHS modern Spanish never writes (ph, th, chr, qua, quo), so a general rule
+     * is safe — "propheta", "philistheo", "thesoro", "sepulchro", "pasqua"; and
+     * STEMS where the period letter is still an ordinary modern one (x, y), so only
+     * named families fold — "dixo"/"bendixo", "debaxo"/"embaxada", "muger", "reyno".
+     * Every corpus word each key touches was listed and is the same word modernised.
+     * No generic x→j or y→i: "hoy", "ley" and "texto" are guarded.
+     */
+    private const AGENT_SEARCH_ES_SPELLING = [
+        // digraphs modern Spanish does not write
+        'ph' => 'f', 'th' => 't', 'chr' => 'cr', 'qua' => 'cua', 'quo' => 'cuo',
+        // x → j families
+        'dix' => 'dij', 'trax' => 'traj', 'dex' => 'dej', 'bax' => 'baj', 'exerci' => 'ejerci',
+        'exempl' => 'ejempl', 'execut' => 'ejecut', 'xefe' => 'jefe', 'relox' => 'reloj',
+        // other period stems and names
+        'muger' => 'mujer', 'reyn' => 'rein', 'moyses' => 'moises', 'joseph' => 'jose',
+        'jerusalem' => 'jerusalen', 'myster' => 'mister', 'martyr' => 'martir', 'hymn' => 'himn',
+        'psalm' => 'salm',
+        // "Jesu-Christo" is two words; "Jesucristo" one; "Jesus" and "Jesu" one name
+        'jesucrist' => 'jesu crist', 'jesus' => 'jesu',
+    ];
+
+    /**
      * Fold a string for matching: lower-case, accents stripped (the site's own
      * search_normalize map, æ→ae included), for Latin j→i so classical and
      * Clementine spellings meet ("eius" / "ejus"), and for English British and
@@ -1093,6 +1123,9 @@ trait DwBible_Agent_API_Trait {
         }
         if ( $lang === 'en' ) {
             $s = strtr( $s, self::AGENT_SEARCH_EN_SPELLING );
+        }
+        if ( $lang === 'es' ) {
+            $s = strtr( $s, self::AGENT_SEARCH_ES_SPELLING );
         }
         $s = (string) preg_replace( '/[^\p{L}\p{N}]+/u', ' ', $s );
         return trim( $s );
@@ -1134,7 +1167,7 @@ trait DwBible_Agent_API_Trait {
     private static function agent_search_orthography_hint( string $dataset ): ?string {
         $hints = [
             'latin'   => 'The Clementine Vulgate (1592) writes J for consonantal I and uses the æ/œ ligatures — "Jesu", "ejus", "cælum". This search folds j/i, æ/ae and œ/oe, so all of those match. What it cannot fold is oe where this edition writes ae: heaven here is "cælum" (175 verses) and never "coelum" (0), so "Cœli enarrant" finds nothing where "Cæli enarrant" finds the psalm.',
-            'spanish' => 'The Scío de San Miguel (1790s) keeps 18th-century Spanish orthography: "Christo" and "Jesu-Christo", never "Cristo" or "Jesucristo"; and x where modern Spanish writes j — "dixo" (2,635 verses; "dijo" is in 5), "muger" (728; "mujer" in none). Search the period spelling.',
+            'spanish' => 'The Scío de San Miguel (1790s) keeps 18th-century Spanish orthography. This search folds its common period spellings to modern ones — quando/cuando, qual/cual, Christo/Cristo, Jesu-Christo/Jesucristo, dixo/dijo, muger/mujer, reyno/reino, ph/f, th/t — so those match either way; a rarer period form may still need to be written as the edition writes it.',
             'italian' => 'The Martini (1780s) keeps 18th-century Italian: "Gesù Cristo" as two words, older verb and pronoun forms ("nol" for "non lo").',
             'bible'   => 'The Douay-Rheims keeps early-modern English: "thee", "thou", "hath", "shew". Search the form the edition uses.',
         ];

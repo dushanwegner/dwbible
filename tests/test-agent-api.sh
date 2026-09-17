@@ -101,8 +101,11 @@ ok "$([ "$(probe "$U" "any(h['book']['key']=='john' and h['chapter']==3 and h['v
 U="${BASE}/bible-search.json?q=Dominus&lang=la&limit=5"
 ok "$([ "$(probe "$U" "len(d['hits']) == 5 and d['_meta']['truncated']")" = "True" ] && echo 1 || echo 0)" "limit is honoured and truncation stated"
 ok "$([ "$(code "${BASE}/bible-search.json?q=zzzz&lang=la")" = "200" ] && echo 1 || echo 0)" "no hits is still a 200"
-ok "$([ "$(probe "${BASE}/bible-search.json?q=Cristo&lang=es" "d['_meta']['total']")" = "0" ] && echo 1 || echo 0)" "the Scio Spanish has no 'Cristo' — it is an 18th-century text"
-ok "$([ -n "$(probe "${BASE}/bible-search.json?q=Cristo&lang=es" "d['_meta']['noHitsBecause'] or ''")" ] && echo 1 || echo 0)" "…and the empty answer says why, instead of reading as 'this Bible has no Christ'"
+# "Cristo" used to be the example here: 0 verses, because Scío writes "Christo". Since
+# tick 117 the search folds the two, so it finds them — and the hint is tested with a word
+# the 1790s text cannot contain.
+ok "$([ "$(probe "${BASE}/bible-search.json?q=Cristo&lang=es" "d['_meta']['total'] > 500")" = "True" ] && echo 1 || echo 0)" "the Scio Spanish writes 'Christo', and 'Cristo' now finds it"
+ok "$([ -n "$(probe "${BASE}/bible-search.json?q=gasolina&lang=es" "d['_meta']['noHitsBecause'] or ''")" ] && echo 1 || echo 0)" "…and an empty Spanish answer still says why, naming the edition's orthography"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=Christo&lang=es" "d['_meta']['noHitsBecause']")" = "None" ] && echo 1 || echo 0)" "an answer that found verses carries no such hint"
 
 echo "/bible-books.json — the two name registers must be joinable, not confusable:"
@@ -345,6 +348,15 @@ for pair in "neighbour:neighbor" "honour:honor" "Saviour:Savior" "sepulchre:sepu
 done
 ok "$([ "$(probe "${BASE}/bible-search.json?q=love+thy+neighbour&lang=en&limit=50" "any(h['book']['key']=='matthew' and h['chapter']==19 and h['verse']==19 for h in d['hits'])")" = "True" ] && echo 1 || echo 0)" "\"love thy neighbour\" finds Matthew 19:19, which spells it \"neighbor\""
 ok "$([ "$(total four)" -gt 0 ] && [ "$(total your)" -gt 0 ] && [ "$(total hour)" -gt 0 ] && echo 1 || echo 0)" "…and no generic our→or fold: four, your, hour still match"
+
+# Scío (1790s) spells as its century did, and a few verses as ours does: "quando" in 1,846
+# verses, "cuando" in 6. A modern search found the six and gave no hint (tick 117).
+es_total() { probe "${BASE}/bible-search.json?q=$1&lang=es&limit=1" "d['_meta']['total']"; }
+for pair in "cuando:quando" "Cristo:Christo" "dijo+Jes%C3%BAs:dixo+Jesus" "mujer:muger" "profeta:propheta" "Jerusal%C3%A9n:Jerusalem" "Jesucristo:Jesu-Christo"; do
+  modern="${pair%%:*}"; period="${pair##*:}"; a=$(es_total "$modern"); b=$(es_total "$period")
+  ok "$([ -n "$a" ] && [ "$a" = "$b" ] && [ "$a" -gt 0 ] && echo 1 || echo 0)" "Spanish search: \"${modern//+/ }\" finds what \"${period//+/ }\" finds (${a:-?} / ${b:-?})"
+done
+ok "$([ "$(es_total hoy)" -gt 0 ] && [ "$(es_total ley)" -gt 0 ] && echo 1 || echo 0)" "…and no generic y→i or x→j fold: hoy, ley still match"
 
 # A PLAUSIBLE MISNAMING of a parameter is refused and the right name given (tick 111).
 # Ignored, `language=de` searched the Latin, found nothing and blamed its spelling;
