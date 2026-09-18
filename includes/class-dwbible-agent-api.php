@@ -1200,7 +1200,7 @@ trait DwBible_Agent_API_Trait {
                 'project'     => 'Latin Prayer',
                 'projectUrl'  => $site,
                 'apiDocs'     => $site . '/llms.txt',
-                'content'     => "{$total} verse" . ( $total === 1 ? '' : 's' ) . " matching \"{$raw}\" in {$tname}" . ( $only_name ? " (in {$only_name})" : '' ),
+                'content'     => "{$total} verse" . ( $total === 1 ? '' : 's' ) . ' matching "' . str_replace( '"', "'", $raw ) . '" in ' . $tname . ( $only_name ? " (in {$only_name})" : '' ),
                 'query'       => $raw,
                 'tokens'      => $tokens,
                 'translation' => $meta_ds,

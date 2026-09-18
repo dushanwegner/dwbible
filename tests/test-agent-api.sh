@@ -196,6 +196,12 @@ ok "$([ "$(code "${BASE}/bible-search.json?q=Deus&lang=la,en")" = "400" ] && ech
 ok "$([ "$(code "${BASE}/bible-search.json?q=Deus&lang=all")" = "400" ] && echo 1 || echo 0)" "a search for lang=all is refused, not served as Latin"
 ok "$(probe "${BASE}/bible-search.json?q=Deus&lang=en,la" "1 if d.get('error')=='UNSUPPORTED_PARAM' and 'one' in (d.get('message','')+d.get('suggestion','')).lower() else 0")" "…with a code and a message saying search takes one language"
 ok "$(probe "${BASE}/bible-search.json?q=Deus&lang=klingon" "0 if '\"all\"' in d.get('suggestion','') else 1")" "the search's own refusal no longer advertises a list or \"all\""
+
+echo
+echo "a query containing a double quote does not break _meta.content's own quoting:"
+U="${BASE}/bible-search.json?q=John+%22quoted%22&lang=en"
+ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "a quoted word inside the query still answers 200"
+ok "$(probe "$U" "1 if d['_meta']['content'].count(chr(34)) == 2 else 0")" "_meta.content wraps the query in exactly one pair of double quotes, not four"
 ok "$(probe "${BASE}/bible-search.json?q=Deus&lang=LA,la" "1 if d.get('_meta',{}).get('total',0)>1000 else 0")" "a repeated language is still one language, and served"
 ok "$(probe "${BASE}/bible-ref.json?q=Gal+3%3A28&lang=all" "1 if len(d.get('passages',{}))==6 else 0")" "the resolver still takes lang=all (a list means something there)"
 # An ambiguous bare range is refused — and its retry advice must not be a third,
