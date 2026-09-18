@@ -329,6 +329,14 @@ check_redirect "$BASE_URL/menge/ephesians/6.json" "/bibel/ephesians/6.json" "men
 check_redirect "$BASE_URL/bibbia/ephesians/6.json" "/italian/ephesians/6.json" "bibbia/…json → italian"
 # Direct dataset slug serves without a redirect (no loop) — final 200, no 301
 check "$BASE_URL/bibel/ephesios/6.json" 200 "bibel/…json served directly (no redirect)"
+# A book name with ".json" appended but no chapter/verse (an agent citing just
+# "John" and guessing the machine form) is not a rewrite rule dwbible defines
+# (only {book}/index.json, {book}/{ch}.json, … are) — it must 404 cleanly, not
+# ping-pong forever between dwbible's own .json normalizer (which thinks
+# /bible/{x}.json is already canonical) and dwi18n's unprefixed-content
+# redirect (which thought the unresolved book was real content to relocate).
+check_canonical "$BASE_URL/bible/john.json" "" "bible/{book}.json (no chapter) — clean 404, no redirect loop" 404
+check_canonical "$BASE_URL/bible/nosuchbook.json" "" "bible/{invalid-book}.json — clean 404, no redirect loop" 404
 
 # Content invariants of the unified index (not just HTTP 200):
 #   - all 6 translations advertised (la/en/de/fr/es/it)

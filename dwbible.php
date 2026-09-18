@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.18.09
+* Version: 1.26.09.18.10
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.18.09');
+    define('DWBIBLE_VERSION', '1.26.09.18.10');
 }
 
 // Load include classes before hooks are registered
@@ -165,9 +165,15 @@ class DwBible_Plugin {
         add_action('init', [__CLASS__, 'add_rewrite_rules']);
         add_action('init', [__CLASS__, 'maybe_flush_rewrite_rules'], 20);
         add_filter('query_vars', [__CLASS__, 'add_query_vars']);
-        // Priority 1: run before redirect_canonical (priority 10) which
-        // would otherwise add a trailing slash to .json URLs.
-        add_action('template_redirect', [__CLASS__, 'handle_request'], 1);
+        // Priority -10: run before redirect_canonical (priority 10, which would
+        // otherwise add a trailing slash to .json URLs) AND before dwi18n's
+        // unprefixed-content redirect (priority 1) — dwbible must decide
+        // content-vs-404 for its own slugs before dwi18n's is_404() check runs,
+        // or an unresolvable book (e.g. /bible/john.json, no rewrite rule
+        // matches so dwbible never gets to 404 it) gets redirected as if it
+        // were real content, ping-ponging forever against dwbible's own .json
+        // normalizer.
+        add_action('template_redirect', [__CLASS__, 'handle_request'], -10);
 
 
         // The Latin-only surface is deliberately unlisted — same note.
@@ -1567,6 +1573,10 @@ class DwBible_Plugin {
     }
 
     private static function render_404() {
+        global $wp_query;
+        if ($wp_query instanceof WP_Query) {
+            $wp_query->set_404();
+        }
         status_header(404);
         nocache_headers();
         if (function_exists('get_header')) get_header();
