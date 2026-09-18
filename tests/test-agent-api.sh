@@ -186,6 +186,13 @@ ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['deus']" ] && echo 1 || echo 
 ok "$([ "$(probe "$U" "d['_meta']['total']")" = "$(probe "${BASE}/bible-search.json?q=deus&lang=la&limit=1" "d['_meta']['total']")" ] && echo 1 || echo 0)" "…and its total matches the ordinary 'deus' (1927), not zero"
 ok "$([ "$(probe "$U" "d['_meta']['noHitsBecause']")" = "None" ] && echo 1 || echo 0)" "…so it carries no misleading orthography hint"
 
+echo "…mojibake (UTF-8 bytes mis-decoded as Latin-1, then re-encoded — a common copy-paste artifact) must be repaired, not silently split into unrelated short tokens:"
+U="${BASE}/bible-search.json?q=se%C3%83%C2%B1or&lang=es&limit=1"
+ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['senor']" ] && echo 1 || echo 0)" "mojibake 'seÃ±or' repairs to 'señor' → one token, not ['sea','or']"
+ok "$([ "$(probe "$U" "d['_meta']['total']")" = "$(probe "${BASE}/bible-search.json?q=se%C3%B1or&lang=es&limit=1" "d['_meta']['total']")" ] && echo 1 || echo 0)" "…and its total matches the correctly-encoded 'señor' (7284), not an unrelated 'sea'+'or' split (826)"
+U="${BASE}/bible-search.json?q=%C3%83%C2%BCber&lang=de&limit=1"
+ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['uber']" ] && echo 1 || echo 0)" "mojibake 'Ã¼ber' repairs to 'über' too, in a different language"
+
 echo "/bible-books.json — the two name registers must be joinable, not confusable:"
 ok "$([ "$(probe "${BASE}/bible-books.json" "len(d['keys']), len(d['slugs']), len(d['names'])")" = "(73, 73, 73)" ] && echo 1 || echo 0)" "keys[] rides beside slugs[] and names[], all 73"
 ok "$([ "$(probe "${BASE}/bible-books.json" "d['keys'][d['slugs'].index('iosue')]")" = "josue" ] && echo 1 || echo 0)" "the Latin slug 'iosue' names the canonical key 'josue'"

@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.18.07
+* Version: 1.26.09.18.08
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.18.07');
+    define('DWBIBLE_VERSION', '1.26.09.18.08');
 }
 
 // Load include classes before hooks are registered
@@ -1627,8 +1627,35 @@ class DwBible_Plugin {
      * compatibility equivalents to their canonical form, so the full-width
      * letters become ordinary ASCII before the accent map runs.
      */
-    private static function search_normalize($s) {
+    /**
+     * Repair classic mojibake: UTF-8 bytes mis-decoded as Latin-1/Windows-1252
+     * and then re-encoded as UTF-8 — what a browser or terminal does to a
+     * copy-pasted "señor" when the wrong encoding is assumed somewhere along
+     * the way, turning it into "seÃ±or". Each mis-decoded character shows up
+     * as a Latin-1 letter in U+00C2-00DF (the lead byte of a 2-byte UTF-8
+     * sequence, read back as one Latin-1 character) immediately followed by
+     * one in U+0080-00BF (the continuation byte, read the same way) — a
+     * pairing that does not occur in genuine text in any language this site
+     * serves. Re-encoding the string as Latin-1 recovers the original UTF-8
+     * byte sequence; if that round-trips to valid UTF-8, it is the repair.
+     * Without this, quality-loop tick 243 found the pair split at the
+     * symbol-category continuation byte into two unrelated short tokens
+     * ("seÃ±or" → "sea"+"or", 826 unrelated hits presented as a match).
+     */
+    private static function repair_mojibake($s) {
         $s = (string) $s;
+        if ($s === '' || !preg_match('/[\x{C2}-\x{DF}][\x{80}-\x{BF}]/u', $s)) {
+            return $s;
+        }
+        $repaired = @mb_convert_encoding($s, 'ISO-8859-1', 'UTF-8');
+        if ($repaired === false || $repaired === '' || !mb_check_encoding($repaired, 'UTF-8')) {
+            return $s;
+        }
+        return $repaired;
+    }
+
+    private static function search_normalize($s) {
+        $s = self::repair_mojibake((string) $s);
         if (class_exists('Normalizer')) {
             $s = Normalizer::normalize($s, Normalizer::FORM_KC) ?: $s;
         }
