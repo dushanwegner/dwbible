@@ -59,6 +59,13 @@
 		var s = (raw || '').trim();
 		var m = CITATION.exec(s);
 		if (m && norm(m[1])) {
+			// A range-END with no range-START ("John 3:-5") is malformed, not
+			// a whole-chapter citation: mirrors the same guard in PHP's
+			// parse_query() (quality loop tick 218) so the suggestion row
+			// never silently drops the "-5" and offers the whole chapter.
+			if (m[4] && !m[3]) {
+				return { q: norm(s), ref: '', ch: null, v: null, vTo: null };
+			}
 			var ref = m[2];
 			if (m[3]) { ref += ':' + m[3] + (m[4] ? '-' + m[4] : ''); }
 			return {
