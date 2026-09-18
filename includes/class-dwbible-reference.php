@@ -250,7 +250,12 @@ class DwBible_Reference {
             return "\"ff.\" (and the following verses) names no last verse, so no passage can be chosen for it. Give the range: \"{$book} 3:16-21\".";
         }
         if (preg_match('/[;]|[:,]\s*\d+(?:\s*[-–—]\s*\d+)?\s*\.\s*\d/u', $s)) {
-            return "This names several passages (\".\" and \";\" separate them in a printed citation), and one request reads one passage. Ask for each: \"{$book} 3:16\", then \"{$book} 3:18\".";
+            $locs = self::split_printed_locations($s);
+            if (count($locs) >= 2) {
+                $examples = array_map(static function ($loc) use ($book) { return "\"{$book} {$loc}\""; }, array_slice($locs, 0, 2));
+                return "This names several passages (\".\" and \";\" separate them in a printed citation), and one request reads one passage. Ask for each: " . implode(', then ', $examples) . '.';
+            }
+            return "This names several passages (\".\" and \";\" separate them in a printed citation), and one request reads one passage. Ask for each location separately, one request per passage.";
         }
         if (preg_match('/[:,.]\s*\d+\s*[-–—]\s*\d+\s*[:,.]\s*\d+/u', $s)) {
             return "A range must stay inside ONE chapter — \"{$book} 5:1-12\", not \"{$book} 5:1-7:29\". A passage spanning chapters is two or more requests, one per chapter; a whole chapter is \"{$book} 5\".";
@@ -260,6 +265,35 @@ class DwBible_Reference {
         }
         return "Write chapter:verse, or chapter:verse-verse inside one chapter: \"{$book} 3:16\", \"{$book} 3:16-18\"; "
              . "a comma list of verses in one chapter reads too, \"{$book} 3:16, 18, 20-21\"; a whole chapter is \"{$book} 3\".";
+    }
+
+    /**
+     * The reader's own chapter:verse locations out of a "several passages"
+     * citation, so citation_advice() can name THEM rather than a fixed example.
+     * ";" starts a new location (its own chapter, if given); a "." between two
+     * digits is the German verse-list separator and stays in the same chapter.
+     *
+     * @return string[] each "chapter:verse", in the order they were written
+     */
+    private static function split_printed_locations($s) {
+        if (!preg_match('/\d.*/us', $s, $m)) {
+            return [];
+        }
+        $chapter = null;
+        $locs    = [];
+        foreach (preg_split('/\s*;\s*|(?<=\d)\.\s*(?=\d)/u', $m[0]) as $part) {
+            $part = trim($part, " \t.,");
+            if ($part === '') {
+                continue;
+            }
+            if (preg_match('/^(\d{1,3})\s*[:,]\s*(\d{1,3})/u', $part, $mm)) {
+                $chapter = (int) $mm[1];
+                $locs[]  = $chapter . ':' . (int) $mm[2];
+            } elseif ($chapter !== null && preg_match('/^(\d{1,3})/u', $part, $mm)) {
+                $locs[] = $chapter . ':' . (int) $mm[1];
+            }
+        }
+        return $locs;
     }
 
     public static function parse_chapter_and_range($ch, $vf, $vt) {

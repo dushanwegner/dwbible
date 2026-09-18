@@ -36,7 +36,7 @@ function lift_const(string $src, string $name): string {
     return $m[0];
 }
 
-eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' }');
+eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' private static ' . lift($src, 'split_printed_locations') . ' }');
 
 $pass = 0; $fail = 0;
 function ok(bool $c, string $what): void {
@@ -102,6 +102,19 @@ foreach ([
     ok(strpos($a, $want) !== false, "\"{$in}\" → advice about: {$want}");
 }
 ok(strpos(Ref::citation_advice('Joh 3,16ff', 'John'), 'ONE chapter') === false, "…and \"ff.\" is not told about chapters");
+
+echo "the several-passages advice names the READER'S OWN locations, not a fixed example (quality loop tick 242):\n";
+foreach ([
+    ['Joh 3,16.18',    ['3:16', '3:18']],
+    ['Joh 3,16; 4,1',  ['3:16', '4:1']],
+    ['Joh 3,16; 4,5',  ['3:16', '4:5']],
+] as [$in, $want]) {
+    $a = Ref::citation_advice($in, 'John');
+    foreach ($want as $loc) {
+        ok(strpos($a, "John {$loc}") !== false, "\"{$in}\" advice names \"John {$loc}\"");
+    }
+}
+ok(strpos(Ref::citation_advice('Joh 3,16; 4,5', 'John'), '3:18') === false, "…and \"Joh 3,16; 4,5\" is not told about a verse 18 it never named");
 
 echo "a range-END with no range-START is refused, not silently widened to the whole chapter (quality loop tick 218):\n";
 foreach (['John 3:-5', 'Ps 22:-9', '1 Cor 13:-3'] as $in) {
