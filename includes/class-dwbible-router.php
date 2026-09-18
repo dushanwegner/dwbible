@@ -111,6 +111,21 @@ trait DwBible_Router_Trait {
         if (!isset($map[$slug])) return false;
         $target = $map[$slug];
 
+        // A genuine .json request always sets QV_FORMAT and exits above, before
+        // this redirect ever runs — but a ".json" guess that matches no JSON
+        // rewrite rule (a bare /bible/{book}.json with no chapter, an invalid
+        // book slug) falls through to the generic HTML book rule instead, with
+        // the whole "{book}.json" string captured as the book slug and no
+        // format set. Treating that as HTML and substituting the slug builds
+        // .../latin-bible/{book}.json — still ending in .json, which the
+        // dwi18n normalizer then bounces straight back to /bible/{book}.json,
+        // forever. Bail here and let it fall through to book resolution below,
+        // which 404s an unresolvable book instead of looping.
+        $path_only = isset($_SERVER['REQUEST_URI']) ? strtok((string) $_SERVER['REQUEST_URI'], '?') : '';
+        if (is_string($path_only) && preg_match('#\.json$#i', $path_only)) {
+            return false;
+        }
+
         // Preserve the rest of the URL after the slug.
         $uri = isset($_SERVER['REQUEST_URI']) ? (string)$_SERVER['REQUEST_URI'] : '';
         if ($uri === '') return false;
