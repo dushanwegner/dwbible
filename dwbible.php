@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.18.04
+* Version: 1.26.09.18.05
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.18.04');
+    define('DWBIBLE_VERSION', '1.26.09.18.05');
 }
 
 // Load include classes before hooks are registered
@@ -1608,20 +1608,29 @@ class DwBible_Plugin {
      * lowercase + strip diacritics + æ/œ/ß expansions. Keeps spaces; callers
      * reduce to [a-z0-9] per token. Mirrors the JS norm() in the index filter.
      *
-     * Unicode-normalizes to NFC first (quality loop tick 147): the accent map
-     * below matches only the single precomposed character (e.g. "ü", U+00FC).
-     * A caller who sends NFD instead — a base letter plus a separate combining
-     * mark, as macOS and many PDFs write "ü" (u + U+0308) — would otherwise
-     * carry that lone mark past the map unmatched. It is not a letter or digit,
-     * so the caller's later `[^\p{L}\p{N}]` split then breaks the one word in
-     * two ("über" → "u", "ber"), turning an accent-insensitive search into a
-     * wrong, wide-open one. NFC and NFD spell the same string; they must search
-     * the same.
+     * Unicode-normalizes to NFKC first (quality loop tick 147, widened tick 225):
+     * the accent map below matches only the single precomposed character (e.g.
+     * "ü", U+00FC). A caller who sends NFD instead — a base letter plus a
+     * separate combining mark, as macOS and many PDFs write "ü" (u + U+0308) —
+     * would otherwise carry that lone mark past the map unmatched. It is not a
+     * letter or digit, so the caller's later `[^\p{L}\p{N}]` split then breaks
+     * the one word in two ("über" → "u", "ber"), turning an accent-insensitive
+     * search into a wrong, wide-open one. NFC and NFD spell the same string;
+     * they must search the same.
+     *
+     * NFC alone left one more class unfolded: a COMPATIBILITY equivalent —
+     * full-width Latin letters (U+FF21-FF5A/FF41-FF5A), what a CJK IME's
+     * full-width input mode or a paste from a full-width-set PDF produces —
+     * is a different codepoint from its ASCII letter, not an accent-plus-base
+     * pair, so NFC's canonical-only composition leaves it untouched and the
+     * query "Ｄｅｕｓ" found nothing (tick 225). NFKC additionally folds
+     * compatibility equivalents to their canonical form, so the full-width
+     * letters become ordinary ASCII before the accent map runs.
      */
     private static function search_normalize($s) {
         $s = (string) $s;
         if (class_exists('Normalizer')) {
-            $s = Normalizer::normalize($s, Normalizer::FORM_C) ?: $s;
+            $s = Normalizer::normalize($s, Normalizer::FORM_KC) ?: $s;
         }
         $s = mb_strtolower($s, 'UTF-8');
         $map = [

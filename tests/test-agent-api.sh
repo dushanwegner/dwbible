@@ -180,6 +180,12 @@ echo "…visible combining marks (\p{Mn}) outside the small accent map — Hebre
 U="${BASE}/bible-search.json?q=%D7%91%D6%B0%D6%BC%D7%A8%D6%B5%D7%90%D7%A9%D7%81%D6%B4%D7%99%D7%AA&lang=la&limit=1"
 ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['בראשית']" ] && echo 1 || echo 0)" "Hebrew 'בְּרֵאשִׁית' (with niqqud) is one token, not split at each vowel point"
 
+echo "…full-width Latin letters (U+FF21-FF5A/FF41-FF5A, what a CJK IME's full-width mode or a paste from a full-width-set PDF produces) must fold to the ordinary ASCII letter, not survive as a different codepoint:"
+U="${BASE}/bible-search.json?q=%EF%BC%A4%EF%BD%85%EF%BD%95%EF%BD%93&lang=la&limit=1"
+ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['deus']" ] && echo 1 || echo 0)" "full-width 'Ｄｅｕｓ' tokenizes to ordinary 'deus'"
+ok "$([ "$(probe "$U" "d['_meta']['total']")" = "$(probe "${BASE}/bible-search.json?q=deus&lang=la&limit=1" "d['_meta']['total']")" ] && echo 1 || echo 0)" "…and its total matches the ordinary 'deus' (1927), not zero"
+ok "$([ "$(probe "$U" "d['_meta']['noHitsBecause']")" = "None" ] && echo 1 || echo 0)" "…so it carries no misleading orthography hint"
+
 echo "/bible-books.json — the two name registers must be joinable, not confusable:"
 ok "$([ "$(probe "${BASE}/bible-books.json" "len(d['keys']), len(d['slugs']), len(d['names'])")" = "(73, 73, 73)" ] && echo 1 || echo 0)" "keys[] rides beside slugs[] and names[], all 73"
 ok "$([ "$(probe "${BASE}/bible-books.json" "d['keys'][d['slugs'].index('iosue')]")" = "josue" ] && echo 1 || echo 0)" "the Latin slug 'iosue' names the canonical key 'josue'"
