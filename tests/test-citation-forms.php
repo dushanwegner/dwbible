@@ -36,7 +36,7 @@ function lift_const(string $src, string $name): string {
     return $m[0];
 }
 
-eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' }');
+eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' }');
 
 $pass = 0; $fail = 0;
 function ok(bool $c, string $what): void {
@@ -76,6 +76,16 @@ foreach ([
 }
 $r = Ref::normalize_printed_forms("John \u{00B3}:\u{00B9}\u{2076}"); // superscript ³:¹⁶ — not Nd, left alone
 ok($r['query'] === "John \u{00B3}:\u{00B9}\u{2076}", 'superscript digits (not decimal) left untouched');
+
+echo "fullwidth separator punctuation normalized to ASCII (quality loop tick 230):\n";
+foreach ([
+    ["John 3\u{FF1A}16", 'John 3:16'],   // fullwidth colon
+    ["John 3\u{FF0C}16", 'John 3,16'],   // fullwidth comma
+    ["John 3\u{FF0E}16", 'John 3.16'],   // fullwidth full stop
+] as [$in, $want]) {
+    $r = Ref::normalize_printed_forms($in);
+    ok($r['query'] === $want, "\"{$in}\" -> \"{$r['query']}\"");
+}
 
 echo "refused, with advice about THAT fault:\n";
 foreach ([

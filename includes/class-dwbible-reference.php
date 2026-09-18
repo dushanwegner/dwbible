@@ -69,6 +69,21 @@ class DwBible_Reference {
     }
 
     /**
+     * Rewrite the FULLWIDTH forms of the three chapter:verse separators —
+     * ： ， ． (U+FF1A/FF0C/FF0E) — to their plain ASCII counterparts. A CJK
+     * input method leaves these behind when a citation is typed without
+     * switching out of fullwidth punctuation mode first; CITATION_PATTERN's
+     * separator class is ASCII-only (`[:,.]`), so the book still resolved
+     * ("John" reads the same either way) but the chapter and verse after a
+     * fullwidth colon went unread — the same class of gap as the fullwidth
+     * DIGITS normalize_unicode_digits() above already folds (quality loop
+     * tick 206), one punctuation step further (tick 230).
+     */
+    private static function normalize_unicode_punctuation($s) {
+        return strtr((string) $s, ["\u{FF1A}" => ':', "\u{FF0C}" => ',', "\u{FF0E}" => '.']);
+    }
+
+    /**
      * Split a typed query into its book half and its citation half.
      *
      * A query with no trailing chapter is all book name; a query whose name
@@ -196,7 +211,7 @@ class DwBible_Reference {
      * @return array{query:string, note:?string}
      */
     public static function normalize_printed_forms($raw) {
-        $q     = self::normalize_unicode_digits(trim((string) $raw));
+        $q     = self::normalize_unicode_punctuation(self::normalize_unicode_digits(trim((string) $raw)));
         $notes = [];
 
         $halves = [];
