@@ -84,6 +84,30 @@ class DwBible_Reference {
     }
 
     /**
+     * Drop the punctuation a citation is WRAPPED or FOLLOWED by when quoted out
+     * of running prose — "(John 3:16)", "\"John 3:16\"", a sentence-ending
+     * "John 3:16." — none of which is part of the citation grammar itself.
+     *
+     * Without this, CITATION_PATTERN's lazy book-name capture backtracks past
+     * the real chapter:verse to find a position from which the TRAILING junk
+     * alone satisfies the final `$`: for "John 3:16." it swallows the colon
+     * into the book name and reads the trailing "." as an EMPTY verse
+     * separator, so "John 3:16." parses as book "John 3:", chapter 16, no
+     * verse — silently wrong rather than refused (quality loop tick 248).
+     * Stripping first removes the ambiguity instead of asking the grammar to
+     * resolve it.
+     *
+     * Trailing `:` is deliberately NOT stripped — a bare trailing separator
+     * ("John 3:", still being typed) already parses as chapter-only, its own
+     * documented behaviour, and stripping it here would not change that.
+     */
+    private static function strip_wrapping_punctuation($s) {
+        $s = preg_replace('/^[\s"\'\x{2018}\x{201C}\x{00AB}(\[{]+/u', '', (string) $s);
+        $s = preg_replace('/[\s"\'\x{2019}\x{201D}\x{00BB})\]}.,;!?]+$/u', '', (string) $s);
+        return (string) $s;
+    }
+
+    /**
      * Split a typed query into its book half and its citation half.
      *
      * A query with no trailing chapter is all book name; a query whose name
@@ -95,6 +119,7 @@ class DwBible_Reference {
      */
     public static function parse_query($raw) {
         $s = trim(self::strip_format_chars($raw));
+        $s = self::strip_wrapping_punctuation($s);
         if ($s === '') {
             return ['name' => '', 'ref' => ''];
         }

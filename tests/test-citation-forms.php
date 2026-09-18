@@ -36,7 +36,7 @@ function lift_const(string $src, string $name): string {
     return $m[0];
 }
 
-eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' private static ' . lift($src, 'split_printed_locations') . ' }');
+eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' private static ' . lift($src, 'strip_wrapping_punctuation') . ' private static ' . lift($src, 'split_printed_locations') . ' }');
 
 $pass = 0; $fail = 0;
 function ok(bool $c, string $what): void {
@@ -121,6 +121,25 @@ foreach (['John 3:-5', 'Ps 22:-9', '1 Cor 13:-3'] as $in) {
     $r = Ref::parse_query($in);
     ok($r['ref'] === '', "\"{$in}\" -> refused (got ref \"{$r['ref']}\")");
 }
+echo "wrapping/trailing punctuation around a complete citation is stripped, not refused (quality loop tick 248):\n";
+foreach ([
+    ['John 3:16.',   'John', '3:16'],
+    ['John 3:16,',   'John', '3:16'],
+    ['John 3:16;',   'John', '3:16'],
+    ['(John 3:16)',  'John', '3:16'],
+    ['[John 3:16]',  'John', '3:16'],
+    ['"John 3:16"',  'John', '3:16'],
+    ['(John 3:16).', 'John', '3:16'],
+    ['John 3:16-18.', 'John', '3:16-18'],
+] as [$in, $wantName, $wantRef]) {
+    $r = Ref::parse_query($in);
+    ok(trim((string) $r['name'], '(["\' ') === $wantName && $r['ref'] === $wantRef,
+       "\"{$in}\" -> name \"{$r['name']}\", ref \"{$r['ref']}\" (want {$wantName}/{$wantRef})");
+}
+echo "…but a real second location after a semicolon is untouched (no trailing wrapper to strip; tick 242's grammar unaffected):\n";
+$r = Ref::parse_query('John 3:16; 4:5');
+ok($r['name'] === 'John 3:16;', "\"John 3:16; 4:5\" -> book half unchanged (\"{$r['name']}\"), still fails book lookup downstream");
+
 echo "ordinary whole-chapter and range citations are unaffected:\n";
 $r = Ref::parse_query('John 3');
 ok($r['name'] === 'John' && $r['ref'] === '3', 'John 3 -> whole chapter 3');
