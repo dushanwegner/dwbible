@@ -28,7 +28,15 @@ function lift(string $src, string $name): string {
     return substr($src, $at, $i - $at + 1);
 }
 
-eval('class Ref { public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' }');
+/** Lift one const line by name. */
+function lift_const(string $src, string $name): string {
+    if (!preg_match('/const\s+' . preg_quote($name, '/') . '\s*=.*?;/', $src, $m)) {
+        fwrite(STDERR, "cannot find const {$name}\n"); exit(2);
+    }
+    return $m[0];
+}
+
+eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' }');
 
 $pass = 0; $fail = 0;
 function ok(bool $c, string $what): void {
@@ -84,6 +92,19 @@ foreach ([
     ok(strpos($a, $want) !== false, "\"{$in}\" → advice about: {$want}");
 }
 ok(strpos(Ref::citation_advice('Joh 3,16ff', 'John'), 'ONE chapter') === false, "…and \"ff.\" is not told about chapters");
+
+echo "a range-END with no range-START is refused, not silently widened to the whole chapter (quality loop tick 218):\n";
+foreach (['John 3:-5', 'Ps 22:-9', '1 Cor 13:-3'] as $in) {
+    $r = Ref::parse_query($in);
+    ok($r['ref'] === '', "\"{$in}\" -> refused (got ref \"{$r['ref']}\")");
+}
+echo "ordinary whole-chapter and range citations are unaffected:\n";
+$r = Ref::parse_query('John 3');
+ok($r['name'] === 'John' && $r['ref'] === '3', 'John 3 -> whole chapter 3');
+$r = Ref::parse_query('John 3:16-18');
+ok($r['name'] === 'John' && $r['ref'] === '3:16-18', 'John 3:16-18 -> range kept');
+$r = Ref::parse_query('John 3:0-5');
+ok($r['name'] === 'John' && $r['ref'] === '3:0-5', 'John 3:0-5 -> "0" verse still read (tick 200), left for the caller to refuse');
 
 echo "\npassed {$pass}, failed {$fail}\n";
 exit($fail === 0 ? 0 : 1);

@@ -98,6 +98,13 @@ class DwBible_Reference {
         if (isset($m[3]) && $m[3] !== '') {
             $ref .= ':' . $m[3];
             if (isset($m[4]) && $m[4] !== '') { $ref .= '-' . $m[4]; }
+        } elseif (isset($m[4]) && $m[4] !== '') {
+            // A range-END with no range-START ("John 3:-5") is malformed, not
+            // a whole-chapter request: the "-5" would otherwise be silently
+            // dropped and the reader who asked for one verse gets the whole
+            // chapter back with no readAs note explaining why (quality loop
+            // tick 218).
+            return ['name' => $s, 'ref' => ''];
         }
         return ['name' => $name, 'ref' => $ref];
     }
