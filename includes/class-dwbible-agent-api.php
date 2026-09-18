@@ -1331,9 +1331,15 @@ trait DwBible_Agent_API_Trait {
      * word joiner, byte-order mark — what a copy from a PDF or a mobile keyboard
      * pastes mid-word) are removed outright rather than folded to a space: a
      * reader cannot see them, so they must not split one word into two tokens.
+     * Combining marks (\p{Mn}: an accent as its OWN codepoint rather than fused
+     * into one with its base letter — quality loop tick 213) get the same
+     * treatment for scripts the small accent map above does not cover: Hebrew
+     * niqqud and Arabic tashkil have no precomposed form for NFC to produce, so
+     * "בְּרֵאשִׁית" survived as four fragments split at each vowel point ('ב',
+     * 'ר', 'אש', 'ית') instead of the one word a reader typed and sees.
      */
     private static function agent_search_normalize( string $s, string $lang ): string {
-        $s = (string) preg_replace( '/\p{Cf}/u', '', $s );
+        $s = (string) preg_replace( '/[\p{Cf}\p{Mn}]/u', '', $s );
         $s = self::search_normalize( $s );
         if ( $lang === 'la' ) {
             $s = str_replace( 'j', 'i', $s );

@@ -176,6 +176,10 @@ ok "$([ "$(probe "$U" "d['_meta']['total']")" = "$(probe "${BASE}/bible-search.j
 U="${BASE}/bible-search.json?q=Ie%C2%ADsus&lang=la&limit=1"
 ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['iesus']" ] && echo 1 || echo 0)" "a soft hyphen (U+00AD) inside 'Iesus' is invisible too"
 
+echo "…visible combining marks (\p{Mn}) outside the small accent map — Hebrew niqqud, Arabic tashkil — must fold away too, not act as a word boundary:"
+U="${BASE}/bible-search.json?q=%D7%91%D6%B0%D6%BC%D7%A8%D6%B5%D7%90%D7%A9%D7%81%D6%B4%D7%99%D7%AA&lang=la&limit=1"
+ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['בראשית']" ] && echo 1 || echo 0)" "Hebrew 'בְּרֵאשִׁית' (with niqqud) is one token, not split at each vowel point"
+
 echo "/bible-books.json — the two name registers must be joinable, not confusable:"
 ok "$([ "$(probe "${BASE}/bible-books.json" "len(d['keys']), len(d['slugs']), len(d['names'])")" = "(73, 73, 73)" ] && echo 1 || echo 0)" "keys[] rides beside slugs[] and names[], all 73"
 ok "$([ "$(probe "${BASE}/bible-books.json" "d['keys'][d['slugs'].index('iosue')]")" = "josue" ] && echo 1 || echo 0)" "the Latin slug 'iosue' names the canonical key 'josue'"
