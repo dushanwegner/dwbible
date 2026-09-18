@@ -274,7 +274,18 @@ class DwBible_Reference {
         if (preg_match('/\d\s*ff\.?\s*$/u', $s)) {
             return "\"ff.\" (and the following verses) names no last verse, so no passage can be chosen for it. Give the range: \"{$book} 3:16-21\".";
         }
-        if (preg_match('/[;]|[:,]\s*\d+(?:\s*[-–—]\s*\d+)?\s*\.\s*\d/u', $s)) {
+        // A comma or "and" that is followed by a LETTER WORD names a second
+        // book, not a same-chapter verse continuation — a verse-list segment
+        // ("18", "20-21") is always pure digits. "Ps 23:1, John 3:16" must not
+        // be told to write a comma list of verses; it named two books (tick 254).
+        $names_second_book = false;
+        foreach (preg_split('/\s*,\s*|\s+and\s+/iu', $s) as $i => $segment) {
+            if ($i > 0 && preg_match('/\p{L}{2,}/u', $segment)) {
+                $names_second_book = true;
+                break;
+            }
+        }
+        if ($names_second_book || preg_match('/[;]|[:,]\s*\d+(?:\s*[-–—]\s*\d+)?\s*\.\s*\d/u', $s)) {
             $locs = self::split_printed_locations($s);
             if (count($locs) >= 2) {
                 $examples = array_map(static function ($loc) use ($book) { return "\"{$book} {$loc}\""; }, array_slice($locs, 0, 2));

@@ -101,6 +101,19 @@ foreach ([
     $a = Ref::citation_advice($in, 'John');
     ok(strpos($a, $want) !== false, "\"{$in}\" → advice about: {$want}");
 }
+
+echo "a comma or \"and\" naming a SECOND BOOK is several passages too, not a one-chapter verse list (quality loop tick 254):\n";
+foreach ([
+    ['Ps 23:1, John 3:16',       'several passages'],
+    ['John 3:16, Romans 8:28',   'several passages'],
+    ['Gen 1:1 and John 1:1',     'several passages'],
+] as [$in, $want]) {
+    $a = Ref::citation_advice($in, 'Psalms');
+    ok(strpos($a, $want) !== false, "\"{$in}\" → advice about: {$want}");
+    ok(strpos($a, 'a comma list of verses in one chapter') === false, "\"{$in}\" → not told to write a same-chapter verse list");
+}
+ok(strpos(Ref::citation_advice('Ps 3:16, 18, 20-21', 'Psalms'), 'a comma list of verses in one chapter') !== false,
+   "…but a genuine same-book comma verse-list keeps its own advice");
 ok(strpos(Ref::citation_advice('Joh 3,16ff', 'John'), 'ONE chapter') === false, "…and \"ff.\" is not told about chapters");
 
 echo "the several-passages advice names the READER'S OWN locations, not a fixed example (quality loop tick 242):\n";
