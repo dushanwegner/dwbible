@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.19.01
+* Version: 1.26.09.19.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.19.01');
+    define('DWBIBLE_VERSION', '1.26.09.19.02');
 }
 
 // Load include classes before hooks are registered
@@ -617,6 +617,19 @@ class DwBible_Plugin {
 
     public static function slugify($name) {
         $slug = (string) $name;
+
+        // NFC first: the German/accent folds below match precomposed
+        // characters ('ö' as one codepoint). A query arriving NFD-decomposed
+        // ('o' + combining diaeresis) survives those tables untouched, the
+        // combining mark is then stripped by the final cleanup regex, and
+        // "Könige" silently slugifies to "konige" instead of "koenige" — a
+        // different, unmapped slug (quality loop tick 266).
+        if (class_exists('Normalizer')) {
+            $normalized = Normalizer::normalize($slug, Normalizer::FORM_C);
+            if ($normalized !== false) {
+                $slug = $normalized;
+            }
+        }
 
         // German first — two-letter forms that generic folding would destroy.
         $slug = strtr($slug, [
