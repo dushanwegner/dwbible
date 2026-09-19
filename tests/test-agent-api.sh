@@ -193,6 +193,15 @@ ok "$([ "$(probe "$U" "d['_meta']['total']")" = "$(probe "${BASE}/bible-search.j
 U="${BASE}/bible-search.json?q=%C3%83%C2%BCber&lang=de&limit=1"
 ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['uber']" ] && echo 1 || echo 0)" "mojibake 'Ã¼ber' repairs to 'über' too, in a different language"
 
+echo "…an array-shaped value on a one-value parameter (?book[]=Genesis&book[]=Exodus) is refused, not silently cast to the literal word 'Array':"
+ok "$([ "$(code "${BASE}/bible-search.json?q=amor&book%5B%5D=Genesis&book%5B%5D=Exodus")" = "400" ] && echo 1 || echo 0)" "book[]=a&book[]=b is a 400, not the 404 'book \"Array\" could not be recognised'"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=amor&book%5B%5D=Genesis&book%5B%5D=Exodus" "d['error']")" = "UNSUPPORTED_PARAM" ] && echo 1 || echo 0)" "…names the real defect, UNSUPPORTED_PARAM"
+ok "$([ "$(code "${BASE}/bible-search.json?q%5B%5D=amor&q%5B%5D=verbum")" = "400" ] && echo 1 || echo 0)" "q[]=a&q[]=b is refused, not a silent 200 search for the literal word 'Array'"
+ok "$([ "$(code "${BASE}/bible-search.json?q=amor&lang%5B%5D=la&lang%5B%5D=en")" = "400" ] && echo 1 || echo 0)" "lang[] is refused too"
+ok "$([ "$(code "${BASE}/bible-search.json?q=amor&offset%5B%5D=0&offset%5B%5D=1")" = "400" ] && echo 1 || echo 0)" "offset[] is refused too"
+ok "$([ "$(code "${BASE}/bible-ref.json?q%5B%5D=Gal+3:28&q%5B%5D=John+1:1")" = "400" ] && echo 1 || echo 0)" "the resolver's q[] is refused too, not the 404 'No book in \"Array\" could be recognised'"
+ok "$([ "$(code "${BASE}/bible-ref.json?q=Gal+3:28&lang%5B%5D=la&lang%5B%5D=en")" = "400" ] && echo 1 || echo 0)" "the resolver's lang[] is refused too"
+
 echo "/bible-books.json — the two name registers must be joinable, not confusable:"
 ok "$([ "$(probe "${BASE}/bible-books.json" "len(d['keys']), len(d['slugs']), len(d['names'])")" = "(73, 73, 73)" ] && echo 1 || echo 0)" "keys[] rides beside slugs[] and names[], all 73"
 ok "$([ "$(probe "${BASE}/bible-books.json" "d['keys'][d['slugs'].index('iosue')]")" = "josue" ] && echo 1 || echo 0)" "the Latin slug 'iosue' names the canonical key 'josue'"

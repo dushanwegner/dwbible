@@ -643,6 +643,24 @@ trait DwBible_Agent_API_Trait {
         return $out;
     }
 
+    /**
+     * Refuse an array-shaped value on a parameter that takes one — `?book[]=Genesis&book[]=Exodus`
+     * (or any repeated `name[]=`) arrives as a PHP array, and every caller here does
+     * `(string) $_GET[...]`, which silently turns the array into the literal word "Array":
+     * `book[]=` answered "The book \"Array\" could not be recognised" (404, misdirecting a
+     * malformed request as an unrecognised book name) and `q[]=` searched for the word
+     * "Array" itself and returned 200 with a plausible-looking answer (quality loop tick 255).
+     */
+    private static function agent_reject_array_params( array $names ): void {
+        foreach ( $names as $name ) {
+            if ( isset( $_GET[ $name ] ) && ! is_scalar( $_GET[ $name ] ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+                self::agent_error( 400, 'UNSUPPORTED_PARAM', "{$name}= takes one value, not a list.", [
+                    'suggestion' => "Pass {$name} once: ?{$name}=…",
+                ] );
+            }
+        }
+    }
+
     /** Refuse a guessed parameter name (see AGENT_MISNAMED_PARAMS), naming the real one. */
     private static function agent_reject_misnamed_params( string $endpoint ): void {
         $aliases = self::AGENT_MISNAMED_PARAMS[ $endpoint ] ?? [];
@@ -689,6 +707,7 @@ trait DwBible_Agent_API_Trait {
     private static function serve_reference_json() {
         $_GET = self::agent_normalize_get_keys( $_GET ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         self::agent_reject_misnamed_params( 'bible-ref' );
+        self::agent_reject_array_params( [ 'q', 'lang', 'numbering', 'typography' ] );
         $raw = isset( $_GET['q'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['q'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         $raw = trim( $raw );
         if ( $raw === '' ) {
@@ -1068,6 +1087,7 @@ trait DwBible_Agent_API_Trait {
     private static function serve_search_json() {
         $_GET = self::agent_normalize_get_keys( $_GET ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         self::agent_reject_misnamed_params( 'bible-search' );
+        self::agent_reject_array_params( [ 'q', 'lang', 'book', 'limit', 'offset', 'numbering', 'typography' ] );
         $raw = isset( $_GET['q'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['q'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         $raw = trim( $raw );
         if ( $raw === '' ) {
