@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.19.06
+* Version: 1.26.09.19.07
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.19.06');
+    define('DWBIBLE_VERSION', '1.26.09.19.07');
 }
 
 // Load include classes before hooks are registered
@@ -1676,13 +1676,13 @@ class DwBible_Plugin {
         }
         $s = mb_strtolower($s, 'UTF-8');
         $map = [
-            'à'=>'a','á'=>'a','â'=>'a','ã'=>'a','ä'=>'a','å'=>'a','ā'=>'a',
+            'à'=>'a','á'=>'a','â'=>'a','ã'=>'a','ä'=>'a','å'=>'a','ā'=>'a','ă'=>'a',
             'ç'=>'c','č'=>'c',
-            'è'=>'e','é'=>'e','ê'=>'e','ë'=>'e','ē'=>'e',
-            'ì'=>'i','í'=>'i','î'=>'i','ï'=>'i','ī'=>'i',
+            'è'=>'e','é'=>'e','ê'=>'e','ë'=>'e','ē'=>'e','ĕ'=>'e',
+            'ì'=>'i','í'=>'i','î'=>'i','ï'=>'i','ī'=>'i','ĭ'=>'i',
             'ñ'=>'n',
-            'ò'=>'o','ó'=>'o','ô'=>'o','õ'=>'o','ö'=>'o','ō'=>'o','ø'=>'o',
-            'ù'=>'u','ú'=>'u','û'=>'u','ü'=>'u','ū'=>'u',
+            'ò'=>'o','ó'=>'o','ô'=>'o','õ'=>'o','ö'=>'o','ō'=>'o','ŏ'=>'o','ø'=>'o',
+            'ù'=>'u','ú'=>'u','û'=>'u','ü'=>'u','ū'=>'u','ŭ'=>'u',
             'ý'=>'y','ÿ'=>'y',
             'æ'=>'ae','œ'=>'oe','ß'=>'ss',
         ];

@@ -502,6 +502,16 @@ for pair in "%C3%BCber:ueber" "gro%C3%9F:gross" "m%C3%B6ge:moege" "w%C3%BCste:wu
   ok "$([ -n "$a" ] && [ "$a" = "$b" ] && [ "$a" -gt 0 ] && echo 1 || echo 0)" "German search: umlaut and its ue/oe/ae digraph find the same verses (${a:-?} / ${b:-?})"
 done
 
+# A classical Latin dictionary marks short vowels with a BREVE (ă ĕ ĭ ŏ ŭ), the sibling
+# of the macron (ā ē ī ō ū) for long ones — a reader quoting a lexicon entry pastes both
+# the same way. The macron already folds (search_normalize's accent map has ā/ē/ī/ō/ū);
+# the breve was never added, so "pŏpŭlŭs" found 0 verses where "populus" found 550 (tick 279).
+la_total() { probe "${BASE}/bible-search.json?q=$1&lang=la&limit=1" "d['_meta']['total']"; }
+for pair in "populus:p%C5%8Fp%C5%ADl%C5%ADs" "deus:d%C4%95us" "vita:v%C4%ADta" "agnus:%C4%83gnus"; do
+  plain="${pair%%:*}"; breve="${pair##*:}"; a=$(la_total "$plain"); b=$(la_total "$breve")
+  ok "$([ -n "$a" ] && [ "$a" = "$b" ] && [ "$a" -gt 0 ] && echo 1 || echo 0)" "Latin search: \"$plain\" finds what its breve-marked spelling finds (${a:-?} / ${b:-?})"
+done
+
 # A PLAUSIBLE MISNAMING of a parameter is refused and the right name given (tick 111).
 # Ignored, `language=de` searched the Latin, found nothing and blamed its spelling;
 # `psalms=hebrew` served a different psalm. Harmless extras (cache-busters) still pass.
