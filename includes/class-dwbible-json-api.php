@@ -39,6 +39,13 @@ trait DwBible_JSON_API_Trait {
         // Sanitize inputs: only allow safe characters
         $slug    = preg_replace( '/[^a-z0-9\-]/', '', strtolower( $slug ) );
         $book    = preg_replace( '/[^a-z0-9\-]/', '', strtolower( $book ) );
+
+        // The Latin-only HTML page's noindex (DwBible_Plugin::noindex_latin_only())
+        // fires on wp_head, which this JSON path exits before ever reaching — so the
+        // same signal is sent here as a response header instead (quality loop tick 282).
+        if ( $slug === 'latin' ) {
+            header( 'X-Robots-Tag: noindex, follow' );
+        }
         $chapter = preg_replace( '/[^0-9]/', '', $chapter );
         $vfrom   = absint( $vfrom );
         $vto     = absint( $vto );
