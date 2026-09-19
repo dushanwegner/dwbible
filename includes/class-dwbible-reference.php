@@ -116,6 +116,33 @@ class DwBible_Reference {
     }
 
     /**
+     * Drop a TRAILING superscript/subscript footnote-style marker — "John
+     * 3:16³", "Song³", "1 Cor ³" — the exact case normalize_unicode_digits()
+     * above declines to read as a digit (superscript is Unicode category No,
+     * not Nd, and guessing a chapter/verse from it would be the wrong kind of
+     * fix, quality loop tick 206). Declining to READ it is right; leaving it
+     * glued to the string is not: on a book whose canonical key or URL slug
+     * happens to already equal its short name ("John", "Genesis") the
+     * downstream slugify() strips it anyway (its cleanup regex removes any
+     * non-ASCII byte), so those books quietly still worked — but every book
+     * reached only through the exact-match abbreviation table (every NUMBERED
+     * book — "1 Cor", "2 Thess" — plus any other name not itself a slug, e.g.
+     * "Song") failed BOOK_NOT_RECOGNISED, and a real chapter:verse with a
+     * trailing footnote number ("John 3:16³") failed CITATION_NOT_UNDERSTOOD
+     * even though the book resolved fine — a citation quoted straight out of
+     * running text, footnote and all, should not need the marker hand-deleted
+     * first (quality loop tick 290). Stripped before CITATION_PATTERN sees the
+     * string, so the marker never reaches book lookup by either path.
+     */
+    private static function strip_trailing_superscript_footnote($s) {
+        return (string) preg_replace(
+            '/(?:[\s:,.]*[\x{00B2}\x{00B3}\x{00B9}\x{2070}\x{2074}-\x{2079}\x{2080}-\x{2089}]+)+\s*$/u',
+            '',
+            (string) $s
+        );
+    }
+
+    /**
      * "Jo. III, 16", "Matth. V, 3" — the Vulgate/Denzinger apparatus's own
      * citation form: a Roman numeral CHAPTER. Distinct from the Roman
      * numeral BOOK-COUNT prefix ("III Reg.", quality loop tick 122, read in
@@ -168,6 +195,7 @@ class DwBible_Reference {
     public static function parse_query($raw) {
         $s = trim(self::strip_format_chars($raw));
         $s = self::strip_wrapping_punctuation($s);
+        $s = self::strip_trailing_superscript_footnote($s);
         if ($s === '') {
             return ['name' => '', 'ref' => ''];
         }

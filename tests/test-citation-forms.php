@@ -38,7 +38,7 @@ function lift_const(string $src, string $name): string {
     return $m[0];
 }
 
-eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' ' . lift_const($src, 'ROMAN_NUMERAL') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' private static ' . lift($src, 'strip_wrapping_punctuation') . ' private static ' . lift($src, 'split_printed_locations') . ' private static ' . lift($src, 'normalize_roman_chapter') . ' private static ' . lift($src, 'roman_to_int') . ' }');
+eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' ' . lift_const($src, 'ROMAN_NUMERAL') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' private static ' . lift($src, 'strip_wrapping_punctuation') . ' private static ' . lift($src, 'strip_trailing_superscript_footnote') . ' private static ' . lift($src, 'split_printed_locations') . ' private static ' . lift($src, 'normalize_roman_chapter') . ' private static ' . lift($src, 'roman_to_int') . ' }');
 
 $pass = 0; $fail = 0;
 function ok(bool $c, string $what): void {
@@ -157,6 +157,19 @@ foreach ([
 echo "…but a real second location after a semicolon is untouched (no trailing wrapper to strip; tick 242's grammar unaffected):\n";
 $r = Ref::parse_query('John 3:16; 4:5');
 ok($r['name'] === 'John 3:16;', "\"John 3:16; 4:5\" -> book half unchanged (\"{$r['name']}\"), still fails book lookup downstream");
+
+echo "a trailing SUPERSCRIPT/SUBSCRIPT footnote-style marker is dropped before book/ref lookup, not left to break it (quality loop tick 290): superscript digits stay footnote decoration (tick 206), but the citation itself must still resolve:\n";
+foreach ([
+    ["John 3:16\u{00B3}",        'John',   '3:16'],
+    ["1 Cor 13:4\u{00B2}",       '1 Cor',  '13:4'],
+    ["Song \u{00B3}",            'Song',   ''],
+    ["1 Cor \u{00B3}",           '1 Cor',  ''],
+    ["John \u{00B3}:\u{00B9}\u{2076}", 'John', ''],
+] as [$in, $wantName, $wantRef]) {
+    $r = Ref::parse_query($in);
+    ok($r['name'] === $wantName && $r['ref'] === $wantRef,
+       "\"{$in}\" -> name \"{$r['name']}\", ref \"{$r['ref']}\" (want {$wantName}/{$wantRef})");
+}
 
 echo "ordinary whole-chapter and range citations are unaffected:\n";
 $r = Ref::parse_query('John 3');
