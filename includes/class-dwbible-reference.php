@@ -250,11 +250,13 @@ class DwBible_Reference {
                      . '; no edition here divides a verse, so the whole verse is served.';
         }
 
-        // "f." but not "ff.": exactly one following verse.
-        if (preg_match('/([:,.]\s*)(\d{1,3})\s*f\.?\s*$/u', $q, $m) && !preg_match('/ff\.?\s*$/u', $q)) {
-            $from = (int) $m[2];
-            $q    = (string) preg_replace('/([:,.]\s*)(\d{1,3})\s*f\.?\s*$/u', '${1}' . $from . '-' . ($from + 1), $q);
-            $notes[] = '"' . $from . 'f" is read as verses ' . $from . '-' . ($from + 1) . ' (f. = and the following verse).';
+        // "f." or the Latin "sq." (sequens, and the following verse) but not
+        // their plural "ff."/"sqq.": exactly one following verse.
+        if (preg_match('/([:,.]\s*)(\d{1,3})\s*(f|sq)\.?\s*$/u', $q, $m) && !preg_match('/(?:ff|sqq)\.?\s*$/u', $q)) {
+            $from   = (int) $m[2];
+            $suffix = $m[3];
+            $q      = (string) preg_replace('/([:,.]\s*)(\d{1,3})\s*(?:f|sq)\.?\s*$/u', '${1}' . $from . '-' . ($from + 1), $q);
+            $notes[] = '"' . $from . $suffix . '" is read as verses ' . $from . '-' . ($from + 1) . ' (' . $suffix . '. = and the following verse).';
         }
 
         return ['query' => $q, 'note' => $notes ? implode(' ', $notes) : null];
@@ -271,8 +273,8 @@ class DwBible_Reference {
      */
     public static function citation_advice($raw, $book) {
         $s = trim((string) $raw);
-        if (preg_match('/\d\s*ff\.?\s*$/u', $s)) {
-            return "\"ff.\" (and the following verses) names no last verse, so no passage can be chosen for it. Give the range: \"{$book} 3:16-21\".";
+        if (preg_match('/\d\s*(ff|sqq)\.?\s*$/u', $s, $m)) {
+            return "\"{$m[1]}.\" (and the following verses) names no last verse, so no passage can be chosen for it. Give the range: \"{$book} 3:16-21\".";
         }
         // A comma or "and" that is followed by a LETTER WORD names a second
         // book, not a same-chapter verse continuation — a verse-list segment

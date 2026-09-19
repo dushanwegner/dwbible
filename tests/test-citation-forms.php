@@ -1,12 +1,14 @@
 <?php
 /**
- * WHAT:   The citation forms a lectionary or a German Bible PRINTS are read or
- *         refused by name: half-verse letters and "f." are read (and said so);
- *         "ff.", verse lists, a missing separator and a cross-chapter range each
- *         get advice about THEIR fault.
+ * WHAT:   The citation forms a lectionary, a German Bible or a Latin scholarly
+ *         apparatus PRINTS are read or refused by name: half-verse letters and
+ *         "f."/"sq." are read (and said so); "ff."/"sqq.", verse lists, a
+ *         missing separator and a cross-chapter range each get advice about
+ *         THEIR fault.
  * WHY:    Every one of these answered 400 with one sentence about keeping a range
  *         inside one chapter — "Mt 5,1-12a", the commonest lectionary form,
- *         included (quality loop tick 110).
+ *         included (quality loop tick 110); "sq."/"sqq." (Latin sequens/sequentes,
+ *         the same shape as German "f."/"ff.") added at tick 278.
  * HOW:    No WordPress. The two methods are lifted out of the real source file at
  *         runtime (never copied), so this tests what ships.
  * INPUT:  includes/class-dwbible-reference.php
@@ -51,8 +53,10 @@ foreach ([
     ['John 3:16b',  'John 3:16',   '16b'],
     ['Ps 22,2b-5',  'Ps 22,2-5',   '2b'],
     ['Lk 1,26-38a', 'Lk 1,26-38',  '38a'],
-    ['Joh 3,16f',   'Joh 3,16-17', '16f'],
-    ['Joh 3,16 f.', 'Joh 3,16-17', '16f'],
+    ['Joh 3,16f',    'Joh 3,16-17', '16f'],
+    ['Joh 3,16 f.',  'Joh 3,16-17', '16f'],
+    ['John 3:16sq',  'John 3:16-17', '16sq'],
+    ['John 3:16 sq.','John 3:16-17', '16sq'],
 ] as [$in, $want, $named]) {
     $r = Ref::normalize_printed_forms($in);
     ok($r['query'] === $want && strpos((string) $r['note'], $named) !== false,
@@ -60,7 +64,7 @@ foreach ([
 }
 
 echo "a reader's own spelling is never touched:\n";
-foreach (['1 Sam 3,10', 'Joh. 3,16', 'Esther 10:3', 'Judith 16', 'Apc 12', 'Joh 3,16ff', 'Mt 5:1-7:29', '2 Kor 5,17', 'Joh 3,16-18'] as $in) {
+foreach (['1 Sam 3,10', 'Joh. 3,16', 'Esther 10:3', 'Judith 16', 'Apc 12', 'Joh 3,16ff', 'John 3:16sqq', 'Mt 5:1-7:29', '2 Kor 5,17', 'Joh 3,16-18'] as $in) {
     $r = Ref::normalize_printed_forms($in);
     ok($r['query'] === $in && $r['note'] === null, "\"{$in}\" unchanged, no note");
 }
@@ -90,6 +94,7 @@ foreach ([
 echo "refused, with advice about THAT fault:\n";
 foreach ([
     ['Joh 3,16ff',     'ff.'],
+    ['John 3:16sqq',   'sqq.'],
     ['Joh 3,16.18',    'several passages'],
     ['Joh 3,16-18.21', 'several passages'],
     ['Joh 3,16; 4,1',  'several passages'],
