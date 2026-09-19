@@ -492,6 +492,16 @@ for pair in "Davide:Davidde" "Figlio+dell%27uomo:Figliuolo+dell%27uomo" "sacrifi
 done
 ok "$([ "$(it_total Davide)" -gt 400 ] && echo 1 || echo 0)" "…and \"Davide\" finds David's verses, not one ($(it_total Davide))"
 
+# German has no ß/ü/ö/ä on an ASCII keyboard, so the standard fallback (Duden-documented)
+# writes each as a digraph: ß→ss, ü→ue, ö→oe, ä→ae. ß already folded via search_normalize's
+# accent map; ü/ö/ä only had their diacritic STRIPPED (über→uber), so the digraph spelling
+# a reader actually types ("ueber") found nothing where "über" found 4,035 (tick 273).
+de_total() { probe "${BASE}/bible-search.json?q=$1&lang=de&limit=1" "d['_meta']['total']"; }
+for pair in "%C3%BCber:ueber" "gro%C3%9F:gross" "m%C3%B6ge:moege" "w%C3%BCste:wueste"; do
+  umlaut="${pair%%:*}"; digraph="${pair##*:}"; a=$(de_total "$umlaut"); b=$(de_total "$digraph")
+  ok "$([ -n "$a" ] && [ "$a" = "$b" ] && [ "$a" -gt 0 ] && echo 1 || echo 0)" "German search: umlaut and its ue/oe/ae digraph find the same verses (${a:-?} / ${b:-?})"
+done
+
 # A PLAUSIBLE MISNAMING of a parameter is refused and the right name given (tick 111).
 # Ignored, `language=de` searched the Latin, found nothing and blamed its spelling;
 # `psalms=hebrew` served a different psalm. Harmless extras (cache-busters) still pass.

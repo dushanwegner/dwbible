@@ -1354,6 +1354,20 @@ trait DwBible_Agent_API_Trait {
     ];
 
     /**
+     * German's ASCII-keyboard fallback spelling, folded to match the accent-stripped
+     * corpus form. search_normalize()'s accent map already turns ß into "ss" (so
+     * "groß"/"gross" already met) and ü/ö/ä into bare u/o/a by STRIPPING the diaeresis
+     * — but the standard German fallback for those three (Duden-documented, what a
+     * reader without umlaut keys actually types) is not stripping, it is the digraph:
+     * "ue"/"oe"/"ae". "über" found 4,035 verses, "ueber" found 0 (quality loop tick 273).
+     * Applied after accents are stripped, so "über" is already "uber" and this only
+     * needs to fold the two-letter query form down to the same single letter.
+     */
+    private const AGENT_SEARCH_DE_SPELLING = [
+        'ue' => 'u', 'oe' => 'o', 'ae' => 'a',
+    ];
+
+    /**
      * Fold a string for matching: lower-case, accents stripped (the site's own
      * search_normalize map, æ→ae included), for Latin j→i so classical and
      * Clementine spellings meet ("eius" / "ejus"), and for English British and
@@ -1383,6 +1397,9 @@ trait DwBible_Agent_API_Trait {
         }
         if ( $lang === 'it' ) {
             $s = strtr( $s, self::AGENT_SEARCH_IT_SPELLING );
+        }
+        if ( $lang === 'de' ) {
+            $s = strtr( $s, self::AGENT_SEARCH_DE_SPELLING );
         }
         $s = (string) preg_replace( '/[^\p{L}\p{N}]+/u', ' ', $s );
         return trim( $s );
