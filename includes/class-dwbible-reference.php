@@ -35,6 +35,14 @@ class DwBible_Reference {
     const CITATION_PATTERN = '^(.*?)[\\s.]*(\\d+)\\s*(?:[:,.]\\s*(\\d+)?(?:\\s*[-–—]\\s*(\\d+)?)?)?\\s*$';
 
     /**
+     * A canonical Roman numeral only — no "IIII" for 4, no "VX" for 5. The
+     * Vulgate/Denzinger apparatus this grammar is built to read always writes
+     * the subtractive form, so a non-canonical run of M/D/C/L/X/V/I is not a
+     * numeral this site recognises as a chapter (see normalize_roman_chapter()).
+     */
+    const ROMAN_NUMERAL = '(?=[MDCLXVI])M{0,3}(?:CM|CD|D?C{0,3})(?:XC|XL|L?X{0,3})(?:IX|IV|V?I{0,3})';
+
+    /**
      * Drop invisible Unicode FORMAT characters (\p{Cf}: zero-width space, soft
      * hyphen, word joiner, byte-order mark — what a copy from a PDF or a mobile
      * keyboard pastes mid-citation). A reader cannot see them, so one sitting
@@ -105,6 +113,46 @@ class DwBible_Reference {
         $s = preg_replace('/^[\s"\'\x{2018}\x{201C}\x{00AB}(\[{]+/u', '', (string) $s);
         $s = preg_replace('/[\s"\'\x{2019}\x{201D}\x{00BB})\]}.,;!?]+$/u', '', (string) $s);
         return (string) $s;
+    }
+
+    /**
+     * "Jo. III, 16", "Matth. V, 3" — the Vulgate/Denzinger apparatus's own
+     * citation form: a Roman numeral CHAPTER. Distinct from the Roman
+     * numeral BOOK-COUNT prefix ("III Reg.", quality loop tick 122, read in
+     * class-dwbible-router.php's internal_key_from_any_book()): that numeral
+     * sits BEFORE the book name and is followed by another letter (the name
+     * continuing), never by a separator+digit or the end of the string, so
+     * it can never satisfy the pattern below. CITATION_PATTERN's chapter is
+     * `\d+` only, so "John III, 16" never even reaches a book lookup with a
+     * chapter split off — the whole string fails as an unrecognised book
+     * name (quality loop tick 284). Read here, before the shared grammar,
+     * and rewritten to its Arabic form.
+     *
+     * @return array{query:string,numeral:string,value:int}|null
+     */
+    private static function normalize_roman_chapter($s) {
+        if (!preg_match('/^(.*\p{L})[\s.]+(' . self::ROMAN_NUMERAL . ')(\s*[:,.]\s*\d+(?:\s*[-–—]\s*\d+)?)?\s*$/iu', (string) $s, $m)) {
+            return null;
+        }
+        return [
+            'query'   => trim($m[1]) . ' ' . self::roman_to_int($m[2]) . (isset($m[3]) ? $m[3] : ''),
+            'numeral' => $m[2],
+            'value'   => self::roman_to_int($m[2]),
+        ];
+    }
+
+    /** Canonical Roman numeral (validated by ROMAN_NUMERAL already) to int. */
+    private static function roman_to_int($roman) {
+        $vals  = ['I' => 1, 'V' => 5, 'X' => 10, 'L' => 50, 'C' => 100, 'D' => 500, 'M' => 1000];
+        $roman = strtoupper($roman);
+        $total = 0;
+        $seen  = 0;
+        for ($i = strlen($roman) - 1; $i >= 0; $i--) {
+            $v     = $vals[$roman[$i]];
+            $total += ($v < $seen) ? -$v : $v;
+            $seen  = max($seen, $v);
+        }
+        return $total;
     }
 
     /**
@@ -238,6 +286,12 @@ class DwBible_Reference {
     public static function normalize_printed_forms($raw) {
         $q     = self::normalize_unicode_punctuation(self::normalize_unicode_digits(trim((string) $raw)));
         $notes = [];
+
+        $roman = self::normalize_roman_chapter($q);
+        if ($roman !== null) {
+            $q       = $roman['query'];
+            $notes[] = '"' . $roman['numeral'] . '" is read as chapter ' . $roman['value'] . '.';
+        }
 
         $halves = [];
         $q = (string) preg_replace_callback(

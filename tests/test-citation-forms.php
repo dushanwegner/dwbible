@@ -38,7 +38,7 @@ function lift_const(string $src, string $name): string {
     return $m[0];
 }
 
-eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' private static ' . lift($src, 'strip_wrapping_punctuation') . ' private static ' . lift($src, 'split_printed_locations') . ' }');
+eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' ' . lift_const($src, 'ROMAN_NUMERAL') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' private static ' . lift($src, 'strip_wrapping_punctuation') . ' private static ' . lift($src, 'split_printed_locations') . ' private static ' . lift($src, 'normalize_roman_chapter') . ' private static ' . lift($src, 'roman_to_int') . ' }');
 
 $pass = 0; $fail = 0;
 function ok(bool $c, string $what): void {
@@ -165,6 +165,27 @@ $r = Ref::parse_query('John 3:16-18');
 ok($r['name'] === 'John' && $r['ref'] === '3:16-18', 'John 3:16-18 -> range kept');
 $r = Ref::parse_query('John 3:0-5');
 ok($r['name'] === 'John' && $r['ref'] === '3:0-5', 'John 3:0-5 -> "0" verse still read (tick 200), left for the caller to refuse');
+
+echo "a Roman numeral CHAPTER, the Vulgate/Denzinger apparatus's own citation form, is read as its Arabic value (quality loop tick 284):\n";
+foreach ([
+    ['Jo. III, 16',    'Jo 3, 16',    'III'],
+    ['John III, 16',   'John 3, 16',   'III'],
+    ['Matth. V, 3',    'Matth 5, 3',  'V'],
+    ['Rom. I, 20',     'Rom 1, 20',   'I'],
+    ['1 Cor. XIII, 4', '1 Cor 13, 4', 'XIII'],
+    ['Gen I, 1',       'Gen 1, 1',     'I'],
+    ['John III',       'John 3',       'III'],
+    ['Apoc IV, 1-2',   'Apoc 4, 1-2',  'IV'],
+] as [$in, $want, $named]) {
+    $r = Ref::normalize_printed_forms($in);
+    ok($r['query'] === $want && strpos((string) $r['note'], $named) !== false,
+       "\"{$in}\" → \"{$r['query']}\", note names {$named}");
+}
+echo "…but a Roman numeral BOOK-COUNT PREFIX (tick 122, read elsewhere — before the name, not after it) is left alone here:\n";
+foreach (['III Reg 19, 8', 'III Reg. 19, 8', 'II Mach 12,46', 'I Petr 2,9'] as $in) {
+    $r = Ref::normalize_printed_forms($in);
+    ok($r['query'] === $in && $r['note'] === null, "\"{$in}\" unchanged, no note");
+}
 
 echo "\npassed {$pass}, failed {$fail}\n";
 exit($fail === 0 ? 0 : 1);
