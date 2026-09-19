@@ -363,6 +363,20 @@ done <<'NUMBERED'
 NUMBERED
 
 echo
+echo "invalid UTF-8 bytes in q= are told apart from an empty q= (tick 267):"
+# A truncated 4-byte sequence, a lone continuation byte, and an overlong
+# encoding — each pasted mid-word, as a broken PDF extractor might. WordPress's
+# own sanitize_text_field() wipes the WHOLE string on ANY invalid byte, so this
+# used to answer MISSING_QUERY ("Pass the words to find as ?q=…") — the caller
+# DID pass bytes, just not valid UTF-8 ones.
+for bytes in "de%F0%9D%90us" "de%80us" "de%C1%81us"; do
+  U="${BASE}/bible-search.json?q=${bytes}&lang=la&limit=1"
+  ok "$([ "$(code "$U")" = "400" ] && echo 1 || echo 0)" "q=${bytes} answers 400"
+  ok "$([ "$(probe "$U" "d['error']")" = "INVALID_ENCODING" ] && echo 1 || echo 0)" "…as INVALID_ENCODING, not MISSING_QUERY"
+done
+ok "$([ "$(probe "${BASE}/bible-search.json?q=&lang=la" "d['error']")" = "MISSING_QUERY" ] && echo 1 || echo 0)" "an actually-empty q= still answers MISSING_QUERY"
+
+echo
 echo "the no-hits hint tells the truth about the edition it describes:"
 # It used to say the Scío writes "Spíritu" beside "Espíritu". The corpus has
 # Espíritu 716 times and standalone Spíritu ZERO times, so a reader following

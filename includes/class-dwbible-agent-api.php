@@ -1088,9 +1088,20 @@ trait DwBible_Agent_API_Trait {
         $_GET = self::agent_normalize_get_keys( $_GET ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         self::agent_reject_misnamed_params( 'bible-search' );
         self::agent_reject_array_params( [ 'q', 'lang', 'book', 'limit', 'offset', 'numbering', 'typography' ] );
-        $raw = isset( $_GET['q'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['q'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
-        $raw = trim( $raw );
+        // wp_check_invalid_utf8() (inside sanitize_text_field) wipes the WHOLE string to
+        // '' the moment it holds even one invalid UTF-8 byte, not just the bad byte — a
+        // truncated multi-byte sequence, a lone continuation byte, or an overlong encoding
+        // pasted mid-word by a broken PDF extractor. Without this check that read back as
+        // MISSING_QUERY ("Pass the words to find as ?q=…"), telling a caller who DID pass
+        // bytes that they passed nothing — the same wrong-diagnosis shape as tick 93's
+        // citation hint. Comparing against the unsanitized-but-unslashed value distinguishes
+        // "sent nothing" from "sent bytes that are not valid UTF-8" (quality loop tick 267).
+        $raw_unslashed = isset( $_GET['q'] ) ? trim( (string) wp_unslash( $_GET['q'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+        $raw           = $raw_unslashed !== '' ? trim( sanitize_text_field( $raw_unslashed ) ) : '';
         if ( $raw === '' ) {
+            if ( $raw_unslashed !== '' ) {
+                self::agent_error( 400, 'INVALID_ENCODING', 'q contains bytes that are not valid UTF-8, so no words could be read from it.' );
+            }
             self::agent_error( 400, 'MISSING_QUERY', 'Pass the words to find as ?q=, e.g. /bible-search.json?q=dilexerunt+tenebras&lang=la' );
         }
 
