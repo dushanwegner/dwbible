@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.19.04
+* Version: 1.26.09.19.05
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.19.04');
+    define('DWBIBLE_VERSION', '1.26.09.19.05');
 }
 
 // Load include classes before hooks are registered
@@ -171,7 +171,7 @@ class DwBible_Plugin {
 
 
         // The Latin-only surface is deliberately unlisted — same note.
-        add_action('wp_head', [__CLASS__, 'noindex_latin_only'], 1);
+        add_filter('wp_robots', [__CLASS__, 'noindex_latin_only']);
 
         // Bible text is static — keep dwcache entries indefinitely (flush manually on data updates).
         add_filter( 'dwcache_ttl', [__CLASS__, 'infinite_ttl_for_bible'], 10, 2 );
@@ -609,10 +609,12 @@ class DwBible_Plugin {
      * have the site competing with itself for the same text. `follow` because
      * the links on it are ordinary Bible links worth crawling.
      */
-    public static function noindex_latin_only() {
+    public static function noindex_latin_only($robots) {
         if (get_query_var(self::QV_SLUG) === 'latin' && !get_query_var(self::QV_FORMAT)) {
-            echo '<meta name="robots" content="noindex, follow">' . "\n";
+            $robots['noindex'] = true;
+            $robots['follow'] = true;
         }
+        return $robots;
     }
 
     public static function slugify($name) {
