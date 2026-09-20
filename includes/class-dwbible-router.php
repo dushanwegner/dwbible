@@ -7,7 +7,7 @@ trait DwBible_Router_Trait {
         // Main request router; will be refactored later.
 
         // ── JSON API (AI access) ─────────────────────────────────────────
-        $format = get_query_var( self::QV_FORMAT );
+        $format = strtolower( (string) get_query_var( self::QV_FORMAT ) );
         if ( $format === 'json' ) {
             self::serve_json_file();
             exit;
@@ -222,7 +222,7 @@ trait DwBible_Router_Trait {
         // the JSON API rather than answering a JSON request with HTML. The
         // JSON API resolves any inbound book slug itself (abbreviations,
         // vernacular names, Latin canonical), so the raw query vars suffice.
-        if ((($_GET['format'] ?? '') === 'json') && function_exists('dwbible_i18n_json_dataset_for_slug')) {
+        if ((strtolower((string) ($_GET['format'] ?? '')) === 'json') && function_exists('dwbible_i18n_json_dataset_for_slug')) {
             $ds    = dwbible_i18n_json_dataset_for_slug((string) get_query_var(self::QV_SLUG));
             $jrest = '/index.json';
             $jb    = get_query_var(self::QV_BOOK);
