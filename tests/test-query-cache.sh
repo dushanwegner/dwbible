@@ -64,5 +64,19 @@ for lang in en de; do
   check "$lang: the query response says no-store" $r "cache-control: ${cc:-<none>}"
 done
 
+# 5. A verse page already cached as plain HTML (two reads — dwcache's normal
+#    state for anything popular) must not shadow its own ?format=json twin:
+#    'format' was added to the key for the .json dataset routes (2026-09-16)
+#    but never for the HTML verse page it redirects FROM, so a read page
+#    replayed its own cached HTML to ?format=json for the rest of the TTL —
+#    live on both dwcache (origin) and Cloudflare (edge, caching the origin's
+#    own wrong 200) — quality loop tick 318.
+verse="$BASE/en/biblia/ioannes/3:16/"
+curl -sk -o /dev/null "$verse"
+curl -sk -o /dev/null "$verse"
+loc3=$(curl -sk -o /dev/null -w '%{url_effective}' -L "$verse?format=JSON")
+case "$loc3" in *ioannes/3/16.json*) r=0 ;; *) r=1 ;; esac
+check "a verse page read twice still 301s ?format=JSON to its dataset JSON" $r "$loc3"
+
 if [ "$FAIL" -eq 0 ]; then echo "all pass"; else echo "$FAIL FAILURES"; fi
 exit $((FAIL > 0))

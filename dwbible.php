@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.20.03
+* Version: 1.26.09.20.04
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.20.03');
+    define('DWBIBLE_VERSION', '1.26.09.20.04');
 }
 
 // Load include classes before hooks are registered
@@ -73,6 +73,18 @@ add_filter('dwcache_allowed_query_params', function ($params, $url = '') {
         // router also marks the request DONOTCACHEPAGE, which stops the write.
         // Key = the read half, DONOTCACHEPAGE = the write half. Both needed.
         'q',
+        // `format` — the ?format=json/text courtesy alias (class-dwbible-router.php)
+        // on the HTML verse page, not just its .json twin above: it changes WHICH
+        // response the page answers (a 301 to the dataset, or the page itself), and
+        // was never in the key on EITHER route. A verse page read once (dwcache's
+        // normal state for anything popular) shadowed every ?format= request to it
+        // for the rest of the TTL — measured live, quality loop tick 318: both
+        // dwcache (origin) and Cloudflare (edge, caching the origin's own wrong
+        // 200) replayed the plain page instead of the documented 301. Unconditional,
+        // unlike the block above, because the HTML route needs it exactly as much
+        // as the .json one — there is no page on this site where ?format= is not
+        // one of the twin's two answers.
+        'format',
     ));
 }, 10, 2);
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-reference.php';
