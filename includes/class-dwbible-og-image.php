@@ -146,6 +146,16 @@ class DwBible_OG_Image {
         return $used_h;
     }
 
+    /**
+     * How far to push a text block down so it sits centred in the space it was given. Never
+     * negative: a block at least as tall as its space stays top-anchored, which is what every
+     * long verse does, so centring changes nothing for them.
+     */
+    private static function centre_offset($available_h, $block_h) {
+        $slack = (int) $available_h - (int) $block_h;
+        return $slack > 0 ? (int) floor($slack / 2) : 0;
+    }
+
     private static function measure_text_block($text, $max_w, $font_file, $font_size, $line_height_factor = 1.35) {
         $use_ttf = (is_string($font_file) && $font_file !== '' && function_exists('imagettfbbox') && function_exists('imagettftext') && file_exists($font_file));
         if (! $use_ttf) {
@@ -620,15 +630,23 @@ class DwBible_OG_Image {
             $vern_h = self::measure_text_block($vtext, $content_w, $font_file_vern, $vs, $lh_vern);
             $latin_area_h = max(1, $avail_h - $vern_h - $vern_gap);
             list($ls, $ltext) = self::fit_text_to_area($latin_clean, $content_w, $latin_area_h, $font_file, $font_main, $font_min_main, $use_ttf, '', '', $lh);
-            // Big Latin at top; vernacular tucked directly beneath the drawn Latin (not the reserved area).
-            $latin_drawn_h = self::draw_text_block($im, $ltext, $x, $y, $content_w, $font_file, $ls, $fgc, $y + $latin_area_h, 'left', $lh);
-            $vy = $y + $latin_drawn_h + $vern_gap;
+            // Centre the PAIR in the space above the reference. A long verse fills that space and
+            // the offset is zero, so it is drawn exactly as before; a short one ("Jesus weinte.")
+            // no longer sits at the top of a half-empty card. The type size is untouched — every
+            // card keeps the same typography, which growing the text to fit would have broken.
+            $latin_h = self::measure_text_block($ltext, $content_w, $font_file, $ls, $lh);
+            $top     = $y + self::centre_offset($avail_h, $latin_h + $vern_gap + $vern_h);
+            // Big Latin first; vernacular tucked directly beneath the drawn Latin (not the reserved area).
+            $latin_drawn_h = self::draw_text_block($im, $ltext, $x, $top, $content_w, $font_file, $ls, $fgc, $top + $latin_area_h, 'left', $lh);
+            $vy = $top + $latin_drawn_h + $vern_gap;
             self::draw_text_block($im, $vtext, $x, $vy, $content_w, $font_file_vern, $vs, $vernc, $content_bottom, 'left', $lh_vern);
         } else {
             // Only one edition present → single big block (original behavior).
             $only = $latin_clean !== '' ? $latin_clean : $vern_clean;
             list($fit_size, $fit_text) = self::fit_text_to_area($only, $content_w, $avail_h, $font_file, $font_main, $font_min_main, $use_ttf, '', '', $lh);
-            self::draw_text_block($im, $fit_text, $x, $y, $content_w, $font_file, $fit_size, $fgc, $content_bottom, 'left', $lh);
+            $only_h = self::measure_text_block($fit_text, $content_w, $font_file, $fit_size, $lh);
+            $top    = $y + self::centre_offset($avail_h, $only_h);
+            self::draw_text_block($im, $fit_text, $x, $top, $content_w, $font_file, $fit_size, $fgc, $content_bottom, 'left', $lh);
         }
         // Draw logo (if any) at bottom on chosen side with adjusted padding
         if ($icon_im) {
