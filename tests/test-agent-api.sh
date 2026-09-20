@@ -218,6 +218,16 @@ ok "$([ "$(code "${BASE}/bible-search.json?q=Deus&lang=la,en")" = "400" ] && ech
 ok "$([ "$(code "${BASE}/bible-search.json?q=Deus&lang=all")" = "400" ] && echo 1 || echo 0)" "a search for lang=all is refused, not served as Latin"
 ok "$(probe "${BASE}/bible-search.json?q=Deus&lang=en,la" "1 if d.get('error')=='UNSUPPORTED_PARAM' and 'one' in (d.get('message','')+d.get('suggestion','')).lower() else 0")" "…with a code and a message saying search takes one language"
 ok "$(probe "${BASE}/bible-search.json?q=Deus&lang=klingon" "0 if '\"all\"' in d.get('suggestion','') else 1")" "the search's own refusal no longer advertises a list or \"all\""
+# numbering= has real meaning on /bible-ref.json and every psalm URL, is one of
+# the six params serve_search_json() protects with agent_reject_array_params(),
+# and even has misnamed-param aliases (psalms=, versification=) pointing at it —
+# but serve_search_json() never calls agent_numbering_mode(), so it was silently
+# discarded: a search hit answered the identical Vulgate ref+citation whether
+# numbering=hebrew, numbering=garbage, or the param was absent (quality loop tick 321).
+U="${BASE}/bible-search.json?q=Dominus+regit+me&lang=la"
+ok "$([ "$(code "$U&numbering=hebrew")" = "400" ] && echo 1 || echo 0)" "numbering=hebrew on a search is refused, not silently ignored"
+ok "$([ "$(probe "$U&numbering=hebrew" "d.get('error')")" = "UNSUPPORTED_PARAM" ] && echo 1 || echo 0)" "…named UNSUPPORTED_PARAM"
+ok "$([ "$(code "$U&numbering=garbage")" = "400" ] && echo 1 || echo 0)" "…and an unrecognised numbering value is refused too, not silently accepted"
 
 echo
 echo "a query containing a double quote does not break _meta.content's own quoting:"

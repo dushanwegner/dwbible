@@ -1088,6 +1088,18 @@ trait DwBible_Agent_API_Trait {
         $_GET = self::agent_normalize_get_keys( $_GET ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         self::agent_reject_misnamed_params( 'bible-search' );
         self::agent_reject_array_params( [ 'q', 'lang', 'book', 'limit', 'offset', 'numbering', 'typography' ] );
+        // numbering= means something real on /bible-ref.json and every psalm URL, so an
+        // agent that just asked for numbering=hebrew there will pass it here too — but a
+        // search hit's own citation is always Vulgate (hebrewRef already carries the Hebrew
+        // number beside it), and this endpoint never read the parameter to apply it. That
+        // answered 200 with an identical hit whether numbering was hebrew, garbage, or
+        // absent — the same silent-no-op shape tick 87 refused for a multi-language `lang=`
+        // rather than honouring only part of the request (quality loop tick 321).
+        if ( isset( $_GET['numbering'] ) && trim( (string) wp_unslash( $_GET['numbering'] ) ) !== '' ) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+            self::agent_error( 400, 'UNSUPPORTED_PARAM', 'A search hit already carries both psalm numbers; numbering= has no effect here.', [
+                'suggestion' => 'Every psalm hit\'s citation is Vulgate, with the Hebrew number already given in hebrewRef — no numbering= needed. To read one verse under numbering=hebrew, use /bible-ref.json.',
+            ] );
+        }
         // wp_check_invalid_utf8() (inside sanitize_text_field) wipes the WHOLE string to
         // '' the moment it holds even one invalid UTF-8 byte, not just the bad byte — a
         // truncated multi-byte sequence, a lone continuation byte, or an overlong encoding
