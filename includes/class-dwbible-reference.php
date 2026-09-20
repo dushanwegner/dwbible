@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 class DwBible_Reference {
 
     /**
-     * The typed-citation grammar: "<book> <chapter>[:<verse>[-<verse>]]".
+     * The typed-citation grammar: "<book> <chapter>[:<verse>[-[<chapter>:]<verse>]]".
      *
      * Written WITHOUT delimiters because it is used by both PCRE (`/…/u`) and
      * the browser (`new RegExp(…)`) — keep it to syntax both understand.
@@ -26,13 +26,53 @@ class DwBible_Reference {
      *   1  book name    lazy, so only a TRAILING run of digits can be the
      *                   chapter — "1 Cor 13" keeps its leading book number
      *   2  chapter      required once the name is followed by digits
-     *   3  verse        optional, and optionally still being typed ("Mt 5:")
-     *   4  range end    optional ("Luke 24:13-35")
+     *   3  separator    the one the reader chose, captured so the END of a
+     *                   range can be required to use the SAME one (below)
+     *   4  verse        optional, and optionally still being typed ("Mt 5:")
+     *   5  range end    optional — a VERSE of chapter 2 ("Luke 24:13-35"),
+     *                   unless group 6 follows, in which case it is a CHAPTER
+     *   6  end verse    optional; its presence is what makes 5 a chapter, so
+     *                   "26:36-27:60" ends at 27:60 and "24:13-35" at 24:35
      *
      * Separators: `:` `,` `.` between chapter and verse (the Latin/German
      * citation comma included); hyphen or dash for a range.
+     *
+     * A RANGE MAY CROSS A CHAPTER BOUNDARY (dwbible issue 21) — "Mt 26:36-27:60",
+     * "Io 18,1-19,42" — because that is how the four Passions, the Vigil's
+     * Gen 1:1-2:3 and much of the breviary are printed, and refusing the form
+     * truncated three of the four Holy Week Passions at the chapter break,
+     * each stopping before the crucifixion. Two rules keep the addition from
+     * eating forms that already meant something else:
+     *
+     *   `\3`      the end separator must be the SAME character the citation
+     *             opened with. A printed citation uses one convention
+     *             throughout, and without this "Ps 44:11-12, 14" — a verse
+     *             LIST this site's own calendar prints — would read as
+     *             "44:11 to 12:14", silently serving the wrong chapter.
+     *   `(?!\.)`  and it may not be "." on either side: between two digits "."
+     *             is this site's German verse-list separator (see
+     *             split_printed_locations()), so "3.16-18.21" stays a list of
+     *             passages, not a range from 3:16 to 18:21. citation_advice()
+     *             names the fix for anyone who meant the range.
      */
-    const CITATION_PATTERN = '^(.*?)[\\s.]*(\\d+)\\s*(?:[:,.]\\s*(\\d+)?(?:\\s*[-–—]\\s*(\\d+)?)?)?\\s*$';
+    const CITATION_PATTERN = '^(.*?)[\\s.]*(\\d+)\\s*(?:([:,.])\\s*(\\d+)?(?:\\s*[-–—]\\s*(?:(\\d+)(?:\\s*(?!\\.)\\3\\s*(\\d+))?)?)?)?\\s*$';
+
+    /**
+     * How many chapters one citation may span, first and last included.
+     *
+     * FIVE. A citation that crosses a chapter boundary is a real, printed form
+     * — the four Holy Week Passions (Mt 26:36-27:60, Mk 14:32-15:46,
+     * Lk 22:39-23:53, Jn 18:1-19:42), the Vigil's Gen 1:1-2:3 and Ex 14:24-15:1
+     * — and every one of those is TWO chapters. Nothing this site's own
+     * lectionary prints is longer. Five leaves room for the longest thing
+     * anyone plausibly cites as one passage (a short book read straight
+     * through: Ruth 1:1-4:22, Ionas 1:1-4:11, both four) and stops there,
+     * because beyond that a citation is no longer naming a passage but asking
+     * for a book — "Gen 1:1-50:26" would assemble fifty chapter files per
+     * language, which is a download dressed up as a reference. The refusal
+     * says the number, so a reader who meant it can ask chapter by chapter.
+     */
+    const MAX_CHAPTER_SPAN = 5;
 
     /**
      * A canonical Roman numeral only — no "IIII" for 4, no "VX" for 5. The
@@ -211,10 +251,18 @@ class DwBible_Reference {
         // "0", which empty() reads as absent (PHP's classic falsy-string trap)
         // and would silently drop, same bug as the chapter/verse "0" handling
         // in class-dwbible-agent-api.php (quality loop tick 200).
-        if (isset($m[3]) && $m[3] !== '') {
-            $ref .= ':' . $m[3];
-            if (isset($m[4]) && $m[4] !== '') { $ref .= '-' . $m[4]; }
-        } elseif (isset($m[4]) && $m[4] !== '') {
+        if (isset($m[4]) && $m[4] !== '') {
+            $ref .= ':' . $m[4];
+            if (isset($m[5]) && $m[5] !== '') {
+                // The range END. With a verse of its own (group 6) the number
+                // is the CHAPTER the passage ends in and the ref keeps both —
+                // "26:36-27:60"; without one it is a verse of the chapter
+                // already named — "24:13-35". Whatever separator the reader
+                // used, the ref is always written with ":" : it is this site's
+                // own canonical form, and parse_ref() reads exactly it back.
+                $ref .= '-' . (isset($m[6]) && $m[6] !== '' ? $m[5] . ':' . $m[6] : $m[5]);
+            }
+        } elseif (isset($m[5]) && $m[5] !== '') {
             // A range-END with no range-START ("John 3:-5") is malformed, not
             // a whole-chapter request: the "-5" would otherwise be silently
             // dropped and the reader who asked for one verse gets the whole
@@ -223,6 +271,50 @@ class DwBible_Reference {
             return ['name' => $s, 'ref' => ''];
         }
         return ['name' => $name, 'ref' => $ref];
+    }
+
+    /**
+     * The canonical ref string parse_query() writes, read back into numbers.
+     *
+     *   "5"            whole chapter                 ch 5,  no verse
+     *   "5:1"          one verse                     5:1  - 5:1
+     *   "24:13-35"     a range inside one chapter    24:13 - 24:35
+     *   "18:1-19:42"   a range ACROSS chapters       18:1 - 19:42
+     *
+     * THE RANGE END IS A CHAPTER ONLY WHEN IT CARRIES A VERSE OF ITS OWN. That
+     * is the whole distinction, and it is the same one the grammar makes: a
+     * lone number after the dash is a verse of the chapter already named, a
+     * number with ":" and another number after it is a new chapter. So "24:35"
+     * ends in chapter 24 and "19:42" ends in chapter 19, with nothing to guess.
+     *
+     * One parser, because two callers need the same answer: /bible-ref.json
+     * (which assembles the passage) and the router's `?q=` resolver (which
+     * follows it as far as an HTML page can go).
+     *
+     * @param string $ref 'ch[:v[-[ch:]v]]'.
+     * @return array{ch:int,vf:int,chTo:int,vt:int,verseGiven:bool}|null null when not a ref.
+     */
+    public static function parse_ref($ref) {
+        if (!is_string($ref) || $ref === '') {
+            return null;
+        }
+        if (!preg_match('/^(\d+)(?::(\d+)(?:-(?:(\d+):)?(\d+))?)?$/', $ref, $m)) {
+            return null;
+        }
+        // isset()+!=='' , never empty(): "0" is a falsy string, and a typed
+        // chapter or verse of 0 must reach the caller as the number it is so
+        // the caller can REFUSE it — dropping it here answers the whole
+        // chapter instead (the trap documented in parse_query() above).
+        $verse_given = isset($m[2]) && $m[2] !== '';
+        $vf          = $verse_given ? (int) $m[2] : 0;
+        $vt          = isset($m[4]) && $m[4] !== '' ? (int) $m[4] : $vf;
+        return [
+            'ch'         => (int) $m[1],
+            'vf'         => $vf,
+            'chTo'       => isset($m[3]) && $m[3] !== '' ? (int) $m[3] : (int) $m[1],
+            'vt'         => $vt,
+            'verseGiven' => $verse_given,
+        ];
     }
 
     /**
@@ -377,13 +469,21 @@ class DwBible_Reference {
             }
             return "This names several passages (\".\" and \";\" separate them in a printed citation), and one request reads one passage. Ask for each location separately, one request per passage.";
         }
+        // A cross-chapter range is READ now (dwbible issue 21), so reaching here
+        // means only one thing: it was written with "." on both sides, and "."
+        // between two digits is this grammar's verse-list separator, not a
+        // chapter:verse one. Name the fix rather than the old prohibition — the
+        // reader wrote a form this site serves, in the one punctuation it cannot
+        // tell apart from a list.
         if (preg_match('/[:,.]\s*\d+\s*[-–—]\s*\d+\s*[:,.]\s*\d+/u', $s)) {
-            return "A range must stay inside ONE chapter — \"{$book} 5:1-12\", not \"{$book} 5:1-7:29\". A passage spanning chapters is two or more requests, one per chapter; a whole chapter is \"{$book} 5\".";
+            return "A cross-chapter range reads here, but not with \".\" — between two digits \".\" separates verses of one chapter. "
+                 . "Write it with \":\" or \",\": \"{$book} 5:1-7:29\", \"{$book} 5,1-7,29\". At most " . self::MAX_CHAPTER_SPAN . " chapters.";
         }
         if (preg_match('/\d+\s+\d+\s*$/u', $s)) {
             return "Chapter and verse need a separator between them: \"{$book} 3:16\" or \"{$book} 3,16\".";
         }
-        return "Write chapter:verse, or chapter:verse-verse inside one chapter: \"{$book} 3:16\", \"{$book} 3:16-18\"; "
+        return "Write chapter:verse, or chapter:verse-verse: \"{$book} 3:16\", \"{$book} 3:16-18\"; "
+             . "a range may cross a chapter boundary, \"{$book} 3:16-4:3\" (at most " . self::MAX_CHAPTER_SPAN . " chapters); "
              . "a comma list of verses in one chapter reads too, \"{$book} 3:16, 18, 20-21\"; a whole chapter is \"{$book} 3\".";
     }
 

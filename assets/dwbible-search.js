@@ -34,7 +34,7 @@
 	"use strict";
 
 	var cfg = w.dwbibleSearchCfg || {};
-	var CITATION = new RegExp(cfg.pattern || '^(.*?)[\\s.]*(\\d+)\\s*(?:[:,.]\\s*(\\d+)?(?:\\s*[-–—]\\s*(\\d+)?)?)?\\s*$');
+	var CITATION = new RegExp(cfg.pattern || '^(.*?)[\\s.]*(\\d+)\\s*(?:([:,.])\\s*(\\d+)?(?:\\s*[-–—]\\s*(?:(\\d+)(?:\\s*(?!\\.)\\3\\s*(\\d+))?)?)?)?\\s*$');
 
 	/**
 	 * Reduce a word to what matching sees: lowercase, accents folded, the
@@ -50,33 +50,41 @@
 
 	/**
 	 * Split a typed query into its book half and its citation half.
-	 * → { q: <normalized book query>, ref: 'ch[:v[-v]]' or '',
-	 *     ch, v, vTo: the numbers, or null where nothing was typed }
+	 * → { q: <normalized book query>, ref: 'ch[:v[-[ch:]v]]' or '',
+	 *     ch, v, vTo: the numbers, or null where nothing was typed,
+	 *     chTo: the chapter a range ENDS in, null when it stays in one }
 	 * The separator does not matter — ":" and "," are the same citation, and
 	 * "-" opens a range — because that is what the shared grammar says.
+	 * A range END is a CHAPTER only when a verse of its own follows it
+	 * ("18:1-19:42"); a lone number is a verse of the chapter already named
+	 * ("24:13-35"). One rule, written once, in the pattern PHP hands over.
 	 */
 	function parse(raw) {
 		var s = (raw || '').trim();
 		var m = CITATION.exec(s);
+		var none = { q: norm(s), ref: '', ch: null, v: null, vTo: null, chTo: null };
 		if (m && norm(m[1])) {
 			// A range-END with no range-START ("John 3:-5") is malformed, not
 			// a whole-chapter citation: mirrors the same guard in PHP's
 			// parse_query() (quality loop tick 218) so the suggestion row
 			// never silently drops the "-5" and offers the whole chapter.
-			if (m[4] && !m[3]) {
-				return { q: norm(s), ref: '', ch: null, v: null, vTo: null };
+			if (m[5] && !m[4]) {
+				return none;
 			}
 			var ref = m[2];
-			if (m[3]) { ref += ':' + m[3] + (m[4] ? '-' + m[4] : ''); }
+			if (m[4]) { ref += ':' + m[4] + (m[5] ? '-' + (m[6] ? m[5] + ':' + m[6] : m[5]) : ''); }
 			return {
 				q: norm(m[1]),
 				ref: ref,
 				ch: m[2] ? parseInt(m[2], 10) : null,
-				v: m[3] ? parseInt(m[3], 10) : null,
-				vTo: m[4] ? parseInt(m[4], 10) : null
+				v: m[4] ? parseInt(m[4], 10) : null,
+				// With group 6 present, group 5 was the end CHAPTER and 6 the
+				// end verse; without it, group 5 was the end verse itself.
+				vTo: m[5] ? parseInt(m[6] || m[5], 10) : null,
+				chTo: m[6] ? parseInt(m[5], 10) : null
 			};
 		}
-		return { q: norm(s), ref: '', ch: null, v: null, vTo: null };
+		return none;
 	}
 
 	/** Does this normalized query PREFIX any of these space-separated tokens? */
@@ -105,6 +113,15 @@
 		if (p.v === null || !n) { return true; }
 		if (p.v < 1 || p.v > n) { return false; }
 		if (p.vTo === null) { return true; }
+		// A range that crosses a boundary is judged against the chapter it
+		// ENDS in — "Jn 18:1-19:42" asks nothing of chapter 18's length past
+		// verse 1 — so a book without that chapter is ruled out, and one with
+		// it is kept even though 42 is more verses than chapter 18 may have.
+		if (p.chTo !== null) {
+			if (p.chTo > verses.length) { return false; }
+			var last = verses[p.chTo - 1];
+			return !last || p.vTo <= last;
+		}
 		return p.vTo <= n;
 	}
 
@@ -123,13 +140,26 @@
 	 */
 	function fit(verses, p) {
 		if (p.ch === null) { return ''; }
-		if (!verses || !verses.length) { return p.ref; }
+		// A book we have no lengths for is trusted — except for a cross-chapter
+		// range, which is no page's address at all, so it is cut back to where
+		// the passage starts (the PHP twin does the same).
+		if (!verses || !verses.length) {
+			if (p.chTo === null) { return p.ref; }
+			return p.v === null ? String(p.ch) : p.ch + ':' + p.v;
+		}
 		if (p.ch < 1 || p.ch > verses.length) { return ''; }
 
 		var n = verses[p.ch - 1];
 		if (p.v === null || !n) { return String(p.ch); }
 		if (p.v < 1 || p.v > n) { return String(p.ch); }
-		if (p.vTo === null || p.vTo > n || p.vTo < p.v) { return p.ch + ':' + p.v; }
+		// A page here renders ONE chapter, so a range that crosses a boundary
+		// is followed as far as a page goes: the tail of the chapter it starts
+		// in. The whole passage, assembled, is /bible-ref.json's answer. The
+		// PHP twin is class-dwbible-router.php → fit_reference_to_book().
+		if (p.chTo !== null) { return p.v < n ? p.ch + ':' + p.v + '-' + n : p.ch + ':' + p.v; }
+		// "<=", not "<": a range ending where it starts is that verse, and the
+		// address carries the dash only when it buys one.
+		if (p.vTo === null || p.vTo > n || p.vTo <= p.v) { return p.ch + ':' + p.v; }
 		return p.ch + ':' + p.v + '-' + p.vTo;
 	}
 

@@ -513,28 +513,46 @@ trait DwBible_Router_Trait {
      * book, and a half-finished range end is dropped. Two runtimes, one rule —
      * so what a reader is shown while typing is where they land on Enter.
      *
+     * A CROSS-CHAPTER range is followed as far as this surface goes. An HTML
+     * page here renders ONE chapter (render_book() extracts it), so
+     * "Mt 26:36-27:60" lands on Matthaeus 26:36 to the end of that chapter —
+     * where the passage begins, with the next chapter one link away. The whole
+     * passage, assembled, is /bible-ref.json's answer, not a page's.
+     *
      * @param string $key The book's canonical key.
-     * @param string $ref 'ch[:v[-v]]' as typed ('' for none).
+     * @param string $ref 'ch[:v[-[ch:]v]]' as typed ('' for none).
      * @return string The ref to follow, '' for "just the book".
      */
     private static function fit_reference_to_book($key, $ref) {
-        if ( ! is_string($ref) || $ref === '' ) { return ''; }
-        if ( ! preg_match('/^(\d+)(?::(\d+)(?:-(\d+))?)?$/', $ref, $m) ) { return ''; }
+        $p = DwBible_Reference::parse_ref($ref);
+        if ( $p === null ) { return ''; }
 
-        $ch = (int) $m[1];
-        $v  = isset($m[2]) && $m[2] !== '' ? (int) $m[2] : null;
-        $vt = isset($m[3]) && $m[3] !== '' ? (int) $m[3] : null;
+        $ch = $p['ch'];
+        $v  = $p['verseGiven'] ? $p['vf'] : null;
+        // A range end equal to its start is that verse, not a range: parse_ref()
+        // reports vt = vf when no end was written, and "3:16-16" says the same
+        // thing as "3:16" — the canonical address carries the dash only when it
+        // buys a verse.
+        $vt = ( $v !== null && $p['vt'] > $v ) ? $p['vt'] : null;
 
         $counts = DwBible_Plugin::verse_counts_by_book();
         $book   = isset($counts[$key]) ? $counts[$key] : [];
 
-        // A book we have no lengths for is trusted, exactly as in the browser.
-        if ( ! $book ) { return $ref; }
+        // A book we have no lengths for is trusted, exactly as in the browser —
+        // except for a cross-chapter range, which is no page's address at all,
+        // so it is cut back to where the passage starts.
+        if ( ! $book ) {
+            if ( $p['chTo'] <= $ch ) { return $ref; }
+            return $v !== null ? $ch . ':' . $v : (string) $ch;
+        }
         if ( $ch < 1 || $ch > count($book) ) { return ''; }
 
         $n = (int) $book[$ch - 1];
         if ( $v === null || $n <= 0 ) { return (string) $ch; }
         if ( $v < 1 || $v > $n ) { return (string) $ch; }
+        // Past this chapter's end — because the range ends in a LATER chapter, or
+        // simply runs over — the page can show the tail of this one and no more.
+        if ( $p['chTo'] > $ch ) { return $v < $n ? $ch . ':' . $v . '-' . $n : $ch . ':' . $v; }
         if ( $vt === null || $vt > $n || $vt < $v ) { return $ch . ':' . $v; }
         return $ch . ':' . $v . '-' . $vt;
     }

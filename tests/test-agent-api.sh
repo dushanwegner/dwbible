@@ -346,11 +346,13 @@ ok "$([ "$(probe "$U" "d['_meta']['total'] > 0")" = "True" ] && echo 1 || echo 0
 
 echo
 echo "a citation whose BOOK is fine but whose range is not blames the range, not the book:"
-# The grammar is anchored, so "Mt 5:1-7:29" used to parse as the book name
-# "Mt 5:1-7:" and 404 with "no book could be recognised" — while the same
-# message listed "Mt" as a supported abbreviation.
-U="${BASE}/bible-ref.json?q=Mt+5:1-7:29&lang=la"
-ok "$([ "$(code "$U")" = "400" ] && echo 1 || echo 0)" "a cross-chapter range answers 400, not 404"
+# The grammar is anchored, so a citation it cannot read parses as a book NAME
+# with the numbers glued on ("Mt 5.1-") and 404'd with "no book could be
+# recognised" — while the same message listed "Mt" as a supported abbreviation.
+# "Mt 5.1-7.29" is the shape that still cannot be read: "." between two digits
+# is the verse-list separator here, so it is not a range (dwbible issue 21).
+U="${BASE}/bible-ref.json?q=Mt+5.1-7.29&lang=la"
+ok "$([ "$(code "$U")" = "400" ] && echo 1 || echo 0)" "an unreadable range answers 400, not 404"
 ok "$([ "$(probe "$U" "d['error']")" = "CITATION_NOT_UNDERSTOOD" ] && echo 1 || echo 0)" "…as CITATION_NOT_UNDERSTOOD"
 ok "$([ "$(probe "$U" "d['book']['key']")" = "matthew" ] && echo 1 || echo 0)" "…and it names the book it DID recognise"
 
@@ -544,10 +546,69 @@ ok "$([ "$(code "${BASE}/bible-search.json?q=Deus&_=12345")" = "200" ] && [ "$(c
 ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5,1-12a" "d['ref']['book']['key'], d['ref']['chapter'], d['ref']['verseFrom'], d['ref']['verseTo']")" = "('matthew', 5, 1, 12)" ] && echo 1 || echo 0)" "a half-verse letter (Mt 5,1-12a) is read as the whole verse"
 ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5,1-12a" "'12a' in (d['_meta']['readAs'] or '')")" = "True" ] && echo 1 || echo 0)" "…and readAs names the letter it did not divide"
 ok "$([ "$(probe "${BASE}/bible-ref.json?q=Joh+3,16f" "d['ref']['chapter'], d['ref']['verseFrom'], d['ref']['verseTo'], '16f' in (d['_meta']['readAs'] or '')")" = "(3, 16, 17, True)" ] && echo 1 || echo 0)" "German 'f.' (Joh 3,16f) is read as the verse and the next, and says so"
-ok "$([ "$(probe "${BASE}/bible-ref.json?q=Joh+3,16ff" "'ff' in d.get('suggestion','') and 'ONE chapter' not in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "'ff.' is refused with advice about ff, not about chapters"
-ok "$([ "$(probe "${BASE}/bible-ref.json?q=Joh+3,16.18" "'several' in d.get('suggestion','') and 'ONE chapter' not in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "a verse list (Joh 3,16.18) is refused as several passages"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Joh+3,16ff" "'ff' in d.get('suggestion','') and 'cross-chapter' not in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "'ff.' is refused with advice about ff, not about chapters"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Joh+3,16.18" "'several' in d.get('suggestion','') and 'cross-chapter' not in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "a verse list (Joh 3,16.18) is refused as several passages"
 ok "$([ "$(probe "${BASE}/bible-ref.json?q=Joh+3+16" "'separator' in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "a missing chapter:verse separator (Joh 3 16) is named as such"
-ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5:1-7:29" "'ONE chapter' in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "…while a real cross-chapter range keeps the one-chapter advice"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5:1-7:29&lang=la" "d['ref']['citation']['en']")" = "Matthew 5:1-7:29" ] && echo 1 || echo 0)" "…while a real cross-chapter range is now READ, not refused"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5.1-7.29" "'cross-chapter' in d.get('suggestion','') and '\":\"' in d.get('suggestion','')")" = "True" ] && echo 1 || echo 0)" "…and the one written with \".\" is told which punctuation to use"
+
+echo
+echo "A RANGE MAY CROSS A CHAPTER BOUNDARY (dwbible issue 21) — three of the four Holy Week"
+echo "Passions were truncated at the break, each stopping before the crucifixion, because the"
+echo "lectionary could not express the reading:"
+# The passage is ASSEMBLED out of the per-chapter files: the tail of the first,
+# all of every middle chapter, the head of the last. Verse counts are the Latin
+# spine's: Mt 26 has 75 verses (36-75 = 40) + 27:1-60 = 100; Mk 14 has 72
+# (32-72 = 41) + 15:1-46 = 87; Lk 22 has 71 (39-71 = 33) + 23:1-53 = 86;
+# Jn 18 has 40 (1-40) + 19:1-42 = 82; Gen 1 has 31 + 2:1-3 = 34.
+while IFS='|' read -r q key cite n; do
+  [ -z "$q" ] && continue
+  U="${BASE}/bible-ref.json?q=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$q")&lang=la"
+  ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "\"$q\" answers 200"
+  ok "$([ "$(probe "$U" "d['ref']['book']['key']")" = "$key" ] && echo 1 || echo 0)" "…resolves to $key"
+  ok "$([ "$(probe "$U" "d['ref']['citation']['la']")" = "$cite" ] && echo 1 || echo 0)" "…cited as the source prints it: $cite"
+  ok "$([ "$(probe "$U" "len(d['passages']['la']['verses'])")" = "$n" ] && echo 1 || echo 0)" "…and carries all $n verses, both chapters"
+done <<'PASSIONS'
+Mt 26:36-27:60|matthew|Matthaeus 26:36-27:60|100
+Mk 14:32-15:46|mark|Marcus 14:32-15:46|87
+Luke 22:39-23:53|luke|Lucas 22:39-23:53|86
+Jn 18:1-19:42|john|Ioannes 18:1-19:42|82
+Gen 1:1-2:3|genesis|Genesis 1:1-2:3|34
+PASSIONS
+
+# The chapter boundary itself: the last verse of the first chapter is followed by
+# verse 1 of the next, with nothing missing and nothing repeated. Every verse
+# carries its chapter, because "5" alone is not an address across two of them.
+U="${BASE}/bible-ref.json?q=Jn+18:1-19:42&lang=la"
+ok "$([ "$(probe "$U" "[(v['chapter'], v['verse']) for v in d['passages']['la']['verses']][39:41]")" = "[(18, 40), (19, 1)]" ] && echo 1 || echo 0)" "the seam is continuous: 18:40 then 19:1"
+ok "$([ "$(probe "$U" "d['ref']['chapter'], d['ref']['chapterTo'], d['ref']['verseFrom'], d['ref']['verseTo']")" = "(18, 19, 1, 42)" ] && echo 1 || echo 0)" "chapterTo names the chapter it ends in"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Gal+3:28" "d['ref']['chapterTo']")" = "None" ] && echo 1 || echo 0)" "…and stays null for a passage inside one chapter"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Gal+3:28&lang=la" "'chapter' in d['passages']['la']['verses'][0]")" = "False" ] && echo 1 || echo 0)" "…where the verses carry no chapter field either"
+# The Latin/German comma convention, used at BOTH ends, reads the same passage.
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Io+18,1-19,42&lang=la" "d['ref']['citation']['la'], len(d['passages']['la']['verses'])")" = "('Ioannes 18:1-19:42', 82)" ] && echo 1 || echo 0)" "\"Io 18,1-19,42\" is the same reading"
+# The links: this site addresses a passage by ONE chapter, so they open the first
+# part of it — and readAs says so rather than letting a reader assume otherwise.
+ok "$([ "$(probe "$U" "d['urls']['html']['en']")" = "${BASE}/en/biblia/ioannes/18:1-40/" ] && echo 1 || echo 0)" "the page link opens the part in chapter 18"
+ok "$([ "$(probe "$U" "'the rest is in chapter 19' in (d['_meta']['readAs'] or '')")" = "True" ] && echo 1 || echo 0)" "…and readAs says where the rest is"
+# A range past the end of the LAST chapter is clamped and said, exactly as an
+# over-long range inside one chapter always has been.
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Jn+18:1-19:99&lang=la" "d['ref']['verseTo'], 'chapter 19 ends at verse 42' in (d['_meta']['readAs'] or '')")" = "(42, True)" ] && echo 1 || echo 0)" "an over-long cross-chapter range is clamped, and readAs names the clamp"
+
+echo
+echo "…but a citation may not stand in for \"read me the book\":"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Gen+1:1-50:26" "d['error']")" = "RANGE_TOO_LONG" ] && echo 1 || echo 0)" "Gen 1:1-50:26 (fifty chapters) is refused by name"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Gen+1:1-50:26" "'50 chapters' in d['message'] and 'at most 5' in d['message']")" = "True" ] && echo 1 || echo 0)" "…and the refusal says how many it asked for and how many are allowed"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Gen+1:1-6:22" "d['error']")" = "RANGE_TOO_LONG" ] && echo 1 || echo 0)" "six chapters is over the ceiling"
+ok "$([ "$(code "${BASE}/bible-ref.json?q=Gen+1:1-5:1")" = "200" ] && echo 1 || echo 0)" "…and five is not"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Jn+19:42-18:1" "d['error']")" = "RANGE_REVERSED" ] && echo 1 || echo 0)" "chapters the wrong way round are refused, not answered empty"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Jn+18:1-99:42" "d['error'], 'has 21 chapters' in d['suggestion']")" = "('CHAPTER_NOT_FOUND', True)" ] && echo 1 || echo 0)" "an end chapter the book has not got is named as such, not as a long span"
+# "0" is a falsy STRING — the trap this codebase uses isset()+!=='' for. A range
+# END of 0 used to come back well-formed and carrying nothing at all.
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=John+3:16-4:0" "d['error']")" = "VERSE_NOT_FOUND" ] && echo 1 || echo 0)" "a range-end verse of 0 is refused, not answered with an empty passage"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=John+3:16-0" "d['error']")" = "VERSE_NOT_FOUND" ] && echo 1 || echo 0)" "…and so is a same-chapter range-end of 0"
+# A BARE chapter range stays AMBIGUOUS_RANGE: "Mt 5-7" could be three chapters
+# or three verses of one, and guessing is how a reader is handed the wrong text.
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5-7" "d['error']")" = "AMBIGUOUS_RANGE" ] && echo 1 || echo 0)" "a bare chapter range is still refused as ambiguous"
 
 # A numbered book as a German, French or Spanish reader writes it: digit, SPACE,
 # abbreviation — "1 Kor 13,4" is how the Einheitsübersetzung prints it, "1 Co 13,4"

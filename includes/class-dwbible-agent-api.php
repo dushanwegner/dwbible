@@ -533,12 +533,17 @@ trait DwBible_Agent_API_Trait {
     }
 
     /**
-     * The verse half of a citation: "", ":28", ":12-13" or ":1, 2, 9".
+     * The verse half of a citation: "", ":28", ":12-13", ":1, 2, 9" — or, for a
+     * range that crosses a boundary, ":1-19:42", so the whole reads
+     * "Ioannes 18:1-19:42": ONE citation, the way the lectionary prints it.
+     * Two citations would make the reader work out that they are one passage.
+     *
      * A list is printed BACK as a list — collapsing "112:1, 2, 9" to "112:1-9"
      * would cite six verses the reader never asked for.
      */
-    private static function agent_verse_ref( int $vf, int $vt, ?array $spans ): string {
+    private static function agent_verse_ref( int $vf, int $vt, ?array $spans, int $ch = 0, int $ch_to = 0 ): string {
         if ( $vf <= 0 ) { return ''; }
+        if ( $ch > 0 && $ch_to > $ch ) { return ':' . $vf . '-' . $ch_to . ':' . $vt; }
         if ( $spans === null ) { return ':' . $vf . ( $vt > $vf ? '-' . $vt : '' ); }
         return ':' . self::agent_verse_list_string( $spans );
     }
@@ -574,39 +579,77 @@ trait DwBible_Agent_API_Trait {
 
     // ── Passage loading ─────────────────────────────────────────────────────
 
+    /** One chapter file of one dataset, decoded; null when it is missing or empty. */
+    private static function agent_chapter_file( string $dataset, string $key, int $ch ): ?array {
+        $file = dwbible_data_dir() . $dataset . '/json/' . $key . '/' . $ch . '.json';
+        if ( ! file_exists( $file ) ) { return null; }
+        $data = json_decode( (string) file_get_contents( $file ), true );
+        if ( ! is_array( $data ) || empty( $data['verses'] ) ) { return null; }
+        return $data;
+    }
+
     /**
-     * The verses of one passage in one dataset, from the chapter file.
+     * The verses of one passage in one dataset, from the chapter file(s).
+     *
+     * A passage that CROSSES A CHAPTER BOUNDARY is ASSEMBLED, not looked up: the
+     * data is one file per chapter, so "Ioannes 18:1-19:42" is the TAIL of
+     * chapter 18 (verse 1 to its end), the WHOLE of every chapter between, and
+     * the HEAD of chapter 19 (verse 1 to 42). No file holds it; three reads and
+     * one list do.
+     *
+     * A chapter this dataset has not got makes the WHOLE passage unreadable
+     * here, and the language is dropped from the answer rather than served half
+     * a Passion with nothing saying so — the caller turns "no language could
+     * read it" into PASSAGE_UNAVAILABLE.
      *
      * @param ?array $spans A comma list's verse spans, [[from,to],…]; null for the
      *                      ordinary continuous $vf-$vt range. A verse is kept when
      *                      it falls in ANY span, so the chapter's own order and
      *                      uniqueness carry over free even if the spans overlap.
+     *                      A list never crosses a chapter, so it is read as before.
+     * @param int    $ch_to The chapter the passage ends in; 0 or $ch for one chapter.
      * @return array{translation:array,book:array,verses:array,total:int}|null
      */
-    private static function agent_load_passage( string $dataset, string $key, int $ch, int $vf, int $vt, ?array $spans = null ): ?array {
-        $file = dwbible_data_dir() . $dataset . '/json/' . $key . '/' . $ch . '.json';
-        if ( ! file_exists( $file ) ) { return null; }
-        $data = json_decode( (string) file_get_contents( $file ), true );
-        if ( ! is_array( $data ) || empty( $data['verses'] ) ) { return null; }
-        $out = [];
-        foreach ( $data['verses'] as $v ) {
-            $n = (int) $v['verse'];
-            if ( $spans !== null ) {
-                $wanted = false;
-                foreach ( $spans as $s ) {
-                    if ( $n >= $s[0] && $n <= $s[1] ) { $wanted = true; break; }
+    private static function agent_load_passage( string $dataset, string $key, int $ch, int $vf, int $vt, ?array $spans = null, int $ch_to = 0 ): ?array {
+        $last  = $ch_to > $ch ? $ch_to : $ch;
+        $out   = [];
+        $total = 0;
+        $meta  = null;
+        for ( $c = $ch; $c <= $last; $c++ ) {
+            $data = self::agent_chapter_file( $dataset, $key, $c );
+            if ( $data === null ) { return null; }
+            if ( $meta === null ) { $meta = $data['_meta'] ?? []; }
+            $total += count( $data['verses'] );
+            // Which verses of THIS chapter the passage holds. A middle chapter
+            // is taken whole; PHP_INT_MAX is "to the end of it", so no chapter
+            // length has to be looked up here.
+            $from = ( $c === $ch )   ? $vf : 1;
+            $to   = ( $c === $last ) ? $vt : PHP_INT_MAX;
+            foreach ( $data['verses'] as $v ) {
+                $n = (int) $v['verse'];
+                if ( $spans !== null ) {
+                    $wanted = false;
+                    foreach ( $spans as $s ) {
+                        if ( $n >= $s[0] && $n <= $s[1] ) { $wanted = true; break; }
+                    }
+                    if ( ! $wanted ) { continue; }
+                } elseif ( $from > 0 && ( $n < $from || $n > $to ) ) {
+                    continue;
                 }
-                if ( ! $wanted ) { continue; }
-            } elseif ( $vf > 0 && ( $n < $vf || $n > $vt ) ) {
-                continue;
+                $verse = [ 'verse' => $n, 'text' => (string) $v['text'] ];
+                // A bare verse number stops being an address once a passage
+                // holds two chapters — 18:5 and 19:5 are both "5". Each verse
+                // carries its chapter THEN AND ONLY THEN, so nothing reading an
+                // ordinary within-chapter answer meets a field it has never seen.
+                if ( $last > $ch ) { $verse = [ 'chapter' => $c ] + $verse; }
+                $out[] = $verse;
             }
-            $out[] = [ 'verse' => $n, 'text' => (string) $v['text'] ];
         }
         return [
-            'translation' => $data['_meta']['translation'] ?? [],
-            'book'        => $data['_meta']['book'] ?? [],
+            'translation' => $meta['translation'] ?? [],
+            'book'        => $meta['book'] ?? [],
             'verses'      => $out,
-            'total'       => count( $data['verses'] ),
+            'total'       => $total,
         ];
     }
 
@@ -695,6 +738,10 @@ trait DwBible_Agent_API_Trait {
      *              "Psalm 23", "Jn" — any book form the site's HTML router accepts
      *              (Latin, English, German, Spanish, French, Italian names and the
      *              usual abbreviations), chapter:verse or chapter,verse, ranges.
+     *              A range may cross a chapter boundary — "Ioannes 18:1-19:42",
+     *              the Good Friday Passion — up to
+     *              DwBible_Reference::MAX_CHAPTER_SPAN chapters; the passage is
+     *              assembled out of the chapter files and cited as one.
      *   lang       comma list of languages/datasets to return TEXT for
      *              (default "la,en"; "all" for all six). URLs come for all six always.
      *   numbering  "hebrew" to read a Psalm number as Masoretic (default vulgate).
@@ -757,12 +804,13 @@ trait DwBible_Agent_API_Trait {
 
         if ( $key === null ) {
             // BLAME THE RIGHT HALF. The shared citation grammar is anchored at
-            // both ends, so a cross-chapter range like "Mt 5:1-7:29" parses as
-            // the BOOK NAME "Mt 5:1-7:" and then fails the book lookup — and
-            // the refusal then said no book could be recognised while listing
-            // "Mt" as a supported abbreviation in the same sentence. A model
-            // reading that retries book spellings forever, because the message
-            // points at the one part of the query that was already correct.
+            // both ends, so a citation it cannot read — "Joh 3,16.18", a list of
+            // separate passages — parses as the BOOK NAME "Joh 3," and then
+            // fails the book LOOKUP, and the refusal said no book could be
+            // recognised while listing "Joh" as a supported abbreviation in the
+            // same sentence. A model reading that retries book spellings
+            // forever, because the message points at the one part of the query
+            // that was already correct.
             $head = null;
             // The leading (?:[1-4]\s*)? is load-bearing: a third of the books
             // in this canon START with a digit — "1 Cor", "2 Pet", "3 Kings",
@@ -793,7 +841,9 @@ trait DwBible_Agent_API_Trait {
         $chapters = isset( $counts[ $key ] ) ? count( $counts[ $key ] ) : 0;
         $en_name  = self::agent_book_names_table()[ $key ]['en'] ?? $key;
 
-        $ch = 0; $vf = 0; $vt = 0; $read_as = null;
+        // $ch_to is the chapter the passage ENDS in. It equals $ch for everything
+        // but a cross-chapter range, so every check below reads as it always did.
+        $ch = 0; $vf = 0; $vt = 0; $ch_to = 0; $read_as = null;
         if ( $verse_spans !== null ) {
             // $vf/$vt are the SPAN THAT CONTAINS the list. Every existence check,
             // shim and URL below is written for one continuous range and keeps
@@ -802,6 +852,7 @@ trait DwBible_Agent_API_Trait {
             $ch = $list_chapter;
             $vf = min( array_column( $verse_spans, 0 ) );
             $vt = max( array_column( $verse_spans, 1 ) );
+            $ch_to = $ch;
         } elseif ( $bare_range !== null ) {
             $single = self::agent_single_chapter_verses( $chapters, $bare_range[0], $bare_range[1], $en_name );
             if ( $single === null ) {
@@ -819,11 +870,16 @@ trait DwBible_Agent_API_Trait {
                 ] );
             }
             $ch = $single['chapter']; $vf = $single['from']; $vt = $single['to']; $read_as = $single['note'];
-        } elseif ( $parsed['ref'] !== '' && preg_match( '/^(\d+)(?::(\d+)(?:-(\d+))?)?$/', $parsed['ref'], $m ) ) {
-            $ch          = (int) $m[1];
-            $verse_given = isset( $m[2] ) && $m[2] !== '';
-            $vf          = $verse_given ? (int) $m[2] : 0;
-            $vt          = isset( $m[3] ) && $m[3] !== '' ? (int) $m[3] : $vf;
+            $ch_to = $ch;
+        } elseif ( $parsed['ref'] !== '' && ( $r = DwBible_Reference::parse_ref( $parsed['ref'] ) ) !== null ) {
+            // One parser for the canonical ref string, shared with the router's
+            // `?q=` resolver — including the rule that tells a range-end CHAPTER
+            // ("18:1-19:42") from a range-end VERSE ("24:13-35").
+            $ch          = $r['ch'];
+            $verse_given = $r['verseGiven'];
+            $vf          = $r['vf'];
+            $vt          = $r['vt'];
+            $ch_to       = $r['chTo'];
 
             // A chapter or verse of "0" is never a real address — every book
             // and every chapter starts at 1 — but every existence check below
@@ -832,11 +888,39 @@ trait DwBible_Agent_API_Trait {
             // them unnoticed and come back as the whole book (chapter 0) or
             // the whole chapter (verse 0) instead of refused (quality loop
             // tick 200: "Ps 0:1" answered 200 with no chapter and no text;
-            // "Genesis 1:0" answered 200 with the whole of chapter 1).
-            if ( $ch === 0 || ( $verse_given && $vf === 0 ) ) {
-                self::agent_error( 404, $ch === 0 ? 'CHAPTER_NOT_FOUND' : 'VERSE_NOT_FOUND',
-                    $ch === 0 ? "There is no chapter 0 in \"{$raw}\"." : "There is no verse 0 in \"{$raw}\".",
+            // "Genesis 1:0" answered 200 with the whole of chapter 1). The
+            // range END has the same two zeros — "John 3:16-4:0" came back
+            // well-formed and EMPTY, because the verse filter kept nothing.
+            $zero_chapter = ( $ch === 0 || $ch_to === 0 );
+            if ( $zero_chapter || ( $verse_given && ( $vf === 0 || $vt === 0 ) ) ) {
+                self::agent_error( 404, $zero_chapter ? 'CHAPTER_NOT_FOUND' : 'VERSE_NOT_FOUND',
+                    $zero_chapter ? "There is no chapter 0 in \"{$raw}\"." : "There is no verse 0 in \"{$raw}\".",
                     [ 'suggestion' => 'Chapters and verses are numbered from 1.' ] );
+            }
+
+            // The chapter a cross-chapter range ENDS in has to exist. Asked
+            // BEFORE the ceiling below, so "Jn 18:1-99:42" is told that chapter
+            // 99 is not there rather than that 82 chapters are too many — and is
+            // never advised to ask for a chapter this book has not got.
+            if ( $ch_to > $ch && $chapters > 0 && $ch_to > $chapters ) {
+                self::agent_error( 404, 'CHAPTER_NOT_FOUND', "Chapter {$ch_to} does not exist in this book.", [
+                    'suggestion' => "This book has {$chapters} chapters.",
+                    'bookIndex'  => self::agent_json_url( 'latin', $key ),
+                ] );
+            }
+
+            // THE SPAN CEILING. A citation may cross a chapter boundary; it may
+            // not stand in for "read me the book". See
+            // DwBible_Reference::MAX_CHAPTER_SPAN for why the number is five.
+            if ( $ch_to - $ch + 1 > DwBible_Reference::MAX_CHAPTER_SPAN ) {
+                $span = $ch_to - $ch + 1;
+                self::agent_error( 400, 'RANGE_TOO_LONG',
+                    "\"{$raw}\" spans {$span} chapters; one citation reads at most " . DwBible_Reference::MAX_CHAPTER_SPAN . '.',
+                    [
+                        'suggestion' => 'A range may cross a chapter boundary — "' . $en_name . ' ' . $ch . ':' . $vf . '-'
+                                      . ( $ch + DwBible_Reference::MAX_CHAPTER_SPAN - 1 ) . ':…" reads in one request. Beyond that, ask for each part: '
+                                      . "\"{$en_name} {$ch}\" to \"{$en_name} {$ch_to}\", one chapter at a time.",
+                    ] );
             }
 
             // "Jude 3" — a bare number on a one-chapter book is its VERSE.
@@ -844,13 +928,20 @@ trait DwBible_Agent_API_Trait {
                 $single = self::agent_single_chapter_verses( $chapters, $ch, 0, $en_name );
                 if ( $single !== null ) {
                     $ch = $single['chapter']; $vf = $single['from']; $vt = $single['to']; $read_as = $single['note'];
+                    $ch_to = $ch;
                 }
             }
         }
 
         // Malachias 4 — a chapter this text does not have, under a number every
         // printed Vulgate uses.
-        $mal = self::agent_malachias_shim( $key, $ch, $vf, $vt );
+        // Only for a passage inside ONE chapter: the shim moves a whole chapter
+        // by a constant delta, and a range that starts or ends outside chapter 4
+        // has no single delta. A cross-chapter range reaching into the printed
+        // "chapter 4" therefore gets no translation and is refused further down
+        // — the dataset has no such chapter file, so nothing can read the
+        // passage and the answer is PASSAGE_UNAVAILABLE, never half of it.
+        $mal = $ch_to === $ch ? self::agent_malachias_shim( $key, $ch, $vf, $vt ) : null;
         if ( $mal !== null ) {
             // A verse list rides along on the same offset. Both shims that move a
             // passage — this one and the Hebrew psalm numbering below — shift every
@@ -859,6 +950,7 @@ trait DwBible_Agent_API_Trait {
             $delta       = $vf > 0 ? $mal['from'] - $vf : 0;
             $verse_spans = self::agent_shift_spans( $verse_spans, $delta );
             $ch = $mal['chapter']; $vf = $mal['from']; $vt = $mal['to']; $read_as = $mal['note'];
+            $ch_to = $ch;
         }
 
         // A RANGE THAT RUNS BACKWARDS IS REFUSED, never answered empty.
@@ -871,16 +963,41 @@ trait DwBible_Agent_API_Trait {
         // which is why every other unservable request here is refused instead.
         // The shared DwBible_Reference::parse_chapter_and_range() has always
         // rejected this; the agent endpoint parses its own range and did not.
-        if ( $vf > 0 && $vt > 0 && $vt < $vf ) {
+        if ( $ch_to === $ch && $vf > 0 && $vt > 0 && $vt < $vf ) {
             self::agent_error( 400, 'RANGE_REVERSED',
                 "\"{$raw}\" asks for verses {$vf} to {$vt}, which runs backwards.",
                 [ 'suggestion' => "A range goes low to high — \"{$ch}:{$vt}-{$vf}\" is probably what was meant." ] );
+        }
+        // The same rule one level up: "Jn 19:42-18:1" names its chapters the
+        // wrong way round, which no clamp can rescue.
+        if ( $ch > 0 && $ch_to > 0 && $ch_to < $ch ) {
+            self::agent_error( 400, 'RANGE_REVERSED',
+                "\"{$raw}\" asks for {$ch}:{$vf} to {$ch_to}:{$vt}, which runs backwards.",
+                [ 'suggestion' => "A range goes low to high — \"{$ch_to}:{$vt}-{$ch}:{$vf}\" is probably what was meant." ] );
         }
 
         // Psalms: the reader may have typed the Hebrew number.
         $numbering  = self::agent_numbering_mode();
         $psalm_meta = null;
-        if ( $key === 'psalms' && $ch > 0 ) {
+        if ( $key === 'psalms' && $ch > 0 && $ch_to > $ch ) {
+            // A CROSS-CHAPTER psalm range converts END BY END. Where the Vulgate
+            // joins or splits a Hebrew psalm the two ends move by different
+            // amounts — Hebrew 116:1 is Vulgate 114:1 while Hebrew 116:19 is
+            // Vulgate 115:10 — so the single delta the within-chapter path below
+            // applies to the whole span cannot carry both. Two conversions, each
+            // with the helper that already knows the offsets.
+            if ( $numbering === 'hebrew' ) {
+                if ( self::psalm_vulgate_for_hebrew( $ch ) === null || self::psalm_vulgate_for_hebrew( $ch_to ) === null ) {
+                    self::agent_error( 404, 'CHAPTER_NOT_FOUND', "There is no Psalm {$ch}.", [ 'suggestion' => 'Psalms run 1-150.' ] );
+                }
+                [ $c1, $f1 ] = self::psalm_vulgate_verse_for_hebrew( $ch, $vf );
+                [ $c2, $t2 ] = self::psalm_vulgate_verse_for_hebrew( $ch_to, $vt );
+                $read_as = self::agent_join_notes( $read_as,
+                    "Hebrew Psalms {$ch}:{$vf}-{$ch_to}:{$vt} were read as Vulgate {$c1}:{$f1}-{$c2}:{$t2}: the Vulgate numbers these psalms differently." );
+                $ch = $c1; $vf = $f1; $ch_to = $c2; $vt = $t2;
+            }
+            $psalm_meta = self::psalm_numbering( $ch );
+        } elseif ( $key === 'psalms' && $ch > 0 ) {
             $pr = self::agent_psalm_request( $ch, $numbering, $vf, $vt );
             if ( $pr === null ) {
                 self::agent_error( 404, 'CHAPTER_NOT_FOUND', "There is no Psalm {$ch}.", [ 'suggestion' => 'Psalms run 1-150.' ] );
@@ -893,6 +1010,7 @@ trait DwBible_Agent_API_Trait {
             }
             $verse_spans = self::agent_shift_spans( $verse_spans, $vf > 0 && $pr['vf'] > 0 ? $pr['vf'] - $vf : 0 );
             $ch         = $pr['chapter'];
+            $ch_to      = $ch;
             $vf         = $pr['vf'];
             $vt         = $pr['vt'];
             $psalm_meta = $pr['meta'];
@@ -909,6 +1027,9 @@ trait DwBible_Agent_API_Trait {
         }
         if ( $vf > 0 && $book_counts && isset( $book_counts[ $ch - 1 ] ) ) {
             $n = (int) $book_counts[ $ch - 1 ];
+            // The verse a range ENDS on belongs to the chapter it ends IN, which
+            // for a cross-chapter range is not the one it started in.
+            $n_end = isset( $book_counts[ $ch_to - 1 ] ) ? (int) $book_counts[ $ch_to - 1 ] : $n;
             if ( $vf > $n ) {
                 // Name the citation the READER typed as well as the verse we
                 // looked for: after a translation ("Mal 4:9" → 3:27) an error
@@ -948,12 +1069,16 @@ trait DwBible_Agent_API_Trait {
                     $read_as = self::agent_join_notes( $read_as, "\"{$raw}\" was read as {$ch}:"
                              . self::agent_verse_list_string( $verse_spans ) . ": this chapter ends at verse {$n}." );
                 }
-            } elseif ( $vt > $n ) {
+            } elseif ( $vt > $n_end ) {
                 // An over-long range is clamped rather than refused — the reader
                 // named a real verse and meant to read to the end — but a clamp
-                // nobody is told about is a silently different passage.
-                $read_as = "\"{$raw}\" was read as {$ch}:{$vf}-{$n}: this chapter ends at verse {$n}.";
-                $vt = $n;
+                // nobody is told about is a silently different passage. The same
+                // sentence serves a cross-chapter range; only the chapter it
+                // names changes, because that is the chapter that ran out.
+                $read_as = $ch_to > $ch
+                    ? "\"{$raw}\" was read as {$ch}:{$vf}-{$ch_to}:{$n_end}: chapter {$ch_to} ends at verse {$n_end}."
+                    : "\"{$raw}\" was read as {$ch}:{$vf}-{$n_end}: this chapter ends at verse {$n_end}.";
+                $vt = $n_end;
             }
         }
 
@@ -978,26 +1103,48 @@ trait DwBible_Agent_API_Trait {
         $clean     = self::agent_typography_mode() === 'clean';
         $site      = site_url();
 
+        // AN ADDRESS HOLDS ONE CHAPTER. A page and a JSON file on this site are
+        // /{book}/{ch}:{v}-{v} — one chapter — so a passage that crosses a
+        // boundary has no address of its own. The links then open the part of it
+        // that lives in the FIRST chapter, and readAs says which part that is and
+        // where the rest is. The same shape as the verse-list note above: the
+        // text is what was asked for, the links are as close as the site can get.
+        $url_vt = $vt;
+        if ( $ch_to > $ch ) {
+            // To the end of the first chapter — or, for a book whose lengths we
+            // do not carry, just the verse the passage starts at. Never $vt: that
+            // would build an address naming verses of the WRONG chapter.
+            $url_vt    = isset( $book_counts[ $ch - 1 ] ) ? (int) $book_counts[ $ch - 1 ] : $vf;
+            $first_cut = $ch . ':' . $vf . ( $url_vt > $vf ? '-' . $url_vt : '' );
+            $read_as   = self::agent_join_notes( $read_as, "\"{$raw}\" runs from {$ch}:{$vf} to {$ch_to}:{$vt}, and the text here is the whole of it. "
+                       . "A passage on this site is addressed by one chapter, so the page and JSON links cover {$first_cut}, the part of it in chapter {$ch}; "
+                       . 'the rest is in ' . ( $ch_to - $ch === 1 ? "chapter {$ch_to}" : 'chapters ' . ( $ch + 1 ) . "-{$ch_to}" )
+                       . '. Every verse below carries the chapter it belongs to.' );
+        }
+
         // Every address the passage has, in every language — the point of this endpoint.
         $urls = [ 'html' => [], 'json' => [] ];
         foreach ( [ 'en', 'de', 'es', 'fr', 'it' ] as $lang ) {
-            $urls['html'][ $lang ] = self::agent_html_url( $lang, $key, $ch, $vf, $vt );
+            $urls['html'][ $lang ] = self::agent_html_url( $lang, $key, $ch, $vf, $url_vt );
         }
         foreach ( $by_lang as $lang => $ds ) {
-            $urls['json'][ $lang ] = self::agent_json_url( $ds, $key, $ch, $vf, $vt );
+            $urls['json'][ $lang ] = self::agent_json_url( $ds, $key, $ch, $vf, $url_vt );
         }
 
         $citations = [];
         foreach ( $book['names'] as $lang => $name ) {
             $cite = $ch > 0 ? self::agent_cite_name( $key, (string) $lang, (string) $name ) : (string) $name;
-            $citations[ $lang ] = $cite . ( $ch > 0 ? ' ' . $ch . self::agent_verse_ref( $vf, $vt, $verse_spans ) : '' );
+            // Cited AS THE SOURCE PRINTS IT — "Ioannes 18:1-19:42", one citation,
+            // never two — because that is the reading, and a reader handed two
+            // citations has to work out for themselves that they are one passage.
+            $citations[ $lang ] = $cite . ( $ch > 0 ? ' ' . $ch . self::agent_verse_ref( $vf, $vt, $verse_spans, $ch, $ch_to ) : '' );
         }
 
         $passages = [];
         if ( $ch > 0 ) {
             foreach ( $langs as $ds ) {
                 $lang = array_search( $ds, $by_lang, true );
-                $p    = self::agent_load_passage( $ds, $key, $ch, $vf, $vt, $verse_spans );
+                $p    = self::agent_load_passage( $ds, $key, $ch, $vf, $vt, $verse_spans, $ch_to );
                 if ( $p === null ) { continue; }
                 $texts = [];
                 foreach ( $p['verses'] as &$v ) {
@@ -1024,7 +1171,7 @@ trait DwBible_Agent_API_Trait {
         // from its own memory. Say plainly that it could not be served.
         if ( $ch > 0 && ! $passages ) {
             self::agent_error( 404, 'PASSAGE_UNAVAILABLE', "{$raw} resolved to a passage this server could not read.", [
-                'resolved'   => [ 'book' => $key, 'chapter' => $ch, 'verseFrom' => $vf ?: null, 'verseTo' => $vf ? $vt : null ],
+                'resolved'   => [ 'book' => $key, 'chapter' => $ch, 'chapterTo' => $ch_to > $ch ? $ch_to : null, 'verseFrom' => $vf ?: null, 'verseTo' => $vf ? $vt : null ],
                 'suggestion' => 'The book index lists the chapters this text actually carries: ' . self::agent_json_url( 'latin', $key ),
             ] );
         }
@@ -1039,13 +1186,20 @@ trait DwBible_Agent_API_Trait {
                 'query'      => $raw,
                 'readAs'     => self::agent_join_notes( $printed['note'], $read_as ),
                 'typography' => $clean ? 'clean' : 'source',
-                'usage'      => 'q = any citation form, a comma list of verses in one chapter included ("Ps 112:1, 2, 9"); '
+                'usage'      => 'q = any citation form, a comma list of verses in one chapter ("Ps 112:1, 2, 9") and a range across a chapter boundary '
+                              . '("Ioannes 18:1-19:42", at most ' . DwBible_Reference::MAX_CHAPTER_SPAN . ' chapters) included; '
                               . 'lang = comma list of la,en,de,es,fr,it (or "all") for the text; '
                               . 'numbering=hebrew to read a Psalm number as Masoretic; typography=clean to drop the space before : ; ! ?',
             ],
             'ref' => [
                 'book'         => $book,
                 'chapter'      => $ch > 0 ? $ch : null,
+                // Only a range that CROSSES A BOUNDARY fills this: the chapter
+                // it ends in. null means the passage is inside `chapter`, so a
+                // consumer that has never heard of it still reads every
+                // within-chapter answer correctly — and one that has cannot
+                // mistake verseTo for a verse of the opening chapter.
+                'chapterTo'    => $ch_to > $ch ? $ch_to : null,
                 'verseFrom'    => $vf > 0 ? $vf : null,
                 'verseTo'      => $vf > 0 ? $vt : null,
                 // Only a COMMA LIST fills this: every verse it names, in order.

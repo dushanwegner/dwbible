@@ -1,10 +1,10 @@
 <?php
 /**
  * WHAT:   The citation forms a lectionary, a German Bible or a Latin scholarly
- *         apparatus PRINTS are read or refused by name: half-verse letters and
- *         "f."/"sq." are read (and said so); "ff."/"sqq.", verse lists, a
- *         missing separator and a cross-chapter range each get advice about
- *         THEIR fault.
+ *         apparatus PRINTS are read or refused by name: half-verse letters,
+ *         "f."/"sq." and a range that CROSSES A CHAPTER BOUNDARY are read (and
+ *         said so); "ff."/"sqq.", verse lists, a missing separator and a
+ *         cross-chapter range written with "." each get advice about THEIR fault.
  * WHY:    Every one of these answered 400 with one sentence about keeping a range
  *         inside one chapter — "Mt 5,1-12a", the commonest lectionary form,
  *         included (quality loop tick 110); "sq."/"sqq." (Latin sequens/sequentes,
@@ -38,7 +38,7 @@ function lift_const(string $src, string $name): string {
     return $m[0];
 }
 
-eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' ' . lift_const($src, 'ROMAN_NUMERAL') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' private static ' . lift($src, 'strip_format_chars') . ' private static ' . lift($src, 'strip_wrapping_punctuation') . ' private static ' . lift($src, 'strip_trailing_superscript_footnote') . ' private static ' . lift($src, 'split_printed_locations') . ' private static ' . lift($src, 'normalize_roman_chapter') . ' private static ' . lift($src, 'roman_to_int') . ' }');
+eval('class Ref { ' . lift_const($src, 'CITATION_PATTERN') . ' ' . lift_const($src, 'ROMAN_NUMERAL') . ' ' . lift_const($src, 'MAX_CHAPTER_SPAN') . ' public static ' . lift($src, 'normalize_printed_forms') . ' public static ' . lift($src, 'citation_advice') . ' public static ' . lift($src, 'normalize_unicode_digits') . ' public static ' . lift($src, 'normalize_unicode_punctuation') . ' public static ' . lift($src, 'parse_query') . ' public static ' . lift($src, 'parse_ref') . ' public static ' . lift($src, 'parse_verse_list') . ' private static ' . lift($src, 'strip_format_chars') . ' private static ' . lift($src, 'strip_wrapping_punctuation') . ' private static ' . lift($src, 'strip_trailing_superscript_footnote') . ' private static ' . lift($src, 'split_printed_locations') . ' private static ' . lift($src, 'normalize_roman_chapter') . ' private static ' . lift($src, 'roman_to_int') . ' }');
 
 $pass = 0; $fail = 0;
 function ok(bool $c, string $what): void {
@@ -99,8 +99,11 @@ foreach ([
     ['Joh 3,16-18.21', 'several passages'],
     ['Joh 3,16; 4,1',  'several passages'],
     ['Joh 3 16',       'separator'],
-    ['Mt 5:1-7:29',    'ONE chapter'],
-    ['Mt 5,1-7,29',    'ONE chapter'],
+    // A cross-chapter range written with "." on both sides is the ONE
+    // cross-chapter shape the grammar still refuses: "." between two digits is
+    // this site's German verse-list separator (split_printed_locations()), so
+    // "5.1-7.29" cannot be told apart from a list. The advice names the fix.
+    ['Mt 5.1-7.29',    'cross-chapter'],
     ['Joh 3,16x',      'Write chapter:verse'],
 ] as [$in, $want]) {
     $a = Ref::citation_advice($in, 'John');
@@ -119,7 +122,7 @@ foreach ([
 }
 ok(strpos(Ref::citation_advice('Ps 3:16, 18, 20-21', 'Psalms'), 'a comma list of verses in one chapter') !== false,
    "…but a genuine same-book comma verse-list keeps its own advice");
-ok(strpos(Ref::citation_advice('Joh 3,16ff', 'John'), 'ONE chapter') === false, "…and \"ff.\" is not told about chapters");
+ok(strpos(Ref::citation_advice('Joh 3,16ff', 'John'), 'cross-chapter') === false, "…and \"ff.\" is not told about chapters");
 
 echo "the several-passages advice names the READER'S OWN locations, not a fixed example (quality loop tick 242):\n";
 foreach ([
@@ -178,6 +181,73 @@ $r = Ref::parse_query('John 3:16-18');
 ok($r['name'] === 'John' && $r['ref'] === '3:16-18', 'John 3:16-18 -> range kept');
 $r = Ref::parse_query('John 3:0-5');
 ok($r['name'] === 'John' && $r['ref'] === '3:0-5', 'John 3:0-5 -> "0" verse still read (tick 200), left for the caller to refuse');
+
+echo "a range may CROSS A CHAPTER BOUNDARY (dwbible issue 21) — the form the four Holy Week Passions are printed in, every one of which used to be refused:\n";
+foreach ([
+    ['Mt 26:36-27:60',       'Mt',    '26:36-27:60'],
+    ['Jn 18:1-19:42',        'Jn',    '18:1-19:42'],
+    ['Luke 22:39-23:53',     'Luke',  '22:39-23:53'],
+    ['Mk 14:32-15:46',       'Mk',    '14:32-15:46'],
+    ['Gen 1:1-2:3',          'Gen',   '1:1-2:3'],
+    // The separator convention is the READER'S, and it must be the same one at
+    // both ends: a Latin/German citation writes the comma throughout.
+    ['Io 18,1-19,42',        'Io',    '18:1-19:42'],
+    ["Jn 18:1\u{2013}19:42", 'Jn',    '18:1-19:42'],   // en dash
+    ['Mt 26 : 36 - 27 : 60', 'Mt',    '26:36-27:60'],  // spaced out
+] as [$in, $wantName, $wantRef]) {
+    $r = Ref::parse_query($in);
+    ok($r['name'] === $wantName && $r['ref'] === $wantRef,
+       "\"{$in}\" -> name \"{$r['name']}\", ref \"{$r['ref']}\" (want {$wantName}/{$wantRef})");
+}
+
+echo "…and the forms that must NOT be read as one: the END of a range is a chapter only when it carries a verse of its own, in the SAME separator the citation opened with:\n";
+foreach ([
+    ['Mt 5:1-12',      'Mt',          '5:1-12'],     // within-chapter range, unchanged
+    ['Luke 24:13-35',  'Luke',        '24:13-35'],   // 35 is a VERSE, not chapter 35
+    ['Mt 5-7',         'Mt 5-',       '7'],          // bare chapter range: AMBIGUOUS_RANGE downstream
+    ['John 3:0-5',     'John',        '3:0-5'],      // "0" is read (tick 200), the caller refuses it
+    ['John 3:16-0',    'John',        '3:16-0'],
+    ['John 3:16-4:0',  'John',        '3:16-4:0'],   // a range-end CHAPTER's verse "0" survives too
+    ['Ps 44:11-12, 14','Ps 44:11-',   '12:14'],      // a verse LIST, not 44:11 to 12:14
+    ['Joh 3,16-18.21', 'Joh 3,16-',   '18:21'],      // several passages, not 3:16 to 18:21
+    ['Mt 5.1-7.29',    'Mt 5.1-',     '7:29'],       // "." is the verse-list separator here
+] as [$in, $wantName, $wantRef]) {
+    $r = Ref::parse_query($in);
+    ok($r['name'] === $wantName && $r['ref'] === $wantRef,
+       "\"{$in}\" -> name \"{$r['name']}\", ref \"{$r['ref']}\" (want {$wantName}/{$wantRef})");
+}
+foreach (['John 3:-5', 'Ps 22:-9'] as $in) {
+    $r = Ref::parse_query($in);
+    ok($r['ref'] === '', "\"{$in}\" -> still refused as a range-end with no start (got ref \"{$r['ref']}\")");
+}
+// The comma list the site's own calendar prints must still reach parse_verse_list()
+// intact — the cross-chapter suffix must never swallow its second item.
+$vl = Ref::parse_verse_list('Ps 44:11-12, 14');
+ok($vl !== null && $vl['chapter'] === 44 && $vl['spans'] === [[11, 12], [14, 14]],
+   '"Ps 44:11-12, 14" is still read as chapter 44, verses 11-12 and 14');
+
+echo "the canonical ref string parses back to its four numbers, and an END CHAPTER is told from an END VERSE by whether it carries one:\n";
+foreach ([
+    ['18:1-19:42', ['ch' => 18, 'vf' => 1,  'chTo' => 19, 'vt' => 42, 'verseGiven' => true]],
+    ['24:13-35',   ['ch' => 24, 'vf' => 13, 'chTo' => 24, 'vt' => 35, 'verseGiven' => true]],
+    ['3:16',       ['ch' => 3,  'vf' => 16, 'chTo' => 3,  'vt' => 16, 'verseGiven' => true]],
+    ['3:0-5',      ['ch' => 3,  'vf' => 0,  'chTo' => 3,  'vt' => 5,  'verseGiven' => true]],
+    ['5',          ['ch' => 5,  'vf' => 0,  'chTo' => 5,  'vt' => 0,  'verseGiven' => false]],
+] as [$in, $want]) {
+    ok(Ref::parse_ref($in) === $want, "parse_ref(\"{$in}\") -> " . json_encode(Ref::parse_ref($in)));
+}
+foreach (['', 'John 3:16', '3:16-', 'x'] as $in) {
+    ok(Ref::parse_ref($in) === null, "parse_ref(\"{$in}\") -> null (not a canonical ref)");
+}
+
+echo "the span ceiling — a citation may cross a boundary, it may not ask for a whole book:\n";
+$passions = ['26:36-27:60', '18:1-19:42', '22:39-23:53', '14:32-15:46', '1:1-2:3'];
+foreach ($passions as $ref) {
+    $p = Ref::parse_ref($ref);
+    ok($p['chTo'] - $p['ch'] + 1 <= Ref::MAX_CHAPTER_SPAN, "\"{$ref}\" is within the ceiling of " . Ref::MAX_CHAPTER_SPAN . " chapters");
+}
+$g = Ref::parse_ref('1:1-50:26'); // Gen 1:1-50:26 — the whole book
+ok($g['chTo'] - $g['ch'] + 1 > Ref::MAX_CHAPTER_SPAN, '"1:1-50:26" (the whole of Genesis) is over the ceiling');
 
 echo "a Roman numeral CHAPTER, the Vulgate/Denzinger apparatus's own citation form, is read as its Arabic value (quality loop tick 284):\n";
 foreach ([
