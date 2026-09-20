@@ -316,18 +316,25 @@ class DwBible_OG_Image {
         // the OG image (the verse-toolbar "Image" button).
         $entry = DwBible_Plugin::get_book_entry_by_slug($book_slug);
         if (!$entry) {
-            $key = DwBible_Plugin::key_from_any_book_slug($book_slug);
-            if ($key) { $entry = DwBible_Plugin::get_book_entry_by_slug($key); }
+            $alt = DwBible_Plugin::key_from_any_book_slug($book_slug);
+            if ($alt) { $entry = DwBible_Plugin::get_book_entry_by_slug($alt); }
         }
-        if (!$entry) { status_header(404); exit; }
 
-        // Internal book key (works whether or not the direct entry lookup hit above).
+        // The entry may legitimately be missing, and REFUSING on that was the bug behind issue 65:
+        // it is the LEGACY HTML index, which is empty for the interlinear combo datasets. A
+        // /{lang}/ verse URL resolves to such a combo, so every prefixed verse — that is, every
+        // verse a reader can actually reach — answered its own picture with a 404. The picture is
+        // drawn from the JSON datasets below, keyed by $key; the entry only feeds the legacy text
+        // fallback and the book label, both of which cope with null. The honest gate is "is there
+        // any text to draw", and it is already below.
         $key = DwBible_Plugin::key_from_any_book_slug($book_slug);
         if (!$key) { $key = DwBible_Plugin::slugify($book_slug); }
+        if (!is_string($key) || $key === '') { status_header(404); exit; }
 
-        // Page language: dwi18n peeled the /{lang}/ prefix before this request (OG requests keep
-        // their prefix — they're excluded from the combo-slug swap, not from prefix handling), so
-        // dwi18n_current() is the reader's language. It selects the vernacular edition under the Latin.
+        // Page language: dwi18n peeled the /{lang}/ prefix before this request and swapped in the
+        // combo for it, exactly as it does for the page itself — a picture OF a page resolves as
+        // that page does. So dwi18n_current() is the reader's language, and it selects the
+        // vernacular edition set under the Latin.
         $lang = function_exists('dwi18n_current') ? dwi18n_current() : 'en';
         if (!is_string($lang) || $lang === '') { $lang = 'en'; }
 
@@ -348,10 +355,13 @@ class DwBible_OG_Image {
         }
         if ($latin_text === '' && $text === '') { status_header(404); exit; }
 
-        // Reference: localized book name from whichever edition we have, else the index label.
+        // Reference: localized book name from whichever edition we have, else the index label —
+        // and with no index entry at all (the combo datasets), the slug itself, so the reference
+        // line never renders empty.
         $book_label = $vern['book'] !== '' ? $vern['book']
             : ($latin['book'] !== '' ? $latin['book']
-            : (isset($entry['display_name']) && $entry['display_name'] !== '' ? $entry['display_name'] : DwBible_Plugin::pretty_label($entry['short_name'])));
+            : (!empty($entry['display_name']) ? $entry['display_name']
+            : DwBible_Plugin::pretty_label(!empty($entry['short_name']) ? $entry['short_name'] : $key)));
         $ref = $book_label . ' ' . $ch . ':' . ($vf === $vt ? $vf : ($vf . '-' . $vt));
 
         // Friendly download filename
