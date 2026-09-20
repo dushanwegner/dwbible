@@ -276,13 +276,20 @@ function dwbible_i18n_json_rest(string $rest): ?string {
  * After dwi18n peels /de/, the request is /bible/…; the existing 'bible' rule sets dwbible_slug='bible'. Swap it to
  * the Latin+vernacular combo for the current language so the interlinear renderer shows the right pair and dwbible's
  * single→combo redirect doesn't fire. Machine formats keep their requested dataset slug.
+ *
+ * A machine format ASKS FOR A DATASET (JSON, the sitemaps, the selftest), so overriding its slug
+ * would hand it something it did not request. The OG image and the QR code are not that: they are
+ * PICTURES OF THIS PAGE, and must resolve exactly as the page does — the same combo, the same
+ * book, the same reader's language. Listing dwbible_og here left its slug as the bare rule's
+ * 'bible', the book lookup then missed, and every prefixed verse URL answered the image with a
+ * 404 while its twin ?dwbible_qr=1 (never listed) served an SVG (found 2026-09-20, issue 65).
  */
 add_filter('request', function ($qv) {
     if (!function_exists('dwi18n_current') || empty($GLOBALS['dwi18n_had_prefix'])) {
         return $qv;
     }
     $is_bible = !empty($qv['dwbible']) || isset($qv['dwbible_slug']);
-    $is_machine = !empty($qv['dwbible_format']) || !empty($qv['dwbible_sitemap']) || !empty($qv['dwbible_og']) || !empty($qv['dwbible_selftest']);
+    $is_machine = !empty($qv['dwbible_format']) || !empty($qv['dwbible_sitemap']) || !empty($qv['dwbible_selftest']);
     if ($is_bible && !$is_machine) {
         $qv['dwbible_slug'] = dwbible_i18n_combo_for_lang(dwi18n_current());
     }

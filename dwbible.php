@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.09.19.10
+* Version: 1.26.09.20.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.09.19.10');
+    define('DWBIBLE_VERSION', '1.26.09.20.01');
 }
 
 // Load include classes before hooks are registered
@@ -2646,6 +2646,10 @@ JS;
             if ( $text !== '' ) {
                 if ( mb_strlen( $text ) > 280 ) { $text = rtrim( mb_substr( $text, 0, 277 ) ) . '…'; }
                 $facts['description'] = $text;
+                // A verse is the one Bible page with a picture of its own: the router draws it per
+                // verse. It is handed over as a drawn `image` because there is no attachment to
+                // point at. Only verses — a book or chapter card has no single sentence to set.
+                $facts['image'] = self::site_card_verse_image( $facts['url'] );
                 return $facts;
             }
         }
@@ -2656,6 +2660,29 @@ JS;
         }
         $facts['description'] = $name . ( $chapters ? ' — ' . $chapters . ' chapters' : '' ) . ', ' . $pair . ', verse by verse.';
         return $facts;
+    }
+
+    /**
+     * The verse card's picture: THIS page's URL carrying the OG flag, which the router answers
+     * with a PNG drawn for exactly this verse. Built from the request URL on purpose — the
+     * language prefix the reader asked for is then already in it, and the picture always matches
+     * the page it sits on. Null when the image is switched off in Settings → Bible → Social
+     * image, so the card falls back to dwsocial's site picture rather than promising a miss.
+     *
+     * @param string $url This page's own address, from the card's facts.
+     * @return array{url:string,width:int,height:int,type:string}|null
+     */
+    private static function site_card_verse_image( $url ) {
+        $enabled = get_option( 'dwbible_og_enabled', '1' );
+        if ( $enabled !== '1' && $enabled !== 1 ) { return null; }
+        if ( ! is_string( $url ) || $url === '' ) { return null; }
+
+        return [
+            'url'    => add_query_arg( self::QV_OG, '1', $url ),
+            'width'  => max( 100, (int) get_option( 'dwbible_og_width', 1200 ) ),
+            'height' => max( 100, (int) get_option( 'dwbible_og_height', 630 ) ),
+            'type'   => 'image/png',
+        ];
     }
 
     private static function output_with_theme($title, $content_html, $context = '') {
@@ -2956,10 +2983,6 @@ JS;
 
     public static function print_custom_css() {
         DwBible_Front_Meta::print_custom_css();
-    }
-
-    public static function print_og_meta() {
-        DwBible_Front_Meta::print_og_meta();
     }
 
     private static function render_footer_html() {
