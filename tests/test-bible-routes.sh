@@ -367,9 +367,9 @@ total_ch = sum(b.get('totalChapters', 0) for b in books)
 if total_ch != 1333:
     problems.append('chapter total %d != 1333' % total_ch)
 # The book segment of a real URL is the LATIN slug in every language, so a
-# book's `slug` must be identical across its translations and must appear in
+# book's 'slug' must be identical across its translations and must appear in
 # both urls it publishes. Until 2026-08-31 this asserted the segment equalled
-# canonicalSlug (`john`), which was the pre-/biblia/ contract.
+# canonicalSlug ('john'), which was the pre-/biblia/ contract.
 mism = []
 differs = 0
 for b in books:
@@ -390,10 +390,13 @@ for b in books:
         differs += 1
 if mism:
     problems.append('%d slug mis-mappings (e.g. %s)' % (len(mism), '; '.join(mism[:3])))
-# Proof it is the Latin slug and not the canonical key: John must be `ioannes`.
+# Proof it is the Latin slug and not the canonical key: John must be 'ioannes'.
+# (No backticks anywhere in this program: it is passed to python3 -c inside a
+# DOUBLE-quoted shell string, so a backticked word is run as a command and its
+# empty output is spliced into the source — four of them were, silently.)
 john = next((b for b in books if b.get('canonicalSlug') == 'john'), None)
 if not john or john.get('translations', {}).get('bible', {}).get('slug') != 'ioannes':
-    problems.append('John does not publish the Latin slug `ioannes`')
+    problems.append('John does not publish the Latin slug ioannes')
 if differs < 10:
     problems.append('only %d books differ from canonicalSlug — slug looks like the key, not the URL' % differs)
 print('ok' if not problems else 'FAIL: ' + ' | '.join(problems))
@@ -454,8 +457,12 @@ check "$BASE_URL/latin/genesis/1"       200 "latin/genesis/1"
 check "$BASE_URL/latin/ioannes/3:16"    200 "latin/ioannes/3:16"
 check "$BASE_URL/latin/genesis/index.json" 200 "latin json still served"
 # It must carry noindex — this is the whole reason it is safe to serve.
+# Match BOTH quote styles: WordPress core writes this tag itself, as
+# <meta name='robots' …> in SINGLE quotes, so a pattern demanding double quotes
+# can never match and reports a healthy page as broken (it did, 2026-09-20 —
+# filed as dwbible#24 before the tag was read with the quotes it actually has).
 TOTAL=$((TOTAL + 1))
-if ! fetch "$BASE_URL/latin/genesis/1" | grep -qi 'name="robots"[^>]*noindex'; then
+if ! fetch "$BASE_URL/latin/genesis/1" | grep -qiE "name=['\"]robots['\"][^>]*noindex"; then
     echo "  FAIL /latin/genesis/1 is missing its noindex"
     FAILURES=$((FAILURES + 1))
     FAILED_URLS+=("$BASE_URL/latin/genesis/1 (no noindex)")
