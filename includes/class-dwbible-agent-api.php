@@ -400,6 +400,49 @@ trait DwBible_Agent_API_Trait {
     }
 
     /**
+     * The ONE place this feature answers "ambiguous" — 200, never an error
+     * status, so BOOK_AMBIGUOUS is a body field and not a status a caller
+     * must special-case to even read.
+     *
+     * DW/manager, 2026-09-25 (dwfactory 600/1558, measured on review): 300
+     * Multiple Choices was semantically exact and wrong for this audience.
+     * `urllib.request.urlopen()` — this estate's own client (bin/dwfactory)
+     * and what AGENTS.md teaches, alongside curl — treats 3xx through its
+     * redirect handler, has no handler for a bare 300 with no `Location`,
+     * and raises `HTTPError`; the body is reachable only via
+     * `except HTTPError as e: e.read()`. An agent asking about "1 Regum"
+     * would get an exception where the answer is, and report the endpoint
+     * broken rather than surfacing two real candidates — the exact "an
+     * unhelpful answer that looks like a fault" shape this whole feature
+     * exists to end, now one layer up the stack.
+     *
+     * The request is well-formed and names two real answers, so it is
+     * answered like one: `ambiguous: true` says what the status code no
+     * longer can, `BOOK_AMBIGUOUS` stays as the machine-readable name of
+     * WHICH thing is true. No verse text is ever carried here, so a client
+     * cannot mistake this for a passage. Sent through send_json() — the
+     * same ETag/conditional-GET path every other successful answer here
+     * uses — rather than a bespoke echo, because this IS a successful
+     * answer.
+     *
+     * Called from both agent_kings_samuel_disambiguate() (the reference
+     * resolver) and agent_kings_samuel_search_disambiguate() (the search
+     * endpoint's book=), so the 200-not-300 decision lives in exactly one
+     * place rather than being repeated per caller.
+     */
+    private static function agent_kings_samuel_ambiguous( string $raw, string $message, array $candidates, string $suggestion ): void {
+        self::send_json( [
+            'ambiguous'  => true,
+            'error'      => 'BOOK_AMBIGUOUS',
+            'message'    => $message,
+            'requested'  => $raw,
+            'candidates' => $candidates,
+            'suggestion' => $suggestion,
+            'help'       => site_url( '/llms.txt' ),
+        ] );
+    }
+
+    /**
      * The candidate list + the shared "names two different books" message —
      * built once and used by every endpoint that can meet an ambiguous book
      * name: /bible-ref.json (a specific chapter/verse, or none for a
@@ -408,7 +451,7 @@ trait DwBible_Agent_API_Trait {
      * with $ch = $vf = $vt = 0 there — see agent_kings_samuel_search_
      * disambiguate()). Each caller builds its OWN `suggestion`, because the
      * parameter that names the book directly differs (q= vs book=), and
-     * calls agent_error() itself.
+     * calls agent_kings_samuel_ambiguous() itself.
      *
      * @return array{0:array,1:string} [candidates, message]
      */
@@ -438,8 +481,11 @@ trait DwBible_Agent_API_Trait {
      * than clerical. Never auto-picks the modern one; that is exactly the
      * failure this whole feature exists to stop.
      *
-     * 300 Multiple Choices: not a malformed request (400) and not a missing
-     * one (404) — the request is well-formed and names two real answers.
+     * 200, `ambiguous: true` — see agent_kings_samuel_ambiguous(): not a
+     * malformed request (400) and not a missing one (404), and (2026-09-25)
+     * not a 3xx either — the request is well-formed and names two real
+     * answers, and the answer must be readable without exception handling
+     * built for failure.
      */
     private static function agent_kings_samuel_disambiguate( string $raw, string $typed, array $survivors, int $ch, int $vf, int $vt ): void {
         [ $candidates, $message ] = self::agent_kings_samuel_candidate_list( $typed, $survivors, $ch, $vf, $vt );
@@ -448,11 +494,8 @@ trait DwBible_Agent_API_Trait {
             $ref = $ch > 0 ? ( ' ' . $ch . ( $vf > 0 ? ':' . $vf . ( $vt > $vf ? '-' . $vt : '' ) : '' ) ) : '';
             $queries[] = 'q=' . rawurlencode( $key . $ref );
         }
-        self::agent_error( 300, 'BOOK_AMBIGUOUS', $message, [
-            'requested'  => $raw,
-            'candidates' => $candidates,
-            'suggestion' => 'Name the book directly to skip this: ' . implode( ' or ', $queries ) . '.',
-        ] );
+        self::agent_kings_samuel_ambiguous( $raw, $message, $candidates,
+            'Name the book directly to skip this: ' . implode( ' or ', $queries ) . '.' );
     }
 
     /**
@@ -470,11 +513,8 @@ trait DwBible_Agent_API_Trait {
     private static function agent_kings_samuel_search_disambiguate( string $raw, string $typed, array $candidate_keys ): void {
         [ $candidates, $message ] = self::agent_kings_samuel_candidate_list( $typed, $candidate_keys, 0, 0, 0 );
         $book_queries = array_map( static fn( $k ) => 'book=' . rawurlencode( $k ), $candidate_keys );
-        self::agent_error( 300, 'BOOK_AMBIGUOUS', $message, [
-            'requested'  => $raw,
-            'candidates' => $candidates,
-            'suggestion' => 'Name the book directly to skip this: ' . implode( ' or ', $book_queries ) . '.',
-        ] );
+        self::agent_kings_samuel_ambiguous( $raw, $message, $candidates,
+            'Name the book directly to skip this: ' . implode( ' or ', $book_queries ) . '.' );
     }
 
     /**

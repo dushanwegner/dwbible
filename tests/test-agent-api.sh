@@ -198,9 +198,12 @@ echo "book= on /bible-search.json reaches the same Kings/Samuel candidate set (d
 # backwards from the old silent-3-Kings behaviour, not an improvement: always
 # useless beats sometimes wrong, but the actual rule is "disambiguate", and it
 # has to reach every endpoint that takes a book name, not only the two it was
-# first wired into.
+# first wired into. And (2026-09-25) 200, not 300 — see the resolver's own
+# block below for why a bare 3xx is fatal to the urllib-reading audience
+# these endpoints exist for.
 U="${BASE}/bible-search.json?q=Deus&book=1+Regum&lang=la"
-ok "$([ "$(code "$U")" = "300" ] && echo 1 || echo 0)" "book=1 Regum is ambiguous: 300, not 404 BOOK_NOT_RECOGNISED"
+ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "book=1 Regum is ambiguous: 200, not 404 BOOK_NOT_RECOGNISED or 300"
+ok "$([ "$(probe "$U" "d['ambiguous']")" = "True" ] && echo 1 || echo 0)" "…and the body says so: ambiguous: true"
 ok "$([ "$(probe "$U" "d['error']")" = "BOOK_AMBIGUOUS" ] && echo 1 || echo 0)" "…named BOOK_AMBIGUOUS, the same code the resolver uses"
 ok "$([ "$(probe "$U" "[c['book']['key'] for c in d['candidates']]")" = "['3-kings', '1-kings-samuel']" ] && echo 1 || echo 0)" "…modern (3-kings) offered before Vulgate/Douay (1-kings-samuel)"
 ok "$([ "$(probe "$U" "all(c['opensWith'] for c in d['candidates'])")" = "True" ] && echo 1 || echo 0)" "…each candidate carries its opening words, same as the resolver"
@@ -693,14 +696,30 @@ ok "$([[ "$readas" == *'1 Samuel 17:45'* ]] && [[ "$readas" == *'Vulgate'* ]] &&
 ok "$([ "$(probe "${BASE}/bible-ref.json?q=1+Kings+17:45" "'Thou comest to me with a sword' in d['passages']['en']['text']")" = "True" ] && echo 1 || echo 0)" "…and the text is David's answer to Goliath, not VERSE_NOT_FOUND"
 
 # Rule 4: several survivors — disambiguate, modern reading first, each with its opening
-# words. Never a 400 (malformed) or 404 (missing): 300, a well-formed request naming two
-# real answers.
+# words. NOT a 400 (malformed), NOT a 404 (missing), and — DW/manager 2026-09-25, measured
+# after the fact — NOT a 300 either: urllib.request.urlopen() (this estate's own client,
+# and what AGENTS.md teaches) has no handler for a bare 300 with no Location and RAISES
+# HTTPError, so an agent asking about an ambiguous book got an exception where the answer
+# was. 200, `ambiguous: true` in the body — a well-formed request naming two real answers,
+# readable without exception handling built for failure.
 U="${BASE}/bible-ref.json?q=1+Kings+1:1"
-ok "$([ "$(code "$U")" = "300" ] && echo 1 || echo 0)" "1 Kings 1:1 is ambiguous: 300 Multiple Choices, not 200 or 400"
-ok "$([ "$(probe "$U" "d['error']")" = "BOOK_AMBIGUOUS" ] && echo 1 || echo 0)" "…named BOOK_AMBIGUOUS"
+ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "1 Kings 1:1 is ambiguous: 200, not 300/400/404"
+ok "$([ "$(probe "$U" "d['ambiguous']")" = "True" ] && echo 1 || echo 0)" "…and the body says so plainly: ambiguous: true"
+ok "$([ "$(probe "$U" "d['error']")" = "BOOK_AMBIGUOUS" ] && echo 1 || echo 0)" "…BOOK_AMBIGUOUS stays as the machine-readable body field"
 ok "$([ "$(probe "$U" "[c['book']['key'] for c in d['candidates']]")" = "['3-kings', '1-kings-samuel']" ] && echo 1 || echo 0)" "…modern (3-kings) offered before Vulgate/Douay (1-kings-samuel)"
 ok "$([ "$(probe "$U" "all(c['opensWith'] for c in d['candidates'])")" = "True" ] && echo 1 || echo 0)" "…each candidate carries its opening words"
 ok "$([ "$(probe "$U" "d['candidates'][0]['citation']")" = "1 Kings 1:1" ] && echo 1 || echo 0)" "…the first candidate is cited \"1 Kings 1:1\""
+ok "$([ "$(probe "$U" "'verses' in d or 'passages' in d")" = "False" ] && echo 1 || echo 0)" "…and no verse text rides along — never mistakable for a passage"
+# urllib itself, not just curl's status code: the failure this whole change fixes.
+ok "$(python3 -c "
+import urllib.request, json
+try:
+    with urllib.request.urlopen('$U', timeout=10) as r:
+        d = json.loads(r.read())
+        print(1 if (r.status == 200 and d.get('ambiguous') is True) else 0)
+except Exception:
+    print(0)
+")" "urllib.request.urlopen() reads this without raising HTTPError"
 
 # A BARE "1 Kings" search-box query never silently lands on Solomon either — it falls
 # through to the book index rather than guessing, the same "which did you mean" the
@@ -712,7 +731,7 @@ ok "$([[ "$loc" == *'1-samuelis/17:45'* ]] && echo 1 || echo 0)" "…but a singl
 # "Regum I" — the Vulgate's OWN name for 1 Samuel — used to reach 3 Kings silently
 # (dwfactory entry 600's measured bug); it now joins the candidate set instead.
 U="${BASE}/bible-ref.json?q=Regum+I+1:1"
-ok "$([ "$(code "$U")" = "300" ] && echo 1 || echo 0)" "\"Regum I 1:1\" is ambiguous, not silently Solomon"
+ok "$([ "$(code "$U")" = "200" ] && [ "$(probe "$U" "d['ambiguous']")" = "True" ] && echo 1 || echo 0)" "\"Regum I 1:1\" is ambiguous (200, ambiguous: true), not silently Solomon"
 ok "$([ "$(probe "$U" "sorted(c['book']['key'] for c in d['candidates'])")" = "['1-kings-samuel', '3-kings']" ] && echo 1 || echo 0)" "…and both candidates are offered"
 
 # Rule 5: no survivors — say which candidates were tried and how long their chapters are.
