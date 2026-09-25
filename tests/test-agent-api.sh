@@ -193,6 +193,26 @@ ok "$([ "$(probe "$U" "d['_meta']['total']")" = "$(probe "${BASE}/bible-search.j
 U="${BASE}/bible-search.json?q=%C3%83%C2%BCber&lang=de&limit=1"
 ok "$([ "$(probe "$U" "d['_meta']['tokens']")" = "['uber']" ] && echo 1 || echo 0)" "mojibake 'Ã¼ber' repairs to 'über' too, in a different language"
 
+echo "book= on /bible-search.json reaches the same Kings/Samuel candidate set (dwfactory entry 600/1558) — DISAMBIGUATE, not refuse:"
+# Before this fix, book=1+Regum answered 404 BOOK_NOT_RECOGNISED — a step
+# backwards from the old silent-3-Kings behaviour, not an improvement: always
+# useless beats sometimes wrong, but the actual rule is "disambiguate", and it
+# has to reach every endpoint that takes a book name, not only the two it was
+# first wired into.
+U="${BASE}/bible-search.json?q=Deus&book=1+Regum&lang=la"
+ok "$([ "$(code "$U")" = "300" ] && echo 1 || echo 0)" "book=1 Regum is ambiguous: 300, not 404 BOOK_NOT_RECOGNISED"
+ok "$([ "$(probe "$U" "d['error']")" = "BOOK_AMBIGUOUS" ] && echo 1 || echo 0)" "…named BOOK_AMBIGUOUS, the same code the resolver uses"
+ok "$([ "$(probe "$U" "[c['book']['key'] for c in d['candidates']]")" = "['3-kings', '1-kings-samuel']" ] && echo 1 || echo 0)" "…modern (3-kings) offered before Vulgate/Douay (1-kings-samuel)"
+ok "$([ "$(probe "$U" "all(c['opensWith'] for c in d['candidates'])")" = "True" ] && echo 1 || echo 0)" "…each candidate carries its opening words, same as the resolver"
+ok "$([ "$(probe "$U" "d['suggestion']")" = "Name the book directly to skip this: book=3-kings or book=1-kings-samuel." ] && echo 1 || echo 0)" "…and the suggestion names THIS endpoint's own parameter (book=), not q="
+# If the caller then names one book directly, it searches that one — exactly
+# as any other book name always has.
+ok "$([ "$(probe "${BASE}/bible-search.json?q=Salomon&book=3-kings&lang=la" "d['_meta']['book'], d['_meta']['total'] > 0")" = "('3-kings', True)" ] && echo 1 || echo 0)" "book=3-kings (named directly) searches 3 Kings, hits included"
+ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&book=1-kings-samuel&lang=la" "d['_meta']['book']")" = "1-kings-samuel" ] && echo 1 || echo 0)" "book=1-kings-samuel (named directly) searches 1 Samuel"
+# An unambiguous Samuel/Kings form is untouched: still resolves straight
+# through, no disambiguation for a name only one book ever answers to.
+ok "$([ "$(probe "${BASE}/bible-search.json?q=Deus&book=3+Kings&lang=la" "d['_meta']['book']")" = "3-kings" ] && echo 1 || echo 0)" "book=\"3 Kings\" (unambiguous) still resolves straight through"
+
 echo "…an array-shaped value on a one-value parameter (?book[]=Genesis&book[]=Exodus) is refused, not silently cast to the literal word 'Array':"
 ok "$([ "$(code "${BASE}/bible-search.json?q=amor&book%5B%5D=Genesis&book%5B%5D=Exodus")" = "400" ] && echo 1 || echo 0)" "book[]=a&book[]=b is a 400, not the 404 'book \"Array\" could not be recognised'"
 ok "$([ "$(probe "${BASE}/bible-search.json?q=amor&book%5B%5D=Genesis&book%5B%5D=Exodus" "d['error']")" = "UNSUPPORTED_PARAM" ] && echo 1 || echo 0)" "…names the real defect, UNSUPPORTED_PARAM"

@@ -400,18 +400,21 @@ trait DwBible_Agent_API_Trait {
     }
 
     /**
-     * Rule 4: several survivors — disambiguate, modern reading first, each
-     * candidate named with its opening words so the choice is obvious rather
-     * than clerical. Never auto-picks the modern one; that is exactly the
-     * failure this whole feature exists to stop.
+     * The candidate list + the shared "names two different books" message —
+     * built once and used by every endpoint that can meet an ambiguous book
+     * name: /bible-ref.json (a specific chapter/verse, or none for a
+     * book-only query) and /bible-search.json (book= narrows a search to
+     * one book and never carries a chapter/verse, so this is always called
+     * with $ch = $vf = $vt = 0 there — see agent_kings_samuel_search_
+     * disambiguate()). Each caller builds its OWN `suggestion`, because the
+     * parameter that names the book directly differs (q= vs book=), and
+     * calls agent_error() itself.
      *
-     * 300 Multiple Choices: not a malformed request (400) and not a missing
-     * one (404) — the request is well-formed and names two real answers.
+     * @return array{0:array,1:string} [candidates, message]
      */
-    private static function agent_kings_samuel_disambiguate( string $raw, string $typed, array $survivors, int $ch, int $vf, int $vt ): void {
+    private static function agent_kings_samuel_candidate_list( string $typed, array $survivors, int $ch, int $vf, int $vt ): array {
         $names = self::agent_book_names_table();
         $candidates = [];
-        $queries    = [];
         foreach ( $survivors as $key ) {
             $name = $names[ $key ]['en'] ?? $key;
             $ref  = $ch > 0 ? ( ' ' . $ch . ( $vf > 0 ? ':' . $vf . ( $vt > $vf ? '-' . $vt : '' ) : '' ) ) : '';
@@ -423,17 +426,55 @@ trait DwBible_Agent_API_Trait {
                 'citation'  => $name . $ref,
                 'opensWith' => self::agent_kings_samuel_opens_with( $key, $ch, $vf ),
             ];
+        }
+        $message = "\"{$typed}\" names two different books here: a modern reader means {$names[ $survivors[0] ]['en']}, a Douay/Vulgate reader means "
+                 . ( $names[ $survivors[1] ]['en'] ?? $survivors[1] ) . '. Both are real; this site never guesses which was meant.';
+        return [ $candidates, $message ];
+    }
+
+    /**
+     * Rule 4: several survivors — disambiguate, modern reading first, each
+     * candidate named with its opening words so the choice is obvious rather
+     * than clerical. Never auto-picks the modern one; that is exactly the
+     * failure this whole feature exists to stop.
+     *
+     * 300 Multiple Choices: not a malformed request (400) and not a missing
+     * one (404) — the request is well-formed and names two real answers.
+     */
+    private static function agent_kings_samuel_disambiguate( string $raw, string $typed, array $survivors, int $ch, int $vf, int $vt ): void {
+        [ $candidates, $message ] = self::agent_kings_samuel_candidate_list( $typed, $survivors, $ch, $vf, $vt );
+        $queries = [];
+        foreach ( $survivors as $key ) {
+            $ref = $ch > 0 ? ( ' ' . $ch . ( $vf > 0 ? ':' . $vf . ( $vt > $vf ? '-' . $vt : '' ) : '' ) ) : '';
             $queries[] = 'q=' . rawurlencode( $key . $ref );
         }
-        self::agent_error( 300, 'BOOK_AMBIGUOUS',
-            "\"{$typed}\" names two different books here: a modern reader means {$names[ $survivors[0] ]['en']}, a Douay/Vulgate reader means "
-            . ( $names[ $survivors[1] ]['en'] ?? $survivors[1] ) . '. Both are real; this site never guesses which was meant.',
-            [
-                'requested'  => $raw,
-                'candidates' => $candidates,
-                'suggestion' => 'Name the book directly to skip this: ' . implode( ' or ', $queries ) . '.',
-            ]
-        );
+        self::agent_error( 300, 'BOOK_AMBIGUOUS', $message, [
+            'requested'  => $raw,
+            'candidates' => $candidates,
+            'suggestion' => 'Name the book directly to skip this: ' . implode( ' or ', $queries ) . '.',
+        ] );
+    }
+
+    /**
+     * The same rule for /bible-search.json's book= — DW's decision is
+     * "disambiguate when ambiguous", not "refuse when ambiguous", and that
+     * has to reach every endpoint that takes a book name, not only the
+     * reference resolver and the search box. book= narrows a WORD search to
+     * one book; it never carries a chapter or verse, so nothing can
+     * eliminate a candidate by existence here — both always survive, and
+     * this is always what answers. If the caller then names one book
+     * directly (the canonical key, or any unambiguous name/abbreviation),
+     * that never reaches this method at all and searches straight through,
+     * exactly as it always has.
+     */
+    private static function agent_kings_samuel_search_disambiguate( string $raw, string $typed, array $candidate_keys ): void {
+        [ $candidates, $message ] = self::agent_kings_samuel_candidate_list( $typed, $candidate_keys, 0, 0, 0 );
+        $book_queries = array_map( static fn( $k ) => 'book=' . rawurlencode( $k ), $candidate_keys );
+        self::agent_error( 300, 'BOOK_AMBIGUOUS', $message, [
+            'requested'  => $raw,
+            'candidates' => $candidates,
+            'suggestion' => 'Name the book directly to skip this: ' . implode( ' or ', $book_queries ) . '.',
+        ] );
     }
 
     /**
@@ -1480,7 +1521,21 @@ trait DwBible_Agent_API_Trait {
         $only_key = null;
         $book_raw = isset( $_GET['book'] ) ? sanitize_text_field( wp_unslash( (string) $_GET['book'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         if ( trim( $book_raw ) !== '' ) {
-            $only_key = self::internal_key_from_any_book( trim( $book_raw ), 'latin' );
+            $book_trim = trim( $book_raw );
+
+            // KINGS / SAMUEL — dwfactory entry 600/1558, DW 2026-09-25: the rule
+            // is "disambiguate when ambiguous", not "refuse when ambiguous", and
+            // it reaches every endpoint that takes a book name. book= only scopes
+            // a word search to one book — it carries no chapter/verse — so
+            // existence can never narrow it the way it narrows a citation; both
+            // candidates always survive and this always disambiguates, the same
+            // shape /bible-ref.json gives, never a bare BOOK_NOT_RECOGNISED.
+            $ks_candidates = DwBible_Kings_Samuel::candidates_for( $book_trim );
+            if ( $ks_candidates !== null ) {
+                self::agent_kings_samuel_search_disambiguate( $book_raw, $book_trim, $ks_candidates );
+            }
+
+            $only_key = self::internal_key_from_any_book( $book_trim, 'latin' );
             // A KEY THAT NAMES NO BOOK IS NOT A BOOK. internal_key_from_any_book()
             // returns a bare legacy slug when nothing maps it to a canonical key,
             // so "Buch Ester" came back as "ester" and this endpoint then searched
