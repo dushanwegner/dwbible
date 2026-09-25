@@ -244,6 +244,28 @@ trait DwBible_Agent_API_Trait {
     }
 
     /**
+     * The Kings/Samuel books carry TWO real names for the same book — modern
+     * and Vulgate/Douay — and dwfactory entry 600/1558 (DW, 2026-09-25) is
+     * explicit that the equivalence must be LEARNED, not hidden: "on 1 Samuel
+     * note the Vulgate's I Regum, on 3 Kings note the modern 1 Kings." Kept
+     * here rather than as a new field on book_names.json's citation table
+     * (checked first — no book there carries more than the one name per
+     * language today, Malachias/Malachi included, so widening that shape for
+     * four rows would be a bigger, noisier change than this).
+     *
+     * @return string|null null for every book outside this pair.
+     */
+    private static function agent_kings_samuel_other_naming( string $key ): ?string {
+        $other = [
+            '1-kings-samuel' => 'The Vulgate\'s own name is "I Regum" ("1 Regum") — the first of its four books of Kings.',
+            '2-kings-samuel' => 'The Vulgate\'s own name is "II Regum" ("2 Regum") — the second of its four books of Kings.',
+            '3-kings'        => 'The modern name for this book is "1 Kings"; this site\'s Latin title follows the Vulgate\'s own four-book "Regum" division instead.',
+            '4-kings'        => 'The modern name for this book is "2 Kings"; this site\'s Latin title follows the Vulgate\'s own four-book "Regum" division instead.',
+        ];
+        return $other[ $key ] ?? null;
+    }
+
+    /**
      * Everything an agent needs to identify a book, in one block: the canonical
      * key (what the JSON dirs are named), the Latin URL slug (what the HTML pages
      * are named), the citation name in every language, and the OSIS id.
@@ -254,13 +276,18 @@ trait DwBible_Agent_API_Trait {
         foreach ( DwBible_Plugin::book_directory() as $row ) {
             if ( $row['key'] === $key ) { $dir = $row; break; }
         }
-        return [
+        $block = [
             'key'   => $key,
             'slug'  => DwBible_Plugin::latin_slug_for_key( $key ),
             'title' => $dir['name'] ?? ( $names['la'] ?? $key ),
             'names' => $names,
             'osis'  => self::agent_osis_for_key( $key ),
         ];
+        $other_naming = self::agent_kings_samuel_other_naming( $key );
+        if ( $other_naming !== null ) {
+            $block['otherNaming'] = $other_naming;
+        }
+        return $block;
     }
 
     // ── One-chapter books ───────────────────────────────────────────────────
@@ -325,6 +352,115 @@ trait DwBible_Agent_API_Trait {
             'note'    => "\"{$cited}\" was read as Malachias 3:{$from}" . ( $to > $from ? "-{$to}" : '' ) . ': '
                        . 'this text carries the Elijah prophecy as 3:19-24, where printed Vulgates number it 4:1-6. Same six verses.',
         ];
+    }
+
+    // ── Kings / Samuel ──────────────────────────────────────────────────────
+    //
+    // The orchestration half of dwfactory entry 600/1558 (DW, 2026-09-25);
+    // DwBible_Kings_Samuel carries the candidate map and the existence check.
+    // Called from serve_reference_json() before the ordinary book resolver
+    // ever runs, so an ambiguous string can never reach it and come back
+    // silently as whichever book's table happens to list it.
+
+    /**
+     * The sentence that answers a SINGLE surviving candidate: which book,
+     * and which of the two conventions was read to get there. Never silent —
+     * rule 3 of the dwfactory decision.
+     */
+    private static function agent_kings_samuel_read_as( string $raw, string $typed, string $survivor_key, int $ch, int $vf, int $vt ): string {
+        $name = self::agent_book_names_table()[ $survivor_key ]['en'] ?? $survivor_key;
+        $convention = in_array( $survivor_key, [ '1-kings-samuel', '2-kings-samuel' ], true )
+            ? 'the Vulgate/Douay naming'
+            : 'the modern naming';
+        $cite = $name . ( $ch > 0 ? ' ' . $ch . ( $vf > 0 ? ':' . $vf . ( $vt > $vf ? '-' . $vt : '' ) : '' ) : '' );
+        return "\"{$raw}\" was read as {$cite}: {$convention}, where \"{$typed}\" is {$name}.";
+    }
+
+    /**
+     * A short preview of what a candidate's cited verse actually says — "the
+     * opening words" of rule 4, so a reader recognises the passage by its
+     * content rather than by a bare book key. Reads the Douay-Rheims (the
+     * edition a reader meeting this ambiguity is most likely to hold);
+     * chapter 1 verse 1 when no chapter/verse was cited at all, i.e. the
+     * book's own true opening.
+     */
+    private static function agent_kings_samuel_opens_with( string $key, int $ch, int $vf ): string {
+        $data = self::agent_chapter_file( 'bible', $key, $ch > 0 ? $ch : 1 );
+        if ( $data === null || empty( $data['verses'] ) ) { return ''; }
+        $want = $vf > 0 ? $vf : 1;
+        foreach ( $data['verses'] as $v ) {
+            if ( (int) $v['verse'] === $want ) {
+                $words = preg_split( '/\s+/u', trim( (string) $v['text'] ) );
+                if ( ! is_array( $words ) || ! $words ) { return ''; }
+                $short = implode( ' ', array_slice( $words, 0, 6 ) );
+                return $short . ( count( $words ) > 6 ? '…' : '' );
+            }
+        }
+        return '';
+    }
+
+    /**
+     * Rule 4: several survivors — disambiguate, modern reading first, each
+     * candidate named with its opening words so the choice is obvious rather
+     * than clerical. Never auto-picks the modern one; that is exactly the
+     * failure this whole feature exists to stop.
+     *
+     * 300 Multiple Choices: not a malformed request (400) and not a missing
+     * one (404) — the request is well-formed and names two real answers.
+     */
+    private static function agent_kings_samuel_disambiguate( string $raw, string $typed, array $survivors, int $ch, int $vf, int $vt ): void {
+        $names = self::agent_book_names_table();
+        $candidates = [];
+        $queries    = [];
+        foreach ( $survivors as $key ) {
+            $name = $names[ $key ]['en'] ?? $key;
+            $ref  = $ch > 0 ? ( ' ' . $ch . ( $vf > 0 ? ':' . $vf . ( $vt > $vf ? '-' . $vt : '' ) : '' ) ) : '';
+            $candidates[] = [
+                'book'      => self::agent_book_block( $key ),
+                'chapter'   => $ch > 0 ? $ch : null,
+                'verseFrom' => $vf > 0 ? $vf : null,
+                'verseTo'   => $vf > 0 ? $vt : null,
+                'citation'  => $name . $ref,
+                'opensWith' => self::agent_kings_samuel_opens_with( $key, $ch, $vf ),
+            ];
+            $queries[] = 'q=' . rawurlencode( $key . $ref );
+        }
+        self::agent_error( 300, 'BOOK_AMBIGUOUS',
+            "\"{$typed}\" names two different books here: a modern reader means {$names[ $survivors[0] ]['en']}, a Douay/Vulgate reader means "
+            . ( $names[ $survivors[1] ]['en'] ?? $survivors[1] ) . '. Both are real; this site never guesses which was meant.',
+            [
+                'requested'  => $raw,
+                'candidates' => $candidates,
+                'suggestion' => 'Name the book directly to skip this: ' . implode( ' or ', $queries ) . '.',
+            ]
+        );
+    }
+
+    /**
+     * Rule 5: no survivors — say which candidates were tried and how long
+     * their chapters actually are. A bare VERSE_NOT_FOUND for one silently
+     * assumed convention is the failure this whole feature exists to fix.
+     */
+    private static function agent_kings_samuel_refuse( string $raw, string $typed, array $candidates, array $counts, int $ch, int $vf ): void {
+        $names = self::agent_book_names_table();
+        $parts = [];
+        $chapter_missing = false;
+        foreach ( $candidates as $key ) {
+            $book_counts = $counts[ $key ] ?? [];
+            $name = $names[ $key ]['en'] ?? $key;
+            if ( ! $book_counts || $ch > count( $book_counts ) ) {
+                $parts[] = "{$name} has " . count( $book_counts ) . ' chapters';
+                $chapter_missing = true;
+            } else {
+                $parts[] = "{$name} {$ch} has " . (int) $book_counts[ $ch - 1 ] . ' verses';
+            }
+        }
+        $code = $chapter_missing ? 'CHAPTER_NOT_FOUND' : 'VERSE_NOT_FOUND';
+        $what = $chapter_missing ? "Chapter {$ch}" : "Verse {$vf}";
+        self::agent_error( 404, $code, "{$what} does not exist in \"{$typed}\" under either naming: " . implode( ', ', $parts ) . '.', [
+            'requested'       => $raw,
+            'candidatesTried' => array_map( static fn( $k ) => self::agent_book_block( $k ), $candidates ),
+        ] );
     }
 
     // ── Psalm numbering ─────────────────────────────────────────────────────
@@ -765,7 +901,39 @@ trait DwBible_Agent_API_Trait {
         // first; `$raw` stays what the reader wrote, and the rewrite is reported in readAs.
         $printed = DwBible_Reference::normalize_printed_forms( $raw );
         $parsed  = DwBible_Reference::parse_query( $printed['query'] );
-        $key     = self::internal_key_from_any_book( $parsed['name'], 'latin' );
+
+        // KINGS / SAMUEL — dwfactory entry 600/1558, DW 2026-09-25: "1 Kings"
+        // (and its twin "2 Kings") name one book under the modern convention
+        // and a different one under the Vulgate/Douay this site also serves,
+        // and the site must never silently pick one. Checked BEFORE the
+        // ordinary resolver, which would otherwise answer straight out of
+        // whichever table happens to list the string first. A single
+        // survivor (most real citations, once the chapter/verse is checked)
+        // answers normally and says which convention was read; several or
+        // none stop here and never reach the resolver at all.
+        $key     = null;
+        $ks_note = null;
+        $ks_candidates = DwBible_Kings_Samuel::candidates_for( $parsed['name'] );
+        if ( $ks_candidates !== null ) {
+            $ks_counts = DwBible_Plugin::verse_counts_by_book();
+            $ks_ref    = $parsed['ref'] !== '' ? DwBible_Reference::parse_ref( $parsed['ref'] ) : null;
+            $ks_ch     = $ks_ref['ch'] ?? 0;
+            $ks_ch_to  = $ks_ref['chTo'] ?? $ks_ch;
+            $ks_vf     = ( $ks_ref !== null && $ks_ref['verseGiven'] ) ? $ks_ref['vf'] : 0;
+            $ks_vt     = ( $ks_ref !== null && $ks_ref['verseGiven'] ) ? $ks_ref['vt'] : 0;
+            $survivors = DwBible_Kings_Samuel::surviving( $ks_candidates, $ks_counts, $ks_ch, $ks_ch_to, $ks_vf );
+            if ( count( $survivors ) === 1 ) {
+                $key     = $survivors[0];
+                $ks_note = self::agent_kings_samuel_read_as( $raw, $parsed['name'], $key, $ks_ch, $ks_vf, $ks_vt );
+            } elseif ( count( $survivors ) === 0 ) {
+                self::agent_kings_samuel_refuse( $raw, $parsed['name'], $ks_candidates, $ks_counts, $ks_ch, $ks_vf );
+            } else {
+                self::agent_kings_samuel_disambiguate( $raw, $parsed['name'], $survivors, $ks_ch, $ks_vf, $ks_vt );
+            }
+        }
+        if ( $key === null ) {
+            $key = self::internal_key_from_any_book( $parsed['name'], 'latin' );
+        }
 
         // A BARE RANGE — "Jude 20-21", "Philemon 4-6" — is how a one-chapter
         // book names several verses, and the shared grammar cannot split it:
@@ -1184,7 +1352,7 @@ trait DwBible_Agent_API_Trait {
                 'apiDocs'    => $site . '/llms.txt',
                 'content'    => "\"{$raw}\" resolved to {$ref_label}" . ( $passages ? ' — text in ' . implode( ', ', array_keys( $passages ) ) : '' ),
                 'query'      => $raw,
-                'readAs'     => self::agent_join_notes( $printed['note'], $read_as ),
+                'readAs'     => self::agent_join_notes( self::agent_join_notes( $printed['note'], $read_as ), $ks_note ),
                 'typography' => $clean ? 'clean' : 'source',
                 'usage'      => 'q = any citation form, a comma list of verses in one chapter ("Ps 112:1, 2, 9") and a range across a chapter boundary '
                               . '("Ioannes 18:1-19:42", at most ' . DwBible_Reference::MAX_CHAPTER_SPAN . ' chapters) included; '

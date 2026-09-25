@@ -486,7 +486,33 @@ trait DwBible_Router_Trait {
 
         // A printed form ("Mt 5,1-12a", "Joh 3,16f") lands on its verses here too.
         $parsed = DwBible_Reference::parse_query(DwBible_Reference::normalize_printed_forms($raw)['query']);
-        $key    = self::internal_key_from_any_book($parsed['name'], $slug);
+
+        // KINGS / SAMUEL — dwfactory entry 600/1558, DW 2026-09-25: "1 Kings"
+        // and "2 Kings" are genuinely ambiguous between the modern and the
+        // Vulgate/Douay naming, and this box must not silently guess either.
+        // A single survivor (the reference disambiguating itself — most real
+        // citations) is followed straight there, same as any other book.
+        // Several or none decline to redirect: the caller falls through to
+        // the book index filtered by this same `q`, its own honest "which
+        // did you mean" — /bible-ref.json is where this site actually
+        // disambiguates by name, with each candidate's opening words.
+        $key = null;
+        $ks_candidates = DwBible_Kings_Samuel::candidates_for($parsed['name']);
+        if ($ks_candidates !== null) {
+            $ks_ref   = $parsed['ref'] !== '' ? DwBible_Reference::parse_ref($parsed['ref']) : null;
+            $ks_ch    = $ks_ref['ch'] ?? 0;
+            $ks_ch_to = $ks_ref['chTo'] ?? $ks_ch;
+            $ks_vf    = ($ks_ref !== null && $ks_ref['verseGiven']) ? $ks_ref['vf'] : 0;
+            $survivors = DwBible_Kings_Samuel::surviving($ks_candidates, DwBible_Plugin::verse_counts_by_book(), $ks_ch, $ks_ch_to, $ks_vf);
+            if (count($survivors) === 1) {
+                $key = $survivors[0];
+            } else {
+                return false;
+            }
+        }
+        if ($key === null) {
+            $key = self::internal_key_from_any_book($parsed['name'], $slug);
+        }
         if ($key === null) { return false; }
 
         // Only as far as the book can actually be followed. "John 3:16666" names

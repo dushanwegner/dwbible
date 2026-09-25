@@ -615,7 +615,8 @@ ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5-7" "d['error']")" = "AMBIGUOUS_R
 # the Bible de Jérusalem. The tables hold "1Kor" and "1. Kor"; the spaced form
 # answered BOOK_NOT_RECOGNISED for 39 abbreviations (tick 104). "1 Re" is NOT pinned
 # here: it already resolves, and whether it means 1 Samuel (Martini) or 3 Kings
-# (modern Italian/Spanish) is the open decision dwbibledata#17.
+# (modern Italian/Spanish) is outside dwfactory entry 600/1558's scope — that
+# decision covers the English/Latin forms it measured, not every vernacular one.
 for pair in "1+Kor+13,4:1-corinthians" "2+Kor+5,17:2-corinthians" "1+K%C3%B6n+3,9:3-kings" "1+Joh+4,8:1-john" \
             "1+Petr+2,9:1-peter" "1+Co+13,4:1-corinthians" "1+R+19,8:3-kings" "2+Tes+3,10:2-thessalonians"; do
   q="${pair%%:*}"; want="${pair##*:}"
@@ -627,34 +628,81 @@ done
 # how the Vulgate, the Missal and Denzinger cite. Only the few the English table happened
 # to list ("I Cor", "II Tim") resolved; 155 of 208 Roman forms of the tables' numbered
 # abbreviations answered "no book recognised" (tick 122). III and IV exist only in the
-# Vulgate's numbering, so III Reg is 3 Kings. I and II before a KINGS name are left
-# refused: "1 Reg" is 3 Kings in one table and 1 Samuel in the Clementine's own naming,
-# which is the open decision dwbibledata#17 — a Roman numeral must not settle it.
+# Vulgate's numbering, so III Reg is 3 Kings, unambiguously — "I Kings" moved out of this
+# block (dwfactory entry 600/1558): it is now one of the ambiguous forms below, a Roman
+# numeral included, so it is no longer a name a Roman-numeral fold can settle on its own.
 for pair in "III+Reg+19,8:3-kings" "IV+Reg+2,11:4-kings" "II+Mach+12,46:2-machabees" "I+Par+29,11:1-paralipomenon" \
             "I+Petr+2,9:1-peter" "I+Kor+13,4:1-corinthians" "II.+Tes+3,10:2-thessalonians" "I+Co+13,4:1-corinthians" \
-            "I+Samuelis+3,10:1-kings-samuel" "I+Kings+3,10:3-kings" "Iob+19,25:job" "Is+53,5:isaias"; do
+            "I+Samuelis+3,10:1-kings-samuel" "Iob+19,25:job" "Is+53,5:isaias"; do
   q="${pair%%:*}"; want="${pair##*:}"
   got=$(probe "${BASE}/bible-ref.json?q=${q}&lang=la" "d['ref']['book']['key']")
   ok "$([ "$got" = "$want" ] && echo 1 || echo 0)" "Roman numeral \"${q//+/ }\" is ${want} (got ${got:-an error})"
 done
-# THE MODERN CONVENTION (DW, dwbibledata#17, 2026-09-17): a numbered Samuel/Kings citation
-# means what modern literature means by it, in every language and in Roman or Arabic
-# numerals. "1 Kings" is the book the Vulgate calls 3 Regum; "1 Samuel" is its 1 Regum.
-# The old numbering's own names (3/4 Kings, III/IV Regum) are unambiguous and still resolve.
-for pair in "1+Kings+3,10:3-kings" "I+Kings+3,10:3-kings" "2+Kings+2,11:4-kings" "1+Kgs+3,10:3-kings" \
-            "1+Re+19,8:3-kings" "I+Re+19,8:3-kings" "1+Reg+3,10:3-kings" "I+Reg+3,10:3-kings" "II+Reg+7,12:4-kings" \
-            "1+Regum+3,10:3-kings" "1+Samuel+3,10:1-kings-samuel" "1+Samuele+3,10:1-kings-samuel" "I+Sam+3,10:1-kings-samuel" \
+# THE UNAMBIGUOUS FORMS (dwfactory entry 600/1558, DW 2026-09-25): a Samuel/Kings citation
+# that names its book number under only ONE convention resolves straight through, in every
+# language and in Roman or Arabic numerals — "3 Kings"/"III Regum" is never Samuel, "1 Samuel"
+# is never Kings. "1 Re"/"I Re" (Italian/Spanish) are outside this decision's scope (see above)
+# and still resolve to the modern reading unpinned, as they always have.
+for pair in "1+Re+19,8:3-kings" "I+Re+19,8:3-kings" \
+            "1+Samuel+3,10:1-kings-samuel" "1+Samuele+3,10:1-kings-samuel" "I+Sam+3,10:1-kings-samuel" \
             "3+Kings+19,8:3-kings" "III+Regum+19,8:3-kings"; do
   q="${pair%%:*}"; want="${pair##*:}"
   got=$(probe "${BASE}/bible-ref.json?q=${q}&lang=la" "d['ref']['book']['key']")
-  ok "$([ "$got" = "$want" ] && echo 1 || echo 0)" "modern naming: \"${q//+/ }\" is ${want} (got ${got:-an error})"
+  ok "$([ "$got" = "$want" ] && echo 1 || echo 0)" "unambiguous: \"${q//+/ }\" is ${want} (got ${got:-an error})"
 done
-# …and the citation this API prints follows the same convention, so a reader quoting it back
-# lands on the same book.
+# …and the citation this API prints follows the Vulgate's own numbering in Latin, the
+# modern one in English — the two systems disagree, and each book's block says so
+# (otherNaming), rather than a Latin title contradicting its own key (dwfactory entry 600).
 cit=$(probe "${BASE}/bible-ref.json?q=3-kings+1:1&lang=all" "d['ref']['citation']['en'] + '|' + d['ref']['citation']['la']")
-ok "$([ "$cit" = "1 Kings 1:1|1 Regum 1:1" ] && echo 1 || echo 0)" "the modern 1 Kings is cited \"1 Kings\" / \"1 Regum\" (got ${cit:-an error})"
+ok "$([ "$cit" = "1 Kings 1:1|3 Regum 1:1" ] && echo 1 || echo 0)" "3 Kings is cited \"1 Kings\" (en) / \"3 Regum\" (la) (got ${cit:-an error})"
 cit=$(probe "${BASE}/bible-ref.json?q=1-kings-samuel+3:10&lang=all" "d['ref']['citation']['en']")
 ok "$([ "$cit" = "1 Samuel 3:10" ] && echo 1 || echo 0)" "1 Samuel is cited \"1 Samuel\" (got ${cit:-an error})"
+other=$(probe "${BASE}/bible-ref.json?q=3-kings+1:1" "d['ref']['book']['otherNaming']")
+ok "$([ -n "$other" ] && [[ "$other" == *'1 Kings'* ]] && echo 1 || echo 0)" "3 Kings names its modern equivalent (otherNaming, got ${other:-an error})"
+other=$(probe "${BASE}/bible-ref.json?q=1-kings-samuel+1:1" "d['ref']['book']['otherNaming']")
+ok "$([ -n "$other" ] && [[ "$other" == *'Regum'* ]] && echo 1 || echo 0)" "1 Samuel names the Vulgate's I Regum (otherNaming, got ${other:-an error})"
+
+echo "Kings / Samuel — genuinely ambiguous forms resolve to a candidate set (dwfactory entry 600/1558):"
+# Rule 3: exactly one survivor answers plainly and says which convention was read.
+# "1 Kings 17:45" is David and Goliath — modern 1 Kings ch.17 has 24 verses, 1 Samuel's
+# has 58, so only 1 Samuel can hold verse 45. Before this feature it answered
+# VERSE_NOT_FOUND (the bug the whole entry was filed over).
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=1+Kings+17:45" "d['ref']['book']['key']")" = "1-kings-samuel" ] && echo 1 || echo 0)" "1 Kings 17:45 settles itself: only 1 Samuel has a verse 45 there"
+readas=$(probe "${BASE}/bible-ref.json?q=1+Kings+17:45" "d['_meta']['readAs']")
+ok "$([[ "$readas" == *'1 Samuel 17:45'* ]] && [[ "$readas" == *'Vulgate'* ]] && echo 1 || echo 0)" "…and readAs says which convention was read (got ${readas:-an error})"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=1+Kings+17:45" "'Thou comest to me with a sword' in d['passages']['en']['text']")" = "True" ] && echo 1 || echo 0)" "…and the text is David's answer to Goliath, not VERSE_NOT_FOUND"
+
+# Rule 4: several survivors — disambiguate, modern reading first, each with its opening
+# words. Never a 400 (malformed) or 404 (missing): 300, a well-formed request naming two
+# real answers.
+U="${BASE}/bible-ref.json?q=1+Kings+1:1"
+ok "$([ "$(code "$U")" = "300" ] && echo 1 || echo 0)" "1 Kings 1:1 is ambiguous: 300 Multiple Choices, not 200 or 400"
+ok "$([ "$(probe "$U" "d['error']")" = "BOOK_AMBIGUOUS" ] && echo 1 || echo 0)" "…named BOOK_AMBIGUOUS"
+ok "$([ "$(probe "$U" "[c['book']['key'] for c in d['candidates']]")" = "['3-kings', '1-kings-samuel']" ] && echo 1 || echo 0)" "…modern (3-kings) offered before Vulgate/Douay (1-kings-samuel)"
+ok "$([ "$(probe "$U" "all(c['opensWith'] for c in d['candidates'])")" = "True" ] && echo 1 || echo 0)" "…each candidate carries its opening words"
+ok "$([ "$(probe "$U" "d['candidates'][0]['citation']")" = "1 Kings 1:1" ] && echo 1 || echo 0)" "…the first candidate is cited \"1 Kings 1:1\""
+
+# A BARE "1 Kings" search-box query never silently lands on Solomon either — it falls
+# through to the book index rather than guessing, the same "which did you mean" the
+# index already gives an unresolvable prefix.
+ok "$([ "$(code "${BASE}/en/biblia/?q=1+Kings+1:1")" = "200" ] && echo 1 || echo 0)" "the search box does not redirect an ambiguous \"1 Kings 1:1\" (falls through, 200)"
+loc=$("${CURL[@]}" -o /dev/null -D - "${BASE}/en/biblia/?q=1+Kings+17:45" | grep -i '^location:' | tr -d '\r')
+ok "$([[ "$loc" == *'1-samuelis/17:45'* ]] && echo 1 || echo 0)" "…but a single-survivor search redirects straight there (got ${loc:-no redirect})"
+
+# "Regum I" — the Vulgate's OWN name for 1 Samuel — used to reach 3 Kings silently
+# (dwfactory entry 600's measured bug); it now joins the candidate set instead.
+U="${BASE}/bible-ref.json?q=Regum+I+1:1"
+ok "$([ "$(code "$U")" = "300" ] && echo 1 || echo 0)" "\"Regum I 1:1\" is ambiguous, not silently Solomon"
+ok "$([ "$(probe "$U" "sorted(c['book']['key'] for c in d['candidates'])")" = "['1-kings-samuel', '3-kings']" ] && echo 1 || echo 0)" "…and both candidates are offered"
+
+# Rule 5: no survivors — say which candidates were tried and how long their chapters are.
+# A bare VERSE_NOT_FOUND naming only one silently-assumed convention is what this whole
+# feature exists to stop.
+U="${BASE}/bible-ref.json?q=1+Kings+99:1"
+ok "$([ "$(code "$U")" = "404" ] && echo 1 || echo 0)" "1 Kings 99:1 has no survivors: 404"
+msg=$(probe "$U" "d['message']")
+ok "$([[ "$msg" == *'1 Kings'*'22 chapters'* ]] && [[ "$msg" == *'1 Samuel'*'31 chapters'* ]] && echo 1 || echo 0)" "…and names both candidates tried, with their chapter counts (got: ${msg:-an error})"
+ok "$([ "$(probe "$U" "len(d['candidatesTried'])")" = "2" ] && echo 1 || echo 0)" "…both as a structured list too"
 
 # The documents an agent reads FIRST must be readable from another origin, like the
 # JSON they describe. A browser-hosted agent that may fetch /bible-ref.json but not
