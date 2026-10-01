@@ -783,8 +783,18 @@ trait DwBible_Agent_API_Trait {
      * : ; ! ? — the edition's own convention, kept byte-faithfully in the data.
      * An agent quoting into modern prose can ask for ?typography=clean and get
      * the space removed; the default stays `source`.
+     *
+     * NOT IN FRENCH. There the space before : ; ! ? is orthography, not the
+     * edition's habit, and modern French prose writes it too; removing it made
+     * correct French look wrong (factory q588, dwbible#19). A French text is
+     * returned as the edition prints it, whatever was asked.
+     *
+     * @param string $lang the text's language code (la, en, de, es, fr, it)
      */
-    public static function agent_clean_typography( string $text ): string {
+    public static function agent_clean_typography( string $text, string $lang = '' ): string {
+        if ( $lang === 'fr' ) {
+            return $text;
+        }
         return (string) preg_replace( '/[ \x{00A0}]+([:;!?])/u', '$1', $text );
     }
 
@@ -936,7 +946,7 @@ trait DwBible_Agent_API_Trait {
                 'offset'     => 'Paging is offset=, the 0-based position of the first hit — with the default limit of 20, the second page is offset=20. Each answer names its nextOffset.',
                 'book'       => 'Narrow to one book with book=: book=' . ( $value !== '' ? $value : 'Iob' ) . '.',
                 'numbering'  => 'A psalm number is read as Hebrew with numbering=hebrew (the default is vulgate).',
-                'typography' => 'Drop the space before : ; ! ? with typography=clean.',
+                'typography' => 'Drop the space before : ; ! ? with typography=clean (French keeps it: there it is orthography).',
             ][ $real ];
             self::agent_error( 400, 'UNKNOWN_PARAM', "\"{$name}\" is not a parameter of /{$endpoint}.json, so it would not have been applied.", [
                 'parameter'  => $real,
@@ -962,7 +972,8 @@ trait DwBible_Agent_API_Trait {
      *   lang       comma list of languages/datasets to return TEXT for
      *              (default "la,en"; "all" for all six). URLs come for all six always.
      *   numbering  "hebrew" to read a Psalm number as Masoretic (default vulgate).
-     *   typography "clean" to strip the space before : ; ! ? (default source).
+     *   typography "clean" to strip the space before : ; ! ? (default source); French
+     *              keeps it, where it is orthography.
      *
      * Book-only queries return the book's addresses and no text; chapter-only
      * queries return the whole chapter. A verse the chapter has not got is a 404
@@ -1401,7 +1412,7 @@ trait DwBible_Agent_API_Trait {
                 if ( $p === null ) { continue; }
                 $texts = [];
                 foreach ( $p['verses'] as &$v ) {
-                    if ( $clean ) { $v['text'] = self::agent_clean_typography( $v['text'] ); }
+                    if ( $clean ) { $v['text'] = self::agent_clean_typography( $v['text'], (string) $lang ); }
                     $texts[] = $v['text'];
                 }
                 unset( $v );
@@ -1442,7 +1453,7 @@ trait DwBible_Agent_API_Trait {
                 'usage'      => 'q = any citation form, a comma list of verses in one chapter ("Ps 112:1, 2, 9") and a range across a chapter boundary '
                               . '("Ioannes 18:1-19:42", at most ' . DwBible_Reference::MAX_CHAPTER_SPAN . ' chapters) included; '
                               . 'lang = comma list of la,en,de,es,fr,it (or "all") for the text; '
-                              . 'numbering=hebrew to read a Psalm number as Masoretic; typography=clean to drop the space before : ; ! ?',
+                              . 'numbering=hebrew to read a Psalm number as Masoretic; typography=clean to drop the space before : ; ! ? (not in French, where it is orthography)',
             ],
             'ref' => [
                 'book'         => $book,
@@ -1635,7 +1646,7 @@ trait DwBible_Agent_API_Trait {
                     if ( count( $hits ) >= $limit ) { continue; }
                     $n    = (int) $v['verse'];
                     $text = (string) $v['text'];
-                    if ( $clean ) { $text = self::agent_clean_typography( $text ); }
+                    if ( $clean ) { $text = self::agent_clean_typography( $text, $lang ); }
                     $hits[] = [
                         'ref'      => "{$bname} {$ch}:{$n}",
                         'book'     => [ 'key' => $key, 'slug' => $slug, 'name' => $bname, 'osis' => self::agent_osis_for_key( $key ) ],

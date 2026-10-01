@@ -313,7 +313,7 @@ trait DwBible_JSON_API_Trait {
             $num = (int) $v['verse'];
             if ( $num >= $vfrom && $num <= $vto ) {
                 $text = (string) ( $v['text'] ?? '' );
-                if ( $clean ) { $text = self::agent_clean_typography( $text ); }
+                if ( $clean ) { $text = self::agent_clean_typography( $text, $lang ); }
                 $matched[] = [
                     'verse'    => $num,
                     'text'     => $text,
