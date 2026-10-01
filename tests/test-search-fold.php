@@ -3,9 +3,13 @@
  * WHAT:   /bible-search.json lets a Latin word typed in the classical spelling
  *         ("uirtus", "eius") find what the Clementine prints ("virtus", "ejus"),
  *         while a word typed as the Clementine prints it ("virtus", "vae") finds
- *         exactly what it found before — and no other language changes.
+ *         exactly what it found before — and no other language changes. And a
+ *         word that mixes alphabets ("dеus" with a Cyrillic е) is read in Latin
+ *         letters, and the answer says so.
  * WHY:    Only j/i was folded: "uirtus" found 0 verses where "virtus" found 46
- *         (factory q582, dwbible#25).
+ *         (factory q582, dwbible#25). "dеus" found 0 where "deus" finds 1,927,
+ *         and the empty answer blamed the edition's spelling (factory q589,
+ *         dwbible#23).
  * HOW:    No WordPress. The fold and the two match helpers the endpoint calls are
  *         lifted out of the real source files at runtime (never copied), then run
  *         over the real Latin corpus in ../dwbibledata, verse by verse, the way
@@ -49,11 +53,12 @@ function lift_const_array(string $file, string $name): string {
 $api    = "$root/includes/class-dwbible-agent-api.php";
 $plugin = "$root/dwbible.php";
 $consts = '';
-foreach (['AGENT_SEARCH_EN_SPELLING', 'AGENT_SEARCH_ES_SPELLING', 'AGENT_SEARCH_IT_SPELLING', 'AGENT_SEARCH_DE_SPELLING'] as $c) {
+foreach (['AGENT_SEARCH_HOMOGLYPHS', 'AGENT_SEARCH_EN_SPELLING', 'AGENT_SEARCH_ES_SPELLING', 'AGENT_SEARCH_IT_SPELLING', 'AGENT_SEARCH_DE_SPELLING'] as $c) {
     $consts .= ' ' . lift_const_array($api, $c);
 }
 eval('class Fold { ' . $consts
     . ' public static ' . lift($api, 'agent_search_normalize')
+    . ' public static ' . lift($api, 'agent_search_unmix_scripts')
     . ' public static ' . lift($api, 'agent_search_u_spelled')
     . ' public static ' . lift($api, 'agent_search_verse_matches')
     . ' public static ' . lift($plugin, 'search_normalize')
@@ -120,6 +125,29 @@ foreach (['deus', 'sua', 'eius', 'dominus'] as $q) {
     $now = $count($q); $was = $before($q);
     ok($now >= $was && $now - $was <= max(10, intdiv($was, 50)), "\"{$q}\" (no v, already Clementine): {$now}, was {$was}");
 }
+
+echo "a word that MIXES alphabets is read in Latin letters, and said so (q589):\n";
+$cyr_e = "\u{0435}"; $gr_I = "\u{0399}"; $cyr_o = "\u{043E}";
+foreach ([
+    ["d{$cyr_e}us",          'deus'],
+    ["{$gr_I}esus",          'Iesus'],
+    ["D{$cyr_o}minus",       'Dominus'],
+    ["J{$cyr_e}sus wept",    'Jesus wept'],
+] as [$in, $want]) {
+    [$read, $note] = Fold::agent_search_unmix_scripts($in);
+    ok($read === $want && is_string($note) && strpos($note, $want === 'Jesus wept' ? 'Jesus' : $want) !== false
+       && (strpos($note, 'Cyrillic') !== false || strpos($note, 'Greek') !== false),
+       "\"{$in}\" -> \"{$read}\" — " . ($note ?? 'NO NOTE'));
+}
+foreach (['deus', 'Iesus Christus', "\u{0431}\u{043E}\u{0433}", "\u{03B8}\u{03B5}\u{03CC}\u{03C2}", 'Ægyptus', 'cælum'] as $in) {
+    [$read, $note] = Fold::agent_search_unmix_scripts($in);
+    ok($read === $in && $note === null, "\"{$in}\" (one alphabet) unchanged, no note");
+}
+[$read, $note] = Fold::agent_search_unmix_scripts("d\u{0436}us");
+ok(is_string($note) && strpos($note, 'cannot match') !== false, 'a mixed word with a letter no Latin one looks like is still named: ' . ($note ?? 'NO NOTE'));
+$deus = $count('deus');
+[$read] = Fold::agent_search_unmix_scripts("d{$cyr_e}us");
+ok($deus > 0 && $count($read) === $deus, "\"d{$cyr_e}us\" now finds what \"deus\" finds ({$deus}); it found " . $before("d{$cyr_e}us") . ' before');
 
 echo "\npassed {$pass}, failed {$fail}\n";
 exit($fail === 0 ? 0 : 1);

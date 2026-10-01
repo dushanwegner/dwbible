@@ -1600,7 +1600,8 @@ trait DwBible_Agent_API_Trait {
             }
         }
 
-        $tokens = array_values( array_filter( preg_split( '/\s+/', self::agent_search_normalize( $raw, $lang ) ) ) );
+        [ $unmixed, $read_as ] = self::agent_search_unmix_scripts( $raw );
+        $tokens = array_values( array_filter( preg_split( '/\s+/', self::agent_search_normalize( $unmixed, $lang ) ) ) );
         if ( ! $tokens ) {
             self::agent_error( 400, 'EMPTY_QUERY', 'The query held no searchable words.' );
         }
@@ -1667,6 +1668,9 @@ trait DwBible_Agent_API_Trait {
                 'apiDocs'     => $site . '/llms.txt',
                 'content'     => "{$total} verse" . ( $total === 1 ? '' : 's' ) . ' matching "' . str_replace( '"', "'", $raw ) . '" in ' . $tname . ( $only_name ? " (in {$only_name})" : '' ),
                 'query'       => $raw,
+                // Said whenever the query was read as something other than typed —
+                // today only a word whose look-alike letters were another alphabet's.
+                'readAs'      => $read_as,
                 'tokens'      => $tokens,
                 'translation' => $meta_ds,
                 'book'        => $only_key,
@@ -1800,6 +1804,61 @@ trait DwBible_Agent_API_Trait {
     private const AGENT_SEARCH_DE_SPELLING = [
         'ue' => 'u', 'oe' => 'o', 'ae' => 'a',
     ];
+
+    /**
+     * Letters of another alphabet that print exactly like a Latin one.
+     *
+     * Cyrillic and Greek only: every edition here is in the Latin alphabet, and
+     * these are the two whose look-alikes reach a query — a Russian, Ukrainian,
+     * Serbian or Greek keyboard layout left on for one letter, or a word pasted
+     * from a PDF that substituted them.
+     */
+    private const AGENT_SEARCH_HOMOGLYPHS = [
+        // Cyrillic
+        'а' => 'a', 'е' => 'e', 'о' => 'o', 'р' => 'p', 'с' => 'c', 'у' => 'y', 'х' => 'x',
+        'і' => 'i', 'ј' => 'j', 'ѕ' => 's', 'һ' => 'h', 'ԁ' => 'd', 'ԛ' => 'q', 'ԝ' => 'w', 'ӏ' => 'l', 'к' => 'k',
+        'А' => 'A', 'В' => 'B', 'Е' => 'E', 'К' => 'K', 'М' => 'M', 'Н' => 'H', 'О' => 'O', 'Р' => 'P',
+        'С' => 'C', 'Т' => 'T', 'У' => 'Y', 'Х' => 'X', 'І' => 'I', 'Ј' => 'J', 'Ѕ' => 'S', 'Һ' => 'H',
+        'Ԛ' => 'Q', 'Ԝ' => 'W', 'Ӏ' => 'I',
+        // Greek
+        'α' => 'a', 'ε' => 'e', 'ι' => 'i', 'κ' => 'k', 'ν' => 'v', 'ο' => 'o', 'ρ' => 'p', 'υ' => 'u', 'χ' => 'x',
+        'Α' => 'A', 'Β' => 'B', 'Ε' => 'E', 'Ζ' => 'Z', 'Η' => 'H', 'Ι' => 'I', 'Κ' => 'K', 'Μ' => 'M',
+        'Ν' => 'N', 'Ο' => 'O', 'Ρ' => 'P', 'Τ' => 'T', 'Υ' => 'Y', 'Χ' => 'X',
+    ];
+
+    /**
+     * A query word that MIXES ALPHABETS is a typo, and is read in Latin letters.
+     *
+     * "dеus" with a Cyrillic е looks exactly like "deus" and found 0 verses where
+     * "deus" finds 1,927 — and the empty answer then blamed the edition's
+     * spelling, a wrong diagnosis a reader acts on (factory q589). A word holding
+     * Latin letters AND Cyrillic or Greek ones has its look-alikes replaced; a
+     * word wholly in another alphabet is left alone, since that is a word, not a
+     * slip. Either way the reading is said, never silent.
+     *
+     * @return array{0:string,1:?string} the query as read, and the note saying so (null when unchanged)
+     */
+    private static function agent_search_unmix_scripts( string $raw ): array {
+        $notes = [];
+        $read  = (string) preg_replace_callback( '/\S+/u', static function ( array $m ) use ( &$notes ): string {
+            $word = $m[0];
+            if ( ! preg_match( '/\p{Latin}/u', $word ) || ! preg_match( '/[\p{Cyrillic}\p{Greek}]/u', $word ) ) {
+                return $word;
+            }
+            preg_match_all( '/[\p{Cyrillic}\p{Greek}]/u', $word, $foreign );
+            $letters = implode( ', ', array_map( static function ( string $c ): string {
+                return ( preg_match( '/\p{Greek}/u', $c ) ? 'Greek' : 'Cyrillic' ) . ' "' . $c . '"';
+            }, array_values( array_unique( $foreign[0] ) ) ) );
+            $fixed = strtr( $word, self::AGENT_SEARCH_HOMOGLYPHS );
+            if ( preg_match( '/[\p{Cyrillic}\p{Greek}]/u', $fixed ) ) {
+                $notes[] = "\"{$word}\" mixes alphabets ({$letters}); no edition here is written in that alphabet, so it cannot match as typed.";
+                return $fixed;
+            }
+            $notes[] = "\"{$word}\" mixes alphabets ({$letters}), and is read in Latin letters as \"{$fixed}\".";
+            return $fixed;
+        }, $raw );
+        return [ $read, $notes ? implode( ' ', $notes ) : null ];
+    }
 
     /**
      * Which query words are LATIN WRITTEN WITH U FOR V.
