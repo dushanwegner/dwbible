@@ -270,5 +270,31 @@ foreach (['III Reg 19, 8', 'III Reg. 19, 8', 'II Mach 12,46', 'I Petr 2,9'] as $
     ok($r['query'] === $in && $r['note'] === null, "\"{$in}\" unchanged, no note");
 }
 
+echo "an ORDINAL book numeral is read as its digit, with no note — '1st' is '1' (factory q575):\n";
+foreach ([
+    ['1st Corinthians 13:1',  '1 Corinthians 13:1'],
+    ['2nd Corinthians 5:17',  '2 Corinthians 5:17'],
+    ['3rd John 1:4',          '3 John 1:4'],
+    ['2nd Tim 3:16',          '2 Tim 3:16'],
+    ['1st Cor 13:1',          '1 Cor 13:1'],
+    ['1ST CORINTHIANS 13:1',  '1 CORINTHIANS 13:1'],
+    ['2d Kings 2:11',         '2 Kings 2:11'],
+    ['1st Kings 2:11',        '1 Kings 2:11'],
+    ['1er Corinthiens 13:1',  '1 Corinthiens 13:1'],
+    ['1re Pierre 5:8',        '1 Pierre 5:8'],
+    ["1\u{00E8}re Pierre 5:8", '1 Pierre 5:8'],
+    ['2e Corinthiens 5:17',   '2 Corinthiens 5:17'],
+    ['2nde Corinthiens 5:17', '2 Corinthiens 5:17'],
+    ['2nd. Tim 3:16',         '2 Tim 3:16'],
+] as [$in, $want]) {
+    $r = Ref::normalize_printed_forms($in);
+    ok($r['query'] === $want && $r['note'] === null, "\"{$in}\" → \"{$r['query']}\", no note");
+}
+echo "…but a suffix that is really the book's own abbreviation is left alone:\n";
+foreach (['1Re 3,5', '1 Re 3,5', '2Th 1:3', '1Thes 5:17', '1 st Corinthians 13:1', '5th Book 1:1', 'Rom 1st 1:1'] as $in) {
+    $r = Ref::normalize_printed_forms($in);
+    ok($r['query'] === $in && $r['note'] === null, "\"{$in}\" unchanged, no note");
+}
+
 echo "\npassed {$pass}, failed {$fail}\n";
 exit($fail === 0 ? 0 : 1);

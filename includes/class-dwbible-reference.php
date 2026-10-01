@@ -396,16 +396,31 @@ class DwBible_Reference {
      *                             so the whole verse is the honest answer.
      *   "Joh 3,16f", "3,16 f."    German f. = the verse and the one after it.
      *
+     *   "1st Corinthians", "2nd Tim", "3rd John", French "1er", "1re", "2e"
+     *                             the numeral of a numbered book, written as an
+     *                             ordinal. "1st" IS "1", so this is a spelling, not a
+     *                             reading, and it goes unremarked.
+     *
      * Everything else is left alone for the grammar to accept or refuse; see
      * citation_advice() for what the refusal then says. A reader's own spelling of
-     * the book is never touched: only a verse number (after `:` `,` `.` or a range
-     * dash) may lose its letter.
+     * the book is never touched beyond that leading numeral: otherwise only a verse
+     * number (after `:` `,` `.` or a range dash) may lose its letter.
      *
      * @return array{query:string, note:?string}
      */
     public static function normalize_printed_forms($raw) {
         $q     = self::normalize_unicode_punctuation(self::normalize_unicode_digits(trim((string) $raw)));
         $notes = [];
+
+        // AN ORDINAL BOOK NUMERAL — "1st Corinthians 13:1" answered
+        // BOOK_NOT_RECOGNISED while "First Corinthians" and "1 Corinthians"
+        // resolved (factory q575). Rewritten here, before anything reads the
+        // name, so "1st Kings" meets the Kings/Samuel candidate check exactly as
+        // "1 Kings" does and is never silently read as one of the two books.
+        // The suffix must be glued to the digit AND followed by a space and a
+        // letter: Italian prints "1Re 3,5" / "1 Re 3,5" for Kings, and neither
+        // may lose its "Re".
+        $q = (string) preg_replace('/^([1-4])(?:st|nd|nde|rd|th|d|er|re|ère|ere|e|ème|eme)\.?(?=\s+\p{L})/iu', '$1', $q);
 
         $roman = self::normalize_roman_chapter($q);
         if ($roman !== null) {
