@@ -1479,7 +1479,8 @@ trait DwBible_Agent_API_Trait {
      *
      * Parameters
      *   q      the words to find; ALL must occur in a verse (order-free, substring,
-     *          case- and accent-insensitive; in Latin j/i are folded so "ejus" finds "eius";
+     *          case- and accent-insensitive; in Latin j/i are folded so "ejus" finds "eius",
+     *          and a word typed with u and no v reads the verse's v as u, so "uirtus" finds "virtus";
      *          in English British/American spelling is folded so "neighbour" finds "neighbor").
      *   lang   one language or dataset (default la).
      *   book   optional canonical key / any book name to narrow the scan.
@@ -1603,6 +1604,7 @@ trait DwBible_Agent_API_Trait {
         if ( ! $tokens ) {
             self::agent_error( 400, 'EMPTY_QUERY', 'The query held no searchable words.' );
         }
+        $u_spelled = self::agent_search_u_spelled( $tokens, $lang );
 
         $clean  = self::agent_typography_mode() === 'clean';
         $base   = dwbible_data_dir() . $dataset . '/json/';
@@ -1624,9 +1626,8 @@ trait DwBible_Agent_API_Trait {
                 $data = json_decode( (string) file_get_contents( $file ), true );
                 if ( ! is_array( $data ) || empty( $data['verses'] ) ) { continue; }
                 foreach ( $data['verses'] as $v ) {
-                    $hay = self::agent_search_normalize( (string) $v['text'], $lang );
-                    foreach ( $tokens as $t ) {
-                        if ( strpos( $hay, $t ) === false ) { continue 2; }
+                    if ( ! self::agent_search_verse_matches( self::agent_search_normalize( (string) $v['text'], $lang ), $tokens, $u_spelled ) ) {
+                        continue;
                     }
                     $total++;
                     if ( $total <= $offset ) { continue; }
@@ -1680,7 +1681,7 @@ trait DwBible_Agent_API_Trait {
                 'nextOffset'  => ( $offset + count( $hits ) ) < $total ? $offset + count( $hits ) : null,
                 'typography'  => $clean ? 'clean' : 'source',
                 'noHitsBecause' => $total === 0 ? ( self::agent_search_citation_hint( $raw, $lang ) ?? self::agent_search_orthography_hint( $dataset ) ) : null,
-                'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i; English folds British and American spelling, honour/honor; Spanish folds period and modern spelling, quando/cuando; Italian likewise, Davidde/Davide, figliuolo/figlio). '
+                'usage'       => 'All words in q must occur in a verse (any order, accent-insensitive; Latin folds j→i, and a word typed with u and no v also matches the v the Clementine prints, uirtus/virtus; English folds British and American spelling, honour/honor; Spanish folds period and modern spelling, quando/cuando; Italian likewise, Davidde/Davide, figliuolo/figlio). '
                                . 'lang = one of la,en,de,es,fr,it; book = a book to narrow to; limit ≤ ' . self::AGENT_SEARCH_MAX_LIMIT . '; '
                                . 'offset = where to start, 0-based — when `truncated` is true, `nextOffset` is the offset to ask for next. '
                                . 'Each hit carries its own HTML page, its JSON, and a refJson that returns the verse in every language.',
@@ -1801,6 +1802,50 @@ trait DwBible_Agent_API_Trait {
     ];
 
     /**
+     * Which query words are LATIN WRITTEN WITH U FOR V.
+     *
+     * Latin has one letter where the Clementine prints two: "virtus", "vox",
+     * "servus" are "uirtus", "uox", "seruus" in classical and most scholarly
+     * spelling, and "uirtus" found 0 verses where "virtus" found 46 (factory
+     * q582). A word typed with a u and no v is matched against the verse with
+     * its v read as u. A word typed WITH a v is the Clementine's own spelling
+     * and is matched as printed: folding both sides instead would read "vae"
+     * as "uae" and grow it from 197 verses to 4,417, "via" from 977 to 3,466.
+     * Read this way the Clementine-spelled words lose nothing, and the u-spelled
+     * ones gain only what u-spelling cannot tell apart (voluit/volvit).
+     *
+     * @param string[] $tokens folded query words
+     * @return array<int,bool> per token: match it against the v-as-u verse
+     */
+    private static function agent_search_u_spelled( array $tokens, string $lang ): array {
+        $out = [];
+        foreach ( $tokens as $i => $t ) {
+            $out[ $i ] = $lang === 'la' && strpos( $t, 'v' ) === false && strpos( $t, 'u' ) !== false;
+        }
+        return $out;
+    }
+
+    /**
+     * Does one folded verse hold every query word (substring, any order)?
+     *
+     * @param string         $hay       the verse, through agent_search_normalize()
+     * @param string[]       $tokens    the query words, the same way
+     * @param array<int,bool> $u_spelled from agent_search_u_spelled()
+     */
+    private static function agent_search_verse_matches( string $hay, array $tokens, array $u_spelled ): bool {
+        $hay_u = null;
+        foreach ( $tokens as $i => $t ) {
+            if ( ! empty( $u_spelled[ $i ] ) ) {
+                $hay_u = $hay_u ?? str_replace( 'v', 'u', $hay );
+                if ( strpos( $hay_u, $t ) === false ) { return false; }
+            } elseif ( strpos( $hay, $t ) === false ) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    /**
      * Fold a string for matching: lower-case, accents stripped (the site's own
      * search_normalize map, æ→ae included), for Latin j→i so classical and
      * Clementine spellings meet ("eius" / "ejus"), and for English British and
@@ -1873,7 +1918,7 @@ trait DwBible_Agent_API_Trait {
 
     private static function agent_search_orthography_hint( string $dataset ): ?string {
         $hints = [
-            'latin'   => 'The Clementine Vulgate (1592) writes J for consonantal I and uses the æ/œ ligatures — "Jesu", "ejus", "cælum". This search folds j/i, æ/ae and œ/oe, so all of those match. What it cannot fold is oe where this edition writes ae: heaven here is "cælum" (175 verses) and never "coelum" (0), so "Cœli enarrant" finds nothing where "Cæli enarrant" finds the psalm.',
+            'latin'   => 'The Clementine Vulgate (1592) writes J for consonantal I and uses the æ/œ ligatures — "Jesu", "ejus", "cælum". This search folds j/i, æ/ae and œ/oe, so all of those match, and a word typed with u and no v also finds the v this edition prints ("uirtus" finds "virtus"). What it cannot fold is oe where this edition writes ae: heaven here is "cælum" (175 verses) and never "coelum" (0), so "Cœli enarrant" finds nothing where "Cæli enarrant" finds the psalm.',
             'spanish' => 'The Scío de San Miguel (1790s) keeps 18th-century Spanish orthography. This search folds its common period spellings to modern ones — quando/cuando, qual/cual, Christo/Cristo, Jesu-Christo/Jesucristo, dixo/dijo, muger/mujer, reyno/reino, ph/f, th/t — so those match either way; a rarer period form may still need to be written as the edition writes it.',
             'italian' => 'The Martini (1780s) keeps 18th-century Italian. This search folds its common period spellings to modern ones — Davidde/Davide, figliuolo/figlio, sacrifizio/sacrificio, limosina/elemosina, nimico/nemico, maraviglia/meraviglia, and j for i (giudizj/giudizi, ajuto/aiuto) — so those match either way. What it cannot fold is an older word or verb form: "nol" for "non lo", "imperocché" for "poiché".',
             'bible'   => 'The Douay-Rheims keeps early-modern English: "thee", "thou", "hath", "shew". Search the form the edition uses.',
