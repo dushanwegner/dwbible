@@ -412,21 +412,24 @@ class DwBible_Reference {
         $q     = self::normalize_unicode_punctuation(self::normalize_unicode_digits(trim((string) $raw)));
         $notes = [];
 
+        $roman = self::normalize_roman_chapter($q);
+        if ($roman !== null) {
+            $q       = $roman['query'];
+            $notes[] = '"' . $roman['numeral'] . '" is read as chapter ' . $roman['value'] . '.';
+        }
+
         // AN ORDINAL BOOK NUMERAL — "1st Corinthians 13:1" answered
         // BOOK_NOT_RECOGNISED while "First Corinthians" and "1 Corinthians"
         // resolved (factory q575). Rewritten here, before anything reads the
         // name, so "1st Kings" meets the Kings/Samuel candidate check exactly as
         // "1 Kings" does and is never silently read as one of the two books.
         // The suffix must be glued to the digit AND followed by a space and a
-        // letter: Italian prints "1Re 3,5" / "1 Re 3,5" for Kings, and neither
-        // may lose its "Re".
-        $q = (string) preg_replace('/^([1-4])(?:st|nd|nde|rd|th|d|er|re|ère|ere|e|ème|eme)\.?(?=\s+\p{L})/iu', '$1', $q);
-
-        $roman = self::normalize_roman_chapter($q);
-        if ($roman !== null) {
-            $q       = $roman['query'];
-            $notes[] = '"' . $roman['numeral'] . '" is read as chapter ' . $roman['value'] . '.';
-        }
+        // WORD: Italian prints "1Re 3,5" for Kings and "2Th" is Thessalonians,
+        // and neither may lose its letters. It runs AFTER the Roman chapter is
+        // read, and refuses a following token made only of Roman-numeral
+        // letters, because "1Re III, 5" is a book and a chapter, not "1" and a
+        // book called "III" (review of the first version, q575).
+        $q = (string) preg_replace('/^([1-4])(?:st|nd|nde|rd|th|d|er|re|ère|ere|e|ème|eme)\.?(?=\s+(?![ivxlcdm]+(?![\p{L}]))\p{L})/iu', '$1', $q);
 
         $halves = [];
         $q = (string) preg_replace_callback(

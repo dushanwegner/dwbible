@@ -296,5 +296,23 @@ foreach (['1Re 3,5', '1 Re 3,5', '2Th 1:3', '1Thes 5:17', '1 st Corinthians 13:1
     ok($r['query'] === $in && $r['note'] === null, "\"{$in}\" unchanged, no note");
 }
 
+echo "…and a glued book abbreviation before a ROMAN chapter keeps its letters — the chapter is read, the book is not cut (review of q575):\n";
+foreach ([
+    ['1Re III, 5',       '1Re 3, 5',     'III'],
+    ['2Re II, 3',        '2Re 2, 3',     'II'],
+    ['2Th II, 3',        '2Th 2, 3',     'II'],
+    ['2Th. ii. 3',       '2Th 2. 3',     'ii'],
+    ['1Th IV, 3',        '1Th 4, 3',     'IV'],
+    ['1st Cor XIII, 1',  '1 Cor 13, 1',  'XIII'],
+] as [$in, $want, $named]) {
+    $r = Ref::normalize_printed_forms($in);
+    ok($r['query'] === $want && strpos((string) $r['note'], $named) !== false,
+       "\"{$in}\" → \"{$r['query']}\", note names {$named}");
+}
+foreach (['2Th II,3-III,5', '1Re II'] as $in) {
+    $r = Ref::normalize_printed_forms($in);
+    ok(strpos($r['query'], substr($in, 0, 3)) === 0, "\"{$in}\" → \"{$r['query']}\" keeps its book \"" . substr($in, 0, 3) . '"');
+}
+
 echo "\npassed {$pass}, failed {$fail}\n";
 exit($fail === 0 ? 0 : 1);

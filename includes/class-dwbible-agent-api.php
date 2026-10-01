@@ -1067,7 +1067,11 @@ trait DwBible_Agent_API_Trait {
             // of them back to BOOK_NOT_RECOGNISED, which is the very error this
             // block exists to stop. Measured on a full year of Mass readings:
             // 13 of the 242 unresolvable references were numbered books.
-            if ( preg_match( '/^\s*((?:[1-4]\s*)?[^\d]+?)\s*\d/u', $raw, $bm ) ) {
+            // The head is read from the PRINTED form, not the raw one: the raw
+            // "1st Cor 13:1ff" has no book "1st Cor", and was told so, while its
+            // printed form "1 Cor 13:1ff" names one and gets advice about the
+            // "ff." that actually failed (review of q575).
+            if ( preg_match( '/^\s*((?:[1-4]\s*)?[^\d]+?)\s*\d/u', $printed['query'], $bm ) ) {
                 $head = self::internal_key_from_any_book( trim( $bm[1] ), 'latin' );
             }
             if ( $head !== null ) {
