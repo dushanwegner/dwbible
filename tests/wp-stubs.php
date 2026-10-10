@@ -33,6 +33,7 @@ function home_url($p = '') { return 'https://stub.test' . $p; }
 function sanitize_text_field($s) { return $s; }
 function wp_unslash($s) { return $s; }
 function get_query_var($n, $d = '') { return $GLOBALS['dwtest_query_vars'][$n] ?? $d; }
+function set_query_var($n, $v) { $GLOBALS['dwtest_query_vars'][$n] = $v; }
 function get_transient($k) { return false; }
 function set_transient(...$a) { return true; }
 function get_option($k, $d = false) { return $d; }
