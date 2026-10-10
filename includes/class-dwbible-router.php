@@ -419,6 +419,13 @@ trait DwBible_Router_Trait {
         $cited = self::key_from_citation_name($raw_book);
         if ($cited !== null) { return $cited; }
 
+        // THE THIRD AND FOURTH BOOK OF KINGS in the Italian, Spanish and French
+        // names the editions print ("Tercero de los Reyes", "Troisième des Rois",
+        // "3 Rois"). Unambiguous, so not part of the Kings/Samuel check; read here
+        // only because no table holds them all (q7379).
+        $third_fourth = DwBible_Kings_Samuel::unambiguous_key_for($raw_book);
+        if ($third_fourth !== null) { return $third_fourth; }
+
         // A NUMBERED BOOK WRITTEN WITH A SPACE — "1 Kor", "1 Co", "2 Tes": digit,
         // space, abbreviation, the form German, French and Spanish Bibles print.
         // The tables hold "1Kor" and "1. Kor", so 39 such abbreviations answered
