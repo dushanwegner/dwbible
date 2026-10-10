@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   The citation forms a lectionary, a German Bible or a Latin scholarly
  *         apparatus PRINTS are read or refused by name: half-verse letters,

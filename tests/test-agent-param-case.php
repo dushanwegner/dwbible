@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   agent_normalize_get_keys() folds $_GET keys to lowercase before the
  *         agent-API endpoints read any parameter.

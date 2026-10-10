@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   DwBible_Kings_Samuel — the candidate-set map and the existence
  *         elimination it does for "1 Kings"/"2 Kings" and their twins.
@@ -82,7 +83,7 @@ $spelled_forms = [
     'The First Book of Kings'  => '1 Kings',
     'The Second Book of Kings' => '2 Kings',
     'First  Kings'             => '1 Kings',
-    'Primo dei Re'             => '1 Re',    // Italian digit form is not ambiguous: stays as it is
+    'Primo dei Re'             => '1 Re',    // Italian: both ambiguous since q7379
     'Secondo dei Re'           => '2 Re',
     'Erstes Buch der Könige'   => '1 Könige', // German likewise
     'Zweites Buch der Könige'  => '2 Könige',
@@ -136,6 +137,65 @@ check('1 Kings 99:1 -> no survivors', $none === [], var_export($none, true));
 // 22 but within 1-kings-samuel's 31 leaves exactly one survivor.
 $edge = DwBible_Kings_Samuel::surviving($candidates, $COUNTS, 25, 25, 1);
 check('1 Kings 25:1 (past the shorter book, inside the longer) -> 1 Samuel only', $edge === ['1-kings-samuel'], var_export($edge, true));
+
+// ── Italian, Spanish and French (q7379) ─────────────────────────────────────
+// The names the site's own editions print for the four books (dwbibledata
+// index.csv: Primo/Secondo/Terzo/Quarto dei Re; Primero…/Cuarto de los Reyes;
+// Premier/Deuxième/Troisième/Quatrième des Rois) and their digit forms. First
+// and second fit both books -> the same two candidates as "1 Kings"/"2 Kings";
+// third and fourth are only ever 3 and 4 Kings.
+$first  = ['3-kings', '1-kings-samuel'];
+$second = ['4-kings', '2-kings-samuel'];
+$it_es_fr_ambiguous = [
+    'Primo dei Re' => $first,   'Secondo dei Re' => $second,
+    'primo dei re' => $first,   'Primo libro dei Re' => $first,
+    '1 Re' => $first,           '2 Re' => $second,
+    'I Re' => $first,           'II Re' => $second,
+    'Primero de los Reyes' => $first,   'Segundo de los Reyes' => $second,
+    'Primer libro de los Reyes' => $first,  'Libro Primero de los Reyes' => $first,
+    '1 Reyes' => $first,        '2 Reyes' => $second,
+    'Premier des Rois' => $first,       'Deuxième des Rois' => $second,
+    'Second des Rois' => $second,       'Premier livre des Rois' => $first,
+    'PREMIER DES ROIS' => $first,
+    '1 Rois' => $first,         '2 Rois' => $second,
+];
+foreach ($it_es_fr_ambiguous as $raw => $want) {
+    $got = DwBible_Kings_Samuel::candidates_for($raw);
+    check("\"$raw\" is ambiguous: {$want[0]} then {$want[1]}", $got === $want, var_export($got, true));
+}
+
+$third_fourth = [
+    'Terzo dei Re' => '3-kings',   'Quarto dei Re' => '4-kings',   '3 Re' => '3-kings',    '4 Re' => '4-kings',
+    'Tercero de los Reyes' => '3-kings', 'Cuarto de los Reyes' => '4-kings',
+    'Tercer libro de los Reyes' => '3-kings',  '3 Reyes' => '3-kings',  '4 Reyes' => '4-kings',
+    'Troisième des Rois' => '3-kings',   'Quatrième des Rois' => '4-kings',
+    '3 Rois' => '3-kings',  '4 Rois' => '4-kings',
+];
+foreach ($third_fourth as $raw => $key) {
+    check("\"$raw\" is not ambiguous", DwBible_Kings_Samuel::candidates_for($raw) === null,
+          var_export(DwBible_Kings_Samuel::candidates_for($raw), true));
+    $got = DwBible_Kings_Samuel::unambiguous_key_for($raw);
+    check("\"$raw\" is understood as $key", $got === $key, var_export($got, true));
+}
+
+// Only third and fourth: the first/second forms are never a single key, and
+// neither are Samuel, other books named with "de los"/"des"/"dei", or German.
+foreach (['Primo dei Re', '1 Re', 'Primero de los Reyes', 'Premier des Rois', '1 Kings', '3 Kings', 'Terzo di Samuele',
+          'Tercero de los Macabeos', 'Troisième des Corinthiens', 'Primo dei Maccabei', 'Primero de los Macabeos',
+          'Premier des Maccabées', 'Deuxième des Rois de France', 'Erstes Buch der Könige', '1 Könige', ''] as $raw) {
+    check("\"$raw\" is not a third/fourth Kings name", DwBible_Kings_Samuel::unambiguous_key_for($raw) === null,
+          var_export(DwBible_Kings_Samuel::unambiguous_key_for($raw), true));
+}
+// German stays as it is: no ambiguity, the edition's own naming.
+foreach (['Erstes Buch der Könige', 'Zweites Buch der Könige', '1 Könige', '2 Könige', '1. Könige'] as $raw) {
+    check("German \"$raw\" is not ambiguous", DwBible_Kings_Samuel::candidates_for($raw) === null);
+}
+// Other languages' Samuel, Maccabees and the like must not be pulled in.
+foreach (['Primo di Samuele', 'Primero de Samuel', 'Premier de Samuel', 'Primo dei Maccabei', 'Primero de los Macabeos',
+          'Premier des Maccabées', 'Primo de Paralipomeni', 'Premier des Chroniques', '1 Sam', '1 Samuele', '1 Samuel'] as $raw) {
+    check("\"$raw\" is NOT read as ambiguous", DwBible_Kings_Samuel::candidates_for($raw) === null,
+          var_export(DwBible_Kings_Samuel::candidates_for($raw), true));
+}
 
 echo "\n" . ($fails ? "failed: $fails\n" : "passed: every Kings/Samuel candidate check\n");
 exit($fails ? 1 : 0);

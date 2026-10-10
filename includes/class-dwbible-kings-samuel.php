@@ -48,25 +48,76 @@ class DwBible_Kings_Samuel {
         '1 kgs'   => [ '3-kings', '1-kings-samuel' ],
         '1 regum' => [ '3-kings', '1-kings-samuel' ],
         '1 reg'   => [ '3-kings', '1-kings-samuel' ],
+        '1 re'    => [ '3-kings', '1-kings-samuel' ],
+        '1 reyes' => [ '3-kings', '1-kings-samuel' ],
+        '1 rois'  => [ '3-kings', '1-kings-samuel' ],
         'regum i' => [ '3-kings', '1-kings-samuel' ],
         '2 kings' => [ '4-kings', '2-kings-samuel' ],
         '2 kgs'   => [ '4-kings', '2-kings-samuel' ],
         '2 regum' => [ '4-kings', '2-kings-samuel' ],
         '2 reg'   => [ '4-kings', '2-kings-samuel' ],
+        '2 re'    => [ '4-kings', '2-kings-samuel' ],
+        '2 reyes' => [ '4-kings', '2-kings-samuel' ],
+        '2 rois'  => [ '4-kings', '2-kings-samuel' ],
         'regum ii' => [ '4-kings', '2-kings-samuel' ],
     ];
 
     /**
-     * The spelled "first"/"second" before Kings that the abbreviation tables
-     * hold (dwbibledata: English "First Kings", "The First Book of Kings";
-     * Italian "Primo dei Re"; German "Erstes Buch der Könige"). Third and
-     * fourth are not here: they are the unambiguous Douay forms.
+     * The spelled ordinal before Kings that the abbreviation tables and the
+     * editions' own book lists hold: English "First Kings", "The First Book
+     * of Kings"; Italian "Primo dei Re" (the Martini edition's name for
+     * 1 Samuel); Spanish "Primero de los Reyes"; French "Premier des Rois".
+     * Group 1 is the ordinal, group 2 the noun. Each pattern reads first to
+     * fourth; only first and second are ambiguous (see unambiguous_key_for()
+     * for third and fourth). German is not here: its edition names the books
+     * the modern way ("1 Könige" is the book it calls so), so "Erstes Buch
+     * der Könige" is no ambiguity and stays with the table (q7379).
      */
     private const SPELLED_ORDINAL = [
-        '/^(?:the\s+)?(first|second)(?:\s+book\s+of)?\s+(kings|kgs)$/iu',
-        '/^(primo|secondo)\s+dei\s+(re)$/iu',
-        '/^(erstes|zweites)\s+buch\s+der\s+(könige)$/iu',
+        '/^(?:the\s+)?(first|second|third|fourth)(?:\s+book\s+of)?\s+(kings|kgs)$/iu',
+        '/^(primo|secondo|terzo|quarto)(?:\s+libro)?\s+(?:dei|di)\s+(re|reg)$/iu',
+        '/^(?:libro\s+)?(primero|primer|segundo|tercero|tercer|cuarto)(?:\s+libro)?\s+(?:de\s+los|de)\s+(reyes)$/iu',
+        '/^(premier|première|deuxième|second|seconde|troisième|quatrième)(?:\s+livre)?\s+(?:des|de)\s+(rois)$/iu',
     ];
+
+    /** Ordinal word (lower case) -> its number, every language above. */
+    private const ORDINAL_NUMBER = [
+        'first' => 1, 'second' => 2, 'third' => 3, 'fourth' => 4,
+        'primo' => 1, 'secondo' => 2, 'terzo' => 3, 'quarto' => 4,
+        'primero' => 1, 'primer' => 1, 'segundo' => 2, 'tercero' => 3, 'tercer' => 3, 'cuarto' => 4,
+        'premier' => 1, 'première' => 1, 'deuxième' => 2, 'seconde' => 2, 'troisième' => 3, 'quatrième' => 4,
+    ];
+
+    /**
+     * Nouns that, behind a 3 or a 4, name the Vulgate's third and fourth
+     * book of Kings and nothing else (no modern convention has a "3 Kings").
+     */
+    private const THIRD_FOURTH_NOUN = '/^([34]) (re|reg|reyes|rois)$/u';
+
+    /**
+     * The raw string with a Roman "I"/"II" read as its digit and a spelled
+     * ordinal read as its digit: "Primero de los Reyes" -> "1 reyes". A
+     * string that is neither stays as it was.
+     */
+    private static function folded( string $raw ): string {
+        $s = trim( $raw );
+        if ( $s === '' ) { return ''; }
+        $s = (string) preg_replace( '/\s+/u', ' ', $s );
+        $s = (string) preg_replace_callback(
+            '/^(I{1,2})(?:\.\s*|\s+)(?=\p{L})/u',
+            static function ( $m ) { return ( strtolower( $m[1] ) === 'ii' ? '2 ' : '1 ' ); },
+            $s
+        );
+        // A SPELLED ordinal is its digit: "First Kings" meets the same check
+        // as "1 Kings" and is never silently read as one of the two books (q5130).
+        foreach ( self::SPELLED_ORDINAL as $pattern ) {
+            if ( preg_match( $pattern, $s, $m ) ) {
+                $n = self::ORDINAL_NUMBER[ mb_strtolower( $m[1], 'UTF-8' ) ] ?? 0;
+                if ( $n > 0 ) { return $n . ' ' . $m[2]; }
+            }
+        }
+        return $s;
+    }
 
     /**
      * Candidate keys for a raw book string, MODERN reading first, or null
@@ -83,31 +134,26 @@ class DwBible_Kings_Samuel {
      * @return string[]|null
      */
     public static function candidates_for( string $raw ): ?array {
-        $s = trim( (string) $raw );
+        $s = self::folded( $raw );
         if ( $s === '' ) { return null; }
-        $s = (string) preg_replace( '/\s+/u', ' ', $s );
-        $s = (string) preg_replace_callback(
-            '/^(I{1,2})(?:\.\s*|\s+)(?=\p{L})/u',
-            static function ( $m ) { return ( strtolower( $m[1] ) === 'ii' ? '2 ' : '1 ' ); },
-            $s
-        );
-        // A SPELLED ordinal is its digit: "First Kings" meets the same check
-        // as "1 Kings" and is never silently read as one of the two books (q5130).
-        foreach ( self::SPELLED_ORDINAL as $pattern ) {
-            $folded = preg_replace_callback(
-                $pattern,
-                static function ( $m ) {
-                    $first = in_array( mb_strtolower( $m[1], 'UTF-8' ), [ 'first', 'primo', 'erstes' ], true );
-                    return ( $first ? '1 ' : '2 ' ) . $m[2];
-                },
-                $s,
-                1,
-                $n
-            );
-            if ( $n > 0 ) { $s = (string) $folded; break; }
-        }
         $key = mb_strtolower( $s, 'UTF-8' );
         return self::AMBIGUOUS[ $key ] ?? null;
+    }
+
+    /**
+     * The one book a THIRD or FOURTH Kings name in Italian, Spanish or
+     * French stands for ("Terzo dei Re", "Tercero de los Reyes", "3 Rois",
+     * "Quatrième des Rois"), or null. These are the Vulgate's own numbers:
+     * no convention reads them two ways, so there is nothing to disambiguate
+     * and candidates_for() leaves them alone; this is only so that the names
+     * the editions print are understood where the tables do not hold them.
+     */
+    public static function unambiguous_key_for( string $raw ): ?string {
+        $s = mb_strtolower( self::folded( $raw ), 'UTF-8' );
+        if ( preg_match( self::THIRD_FOURTH_NOUN, $s, $m ) ) {
+            return $m[1] === '3' ? '3-kings' : '4-kings';
+        }
+        return null;
     }
 
     /**

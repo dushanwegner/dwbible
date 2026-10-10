@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.10.10.06
+* Version: 1.26.10.10.08
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.10.10.06');
+    define('DWBIBLE_VERSION', '1.26.10.10.08');
 }
 
 // Load include classes before hooks are registered
@@ -1606,17 +1606,36 @@ class DwBible_Plugin {
     }
 
     /**
-     * Book category definitions — order ranges and English labels.
+     * Book category definitions — the books each heading holds, BY CANONICAL
+     * KEY, and the heading's English label.
+     *
+     * Never by the dataset's order number: the Italian dataset numbers its
+     * books differently from the Latin one (1-2 Machabees at 20-21, Wisdom and
+     * Ecclesiasticus at 27-28), so ranges of order numbers put the Maccabees
+     * under "Wisdom Books" and Wisdom and Ecclesiasticus under "Prophets" (q7380).
+     * The grouping is the one the Latin dataset's own order always drew: the
+     * Maccabees, last in the Vulgate's Old Testament, stand with the Prophets.
      */
     private static function book_categories() {
         return [
-            ['range' => [1, 5],   'testament' => 'ot', 'label' => 'Pentateuch'],
-            ['range' => [6, 19],  'testament' => 'ot', 'label' => 'Historical Books'],
-            ['range' => [20, 26], 'testament' => 'ot', 'label' => 'Wisdom Books'],
-            ['range' => [27, 46], 'testament' => 'ot', 'label' => 'Prophets'],
-            ['range' => [47, 50], 'testament' => 'nt', 'label' => 'Gospels'],
-            ['range' => [51, 65], 'testament' => 'nt', 'label' => 'Acts & Letters'],
-            ['range' => [66, 73], 'testament' => 'nt', 'label' => 'Catholic Epistles & Apocalypse'],
+            ['testament' => 'ot', 'label' => 'Pentateuch', 'keys' => [
+                'genesis', 'exodus', 'leviticus', 'numbers', 'deuteronomy']],
+            ['testament' => 'ot', 'label' => 'Historical Books', 'keys' => [
+                'josue', 'judges', 'ruth', '1-kings-samuel', '2-kings-samuel', '3-kings', '4-kings',
+                '1-paralipomenon', '2-paralipomenon', '1-esdras', '2-esdras-nehemias', 'tobias', 'judith', 'esther']],
+            ['testament' => 'ot', 'label' => 'Wisdom Books', 'keys' => [
+                'job', 'psalms', 'proverbs', 'ecclesiastes', 'canticle-of-canticles', 'wisdom', 'ecclesiasticus']],
+            ['testament' => 'ot', 'label' => 'Prophets', 'keys' => [
+                'isaias', 'jeremias', 'lamentations', 'baruch', 'ezechiel', 'daniel', 'osee', 'joel', 'amos', 'abdias',
+                'jonas', 'micheas', 'nahum', 'habacuc', 'sophonias', 'aggeus', 'zacharias', 'malachias',
+                '1-machabees', '2-machabees']],
+            ['testament' => 'nt', 'label' => 'Gospels', 'keys' => [
+                'matthew', 'mark', 'luke', 'john']],
+            ['testament' => 'nt', 'label' => 'Acts & Letters', 'keys' => [
+                'acts', 'romans', '1-corinthians', '2-corinthians', 'galatians', 'ephesians', 'philippians',
+                'colossians', '1-thessalonians', '2-thessalonians', '1-timothy', '2-timothy', 'titus', 'philemon', 'hebrews']],
+            ['testament' => 'nt', 'label' => 'Catholic Epistles & Apocalypse', 'keys' => [
+                'james', '1-peter', '2-peter', '1-john', '2-john', '3-john', 'jude', 'apocalypse']],
         ];
     }
 
@@ -1991,6 +2010,15 @@ class DwBible_Plugin {
         // "Giobbe" beside Proverbia and "Aggeo" beside Malachias (q586).
         $secondary_names = $secondary_dataset !== '' ? self::book_names_by_dataset($secondary_dataset) : [];
 
+        // The primary dataset's rows by canonical key: a heading holds BOOKS
+        // (book_categories()), and the dataset's order number says nothing
+        // about which (q7380).
+        $primary_by_key = [];
+        foreach ($primary_books as $pb) {
+            $pk = self::key_from_any_book_slug( self::slugify($pb['short_name']) );
+            if ($pk !== null && !isset($primary_by_key[$pk])) { $primary_by_key[$pk] = $pb; }
+        }
+
         $base_url   = home_url('/' . $current_slug . '/');
         $testaments = self::testament_meta();
 
@@ -2103,15 +2131,16 @@ class DwBible_Plugin {
             $out .= '</div>';
             $out .= '<div class="dwbible-tiles lp-rowlist">';
 
-            foreach ($primary_books as $b) {
-                $order = intval($b['order']);
-                if ($order < $cat['range'][0] || $order > $cat['range'][1]) {
+            // The heading's books in the Vulgate's own order, each found by KEY
+            // in the primary dataset (whatever number that dataset gave it).
+            foreach ($cat['keys'] as $book_key) {
+                if (!isset($primary_by_key[$book_key])) {
                     continue;
                 }
+                $b = $primary_by_key[$book_key];
                 // Slug and display name from the primary dataset
                 $book_slug = self::slugify($b['short_name']);
                 $name      = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
-                $book_key  = self::key_from_any_book_slug( $book_slug );
                 $alt_name  = ( $book_key !== null && isset($secondary_names[$book_key]) ) ? $secondary_names[$book_key] : '';
                 $url       = trailingslashit($base_url) . $book_slug . '/';
 

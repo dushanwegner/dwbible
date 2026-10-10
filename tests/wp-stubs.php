@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   The few WordPress functions the plugin's pure rendering code calls,
  *         as stubs, and the plugin itself loaded on top of them — so a test can

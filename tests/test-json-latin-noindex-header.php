@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:    Asserts the Latin-only JSON API (`/latin/{book}/{chapter}.json`)
  *          sends its own `X-Robots-Tag: noindex` header, matching the HTML

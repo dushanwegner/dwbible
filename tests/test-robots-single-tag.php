@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:    Asserts the Latin-only surface's noindex signal is added through
  *          WordPress's `wp_robots` filter, not a raw second `<meta name="robots">`

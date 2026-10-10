@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   The Bible's search box (`/<language>/biblia/?q=…`) sends a bare number
  *         after one of the five ONE-CHAPTER books (Abdias, Philemon, 2 John,
@@ -14,7 +15,6 @@
  * OUTPUT: exit 0 when every assertion passes.
  * RUN:    php tests/test-search-box-one-chapter.php
  */
-if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 
 if (($argv[1] ?? '') === '--one') {
     ob_start();
