@@ -188,7 +188,7 @@ class DwBible_JsonLd {
                         [
                             '@type'    => 'ListItem',
                             'position' => 3,
-                            'name'     => "Chapter {$chapter}",
+                            'name'     => DwBible_Plugin::chapter_word( (string) $lang ) . " {$chapter}",
                         ],
                     ],
                 ],

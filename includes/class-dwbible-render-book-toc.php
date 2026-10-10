@@ -180,7 +180,7 @@ trait DwBible_Book_TOC_Trait {
         // The chapter field labels each row in the visitor's language ("Kapitel 1",
         // "Chapter 1", …). Latin ("Caput") is the fallback for the latin-only edition.
         $lang         = function_exists( 'dwi18n_current' ) ? dwi18n_current() : 'en';
-        $chapter_word = [ 'de' => 'Kapitel', 'en' => 'Chapter', 'es' => 'Capítulo', 'fr' => 'Chapitre', 'it' => 'Capitolo', 'la' => 'Caput' ][ $lang ] ?? 'Chapter';
+        $chapter_word = self::chapter_word( $lang );
 
         ob_start();
         ?>
@@ -253,6 +253,16 @@ trait DwBible_Book_TOC_Trait {
             'latin-bibel'  => 'Biblia Sacra (Vulgata Clementina)',
         ];
         return $map[ $slug_combo ] ?? ( 'Biblia Sacra' );
+    }
+
+    /**
+     * The word for "chapter" in a page language — the label of a chapter row
+     * ("Kapitel 1") and of the chapter's breadcrumb in the structured data
+     * (class-dwbible-jsonld.php). Latin ("Caput") is the Latin-only edition's.
+     * Unknown languages read "Chapter".
+     */
+    public static function chapter_word( string $lang ): string {
+        return [ 'de' => 'Kapitel', 'en' => 'Chapter', 'es' => 'Capítulo', 'fr' => 'Chapitre', 'it' => 'Capitolo', 'la' => 'Caput' ][ $lang ] ?? 'Chapter';
     }
 
     /**
