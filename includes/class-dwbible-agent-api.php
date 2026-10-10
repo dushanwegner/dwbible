@@ -354,6 +354,31 @@ trait DwBible_Agent_API_Trait {
         ];
     }
 
+    /**
+     * The same translation for a RANGE that ENDS in the printed chapter 4 —
+     * "Mal 3:1-4:6" — where the chapter moves by a constant delta only at its
+     * END. The start is a chapter this text has, and stays; the end is
+     * translated the way agent_malachias_shim() translates a single verse, so
+     * the range becomes one inside chapter 3 and every later check (backwards,
+     * verse past the end, clamp) reads it as it reads "Mal 3:1-24".
+     *
+     * @return array{chapter:int,chapterTo:int,from:int,to:int,note:string}|null null = not this case.
+     */
+    private static function agent_malachias_range_shim( string $key, int $ch, int $vf, int $ch_to, int $vt ): ?array {
+        if ( $key !== 'malachias' || $ch_to !== 4 || $ch < 1 || $ch >= 4 ) { return null; }
+        $to    = $vf > 0 ? ( $vt > 0 ? $vt + 18 : 24 ) : 0;
+        $cited = 'Malachias ' . $ch . ( $vf > 0 ? ':' . $vf : '' ) . '-4' . ( $vt > 0 ? ':' . $vt : '' );
+        $read  = 'Malachias ' . $ch . ( $vf > 0 ? ':' . $vf : '' ) . '-' . ( $vf > 0 && $ch === 3 ? (string) $to : '3' . ( $vf > 0 ? ':' . $to : '' ) );
+        return [
+            'chapter'   => $ch,
+            'chapterTo' => 3,
+            'from'      => $vf,
+            'to'        => $to,
+            'note'      => "\"{$cited}\" was read as {$read}: "
+                       . 'this text carries the Elijah prophecy as 3:19-24, where printed Vulgates number it 4:1-6.',
+        ];
+    }
+
     // ── Kings / Samuel ──────────────────────────────────────────────────────
     //
     // The orchestration half of dwfactory entry 600/1558 (DW, 2026-09-25);
@@ -1188,13 +1213,15 @@ trait DwBible_Agent_API_Trait {
 
         // Malachias 4 — a chapter this text does not have, under a number every
         // printed Vulgate uses.
-        // Only for a passage inside ONE chapter: the shim moves a whole chapter
-        // by a constant delta, and a range that starts or ends outside chapter 4
-        // has no single delta. A cross-chapter range reaching into the printed
-        // "chapter 4" therefore gets no translation and is refused further down
-        // — the dataset has no such chapter file, so nothing can read the
-        // passage and the answer is PASSAGE_UNAVAILABLE, never half of it.
-        $mal = $ch_to === $ch ? self::agent_malachias_shim( $key, $ch, $vf, $vt ) : null;
+        // A passage inside ONE chapter moves by a constant delta. A range that
+        // spans the boundary has no single delta, so each END is translated on
+        // its own: the one that is in chapter 4 moves, the other stays, and the
+        // pair is then read like any range inside the chapter 3 this text has.
+        // A range that ENDS in the printed chapter 4 ("Mal 3:1-4:6") has its end
+        // translated the same way; its start is a chapter this text has.
+        $mal = $ch_to === $ch
+            ? self::agent_malachias_shim( $key, $ch, $vf, $vt )
+            : self::agent_malachias_range_shim( $key, $ch, $vf, $ch_to, $vt );
         if ( $mal !== null ) {
             // A verse list rides along on the same offset. Both shims that move a
             // passage — this one and the Hebrew psalm numbering below — shift every
@@ -1203,7 +1230,7 @@ trait DwBible_Agent_API_Trait {
             $delta       = $vf > 0 ? $mal['from'] - $vf : 0;
             $verse_spans = self::agent_shift_spans( $verse_spans, $delta );
             $ch = $mal['chapter']; $vf = $mal['from']; $vt = $mal['to']; $read_as = $mal['note'];
-            $ch_to = $ch;
+            $ch_to = $mal['chapterTo'] ?? $ch;
         }
 
         // A RANGE THAT RUNS BACKWARDS IS REFUSED, never answered empty.
@@ -1257,17 +1284,27 @@ trait DwBible_Agent_API_Trait {
             }
             if ( $pr['spans'] !== null ) {
                 [ $c1, $f1, $c2, $t2 ] = $pr['spans'];
-                self::agent_error( 400, 'CITATION_NOT_UNDERSTOOD', "\"{$raw}\" runs across two Vulgate psalms: it is Vulgate {$c1}:{$f1}-end and {$c2}:1-{$t2}.", [
-                    'suggestion' => "Ask for each part: \"Ps {$c1}:{$f1}-\" to the end of Vulgate {$c1}, and \"Ps {$c2}:1-{$t2}\" — both without numbering=hebrew, as they are already Vulgate numbers.",
-                ] );
+                if ( $verse_spans !== null ) {
+                    // A verse LIST has no single range to carry across two psalms.
+                    self::agent_error( 400, 'CITATION_NOT_UNDERSTOOD', "\"{$raw}\" runs across two Vulgate psalms: it is Vulgate {$c1}:{$f1}-end and {$c2}:1-{$t2}.", [
+                        'suggestion' => "Ask for each part: \"Ps {$c1}:{$f1}-\" to the end of Vulgate {$c1}, and \"Ps {$c2}:1-{$t2}\" — both without numbering=hebrew, as they are already Vulgate numbers.",
+                    ] );
+                }
+                // A RANGE converts END BY END, as a cross-chapter one does above:
+                // Hebrew 116:1-19 is Vulgate 114:1 to 115:10.
+                $read_as = self::agent_join_notes( $read_as,
+                    "Hebrew Psalm {$ch}:{$vf}-{$vt} was read as Vulgate Psalms {$c1}:{$f1}-{$c2}:{$t2}: the Vulgate numbers these psalms differently." );
+                $ch = $c1; $vf = $f1; $ch_to = $c2; $vt = $t2;
+                $psalm_meta = $pr['meta'];
+            } else {
+                $verse_spans = self::agent_shift_spans( $verse_spans, $vf > 0 && $pr['vf'] > 0 ? $pr['vf'] - $vf : 0 );
+                $ch         = $pr['chapter'];
+                $ch_to      = $ch;
+                $vf         = $pr['vf'];
+                $vt         = $pr['vt'];
+                $psalm_meta = $pr['meta'];
+                if ( $pr['note'] !== null ) { $read_as = $read_as !== null ? $read_as . ' ' . $pr['note'] : $pr['note']; }
             }
-            $verse_spans = self::agent_shift_spans( $verse_spans, $vf > 0 && $pr['vf'] > 0 ? $pr['vf'] - $vf : 0 );
-            $ch         = $pr['chapter'];
-            $ch_to      = $ch;
-            $vf         = $pr['vf'];
-            $vt         = $pr['vt'];
-            $psalm_meta = $pr['meta'];
-            if ( $pr['note'] !== null ) { $read_as = $read_as !== null ? $read_as . ' ' . $pr['note'] : $pr['note']; }
         }
 
         // Does the passage exist? Check against the Latin spine before reading anything.
