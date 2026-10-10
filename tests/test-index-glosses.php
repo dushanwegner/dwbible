@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   The index page's grey gloss beside each book — and its aria-label and
  *         its search words, which carry the same name — is the book's OWN name

@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   The Latin abbreviation table knows "Apc", the Nova Vulgata's
  *         abbreviation for the Apocalypse, and it means the same book "Apoc"

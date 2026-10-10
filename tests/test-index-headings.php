@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   Every book on every index page stands under its own heading — and
  *         the same heading in every edition — whatever order number the
@@ -16,7 +17,6 @@
  * OUTPUT: ok/FAIL per case; exit 1 on any failure.
  * RUN:    php tests/test-index-headings.php
  */
-if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 require __DIR__ . '/wp-stubs.php';
 
 $failures = 0; $passes = 0;

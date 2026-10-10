@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:    passage_teaser() names a book by its CITATION name (data/book_names.json),
  *          the name every other surface quotes. Needs WordPress:

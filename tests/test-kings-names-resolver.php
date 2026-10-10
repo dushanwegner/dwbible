@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   The names the site's own Italian, Spanish and French editions print
  *         for the books of Samuel and Kings answer by the Kings/Samuel rule:
@@ -15,7 +16,6 @@
  * OUTPUT: exit 0 when every assertion passes.
  * RUN:    php tests/test-kings-names-resolver.php
  */
-if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 
 if (($argv[1] ?? '') === '--one') {
     // Child: resolve one query, print {"status":…,"body":…}.

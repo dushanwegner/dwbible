@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   Every book name this site PRINTS as a citation resolves back to the
  *         book it names.

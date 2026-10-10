@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   A book name typed with Unicode NFD (decomposed) accents — "o" +
  *         combining diaeresis instead of precomposed "ö" — slugifies the same

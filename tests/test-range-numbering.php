@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   A citation RANGE whose two ends sit under a different numbering is
  *         read end by end: "Mal 3:1-4:6" (the printed Vulgate's 4:1-6 is this
@@ -14,7 +15,6 @@
  * OUTPUT: exit 0 when every assertion passes.
  * RUN:    php tests/test-range-numbering.php
  */
-if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 
 if (($argv[1] ?? '') === '--one') {
     // Child: resolve one query, print {"status":…,"body":…}.

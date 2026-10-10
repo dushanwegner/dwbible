@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   The third breadcrumb item of a chapter page's structured data names
  *         the chapter in the PAGE's language — Chapter, Kapitel, Capítulo,

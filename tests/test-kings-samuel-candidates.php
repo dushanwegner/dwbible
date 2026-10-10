@@ -1,4 +1,5 @@
 <?php
+if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   DwBible_Kings_Samuel — the candidate-set map and the existence
  *         elimination it does for "1 Kings"/"2 Kings" and their twins.
