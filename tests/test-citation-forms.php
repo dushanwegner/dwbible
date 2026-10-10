@@ -314,5 +314,53 @@ foreach (['2Th II,3-III,5', '1Re II'] as $in) {
     ok(strpos($r['query'], substr($in, 0, 3)) === 0, "\"{$in}\" → \"{$r['query']}\" keeps its book \"" . substr($in, 0, 3) . '"');
 }
 
+echo "a Roman chapter followed by f/ff/sq/sqq, or a range into another chapter, is read like its Arabic twin (factory q5131):\n";
+foreach ([
+    // [input, the printed form it must become, the numerals the note names]
+    ['Jo. III, 16ff',               'Jo 3, 16ff',              ['III']],
+    ['Jo. III, 16 ff.',             'Jo 3, 16 ff.',            ['III']],
+    ['Jo. III, 16sqq.',             'Jo 3, 16sqq.',            ['III']],
+    ['Jo. III, 16f',                'Jo 3, 16-17',             ['III', '16f']],
+    ['Jo. III, 16 sq.',             'Jo 3, 16-17',             ['III', '16sq']],
+    ['2Th II,3-III,5',              '2Th 2,3-3,5',             ['II', 'III']],
+    ['2Th II, 3 - III, 5',          '2Th 2, 3 - 3, 5',         ['II', 'III']],
+    ['2Th. ii. 3-iii. 5',           '2Th 2. 3-3. 5',           ['ii', 'iii']],
+    ['Jo. III, 16-4, 2',            'Jo 3, 16-4, 2',           ['III']],
+    ['2Th 2,3-III,5',               '2Th 2,3-3,5',             ['III']],
+    ['Matth. XXVI, 36-XXVII, 60',   'Matth 26, 36-27, 60',     ['XXVI', 'XXVII']],
+    ['1Re III, 5-IV, 2',            '1Re 3, 5-4, 2',           ['III', 'IV']],
+    ['1st Cor XIII, 1-XIV, 2',      '1 Cor 13, 1-14, 2',       ['XIII', 'XIV']],
+] as [$in, $want, $named]) {
+    $r = Ref::normalize_printed_forms($in);
+    $all = true;
+    foreach ($named as $n) { $all = $all && strpos((string) $r['note'], $n) !== false; }
+    ok($r['query'] === $want && $all, "\"{$in}\" → \"{$r['query']}\", note names " . implode(' and ', $named));
+}
+$r = Ref::normalize_printed_forms('2Th II,3-III,5');
+$p = Ref::parse_query($r['query']);
+ok($p['name'] === '2Th' && $p['ref'] === '2:3-3:5', '"2Th II,3-III,5" reads as 2Th, 2:3-3:5 (' . $p['name'] . ' | ' . $p['ref'] . ')');
+$p = Ref::parse_query(Ref::normalize_printed_forms('Jo. III, 16ff')['query']);
+ok(strpos(Ref::citation_advice(Ref::normalize_printed_forms('Jo. III, 16ff')['query'], 'Ioannes'), '"ff."') === 0, '"Jo. III, 16ff" is advised about "ff." like "Jo. 3, 16ff"');
+ok(Ref::citation_advice('Jo 3, 16ff', 'Ioannes') === Ref::citation_advice(Ref::normalize_printed_forms('Jo. III, 16ff')['query'], 'Ioannes'), '…the same advice as its Arabic twin');
+
+echo "…and what read before reads exactly as before (the review of q575 broke \"1Re III, 5\" once):\n";
+foreach ([
+    ['Jo. III, 16',   'Jo 3, 16'],
+    ['1Re III, 5',    '1Re 3, 5'],
+    ['2Th II, 3',     '2Th 2, 3'],
+    ['1Th IV, 3',     '1Th 4, 3'],
+    ['Jo. III, 16-18','Jo 3, 16-18'],
+    ['John III',      'John 3'],
+    ['III Regum 2:1', 'III Regum 2:1'],
+    ['I Cor 13:1',    'I Cor 13:1'],
+    ['1st Corinthians 13:1', '1 Corinthians 13:1'],
+    ['Jo 3, 16ff',    'Jo 3, 16ff'],
+    ['2Th 2,3-3,5',   '2Th 2,3-3,5'],
+    ['Mt 5:1-7:29',   'Mt 5:1-7:29'],
+] as [$in, $want]) {
+    $r = Ref::normalize_printed_forms($in);
+    ok($r['query'] === $want, "\"{$in}\" → \"{$r['query']}\"");
+}
+
 echo "\npassed {$pass}, failed {$fail}\n";
 exit($fail === 0 ? 0 : 1);
