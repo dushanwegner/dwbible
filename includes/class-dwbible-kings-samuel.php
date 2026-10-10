@@ -57,6 +57,18 @@ class DwBible_Kings_Samuel {
     ];
 
     /**
+     * The spelled "first"/"second" before Kings that the abbreviation tables
+     * hold (dwbibledata: English "First Kings", "The First Book of Kings";
+     * Italian "Primo dei Re"; German "Erstes Buch der Könige"). Third and
+     * fourth are not here: they are the unambiguous Douay forms.
+     */
+    private const SPELLED_ORDINAL = [
+        '/^(?:the\s+)?(first|second)(?:\s+book\s+of)?\s+(kings|kgs)$/iu',
+        '/^(primo|secondo)\s+dei\s+(re)$/iu',
+        '/^(erstes|zweites)\s+buch\s+der\s+(könige)$/iu',
+    ];
+
+    /**
      * Candidate keys for a raw book string, MODERN reading first, or null
      * when it is not one of the ambiguous forms above.
      *
@@ -79,6 +91,21 @@ class DwBible_Kings_Samuel {
             static function ( $m ) { return ( strtolower( $m[1] ) === 'ii' ? '2 ' : '1 ' ); },
             $s
         );
+        // A SPELLED ordinal is its digit: "First Kings" meets the same check
+        // as "1 Kings" and is never silently read as one of the two books (q5130).
+        foreach ( self::SPELLED_ORDINAL as $pattern ) {
+            $folded = preg_replace_callback(
+                $pattern,
+                static function ( $m ) {
+                    $first = in_array( mb_strtolower( $m[1], 'UTF-8' ), [ 'first', 'primo', 'erstes' ], true );
+                    return ( $first ? '1 ' : '2 ' ) . $m[2];
+                },
+                $s,
+                1,
+                $n
+            );
+            if ( $n > 0 ) { $s = (string) $folded; break; }
+        }
         $key = mb_strtolower( $s, 'UTF-8' );
         return self::AMBIGUOUS[ $key ] ?? null;
     }

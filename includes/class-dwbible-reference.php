@@ -195,16 +195,40 @@ class DwBible_Reference {
      * name (quality loop tick 284). Read here, before the shared grammar,
      * and rewritten to its Arabic form.
      *
-     * @return array{query:string,numeral:string,value:int}|null
+     * Also read: a trailing "f"/"ff"/"sq"/"sqq" after the verse ("Jo. III, 16ff",
+     * left for normalize_printed_forms() and citation_advice() exactly as for
+     * "Jo. 3, 16ff"), and a range into another chapter whose end is Roman too
+     * ("2Th II,3-III,5") or Arabic ("Jo. III, 16-4, 2"), or whose START is Arabic
+     * and END Roman ("2Th 2,3-III,5"). Everything but the numerals is kept as
+     * typed (q5131).
+     *
+     * @return array{query:string,numeral:string,value:int,also:?array{numeral:string,value:int}}|null
      */
     private static function normalize_roman_chapter($s) {
-        if (!preg_match('/^(.*\p{L})[\s.]+(' . self::ROMAN_NUMERAL . ')(\s*[:,.]\s*\d+(?:\s*[-–—]\s*\d+)?)?\s*$/iu', (string) $s, $m)) {
+        $r    = self::ROMAN_NUMERAL;
+        $sep  = '\s*[:,.]\s*\d+';
+        $tail = '(?<tail>\s*(?:ff|f|sqq|sq)\.?)?';
+        // Roman first chapter (end chapter Roman or Arabic) ...
+        $roman_first = '/^(?<book>.*\p{L})[\s.]+(?<c1>' . $r . ')(?:(?<v1>' . $sep . ')(?:(?<dash>\s*[-–—]\s*)(?:(?<c2>' . $r . '|\d+)(?<v2>' . $sep . ')|(?<ve>\d+)))?' . $tail . ')?\s*$/iu';
+        // ... or Arabic first chapter with a Roman end chapter.
+        $roman_last  = '/^(?<book>.*\p{L})[\s.]+(?<c1>\d+)(?<v1>' . $sep . ')(?<dash>\s*[-–—]\s*)(?<c2>' . $r . ')(?<v2>' . $sep . ')' . $tail . '\s*$/iu';
+        if (!preg_match($roman_first, (string) $s, $m) && !preg_match($roman_last, (string) $s, $m)) {
             return null;
         }
+        $is_roman = static function ($t) { return $t !== '' && !ctype_digit($t); };
+        $c1  = $m['c1'];
+        $c2  = $m['c2'] ?? '';
+        $one = $is_roman($c1) ? $c1 : $c2;
+        $two = $is_roman($c1) && $is_roman($c2) ? $c2 : '';
+        $arabic = static function ($t) {
+            return $t !== '' && !ctype_digit($t) ? self::roman_to_int($t) : $t;
+        };
         return [
-            'query'   => trim($m[1]) . ' ' . self::roman_to_int($m[2]) . (isset($m[3]) ? $m[3] : ''),
-            'numeral' => $m[2],
-            'value'   => self::roman_to_int($m[2]),
+            'query'   => trim($m['book']) . ' ' . $arabic($c1) . ($m['v1'] ?? '') . ($m['dash'] ?? '') . $arabic($c2)
+                       . ($m['v2'] ?? '') . ($m['ve'] ?? '') . ($m['tail'] ?? ''),
+            'numeral' => $one,
+            'value'   => self::roman_to_int($one),
+            'also'    => $two !== '' ? ['numeral' => $two, 'value' => self::roman_to_int($two)] : null,
         ];
     }
 
@@ -416,6 +440,9 @@ class DwBible_Reference {
         if ($roman !== null) {
             $q       = $roman['query'];
             $notes[] = '"' . $roman['numeral'] . '" is read as chapter ' . $roman['value'] . '.';
+            if ($roman['also'] !== null) {
+                $notes[] = '"' . $roman['also']['numeral'] . '" is read as chapter ' . $roman['also']['value'] . '.';
+            }
         }
 
         // AN ORDINAL BOOK NUMERAL — "1st Corinthians 13:1" answered

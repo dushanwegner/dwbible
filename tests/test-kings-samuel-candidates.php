@@ -68,6 +68,43 @@ foreach ($unambiguous_forms as $raw) {
           var_export(DwBible_Kings_Samuel::candidates_for($raw), true));
 }
 
+// ── a SPELLED ordinal is its digit (q5130) ─────────────────────────────────
+// "First Kings 2:11" resolved silently to 3 Kings while "1 Kings 2:11" was
+// refused as ambiguous: the spelled form went to the ordinary resolver, which
+// found it in the English table. A spelled ordinal meets the SAME check as its
+// digit — the forms are the ones the six abbreviation tables hold for the
+// Kings books (dwbibledata: bible, bibel, italian), plus their case variants.
+$spelled_forms = [
+    'First Kings'              => '1 Kings',
+    'first kings'              => '1 Kings',
+    'FIRST KINGS'              => '1 Kings',
+    'Second Kings'             => '2 Kings',
+    'The First Book of Kings'  => '1 Kings',
+    'The Second Book of Kings' => '2 Kings',
+    'First  Kings'             => '1 Kings',
+    'Primo dei Re'             => '1 Re',    // Italian digit form is not ambiguous: stays as it is
+    'Secondo dei Re'           => '2 Re',
+    'Erstes Buch der Könige'   => '1 Könige', // German likewise
+    'Zweites Buch der Könige'  => '2 Könige',
+];
+foreach ($spelled_forms as $raw => $digit) {
+    $got  = DwBible_Kings_Samuel::candidates_for($raw);
+    $want = DwBible_Kings_Samuel::candidates_for($digit);
+    check("\"$raw\" meets the same check as \"$digit\"", $got === $want, var_export($got, true) . ' vs ' . var_export($want, true));
+}
+check('"First Kings" is ambiguous, modern first', DwBible_Kings_Samuel::candidates_for('First Kings') === ['3-kings', '1-kings-samuel']);
+check('"Second Kings" is ambiguous, modern first', DwBible_Kings_Samuel::candidates_for('Second Kings') === ['4-kings', '2-kings-samuel']);
+check('"The First Book of Kings" is ambiguous', DwBible_Kings_Samuel::candidates_for('The First Book of Kings') === ['3-kings', '1-kings-samuel']);
+
+// What must stay as it is: the Douay third/fourth spelled out, Samuel, and
+// every other spelled numbered book.
+foreach (['Third Kings', 'Fourth Kings', 'The Third Book of Kings', 'The Fourth Book of Kings',
+          'Terzo dei Re', 'Quarto dei Re', 'First Samuel', 'Second Samuel', 'The First Book of Samuel',
+          'First Corinthians', 'Second Peter', 'Third John', 'First', 'Kings', 'First Kingsley'] as $raw) {
+    check("\"$raw\" is NOT read as ambiguous", DwBible_Kings_Samuel::candidates_for($raw) === null,
+          var_export(DwBible_Kings_Samuel::candidates_for($raw), true));
+}
+
 // "III"/"IV" must never fold onto the I/II map entries — they are the
 // unambiguous 3rd/4th-book forms and already resolve elsewhere.
 check("\"III Regum\" is not read as \"I\" + \"II Regum\"", DwBible_Kings_Samuel::candidates_for('III Regum') === null);
