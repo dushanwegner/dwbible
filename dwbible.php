@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.10.01.01
+* Version: 1.26.10.10.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.10.01.01');
+    define('DWBIBLE_VERSION', '1.26.10.10.01');
 }
 
 // Load include classes before hooks are registered
@@ -1986,13 +1986,10 @@ class DwBible_Plugin {
         } else {
             $secondary_dataset = 'latin';
         }
-        $secondary_names = [];
-        if ($secondary_dataset !== '') {
-            foreach (self::load_dataset_index($secondary_dataset) as $b) {
-                $display = !empty($b['display_name']) ? $b['display_name'] : $b['short_name'];
-                $secondary_names[intval($b['order'])] = $display;
-            }
-        }
+        // By canonical KEY, never by the dataset's order number: the Italian
+        // dataset numbers ~27 books differently from the Latin one, which put
+        // "Giobbe" beside Proverbia and "Aggeo" beside Malachias (q586).
+        $secondary_names = $secondary_dataset !== '' ? self::book_names_by_dataset($secondary_dataset) : [];
 
         $base_url   = home_url('/' . $current_slug . '/');
         $testaments = self::testament_meta();
@@ -2114,7 +2111,8 @@ class DwBible_Plugin {
                 // Slug and display name from the primary dataset
                 $book_slug = self::slugify($b['short_name']);
                 $name      = !empty($b['display_name']) ? $b['display_name'] : self::pretty_label($b['short_name']);
-                $alt_name  = isset($secondary_names[$order]) ? $secondary_names[$order] : '';
+                $book_key  = self::key_from_any_book_slug( $book_slug );
+                $alt_name  = ( $book_key !== null && isset($secondary_names[$book_key]) ) ? $secondary_names[$book_key] : '';
                 $url       = trailingslashit($base_url) . $book_slug . '/';
 
                 // Suppress the alt-name when it differs from the primary
@@ -2137,7 +2135,6 @@ class DwBible_Plugin {
                 // configured language, but a display name can differ from the
                 // dataset's own — so add them and let the set dedupe).
                 $tok_set = [];
-                $book_key = self::key_from_any_book_slug( $book_slug );
                 $book_tok = ( $book_key !== null && isset($tokens_by_book[$book_key]) ) ? $tokens_by_book[$book_key] : '';
                 foreach ( explode(' ', $book_tok) as $tk ) {
                     if ( $tk !== '' ) { $tok_set[$tk] = true; }
