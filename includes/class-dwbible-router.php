@@ -485,7 +485,8 @@ trait DwBible_Router_Trait {
         if (!is_string($slug) || $slug === '') { $slug = 'bible'; }
 
         // A printed form ("Mt 5,1-12a", "Joh 3,16f") lands on its verses here too.
-        $parsed = DwBible_Reference::parse_query(DwBible_Reference::normalize_printed_forms($raw)['query']);
+        $printed_query = DwBible_Reference::normalize_printed_forms($raw)['query'];
+        $parsed = DwBible_Reference::parse_query($printed_query);
 
         // KINGS / SAMUEL — dwfactory entry 600/1558, DW 2026-09-25: "1 Kings"
         // and "2 Kings" are genuinely ambiguous between the modern and the
@@ -513,7 +514,29 @@ trait DwBible_Router_Trait {
         if ($key === null) {
             $key = self::internal_key_from_any_book($parsed['name'], $slug);
         }
+
+        // A BARE RANGE — "Jude 3-5" — is how a one-chapter book names several
+        // verses, and the shared grammar cannot split it (it reads the name as
+        // "Jude 3-"). The resolver (/bible-ref.json) tries this form once the
+        // ordinary parse has found no book, and so does the box, with the same
+        // pattern. In a book of several chapters it stays what it was: not
+        // followed ("Genesis 1-3" is chapters or verses; the index lists it).
+        $ref_typed = $parsed['ref'];
+        if ($key === null && preg_match('/^(.*?)[\s.]*(\d+)\s*[-–—]\s*(\d+)\s*$/u', $printed_query, $bm)) {
+            $alt = self::internal_key_from_any_book(trim($bm[1]), $slug);
+            if ($alt !== null && self::is_single_chapter_book($alt)) {
+                $key       = $alt;
+                $ref_typed = '1:' . $bm[2] . '-' . $bm[3];
+            }
+        }
         if ($key === null) { return false; }
+
+        // "Jude 3" — a bare number on a one-chapter book is its VERSE, as it is
+        // in /bible-ref.json. The explicit form ("Jude 1:3") is unaffected, and
+        // the whole book stays reachable as the bare name.
+        if (preg_match('/^\d+$/', $ref_typed) && self::is_single_chapter_book($key)) {
+            $ref_typed = '1:' . $ref_typed;
+        }
 
         // Only as far as the book can actually be followed. "John 3:16666" names
         // a real book and no such verse, so it goes to John 3; "John 99" to
@@ -521,7 +544,7 @@ trait DwBible_Router_Trait {
         // is what the index rows and the rail's field show as you type. A link
         // that promises a verse the book has not got is a link to nowhere.
         $path = '/' . trim($slug, '/') . '/' . DwBible_Plugin::latin_slug_for_key($key) . '/';
-        $ref  = self::fit_reference_to_book($key, $parsed['ref']);
+        $ref  = self::fit_reference_to_book($key, $ref_typed);
         if ($ref !== '') { $path .= $ref . '/'; }
 
         // 302, not 301: the destination of a query is a lookup RESULT, not a
@@ -529,6 +552,15 @@ trait DwBible_Router_Trait {
         // the data grows, and no cache should outlive that.
         wp_redirect(home_url($path), 302);
         exit;
+    }
+
+    /**
+     * Is this a book of ONE chapter (Abdias, Philemon, 2 John, 3 John, Jude)?
+     * The resolver's own test: the Latin spine's chapter count is one.
+     */
+    private static function is_single_chapter_book($key) {
+        $counts = DwBible_Plugin::verse_counts_by_book();
+        return isset($counts[$key]) && count($counts[$key]) === 1;
     }
 
     /**
