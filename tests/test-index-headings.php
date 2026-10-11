@@ -8,8 +8,8 @@ if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
  *         number. The Italian dataset numbers ~27 books differently from the
  *         Latin one, so /it/biblia/ showed the two Maccabees under "Wisdom
  *         Books" and Wisdom and Ecclesiasticus under "Prophets" (q7380). The
- *         Maccabees are no prophets: they keep their place after Malachias
- *         and stand under a heading of their own, "Machabees" (q7380).
+ *         Maccabees are no prophets: they stand last in the historical group,
+ *         after Esther, where the app puts them (DW, 11 Oct 2026, q7380).
  * HOW:    No WordPress: tests/wp-stubs.php loads the real plugin and the page
  *         is built for each of the eleven index slugs. The expected heading of
  *         a book is read from the LATIN dataset's own index.csv (its order
@@ -29,7 +29,7 @@ $check = function (string $what, bool $ok, string $detail = '') use (&$failures,
 
 // The Vulgate's order (the Latin dataset's order numbers) -> heading.
 $ranges = [
-    [1, 5, 'Pentateuch'], [6, 19, 'Historical Books'], [20, 26, 'Wisdom Books'], [27, 44, 'Prophets'], [45, 46, 'Machabees'],
+    [1, 5, 'Pentateuch'], [6, 19, 'Historical Books'], [20, 26, 'Wisdom Books'], [27, 44, 'Prophets'], [45, 46, 'Historical Books'],
     [47, 50, 'Gospels'], [51, 65, 'Acts & Letters'], [66, 73, 'Catholic Epistles & Apocalypse'],
 ];
 $expected = [];   // canonical key => heading
@@ -75,18 +75,17 @@ foreach (['latin', 'latin-bible', 'latin-bibel', 'latin-spanish', 'latin-french'
     }
     $check("$slug: every book stands under its own heading", !$bad, implode('; ', $bad));
     $check("$slug: headings and books in the order of the Latin page", $p === $latin_page);
-    $check("$slug: 'Machabees' holds 1 and 2 Machabees, in that order, right after Malachias's 'Prophets'",
-        ($p['Machabees'] ?? null) === ['1-machabees', '2-machabees']
+    $check("$slug: the historical group ends with Esther, 1 Machabees, 2 Machabees; the Prophets end with Malachias",
+        array_slice($p['Historical Books'] ?? [], -3) === ['esther', '1-machabees', '2-machabees']
         && end($p['Prophets']) === 'malachias' && !in_array('1-machabees', $p['Prophets'], true));
-    $check("$slug: eight headings, the Old Testament's last one is 'Machabees'",
-        array_keys($p) === ['Pentateuch', 'Historical Books', 'Wisdom Books', 'Prophets', 'Machabees',
+    $check("$slug: seven headings, none of them 'Machabees'",
+        array_keys($p) === ['Pentateuch', 'Historical Books', 'Wisdom Books', 'Prophets',
                             'Gospels', 'Acts & Letters', 'Catholic Epistles & Apocalypse']);
 }
 
-// The heading's words in each language of the interface: every heading label
-// has a translation in each catalogue, as .po source and as compiled .mo
-// (the .mo is what WordPress loads), and the Maccabees' is the plain name of
-// the two books as that edition's own index spells them.
+// The headings' words in each language of the interface: every heading label
+// has a translation in each compiled catalogue (the .mo is what WordPress
+// loads), and no catalogue keeps a word for a heading that no longer exists.
 $labels = array_column((new ReflectionMethod('DwBible_Plugin', 'book_categories'))->invoke(null), 'label');
 $mo_pairs = function (string $file): array {   // msgid => msgstr of a GNU .mo, little endian
     $b = file_get_contents($file); $u = fn($o) => unpack('V', substr($b, $o, 4))[1];
@@ -96,12 +95,11 @@ $mo_pairs = function (string $file): array {   // msgid => msgstr of a GNU .mo, 
     }
     return $out;
 };
-$words = ['de_DE' => 'Makkabäer', 'es_ES' => 'Macabeos', 'fr_FR' => 'Machabées', 'it_IT' => 'Maccabei'];
-foreach ($words as $loc => $word) {
+foreach (['de_DE', 'es_ES', 'fr_FR', 'it_IT'] as $loc) {
     $mo = $mo_pairs(dirname(__DIR__) . "/languages/dwbible-$loc.mo");
     $missing = array_values(array_filter($labels, fn($l) => ($mo[$l] ?? '') === ''));
     $check("$loc: every heading has a translation in the compiled catalogue", !$missing, implode(', ', $missing));
-    $check("$loc: 'Machabees' reads \"$word\"", ($mo['Machabees'] ?? null) === $word, (string) ($mo['Machabees'] ?? 'none'));
+    $check("$loc: the catalogue has no word for a 'Machabees' heading", !array_key_exists('Machabees', $mo));
 }
 
 echo "\n", $failures ? "failed $failures of " . ($passes + $failures) . "\n" : "passed $passes, failed 0\n";
