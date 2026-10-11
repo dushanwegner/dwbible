@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.10.10.09
+* Version: 1.26.10.11.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.10.10.09');
+    define('DWBIBLE_VERSION', '1.26.10.11.01');
 }
 
 // Load include classes before hooks are registered
@@ -1613,8 +1613,10 @@ class DwBible_Plugin {
      * books differently from the Latin one (1-2 Machabees at 20-21, Wisdom and
      * Ecclesiasticus at 27-28), so ranges of order numbers put the Maccabees
      * under "Wisdom Books" and Wisdom and Ecclesiasticus under "Prophets" (q7380).
-     * The grouping is the one the Latin dataset's own order always drew: the
-     * Maccabees, last in the Vulgate's Old Testament, stand with the Prophets.
+     * The Maccabees keep the place the Vulgate gives them, last in the Old
+     * Testament after Malachias, and stand under a heading of their own: no
+     * Bible counts them among the prophets (q7380). The heading's name in each
+     * language is in languages/dwbible-<locale>.po, beside the others.
      */
     private static function book_categories() {
         return [
@@ -1627,7 +1629,8 @@ class DwBible_Plugin {
                 'job', 'psalms', 'proverbs', 'ecclesiastes', 'canticle-of-canticles', 'wisdom', 'ecclesiasticus']],
             ['testament' => 'ot', 'label' => 'Prophets', 'keys' => [
                 'isaias', 'jeremias', 'lamentations', 'baruch', 'ezechiel', 'daniel', 'osee', 'joel', 'amos', 'abdias',
-                'jonas', 'micheas', 'nahum', 'habacuc', 'sophonias', 'aggeus', 'zacharias', 'malachias',
+                'jonas', 'micheas', 'nahum', 'habacuc', 'sophonias', 'aggeus', 'zacharias', 'malachias']],
+            ['testament' => 'ot', 'label' => 'Machabees', 'keys' => [
                 '1-machabees', '2-machabees']],
             ['testament' => 'nt', 'label' => 'Gospels', 'keys' => [
                 'matthew', 'mark', 'luke', 'john']],
