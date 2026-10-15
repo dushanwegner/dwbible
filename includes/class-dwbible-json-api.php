@@ -14,6 +14,8 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
+require_once __DIR__ . '/class-dwbible-cache-headers.php';
+
 trait DwBible_JSON_API_Trait {
 
     /**
@@ -517,7 +519,7 @@ trait DwBible_JSON_API_Trait {
         header( 'Content-Type: application/json; charset=UTF-8' );
         header( 'Access-Control-Allow-Origin: *' );
         header( 'Access-Control-Allow-Methods: GET, OPTIONS' );
-        header( 'Cache-Control: public, max-age=86400' );
+        DwBible_Cache_Headers::send_public( 86400 );
         header( 'X-Content-Type-Options: nosniff' );
         header( 'X-Powered-By: Latin Prayer (latinprayer.org)' );
     }

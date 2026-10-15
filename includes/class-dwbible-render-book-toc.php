@@ -29,6 +29,8 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
+require_once __DIR__ . '/class-dwbible-cache-headers.php';
+
 trait DwBible_Book_TOC_Trait {
 
     /**
@@ -227,7 +229,7 @@ trait DwBible_Book_TOC_Trait {
         $body = ob_get_clean();
 
         status_header( 200 );
-        header( 'Cache-Control: public, max-age=3600' );
+        DwBible_Cache_Headers::send_public( 3600 );
         // TEMP DEBUG: skip output_with_theme to verify body is composed
         if ( isset( $_GET['__toc_raw'] ) ) {
             header( 'Content-Type: text/html' );

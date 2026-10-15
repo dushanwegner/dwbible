@@ -2,6 +2,8 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
+require_once __DIR__ . '/class-dwbible-cache-headers.php';
+
 trait DwBible_Interlinear_Trait {
     private static function dwbible_plugin_root_dir() {
         return trailingslashit(dirname(__FILE__, 2));
@@ -582,7 +584,7 @@ trait DwBible_Interlinear_Trait {
         ], $lang_switcher, $book_subtitle);
 
         status_header(200);
-        header('Cache-Control: public, max-age=86400'); // verse content is static — cache 24h
+        DwBible_Cache_Headers::send_public(86400); // verse content is static — cache 24h
 
         // Browser <title> / SEO uses the reader's language (the vernacular name), matching the
         // visible page title.
