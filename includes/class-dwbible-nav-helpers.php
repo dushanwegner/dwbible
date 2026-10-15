@@ -186,6 +186,60 @@ class DwBible_Nav_Helpers {
             }
         }
 
+        // A combo slug (latin-bible) has no data folder of its own, so the book
+        // order and the chapter counts asked under it came back empty and both
+        // arrows stayed '#' on every interlinear chapter (q7734). They are read
+        // from the 'bible' dataset instead: its book slugs are the internal keys
+        // the interlinear passes in $nav['book'].
+        $saved_slug = null;
+        if ($is_combo) {
+            $saved_slug = get_query_var(DwBible_Plugin::QV_SLUG);
+            set_query_var(DwBible_Plugin::QV_SLUG, 'bible');
+        }
+        $order = self::book_order_and_counts($nav_book, $nav_ch, $is_combo, $url_dataset);
+        if ($is_combo) {
+            set_query_var(DwBible_Plugin::QV_SLUG, $saved_slug);
+        }
+        if ($order === null) {
+            return $result;
+        }
+        [$nav_book_for_order, $max_ch, $prev_book, $prev_ch, $next_book, $next_ch] = $order;
+
+        // Resolve URL-friendly book slugs for combo language pages
+        $prev_book_url = $prev_book;
+        $next_book_url = $next_book;
+        if ($is_combo && is_string($url_dataset) && $url_dataset !== '') {
+            if ($prev_book !== '') { $prev_book_url = self::call_plugin('url_book_slug_for_dataset', $prev_book, $url_dataset); }
+            if ($next_book !== '') { $next_book_url = self::call_plugin('url_book_slug_for_dataset', $next_book, $url_dataset); }
+        }
+
+        // '' = there is none: the first chapter of the Bible has no previous
+        // one and the last has no next (no wrap-around to the other end).
+        $result['prev_href'] = $prev_book === '' ? '' : esc_url(trailingslashit(home_url('/' . trim($slug_for_urls, '/') . '/' . $prev_book_url . '/' . $prev_ch)));
+        $result['next_href'] = $next_book === '' ? '' : esc_url(trailingslashit(home_url('/' . trim($slug_for_urls, '/') . '/' . $next_book_url . '/' . $next_ch)));
+        $result['max_ch'] = $max_ch;
+
+        // Current book base URL (for chapter picker JS)
+        $current_book_url = $nav_book_for_order;
+        if ($is_combo && is_string($url_dataset) && $url_dataset !== '') {
+            $cmapped = self::call_plugin('url_book_slug_for_dataset', $nav_book_for_order, $url_dataset);
+            if (is_string($cmapped) && $cmapped !== '') {
+                $current_book_url = $cmapped;
+            }
+        }
+        $result['book_base_url'] = esc_url(trailingslashit(home_url('/' . trim($slug_for_urls, '/') . '/' . $current_book_url)));
+
+        return $result;
+    }
+
+    /**
+     * The book this chapter belongs to in the reading order, its chapter count,
+     * and the previous and next chapter (book slug + number; '' and 0 where
+     * there is none). Read under whatever dataset QV_SLUG names now.
+     *
+     * @return array|null [book, max_ch, prev_book, prev_ch, next_book, next_ch], null if the book is not in the order
+     */
+    private static function book_order_and_counts($nav_book, $nav_ch, $is_combo, $url_dataset) {
         // Resolve ordered book list and find current book's position
         $ordered = self::call_plugin('ordered_book_slugs');
         $nav_book_for_order = $nav_book;
@@ -201,56 +255,38 @@ class DwBible_Nav_Helpers {
         }
 
         if ($idx === false || empty($ordered)) {
-            return $result;
+            return null;
         }
 
         $count_books = count($ordered);
         $max_ch = self::call_plugin('max_chapter_for_book_slug', $nav_book_for_order);
 
-        // Previous chapter/book
+        // Previous chapter/book; none before the Bible's first book
+        $prev_book = '';
+        $prev_ch = 0;
         if ($nav_ch > 1) {
             $prev_book = $nav_book_for_order;
             $prev_ch = $nav_ch - 1;
-        } else {
-            $prev_book = $ordered[($idx - 1 + $count_books) % $count_books];
+        } elseif ($idx > 0) {
+            $prev_book = $ordered[$idx - 1];
             $prev_ch = self::call_plugin('max_chapter_for_book_slug', $prev_book);
             if ($prev_ch <= 0) {
                 $prev_ch = 1;
             }
         }
 
-        // Next chapter/book
+        // Next chapter/book; none after the Bible's last book
+        $next_book = '';
+        $next_ch = 0;
         if ($max_ch > 0 && $nav_ch < $max_ch) {
             $next_book = $nav_book_for_order;
             $next_ch = $nav_ch + 1;
-        } else {
-            $next_book = $ordered[($idx + 1) % $count_books];
+        } elseif ($idx < $count_books - 1) {
+            $next_book = $ordered[$idx + 1];
             $next_ch = 1;
         }
 
-        // Resolve URL-friendly book slugs for combo language pages
-        $prev_book_url = $prev_book;
-        $next_book_url = $next_book;
-        if ($is_combo && is_string($url_dataset) && $url_dataset !== '') {
-            $prev_book_url = self::call_plugin('url_book_slug_for_dataset', $prev_book, $url_dataset);
-            $next_book_url = self::call_plugin('url_book_slug_for_dataset', $next_book, $url_dataset);
-        }
-
-        $result['prev_href'] = esc_url(trailingslashit(home_url('/' . trim($slug_for_urls, '/') . '/' . $prev_book_url . '/' . $prev_ch)));
-        $result['next_href'] = esc_url(trailingslashit(home_url('/' . trim($slug_for_urls, '/') . '/' . $next_book_url . '/' . $next_ch)));
-        $result['max_ch'] = $max_ch;
-
-        // Current book base URL (for chapter picker JS)
-        $current_book_url = $nav_book_for_order;
-        if ($is_combo && is_string($url_dataset) && $url_dataset !== '') {
-            $cmapped = self::call_plugin('url_book_slug_for_dataset', $nav_book_for_order, $url_dataset);
-            if (is_string($cmapped) && $cmapped !== '') {
-                $current_book_url = $cmapped;
-            }
-        }
-        $result['book_base_url'] = esc_url(trailingslashit(home_url('/' . trim($slug_for_urls, '/') . '/' . $current_book_url)));
-
-        return $result;
+        return [$nav_book_for_order, $max_ch, $prev_book, $prev_ch, $next_book, $next_ch];
     }
 
     /**
@@ -313,9 +349,9 @@ class DwBible_Nav_Helpers {
             . '</div>'
             . $lang_switcher
             . '<div class="dwbible-sticky__controls">'
-            . '<a href="' . $nav_ctx['prev_href'] . '" class="dwbible-ctl dwbible-ctl-prev" data-prev aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">' . self::chevron('left') . '</a>'
+            . '<a' . self::arrow_href($nav_ctx['prev_href'], 'dwbible-ctl dwbible-ctl-prev') . ' data-prev aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">' . self::chevron('left') . '</a>'
             . '<a href="' . $nav_ctx['top_href'] . '" class="dwbible-ctl dwbible-ctl-top" data-top aria-label="' . esc_attr__( 'Bible index', 'dwbible' ) . '">' . self::chevron('up') . '</a>'
-            . '<a href="' . $nav_ctx['next_href'] . '" class="dwbible-ctl dwbible-ctl-next" data-next aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">' . self::chevron('right') . '</a>'
+            . '<a' . self::arrow_href($nav_ctx['next_href'], 'dwbible-ctl dwbible-ctl-next') . ' data-next aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">' . self::chevron('right') . '</a>'
             . '</div>'
             . '</div>';
     }
@@ -327,13 +363,25 @@ class DwBible_Nav_Helpers {
     public static function build_bottom_nav($nav_ctx) {
         $prev = $nav_ctx['prev_href'] ?? '#';
         $next = $nav_ctx['next_href'] ?? '#';
-        $prev_disabled = ($prev === '#') ? ' is-disabled' : '';
-        $next_disabled = ($next === '#') ? ' is-disabled' : '';
 
         return '<nav class="pager pager--reader" aria-label="' . esc_attr__( 'Chapter navigation', 'dwbible' ) . '">'
-            . '<a href="' . $prev . '" class="pager__prev' . $prev_disabled . '" aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">' . self::chevron('left') . '</a>'
-            . '<a href="' . $next . '" class="pager__next' . $next_disabled . '" aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">' . self::chevron('right') . '</a>'
+            . '<a' . self::arrow_href($prev, 'pager__prev') . ' aria-label="' . esc_attr__( 'Previous chapter', 'dwbible' ) . '">' . self::chevron('left') . '</a>'
+            . '<a' . self::arrow_href($next, 'pager__next') . ' aria-label="' . esc_attr__( 'Next chapter', 'dwbible' ) . '">' . self::chevron('right') . '</a>'
             . '</nav>';
+    }
+
+    /**
+     * The href and class of one prev/next arrow. '' is an arrow with nowhere to
+     * go (before the Bible's first chapter, after its last): it is drawn with no
+     * href at all, so it is not a link, takes no focus and has no address to
+     * follow, and it wears the disabled look it always had. '#' is the old
+     * "not computed" value: disabled too, and the script may still manage it.
+     */
+    private static function arrow_href($href, $class) {
+        if ($href === '') {
+            return ' class="' . $class . ' is-disabled" aria-disabled="true"';
+        }
+        return ' href="' . $href . '" class="' . $class . ($href === '#' && strpos($class, 'pager__') === 0 ? ' is-disabled' : '') . '"';
     }
 
     /**

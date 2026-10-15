@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.10.11.02
+* Version: 1.26.10.15.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.10.11.02');
+    define('DWBIBLE_VERSION', '1.26.10.15.01');
 }
 
 // Load include classes before hooks are registered
@@ -107,6 +107,7 @@ if (is_admin()) {
 }
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-front-meta.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-footer-renderer.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-sources.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-data-paths.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-index-loader.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-mappings-loader.php';
@@ -3026,8 +3027,12 @@ JS;
         DwBible_Front_Meta::print_custom_css();
     }
 
+    // The editions the page shows and their sources (DwBible_Sources). It took
+    // the place of DwBible_Footer_Renderer, which read copyright.md from the
+    // page's data folder and so printed nothing under a combo slug such as
+    // latin-bible, which has no folder of its own (q7734).
     private static function render_footer_html() {
-        return DwBible_Footer_Renderer::render_footer_html(self::data_root_dir(), self::html_dir());
+        return DwBible_Sources::render_for_slug(get_query_var(self::QV_SLUG));
     }
 
     /**

@@ -331,7 +331,9 @@
                 disable(linkPrev, false);
                 if (linkPrev) linkPrev.href = '#' + heads[currentIdx - 1].id;
             }
-        } else {
+        } else if (prevHref !== '') {
+            // a real URL. No href at all is the Bible's first chapter: PHP drew
+            // it disabled and it stays so (q7734).
             disable(linkPrev, false);
         }
 
@@ -343,7 +345,8 @@
                 disable(linkNext, false);
                 if (linkNext) linkNext.href = '#' + heads[currentIdx + 1].id;
             }
-        } else {
+        } else if (nextHref !== '') {
+            // a real URL. No href at all is the Bible's last chapter (q7734).
             disable(linkNext, false);
         }
 
