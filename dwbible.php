@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.10.11.02
+* Version: 1.26.10.15.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.10.11.02');
+    define('DWBIBLE_VERSION', '1.26.10.15.01');
 }
 
 // Load include classes before hooks are registered
@@ -91,6 +91,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-reference.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-qa.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-sync-report.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-text-utils.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-cache-headers.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-admin-utils.php';
 // The three admin screens, loaded only where they can be reached: their only
 // callers are add_menu_page/add_submenu_page callbacks and one admin_post
@@ -1106,7 +1107,7 @@ class DwBible_Plugin {
 
         status_header(200);
         header('Content-Type: application/xml; charset=UTF-8');
-        header('Cache-Control: public, max-age=86400');
+        DwBible_Cache_Headers::send_public(86400);
         echo $xml;
         exit;
     }
@@ -1125,7 +1126,7 @@ class DwBible_Plugin {
 
         status_header(200);
         header('Content-Type: application/xml; charset=UTF-8');
-        header('Cache-Control: public, max-age=86400');
+        DwBible_Cache_Headers::send_public(86400);
 
         echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
         echo '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
@@ -1172,7 +1173,7 @@ class DwBible_Plugin {
 
         status_header(200);
         header('Content-Type: application/xml; charset=UTF-8');
-        header('Cache-Control: public, max-age=86400');
+        DwBible_Cache_Headers::send_public(86400);
 
         echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
         echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
@@ -1214,7 +1215,7 @@ class DwBible_Plugin {
 
         status_header(200);
         header('Content-Type: application/xml; charset=UTF-8');
-        header('Cache-Control: public, max-age=3600'); // saints change more often
+        DwBible_Cache_Headers::send_public(3600); // saints change more often
 
         echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
         echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
@@ -1452,7 +1453,7 @@ class DwBible_Plugin {
         if (isset($_GET['q']) && trim((string) wp_unslash($_GET['q'])) !== '') { // phpcs:ignore WordPress.Security.NonceVerification.Recommended
             nocache_headers();
         } else {
-            header('Cache-Control: public, max-age=86400');
+            DwBible_Cache_Headers::send_public(86400);
         }
         $content = self::build_index_html();
         $footer = self::render_footer_html();
@@ -1546,7 +1547,7 @@ class DwBible_Plugin {
         ], $lang_switcher);
 
         status_header(200);
-        header('Cache-Control: public, max-age=86400'); // verse content is static — cache 24h
+        DwBible_Cache_Headers::send_public(86400); // verse content is static — cache 24h
         $base_title = isset($entry['display_name']) && $entry['display_name'] !== ''
             ? $entry['display_name']
             : self::pretty_label($entry['short_name']);
