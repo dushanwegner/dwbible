@@ -61,7 +61,7 @@ final class DwBible_Cache_Headers {
      * @return bool
      */
     private static function reader_may_be_logged_in() {
-        return ! function_exists( 'is_user_logged_in' ) || is_user_logged_in();
+        return false;
     }
 
     /**
