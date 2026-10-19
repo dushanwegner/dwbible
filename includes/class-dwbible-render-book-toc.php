@@ -195,6 +195,7 @@ trait DwBible_Book_TOC_Trait {
             <?php endif; ?>
             <p class="lp-eyebrow dwbible-toc-meta">Liber <?php echo esc_html( self::int_to_roman( $order ?: 1 ) ); ?> &middot; <?php echo esc_html( $chapter_count ); ?> <?php echo $chapter_count === 1 ? 'caput' : 'capita'; ?></p>
           </header>
+          <?php echo DwBible_Notes::render( (string) $lookup_slug, 'book' ); // q7766: editorial note under the masthead ?>
 
           <?php // Chapter field — the canonical LP indexed list (.lp-rowlist / .lp-row),
                 // one localized "Chapter N" row per chapter. Stacked rows keep the

@@ -77,7 +77,10 @@
             }
         });
         if (first) {
-            arriveAt(first);
+            // A verse with an editorial note before it is arrived at by its note (q7766):
+            // the reader sees the note first, then the marked verse.
+            var before = first.previousElementSibling;
+            arriveAt(before && before.classList && before.classList.contains('dwbible-note') ? before : first);
         }
     } else if (chapterScrollId) {
         // Chapter-only: scroll to chapter heading

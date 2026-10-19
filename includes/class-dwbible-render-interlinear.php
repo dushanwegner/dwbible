@@ -478,7 +478,15 @@ trait DwBible_Interlinear_Trait {
             $out .= $nav_blocks;
         }
 
+        // Editorial notes (q7766): ours, never the edition's, so they stand between verse
+        // groups and never inside one — copy, share and the verse tools read .verse-body only.
+        $note_href = function ($nch, $nv) use ($slug_combo, $canonical_key) {
+            return self::bible_url_for_slug_and_canonical_book($slug_combo, $canonical_key, $nch, $nv);
+        };
+        $out .= DwBible_Notes::render($canonical_key, 'chapter', (int) $ch, 0, $note_href);
+
         foreach ($verses as $v) {
+            $out .= DwBible_Notes::render($canonical_key, 'verse', (int) $ch, (int) $v, $note_href);
             $primary_id_set = false;
             // The verse's own short link, so the toolbar can copy it without a
             // round trip. That matters more than it looks: a clipboard write

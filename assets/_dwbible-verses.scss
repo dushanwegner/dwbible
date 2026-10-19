@@ -132,3 +132,41 @@
     .dwbible-interlinear-latin { --dwbible-hook: 1; }
   }
 }
+
+/* Editorial note (q7766) — the one place the site speaks inside a text it reproduces.
+   Claude Design's rule, on our tokens: one tone ABOVE the vernacular (--ink-soft against the
+   vernacular's --ink-mute, so it holds at night), closed by two hairlines, a run-in label word
+   in the reader's language, no verse number. It stands between verse groups, never inside one,
+   and is not selectable: copy, share and the verse tools carry scripture only. */
+.dwbible {
+  .dwbible-note {
+    margin: 0 0 1.5rem;
+    padding: .7rem 0 .75rem;
+    border-top: 1px solid var(--rule, #e5e5e8);
+    border-bottom: 1px solid var(--rule, #e5e5e8);
+    font-size: var(--fs-small, .875rem);
+    line-height: 1.55;
+    color: var(--ink-soft, #52525b);
+    text-wrap: pretty;
+    -webkit-user-select: none;
+    user-select: none;
+    scroll-margin-top: calc(var(--dwbible-sticky-h, 48px) + var(--dwbible-arrival-gap, 2rem));
+  }
+
+  .dwbible-note__label {
+    font-size: var(--fs-micro, .75rem);
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-right: .7em;
+  }
+
+  .dwbible-note a {
+    color: var(--rubric, rgb(113, 5, 0));
+    font-weight: 600;
+  }
+
+  .dwbible-book-toc > .dwbible-note {
+    margin-top: 1rem;
+  }
+}

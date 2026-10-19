@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.10.15.02
+* Version: 1.26.10.19.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.10.15.02');
+    define('DWBIBLE_VERSION', '1.26.10.19.01');
 }
 
 // Load include classes before hooks are registered
@@ -110,6 +110,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-front-meta.php'
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-footer-renderer.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-sources.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-data-paths.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-notes.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-index-loader.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-mappings-loader.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-dwbible-osis-utils.php';
