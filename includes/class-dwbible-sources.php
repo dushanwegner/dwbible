@@ -164,7 +164,7 @@ class DwBible_Sources {
         if ($slug === '') { $slug = 'bible'; }
         $out = [];
         foreach (explode('-', $slug) as $ds) {
-            if (isset(self::EDITIONS[$ds]) && !in_array($ds, $out, true)) { $out[] = $ds; }
+            if (isset(self::EDITIONS[$ds]) && !in_array($ds, $out, true) && count($out) < 1) { $out[] = $ds; }
         }
         return $out;
     }
