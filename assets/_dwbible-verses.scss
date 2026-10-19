@@ -169,7 +169,12 @@
     font-weight: 600;
   }
 
-  .dwbible-book-toc > .dwbible-note {
-    margin-top: 1rem;
+  /* Under the chapter head and under the masthead a rule already stands just above the note;
+     a second hairline there drew two lines with an empty band between them. The rule above is
+     the note's top line, so only the note before a verse draws both of its own. */
+  .dwbible-note--chapter,
+  .dwbible-note--book {
+    border-top: 0;
+    padding-top: 0;
   }
 }
