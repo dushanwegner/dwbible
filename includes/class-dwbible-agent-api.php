@@ -1451,6 +1451,13 @@ trait DwBible_Agent_API_Trait {
                     'htmlUrl'     => $urls['html'][ $lang === 'la' ? 'en' : $lang ],
                     'jsonUrl'     => $urls['json'][ $lang ],
                 ];
+                // Editorial notes (q7766): Latin Prayer's own words where the Vulgate's order,
+                // numbering or naming differs from a modern Catholic Bible. A field of their
+                // own, never in `text` or `verses`, and present only where a note applies.
+                $notes = DwBible_Notes::for_range( $key, $ch, $ch_to, $vf, $vt, (string) $lang, (string) $tname );
+                if ( $notes ) {
+                    $passages[ $lang ]['notes'] = $notes;
+                }
             }
         }
 

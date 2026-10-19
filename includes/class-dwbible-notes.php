@@ -114,6 +114,74 @@ class DwBible_Notes {
         }, $text);
     }
 
+    /**
+     * Every note a passage touches, in one language, for the JSON API: the book's notes, the
+     * chapter notes of each chapter in the span, and the verse notes inside the asked verses
+     * ($vf 0 = whole chapters). Each says it is ours, never the edition's.
+     */
+    public static function for_range(string $book, int $ch, int $ch_to, int $vf, int $vt, string $lang, string $edition): array {
+        $doc = self::doc();
+        if (!$doc || $ch <= 0) {
+            return [];
+        }
+        $ch_to = max($ch, $ch_to);
+        $label = (string) ($doc['_meta']['label'][$lang] ?? ($doc['_meta']['label']['en'] ?? 'Note'));
+        $out = [];
+        $add = function (array $note, $key, string $place, int $c = 0, int $v = 0) use (&$out, $lang, $label, $edition) {
+            $text = self::text_for($note, $lang);
+            if ($text === '') {
+                return;
+            }
+            $row = ($key !== null && is_array($note['each'][$key] ?? null)) ? $note['each'][$key] : [];
+            $tlang = isset($note['text'][$lang]['t']) ? $lang : 'en';
+            $item = [
+                'id'        => (string) ($note['id'] ?? ''),
+                'place'     => $place,
+                'chapter'   => $c ?: null,
+                'verse'     => $v ?: null,
+                'label'     => $label,
+                'text'      => self::fill($text, $key, $row, $tlang),
+                'lang'      => $tlang,
+                'prov'      => (string) ($note['text'][$tlang]['prov'] ?? 'drafted'),
+                'editorial' => "Latin Prayer's editorial note, not part of {$edition}",
+            ];
+            if (isset($note['link']['chapter'], $note['link']['verse'])) {
+                $item['link'] = ['chapter' => (int) $note['link']['chapter'], 'verse' => (int) $note['link']['verse']];
+            }
+            $out[] = $item;
+        };
+        foreach ($doc['notes'] as $note) {
+            $at = $note['at'] ?? [];
+            $place = (string) ($at['place'] ?? '');
+            $nbook = (string) ($note['book'] ?? '');
+            $each = isset($note['each']) && is_array($note['each']) ? $note['each'] : null;
+            if ($place === 'book') {
+                if ($nbook === '*' ? isset($each[$book]) : $nbook === $book) {
+                    $add($note, $nbook === '*' ? $book : null, 'book');
+                }
+                continue;
+            }
+            if ($nbook !== $book) {
+                continue;
+            }
+            for ($c = $ch; $c <= $ch_to; $c++) {
+                if ($place === 'chapter') {
+                    if ($each !== null ? isset($each[(string) $c]) : (int) ($at['chapter'] ?? 0) === $c) {
+                        $add($note, $each !== null ? (string) $c : null, 'chapter', $c);
+                    }
+                } elseif ($place === 'verse' && (int) ($at['chapter'] ?? 0) === $c) {
+                    $v = (int) ($at['verse'] ?? 0);
+                    $lo = ($vf > 0 && $c === $ch) ? $vf : 1;
+                    $hi = ($vf > 0 && $c === $ch_to) ? $vt : PHP_INT_MAX;
+                    if ($v >= $lo && $v <= $hi) {
+                        $add($note, null, 'verse', $c, $v);
+                    }
+                }
+            }
+        }
+        return $out;
+    }
+
     public static function label(): string {
         $labels = self::doc()['_meta']['label'] ?? [];
         $lang = self::lang();
