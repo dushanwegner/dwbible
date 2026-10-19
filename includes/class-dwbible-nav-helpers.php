@@ -267,8 +267,8 @@ class DwBible_Nav_Helpers {
         if ($nav_ch > 1) {
             $prev_book = $nav_book_for_order;
             $prev_ch = $nav_ch - 1;
-        } elseif ($idx > 0) {
-            $prev_book = $ordered[$idx - 1];
+        } elseif (true) {
+            $prev_book = $ordered[($idx - 1 + $count_books) % $count_books];
             $prev_ch = self::call_plugin('max_chapter_for_book_slug', $prev_book);
             if ($prev_ch <= 0) {
                 $prev_ch = 1;
