@@ -3,7 +3,7 @@ if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   The editorial notes stand where dwbibledata's notes.json puts them, in the page's
  *         language, between verse groups and never inside one: before Esther 10:4, under the
- *         chapter head of Esther 13 (with its link to 10:4) and of Psalm 22, and nowhere on a
+ *         chapter head of Esther 13 (with its link to 10:4; then the lines back for B and C) and of Psalm 22, and nowhere on a
  *         chapter that has none.
  * WHY:    q7766. A note is Latin Prayer's own words beside scripture; inside a verse group it
  *         would reach copy, share and the verse tools, which read that group as scripture.
@@ -84,13 +84,23 @@ $n = $notes($page('es', 'latin-spanish', 'esther', 10));
 $check('Esther 10 (es): the label is "Nota"', ($n[0][1] ?? '') === 'Nota');
 $check('Esther 10 (es): the Spanish text', strpos($n[0][2] ?? '', 'las partes griegas de Ester están aquí') !== false, $n[0][2] ?? '');
 
-// Esther 13: the chapter-head echo, before verse 1, its "10:4" a link to Esther 10:4.
+// Esther 13: three notes, in their places — the chapter-head echo (its "10:4" a link to Esther 10:4),
+// the line back for B before verse 1 (13:1 stands after 3:13 in modern Bibles), and the line back
+// for C between the groups of verses 7 and 8 (13:8 stands after 4:17).
 $html = $page('en', 'latin-bible', 'esther', 13);
 $n = $notes($html);
-$check('Esther 13 (en): one note, under the chapter head', count($n) === 1 && $n[0][0] === 'chapter');
-$check('Esther 13 (en): before verse 1', ($n[0][4] ?? PHP_INT_MAX) < strpos($html, 'dwbible-interlinear-verse--v1"'));
+$v = function (int $k) use ($html) { return strpos($html, 'dwbible-interlinear-verse--v' . $k . '"'); };
+$check('Esther 13 (en): three notes', count($n) === 3, 'got ' . count($n));
+$check('Esther 13 (en): the places are chapter, verse, verse', array_column($n, 0) === ['chapter', 'verse', 'verse'], implode(',', array_column($n, 0)));
+$check('Esther 13 (en): the chapter echo comes first, before verse 1', ($n[0][0] ?? '') === 'chapter' && ($n[0][4] ?? PHP_INT_MAX) < $v(1));
 $check('Esther 13 (en): the echo text', ($n[0][2] ?? '') === 'Chapters 11 to 16: the Greek parts of Esther. See the note at 10:4.', $n[0][2] ?? '');
 $check('Esther 13 (en): "10:4" links to Esther 10:4', (bool) preg_match('#/esther/10:4/?$#', (string) ($n[0][3] ?? '')), (string) ($n[0][3] ?? 'no link'));
+$check('Esther 13 (en): the B line back stands after the echo and before verse 1', ($n[1][4] ?? 0) > ($n[0][4] ?? PHP_INT_MAX) && ($n[1][4] ?? PHP_INT_MAX) < $v(1));
+$check('Esther 13 (en): the B line back text', ($n[1][2] ?? '') === 'Modern Bibles place 13:1–7 (B) after 3:13.', $n[1][2] ?? '');
+$check('Esther 13 (en): "3:13" links to Esther 3:13', (bool) preg_match('#/esther/3:13/?$#', (string) ($n[1][3] ?? '')), (string) ($n[1][3] ?? 'no link'));
+$check('Esther 13 (en): the C line back stands between the groups of verses 7 and 8', ($n[2][4] ?? 0) > $v(7) && ($n[2][4] ?? PHP_INT_MAX) < $v(8));
+$check('Esther 13 (en): the C line back text', ($n[2][2] ?? '') === 'Modern Bibles place 13:8 to 14:19 (C) after 4:17.', $n[2][2] ?? '');
+$check('Esther 13 (en): "4:17" links to Esther 4:17', (bool) preg_match('#/esther/4:17/?$#', (string) ($n[2][3] ?? '')), (string) ($n[2][3] ?? 'no link'));
 
 // Psalm 22: the family row fills both numbers.
 $n = $notes($page('en', 'latin-bible', 'psalms', 22));
