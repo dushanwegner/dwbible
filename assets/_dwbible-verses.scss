@@ -18,7 +18,10 @@
   p.verse[id],
   .dwbible-interlinear-entry[id],
   .dwbible-interlinear-verse {
-    scroll-margin-top: calc(var(--dwbible-sticky-h, 48px) + var(--dwbible-arrival-gap));
+    /* On a phone the sticky bar rests below the site's own top bar (--dw-topbar-h, 0 on a
+       desktop), so that height is part of the offset too — without it a verse arrived at on a
+       phone came to rest 24px under the bar's lower edge (q7766, measured at 390px). */
+    scroll-margin-top: calc(var(--dw-topbar-h, 0px) + var(--dwbible-sticky-h, 48px) + var(--dwbible-arrival-gap));
   }
 
   /* Used for JS-driven verse highlighting */
@@ -150,7 +153,7 @@
     text-wrap: pretty;
     -webkit-user-select: none;
     user-select: none;
-    scroll-margin-top: calc(var(--dwbible-sticky-h, 48px) + var(--dwbible-arrival-gap, 2rem));
+    scroll-margin-top: calc(var(--dw-topbar-h, 0px) + var(--dwbible-sticky-h, 48px) + var(--dwbible-arrival-gap, 2rem));
   }
 
   .dwbible-note__label {
