@@ -752,6 +752,22 @@ for u in "/llms.txt" "/llms-full.txt" "/prayers/actus-contritionis/?format=text"
   ok "$([ "$(cors "${BASE}${u}")" -gt 0 ] && echo 1 || echo 0)" "$u is readable cross-origin (Access-Control-Allow-Origin: *)"
 done
 
+# llms.txt must say what the resolver does with a range across chapters (q4736): it
+# was documented as refused for a month after the resolver began answering it whole.
+# The document and the endpoint are checked against each other, so either drifting fails.
+echo
+echo "llms.txt vs the resolver — a range across chapters:"
+LLMS="$("${CURL[@]}" "${BASE}/llms.txt")"
+ok "$([[ "$LLMS" != *'range across chapters are refused'* ]] && echo 1 || echo 0)" "llms.txt no longer calls a range across chapters refused"
+ok "$([[ "$LLMS" == *'Mt 5:1-7:29'* && "$LLMS" == *'at most 5 chapters'* ]] && echo 1 || echo 0)" "llms.txt gives the cross-chapter example and the 5-chapter limit"
+U="${BASE}/bible-ref.json?q=Mt+5:1-7:29&lang=la"
+ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "Mt 5:1-7:29 answers 200, as llms.txt says"
+ok "$([ "$(probe "$U" "sorted({v['chapter'] for v in d['passages']['la']['verses']})")" = "[5, 6, 7]" ] && echo 1 || echo 0)" "…whole, with every verse carrying its chapter (5, 6, 7)"
+ok "$([ "$(code "${BASE}/bible-ref.json?q=Gen+1:1-5:32")" = "200" ] && echo 1 || echo 0)" "five chapters (Gen 1:1-5:32) answers 200"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Gen+1:1-6:4" "d['error']")" = "RANGE_TOO_LONG" ] && echo 1 || echo 0)" "six chapters (Gen 1:1-6:4) is RANGE_TOO_LONG, as llms.txt says"
+ok "$([ "$(code "${BASE}/bible-ref.json?q=Mt+5:3,5-7")" = "200" ] && echo 1 || echo 0)" "a comma list in one chapter (Mt 5:3,5-7) answers 200, as llms.txt says"
+ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5:3;6:1" "d['error']")" = "CITATION_NOT_UNDERSTOOD" ] && echo 1 || echo 0)" "a ';' list (Mt 5:3;6:1) is refused, as llms.txt says"
+
 echo
 echo "passed ${pass}, failed ${fail}"
 [ "$fail" -eq 0 ]
