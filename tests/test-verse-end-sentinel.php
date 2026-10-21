@@ -91,16 +91,25 @@ $GLOBALS['dwtest_query_vars'] = [DwBible_Plugin::QV_FLAG => 1, DwBible_Plugin::Q
 $facts = DwBible_Plugin::site_card_page_facts(['url' => 'https://stub.test/en/biblia/ioannes/18:1-999/']);
 vs_check($facts['url'] ?? null, 'https://stub.test/en/biblia/ioannes/18:1-40/', 'site_card_page_facts: og:url reads 18:1-40');
 
-// render_book() itself needs WordPress; offline, read its code (comments stripped, so a commented-out
-// call does not count) and require that it goes through the two tested functions.
-$rb = '';
-foreach (token_get_all((string) file_get_contents(__DIR__ . '/../dwbible.php')) as $t) {
-    if (is_array($t) && in_array($t[0], [T_COMMENT, T_DOC_COMMENT], true)) continue;
-    $rb .= is_array($t) ? $t[1] : $t;
-}
+// The page renderers need WordPress; offline, read their code (comments stripped, so a commented-out
+// call does not count) and require that each goes through the tested clamp and title functions.
+// render_multilingual_book() is the interlinear page - /en/biblia/... is served by it.
+$code = function ($file) {
+    $o = '';
+    foreach (token_get_all((string) file_get_contents($file)) as $t) {
+        if (is_array($t) && in_array($t[0], [T_COMMENT, T_DOC_COMMENT], true)) continue;
+        $o .= is_array($t) ? $t[1] : $t;
+    }
+    return $o;
+};
+$rb = $code(__DIR__ . '/../dwbible.php');
 preg_match('/private static function render_book\(\$slug\) \{(.*?)\n    private static function render_404/s', $rb, $mm);
 vs_check(strpos($mm[1] ?? '', 'self::clamp_requested_verse_end(') !== false, true, 'render_book clamps the request through clamp_requested_verse_end()');
 vs_check(strpos($mm[1] ?? '', 'self::verse_range_title(') !== false, true, 'render_book builds the title through verse_range_title()');
+$il = $code(__DIR__ . '/../includes/class-dwbible-render-interlinear.php');
+$p1 = strpos($il, 'self::clamp_requested_verse_end(');
+$p2 = strpos($il, 'DwBible_Reference::parse_chapter_and_range(');
+vs_check($p1 !== false && $p2 !== false && $p1 < $p2, true, 'the interlinear page clamps the request before it reads the range');
 
 echo $fail ? "\n$fail FAILED\n" : "\nall passed\n";
 exit($fail ? 1 : 0);

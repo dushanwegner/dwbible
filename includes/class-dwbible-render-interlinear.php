@@ -554,6 +554,9 @@ trait DwBible_Interlinear_Trait {
         // Build highlight/scroll targets (strict)
         $targets = [];
         $chapter_scroll_id = null;
+        // "18:1-999" (the lectionary's first leg of a cross-chapter reading) is "18:1-40" from here on:
+        // the title, the highlight and everything else built from the request.
+        self::clamp_requested_verse_end($canonical_key, $canonical_key, $ch);
         $vf_raw = get_query_var(self::QV_VFROM);
         $vt_raw = get_query_var(self::QV_VTO);
         $ref = DwBible_Reference::parse_chapter_and_range($ch, $vf_raw, $vt_raw);
