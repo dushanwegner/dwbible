@@ -759,7 +759,7 @@ echo
 echo "llms.txt vs the resolver — a range across chapters:"
 LLMS="$("${CURL[@]}" "${BASE}/llms.txt")"
 ok "$([[ "$LLMS" != *'range across chapters are refused'* ]] && echo 1 || echo 0)" "llms.txt no longer calls a range across chapters refused"
-ok "$([[ "$LLMS" == *'Mt 5:1-7:29'* && "$LLMS" == *'at most 5 chapters'* ]] && echo 1 || echo 0)" "llms.txt gives the cross-chapter example and the 5-chapter limit"
+ok "$([[ "$LLMS" == *'Mt 5:1-7:29'* && "$LLMS" == *'at most 5 chapters'* && "$LLMS" == *'Mt 5:3,5-7'* ]] && echo 1 || echo 0)" "llms.txt gives the cross-chapter example, the 5-chapter limit and the comma-list example"
 U="${BASE}/bible-ref.json?q=Mt+5:1-7:29&lang=la"
 ok "$([ "$(code "$U")" = "200" ] && echo 1 || echo 0)" "Mt 5:1-7:29 answers 200, as llms.txt says"
 ok "$([ "$(probe "$U" "sorted({v['chapter'] for v in d['passages']['la']['verses']})")" = "[5, 6, 7]" ] && echo 1 || echo 0)" "…whole, with every verse carrying its chapter (5, 6, 7)"
