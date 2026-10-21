@@ -20,6 +20,7 @@ if (!getenv('DWBIBLEDATA_DIR') && !is_dir(dirname(__DIR__, 2) . '/dwbibledata/da
 require __DIR__ . '/wp-stubs.php';
 if (!function_exists('absint')) { function absint($n) { return abs((int) $n); } }
 if (!function_exists('wp_strip_all_tags')) { function wp_strip_all_tags($s) { return trim(strip_tags((string) $s)); } }
+if (!function_exists('add_query_arg')) { function add_query_arg($k, $v, $u) { return $u . (strpos($u, '?') === false ? '?' : '&') . urlencode($k) . '=' . urlencode($v); } }
 if (!defined('MONTH_IN_SECONDS')) define('MONTH_IN_SECONDS', 2592000);
 
 $fail = 0;
@@ -84,9 +85,19 @@ vs_check($cu('https://stub.test/en/biblia/ioannes/18:1-30/'), 'https://stub.test
 vs_check($cu('https://stub.test/en/biblia/ioannes/3:16/'), 'https://stub.test/en/biblia/ioannes/3:16/', 'og:url: a single verse is untouched');
 vs_check($cu('https://stub.test/en/biblia/ioannes/'), 'https://stub.test/en/biblia/ioannes/', 'og:url: the book page is untouched');
 
-// render_book() itself needs WordPress; what keeps it honest offline is that it goes through
-// the two functions tested above and builds neither the clamp nor the title by hand.
-$rb = (string) file_get_contents(__DIR__ . '/../dwbible.php');
+// The card's facts, driven for real: site_card_page_facts() takes the request URL and hands it back clamped.
+$GLOBALS['dwtest_query_vars'] = [DwBible_Plugin::QV_FLAG => 1, DwBible_Plugin::QV_SLUG => 'biblia', DwBible_Plugin::QV_BOOK => 'ioannes',
+    DwBible_Plugin::QV_CHAPTER => 18, DwBible_Plugin::QV_VFROM => 1, DwBible_Plugin::QV_VTO => 999];
+$facts = DwBible_Plugin::site_card_page_facts(['url' => 'https://stub.test/en/biblia/ioannes/18:1-999/']);
+vs_check($facts['url'] ?? null, 'https://stub.test/en/biblia/ioannes/18:1-40/', 'site_card_page_facts: og:url reads 18:1-40');
+
+// render_book() itself needs WordPress; offline, read its code (comments stripped, so a commented-out
+// call does not count) and require that it goes through the two tested functions.
+$rb = '';
+foreach (token_get_all((string) file_get_contents(__DIR__ . '/../dwbible.php')) as $t) {
+    if (is_array($t) && in_array($t[0], [T_COMMENT, T_DOC_COMMENT], true)) continue;
+    $rb .= is_array($t) ? $t[1] : $t;
+}
 preg_match('/private static function render_book\(\$slug\) \{(.*?)\n    private static function render_404/s', $rb, $mm);
 vs_check(strpos($mm[1] ?? '', 'self::clamp_requested_verse_end(') !== false, true, 'render_book clamps the request through clamp_requested_verse_end()');
 vs_check(strpos($mm[1] ?? '', 'self::verse_range_title(') !== false, true, 'render_book builds the title through verse_range_title()');
