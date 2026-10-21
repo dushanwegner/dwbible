@@ -768,6 +768,16 @@ ok "$([ "$(probe "${BASE}/bible-ref.json?q=Gen+1:1-6:4" "d['error']")" = "RANGE_
 ok "$([ "$(code "${BASE}/bible-ref.json?q=Mt+5:3,5-7")" = "200" ] && echo 1 || echo 0)" "a comma list in one chapter (Mt 5:3,5-7) answers 200, as llms.txt says"
 ok "$([ "$(probe "${BASE}/bible-ref.json?q=Mt+5:3;6:1" "d['error']")" = "CITATION_NOT_UNDERSTOOD" ] && echo 1 || echo 0)" "a ';' list (Mt 5:3;6:1) is refused, as llms.txt says"
 
+# No colon directly after a link's closing parenthesis, in llms.txt or llms-full.txt (q346):
+# some agents' parsers read "[x](url):" with the colon as part of the URL. The explanation
+# follows after " — " (or comes first) instead.
+echo
+echo "llms.txt, llms-full.txt — no colon right after a link:"
+for f in llms.txt llms-full.txt; do
+  n="$("${CURL[@]}" "${BASE}/${f}" | grep -cE '\]\([^)]*\):')"
+  ok "$([ "$n" = "0" ] && echo 1 || echo 0)" "${f} has no \"](url):\" line (found ${n})"
+done
+
 echo
 echo "passed ${pass}, failed ${fail}"
 [ "$fail" -eq 0 ]
