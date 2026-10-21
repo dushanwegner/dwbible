@@ -19,6 +19,7 @@ if (!getenv('DWBIBLEDATA_DIR') && !is_dir(dirname(__DIR__, 2) . '/dwbibledata/da
 }
 require __DIR__ . '/wp-stubs.php';
 if (!function_exists('absint')) { function absint($n) { return abs((int) $n); } }
+if (!function_exists('wp_strip_all_tags')) { function wp_strip_all_tags($s) { return trim(strip_tags((string) $s)); } }
 if (!defined('MONTH_IN_SECONDS')) define('MONTH_IN_SECONDS', 2592000);
 
 $fail = 0;
@@ -49,6 +50,46 @@ vs_check($url('john', 18, '1-999'), 'https://stub.test/en/biblia/ioannes/18:1-40
 vs_check($url('matthew', 26, '36-999'), 'https://stub.test/en/biblia/matthaeus/26:36-75/', 'teaser URL for Matthew 26:36-999');
 vs_check($url('john', 3, '16-18'), 'https://stub.test/en/biblia/ioannes/3:16-18/', 'an ordinary range is untouched');
 vs_check($url('john', 3, '16'), 'https://stub.test/en/biblia/ioannes/3:16/', 'a single verse is untouched');
+
+// The request: /ioannes/18:1-999/ arrives as chapter 18, verses 1-999 (query vars), and
+// everything built from it afterwards - the page title, the card - reads 18:1-40.
+$set = function ($ch, $vf, $vt) {
+    $GLOBALS['dwtest_query_vars'] = [DwBible_Plugin::QV_CHAPTER => $ch, DwBible_Plugin::QV_VFROM => $vf, DwBible_Plugin::QV_VTO => $vt];
+};
+$set(18, 1, 999);
+DwBible_Plugin::clamp_requested_verse_end('john', 'ioannes', 18);
+vs_check(get_query_var(DwBible_Plugin::QV_VTO), 40, 'request 18:1-999: the range-end query var becomes 40');
+vs_check(DwBible_Plugin::verse_range_title('John', 18, (int) get_query_var(DwBible_Plugin::QV_VFROM), (int) get_query_var(DwBible_Plugin::QV_VTO)), 'John 18:1-40', 'the page title reads John 18:1-40');
+$set(18, 1, 30);
+DwBible_Plugin::clamp_requested_verse_end('john', 'ioannes', 18);
+vs_check(get_query_var(DwBible_Plugin::QV_VTO), 30, 'request 18:1-30 is left alone');
+$set(3, 16, 0);
+DwBible_Plugin::clamp_requested_verse_end('john', 'ioannes', 3);
+vs_check(get_query_var(DwBible_Plugin::QV_VTO), 0, 'a single verse (no range end) is left alone');
+
+// The title itself.
+vs_check(DwBible_Plugin::verse_range_title('John', 3, 16, 0), 'John 3:16', 'title: a verse');
+vs_check(DwBible_Plugin::verse_range_title('John', 3, 16, 16), 'John 3:16', 'title: 16-16 is a verse');
+vs_check(DwBible_Plugin::verse_range_title('John', 3, 16, 12), 'John 3:16', 'title: a range that runs backwards is the verse');
+vs_check(DwBible_Plugin::verse_range_title('John', 3, 16, 18), 'John 3:16-18', 'title: a range');
+vs_check(DwBible_Plugin::verse_range_title('John', 3, 16, 0, "  For God\nso loved  "), 'John 3:16 (»For God so loved«)', 'title: the snippet, whitespace folded');
+vs_check(mb_strlen(DwBible_Plugin::verse_range_title('John', 3, 16, 0, str_repeat('ab ', 60))), mb_strlen('John 3:16 (»') + 81 + mb_strlen('«)'), 'title: the snippet is cut at 80 characters and an ellipsis');
+
+// og:url and the card's picture come from the request address.
+$cu = fn($u) => DwBible_Plugin::clamp_range_in_url($u, 'john');
+vs_check($cu('https://stub.test/en/biblia/ioannes/18:1-999/'), 'https://stub.test/en/biblia/ioannes/18:1-40/', 'og:url: 18:1-999 -> 18:1-40');
+vs_check($cu('https://stub.test/en/biblia/ioannes/18:1-999'), 'https://stub.test/en/biblia/ioannes/18:1-40', 'og:url: without the trailing slash');
+vs_check($cu('https://stub.test/en/biblia/ioannes/18:1-999/?x=1'), 'https://stub.test/en/biblia/ioannes/18:1-40/?x=1', 'og:url: the query string stays');
+vs_check($cu('https://stub.test/en/biblia/ioannes/18:1-30/'), 'https://stub.test/en/biblia/ioannes/18:1-30/', 'og:url: an inside range is untouched');
+vs_check($cu('https://stub.test/en/biblia/ioannes/3:16/'), 'https://stub.test/en/biblia/ioannes/3:16/', 'og:url: a single verse is untouched');
+vs_check($cu('https://stub.test/en/biblia/ioannes/'), 'https://stub.test/en/biblia/ioannes/', 'og:url: the book page is untouched');
+
+// render_book() itself needs WordPress; what keeps it honest offline is that it goes through
+// the two functions tested above and builds neither the clamp nor the title by hand.
+$rb = (string) file_get_contents(__DIR__ . '/../dwbible.php');
+preg_match('/private static function render_book\(\$slug\) \{(.*?)\n    private static function render_404/s', $rb, $mm);
+vs_check(strpos($mm[1] ?? '', 'self::clamp_requested_verse_end(') !== false, true, 'render_book clamps the request through clamp_requested_verse_end()');
+vs_check(strpos($mm[1] ?? '', 'self::verse_range_title(') !== false, true, 'render_book builds the title through verse_range_title()');
 
 echo $fail ? "\n$fail FAILED\n" : "\nall passed\n";
 exit($fail ? 1 : 0);

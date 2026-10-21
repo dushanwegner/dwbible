@@ -1490,6 +1490,46 @@ class DwBible_Plugin {
         return $out;
     }
 
+    /**
+     * The request's range end, made real. "/ioannes/18:1-999/" asks for the end of the
+     * chapter (the lectionary's way of writing the first leg of a cross-chapter reading);
+     * everything built from the request afterwards - the title, the card's description and
+     * picture, the highlight - then sees the chapter's last verse, "18:1-40".
+     */
+    public static function clamp_requested_verse_end($short_name, $slug, $ch) {
+        $vt = absint(get_query_var(self::QV_VTO));
+        if ($vt < 1) return;
+        $key = self::key_from_any_book_slug((string) $short_name) ?: (string) $slug;
+        $to  = self::clamp_verse_end($key, $ch, $vt);
+        if ($to !== $vt) set_query_var(self::QV_VTO, $to);
+    }
+
+    /**
+     * The page title of a verse or a range: "John 18:1-40 (»Als es hierauf …«)". The range
+     * end as given, or the verse when there is none or it runs backwards.
+     */
+    public static function verse_range_title($base_title, $ch, $vf, $vt, $snippet = '') {
+        if (!$vt || $vt < $vf) { $vt = $vf; }
+        $ref = $base_title . ' ' . $ch . ':' . ($vf === $vt ? $vf : ($vf . '-' . $vt));
+        $snippet = wp_strip_all_tags((string) $snippet);
+        $snippet = preg_replace('/\s+/u', ' ', trim($snippet));
+        if ($snippet === '') return $ref;
+        if (mb_strlen($snippet, 'UTF-8') > 80) { $snippet = mb_substr($snippet, 0, 80, 'UTF-8') . '…'; }
+        return $ref . ' (»' . $snippet . '«)';
+    }
+
+    /**
+     * The same page's address with its range end made real: ".../ioannes/18:1-999/" is
+     * ".../ioannes/18:1-40/". Only the last path segment, only when it is a "ch:v-v" range;
+     * any other URL comes back as it was (query string and all).
+     */
+    public static function clamp_range_in_url($url, $key) {
+        $url = (string) $url;
+        if (!preg_match('#^(.*/)(\d+):(\d+)-(\d+)(/?)((?:\?.*)?)$#', $url, $m)) return $url;
+        $vt = self::clamp_verse_end($key, (int) $m[2], (int) $m[4]);
+        return $vt === (int) $m[4] ? $url : $m[1] . $m[2] . ':' . $m[3] . '-' . $vt . $m[5] . $m[6];
+    }
+
     private static function render_book($slug) {
         self::load_index();
         // Normalize incoming slug to match index keys (case-insensitive URLs)
@@ -1521,13 +1561,7 @@ class DwBible_Plugin {
         }
         $html = $chapter_html;
 
-        // A range end past the chapter ("18:1-999", the lectionary's "to the end") is the
-        // chapter's last verse: the title, the canonical link and the card say so.
-        $vt_q = absint(get_query_var(self::QV_VTO));
-        if ($vt_q > 0) {
-            $vt_c = self::clamp_verse_end(self::key_from_any_book_slug($entry['short_name']) ?: $slug, $ch, $vt_q);
-            if ($vt_c !== $vt_q) set_query_var(self::QV_VTO, $vt_c);
-        }
+        self::clamp_requested_verse_end($entry['short_name'], $slug, $ch);
 
         // Build highlight/scroll targets from URL like /book/20:2-4 or /book/20
         $targets = [];
@@ -1569,30 +1603,8 @@ class DwBible_Plugin {
         $vf = absint(get_query_var(self::QV_VFROM));
         $vt = absint(get_query_var(self::QV_VTO));
         if ($ch && $vf) {
-            if (!$vt || $vt < $vf) { $vt = $vf; }
-            $ref = $base_title . ' ' . $ch . ':' . ($vf === $vt ? $vf : ($vf . '-' . $vt));
-            $snippet = self::extract_verse_text($entry, $ch, $vf, $vt);
-            if (is_string($snippet) && $snippet !== '') {
-                $snippet = wp_strip_all_tags($snippet);
-                $snippet = preg_replace('/\s+/u', ' ', trim($snippet));
-                if ($snippet !== '') {
-                    if (function_exists('mb_strlen') && function_exists('mb_substr')) {
-                        $max = 80;
-                        if (mb_strlen($snippet, 'UTF-8') > $max) {
-                            $snippet = mb_substr($snippet, 0, $max, 'UTF-8') . '…';
-                        }
-                    } else {
-                        if (strlen($snippet) > $max) {
-                            $snippet = substr($snippet, 0, 80) . '…';
-                        }
-                    }
-                    $title = $ref . ' (»' . $snippet . '«)';
-                } else {
-                    $title = $ref;
-                }
-            } else {
-                $title = $ref;
-            }
+            $snippet = self::extract_verse_text($entry, $ch, $vf, ($vt && $vt >= $vf) ? $vt : $vf);
+            $title = self::verse_range_title($base_title, $ch, $vf, $vt, is_string($snippet) ? $snippet : '');
         } elseif ($ch) {
             $title = $base_title . ' ' . $ch;
         }
@@ -2713,6 +2725,10 @@ JS;
         $counts   = self::verse_counts_by_book();
         $chapters = isset( $counts[ $key ] ) ? count( $counts[ $key ] ) : 0;
 
+        if ( $chapter > 0 && $vfrom > 0 && isset( $facts['url'] ) ) {
+            // og:url comes from the request: "18:1-999" there is "18:1-40" here.
+            $facts['url'] = self::clamp_range_in_url( $facts['url'], $key );
+        }
         if ( $chapter > 0 && $vfrom > 0 ) {
             $p = self::agent_load_passage( $dataset, $key, $chapter, $vfrom, $vto );
             if ( $p === null || ! $p['verses'] ) { $p = self::agent_load_passage( 'latin', $key, $chapter, $vfrom, $vto ); }
