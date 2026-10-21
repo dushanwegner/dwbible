@@ -37,7 +37,8 @@ function get_query_var($n, $d = '') { return $GLOBALS['dwtest_query_vars'][$n] ?
 function set_query_var($n, $v) { $GLOBALS['dwtest_query_vars'][$n] = $v; }
 function get_transient($k) { return false; }
 function set_transient(...$a) { return true; }
-function get_option($k, $d = false) { return $d; }
+// $GLOBALS['dwtest_options'] = ['name' => value] sets an option for a test.
+function get_option($k, $d = false) { return array_key_exists($k, $GLOBALS['dwtest_options'] ?? []) ? $GLOBALS['dwtest_options'][$k] : $d; }
 function apply_filters($t, $v, ...$a) { return $v; }
 function wp_cache_get(...$a) { return false; }
 function wp_cache_set(...$a) { return true; }

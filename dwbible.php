@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.10.19.01
+* Version: 1.26.10.21.01
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.10.19.01');
+    define('DWBIBLE_VERSION', '1.26.10.21.01');
 }
 
 // Load include classes before hooks are registered
@@ -2398,8 +2398,9 @@ JS;
         }
         if (is_string($slug) && $slug !== '') {
             $slug = trim($slug, "/ ");
-            $known_single = ['bible', 'bibel', 'latin', 'spanish', 'french', 'italian'];
-            if (in_array($slug, $known_single, true) || strpos($slug, '-') !== false) {
+            // The derived list, not a sixth copy of it: a dataset added to the
+            // dwbible_slugs option is a Bible request without a second edit (q244).
+            if (in_array($slug, self::all_slugs(), true) || strpos($slug, '-') !== false) {
                 return true;
             }
         }
