@@ -2,14 +2,14 @@
 /*
 * Plugin Name: DW Bible
 * Description: Provides /bible/ with links to books; renders selected book HTML using the site's template. Six languages: Vulgate (la), Douay-Rheims (en), Menge (de), Scío de San Miguel (es), Crampon (fr), Martini (it).
-* Version: 1.26.10.21.01
+* Version: 1.26.10.21.02
 * Author: Dushan Wegner
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('DWBIBLE_VERSION')) {
-    define('DWBIBLE_VERSION', '1.26.10.21.01');
+    define('DWBIBLE_VERSION', '1.26.10.21.02');
 }
 
 // Load include classes before hooks are registered
@@ -1363,6 +1363,7 @@ class DwBible_Plugin {
 
         $key = self::key_from_any_book_slug($slug);
         if ($key === null || $key === '') return $out;
+        if ($vt > $vf) $vt = self::clamp_verse_end($key, $ch, $vt); // "18:1-999" is 18:1-40
 
         // The book's CITATION name (data/book_names.json), the name JSON-LD, the
         // agent API, the app and the MCP all quote. The edition's own title is kept
@@ -1519,6 +1520,14 @@ class DwBible_Plugin {
             return;
         }
         $html = $chapter_html;
+
+        // A range end past the chapter ("18:1-999", the lectionary's "to the end") is the
+        // chapter's last verse: the title, the canonical link and the card say so.
+        $vt_q = absint(get_query_var(self::QV_VTO));
+        if ($vt_q > 0) {
+            $vt_c = self::clamp_verse_end(self::key_from_any_book_slug($entry['short_name']) ?: $slug, $ch, $vt_q);
+            if ($vt_c !== $vt_q) set_query_var(self::QV_VTO, $vt_c);
+        }
 
         // Build highlight/scroll targets from URL like /book/20:2-4 or /book/20
         $targets = [];
@@ -1873,6 +1882,28 @@ class DwBible_Plugin {
 
         $cache = $out;
         return $cache;
+    }
+
+    /**
+     * A verse-range end made real: the "-999" the lectionary writes into the first
+     * leg of a cross-chapter citation ("Jn 18:1-19:42" is "18:1-999" + "19:1-42")
+     * means "to the end of the chapter". The passage endpoints clamp it; this is
+     * the same clamp for what a reader is SHOWN (page title, teaser, link), so
+     * "John 18:1-999" reads "John 18:1-40". Unknown book or chapter: unchanged.
+     *
+     * @param string $key Book key (any slug key_from_any_book_slug() knows).
+     * @param int    $ch  Chapter.
+     * @param int    $vt  The range end as written.
+     * @return int The range end, at most the chapter's last verse.
+     */
+    public static function clamp_verse_end( $key, $ch, $vt ) {
+        $vt = (int) $vt;
+        $ch = (int) $ch;
+        $k  = self::key_from_any_book_slug( (string) $key );
+        if ( $k === null || $k === '' || $ch < 1 || $vt < 1 ) { return $vt; }
+        $counts = self::verse_counts_by_book();
+        $n = isset( $counts[ $k ][ $ch - 1 ] ) ? (int) $counts[ $k ][ $ch - 1 ] : 0;
+        return ( $n > 0 && $vt > $n ) ? $n : $vt;
     }
 
     /**
