@@ -46,20 +46,6 @@ class DwBible_Admin_Settings {
         $autolink_base_url = (string) get_option('dwbible_autolink_base_url', '');
         $autolink_latin_first = get_option('dwbible_autolink_latin_first', '0');
 
-        // Handle footer save (all-at-once)
-        if ( isset($_POST['dwbible_footer_nonce_all']) && wp_verify_nonce( $_POST['dwbible_footer_nonce_all'], 'dwbible_footer_save_all' ) && current_user_can('manage_options') ) {
-            foreach ($known as $fs => $label) {
-                $field = 'dwbible_footer_text_' . $fs;
-                $ft = isset($_POST[$field]) ? (string) wp_unslash( $_POST[$field] ) : '';
-                // New preferred location
-                $root = dwbible_data_dir() . $fs . '/';
-                $ok = is_dir($root) || wp_mkdir_p($root);
-                if ( $ok ) {
-                    @file_put_contents( trailingslashit($root) . 'copyright.md', $ft );
-                }
-            }
-            echo '<div class="updated notice"><p>Footers saved.</p></div>';
-        }
         // Handle OG layout reset to safe defaults
         if ( isset($_POST['dwbible_og_reset_defaults_nonce']) && wp_verify_nonce($_POST['dwbible_og_reset_defaults_nonce'],'dwbible_og_reset_defaults') && current_user_can('manage_options') ) {
             update_option('dwbible_og_enabled', '1');
@@ -329,36 +315,6 @@ class DwBible_Admin_Settings {
 
             <?php endif; // $page === 'dwbible' / 'dwbible_og' ?>
 
-            <?php if ( $page === 'dwbible_footers' ) : ?>
-
-            <h2>Per‑Bible footers</h2>
-            <form method="post">
-                <?php wp_nonce_field('dwbible_footer_save_all', 'dwbible_footer_nonce_all'); ?>
-                <p class="description">Stored at <code>wp-content/plugins/dwbible/data/{slug}/copyright.md</code>.</p>
-                <table class="form-table" role="presentation">
-                    <tbody>
-                        <?php foreach ($known as $slug => $label): ?>
-                        <?php
-                            // Load existing footer for display
-                            $root = dwbible_data_dir() . $slug . '/';
-                            $val = '';
-                            if ( file_exists( $root . 'copyright.md' ) ) {
-                                $val = (string) file_get_contents( $root . 'copyright.md' );
-                            }
-                        ?>
-                        <tr>
-                            <th scope="row"><label for="dwbible_footer_text_<?php echo esc_attr($slug); ?>"><?php echo esc_html('/' . $slug . '/ — ' . $label); ?></label></th>
-                            <td>
-                                <textarea name="dwbible_footer_text_<?php echo esc_attr($slug); ?>" id="dwbible_footer_text_<?php echo esc_attr($slug); ?>" class="large-text code" rows="6" style="font-family:monospace;"><?php echo esc_textarea( $val ); ?></textarea>
-                                <p class="description">Markdown supported for links and headings; line breaks are preserved.</p>
-                            </td>
-                        </tr>
-                        <?php endforeach; ?>
-                    </tbody>
-                </table>
-                <?php submit_button('Save Footers'); ?>
-            </form>
-
             <h2>CSS reference</h2>
             <div class="dwbible-css-reference" style="max-width:900px;">
                 <p>Selectors you can target:</p>
@@ -390,7 +346,6 @@ class DwBible_Admin_Settings {
                 </ul>
             </div>
 
-            <?php endif; // $page === 'dwbible_footers' ?>
         </div>
         <?php
     }
