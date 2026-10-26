@@ -1,50 +1,72 @@
 <?php
 if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
- * WHAT:   Every filesystem writer in the plugin is on a short, reviewed list,
- *         and the Footers screen and its save handler are gone. A writer that
- *         is not on the list fails, wherever it points: under
- *         dwbible_data_dir(), under DWBIBLEDATA_DIR, through a helper, a
- *         variable, a wrapper or an argument. A new writer needs a reviewer
- *         to add it here, with the reason it is allowed.
+ * WHAT:   Every call in the plugin's PHP that can write, delete or move a file
+ *         (or run a shell command) is on a short, reviewed list, and the Footers
+ *         screen and its save handler are gone. A call that is not on the list
+ *         fails, wherever it points: under dwbible_data_dir(), under
+ *         DWBIBLEDATA_DIR, through a helper, a variable, a wrapper or an
+ *         argument. A new writer needs a reviewer to add it here, with the
+ *         reason it is allowed.
+ *         What it proves: the TEXT of every such call written in the source is
+ *         listed. What it does not follow: a writer name held in a variable
+ *         ($fn = 'unlink'; $fn($p)), error_log() with type 3, DOMDocument::save
+ *         and SimpleXMLElement::asXML, backtick shell commands, and an
+ *         allowlisted call whose variable is pointed somewhere else
+ *         ($cache_file = ...; imagepng($im, $cache_file)): the list pins the
+ *         text of a call, not its target. A reviewer reads the diff for those.
  * WHY:    BJX27 made the public footers print data/<set>/copyright.md word
  *         for word, but wp-admin -> LP Bible -> Footers could still overwrite
  *         bible/ and bibel/ copyright.md on production, behind git's back
  *         (BJX33). The footer is changed in dwbibledata, reviewed in git.
- * HOW:    No WordPress. Tokenises the plugin's PHP source (comments are
- *         ignored) and collects every call to a function or method that
- *         writes, deletes or moves a file or an image (file_put_contents,
- *         fwrite, rename, copy, unlink, mkdir, wp_mkdir_p, touch, put_contents,
- *         imagepng/imagejpeg/imagewebp ..., fopen in anything but a literal
- *         read mode), plus SplFileObject and any string literal that names a
- *         writer (call_user_func('unlink', ...)). Each call, as normalised
- *         text, must equal an entry of $allowed below; an entry that no longer
- *         matches also fails. It does not follow a writer called through a
- *         name built at run time, or through a shell command.
- * INPUT:  dwbible.php, includes/ and tools/ (recursively)
+ * HOW:    No WordPress. Tokenises every PHP file of the plugin (comments are
+ *         ignored; \name and name are the same) and collects every call to a
+ *         function that writes, deletes or moves a file or an image
+ *         (file_put_contents, fwrite, rename, copy, unlink, mkdir, wp_mkdir_p,
+ *         touch, unzip_file, copy_dir, gzopen, imagepng ..., fopen unless its
+ *         second argument is a literal read mode), every put_contents and
+ *         writeImage(s) method call, every use of $wp_filesystem and every
+ *         WP_Filesystem( call (all of its methods write), and SplFileObject,
+ *         SplTempFileObject and ZipArchive. A method declaration with a
+ *         writer's name (function link($slug)) is not a call. A string literal
+ *         that is the first argument of call_user_func, call_user_func_array,
+ *         array_map, array_walk, array_filter or usort and names a writer
+ *         counts too. Each call, as normalised text, must equal an entry of
+ *         $allowed below; an entry that no longer matches also fails.
+ * INPUT:  the whole plugin root, recursively, except tests/ and vendor/ at the
+ *         root, and .git/ and node_modules/ anywhere
  * OUTPUT: exit 0 when every writer is on the list.
  * RUN:    php tests/test-no-admin-copyright-write.php
  */
 
 $root = dirname(__DIR__);
-$files = [ "$root/dwbible.php" ];
-foreach ([ 'includes', 'tools' ] as $dir) {
-    if (!is_dir("$root/$dir")) { continue; }
-    $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator("$root/$dir", FilesystemIterator::SKIP_DOTS));
-    foreach ($it as $fi) {
-        if (strtolower($fi->getExtension()) === 'php') { $files[] = $fi->getPathname(); }
+$files = [];
+$skip_root = [ 'tests' => 1, 'vendor' => 1 ];
+$skip_any = [ '.git' => 1, 'node_modules' => 1 ];
+$walk = function (string $dir, bool $top) use (&$walk, &$files, $skip_root, $skip_any) {
+    foreach (scandir($dir) as $name) {
+        if ($name === '.' || $name === '..') { continue; }
+        $path = "$dir/$name";
+        if (is_dir($path)) {
+            if (isset($skip_any[$name]) || ($top && isset($skip_root[$name]))) { continue; }
+            $walk($path, false);
+        } elseif (in_array(strtolower(pathinfo($name, PATHINFO_EXTENSION)), [ 'php', 'phtml', 'inc' ], true)) {
+            $files[] = $path;
+        }
     }
-}
+};
+$walk($root, true);
 sort($files);
 
 $writers = array_flip([
     'file_put_contents', 'fwrite', 'fputs', 'fputcsv', 'ftruncate', 'rename', 'copy', 'unlink', 'mkdir', 'rmdir',
     'wp_mkdir_p', 'wp_delete_file', 'wp_delete_file_from_directory', 'touch', 'chmod', 'symlink', 'link', 'tempnam', 'tmpfile',
     'move_uploaded_file', 'wp_handle_upload', 'wp_handle_sideload', 'media_handle_upload', 'media_handle_sideload', 'download_url',
+    'unzip_file', 'copy_dir', 'wp_upload_bits', 'gzopen', 'gzwrite', 'wp_filesystem',
     'imagepng', 'imagejpeg', 'imagewebp', 'imagegif', 'imageavif', 'imagebmp', 'imagewbmp', 'imagexbm', 'imagegd', 'imagegd2',
     'exec', 'system', 'shell_exec', 'passthru', 'popen', 'proc_open',
     'put_contents', 'writeimage', 'writeimages',
-]);   // lower case; a method call counts only for put_contents and writeImage(s)
+]);   // lower case; a method call counts only for put_contents and writeImage(s); wp_filesystem is the WP_Filesystem( call
 $classes = array_flip([ 'splfileobject', 'spltempfileobject', 'ziparchive' ]);
 
 // file => [ normalised call => why it is allowed ]. Matched as exact text, once per entry.
@@ -85,49 +107,78 @@ function writer_calls(string $src, array $writers, array $classes): array {
         $s = preg_replace('/\s+/', ' ', str_replace('@', '', $s));
         return trim(preg_replace([ '/\(\s+/', '/\s+\)/' ], [ '(', ')' ], $s));
     };
-    $next = function (int $i) use ($tok, $n) {   // next token that is not blank or a comment
+    $blank = [ T_WHITESPACE, T_COMMENT, T_DOC_COMMENT ];
+    $next = function (int $i) use ($tok, $n, $blank) {   // next token that is not blank or a comment
         for ($j = $i + 1; $j < $n; $j++) {
-            if (is_array($tok[$j]) && in_array($tok[$j][0], [ T_WHITESPACE, T_COMMENT, T_DOC_COMMENT ], true)) { continue; }
+            if (is_array($tok[$j]) && in_array($tok[$j][0], $blank, true)) { continue; }
             return $j;
         }
         return -1;
     };
-    $prev = function (int $i) use ($tok) {      // previous token that is not blank or a comment
+    $prev = function (int $i) use ($tok, $blank) {      // previous token that is not blank or a comment
         for ($j = $i - 1; $j >= 0; $j--) {
-            if (is_array($tok[$j]) && in_array($tok[$j][0], [ T_WHITESPACE, T_COMMENT, T_DOC_COMMENT ], true)) { continue; }
+            if (is_array($tok[$j]) && in_array($tok[$j][0], $blank, true)) { continue; }
             return $j;
         }
         return -1;
+    };
+    /** From the token $from, up to the bracket that closes the first '(' : [ text, [ argument texts ] ]. */
+    $span = function (int $from) use ($tok, $n, $text) {
+        $out = '';
+        $args = [];
+        $cur = '';
+        $depth = 0;
+        for ($j = $from; $j < $n; $j++) {
+            $x = $text($tok[$j]);
+            $out .= $x;
+            if ($x === '(' || $x === '[' || $x === '{') {
+                $depth++;
+                if ($depth === 1) { continue; }
+            } elseif ($x === ')' || $x === ']' || $x === '}') {
+                if (--$depth === 0) { $args[] = trim($cur); break; }
+            } elseif ($x === ',' && $depth === 1) {
+                $args[] = trim($cur);
+                $cur = '';
+                continue;
+            }
+            if ($depth >= 1) { $cur .= $x; }
+        }
+        return [ $out, $args ];
     };
     $methods = [ 'put_contents' => 1, 'writeimage' => 1, 'writeimages' => 1 ];   // $wp_filesystem->put_contents(), Imagick
     $callbacks = [ 'call_user_func' => 1, 'call_user_func_array' => 1, 'array_map' => 1, 'array_walk' => 1, 'array_filter' => 1, 'usort' => 1 ];
+    $names = [ T_STRING, T_NAME_FULLY_QUALIFIED ];
     $found = [];
     for ($i = 0; $i < $n; $i++) {
         if (!is_array($tok[$i])) { continue; }
-        $low = strtolower($tok[$i][1]);
-        $paren = $next($i) >= 0 && $tok[$next($i)] === '(';
+        $kind = $tok[$i][0];
+        $low = strtolower(ltrim($tok[$i][1], '\\'));
+        $nx = $next($i);
+        $paren = $nx >= 0 && $tok[$nx] === '(';
         $p = $prev($i);
+        if ($p >= 0 && ($tok[$p] === '&' || (is_array($tok[$p]) && $tok[$p][1] === '&'))) { $p = $prev($p); }   // function &copy()
         $is_method = $p >= 0 && is_array($tok[$p]) && in_array($tok[$p][0], [ T_OBJECT_OPERATOR, T_NULLSAFE_OBJECT_OPERATOR, T_DOUBLE_COLON ], true);
-        if ($tok[$i][0] === T_STRING && $paren && (isset($writers[$low]) || $low === 'fopen') && (!$is_method || isset($methods[$low]))) {
-            $out = '';
-            $depth = 0;
-            for ($j = $i; $j < $n; $j++) {
-                $x = $text($tok[$j]);
-                $out .= $x;
-                if ($x === '(') { $depth++; } elseif ($x === ')' && --$depth === 0) { break; }
-            }
+        $declared = $p >= 0 && is_array($tok[$p]) && $tok[$p][0] === T_FUNCTION;   // a declaration, not a call
+        if (in_array($kind, $names, true) && $paren && !$declared && (isset($writers[$low]) || $low === 'fopen') && (!$is_method || isset($methods[$low]))) {
+            [ $out, $args ] = $span($i);
             $out = $norm($out);
-            if ($low === 'fopen' && preg_match('/,\s*[\'"]rb?[\'"]\)$/', $out)) { continue; }   // literal read mode
+            if ($low === 'fopen' && isset($args[1]) && preg_match('/^[\'"]r[bt]?[\'"]$/', $norm($args[1]))) { continue; }   // literal read mode
             $found[] = [ $low, $out, $tok[$i][2] ];
-        } elseif ($tok[$i][0] === T_STRING && isset($classes[$low])) {
+        } elseif (in_array($kind, $names, true) && isset($classes[$low]) && !$declared) {
             $found[] = [ $low, $tok[$i][1], $tok[$i][2] ];
-        } elseif ($tok[$i][0] === T_CONSTANT_ENCAPSED_STRING && isset($writers[strtolower(trim($tok[$i][1], '\'"'))])
-            && $p >= 0 && $tok[$p] === '(' && ($pp = $prev($p)) >= 0 && is_array($tok[$pp]) && isset($callbacks[strtolower($tok[$pp][1])])) {
+        } elseif ($kind === T_VARIABLE && $tok[$i][1] === '$wp_filesystem') {   // every method of it writes
+            $m = $nx >= 0 && is_array($tok[$nx]) && in_array($tok[$nx][0], [ T_OBJECT_OPERATOR, T_NULLSAFE_OBJECT_OPERATOR ], true) ? $next($nx) : -1;
+            $c = $m >= 0 ? $next($m) : -1;
+            $out = $c >= 0 && $tok[$c] === '(' ? $norm($span($i)[0]) : '$wp_filesystem';
+            $found[] = [ '$wp_filesystem', $out, $tok[$i][2] ];
+        } elseif ($kind === T_CONSTANT_ENCAPSED_STRING && isset($writers[strtolower(trim($tok[$i][1], '\'"'))])
+            && $p >= 0 && $tok[$p] === '(' && ($pp = $prev($p)) >= 0 && is_array($tok[$pp]) && isset($callbacks[strtolower(ltrim($tok[$pp][1], '\\'))])) {
             $found[] = [ 'string', $tok[$i][1], $tok[$i][2] ];   // call_user_func('unlink', ...), array_map('unlink', ...)
         }
     }
     return $found;
 }
+
 
 $seen = [];
 foreach ($files as $f) {
