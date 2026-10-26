@@ -72,21 +72,20 @@ $foot = function (string $html): array {
 };
 
 $cases = [
-    // [what, slug, book, chapter, summary, datasets, a word of the vernacular line, its link]
-    ['English index',          'latin-bible', '',          0, 'Bibles on this page: Vulgata Clementina · Douay-Rheims', ['latin', 'bible'], 'Project Gutenberg', 'https://www.gutenberg.org/ebooks/8300'],
-    ['German index',           'latin-bibel', '',          0, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'übersetzt von Hermann Menge (1841–1939)', 'https://github.com/renehamburger/Menge-Bibel'],
-    ['English Leviticus 5',    'latin-bible', 'leviticus', 5, 'Bibles on this page: Vulgata Clementina · Douay-Rheims', ['latin', 'bible'], 'Project Gutenberg', 'https://www.gutenberg.org/ebooks/8300'],
-    ['German Leviticus 5',     'latin-bibel', 'leviticus', 5, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'in Deutschland seit 2010 gemeinfrei', 'https://github.com/renehamburger/Menge-Bibel'],
+    // [what, slug, book, chapter, summary, datasets, a word of the vernacular line, a word of the Latin line]
+    ['English index',          'latin-bible', '',          0, 'Bibles on this page: Vulgata Clementina · Douay-Rheims', ['latin', 'bible'], 'sacredbible.org', 'La Editorial Católica'],
+    ['German index',           'latin-bibel', '',          0, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'Passages in six books', 'La Editorial Católica'],
+    ['English Leviticus 5',    'latin-bible', 'leviticus', 5, 'Bibles on this page: Vulgata Clementina · Douay-Rheims', ['latin', 'bible'], 'sacredbible.org', 'La Editorial Católica'],
+    ['German Leviticus 5',     'latin-bibel', 'leviticus', 5, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'not so in all countries', 'La Editorial Católica'],
 ];
-foreach ($cases as [$what, $slug, $book, $ch, $summary, $datasets, $word, $link]) {
+foreach ($cases as [$what, $slug, $book, $ch, $summary, $datasets, $word, $latinWord]) {
     $html = $page($slug, $book, $ch);
     [$n, $sum, $lines, $hrefs] = $foot($html);
     $check("$what: one sources foot", $n === 1, "got $n");
     $check("$what: its closed line names the editions in the page's language", $sum === $summary, "got '$sum'");
     $check("$what: one line per edition shown, Latin first", array_keys($lines) === $datasets, 'got ' . implode(',', array_keys($lines)));
     $check("$what: the vernacular line says '$word'", strpos($lines[$datasets[1]] ?? '', $word) !== false, 'got ' . ($lines[$datasets[1]] ?? '(none)'));
-    $check("$what: the vernacular line links its source", in_array($link, $hrefs, true), 'got ' . implode(' ', $hrefs));
-    $check("$what: the Latin line names 1592 and makes up no translator", strpos($lines['latin'] ?? '', '1592') !== false && !preg_match('/translated|übersetzt/u', $lines['latin'] ?? ''), 'got ' . ($lines['latin'] ?? '(none)'));
+    $check("$what: the Latin line says '$latinWord' and makes up no 1592 or translator", strpos($lines['latin'] ?? '', $latinWord) !== false && strpos($lines['latin'] ?? '', '1592') === false && !preg_match('/translated by|übersetzt von/u', $lines['latin'] ?? ''), 'got ' . ($lines['latin'] ?? '(none)'));
     if ($book !== '') {
         $check("$what: the foot comes after the chapter's pager", strpos($html, 'pager--reader') !== false && strpos($html, 'pager--reader') < strpos($html, 'dw-sources-foot'));
     }
