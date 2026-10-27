@@ -10,8 +10,11 @@ if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
  *         reason it is allowed.
  *         What it proves: the TEXT of every such call written in the source is
  *         listed. What it does not follow: a writer name held in a variable
- *         ($fn = 'unlink'; $fn($p)), error_log() with type 3, DOMDocument::save
- *         and SimpleXMLElement::asXML, backtick shell commands, and an
+ *         ($fn = 'unlink'; $fn($p)), a function alias (use function
+ *         file_put_contents as fpc), a filesystem object fetched another way
+ *         ($this->fs, $GLOBALS['wp_filesystem'] without a WP_Filesystem() call
+ *         first), error_log() with type 3, DOMDocument::save and
+ *         SimpleXMLElement::asXML, backtick shell commands, and an
  *         allowlisted call whose variable is pointed somewhere else
  *         ($cache_file = ...; imagepng($im, $cache_file)): the list pins the
  *         text of a call, not its target. A reviewer reads the diff for those.
@@ -26,8 +29,10 @@ if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
  *         touch, unzip_file, copy_dir, gzopen, imagepng ..., fopen unless its
  *         second argument is a literal read mode), every put_contents and
  *         writeImage(s) method call, every use of $wp_filesystem and every
- *         WP_Filesystem( call (all of its methods write), and SplFileObject,
- *         SplTempFileObject and ZipArchive. A method declaration with a
+ *         WP_Filesystem( call (every use counts, reads too, so a reviewer sees
+ *         each one), and SplFileObject, SplTempFileObject, ZipArchive and
+ *         WP_Filesystem_Direct (new WP_Filesystem_Direct(...) must itself be
+ *         listed). A method declaration with a
  *         writer's name (function link($slug)) is not a call. A string literal
  *         that is the first argument of call_user_func, call_user_func_array,
  *         array_map, array_walk, array_filter or usort and names a writer
@@ -67,7 +72,7 @@ $writers = array_flip([
     'exec', 'system', 'shell_exec', 'passthru', 'popen', 'proc_open',
     'put_contents', 'writeimage', 'writeimages',
 ]);   // lower case; a method call counts only for put_contents and writeImage(s); wp_filesystem is the WP_Filesystem( call
-$classes = array_flip([ 'splfileobject', 'spltempfileobject', 'ziparchive' ]);
+$classes = array_flip([ 'splfileobject', 'spltempfileobject', 'ziparchive', 'wp_filesystem_direct' ]);
 
 // file => [ normalised call => why it is allowed ]. Matched as exact text, once per entry.
 $allowed = [
