@@ -1,0 +1,36 @@
+{
+  "about": "The Bible editions' source notices, as readers see them on latinprayer.org and in the Latin Prayer app. One snapshot of the factory's table of editions (GET /dwfactory/v1/lp/editions, field notice), written by tools/pull-bible-sources.py; never edited by hand. The app copies this file (scripts/sync-bible-sources.mjs).",
+  "origin": "fixture: the six lines DW approved on BKA23 (comment 11469), until the factory's table of editions holds the field notice",
+  "editions": {
+    "latin": {
+      "key": "la-clementine",
+      "name": "Vulgata Clementina",
+      "notice": "Vulgata Clementina (1946) · CrossWire"
+    },
+    "bible": {
+      "key": "en-douay-rheims",
+      "name": "Douay-Rheims",
+      "notice": "Douay-Rheims (Challoner) · CrossWire"
+    },
+    "bibel": {
+      "key": "de-menge",
+      "name": "Menge-Bibel",
+      "notice": "Menge-Bibel · René Hamburger"
+    },
+    "spanish": {
+      "key": "es-scio",
+      "name": "Scío de San Miguel",
+      "notice": "Scío de San Miguel · CrossWire"
+    },
+    "french": {
+      "key": "fr-crampon",
+      "name": "Crampon",
+      "notice": "Crampon (1923) · [Wikisource, CC BY-SA](https://fr.wikisource.org/wiki/Bible_Crampon_1923)"
+    },
+    "italian": {
+      "key": "it-martini",
+      "name": "Martini",
+      "notice": "Martini · scrutatio.it"
+    }
+  }
+}

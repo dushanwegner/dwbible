@@ -3,7 +3,7 @@ if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   Every Bible page names the editions it shows, at its foot, in the
  *         page's language: one summary line naming them, which opens into one
- *         line per edition with its facts and its source link.
+ *         line per edition: its source in one short line (BKA23, comment 11469).
  * WHY:    The foot read copyright.md from the page's data folder, and the
  *         interlinear pages latinprayer.org serves have a combo slug
  *         (latin-bible) with no folder of its own — so no Bible page printed a
@@ -72,11 +72,11 @@ $foot = function (string $html): array {
 };
 
 $cases = [
-    // [what, slug, book, chapter, summary, datasets, a word of the vernacular line, a word of the Latin line]
-    ['English index',          'latin-bible', '',          0, 'Bibles on this page: Vulgata Clementina · Douay-Rheims', ['latin', 'bible'], 'sacredbible.org', 'La Editorial Católica'],
-    ['German index',           'latin-bibel', '',          0, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'Passages in six books', 'La Editorial Católica'],
-    ['English Leviticus 5',    'latin-bible', 'leviticus', 5, 'Bibles on this page: Vulgata Clementina · Douay-Rheims', ['latin', 'bible'], 'sacredbible.org', 'La Editorial Católica'],
-    ['German Leviticus 5',     'latin-bibel', 'leviticus', 5, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'not so in all countries', 'La Editorial Católica'],
+    // [what, slug, book, chapter, summary, datasets, the vernacular line, the Latin line]
+    ['English index',          'latin-bible', '',          0, 'Bibles on this page: Vulgata Clementina · Douay-Rheims', ['latin', 'bible'], 'Douay-Rheims (Challoner) · CrossWire', 'Vulgata Clementina (1946) · CrossWire'],
+    ['German index',           'latin-bibel', '',          0, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'Menge-Bibel · René Hamburger', 'Vulgata Clementina (1946) · CrossWire'],
+    ['English Leviticus 5',    'latin-bible', 'leviticus', 5, 'Bibles on this page: Vulgata Clementina · Douay-Rheims', ['latin', 'bible'], 'Douay-Rheims (Challoner) · CrossWire', 'Vulgata Clementina (1946) · CrossWire'],
+    ['German Leviticus 5',     'latin-bibel', 'leviticus', 5, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'Menge-Bibel · René Hamburger', 'Vulgata Clementina (1946) · CrossWire'],
 ];
 foreach ($cases as [$what, $slug, $book, $ch, $summary, $datasets, $word, $latinWord]) {
     $html = $page($slug, $book, $ch);
@@ -84,8 +84,8 @@ foreach ($cases as [$what, $slug, $book, $ch, $summary, $datasets, $word, $latin
     $check("$what: one sources foot", $n === 1, "got $n");
     $check("$what: its closed line names the editions in the page's language", $sum === $summary, "got '$sum'");
     $check("$what: one line per edition shown, Latin first", array_keys($lines) === $datasets, 'got ' . implode(',', array_keys($lines)));
-    $check("$what: the vernacular line says '$word'", strpos($lines[$datasets[1]] ?? '', $word) !== false, 'got ' . ($lines[$datasets[1]] ?? '(none)'));
-    $check("$what: the Latin line says '$latinWord' and makes up no 1592 or translator", strpos($lines['latin'] ?? '', $latinWord) !== false && strpos($lines['latin'] ?? '', '1592') === false && !preg_match('/translated by|übersetzt von/u', $lines['latin'] ?? ''), 'got ' . ($lines['latin'] ?? '(none)'));
+    $check("$what: the vernacular line is '$word'", ($lines[$datasets[1]] ?? '') === $word, 'got ' . ($lines[$datasets[1]] ?? '(none)'));
+    $check("$what: the Latin line is '$latinWord'", ($lines['latin'] ?? '') === $latinWord, 'got ' . ($lines['latin'] ?? '(none)'));
     if ($book !== '') {
         $check("$what: the foot comes after the chapter's pager", strpos($html, 'pager--reader') !== false && strpos($html, 'pager--reader') < strpos($html, 'dw-sources-foot'));
     }
