@@ -2,9 +2,9 @@
 if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   Each edition's footer line says what data/bible-sources.json says
- *         for it, word for word, in every page language: the edition's name,
- *         then its notice in that language. The footer and the file cannot
- *         drift (BJX27, BKA23).
+ *         for it, word for word, in every page language: its notice, one line
+ *         the same in every language, its [words](address) as a link. The
+ *         footer and the file cannot drift (BJX27, BKA23).
  * WHY:    The footer was a hand-written copy since q7734, then the English
  *         rights files; now the one file the app reads too.
  * HOW:    No WordPress (tests/wp-stubs.php). The expected text is read here
@@ -35,13 +35,17 @@ $check('EDITIONS holds exactly the six sets', DwBible_Sources::EDITIONS === $set
 foreach ($sets as $ds) {
     $name = (string) ($editions[$ds]['name'] ?? '');
     $check("$ds: the file names the edition", $name !== '');
+    $raw = $editions[$ds]['notice'] ?? null;
+    $check("$ds: the file's notice is one line, not one per language", is_string($raw) && $norm($raw) !== '', var_export($raw, true));
+    $notice = is_string($raw) ? $norm($raw) : '';
+    $words = preg_replace('/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/u', '$1', $notice);
     foreach (['en', 'de', 'es', 'fr', 'it'] as $lang) {
-        $notice = $norm((string) ($editions[$ds]['notice'][$lang] ?? ''));
-        $check("$ds/$lang: the file holds a notice", $notice !== '');
         $html = DwBible_Sources::render([$ds], $lang);
         preg_match('#<li class="dw-sources-foot__item" data-source="' . $ds . '">(.*?)</li>#s', $html, $m);
         $line = html_entity_decode(strip_tags($m[1] ?? ''), ENT_QUOTES);
-        $check("$ds/$lang: the line is the edition's name, then the file's notice, word for word", $line === $name . ' · ' . $notice, "got '$line'");
+        $check("$ds/$lang: the line is the file's notice, word for word", $line === $words, "got '$line'");
+        $summary = preg_match('#<summary[^>]*>(.*?)</summary>#s', $html, $sm) ? html_entity_decode(strip_tags($sm[1]), ENT_QUOTES) : '';
+        $check("$ds/$lang: the closed line names the edition", $name !== '' && strpos($summary, $name) !== false, "got '$summary'");
     }
 }
 
