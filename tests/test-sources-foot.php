@@ -3,7 +3,7 @@ if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 /**
  * WHAT:   Every Bible page names the editions it shows, at its foot, in the
  *         page's language: one summary line naming them, which opens into one
- *         line per edition with its facts and its source link.
+ *         line per edition with its source, in the page's language too (BKA23).
  * WHY:    The foot read copyright.md from the page's data folder, and the
  *         interlinear pages latinprayer.org serves have a combo slug
  *         (latin-bible) with no folder of its own — so no Bible page printed a
@@ -74,9 +74,9 @@ $foot = function (string $html): array {
 $cases = [
     // [what, slug, book, chapter, summary, datasets, a word of the vernacular line, a word of the Latin line]
     ['English index',          'latin-bible', '',          0, 'Bibles on this page: Vulgata Clementina · Douay-Rheims', ['latin', 'bible'], 'sacredbible.org', 'La Editorial Católica'],
-    ['German index',           'latin-bibel', '',          0, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'Passages in six books', 'La Editorial Católica'],
+    ['German index',           'latin-bibel', '',          0, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'übersetzt von Hermann Menge', 'herausgegeben von Alberto Colunga'],
     ['English Leviticus 5',    'latin-bible', 'leviticus', 5, 'Bibles on this page: Vulgata Clementina · Douay-Rheims', ['latin', 'bible'], 'sacredbible.org', 'La Editorial Católica'],
-    ['German Leviticus 5',     'latin-bibel', 'leviticus', 5, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'not so in all countries', 'La Editorial Católica'],
+    ['German Leviticus 5',     'latin-bibel', 'leviticus', 5, 'Bibeln auf dieser Seite: Vulgata Clementina · Menge-Bibel', ['latin', 'bibel'], 'Digitaler Text: die Ausgabe von René Hamburger', 'gedruckt bei La Editorial Católica'],
 ];
 foreach ($cases as [$what, $slug, $book, $ch, $summary, $datasets, $word, $latinWord]) {
     $html = $page($slug, $book, $ch);

@@ -5,36 +5,33 @@ if (!defined('ABSPATH')) { exit; }
  * WHAT:  The sources of the Bible editions a page shows, and the foot that
  *        declares them: one grey line naming the editions, which opens on a
  *        click (a native details/summary, so it works without the script and
- *        from the keyboard) into one line per edition, which says what that
- *        edition's data/<set>/copyright.md says.
- * WHY:   Every Bible page owes its reader the editions it prints and their
- *        rights. The old per-dataset copyright.md footer printed nothing on the
- *        interlinear pages, the only ones latinprayer.org serves: their combo
- *        slug (latin-bible) has no data folder of its own (q7734). Its
- *        replacement kept a hand-written copy of the facts, which said older,
- *        flatter things than the six rights files (public domain, with no
- *        reservation; a Gutenberg source the data no longer come from) (BJX27).
- * HOW:   The facts are read from the file at runtime (dwbible_data_dir(), the
- *        dwbibledata plugin), so there is no second copy to drift. EDITIONS
- *        holds only the dataset keys and the short names the closed line uses.
- *        A file the plugin cannot read gives the name and no claim at all.
- *        The files are written in English and are shown as written, marked
- *        lang="en" on a page in another language: a translation would be a
- *        second text making claims no file holds.
+ *        from the keyboard) into one line per edition: its name, then its
+ *        source in the page's language.
+ * WHY:   Every Bible page owes its reader the editions it prints and where
+ *        their text was taken from. The site and the app named different
+ *        sources, the app's from a hand-written list, and the site's line was
+ *        an English rights file shown on German, Spanish, French and Italian
+ *        pages (BKA23). The old per-dataset copyright.md footer printed
+ *        nothing on the interlinear pages: their combo slug (latin-bible) has
+ *        no data folder of its own (q7734).
+ * HOW:   One file, data/bible-sources.json: a snapshot of the factory's table
+ *        of editions (GET /dwfactory/v1/lp/editions, field notice), written by
+ *        tools/pull-bible-sources.py and never by hand. The app copies the
+ *        same file, so both say the same words. EDITIONS holds only the
+ *        dataset keys a slug can name; the names and notices are the file's.
+ *        A language the file does not hold falls back to English; a file the
+ *        plugin cannot read gives no foot at all.
  * TESTED BY: tests/test-sources-foot.php (the page), tests/test-sources-rights.php
- *        (the footer against the six files).
+ *        (the footer against the file), tests/test-sources-notices.php (the
+ *        notice in the page's language, and nothing but the source).
  */
 class DwBible_Sources {
 
-    /** The editions, keyed by dataset: the short name the page uses. */
-    const EDITIONS = [
-        'latin'   => ['name' => 'Vulgata Clementina'],
-        'bible'   => ['name' => 'Douay-Rheims'],
-        'bibel'   => ['name' => 'Menge-Bibel'],
-        'spanish' => ['name' => 'Scío de San Miguel'],
-        'french'  => ['name' => 'Crampon'],
-        'italian' => ['name' => 'Martini'],
-    ];
+    /** The datasets a slug can name, in the file's order. */
+    const EDITIONS = ['latin', 'bible', 'bibel', 'spanish', 'french', 'italian'];
+
+    /** The file the notices come from, relative to the plugin. */
+    const FILE = 'data/bible-sources.json';
 
     /** The page's words, by language. */
     const WORDS = [
@@ -45,6 +42,19 @@ class DwBible_Sources {
         'it' => ['label' => 'Fonti', 'lead' => 'Bibbie in questa pagina'],
     ];
 
+    /** @var array|null The file, read once per request. */
+    private static $file = null;
+
+    /** The editions the file holds, keyed by dataset: ['key', 'name', 'notice' => [lang => text]]. */
+    public static function editions() {
+        if (self::$file === null) {
+            $path = dirname(__DIR__) . '/' . self::FILE;
+            $json = is_readable($path) ? json_decode((string) file_get_contents($path), true) : null;
+            self::$file = (is_array($json) && isset($json['editions']) && is_array($json['editions'])) ? $json['editions'] : [];
+        }
+        return self::$file;
+    }
+
     /**
      * The datasets a page slug shows, in its own order: 'latin-bible' is
      * latin and bible, 'bible' is bible. Unknown parts are dropped.
@@ -54,7 +64,7 @@ class DwBible_Sources {
         if ($slug === '') { $slug = 'bible'; }
         $out = [];
         foreach (explode('-', $slug) as $ds) {
-            if (isset(self::EDITIONS[$ds]) && !in_array($ds, $out, true)) { $out[] = $ds; }
+            if (in_array($ds, self::EDITIONS, true) && !in_array($ds, $out, true)) { $out[] = $ds; }
         }
         return $out;
     }
@@ -77,11 +87,12 @@ class DwBible_Sources {
     public static function render(array $datasets, $lang) {
         $lang = isset(self::WORDS[$lang]) ? $lang : 'en';
         $w = self::WORDS[$lang];
+        $editions = self::editions();
         $names = [];
         $items = '';
         foreach ($datasets as $ds) {
-            if (!isset(self::EDITIONS[$ds])) { continue; }
-            $e = self::EDITIONS[$ds];
+            if (!in_array($ds, self::EDITIONS, true) || empty($editions[$ds]['name'])) { continue; }
+            $e = $editions[$ds];
             $names[] = esc_html($e['name']);
             $items .= '<li class="dw-sources-foot__item" data-source="' . esc_attr($ds) . '">' . self::edition_line($e, $ds, $lang) . '</li>';
         }
@@ -95,24 +106,22 @@ class DwBible_Sources {
     }
 
     /**
-     * What a dataset's copyright.md says: the file's text without its heading,
-     * on one line. '' when the file is not there or holds nothing. Public so a
-     * test can compare it with the file itself.
+     * A dataset's source in a language: the file's notice in that language,
+     * else in English; '' when the file holds none. Public so a test can
+     * compare it with the file itself.
      */
-    public static function rights_text($ds) {
-        if (!isset(self::EDITIONS[$ds]) || !function_exists('dwbible_data_dir')) { return ''; }
-        $path = rtrim(dwbible_data_dir(), '/') . '/' . $ds . '/copyright.md';
-        $md = is_readable($path) ? (string) file_get_contents($path) : '';
-        $md = preg_replace('/\A\s*#[^\n]*\n/', '', $md);
-        return trim((string) preg_replace('/\s+/u', ' ', $md));
+    public static function notice($ds, $lang) {
+        $n = self::editions()[$ds]['notice'] ?? [];
+        $text = (string) ($n[$lang] ?? $n['en'] ?? '');
+        return trim((string) preg_replace('/\s+/u', ' ', $text));
     }
 
-    /** One edition's declaration: its name, then what its copyright.md says. */
+    /** One edition's line: its name, then its source in the page's language. */
     private static function edition_line(array $e, $ds, $lang) {
         $line = '<span class="dw-sources-foot__name">' . esc_html($e['name']) . '</span>';
-        $rights = self::rights_text($ds);
-        if ($rights !== '') {
-            $line .= ' · <span class="dw-sources-foot__rights"' . ($lang !== 'en' ? ' lang="en"' : '') . '>' . esc_html($rights) . '</span>';
+        $notice = self::notice($ds, $lang);
+        if ($notice !== '') {
+            $line .= ' · <span class="dw-sources-foot__rights">' . esc_html($notice) . '</span>';
         }
         return $line;
     }
