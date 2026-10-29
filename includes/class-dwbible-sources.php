@@ -5,13 +5,14 @@ if (!defined('ABSPATH')) { exit; }
  * WHAT:  The sources of the Bible editions a page shows, and the foot that
  *        declares them: one grey line naming the editions, which opens on a
  *        click (a native details/summary, so it works without the script and
- *        from the keyboard) into one line per edition: its name, then its
- *        source in the page's language.
+ *        from the keyboard) into one line per edition: its source, and
+ *        nothing else ("Martini · scrutatio.it").
  * WHY:   Every Bible page owes its reader the editions it prints and where
  *        their text was taken from. The site and the app named different
  *        sources, the app's from a hand-written list, and the site's line was
  *        an English rights file shown on German, Spanish, French and Italian
- *        pages (BKA23). The old per-dataset copyright.md footer printed
+ *        pages (BKA23). DW: say as little as is morally possible (comment
+ *        11469 holds the six lines). The old per-dataset copyright.md footer printed
  *        nothing on the interlinear pages: their combo slug (latin-bible) has
  *        no data folder of its own (q7734).
  * HOW:   One file, data/bible-sources.json: a snapshot of the factory's table
@@ -19,11 +20,12 @@ if (!defined('ABSPATH')) { exit; }
  *        tools/pull-bible-sources.py and never by hand. The app copies the
  *        same file, so both say the same words. EDITIONS holds only the
  *        dataset keys a slug can name; the names and notices are the file's.
- *        A language the file does not hold falls back to English; a file the
- *        plugin cannot read gives no foot at all.
+ *        A notice is one line, the same in every language; a linked part is
+ *        written [words](address). A file the plugin cannot read gives no
+ *        foot at all.
  * TESTED BY: tests/test-sources-foot.php (the page), tests/test-sources-rights.php
  *        (the footer against the file), tests/test-sources-notices.php (the
- *        notice in the page's language, and nothing but the source).
+ *        notice is the source and nothing else).
  */
 class DwBible_Sources {
 
@@ -45,7 +47,7 @@ class DwBible_Sources {
     /** @var array|null The file, read once per request. */
     private static $file = null;
 
-    /** The editions the file holds, keyed by dataset: ['key', 'name', 'notice' => [lang => text]]. */
+    /** The editions the file holds, keyed by dataset: ['key', 'name', 'notice' => one line]. */
     public static function editions() {
         if (self::$file === null) {
             $path = dirname(__DIR__) . '/' . self::FILE;
@@ -94,7 +96,7 @@ class DwBible_Sources {
             if (!in_array($ds, self::EDITIONS, true) || empty($editions[$ds]['name'])) { continue; }
             $e = $editions[$ds];
             $names[] = esc_html($e['name']);
-            $items .= '<li class="dw-sources-foot__item" data-source="' . esc_attr($ds) . '">' . self::edition_line($e, $ds, $lang) . '</li>';
+            $items .= '<li class="dw-sources-foot__item" data-source="' . esc_attr($ds) . '">' . self::edition_line($e, $ds) . '</li>';
         }
         if ($items === '') { return ''; }
         return '<footer class="dw-sources-foot" aria-label="' . esc_attr($w['label']) . '">'
@@ -106,23 +108,35 @@ class DwBible_Sources {
     }
 
     /**
-     * A dataset's source in a language: the file's notice in that language,
-     * else in English; '' when the file holds none. Public so a test can
-     * compare it with the file itself.
+     * A dataset's source as the file writes it, links as [words](address);
+     * '' when the file holds none. Public so a test can compare it with the
+     * file itself.
      */
-    public static function notice($ds, $lang) {
-        $n = self::editions()[$ds]['notice'] ?? [];
-        $text = (string) ($n[$lang] ?? $n['en'] ?? '');
-        return trim((string) preg_replace('/\s+/u', ' ', $text));
+    public static function notice($ds) {
+        $text = self::editions()[$ds]['notice'] ?? '';
+        return is_string($text) ? trim((string) preg_replace('/\s+/u', ' ', $text)) : '';
     }
 
-    /** One edition's line: its name, then its source in the page's language. */
-    private static function edition_line(array $e, $ds, $lang) {
-        $line = '<span class="dw-sources-foot__name">' . esc_html($e['name']) . '</span>';
-        $notice = self::notice($ds, $lang);
-        if ($notice !== '') {
-            $line .= ' · <span class="dw-sources-foot__rights">' . esc_html($notice) . '</span>';
+    /** A notice as HTML: its words escaped, each [words](https://…) a link. */
+    public static function notice_html($notice) {
+        $out = '';
+        $at = 0;
+        if (preg_match_all('/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/u', $notice, $m, PREG_OFFSET_CAPTURE | PREG_SET_ORDER)) {
+            foreach ($m as $link) {
+                $out .= esc_html(substr($notice, $at, $link[0][1] - $at));
+                $out .= '<a href="' . esc_url($link[2][0]) . '" rel="noopener">' . esc_html($link[1][0]) . '</a>';
+                $at = $link[0][1] + strlen($link[0][0]);
+            }
         }
-        return $line;
+        return $out . esc_html(substr($notice, $at));
+    }
+
+    /** One edition's line: its source, which names it; the name alone when the file holds no source. */
+    private static function edition_line(array $e, $ds) {
+        $notice = self::notice($ds);
+        if ($notice === '') {
+            return '<span class="dw-sources-foot__name">' . esc_html($e['name']) . '</span>';
+        }
+        return '<span class="dw-sources-foot__rights">' . self::notice_html($notice) . '</span>';
     }
 }
