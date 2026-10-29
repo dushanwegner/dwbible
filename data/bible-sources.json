@@ -1,73 +1,36 @@
 {
   "about": "The Bible editions' source notices, as readers see them on latinprayer.org and in the Latin Prayer app. One snapshot of the factory's table of editions (GET /dwfactory/v1/lp/editions, field notice), written by tools/pull-bible-sources.py; never edited by hand. The app copies this file (scripts/sync-bible-sources.mjs).",
-  "origin": "fixture: the words of BKA23's WORDING comment 11468, until the factory's table carries the field notice",
-  "languages": ["en", "de", "es", "fr", "it"],
+  "origin": "fixture: the six lines DW approved on BKA23 (comment 11469), until the factory's table of editions holds the field notice",
   "editions": {
     "latin": {
       "key": "la-clementine",
       "name": "Vulgata Clementina",
-      "notice": {
-        "en": "The Clementine Vulgate, edited by Alberto Colunga and Lorenzo Turrado, printed by La Editorial Católica, Madrid, 1946. Digital text: the CrossWire Bible Society's module VulgClementine.",
-        "de": "Die Clementinische Vulgata, herausgegeben von Alberto Colunga und Lorenzo Turrado, gedruckt bei La Editorial Católica, Madrid, 1946. Digitaler Text: das Modul VulgClementine der CrossWire Bible Society.",
-        "es": "La Vulgata clementina, edición de Alberto Colunga y Lorenzo Turrado, impresa por La Editorial Católica, Madrid, 1946. Texto digital: el módulo VulgClementine de la CrossWire Bible Society.",
-        "fr": "La Vulgate clémentine, éditée par Alberto Colunga et Lorenzo Turrado, imprimée par La Editorial Católica, Madrid, 1946. Texte numérique : le module VulgClementine de la CrossWire Bible Society.",
-        "it": "La Vulgata clementina, a cura di Alberto Colunga e Lorenzo Turrado, stampata da La Editorial Católica, Madrid, 1946. Testo digitale: il modulo VulgClementine della CrossWire Bible Society."
-      }
+      "notice": "Vulgata Clementina (1946) · CrossWire"
     },
     "bible": {
       "key": "en-douay-rheims",
       "name": "Douay-Rheims",
-      "notice": {
-        "en": "The Douay-Rheims Bible in Richard Challoner's revision. Digital text: the CrossWire Bible Society's module DRC, from sacredbible.org.",
-        "de": "Die Douay-Rheims-Bibel in der Revision von Richard Challoner. Digitaler Text: das Modul DRC der CrossWire Bible Society, nach sacredbible.org.",
-        "es": "La Biblia de Douay-Rheims en la revisión de Richard Challoner. Texto digital: el módulo DRC de la CrossWire Bible Society, tomado de sacredbible.org.",
-        "fr": "La Bible de Douay-Rheims dans la révision de Richard Challoner. Texte numérique : le module DRC de la CrossWire Bible Society, repris de sacredbible.org.",
-        "it": "La Bibbia di Douay-Rheims nella revisione di Richard Challoner. Testo digitale: il modulo DRC della CrossWire Bible Society, tratto da sacredbible.org."
-      }
+      "notice": "Douay-Rheims (Challoner) · CrossWire"
     },
     "bibel": {
       "key": "de-menge",
       "name": "Menge-Bibel",
-      "notice": {
-        "en": "The Menge-Bibel, translated by Hermann Menge. Digital text: René Hamburger's edition, github.com/renehamburger/Menge-Bibel. Passages in Sirach, Judith, Tobias, Baruch, Daniel and Esther: translated by Latin Prayer.",
-        "de": "Die Menge-Bibel, übersetzt von Hermann Menge. Digitaler Text: die Ausgabe von René Hamburger, github.com/renehamburger/Menge-Bibel. Abschnitte in Sirach, Judith, Tobias, Baruch, Daniel und Esther: übersetzt von Latin Prayer.",
-        "es": "La Menge-Bibel, traducida por Hermann Menge. Texto digital: la edición de René Hamburger, github.com/renehamburger/Menge-Bibel. Pasajes de Eclesiástico, Judit, Tobías, Baruc, Daniel y Ester: traducidos por Latin Prayer.",
-        "fr": "La Menge-Bibel, traduite par Hermann Menge. Texte numérique : l'édition de René Hamburger, github.com/renehamburger/Menge-Bibel. Passages de l'Ecclésiastique, de Judith, de Tobie, de Baruch, de Daniel et d'Esther : traduits par Latin Prayer.",
-        "it": "La Menge-Bibel, tradotta da Hermann Menge. Testo digitale: l'edizione di René Hamburger, github.com/renehamburger/Menge-Bibel. Passi di Ecclesiastico, Giuditta, Tobia, Baruc, Daniele ed Ester: tradotti da Latin Prayer."
-      }
+      "notice": "Menge-Bibel · René Hamburger"
     },
     "spanish": {
       "key": "es-scio",
       "name": "Scío de San Miguel",
-      "notice": {
-        "en": "The Bible translated from the Vulgate by Felipe Scío de San Miguel. Old Testament: transcribed by Latin Prayer from the bilingual edition of 1793, in the verse division of the Clementine Vulgate. New Testament: the CrossWire Bible Society's module SpaScioNT.",
-        "de": "Die Bibel, aus der Vulgata übersetzt von Felipe Scío de San Miguel. Altes Testament: von Latin Prayer abgeschrieben aus der zweisprachigen Ausgabe von 1793, in der Verseinteilung der Clementinischen Vulgata. Neues Testament: das Modul SpaScioNT der CrossWire Bible Society.",
-        "es": "La Biblia traducida de la Vulgata por Felipe Scío de San Miguel. Antiguo Testamento: transcrito por Latin Prayer de la edición bilingüe de 1793, con la división de versículos de la Vulgata clementina. Nuevo Testamento: el módulo SpaScioNT de la CrossWire Bible Society.",
-        "fr": "La Bible traduite de la Vulgate par Felipe Scío de San Miguel. Ancien Testament : transcrit par Latin Prayer de l'édition bilingue de 1793, selon la division des versets de la Vulgate clémentine. Nouveau Testament : le module SpaScioNT de la CrossWire Bible Society.",
-        "it": "La Bibbia tradotta dalla Vulgata da Felipe Scío de San Miguel. Antico Testamento: trascritto da Latin Prayer dall'edizione bilingue del 1793, secondo la divisione dei versetti della Vulgata clementina. Nuovo Testamento: il modulo SpaScioNT della CrossWire Bible Society."
-      }
+      "notice": "Scío de San Miguel · CrossWire"
     },
     "french": {
       "key": "fr-crampon",
       "name": "Crampon",
-      "notice": {
-        "en": "La Sainte Bible, translated by Augustin Crampon, revised edition of 1923. Digital text: the CrossWire Bible Society's module FreCrampon, from Wikisource.",
-        "de": "La Sainte Bible, übersetzt von Augustin Crampon, revidierte Ausgabe von 1923. Digitaler Text: das Modul FreCrampon der CrossWire Bible Society, nach Wikisource.",
-        "es": "La Sainte Bible, traducida por Augustin Crampon, edición revisada de 1923. Texto digital: el módulo FreCrampon de la CrossWire Bible Society, tomado de Wikisource.",
-        "fr": "La Sainte Bible, traduite par Augustin Crampon, édition révisée de 1923. Texte numérique : le module FreCrampon de la CrossWire Bible Society, repris de Wikisource.",
-        "it": "La Sainte Bible, tradotta da Augustin Crampon, edizione riveduta del 1923. Testo digitale: il modulo FreCrampon della CrossWire Bible Society, tratto da Wikisource."
-      }
+      "notice": "Crampon (1923) · [Wikisource, CC BY-SA](https://fr.wikisource.org/wiki/Bible_Crampon_1923)"
     },
     "italian": {
       "key": "it-martini",
       "name": "Martini",
-      "notice": {
-        "en": "La Sacra Bibbia, translated from the Vulgate by Antonio Martini. Digital text: scrutatio.it.",
-        "de": "La Sacra Bibbia, aus der Vulgata übersetzt von Antonio Martini. Digitaler Text: scrutatio.it.",
-        "es": "La Sacra Bibbia, traducida de la Vulgata por Antonio Martini. Texto digital: scrutatio.it.",
-        "fr": "La Sacra Bibbia, traduite de la Vulgate par Antonio Martini. Texte numérique : scrutatio.it.",
-        "it": "La Sacra Bibbia, tradotta dalla Vulgata da Antonio Martini. Testo digitale: scrutatio.it."
-      }
+      "notice": "Martini · scrutatio.it"
     }
   }
 }

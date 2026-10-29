@@ -6,9 +6,10 @@ WHAT:  Writes data/bible-sources.json, the Bible editions' source notices the
 WHY:   The site and the app name the same sources, taken from one place
        (BKA23). The factory's table is that place; this file is its snapshot
        in the plugin, and the app copies the file (scripts/sync-bible-sources.mjs).
-HOW:   Reads the six rows the site shows, by their factory key. A row without
-       a notice in all five languages stops the run and leaves the file as it
-       is: a half-written file would put English on a German page.
+HOW:   Reads the six rows the site shows, by their factory key. A notice is
+       one line, the same in every language ("Martini · scrutatio.it"); a
+       linked part is written [words](address). A row without a notice stops
+       the run and leaves the file as it is.
        --check compares and writes nothing (exit 1 when the file differs).
 INPUT: .dwfactory.conf (the first walking up from here, else ~/.dwfactory.conf),
        or --from <a saved answer of GET /lp/editions>.
@@ -19,7 +20,6 @@ import argparse, base64, json, os, sys, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'bible-sources.json')
-LANGS = ['en', 'de', 'es', 'fr', 'it']
 # dataset -> (factory key, the short name the closed foot line uses)
 EDITIONS = [
     ('latin', 'la-clementine', 'Vulgata Clementina'),
@@ -66,14 +66,13 @@ def build(answer):
     rows = {r.get('key'): r for r in (answer.get('editions') if isinstance(answer, dict) else answer) or []}
     editions, missing = {}, []
     for ds, key, name in EDITIONS:
-        notice = (rows.get(key) or {}).get('notice') or {}
-        gaps = [l for l in LANGS if not str(notice.get(l) or '').strip()]
-        if gaps:
-            missing.append(f"{key}: {','.join(gaps)}")
-        editions[ds] = {'key': key, 'name': name, 'notice': {l: ' '.join(str(notice.get(l) or '').split()) for l in LANGS}}
+        notice = ' '.join(str((rows.get(key) or {}).get('notice') or '').split())
+        if not notice:
+            missing.append(key)
+        editions[ds] = {'key': key, 'name': name, 'notice': notice}
     if missing:
-        sys.exit('no notice in the factory for ' + '; '.join(missing) + ' — the file is left as it is')
-    return {'about': ABOUT, 'origin': 'factory: GET /dwfactory/v1/lp/editions', 'languages': LANGS, 'editions': editions}
+        sys.exit('no notice in the factory for ' + ', '.join(missing) + ' — the file is left as it is')
+    return {'about': ABOUT, 'origin': 'factory: GET /dwfactory/v1/lp/editions', 'editions': editions}
 
 
 def main():
