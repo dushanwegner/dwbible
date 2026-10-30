@@ -4,7 +4,7 @@ if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
  * WHAT:   The Bible foot says each edition's source in one short line, the
  *         same on every page language, and nothing else: no editor, printer,
  *         translator's parts or "Digitaler Text"; no legal doubt, no hedge,
- *         no apology. Crampon's licence words link to its Wikisource source.
+ *         no apology. Crampon's "Wikisource" links to its source.
  * WHY:    DW: "Just say the source, fullstop!" and "say as little as is
  *         morally possible"; the six lines are the ones he approved (BKA23,
  *         comment 11469). The foot showed an English rights file, marked
@@ -36,7 +36,7 @@ $says = [
     'bible'   => 'Douay-Rheims (Challoner) · CrossWire',
     'bibel'   => 'Menge-Bibel · René Hamburger',
     'spanish' => 'Scío de San Miguel · CrossWire',
-    'french'  => 'Crampon (1923) · Wikisource, CC BY-SA',
+    'french'  => 'Crampon (1923) · Wikisource',
     'italian' => 'Martini · scrutatio.it',
 ];
 // What the line no longer says: editors, printers, the work's own parts, the digital text's wording.
@@ -55,10 +55,12 @@ foreach ($says as $ds => $want) {
     }
 }
 
-// Crampon: "Wikisource, CC BY-SA" links to the text it was taken from; no other line links.
+// Crampon: "Wikisource" links to the text it was taken from; no other line links.
+// No "CC BY-SA": the 1923 text is public domain and Wikisource puts no licence on it (BKB11).
 $html = $line('french', 'de');
-$check('french: "Wikisource, CC BY-SA" links to fr.wikisource.org/wiki/Bible_Crampon_1923',
-    strpos($html, '<a href="https://fr.wikisource.org/wiki/Bible_Crampon_1923" rel="noopener">Wikisource, CC BY-SA</a>') !== false, $html);
+$check('french: "Wikisource" links to fr.wikisource.org/wiki/Bible_Crampon_1923',
+    strpos($html, '<a href="https://fr.wikisource.org/wiki/Bible_Crampon_1923" rel="noopener">Wikisource</a>') !== false, $html);
+$check('french: no "CC BY-SA"', stripos($html, 'CC BY') === false, $html);
 foreach (['latin', 'bible', 'bibel', 'spanish', 'italian'] as $ds) {
     $check("$ds: no link", strpos($line($ds, 'en'), '<a ') === false);
 }
