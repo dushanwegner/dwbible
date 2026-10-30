@@ -8,10 +8,13 @@ if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
  *         public domain and fr.wikisource puts no licence on it, so
  *         "CC BY-SA" was wrong; French typography wants the space; the pager's
  *         aria-label was the one English word left on de/es/fr/it pages.
+ *         /bible-ref.json's notes no longer carry `prov` (how a note was
+ *         written is ours to know, not shown outside; DW: "no external
+ *         ai-draft-labels anywhere").
  * HOW:    No WordPress (tests/wp-stubs.php). The foot is rendered per
  *         language; the compiled .mo files are read with a small reader here,
  *         so a .po edited without its .mo fails.
- * INPUT:  data/bible-sources.json, languages/dwbible-*.mo
+ * INPUT:  data/bible-sources.json, languages/dwbible-*.mo, ../dwbibledata/data/notes.json
  * OUTPUT: ok/FAIL per case; exit 1 on any failure.
  * RUN:    php tests/test-bkb11-sources.php
  */
@@ -69,6 +72,21 @@ foreach ($want as $locale => $words) {
 }
 $nav = (string) file_get_contents(dirname(__DIR__) . '/includes/class-dwbible-nav-helpers.php');
 $check('the pager asks for "Chapter navigation" through the dwbible text domain', strpos($nav, "esc_attr__( 'Chapter navigation', 'dwbible' )") !== false);
+
+// 4 · /bible-ref.json: a note says it is ours, and nothing about how it was written.
+// notes.json keeps its own `prov` marking; only the public answer leaves it out (BKB11, C).
+if (is_readable(dwbible_data_dir() . 'notes.json')) {
+    foreach ([['esther', 10, 'en'], ['esther', 13, 'de'], ['psalms', 22, 'es']] as [$book, $ch, $lang]) {
+        $notes = DwBible_Notes::for_range($book, $ch, $ch, 0, 0, $lang, 'an edition');
+        $check("$book $ch/$lang: notes are answered", count($notes) > 0, 'none');
+        $check("$book $ch/$lang: no note carries prov", !array_filter($notes, function ($n) { return array_key_exists('prov', $n); }));
+        $check("$book $ch/$lang: each note still says it is ours", !array_filter($notes, function ($n) { return strpos($n['editorial'] ?? '', "Latin Prayer's editorial note") !== 0; }));
+    }
+    $doc = (string) file_get_contents(dwbible_data_dir() . 'notes.json');
+    $check('notes.json keeps its own prov marking', strpos($doc, '"prov"') !== false);
+} else {
+    $check('a dwbibledata with data/notes.json beside the plugin (or DWBIBLEDATA_DIR)', false, dwbible_data_dir());
+}
 
 echo "\npassed $passes, failed $failures\n";
 exit($failures ? 1 : 0);
