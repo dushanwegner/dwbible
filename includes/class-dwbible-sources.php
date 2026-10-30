@@ -35,13 +35,13 @@ class DwBible_Sources {
     /** The file the notices come from, relative to the plugin. */
     const FILE = 'data/bible-sources.json';
 
-    /** The page's words, by language. */
+    /** The page's words, by language. French sets a no-break space before its colon. */
     const WORDS = [
-        'en' => ['label' => 'Sources', 'lead' => 'Bibles on this page'],
-        'de' => ['label' => 'Quellen', 'lead' => 'Bibeln auf dieser Seite'],
-        'es' => ['label' => 'Fuentes', 'lead' => 'Biblias en esta página'],
-        'fr' => ['label' => 'Sources', 'lead' => 'Bibles sur cette page'],
-        'it' => ['label' => 'Fonti', 'lead' => 'Bibbie in questa pagina'],
+        'en' => ['label' => 'Sources', 'lead' => 'Bibles on this page', 'colon' => ':'],
+        'de' => ['label' => 'Quellen', 'lead' => 'Bibeln auf dieser Seite', 'colon' => ':'],
+        'es' => ['label' => 'Fuentes', 'lead' => 'Biblias en esta página', 'colon' => ':'],
+        'fr' => ['label' => 'Sources', 'lead' => 'Bibles sur cette page', 'colon' => "\u{00A0}:"],
+        'it' => ['label' => 'Fonti', 'lead' => 'Bibbie in questa pagina', 'colon' => ':'],
     ];
 
     /** @var array|null The file, read once per request. */
@@ -101,7 +101,7 @@ class DwBible_Sources {
         if ($items === '') { return ''; }
         return '<footer class="dw-sources-foot" aria-label="' . esc_attr($w['label']) . '">'
             . '<details class="dw-sources-foot__details">'
-            . '<summary class="dw-sources-foot__summary">' . esc_html($w['lead']) . ': ' . implode(' · ', $names) . '</summary>'
+            . '<summary class="dw-sources-foot__summary">' . esc_html($w['lead']) . $w['colon'] . ' ' . implode(' · ', $names) . '</summary>'
             . '<ul class="dw-sources-foot__list">' . $items . '</ul>'
             . '</details>'
             . '</footer>';

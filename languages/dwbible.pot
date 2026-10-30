@@ -124,6 +124,10 @@ msgstr ""
 msgid "Select book"
 msgstr ""
 
+#: includes/class-dwbible-nav-helpers.php:367
+msgid "Chapter navigation"
+msgstr ""
+
 #: includes/class-dwbible-nav-helpers.php:322
 #: includes/class-dwbible-nav-helpers.php:340
 msgid "Previous chapter"

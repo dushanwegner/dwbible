@@ -142,7 +142,6 @@ class DwBible_Notes {
                 'label'     => $label,
                 'text'      => self::fill($text, $key, $row, $tlang),
                 'lang'      => $tlang,
-                'prov'      => (string) ($note['text'][$tlang]['prov'] ?? 'drafted'),
                 'editorial' => "Latin Prayer's editorial note, not part of {$edition}",
             ];
             if (isset($note['link']['chapter'], $note['link']['verse'])) {
